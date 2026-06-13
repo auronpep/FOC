@@ -1,0 +1,8 @@
+node_modules/
+.openclaw/
+Workspace/
+_reinstall-evidence/
+_preserved-openclaw-workspaces/
+npm-debug.log*
+*.log
+*.tmp
