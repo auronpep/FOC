@@ -1,0 +1,12 @@
+Blocked by the session sandbox.
+
+The workspace is read-only and approval is disabled, so I cannot write:
+
+- `tasks/todo.md`
+- `Finished/CQ14727.md`
+
+I verified `Finished/CQ14727.md` does not already exist, read the required local files, and identified the likely outline area as Criminal Law `Parties to Crime > Accomplices` / `Scope of liability` (`72050200` / `72050400`). But I stopped before drafting because the required first ledger write was rejected:
+
+`patch rejected: writing is blocked by read-only sandbox; rejected by user approval settings`
+
+No other question was started.

@@ -1,0 +1,39 @@
+{
+  "workbookPath": "C:/Users/JesusLovesMe/Documents/Mixed tag.xlsx",
+  "mappingRows": 164,
+  "workbookDataRows": 164,
+  "officialCodes": 593,
+  "nonblankCodes": 164,
+  "unsureRows": 0,
+  "uniqueCodes": 115,
+  "mismatches": 0,
+  "invalidCodes": 0,
+  "invalidCodeSamples": [],
+  "sampleRows": [
+    {
+      "excelRow": 2,
+      "qid": "20982",
+      "outlineCode": "64010500"
+    },
+    {
+      "excelRow": 3,
+      "qid": "17488",
+      "outlineCode": "44040502"
+    },
+    {
+      "excelRow": 57,
+      "qid": "21112",
+      "outlineCode": "75080101"
+    },
+    {
+      "excelRow": 100,
+      "qid": "18351",
+      "outlineCode": "82010503"
+    },
+    {
+      "excelRow": 165,
+      "qid": "17161",
+      "outlineCode": "64010102"
+    }
+  ]
+}

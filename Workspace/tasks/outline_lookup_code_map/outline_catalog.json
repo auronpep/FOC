@@ -1,0 +1,4746 @@
+[
+  {
+    "code": "31010000",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence"
+  },
+  {
+    "code": "31010100",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions"
+  },
+  {
+    "code": "31010101",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Roles of judge and jury"
+  },
+  {
+    "code": "31010102",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Burden of production and burden of persuasion"
+  },
+  {
+    "code": "31010103",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Presumptions and inferences"
+  },
+  {
+    "code": "31010104",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Materiality and probative value"
+  },
+  {
+    "code": "31010105",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Offers of proof"
+  },
+  {
+    "code": "31010106",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Judicial notice"
+  },
+  {
+    "code": "31010107",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Preliminary questions"
+  },
+  {
+    "code": "31010108",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > General Provisions > Rule of completeness"
+  },
+  {
+    "code": "31010200",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Objections and Motions to Strike"
+  },
+  {
+    "code": "31010201",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Objections and Motions to Strike > Trial judge’s discretion to control order and presentation of evidence"
+  },
+  {
+    "code": "31010202",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Objections and Motions to Strike > Common objections to questions"
+  },
+  {
+    "code": "31010203",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Objections and Motions to Strike > Nonresponsive answers"
+  },
+  {
+    "code": "31010300",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Types of Evidence"
+  },
+  {
+    "code": "31010400",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses"
+  },
+  {
+    "code": "31010401",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Mode and order of witnesses"
+  },
+  {
+    "code": "31010402",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Form and scope of examination"
+  },
+  {
+    "code": "31010403",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Lay opinion testimony"
+  },
+  {
+    "code": "31010404",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Competency"
+  },
+  {
+    "code": "31010405",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Personal knowledge"
+  },
+  {
+    "code": "31010406",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Truthfulness"
+  },
+  {
+    "code": "31010407",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Witnesses > Refreshing recollection"
+  },
+  {
+    "code": "31010500",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Impeachment"
+  },
+  {
+    "code": "31010501",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Impeachment > Use of impeachment material"
+  },
+  {
+    "code": "31010502",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Impeachment > Prior inconsistent statement"
+  },
+  {
+    "code": "31010503",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Impeachment > Bias"
+  },
+  {
+    "code": "31010504",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Impeachment > Conviction of crime"
+  },
+  {
+    "code": "31010505",
+    "ab": "31",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Presentation of Evidence",
+    "path": "Presentation of Evidence > Impeachment > Opinion or reputation"
+  },
+  {
+    "code": "32020000",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance"
+  },
+  {
+    "code": "32020100",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Definition"
+  },
+  {
+    "code": "32020200",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Laying a Foundation"
+  },
+  {
+    "code": "32020300",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Exclusion of Relevant Evidence"
+  },
+  {
+    "code": "32020301",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Exclusion of Relevant Evidence > Probative value"
+  },
+  {
+    "code": "32020302",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Exclusion of Relevant Evidence > Discretionary exclusion (undue prejudice, confusion, waste of time)"
+  },
+  {
+    "code": "32020400",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Character Evidence"
+  },
+  {
+    "code": "32020401",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Character Evidence > Forms of character evidence"
+  },
+  {
+    "code": "32020402",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Character Evidence > Prohibited uses of character evidence"
+  },
+  {
+    "code": "32020403",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Character Evidence > Exceptions allowing character evidence"
+  },
+  {
+    "code": "32020404",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Character Evidence > Specific acts for noncharacter purposes"
+  },
+  {
+    "code": "32020405",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Character Evidence > Cross-examination and rebuttal of character witnesses"
+  },
+  {
+    "code": "32020500",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Habit or custom practice"
+  },
+  {
+    "code": "32020600",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Similar occurrences and contracts"
+  },
+  {
+    "code": "32020700",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Authentication and Identification"
+  },
+  {
+    "code": "32020800",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Expert Testimony"
+  },
+  {
+    "code": "32020801",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Expert Testimony > Acceptable testimony"
+  },
+  {
+    "code": "32020802",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Expert Testimony > Qualification of experts"
+  },
+  {
+    "code": "32020803",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Expert Testimony > Basis of expert testimony"
+  },
+  {
+    "code": "32020804",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Expert Testimony > Opinion on ultimate issue"
+  },
+  {
+    "code": "32020805",
+    "ab": "32",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Relevancy and Excluding Relevant Evidence",
+    "path": "Relevance > Expert Testimony > Disclosure of underlying facts or data"
+  },
+  {
+    "code": "33040000",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay"
+  },
+  {
+    "code": "33040100",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > In General"
+  },
+  {
+    "code": "33040101",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > In General > Hearsay rule"
+  },
+  {
+    "code": "33040102",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > In General > Conduct as hearsay"
+  },
+  {
+    "code": "33040103",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > In General > Multiple hearsay"
+  },
+  {
+    "code": "33040104",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > In General > Unavailability of declarant as necessary or unnecessary for specific exceptions"
+  },
+  {
+    "code": "33040200",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exemptions"
+  },
+  {
+    "code": "33040201",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exemptions > Prior statement of witness"
+  },
+  {
+    "code": "33040202",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exemptions > Statement by opposing party"
+  },
+  {
+    "code": "33040203",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exemptions > Statements used for non-hearsay purposes"
+  },
+  {
+    "code": "33040300",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exceptions"
+  },
+  {
+    "code": "33040301",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exceptions > Requiring unavailability of declarant"
+  },
+  {
+    "code": "33040302",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Hearsay Exceptions > Not requiring unavailability of declarant"
+  },
+  {
+    "code": "33040400",
+    "ab": "33",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Hearsay and Circumstances of Its Admissibility",
+    "path": "Hearsay > Confrontation Clause"
+  },
+  {
+    "code": "34050000",
+    "ab": "34",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Writings, Recordings, and Photographs",
+    "path": "Contents of Writings, Recordings, and Photographs"
+  },
+  {
+    "code": "34050100",
+    "ab": "34",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Writings, Recordings, and Photographs",
+    "path": "Contents of Writings, Recordings, and Photographs > Requirement of the Original"
+  },
+  {
+    "code": "34050101",
+    "ab": "34",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Writings, Recordings, and Photographs",
+    "path": "Contents of Writings, Recordings, and Photographs > Requirement of the Original > Best evidence rule"
+  },
+  {
+    "code": "34050200",
+    "ab": "34",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Writings, Recordings, and Photographs",
+    "path": "Contents of Writings, Recordings, and Photographs > Duplicates"
+  },
+  {
+    "code": "34050300",
+    "ab": "34",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Writings, Recordings, and Photographs",
+    "path": "Contents of Writings, Recordings, and Photographs > Missing or lost documents"
+  },
+  {
+    "code": "34050400",
+    "ab": "34",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Writings, Recordings, and Photographs",
+    "path": "Contents of Writings, Recordings, and Photographs > Summaries"
+  },
+  {
+    "code": "35030000",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions"
+  },
+  {
+    "code": "35030100",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Sources and Scope of Privileges and Policy Exclusions"
+  },
+  {
+    "code": "35030200",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges"
+  },
+  {
+    "code": "35030201",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges > Spousal Privileges"
+  },
+  {
+    "code": "35030202",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges > Marital Communications Privilege"
+  },
+  {
+    "code": "35030203",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges > Physician-patient"
+  },
+  {
+    "code": "35030204",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges > Psychotherapist-patient"
+  },
+  {
+    "code": "35030205",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges > Attorney-client"
+  },
+  {
+    "code": "35030206",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Particular Privileges > Clergy and penitent"
+  },
+  {
+    "code": "35030300",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Public Policy Exclusions"
+  },
+  {
+    "code": "35030301",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Public Policy Exclusions > Subsequent remedial measures"
+  },
+  {
+    "code": "35030302",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Public Policy Exclusions > Settlement negotiations and offers of compromise"
+  },
+  {
+    "code": "35030303",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Public Policy Exclusions > Plea negotiations and withdrawn plea offers"
+  },
+  {
+    "code": "35030304",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Public Policy Exclusions > Liability insurance"
+  },
+  {
+    "code": "35030305",
+    "ab": "35",
+    "firstDigit": "3",
+    "subject": "Evidence",
+    "subtopic": "Privileges and Other Policy Exclusions",
+    "path": "Privileges and Public Policy Exclusions > Public Policy Exclusions > Payment of medical expenses"
+  },
+  {
+    "code": "41030000",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship"
+  },
+  {
+    "code": "41030100",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Preemption and Consent"
+  },
+  {
+    "code": "41030200",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Intergovernmental Immunities"
+  },
+  {
+    "code": "41030300",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Supremacy Clause"
+  },
+  {
+    "code": "41030400",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Tenth Amendment and the Scope of State Authority"
+  },
+  {
+    "code": "41030401",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Tenth Amendment and the Scope of State Authority > Tenth Amendment"
+  },
+  {
+    "code": "41030402",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Tenth Amendment and the Scope of State Authority > Dormant Commerce Clause"
+  },
+  {
+    "code": "41030403",
+    "ab": "41",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Relations Between Federal and State Governments",
+    "path": "The Federal-State Relationship > Tenth Amendment and the Scope of State Authority > State taxation"
+  },
+  {
+    "code": "42010000",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers"
+  },
+  {
+    "code": "42010100",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch"
+  },
+  {
+    "code": "42010101",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > Taxing and spending power"
+  },
+  {
+    "code": "42010102",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > War power"
+  },
+  {
+    "code": "42010103",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > Commerce power"
+  },
+  {
+    "code": "42010104",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > “Necessary and Proper” Clause power"
+  },
+  {
+    "code": "42010105",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > Investigatory power"
+  },
+  {
+    "code": "42010106",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > Property power"
+  },
+  {
+    "code": "42010107",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > Thirteenth, Fourteenth, and Fifteenth Amendments"
+  },
+  {
+    "code": "42010108",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Legislative Branch > Delegation Clause"
+  },
+  {
+    "code": "42010200",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch"
+  },
+  {
+    "code": "42010201",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Commander-in-chief"
+  },
+  {
+    "code": "42010202",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Chief executive"
+  },
+  {
+    "code": "42010203",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Treaties and foreign affairs"
+  },
+  {
+    "code": "42010204",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Appointment and removal"
+  },
+  {
+    "code": "42010205",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Veto"
+  },
+  {
+    "code": "42010206",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Pardon"
+  },
+  {
+    "code": "42010207",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Executive privilege"
+  },
+  {
+    "code": "42010208",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Executive Branch > Executive immunity"
+  },
+  {
+    "code": "42010300",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Interbranch Checks and Balances"
+  },
+  {
+    "code": "42010301",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Interbranch Checks and Balances > Impeachment and other Congressional limits on executive"
+  },
+  {
+    "code": "42010302",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Interbranch Checks and Balances > Veto and similar powers"
+  },
+  {
+    "code": "42010303",
+    "ab": "42",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Separation of Powers",
+    "path": "Separation of Powers > Interbranch Checks and Balances > Executive, congressional, and judicial privileges and immunities"
+  },
+  {
+    "code": "43020000",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review"
+  },
+  {
+    "code": "43020100",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review > Organization of Courts"
+  },
+  {
+    "code": "43020101",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review > Organization of Courts > Constitutional basis"
+  },
+  {
+    "code": "43020102",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review > Organization of Courts > Organization"
+  },
+  {
+    "code": "43020200",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review > Jurisdiction of Courts"
+  },
+  {
+    "code": "43020201",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review > Jurisdiction of Courts > Constitutional limitations and justiciability"
+  },
+  {
+    "code": "43020202",
+    "ab": "43",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Judicial Review",
+    "path": "Judicial Review > Jurisdiction of Courts > Congressional limitations"
+  },
+  {
+    "code": "44040000",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights"
+  },
+  {
+    "code": "44040100",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > State Action Requirement"
+  },
+  {
+    "code": "44040200",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Due Process Clause"
+  },
+  {
+    "code": "44040201",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Due Process Clause > Incorporation of Bill of Rights through the Fourteenth Amendment"
+  },
+  {
+    "code": "44040202",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Due Process Clause > Substantive due process"
+  },
+  {
+    "code": "44040203",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Due Process Clause > Procedural due process"
+  },
+  {
+    "code": "44040300",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Equal Protection Clause"
+  },
+  {
+    "code": "44040301",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Equal Protection Clause > Fundamental rights"
+  },
+  {
+    "code": "44040302",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Equal Protection Clause > Establishing discrimination"
+  },
+  {
+    "code": "44040303",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Equal Protection Clause > Strict scrutiny (suspect) classifications"
+  },
+  {
+    "code": "44040304",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Equal Protection Clause > Intermediate scrutiny (quasi-suspect) classifications"
+  },
+  {
+    "code": "44040305",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Equal Protection Clause > Rational basis review classifications"
+  },
+  {
+    "code": "44040400",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Privileges and Immunities of Citizens"
+  },
+  {
+    "code": "44040401",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Privileges and Immunities of Citizens > Privileges or Immunities Clause of the Fourteenth Amendment"
+  },
+  {
+    "code": "44040402",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Privileges and Immunities of Citizens > Privileges and Immunities Clause of Article IV, Section 2"
+  },
+  {
+    "code": "44040500",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > First Amendment Protections"
+  },
+  {
+    "code": "44040501",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > First Amendment Protections > Freedom of religion"
+  },
+  {
+    "code": "44040502",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > First Amendment Protections > Freedom of speech and expression"
+  },
+  {
+    "code": "44040503",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > First Amendment Protections > Freedom of the press"
+  },
+  {
+    "code": "44040504",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > First Amendment Protections > Freedom of association"
+  },
+  {
+    "code": "44040600",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Other Protections"
+  },
+  {
+    "code": "44040601",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Other Protections > Bills of attainder"
+  },
+  {
+    "code": "44040602",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Other Protections > Ex post facto laws"
+  },
+  {
+    "code": "44040603",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Other Protections > Contracts Clause"
+  },
+  {
+    "code": "44040604",
+    "ab": "44",
+    "firstDigit": "4",
+    "subject": "Constitutional Law",
+    "subtopic": "Individual Rights",
+    "path": "Individual Rights > Other Protections > Eminent domain—Takings Clause"
+  },
+  {
+    "code": "51060000",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies"
+  },
+  {
+    "code": "51060100",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages"
+  },
+  {
+    "code": "51060101",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Expectation damages"
+  },
+  {
+    "code": "51060102",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Reliance damages"
+  },
+  {
+    "code": "51060103",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Consequential damages"
+  },
+  {
+    "code": "51060104",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Incidental damages"
+  },
+  {
+    "code": "51060105",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Liquidated damages"
+  },
+  {
+    "code": "51060106",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Nominal damages"
+  },
+  {
+    "code": "51060107",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Damages > Duty to mitigate"
+  },
+  {
+    "code": "51060200",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Legal Restitution"
+  },
+  {
+    "code": "51060201",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Legal Restitution > Legal Restitution"
+  },
+  {
+    "code": "51060202",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Legal Restitution > Replevin"
+  },
+  {
+    "code": "51060300",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Equitable Remedies"
+  },
+  {
+    "code": "51060301",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Equitable Remedies > Equitable Restitution"
+  },
+  {
+    "code": "51060302",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Equitable Remedies > Rescission"
+  },
+  {
+    "code": "51060303",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Equitable Remedies > Reformation"
+  },
+  {
+    "code": "51060304",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Equitable Remedies > Specific performance"
+  },
+  {
+    "code": "51060305",
+    "ab": "51",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Remedies",
+    "path": "Remedies > Equitable Remedies > Injunctions"
+  },
+  {
+    "code": "52040000",
+    "ab": "52",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Contract Content and Meaning",
+    "path": "Gap-Fillers, Interpretation, and the Parol Evidence Rule"
+  },
+  {
+    "code": "52040100",
+    "ab": "52",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Contract Content and Meaning",
+    "path": "Gap-Fillers, Interpretation, and the Parol Evidence Rule > Gap-Fillers"
+  },
+  {
+    "code": "52040200",
+    "ab": "52",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Contract Content and Meaning",
+    "path": "Gap-Fillers, Interpretation, and the Parol Evidence Rule > Interpretation"
+  },
+  {
+    "code": "52040300",
+    "ab": "52",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Contract Content and Meaning",
+    "path": "Gap-Fillers, Interpretation, and the Parol Evidence Rule > Parol Evidence Rule"
+  },
+  {
+    "code": "53070000",
+    "ab": "53",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Third-Party Rights",
+    "path": "Nonparties to Contract"
+  },
+  {
+    "code": "53070100",
+    "ab": "53",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Third-Party Rights",
+    "path": "Nonparties to Contract > Third-Party Beneficiary Contracts"
+  },
+  {
+    "code": "53070200",
+    "ab": "53",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Third-Party Rights",
+    "path": "Nonparties to Contract > Assignment of Rights"
+  },
+  {
+    "code": "53070300",
+    "ab": "53",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Third-Party Rights",
+    "path": "Nonparties to Contract > Delegation of Duties"
+  },
+  {
+    "code": "54030000",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement"
+  },
+  {
+    "code": "54030100",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Lack of Capacity"
+  },
+  {
+    "code": "54030200",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Illegality"
+  },
+  {
+    "code": "54030300",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Unconscionability"
+  },
+  {
+    "code": "54030400",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Statute of Frauds"
+  },
+  {
+    "code": "54030500",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Ambiguity"
+  },
+  {
+    "code": "54030600",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Mistake / Lack of Mutual Assent"
+  },
+  {
+    "code": "54030700",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Duress"
+  },
+  {
+    "code": "54030800",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Misrepresentation / Fraud"
+  },
+  {
+    "code": "54030900",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Undue Influence"
+  },
+  {
+    "code": "54031000",
+    "ab": "54",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Defenses to Enforceability",
+    "path": "Defenses to Formation or Enforcement > Public Policy"
+  },
+  {
+    "code": "55010000",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law"
+  },
+  {
+    "code": "55010100",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law > Sources of Law"
+  },
+  {
+    "code": "55010101",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law > Sources of Law > Uniform Commercial Code (UCC)"
+  },
+  {
+    "code": "55010102",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law > Sources of Law > Common law"
+  },
+  {
+    "code": "55010200",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law > Types of Agreements"
+  },
+  {
+    "code": "55010201",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law > Types of Agreements > Bilateral contract"
+  },
+  {
+    "code": "55010202",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Introductory Principles / Applicable Law > Types of Agreements > Unilateral contract"
+  },
+  {
+    "code": "55020000",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation"
+  },
+  {
+    "code": "55020100",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Mutual Assent"
+  },
+  {
+    "code": "55020101",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Mutual Assent > Offer"
+  },
+  {
+    "code": "55020102",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Mutual Assent > Acceptance"
+  },
+  {
+    "code": "55020200",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Consideration"
+  },
+  {
+    "code": "55020201",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Consideration > Bargain and exchange"
+  },
+  {
+    "code": "55020202",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Consideration > Illusory promises"
+  },
+  {
+    "code": "55020203",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Consideration > Requirement and output contracts"
+  },
+  {
+    "code": "55020204",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Consideration > Preexisting duty"
+  },
+  {
+    "code": "55020205",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Consideration > Sufficiency of consideration"
+  },
+  {
+    "code": "55020300",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Promissory Estoppel"
+  },
+  {
+    "code": "55020400",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Implied-in-fact contracts"
+  },
+  {
+    "code": "55020500",
+    "ab": "55",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Formation of Contracts",
+    "path": "Formation > Implied-in-law contracts"
+  },
+  {
+    "code": "56050000",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse"
+  },
+  {
+    "code": "56050100",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Conditions"
+  },
+  {
+    "code": "56050101",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Conditions > Covenants"
+  },
+  {
+    "code": "56050102",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Conditions > Conditions"
+  },
+  {
+    "code": "56050200",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Modifications"
+  },
+  {
+    "code": "56050300",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Performance"
+  },
+  {
+    "code": "56050400",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Breach"
+  },
+  {
+    "code": "56050401",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Breach > Material v. Minor"
+  },
+  {
+    "code": "56050402",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Breach > Perfect Tender Rule"
+  },
+  {
+    "code": "56050403",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Breach > Anticipatory repudiation"
+  },
+  {
+    "code": "56050500",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Discharge of Contracts"
+  },
+  {
+    "code": "56050600",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty"
+  },
+  {
+    "code": "56050601",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Impossibility"
+  },
+  {
+    "code": "56050602",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Impracticability"
+  },
+  {
+    "code": "56050603",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Frustration of purpose"
+  },
+  {
+    "code": "56050604",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Waiver"
+  },
+  {
+    "code": "56050605",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Estoppel"
+  },
+  {
+    "code": "56050606",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Discharge by subsequent agreement"
+  },
+  {
+    "code": "56050607",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Accord and satisfaction"
+  },
+  {
+    "code": "56050608",
+    "ab": "56",
+    "firstDigit": "5",
+    "subject": "Contracts",
+    "subtopic": "Performance, Breach, and Discharge",
+    "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Novation"
+  },
+  {
+    "code": "61020000",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence"
+  },
+  {
+    "code": "61020100",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Duty"
+  },
+  {
+    "code": "61020101",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Duty > In general"
+  },
+  {
+    "code": "61020102",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Duty > Foreseeable plaintiffs"
+  },
+  {
+    "code": "61020103",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Duty > Foreseeable and unreasonable risk"
+  },
+  {
+    "code": "61020104",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Duty > Affirmative duties to act"
+  },
+  {
+    "code": "61020200",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Standard of Due Care"
+  },
+  {
+    "code": "61020201",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Standard of Due Care > Duty of reasonable prudent person in prevailing circumstances"
+  },
+  {
+    "code": "61020202",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Standard of Due Care > Particular standards of care"
+  },
+  {
+    "code": "61020203",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Standard of Due Care > Negligent infliction of emotional distress"
+  },
+  {
+    "code": "61020300",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Breach"
+  },
+  {
+    "code": "61020301",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Breach > Falling below the standard of care"
+  },
+  {
+    "code": "61020302",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Breach > Negligence per se"
+  },
+  {
+    "code": "61020303",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Breach > Custom"
+  },
+  {
+    "code": "61020304",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Breach > Res ipsa loquitur"
+  },
+  {
+    "code": "61020400",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Causation"
+  },
+  {
+    "code": "61020401",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Causation > Cause in fact (actual cause)"
+  },
+  {
+    "code": "61020402",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Causation > Proximate (legal) cause"
+  },
+  {
+    "code": "61020500",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Damages"
+  },
+  {
+    "code": "61020600",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Defenses"
+  },
+  {
+    "code": "61020601",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Defenses > Assumption of risk"
+  },
+  {
+    "code": "61020602",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Defenses > Contributory negligence"
+  },
+  {
+    "code": "61020603",
+    "ab": "61",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Negligence",
+    "path": "Negligence > Defenses > Comparative negligence"
+  },
+  {
+    "code": "62050000",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts"
+  },
+  {
+    "code": "62050100",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Nuisance"
+  },
+  {
+    "code": "62050101",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Nuisance > Public"
+  },
+  {
+    "code": "62050102",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Nuisance > Private"
+  },
+  {
+    "code": "62050200",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Misrepresentation"
+  },
+  {
+    "code": "62050300",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Economic Torts"
+  },
+  {
+    "code": "62050301",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Economic Torts > Interference with contractual relations"
+  },
+  {
+    "code": "62050302",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Economic Torts > Interference with prospective advantage"
+  },
+  {
+    "code": "62050303",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Economic Torts > Injurious falsehood (trade libel)"
+  },
+  {
+    "code": "62050400",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Defamation, Privacy, and Reputation Torts"
+  },
+  {
+    "code": "62050401",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Defamation"
+  },
+  {
+    "code": "62050402",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Invasion of privacy"
+  },
+  {
+    "code": "62050403",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Malicious prosecution"
+  },
+  {
+    "code": "62050404",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Abuse of process"
+  },
+  {
+    "code": "62050405",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Wrongful institution of civil proceedings"
+  },
+  {
+    "code": "62060000",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations"
+  },
+  {
+    "code": "62060100",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Vicarious Liability for Acts of Others"
+  },
+  {
+    "code": "62060101",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Vicarious Liability for Acts of Others > Independent contractor and nondelegable duties"
+  },
+  {
+    "code": "62060200",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Joint Tortfeasors"
+  },
+  {
+    "code": "62060201",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Joint Tortfeasors > Joint and several liability"
+  },
+  {
+    "code": "62060202",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Joint Tortfeasors > Satisfaction and release"
+  },
+  {
+    "code": "62060203",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Joint Tortfeasors > Contribution and indemnity"
+  },
+  {
+    "code": "62060204",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Joint Tortfeasors > Apportionment of damages"
+  },
+  {
+    "code": "62060300",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Wrongful Death and Survival Actions"
+  },
+  {
+    "code": "62060400",
+    "ab": "62",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Other Torts",
+    "path": "Other Considerations > Loss of Consortium"
+  },
+  {
+    "code": "63030000",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability"
+  },
+  {
+    "code": "63030100",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability > Strict Products Liability"
+  },
+  {
+    "code": "63030200",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability > Negligence Theory"
+  },
+  {
+    "code": "63030300",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability > Warranty Theory"
+  },
+  {
+    "code": "63030301",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability > Warranty Theory > Express warranties"
+  },
+  {
+    "code": "63030302",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability > Warranty Theory > Implied warranties"
+  },
+  {
+    "code": "63030400",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Products Liability > Defenses"
+  },
+  {
+    "code": "63040000",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Strict Liability"
+  },
+  {
+    "code": "63040100",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Strict Liability > Abnormally Dangerous Activities"
+  },
+  {
+    "code": "63040200",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Strict Liability > Possession of Animals"
+  },
+  {
+    "code": "63040300",
+    "ab": "63",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Strict Liability and Products Liability",
+    "path": "Strict Liability > Defenses"
+  },
+  {
+    "code": "64010000",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts"
+  },
+  {
+    "code": "64010100",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to the Person"
+  },
+  {
+    "code": "64010101",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to the Person > Assault"
+  },
+  {
+    "code": "64010102",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to the Person > Battery"
+  },
+  {
+    "code": "64010103",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to the Person > False imprisonment"
+  },
+  {
+    "code": "64010104",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to the Person > Intentional infliction of emotional distress"
+  },
+  {
+    "code": "64010200",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to Property"
+  },
+  {
+    "code": "64010201",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to Property > Trespass to land"
+  },
+  {
+    "code": "64010202",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to Property > Trespass to chattel"
+  },
+  {
+    "code": "64010203",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Intentional Torts to Property > Conversion"
+  },
+  {
+    "code": "64010300",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Transferred Intent"
+  },
+  {
+    "code": "64010400",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Defenses to Intentional Torts"
+  },
+  {
+    "code": "64010500",
+    "ab": "64",
+    "firstDigit": "6",
+    "subject": "Torts",
+    "subtopic": "Intentional Torts",
+    "path": "Intentional Torts > Privileges"
+  },
+  {
+    "code": "71040000",
+    "ab": "71",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Inchoate Crimes",
+    "path": "Inchoate Offenses"
+  },
+  {
+    "code": "71040100",
+    "ab": "71",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Inchoate Crimes",
+    "path": "Inchoate Offenses > Solicitation"
+  },
+  {
+    "code": "71040200",
+    "ab": "71",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Inchoate Crimes",
+    "path": "Inchoate Offenses > Conspiracy"
+  },
+  {
+    "code": "71040300",
+    "ab": "71",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Inchoate Crimes",
+    "path": "Inchoate Offenses > Attempt"
+  },
+  {
+    "code": "71040400",
+    "ab": "71",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Inchoate Crimes",
+    "path": "Inchoate Offenses > Defenses"
+  },
+  {
+    "code": "72010000",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles"
+  },
+  {
+    "code": "72010100",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Sources of Criminal Law"
+  },
+  {
+    "code": "72010101",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Sources of Criminal Law > Common law"
+  },
+  {
+    "code": "72010102",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Sources of Criminal Law > Modern law"
+  },
+  {
+    "code": "72010103",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Sources of Criminal Law > Model Penal Code"
+  },
+  {
+    "code": "72010200",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Classification of Crimes"
+  },
+  {
+    "code": "72010300",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Elements of Crimes"
+  },
+  {
+    "code": "72010301",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Elements of Crimes > Actus reus"
+  },
+  {
+    "code": "72010302",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Elements of Crimes > Mens rea"
+  },
+  {
+    "code": "72010303",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Elements of Crimes > Causation"
+  },
+  {
+    "code": "72010400",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "General Principles > Merger Doctrine"
+  },
+  {
+    "code": "72050000",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Parties to Crime"
+  },
+  {
+    "code": "72050100",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Parties to Crime > Principals"
+  },
+  {
+    "code": "72050200",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Parties to Crime > Accomplices"
+  },
+  {
+    "code": "72050300",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Parties to Crime > Accessories"
+  },
+  {
+    "code": "72050400",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Parties to Crime > Scope of liability"
+  },
+  {
+    "code": "72060000",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses"
+  },
+  {
+    "code": "72060100",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses"
+  },
+  {
+    "code": "72060101",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses > Responsibility"
+  },
+  {
+    "code": "72060102",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses > Infancy"
+  },
+  {
+    "code": "72060103",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses > Mistake"
+  },
+  {
+    "code": "72060104",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses > Impossibility"
+  },
+  {
+    "code": "72060105",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses > Entrapment"
+  },
+  {
+    "code": "72060106",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Excuse Defenses > Consent"
+  },
+  {
+    "code": "72060200",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses"
+  },
+  {
+    "code": "72060201",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Self-defense"
+  },
+  {
+    "code": "72060202",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Imperfect self-defense"
+  },
+  {
+    "code": "72060203",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Defense of others"
+  },
+  {
+    "code": "72060204",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Defense of dwelling"
+  },
+  {
+    "code": "72060205",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Defense of property"
+  },
+  {
+    "code": "72060206",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Duress"
+  },
+  {
+    "code": "72060207",
+    "ab": "72",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "General Principles",
+    "path": "Defenses > Justification Defenses > Necessity"
+  },
+  {
+    "code": "73020000",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person"
+  },
+  {
+    "code": "73020200",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person > Assault"
+  },
+  {
+    "code": "73020300",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person > Battery"
+  },
+  {
+    "code": "73020400",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person > False imprisonment"
+  },
+  {
+    "code": "73020500",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person > Kidnapping"
+  },
+  {
+    "code": "73020600",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person > Mayhem"
+  },
+  {
+    "code": "73020700",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against the Person > Rape"
+  },
+  {
+    "code": "73030000",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property"
+  },
+  {
+    "code": "73030100",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Larceny"
+  },
+  {
+    "code": "73030200",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Larceny by trick"
+  },
+  {
+    "code": "73030300",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > False pretenses"
+  },
+  {
+    "code": "73030400",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Robbery"
+  },
+  {
+    "code": "73030500",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Embezzlement"
+  },
+  {
+    "code": "73030600",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Extortion"
+  },
+  {
+    "code": "73030700",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Forgery"
+  },
+  {
+    "code": "73030800",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Possession offenses"
+  },
+  {
+    "code": "73030801",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Possession offenses > Receipt of stolen property"
+  },
+  {
+    "code": "73030802",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Possession offenses > Controlled substances"
+  },
+  {
+    "code": "73030803",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Possession offenses > Firearms"
+  },
+  {
+    "code": "73030900",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Arson"
+  },
+  {
+    "code": "73031000",
+    "ab": "73",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Other Crimes",
+    "path": "Crimes against Property > Burglary"
+  },
+  {
+    "code": "74020100",
+    "ab": "74",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Homicide",
+    "path": "Crimes against the Person > Homicide"
+  },
+  {
+    "code": "74020101",
+    "ab": "74",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Homicide",
+    "path": "Crimes against the Person > Homicide > Murder"
+  },
+  {
+    "code": "74020102",
+    "ab": "74",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Homicide",
+    "path": "Crimes against the Person > Homicide > Manslaughter"
+  },
+  {
+    "code": "75070000",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fourth Amendment"
+  },
+  {
+    "code": "75070100",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fourth Amendment > Arrest and Detention"
+  },
+  {
+    "code": "75070200",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fourth Amendment > Searches and Seizures"
+  },
+  {
+    "code": "75070201",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fourth Amendment > Searches and Seizures > Warrant requirement"
+  },
+  {
+    "code": "75070202",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fourth Amendment > Searches and Seizures > Exceptions to warrant requirement"
+  },
+  {
+    "code": "75080000",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications"
+  },
+  {
+    "code": "75080100",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Statements and Confessions"
+  },
+  {
+    "code": "75080101",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Statements and Confessions > Voluntary statements"
+  },
+  {
+    "code": "75080102",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Statements and Confessions > Waiver"
+  },
+  {
+    "code": "75080200",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Identifications"
+  },
+  {
+    "code": "75080300",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Right to Confrontation"
+  },
+  {
+    "code": "75080400",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy"
+  },
+  {
+    "code": "75080401",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy > Attachment"
+  },
+  {
+    "code": "75080402",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy > Underlying Offense"
+  },
+  {
+    "code": "75080403",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy > Separate Sovereignties Doctrine"
+  },
+  {
+    "code": "75080404",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy > Retrial after Attachment"
+  },
+  {
+    "code": "75080405",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy > Effect on Sentencing"
+  },
+  {
+    "code": "75090000",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused"
+  },
+  {
+    "code": "75090100",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused > Right to Jury Trial"
+  },
+  {
+    "code": "75090200",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused > Right to Speedy Trial"
+  },
+  {
+    "code": "75090300",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused > Right to Public Trial"
+  },
+  {
+    "code": "75090400",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused > Right to Counsel"
+  },
+  {
+    "code": "75090500",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused > Right to Fair Trial"
+  },
+  {
+    "code": "75090600",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Sixth Amendment—Other Rights of the Accused > Rights during Discovery"
+  },
+  {
+    "code": "75100000",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Exclusionary Rule"
+  },
+  {
+    "code": "75110000",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Post-Trial Rights"
+  },
+  {
+    "code": "75110100",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Post-Trial Rights > Eighth Amendment"
+  },
+  {
+    "code": "75110200",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Post-Trial Rights > Rights during Sentencing"
+  },
+  {
+    "code": "75110300",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Post-Trial Rights > Appeal"
+  },
+  {
+    "code": "75110400",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Post-Trial Rights > Writ of Habeas Corpus"
+  },
+  {
+    "code": "75120000",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Other Considerations"
+  },
+  {
+    "code": "75120100",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Other Considerations > Ex Post Facto Crimes"
+  },
+  {
+    "code": "75120200",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Other Considerations > Retroactivity of Later Decisions"
+  },
+  {
+    "code": "75120300",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Other Considerations > Fourteenth Amendment Identifications"
+  },
+  {
+    "code": "75120400",
+    "ab": "75",
+    "firstDigit": "7",
+    "subject": "Criminal Law and Procedure",
+    "subtopic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+    "path": "Other Considerations > Competency"
+  },
+  {
+    "code": "81020000",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land"
+  },
+  {
+    "code": "81020100",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Easements"
+  },
+  {
+    "code": "81020101",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Easements > Nature and Type"
+  },
+  {
+    "code": "81020102",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Easements > Creation"
+  },
+  {
+    "code": "81020103",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Easements > Scope"
+  },
+  {
+    "code": "81020104",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Easements > Transferability"
+  },
+  {
+    "code": "81020105",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Easements > Termination and Modification"
+  },
+  {
+    "code": "81020200",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Profits"
+  },
+  {
+    "code": "81020300",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Licenses"
+  },
+  {
+    "code": "81020400",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Real Covenants"
+  },
+  {
+    "code": "81020401",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Real Covenants > Running with the land"
+  },
+  {
+    "code": "81020402",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Real Covenants > Termination"
+  },
+  {
+    "code": "81020500",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants"
+  },
+  {
+    "code": "81020501",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Implied from common scheme"
+  },
+  {
+    "code": "81020502",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Running with the land"
+  },
+  {
+    "code": "81020503",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Equitable defenses"
+  },
+  {
+    "code": "81020504",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Termination"
+  },
+  {
+    "code": "81020600",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Fixtures"
+  },
+  {
+    "code": "81020601",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Fixtures > Definition"
+  },
+  {
+    "code": "81020602",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Fixtures > Ownership"
+  },
+  {
+    "code": "81020603",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Fixtures > Removal"
+  },
+  {
+    "code": "81020700",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Zoning"
+  },
+  {
+    "code": "81020701",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Zoning > Nonconforming use"
+  },
+  {
+    "code": "81020702",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Zoning > Variances and special exceptions"
+  },
+  {
+    "code": "81020800",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Takings"
+  },
+  {
+    "code": "81020801",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Takings > Actual Takings"
+  },
+  {
+    "code": "81020802",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Takings > Regulatory"
+  },
+  {
+    "code": "81020900",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Support Rights"
+  },
+  {
+    "code": "81020901",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Support Rights > Lateral"
+  },
+  {
+    "code": "81020902",
+    "ab": "81",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Rights in Land",
+    "path": "Non-Possessory Rights and Interests in Land > Support Rights > Subjacent"
+  },
+  {
+    "code": "82010000",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land"
+  },
+  {
+    "code": "82010100",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Present Possessory Interests in Land"
+  },
+  {
+    "code": "82010101",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Present Possessory Interests in Land > Fee simple absolute"
+  },
+  {
+    "code": "82010102",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Present Possessory Interests in Land > Defeasible fees"
+  },
+  {
+    "code": "82010103",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Present Possessory Interests in Land > Life estates"
+  },
+  {
+    "code": "82010200",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Future Interests"
+  },
+  {
+    "code": "82010201",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Future Interests > Contingent and vested remainders"
+  },
+  {
+    "code": "82010202",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Future Interests > Reversions"
+  },
+  {
+    "code": "82010203",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Future Interests > Executory interests"
+  },
+  {
+    "code": "82010204",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Future Interests > Possibility of reverter"
+  },
+  {
+    "code": "82010205",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Future Interests > Power of termination"
+  },
+  {
+    "code": "82010300",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Concurrent Estates"
+  },
+  {
+    "code": "82010301",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Concurrent Estates > Joint tenancy"
+  },
+  {
+    "code": "82010302",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Concurrent Estates > Tenancy in common"
+  },
+  {
+    "code": "82010303",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Concurrent Estates > Rights and duties of co-tenants"
+  },
+  {
+    "code": "82010304",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Concurrent Estates > Partition and severance"
+  },
+  {
+    "code": "82010400",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Landlord and Tenant"
+  },
+  {
+    "code": "82010401",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Landlord and Tenant > Types of tenancies"
+  },
+  {
+    "code": "82010402",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Landlord and Tenant > Duties and remedies"
+  },
+  {
+    "code": "82010403",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Landlord and Tenant > Retaliatory evictions"
+  },
+  {
+    "code": "82010404",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Landlord and Tenant > Assignments and subletting"
+  },
+  {
+    "code": "82010405",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Landlord and Tenant > Termination, including surrender and mitigation"
+  },
+  {
+    "code": "82010500",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Problems with Interests in Land"
+  },
+  {
+    "code": "82010501",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Problems with Interests in Land > Waste"
+  },
+  {
+    "code": "82010502",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Problems with Interests in Land > Gifts to classes"
+  },
+  {
+    "code": "82010503",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Problems with Interests in Land > Rule Against Perpetuities"
+  },
+  {
+    "code": "82010504",
+    "ab": "82",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Ownership",
+    "path": "Nature and Ownership of Land > Problems with Interests in Land > Restraints on alienation"
+  },
+  {
+    "code": "83050000",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices"
+  },
+  {
+    "code": "83050100",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests"
+  },
+  {
+    "code": "83050101",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Mortgage"
+  },
+  {
+    "code": "83050102",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Purchase-money mortgage"
+  },
+  {
+    "code": "83050103",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Future-advance mortgage"
+  },
+  {
+    "code": "83050104",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Installment land-sale contract"
+  },
+  {
+    "code": "83050105",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Equitable mortgage"
+  },
+  {
+    "code": "83050106",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Deed of trust"
+  },
+  {
+    "code": "83050107",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Types of Security Interests > Liens"
+  },
+  {
+    "code": "83050200",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Mortgage Theories"
+  },
+  {
+    "code": "83050201",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Mortgage Theories > Lien theory"
+  },
+  {
+    "code": "83050202",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Mortgage Theories > Title theory"
+  },
+  {
+    "code": "83050203",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Mortgage Theories > Intermediate theory"
+  },
+  {
+    "code": "83050300",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Pre-Foreclosure Rights and Obligations"
+  },
+  {
+    "code": "83050301",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Pre-Foreclosure Rights and Obligations > Duty to pay principal and interest"
+  },
+  {
+    "code": "83050302",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Pre-Foreclosure Rights and Obligations > Enforcement of Contract Provisions"
+  },
+  {
+    "code": "83050303",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Pre-Foreclosure Rights and Obligations > Possession and title"
+  },
+  {
+    "code": "83050400",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Transfers of Interest"
+  },
+  {
+    "code": "83050401",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Transfers of Interest > Transfers by mortgagor"
+  },
+  {
+    "code": "83050402",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Transfers of Interest > Transfers by mortgagee"
+  },
+  {
+    "code": "83050500",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Discharge of the Mortgage"
+  },
+  {
+    "code": "83050501",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Discharge of the Mortgage > Payment, including prepayment"
+  },
+  {
+    "code": "83050502",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Discharge of the Mortgage > Deed in lieu of foreclosure"
+  },
+  {
+    "code": "83050600",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Foreclosure"
+  },
+  {
+    "code": "83050601",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Foreclosure > Procedure"
+  },
+  {
+    "code": "83050602",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Foreclosure > Right to Redemption"
+  },
+  {
+    "code": "83050603",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Foreclosure > Parties and priorities"
+  },
+  {
+    "code": "83050604",
+    "ab": "83",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Mortgages",
+    "path": "Mortgages and Security Devices > Foreclosure > Proceeds"
+  },
+  {
+    "code": "84040000",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing"
+  },
+  {
+    "code": "84040100",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Adverse Possession"
+  },
+  {
+    "code": "84040101",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Adverse Possession > Requirements"
+  },
+  {
+    "code": "84040102",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Adverse Possession > Mistaken boundaries"
+  },
+  {
+    "code": "84040103",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Adverse Possession > Title acquired"
+  },
+  {
+    "code": "84040200",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed"
+  },
+  {
+    "code": "84040201",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Requirements for valid deed"
+  },
+  {
+    "code": "84040202",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Statute of Frauds"
+  },
+  {
+    "code": "84040203",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Delivery and acceptance"
+  },
+  {
+    "code": "84040204",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Types of deeds"
+  },
+  {
+    "code": "84040205",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Covenants of title"
+  },
+  {
+    "code": "84040206",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Estoppel by deed"
+  },
+  {
+    "code": "84040207",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > After-acquired title"
+  },
+  {
+    "code": "84040208",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Forged instruments"
+  },
+  {
+    "code": "84040300",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Conveyance by Operation of Law and Will"
+  },
+  {
+    "code": "84040400",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts"
+  },
+  {
+    "code": "84040401",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts > Common law rule"
+  },
+  {
+    "code": "84040402",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts > Types of statutes"
+  },
+  {
+    "code": "84040403",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts > Bona fide purchaser"
+  },
+  {
+    "code": "84040404",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts > Types of notice"
+  },
+  {
+    "code": "84040405",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts > Indexes"
+  },
+  {
+    "code": "84040406",
+    "ab": "84",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Titles",
+    "path": "Titles, Deeds, and Conveyancing > Recording Acts > Priorities"
+  },
+  {
+    "code": "85030000",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts"
+  },
+  {
+    "code": "85030100",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Land-Sale Contracts"
+  },
+  {
+    "code": "85030101",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Land-Sale Contracts > Creation"
+  },
+  {
+    "code": "85030102",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Land-Sale Contracts > Essential terms"
+  },
+  {
+    "code": "85030103",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Land-Sale Contracts > Time for performance"
+  },
+  {
+    "code": "85030200",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Options and Rights of First Refusal"
+  },
+  {
+    "code": "85030300",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Marketable Title"
+  },
+  {
+    "code": "85030400",
+    "ab": "85",
+    "firstDigit": "8",
+    "subject": "Real Property",
+    "subtopic": "Contracts for Land",
+    "path": "Real Property Contracts > Risk of Loss and Equitable Conversion"
+  },
+  {
+    "code": "91090000",
+    "ab": "91",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jury Trials",
+    "path": "Trial"
+  },
+  {
+    "code": "91090100",
+    "ab": "91",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jury Trials",
+    "path": "Trial > Right to Jury Trial"
+  },
+  {
+    "code": "91090200",
+    "ab": "91",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jury Trials",
+    "path": "Trial > Demand for Jury Trial"
+  },
+  {
+    "code": "91090300",
+    "ab": "91",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jury Trials",
+    "path": "Trial > Jury Selection"
+  },
+  {
+    "code": "91090400",
+    "ab": "91",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jury Trials",
+    "path": "Trial > Jury Instructions"
+  },
+  {
+    "code": "92080000",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions"
+  },
+  {
+    "code": "92080100",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Pretrial Motions"
+  },
+  {
+    "code": "92080101",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Pretrial Motions > Motion for judgment on the pleadings"
+  },
+  {
+    "code": "92080102",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Pretrial Motions > Motion for more definite statement"
+  },
+  {
+    "code": "92080103",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Pretrial Motions > Motion to strike"
+  },
+  {
+    "code": "92080104",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Pretrial Motions > Motions to dismiss"
+  },
+  {
+    "code": "92080105",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Pretrial Motions > Summary judgment motion"
+  },
+  {
+    "code": "92080200",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Trial and Post-Trial Motions"
+  },
+  {
+    "code": "92080201",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Trial and Post-Trial Motions > Motion for Judgment as a Matter of Law"
+  },
+  {
+    "code": "92080202",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Trial and Post-Trial Motions > Renewed Motion for Judgment as a Matter of Law"
+  },
+  {
+    "code": "92080203",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Trial and Post-Trial Motions > Motion for relief from judgment or order"
+  },
+  {
+    "code": "92080204",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Trial and Post-Trial Motions > Motion for new trial"
+  },
+  {
+    "code": "92080205",
+    "ab": "92",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Motions",
+    "path": "Motions > Trial and Post-Trial Motions > Remittitur/additur"
+  },
+  {
+    "code": "93110000",
+    "ab": "93",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Appealability and Review",
+    "path": "Appeal and Review"
+  },
+  {
+    "code": "93110100",
+    "ab": "93",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Appealability and Review",
+    "path": "Appeal and Review > Interlocutory Review"
+  },
+  {
+    "code": "93110101",
+    "ab": "93",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Appealability and Review",
+    "path": "Appeal and Review > Interlocutory Review > Final judgment rule"
+  },
+  {
+    "code": "93110200",
+    "ab": "93",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Appealability and Review",
+    "path": "Appeal and Review > Finality of Judgment"
+  },
+  {
+    "code": "93110300",
+    "ab": "93",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Appealability and Review",
+    "path": "Appeal and Review > Scope of Review"
+  },
+  {
+    "code": "94010000",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Federal Subject-Matter Jurisdiction"
+  },
+  {
+    "code": "94010100",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Federal Subject-Matter Jurisdiction > Diversity Jurisdiction"
+  },
+  {
+    "code": "94010200",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Federal Subject-Matter Jurisdiction > Federal-Question Jurisdiction"
+  },
+  {
+    "code": "94010300",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Federal Subject-Matter Jurisdiction > Supplemental Jurisdiction"
+  },
+  {
+    "code": "94020000",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction"
+  },
+  {
+    "code": "94020100",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Specific and General Jurisdiction"
+  },
+  {
+    "code": "94020200",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Traditional Bases for Personal Jurisdiction"
+  },
+  {
+    "code": "94020201",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Traditional Bases for Personal Jurisdiction > Consent"
+  },
+  {
+    "code": "94020202",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Traditional Bases for Personal Jurisdiction > Service"
+  },
+  {
+    "code": "94020203",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Traditional Bases for Personal Jurisdiction > Domicile"
+  },
+  {
+    "code": "94020300",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Modern Due Process or Constitutional Tests"
+  },
+  {
+    "code": "94020301",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Modern Due Process or Constitutional Tests > Long-arm statutes"
+  },
+  {
+    "code": "94020302",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Modern Due Process or Constitutional Tests > Minimum contacts test"
+  },
+  {
+    "code": "94020303",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Personal Jurisdiction > Modern Due Process or Constitutional Tests > Substantial business"
+  },
+  {
+    "code": "94030000",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Removal and Remand"
+  },
+  {
+    "code": "94030100",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Removal and Remand > Removal to Federal Court"
+  },
+  {
+    "code": "94030200",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Removal and Remand > Remand to State Court"
+  },
+  {
+    "code": "94040000",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Notice and Service of Process"
+  },
+  {
+    "code": "94040100",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Notice and Service of Process > Due Process Notice Requirements"
+  },
+  {
+    "code": "94040200",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Notice and Service of Process > Service of Process"
+  },
+  {
+    "code": "94040300",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Notice and Service of Process > Waiver of Service"
+  },
+  {
+    "code": "94050000",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Venue"
+  },
+  {
+    "code": "94050100",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Venue > Venue"
+  },
+  {
+    "code": "94050200",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Venue > Transfer"
+  },
+  {
+    "code": "94050300",
+    "ab": "94",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Jurisdiction and Venue",
+    "path": "Venue > Forum non conveniens"
+  },
+  {
+    "code": "95070000",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures"
+  },
+  {
+    "code": "95070100",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pleadings"
+  },
+  {
+    "code": "95070101",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pleadings > Complaint"
+  },
+  {
+    "code": "95070102",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pleadings > Answer"
+  },
+  {
+    "code": "95070103",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pleadings > Counterclaims"
+  },
+  {
+    "code": "95070104",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pleadings > Crossclaims"
+  },
+  {
+    "code": "95070105",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pleadings > Other pleadings"
+  },
+  {
+    "code": "95070200",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Amendment of Pleadings"
+  },
+  {
+    "code": "95070300",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Multiple Parties and Claims"
+  },
+  {
+    "code": "95070301",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Multiple Parties and Claims > Joinder of claims"
+  },
+  {
+    "code": "95070302",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Multiple Parties and Claims > Joinder of parties"
+  },
+  {
+    "code": "95070303",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Multiple Parties and Claims > Class actions"
+  },
+  {
+    "code": "95070400",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery"
+  },
+  {
+    "code": "95070401",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > Initial disclosures"
+  },
+  {
+    "code": "95070402",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > Devices"
+  },
+  {
+    "code": "95070403",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > Scope of discovery"
+  },
+  {
+    "code": "95070404",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > E-Discovery"
+  },
+  {
+    "code": "95070405",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > Privileges"
+  },
+  {
+    "code": "95070406",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > Inadvertent disclosure"
+  },
+  {
+    "code": "95070407",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Discovery > Sanctions"
+  },
+  {
+    "code": "95070500",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Rule 11"
+  },
+  {
+    "code": "95070600",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Pretrial Conferences and Orders"
+  },
+  {
+    "code": "95070700",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Disposition without Trial"
+  },
+  {
+    "code": "95070701",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Disposition without Trial > Voluntary dismissal"
+  },
+  {
+    "code": "95070702",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Disposition without Trial > Involuntary dismissal"
+  },
+  {
+    "code": "95070703",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Disposition without Trial > Summary judgment"
+  },
+  {
+    "code": "95070704",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Disposition without Trial > Default judgment"
+  },
+  {
+    "code": "95070705",
+    "ab": "95",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Pretrial Procedures",
+    "path": "Pretrial Procedures > Disposition without Trial > Preliminary injunctions, permanent injunctions, and temporary restraining orders"
+  },
+  {
+    "code": "96060000",
+    "ab": "96",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Law Applied by Federal Courts (Erie)",
+    "path": "State Law Applied in Federal Courts"
+  },
+  {
+    "code": "96060100",
+    "ab": "96",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Law Applied by Federal Courts (Erie)",
+    "path": "State Law Applied in Federal Courts > Erie Doctrine"
+  },
+  {
+    "code": "96060200",
+    "ab": "96",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Law Applied by Federal Courts (Erie)",
+    "path": "State Law Applied in Federal Courts > Federal Common Law"
+  },
+  {
+    "code": "97100000",
+    "ab": "97",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Verdicts and Judgments",
+    "path": "Judgments and Verdicts"
+  },
+  {
+    "code": "97100100",
+    "ab": "97",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Verdicts and Judgments",
+    "path": "Judgments and Verdicts > Types of Jury Verdicts"
+  },
+  {
+    "code": "97100200",
+    "ab": "97",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Verdicts and Judgments",
+    "path": "Judgments and Verdicts > Judicial Findings and Conclusions"
+  },
+  {
+    "code": "97100300",
+    "ab": "97",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Verdicts and Judgments",
+    "path": "Judgments and Verdicts > Issue and Claim Preclusion"
+  },
+  {
+    "code": "97100400",
+    "ab": "97",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Verdicts and Judgments",
+    "path": "Judgments and Verdicts > Defaults"
+  },
+  {
+    "code": "97100500",
+    "ab": "97",
+    "firstDigit": "9",
+    "subject": "Civil Procedure",
+    "subtopic": "Verdicts and Judgments",
+    "path": "Judgments and Verdicts > Dismissals"
+  }
+]

@@ -1,8 +1,40 @@
 node_modules/
-.openclaw/
-Workspace/
+
+# OpenClaw local state and secrets. Do not ignore the whole directory; keep the
+# safe surface visible while excluding credentials, device identity, runtime
+# state, caches, logs, and config files that can contain provider keys.
+.openclaw/agents/
+.openclaw/completions/
+.openclaw/credentials/
+.openclaw/devices/
+.openclaw/identity/
+.openclaw/locks/
+.openclaw/logs/
+.openclaw/memory/
+.openclaw/npm/
+.openclaw/plugin-skills/
+.openclaw/plugins/
+.openclaw/skill-workshop/
+.openclaw/state/
+.openclaw/tui/
+.openclaw/workspace-attestations/
+.openclaw/exec-approvals.json
+.openclaw/gateway-supervisor-restart-handoff.json
+.openclaw/openclaw.json
+.openclaw/openclaw.json.*
+.openclaw/update-check.json
+
+# Workspace-local repo/runtime state. The workspace content itself should stay
+# visible to git; only nested git metadata and generated local state are ignored.
+Workspace/.git/
+Workspace/.clawhub/
+Workspace/.codex_spreadsheet_work/
+Workspace/.openclaw/
+Workspace/Finished/complete.csv
 _reinstall-evidence/
 _preserved-openclaw-workspaces/
 npm-debug.log*
 *.log
 *.tmp
+__pycache__/
+*.pyc

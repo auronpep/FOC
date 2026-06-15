@@ -1,0 +1,5 @@
+Blocked by the session sandbox before completion.
+
+I read only the requested local files for Q14745 and the relevant Criminal Law outline section. `Finished/CQ14745.md` does not already exist, and `tasks/todo.md` does exist. When I attempted to write `Finished/CQ14745.md`, the command was rejected by policy because this child session is read-only.
+
+No output was saved, `tasks/todo.md` was not modified, and I did not start another question.

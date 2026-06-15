@@ -1,0 +1,7 @@
+# Lessons
+
+- Codex CLI can fail when launched without terminal handles, including `Error: stdin is not a terminal` from PowerShell `Start-Job` and `Error: stdout is not a terminal` from piping through `Tee-Object`. Do not wrap `codex exec` in jobs, redirects, or pipes for timeout/logging. Prefer direct foreground terminal invocation for Codex CLI and use OpenClaw for timeout-managed queued runs.
+- Before telling the user to rerun a Codex/OpenClaw wrapper after a failure, audit the entire launch path for terminal-handle changes, config changes, argument validity, output logging, timeout behavior, and cleanup state. A parser check and dry run are not enough when the actual bug is in the live process launch shape.
+- For `RUN_Cod.ps1`, do not treat a long `CodexEphemeral` `-Questions` list as one C3/CQ session. CodexEphemeral launches one fresh Codex session per question, so the 3/default and 5/hard session caps belong only to shared-session modes such as `OpenClawBatch`.
+- Do not recommend `pwsh -File ... -Questions $qs` when `$qs` is an array from the parent PowerShell session. Use a quoted scalar list for `pwsh -File`, or use same-session invocation with `& script.ps1 -Questions $qs`.
+- CodexEphemeral child runs may write `Finished/CQ*.md` and mark `tasks/todo.md` complete but fail to return control to `RUN_Cod.ps1`. For long queues, prefer a supervised one-question-at-a-time launcher that waits for the verified output/todo marker, allows a short clean-exit grace period, then stops the hung child process tree before launching the next question.

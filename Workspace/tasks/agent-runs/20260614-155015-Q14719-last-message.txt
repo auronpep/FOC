@@ -1,0 +1,13 @@
+Blocked by the session sandbox before I could complete the requested output.
+
+What I did:
+- Read only the local files needed: `AGENTS.md`, `PROMPT.md`, `controlled_vocabularies.md`, `skills/cq-transform-qa/SKILL.md`, `QBank/14719.md`, and the relevant `OUTLINE_CODES_COMPLETE.md` section.
+- Confirmed Q14719 is Criminal Law / Other Crimes.
+- Verified the relevant outline code: `73030400` (`Crimes against Property > Robbery`).
+- Confirmed `Finished/CQ14719.md` and `tasks/todo.md` writes are required by the workspace rules.
+
+Blocker:
+- The environment is read-only. A write probe with `apply_patch` was rejected: `writing is blocked by read-only sandbox`.
+- Because of that, I could not save `Finished/CQ14719.md` or record review results in `tasks/todo.md`.
+
+No files were changed, and I did not start another question.

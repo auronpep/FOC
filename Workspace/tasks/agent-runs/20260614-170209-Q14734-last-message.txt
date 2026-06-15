@@ -1,0 +1,16 @@
+Completed Q14734 only.
+
+Output written to Finished/CQ14734.md.
+Review results recorded in tasks/todo.md.
+
+Verified:
+- JSON blocks parse: 3.
+- Key consistency: credited answer C, residual C, official key C, original key B.
+- Outline code: 72050200 verified in OUTLINE_CODES_COMPLETE.md.
+- Dominant trap: A.
+- Pick rates: A 26 inherited, B 7 inherited, C 64 inherited, D 3 inherited, sum 100.
+- Gold/Silver Keys match between Blocks 3 and 5.
+- git diff --check passed for Finished/CQ14734.md and tasks/todo.md.
+- No trailing whitespace and ASCII-only CQ output.
+
+Stopped after Q14734; no other question was started.

@@ -1,0 +1,46 @@
+import fs from "node:fs/promises";
+import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
+
+const workbookPath = "C:/Users/JesusLovesMe/Documents/outline lookup.xlsx";
+const mappingPath = "C:/FOC/Workspace/tasks/outline_lookup_code_map/row_mappings.json";
+
+const mappings = JSON.parse(await fs.readFile(mappingPath, "utf8"));
+if (mappings.length !== 3737) {
+  throw new Error(`Expected 3737 mappings, found ${mappings.length}`);
+}
+
+const input = await FileBlob.load(workbookPath);
+const workbook = await SpreadsheetFile.importXlsx(input);
+const sheet = workbook.worksheets.getItem("Sheet1");
+const values = sheet.getRange("A1:B3738").values;
+
+if (values[0][0] !== "Status" || values[0][1] !== "Outline Code") {
+  throw new Error(`Unexpected headers: ${JSON.stringify(values[0])}`);
+}
+
+for (let i = 0; i < mappings.length; i++) {
+  const excelRow = i + 2;
+  const status = values[i + 1][0] ?? "";
+  if (status !== mappings[i].status || mappings[i].excelRow !== excelRow) {
+    throw new Error(`Row mismatch at Excel row ${excelRow}: workbook=${JSON.stringify(status)} mapping=${JSON.stringify(mappings[i].status)}`);
+  }
+}
+
+const outputValues = mappings.map((m) => [String(m.selectedCode)]);
+const codeRange = sheet.getRange("B2:B3738");
+codeRange.values = outputValues;
+codeRange.format.numberFormat = "@";
+
+const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+const backupPath = workbookPath.replace(/\.xlsx$/i, `.backup-${stamp}.xlsx`);
+await fs.copyFile(workbookPath, backupPath);
+
+const exported = await SpreadsheetFile.exportXlsx(workbook);
+await exported.save(workbookPath);
+
+console.log(JSON.stringify({
+  wrote: workbookPath,
+  backup: backupPath,
+  rowsWritten: outputValues.length,
+  placeholders: mappings.filter((m) => m.selectedCode === "00000000").map((m) => ({ excelRow: m.excelRow, status: m.status, note: m.note })),
+}, null, 2));

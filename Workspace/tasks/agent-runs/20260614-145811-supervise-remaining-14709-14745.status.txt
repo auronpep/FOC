@@ -1,0 +1,96 @@
+2026-06-14T14:59:05.3746511-07:00 Status: running
+2026-06-14T14:59:05.3761759-07:00 Workspace: C:\FOC\Workspace
+2026-06-14T14:59:05.3762206-07:00 Questions: 14709,14710,14712,14713,14714,14715,14716,14718,14719,14720,14723,14724,14726,14727,14731,14733,14734,14735,14736,14740,14742,14743,14745
+2026-06-14T14:59:05.4100646-07:00 Q14709 launch
+2026-06-14T14:59:05.4466584-07:00 Q14709 pid=20056
+2026-06-14T15:04:20.7368249-07:00 Q14709 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:05:05.7683128-07:00 Q14709 stopping hung process tree after verified output and todo marker
+2026-06-14T15:05:06.8636121-07:00 Q14710 launch
+2026-06-14T15:05:06.8790845-07:00 Q14710 pid=24096
+2026-06-14T15:10:52.1623954-07:00 Q14710 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:11:37.2102978-07:00 Q14710 stopping hung process tree after verified output and todo marker
+2026-06-14T15:11:38.1144921-07:00 Q14712 launch
+2026-06-14T15:11:38.1282900-07:00 Q14712 pid=16188
+2026-06-14T15:16:53.3162478-07:00 Q14712 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:17:38.3401484-07:00 Q14712 stopping hung process tree after verified output and todo marker
+2026-06-14T15:17:39.3440008-07:00 Q14713 launch
+2026-06-14T15:17:39.3584527-07:00 Q14713 pid=31728
+2026-06-14T15:23:09.5593030-07:00 Q14713 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:23:54.5869940-07:00 Q14713 stopping hung process tree after verified output and todo marker
+2026-06-14T15:23:55.4326441-07:00 Q14714 launch
+2026-06-14T15:23:55.4458726-07:00 Q14714 pid=6444
+2026-06-14T15:30:25.6413063-07:00 Q14714 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:31:10.6688676-07:00 Q14714 stopping hung process tree after verified output and todo marker
+2026-06-14T15:31:11.3963976-07:00 Q14715 launch
+2026-06-14T15:31:11.4208160-07:00 Q14715 pid=8440
+2026-06-14T15:37:11.6682692-07:00 Q14715 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:37:56.6908193-07:00 Q14715 stopping hung process tree after verified output and todo marker
+2026-06-14T15:37:57.5481001-07:00 Q14716 launch
+2026-06-14T15:37:57.5616235-07:00 Q14716 pid=28876
+2026-06-14T15:42:57.7567509-07:00 Q14716 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:43:42.7697957-07:00 Q14716 stopping hung process tree after verified output and todo marker
+2026-06-14T15:43:43.5988748-07:00 Q14718 launch
+2026-06-14T15:43:43.6128022-07:00 Q14718 pid=31864
+2026-06-14T15:49:28.8357443-07:00 Q14718 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T15:50:13.8664442-07:00 Q14718 stopping hung process tree after verified output and todo marker
+2026-06-14T15:50:14.7128408-07:00 Q14719 launch
+2026-06-14T15:50:14.7267168-07:00 Q14719 pid=21064
+2026-06-14T16:07:00.2239673-07:00 Q14719 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:07:45.2429431-07:00 Q14719 stopping hung process tree after verified output and todo marker
+2026-06-14T16:07:46.0608505-07:00 Q14720 launch
+2026-06-14T16:07:46.0732499-07:00 Q14720 pid=18316
+2026-06-14T16:14:01.2891295-07:00 Q14720 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:14:46.3051489-07:00 Q14720 stopping hung process tree after verified output and todo marker
+2026-06-14T16:14:47.1818079-07:00 Q14723 launch
+2026-06-14T16:14:47.1959733-07:00 Q14723 pid=22320
+2026-06-14T16:20:17.3639790-07:00 Q14723 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:21:02.3747264-07:00 Q14723 stopping hung process tree after verified output and todo marker
+2026-06-14T16:21:03.2105768-07:00 Q14724 launch
+2026-06-14T16:21:03.2251842-07:00 Q14724 pid=12008
+2026-06-14T16:34:18.7425820-07:00 Q14724 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:35:03.7689842-07:00 Q14724 stopping hung process tree after verified output and todo marker
+2026-06-14T16:35:04.6535796-07:00 Q14726 launch
+2026-06-14T16:35:04.6731034-07:00 Q14726 pid=23152
+2026-06-14T16:40:34.9106129-07:00 Q14726 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:41:19.9238678-07:00 Q14726 stopping hung process tree after verified output and todo marker
+2026-06-14T16:41:20.6605764-07:00 Q14727 launch
+2026-06-14T16:41:20.6714373-07:00 Q14727 pid=14492
+2026-06-14T16:49:05.9660412-07:00 Q14727 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:49:50.9841661-07:00 Q14727 stopping hung process tree after verified output and todo marker
+2026-06-14T16:49:51.8659573-07:00 Q14731 launch
+2026-06-14T16:49:51.8794226-07:00 Q14731 pid=20420
+2026-06-14T16:55:37.0195557-07:00 Q14731 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T16:56:22.0487328-07:00 Q14731 stopping hung process tree after verified output and todo marker
+2026-06-14T16:56:22.7998900-07:00 Q14733 launch
+2026-06-14T16:56:22.8109115-07:00 Q14733 pid=27228
+2026-06-14T17:01:23.0852160-07:00 Q14733 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:02:08.1132412-07:00 Q14733 stopping hung process tree after verified output and todo marker
+2026-06-14T17:02:09.2973672-07:00 Q14734 launch
+2026-06-14T17:02:09.3096243-07:00 Q14734 pid=12312
+2026-06-14T17:08:24.5329470-07:00 Q14734 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:09:09.5433951-07:00 Q14734 stopping hung process tree after verified output and todo marker
+2026-06-14T17:09:10.3038714-07:00 Q14735 launch
+2026-06-14T17:09:10.3207868-07:00 Q14735 pid=23912
+2026-06-14T17:16:40.5681651-07:00 Q14735 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:17:25.6088005-07:00 Q14735 stopping hung process tree after verified output and todo marker
+2026-06-14T17:17:26.8461976-07:00 Q14736 launch
+2026-06-14T17:17:26.8596365-07:00 Q14736 pid=31224
+2026-06-14T17:23:12.0287610-07:00 Q14736 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:23:57.0560774-07:00 Q14736 stopping hung process tree after verified output and todo marker
+2026-06-14T17:23:58.2136843-07:00 Q14740 launch
+2026-06-14T17:23:58.2285415-07:00 Q14740 pid=19248
+2026-06-14T17:29:58.3939019-07:00 Q14740 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:30:43.4369270-07:00 Q14740 stopping hung process tree after verified output and todo marker
+2026-06-14T17:30:44.3309835-07:00 Q14742 launch
+2026-06-14T17:30:44.3441483-07:00 Q14742 pid=12628
+2026-06-14T17:36:44.5620069-07:00 Q14742 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:37:29.5781232-07:00 Q14742 stopping hung process tree after verified output and todo marker
+2026-06-14T17:37:31.1691853-07:00 Q14743 launch
+2026-06-14T17:37:31.1850500-07:00 Q14743 pid=17104
+2026-06-14T17:42:46.3377162-07:00 Q14743 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:43:31.3434662-07:00 Q14743 stopping hung process tree after verified output and todo marker
+2026-06-14T17:43:32.8136951-07:00 Q14745 launch
+2026-06-14T17:43:32.8300276-07:00 Q14745 pid=23860
+2026-06-14T17:57:33.8329718-07:00 Q14745 complete-marker-detected; waiting 45 seconds for clean CLI exit
+2026-06-14T17:58:18.8654959-07:00 Q14745 stopping hung process tree after verified output and todo marker
+2026-06-14T17:58:20.4429106-07:00 Status: complete

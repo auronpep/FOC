@@ -1,0 +1,807 @@
+{
+  "rows": 164,
+  "sourceMapSize": 1470,
+  "officialCodes": 593,
+  "confidenceCounts": {
+    "manual": 79,
+    "high": 85
+  },
+  "sourceCounts": {
+    "manual_override": 79,
+    "row_text_rule": 85
+  },
+  "unsureRows": [],
+  "reviewRows": [
+    {
+      "excelRow": 2,
+      "qid": "20982",
+      "code": "64010500",
+      "path": "Intentional Torts > Privileges",
+      "confidence": "manual",
+      "reason": "manual review: initial aggressor/self-defense privilege in intentional torts",
+      "topCandidate": null,
+      "explanation": "During the course of a fight, the role of aggressor may shift from one person to the other. Although a person is not privileged to defend himself or herself against a privileged (i.e., reasonable) response to his or her own aggression, he or she is privileged to defend himself or herself against an "
+    },
+    {
+      "excelRow": 4,
+      "qid": "17598",
+      "code": "72060201",
+      "path": "Defenses > Justification Defenses > Self-defense",
+      "confidence": "manual",
+      "reason": "manual review: criminal self-defense; imminent deadly force",
+      "topCandidate": null,
+      "explanation": "For a self-defense claim, the harm being defended against must be reasonably imminent. While the danger that someone will be attacked tomorrow is likely insufficient to support a claim of self-defense, courts will not make the defendant wait until the absolute last second before he or she can defend"
+    },
+    {
+      "excelRow": 7,
+      "qid": "17339",
+      "code": "61020402",
+      "path": "Negligence > Causation > Proximate (legal) cause",
+      "confidence": "manual",
+      "reason": "manual review: eggshell-plaintiff/full-consequences proximate cause",
+      "topCandidate": null,
+      "explanation": "Generally, if a tortfeasor negligently causes an injury, the tortfeasor is liable for the full consequences of the injury even though a unique or rare medical condition causes the injury to be much worse than it would have been for an ordinary person. Since the man's negligent flying of the drone kn"
+    },
+    {
+      "excelRow": 8,
+      "qid": "19215",
+      "code": "85030300",
+      "path": "Real Property Contracts > Marketable Title",
+      "confidence": "manual",
+      "reason": "manual review: land-sale marketable title at closing despite assignment",
+      "topCandidate": null,
+      "explanation": "Generally, in the absence of an agreement by the promisee to release the promisor from his or her obligations under a contract, the promisor continues to be bound by his or her promise even after assigning his or her rights. Thus, any rights that the seller had against the buyer under the contract o"
+    },
+    {
+      "excelRow": 9,
+      "qid": "21163",
+      "code": "95070101",
+      "path": "Pretrial Procedures > Pleadings > Complaint",
+      "confidence": "manual",
+      "reason": "manual review: Rule 8 complaint pleading sufficiency",
+      "topCandidate": null,
+      "explanation": "Generally, the federal rules only require that a complaint contain “a short and plain statement of the claim showing that the pleader is entitled to relief.” See Fed. R. Civ. P. 8(a)(2). Under Fed. R. Civ. P. 9, certain other matters, such as fraud, mistake, and special damages require a party to gi"
+    },
+    {
+      "excelRow": 10,
+      "qid": "19797",
+      "code": "33040203",
+      "path": "Hearsay > Hearsay Exemptions > Statements used for non-hearsay purposes",
+      "confidence": "manual",
+      "reason": "manual review: promissory note as independent legal significance, non-hearsay purpose",
+      "topCandidate": null,
+      "explanation": "Hearsay is defined as an out-of-court statement offered for the purpose of proving the truth of the matter asserted in that statement. The language of a promissory note creates an indebtedness. It is offered into evidence for the purpose of establishing that indebtedness (i.e., for its independent l"
+    },
+    {
+      "excelRow": 12,
+      "qid": "21678",
+      "code": "72010303",
+      "path": "General Principles > Elements of Crimes > Causation",
+      "confidence": "manual",
+      "reason": "manual review: criminal causation for involuntary manslaughter",
+      "topCandidate": null,
+      "explanation": "If a person's behavior is grossly negligent, he or she may be liable for involuntary manslaughter if his or her conduct results in the death of another person. Nearly all states hold that the defendant's negligence must be something more than ordinary negligence. “Gross negligence” usually means the"
+    },
+    {
+      "excelRow": 18,
+      "qid": "19318",
+      "code": "54030600",
+      "path": "Defenses to Formation or Enforcement > Mistake / Lack of Mutual Assent",
+      "confidence": "manual",
+      "reason": "manual review: unilateral/intermediary mistake in land sale",
+      "topCandidate": null,
+      "explanation": "If the mistake had been the seller's alone (i.e., unilateral), it would not have prevented the formation of a contract unless the buyer knew or should have known about it. For this reason, if the buyer had known that the parcel described in the writing (#341) had a building on it, while the parcel t"
+    },
+    {
+      "excelRow": 24,
+      "qid": "19473",
+      "code": "71040200",
+      "path": "Inchoate Offenses > Conspiracy",
+      "confidence": "manual",
+      "reason": "manual review: conspiracy liability and withdrawal",
+      "topCandidate": null,
+      "explanation": "In most jurisdictions, once a defendant has become guilty of a conspiracy (by agreeing to commit a crime), he or she cannot avoid criminal responsibility for the crime of conspiracy by withdrawing from or renouncing their plan. A, B, and C are therefore incorrect."
+    },
+    {
+      "excelRow": 30,
+      "qid": "21621",
+      "code": "61020104",
+      "path": "Negligence > Duty > Affirmative duties to act",
+      "confidence": "manual",
+      "reason": "manual review: landholder created risk imposing affirmative duty to protect children",
+      "topCandidate": null,
+      "explanation": "Many jurisdictions have held that a landholder is not obligated to protect even invitees against dangers that result solely from natural conditions of the land. Since the way softball is played and the nature of children make it foreseeable that children using the field would run into the bushes, ho"
+    },
+    {
+      "excelRow": 37,
+      "qid": "20616",
+      "code": "62050102",
+      "path": "Other Torts > Nuisance > Private",
+      "confidence": "manual",
+      "reason": "manual review: private nuisance from airport operation",
+      "topCandidate": null,
+      "explanation": "Private nuisance is a tortious interference with the plaintiff's right to use and enjoy realty, and it may be committed without any physical intrusion onto the realty. Although the county ordinance permitted use of the airport by certain aircraft, the defendant could still be liable for private nuis"
+    },
+    {
+      "excelRow": 41,
+      "qid": "18237",
+      "code": "81020500",
+      "path": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants",
+      "confidence": "manual",
+      "reason": "manual review: restrictive covenant/equitable servitude enforcement",
+      "topCandidate": null,
+      "explanation": "Since the restriction to residential use was contained in the deed by which the sister received her interest in Lot 2, there is no question about whether the restriction is enforceable against her. But since her brother was not a party to the transaction in which the restriction on his sister's use "
+    },
+    {
+      "excelRow": 42,
+      "qid": "18379",
+      "code": "85030300",
+      "path": "Real Property Contracts > Marketable Title",
+      "confidence": "manual",
+      "reason": "manual review: marketable title defeated by easement encumbrance",
+      "topCandidate": null,
+      "explanation": "Since the sales contract called for delivery of marketable title to a parcel consisting of four lots, the buyer could not be required to accept anything less. Outstanding encumbrances — including easements — make a title unmarketable. Since one of the four lots was encumbered by an easement, the sel"
+    },
+    {
+      "excelRow": 43,
+      "qid": "19944",
+      "code": "73020700",
+      "path": "Crimes against the Person > Rape",
+      "confidence": "manual",
+      "reason": "manual review: statutory rape/rape offense",
+      "topCandidate": null,
+      "explanation": "So long as a male defendant is old enough to be convicted of a crime, he may be convicted of statutory rape even though his age is the same as or younger than that of the female victim. A is therefore incorrect. Intoxication is a defense to a criminal charge only if it made the defendant incapable o"
+    },
+    {
+      "excelRow": 49,
+      "qid": "20047",
+      "code": "84040205",
+      "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Covenants of title",
+      "confidence": "manual",
+      "reason": "manual review: deed covenants of title breach",
+      "topCandidate": null,
+      "explanation": "The covenant of seisin is a promise that the grantor has title to and possession of the realty. The covenant against encumbrances is a promise that no other person has encumbrances or liens against the realty. If the realty is not as covenanted, these covenants are breached the moment a deed contain"
+    },
+    {
+      "excelRow": 52,
+      "qid": "19364",
+      "code": "94050100",
+      "path": "Venue > Venue",
+      "confidence": "manual",
+      "reason": "manual review: improper venue waived under Rule 12/Section 1406",
+      "topCandidate": null,
+      "explanation": "The defense of improper venue is waived if it is not made either as a pre-answer motion under Fed. R. Civ. P. 12 or as part of the defendant's answer. When the defendants' submitted their answers without the defense, they waived it. Once that happened, “nothing . . . shall impair the jurisdiction of"
+    },
+    {
+      "excelRow": 57,
+      "qid": "21112",
+      "code": "75080101",
+      "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Statements and Confessions > Voluntary statements",
+      "confidence": "manual",
+      "reason": "manual review: Fifth Amendment self-incrimination, testimonial vs physical identification",
+      "topCandidate": null,
+      "explanation": "The Fifth Amendment to the United States Constitution provides in part that “No person . . . shall be compelled in any criminal case to be a witness against himself.” The privilege only prohibits the government from requiring a testimonial communication, however. It does not protect a person against"
+    },
+    {
+      "excelRow": 58,
+      "qid": "19814",
+      "code": "75080404",
+      "path": "Fifth and Sixth Amendments—Statements, Confessions, and Identifications > Double Jeopardy > Retrial after Attachment",
+      "confidence": "manual",
+      "reason": "manual review: double jeopardy retrial after reversal for insufficient evidence",
+      "topCandidate": null,
+      "explanation": "The Fifth Amendment to the United States Constitution provides that no person shall for the same offense be placed twice in jeopardy of life or limb. In general, this prevents a person from being tried twice for the same crime. Since the defendant has already been tried, the subsequent prosecution v"
+    },
+    {
+      "excelRow": 59,
+      "qid": "20765",
+      "code": "33040302",
+      "path": "Hearsay > Hearsay Exceptions > Not requiring unavailability of declarant",
+      "confidence": "manual",
+      "reason": "manual review: ancient document/vital-record hearsay exceptions not requiring unavailability",
+      "topCandidate": null,
+      "explanation": "The FRE permit the admission, as an “ancient document,” of a properly authenticated writing that is at least 20 years old. Common law usually requires 30 years. A is incorrect under both systems, however, because there is no fact indicating the age of the mother's notation in the Bible. In some juri"
+    },
+    {
+      "excelRow": 60,
+      "qid": "20863",
+      "code": "82010102",
+      "path": "Nature and Ownership of Land > Present Possessory Interests in Land > Defeasible fees",
+      "confidence": "manual",
+      "reason": "manual review: fee simple determinable/defeasible fee",
+      "topCandidate": null,
+      "explanation": "The grant of an interest in realty “for so long as” a certain condition continues to exist or “until” a certain condition shall exist is traditionally held to create a fee simple determinable. One of the characteristics of this particular interest is that it terminates automatically upon the happeni"
+    },
+    {
+      "excelRow": 68,
+      "qid": "19040",
+      "code": "82010301",
+      "path": "Nature and Ownership of Land > Concurrent Estates > Joint tenancy",
+      "confidence": "manual",
+      "reason": "manual review: joint tenancy severance and survivorship",
+      "topCandidate": null,
+      "explanation": "The right of survivorship is the best known characteristic of a joint tenancy. It means that if one of the joint tenants dies, the survivor becomes the owner of the deceased tenant's share. Thus, if the brother died while he and his sister were joint tenants, the sister would have become the sole ow"
+    },
+    {
+      "excelRow": 70,
+      "qid": "18679",
+      "code": "42010107",
+      "path": "Separation of Powers > Legislative Branch > Thirteenth, Fourteenth, and Fifteenth Amendments",
+      "confidence": "manual",
+      "reason": "manual review: Thirteenth Amendment congressional enforcement power",
+      "topCandidate": null,
+      "explanation": "The Thirteenth Amendment provides that, except as a punishment for crime, “Neither slavery nor involuntary servitude . . . shall exist within the United States,” and grants Congress the power to enforce that provision. The United States Supreme Court has held that the prohibition against slavery was"
+    },
+    {
+      "excelRow": 71,
+      "qid": "17122",
+      "code": "62050401",
+      "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Defamation",
+      "confidence": "manual",
+      "reason": "manual review: defamation opinion/fact distinction",
+      "topCandidate": null,
+      "explanation": "The United States Supreme Court has held that because defamation liability can be imposed only for a false statement, and because there is no such thing as a false opinion, defamation liability cannot be imposed for an assertion of opinion. The Supreme Court also ruled that a statement is an asserti"
+    },
+    {
+      "excelRow": 72,
+      "qid": "18687",
+      "code": "75090400",
+      "path": "Sixth Amendment—Other Rights of the Accused > Right to Counsel",
+      "confidence": "manual",
+      "reason": "manual review: Sixth Amendment right to counsel at post-indictment lineup",
+      "topCandidate": null,
+      "explanation": "The United States Supreme Court has held that because manipulation of circumstances surrounding a lineup could create considerable likelihood of inaccuracy, and because it would be difficult at trial to fully develop evidence regarding such manipulation, the Sixth Amendment requires the presence of "
+    },
+    {
+      "excelRow": 76,
+      "qid": "17456",
+      "code": "61020301",
+      "path": "Negligence > Breach > Falling below the standard of care",
+      "confidence": "manual",
+      "reason": "manual review: negligence breach from speeding; no intentional trespass/strict liability",
+      "topCandidate": null,
+      "explanation": "There are only three potential bases of liability in a tort action — intent, negligence, and liability without fault (i.e., strict liability). It is clear from the facts that the defendant's entry onto the plaintiff's realty was not intentional. Operating an automobile is not one of the activities f"
+    },
+    {
+      "excelRow": 77,
+      "qid": "17338",
+      "code": "56050601",
+      "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Impossibility",
+      "confidence": "manual",
+      "reason": "manual review: impossibility/illegality and foreseeability as excuse of duty",
+      "topCandidate": null,
+      "explanation": "There are various theories that might exclude performance because of a change in circumstances, but all require that the change in circumstances be unforeseeable at the time the contract was formed. If the defendant knew on May 1 that many hogs in the area had contracted the disease, it was probably"
+    },
+    {
+      "excelRow": 78,
+      "qid": "20606",
+      "code": "94050100",
+      "path": "Venue > Venue",
+      "confidence": "manual",
+      "reason": "manual review: venue proper districts in diversity action",
+      "topCandidate": null,
+      "explanation": "Therefore, A, B, and C are incorrect."
+    },
+    {
+      "excelRow": 79,
+      "qid": "17077",
+      "code": "82010103",
+      "path": "Nature and Ownership of Land > Present Possessory Interests in Land > Life estates",
+      "confidence": "manual",
+      "reason": "manual review: life estate and remainder after life tenant quitclaim",
+      "topCandidate": null,
+      "explanation": "Therefore, A, B, and D are incorrect."
+    },
+    {
+      "excelRow": 80,
+      "qid": "19872",
+      "code": "95070402",
+      "path": "Pretrial Procedures > Discovery > Devices",
+      "confidence": "manual",
+      "reason": "manual review: Rule 35 physical examination as discovery device",
+      "topCandidate": null,
+      "explanation": "Therefore, A, B, and D are incorrect."
+    },
+    {
+      "excelRow": 81,
+      "qid": "19569",
+      "code": "95070403",
+      "path": "Pretrial Procedures > Discovery > Scope of discovery",
+      "confidence": "manual",
+      "reason": "manual review: expert research discovery/scope",
+      "topCandidate": null,
+      "explanation": "Therefore, B, C, and D are incorrect."
+    },
+    {
+      "excelRow": 82,
+      "qid": "21254",
+      "code": "94040200",
+      "path": "Notice and Service of Process > Service of Process",
+      "confidence": "manual",
+      "reason": "manual review: service under forum long-arm rule",
+      "topCandidate": null,
+      "explanation": "Therefore, B, C, and D are incorrect."
+    },
+    {
+      "excelRow": 83,
+      "qid": "19754",
+      "code": "85030102",
+      "path": "Real Property Contracts > Land-Sale Contracts > Essential terms",
+      "confidence": "manual",
+      "reason": "manual review: land-sale contract essential terms/price definiteness",
+      "topCandidate": null,
+      "explanation": "To be enforceable, a contract must be definite and certain in all its basic terms. One way of determining whether a purported agreement is sufficiently definite and certain is to ask whether its terms make it possible for a court to fashion a remedy for its breach. Most of the time, this requires th"
+    },
+    {
+      "excelRow": 87,
+      "qid": "18591",
+      "code": "94010300",
+      "path": "Federal Subject-Matter Jurisdiction > Supplemental Jurisdiction",
+      "confidence": "manual",
+      "reason": "manual review: supplemental jurisdiction/common nucleus for joined claim",
+      "topCandidate": null,
+      "explanation": "Under Fed. R. Civ. P. 18(a), joinder of the additional contract claim against the dealer would be proper. However, a claim joined under Fed. R. Civ. P. 18(a) cannot be brought into federal court based on supplemental jurisdiction unless the claims are part of the same case or controversy. Because th"
+    },
+    {
+      "excelRow": 88,
+      "qid": "18055",
+      "code": "95070303",
+      "path": "Pretrial Procedures > Multiple Parties and Claims > Class actions",
+      "confidence": "manual",
+      "reason": "manual review: Rule 23 class action requirements",
+      "topCandidate": null,
+      "explanation": "Under Fed. R. Civ. P. 23(a), the requirements for a class action are numerosity, common questions of law or fact, typicality of claim or defenses, and adequate representation. Here, there are 800 residents who are all being forcibly removed from their homes by the city, which is apparently doing so "
+    },
+    {
+      "excelRow": 90,
+      "qid": "21349",
+      "code": "94020000",
+      "path": "Personal Jurisdiction",
+      "confidence": "manual",
+      "reason": "manual review: personal jurisdiction under Rule 4(k)(1)(B) bulge service",
+      "topCandidate": null,
+      "explanation": "Under Fed. R. Civ. P. 4(k)(1)(B), “serving a summons or filing a waiver of service establishes personal jurisdiction over a defendant . . . who is a party joined under Rule 14 or 19 and is served within a judicial district of the United States and not more than 100 miles from where the summons was i"
+    },
+    {
+      "excelRow": 91,
+      "qid": "19257",
+      "code": "92080204",
+      "path": "Motions > Trial and Post-Trial Motions > Motion for new trial",
+      "confidence": "manual",
+      "reason": "manual review: Rule 59 new trial for inadequate damages",
+      "topCandidate": null,
+      "explanation": "Under Fed. R. Civ. P. 59(d), a district court can order a new trial on its own for any reason that would justify granting one on a party's motion. Because inadequate damages could be the basis for a new trial, the trial judge can order a new trial. A and B are incorrect because additur, or offering "
+    },
+    {
+      "excelRow": 92,
+      "qid": "17983",
+      "code": "33040201",
+      "path": "Hearsay > Hearsay Exemptions > Prior statement of witness",
+      "confidence": "manual",
+      "reason": "manual review: prior consistent statement to rebut recent fabrication",
+      "topCandidate": null,
+      "explanation": "Under FRE 803(2), a statement is admissible as an excited utterance if it was made about a startling event while the declarant was under the stress of excitement caused by that event. Ordinarily, this requires the statement to have been made either during the event or immediately thereafter. Since a"
+    },
+    {
+      "excelRow": 93,
+      "qid": "21137",
+      "code": "33040302",
+      "path": "Hearsay > Hearsay Exceptions > Not requiring unavailability of declarant",
+      "confidence": "manual",
+      "reason": "manual review: business record/absence of business record exception",
+      "topCandidate": null,
+      "explanation": "Under FRE 803(6), a properly authenticated writing may be admitted under the business record exception to the hearsay rule if it was made in the regular course of business while fresh in the declarant's mind about facts that the declarant knew or learned from an inherently reliable source. Since the"
+    },
+    {
+      "excelRow": 95,
+      "qid": "18098",
+      "code": "81020602",
+      "path": "Non-Possessory Rights and Interests in Land > Fixtures > Ownership",
+      "confidence": "manual",
+      "reason": "manual review: fixture ownership by accession",
+      "topCandidate": null,
+      "explanation": "Under the doctrine of accession, the owner of realty becomes the owner of anything that becomes part of it as well. Thus, if the storage building has become part of the realty, the tenant may not remove it. Unless the parties agree, however, the decision as to whether the building has become part of"
+    },
+    {
+      "excelRow": 96,
+      "qid": "19929",
+      "code": "56050601",
+      "path": "Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Impossibility",
+      "confidence": "manual",
+      "reason": "manual review: impossibility and foreseeable market-price burden",
+      "topCandidate": null,
+      "explanation": "Under the doctrine of impossibility of performance, a party may be excused from obligations under a contract if an unforeseeable change in circumstances has made performance vitally different than that which was contemplated by the parties at the time the contract was formed. On the other hand, if t"
+    },
+    {
+      "excelRow": 97,
+      "qid": "18553",
+      "code": "52040300",
+      "path": "Gap-Fillers, Interpretation, and the Parol Evidence Rule > Parol Evidence Rule",
+      "confidence": "manual",
+      "reason": "manual review: parol evidence to clarify ambiguity",
+      "topCandidate": null,
+      "explanation": "Under the parol evidence rule, extrinsic evidence of prior agreements or negotiations is not admissible to contradict or modify an unambiguous written contract that the parties intended as a complete expression of their agreement. The rule does not prevent the use of extrinsic evidence for other pur"
+    },
+    {
+      "excelRow": 99,
+      "qid": "17642",
+      "code": "82010503",
+      "path": "Nature and Ownership of Land > Problems with Interests in Land > Rule Against Perpetuities",
+      "confidence": "manual",
+      "reason": "manual review: Rule Against Perpetuities and defeasible interests",
+      "topCandidate": null,
+      "explanation": "Under the Rule Against Perpetuities, no interest is good if it can vest after a particular period of time. The creation of an interest that might vest after the period is thus void under the Rule, but the Rule has no effect on the termination of an existing interest. A is incorrect for this reason a"
+    },
+    {
+      "excelRow": 100,
+      "qid": "18351",
+      "code": "82010503",
+      "path": "Nature and Ownership of Land > Problems with Interests in Land > Rule Against Perpetuities",
+      "confidence": "manual",
+      "reason": "manual review: Rule Against Perpetuities validity of son's future interest",
+      "topCandidate": null,
+      "explanation": "Under the Rule Against Perpetuities, no interest is good unless it must vest if at all within a period measured by a life or lives in being plus 21 years. Thus, a future interest that might never vest at all is valid under the Rule so long as the language that created it will prevent it from vesting"
+    },
+    {
+      "excelRow": 101,
+      "qid": "17019",
+      "code": "82010404",
+      "path": "Nature and Ownership of Land > Landlord and Tenant > Assignments and subletting",
+      "confidence": "manual",
+      "reason": "manual review: landlord-tenant assignment/sublease and rent liability",
+      "topCandidate": null,
+      "explanation": "Unless a landlord specifically agrees to release a tenant from further obligations under a lease, assignment or sublease does not relieve the original tenant from those obligations. For this reason, the landlord can collect unpaid rent from the first attorney. Since the landlord was an intended thir"
+    },
+    {
+      "excelRow": 103,
+      "qid": "18683",
+      "code": "81020103",
+      "path": "Non-Possessory Rights and Interests in Land > Easements > Scope",
+      "confidence": "manual",
+      "reason": "manual review: easement scope/duties from grant terms",
+      "topCandidate": null,
+      "explanation": "Unless the parties expressly agree otherwise, the owner of the servient estate is not required to repair or maintain the property used in the easement. Here, there was no express agreement regarding repair between the parties, so the owner who granted the easement has no duty to repair the bridge. B"
+    },
+    {
+      "excelRow": 104,
+      "qid": "21083",
+      "code": "51060101",
+      "path": "Remedies > Damages > Expectation damages",
+      "confidence": "manual",
+      "reason": "manual review: seller resale/contract-resale differential as expectation damages",
+      "topCandidate": null,
+      "explanation": "Upon breach by a buyer, UCC §2-706 provides that the seller may resell the goods in a commercially reasonable manner and recover damages equivalent to the difference between the contract price and the price that the seller actually received upon the resale. Here, since the plaintiff resold the chair"
+    },
+    {
+      "excelRow": 105,
+      "qid": "21363",
+      "code": "81020103",
+      "path": "Non-Possessory Rights and Interests in Land > Easements > Scope",
+      "confidence": "manual",
+      "reason": "manual review: scope of easement created by grant",
+      "topCandidate": null,
+      "explanation": "When an easement is created by grant, the language of the grant determines the scope of the easement. When that language is unclear, the courts most often determine the scope of the easement on the basis of what could reasonably have been anticipated at the time the easement was created. Although th"
+    },
+    {
+      "excelRow": 107,
+      "qid": "20917",
+      "code": "32020402",
+      "path": "Relevance > Character Evidence > Prohibited uses of character evidence",
+      "confidence": "manual",
+      "reason": "manual review: prohibited character/propensity evidence and relevance",
+      "topCandidate": null,
+      "explanation": "A basic principle of the law of evidence is that only evidence that is relevant to a material issue may be received in evidence. Evidence is logically relevant to a material issue if it has any tendency to prove or disprove a fact of consequence. Since the defendant is charged with assaulting the vi"
+    },
+    {
+      "excelRow": 108,
+      "qid": "20085",
+      "code": "56050102",
+      "path": "Performance, Breach, and Excuse > Conditions > Conditions",
+      "confidence": "manual",
+      "reason": "manual review: condition precedent to broker commission",
+      "topCandidate": null,
+      "explanation": "A contract may make the happening of a particular event a condition precedent to the performance of a contractual duty. If so, one party's strict compliance with the condition makes the other party's conditional duty absolute. The terms of the commission agreement made the broker's delivery prior to"
+    },
+    {
+      "excelRow": 110,
+      "qid": "21737",
+      "code": "64010203",
+      "path": "Intentional Torts > Intentional Torts to Property > Conversion",
+      "confidence": "manual",
+      "reason": "manual review: killing dog as conversion; mistake not privilege",
+      "topCandidate": null,
+      "explanation": "A defendant's conduct is not privileged solely by virtue of the fact that he or she made a mistake. Consequently, while the defendants may have made a good faith mistake in mistaking the farmer's dog for a wolf, they will still be liable for the farmer's damages. A, B, and C are therefore incorrect."
+    },
+    {
+      "excelRow": 111,
+      "qid": "20934",
+      "code": "82010504",
+      "path": "Nature and Ownership of Land > Problems with Interests in Land > Restraints on alienation",
+      "confidence": "manual",
+      "reason": "manual review: direct restraints on alienation",
+      "topCandidate": null,
+      "explanation": "A direct restraint on alienation is a covenant or condition that attempts to control the alienability of the estate granted. A disabling restraint purports to withhold the grantee's power to alienate. A promissory restraint consists of a covenant not to alienate. It does not withhold the covenantor'"
+    },
+    {
+      "excelRow": 112,
+      "qid": "21837",
+      "code": "93110300",
+      "path": "Appeal and Review > Scope of Review",
+      "confidence": "manual",
+      "reason": "manual review: appellate scope/standard of review",
+      "topCandidate": null,
+      "explanation": "A is incorrect because a question of law is an issue that must be decided by applying legal principles (for example, whether a police officer had probable cause to arrest a suspect). C and D are incorrect because abuse of discretion is the standard applied to the discretionary decisions of a trial c"
+    },
+    {
+      "excelRow": 113,
+      "qid": "19703",
+      "code": "84040406",
+      "path": "Titles, Deeds, and Conveyancing > Recording Acts > Priorities",
+      "confidence": "manual",
+      "reason": "manual review: recording act priorities and chain of title",
+      "topCandidate": null,
+      "explanation": "A is incorrect because although the statute makes the payment of value a condition for the superiority of a subsequent grantee's interest, it does not impose such a requirement on the prior grantee. Since the “race” aspect of the statute makes priority depend on who recorded first, the fact that the"
+    },
+    {
+      "excelRow": 116,
+      "qid": "18855",
+      "code": "44040303",
+      "path": "Individual Rights > Equal Protection Clause > Strict scrutiny (suspect) classifications",
+      "confidence": "manual",
+      "reason": "manual review: alienage as suspect classification strict scrutiny",
+      "topCandidate": null,
+      "explanation": "A is incorrect because not all “traditional” government activities fall into this category. Since alienage is a suspect classification, B is incorrect because a rational basis is not sufficient to justify a classification based on alienage. Statutes that interfere with fundamental interests — like t"
+    },
+    {
+      "excelRow": 117,
+      "qid": "17428",
+      "code": "84040403",
+      "path": "Titles, Deeds, and Conveyancing > Recording Acts > Bona fide purchaser",
+      "confidence": "manual",
+      "reason": "manual review: recording statute protection requires purchaser for value",
+      "topCandidate": null,
+      "explanation": "A is incorrect because recording statutes protect only those who purchase for value. Since the nurse received by will and without consideration, the husband's failure to record would not give the nurse a priority. Although a quitclaim deed does not imply any warranties or covenants, it does serve to"
+    },
+    {
+      "excelRow": 118,
+      "qid": "17847",
+      "code": "56050102",
+      "path": "Performance, Breach, and Excuse > Conditions > Conditions",
+      "confidence": "manual",
+      "reason": "manual review: express condition and substantial performance",
+      "topCandidate": null,
+      "explanation": "A is incorrect because the architect was not a party to the contract between the defendant and the plaintiff, and that contract therefore could not have imposed duties on the architect. It is sometimes said that express conditions of a contract must be fully satisfied, but that “substantial performa"
+    },
+    {
+      "excelRow": 119,
+      "qid": "18138",
+      "code": "94030100",
+      "path": "Removal and Remand > Removal to Federal Court",
+      "confidence": "manual",
+      "reason": "manual review: removal based on diversity/corporate citizenship",
+      "topCandidate": null,
+      "explanation": "A is incorrect because the claim can still be removed even if it is based on State A motor vehicle law. B is incorrect because although the moving company did 70 percent of its business in State A, it is not a citizen of State A. D is incorrect because the company's belief regarding fairness would n"
+    },
+    {
+      "excelRow": 120,
+      "qid": "18373",
+      "code": "44040304",
+      "path": "Individual Rights > Equal Protection Clause > Intermediate scrutiny (quasi-suspect) classifications",
+      "confidence": "manual",
+      "reason": "manual review: gender classification/intermediate scrutiny",
+      "topCandidate": null,
+      "explanation": "A is incorrect because the fact that a system of classification does or does not discriminate against a suspect class determines the standard to be applied, but it does not itself determine whether the statute is constitutional. B is incorrect because a rational basis is not sufficient to make const"
+    },
+    {
+      "excelRow": 122,
+      "qid": "21496",
+      "code": "43020201",
+      "path": "Judicial Review > Jurisdiction of Courts > Constitutional limitations and justiciability",
+      "confidence": "manual",
+      "reason": "manual review: standing/justiciability to challenge Commerce Clause tax",
+      "topCandidate": null,
+      "explanation": "A is incorrect because there is no fact indicating that the people of the neighboring state face any injury under the statute, and additionally because a state government does not have standing as a representative of its residents. Since the corporation in C does not have annual gross sales in exces"
+    },
+    {
+      "excelRow": 124,
+      "qid": "17113",
+      "code": "51060304",
+      "path": "Remedies > Equitable Remedies > Specific performance",
+      "confidence": "manual",
+      "reason": "manual review: specific performance unavailable for personal services",
+      "topCandidate": null,
+      "explanation": "A is therefore incorrect. An agreement not to assign usually destroys the right but not the power to make an effective assignment. This means that an assignment made in the face of such an agreement is usually valid, although the assignor might be liable for damages resulting from the assignment and"
+    },
+    {
+      "excelRow": 128,
+      "qid": "21405",
+      "code": "62050200",
+      "path": "Other Torts > Misrepresentation",
+      "confidence": "manual",
+      "reason": "manual review: misrepresentation reliance/intent",
+      "topCandidate": null,
+      "explanation": "A misrepresentation is a false assertion of material fact intended to induce the plaintiff's reliance. A defendant intends to induce the plaintiff's reliance if he or she knows with substantial certainty that a class of persons to which the plaintiff belongs will rely on his or her statement. If the"
+    },
+    {
+      "excelRow": 129,
+      "qid": "20448",
+      "code": "92080202",
+      "path": "Motions > Trial and Post-Trial Motions > Renewed Motion for Judgment as a Matter of Law",
+      "confidence": "manual",
+      "reason": "manual review: renewed JMOL requires earlier JMOL motion",
+      "topCandidate": null,
+      "explanation": "A motion for judgment as a matter of law is made before the case is submitted to a jury and asks the court for judgment in the moving party's favor based on the argument that no reasonable person could come to a different conclusion. A renewed motion for judgment as a matter of law comes after entry"
+    },
+    {
+      "excelRow": 131,
+      "qid": "19635",
+      "code": "43020201",
+      "path": "Judicial Review > Jurisdiction of Courts > Constitutional limitations and justiciability",
+      "confidence": "manual",
+      "reason": "manual review: justiciability/abstention in constitutional challenge",
+      "topCandidate": null,
+      "explanation": "A non-justiciable political controversy is a case in which a federal court is asked to interfere with the operation of a co-equal branch of the federal government. A is incorrect because the challenge raised by the girl's parents is to a state law, not to an action of the federal government. The Ele"
+    },
+    {
+      "excelRow": 132,
+      "qid": "19216",
+      "code": "56050403",
+      "path": "Performance, Breach, and Excuse > Breach > Anticipatory repudiation",
+      "confidence": "manual",
+      "reason": "manual review: anticipatory repudiation",
+      "topCandidate": null,
+      "explanation": "A party's unequivocal statement that he or she will not perform is an anticipatory repudiation and entitles the other party to all rights resulting from a breach. The plaintiff's statement that she would not accept the coins in payment for the chickens was such a statement. Its result was to free th"
+    },
+    {
+      "excelRow": 134,
+      "qid": "18923",
+      "code": "61020203",
+      "path": "Negligence > Standard of Due Care > Negligent infliction of emotional distress",
+      "confidence": "manual",
+      "reason": "manual review: negligent infliction of emotional distress/bystander recovery",
+      "topCandidate": null,
+      "explanation": "A plaintiff who experiences mental suffering as a result of witnessing the infliction of a physical injury on another may recover from a person who negligently inflicted that physical injury. Although the majority of jurisdictions permit such recovery only when the plaintiff is in the same zone of p"
+    },
+    {
+      "excelRow": 135,
+      "qid": "21694",
+      "code": "41030403",
+      "path": "The Federal-State Relationship > Tenth Amendment and the Scope of State Authority > State taxation",
+      "confidence": "manual",
+      "reason": "manual review: state taxation and intergovernmental/Dormant Commerce limits",
+      "topCandidate": null,
+      "explanation": "A state attempt to regulate interstate commerce may violate the Commerce Clause of the United States Constitution. A is incorrect, however, because a sales tax imposed on the purchase of materials used to build a bridge does not regulate interstate commerce, even though interstate vehicles may event"
+    },
+    {
+      "excelRow": 139,
+      "qid": "18824",
+      "code": "62050401",
+      "path": "Other Torts > Defamation, Privacy, and Reputation Torts > Defamation",
+      "confidence": "manual",
+      "reason": "manual review: defamation/libel public figure damage rules",
+      "topCandidate": null,
+      "explanation": "Although some states recognize a privilege to publish false statements that are contained in public records, there is no privilege to misstate the contents of a public record. A is therefore incorrect. A defendant who defamed a public figure may be liable if he or she had “actual malice” as defined "
+    },
+    {
+      "excelRow": 140,
+      "qid": "18199",
+      "code": "41030402",
+      "path": "The Federal-State Relationship > Tenth Amendment and the Scope of State Authority > Dormant Commerce Clause",
+      "confidence": "manual",
+      "reason": "manual review: Dormant Commerce Clause discrimination/burden",
+      "topCandidate": null,
+      "explanation": "Although the Commerce Clause gives Congress the power to regulate interstate commerce, some regulation by the states is permitted so long as the effect is not to discriminate against or impose an undue burden on interstate commerce. Even state regulations that do discriminate against interstate comm"
+    },
+    {
+      "excelRow": 141,
+      "qid": "20896",
+      "code": "55020204",
+      "path": "Formation > Consideration > Preexisting duty",
+      "confidence": "manual",
+      "reason": "manual review: preexisting duty in promise to pay extra for same service",
+      "topCandidate": null,
+      "explanation": "Although the Statute of Frauds makes an oral contract for the purchase of goods with a price of $500 or more unenforceable over objection, A is incorrect because the agreement between the farmer and the worker was not for the sale of goods. Duress is some compulsion or restraint that deprives a cont"
+    },
+    {
+      "excelRow": 149,
+      "qid": "21860",
+      "code": "43020201",
+      "path": "Judicial Review > Jurisdiction of Courts > Constitutional limitations and justiciability",
+      "confidence": "manual",
+      "reason": "manual review: Article III constitutional limits on federal jurisdiction",
+      "topCandidate": null,
+      "explanation": "Article III of the United States Constitution vests federal judicial power in the United States Supreme Court and in such inferior federal courts as Congress shall establish. In addition, by specifying what cases they may hear, Article III establishes limits on the jurisdiction that may be exercised"
+    },
+    {
+      "excelRow": 153,
+      "qid": "20582",
+      "code": "97100300",
+      "path": "Judgments and Verdicts > Issue and Claim Preclusion",
+      "confidence": "manual",
+      "reason": "manual review: collateral estoppel/issue preclusion",
+      "topCandidate": null,
+      "explanation": "B is incorrect because a subsequent action may not necessarily be barred even if it arose from the same transaction or occurrence. C is incorrect because, although the action did not have to be brought as a compulsory counterclaim, the truck driver could still be collaterally estopped from forcing t"
+    },
+    {
+      "excelRow": 154,
+      "qid": "21371",
+      "code": "82010301",
+      "path": "Nature and Ownership of Land > Concurrent Estates > Joint tenancy",
+      "confidence": "manual",
+      "reason": "manual review: joint tenancy/tenancy in common ownership after simultaneous deaths",
+      "topCandidate": null,
+      "explanation": "B is incorrect because the daughter's tenancy in common with the niece and the husband gave her no right to their interest. C is incorrect because the landowner's will did not make the shares of the co-owners equal but specified that the daughter held a one-half interest, and that the other one-half"
+    },
+    {
+      "excelRow": 155,
+      "qid": "19327",
+      "code": "32020803",
+      "path": "Relevance > Expert Testimony > Basis of expert testimony",
+      "confidence": "manual",
+      "reason": "manual review: expert testimony basis on otherwise inadmissible statement",
+      "topCandidate": null,
+      "explanation": "B is incorrect because the fact the expert did not interview the maintenance worker herself does not change the analysis. C is incorrect because the expert's use of the statement in her testimony does not change the inadmissible statement to an admissible one."
+    },
+    {
+      "excelRow": 158,
+      "qid": "19053",
+      "code": "33040301",
+      "path": "Hearsay > Hearsay Exceptions > Requiring unavailability of declarant",
+      "confidence": "manual",
+      "reason": "manual review: dying declaration/unavailable declarant exception",
+      "topCandidate": null,
+      "explanation": "B is incorrect because while the Federal Rules of Evidence (FRE) require the declarant to be unavailable, it does not require that he have died from the incident described in his statement, or even that he is dead. Although some controversy exists at common law about whether a dying declaration is a"
+    },
+    {
+      "excelRow": 159,
+      "qid": "19310",
+      "code": "52040200",
+      "path": "Gap-Fillers, Interpretation, and the Parol Evidence Rule > Interpretation",
+      "confidence": "manual",
+      "reason": "manual review: trade usage to interpret contract terms",
+      "topCandidate": null,
+      "explanation": "B is therefore incorrect. Ordinarily, parties to a contract are understood to accept the economic risks resulting from subsequent events that were within their contemplation at the time the contract was formed. This means that if the parties did contemplate a decline in new home starts, a strong arg"
+    },
+    {
+      "excelRow": 160,
+      "qid": "17898",
+      "code": "64010500",
+      "path": "Intentional Torts > Privileges",
+      "confidence": "manual",
+      "reason": "manual review: consent privilege/defense to battery in sports",
+      "topCandidate": null,
+      "explanation": "Battery is the intentional infliction of a harmful or offensive bodily contact. However, consent is a complete defense to battery, and a plaintiff's consent can be implied by the plaintiff's actions. Here, by taking part in the soccer game, the plaintiff impliedly consented to having the ball kicked"
+    },
+    {
+      "excelRow": 161,
+      "qid": "19986",
+      "code": "94010200",
+      "path": "Federal Subject-Matter Jurisdiction > Federal-Question Jurisdiction",
+      "confidence": "manual",
+      "reason": "manual review: federal question subject-matter jurisdiction",
+      "topCandidate": null,
+      "explanation": "Because the woman is bringing a federal claim, any issues regarding the citizenship of the parties are irrelevant. Therefore, A, B, and D are incorrect."
+    },
+    {
+      "excelRow": 162,
+      "qid": "20352",
+      "code": "84040203",
+      "path": "Titles, Deeds, and Conveyancing > Conveyance by Deed > Delivery and acceptance",
+      "confidence": "manual",
+      "reason": "manual review: deed delivery/acceptance; later destruction does not revoke",
+      "topCandidate": null,
+      "explanation": "C is incorrect because whether or not the son made a photocopy wouldn't change the analysis."
+    },
+    {
+      "excelRow": 164,
+      "qid": "19761",
+      "code": "82010200",
+      "path": "Nature and Ownership of Land > Future Interests",
+      "confidence": "manual",
+      "reason": "manual review: future interest in devise; sparse explanation",
+      "topCandidate": null,
+      "explanation": "Consequently, A, B, and D are incorrect."
+    }
+  ],
+  "invalidRows": []
+}

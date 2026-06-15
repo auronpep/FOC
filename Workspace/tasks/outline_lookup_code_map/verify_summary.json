@@ -1,0 +1,48 @@
+{
+  "workbookPath": "C:/Users/JesusLovesMe/Documents/outline lookup.xlsx",
+  "dataRows": 3737,
+  "mappingRows": 3737,
+  "nonblankCodes": 3737,
+  "placeholders": 2,
+  "placeholderRows": [
+    {
+      "excelRow": 323,
+      "status": ""
+    },
+    {
+      "excelRow": 941,
+      "status": "ghl"
+    }
+  ],
+  "uniqueCodes": 254,
+  "mismatches": 0,
+  "invalidCodes": 0,
+  "invalidCodeSamples": [],
+  "sampleRows": [
+    {
+      "excelRow": 2,
+      "status": "contracts_remedies_questions_batch_004_node_a1_expectation_damages_lost_profits_certainty::r11::Q10",
+      "outlineCode": "51060101"
+    },
+    {
+      "excelRow": 98,
+      "status": "contracts_remedies_questions_batch_002_node_a2_reliance_damages::r2::REM-DAM-RELIANCE-001",
+      "outlineCode": "51060102"
+    },
+    {
+      "excelRow": 323,
+      "status": "",
+      "outlineCode": "00000000"
+    },
+    {
+      "excelRow": 941,
+      "status": "ghl",
+      "outlineCode": "00000000"
+    },
+    {
+      "excelRow": 3738,
+      "status": "privileges_policy_question_batch_003::r20::PPE2-0202",
+      "outlineCode": "35030204"
+    }
+  ]
+}
