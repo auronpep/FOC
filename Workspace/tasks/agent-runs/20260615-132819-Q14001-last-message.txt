@@ -1,0 +1,15 @@
+Completed Q14001 only.
+
+Saved the output to [Finished/CQ14001.md](C:/FOC/Workspace/Finished/CQ14001.md) and recorded review results in [tasks/todo.md](C:/FOC/Workspace/tasks/todo.md).
+
+Verified:
+- JSON Blocks 3, 4, and 5 parse successfully.
+- Key/residual/official key are consistently `B`.
+- Outline code `93110100` is verified and reused consistently.
+- Predicted pick rates sum to 100: A 29, B 43, C 10, D 18.
+- Gold/Silver keys match across Blocks 3 and 5.
+- ASCII-only, no tracking URLs, no trailing whitespace.
+
+Authority checked against 28 U.S.C. 1291 and the collateral-order formulation in Mohawk/Cohen: https://www.law.cornell.edu/uscode/text/28/1291 and https://www.law.cornell.edu/supct/html/08-678.ZO.html.
+
+Stopped after Q14001; no other question was started.

@@ -1,0 +1,6 @@
+# Preview commands only. Running this file would launch OpenClaw agent work.
+# Generated from C:\FOC\Workspace\incoming\LPOC.openclaw-manifest.json
+
+& 'C:\FOC\bin\openclaw.ps1' --no-color agent --agent 'main' --session-key 'cq15003' --model 'anthropic/claude-sonnet-4-6' --thinking 'max' --verbose 'on' --timeout '28800' --json --message 'Please do this BarMatrix Multiple Choice Bar Exam Question 15003. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\FOC\Workspace\Finished\CQ15003.md.'
+& 'C:\FOC\bin\openclaw.ps1' --no-color agent --agent 'main' --session-key 'cq14482' --model 'openai/gpt-5.5' --thinking 'xhigh' --verbose 'on' --timeout '28800' --json --message 'Please do this BarMatrix Multiple Choice Bar Exam Question 14482. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\FOC\Workspace\Finished\CQ14482.md.'
+& 'C:\FOC\bin\openclaw.ps1' --no-color agent --agent 'main' --session-key 'cq15017' --model 'openrouter/owl-alpha' --thinking 'high' --verbose 'on' --timeout '28800' --json --message 'Please do this BarMatrix Multiple Choice Bar Exam Question 15017. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\FOC\Workspace\Finished\CQ15017.md.'

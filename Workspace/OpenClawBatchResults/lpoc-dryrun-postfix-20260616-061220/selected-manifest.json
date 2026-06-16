@@ -1,0 +1,54 @@
+{
+  "schema": "openclaw-lpoc-run-selection.v1",
+  "generatedAt": "2026-06-16T06:12:20.5565674-07:00",
+  "manifestPath": "C:\\FOC\\Workspace\\incoming\\LPOC.openclaw-manifest.json",
+  "openClawPath": "C:\\FOC\\bin\\openclaw.ps1",
+  "runLabel": "lpoc-dryrun-postfix-20260616-061220",
+  "launch": false,
+  "throttleLimit": 3,
+  "count": 3,
+  "skipExisting": false,
+  "force": true,
+  "skipVerify": false,
+  "requireLedger": false,
+  "startsPath": "C:\\FOC\\Workspace\\OpenClawBatchResults\\lpoc-dryrun-postfix-20260616-061220\\starts.jsonl",
+  "summaryPath": "C:\\FOC\\Workspace\\OpenClawBatchResults\\lpoc-dryrun-postfix-20260616-061220\\batch-summary.jsonl",
+  "items": [
+    {
+      "index": 1,
+      "questionId": 14423,
+      "model": "xai/grok-build-0.1",
+      "thinking": "high",
+      "sessionKey": "cq14423",
+      "timeoutSeconds": 28800,
+      "verbose": "on",
+      "qbankPath": "C:\\FOC\\Workspace\\QBank\\14423.md",
+      "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ14423.md",
+      "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 14423. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ14423.md."
+    },
+    {
+      "index": 2,
+      "questionId": 14990,
+      "model": "openai/gpt-5.5",
+      "thinking": "xhigh",
+      "sessionKey": "cq14990",
+      "timeoutSeconds": 28800,
+      "verbose": "on",
+      "qbankPath": "C:\\FOC\\Workspace\\QBank\\14990.md",
+      "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ14990.md",
+      "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 14990. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ14990.md."
+    },
+    {
+      "index": 3,
+      "questionId": 15050,
+      "model": "openrouter/owl-alpha",
+      "thinking": "high",
+      "sessionKey": "cq15050",
+      "timeoutSeconds": 28800,
+      "verbose": "on",
+      "qbankPath": "C:\\FOC\\Workspace\\QBank\\15050.md",
+      "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ15050.md",
+      "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 15050. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ15050.md."
+    }
+  ]
+}

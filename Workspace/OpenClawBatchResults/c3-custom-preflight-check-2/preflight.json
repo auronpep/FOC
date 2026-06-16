@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-06-16T01:50:40.2201510-07:00",
+  "launch": false,
+  "workspace": "C:\\FOC\\Workspace",
+  "runRoot": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-custom-preflight-check-2",
+  "openclaw": "C:\\FOC\\bin\\openclaw.ps1",
+  "throttleLimit": 4,
+  "timeoutSeconds": 28800,
+  "preflightTimeoutSeconds": 15,
+  "skipVerify": false,
+  "force": false,
+  "plannedCount": 1,
+  "runnableCount": 1,
+  "skippedExistingCount": 0,
+  "models": [
+    "openai/gpt-5.5",
+    "openai/gpt-5.4-mini",
+    "openrouter/owl-alpha",
+    "github-copilot/gpt-5-mini",
+    "nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b",
+    "nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct",
+    "nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b",
+    "nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b",
+    "minimax/MiniMax-M2.7"
+  ],
+  "healthOk": true,
+  "gatewayReachable": true,
+  "activeTasks": 0,
+  "queuedTasks": 0,
+  "runningTasks": 0,
+  "missingModels": [],
+  "unavailableModels": []
+}

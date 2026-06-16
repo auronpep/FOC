@@ -1,0 +1,79 @@
+{
+  "schema": "openclaw-lpoc-batch.v1",
+  "generatedAt": "2026-06-16T04:43:44.6792321-07:00",
+  "sourceCsv": "C:\\FOC\\Workspace\\incoming\\LPOC.csv",
+  "sourceManifest": "C:\\FOC\\Workspace\\incoming\\LPOC.openclaw-manifest.json",
+  "selection": "sonnet-mini-owl-no-gpt55",
+  "count": 3,
+  "defaults": {
+    "openClawPath": "C:\\FOC\\bin\\openclaw.ps1",
+    "agent": "main",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "sessionKeyTemplate": "cq<questionId>",
+    "outputPathTemplate": "C:\\FOC\\Workspace\\Finished\\CQ<questionId>.md",
+    "qbankPathTemplate": "C:\\FOC\\Workspace\\QBank\\<questionId>.md",
+    "messageTemplate": "Please do this BarMatrix Multiple Choice Bar Exam Question <questionId>. Complete any research needed, do not stop at planning, verify your work, and save the entire response to <outputPath>."
+  },
+  "checks": {
+    "excludedModels": [
+      "openai/gpt-5.5"
+    ],
+    "existingFinishedFiles": []
+  },
+  "modelCounts": [
+    {
+      "model": "anthropic/claude-sonnet-4-6",
+      "count": 1,
+      "thinking": "high"
+    },
+    {
+      "model": "minimax/MiniMax-M3",
+      "count": 1,
+      "thinking": "adaptive"
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "count": 1,
+      "thinking": "high"
+    }
+  ],
+  "items": [
+    {
+      "index": 1,
+      "questionId": 14894,
+      "model": "anthropic/claude-sonnet-4-6",
+      "thinking": "high",
+      "sessionKey": "cq14894",
+      "timeoutSeconds": 28800,
+      "verbose": "on",
+      "qbankPath": "C:\\FOC\\Workspace\\QBank\\14894.md",
+      "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ14894.md",
+      "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 14894. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ14894.md."
+    },
+    {
+      "index": 2,
+      "questionId": 15003,
+      "model": "minimax/MiniMax-M3",
+      "thinking": "adaptive",
+      "sessionKey": "cq15003",
+      "timeoutSeconds": 28800,
+      "verbose": "on",
+      "qbankPath": "C:\\FOC\\Workspace\\QBank\\15003.md",
+      "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ15003.md",
+      "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 15003. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ15003.md."
+    },
+    {
+      "index": 3,
+      "questionId": 15017,
+      "model": "openrouter/owl-alpha",
+      "thinking": "high",
+      "sessionKey": "cq15017",
+      "timeoutSeconds": 28800,
+      "verbose": "on",
+      "qbankPath": "C:\\FOC\\Workspace\\QBank\\15017.md",
+      "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ15017.md",
+      "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 15017. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ15017.md."
+    }
+  ]
+}
