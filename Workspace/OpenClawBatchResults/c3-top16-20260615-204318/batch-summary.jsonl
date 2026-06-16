@@ -1,0 +1,321 @@
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openai/gpt-5.5. Use one of: off, minimal, low, medium, high, xhigh.
+
+sessionKey : c3top16-r1-q14580-openai-gpt-5-5
+model      : openai/gpt-5.5
+question   : 14580
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:36 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14580-openai-gpt-5-5.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for minimax/MiniMax-M2.7. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r1-q14675-minimax-minimax-m2-7
+model      : minimax/MiniMax-M2.7
+question   : 14675
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:36 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14675-minimax-minimax-m2-7.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b. Use one of: off.
+sessionKey : c3top16-r1-q14587-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b
+model      : nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b
+question   : 14587
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:36 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14587-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-kimi-2-6/moonshotai/kimi-k2.6. Use one of: off.
+sessionKey : c3top16-r1-q14600-nv-kimi-2-6-moonshotai-kimi-k2-6
+model      : nv-kimi-2-6/moonshotai/kimi-k2.6
+question   : 14600
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:37 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14600-nv-kimi-2-6-moonshotai-kimi-k2-6.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct. Use one of: off.
+sessionKey : c3top16-r1-q14667-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct
+model      : nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct
+question   : 14667
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:38 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14667-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for xai/grok-4.20-beta-latest-reasoning. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r1-q14557-xai-grok-4-20-beta-latest-reasoning
+model      : xai/grok-4.20-beta-latest-reasoning
+question   : 14557
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:38 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14557-xai-grok-4-20-beta-latest-reasoning.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-mistral-small-4/mistralai/mistral-small-4-119b-2603. Use one of: off.
+sessionKey : c3top16-r1-q14618-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603
+model      : nv-mistral-small-4/mistralai/mistral-small-4-119b-2603
+question   : 14618
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:39 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14618-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct. Use one of: off.
+sessionKey : c3top16-r1-q14678-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct
+model      : nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct
+question   : 14678
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:20 PM
+ended      : 6/15/2026 8:43:40 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14678-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for github-copilot/gpt-5-mini. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r1-q14595-github-copilot-gpt-5-mini
+model      : github-copilot/gpt-5-mini
+question   : 14595
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:36 PM
+ended      : 6/15/2026 8:43:50 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14595-github-copilot-gpt-5-mini.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openrouter/openrouter/owl-alpha. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r1-q14668-openrouter-owl-alpha
+model      : openrouter/owl-alpha
+question   : 14668
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:36 PM
+ended      : 6/15/2026 8:43:51 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14668-openrouter-owl-alpha.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for google/gemini-3-flash-preview. Use one of: off, minimal, low, medium, adaptive, high.
+sessionKey : c3top16-r1-q14677-google-gemini-3-flash-preview
+model      : google/gemini-3-flash-preview
+question   : 14677
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:36 PM
+ended      : 6/15/2026 8:43:51 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14677-google-gemini-3-flash-preview.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b. Use one of: off.
+sessionKey : c3top16-r1-q14659-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b
+model      : nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b
+question   : 14659
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:37 PM
+ended      : 6/15/2026 8:43:52 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14659-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b. Use one of: off.
+sessionKey : c3top16-r1-q14661-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b
+model      : nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b
+question   : 14661
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:38 PM
+ended      : 6/15/2026 8:43:53 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14661-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openai/gpt-5.4-mini. Use one of: off, minimal, low, medium, high, xhigh.
+sessionKey : c3top16-r1-q14687-openai-gpt-5-4-mini
+model      : openai/gpt-5.4-mini
+question   : 14687
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:38 PM
+ended      : 6/15/2026 8:43:53 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14687-openai-gpt-5-4-mini.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-minimax-m3/minimaxai/minimax-m3. Use one of: off.
+sessionKey : c3top16-r1-q14573-nv-minimax-m3-minimaxai-minimax-m3
+model      : nv-minimax-m3/minimaxai/minimax-m3
+question   : 14573
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:39 PM
+ended      : 6/15/2026 8:43:55 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14573-nv-minimax-m3-minimaxai-minimax-m3.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-glm-5-1/z-ai/glm-5.1. Use one of: off.
+sessionKey : c3top16-r1-q14660-nv-glm-5-1-z-ai-glm-5-1
+model      : nv-glm-5-1/z-ai/glm-5.1
+question   : 14660
+chance     : 1
+exitCode   : 1
+started    : 6/15/2026 8:43:40 PM
+ended      : 6/15/2026 8:43:56 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r1-q14660-nv-glm-5-1-z-ai-glm-5-1.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b. Use one of: off.
+sessionKey : c3top16-r2-q14578-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b
+model      : nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b
+question   : 14578
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:50 PM
+ended      : 6/15/2026 8:44:00 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14578-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-glm-5-1/z-ai/glm-5.1. Use one of: off.
+sessionKey : c3top16-r2-q14662-nv-glm-5-1-z-ai-glm-5-1
+model      : nv-glm-5-1/z-ai/glm-5.1
+question   : 14662
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:51 PM
+ended      : 6/15/2026 8:44:08 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14662-nv-glm-5-1-z-ai-glm-5-1.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-minimax-m3/minimaxai/minimax-m3. Use one of: off.
+sessionKey : c3top16-r2-q14592-nv-minimax-m3-minimaxai-minimax-m3
+model      : nv-minimax-m3/minimaxai/minimax-m3
+question   : 14592
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:51 PM
+ended      : 6/15/2026 8:44:08 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14592-nv-minimax-m3-minimaxai-minimax-m3.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openai/gpt-5.5. Use one of: off, minimal, low, medium, high, xhigh.
+sessionKey : c3top16-r2-q14681-openai-gpt-5-5
+model      : openai/gpt-5.5
+question   : 14681
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:52 PM
+ended      : 6/15/2026 8:44:09 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14681-openai-gpt-5-5.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openai/gpt-5.4-mini. Use one of: off, minimal, low, medium, high, xhigh.
+sessionKey : c3top16-r2-q14585-openai-gpt-5-4-mini
+model      : openai/gpt-5.4-mini
+question   : 14585
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:53 PM
+ended      : 6/15/2026 8:44:09 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14585-openai-gpt-5-4-mini.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for github-copilot/gpt-5-mini. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r2-q14685-github-copilot-gpt-5-mini
+model      : github-copilot/gpt-5-mini
+question   : 14685
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:53 PM
+ended      : 6/15/2026 8:44:09 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14685-github-copilot-gpt-5-mini.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for minimax/MiniMax-M2.7. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r2-q14594-minimax-minimax-m2-7
+model      : minimax/MiniMax-M2.7
+question   : 14594
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:55 PM
+ended      : 6/15/2026 8:44:09 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14594-minimax-minimax-m2-7.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-mistral-small-4/mistralai/mistral-small-4-119b-2603. Use one of: off.
+sessionKey : c3top16-r2-q14679-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603
+model      : nv-mistral-small-4/mistralai/mistral-small-4-119b-2603
+question   : 14679
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:43:56 PM
+ended      : 6/15/2026 8:44:11 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14679-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b. Use one of: off.
+sessionKey : c3top16-r2-q14595-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b
+model      : nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b
+question   : 14595
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:00 PM
+ended      : 6/15/2026 8:44:12 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14595-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-kimi-2-6/moonshotai/kimi-k2.6. Use one of: off.
+sessionKey : c3top16-r2-q14578-nv-kimi-2-6-moonshotai-kimi-k2-6
+model      : nv-kimi-2-6/moonshotai/kimi-k2.6
+question   : 14578
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:08 PM
+ended      : 6/15/2026 8:44:31 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14578-nv-kimi-2-6-moonshotai-kimi-k2-6.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct. Use one of: off.
+sessionKey : c3top16-r2-q14662-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct
+model      : nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct
+question   : 14662
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:09 PM
+ended      : 6/15/2026 8:44:31 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14662-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct. Use one of: off.
+sessionKey : c3top16-r2-q14677-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct
+model      : nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct
+question   : 14677
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:08 PM
+ended      : 6/15/2026 8:44:32 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14677-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openrouter/openrouter/owl-alpha. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r2-q14594-openrouter-owl-alpha
+model      : openrouter/owl-alpha
+question   : 14594
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:09 PM
+ended      : 6/15/2026 8:44:32 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14594-openrouter-owl-alpha.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b. Use one of: off.
+GatewayClientRequestError: Error: Thinking level "max" is not supported for xai/grok-4.20-beta-latest-reasoning. Use one of: off, minimal, low, medium, high.
+sessionKey : c3top16-r2-q14600-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b
+model      : nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b
+question   : 14600
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:09 PM
+ended      : 6/15/2026 8:44:33 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14600-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b.json
+
+GatewayClientRequestError: Error: Thinking level "max" is not supported for google/gemini-3-flash-preview. Use one of: off, minimal, low, medium, adaptive, high.
+sessionKey : c3top16-r2-q14557-xai-grok-4-20-beta-latest-reasoning
+model      : xai/grok-4.20-beta-latest-reasoning
+question   : 14557
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:11 PM
+ended      : 6/15/2026 8:44:33 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14557-xai-grok-4-20-beta-latest-reasoning.json
+
+sessionKey : c3top16-r2-q14685-google-gemini-3-flash-preview
+model      : google/gemini-3-flash-preview
+question   : 14685
+chance     : 2
+exitCode   : 1
+started    : 6/15/2026 8:44:09 PM
+ended      : 6/15/2026 8:44:33 PM
+log        : C:\FOC\Workspace\OpenClawBatchResults\c3-top16-20260615-204318\c3top16-r2-q14685-google-gemini-3-flash-preview.json
+

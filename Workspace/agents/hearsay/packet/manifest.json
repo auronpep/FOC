@@ -1,0 +1,23 @@
+{
+  "packet_name": "barmatrix_hearsay_christian_packet",
+  "version": "v2026_06_16",
+  "created_utc": "2026-06-16T05:26:26Z",
+  "purpose": "Hearsay question-generation packet for BarMatrix Christian Study Group",
+  "root_files": [
+    "AGENTS.md",
+    "OUTLINE_CODES_COMPLETE.md",
+    "PROMPT.md",
+    "README.md",
+    "SKILL.md",
+    "controlled_vocabularies.md"
+  ],
+  "directories": [
+    "examples",
+    "guides",
+    "handoffs",
+    "legacy_reference",
+    "schemas",
+    "source_docs",
+    "templates"
+  ]
+}

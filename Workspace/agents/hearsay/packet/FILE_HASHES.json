@@ -1,0 +1,302 @@
+[
+  {
+    "path": "AGENTS.md",
+    "sha256": "d01d3926f3239966795635afcb139bddb7e8352af3b034c20af0aef8c8c79f87",
+    "bytes": 2819
+  },
+  {
+    "path": "OUTLINE_CODES_COMPLETE.md",
+    "sha256": "98cc731c2c59246a947ad7062aa0f2dd0252631f8b5a0622fb5525b6f41bd317",
+    "bytes": 83382
+  },
+  {
+    "path": "PROMPT.md",
+    "sha256": "5e913f3b17105160646801115516a1917cb52a727368f0a1a6cf351da0066660",
+    "bytes": 17481
+  },
+  {
+    "path": "README.md",
+    "sha256": "bb6140171e54139d1a9be36bd4ef9447c415d11c6f10cc82c83169a3e8812f30",
+    "bytes": 3347
+  },
+  {
+    "path": "SKILL.md",
+    "sha256": "3bd146364a2e225785bd2ce2982bdf03ca1ec1d78645530ee6eccf56215f7c3f",
+    "bytes": 8367
+  },
+  {
+    "path": "controlled_vocabularies.md",
+    "sha256": "f8d571440a780d4979fbdb316b6d5df4defb6cff1779ba89dc31ce2c042f51c3",
+    "bytes": 8116
+  },
+  {
+    "path": "examples/example_single_slot_request.md",
+    "sha256": "35bd52e97a3ee122382290175f4278acc4538296786c4518addd951c6843b2c3",
+    "bytes": 1055
+  },
+  {
+    "path": "guides/CHRISTIAN_SURFACE_STYLE_GUIDE.md",
+    "sha256": "47a46e9e18349a5eae52db126eb87faf38668c2d246fa3363876f233366fb4fb",
+    "bytes": 2690
+  },
+  {
+    "path": "guides/HEARSAY_CAPTURE_FIELD_SPEC.md",
+    "sha256": "3c36a15a4f8498b298191c953faafec007fe816a6aa39973533e7be7c8aac1ba",
+    "bytes": 1451
+  },
+  {
+    "path": "guides/QC_AND_INGESTION_CHECKLIST.md",
+    "sha256": "2c2e26427b4f193ec8d14c0663c061562b234765345f4309a6ffd1c00c0eb725",
+    "bytes": 663
+  },
+  {
+    "path": "handoffs/08_HANDOFFS_BATCH_026_TO_037.md",
+    "sha256": "f5331868f47f33f4953c6dca9131f646413a297ce548c65446ede88b6eb55b3b",
+    "bytes": 54172
+  },
+  {
+    "path": "handoffs/09_HANDOFFS_BATCH_038_TO_049.md",
+    "sha256": "468e0ca8c66e76e60f8a72563359c6b512d6f7b0ffd524867e6e7c5607cb39cd",
+    "bytes": 54420
+  },
+  {
+    "path": "handoffs/10_HANDOFFS_BATCH_050_TO_061.md",
+    "sha256": "9784efdfb72436fc93f3852e9f116a7c73433d2126e711d664379eda2745553a",
+    "bytes": 56328
+  },
+  {
+    "path": "handoffs/11_HANDOFFS_BATCH_062_TO_073.md",
+    "sha256": "dcaa727f9c23915fc98a67b3a0d2bd0331ab13aa50c195574ea00c57b862b936",
+    "bytes": 55103
+  },
+  {
+    "path": "handoffs/12_HANDOFFS_BATCH_074_TO_085.md",
+    "sha256": "d1f41d47d74eda51ecfc48b67f0fe938431a297b593648313d900487593e688a",
+    "bytes": 54190
+  },
+  {
+    "path": "handoffs/13_HANDOFFS_BATCH_086_TO_097.md",
+    "sha256": "3c8a0a950406d18dec390323ecb8c765be77223321e484f2045a23679cfea927",
+    "bytes": 53992
+  },
+  {
+    "path": "handoffs/14_HANDOFFS_BATCH_098_TO_109.md",
+    "sha256": "89bd6c0936376c07dccca13a0736043171abef2b46cd264ac58daf05ebf8c917",
+    "bytes": 54246
+  },
+  {
+    "path": "handoffs/15_HANDOFFS_BATCH_110_TO_121.md",
+    "sha256": "1072f1d454149dfa162b0bba6e68aa507dc0e5d9b016540536f47316486e6c4e",
+    "bytes": 54366
+  },
+  {
+    "path": "handoffs/16_HANDOFFS_BATCH_122_TO_133.md",
+    "sha256": "c3675b5bd0f985f0469d5fc2b9003d155399cbe97d61ae93bd0105af0add39cd",
+    "bytes": 54208
+  },
+  {
+    "path": "handoffs/17_HANDOFFS_BATCH_134_TO_145.md",
+    "sha256": "a14eeae39c22144a508abada98f09f459148ab5698a663a37e7f6edbcdf038a7",
+    "bytes": 53984
+  },
+  {
+    "path": "handoffs/18_HANDOFFS_BATCH_146_TO_157.md",
+    "sha256": "cc6ce00ba58f20f2e4708dc13950fb75b35fce57bb458aa6c1e8eb91d29627ce",
+    "bytes": 55582
+  },
+  {
+    "path": "handoffs/19_HANDOFFS_BATCH_158_TO_169.md",
+    "sha256": "d3a848ac2ece47f19b7cce15c311c7101272f3a2b9c325c91240dc041e266729",
+    "bytes": 54243
+  },
+  {
+    "path": "handoffs/20_HANDOFFS_BATCH_170_TO_181.md",
+    "sha256": "c2a5f0a550fbc9f07ef74f243f2d533511233b4cff476317c24b8240b5248ee9",
+    "bytes": 53945
+  },
+  {
+    "path": "handoffs/21_HANDOFFS_BATCH_182_TO_193.md",
+    "sha256": "38efdf840c0e7c4f50e4dfb2fd7b5dbff530c5acf85657ead32c5a032afb91e6",
+    "bytes": 55231
+  },
+  {
+    "path": "handoffs/23_HANDOFFS_BATCH_206_TO_217.md",
+    "sha256": "1ac9768aed66261f345c559b60a0bcfc775b90927d3973bc821070d016d9558f",
+    "bytes": 54066
+  },
+  {
+    "path": "handoffs/24_HANDOFFS_BATCH_218_TO_229.md",
+    "sha256": "54f21e32f708f65683d223b2d402b8c86d5891baba9f96b8753ee6b57cbe17d1",
+    "bytes": 54307
+  },
+  {
+    "path": "handoffs/25_HANDOFFS_BATCH_230_TO_241.md",
+    "sha256": "aed24ee820d86dc7b3f69c90a9287b17b50ee303c8f40dba71616988f6c99e97",
+    "bytes": 55312
+  },
+  {
+    "path": "handoffs/26_HANDOFFS_BATCH_242_TO_253.md",
+    "sha256": "df304ce5abaa9fd32ea75cb2827ebc7893a7ad0e0bf8f954466a52b5f0ab7bf3",
+    "bytes": 54313
+  },
+  {
+    "path": "handoffs/27_HANDOFFS_BATCH_254_TO_265.md",
+    "sha256": "90bbe5409478e345879567c7c666c3999be6cf7bf266882516019f21e1eb95b4",
+    "bytes": 54212
+  },
+  {
+    "path": "handoffs/28_HANDOFFS_BATCH_266_TO_277.md",
+    "sha256": "e667dc4c3957ec282505743565c3c3346182cb47aad4af8c074c56ecf35d98b9",
+    "bytes": 55154
+  },
+  {
+    "path": "handoffs/29_HANDOFFS_BATCH_278_TO_289.md",
+    "sha256": "7e3c18cd69c877eec84c63f81a3b23fd04d450a07b54d1c81478f18d7d29d370",
+    "bytes": 54925
+  },
+  {
+    "path": "handoffs/30_HANDOFFS_BATCH_290_TO_301.md",
+    "sha256": "36e227285bf535816e3960b9e5ae005d099d3b4005aca78f50a19aa41d900342",
+    "bytes": 54771
+  },
+  {
+    "path": "handoffs/31_HANDOFFS_BATCH_302_TO_313.md",
+    "sha256": "06622ea3356893766992eb9cbda4e5b8587eb06556f880ca1b9441f593ce5fda",
+    "bytes": 54937
+  },
+  {
+    "path": "handoffs/36_HANDOFFS_BATCH_362_TO_373.md",
+    "sha256": "f1085398a967f86a2e893bdf73de355c1b3dbc5bf8375c06df04d52a017b67f1",
+    "bytes": 53841
+  },
+  {
+    "path": "handoffs/37_HANDOFFS_BATCH_374_TO_385.md",
+    "sha256": "0c5cb4cf885a5fdfbd589393abb9a3f35b921dcbf0cff9b31ff5f74ff78164cd",
+    "bytes": 54011
+  },
+  {
+    "path": "handoffs/38_HANDOFFS_BATCH_386_TO_397.md",
+    "sha256": "db1701221bd7c8bcaf1b585fb3a85ad3e115c43510a828f3d4cb7027d5204489",
+    "bytes": 54420
+  },
+  {
+    "path": "legacy_reference/14379.md",
+    "sha256": "d01485cfc956e2098292e1178746cdd283e4e1037a7202b5cd8d3ee000f5d7b0",
+    "bytes": 3182
+  },
+  {
+    "path": "legacy_reference/AGENTS.md",
+    "sha256": "d1f44917979eaebed9d177dbc7f451f5ed798e2432e02b6af479259c99642e89",
+    "bytes": 6685
+  },
+  {
+    "path": "legacy_reference/CQ14379.md",
+    "sha256": "33a4196c2b641585bd23eec86a17f8ffb538f38003c222ad26060a1f098c44e2",
+    "bytes": 45799
+  },
+  {
+    "path": "legacy_reference/OUTLINE_CODES_COMPLETE.md",
+    "sha256": "98cc731c2c59246a947ad7062aa0f2dd0252631f8b5a0622fb5525b6f41bd317",
+    "bytes": 83382
+  },
+  {
+    "path": "legacy_reference/PROMPT.md",
+    "sha256": "dd8760ac34ae4abc1a53ce54ed679f805e0edbd1e53bf8a27842987b036e03e4",
+    "bytes": 36272
+  },
+  {
+    "path": "legacy_reference/SKILL.md",
+    "sha256": "e74d82c93ca359845658c37a28ccb2f7c97395a7a752b0fc2f2f5d2364bf0a58",
+    "bytes": 8342
+  },
+  {
+    "path": "legacy_reference/controlled_vocabularies.md",
+    "sha256": "3f892fef7089768112bcf6f4acc85fc65a6c3524a70e86f73bf2d365652d9af2",
+    "bytes": 4110
+  },
+  {
+    "path": "manifest.json",
+    "sha256": "8d74b190699c8c150b3f730b5eefe9cca5315a5b8ee60c053f6a8742e1c329f8",
+    "bytes": 513
+  },
+  {
+    "path": "schemas/hearsay_finished_question_draft.schema.yaml",
+    "sha256": "fe19ab0d6806b231bd2b6e2cd66facab0c1b8843d12587ac16de4b9fbdb06511",
+    "bytes": 2449
+  },
+  {
+    "path": "source_docs/02_HEARSAY_SOURCE_OF_TRUTH_TABLES.md",
+    "sha256": "712331b4c5601d9cad1d2400364b6ba397d81c5e008e4daa5863e1ef84887f65",
+    "bytes": 161126
+  },
+  {
+    "path": "source_docs/05_hearsay_master_blueprint.xlsx",
+    "sha256": "deb9cb54ea6f9e6df48c47aa6e14dc2e4e92cc7e050e3a9339c6f4a39a116c0d",
+    "bytes": 259884
+  },
+  {
+    "path": "source_docs/hearsay_bootcamp_repairs.md",
+    "sha256": "ea2f10176f1737984695f87761fe2276f288fd5a6537d2661f052a5055515ed4",
+    "bytes": 14407
+  },
+  {
+    "path": "source_docs/hearsay_california_distinctions.md",
+    "sha256": "83261b6b9d01d7f03285929586d495968f256bb42fd83ea521c87e4c4be561da",
+    "bytes": 4259
+  },
+  {
+    "path": "source_docs/hearsay_confrontation_matrix.md",
+    "sha256": "b5cb8c26b81ac491e01ad2fc59b44d78df63c9cb1806465b41816a5c1a5afa47",
+    "bytes": 1956
+  },
+  {
+    "path": "source_docs/hearsay_fact_triggers.md",
+    "sha256": "9f66acf12ad045908c08771ad43e0311f271ff301e042cf16898d94577ad467c",
+    "bytes": 50385
+  },
+  {
+    "path": "source_docs/hearsay_handoff_packet.md",
+    "sha256": "5e4d4dab7137bbb55128b657452ca16a450218964f309cf85a8cb27dc4551820",
+    "bytes": 2561
+  },
+  {
+    "path": "source_docs/hearsay_master_executive_preview.png",
+    "sha256": "ac8a9ec9b68bc1cc1b24048e22adf2e9dfc1bb327cf941244625db5299fba220",
+    "bytes": 249836
+  },
+  {
+    "path": "source_docs/hearsay_official_outline_crosswalk.md",
+    "sha256": "7e842a4c3273b8869bd443081de0fb4951c466abcfdff6162ec35a16ca9f270f",
+    "bytes": 4452
+  },
+  {
+    "path": "source_docs/hearsay_question_blueprint.md",
+    "sha256": "1ab34675cf438d4ebd253ad9ed3a4882087b760e50015defa392df1dec075eed",
+    "bytes": 3456
+  },
+  {
+    "path": "source_docs/hearsay_row_diagnostics.md",
+    "sha256": "68b92772cb58f127acbd952f915ed6176efe2eb47d10410485ec00fe1f36740c",
+    "bytes": 15916
+  },
+  {
+    "path": "source_docs/hearsay_source_appendix.md",
+    "sha256": "3abf8e5dc511ffd2e7923592101f9581434dcaff3c622f302a9b6dfaf32115bc",
+    "bytes": 3299
+  },
+  {
+    "path": "source_docs/hearsay_wrong_answer_mechanics.md",
+    "sha256": "14430452c8be51378d1586a10601bed1678492f2137781f9e62cd9f32d8e2827",
+    "bytes": 9428
+  },
+  {
+    "path": "templates/batch_request_template.md",
+    "sha256": "da7e9581acb4324e5e9e3365a2d767c4bb903e5b571a792a8d5d1ec2f2875238",
+    "bytes": 464
+  },
+  {
+    "path": "templates/hearsay_finished_question_template.yaml",
+    "sha256": "157b1678df399b79dd5d3eada500d4eeaa3357960be6ff3de36aa65233ee1354",
+    "bytes": 6185
+  }
+]

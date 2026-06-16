@@ -1,0 +1,1 @@
+GatewayClientRequestError: Error: Thinking level "max" is not supported for xai/grok-4.20-beta-latest-reasoning. Use one of: off, minimal, low, medium, high.

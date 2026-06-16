@@ -1,0 +1,290 @@
+[
+  {
+    "chance": 1,
+    "model": "nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct",
+    "thinking": "off",
+    "question": 14667,
+    "sessionKey": "c3top16fixed-r1-q14667-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14667. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14667-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct.json"
+  },
+  {
+    "chance": 1,
+    "model": "minimax/MiniMax-M2.7",
+    "thinking": "high",
+    "question": 14675,
+    "sessionKey": "c3top16fixed-r1-q14675-minimax-minimax-m2-7",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14675. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14675-minimax-minimax-m2-7.json"
+  },
+  {
+    "chance": 1,
+    "model": "nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b",
+    "thinking": "off",
+    "question": 14587,
+    "sessionKey": "c3top16fixed-r1-q14587-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14587. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14587-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b.json"
+  },
+  {
+    "chance": 1,
+    "model": "openai/gpt-5.5",
+    "thinking": "xhigh",
+    "question": 14580,
+    "sessionKey": "c3top16fixed-r1-q14580-openai-gpt-5-5",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14580. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14580-openai-gpt-5-5.json"
+  },
+  {
+    "chance": 1,
+    "model": "xai/grok-4.20-beta-latest-reasoning",
+    "thinking": "high",
+    "question": 14557,
+    "sessionKey": "c3top16fixed-r1-q14557-xai-grok-4-20-beta-latest-reasoning",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14557. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14557-xai-grok-4-20-beta-latest-reasoning.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-mistral-small-4/mistralai/mistral-small-4-119b-2603",
+    "thinking": "off",
+    "question": 14618,
+    "sessionKey": "c3top16fixed-r1-q14618-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14618. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14618-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-kimi-2-6/moonshotai/kimi-k2.6",
+    "thinking": "off",
+    "question": 14600,
+    "sessionKey": "c3top16fixed-r1-q14600-nv-kimi-2-6-moonshotai-kimi-k2-6",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14600. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14600-nv-kimi-2-6-moonshotai-kimi-k2-6.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct",
+    "thinking": "off",
+    "question": 14678,
+    "sessionKey": "c3top16fixed-r1-q14678-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14678. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14678-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct.json"
+  },
+  {
+    "chance": 1,
+    "model": "github-copilot/gpt-5-mini",
+    "thinking": "high",
+    "question": 14595,
+    "sessionKey": "c3top16fixed-r1-q14595-github-copilot-gpt-5-mini",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14595. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14595-github-copilot-gpt-5-mini.json"
+  },
+  {
+    "chance": 1,
+    "model": "openrouter/owl-alpha",
+    "thinking": "high",
+    "question": 14668,
+    "sessionKey": "c3top16fixed-r1-q14668-openrouter-owl-alpha",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14668. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14668-openrouter-owl-alpha.json"
+  },
+  {
+    "chance": 1,
+    "model": "google/gemini-3-flash-preview",
+    "thinking": "high",
+    "question": 14677,
+    "sessionKey": "c3top16fixed-r1-q14677-google-gemini-3-flash-preview",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14677. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14677-google-gemini-3-flash-preview.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b",
+    "thinking": "off",
+    "question": 14659,
+    "sessionKey": "c3top16fixed-r1-q14659-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14659. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14659-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b",
+    "thinking": "off",
+    "question": 14661,
+    "sessionKey": "c3top16fixed-r1-q14661-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14661. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14661-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b.json"
+  },
+  {
+    "chance": 1,
+    "model": "openai/gpt-5.4-mini",
+    "thinking": "xhigh",
+    "question": 14687,
+    "sessionKey": "c3top16fixed-r1-q14687-openai-gpt-5-4-mini",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14687. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14687-openai-gpt-5-4-mini.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-minimax-m3/minimaxai/minimax-m3",
+    "thinking": "off",
+    "question": 14573,
+    "sessionKey": "c3top16fixed-r1-q14573-nv-minimax-m3-minimaxai-minimax-m3",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14573. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14573-nv-minimax-m3-minimaxai-minimax-m3.json"
+  },
+  {
+    "chance": 1,
+    "model": "nv-glm-5-1/z-ai/glm-5.1",
+    "thinking": "off",
+    "question": 14660,
+    "sessionKey": "c3top16fixed-r1-q14660-nv-glm-5-1-z-ai-glm-5-1",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14660. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r1-q14660-nv-glm-5-1-z-ai-glm-5-1.json"
+  },
+  {
+    "chance": 2,
+    "model": "nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b",
+    "thinking": "off",
+    "question": 14578,
+    "sessionKey": "c3top16fixed-r2-q14578-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14578. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14578-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-glm-5-1/z-ai/glm-5.1",
+    "thinking": "off",
+    "question": 14662,
+    "sessionKey": "c3top16fixed-r2-q14662-nv-glm-5-1-z-ai-glm-5-1",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14662. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14662-nv-glm-5-1-z-ai-glm-5-1.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-minimax-m3/minimaxai/minimax-m3",
+    "thinking": "off",
+    "question": 14592,
+    "sessionKey": "c3top16fixed-r2-q14592-nv-minimax-m3-minimaxai-minimax-m3",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14592. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14592-nv-minimax-m3-minimaxai-minimax-m3.json"
+  },
+  {
+    "chance": 2,
+    "model": "openai/gpt-5.5",
+    "thinking": "xhigh",
+    "question": 14681,
+    "sessionKey": "c3top16fixed-r2-q14681-openai-gpt-5-5",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14681. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14681-openai-gpt-5-5.json"
+  },
+  {
+    "chance": 2,
+    "model": "openai/gpt-5.4-mini",
+    "thinking": "xhigh",
+    "question": 14585,
+    "sessionKey": "c3top16fixed-r2-q14585-openai-gpt-5-4-mini",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14585. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14585-openai-gpt-5-4-mini.json"
+  },
+  {
+    "chance": 2,
+    "model": "github-copilot/gpt-5-mini",
+    "thinking": "high",
+    "question": 14685,
+    "sessionKey": "c3top16fixed-r2-q14685-github-copilot-gpt-5-mini",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14685. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14685-github-copilot-gpt-5-mini.json"
+  },
+  {
+    "chance": 2,
+    "model": "minimax/MiniMax-M2.7",
+    "thinking": "high",
+    "question": 14594,
+    "sessionKey": "c3top16fixed-r2-q14594-minimax-minimax-m2-7",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14594. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14594-minimax-minimax-m2-7.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-mistral-small-4/mistralai/mistral-small-4-119b-2603",
+    "thinking": "off",
+    "question": 14679,
+    "sessionKey": "c3top16fixed-r2-q14679-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14679. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14679-nv-mistral-small-4-mistralai-mistral-small-4-119b-2603.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b",
+    "thinking": "off",
+    "question": 14595,
+    "sessionKey": "c3top16fixed-r2-q14595-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14595. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14595-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-kimi-2-6/moonshotai/kimi-k2.6",
+    "thinking": "off",
+    "question": 14578,
+    "sessionKey": "c3top16fixed-r2-q14578-nv-kimi-2-6-moonshotai-kimi-k2-6",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14578. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14578-nv-kimi-2-6-moonshotai-kimi-k2-6.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct",
+    "thinking": "off",
+    "question": 14677,
+    "sessionKey": "c3top16fixed-r2-q14677-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14677. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14677-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct",
+    "thinking": "off",
+    "question": 14662,
+    "sessionKey": "c3top16fixed-r2-q14662-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14662. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14662-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct.json"
+  },
+  {
+    "chance": 2,
+    "model": "openrouter/owl-alpha",
+    "thinking": "high",
+    "question": 14594,
+    "sessionKey": "c3top16fixed-r2-q14594-openrouter-owl-alpha",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14594. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14594-openrouter-owl-alpha.json"
+  },
+  {
+    "chance": 2,
+    "model": "nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b",
+    "thinking": "off",
+    "question": 14600,
+    "sessionKey": "c3top16fixed-r2-q14600-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14600. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14600-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b.json"
+  },
+  {
+    "chance": 2,
+    "model": "google/gemini-3-flash-preview",
+    "thinking": "high",
+    "question": 14685,
+    "sessionKey": "c3top16fixed-r2-q14685-google-gemini-3-flash-preview",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14685. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14685-google-gemini-3-flash-preview.json"
+  },
+  {
+    "chance": 2,
+    "model": "xai/grok-4.20-beta-latest-reasoning",
+    "thinking": "high",
+    "question": 14557,
+    "sessionKey": "c3top16fixed-r2-q14557-xai-grok-4-20-beta-latest-reasoning",
+    "prompt": "Please do this BarMatrix Criminal Law and Procedure Question 14557. Complete any research needed, use the highest reasoning and verification effort available for this model, and save the entire response to an md file.",
+    "outFile": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901\\c3top16fixed-r2-q14557-xai-grok-4-20-beta-latest-reasoning.json"
+  }
+]

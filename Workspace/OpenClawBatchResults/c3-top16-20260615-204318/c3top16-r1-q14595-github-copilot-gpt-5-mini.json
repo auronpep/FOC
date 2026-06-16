@@ -1,0 +1,1 @@
+GatewayClientRequestError: Error: Thinking level "max" is not supported for github-copilot/gpt-5-mini. Use one of: off, minimal, low, medium, high.

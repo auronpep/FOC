@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-06-15T20:49:19.3281647-07:00",
+  "launch": false,
+  "runRoot": "C:\\FOC\\Workspace\\OpenClawBatchResults\\c3-top16-20260615-204901",
+  "throttleLimit": 8,
+  "timeoutSeconds": 28800,
+  "maxConcurrent": 8,
+  "gatewayReachable": true,
+  "healthOk": true,
+  "activeTasks": 0,
+  "queuedTasks": 0,
+  "runningTasks": 0,
+  "targetModelCount": 16,
+  "assignmentCount": 32
+}

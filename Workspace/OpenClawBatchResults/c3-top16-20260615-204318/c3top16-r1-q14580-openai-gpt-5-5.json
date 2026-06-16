@@ -1,0 +1,1 @@
+GatewayClientRequestError: Error: Thinking level "max" is not supported for openai/gpt-5.5. Use one of: off, minimal, low, medium, high, xhigh.

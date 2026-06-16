@@ -1,0 +1,82 @@
+[
+  {
+    "group": 2,
+    "question": 17196,
+    "model": "anthropic/claude-opus-4-8",
+    "thinking": "high",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17196-anthropic-claude-opus-4-8",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17196.md"
+  },
+  {
+    "group": 2,
+    "question": 17328,
+    "model": "google/gemini-2.5-pro",
+    "thinking": "high",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17328-google-gemini-2-5-pro",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17328.md"
+  },
+  {
+    "group": 2,
+    "question": 17405,
+    "model": "nv-kimi-2-6/moonshotai/kimi-k2.6",
+    "thinking": "off",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17405-nv-kimi-2-6-moonshotai-kimi-k2-6",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17405.md"
+  },
+  {
+    "group": 2,
+    "question": 17564,
+    "model": "nv-llama-3-3-70b/meta/llama-3.3-70b-instruct",
+    "thinking": "off",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17564-nv-llama-3-3-70b-meta-llama-3-3-70b-instruct",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17564.md"
+  },
+  {
+    "group": 2,
+    "question": 17746,
+    "model": "nv-llama-4-maverick/meta/llama-4-maverick-17b-128e-instruct",
+    "thinking": "off",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17746-nv-llama-4-maverick-meta-llama-4-maverick-17b-128e-instruct",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17746.md"
+  },
+  {
+    "group": 2,
+    "question": 17786,
+    "model": "nv-mistral-medium-3-5/mistralai/mistral-medium-3.5-128b",
+    "thinking": "off",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17786-nv-mistral-medium-3-5-mistralai-mistral-medium-3-5-128b",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17786.md"
+  },
+  {
+    "group": 2,
+    "question": 17870,
+    "model": "openai/gpt-5.4-mini",
+    "thinking": "xhigh",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17870-openai-gpt-5-4-mini",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17870.md"
+  },
+  {
+    "group": 2,
+    "question": 17880,
+    "model": "openrouter/openai/gpt-oss-120b:free",
+    "thinking": "high",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17880-openrouter-openai-gpt-oss-120b-free",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17880.md"
+  },
+  {
+    "group": 2,
+    "question": 17950,
+    "model": "openrouter/poolside/laguna-m.1:free",
+    "thinking": "high",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q17950-openrouter-poolside-laguna-m-1-free",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17950.md"
+  },
+  {
+    "group": 2,
+    "question": 18296,
+    "model": "xai/grok-build-0.1",
+    "thinking": "high",
+    "sessionKey": "c3g2-c3-fourgroup-20260616-011519-q18296-xai-grok-build-0-1",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18296.md"
+  }
+]

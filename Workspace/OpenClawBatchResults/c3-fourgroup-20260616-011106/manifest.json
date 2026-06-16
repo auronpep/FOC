@@ -1,0 +1,82 @@
+[
+  {
+    "group": 1,
+    "question": 16108,
+    "model": "github-copilot/gpt-5-mini",
+    "thinking": "high",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16108-github-copilot-gpt-5-mini",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16108.md"
+  },
+  {
+    "group": 1,
+    "question": 16111,
+    "model": "google/gemini-3-flash-preview",
+    "thinking": "high",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16111-google-gemini-3-flash-preview",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16111.md"
+  },
+  {
+    "group": 1,
+    "question": 16116,
+    "model": "minimax/MiniMax-M3",
+    "thinking": "high",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16116-minimax-minimax-m3",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16116.md"
+  },
+  {
+    "group": 1,
+    "question": 16124,
+    "model": "nv-diffusiongemma-26b/google/diffusiongemma-26b-a4b-it",
+    "thinking": "off",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16124-nv-diffusiongemma-26b-google-diffusiongemma-26b-a4b-it",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16124.md"
+  },
+  {
+    "group": 1,
+    "question": 16136,
+    "model": "nv-dracarys-70b/abacusai/dracarys-llama-3.1-70b-instruct",
+    "thinking": "off",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16136-nv-dracarys-70b-abacusai-dracarys-llama-3-1-70b-instruct",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16136.md"
+  },
+  {
+    "group": 1,
+    "question": 16153,
+    "model": "nv-gemma-4-31b/google/gemma-4-31b-it",
+    "thinking": "off",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16153-nv-gemma-4-31b-google-gemma-4-31b-it",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16153.md"
+  },
+  {
+    "group": 1,
+    "question": 16155,
+    "model": "nv-glm-5-1/z-ai/glm-5.1",
+    "thinking": "off",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16155-nv-glm-5-1-z-ai-glm-5-1",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16155.md"
+  },
+  {
+    "group": 1,
+    "question": 16163,
+    "model": "nv-gpt-oss-120b/openai/gpt-oss-120b",
+    "thinking": "off",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16163-nv-gpt-oss-120b-openai-gpt-oss-120b",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16163.md"
+  },
+  {
+    "group": 1,
+    "question": 16166,
+    "model": "openai/gpt-5.5",
+    "thinking": "xhigh",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q16166-openai-gpt-5-5",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16166.md"
+  },
+  {
+    "group": 1,
+    "question": 17097,
+    "model": "openrouter/owl-alpha",
+    "thinking": "high",
+    "sessionKey": "c3g1-c3-fourgroup-20260616-011106-q17097-openrouter-owl-alpha",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ17097.md"
+  }
+]

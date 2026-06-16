@@ -1,0 +1,136 @@
+EMBEDDED FALLBACK: Gateway agent failed; running embedded agent: GatewayTransportError: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:7421
+Source: local loopback
+Config: C:\FOC\.openclaw\openclaw.json
+Bind: lan
+
+Possible causes:
+- Gateway not yet ready to accept connections (retry after a moment)
+- TLS mismatch (connecting with ws:// to a wss:// gateway, or vice versa)
+- Gateway crashed or was terminated unexpectedly
+Run `openclaw doctor` for diagnostics.
+gateway client error: Error: connect ECONNREFUSED 127.0.0.1:7421
+[secrets] agent: gateway secrets.resolve unavailable (gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:7421
+Source: local loopback
+Config: C:\FOC\.openclaw\openclaw.json
+Bind: lan
+
+Possible causes:
+- Gateway not yet ready to accept connections (retry after a moment)
+- TLS mismatch (connecting with ws:// to a wss:// gateway, or vice versa)
+- Gateway crashed or was terminated unexpectedly
+Run `openclaw doctor` for diagnostics.); resolved command secrets locally.
+[plugins] loading codex from C:\FOC\.openclaw\npm\projects\openclaw-codex-8902d781d4\node_modules\@openclaw\codex\dist\index.js
+[plugins] loaded 1 plugin(s) (1 attempted) in 1919.8ms
+[diagnostic] lane enqueue: lane=session:agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 queueSize=1
+[diagnostic] lane dequeue: lane=session:agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 waitMs=2 queueSize=0
+[diagnostic] lane enqueue: lane=main queueSize=1
+[diagnostic] lane dequeue: lane=main waitMs=1 queueSize=0
+[plugins] loading alibaba from C:\FOC\node_modules\openclaw\dist\extensions\alibaba\index.js
+[plugins] loading anthropic from C:\FOC\node_modules\openclaw\dist\extensions\anthropic\index.js
+[plugins] loading arcee from C:\FOC\node_modules\openclaw\dist\extensions\arcee\index.js
+[plugins] loading azure-speech from C:\FOC\node_modules\openclaw\dist\extensions\azure-speech\index.js
+[plugins] loading browser from C:\FOC\node_modules\openclaw\dist\extensions\browser\index.js
+[plugins] loading byteplus from C:\FOC\node_modules\openclaw\dist\extensions\byteplus\index.js
+[plugins] loading canvas from C:\FOC\node_modules\openclaw\dist\extensions\canvas\index.js
+[plugins] loading cerebras from C:\FOC\node_modules\openclaw\dist\extensions\cerebras\index.js
+[plugins] loading chutes from C:\FOC\node_modules\openclaw\dist\extensions\chutes\index.js
+[plugins] loading cloudflare-ai-gateway from C:\FOC\node_modules\openclaw\dist\extensions\cloudflare-ai-gateway\index.js
+[plugins] loading comfy from C:\FOC\node_modules\openclaw\dist\extensions\comfy\index.js
+[plugins] loading copilot-proxy from C:\FOC\node_modules\openclaw\dist\extensions\copilot-proxy\index.js
+[plugins] loading deepgram from C:\FOC\node_modules\openclaw\dist\extensions\deepgram\index.js
+[plugins] loading deepinfra from C:\FOC\node_modules\openclaw\dist\extensions\deepinfra\index.js
+[plugins] loading deepseek from C:\FOC\node_modules\openclaw\dist\extensions\deepseek\index.js
+[plugins] loading device-pair from C:\FOC\node_modules\openclaw\dist\extensions\device-pair\index.js
+Registered plugin command: /pair (plugin: device-pair)
+[plugins] loading document-extract from C:\FOC\node_modules\openclaw\dist\extensions\document-extract\index.js
+[plugins] loading elevenlabs from C:\FOC\node_modules\openclaw\dist\extensions\elevenlabs\index.js
+[plugins] loading fal from C:\FOC\node_modules\openclaw\dist\extensions\fal\index.js
+[plugins] loading file-transfer from C:\FOC\node_modules\openclaw\dist\extensions\file-transfer\index.js
+[plugins] loading fireworks from C:\FOC\node_modules\openclaw\dist\extensions\fireworks\index.js
+[plugins] loading github-copilot from C:\FOC\node_modules\openclaw\dist\extensions\github-copilot\index.js
+[plugins] loading gmi from C:\FOC\node_modules\openclaw\dist\extensions\gmi\index.js
+[plugins] loading google from C:\FOC\node_modules\openclaw\dist\extensions\google\index.js
+[plugins] loading groq from C:\FOC\node_modules\openclaw\dist\extensions\groq\index.js
+[plugins] loading huggingface from C:\FOC\node_modules\openclaw\dist\extensions\huggingface\index.js
+[plugins] loading inworld from C:\FOC\node_modules\openclaw\dist\extensions\inworld\index.js
+[plugins] loading kilocode from C:\FOC\node_modules\openclaw\dist\extensions\kilocode\index.js
+[plugins] loading kimi from C:\FOC\node_modules\openclaw\dist\extensions\kimi-coding\index.js
+[plugins] loading litellm from C:\FOC\node_modules\openclaw\dist\extensions\litellm\index.js
+[plugins] loading lmstudio from C:\FOC\node_modules\openclaw\dist\extensions\lmstudio\index.js
+[plugins] loading memory-core from C:\FOC\node_modules\openclaw\dist\extensions\memory-core\index.js
+Registered plugin command: /dreaming (plugin: memory-core)
+[plugins] loading memory-wiki from C:\FOC\node_modules\openclaw\dist\extensions\memory-wiki\index.js
+[plugins] loading microsoft from C:\FOC\node_modules\openclaw\dist\extensions\microsoft\index.js
+[plugins] loading microsoft-foundry from C:\FOC\node_modules\openclaw\dist\extensions\microsoft-foundry\index.js
+[plugins] loading minimax from C:\FOC\node_modules\openclaw\dist\extensions\minimax\index.js
+[plugins] loading mistral from C:\FOC\node_modules\openclaw\dist\extensions\mistral\index.js
+[plugins] loading moonshot from C:\FOC\node_modules\openclaw\dist\extensions\moonshot\index.js
+[plugins] loading novita from C:\FOC\node_modules\openclaw\dist\extensions\novita\index.js
+[plugins] loading nvidia from C:\FOC\node_modules\openclaw\dist\extensions\nvidia\index.js
+[plugins] loading ollama from C:\FOC\node_modules\openclaw\dist\extensions\ollama\index.js
+[plugins] loading openai from C:\FOC\node_modules\openclaw\dist\extensions\openai\index.js
+[plugins] loading opencode from C:\FOC\node_modules\openclaw\dist\extensions\opencode\index.js
+[plugins] loading opencode-go from C:\FOC\node_modules\openclaw\dist\extensions\opencode-go\index.js
+[plugins] loading openrouter from C:\FOC\node_modules\openclaw\dist\extensions\openrouter\index.js
+[plugins] loading parallel from C:\FOC\node_modules\openclaw\dist\extensions\parallel\index.js
+[plugins] loading phone-control from C:\FOC\node_modules\openclaw\dist\extensions\phone-control\index.js
+Registered plugin command: /phone (plugin: phone-control)
+[plugins] loading policy from C:\FOC\node_modules\openclaw\dist\extensions\policy\index.js
+[plugins] loading qianfan from C:\FOC\node_modules\openclaw\dist\extensions\qianfan\index.js
+[plugins] loading qwen from C:\FOC\node_modules\openclaw\dist\extensions\qwen\index.js
+[plugins] loading runway from C:\FOC\node_modules\openclaw\dist\extensions\runway\index.js
+[plugins] loading senseaudio from C:\FOC\node_modules\openclaw\dist\extensions\senseaudio\index.js
+[plugins] loading sglang from C:\FOC\node_modules\openclaw\dist\extensions\sglang\index.js
+[plugins] loading stepfun from C:\FOC\node_modules\openclaw\dist\extensions\stepfun\index.js
+[plugins] loading synthetic from C:\FOC\node_modules\openclaw\dist\extensions\synthetic\index.js
+[plugins] loading talk-voice from C:\FOC\node_modules\openclaw\dist\extensions\talk-voice\index.js
+Registered plugin command: /voice (plugin: talk-voice)
+[plugins] loading tencent from C:\FOC\node_modules\openclaw\dist\extensions\tencent\index.js
+[plugins] loading together from C:\FOC\node_modules\openclaw\dist\extensions\together\index.js
+[plugins] loading tts-local-cli from C:\FOC\node_modules\openclaw\dist\extensions\tts-local-cli\index.js
+[plugins] loading venice from C:\FOC\node_modules\openclaw\dist\extensions\venice\index.js
+[plugins] loading vercel-ai-gateway from C:\FOC\node_modules\openclaw\dist\extensions\vercel-ai-gateway\index.js
+[plugins] loading vllm from C:\FOC\node_modules\openclaw\dist\extensions\vllm\index.js
+[plugins] loading volcengine from C:\FOC\node_modules\openclaw\dist\extensions\volcengine\index.js
+[plugins] loading voyage from C:\FOC\node_modules\openclaw\dist\extensions\voyage\index.js
+[plugins] loading vydra from C:\FOC\node_modules\openclaw\dist\extensions\vydra\index.js
+[plugins] loading web-readability from C:\FOC\node_modules\openclaw\dist\extensions\web-readability\index.js
+[plugins] loading workboard from C:\FOC\node_modules\openclaw\dist\extensions\workboard\index.js
+Registered plugin command: /workboard (plugin: workboard)
+[plugins] loading xai from C:\FOC\node_modules\openclaw\dist\extensions\xai\index.js
+[plugins] loading xiaomi from C:\FOC\node_modules\openclaw\dist\extensions\xiaomi\index.js
+[plugins] loading zai from C:\FOC\node_modules\openclaw\dist\extensions\zai\index.js
+[plugins] loading codex from C:\FOC\.openclaw\npm\projects\openclaw-codex-8902d781d4\node_modules\@openclaw\codex\dist\index.js
+Registered plugin command: /codex (plugin: codex)
+[plugins] loaded 97 plugin(s) (71 attempted) in 7502.8ms
+[plugins] loading codex from C:\FOC\.openclaw\npm\projects\openclaw-codex-8902d781d4\node_modules\@openclaw\codex\dist\index.js
+[plugins] loaded 1 plugin(s) (1 attempted) in 23.3ms
+[agent/embedded] [trace:embedded-run] startup stages: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 phase=attempt-dispatch totalMs=9764 stages=workspace:2ms@2ms,runtime-plugins:7970ms@7972ms,hooks:1ms@7973ms,model-resolution:1661ms@9634ms,auth:124ms@9758ms,context-engine:3ms@9761ms,attempt-workspace:1ms@9762ms,attempt-prompt:0ms@9762ms,attempt-runtime-plan:2ms@9764ms,attempt-dispatch:0ms@9764ms
+[agents/harness] agent harness selected
+[agent/embedded] embedded run start: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 provider=minimax model=MiniMax-M2.7 thinking=high messageChannel=unknown
+[plugins] loading codex from C:\FOC\.openclaw\npm\projects\openclaw-codex-8902d781d4\node_modules\@openclaw\codex\dist\index.js
+[plugins] loaded 1 plugin(s) (1 attempted) in 22.1ms
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+[agent/embedded] applying extraParams to agent streamFn for minimax/MiniMax-M2.7
+[diagnostic] session state: sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 sessionKey=agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 prev=idle new=processing reason="run_started" queueDepth=0
+[diagnostic] run registered: sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 totalActive=1
+[agent/embedded] embedded run prompt start: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 provider=minimax api=anthropic-messages endpoint=custom route=proxy-like policy=none
+[agent/embedded] [context-diag] pre-prompt: sessionKey=agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 messages=21 roleCounts=assistant:6,toolResult:14,user:1 historyTextChars=61351 maxMessageTextChars=36613 historyImageBlocks=0 systemPromptChars=35560 promptChars=217 promptImages=0 provider=minimax/MiniMax-M2.7 sessionFile=C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl
+[agent/embedded] [context-overflow-precheck] pre-prompt check sessionKey=agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 provider=minimax/MiniMax-M2.7 route=fits estimatedPromptTokens=50860 pressureSource=llm_boundary_normalized_prompt promptBudgetBeforeReserve=184800 overflowTokens=0 toolResultReducibleChars=0 reserveTokens=20000 effectiveReserveTokens=20000 contextTokenBudget=204800 messages=21 unwindowedMessages=21 sessionFile=C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl
+[agent/embedded] embedded run agent start: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5
+[provider-transport-fetch] [model-fetch] start provider=minimax api=anthropic-messages model=MiniMax-M2.7 method=POST url=https://api.minimax.io/anthropic/v1/messages timeoutMs=undefined proxy=none policy=custom
+[provider-transport-fetch] [model-fetch] response provider=minimax api=anthropic-messages model=MiniMax-M2.7 status=200 elapsedMs=2457 contentType=text/event-stream; charset=utf-8
+[agent/embedded] embedded run tool start: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 tool=exec toolCallId=call_019ece92a9bf7793bf9c7a49
+[agent/embedded] embedded run tool end: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 tool=exec toolCallId=call_019ece92a9bf7793bf9c7a49
+[provider-transport-fetch] [model-fetch] start provider=minimax api=anthropic-messages model=MiniMax-M2.7 method=POST url=https://api.minimax.io/anthropic/v1/messages timeoutMs=undefined proxy=none policy=custom
+[provider-transport-fetch] [model-fetch] response provider=minimax api=anthropic-messages model=MiniMax-M2.7 status=200 elapsedMs=1238 contentType=text/event-stream; charset=utf-8
+[agent/embedded] embedded run prompt end: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 durationMs=91812
+[diagnostic] session state: sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 sessionKey=agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 prev=processing new=idle reason="run_completed" queueDepth=0
+[diagnostic] run cleared: sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 totalActive=0
+[agent/embedded] embedded attempt cleanup detected session takeover after prompt failure; preserving prompt error: runId=6875bec8-0e1f-448e-b7f7-c9ea4e6bbaf5 sessionId=bdc528ee-0003-4e68-bc05-5c9a5892cd04 promptError=session file changed while embedded prompt lock was released: C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl cleanupError=session file changed while embedded prompt lock was released: C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl
+[diagnostic] lane task error: lane=main durationMs=103559 error="EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl"
+[diagnostic] lane task error: lane=session:agent:main:c3top16fixed-r1-q14675-minimax-minimax-m2-7 durationMs=103565 error="EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl"
+EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: C:\FOC\.openclaw\agents\main\sessions\bdc528ee-0003-4e68-bc05-5c9a5892cd04.jsonl
+

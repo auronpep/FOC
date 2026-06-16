@@ -1,3 +1,17 @@
+# Gemini Standalone CQ Prompt - 2026-06-16
+
+## Plan
+
+- [x] Read the active CQ prompt, local CQ QA skill, controlled vocabularies, and outline-code reference shape.
+- [x] Create a concise standalone Gemini prompt that rolls the CQ contract into one pasteable file.
+- [x] Verify the file contains the needed output blocks, controlled values, QA gates, and question-input placeholder.
+
+## Review
+
+- Added `C:\FOC\Workspace\GEMINI_CQ_STANDALONE_PROMPT.md`.
+- Verification found required CQ headings, controlled vocabulary/routing rules, the JSON parse gate, and the bottom question-input placeholder.
+- Prompt file is 331 lines / 17,026 bytes and ASCII-only.
+
 # CrimLaw CSV Completion Pass - 2026-06-14
 
 ## Plan
@@ -92,6 +106,40 @@
 - Live run copied 93 files from local to `N:`, copied 5 files from `N:` back to local, and wrote `C:\FOC\Workspace\Finished\complete.csv`.
 - Verification: PowerShell 7 parse passed; Windows PowerShell parse passed; `syncbmq` function resolved and executed in both profile families; post-sync comparison found 718 non-CSV files on each side and 0 filename differences.
 - Final CSV verification found 717 local `CQ*.md` completion artifacts, 717 CSV rows, and 0 statuses other than `complete`.
+
+# BMQ Complete XLSX Follow-up - 2026-06-15
+
+## Plan
+
+- [x] Update `C:\FOC\Workspace\Sync-BMQFinished.ps1` so the same completion rows write both `complete.csv` and `complete.xlsx`.
+- [x] Keep generated ledger files out of the two-way Finished-folder sync comparison.
+- [x] Update `/syncbmq` command instructions to report the XLSX output.
+- [x] Run the script and verify CSV/XLSX row parity and values.
+
+## Review
+
+- Added `complete.xlsx` generation to `C:\FOC\Workspace\Sync-BMQFinished.ps1` using the same in-memory rows as `complete.csv`.
+- Excluded both `complete.csv` and `complete.xlsx` from the two-way file-sync comparison so generated ledgers do not become source artifacts.
+- Updated `C:\Users\JesusLovesMe\.codex\commands\syncbmq.md` to report the XLSX output.
+- Verification: PowerShell 7 parse passed; Windows PowerShell parse passed; PowerShell 7 live run wrote both files and copied 1 newly found local file to `N:`; Windows PowerShell live run completed with 0 additional copies.
+- Final readback verified `complete.csv` and `complete.xlsx` have identical content: 724 rows including the header, 723 completion rows, header `barmatrix_question_number,status`, and last row `22873,complete`.
+
+# BMQ XLSX Numeric ID Correction - 2026-06-15
+
+## Plan
+
+- [x] Patch the XLSX writer so column A data rows are numeric cells, not inline strings.
+- [x] Regenerate `C:\FOC\Workspace\Finished\complete.xlsx`.
+- [x] Verify the workbook XML stores column A data rows as numeric cells while preserving the same values as `complete.csv`.
+- [x] Record the correction pattern in `tasks/lessons.md`.
+
+## Review
+
+- Patched `C:\FOC\Workspace\Sync-BMQFinished.ps1` so `barmatrix_question_number` data rows are written as numeric XLSX cells, while the header and `status` column remain text.
+- Regenerated `C:\FOC\Workspace\Finished\complete.xlsx` through the normal sync script.
+- Verification: PowerShell 7 parse passed; Windows PowerShell parse passed; PowerShell 7 live run wrote 724 completion rows and copied 1 newly found local file to `N:`; Windows PowerShell live run completed with 0 additional copies.
+- Workbook XML readback found 725 rows including the header, values matching `complete.csv`, 724 numeric column-A data cells, 0 column-A data cells with text type, and 724 text `status` cells.
+- Post-sync comparison found 725 non-ledger files on local and remote, with 0 filename differences.
 
 # FOC Git Ignore Audit - 2026-06-15
 

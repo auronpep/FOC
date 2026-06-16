@@ -1,0 +1,103 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "BarMatrix Hearsay Finished Question Draft"
+type: object
+required:
+  - artifact_type
+  - version
+  - question_id
+  - review_status
+  - source_mode
+  - metadata
+  - christian_surface_profile
+  - mechanics
+  - statement_map
+  - layer_map
+  - route_gate_checklist
+  - question
+  - answer_array_geometry
+  - answer_choice_forensics
+  - explanation
+  - student_learning_layer
+  - qa_self_audit
+  - copy_safety
+  - human_review_flags
+  - source_law_trace
+  - taxonomy_growth_delta
+properties:
+  artifact_type:
+    const: hearsay_finished_question_draft
+  version:
+    type: string
+  question_id:
+    type: string
+  review_status:
+    enum: [draft_internal_only, needs_human_review, rejected_internal]
+  source_mode:
+    enum: [synthetic_from_tension_not_source_question, transformed_from_source_question]
+  metadata:
+    type: object
+    required:
+      - slot_id
+      - subject
+      - subtopic
+      - official_outline_node
+      - official_section
+      - official_topic
+      - outline_code
+      - primary_tension_id
+      - jurisdiction_mode
+      - confrontation_flag
+      - california_distinction_flag
+      - difficulty_band
+      - accuracy_target
+      - repair_id
+  christian_surface_profile:
+    type: object
+    required: [intensity, setting, faith_elements, bible_names_used, clutter_risk]
+  mechanics:
+    type: object
+    required:
+      - statement_count
+      - declarant_count
+      - layer_count
+      - evidence_vehicle
+      - offered_purpose
+      - route_type
+      - admissibility_scope
+      - correct_route_summary
+      - wrong_answer_mechanic
+      - repair_id
+  statement_map:
+    type: array
+    minItems: 1
+  layer_map:
+    type: array
+    minItems: 1
+  question:
+    type: object
+    required: [stem, call, choices, correct_answer]
+    properties:
+      choices:
+        type: object
+        required: [A, B, C, D]
+  answer_choice_forensics:
+    type: array
+    minItems: 4
+    maxItems: 4
+  qa_self_audit:
+    type: object
+    required:
+      - exact_statement_identified
+      - offered_purpose_identified
+      - every_layer_routed
+      - one_best_answer
+      - needs_human_legal_review
+      - needs_calibration_harness_audit
+  human_review_flags:
+    type: object
+    required:
+      - legal_review_required
+      - calibration_review_required
+      - copy_safety_review_required
+      - christian_surface_review_required
+additionalProperties: true

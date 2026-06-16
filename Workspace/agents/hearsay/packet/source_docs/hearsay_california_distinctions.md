@@ -1,0 +1,21 @@
+# Hearsay California Distinctions — BarMatrix™
+
+The California Bar MCQ outline says the Federal Rules of Evidence are assumed unless the question specifies otherwise. This file is the California overlay for California-specific BarMatrix materials.
+
+| ID | Distinction | Operational Meaning | Trigger Family | Drafting Note |
+| --- | --- | --- | --- | --- |
+| CA-HS-001 | CEC §1200 vs FRE 801 | Both use truth-purpose definition, but California labels and statutory scheme differ. | Hearsay rule, nontruth purpose, statement definition | Do not assume outcome differs; sometimes only classification differs. |
+| CA-HS-002 | Party admissions | FRE 801(d)(2) treats opposing-party statements as nonhearsay; California generally frames admissions as hearsay exceptions such as §1220. | Direct, adoptive, authorized, vicarious statements | Correct answer wording may need 'exception' rather than 'not hearsay' in California mode. |
+| CA-HS-003 | Prior inconsistent statements | FRE substantive use requires under-oath proceeding/deposition; California §1235 is broader when §770 conditions are met. | PIS impeachment/substantive variants | High-value California distinction; build direct comparison slots. |
+| CA-HS-004 | Prior consistent / prior identification | FRE 801(d)(1)(B)/(C) differs from California statutory prior statement articles. | PCS/ID witness subject-to-cross variants | QA each item before publishing California answer. |
+| CA-HS-005 | Spontaneous statements | California §1240 tracks stress/excitement and perception; label as spontaneous statement, not generic excited utterance if writing California material. | Immediate startled statements | Outcome often similar to FRE 803(2), but terminology differs. |
+| CA-HS-006 | Present sense impression gap | FRE has present sense impression; California does not have an identical broad PSI rule. Use §1240 or §1241 when facts fit. | Real-time observations, license number, live phone relay | Do not import broad FRE PSI into California. |
+| CA-HS-007 | State of mind | California §1250 expressly excludes memory/belief to prove remembered/believed fact. | Fear/intent/memory-belief items | Useful for California explanations because statute text is explicit. |
+| CA-HS-008 | Medical diagnosis/treatment | California §1253 has narrower wording and specific conditions; compare before using FRE 803(4) result. | Ambulance, nurse, doctor statements | California answer may need condition-specific route. |
+| CA-HS-009 | Business records | California §1271 requires regular course, near time, custodian/qualified witness, and trustworthiness. | Hospital chart, invoices, employee memos | Source duty/trustworthiness remains critical. |
+| CA-HS-010 | Official records | California §1280 requires public employee duty, near-time record, and trustworthy source/method/time. | Fire marshal, police report, DMV, license board | Confrontation still overlays criminal testimonial use. |
+| CA-HS-011 | Former testimony | California §1291 has successor/party and similar motive/opportunity language. | Prior proceedings, transcripts | Build civil/criminal and successor-in-interest variants. |
+| CA-HS-012 | Hearsay declarant impeachment | California §1202 allows inconsistent statement/conduct to attack hearsay declarant without opportunity to explain/deny. | Declarant impeachment after admitted hearsay | Aligns well with FRE 806 but use CA code in explanations. |
+| CA-HS-013 | Secondary evidence rule | California §1521 permits otherwise admissible secondary evidence of writings subject to genuine dispute/unfairness/authentication; does not cure hearsay. | Copies of notices/questionnaires/letters | Do not equate duplicate/original-writing analysis with hearsay route. |
+| CA-HS-014 | Residual exception | FRE 807 exists; California does not have a broad identical residual hearsay exception in ordinary form. | Sympathetic hearsay not fitting statutory exception | Do not create California residual shortcuts. |
+| CA-HS-015 | Expert-basis hearsay / Sanchez | California expert-basis disclosure of case-specific hearsay has special limitations; Confrontation may apply if testimonial. | Expert repeats reports/lab notes | Use in advanced California hearsay/expert crossover slots. |

@@ -1,0 +1,1 @@
+GatewayClientRequestError: Error: Thinking level "max" is not supported for google/gemini-3-flash-preview. Use one of: off, minimal, low, medium, adaptive, high.
