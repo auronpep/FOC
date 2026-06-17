@@ -151,3 +151,34 @@ npx --yes skills add vercel-labs/agent-skills -l
 npx --yes skills add anthropics/skills -l
 npx --yes skills add coreyhaines31/marketingskills -l
 ```
+
+## Hearsay Agent Architecture Decision
+
+Decision: use one named OpenClaw agent, `hearsay`, with three per-agent skills that run in sequence:
+
+1. `hearsay-generate`
+2. `hearsay-qa-repair`
+3. `hearsay-package-report`
+
+Do not create three named Hearsay agents yet. OpenClaw treats a named agent as a full scoped brain: workspace, state directory, auth/model profile, and session history. The Hearsay workflow is sequential and domain-cohesive, so splitting generation, QA, and packaging into separate agents would add duplicated packet memory, handoff state, and inconsistent session stores without a current benefit.
+
+OpenClaw skills are instruction packs for repeatable workflows. They do not automatically hand off to each other; the agent's `AGENTS.md` must mandate the flow. The `hearsay` workspace therefore owns the packet, validator, draft paths, reports, and run ledger, while skills define phase behavior.
+
+Sub-agents remain available later for genuinely parallel or heavy work, such as long current-law research or independent QA review. They should not be the default because each sub-agent has its own session/context cost.
+
+Implemented workspace target:
+
+`C:\FOC\Workspace\agents\hearsay`
+
+Full reference note:
+
+`C:\FOC\Workspace\reference\OPENCLAW_HEARSAY_AGENT_ARCHITECTURE.md`
+
+Primary docs consulted:
+
+- [Gateway architecture](https://docs.openclaw.ai/concepts/architecture)
+- [Agent runtime](https://docs.openclaw.ai/concepts/agent)
+- [Agent workspace](https://docs.openclaw.ai/concepts/agent-workspace)
+- [Multi-agent routing](https://docs.openclaw.ai/concepts/multi-agent)
+- [Skills](https://docs.openclaw.ai/tools/skills)
+- [Sub-agents](https://docs.openclaw.ai/tools/subagents)

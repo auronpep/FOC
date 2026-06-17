@@ -1,0 +1,482 @@
+{
+  "runId": "c3612a6d-fdb1-4b0d-9ccd-dabe6160f0a5",
+  "status": "ok",
+  "summary": "completed",
+  "result": {
+    "payloads": [
+      {
+        "text": "Generated and packaged HS-0401 smoke test successfully.\n\n- YAML: [drafts/HS-0401.yaml](C:/FOC/Workspace/agents/hearsay/drafts/HS-0401.yaml)\n- Validation JSON: [validation/HS-0401.validation.json](C:/FOC/Workspace/agents/hearsay/validation/HS-0401.validation.json)\n- Report: [reports/HS-0401.report.md](C:/FOC/Workspace/agents/hearsay/reports/HS-0401.report.md)\n- Ledger: [ledger/runs.jsonl](C:/FOC/Workspace/agents/hearsay/ledger/runs.jsonl)\n\nValidator result: passed, 1 document, 0 errors, 0 warnings.\n\nRemaining human-review flags: legal, calibration, copy-safety, and Christian-surface review.",
+        "mediaUrl": null
+      },
+      {
+        "text": "⚠️ 🛠️ `\"C:\\\\Program Files\\\\PowerShell\\\\7\\\\pwsh.exe\" -Command \"Get-…sonl' -ErrorAction SilentlyContinue | Select-Object -Last 5\" (in C:\\FOC\\Workspace\\agents\\hearsay)` failed",
+        "mediaUrl": null
+      }
+    ],
+    "meta": {
+      "durationMs": 332099,
+      "agentMeta": {
+        "sessionId": "c2edee74-b812-427e-ab90-f2b90ba2a2e4",
+        "provider": "openai",
+        "model": "gpt-5.5",
+        "contextTokens": 272000,
+        "agentHarnessId": "codex",
+        "usage": {
+          "input": 1186,
+          "output": 228,
+          "cacheRead": 107392,
+          "total": 108806
+        },
+        "lastCallUsage": {
+          "input": 1186,
+          "output": 228,
+          "cacheRead": 107392,
+          "cacheWrite": 0,
+          "total": 108806
+        },
+        "promptTokens": 108578
+      },
+      "aborted": false,
+      "systemPromptReport": {
+        "source": "run",
+        "generatedAt": 1781598750966,
+        "sessionId": "c2edee74-b812-427e-ab90-f2b90ba2a2e4",
+        "sessionKey": "agent:hearsay:hearsay-smoke-hs0401-20260616-013222",
+        "provider": "openai",
+        "model": "gpt-5.5",
+        "workspaceDir": "C:\\FOC\\Workspace\\agents\\hearsay",
+        "systemPrompt": {
+          "chars": 24290,
+          "projectContextChars": 0,
+          "nonProjectContextChars": 24290,
+          "hash": "7b50cb234eef195ead06acadb56c23f805bb5fb753d825e040c3620ac9ad2e62"
+        },
+        "injectedWorkspaceFiles": [
+          {
+            "name": "AGENTS.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\AGENTS.md",
+            "missing": false,
+            "rawChars": 3383,
+            "injectedChars": 3383,
+            "truncated": false
+          },
+          {
+            "name": "SOUL.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\SOUL.md",
+            "missing": false,
+            "rawChars": 790,
+            "injectedChars": 790,
+            "truncated": false
+          },
+          {
+            "name": "TOOLS.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\TOOLS.md",
+            "missing": false,
+            "rawChars": 1022,
+            "injectedChars": 1022,
+            "truncated": false
+          },
+          {
+            "name": "IDENTITY.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\IDENTITY.md",
+            "missing": false,
+            "rawChars": 693,
+            "injectedChars": 693,
+            "truncated": false
+          },
+          {
+            "name": "USER.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\USER.md",
+            "missing": false,
+            "rawChars": 534,
+            "injectedChars": 534,
+            "truncated": false
+          },
+          {
+            "name": "HEARTBEAT.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\HEARTBEAT.md",
+            "missing": false,
+            "rawChars": 243,
+            "injectedChars": 0,
+            "truncated": false
+          },
+          {
+            "name": "MEMORY.md",
+            "path": "C:\\FOC\\Workspace\\agents\\hearsay\\MEMORY.md",
+            "missing": false,
+            "rawChars": 982,
+            "injectedChars": 0,
+            "truncated": false
+          }
+        ],
+        "skills": {
+          "promptChars": 16397,
+          "hash": "18875d472136083069a01a176b826576702fde45f3eedb382916932366faab87",
+          "entries": [
+            {
+              "name": "barmatrix-page-rewrite",
+              "blockChars": 524
+            },
+            {
+              "name": "browser-automation",
+              "blockChars": 376
+            },
+            {
+              "name": "canvas",
+              "blockChars": 299
+            },
+            {
+              "name": "coding-agent",
+              "blockChars": 331
+            },
+            {
+              "name": "competitors",
+              "blockChars": 890
+            },
+            {
+              "name": "copywriting",
+              "blockChars": 998
+            },
+            {
+              "name": "cq-transform-qa",
+              "blockChars": 597
+            },
+            {
+              "name": "cro",
+              "blockChars": 942
+            },
+            {
+              "name": "diagram-maker",
+              "blockChars": 302
+            },
+            {
+              "name": "find-skills",
+              "blockChars": 522
+            },
+            {
+              "name": "gemini",
+              "blockChars": 287
+            },
+            {
+              "name": "gh-issues",
+              "blockChars": 325
+            },
+            {
+              "name": "github",
+              "blockChars": 296
+            },
+            {
+              "name": "graphify",
+              "blockChars": 408
+            },
+            {
+              "name": "healthcheck",
+              "blockChars": 314
+            },
+            {
+              "name": "hearsay-generate",
+              "blockChars": 318
+            },
+            {
+              "name": "hearsay-package-report",
+              "blockChars": 311
+            },
+            {
+              "name": "hearsay-qa-repair",
+              "blockChars": 290
+            },
+            {
+              "name": "meme-maker",
+              "blockChars": 287
+            },
+            {
+              "name": "node-connect",
+              "blockChars": 317
+            },
+            {
+              "name": "node-inspect-debugger",
+              "blockChars": 313
+            },
+            {
+              "name": "notion",
+              "blockChars": 308
+            },
+            {
+              "name": "obsidian-vault-maintainer",
+              "blockChars": 344
+            },
+            {
+              "name": "openai-whisper-api",
+              "blockChars": 311
+            },
+            {
+              "name": "pricing",
+              "blockChars": 888
+            },
+            {
+              "name": "product-marketing",
+              "blockChars": 830
+            },
+            {
+              "name": "python-debugpy",
+              "blockChars": 301
+            },
+            {
+              "name": "signup",
+              "blockChars": 932
+            },
+            {
+              "name": "skill-creator",
+              "blockChars": 295
+            },
+            {
+              "name": "skill-portability",
+              "blockChars": 536
+            },
+            {
+              "name": "spike",
+              "blockChars": 287
+            },
+            {
+              "name": "taskflow",
+              "blockChars": 317
+            },
+            {
+              "name": "taskflow-inbox-triage",
+              "blockChars": 327
+            },
+            {
+              "name": "video-frames",
+              "blockChars": 265
+            },
+            {
+              "name": "weather",
+              "blockChars": 325
+            },
+            {
+              "name": "wiki-maintainer",
+              "blockChars": 319
+            }
+          ]
+        },
+        "tools": {
+          "listChars": 0,
+          "schemaChars": 60,
+          "entries": [
+            {
+              "name": "cron",
+              "summaryChars": 3721,
+              "summaryHash": "8eb177e0cdf7d5bc0144f544bf0072e38b6bab267e0699a2859b4a8db97af0b3",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "image_generate",
+              "summaryChars": 468,
+              "summaryHash": "d093313d17509b72795516c6ad7c92a9f1e8c7943239d570fd81347dc2557424",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "music_generate",
+              "summaryChars": 524,
+              "summaryHash": "67e4d3d73cbc844f2cc2ffb16cbbe3a6d4a58ec88a8cbe0bd0106515b6fec638",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "video_generate",
+              "summaryChars": 307,
+              "summaryHash": "59fd08c3f2947e0394c7d1aae5219763bf201537bef536228c6c4fd63724e415",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "get_goal",
+              "summaryChars": 71,
+              "summaryHash": "58dea7906d9e17e5f89a75fea24597ee068d8a56af824370dc27f8501374d6e3",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "create_goal",
+              "summaryChars": 155,
+              "summaryHash": "f01e3a63d673a410ba55213ce6bd3fa2b0d2279e8e780c18aa0cb5aa991b29b3",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "update_goal",
+              "summaryChars": 212,
+              "summaryHash": "285201690e5f2456b4cdcd252ff391709b84d69538df61bad694d3c0cfc19958",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "skill_workshop",
+              "summaryChars": 171,
+              "summaryHash": "577c1d2b8f56bf3e9dd5e00463bbce8b8bf4cf201da9b21b588dcaa3bc6ed8cf",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "sessions_list",
+              "summaryChars": 135,
+              "summaryHash": "c7e411ae02e3adff5504aaee48f02d262a8abb9152558a3172aae289e3b05faf",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "sessions_history",
+              "summaryChars": 117,
+              "summaryHash": "f5d45b76f11a8ac63cc45d456fb6f675f0b1a2e191feb9671924cb5830058f03",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "sessions_send",
+              "summaryChars": 282,
+              "summaryHash": "061e9ef3487676bb2a4fd4c0336bd973aaab5eea0725e7443c4cb17518cd1e78",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "sessions_spawn",
+              "summaryChars": 332,
+              "summaryHash": "5ced554d0c09b9c71fa003139eca7871bbfdc0917a323fc17af2a9faec46c5b7",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "sessions_yield",
+              "summaryChars": 79,
+              "summaryHash": "f3782fc41c1522657e1d3494f486a2df998fed38a6b89dcf7f6934fb41424320",
+              "schemaChars": 60,
+              "schemaHash": "d803b8cd6aef950bd59c7467fe8ce4d612d0730f5b0270a521b792f7ef6e4550",
+              "propertiesCount": 1
+            },
+            {
+              "name": "subagents",
+              "summaryChars": 132,
+              "summaryHash": "1c2ffd38549c0444b118d43736fc4b875ea1aaabc446bbf8bc1fc4ee9180cca4",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "session_status",
+              "summaryChars": 278,
+              "summaryHash": "71177e543dc6235bad4b1a26761995681dcec27ab58dcb4f4f8a7fc9a7b2b5aa",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "web_search",
+              "summaryChars": 65,
+              "summaryHash": "b38e9b3c079beaa988d3c576303660b91a55c2e72f56351da04160529173273f",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "web_fetch",
+              "summaryChars": 93,
+              "summaryHash": "8875afbb51bd63673e5e6836ca31eeda73914a464862665cd73b346e28d28fd5",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "image",
+              "summaryChars": 169,
+              "summaryHash": "a46820ca8952445d3663a8908bfa5d3adddff5b53d18b9d8e9eed8f9e593b494",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "memory_search",
+              "summaryChars": 605,
+              "summaryHash": "0f918d28864d3682ae77731f149273997c84773592a466b18c7cd0121b599a05",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "memory_get",
+              "summaryChars": 239,
+              "summaryHash": "bff1141a3da31a345c550337417efc9ace4da2909004606c727c59ca1a294495",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "code_execution",
+              "summaryChars": 139,
+              "summaryHash": "dab5ca00c79079bed40238874430256e32b63a51caa1e28ac162f0ba85ef5f7a",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            },
+            {
+              "name": "x_search",
+              "summaryChars": 184,
+              "summaryHash": "e602f65cb9e902e25427193fc5e6e0eb042a637e40ee8c44e70c9f522640e749",
+              "schemaChars": 0,
+              "schemaHash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+              "propertiesCount": null
+            }
+          ]
+        }
+      },
+      "finalAssistantVisibleText": "Generated and packaged HS-0401 smoke test successfully.\n\n- YAML: [drafts/HS-0401.yaml](C:/FOC/Workspace/agents/hearsay/drafts/HS-0401.yaml)\n- Validation JSON: [validation/HS-0401.validation.json](C:/FOC/Workspace/agents/hearsay/validation/HS-0401.validation.json)\n- Report: [reports/HS-0401.report.md](C:/FOC/Workspace/agents/hearsay/reports/HS-0401.report.md)\n- Ledger: [ledger/runs.jsonl](C:/FOC/Workspace/agents/hearsay/ledger/runs.jsonl)\n\nValidator result: passed, 1 document, 0 errors, 0 warnings.\n\nRemaining human-review flags: legal, calibration, copy-safety, and Christian-surface review.",
+      "finalAssistantRawText": "Generated and packaged HS-0401 smoke test successfully.\n\n- YAML: [drafts/HS-0401.yaml](C:/FOC/Workspace/agents/hearsay/drafts/HS-0401.yaml)\n- Validation JSON: [validation/HS-0401.validation.json](C:/FOC/Workspace/agents/hearsay/validation/HS-0401.validation.json)\n- Report: [reports/HS-0401.report.md](C:/FOC/Workspace/agents/hearsay/reports/HS-0401.report.md)\n- Ledger: [ledger/runs.jsonl](C:/FOC/Workspace/agents/hearsay/ledger/runs.jsonl)\n\nValidator result: passed, 1 document, 0 errors, 0 warnings.\n\nRemaining human-review flags: legal, calibration, copy-safety, and Christian-surface review.",
+      "replayInvalid": true,
+      "livenessState": "working",
+      "stopReason": "stop",
+      "executionTrace": {
+        "winnerProvider": "openai",
+        "winnerModel": "gpt-5.5",
+        "attempts": [
+          {
+            "provider": "openai",
+            "model": "gpt-5.5",
+            "result": "success",
+            "stage": "assistant"
+          }
+        ],
+        "fallbackUsed": false,
+        "runner": "embedded"
+      },
+      "requestShaping": {
+        "authMode": "auth-profile",
+        "thinking": "high"
+      },
+      "toolSummary": {
+        "calls": 41,
+        "tools": [
+          "bash",
+          "apply_patch"
+        ],
+        "failures": 1
+      },
+      "completion": {
+        "stopReason": "stop",
+        "finishReason": "stop"
+      }
+    }
+  }
+}

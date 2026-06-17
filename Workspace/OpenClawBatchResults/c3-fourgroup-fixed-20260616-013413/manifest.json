@@ -1,0 +1,74 @@
+[
+  {
+    "group": 4,
+    "question": 19508,
+    "model": "anthropic/claude-sonnet-4-6",
+    "thinking": "high",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q19508-anthropic-claude-sonnet-4-6",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19508.md"
+  },
+  {
+    "group": 4,
+    "question": 19762,
+    "model": "google/gemini-3.1-flash-lite",
+    "thinking": "high",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q19762-google-gemini-3-1-flash-lite",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19762.md"
+  },
+  {
+    "group": 4,
+    "question": 19956,
+    "model": "nv-qwen3-next-80b/qwen/qwen3-next-80b-a3b-instruct",
+    "thinking": "off",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q19956-nv-qwen3-next-80b-qwen-qwen3-next-80b-a3b-instruct",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19956.md"
+  },
+  {
+    "group": 4,
+    "question": 19972,
+    "model": "nv-seed-oss-36b/bytedance/seed-oss-36b-instruct",
+    "thinking": "off",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q19972-nv-seed-oss-36b-bytedance-seed-oss-36b-instruct",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19972.md"
+  },
+  {
+    "group": 4,
+    "question": 19992,
+    "model": "nv-solar-10-7b/upstage/solar-10.7b-instruct",
+    "thinking": "off",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q19992-nv-solar-10-7b-upstage-solar-10-7b-instruct",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19992.md"
+  },
+  {
+    "group": 4,
+    "question": 20555,
+    "model": "nv-step-3-5-flash/stepfun-ai/step-3.5-flash",
+    "thinking": "off",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q20555-nv-step-3-5-flash-stepfun-ai-step-3-5-flash",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ20555.md"
+  },
+  {
+    "group": 4,
+    "question": 20903,
+    "model": "nv-step-3-7-flash/stepfun-ai/step-3.7-flash",
+    "thinking": "off",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q20903-nv-step-3-7-flash-stepfun-ai-step-3-7-flash",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ20903.md"
+  },
+  {
+    "group": 4,
+    "question": 20931,
+    "model": "openrouter/google/gemma-4-26b-a4b-it",
+    "thinking": "high",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q20931-openrouter-google-gemma-4-26b-a4b-it",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ20931.md"
+  },
+  {
+    "group": 4,
+    "question": 16100,
+    "model": "anthropic/claude-opus-4-6",
+    "thinking": "high",
+    "sessionKey": "c3g4-c3-fourgroup-fixed-20260616-013413-q16100-anthropic-claude-opus-4-6",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ16100.md"
+  }
+]

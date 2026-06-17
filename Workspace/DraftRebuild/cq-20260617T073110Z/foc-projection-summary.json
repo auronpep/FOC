@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-06-17T07:31:24.055Z",
+  "draft_root": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T073110Z",
+  "archive_root": "C:\\BMO\\archives\\content-reset-20260616-194506",
+  "manifest_path": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T073110Z\\foc-rebuild-manifest.json",
+  "store_root": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq",
+  "manifest_draft_ready": 1241,
+  "projected_questions": 1240,
+  "missing_store_questions": 1,
+  "missing_store_sample": [
+    {
+      "transformed_qid": "19833_camp_shed_sentencing",
+      "source_qid": "19833",
+      "subject": "CRIMINAL",
+      "missing": [
+        "components_invalid_json"
+      ],
+      "errors": {
+        "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\19833.json": "Unexpected non-whitespace character after JSON at position 2593 (line 52 column 2)"
+      }
+    }
+  ],
+  "invalid_json_files": 1,
+  "c3_annotations": 1240,
+  "question_tags": 47038,
+  "tag_counts": {
+    "outline_code": 1240,
+    "source_qid": 1240,
+    "c3_raw_verdict": 1216,
+    "c3_verdict": 1240,
+    "deciding_phase": 1216,
+    "confidence": 1216,
+    "tension": 1177,
+    "tension_point": 1177,
+    "red_zone_dimension": 4810,
+    "wrong_answer_architecture": 6178,
+    "trap_family": 7495,
+    "misconception": 3754,
+    "component_routing": 2488,
+    "crossover": 2434,
+    "gold_key": 1352,
+    "silver_key": 1135,
+    "drill_seed": 3425,
+    "remediation_card": 1216,
+    "filter_broken": 1941,
+    "call_heuristic": 1088
+  },
+  "answer_choice_projection_updates": 3654,
+  "reference_molds": 81,
+  "reference_architectures": 194,
+  "reference_call_heuristics": 1013,
+  "drill_seeds_indexed_as_tags": 3481,
+  "c3_cards_written": 0,
+  "c3_cards_policy": "Skipped until activation because /api/c3/deck reads c3_cards without a question status gate.",
+  "by_subject": {
+    "CIVIL_PROCEDURE": 94,
+    "CONSTITUTIONAL_LAW": 101,
+    "CONTRACTS": 174,
+    "CRIMINAL": 418,
+    "EVIDENCE": 194,
+    "REAL_PROPERTY": 179,
+    "TORTS": 80
+  },
+  "load_sql": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T073110Z\\LOAD_FOC_PROJECTIONS_STRICT_DRAFT.sql",
+  "rollback_sql": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T073110Z\\ROLLBACK_FOC_PROJECTIONS_STRICT_DRAFT.sql"
+}

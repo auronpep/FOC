@@ -1,0 +1,317 @@
+artifact_type: hearsay_finished_question_draft
+version: BM-HS-FQ-DRAFT-v3-christian-study-group
+question_id: HS-0401-effect-listener-notice-mailing
+review_status: draft_internal_only
+source_mode: synthetic_from_tension_not_source_question
+metadata:
+  slot_id: HS-0401
+  subject: EVIDENCE
+  subtopic: Hearsay and Circumstances of Its Admissibility
+  official_outline_node: HS-B3a
+  official_section: B. Hearsay Exemptions
+  official_topic: Effect on listener
+  outline_code: "33040203"
+  primary_tension_id: HS-025
+  secondary_tension_ids: []
+  fact_trigger_ids: []
+  jurisdiction_mode: FRE with presentation crossover
+  ca_source_flag: FRE default
+  case_posture: Civil contract dispute over a private retreat-center cancellation fee.
+  confrontation_flag: none
+  california_distinction_flag: none
+  difficulty_band: Calibration
+  accuracy_target: 75-90%
+  sample_rows: "92, 105, 108, 120, 121, 141"
+  repair_id: REP-HS-001
+  wal_target_ids:
+    - WAL-HS-018
+    - WAL-HS-025
+    - WAL-HS-032
+christian_surface_profile:
+  intensity: wild_open_intentional
+  setting: Private Christian bar-prep group arranging a fellowship-hall review supper at a retreat center.
+  faith_elements:
+    - Christian bar-prep small group
+    - fellowship-hall review supper
+    - prayer-and-practice study night
+    - retreat-center logistics
+    - Scripture memory cards on the sign-in table
+  bible_names_used:
+    - Mary
+    - Paul
+    - Lydia
+  clutter_risk: low
+  clutter_avoidance_notes: The facts use ordinary private event logistics and avoid clergy privilege, church governance, donations, tax, discrimination, and denominational issues.
+mechanics:
+  statement_count: 1
+  declarant_count: 1
+  layer_count: 1
+  evidence_vehicle: oral statement
+  offered_purpose: notice/effect
+  route_type: nonhearsay_purpose
+  admissibility_scope: limited_purpose
+  correct_route_summary: Paul's out-of-court words are offered to show their effect on Mary and explain her later conduct, not to prove the cancellation letter actually arrived.
+  wrong_answer_mechanic: WAL-HS-018
+  repair_id: REP-HS-001
+statement_map:
+  - statement_id: S1
+    statement_surface_ref: Paul's phone response to Mary after the group sent the cancellation notice.
+    statement_abstract: Paul said the retreat center had received the group's cancellation notice and that Mary did not need to send another copy.
+    declarant_role: Retreat-center scheduling employee Paul
+    declarant_is_person: true
+    listener_role: Christian study-group coordinator Mary
+    asserted_proposition: The retreat center received the cancellation notice and no second copy was needed.
+    offered_proposition: Mary heard words that would cause a reasonable coordinator to stop sending follow-up notices and move the review supper elsewhere.
+    truth_or_nontruth: nontruth
+    offered_purpose: notice/effect
+    evidence_vehicle: oral statement
+    route_type: nonhearsay_purpose
+    route_name: Effect on listener and reason-for-action nontruth use
+    result: admissible for a limited nontruth purpose
+    admissibility_scope: limited_purpose
+    limiting_instruction_needed: true
+    human_review_note: Human review should confirm the civil-contract relevance of Mary's reason for action apart from truth of receipt.
+layer_map:
+  - layer_id: L1
+    contains_statement_id: S1
+    declarant_role: Retreat-center scheduling employee Paul
+    vehicle_or_container: Mary's live testimony about the phone call
+    source_of_information: Paul's own out-of-court assertion as heard by Mary
+    business_or_public_duty_status: not_applicable
+    offered_for: To show Mary's notice, state of mind, and reason for not sending further notice, not to prove actual receipt.
+    route: nonhearsay_purpose
+    route_elements_satisfied:
+      - "The statement is out of court."
+      - "The declarant is a person."
+      - "The proponent identifies a listener whose conduct matters."
+      - "The offered proposition differs from the asserted proposition."
+    route_elements_missing: []
+    result: pass
+    scope: limited_purpose
+    depends_on_layer_id: null
+    failure_axis: null
+route_gate_checklist:
+  hearsay_definition:
+    out_of_court_statement: true
+    person_declarant: true
+    assertion_intended: true
+    truth_use: false
+  availability:
+    declarant_status: not_applicable
+    unavailability_required: not_applicable
+    subject_to_cross_required: not_applicable
+    subject_to_cross_satisfied: not_applicable
+  records:
+    record_container_route: not_applicable
+    source_duty_chain: not_applicable
+    embedded_hearsay_checked: not_applicable
+    litigation_preparation_issue: not_applicable
+    absence_record_certification_issue: not_applicable
+  original_writing:
+    contents_target_of_proof: false
+    duplicate_or_original_issue: not_applicable
+  confrontation:
+    case_is_criminal: false
+    offered_for_truth: false
+    testimonial_status: not_applicable
+    declarant_absent: not_applicable
+    prior_cross: not_applicable
+    confrontation_result: not_applicable
+  california:
+    california_mode: false
+    label_difference: not_applicable
+    outcome_difference: not_applicable
+    needs_ca_review: false
+question:
+  stem: Mary coordinates a private Christian bar-prep small group that rents a retreat-center room for a prayer-and-practice study night. After the group mailed a cancellation notice, Mary spoke by phone with Paul, the center's scheduling employee. Paul told Mary that the center had received the notice and that she did not need to send another copy. In the center's later suit for the cancellation fee, Mary offers testimony about Paul's statement only to explain why she stopped sending follow-up notices and moved the fellowship supper to Lydia's bookstore room. The center objects on hearsay grounds.
+  call: How should the court rule?
+  choices:
+    A: Admit the statement only for its effect on Mary and her reason for action, with a limiting instruction if requested.
+    B: Admit the statement for the truth because Paul's own words prove that he had authority to speak for the retreat center.
+    C: Exclude the statement because cause or fault statements are not admissible merely because they explain the dispute.
+    D: Exclude the testimony unless the cancellation letter itself is read or received as an exhibit.
+  correct_answer: A
+answer_array_geometry:
+  geometry_type: admissible_scope_ladder
+  correct_answer_unique_axis: Limited nontruth use for listener effect, not substantive proof of receipt.
+  clash_pair:
+    - A
+    - B
+  dominant_trap_choice: B
+  dominant_trap_axis: Treating the statement as a substantive authorized-agent admission and letting the words prove authority.
+  array_preservation_status: created
+  flattening_reason: null
+answer_choice_forensics:
+  - choice_label: A
+    role: correct
+    wal_id: WAL-HS-001
+    c3_filter_broken: neither
+    c3_mold_code: correct_answer
+    c3_mold_family: correct_answer
+    failure_axis: none
+    why_plausible: It answers the precise hearsay route by separating what Paul asserted from why Mary offers the words.
+    why_wrong_or_correct: Correct because the statement is not offered to prove actual receipt; it is offered to show effect on Mary's conduct and is limited to that purpose.
+    what_true_responsive_version_would_need: This is already the true responsive version.
+    repair_id: REP-HS-001
+    pick_rate:
+      value: 78
+      provenance: predicted
+  - choice_label: B
+    role: top_wrong
+    wal_id: WAL-HS-018
+    c3_filter_broken: NOT_TRUE
+    c3_mold_code: half_truth
+    c3_mold_family: EAR_DISTORTION
+    failure_axis: route
+    why_plausible: Students may see an employee speaking about scheduling and jump to an authorized or vicarious statement route.
+    why_wrong_or_correct: Wrong because the item does not need a party-opponent route, and an alleged agent's words alone cannot supply the agency foundation for that route.
+    what_true_responsive_version_would_need: It would need independent agency foundation and a truth-use theory offered against the retreat center.
+    repair_id: REP-HS-016
+    pick_rate:
+      value: 12
+      provenance: predicted
+  - choice_label: C
+    role: wrong
+    wal_id: WAL-HS-025
+    c3_filter_broken: NOT_RESPONSIVE
+    c3_mold_code: bait_doctrine
+    c3_mold_family: ISSUE_SENSE
+    failure_axis: purpose
+    why_plausible: The answer sounds like a familiar hearsay-scope caution about cause and fault statements.
+    why_wrong_or_correct: Wrong because no medical-treatment or fault-statement exception is being used; the question turns on nontruth listener effect.
+    what_true_responsive_version_would_need: It would need a statement offered for medical diagnosis or treatment, or an exception whose subject-matter scope is actually disputed.
+    repair_id: REP-HS-034
+    pick_rate:
+      value: 5
+      provenance: predicted
+  - choice_label: D
+    role: wrong
+    wal_id: WAL-HS-032
+    c3_filter_broken: NOT_TRUE
+    c3_mold_code: wrong_element
+    c3_mold_family: ISSUE_SENSE
+    failure_axis: vehicle
+    why_plausible: The stem mentions a mailed notice, so students may shift to the writing or exhibit channel.
+    why_wrong_or_correct: Wrong because Mary is not trying to prove the contents of the cancellation letter; she is offering Paul's oral words for their effect on her.
+    what_true_responsive_version_would_need: It would need a claim that the legal significance turns on proving the letter's contents rather than Mary's response to what she heard.
+    repair_id: REP-HS-008
+    pick_rate:
+      value: 5
+      provenance: predicted
+explanation:
+  correct_answer_explanation: A is best. Paul's statement is an out-of-court assertion, but Mary offers it to show why she stopped sending follow-up notices and changed the small group's event plan. That is an effect-on-listener and reason-for-action use, not proof that the retreat center actually received the notice. The court may admit the statement for that limited purpose and give a limiting instruction if requested.
+  wrong_answer_explanations:
+    A: Correct for the limited nontruth route; it keeps the statement from becoming all-purpose proof of receipt.
+    B: Wrong. The statement is not admitted because Paul's own words prove agency or authority. Agency foundation cannot rest solely on the alleged agent's statement, and the proponent is using listener effect instead.
+    C: Wrong. This imports a cause/fault scope problem from a different hearsay setting. The resolving move here is purpose, not a medical or fault exception.
+    D: Wrong. The original-writing problem does not control because Mary is not proving the contents of the mailed notice. The relevant evidence is what she heard and how that affected her conduct.
+  black_letter_law_verification: Under FRE 801 and 802, a statement offered for something other than the truth of the matter asserted is outside the hearsay bar. Under FRE 105, a limiting instruction may confine the evidence to the proper nontruth purpose.
+  lawyer_confirmation_authorities:
+    - FRE 801
+    - FRE 802
+    - FRE 105
+  student_access_note: In the study group, ask first whether the statement is being used as a receipt-proving fact or as the reason Mary acted.
+student_learning_layer:
+  program_frame: "Christian study group diagnostic: identify the statement before hunting exceptions."
+  distilled_core_question: Is Paul's phone statement being used to prove receipt, or to explain Mary's next step?
+  review_truth: A statement offered to show its effect on the listener is not admitted for the truth of what it asserts.
+  bar_matrix_takeaway: Red-zone repair begins by splitting asserted proposition from offered proposition before naming any exception.
+  gold_keys:
+    - type: distinction
+      label: Truth use versus listener effect
+      rule: If the listener's reaction is the point, the statement may be limited to that nontruth purpose.
+  silver_keys:
+    - type: call_focus
+      label: Scope in the call
+      move: Choose the answer that admits only the purpose the call actually supports.
+    - type: trap_spotting
+      label: Writing mention bait
+      move: Do not switch to original-writing doctrine unless contents are the target of proof.
+  repair_modules:
+    - REP-HS-001
+    - REP-HS-016
+    - REP-HS-034
+    - REP-HS-008
+  drill_seeds:
+    - Same phone statement offered to prove actual receipt.
+    - Same phone statement offered to explain why a coordinator cancelled a backup room.
+    - Same mailed notice offered through the letter itself to prove its contents.
+  next_item_routing:
+    if_correct: Send to a harder wrong-listener notice item.
+    if_wrong_by_choice:
+      B: Route to agency-foundation and party-opponent statement drills.
+      C: Route to exception-scope boundary drills.
+      D: Route to original-writing target-of-proof drills.
+qa_self_audit:
+  schema_validated: true
+  exact_statement_identified: true
+  offered_purpose_identified: true
+  every_layer_routed: true
+  vehicle_scope_checked: true
+  one_best_answer: true
+  answer_key_consistency_checked: true
+  wrong_answers_mechanically_distinct: true
+  no_record_container_cure_error: true
+  no_confrontation_omission: true
+  no_california_fre_confusion: true
+  no_source_copy_or_close_paraphrase: true
+  no_unsupported_authority: true
+  controlled_vocab_validated: true
+  outline_code_validated: true
+  christian_surface_present: true
+  christian_surface_no_legal_clutter: true
+  needs_human_legal_review: true
+  needs_calibration_harness_audit: true
+  fatal_failures: []
+  warning_flags:
+    - Handoff offered_purpose said confrontation-safe/unsafe while confrontation_flag was none; draft routes the legal collision as notice/effect consistent with HS-B3a.
+copy_safety:
+  source_question_text_used: false
+  source_answer_choice_text_used: false
+  source_fact_sequence_used: false
+  distinctive_names_reused: false
+  distinctive_numbers_reused: false
+  distinctive_dialogue_reused: false
+  surface_dimensions_changed:
+    - Christian bar-prep small group
+    - retreat-center cancellation logistics
+    - fellowship supper moved to bookstore room
+    - oral phone response rather than source-row wording
+  dimensions_skipped_with_reason: []
+  similarity_risk: low
+  reviewer_notes: Synthetic fact pattern generated from slot mechanics only; no source-row text, names, numbers, or answer language used.
+human_review_flags:
+  legal_review_required: true
+  calibration_review_required: true
+  copy_safety_review_required: true
+  christian_surface_review_required: true
+  california_review_required: false
+  confrontation_review_required: false
+source_law_trace:
+  governing_law_mode: FRE_baseline
+  law_anchor_refs:
+    - FRE 801
+    - FRE 802
+    - FRE 105
+  packet_anchor_refs:
+    - packet/source_docs/02_HEARSAY_SOURCE_OF_TRUTH_TABLES.md
+    - packet/source_docs/hearsay_wrong_answer_mechanics.md
+    - packet/source_docs/hearsay_bootcamp_repairs.md
+    - packet/handoffs/17_HANDOFFS_BATCH_134_TO_145.md
+  authority_status:
+    authority_checked: true
+    citation_confidence: medium
+    attorney_review_required: true
+  doctrinal_currency_flags:
+    confrontation_current_law: not_applicable
+    california_distinction: not_applicable
+    rule_amendment_issue: not_applicable
+taxonomy_growth_delta:
+  canonicalization_status: none
+  proposed_new_official_nodes: []
+  proposed_new_tension_rows: []
+  proposed_new_fact_triggers: []
+  proposed_new_wrong_answer_mechanics: []
+  proposed_new_repair_modules: []
+  proposed_new_christian_surface_tags: []
+  rationale: No taxonomy growth proposed for this smoke-test slot.

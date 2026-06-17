@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-06-17T07:28:09.881Z",
+  "draft_root": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T072722Z",
+  "archive_root": "C:\\BMO\\archives\\content-reset-20260616-194506",
+  "manifest_path": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T072722Z\\foc-rebuild-manifest.json",
+  "store_root": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq",
+  "manifest_draft_ready": 1241,
+  "projected_questions": 1239,
+  "missing_store_questions": 2,
+  "missing_store_sample": [
+    {
+      "transformed_qid": "15100_naomi-pickup",
+      "source_qid": "15100",
+      "subject": "TORTS",
+      "missing": [
+        "intel_invalid_json"
+      ],
+      "errors": {
+        "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\15100.json": "Expected ',' or '}' after property value in JSON at position 687 (line 9 column 136)"
+      }
+    },
+    {
+      "transformed_qid": "19833_camp_shed_sentencing",
+      "source_qid": "19833",
+      "subject": "CRIMINAL",
+      "missing": [
+        "annotation_invalid_json"
+      ],
+      "errors": {
+        "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\19833.json": "Unexpected non-whitespace character after JSON at position 3664 (line 72 column 2)"
+      }
+    }
+  ],
+  "invalid_json_files": 2,
+  "c3_annotations": 1239,
+  "question_tags": 47017,
+  "tag_counts": {
+    "outline_code": 1239,
+    "source_qid": 1239,
+    "c3_raw_verdict": 1215,
+    "c3_verdict": 1239,
+    "deciding_phase": 1215,
+    "confidence": 1215,
+    "tension": 1176,
+    "tension_point": 1176,
+    "red_zone_dimension": 4810,
+    "wrong_answer_architecture": 6176,
+    "trap_family": 7491,
+    "misconception": 3752,
+    "component_routing": 2488,
+    "crossover": 2434,
+    "gold_key": 1352,
+    "silver_key": 1135,
+    "drill_seed": 3424,
+    "remediation_card": 1215,
+    "filter_broken": 1939,
+    "call_heuristic": 1087
+  },
+  "answer_choice_projection_updates": 3651,
+  "reference_molds": 81,
+  "reference_architectures": 194,
+  "reference_call_heuristics": 1012,
+  "drill_seeds_indexed_as_tags": 3480,
+  "c3_cards_written": 0,
+  "c3_cards_policy": "Skipped until activation because /api/c3/deck reads c3_cards without a question status gate.",
+  "by_subject": {
+    "CIVIL_PROCEDURE": 94,
+    "CONSTITUTIONAL_LAW": 101,
+    "CONTRACTS": 174,
+    "CRIMINAL": 418,
+    "EVIDENCE": 194,
+    "REAL_PROPERTY": 179,
+    "TORTS": 79
+  },
+  "load_sql": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T072722Z\\LOAD_FOC_PROJECTIONS_STRICT_DRAFT.sql",
+  "rollback_sql": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T072722Z\\ROLLBACK_FOC_PROJECTIONS_STRICT_DRAFT.sql"
+}

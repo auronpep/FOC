@@ -1,3 +1,33 @@
+## Q17074 C3 Transform - 2026-06-17
+
+- [x] Confirm `Finished\CQ17074.md` does not already exist.
+- [x] Confirm source item `QBank\17074.md` exists and process exactly this one question.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Contracts conditions/covenants section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\17074.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for prevention doctrine / good-faith efforts causing nonoccurrence of a condition.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q17074 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, predicted seed pick rates, controlled vocabulary, and whitespace hygiene.
+- [x] Record review results and stop after Q17074 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q17074 in this run.
+- Preserve the original condition-precedent/prevention-doctrine issue, credited prevention outcome, express-condition absolute trap, third-party-control trap, and certainty-of-approval burden trap.
+- Use measured source pick-rate data if present; otherwise emit predicted seed rates for all choices and label them `predicted`.
+- Use supplied outline code `56050101` only after verifying it in `OUTLINE_CODES_COMPLETE.md`; select the deepest listed Contracts node that covers conditions/covenants and prevention.
+
+### Review Results
+
+- Output written to `Finished\CQ17074.md` with variant id `17074_conference_espresso_trailer`.
+- Verified `56050101` appears in `OUTLINE_CODES_COMPLETE.md` as `Performance, Breach, and Excuse > Conditions > Covenants`.
+- Authority floor checked against Restatement (Second) of Contracts section 245 and section 205 for prevention doctrine and good-faith performance.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags choice `A` as the analytic dominant trap: A 31, B 38, C 20, D 11.
+- JSON Blocks 3, 4, and 5 parsed successfully through a focused PowerShell `ConvertFrom-Json` validation.
+- Cross-block consistency verified: question id `17074_conference_espresso_trailer`, credited answer `B`, residual `B`, official key `B`, original key `D`, outline code `56050101`, dominant trap `A`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled current routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones`, or trailing whitespace in `Finished\CQ17074.md`.
+- Verified `git diff --check -- 'Finished/CQ17074.md' 'tasks/todo.md'` completed with no whitespace errors. Git emitted only the existing LF-to-CRLF warning for `tasks/todo.md`.
+- Stopped after Q17074; no other question was started.
+
 ## Q14817 C3 Transform - 2026-06-15
 
 - [x] Confirm `Finished\CQ14817.md` does not already exist.
@@ -3773,6 +3803,69 @@ pwsh -NoProfile -File C:\FOC\Workspace\RUN_Cod.ps1 -Start 22031 -End 22050 -Mode
 
 - Ledger closeout marker retained after scoped path mentions for the local validator.
 
+## Q19745 C3 Transform - 2026-06-16
+
+- [x] Confirm `Finished\CQ19745.md` does not already exist.
+- [x] Confirm source item `QBank\19745.md` exists and process exactly this one question.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Evidence subsequent-remedial-measures section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\19745.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for subsequent remedial measures in product-defect/design-defect/warning use.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q19745 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, predicted seed pick rates, controlled vocabulary, and whitespace hygiene.
+- [x] Record review results and stop after Q19745 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q19745 in this run.
+- Preserve the original FRE 407 issue: a post-accident product change offered to prove product defect, design defect, or need for a warning is excluded.
+- Preserve the distractor mechanics: later-change-proves-defect absolute, product-cases-not-covered myth, and liability-admission condition trap.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`; use `QBank\19745.md` as the source row for this run.
+- Source supplies no measured pick-rate data; emit predicted seed rates for all choices and label them `predicted`.
+- Use verified outline code `35030301`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Privileges and Public Policy Exclusions > Public Policy Exclusions > Subsequent remedial measures`.
+
+### Review Results
+
+- Output written to `Finished/CQ19745.md` with variant id `19745_bible_study_soup_warmer`.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`, so `QBank\19745.md` was used as the source row for this run.
+- Verified `35030301` appears in `OUTLINE_CODES_COMPLETE.md` as `Privileges and Public Policy Exclusions > Public Policy Exclusions > Subsequent remedial measures`.
+- Authority floor checked against Fed. R. Evid. 407 in the current U.S. Code text and its 1997 advisory note confirming product-defect, design-defect, and warning-need coverage.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `A` as the analytic dominant wrong-answer trap: A 30, B 8, C 47, D 15.
+- Cross-block consistency verified: question id `19745_bible_study_soup_warmer`, credited answer `C`, residual `C`, original key `B`, outline code `35030301`, subject `EVIDENCE`, dominant trap `A`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled current routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- JSON Blocks 3, 4, and 5 parsed successfully through `ConvertFrom-Json`; all three question ids matched `19745_bible_study_soup_warmer`.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ19745.md`.
+- Verified `git diff --check -- 'Finished/CQ19745.md' 'tasks/todo.md'` completed with no whitespace errors. Git emitted only the existing LF-to-CRLF warning for `tasks/todo.md`.
+- Stopped after Q19745; no other question was started.
+
+## Q14880 C3 Transform - 2026-06-16
+
+- [x] Confirm `Finished\CQ14880.md` does not already exist.
+- [x] Confirm source item `QBank\14880.md` exists and process exactly this one question.
+- [x] Read session docs, `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Evidence authentication section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\14880.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for authentication/identification of real evidence.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q14880 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, inherited pick rates, controlled vocabulary, and whitespace hygiene.
+- [x] Record review results and stop after Q14880 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q14880 in this run.
+- Preserve the original authentication issue, credited overrule outcome, sufficient-evidence standard, chain-of-custody wrong-frame trap, possession-at-arrest wrong-element trap, and judge-preponderance dominant trap.
+- Source supplies measured pick-rate data; inherit rates by mechanic through the Letter Map.
+- Use verified outline code `32020700`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Relevance > Authentication and Identification`.
+
+### Review Results
+
+- Output written to `Finished/CQ14880.md` with variant id `14880_bible_quiz_mint_tin`.
+- Verified `32020700` appears in `OUTLINE_CODES_COMPLETE.md` as `Relevance > Authentication and Identification`.
+- Authority floor checked against Fed. R. Evid. 901(a), Fed. R. Evid. 104(b), and `Huddleston v. United States`, 485 U.S. 681 (1988).
+- Source supplied measured pick rates, so the file inherits rates by mechanic through the Letter Map and flags new choice `B` as the dominant wrong-answer trap: A 15, B 19, C 64, D 2.
+- Cross-block consistency verified: question id `14880_bible_quiz_mint_tin`, credited answer `C`, residual `C`, original key `A`, outline code `32020700`, subject `EVIDENCE`, dominant trap `B`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled current routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Validation passed: `pwsh -NoProfile -File C:\FOC\Workspace\verify_json.ps1 -Path C:\FOC\Workspace\Finished\CQ14880.md` returned `Passed=True` and `FailureCount=0`.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ14880.md`.
+- Verified `git diff --check -- 'Finished/CQ14880.md' 'tasks/todo.md'` completed with no whitespace errors.
+- Stopped after Q14880; no other question was started.
+
 ## Q18017 C3 Transform - 2026-06-16
 
 - [x] Confirm `Finished\CQ18017.md` does not already exist.
@@ -4204,3 +4297,193 @@ pwsh -NoProfile -File C:\FOC\Workspace\RUN_Cod.ps1 -Start 22031 -End 22050 -Mode
 ### Review Results
 
 - Ledger closeout marker retained after scoped path mentions for the local validator.
+
+## Q14871 C3 Transform - 2026-06-16
+
+- [x] Confirm `Finished\CQ14871.md` does not already exist.
+- [x] Confirm source item `QBank\14871.md` exists and process exactly this one question.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Evidence authentication section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\14871.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for Rule 902 self-authentication categories.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q14871 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, inherited pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q14871 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q14871 in this run.
+- Preserve the original negative "least likely without supporting witness" call, the one private-letterhead memo outside Rule 902, and the three self-authenticating distractor categories: official publication, newspaper/periodical, and trade label.
+- Source supplies measured pick-rate data; inherit rates by mechanic through the Letter Map.
+- Use verified outline code `32020700`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Relevance > Authentication and Identification`.
+
+### Review Results
+
+- Output written to `Finished/CQ14871.md` with variant id `14871_lampstand_guide_memo`.
+- Verified `32020700` appears in `OUTLINE_CODES_COMPLETE.md` as `Relevance > Authentication and Identification`.
+- Authority floor checked against the U.S. Courts current Federal Rules of Evidence page and Fed. R. Evid. 901(a), 902(5), 902(6), and 902(7).
+- Source supplied measured pick rates, so the file inherits rates by mechanic through the Letter Map and flags new choice `B` as the dominant wrong-answer trap: A 61, B 20, C 8, D 11.
+- Cross-block consistency verified: question id `14871_lampstand_guide_memo`, credited answer `A`, residual `A`, original key `C`, outline code `32020700`, subject `EVIDENCE`, dominant trap `B`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse with `ConvertFrom-Json`; pick rates sum to 100; required Pass-2 headings are present; every distractor has one filter and one mold.
+- ASCII-only output, no legacy `red_zones` property, and no trailing whitespace in `Finished\CQ14871.md`.
+- Verified `git diff --check -- 'Finished/CQ14871.md'` completed with no whitespace errors.
+- Stopped after Q14871; no other question was started.
+
+## Q22609 C3 Transform - 2026-06-16
+
+- [x] Confirm `Finished\CQ22609.md` does not already exist.
+- [x] Confirm source item `QBank\22609.md` exists and process exactly this one question.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Constitutional Law Equal Protection section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\22609.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for race-conscious remedial public-employer hiring under Equal Protection.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q22609 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, predicted seed pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q22609 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q22609 in this run.
+- Preserve the original Equal Protection remedial-hiring issue, credited constitutional outcome, department-specific prior-discrimination reason, no-race-ever trap, Equal Protection automatic-violation trap, and generic compelling-interest dominant trap.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`; use `QBank\22609.md` as the source row for this run.
+- Use measured source pick-rate data if present; otherwise emit predicted seed rates for all choices and label them `predicted`.
+- Treat source code `44040300` as broad; use the deepest verified race/suspect-class strict-scrutiny node.
+
+### Review Results
+
+- Output written to `Finished/CQ22609.md` with variant id `22609_fire_cadet_consent_decree`.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`, so `QBank\22609.md` was used as the source row for this run.
+- Verified `44040303` appears in `OUTLINE_CODES_COMPLETE.md` as `Individual Rights > Equal Protection Clause > Strict scrutiny (suspect) classifications`; selected it over the broader source code `44040300`.
+- Authority floor checked against U.S. Const. amend. XIV, `Adarand Constructors, Inc. v. Pena`, `Students for Fair Admissions`, `City of Richmond v. J.A. Croson Co.`, and `United States v. Paradise`.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `D` as the analytic dominant wrong-answer trap: A 19, B 42, C 11, D 28.
+- Cross-block consistency verified: question id `22609_fire_cadet_consent_decree`, credited answer `B`, residual `B`, original key `D`, outline code `44040303`, subject `CONSTITUTIONAL_LAW`, dominant trap `D`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse with `ConvertFrom-Json`; pick rates sum to 100; required Pass-2 headings are present; `drift_audit`, `transformed_from`, and `letter_map` are present in analyzer notes.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ22609.md`.
+- Verified `git diff --check -- 'Finished/CQ22609.md'` completed with no whitespace errors.
+- Stopped after Q22609; no other question was started.
+
+## Q17763 C3 Transform - 2026-06-16
+
+- [x] Confirm `Finished\CQ17763.md` does not already exist.
+- [x] Confirm source item `QBank\17763.md` exists and process exactly this one question.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, and `QBank\17763.md`.
+- [x] Read the relevant Civil Procedure personal-jurisdiction minimum-contacts section of `OUTLINE_CODES_COMPLETE.md`.
+- [x] Verify the governing authority floor and current doctrinal framing for targeted advertising / internet reservations as purposeful availment.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q17763 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, predicted seed pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q17763 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q17763 in this run.
+- Preserve the original specific-personal-jurisdiction issue, credited jurisdiction outcome, targeted-advertising plus interactive-reservation contacts, billboard-only trap, no-physical-business trap, and injury-location trap.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`; use `QBank\17763.md` as the source row for this run.
+- Use measured source pick-rate data if present; otherwise emit predicted seed rates for all choices and label them `predicted`.
+- Use verified outline code `94020302`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Personal Jurisdiction > Modern Due Process or Constitutional Tests > Minimum contacts test`.
+
+### Review Results
+
+- Output written to `Finished/CQ17763.md` with variant id `17763_retreat_lodge_reservation`.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`, so `QBank\17763.md` was used as the source row for this run.
+- Verified `94020302` appears in `OUTLINE_CODES_COMPLETE.md` as `Personal Jurisdiction > Modern Due Process or Constitutional Tests > Minimum contacts test`.
+- Authority floor and current framing checked against Constitution Annotated, `International Shoe`, `Burger King`, `Walden`, `Ford`, and `Snowney`; no current-law conflict with the supplied official key was found.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `C` as the analytic dominant wrong-answer trap: A 12, B 40, C 30, D 18.
+- Cross-block consistency verified: question id `17763_retreat_lodge_reservation`, credited answer `B`, residual `B`, original key `A`, outline code `94020302`, subject `CIVIL_PROCEDURE`, dominant trap `C`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse; pick rates sum to 100; required Pass-2 headings are present; `red_zone_dimensions` is used instead of legacy `red_zones`.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ17763.md`.
+- Verified `git diff --check -- 'Finished/CQ17763.md' 'tasks/todo.md'` completed with no whitespace errors. Git emitted only the existing LF-to-CRLF warning for `tasks/todo.md`.
+- Stopped after Q17763; no other question was started.
+## Q15151 C3 Transform - 2026-06-17
+
+- [x] Confirm `Finished\CQ15151.md` does not already exist.
+- [x] Confirm source item `QBank\15151.md` exists and process exactly this one question.
+- [x] Read session docs, `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Torts causation section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\15151.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for actual cause and indivisible concurrent tortfeasor liability.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q15151 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, predicted seed pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q15151 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q15151 in this run.
+- Preserve the original actual-cause issue, credited full-loss recovery outcome, no-joinder trap, no-apportionment-evidence trap, and automatic-half-loss allocation trap.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`; use `QBank\15151.md` as the source row for this run.
+- Use measured source pick-rate data if present; otherwise emit predicted seed rates for all choices and label them `predicted`.
+- Use verified outline code `61020401`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Negligence > Causation > Cause in fact (actual cause)`.
+
+### Review Results
+
+- Output written to `Finished\CQ15151.md` with variant id `15151_retreat_courtyard_culverts`.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`, so `QBank\15151.md` was used as the source row for this run.
+- Verified `61020401` appears in `OUTLINE_CODES_COMPLETE.md` as `Negligence > Causation > Cause in fact (actual cause)`.
+- Authority floor checked against Restatement (Third) of Torts section 26 factual cause, ALI Restatement (Third) Torts apportionment materials for multiple tortfeasors and indivisible harm, and Cornell Wex joint-and-several liability support.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `A` as the analytic dominant wrong-answer trap: A 28, B 44, C 20, D 8.
+- Cross-block consistency verified: question id `15151_retreat_courtyard_culverts`, credited answer `B`, residual `B`, original key `D`, outline code `61020401`, subject `TORTS`, dominant trap `A`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse; required Pass-2 headings are present; `drift_audit`, `transformed_from`, and `letter_map` are present in analyzer notes.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy red-zone field, or trailing whitespace in `Finished\CQ15151.md`.
+- Stopped after Q15151; no other question was started.
+
+## Q18427 C3 Transform - 2026-06-17
+
+- [x] Confirm `Finished\CQ18427.md` does not already exist.
+- [x] Confirm source item `QBank\18427.md` exists and process exactly this one question.
+- [x] Read session docs, `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Contracts frustration-of-purpose section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\18427.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for frustration of purpose.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q18427 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, predicted seed pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q18427 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q18427 in this run.
+- Preserve the original frustration-of-purpose issue, credited discharge outcome, contract-text trap, performance-possible trap, and impossibility-doctrine trap.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`; use `QBank\18427.md` as the source row for this run.
+- Use measured source pick-rate data if present; otherwise emit predicted seed rates for all choices and label them `predicted`.
+- Use verified outline code `56050603`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Frustration of purpose`.
+
+### Review Results
+
+- Output written to `Finished\CQ18427.md` with variant id `18427_livestream_devotional_alert`.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`, so `QBank\18427.md` was used as the source row for this run.
+- Verified `56050603` appears in `OUTLINE_CODES_COMPLETE.md` as `Performance, Breach, and Excuse > Excuse of Condition/Discharge of Duty > Frustration of purpose`.
+- Authority floor checked against Restatement (Second) of Contracts section 265 using the American Law Institute Restatement publication page and public section-265 summaries.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `D` as the analytic dominant wrong-answer trap: A 36, B 15, C 18, D 31.
+- Cross-block consistency verified: question id `18427_livestream_devotional_alert`, credited answer `A`, residual `A`, original key `D`, outline code `56050603`, subject `CONTRACTS`, dominant trap `D`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse with `ConvertFrom-Json`; required Pass-2 headings are present; `drift_audit`, `transformed_from`, and `letter_map` are present in analyzer notes.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ18427.md`.
+- Stopped after Q18427; no other question was started.
+## Q22505 C3 Transform - 2026-06-17
+
+- [x] Confirm `Finished\CQ22505.md` does not already exist.
+- [x] Confirm source item `QBank\22505.md` exists and process exactly this one question.
+- [x] Read session docs, `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant subject section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\22505.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for the tested doctrine.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q22505 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q22505 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q22505 in this run.
+- Use `QBank\22505.md` as the source row unless a current `MBE.xlsx` source is available and materially richer.
+- Use measured source pick-rate data if present; otherwise emit predicted seed rates for all choices and label them `predicted`.
+- Select only a verified outline code from `OUTLINE_CODES_COMPLETE.md`; use `00000000` only if no supplied outline map covers the doctrine.
+- `MBE.xlsx` is not present under `C:\FOC\Workspace`; use `QBank\22505.md` as the source row for this run.
+- Preserve the oral-condition-precedent issue, credited no-duty/no-contract-effect outcome, frustration-of-purpose trap, ambiguity/parol-evidence trap, and shared-prediction/mistake trap.
+- Use verified outline code `56050100`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Performance, Breach, and Excuse > Conditions`.
+- Authority floor checked against Restatement (Second) of Contracts sections 217, 224, and 225, plus parol-evidence background authority.
+
+### Review Results
+
+- Output written to `Finished\CQ22505.md` with variant id `22505_lydia_studio_grant`.
+- `MBE.xlsx` was not present under `C:\FOC\Workspace`, so `QBank\22505.md` was used as the source row for this run.
+- Verified `56050100` appears in `OUTLINE_CODES_COMPLETE.md` as `Performance, Breach, and Excuse > Conditions`; retained it for the oral-condition-precedent issue.
+- Authority floor checked against Restatement (Second) of Contracts sections 217, 224, and 225, Cornell Wex parol-evidence background, and oral-condition-precedent case law.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `D` as the analytic dominant wrong-answer trap: A 18, B 12, C 40, D 30.
+- Cross-block consistency verified: question id `22505_lydia_studio_grant`, credited answer `C`, residual `C`, original key `B`, outline code `56050100`, subject `CONTRACTS`, dominant trap `D`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse; required Pass-2 headings are present; `drift_audit`, `transformed_from`, and `letter_map` are present in analyzer notes.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ22505.md`.
+- Verified `git diff --check -- 'Finished/CQ22505.md' 'tasks/todo.md'` completed with no whitespace errors. Git emitted only the existing LF-to-CRLF warning for `tasks/todo.md`.
+- Stopped after Q22505; no other question was started.

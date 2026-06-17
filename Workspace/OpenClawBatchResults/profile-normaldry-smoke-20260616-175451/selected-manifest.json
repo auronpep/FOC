@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "questionId": 14431,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq14431",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ14431.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 14431. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ14431.md."
+  },
+  {
+    "index": 2,
+    "questionId": 14385,
+    "model": "minimax/MiniMax-M3",
+    "sessionKey": "cq14385",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ14385.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 14385. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ14385.md."
+  }
+]

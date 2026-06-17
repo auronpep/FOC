@@ -1,0 +1,14 @@
+[
+  {
+    "questionId": 19374,
+    "model": "minimax/MiniMax-M3",
+    "thinking": "adaptive",
+    "sessionKey": "cq19374"
+  },
+  {
+    "questionId": 18943,
+    "model": "minimax/MiniMax-M2.7",
+    "thinking": "high",
+    "sessionKey": "cq18943"
+  }
+]

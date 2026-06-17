@@ -33,7 +33,7 @@ $thinkingByModel = @{
 
   'github-copilot/gpt-5-mini' = 'high'
   'minimax/MiniMax-M3' = 'adaptive'
-  'minimax/MiniMax-M2.7' = 'adaptive'
+  'minimax/MiniMax-M2.7' = 'high'
   'openrouter/owl-alpha' = 'high'
   'openrouter/openai/gpt-oss-120b:free' = 'high'
   'openrouter/poolside/laguna-m.1:free' = 'high'

@@ -1,3 +1,60 @@
+# OpenClaw Tool/Sandbox Config - 2026-06-16
+
+## Plan
+
+- [x] Back up current OpenClaw state before relaxing tool and exec policy.
+- [x] Set the OpenClaw tool profile to `full`.
+- [x] Configure OpenClaw exec to run through the gateway with full policy instead of sandbox-only execution.
+- [x] Validate config and restart the gateway so the policy takes effect.
+- [x] Re-check status and document the resulting session-maintenance guidance.
+
+## Review
+
+- User corrected that if all 500 sessions are from the past 24 hours, age-based pruning will not help. The session-pressure fix should use entry-count caps, disk-budget caps, concurrency limits, or earlier subagent archiving rather than `pruneAfter` alone.
+- Created verified backup at `C:\FOC\2026-06-16T19-49-40.874-07-00-openclaw-backup.tar.gz` before policy changes.
+- Updated `tools.profile` from `coding` to `full`.
+- Added explicit exec bypass settings: `tools.exec.host = gateway`, `tools.exec.mode = full`.
+- Added explicit filesystem setting: `tools.fs.workspaceOnly = false`.
+- Config validation passed for `C:\FOC\.openclaw\openclaw.json`.
+- Restarted the `\OpenClaw Gateway` scheduled task through elevated `schtasks`; first status check timed out during startup, but logs showed `gateway ready`, and a follow-up status confirmed `ws://127.0.0.1:7421` reachable with auth token.
+- Follow-up `openclaw gateway probe` connected successfully and reported `admin-capable`; its follow-up read diagnostics still timed out, so deep read-probe latency remains a minor residual issue.
+
+# GitHub Admin Collaborator Reset - 2026-06-16
+
+## Plan
+
+- [x] Re-confirm `auronpep/FOC` is the private target and the active account can administer it.
+- [x] Remove existing pending invitations or collaborator access for `VoteWood` and `JWoodMedia`.
+- [x] Re-add `VoteWood` and `JWoodMedia` with `admin` permission.
+- [x] Verify the fresh pending invitations or active admin state and document the result.
+
+## Review
+
+- First reset attempt stopped before any GitHub mutation because a PowerShell error string used `$user:` without braces, causing a parser error. Retrying with brace-delimited variables.
+- Re-confirmed `auronpep/FOC` is `PRIVATE`, local `origin` points to `https://github.com/auronpep/FOC.git`, and active GitHub permission is `ADMIN`.
+- Deleted old pending admin invitations: `VoteWood` invitation `322310158`; `JWoodMedia` invitation `322310159`.
+- Neither account had active collaborator access after the old invitations were deleted.
+- Re-added fresh admin invitations: `VoteWood` invitation `322581409`, created `2026-06-16T08:35:17Z`; `JWoodMedia` invitation `322581415`, created `2026-06-16T08:35:19Z`.
+- Final verification: both fresh invitations are unexpired with `permissions: admin`; direct collaborator permission remains `none` until each invite is accepted.
+
+# GitHub Admin Collaborators - 2026-06-16
+
+## Plan
+
+- [x] Verify the local repository remote, GitHub authentication, and current repository visibility before any remote write.
+- [x] Add or update `erewhonsgroup`, `VoteWood`, and `JWoodMedia` as admin collaborators on the confirmed `FOC` repository.
+- [x] Verify collaborator or pending-invitation state after the update.
+- [x] Record the final result and any blockers in this file.
+
+## Review
+
+- Confirmed local `origin` is `https://github.com/auronpep/FOC.git`.
+- Confirmed GitHub target `auronpep/FOC` is `PRIVATE` and the active `auronpep` token has `ADMIN` permission.
+- Confirmed requested identities resolve as users: `erewhonsgroup`, `VoteWood`, and `JWoodMedia`.
+- `erewhonsgroup` already had active `admin` permission and still verifies as `admin`.
+- Sent or refreshed admin collaborator invitations for `VoteWood` and `JWoodMedia`; GitHub reports pending invitations with `permissions: admin`.
+- Verification after the update: `VoteWood` and `JWoodMedia` still show `permission: none` until they accept their pending admin invitations.
+
 # Gemini Standalone CQ Prompt - 2026-06-16
 
 ## Plan

@@ -1,0 +1,1 @@
+openclaw agent --agent 'main' --session-key 'cq14431' --model 'openai/gpt-5.5' --verbose 'on' --timeout 28800 --json --message 'Please do this BarMatrix Multiple Choice Bar Exam Question 14431. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\FOC\Workspace\Finished\CQ14431.md.'

@@ -1,0 +1,3901 @@
+{
+  "generated_at": "2026-06-17T07:31:24.210Z",
+  "draft_root": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T073110Z",
+  "archive_root": "C:\\BMO\\archives\\content-reset-20260616-194506",
+  "store_root": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq",
+  "manifest_records": 1337,
+  "manifest_draft_ready": 1241,
+  "manifest_quarantined": 96,
+  "production_projection_reference": {
+    "projected_questions": 1240,
+    "c3_annotations": 1240,
+    "question_tags": 47038,
+    "answer_choice_projection_updates": 3654,
+    "c3_cards_written": 0,
+    "c3_cards_policy": "Skipped until activation because /api/c3/deck reads c3_cards without a question status gate."
+  },
+  "sample_count": 23,
+  "sample_failures": 2,
+  "sample_warnings": 0,
+  "status": "FAIL",
+  "by_subject": {
+    "CIVIL_PROCEDURE": {
+      "total": 3,
+      "pass": 3,
+      "fail": 0
+    },
+    "CONSTITUTIONAL_LAW": {
+      "total": 3,
+      "pass": 3,
+      "fail": 0
+    },
+    "CONTRACTS": {
+      "total": 3,
+      "pass": 3,
+      "fail": 0
+    },
+    "CRIMINAL": {
+      "total": 5,
+      "pass": 4,
+      "fail": 1
+    },
+    "EVIDENCE": {
+      "total": 3,
+      "pass": 3,
+      "fail": 0
+    },
+    "REAL_PROPERTY": {
+      "total": 3,
+      "pass": 3,
+      "fail": 0
+    },
+    "TORTS": {
+      "total": 3,
+      "pass": 2,
+      "fail": 1
+    }
+  },
+  "samples": [
+    {
+      "reason": "CIVIL_PROCEDURE sample 1/94",
+      "status": "PASS",
+      "external_id": "14000_bible_escape_room_trailer",
+      "source_qid": "14000",
+      "subject": "CIVIL_PROCEDURE",
+      "outline_code": "93110300",
+      "key": "D",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14000.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\civil_procedure\\14000.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\civil_procedure\\14000.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\civil_procedure\\14000.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\civil_procedure\\14000.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\civil_procedure\\14000.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14000.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14000_bible_escape_room_trailer"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\civil_procedure\\14000.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "D vs D"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "93110300 vs 93110300"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "631"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\civil_procedure\\14000.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14000_bible_escape_room_trailer"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CIVIL_PROCEDURE"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "93110300"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "When a court of appeals reviews a trial court's constitutional decision that a punitive-damages award is excessive, the review is de novo."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\civil_procedure\\14000.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14000_bible_escape_room_trailer"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\civil_procedure\\14000.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14000_bible_escape_room_trailer"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\civil_procedure\\14000.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "7457"
+        }
+      ]
+    },
+    {
+      "reason": "CIVIL_PROCEDURE sample 48/94",
+      "status": "PASS",
+      "external_id": "18669_mary_negligence_survival",
+      "source_qid": "18669",
+      "subject": "CIVIL_PROCEDURE",
+      "outline_code": "96060100",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ18669.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\civil_procedure\\18669.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\civil_procedure\\18669.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\civil_procedure\\18669.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\civil_procedure\\18669.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\civil_procedure\\18669.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ18669.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "18669_mary_negligence_survival"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\civil_procedure\\18669.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "96060100 vs 96060100"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "443"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\civil_procedure\\18669.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "18669_mary_negligence_survival"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CIVIL_PROCEDURE"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "96060100"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Under Erie, a federal diversity court applies state law that defines the existence, scope, and survival of a state-created claim, including whether the claim survives the plaintiff's death."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\civil_procedure\\18669.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "18669_mary_negligence_survival"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "5"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\civil_procedure\\18669.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "18669_mary_negligence_survival"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\civil_procedure\\18669.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "13264"
+        }
+      ]
+    },
+    {
+      "reason": "CIVIL_PROCEDURE sample 94/94",
+      "status": "PASS",
+      "external_id": "22873_food-pantry-warehouse",
+      "source_qid": "22873",
+      "subject": "CIVIL_PROCEDURE",
+      "outline_code": "94010100",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ22873.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\civil_procedure\\22873.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\civil_procedure\\22873.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\civil_procedure\\22873.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\civil_procedure\\22873.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\civil_procedure\\22873.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ22873.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "22873_food-pantry-warehouse"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\civil_procedure\\22873.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "94010100 vs 94010100"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "831"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\civil_procedure\\22873.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "22873_food-pantry-warehouse"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CIVIL_PROCEDURE"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "94010100"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "Deny the motion, because the class representatives are citizens of State B."
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "In a diversity class action under 28 U.S.C. § 1332(a), only the citizenship of the named class representatives — not the absent class members — determines whether complete diversity exists."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\civil_procedure\\22873.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "22873_food-pantry-warehouse"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\civil_procedure\\22873.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "22873_food-pantry-warehouse"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\civil_procedure\\22873.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "13978"
+        }
+      ]
+    },
+    {
+      "reason": "CONSTITUTIONAL_LAW sample 1/101",
+      "status": "PASS",
+      "external_id": "14223_library-bulletin",
+      "source_qid": "14223",
+      "subject": "CONSTITUTIONAL_LAW",
+      "outline_code": "44040502",
+      "key": "C",
+      "verdict": "C3_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "HARD_STRUCTURAL",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14223.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\constitutional_law\\14223.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\constitutional_law\\14223.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\constitutional_law\\14223.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\constitutional_law\\14223.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\constitutional_law\\14223.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14223.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14223_library-bulletin"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\constitutional_law\\14223.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "44040502 vs 44040502"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "660"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\constitutional_law\\14223.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14223_library-bulletin"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CONSTITUTIONAL_LAW"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "44040502"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "The policy fails the reasonable-fit prong of Central Hudson because removing only 10% of bulletin-board slots, without evidence that the removed postings cause more clutter, is not a reasonable fit between the board's interest and the means chosen."
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "C3_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "A commercial-speech regulation must be a reasonable fit between the government interest and the means chosen — it need not be the least restrictive means, but it must directly advance a substantial interest without being more extensive than necessary."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\constitutional_law\\14223.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14223_library-bulletin"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\constitutional_law\\14223.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14223_library-bulletin"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "2"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\constitutional_law\\14223.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "14659"
+        }
+      ]
+    },
+    {
+      "reason": "CONSTITUTIONAL_LAW sample 51/101",
+      "status": "PASS",
+      "external_id": "18507_lydia_hospitality_act",
+      "source_qid": "18507",
+      "subject": "CONSTITUTIONAL_LAW",
+      "outline_code": "42010104",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ18507.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\constitutional_law\\18507.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\constitutional_law\\18507.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\constitutional_law\\18507.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\constitutional_law\\18507.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\constitutional_law\\18507.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ18507.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "18507_lydia_hospitality_act"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\constitutional_law\\18507.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "42010104 vs 42010104"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "411"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\constitutional_law\\18507.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "18507_lydia_hospitality_act"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CONSTITUTIONAL_LAW"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "42010104"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Necessary and Proper lets Congress choose means to execute a federal power, but it does not create a standalone power to regulate national problems."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\constitutional_law\\18507.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "18507_lydia_hospitality_act"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\constitutional_law\\18507.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "18507_lydia_hospitality_act"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\constitutional_law\\18507.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "8031"
+        }
+      ]
+    },
+    {
+      "reason": "CONSTITUTIONAL_LAW sample 101/101",
+      "status": "PASS",
+      "external_id": "22726_rare_hymnal_livestream",
+      "source_qid": "22726",
+      "subject": "CONSTITUTIONAL_LAW",
+      "outline_code": "44040203",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ22726.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\constitutional_law\\22726.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\constitutional_law\\22726.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\constitutional_law\\22726.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\constitutional_law\\22726.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\constitutional_law\\22726.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ22726.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "22726_rare_hymnal_livestream"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\constitutional_law\\22726.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "44040203 vs 44040203"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "686"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\constitutional_law\\22726.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "22726_rare_hymnal_livestream"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CONSTITUTIONAL_LAW"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "44040203"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "A tenured public employee with a protected job interest must receive notice and a meaningful chance to respond before termination."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\constitutional_law\\22726.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "22726_rare_hymnal_livestream"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "5"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\constitutional_law\\22726.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "22726_rare_hymnal_livestream"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\constitutional_law\\22726.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "9126"
+        }
+      ]
+    },
+    {
+      "reason": "CONTRACTS sample 1/174",
+      "status": "PASS",
+      "external_id": "14373_cq",
+      "source_qid": "14373",
+      "subject": "CONTRACTS",
+      "outline_code": "52040300",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14373.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\contracts\\14373.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\contracts\\14373.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\contracts\\14373.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\contracts\\14373.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\contracts\\14373.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14373.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14373_cq"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\contracts\\14373.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "52040300 vs 52040300"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "813"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\contracts\\14373.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14373_cq"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CONTRACTS"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "52040300"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "When parties orally agree that a written contract will not become enforceable unless a stated condition occurs, evidence of that condition is admissible under an exception to the parol evidence rule — regardless of whether the writing is completely or partially integrated."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\contracts\\14373.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14373_cq"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\contracts\\14373.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14373_cq"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\contracts\\14373.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "15021"
+        }
+      ]
+    },
+    {
+      "reason": "CONTRACTS sample 88/174",
+      "status": "PASS",
+      "external_id": "14520_olive_wood_keepsake_crosses",
+      "source_qid": "14520",
+      "subject": "CONTRACTS",
+      "outline_code": "51060101",
+      "key": "D",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14520.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\contracts\\14520.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\contracts\\14520.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\contracts\\14520.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\contracts\\14520.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\contracts\\14520.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14520.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14520_olive_wood_keepsake_crosses"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\contracts\\14520.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "D vs D"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "51060101 vs 51060101"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "780"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\contracts\\14520.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14520_olive_wood_keepsake_crosses"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CONTRACTS"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "51060101"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Under UCC § 2-708(2), a seller whose market-price damages are inadequate recovers lost profit plus costs reasonably incurred, minus the proceeds of resale."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\contracts\\14520.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14520_olive_wood_keepsake_crosses"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "5"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\contracts\\14520.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14520_olive_wood_keepsake_crosses"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\contracts\\14520.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "8961"
+        }
+      ]
+    },
+    {
+      "reason": "CONTRACTS sample 174/174",
+      "status": "PASS",
+      "external_id": "22589_concert-ad-frustration",
+      "source_qid": "22589",
+      "subject": "CONTRACTS",
+      "outline_code": "56050603",
+      "key": "B",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ22589.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\contracts\\22589.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\contracts\\22589.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\contracts\\22589.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\contracts\\22589.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\contracts\\22589.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ22589.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "22589_concert-ad-frustration"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\contracts\\22589.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "B vs B"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "56050603 vs 56050603"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "943"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\contracts\\22589.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "22589_concert-ad-frustration"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CONTRACTS"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "56050603"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "B"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "No, under the doctrine of frustration of purpose."
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "When an unforeseeable event destroys the principal reason a party entered a contract — and that event's non-occurrence was a basic assumption of the agreement — the party's remaining duties are discharged under the doctrine of frustration of purpose, even if literal performance remains possible."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\contracts\\22589.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "22589_concert-ad-frustration"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\contracts\\22589.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "22589_concert-ad-frustration"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\contracts\\22589.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "15737"
+        }
+      ]
+    },
+    {
+      "reason": "CRIMINAL sample 1/419",
+      "status": "PASS",
+      "external_id": "14554_johns-hilltop",
+      "source_qid": "14554",
+      "subject": "CRIMINAL",
+      "outline_code": "75070202",
+      "key": "C",
+      "verdict": "C3_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "HARD_STRUCTURAL",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14554.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\14554.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\14554.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\14554.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\14554.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\14554.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14554.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14554_johns-hilltop"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\14554.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "75070202 vs 75070202"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "1002"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\14554.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14554_johns-hilltop"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CRIMINAL"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "75070202"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "C3_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Probable cause to search a vehicle allows a warrantless search of the vehicle and any containers that may conceal the contraband."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\14554.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14554_johns-hilltop"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\14554.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14554_johns-hilltop"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "2"
+        },
+        {
+          "name": "case-study markdown absent per manifest",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\14554.md"
+        },
+        {
+          "name": "case-study markdown not required by manifest",
+          "status": "PASS",
+          "detail": "0"
+        }
+      ]
+    },
+    {
+      "reason": "CRIMINAL sample 210/419",
+      "status": "PASS",
+      "external_id": "17929_parking-lot-retreat",
+      "source_qid": "17929",
+      "subject": "CRIMINAL",
+      "outline_code": "72060201",
+      "key": "B",
+      "verdict": "C3_SOLVE",
+      "c3_phase": "CUT",
+      "confidence": "HARD_STRUCTURAL",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ17929.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\17929.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\17929.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\17929.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\17929.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\17929.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ17929.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "17929_parking-lot-retreat"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\17929.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "B vs B"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "72060201 vs 72060201"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "398"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\17929.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "17929_parking-lot-retreat"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CRIMINAL"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "72060201"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "B"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "B"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "C3_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "If safe retreat is available outside the home, complete self-defense usually fails under a duty-to-retreat jurisdiction."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\17929.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "17929_parking-lot-retreat"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\17929.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "17929_parking-lot-retreat"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "2"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\17929.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "4382"
+        }
+      ]
+    },
+    {
+      "reason": "CRIMINAL sample 419/419",
+      "status": "PASS",
+      "external_id": "22409",
+      "source_qid": "22409",
+      "subject": "CRIMINAL",
+      "outline_code": "74020102",
+      "key": "A",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ22409.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\22409.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\22409.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\22409.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\22409.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\22409.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ22409.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "22409"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\22409.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "A vs A"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "74020102 vs 74020102"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "308"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\22409.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "22409"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CRIMINAL"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "74020102"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Extreme reckless conduct that creates an obvious high risk of death can support depraved-heart murder even without intent to kill."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\22409.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "22409"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "5"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\22409.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "22409"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\22409.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "9185"
+        }
+      ]
+    },
+    {
+      "reason": "EVIDENCE sample 1/194",
+      "status": "PASS",
+      "external_id": "14756_lydia-cat-bookshop",
+      "source_qid": "14756",
+      "subject": "EVIDENCE",
+      "outline_code": "33040102",
+      "key": "C",
+      "verdict": "C3_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "HARD_STRUCTURAL",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14756.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\evidence\\14756.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\evidence\\14756.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\evidence\\14756.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\evidence\\14756.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\evidence\\14756.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14756.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14756_lydia-cat-bookshop"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\evidence\\14756.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "33040102 vs 33040102"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "791"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\evidence\\14756.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14756_lydia-cat-bookshop"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "EVIDENCE"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "33040102"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "C3_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Animal behavior is not hearsay because the Federal Rules of Evidence define a statement as an assertion by a person, and animals are not persons."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\evidence\\14756.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14756_lydia-cat-bookshop"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\evidence\\14756.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14756_lydia-cat-bookshop"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\evidence\\14756.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "14199"
+        }
+      ]
+    },
+    {
+      "reason": "EVIDENCE sample 98/194",
+      "status": "PASS",
+      "external_id": "17220_chapel_robes_notice",
+      "source_qid": "17220",
+      "subject": "EVIDENCE",
+      "outline_code": "31010102",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ17220.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\evidence\\17220.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\evidence\\17220.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\evidence\\17220.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\evidence\\17220.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\evidence\\17220.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ17220.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "17220_chapel_robes_notice"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\evidence\\17220.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "31010102 vs 31010102"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "345"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\evidence\\17220.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "17220_chapel_robes_notice"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "EVIDENCE"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "31010102"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "In a federal civil case, a presumption makes the opponent produce rebuttal evidence, but it does not move the burden of persuasion."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\evidence\\17220.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "17220_chapel_robes_notice"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\evidence\\17220.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "17220_chapel_robes_notice"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "2"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\evidence\\17220.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "5138"
+        }
+      ]
+    },
+    {
+      "reason": "EVIDENCE sample 194/194",
+      "status": "PASS",
+      "external_id": "22269_lakeside-boat-collision",
+      "source_qid": "22269",
+      "subject": "EVIDENCE",
+      "outline_code": "33040101",
+      "key": "A",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ22269.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\evidence\\22269.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\evidence\\22269.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\evidence\\22269.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\evidence\\22269.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\evidence\\22269.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ22269.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "22269_lakeside-boat-collision"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\evidence\\22269.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "A vs A"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "33040101 vs 33040101"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "625"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\evidence\\22269.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "22269_lakeside-boat-collision"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "EVIDENCE"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "33040101"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "An out-of-court statement offered to prove what it asserts is hearsay no matter who repeats it or where it was written down, and a hearsay exemption or exception applies only when its own predicate is actually met."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\evidence\\22269.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "22269_lakeside-boat-collision"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\evidence\\22269.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "22269_lakeside-boat-collision"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\evidence\\22269.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "7150"
+        }
+      ]
+    },
+    {
+      "reason": "REAL_PROPERTY sample 1/179",
+      "status": "PASS",
+      "external_id": "14906_barnabas-v-lydia-land-deal",
+      "source_qid": "14906",
+      "subject": "REAL_PROPERTY",
+      "outline_code": "85030103",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14906.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\real_property\\14906.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\real_property\\14906.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\real_property\\14906.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\real_property\\14906.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\real_property\\14906.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14906.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14906_barnabas-v-lydia-land-deal"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\real_property\\14906.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "85030103 vs 85030103"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "1149"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\real_property\\14906.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14906_barnabas-v-lydia-land-deal"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "REAL_PROPERTY"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "85030103"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Without a 'time is of the essence' clause, a land-sale contract's closing date is not a strict deadline — the parties are entitled to a reasonable postponement, and specific performance remains available if the seller acquires title within that reasonable time."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\real_property\\14906.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14906_barnabas-v-lydia-land-deal"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\real_property\\14906.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14906_barnabas-v-lydia-land-deal"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\real_property\\14906.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "14041"
+        }
+      ]
+    },
+    {
+      "reason": "REAL_PROPERTY sample 90/179",
+      "status": "PASS",
+      "external_id": "15076_scripture_greenhouse_lot",
+      "source_qid": "15076",
+      "subject": "REAL_PROPERTY",
+      "outline_code": "84040103",
+      "key": "D",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ15076.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\real_property\\15076.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\real_property\\15076.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\real_property\\15076.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\real_property\\15076.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\real_property\\15076.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ15076.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "15076_scripture_greenhouse_lot"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\real_property\\15076.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "D vs D"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "84040103 vs 84040103"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "514"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\real_property\\15076.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "15076_scripture_greenhouse_lot"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "REAL_PROPERTY"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "84040103"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Once adverse possession vests title, the possessor may convey that title by deed without first getting a quiet-title decree, and oral words do not transfer land title."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\real_property\\15076.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "15076_scripture_greenhouse_lot"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\real_property\\15076.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "15076_scripture_greenhouse_lot"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\real_property\\15076.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "7320"
+        }
+      ]
+    },
+    {
+      "reason": "REAL_PROPERTY sample 179/179",
+      "status": "PASS",
+      "external_id": "22138_revival_hall_repainting",
+      "source_qid": "22138",
+      "subject": "REAL_PROPERTY",
+      "outline_code": "82010402",
+      "key": "C",
+      "verdict": "C3_SOLVE",
+      "c3_phase": "CALL",
+      "confidence": "HARD_STRUCTURAL",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ22138.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\real_property\\22138.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\real_property\\22138.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\real_property\\22138.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\real_property\\22138.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\real_property\\22138.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ22138.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "22138_revival_hall_repainting"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\real_property\\22138.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "82010402 vs 82010402"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "612"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\real_property\\22138.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "22138_revival_hall_repainting"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "REAL_PROPERTY"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "82010402"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "C3_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "A landlord's breach of a minor lease covenant generally allows the tenant to perform the work and deduct the cost from the rent, but does not justify rent withholding or lease termination without an eviction."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\real_property\\22138.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "22138_revival_hall_repainting"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\real_property\\22138.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "22138_revival_hall_repainting"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\real_property\\22138.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "5151"
+        }
+      ]
+    },
+    {
+      "reason": "TORTS sample 1/80",
+      "status": "FAIL",
+      "external_id": "15087_barnabas-storehouse",
+      "source_qid": "15087",
+      "subject": "TORTS",
+      "outline_code": "64010201",
+      "key": "B",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ15087.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\torts\\15087.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\torts\\15087.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\torts\\15087.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\15087.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\torts\\15087.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ15087.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "15087_barnabas-storehouse"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\torts\\15087.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "B vs B"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "64010201 vs 64010201"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "FAIL",
+          "detail": "90"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\torts\\15087.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "15087_barnabas-storehouse"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "TORTS"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "64010201"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "B"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "B"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "For trespass to land, the wrongdoer needs only the intent to enter the spot where he acted - mistaking where the boundary lies is no defense, and selling the property afterward does not erase liability for the trespass already committed."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\torts\\15087.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "15087_barnabas-storehouse"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "5"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\15087.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "15087_barnabas-storehouse"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\torts\\15087.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "6549"
+        }
+      ]
+    },
+    {
+      "reason": "TORTS sample 41/80",
+      "status": "PASS",
+      "external_id": "18914_rare_bible_provenance",
+      "source_qid": "18914",
+      "subject": "TORTS",
+      "outline_code": "62050200",
+      "key": "A",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ18914.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\torts\\18914.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\torts\\18914.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\torts\\18914.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\18914.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\torts\\18914.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ18914.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "18914_rare_bible_provenance"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\torts\\18914.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "A vs A"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "62050200 vs 62050200"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "730"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\torts\\18914.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "18914_rare_bible_provenance"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "TORTS"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "62050200"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Fraud requires justifiable reliance; reliance is not justified when the plaintiff ignores an obvious contradiction in materials provided before the transaction."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\torts\\18914.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "18914_rare_bible_provenance"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\18914.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "18914_rare_bible_provenance"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\torts\\18914.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "14993"
+        }
+      ]
+    },
+    {
+      "reason": "TORTS sample 80/80",
+      "status": "PASS",
+      "external_id": "21752_olive_oil_ramp",
+      "source_qid": "21752",
+      "subject": "TORTS",
+      "outline_code": "62060101",
+      "key": "C",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CUT",
+      "confidence": "PURE_ANCHOR",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ21752.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\torts\\21752.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\torts\\21752.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\torts\\21752.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\21752.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\torts\\21752.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ21752.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "21752_olive_oil_ramp"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\torts\\21752.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "C vs C"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "62060101 vs 62060101"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "523"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\torts\\21752.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "21752_olive_oil_ramp"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "TORTS"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "62060101"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "C"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "A hirer may remain liable for an independent contractor's negligence when the breached duty is nondelegable."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\torts\\21752.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "21752_olive_oil_ramp"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\torts\\21752.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "21752_olive_oil_ramp"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown absent per manifest",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\torts\\21752.md"
+        },
+        {
+          "name": "case-study markdown not required by manifest",
+          "status": "PASS",
+          "detail": "0"
+        }
+      ]
+    },
+    {
+      "reason": "special sample: fork/split verdict",
+      "status": "FAIL",
+      "external_id": "14641",
+      "source_qid": "14641",
+      "subject": "CRIMINAL",
+      "outline_code": "71040300",
+      "key": "D",
+      "verdict": "FORK_OR_SPLIT",
+      "c3_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14641.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\14641.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\14641.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\14641.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\14641.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\14641.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "FORK_OR_SPLIT"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14641.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14641"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\14641.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "D vs D"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "71040300 vs 71040300"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "FAIL",
+          "detail": "46"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\14641.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "FAIL",
+          "detail": "14641_bible_trivia_attempt"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CRIMINAL"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "71040300"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "D"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "FORK_OR_SPLIT"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Under this item’s supplied exam rule, attempt changes the game: strict liability for completed statutory rape does not automatically supply the intent needed for attempted statutory rape."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\14641.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "FAIL",
+          "detail": "14641_bible_trivia_attempt"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "6"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\14641.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "FAIL",
+          "detail": "14641_bible_trivia_attempt"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown absent per manifest",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\14641.md"
+        },
+        {
+          "name": "case-study markdown not required by manifest",
+          "status": "PASS",
+          "detail": "0"
+        }
+      ]
+    },
+    {
+      "reason": "special sample: fork/split verdict",
+      "status": "PASS",
+      "external_id": "14700_hymn_night_hire",
+      "source_qid": "14700",
+      "subject": "CRIMINAL",
+      "outline_code": "71040100",
+      "key": "A",
+      "verdict": "ANCHOR_SOLVE",
+      "c3_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "paths": {
+        "sourceFile": "C:\\FOC\\Workspace\\Finished\\CQ14700.md",
+        "yamlPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\14700.yaml",
+        "annotationPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\14700.json",
+        "componentsPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\14700.json",
+        "intelPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\14700.json",
+        "caseStudyPath": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\14700.md"
+      },
+      "checks": [
+        {
+          "name": "manifest draft-ready",
+          "status": "PASS",
+          "detail": "draft_ready"
+        },
+        {
+          "name": "manifest validation loadable",
+          "status": "PASS",
+          "detail": "FORK_OR_SPLIT"
+        },
+        {
+          "name": "manifest has no quarantine reason",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "source CQ file exists",
+          "status": "PASS",
+          "detail": "C:\\FOC\\Workspace\\Finished\\CQ14700.md"
+        },
+        {
+          "name": "source contains transformed qid",
+          "status": "PASS",
+          "detail": "14700_hymn_night_hire"
+        },
+        {
+          "name": "question YAML exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\question_yaml\\criminal\\14700.yaml"
+        },
+        {
+          "name": "YAML official key matches manifest",
+          "status": "PASS",
+          "detail": "A vs A"
+        },
+        {
+          "name": "YAML outline code matches manifest",
+          "status": "PASS",
+          "detail": "71040100 vs 71040100"
+        },
+        {
+          "name": "YAML has four answer choices",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "YAML stem has substantial text",
+          "status": "PASS",
+          "detail": "550"
+        },
+        {
+          "name": "annotation JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\annotations\\criminal\\14700.json"
+        },
+        {
+          "name": "annotation qid matches manifest",
+          "status": "PASS",
+          "detail": "14700_hymn_night_hire"
+        },
+        {
+          "name": "annotation subject matches manifest",
+          "status": "PASS",
+          "detail": "CRIMINAL"
+        },
+        {
+          "name": "annotation outline code matches manifest",
+          "status": "PASS",
+          "detail": "71040100"
+        },
+        {
+          "name": "annotation credited answer matches manifest",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation residual/key agreement usable",
+          "status": "PASS",
+          "detail": "A"
+        },
+        {
+          "name": "annotation agrees_with_key true",
+          "status": "PASS",
+          "detail": "true"
+        },
+        {
+          "name": "annotation verdict loadable",
+          "status": "PASS",
+          "detail": "ANCHOR_SOLVE"
+        },
+        {
+          "name": "annotation review truth present",
+          "status": "PASS",
+          "detail": "Solicitation is complete when a person intentionally asks another to commit a crime, and later withdrawal does not undo the completed common-law offense."
+        },
+        {
+          "name": "components JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\components\\criminal\\14700.json"
+        },
+        {
+          "name": "components qid matches manifest",
+          "status": "PASS",
+          "detail": "14700_hymn_night_hire"
+        },
+        {
+          "name": "components has three trap records",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "components has red-zone dimensions",
+          "status": "PASS",
+          "detail": "4"
+        },
+        {
+          "name": "program intelligence JSON parses",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\intel\\criminal\\14700.json"
+        },
+        {
+          "name": "program intelligence qid matches manifest",
+          "status": "PASS",
+          "detail": "14700_hymn_night_hire"
+        },
+        {
+          "name": "program intelligence has three wrong-answer paths",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "program intelligence has drill seeds",
+          "status": "PASS",
+          "detail": "3"
+        },
+        {
+          "name": "case-study markdown exists",
+          "status": "PASS",
+          "detail": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq\\case_studies\\criminal\\14700.md"
+        },
+        {
+          "name": "case-study markdown has substantial text",
+          "status": "PASS",
+          "detail": "7087"
+        }
+      ]
+    }
+  ]
+}

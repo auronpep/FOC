@@ -1,0 +1,140 @@
+source_file,cq_file,source_qid,transformed_qid,subject,outline_code,answer_key,validation_status,load_status,quarantine_reason,stem_len,has_annotation,has_components,has_intel,has_case_study,generated_db_identifier
+C:\FOC\Workspace\Finished\CQ14205.md,CQ14205.md,14205,14205_fellowship_hall,CIVIL_PROCEDURE,97100200,D,PASS,quarantined,CHOICES=[]; not-sql-emitted,1164,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ14512.md,CQ14512.md,14512,14512_used-boat-sale,CONTRACTS,54030800,C,PASS,quarantined,CHOICES=[]; not-sql-emitted,926,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ14545.md,CQ14545.md,14545,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14555.md,CQ14555.md,14555,14555_private_bookstore_plea,CRIMINAL,,C,PASS,quarantined,missing-outline,1040,true,true,true,true,14555_private_bookstore_plea
+C:\FOC\Workspace\Finished\CQ14557.md,CQ14557.md,14557,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14578.md,CQ14578.md,14578,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14587.md,CQ14587.md,14587,14587_massiah-pretender,CRIMINAL,75090400,D,PASS,quarantined,CHOICES=[]; not-sql-emitted,701,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ14600.md,CQ14600.md,14600,14600_grubbs_parcel,CRIMINAL,75070200,B,PASS,quarantined,CHOICES=[]; not-sql-emitted,1199,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ14610.md,CQ14610.md,14610,14610_timothy_grand_jury,CRIMINAL,,D,PASS,quarantined,missing-outline,829,true,true,true,true,14610_timothy_grand_jury
+C:\FOC\Workspace\Finished\CQ14616.md,CQ14616.md,14616,14616_good_shepherd_cyber_watch,CRIMINAL,,D,PASS,quarantined,missing-outline,1408,true,true,true,false,14616_good_shepherd_cyber_watch
+C:\FOC\Workspace\Finished\CQ14618.md,CQ14618.md,14618,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14619.md,CQ14619.md,14619,14619,CRIMINAL,,B,PASS,quarantined,missing-outline,1244,true,true,true,false,14619
+C:\FOC\Workspace\Finished\CQ14620.md,CQ14620.md,14620,14620,CRIMINAL,,C,PASS,quarantined,missing-outline,510,true,true,true,true,14620
+C:\FOC\Workspace\Finished\CQ14621.md,CQ14621.md,14621,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14625.md,CQ14625.md,14625,14625_private_retreat_felony_murder,CRIMINAL,,A,PASS,quarantined,NO_CALL; missing-outline; not-sql-emitted,1080,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ14626.md,CQ14626.md,14626,14626_lydias_sentencing_plan,CRIMINAL,00000000,A,PASS,quarantined,missing-outline,695,true,true,true,true,14626_lydias_sentencing_plan
+C:\FOC\Workspace\Finished\CQ14627.md,CQ14627.md,14627,14627_galilee_honey_farm,CRIMINAL,,A,PASS,quarantined,missing-outline,1185,true,true,true,false,14627_galilee_honey_farm
+C:\FOC\Workspace\Finished\CQ14629.md,CQ14629.md,14629,14629_parent_room_confession,CRIMINAL,,D,PASS,quarantined,missing-outline,1319,true,true,true,false,14629_parent_room_confession
+C:\FOC\Workspace\Finished\CQ14630.md,CQ14630.md,14630,14630_fellowship_hall_white_powder,CRIMINAL,,D,PASS,quarantined,missing-outline,586,true,true,true,false,14630_fellowship_hall_white_powder
+C:\FOC\Workspace\Finished\CQ14631.md,CQ14631.md,14631,14631_manna_mart,CRIMINAL,00000000,C,PASS,quarantined,missing-outline,701,true,true,true,true,14631_manna_mart
+C:\FOC\Workspace\Finished\CQ14633.md,CQ14633.md,14633,14633_galilee_cafe,CRIMINAL,,A,PASS,quarantined,missing-outline,736,true,true,true,false,14633_galilee_cafe
+C:\FOC\Workspace\Finished\CQ14634.md,CQ14634.md,14634,14634_chapel_bookstore_grab,CRIMINAL,,B,PASS,quarantined,missing-outline; tiny-stem,121,true,true,true,false,14634_chapel_bookstore_grab
+C:\FOC\Workspace\Finished\CQ14635.md,CQ14635.md,14635,14635_barnabas_aspirin_capsule,CRIMINAL,,B,PASS,quarantined,missing-outline,571,true,true,true,false,14635_barnabas_aspirin_capsule
+C:\FOC\Workspace\Finished\CQ14636.md,CQ14636.md,14636,14636_bible_cafe_basement,CRIMINAL,,D,PASS,quarantined,missing-outline,581,true,true,true,false,14636_bible_cafe_basement
+C:\FOC\Workspace\Finished\CQ14637.md,CQ14637.md,14637,14637,CRIMINAL,,C,PASS,quarantined,missing-outline,917,true,true,true,false,14637
+C:\FOC\Workspace\Finished\CQ14638.md,CQ14638.md,14638,14638_galilee_garments,CRIMINAL,,D,PASS,quarantined,missing-outline,785,true,true,true,false,14638_galilee_garments
+C:\FOC\Workspace\Finished\CQ14639.md,CQ14639.md,14639,14639_prayer_walk_self_defense,CRIMINAL,,A,PASS,quarantined,missing-outline,608,true,true,true,true,14639_prayer_walk_self_defense
+C:\FOC\Workspace\Finished\CQ14640.md,CQ14640.md,14640,14640_church_preschool_custody,CRIMINAL,00000000,B,PASS,quarantined,missing-outline,894,true,true,true,false,14640_church_preschool_custody
+C:\FOC\Workspace\Finished\CQ14641.md,CQ14641.md,14641,14641,CRIMINAL,,D,FORK_OR_SPLIT,quarantined,missing-outline,858,true,true,true,false,14641
+C:\FOC\Workspace\Finished\CQ14642.md,CQ14642.md,14642,14642_good_samaritan_softball,CRIMINAL,74020101,A,PASS,quarantined,tiny-stem,172,true,true,true,true,14642_good_samaritan_softball
+C:\FOC\Workspace\Finished\CQ14643.md,CQ14643.md,14643,14643,CRIMINAL,,D,PASS,quarantined,missing-outline,697,true,true,true,false,14643
+C:\FOC\Workspace\Finished\CQ14644.md,CQ14644.md,14644,14644,CRIMINAL,,D,PASS,quarantined,missing-outline,821,true,true,true,true,14644
+C:\FOC\Workspace\Finished\CQ14645.md,CQ14645.md,14645,14645_advent_sidewalk,CRIMINAL,,B,PASS,quarantined,missing-outline,687,true,true,true,true,14645_advent_sidewalk
+C:\FOC\Workspace\Finished\CQ14649.md,CQ14649.md,14649,,CRIMINAL,00000000,D,PASS,quarantined,NO_QID; missing-outline,677,true,true,true,true,14649
+C:\FOC\Workspace\Finished\CQ14650.md,CQ14650.md,14650,14650_fellowship_picnic,CRIMINAL,,B,PASS,quarantined,missing-outline,564,true,true,true,true,14650_fellowship_picnic
+C:\FOC\Workspace\Finished\CQ14654.md,CQ14654.md,14654,14654_fellowship_trail,CRIMINAL,,B,PASS,quarantined,missing-outline,583,true,true,true,true,14654_fellowship_trail
+C:\FOC\Workspace\Finished\CQ14655.md,CQ14655.md,14655,14655_study_bible_case,CRIMINAL,,B,PASS,quarantined,missing-outline,387,true,true,true,true,14655_study_bible_case
+C:\FOC\Workspace\Finished\CQ14656.md,CQ14656.md,14656,14656_fellowship_flag_football,CRIMINAL,00000000,B,PASS,quarantined,missing-outline,857,true,true,true,false,14656_fellowship_flag_football
+C:\FOC\Workspace\Finished\CQ14657.md,CQ14657.md,14657,14657_lampstand_window_volley,CRIMINAL,,B,PASS,quarantined,missing-outline,1017,true,true,true,false,14657_lampstand_window_volley
+C:\FOC\Workspace\Finished\CQ14658.md,CQ14658.md,14658,14658_christian_publishing,CRIMINAL,,A,PASS,quarantined,missing-outline,750,true,true,true,false,14658_christian_publishing
+C:\FOC\Workspace\Finished\CQ14663.md,CQ14663.md,14663,14663_lydias_bookstore_warehouse,CRIMINAL,,A,PASS,quarantined,missing-outline,604,true,true,true,false,14663_lydias_bookstore_warehouse
+C:\FOC\Workspace\Finished\CQ14664.md,CQ14664.md,14664,14664_bible_study_gas_station,CRIMINAL,00000000,A,PASS,quarantined,missing-outline,652,true,true,true,true,14664_bible_study_gas_station
+C:\FOC\Workspace\Finished\CQ14665.md,CQ14665.md,14665,14665_bible_study_stop_sign,CRIMINAL,,D,PASS,quarantined,missing-outline,526,true,true,true,false,14665_bible_study_stop_sign
+C:\FOC\Workspace\Finished\CQ14675.md,CQ14675.md,14675,14675_church-volunteer-mercy,CRIMINAL,74020101,B,PASS,quarantined,CHOICES=[]; not-sql-emitted,594,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ14690.md,CQ14690.md,14690,14690_bible_study_protected_victim,CRIMINAL,,B,PASS,quarantined,missing-outline,595,true,true,true,false,14690_bible_study_protected_victim
+C:\FOC\Workspace\Finished\CQ14695.md,CQ14695.md,14695,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14711.md,CQ14711.md,14711,14711_most-likely-convicted,CRIMINAL,73030801,B,PASS,quarantined,tiny-stem,129,true,true,true,true,14711_most-likely-convicted
+C:\FOC\Workspace\Finished\CQ14728.md,CQ14728.md,14728,14728,CRIMINAL,,D,PASS,quarantined,NO_CALL; missing-outline; not-sql-emitted,795,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ14730.md,CQ14730.md,14730,14730_potluck_flight,CRIMINAL,,D,PASS,quarantined,NO_CALL; missing-outline; not-sql-emitted,910,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ14816.md,CQ14816.md,14816,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14819.md,CQ14819.md,14819,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14820.md,CQ14820.md,14820,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14828.md,CQ14828.md,14828,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14831.md,CQ14831.md,14831,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14863.md,CQ14863.md,14863,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ14871.md,CQ14871.md,14871,14871_lampstand_guide_memo,EVIDENCE,32020700,A,PASS,quarantined,tiny-stem,101,true,true,true,true,14871_lampstand_guide_memo
+C:\FOC\Workspace\Finished\CQ14908.md,CQ14908.md,14908,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ15003.md,CQ15003.md,15003,15003_pauls_mineral_rights,REAL_PROPERTY,00000000,A,PASS,quarantined,missing-outline,951,true,true,true,true,15003_pauls_mineral_rights
+C:\FOC\Workspace\Finished\CQ16011.md,CQ16011.md,16011,16011_gethsemane_intent,CRIMINAL,71040300,C,PASS,quarantined,tiny-stem,96,true,true,true,true,16011_gethsemane_intent
+C:\FOC\Workspace\Finished\CQ16019.md,CQ16019.md,16019,16019_attempt-jonah,CRIMINAL,73020200,C,PASS,quarantined,missing-c3-annotation; missing-components; missing-program-intelligence,827,false,false,false,false,16019_attempt-jonah
+C:\FOC\Workspace\Finished\CQ16042.md,CQ16042.md,16042,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ16070.md,CQ16070.md,16070,16070,CRIMINAL,72060100,A,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ16158.md,CQ16158.md,16158,16158,CRIMINAL,73030200,B,PASS,quarantined,NO_CALL; tiny-stem; not-sql-emitted,100,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ16160_christian_variant.md,CQ16160_christian_variant.md,,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ16163.md,CQ16163.md,16163,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ16168.md,CQ16168.md,16168,16168_ruth-church-basement,CRIMINAL,73031000,B,PASS,quarantined,CHOICES=[]; not-sql-emitted,672,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ16169.md,CQ16169.md,16169,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ16184.md,CQ16184.md,16184,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ16187.md,CQ16187.md,16187,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17015.md,CQ17015.md,17015,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17045.md,CQ17045.md,17045,17045_scripture_banner_cloth,EVIDENCE,32020801,B,PASS,quarantined,missing-c3-annotation; missing-components; missing-program-intelligence,1511,false,false,false,true,17045_scripture_banner_cloth
+C:\FOC\Workspace\Finished\CQ17052.md,CQ17052.md,17052,17052_depraved-anton,CRIMINAL,00000000,A,PASS,quarantined,missing-outline,541,true,true,true,true,17052_depraved-anton
+C:\FOC\Workspace\Finished\CQ17063.md,CQ17063.md,17063,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17091.md,CQ17091.md,17091,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17324.md,CQ17324.md,17324,17324_priscillas_inventory,CRIMINAL,00000000,C,Core,quarantined,missing-outline,635,true,true,true,true,17324_priscillas_inventory
+C:\FOC\Workspace\Finished\CQ17405.md,CQ17405.md,17405,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17419.md,CQ17419.md,17419,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17420.md,CQ17420.md,17420,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17564.md,CQ17564.md,17564,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17712.md,CQ17712.md,17712,17712_maybe-mary,CRIMINAL,73030900,C,PASS,quarantined,missing-c3-annotation; missing-components; missing-program-intelligence,816,false,false,false,false,17712_maybe-mary
+C:\FOC\Workspace\Finished\CQ17776.md,CQ17776.md,17776,17776_hannah-delivery,CRIMINAL,00000000,C,PASS,quarantined,missing-outline,606,true,true,true,true,17776_hannah-delivery
+C:\FOC\Workspace\Finished\CQ17823.md,CQ17823.md,17823,17823_josephs_chariot,CRIMINAL,00000000,A,Core,quarantined,missing-outline,608,true,true,true,true,17823_josephs_chariot
+C:\FOC\Workspace\Finished\CQ17884.md,CQ17884.md,17884,17884_cedar_hall_trailer,CRIMINAL,75110200,B,PASS,quarantined,CHOICES=[]; not-sql-emitted,776,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ17930.md,CQ17930.md,17930,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ17993.md,CQ17993.md,17993,17993_peters_scabbard,CRIMINAL,00000000,B,Core,quarantined,missing-outline,550,true,true,true,true,17993_peters_scabbard
+C:\FOC\Workspace\Finished\CQ18020.dm.md,CQ18020.dm.md,,15020,REAL_PROPERTY,81020500,C,PASS,quarantined,NO_SOURCE_QID; NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ18175.md,CQ18175.md,18175,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ18252.md,CQ18252.md,18252,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ18296.md,CQ18296.md,18296,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ18342.md,CQ18342.md,18342,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ18385.md,CQ18385.md,18385,18385_rebecca-cell,CRIMINAL,00000000,A,PASS,quarantined,missing-outline,673,true,true,true,true,18385_rebecca-cell
+C:\FOC\Workspace\Finished\CQ18400.md,CQ18400.md,18400,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ18442.md,CQ18442.md,18442,18442,CRIMINAL,75090400,A,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ18550.md,CQ18550.md,18550,15012,REAL_PROPERTY,81020102,C,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ18861.md,CQ18861.md,18861,18861,CRIMINAL,72060206,C,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ18944.md,CQ18944.md,18944,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ19064.md,CQ19064.md,19064,19064_joel-dose,CRIMINAL,00000000,C,PASS,quarantined,missing-outline,629,true,true,true,true,19064_joel-dose
+C:\FOC\Workspace\Finished\CQ19143.md,CQ19143.md,19143,19143_naomi-impound,CRIMINAL,00000000,B,PASS,quarantined,missing-outline,659,true,true,true,true,19143_naomi-impound
+C:\FOC\Workspace\Finished\CQ19289.md,CQ19289.md,19289,19289_peters_cafe_vigil,CRIMINAL,00000000,C,Core,quarantined,missing-outline,658,true,true,true,true,19289_peters_cafe_vigil
+C:\FOC\Workspace\Finished\CQ19305.md,CQ19305.md,19305,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ19374.md,CQ19374.md,19374,19374_sailboat-engine-dispute,EVIDENCE,31010101,A,PASS,quarantined,CHOICES=[]; not-sql-emitted,549,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ19501.md,CQ19501.md,19501,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ19762.md,CQ19762.md,19762,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ20014.md,CQ20014.md,20014,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ20055.md,CQ20055.md,20055,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ20125.md,CQ20125.md,20125,20125_peter-tutoring,CONTRACTS,55020205,D,PASS,quarantined,missing-c3-annotation; missing-components; missing-program-intelligence,581,false,false,false,true,20125_peter-tutoring
+C:\FOC\Workspace\Finished\CQ20168.md,CQ20168.md,20168,20168_caleb-theft,CRIMINAL,00000000,B,PASS,quarantined,missing-outline,702,true,true,true,true,20168_caleb-theft
+C:\FOC\Workspace\Finished\CQ20343.md,CQ20343.md,20343,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ20470.md,CQ20470.md,20470,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ20505.md,CQ20505.md,20505,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ20516.md,CQ20516.md,20516,,CRIMINAL,72060206,B,PASS,quarantined,NO_QID,693,true,true,true,false,20516
+C:\FOC\Workspace\Finished\CQ20569.md,CQ20569.md,20569,20569_ark_float,CONTRACTS,56050102,B,PASS,quarantined,NO_CALL; not-sql-emitted,708,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ20575.md,CQ20575.md,20575,20575_miriam-sedan,CRIMINAL,00000000,C,PASS,quarantined,missing-outline,650,true,true,true,true,20575_miriam-sedan
+C:\FOC\Workspace\Finished\CQ20595.md,CQ20595.md,20595,20595_study_bible_promise,CRIMINAL,73030300,C,PASS,quarantined,tiny-stem,157,true,true,true,true,20595_study_bible_promise
+C:\FOC\Workspace\Finished\CQ20658.md,CQ20658.md,20658,20658_pauls_damascus_delivery,CRIMINAL,00000000,A,Core,quarantined,missing-outline,796,true,true,true,true,20658_pauls_damascus_delivery
+C:\FOC\Workspace\Finished\CQ20708.md,CQ20708.md,20708,20708,CRIMINAL,73030400,A,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ20727.md,CQ20727.md,20727,20727,TORTS,63040100,A,PASS,quarantined,missing-c3-annotation; missing-components; missing-program-intelligence,437,false,false,false,false,20727
+C:\FOC\Workspace\Finished\CQ20805.md,CQ20805.md,20805,20805_psalm_lanterns_confirmation,CONTRACTS,54030400,C,PASS,quarantined,missing-c3-annotation; missing-components; missing-program-intelligence,456,false,false,false,false,20805_psalm_lanterns_confirmation
+C:\FOC\Workspace\Finished\CQ20903.md,CQ20903.md,20903,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ21040.md,CQ21040.md,21040,21040_barnabass_satchel,CRIMINAL,00000000,C,Core,quarantined,missing-outline,704,true,true,true,true,21040_barnabass_satchel
+C:\FOC\Workspace\Finished\CQ21105.md,CQ21105.md,21105,15017,REAL_PROPERTY,81020401,D,PASS,quarantined,NO_CALL; not-sql-emitted,1988,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ21151.md,CQ21151.md,21151,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ21449.md,CQ21449.md,21449,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ21526.md,CQ21526.md,21526,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ21599.md,CQ21599.md,21599,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ21700.md,CQ21700.md,21700,21700_king_solomons_banquet,CRIMINAL,00000000,B,Core,quarantined,missing-outline,622,true,true,true,true,21700_king_solomons_banquet
+C:\FOC\Workspace\Finished\CQ21707.md,CQ21707.md,21707,21707,CRIMINAL,72060101,A,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ21750.md,CQ21750.md,21750,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ21770.md,CQ21770.md,21770,21770_abigail-stool,CRIMINAL,00000000,C,PASS,quarantined,missing-outline,674,true,true,true,true,21770_abigail-stool
+C:\FOC\Workspace\Finished\CQ21845.md,CQ21845.md,21845,21845,CRIMINAL,71040300,B,PASS,quarantined,NO_STEM; tiny-stem; not-sql-emitted,0,true,true,true,false,
+C:\FOC\Workspace\Finished\CQ22054.md,CQ22054.md,22054,22054_hannah_farm_tbe,REAL_PROPERTY,82010300,B,PASS,quarantined,tiny-stem,247,true,true,true,true,22054_hannah_farm_tbe
+C:\FOC\Workspace\Finished\CQ22139.md,CQ22139.md,22139,22139_mountain_retreat_ouster,REAL_PROPERTY,82010501,C,PASS,quarantined,tiny-stem,127,true,true,true,true,22139_mountain_retreat_ouster
+C:\FOC\Workspace\Finished\CQ22140.md,CQ22140.md,22140,22140_solomons_vineyard,REAL_PROPERTY,00000000,B,Core,quarantined,missing-outline,974,true,true,true,true,22140_solomons_vineyard
+C:\FOC\Workspace\Finished\CQ22161.md,CQ22161.md,22161,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ22221.md,CQ22221.md,22221,22221_guardian_consultation,EVIDENCE,35030205,C,PASS,quarantined,CHOICES=[]; not-sql-emitted,1416,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ22222.md,CQ22222.md,22222,22222_spousal_custody_battle,EVIDENCE,35030201,C,PASS,quarantined,CHOICES=[]; not-sql-emitted,1260,true,true,true,true,
+C:\FOC\Workspace\Finished\CQ22266.md,CQ22266.md,22266,,,,,,quarantined,NO_BLOCK1_YAML; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,
+C:\FOC\Workspace\Finished\CQ22410.md,CQ22410.md,22410,22410,CRIMINAL,,B,PASS,quarantined,missing-outline,969,true,true,true,true,22410
+C:\FOC\Workspace\Finished\CQ22462.md,CQ22462.md,22462,,,,,,quarantined,BLOCK1_UNPARSEABLE; missing-key; missing-outline; missing-c3-annotation; missing-components; missing-program-intelligence; not-sql-emitted,,false,false,false,false,

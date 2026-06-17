@@ -1,0 +1,2534 @@
+[
+  {
+    "external_id": "14000_bible_escape_room_trailer",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "93110300",
+    "tension_point": "whether_to_answer_the_actual_appellate_review_question_or_get_distracted_by_remittitur_validity_noise",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "D",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "on_a_mixed_post_trial_stem_answer_the_appellate_review_question_",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14000",
+        "external_id": "14000_bible_escape_room_trailer",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "After a federal jury gives large punitive damages, and the trial judge conditionally reduces them as unconstitutionally excessive, what standard does the court of appeals use to review that constitutional reduction ruling?",
+        "review_truth": "When a court of appeals reviews a trial court's constitutional decision that a punitive-damages award is excessive, the review is de novo.",
+        "tension_axis_label": "Whether to answer the actual appellate-review question or get distracted by remittitur-validity noise.",
+        "call_heuristic_label": "On a mixed post-trial stem, answer the appellate-review question the call asks before chasing merits complaints.",
+        "analyzer_notes": "drift_audit: student path keeps the de novo standard and Rule 59 evidence-weighing in the anchor layer, not fake structure; transformed_from: 14000; letter_map: A->C, B->A, C->D, D->B; difficulty_source_defect: source row supplied no difficulty scale, so difficulty is UNKNOWN; pick_rates: no measured source rates supplied, so all percentages are predicted seeds; source_explanation_note: Cooper supports the key even though the source explanation's Eighth Amendment phrasing is broader than needed."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "fabricated_rule",
+          "not_true",
+          "scope_of_review_noise",
+          "jury_province_bait"
+        ],
+        "misconception_tags": [
+          "remittitur_is_always_unconstitutional",
+          "rule_59_no_evidence_weighing",
+          "precise_number_rule_fabrication"
+        ]
+      },
+      {
+        "letter": "B",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "misfit",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "misfit",
+          "not_responsive",
+          "scope_of_review_noise",
+          "jury_province_bait"
+        ],
+        "misconception_tags": [
+          "remittitur_is_always_unconstitutional",
+          "rule_59_no_evidence_weighing",
+          "precise_number_rule_fabrication"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "backwards",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "backwards",
+          "not_true",
+          "wrong_frame",
+          "scope_of_review_noise",
+          "jury_province_bait"
+        ],
+        "misconception_tags": [
+          "remittitur_is_always_unconstitutional",
+          "rule_59_no_evidence_weighing",
+          "precise_number_rule_fabrication"
+        ]
+      }
+    ],
+    "tag_count": 40,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "93110300",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14000",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CLASH",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "whether_to_answer_the_actual_appellate_review_question_or_get_distracted_by_remittitur_validity_noise",
+        "metadata": {
+          "label": "Whether to answer the actual appellate-review question or get distracted by remittitur-validity noise.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "whether_to_answer_the_actual_appellate_review_question_or_get_distracted_by_remittitur_validity_noise",
+        "metadata": {
+          "label": "Whether to answer the actual appellate-review question or get distracted by remittitur-validity noise.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "scope_of_review_confusion",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "scope_of_review_confusion"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "remittitur_vs_review_standard",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "remittitur_vs_review_standard"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "rule_59_power_confusion",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "rule_59_power_confusion"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "jury_province_bait",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "jury_province_bait"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14001_christmas_stage_review",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "93110100",
+    "tension_point": "whether_a_pretrial_denial_that_is_conclusive_and_separate_from_the_merits_is_still_defeated_by_later_review_after_final_judgment",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "for_collateral_order_appeals_check_all_three_required_gates_one_",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14001",
+        "external_id": "14001_christmas_stage_review",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "A defendant loses a motion to dismiss on political-question grounds and immediately appeals under the collateral order doctrine; is there jurisdiction when the ruling can be reviewed after final judgment?",
+        "review_truth": "A collateral order is immediately appealable only when it is conclusive, separate from the merits, and effectively unreviewable after final judgment.",
+        "tension_axis_label": "Whether a pretrial denial that is conclusive and separate from the merits is still defeated by later review after final judgment.",
+        "call_heuristic_label": "For collateral-order appeals, check all three required gates; one missing gate ends immediate jurisdiction.",
+        "analyzer_notes": "drift_audit: asset, setting, cast, injury mechanism, fact rhythm, and choice order changed while the collateral-order issue and three answer mechanics were preserved; transformed_from: 14001; letter_map: A->D, B->A, C->B, D->C; outline_code 93110100 verified verbatim in OUTLINE_CODES_COMPLETE.md; no measured pick rates were supplied, so all percentages are predicted seeds."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "half_truth",
+          "not_true",
+          "half_right_answer",
+          "bar_exam_bait",
+          "wrong_procedural_posture"
+        ],
+        "misconception_tags": [
+          "one_element_is_enough",
+          "deadline_as_waiting_period",
+          "separate_issue_means_appealable"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "fabricated_rule",
+          "not_true",
+          "half_right_answer",
+          "bar_exam_bait",
+          "wrong_procedural_posture"
+        ],
+        "misconception_tags": [
+          "one_element_is_enough",
+          "deadline_as_waiting_period",
+          "separate_issue_means_appealable"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "half_truth",
+          "not_true",
+          "half_right_answer",
+          "bar_exam_bait",
+          "wrong_procedural_posture"
+        ],
+        "misconception_tags": [
+          "one_element_is_enough",
+          "deadline_as_waiting_period",
+          "separate_issue_means_appealable"
+        ]
+      }
+    ],
+    "tag_count": 36,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "93110100",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14001",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CALL",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "whether_a_pretrial_denial_that_is_conclusive_and_separate_from_the_merits_is_still_defeated_by_later_review_after_final_judgment",
+        "metadata": {
+          "label": "Whether a pretrial denial that is conclusive and separate from the merits is still defeated by later review after final judgment.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "whether_a_pretrial_denial_that_is_conclusive_and_separate_from_the_merits_is_still_defeated_by_later_review_after_final_judgment",
+        "metadata": {
+          "label": "Whether a pretrial denial that is conclusive and separate from the merits is still defeated by later review after final judgment.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "interlocutory_review",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "interlocutory_review"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "one_element_half_truths",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "one_element_half_truths"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "procedure_timing_myths",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "procedure_timing_myths"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "half_right_answer",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "half_right_answer"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14007_winter_market_review",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "93110300",
+    "tension_point": "preserved_error_harmless_review_versus_unpreserved_error_plain_review",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "when_two_answers_say_yes_test_the_because_clause_for_the_correct",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14007",
+        "external_id": "14007_winter_market_review",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "After final judgment, may an appellant who skipped JMOL on one claim still obtain appellate review of timely objected-to evidence and jury-instruction errors on that claim?",
+        "review_truth": "A preserved evidentiary or jury-instruction objection can be reviewed for harmful error even when a separate JMOL sufficiency argument was waived.",
+        "tension_axis_label": "Preserved-error harmless review versus unpreserved-error plain review.",
+        "call_heuristic_label": "When two answers say yes, test the because-clause for the correct appellate lane.",
+        "analyzer_notes": [
+          "drift_audit: recognition test passed; the variant changes the market setting, property, searched items, seized items, names, evidence object, and choice ordering while preserving the appellate-review rule.",
+          "transformed_from: 14007",
+          "letter_map: A->D, B->C, C->B, D->A",
+          "source_note: QBank/14007.md supplied the full row; MBE.xlsx was not found in C:/FOC/Workspace or C:/FOC during source verification.",
+          "outline_code_verified: 93110300 appears verbatim in OUTLINE_CODES_COMPLETE.md as Appeal and Review > Scope of Review."
+        ]
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "bait_doctrine",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "bait_doctrine",
+          "not_responsive",
+          "yes_because_wrong_standard",
+          "jmol_global_waiver_myth",
+          "fake_jurisdiction_shutdown"
+        ],
+        "misconception_tags": [
+          "plain_error_for_preserved_issue",
+          "no_jmol_means_no_appeal",
+          "harmless_error_is_automatic"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "fabricated_rule",
+          "not_true",
+          "yes_because_wrong_standard",
+          "jmol_global_waiver_myth",
+          "fake_jurisdiction_shutdown"
+        ],
+        "misconception_tags": [
+          "plain_error_for_preserved_issue",
+          "no_jmol_means_no_appeal",
+          "harmless_error_is_automatic"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": "violation_vs_remedy",
+        "forensic_tags": [
+          "violation_vs_remedy",
+          "flat_misstatement",
+          "not_true",
+          "yes_because_wrong_standard",
+          "jmol_global_waiver_myth",
+          "fake_jurisdiction_shutdown"
+        ],
+        "misconception_tags": [
+          "plain_error_for_preserved_issue",
+          "no_jmol_means_no_appeal",
+          "harmless_error_is_automatic"
+        ]
+      }
+    ],
+    "tag_count": 40,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "93110300",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14007",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CLASH",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "preserved_error_harmless_review_versus_unpreserved_error_plain_review",
+        "metadata": {
+          "label": "Preserved-error harmless review versus unpreserved-error plain review.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "preserved_error_harmless_review_versus_unpreserved_error_plain_review",
+        "metadata": {
+          "label": "Preserved-error harmless review versus unpreserved-error plain review.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "preservation_lanes",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "preservation lanes"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "harmless_versus_plain_error",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "harmless versus plain error"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "jurisdiction_bait",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "jurisdiction bait"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "yes_because_answer_arrays",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "yes-because answer arrays"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14014_scripture_cart_jury_poll",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "93110101",
+    "tension_point": "appellate_jurisdiction_versus_trial_error_or_merits_review",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "jurisdiction_first_call_focus",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14014",
+        "external_id": "14014_scripture_cart_jury_poll",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "A federal civil jury returned a plaintiff's verdict, the judge polled the jurors before discharge, the poll showed no unanimity on contributory negligence, and the judge ordered a new trial. Can the plaintiff immediately appeal?",
+        "review_truth": "A federal order granting a new trial is not a final decision for appeal, and Rule 48(c) lets the judge poll jurors sua sponte and order a new trial when unanimity fails.",
+        "tension_axis_label": "appellate jurisdiction versus trial-error or merits review",
+        "call_heuristic_label": "jurisdiction_first_call_focus",
+        "analyzer_notes": "drift_audit: student-facing analysis uses the visible call mismatch for A, the visible nonfinal posture plus final-judgment anchor for B, and Rule 48(c) anchors for C and D; no legal authority is used as a first-pass student shortcut except in Gold Key form. transformed_from: 14014. letter_map: A->D, B->A, C->C, D->B. dominant_trap: D, analytically identified because it converts a real Rule 48(c) option into a mandatory remedy and then uses that supposed trial error to create immediate appeal. outline_code_verified: 93110101 (Appeal and Review > Interlocutory Review > Final judgment rule). seed_pick_rates: A=10, B=42, C=16, D=32, all predicted because no measured rates were supplied."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "misfit",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "misfit",
+          "not_responsive",
+          "jurisdiction_first",
+          "new_trial_nonfinality",
+          "jury_poll_remedy_choice",
+          "merits_detour"
+        ],
+        "misconception_tags": [
+          "timely_appeal_equals_appealable_order",
+          "further_deliberation_mandatory_after_failed_poll",
+          "judge_cannot_poll_sua_sponte",
+          "federal_negligence_defense_displaces_state_law"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "flat_misstatement",
+          "not_true",
+          "jurisdiction_first",
+          "new_trial_nonfinality",
+          "jury_poll_remedy_choice",
+          "merits_detour"
+        ],
+        "misconception_tags": [
+          "timely_appeal_equals_appealable_order",
+          "further_deliberation_mandatory_after_failed_poll",
+          "judge_cannot_poll_sua_sponte",
+          "federal_negligence_defense_displaces_state_law"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "violation_vs_remedy",
+        "forensic_tags": [
+          "violation_vs_remedy",
+          "fabricated_rule",
+          "not_true",
+          "jurisdiction_first",
+          "new_trial_nonfinality",
+          "jury_poll_remedy_choice",
+          "merits_detour"
+        ],
+        "misconception_tags": [
+          "timely_appeal_equals_appealable_order",
+          "further_deliberation_mandatory_after_failed_poll",
+          "judge_cannot_poll_sua_sponte",
+          "federal_negligence_defense_displaces_state_law"
+        ]
+      }
+    ],
+    "tag_count": 44,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "93110101",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14014",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CUT",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "appellate_jurisdiction_versus_trial_error_or_merits_review",
+        "metadata": {
+          "label": "appellate jurisdiction versus trial-error or merits review",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "appellate_jurisdiction_versus_trial_error_or_merits_review",
+        "metadata": {
+          "label": "appellate jurisdiction versus trial-error or merits review",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "appealability",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "appealability"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "final_judgment_rule",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "final judgment rule"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "rule_48_c_jury_polling",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Rule 48(c) jury polling"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "trial_error_detour",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "trial-error detour"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14068_retreat_canoe",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "91090100",
+    "tension_point": "legal_damages_versus_injunction_common_issues_versus_purely_equitable_issues",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": null,
+      "agrees_with_key": null,
+      "governing_law_type": null,
+      "deciding_phase": null,
+      "confidence": null,
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": null,
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14068",
+        "external_id": "14068_retreat_canoe",
+        "raw_verdict": null,
+        "raw_difficulty": null,
+        "distilled_core_question": "Plaintiff seeks both money damages and an injunction on overlapping facts; defendant timely demands a jury. Which issues receive a jury?",
+        "review_truth": "When legal and equitable claims in the same federal action share factual issues, timely jury demand preserves jury trial on those common issues.",
+        "tension_axis_label": "legal damages versus injunction; common issues versus purely equitable issues",
+        "call_heuristic_label": null,
+        "analyzer_notes": null
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [],
+    "tag_count": 26,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "91090100",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14068",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": null
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "legal_damages_versus_injunction_common_issues_versus_purely_equitable_issues",
+        "metadata": {
+          "label": "legal damages versus injunction; common issues versus purely equitable issues",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "legal_damages_versus_injunction_common_issues_versus_purely_equitable_issues",
+        "metadata": {
+          "label": "legal damages versus injunction; common issues versus purely equitable issues",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "legal_vs_equitable_remedies",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "legal vs equitable remedies"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "common_issues_tried_to_jury",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "common issues tried to jury"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "equitable_relief_does_not_swallow_legal_damages",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "equitable relief does not swallow legal damages"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "timely_jury_demand",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "timely jury demand"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "equity_swallowing",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "equity_swallowing"
+        }
+      },
+      {
+        "dimension": "trap_family",
+        "value": "equity_swallowing",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "equity_swallowing"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "overbroad_yes_rule",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "overbroad_yes_rule"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14090_federal_military_property_duty_defense",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "96060200",
+    "tension_point": "balancing_required_vs_automatic_preemption",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "C",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "answer_the_defense_the_motion_actually_raises_do_not_default_to_",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14090",
+        "external_id": "14090_federal_military_property_duty_defense",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "Core",
+        "distilled_core_question": "In a diversity case, when a federal employee on official duty on federal military property asserts a federal common law tort defense that bars a state-law negligence claim, does a court apply federal common law after balancing federal and state interests, or did Erie eliminate federal common law, or does automatic preemption apply, or do federal choice-of-law rules control?",
+        "review_truth": "In a diversity case, a federal common law tort defense for federal employees performing official duties on federal military property can apply when the federal interest is important enough to outweigh competing state interests under the balancing test.",
+        "tension_axis_label": "balancing required vs. automatic preemption",
+        "call_heuristic_label": "answer the defense the motion actually raises; do not default to Erie blanket rule or choice-of-law frame",
+        "analyzer_notes": "drift_audit: rule, credited outcome, trap mechanics, array geometry, and call function identical to source row 14090. Only surface story, names (Ruth/Barnabas), numbers ($85,000), ordering, phrasing, and Christian framing changed. transformed_from: 14090. letter_map: A->B (fabricated_rule), B->C (correct_answer), C->A (flat_misstatement, dominant trap), D->D (misfit). All controlled values taken verbatim from controlled_vocabularies.md. Outline code 96060200 verified verbatim in OUTLINE_CODES_COMPLETE.md. Recognition test passed: the two one-sentence stem summaries share nothing beyond the tested rule. Dominant trap (A) identified analytically as the most attractive common student myth and flagged in Letter Map. Seed percentages emitted for all four choices (no measured rates supplied). Gold Key present because item is anchor_assisted. Silver Key present because non-obvious call-focus navigation decides the item. bank_validation_verdict: PASS (source authority supports key; no contradiction found)."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "flat_misstatement",
+          "not_true",
+          "erie_over_application",
+          "automatic_preemption_myth",
+          "call_vs_col_confusion"
+        ],
+        "misconception_tags": [
+          "erie_killed_every_kind_of_federal_common_law",
+          "federal_defenses_always_win",
+          "federal_court_always_applies_federal_law_or_plaintiff_s_home_law"
+        ]
+      },
+      {
+        "letter": "B",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "violation_vs_remedy",
+        "forensic_tags": [
+          "violation_vs_remedy",
+          "fabricated_rule",
+          "not_true",
+          "erie_over_application",
+          "automatic_preemption_myth",
+          "call_vs_col_confusion"
+        ],
+        "misconception_tags": [
+          "erie_killed_every_kind_of_federal_common_law",
+          "federal_defenses_always_win",
+          "federal_court_always_applies_federal_law_or_plaintiff_s_home_law"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "misfit",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "misfit",
+          "not_responsive",
+          "erie_over_application",
+          "automatic_preemption_myth",
+          "call_vs_col_confusion"
+        ],
+        "misconception_tags": [
+          "erie_killed_every_kind_of_federal_common_law",
+          "federal_defenses_always_win",
+          "federal_court_always_applies_federal_law_or_plaintiff_s_home_law"
+        ]
+      }
+    ],
+    "tag_count": 36,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "96060200",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14090",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CLASH",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "balancing_required_vs_automatic_preemption",
+        "metadata": {
+          "label": "balancing required vs. automatic preemption",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "balancing_required_vs_automatic_preemption",
+        "metadata": {
+          "label": "balancing required vs. automatic preemption",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "federal_common_law_survival_post_erie",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "federal common law survival post-Erie"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "unique_federal_interest_balancing",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "unique federal interest balancing"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "official_duty_on_federal_property",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "official duty on federal property"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "erie_over_application",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "Erie over-application"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14108_ebike_delivery_sign",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "92080201",
+    "tension_point": "whether_ambiguous_uncontradicted_sign_evidence_leaves_a_reasonable_jury_question_or_compels_judgment_as_a_matter_of_law",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "C",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "on_a_timely_rule_50_a_motion_ignore_timing_and_waiver_noise_and_",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14108",
+        "external_id": "14108_ebike_delivery_sign",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "After both sides rest in a federal jury trial, may an insurer obtain judgment as a matter of law by relying only on uncontradicted but ambiguous sign evidence to prove the factual trigger for a policy exclusion?",
+        "review_truth": "A Rule 50(a) motion for judgment as a matter of law should be denied when a reasonable jury could find that the moving party did not prove the factual issue needed for the motion.",
+        "tension_axis_label": "Whether ambiguous uncontradicted sign evidence leaves a reasonable jury question or compels judgment as a matter of law.",
+        "call_heuristic_label": "On a timely Rule 50(a) motion, ignore timing and waiver noise and ask whether the evidence leaves any reasonable-jury basis on the issue.",
+        "analyzer_notes": "drift_audit: student path keeps Rule 50(a) timing and sufficiency in the anchor layer, not fake structure; transformed_from: 14108; letter_map: A->B, B->C, C->A, D->D; difficulty_source_defect: source row supplied no difficulty scale, so difficulty is UNKNOWN; pick_rates: no measured source rates supplied, so all percentages are predicted seeds; dominant_trap: A because uncontradicted-evidence overreach is the most attractive wrong mechanic."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "half_truth",
+          "not_true",
+          "uncontradicted_evidence_overclaim",
+          "jmol_timing_bait",
+          "procedural_frame_noise"
+        ],
+        "misconception_tags": [
+          "uncontradicted_means_conclusive",
+          "plaintiff_must_anticipate_defense",
+          "jmol_must_be_at_close_of_plaintiffs_case"
+        ]
+      },
+      {
+        "letter": "B",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "backwards",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "backwards",
+          "not_true",
+          "uncontradicted_evidence_overclaim",
+          "jmol_timing_bait",
+          "procedural_frame_noise"
+        ],
+        "misconception_tags": [
+          "uncontradicted_means_conclusive",
+          "plaintiff_must_anticipate_defense",
+          "jmol_must_be_at_close_of_plaintiffs_case"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "fabricated_rule",
+          "not_true",
+          "uncontradicted_evidence_overclaim",
+          "jmol_timing_bait",
+          "procedural_frame_noise"
+        ],
+        "misconception_tags": [
+          "uncontradicted_means_conclusive",
+          "plaintiff_must_anticipate_defense",
+          "jmol_must_be_at_close_of_plaintiffs_case"
+        ]
+      }
+    ],
+    "tag_count": 36,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "92080201",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14108",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CLASH",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "whether_ambiguous_uncontradicted_sign_evidence_leaves_a_reasonable_jury_question_or_compels_judgment_as_a_matter_of_law",
+        "metadata": {
+          "label": "Whether ambiguous uncontradicted sign evidence leaves a reasonable jury question or compels judgment as a matter of law.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "whether_ambiguous_uncontradicted_sign_evidence_leaves_a_reasonable_jury_question_or_compels_judgment_as_a_matter_of_law",
+        "metadata": {
+          "label": "Whether ambiguous uncontradicted sign evidence leaves a reasonable jury question or compels judgment as a matter of law.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "jmol_timing_confusion",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "jmol_timing_confusion"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "legal_sufficiency_vs_uncontradicted_evidence",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "legal_sufficiency_vs_uncontradicted_evidence"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "policy_exclusion_burden",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "policy_exclusion_burden"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "waiver_by_not_anticipating_defense",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "waiver_by_not_anticipating_defense"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14132_lydia_vineyard_smj",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "92080104",
+    "tension_point": "whether_lydia_can_stop_jury_submission_through_subject_matter_jurisdiction_despite_trial_stage_timing_limits_on_jmol_and_summary_judgment",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "check_the_court_s_power_before_evaluating_trial_devices",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14132",
+        "external_id": "14132_lydia_vineyard_smj",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "In federal court, after trial has begun and testimony reveals that both parties are citizens of the same state in a state-law contract dispute, can the plaintiff still stop jury submission by moving to dismiss for lack of subject-matter jurisdiction?",
+        "review_truth": "A federal court must dismiss a case whenever it lacks subject-matter jurisdiction, even after trial has begun.",
+        "tension_axis_label": "Whether Lydia can stop jury submission through subject-matter jurisdiction despite trial-stage timing limits on JMOL and summary judgment.",
+        "call_heuristic_label": "Check the court's power before evaluating trial devices.",
+        "analyzer_notes": "drift_audit: surface facts changed from contractor/homeowner/kitchen to Lydia/Barnabas/vineyard irrigation panel; legal rule, timing traps, and credited outcome preserved. transformed_from: 14132. letter_map: A→B, B→D, C→A, D→C. outline_code 92080104 verified in OUTLINE_CODES_COMPLETE.md. No measured focus-group rates supplied; all percentages are predicted seed estimates."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "misfit",
+        "c3_architecture": "bait_doctrine",
+        "forensic_tags": [
+          "bait_doctrine",
+          "misfit",
+          "not_responsive",
+          "subject_matter_jurisdiction_timing",
+          "trial_device_timing",
+          "complete_diversity_destroyed"
+        ],
+        "misconception_tags": [
+          "jmol_as_only_jury_stop_tool",
+          "summary_judgment_available_during_trial",
+          "no_option_but_continue"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "flat_misstatement",
+          "not_true",
+          "subject_matter_jurisdiction_timing",
+          "trial_device_timing",
+          "complete_diversity_destroyed"
+        ],
+        "misconception_tags": [
+          "jmol_as_only_jury_stop_tool",
+          "summary_judgment_available_during_trial",
+          "no_option_but_continue"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "fabricated_rule",
+          "not_true",
+          "subject_matter_jurisdiction_timing",
+          "trial_device_timing",
+          "complete_diversity_destroyed"
+        ],
+        "misconception_tags": [
+          "jmol_as_only_jury_stop_tool",
+          "summary_judgment_available_during_trial",
+          "no_option_but_continue"
+        ]
+      }
+    ],
+    "tag_count": 36,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "92080104",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14132",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CUT",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "whether_lydia_can_stop_jury_submission_through_subject_matter_jurisdiction_despite_trial_stage_timing_limits_on_jmol_and_summary_judgment",
+        "metadata": {
+          "label": "Whether Lydia can stop jury submission through subject-matter jurisdiction despite trial-stage timing limits on JMOL and summary judgment.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "whether_lydia_can_stop_jury_submission_through_subject_matter_jurisdiction_despite_trial_stage_timing_limits_on_jmol_and_summary_judgment",
+        "metadata": {
+          "label": "Whether Lydia can stop jury submission through subject-matter jurisdiction despite trial-stage timing limits on JMOL and summary judgment.",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "subject_matter_jurisdiction_timing",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Subject-matter jurisdiction timing"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "complete_diversity_under_28_u_s_c_1332",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Complete diversity under 28 U.S.C. § 1332"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "jmol_timing_under_rule_50",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "JMOL timing under Rule 50"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "summary_judgment_timing_under_rule_56",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Summary judgment timing under Rule 56"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14150_livestock_trailer_rancher",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "95070302",
+    "tension_point": "misjoined_finding_vs_available_remedy_dismissal_forbidden",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "C",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CUT",
+      "confidence": "HARD_STRUCTURAL",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "should_grant_motion_question_that_embeds_remedy_analysis",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14150",
+        "external_id": "14150_livestock_trailer_rancher",
+        "raw_verdict": "C3_SOLVE",
+        "raw_difficulty": "Core",
+        "distilled_core_question": "In a federal suit, when claims against two defendants arise from distinct problems with the same piece of equipment (design defect in one system versus repeated repair failures in a different system), are the defendants misjoined under Rule 20, and if so, is dismissal the proper remedy or must the court use severance instead?",
+        "review_truth": "Misjoinder of parties is not a ground for dismissing an action; the court may sever the claims instead.",
+        "tension_axis_label": "misjoined finding vs. available remedy (dismissal forbidden)",
+        "call_heuristic_label": "should-grant-motion question that embeds remedy analysis",
+        "analyzer_notes": "drift_audit: No drift. Rule substance, credited outcome, dominant trap mechanic, and array geometry preserved exactly. Outline code 95070302 verified verbatim in OUTLINE_CODES_COMPLETE.md. Transformed from 14150. Letter map: original A→new A, original C→new B, original D→new C, original B→new D. Gold Key and Silver Key supplied for the remedy cut and explicit rule text. bank_validation_verdict: PASS. Research (FRCP 21 current text) confirms official key and credited outcome unchanged."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": "violation_vs_remedy",
+        "forensic_tags": [
+          "violation_vs_remedy",
+          "flat_misstatement",
+          "not_true",
+          "wrong_remedy",
+          "half_truth_on_series",
+          "irrelevant_liability"
+        ],
+        "misconception_tags": [
+          "misjoinder_kills_case",
+          "one_asset_equals_series",
+          "joinder_requires_cross_liability"
+        ]
+      },
+      {
+        "letter": "B",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "half_truth",
+          "not_true",
+          "wrong_remedy",
+          "half_truth_on_series",
+          "irrelevant_liability"
+        ],
+        "misconception_tags": [
+          "misjoinder_kills_case",
+          "one_asset_equals_series",
+          "joinder_requires_cross_liability"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "misfit",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "misfit",
+          "not_responsive",
+          "wrong_remedy",
+          "half_truth_on_series",
+          "irrelevant_liability"
+        ],
+        "misconception_tags": [
+          "misjoinder_kills_case",
+          "one_asset_equals_series",
+          "joinder_requires_cross_liability"
+        ]
+      }
+    ],
+    "tag_count": 34,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "95070302",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14150",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "C3_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "C3_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CUT",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "HARD_STRUCTURAL",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "misjoined_finding_vs_available_remedy_dismissal_forbidden",
+        "metadata": {
+          "label": "misjoined finding vs. available remedy (dismissal forbidden)",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "misjoined_finding_vs_available_remedy_dismissal_forbidden",
+        "metadata": {
+          "label": "misjoined finding vs. available remedy (dismissal forbidden)",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "joinder_misjoinder",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "joinder_misjoinder"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "remedy_selection",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "remedy_selection"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "pretrial_motion_errors",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "pretrial_motion_errors"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "wrong_remedy",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "wrong_remedy"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14178_choir_robe_credit_good_faith",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "95070102",
+    "tension_point": "rule_8_alternative_pleading_versus_rule_11_good_faith_factual_certification",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "C",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "the_call_asks_about_good_faith_so_claim_sufficiency_is_not_enoug",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14178",
+        "external_id": "14178_choir_robe_credit_good_faith",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "Can a plaintiff plead both fraud and contract theories when one theory says she relied on the same statements and the other says she did not rely on them?",
+        "review_truth": "A party may plead alternative theories, but not mutually exclusive facts that the party knows cannot both be true.",
+        "tension_axis_label": "Rule 8 alternative pleading versus Rule 11 good-faith factual certification",
+        "call_heuristic_label": "The call asks about good faith, so claim sufficiency is not enough and Rule 8 permission is not absolute.",
+        "analyzer_notes": "drift_audit: Recognition test passed; old and variant summaries share only the federal-court pleading problem and fraud/contract reliance structure. transformed_from: 14178. letter_map: A→A, B→C, C→B, D→D. Difficulty source defect: source row supplied no difficulty value; UNKNOWN used."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "wrong_element",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "wrong_element",
+          "not_responsive",
+          "half_truth_rule_8",
+          "claim_sufficiency_not_good_faith",
+          "wrong_inconsistency_focus"
+        ],
+        "misconception_tags": [
+          "alternative_pleading_is_absolute",
+          "good_faith_equals_claim_sufficiency",
+          "any_inconsistency_proves_bad_faith"
+        ]
+      },
+      {
+        "letter": "B",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "wrong_element",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "wrong_element",
+          "not_responsive",
+          "half_truth_rule_8",
+          "claim_sufficiency_not_good_faith",
+          "wrong_inconsistency_focus"
+        ],
+        "misconception_tags": [
+          "alternative_pleading_is_absolute",
+          "good_faith_equals_claim_sufficiency",
+          "any_inconsistency_proves_bad_faith"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "half_truth",
+          "not_true",
+          "half_truth_rule_8",
+          "claim_sufficiency_not_good_faith",
+          "wrong_inconsistency_focus"
+        ],
+        "misconception_tags": [
+          "alternative_pleading_is_absolute",
+          "good_faith_equals_claim_sufficiency",
+          "any_inconsistency_proves_bad_faith"
+        ]
+      }
+    ],
+    "tag_count": 36,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "95070102",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14178",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CLASH",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "rule_8_alternative_pleading_versus_rule_11_good_faith_factual_certification",
+        "metadata": {
+          "label": "Rule 8 alternative pleading versus Rule 11 good-faith factual certification",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "rule_8_alternative_pleading_versus_rule_11_good_faith_factual_certification",
+        "metadata": {
+          "label": "Rule 8 alternative pleading versus Rule 11 good-faith factual certification",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "rule_8_overreach",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Rule 8 overreach"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "rule_11_good_faith_certification",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Rule 11 good-faith certification"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "pleader_s_own_reliance_facts",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "pleader's own reliance facts"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "half_truth_rule_8",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "half_truth_rule_8"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14188_homeschool_discipleship_kit_files",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "95070404",
+    "tension_point": "whether_a_specific_rule_34_esi_request_keeps_the_identification_burden_on_the_responding_party_or_whether_a_difficulty_comparison_rule_33_d_controls",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "should_the_court_grant_the_motion_to_compel_the_targeted_slice",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14188",
+        "external_id": "14188_homeschool_discipleship_kit_files",
+        "raw_verdict": "C3_LEAN",
+        "raw_difficulty": "Core",
+        "distilled_core_question": "After a specific Rule 34 request for production of ESI advertising files for one product line, the responding party offers its entire undifferentiated chronological advertising files for the years and refuses to isolate the requested slice; must the court grant the motion to compel the targeted files?",
+        "review_truth": "When a party serves a specific Rule 34 request for production of electronically stored information, the responding party bears the burden of identifying and producing the responsive documents and may not shift that burden to the requesting party by offering undifferentiated chronological files unless it shows the information is not reasonably accessible because of undue burden or cost.",
+        "tension_axis_label": "whether a specific Rule 34 ESI request keeps the identification burden on the responding party or whether a difficulty comparison (Rule 33(d)) controls",
+        "call_heuristic_label": "should the court grant the motion to compel the targeted slice",
+        "analyzer_notes": {
+          "drift_audit": "No drift from original legal issue (Rule 34 production burden after specific request), trap structure (difficulty-comparison answers plus undefined-term misfit), or credited outcome. Surface story fully diverged (farm machinery → Christian family discipleship kits; farmer → homeschool co-op leader; manufacturer → Christian publishing house) while preserving the exact Rule 34 burden rule and the dominant 'difficulty comparison' trap mechanic.",
+          "transformed_from": "14188",
+          "letter_map": "A→C, B→B, C→A, D→D"
+        }
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "half_truth",
+          "not_true",
+          "half_truth_difficulty_comparison",
+          "rule_33_d_importation_into_rule_34"
+        ],
+        "misconception_tags": [
+          "discovery_is_always_about_who_has_it_easier",
+          "every_term_in_a_request_must_be_further_defined_or_it_is_invalid"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "procedural_frame",
+        "forensic_tags": [
+          "procedural_frame",
+          "half_truth",
+          "not_true",
+          "half_truth_difficulty_comparison",
+          "rule_33_d_importation_into_rule_34"
+        ],
+        "misconception_tags": [
+          "discovery_is_always_about_who_has_it_easier",
+          "every_term_in_a_request_must_be_further_defined_or_it_is_invalid"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "misfit",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "misfit",
+          "not_responsive",
+          "half_truth_difficulty_comparison",
+          "rule_33_d_importation_into_rule_34"
+        ],
+        "misconception_tags": [
+          "discovery_is_always_about_who_has_it_easier",
+          "every_term_in_a_request_must_be_further_defined_or_it_is_invalid"
+        ]
+      }
+    ],
+    "tag_count": 30,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "95070404",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14188",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "C3_LEAN",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "C3_LEAN"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CALL",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "whether_a_specific_rule_34_esi_request_keeps_the_identification_burden_on_the_responding_party_or_whether_a_difficulty_comparison_rule_33_d_controls",
+        "metadata": {
+          "label": "whether a specific Rule 34 ESI request keeps the identification burden on the responding party or whether a difficulty comparison (Rule 33(d)) controls",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "whether_a_specific_rule_34_esi_request_keeps_the_identification_burden_on_the_responding_party_or_whether_a_difficulty_comparison_rule_33_d_controls",
+        "metadata": {
+          "label": "whether a specific Rule 34 ESI request keeps the identification burden on the responding party or whether a difficulty comparison (Rule 33(d)) controls",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "e_discovery_production_burden_after_specific_rule_34_request",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "e-discovery production burden after specific Rule 34 request"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "rule_33_d_business_records_option_applies_only_to_interrogatories",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "Rule 33(d) business-records option applies only to interrogatories"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "responding_party_must_identify_and_produce_or_show_undue_burden_under_26_b_2_b",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "responding party must identify and produce or show undue burden under 26(b)(2)(B)"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "half_truth_difficulty_comparison",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "half_truth difficulty comparison"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14205_fellowship_hall",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "97100200",
+    "tension_point": "findings_requirement_vs_bare_outcome_phrase_after_bench_trial",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "D",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CALL",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "lock_call_on_final_judgment_trace_bench_trial_signal_to_52_a_1_r",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14205",
+        "external_id": "14205_fellowship_hall",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "Core",
+        "distilled_core_question": "After a bench trial, does a document that says only 'judgment for the contractor' qualify as a final judgment?",
+        "review_truth": "In a federal bench trial, a judgment must be supported by special findings of fact and separate conclusions of law under FRCP 52(a)(1); a bare 'judgment for the defendant' is not final.",
+        "tension_axis_label": "findings requirement vs. bare outcome phrase after bench trial",
+        "call_heuristic_label": "lock call on 'final judgment'; trace bench-trial signal to 52(a)(1) requirement",
+        "analyzer_notes": "drift_audit: No drift. All controlled values verbatim from controlled_vocabularies.md. outline_code 97100200 verified verbatim in OUTLINE_CODES_COMPLETE.md and identical across frontmatter, Letter Map, and all blocks. Predicted seeds only (no focus-group rates in source row); seeds sum 100. Dominant trap A identified analytically as the 'regardless' mechanic and flagged. Recognition test passed: old-stem summary uses only original facts; new-stem summary shares nothing beyond the rule. Gold Key and Silver Key consistent across blocks. Authority (FRCP 52(a)(1)) quarantined to lawyer-confirmation layer. No key disagreement; bank_validation_verdict PASS. transformed_from: 14205. letter_map: A→D, B→B, C→C, D→A. No original letters outside provenance fields. No clutter, no new posture, Christian names only (Lydia, Barnabas)."
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "extreme_of_range",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "extreme_of_range",
+          "not_true",
+          "bench_vs_jury_distinction",
+          "findings_vs_notation",
+          "bare_judgment_finality"
+        ],
+        "misconception_tags": [
+          "all_judgments_are_the_same",
+          "paperwork_formality_is_the_issue",
+          "bench_trials_have_fewer_requirements"
+        ]
+      },
+      {
+        "letter": "B",
+        "c3_filter_broken": "NOT_RESPONSIVE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "flat_misstatement",
+          "not_responsive",
+          "bench_vs_jury_distinction",
+          "findings_vs_notation",
+          "bare_judgment_finality"
+        ],
+        "misconception_tags": [
+          "all_judgments_are_the_same",
+          "paperwork_formality_is_the_issue",
+          "bench_trials_have_fewer_requirements"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "violation_vs_remedy",
+        "forensic_tags": [
+          "violation_vs_remedy",
+          "half_truth",
+          "not_true",
+          "bench_vs_jury_distinction",
+          "findings_vs_notation",
+          "bare_judgment_finality"
+        ],
+        "misconception_tags": [
+          "all_judgments_are_the_same",
+          "paperwork_formality_is_the_issue",
+          "bench_trials_have_fewer_requirements"
+        ]
+      }
+    ],
+    "tag_count": 33,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "97100200",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14205",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CALL",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "findings_requirement_vs_bare_outcome_phrase_after_bench_trial",
+        "metadata": {
+          "label": "findings requirement vs. bare outcome phrase after bench trial",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "findings_requirement_vs_bare_outcome_phrase_after_bench_trial",
+        "metadata": {
+          "label": "findings requirement vs. bare outcome phrase after bench trial",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "bench_trial_findings",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "bench trial findings"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "final_judgment_requirements",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "final judgment requirements"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "frcp_52_a_1",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "FRCP 52(a)(1)"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "bare_judgment_finality",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "bare judgment finality"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14208_women_of_the_word",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "97100300",
+    "tension_point": "b_2_class_status_vs_notice_facts",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CUT",
+      "confidence": "HARD_STRUCTURAL",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "motion_to_dismiss_on_preclusion_is_absent_member_bound",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14208",
+        "external_id": "14208_women_of_the_word",
+        "raw_verdict": "C3_SOLVE",
+        "raw_difficulty": "Core",
+        "distilled_core_question": "In a FRCP 23(b)(2) class action for injunctive relief appropriate for the class as a whole (no predominance of common questions), is an absent class member who received no actual notice bound by the judgment?",
+        "review_truth": "In a FRCP 23(b)(2) class action seeking injunctive or declaratory relief appropriate for the class as a whole, individual notice to class members is not required and all members are bound by the judgment even without actual notice.",
+        "tension_axis_label": "(b)(2) class status vs. notice facts",
+        "call_heuristic_label": "motion to dismiss on preclusion = is absent member bound?",
+        "analyzer_notes": {
+          "drift_audit": "No drift. All student-accessible reasoning uses only stem signals ((b)(2) label, injunctive relief appropriate for the class as a whole, no predominance, judgment for defendant, absent member with no actual knowledge, mailed notice) plus the taught Gold Key. No lawyer-only doctrine was smuggled into the C3 path.",
+          "transformed_from": "14208",
+          "letter_map": "A→B, B→D, C→C, D→A",
+          "source_outline_code": "97100100 (Types of Jury Verdicts)",
+          "corrected_outline_code": "97100300 (Issue and Claim Preclusion) — matches the tested rule (binding effect of prior class judgment) per OUTLINE_CODES_COMPLETE.md. Source row subtopic label appears to be a copy-paste error; content is preclusion, not verdict types."
+        }
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "flat_misstatement",
+          "not_true",
+          "class_action_preclusion",
+          "b_2_vs_b_3_notice_regimes"
+        ],
+        "misconception_tags": [
+          "actual_notice_always_required_to_bind_absent_class_members",
+          "mailing_notice_due_process_satisfied_for_all_class_categories"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "extreme_of_range",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "extreme_of_range",
+          "not_true",
+          "class_action_preclusion",
+          "b_2_vs_b_3_notice_regimes"
+        ],
+        "misconception_tags": [
+          "actual_notice_always_required_to_bind_absent_class_members",
+          "mailing_notice_due_process_satisfied_for_all_class_categories"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": null,
+        "forensic_tags": [
+          "half_truth",
+          "not_true",
+          "class_action_preclusion",
+          "b_2_vs_b_3_notice_regimes"
+        ],
+        "misconception_tags": [
+          "actual_notice_always_required_to_bind_absent_class_members",
+          "mailing_notice_due_process_satisfied_for_all_class_categories"
+        ]
+      }
+    ],
+    "tag_count": 25,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "97100300",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14208",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "C3_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "C3_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CUT",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "HARD_STRUCTURAL",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "b_2_class_status_vs_notice_facts",
+        "metadata": {
+          "label": "(b)(2) class status vs. notice facts",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "b_2_class_status_vs_notice_facts",
+        "metadata": {
+          "label": "(b)(2) class status vs. notice facts",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "class_action_preclusion_b_2_notice_and_binding_effect",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "class action preclusion - (b)(2) notice and binding effect"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "distinguishing_b_2_injunctive_classes_from_b_3_common_question_classes",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "distinguishing (b)(2) injunctive classes from (b)(3) common-question classes"
+        }
+      },
+      {
+        "dimension": "wrong_answer_architecture",
+        "value": "class_action_preclusion",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "class action preclusion"
+        }
+      },
+      {
+        "dimension": "trap_family",
+        "value": "class_action_preclusion",
+        "metadata": {
+          "source": "intel.trap_tags.forensic_tags",
+          "label": "class action preclusion"
+        }
+      }
+    ]
+  },
+  {
+    "external_id": "14216_retreat_shuttle",
+    "subject": "CIVIL_PROCEDURE",
+    "outline_code": "97100300",
+    "tension_point": "same_party_claim_preclusion_versus_clear_issue_issue_preclusion_after_an_ambiguous_general_verdict",
+    "annotation": {
+      "verdict": "PASS",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CLASH",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis_id": null,
+      "is_fork": false,
+      "fork_type": null,
+      "split_id": null,
+      "call_heuristic": "ask_whether_the_later_plaintiff_is_the_same_party_or_privy_then_",
+      "difficulty": null,
+      "analyzer_notes": {
+        "source_qid": "14216",
+        "external_id": "14216_retreat_shuttle",
+        "raw_verdict": "ANCHOR_SOLVE",
+        "raw_difficulty": "UNKNOWN",
+        "distilled_core_question": "A defendant won the first negligence case by general verdict with no issue findings. A different injured plaintiff later sues the same defendant over the same incident. Does claim or issue preclusion bar the later negligence claim?",
+        "review_truth": "Preclusion requires the right party and, for issue preclusion, a clear prior decision on an actually litigated and essential issue.",
+        "tension_axis_label": "same-party claim preclusion versus clear-issue issue preclusion after an ambiguous general verdict",
+        "call_heuristic_label": "Ask whether the later plaintiff is the same party or privy, then ask whether the earlier general verdict clearly decided the issue.",
+        "analyzer_notes": {
+          "drift_audit": "Recognition test passed; old and new stem summaries share only preclusion-critical facts.",
+          "transformed_from": "14216",
+          "letter_map": "A→D; B→C; C→A; D→B",
+          "pick_rate_note": "No measured pick rates supplied; all seed percentages are predicted.",
+          "outline_note": "97100300 verified as Judgments and Verdicts > Issue and Claim Preclusion.",
+          "difficulty_note": "Source row did not supply difficulty; marked UNKNOWN."
+        }
+      },
+      "evolved_round": 0
+    },
+    "choice_updates": [
+      {
+        "letter": "A",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "half_truth",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "half_truth",
+          "not_true",
+          "general_verdict_ambiguity",
+          "nonparty_plaintiff",
+          "same_incident_overreach",
+          "claim_versus_issue_preclusion_confusion"
+        ],
+        "misconception_tags": [
+          "one_accident_means_one_preclusive_issue",
+          "general_verdict_decides_every_issue",
+          "party_status_alone_creates_issue_preclusion",
+          "claim_preclusion_can_bind_strangers_to_the_first_case"
+        ]
+      },
+      {
+        "letter": "C",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "flat_misstatement",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "flat_misstatement",
+          "not_true",
+          "general_verdict_ambiguity",
+          "nonparty_plaintiff",
+          "same_incident_overreach",
+          "claim_versus_issue_preclusion_confusion"
+        ],
+        "misconception_tags": [
+          "one_accident_means_one_preclusive_issue",
+          "general_verdict_decides_every_issue",
+          "party_status_alone_creates_issue_preclusion",
+          "claim_preclusion_can_bind_strangers_to_the_first_case"
+        ]
+      },
+      {
+        "letter": "D",
+        "c3_filter_broken": "NOT_TRUE",
+        "c3_mold_code": "fabricated_rule",
+        "c3_architecture": "wrong_frame",
+        "forensic_tags": [
+          "wrong_frame",
+          "fabricated_rule",
+          "not_true",
+          "general_verdict_ambiguity",
+          "nonparty_plaintiff",
+          "same_incident_overreach",
+          "claim_versus_issue_preclusion_confusion"
+        ],
+        "misconception_tags": [
+          "one_accident_means_one_preclusive_issue",
+          "general_verdict_decides_every_issue",
+          "party_status_alone_creates_issue_preclusion",
+          "claim_preclusion_can_bind_strangers_to_the_first_case"
+        ]
+      }
+    ],
+    "tag_count": 39,
+    "tag_sample": [
+      {
+        "dimension": "outline_code",
+        "value": "97100300",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "source_qid",
+        "value": "14216",
+        "metadata": {
+          "source": "manifest"
+        }
+      },
+      {
+        "dimension": "c3_raw_verdict",
+        "value": "ANCHOR_SOLVE",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "c3_verdict",
+        "value": "PASS",
+        "metadata": {
+          "raw": "ANCHOR_SOLVE"
+        }
+      },
+      {
+        "dimension": "deciding_phase",
+        "value": "CLASH",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "confidence",
+        "value": "ANCHOR_ASSISTED",
+        "metadata": {
+          "source": "annotation"
+        }
+      },
+      {
+        "dimension": "tension",
+        "value": "same_party_claim_preclusion_versus_clear_issue_issue_preclusion_after_an_ambiguous_general_verdict",
+        "metadata": {
+          "label": "same-party claim preclusion versus clear-issue issue preclusion after an ambiguous general verdict",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "tension_point",
+        "value": "same_party_claim_preclusion_versus_clear_issue_issue_preclusion_after_an_ambiguous_general_verdict",
+        "metadata": {
+          "label": "same-party claim preclusion versus clear-issue issue preclusion after an ambiguous general verdict",
+          "source": "annotation_or_components"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "claim_preclusion_party_identity_and_privity",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "claim preclusion party identity and privity"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "issue_preclusion_actually_litigated_and_essential",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "issue preclusion actually litigated and essential"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "ambiguous_general_verdict_for_defendant",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "ambiguous general verdict for defendant"
+        }
+      },
+      {
+        "dimension": "red_zone_dimension",
+        "value": "nonmutual_issue_preclusion_limits",
+        "metadata": {
+          "source": "components.red_zone_dimensions",
+          "label": "nonmutual issue preclusion limits"
+        }
+      }
+    ]
+  }
+]

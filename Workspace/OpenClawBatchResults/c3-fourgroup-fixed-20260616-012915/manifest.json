@@ -1,0 +1,74 @@
+[
+  {
+    "group": 3,
+    "question": 18447,
+    "model": "anthropic/claude-opus-4-7",
+    "thinking": "high",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18447-anthropic-claude-opus-4-7",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18447.md"
+  },
+  {
+    "group": 3,
+    "question": 18554,
+    "model": "minimax/MiniMax-M2.7",
+    "thinking": "adaptive",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18554-minimax-minimax-m2-7",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18554.md"
+  },
+  {
+    "group": 3,
+    "question": 18681,
+    "model": "nemotron-3-ultra-550b/nvidia/nemotron-3-ultra-550b-a55b",
+    "thinking": "off",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18681-nemotron-3-ultra-550b-nvidia-nemotron-3-ultra-550b-a55b",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18681.md"
+  },
+  {
+    "group": 3,
+    "question": 18759,
+    "model": "nv-mixtral-8x7b/mistralai/mixtral-8x7b-instruct-v0.1",
+    "thinking": "off",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18759-nv-mixtral-8x7b-mistralai-mixtral-8x7b-instruct-v0-1",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18759.md"
+  },
+  {
+    "group": 3,
+    "question": 18778,
+    "model": "nv-nemotron-omni-30b/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "thinking": "off",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18778-nv-nemotron-omni-30b-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18778.md"
+  },
+  {
+    "group": 3,
+    "question": 18909,
+    "model": "nv-nemotron-super-49b/nvidia/llama-3.3-nemotron-super-49b-v1",
+    "thinking": "off",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18909-nv-nemotron-super-49b-nvidia-llama-3-3-nemotron-super-49b-v1",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18909.md"
+  },
+  {
+    "group": 3,
+    "question": 18932,
+    "model": "nv-qwen3-5-397b/qwen/qwen3.5-397b-a17b",
+    "thinking": "off",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q18932-nv-qwen3-5-397b-qwen-qwen3-5-397b-a17b",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ18932.md"
+  },
+  {
+    "group": 3,
+    "question": 19008,
+    "model": "openai/gpt-5.4",
+    "thinking": "xhigh",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q19008-openai-gpt-5-4",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19008.md"
+  },
+  {
+    "group": 3,
+    "question": 19133,
+    "model": "openrouter/nex-agi/nex-n2-pro:free",
+    "thinking": "high",
+    "sessionKey": "c3g3-c3-fourgroup-fixed-20260616-012915-q19133-openrouter-nex-agi-nex-n2-pro-free",
+    "output": "C:\\FOC\\Workspace\\Finished\\CQ19133.md"
+  }
+]

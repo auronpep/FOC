@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-06-17T05:27:37.609Z",
+  "source_root": "C:\\FOC\\Workspace\\Finished",
+  "generated_store_root": "C:\\BMO\\BARMATRIX\\c3-rewrite-cq",
+  "archive_root": "C:\\BMO\\archives\\content-reset-20260616-194506",
+  "draft_root": "C:\\FOC\\Workspace\\DraftRebuild\\cq-20260617T052737Z",
+  "total_records": 1315,
+  "draft_ready": 1129,
+  "quarantined": 186,
+  "by_subject": {
+    "CIVIL_PROCEDURE": 87,
+    "CONSTITUTIONAL_LAW": 105,
+    "CONTRACTS": 173,
+    "CRIMINAL": 443,
+    "EVIDENCE": 195,
+    "REAL_PROPERTY": 184,
+    "TORTS": 78
+  },
+  "quarantine_reasons": {
+    "CHOICES=[]": 10,
+    "not-sql-emitted": 113,
+    "tiny-stem": 59,
+    "BLOCK1_UNPARSEABLE": 14,
+    "missing-key": 50,
+    "missing-outline": 104,
+    "missing-c3-annotation": 56,
+    "missing-components": 56,
+    "missing-program-intelligence": 56,
+    "NO_BLOCK1_YAML": 36,
+    "NO_STEM": 35,
+    "NO_CALL": 7,
+    "NO_QID": 2,
+    "NO_SOURCE_QID": 1
+  }
+}
