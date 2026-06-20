@@ -1359,3 +1359,22 @@
 - Verification: wrote the source regression first and confirmed it failed on the old copy; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_AqsLcLSyqotsp4YsvBLeDuaeHNAa` reached READY for commit `58534b656d9ee23fe60011b03babcae0a73e96fa`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-98ae8qcef-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live dashboard DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Lesson Lane Index - 2026-06-20
+
+## Plan
+
+- [x] Make each selected-code lesson expose concrete lane links for questions, LeadMe, drills, traps, and answer debriefs.
+- [x] Reuse existing anchors and counts; add no route, API field, approval state, or guessed item URL.
+- [x] Write the focused source regression first.
+- [x] Run focused app checks, deploy, and record proof if the source change passes.
+
+## Review
+
+- App commit: `7c3465f566de6c1360a6f7e4422d754f43c33330` (`Expand Atlas lesson lane index`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code lesson component index now names concrete follow-on lanes: Question bank, LeadMe lesson, Drills, Trap detours, Answer debriefs, and Component lanes.
+- Gating change: inactive component-index items now render as passive `aria-disabled="true"` blocks instead of anchors, so approval-gated lanes do not create false navigation.
+- Implementation: reused existing anchors (`#atlas-code-questions`, `#atlas-code-leadme`, `#atlas-code-components`, `#atlas-code-detours`) and existing counts; added no route, API field, approval state, or guessed item URL.
+- Verification: wrote the source regression first and confirmed it failed on missing `Trap detours`; added a second failing check for disabled gated items; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_AYpunrqQ7jJmjpwHUQDwF5ESgtJa` reached READY for commit `7c3465f566de6c1360a6f7e4422d754f43c33330`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-cbhxohmgn-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live Atlas DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
