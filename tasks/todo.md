@@ -1,3 +1,19 @@
+# Atlas V2 Persistent Detour Lane - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the gated detour lane.
+- [x] Keep the selected-code trap/tension detour section visible even when no detours are approved.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `34be50c Keep Atlas detour lane visible`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: `#atlas-code-detours` now always renders in the selected-code lesson section. Codes without approved trap/tension paths show an approval-gate message instead of hiding the lane entirely.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; current live production remains `dpl_CmBzQR3GZAZ2AMa6bcGWhNroRTia` at `https://barmatrix-rkcdc28ii-sunnylee.vercel.app`, aliased to `https://barmatrix.app`.
+
 # Atlas V2 Component Lane Quick Filters - 2026-06-20
 
 ## Plan
