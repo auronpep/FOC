@@ -1737,3 +1737,20 @@
 - Implementation: reused existing `flashcardCount` and `bootCampCount`; added no API route, database write, content mutation, or new coverage field.
 - Verification: the focused source regression first failed against missing selected-lane flashcard/boot-camp entries; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-lm7fimyez-sunnylee.vercel.app`, so `c253cd7` is pushed but not live yet.
+
+# Atlas V2 Clear Filters Action - 2026-06-20
+
+## Plan
+
+- [x] Add a one-click way to reset Atlas search, subject, subtopic, component, and study filters.
+- [x] Reuse existing client filter state; no API, database, or content change.
+- [x] Add focused source regression coverage.
+- [x] Verify, push, try deploy, and record status.
+
+## Review
+
+- App commit: `f8fd2b6` (`Add Atlas clear filters action`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the Atlas filter chip row now includes `Clear filters`, which resets search, subject, subtopic, component filter, and study filter back to the full Atlas and selects the first code.
+- Implementation: added `clearAtlasFilters`; reused existing client state only; added no API route, database write, content mutation, or new coverage field.
+- Verification: the focused source regression first failed against missing `clearAtlasFilters`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-lm7fimyez-sunnylee.vercel.app`, so `f8fd2b6` is pushed but not live yet.
