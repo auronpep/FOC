@@ -1170,3 +1170,61 @@
 - UI repair: the Atlas answer debrief now shows `Practice this question`, linking to `/atlas/questions/{question_id}/practice` for the same Atlas question.
 - Verification: in clean worktree `C:\barmatrix-app-atlas-answer-bridge`, `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check`, `npm run lint`, local `npm run build`, and Vercel production build passed.
 - Live proof: signed-in `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/answer?v=031ca79` had exactly one `Practice this question` link to `/atlas/questions/14001_christmas_stage_review/practice`; clicking it opened the practice route, which rendered `QUESTION 1 / 5`, A-D choices, and `Submit answer`; browser console error count was `0`.
+
+# Atlas V2 Live Question Launch Regression - 2026-06-20
+
+## Plan
+
+- [x] Verify whether `https://barmatrix.app/atlas` is serving the current `origin/main` Atlas build or an older build with `Drill this code`.
+- [x] Trace the selected-code question-launch path from visible button to `/atlas/questions/{id}/practice`.
+- [x] If production is stale, redeploy and alias the clean app build from `C:\barmatrix-app-atlas-answer-bridge`; if source is wrong, patch the missed render path only.
+- [x] Run focused Atlas tests, lint/build if a source or deployable artifact changes, and live click proof.
+- [x] Record root cause, proof, and any lesson learned.
+
+## Review
+
+- Current live production `https://barmatrix.app/atlas?code=93110100&codexProbe=live-question-launch` hydrates the fixed Atlas UI: it renders `Study lesson`, `Do first question`, `Practice this lesson`, and `Do question` links for the five approved questions.
+- The reported screenshot matches an older client state: current live DOM does not contain `Direct link`, `Drill this code`, or `No runnable questions matched this outline code yet`; current mobile-width check also shows `Copy link`, not `Direct link`.
+- Live practice route proof: `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice?codexProbe=live-question-launch` renders `QUESTION 1 / 5`, four answer-choice buttons, and `Submit answer`.
+- Runnable proof: selecting answer B enabled `Submit answer`; submitting revealed `Correct answer: B`, `Study answer debrief`, and a `Next question` link to `/atlas/questions/18182_bookstore_mandamus/practice`.
+- Console proof: no browser errors or warnings were reported on the Atlas page, mobile-width Atlas page, or practice route in this pass.
+- No app source or deploy was changed in this pass; production already serves the fixed build. If the user's browser still shows the old red `Drill this code` button, open `https://barmatrix.app/atlas?code=93110100&v=031ca79#atlas-code-lesson` or hard-refresh the tab to replace the stale hydrated client.
+
+# Atlas V2 Dashboard Left-Nav Proof - 2026-06-20
+
+## Plan
+
+- [x] Inspect the dashboard shell source for the Atlas left-navigation entry.
+- [x] Verify live `/dashboard` exposes the Atlas entry in the left sidebar.
+- [x] Click the live sidebar entry and confirm it opens the customer Atlas.
+- [x] Inspect the next connected-content gap after left nav.
+
+## Review
+
+- Source proof: `C:\barmatrix-app-atlas-answer-bridge\components\preview-dashboard\dashboard-shell.tsx` lists `/atlas` as `Outline Atlas` in the `STUDY` section of the persistent left sidebar.
+- Source test proof: `C:\barmatrix-app-atlas-answer-bridge\tests\ambassador-dashboard-entry.test.ts` already asserts `/atlas` is surfaced in the restored paid-program/dashboard shell.
+- Live proof: `https://barmatrix.app/dashboard?codexAtlasNav=1` rendered a visible left-sidebar link `▨ Outline Atlas` with `href="/atlas"`; browser console error/warn count was `0`.
+- Click proof: clicking that sidebar link opened `https://barmatrix.app/atlas`, which rendered `Outline Atlas`, `Walk the MBE outline by code`, `Practice-ready codes`, and `Do first question`; browser console error/warn count was `0`.
+
+# Atlas V2 Tension Detour Bridge - 2026-06-20
+
+## Plan
+
+- [x] Inspect answer-page detour routing and Atlas_v1 detour count logic.
+- [x] Reuse existing Tension Map query helpers for student-visible `tension` detour counts.
+- [x] Route answer-page `tension` detours to `/tensions/{slug}`.
+- [x] Run API/app tests, type/build gates, deploy, and smoke live behavior.
+- [x] Record proof and remaining data limitation.
+
+## Review
+
+- API commit: `79799ba` (`Add Atlas tension detour counts`) on private `auronpep/barmatrix-api` branch `codex/api-live-hardening-2026-06-19`.
+- App commit: `3e61238` (`Link Atlas tension detours`) pushed to private `auronpep/barmatrix-app` `main`.
+- API change: `readAtlasV1DetourTargetCounts` now counts `type: "tension"` specs through existing `buildTensionCatalogRowQuery`, `tensionLinkKeys`, and `buildTensionQuestionsCountQuery`; missing `tension_points` still falls back to the raw slug instead of 500ing.
+- App change: Atlas answer detours now link `type: "tension"` to `/tensions/{key}`. Red-zone detours remain intentionally unlinked until the API carries the required route dimension.
+- Verification: `npx tsx --test src/lib/atlas-v1.test.ts` passed 10/10, `npm run typecheck` passed, API `npm run build` passed, app `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, app `npm run lint` passed, app `npm run build` passed, and `git diff --check` passed in both repos.
+- API production deploy: ran `bash scripts/deploy.sh` from clean detached worktree at `79799ba`; Hostinger preflight reported auto-deploy idle, build and parse checks passed, Passenger restarted, and `https://api.barmatrix.app/health` returned HTTP 200 on attempt 1. Rollback snapshot: `~/domains/barmatrix.app/nodejs/dist.bak-20260620-020057`.
+- App production deploy: Vercel deployment `dpl_9dHs5d73DHNGV2ZvMCeeghoWr42J` reached Ready and is aliased to `https://barmatrix.app` and `https://www.barmatrix.app`.
+- Live smoke: `https://barmatrix.app/dashboard?codexDeploy=3e61238` rendered the dashboard sidebar Atlas link; clicking the nav link opened `https://barmatrix.app/atlas`, which rendered `Outline Atlas` and `Walk the MBE outline by code` with console error/warn count `0`.
+- Live answer smoke: `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/answer?codexDeploy=3e61238` rendered the Atlas answer page, `PRACTICE THIS QUESTION`, `STUDY THIS OUTLINE CODE`, `REVIEW CODE QUESTIONS`, and `CORRECT ANSWER`; console error/warn count was `0`.
+- Data limitation: the sampled live question does not currently expose a trap or tension detour, so the `/tensions/{slug}` link path is proven by source tests/build and deployed code, not by a visible live sample link.
