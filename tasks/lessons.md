@@ -10,3 +10,4 @@
 - When a live Atlas screenshot still shows removed controls, verify the hydrated production DOM before patching. The user's tab can be running an older client state even when `barmatrix.app` now serves the fixed anchors.
 - When a stale Atlas client still exposes an old drill button, trace the old API path too. Server compatibility may be needed because an open tab can keep running removed client code after a deploy.
 - When an Atlas component lane says `Live`, the row itself needs a real destination or action. Status badges without click-through behavior create a false affordance and should be covered by a focused regression.
+- When adding Atlas walk controls, show both the current progress count and the next click target. A restart or continue button without visible scope/progress makes it hard to trust that the learning walk is advancing.

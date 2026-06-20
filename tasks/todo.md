@@ -1838,3 +1838,21 @@
 - Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
 - Verification: the focused source regression first failed against missing `Restart lesson walk`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` (`dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE`), so `f967a11` is pushed but not live yet.
+
+# Atlas V2 Lesson Walk Progress - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for lesson-walk progress copy/state.
+- [x] Show studied count and progress for the current lesson-walk scope.
+- [x] Keep this client-only; no API, database, route, or content change.
+- [x] Verify, commit, push, attempt deploy once, and record status.
+
+## Review
+
+- App commit: `8f8ebd1` (`Show Atlas lesson walk progress`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the lesson checkpoint now shows `Lesson walk progress` with `{studied} / {lesson targets}` and an accessible progress bar for the current lesson-walk scope.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
+- Verification: the focused source regression first failed against missing `Lesson walk progress`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy: Vercel deployment `dpl_GpGCZrP59dhbT2NU7HhWzN6EipJJ` reached READY at `https://barmatrix-a6bzme9nu-sunnylee.vercel.app` and is aliased to `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app`.
+- Live caveat: anonymous `https://barmatrix.app/atlas` redirects behind auth, so raw HTTP cannot inspect the signed-in Atlas client content; Vercel production alias and build route output are the live proof for this pass.
