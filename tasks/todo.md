@@ -1,3 +1,22 @@
+# Atlas V2 Question Call Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for question call text in the selected-code question bank.
+- [x] Show each attached question's call/focus text when present.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `50709ba Show Atlas question call cue`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: each attached question in the selected-code Atlas question bank now shows the question call/focus text when present, below the stem preview.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_G7QDXRs2v52xgn44yEW54UQWEiRY` at `https://barmatrix-gwroxo59i-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200.
+- Pending pushed app commits not yet live: `2f25e2b Show Atlas lesson walk target` and `50709ba Show Atlas question call cue`.
+
 # Atlas V2 Lesson Walk Target Cue - 2026-06-20
 
 ## Plan
