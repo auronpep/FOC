@@ -1378,3 +1378,21 @@
 - Verification: wrote the source regression first and confirmed it failed on missing `Trap detours`; added a second failing check for disabled gated items; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_AYpunrqQ7jJmjpwHUQDwF5ESgtJa` reached READY for commit `7c3465f566de6c1360a6f7e4422d754f43c33330`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-cbhxohmgn-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live Atlas DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Flashcard And Tension Lanes - 2026-06-20
+
+## Plan
+
+- [x] Make the selected-code lesson index expose flashcards and tension detours as first-class lanes.
+- [x] Split trap and tension detour counts using existing approved detour previews.
+- [x] Keep gated lanes passive; add no route, API field, approval state, or guessed item URL.
+- [x] Write the focused source regression first, then verify, deploy, and record proof.
+
+## Review
+
+- App commit: `b563c070d5d88de4398aeaf3eab20fc7f3de1812` (`Expose Atlas flashcard and tension lanes`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code component index now exposes `Flashcards` and `Tension detours` as first-class lanes, and `Trap detours` now counts only trap detours instead of all detours.
+- Gating change: the new lanes reuse the existing passive `aria-disabled="true"` behavior when there is no approved component count, with no new route, API field, approval state, or guessed item URL.
+- Verification: wrote the focused source regression first and confirmed it failed on missing `Tension detours`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_3XhLafmaYnAVmgHP9GvWBs2Xyvck` reached READY for commit `b563c070d5d88de4398aeaf3eab20fc7f3de1812`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-7l7hptq5s-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live Atlas DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
