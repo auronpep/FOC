@@ -1,3 +1,21 @@
+# Atlas V2 Detour Return Bridge - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for Atlas detour links carrying their source outline code.
+- [x] Add `Back to Atlas code` return links on trap and tension pages when launched from Atlas.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `c971eef Add Atlas detour return bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: Atlas and answer-debrief trap/tension detour links now preserve `atlasCode`, and trap/tension pages show `Back to Atlas code` when launched from Atlas.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy passed: Vercel deployment `dpl_EHDKgUUQiAhgWgmNfP1DrouDcT2U` is `Ready` at `https://barmatrix-bp7v4csbh-sunnylee.vercel.app`.
+- Live aliases confirmed by `vercel inspect https://barmatrix.app --scope sunnylee`: `https://barmatrix.app` and `https://www.barmatrix.app`.
+- This deploy also includes previously pushed app commits `c64d569 Add Atlas question sequence cue` and `9b828e6 Add Atlas practice neighbor cues`.
+
 # Atlas V2 Practice Neighbor Position Cue - 2026-06-20
 
 ## Plan
