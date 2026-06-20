@@ -988,3 +988,18 @@
 - Production deploy: manual Vercel deploy `dpl_FtB9hJqWM3x1in664x5EoFrnemnz` reached ready; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_3CDpPw9QTZjRiDg6jQYAhaXnwpPK`.
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts`, `npm run lint`, and `npm run build` passed.
 - Live browser proof: `https://barmatrix.app/atlas?code=93110200&v=7bf505f#atlas-code-lesson` shows `Component index` with native links to `#atlas-code-questions`, `#atlas-code-components`, and `#atlas-code-leadme`; signed-in `/dashboard` shows the `Outline Atlas` sidebar link and Atlas card; no browser console errors were captured.
+
+# Atlas V2 Code Footprint Rows - 2026-06-20
+
+## Plan
+
+- [x] Add a compact approved-lane footprint to each outline-code row.
+- [x] Use existing coverage fields only; add no API, database, or component-type schema expansion.
+- [x] Run focused app checks, deploy production, and verify signed-in live behavior.
+
+## Review
+
+- App commit: `5a87871 Show Atlas code lane footprints` in `C:\barmatrix-app`.
+- Production deploy: manual Vercel deploy `dpl_3xwZhUQsQYudTh7rD1Qc6JWaXiL7` reached ready; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_CpsqGLuxbRjXyAgTCMzB9Ranx5si`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts`, `npm run lint`, and `npm run build` passed.
+- Live browser proof: `https://barmatrix.app/atlas?code=93110200&v=5a87871` loads the signed-in Atlas, selected code `93110200`, lesson section, and outline rows with lane footprints like `3 questions`; dashboard `/dashboard?v=5a87871` shows the `Outline Atlas` left-nav link and Atlas card; no browser console errors were captured.
