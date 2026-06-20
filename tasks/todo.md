@@ -1396,3 +1396,21 @@
 - Verification: wrote the focused source regression first and confirmed it failed on missing `Tension detours`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_3XhLafmaYnAVmgHP9GvWBs2Xyvck` reached READY for commit `b563c070d5d88de4398aeaf3eab20fc7f3de1812`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-7l7hptq5s-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live Atlas DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Dashboard Nav Naming - 2026-06-20
+
+## Plan
+
+- [x] Name the customer-facing Atlas as `Outline Atlas V2` in the dashboard left sidebar.
+- [x] Keep the existing `/atlas` route and dashboard nav structures; add no new route, state, or component abstraction.
+- [x] Cover both the exact `/dashboard` left sidebar and the legacy dashboard subview program navigation.
+- [x] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `32a74ea3ea48627d2fa7dd936cff4c7b26ea5350` (`Name Atlas V2 in dashboard navigation`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the exact `/dashboard` left sidebar and the legacy dashboard subview program navigation now label `/atlas` as `Outline Atlas V2`.
+- Implementation: reused the existing `/atlas` href and nav arrays; added no route, state, API field, or component abstraction.
+- Verification: wrote the focused source regression first and confirmed it failed on the old `Outline Atlas` labels; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 9/9, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_FHd84drqB68NE8EgEvjUmG11Lxeb` reached READY for commit `32a74ea3ea48627d2fa7dd936cff4c7b26ea5350`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-kgtt2a3l0-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live dashboard DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
