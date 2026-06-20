@@ -1,3 +1,20 @@
+# Atlas V2 Practice Code-List Bridge - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for a practice-result link back to the selected code question list.
+- [x] Add a submitted-state `Review code question list` action next to `Study outline lesson`.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `cd960e5 Add Atlas practice code-list bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: after submitting an Atlas practice answer, students now get both `Study outline lesson` and `Review code question list` actions in the result panel.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy passed: Vercel deployment `dpl_Cf5DjFeLYddE5N1Aitn2ceGPnbZ8` is `Ready` at `https://barmatrix-lf36ikjjt-sunnylee.vercel.app`.
+- Live aliases confirmed by `vercel inspect https://barmatrix.app --scope sunnylee`: `https://barmatrix.app` and `https://www.barmatrix.app`.
+
 # Atlas V2 Practice Lesson Bridge - 2026-06-20
 
 ## Plan
