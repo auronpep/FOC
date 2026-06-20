@@ -1085,3 +1085,31 @@
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts` passed, `npm run lint` passed, and `npm run build` passed.
 - Live repair proof: `https://barmatrix.app/atlas?code=93110100&v=b46e823` rendered selected code `93110100`, the 5-question count, `Copy link`, visible `Study lesson`, and `Open code questions`.
 - Interaction proof: clicking `Copy link` changed the control to `Link copied`; clicking `Open code questions` changed the URL hash to `#atlas-code-questions`; the old `Direct link`, unreadable `Study this code`, `Drill this code`, and `No runnable questions matched this outline code yet` surfaces were absent; browser console error count was `0`.
+
+# Atlas V2 Selected Lane Snapshot - 2026-06-20
+
+## Plan
+
+- [x] Add a compact lane snapshot to the selected-code panel.
+- [x] Reuse existing Atlas question/component counts; add no API, database, or approval-lane change.
+- [x] Run focused app checks and record proof.
+
+## Review
+
+- App change in progress: the selected-code panel now shows a compact `Selected code lanes` snapshot for questions, lessons, drills, traps, tensions, and debriefs.
+- Verification so far: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check`, `npm run lint`, and `npm run build` passed after removing generated `C:\barmatrix-app\.next` to recover disk space.
+
+# Atlas V2 Question Practice Launch Fix - 2026-06-20
+
+## Plan
+
+- [x] Trace why Atlas question controls do not open a runnable question.
+- [x] Add the smallest real runnable route for an Atlas question.
+- [x] Point Atlas primary question actions at the runnable route while preserving answer-debrief links.
+- [x] Run focused tests, lint, and production build.
+
+## Review
+
+- Root cause: Atlas linked to the answer debrief and in-page question list, but had no customer path that mounted the shared `QuestionRunner` for an approved Atlas question.
+- App change in progress: added `/atlas/questions/[id]/practice` using the shared `QuestionRunner`, changed selected-code primary action to `Do first question`, and added `Do question` beside each listed Atlas question.
+- Verification so far: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check`, `npm run lint`, and `npm run build` passed; the build route table includes `/atlas/questions/[id]/practice`.
