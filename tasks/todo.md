@@ -1247,3 +1247,25 @@
 - Verification: API `npx tsx --test src/routes/drills.test.ts`, `npm run typecheck`, `npm run build`, and `git diff --check` passed in both the development repo and the clean deploy worktree. App `node --test tests\ambassador-dashboard-entry.test.ts`, `npm run lint`, `npm run build`, and `git diff --check` passed.
 - Live deploy proof: API deploy health check returned HTTP 200; `https://api.barmatrix.app/health?atlas_drill_compat=ea9435a` returned `{"ok":true,"db":"up"}`. Vercel production deployment `dpl_HS7fXRskvuKHFywZeJXXcFjA7ibH` is Ready and aliased to `https://barmatrix.app` and `https://www.barmatrix.app`.
 - Live unauthenticated proof: `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice?deploy=c99981d` redirects to sign-in with the intended practice URL preserved. Full signed-in old-tab click proof could not be captured because no signed-in browser/CDP session was available in this pass.
+
+# Atlas V2 Code-Level Detour Index - 2026-06-20
+
+## Plan
+
+- [x] Inspect existing Atlas API/app data for trap and tension detours attached to approved questions in an outline code.
+- [x] Add the smallest selected-code surface that links to related traps/tensions without creating new content or approval states.
+- [x] Run focused API/app tests, type/lint/build checks, and whitespace checks.
+- [x] Deploy only if the verified source changes require it.
+- [x] Record proof, limitations, and any remaining follow-up.
+
+## Review
+
+- API commit: `9f13b2d` (`Expose Atlas code detour previews`) pushed to private `auronpep/barmatrix-api` branch `codex/api-live-hardening-2026-06-19`.
+- App commit: `812c6df` (`Show Atlas code detour links`) pushed to private `auronpep/barmatrix-app` `main`.
+- API change: selected-code components now aggregate `detours` from included Atlas question `case_study_json`, dedupe trap/tension specs, filter through existing student-safe target counts, and return `detour_previews`.
+- App change: the selected-code component panel now renders a `Related detours` link list for student-visible trap/tension detours, linking to `/traps/{slug}` and `/tensions/{slug}`.
+- Verification: API `npx tsx --test src/lib/atlas-v1.test.ts` passed 10/10, `npm run typecheck` passed, API `npm run build` passed, app `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, app `npm run lint` passed, app `npm run build` passed, and `git diff --check` passed in both repos.
+- API production deploy: `bash scripts/deploy.sh` completed successfully, production health returned HTTP 200 on attempt 1, and rollback snapshot is `~/domains/barmatrix.app/nodejs/dist.bak-20260620-023346`.
+- App production deploy: Vercel deployment `dpl_8MSEBq2c6xKQ9pXedR4A1AhmdJWN` reached READY for commit `812c6df`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-bi2g7bqsf-sunnylee.vercel.app`.
+- Live checks: `https://api.barmatrix.app/health?atlas_detours=9f13b2d` returned `{"ok":true,"db":"up"}`; unauthenticated `https://barmatrix.app/atlas?code=93110100&codexDetours=812c6df` correctly redirects to sign-in with the intended Atlas URL preserved.
+- Limitation: no signed-in browser-control session was available in this pass, so final live DOM proof of visible `Related detours` links was not captured; the deployed route is proven by source tests, local/Vercel builds, commit metadata, production alias, API health, and auth redirect checks.
