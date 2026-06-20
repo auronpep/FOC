@@ -1754,3 +1754,21 @@
 - Implementation: added `clearAtlasFilters`; reused existing client state only; added no API route, database write, content mutation, or new coverage field.
 - Verification: the focused source regression first failed against missing `clearAtlasFilters`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-lm7fimyez-sunnylee.vercel.app`, so `f8fd2b6` is pushed but not live yet.
+
+# Atlas V2 Question Entry Resume Verification - 2026-06-20
+
+## Plan
+
+- [x] Reconfirm the Atlas app worktree is clean at the latest question-entry fix commit.
+- [x] Re-run the focused Atlas regression test, lint, and production build.
+- [x] Reconfirm the GitHub remote is private before any remote write/deploy reporting.
+- [x] Check current Vercel production status and record whether the pushed Atlas build is live.
+
+## Review
+
+- App state: `C:\barmatrix-app-atlas-answer-bridge` is clean at `f8fd2b6` (`Add Atlas clear filters action`) on `codex/atlas-answer-practice-bridge...origin/main`.
+- Regression proof: `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10. This includes the Atlas assertions that the old `Direct link` and `Drill this code` dead ends are absent, and that `Do first question`, `Do question`, `Open question list`, `/atlas/questions/[id]/practice`, and `/atlas/questions/[id]/answer` routes are present.
+- Build proof: `git diff --check` passed, `npm run lint` passed, and `npm run build` passed. The build output includes `/atlas`, `/atlas/questions/[id]/practice`, and `/atlas/questions/[id]/answer`.
+- Remote safety: `gh repo view auronpep/barmatrix-app --json visibility,nameWithOwner` returned `PRIVATE`.
+- Production status: Vercel project `sunnylee/barmatrix-app` currently shows `https://barmatrix-lm7fimyez-sunnylee.vercel.app` as READY Production, with aliases `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app`.
+- Live proof caveat: anonymous `/atlas` requests are redirected/rendered as the Clerk sign-in page, so this pass could not visually verify the paid signed-in Atlas client from raw HTTP alone. The next strongest live proof is an authenticated browser pass while signed in.
