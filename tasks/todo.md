@@ -1,3 +1,19 @@
+# Atlas V2 Scoped Progress Reset - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for resetting studied status in the current scope.
+- [x] Add a `Reset scope progress` control using existing device-local studied storage.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `05ee3cf Add Atlas scoped progress reset`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: added `resetScopeProgress` and a full-width `Reset scope progress` action in the studied-progress panel. It removes only studied codes in the current subject/subtopic scope and leaves other device-local studied codes intact.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; current live production remains `dpl_ECgb41xiCgB6TZWnKYcckKNyZt1E` at `https://barmatrix-dztdhun0k-sunnylee.vercel.app`, aliased to `https://barmatrix.app`.
+
 # Atlas V2 Mark Subtopic Studied - 2026-06-20
 
 ## Plan
