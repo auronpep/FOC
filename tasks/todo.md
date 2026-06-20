@@ -973,3 +973,18 @@
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
 - Deploy: Vercel production deployment `dpl_BVCxuNycW8Hgt5StzQEN1seJ8psn` is READY and aliased to `https://barmatrix.app`.
 - Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=72b7c74#atlas-code-lesson` rendered `Outline position`, `93110200 / Appealability and Review / 181 of 593`, and anchors `Prior lesson` -> `/atlas?code=93110101#atlas-code-lesson` and `Next lesson` -> `/atlas?code=93110300#atlas-code-lesson`. Directly opening the next target rendered `93110300 / Scope of Review / 182 of 593`, and browser console error count stayed `0`.
+
+# Atlas V2 Component Index Links - 2026-06-20
+
+## Plan
+
+- [x] Add a compact in-lesson component index for the selected outline code.
+- [x] Reuse existing approved question/component counts and anchors; add no new API, database, route, or approval lane.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App commit: `7bf505f Add Atlas component index links` in `C:\barmatrix-app`.
+- Production deploy: manual Vercel deploy `dpl_FtB9hJqWM3x1in664x5EoFrnemnz` reached ready; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_3CDpPw9QTZjRiDg6jQYAhaXnwpPK`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts`, `npm run lint`, and `npm run build` passed.
+- Live browser proof: `https://barmatrix.app/atlas?code=93110200&v=7bf505f#atlas-code-lesson` shows `Component index` with native links to `#atlas-code-questions`, `#atlas-code-components`, and `#atlas-code-leadme`; signed-in `/dashboard` shows the `Outline Atlas` sidebar link and Atlas card; no browser console errors were captured.
