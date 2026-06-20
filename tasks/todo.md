@@ -1,3 +1,21 @@
+# Atlas V2 Dashboard Nav Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the dashboard sidebar Atlas cue.
+- [x] Add optional descriptions to the dashboard sidebar and mobile drawer nav items.
+- [x] Make the Outline Atlas V2 left-nav item explain that it is the outline-code learning map.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `26084d3 Clarify Atlas dashboard nav entry`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: dashboard left navigation and mobile drawer now support optional nav descriptions; the `Outline Atlas V2` item says `Outline-code learning map`.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_MYrpxt2r5PWBWKt9xGqiPDYRDsET` at `https://barmatrix-fxt9a18a7-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Learning Path Position - 2026-06-20
 
 ## Plan
