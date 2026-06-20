@@ -1136,3 +1136,21 @@
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check`, `npm run lint`, local `npm run build`, and Vercel production build passed.
 - Live proof: signed-in `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice?v=b7db6f7` rendered `QUESTION 1 / 5`; after selecting A and submitting, it revealed the answer and a `Next question` link to `/atlas/questions/18182_bookstore_mandamus/practice`.
 - Navigation proof: clicking `Next question` opened `https://barmatrix.app/atlas/questions/18182_bookstore_mandamus/practice`, rendered `QUESTION 2 / 5`, four choices, and a disabled `Submit answer` until selection.
+
+# Atlas V2 Lesson-to-Practice Bridge - 2026-06-20
+
+## Plan
+
+- [x] Verify the selected-code Atlas actions after the report that buttons implied practice but did not open questions.
+- [x] Confirm the primary selected-code and lesson actions point to the Atlas-native question practice route.
+- [x] Verify production deployment state and record the live click evidence.
+
+## Review
+
+- App commit: `20459f0` (`Add Atlas lesson practice bridge`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: Vercel deployment `dpl_iCitXgZqzR9Uyh3KAYv3Y1rrzLfF` is READY for `https://barmatrix.app` and carries commit `20459f0a7a2f6d2e95a960716d891dbaad7a32cc`.
+- UI repair: selected code `93110100` now renders `Do first question`, the lesson sequence renders `Do first question`, the lesson checkpoint renders `Practice this lesson`, and each approved question row renders `Do question` plus `Study answer`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110100&v=20459f0#atlas-code-lesson` rendered `DO FIRST QUESTION`, `PRACTICE THIS LESSON`, five question rows, and no old `Drill this code` or `No runnable questions matched this outline code yet` message.
+- Click proof: clicking the first live `Do first question` link opened `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice` in Chrome.
+- Practice route proof: `/atlas/questions/[id]/practice` loads the Atlas-native runner from `getAtlasAnswer`, renders A-D choices, and includes `Submit answer`; focused test `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8).
+- Browser limitation: after the click, Chrome extension control of the practice tab timed out during DOM/screenshot inspection, so final visual inspection of that tab was not recaptured in this pass; the open tab URL and prior route tests confirm the question-open path.
