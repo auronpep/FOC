@@ -1,3 +1,22 @@
+# Atlas V2 Next Gap Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for selected-code next-gap copy.
+- [x] Show the next missing study/practice/support gate in the existing checklist.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `820bf73 Show Atlas next gap cue`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code checklist now shows `Next gap`, pointing to the first missing study/practice/support/detour lane.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_G7QDXRs2v52xgn44yEW54UQWEiRY` at `https://barmatrix-gwroxo59i-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200.
+- Pending pushed app commits not yet live: `2f25e2b Show Atlas lesson walk target`, `50709ba Show Atlas question call cue`, and `820bf73 Show Atlas next gap cue`.
+
 # Atlas V2 Question Call Cue - 2026-06-20
 
 ## Plan
