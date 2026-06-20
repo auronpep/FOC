@@ -1,3 +1,20 @@
+# Atlas V2 Question Bank Count Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for a selected-code question-bank count cue.
+- [x] Show the selected code's approved-question count in the question-bank section header.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `ef33450 Add Atlas question bank count cue`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code question-bank section now shows the approved-question count in its header.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_Cf5DjFeLYddE5N1Aitn2ceGPnbZ8` at `https://barmatrix-lf36ikjjt-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Study Sequence Lane Jumps - 2026-06-20
 
 ## Plan
