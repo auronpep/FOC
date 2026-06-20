@@ -1119,3 +1119,20 @@
 - Production deploy: manual Vercel deployment `dpl_8gfXPWB6LidCnBkK17Yr5nFDECSt` reached READY and is aliased to `https://barmatrix.app`.
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check`, `npm run lint`, local `npm run build`, and Vercel production build passed.
 - Live proof: from `https://barmatrix.app/atlas`, clicking `Do first question` opened `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice`; the page rendered code `93110100`, four answer choices, enabled `Submit answer` only after a choice, and after submit revealed `Not quite`, `Correct answer: B`, the minimum explanation, and `Study answer debrief`.
+
+# Atlas V2 In-Code Question Walk - 2026-06-20
+
+## Plan
+
+- [x] Reuse the existing Atlas question list API from the practice page.
+- [x] Show the selected question's position within its outline code.
+- [x] After submit, add previous/next question links for the same outline code.
+- [x] Run focused app checks, deploy production, and verify live behavior.
+
+## Review
+
+- App commit: `b7db6f7` (`Add Atlas practice question walk`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: manual Vercel deployment `dpl_EfpPviTJhzgEt17SVKmW8Q8EMzVV` reached READY and is aliased to `https://barmatrix.app`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check`, `npm run lint`, local `npm run build`, and Vercel production build passed.
+- Live proof: signed-in `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice?v=b7db6f7` rendered `QUESTION 1 / 5`; after selecting A and submitting, it revealed the answer and a `Next question` link to `/atlas/questions/18182_bookstore_mandamus/practice`.
+- Navigation proof: clicking `Next question` opened `https://barmatrix.app/atlas/questions/18182_bookstore_mandamus/practice`, rendered `QUESTION 2 / 5`, four choices, and a disabled `Submit answer` until selection.
