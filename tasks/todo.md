@@ -1,3 +1,22 @@
+# Atlas V2 Lesson Checkpoint Cue - 2026-06-20
+
+## Plan
+
+- [x] Add focused regression coverage for the lesson checkpoint cue.
+- [x] Show a compact objective/proof/status checkpoint inside each outline-code lesson.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `ec6d12c Add Atlas lesson checkpoint cue`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: each selected-code lesson now shows a compact objective/proof/status checkpoint before metadata and component lanes.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy passed: Vercel deployment `dpl_DHPD2Jwsk5HLbae8GyV9krgCmW6i` is `Ready` at `https://barmatrix-kbxxomia4-sunnylee.vercel.app`.
+- Live aliases confirmed by `vercel inspect https://barmatrix.app --scope sunnylee`: `https://barmatrix.app` and `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200.
+- This deploy also includes previously pending app commits `2f25e2b Show Atlas lesson walk target`, `50709ba Show Atlas question call cue`, `820bf73 Show Atlas next gap cue`, and `bbdc61b Clarify Atlas dashboard navigation`.
+
 # Atlas V2 Dashboard Nav Copy - 2026-06-20
 
 ## Plan
