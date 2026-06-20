@@ -1589,3 +1589,20 @@
 - Verification: the focused source regression first failed against the missing `scopedNoLessonCount`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production aliases still point to prior READY deployment `dpl_F3KmWoLZ28QnEc9XJ33AVmTjeGnU` at `https://barmatrix-386g7i58g-sunnylee.vercel.app`, so `e4c2b12` is pushed but not live yet.
 
+
+# Atlas V2 Lesson-Ready Walk - 2026-06-20
+
+## Plan
+
+- [x] Make the lesson checkpoint continue button prefer codes with approved lesson or guided content.
+- [x] Reuse existing coverage counts; no API, database, or content mutation.
+- [x] Show the next lesson-ready target in the weak-section drilldown.
+- [x] Verify locally, push if green, and record deploy status.
+
+## Review
+
+- App commit: `1d5ecfa` (`Prefer lesson-ready Atlas walk targets`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the lesson checkpoint continue action now walks through codes with approved lesson or guided content when that content exists in the current scope, and the weak-section drilldown shows `Next lesson target`.
+- Implementation: reused existing `leadme_set_count` and `leadme_item_count`; added no API route, database write, content mutation, or new coverage field.
+- Verification: the focused source regression first failed against the missing `lessonWalkNodes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-386g7i58g-sunnylee.vercel.app`, so `1d5ecfa` is pushed but not live yet.
