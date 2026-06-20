@@ -1772,3 +1772,20 @@
 - Remote safety: `gh repo view auronpep/barmatrix-app --json visibility,nameWithOwner` returned `PRIVATE`.
 - Production status: Vercel project `sunnylee/barmatrix-app` currently shows `https://barmatrix-lm7fimyez-sunnylee.vercel.app` as READY Production, with aliases `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app`.
 - Live proof caveat: anonymous `/atlas` requests are redirected/rendered as the Clerk sign-in page, so this pass could not visually verify the paid signed-in Atlas client from raw HTTP alone. The next strongest live proof is an authenticated browser pass while signed in.
+
+# Atlas V2 Question CTA Loading Mismatch - 2026-06-20
+
+## Plan
+
+- [x] Make the selected-code practice CTA honest while runnable questions are loading.
+- [x] Make the selected-code practice CTA honest if coverage says questions exist but no runnable rows loaded.
+- [x] Keep this client-only; no API, database, or route change.
+- [x] Verify, commit, push, deploy if safe, and record status.
+
+## Review
+
+- App commit: `274f07f` (`Clarify Atlas question loading CTA`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code practice CTA now shows `Loading questions` while runnable rows are loading, `Do first question` when a runnable row exists, and `Question list unavailable` if coverage says questions exist but no runnable row loaded.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, or route change.
+- Verification: the focused source regression first failed against missing `Loading questions`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy: Vercel deployment `dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE` reached READY at `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` and is aliased to `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app`.
