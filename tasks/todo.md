@@ -1,3 +1,20 @@
+# Atlas V2 Scoped Content Gap Action - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for a scoped no-lane action.
+- [x] Add a one-click action that filters the current scope to codes with no approved lanes.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `6acbe56 Add Atlas scoped content-gap action`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: added `scopedNoLaneNodes`, `showScopedContentGaps`, and a `Show content gaps` action in the weak-section drilldown panel. It uses the existing `needs` component filter and selects the first no-lane code in the current subject/subtopic scope.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy: `dpl_CmBzQR3GZAZ2AMa6bcGWhNroRTia` is ready at `https://barmatrix-rkcdc28ii-sunnylee.vercel.app` and aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live check: `vercel inspect https://barmatrix.app --scope sunnylee` shows `status Ready`; anonymous `https://barmatrix.app/atlas` returns `200` only after redirecting to sign-in, so authenticated browser UI proof still requires a signed-in session.
+
 # Atlas V2 Scoped Question Gap Action - 2026-06-20
 
 ## Plan
