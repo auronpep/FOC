@@ -1306,3 +1306,21 @@
 - Verification: wrote the source regression first and confirmed it failed on missing `Open through LeadMe`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_Djo4knNh1aq2hhJhX5EyexRtQjfP` reached READY for commit `2e9d553664d7089602add495729faaa13a535569`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-7j6265uy0-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live DOM proof of `Open through LeadMe` was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Debrief Preview Action - 2026-06-20
+
+## Plan
+
+- [x] Reuse the existing Atlas answer page for debrief preview rows when the selected code has an approved question.
+- [x] Write the focused source regression before production edits.
+- [x] Patch the smallest preview-row link support needed.
+- [x] Run focused source test, lint, build, whitespace check, deploy, and record proof.
+
+## Review
+
+- App commit: `9e3ac2b` (`Link Atlas debrief previews to answers`) pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: answer-debrief preview rows now show `Open answer debrief` and link to the first approved Atlas answer page for the selected outline code. If the code has no approved question, the preview remains informational instead of linking to nowhere.
+- Implementation: added `atlasQuestionAnswerHref` next to the existing practice helper and reused it for both the selected-code question list and debrief preview rows; no new route or API field was added.
+- Verification: wrote the source regression first and confirmed it failed on missing `atlasQuestionAnswerHref`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_34Q413jNYLpEuJ2ckoSCMnq4NJ8g` reached READY for commit `9e3ac2bd727fd9578c6649179a125c5e78581d6f`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-3sv2488cs-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live DOM proof of `Open answer debrief` was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
