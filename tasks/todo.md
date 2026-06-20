@@ -1537,3 +1537,20 @@
 - Implementation: reused `scopedNodes` and `scopedPracticeNodes`; added no API call, route, content mutation, or database write.
 - Verification: the focused source regression first failed against the missing `scopedNoQuestionCount`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as `https://barmatrix-3i3ggywy7-sunnylee.vercel.app`, so `005e515` is pushed but not live.
+
+# Atlas V2 Scoped Walk Preview - 2026-06-20
+
+## Plan
+
+- [x] Show the next outline code/title the scoped walk button will open.
+- [x] Reuse existing `scopedWalkCode` logic; do not add a second walk algorithm.
+- [x] Add focused source regression coverage.
+- [x] Verify, commit, push, and record whether the Vercel deploy limit has cleared.
+
+## Review
+
+- App commit: `3c18de6` (`Preview Atlas scoped walk target`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the weak-section drilldown panel now shows `Next walk target: {code} / {outline_text}` for the outline item the scoped walk button will open.
+- Implementation: reused existing `scopedWalkCode` and added only `scopedWalkNode`; no new walk algorithm, route, API call, or database write.
+- Verification: the focused source regression first failed against the missing `scopedWalkNode`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as `https://barmatrix-3i3ggywy7-sunnylee.vercel.app`, so `3c18de6` is pushed but not live.
