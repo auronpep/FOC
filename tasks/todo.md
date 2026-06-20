@@ -1,3 +1,22 @@
+# Atlas V2 Subtopic Next-To-Study Action - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for a subtopic-local next-to-study action.
+- [x] Add a `Next to study here` control using existing device-local studied status.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- Updated `C:\barmatrix-app-atlas-answer-bridge\app\atlas\atlas-client.tsx` with `nextSubtopicUnstudiedCode` and a `Next to study here` button in the selected-code subtopic panel.
+- Added source regression coverage in `C:\barmatrix-app-atlas-answer-bridge\tests\ambassador-dashboard-entry.test.ts`.
+- Verification passed in `C:\barmatrix-app-atlas-answer-bridge`: `node --test tests\ambassador-dashboard-entry.test.ts` (10/10), `git diff --check` (line-ending warnings only), `npm run lint`, and `npm run build`.
+- Verified the GitHub target repo is private: `auronpep/barmatrix-app`.
+- App commit `827388b` (`Add Atlas subtopic next-to-study action`) was pushed to private `main`.
+- Production deploy attempt was blocked by Vercel free-tier cap: `more than 100, code: "api-deployments-free-per-day"`.
+- Current live production remains Vercel deployment `dpl_AtLbigfyKRn1wzzfEXqPWwYG9fdr`, URL `https://barmatrix-l1pjlih7q-sunnylee.vercel.app`, aliased to `https://barmatrix.app` and `https://www.barmatrix.app`.
+
 # Atlas V2 Row Studied Status - 2026-06-20
 
 ## Plan
