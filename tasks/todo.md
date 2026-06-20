@@ -1,3 +1,22 @@
+# Atlas V2 Subtopic Lane Readiness - 2026-06-20
+
+## Plan
+
+- [x] Add focused regression coverage for subtopic lane-ready counts.
+- [x] Show component-lane coverage in each grouped subtopic header.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit and push to the private app repo.
+- [ ] Retry production deploy when Vercel daily deploy limit resets.
+
+## Review
+
+- App commit: `90bfedb Show Atlas subtopic lane readiness`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: each grouped Atlas subtopic header now includes `lane-ready` counts so component coverage is visible at the index level.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy was not retried because the prior deploy attempt failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_DHPD2Jwsk5HLbae8GyV9krgCmW6i` at `https://barmatrix-kbxxomia4-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200.
+
 # Atlas V2 Subtopic Lesson Readiness - 2026-06-20
 
 ## Plan
