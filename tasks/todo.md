@@ -1571,3 +1571,21 @@
 - Implementation: reused existing coverage counts; added no API field, route, database write, or content mutation.
 - Verification: the focused source regression first failed against the missing filter; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy: Vercel deployment `dpl_F3KmWoLZ28QnEc9XJ33AVmTjeGnU` reached READY for commit `ed5a3b1`; aliases `https://barmatrix.app`, `https://www.barmatrix.app`, and the Vercel project aliases point to `https://barmatrix-386g7i58g-sunnylee.vercel.app`.
+
+# Atlas V2 Scoped Lesson Gap Count - 2026-06-20
+
+## Plan
+
+- [x] Show the number of scoped outline codes with no lesson or guided teaching.
+- [x] Reuse existing scoped coverage counts; no API or database change.
+- [x] Add focused source regression coverage.
+- [x] Verify, push, and record deploy status.
+
+## Review
+
+- App commit: `e4c2b12` (`Show Atlas lesson gap count`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the weak-section drilldown scope card now shows `Needs lesson`, the number of currently scoped outline codes where `leadme_set_count + leadme_item_count === 0`.
+- Implementation: reused `scopedNodes` and existing lesson/guided counts; added no API route, database write, content mutation, or new coverage field.
+- Verification: the focused source regression first failed against the missing `scopedNoLessonCount`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production aliases still point to prior READY deployment `dpl_F3KmWoLZ28QnEc9XJ33AVmTjeGnU` at `https://barmatrix-386g7i58g-sunnylee.vercel.app`, so `e4c2b12` is pushed but not live yet.
+
