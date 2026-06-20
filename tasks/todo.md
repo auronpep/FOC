@@ -1,3 +1,20 @@
+# Atlas V2 Mark Subtopic Studied - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for marking the current subtopic studied.
+- [x] Add a `Mark subtopic studied` control using existing device-local studied storage.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `99921ee Add Atlas mark-subtopic-studied action`, pushed to private `auronpep/barmatrix-app` `main`.
+- Added `selectedSubtopicUnstudiedCount`, `markSubtopicStudied`, a visible subtopic progress line, and a full-width `Mark subtopic studied` control in the selected-subtopic panel.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy succeeded: Vercel deployment `dpl_ECgb41xiCgB6TZWnKYcckKNyZt1E`, ready at `https://barmatrix-dztdhun0k-sunnylee.vercel.app`, aliased to `https://barmatrix.app`.
+- Live smoke: `https://barmatrix.app/atlas` returned `200` by HTTP, and anonymous browser automation correctly redirected to Clerk sign-in for the authenticated Atlas page.
+
 # Atlas V2 Subtopic Next-To-Study Action - 2026-06-20
 
 ## Plan
