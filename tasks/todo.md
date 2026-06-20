@@ -1018,3 +1018,19 @@
 - Production deploy: manual Vercel deploy `dpl_2nTxvBDZnh7MmNez1NRzJUaJZHyF` reached ready; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_8UUxv2w2DM6SZ5S1BLRTADpBjgte`.
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts`, `npm run lint`, and `npm run build` passed.
 - Live browser proof: opening `https://barmatrix.app/atlas?code=93110200&v=bb2bb26`, then `https://barmatrix.app/atlas?v=bb2bb26`, resumed selected code `93110200` and showed `Saved code on this device: 93110200`; signed-in `/dashboard?v=bb2bb26` still shows the `Outline Atlas` left-nav link and Atlas card; no browser console errors were captured.
+
+# Atlas V2 Scope Readiness Meter - 2026-06-20
+
+## Plan
+
+- [x] Add a weak-section scope meter showing studied, practice-ready, component-ready, and missing-code counts.
+- [x] Reuse existing Atlas coverage fields and device-local studied state; do not add a database/API/content lane.
+- [x] Run focused app checks, deploy production, and verify signed-in live behavior.
+
+## Review
+
+- App commits: `bd96262` (`Add Atlas scope readiness meter`) and `9def184` (`Fix Atlas scope meter layout`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: Vercel deployment `dpl_EPUbjyGpo3XuMddxjZEFyr8PSaWy` reached READY and is aliased to `https://barmatrix.app`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts` passed, `npm run lint` passed, and `npm run build` passed.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=9def184` rendered visible weak-section scope counts (`Studied`, `Practice`, `Components`, `No lane`) with `Weak-section drilldown`; browser console error count was `0`.
+- Dashboard proof: signed-in `https://barmatrix.app/dashboard?v=9def184` still rendered the `Outline Atlas` left-nav link and Atlas dashboard card; browser console error count was `0`.
