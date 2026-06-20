@@ -1324,3 +1324,20 @@
 - Verification: wrote the source regression first and confirmed it failed on missing `atlasQuestionAnswerHref`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_34Q413jNYLpEuJ2ckoSCMnq4NJ8g` reached READY for commit `9e3ac2bd727fd9578c6649179a125c5e78581d6f`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-3sv2488cs-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live DOM proof of `Open answer debrief` was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Actionable Lane Rows - 2026-06-20
+
+## Plan
+
+- [x] Make live selected-code component lanes actionable using existing destinations only.
+- [x] Keep approval-gated lanes passive and do not add new routes, API fields, or content assumptions.
+- [x] Write the focused source regression before production edits.
+- [x] Run focused app checks, deploy, and record proof.
+
+## Review
+
+- App commit: `7c50368e3be064231abdfd4ce003ad7eaa813ef8` (`Make Atlas lane rows actionable`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code component lane rows now use existing destinations only: questions jump to `#atlas-code-questions`, guided/lesson/drill/flashcard lanes start the existing LeadMe code flow, trap/tension lanes jump to `#atlas-code-detours`, and answer debriefs open the first approved question's Atlas answer debrief. Approval-gated rows remain passive.
+- Verification: wrote the source regression first and confirmed it failed on missing `actionLabel="Open questions"`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_HAbUxDzqQ4GrXggbcMQ1Gxiz36c8` reached READY for commit `7c50368e3be064231abdfd4ce003ad7eaa813ef8`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-km35skgci-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so live click-through DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
