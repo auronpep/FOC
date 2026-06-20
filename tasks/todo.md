@@ -1,3 +1,21 @@
+# Atlas V2 Practice Breadcrumb Context - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the practice-page Atlas breadcrumb preserving the current outline code.
+- [x] Route the loaded practice shell breadcrumb back to the selected code's question section.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `fb6dc09 Keep Atlas practice breadcrumb on code`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the loaded Atlas practice-page shell breadcrumb now returns to that question's outline-code question section instead of generic `/atlas`.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_EHDKgUUQiAhgWgmNfP1DrouDcT2U` at `https://barmatrix-bp7v4csbh-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Pending pushed app commits not yet live: `735cbfc Keep Atlas answer breadcrumb on code`, `0063040 Show Atlas LeadMe queued item count`, and `fb6dc09 Keep Atlas practice breadcrumb on code`.
+
 # Atlas V2 LeadMe Queue Count - 2026-06-20
 
 ## Plan
