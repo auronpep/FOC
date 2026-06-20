@@ -1,3 +1,22 @@
+# Atlas V2 Row Lesson Badges - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression requiring lesson readiness badges inside selected subtopic rows.
+- [x] Replace the single question-only row badge with question and lesson badges.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- Updated `C:\barmatrix-app-atlas-answer-bridge\app\atlas\atlas-client.tsx` so selected-subtopic rows show two compact badges: `Q ready` / `Needs Q` and `Lesson ready` / `Needs lesson`.
+- Added source regression coverage in `C:\barmatrix-app-atlas-answer-bridge\tests\ambassador-dashboard-entry.test.ts`.
+- Verification passed in `C:\barmatrix-app-atlas-answer-bridge`: `node --test tests\ambassador-dashboard-entry.test.ts` (10/10), `git diff --check` (line-ending warnings only), `npm run lint`, and `npm run build`.
+- Verified the GitHub target repo is private: `auronpep/barmatrix-app`.
+- App commit `846d4ed` (`Show Atlas row lesson badges`) was pushed to private `main`.
+- Production deploy attempt was blocked by Vercel free-tier cap: `more than 100, code: "api-deployments-free-per-day"`.
+- Current live production remains Vercel deployment `dpl_AtLbigfyKRn1wzzfEXqPWwYG9fdr`, URL `https://barmatrix-l1pjlih7q-sunnylee.vercel.app`, aliased to `https://barmatrix.app` and `https://www.barmatrix.app`.
+
 # Atlas V2 Selected Subtopic Lesson Progress - 2026-06-20
 
 ## Plan
