@@ -1,3 +1,21 @@
+# Atlas V2 Detour Jump - 2026-06-20
+
+## Plan
+
+- [x] Add a scoped jump from the Atlas walk controls to the first detour-ready code.
+- [x] Add focused regression coverage for the new Atlas jump control.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit and push to the private app repo.
+- [x] Deploy to Vercel production and verify the live Atlas route.
+
+## Review
+
+- App commit: `c13e57b Add Atlas detour jump`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: Atlas V2 now has a `Jump to first detour` control in the scoped walk controls, reusing approved debrief-ready code coverage.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy succeeded: `dpl_7thhxMQURgiQUwEavd3cS3C7ADaW`, URL `https://barmatrix-hma9cd6iw-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200 after deployment.
+
 # Atlas V2 Subtopic Detour Readiness - 2026-06-20
 
 ## Plan
