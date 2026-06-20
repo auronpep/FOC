@@ -1,3 +1,19 @@
+# Atlas V2 Scoped Question Gap Action - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for a scoped `Needs Q` action.
+- [x] Add a one-click action that filters the current scope to codes missing approved questions.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `0667391 Add Atlas scoped question-gap action`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: added `scopedNoQuestionNodes`, `showScopedQuestionGaps`, and a `Show question gaps` action in the weak-section drilldown panel. It uses the existing `needs_questions` filter and selects the first missing-question code in the current subject/subtopic scope.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; current live production remains `dpl_ECgb41xiCgB6TZWnKYcckKNyZt1E` at `https://barmatrix-dztdhun0k-sunnylee.vercel.app`, aliased to `https://barmatrix.app`.
+
 # Atlas V2 Scoped Progress Reset - 2026-06-20
 
 ## Plan
