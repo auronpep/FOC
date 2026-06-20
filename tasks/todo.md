@@ -1890,3 +1890,20 @@
 - Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
 - Verification: the focused source regression first failed against missing `scopedFirstLessonCode`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-a6bzme9nu-sunnylee.vercel.app` (`dpl_GpGCZrP59dhbT2NU7HhWzN6EipJJ`), so `839f5d7` is pushed but not live yet.
+
+# Atlas V2 Row Lesson Badges - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for lesson readiness in outline list rows.
+- [x] Show question and lesson readiness together while scanning outline codes.
+- [x] Keep this client-only; no API, database, route, or content change.
+- [x] Verify, commit, push, deploy if available, and record status.
+
+## Review
+
+- UI change: each outline-code row now shows question readiness and lesson readiness as separate compact badges, so students can scan for codes that are practice-ready, lesson-ready, both, or missing a lane.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
+- App commit: `81ee258` (`Show Atlas row lesson readiness`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: the focused source regression first failed against missing `Lesson ready`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 1 day`. Production remains `https://barmatrix-a6bzme9nu-sunnylee.vercel.app` (`dpl_GpGCZrP59dhbT2NU7HhWzN6EipJJ`), so `81ee258` is pushed but not live yet.
