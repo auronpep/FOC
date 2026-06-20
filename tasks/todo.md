@@ -1856,3 +1856,20 @@
 - Verification: the focused source regression first failed against missing `Lesson walk progress`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy: Vercel deployment `dpl_GpGCZrP59dhbT2NU7HhWzN6EipJJ` reached READY at `https://barmatrix-a6bzme9nu-sunnylee.vercel.app` and is aliased to `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app`.
 - Live caveat: anonymous `https://barmatrix.app/atlas` redirects behind auth, so raw HTTP cannot inspect the signed-in Atlas client content; Vercel production alias and build route output are the live proof for this pass.
+
+# Atlas V2 Subtopic Lesson Counts - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for lesson-ready counts in subtopic drilldown.
+- [x] Show each subtopic's total codes, lesson-ready codes, and approved questions.
+- [x] Keep this client-only; no API, database, route, or content change.
+- [x] Verify, commit, push, deploy, and record status.
+
+## Review
+
+- App commit: `d183ee0` (`Show Atlas subtopic lesson counts`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the subtopic drilldown now shows total codes, lesson-ready codes, and approved questions, so weak-section browsing surfaces whether a section is learnable by lesson and not just practice-ready.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
+- Verification: the focused source regression first failed against missing `lessonReadyCodeCount`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-a6bzme9nu-sunnylee.vercel.app` (`dpl_GpGCZrP59dhbT2NU7HhWzN6EipJJ`), so `d183ee0` is pushed but not live yet.
