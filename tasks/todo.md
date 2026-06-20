@@ -1,3 +1,21 @@
+# Atlas V2 Active View Summary - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression so the Atlas source must expose a plain-language active view summary.
+- [x] Add a compact active-view line near the Atlas filters without changing the backend, routes, or database.
+- [x] Run focused Atlas tests, lint, build, and whitespace checks.
+- [x] Commit/push the app change to the private app repo, then record deploy status and proof here.
+
+## Review
+
+- Updated `C:\barmatrix-app-atlas-answer-bridge\app\atlas\atlas-client.tsx` to replace the bare visible-code count with an `Active Atlas view` panel. When the weak-section lesson backlog is active, it now names the view as `Lesson backlog` and explains that it is showing `lesson-ready codes not yet studied`.
+- Added source regression coverage in `C:\barmatrix-app-atlas-answer-bridge\tests\ambassador-dashboard-entry.test.ts`.
+- Verification passed in `C:\barmatrix-app-atlas-answer-bridge`: `node --test tests\ambassador-dashboard-entry.test.ts` (10/10), `git diff --check` (line-ending warnings only), `npm run lint`, and `npm run build`.
+- Verified the GitHub target repo is private: `auronpep/barmatrix-app`.
+- App commit `4901092` (`Clarify Atlas active view`) was pushed to private `main`.
+- Production deploy succeeded: Vercel deployment `dpl_AtLbigfyKRn1wzzfEXqPWwYG9fdr`, URL `https://barmatrix-l1pjlih7q-sunnylee.vercel.app`, aliased to `https://barmatrix.app` and `https://www.barmatrix.app`.
+
 # BarMatrix Practice Answer-Key Case Study Repair - 2026-06-19
 
 ## Plan
