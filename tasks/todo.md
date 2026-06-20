@@ -1554,3 +1554,20 @@
 - Implementation: reused existing `scopedWalkCode` and added only `scopedWalkNode`; no new walk algorithm, route, API call, or database write.
 - Verification: the focused source regression first failed against the missing `scopedWalkNode`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as `https://barmatrix-3i3ggywy7-sunnylee.vercel.app`, so `3c18de6` is pushed but not live.
+
+# Atlas V2 Needs-Lesson Filter - 2026-06-20
+
+## Plan
+
+- [x] Add an outline-list filter for codes with no lesson or guided teaching items.
+- [x] Reuse existing `leadme_set_count` and `leadme_item_count`; do not add a new API field.
+- [x] Add focused source regression coverage.
+- [x] Verify, commit, push, and record whether Vercel can deploy.
+
+## Review
+
+- App commit: `ed5a3b1` (`Add Atlas needs-lesson filter`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the Atlas outline-list component filter now includes `Needs lesson`, which returns codes where `leadme_set_count + leadme_item_count === 0`.
+- Implementation: reused existing coverage counts; added no API field, route, database write, or content mutation.
+- Verification: the focused source regression first failed against the missing filter; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy: Vercel deployment `dpl_F3KmWoLZ28QnEc9XJ33AVmTjeGnU` reached READY for commit `ed5a3b1`; aliases `https://barmatrix.app`, `https://www.barmatrix.app`, and the Vercel project aliases point to `https://barmatrix-386g7i58g-sunnylee.vercel.app`.
