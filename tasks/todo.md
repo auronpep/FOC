@@ -1,3 +1,21 @@
+# Atlas V2 Lesson Walk Target Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the visible lesson-walk target code.
+- [x] Show the next lesson-walk target beside the continue action.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `2f25e2b Show Atlas lesson walk target`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected Atlas code checkpoint now shows the next lesson-walk target code beside the continue action.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_G7QDXRs2v52xgn44yEW54UQWEiRY` at `https://barmatrix-gwroxo59i-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Pending pushed app commit not yet live: `2f25e2b Show Atlas lesson walk target`.
+
 # Atlas V2 Subtopic Position Cue - 2026-06-20
 
 ## Plan
