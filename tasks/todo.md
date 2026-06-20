@@ -1341,3 +1341,21 @@
 - Verification: wrote the source regression first and confirmed it failed on missing `actionLabel="Open questions"`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_HAbUxDzqQ4GrXggbcMQ1Gxiz36c8` reached READY for commit `7c50368e3be064231abdfd4ce003ad7eaa813ef8`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-km35skgci-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so live click-through DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Dashboard Entry Copy - 2026-06-20
+
+## Plan
+
+- [x] Make the dashboard Atlas entry describe the customer-facing Atlas as an outline-code learning map and component index.
+- [x] Keep the existing `/atlas` route and dashboard layout; add no new nav model, API field, or content assumption.
+- [x] Write the focused source regression first.
+- [x] Run focused app checks, deploy, and record proof if the source change passes.
+
+## Review
+
+- App commit: `58534b656d9ee23fe60011b03babcae0a73e96fa` (`Clarify Atlas dashboard entry`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the dashboard `Outline Atlas` repair-component card now says students can “Walk the outline by code and open approved questions, lessons, traps, and drills,” matching the public-facing Atlas V2 positioning.
+- Implementation: reused the existing `/atlas` entry in the dashboard card list; added no new route, nav model, API field, or component abstraction.
+- Verification: wrote the source regression first and confirmed it failed on the old copy; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_AqsLcLSyqotsp4YsvBLeDuaeHNAa` reached READY for commit `58534b656d9ee23fe60011b03babcae0a73e96fa`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-98ae8qcef-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live dashboard DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
