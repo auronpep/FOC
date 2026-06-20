@@ -1,3 +1,20 @@
+# Atlas V2 Question Debrief Label - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the Atlas question-bank debrief action label.
+- [x] Rename the per-question `Study answer` action to `Study answer debrief`.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `5ce39ce Clarify Atlas question debrief action`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code question-bank action now says `Study answer debrief` instead of the vaguer `Study answer`.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_Cf5DjFeLYddE5N1Aitn2ceGPnbZ8` at `https://barmatrix-lf36ikjjt-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Question Bank Count Cue - 2026-06-20
 
 ## Plan
