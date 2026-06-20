@@ -1520,3 +1520,20 @@
 - Implementation: reused the existing coverage `question_count`; added no API field, route, database write, or content approval mutation.
 - Verification: the focused source regression first failed against the old filter set; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as the prior `https://barmatrix-3i3ggywy7-sunnylee.vercel.app` build, so this pushed commit is not live yet.
+
+# Atlas V2 Question Gap Counter - 2026-06-20
+
+## Plan
+
+- [x] Show the number of outline codes in the current scope that still have no approved questions.
+- [x] Reuse existing scoped coverage state; do not add a new API call or page.
+- [x] Add focused source regression coverage.
+- [x] Verify and commit; retry deployment only if the Vercel limit has cleared.
+
+## Review
+
+- App commit: `005e515` (`Show Atlas question gap count`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the `Weak-section drilldown` scope card now shows `Needs Q`, the number of currently scoped outline codes with `question_count === 0`.
+- Implementation: reused `scopedNodes` and `scopedPracticeNodes`; added no API call, route, content mutation, or database write.
+- Verification: the focused source regression first failed against the missing `scopedNoQuestionCount`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as `https://barmatrix-3i3ggywy7-sunnylee.vercel.app`, so `005e515` is pushed but not live.
