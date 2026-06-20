@@ -1,3 +1,21 @@
+# Atlas V2 Subtopic Detour Readiness - 2026-06-20
+
+## Plan
+
+- [x] Add focused regression coverage for subtopic detour-ready counts.
+- [x] Show detour-ready coverage in each grouped subtopic header.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit and push to the private app repo.
+- [x] Deploy to Vercel production and verify the live Atlas route.
+
+## Review
+
+- App commit: `820e28f Show Atlas subtopic detour readiness`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: each grouped Atlas subtopic header now includes `detour-ready` counts using approved answer-debrief elements as the code-level detour signal.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy succeeded: `dpl_62S9gGF96NstNWUVfjkg2vzQvcA7`, URL `https://barmatrix-ojd706y5n-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200 after deployment.
+
 # Atlas V2 Subtopic Lane Readiness - 2026-06-20
 
 ## Plan
