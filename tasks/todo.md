@@ -1623,3 +1623,13 @@
 - Implementation: promoted `scopedLessonNodes` from the existing lesson-walk logic; reused `leadme_set_count` and `leadme_item_count`; added no API route, database write, content mutation, or new coverage field.
 - Verification: the focused source regression first failed against the missing `Show lesson codes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-386g7i58g-sunnylee.vercel.app`, so `e69a071` is pushed but not live yet.
+
+# Atlas V2 Accumulated Production Deploy - 2026-06-20
+
+## Review
+
+- App commit: `e69a071` (`Add Atlas scoped lesson-code action`) is live in production after prior Vercel quota blockers cleared.
+- Production deploy: Vercel deployment `dpl_A2REv5TPsr6HYdW5ZRWkNKjrygAg` reached READY at `https://barmatrix-63qsdy83t-sunnylee.vercel.app`.
+- Aliases: `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app` point to this deployment.
+- Included Atlas changes since the prior live deployment: needs-question filter, scoped question gap count, scoped walk target preview, needs-lesson filter, scoped lesson gap count, lesson-ready walk targets, and scoped lesson-code action.
+- Deployment proof: `vercel deploy --prod -y --scope sunnylee` returned READY; `vercel inspect https://barmatrix-63qsdy83t-sunnylee.vercel.app --scope sunnylee` confirmed aliases and READY status.
