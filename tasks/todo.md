@@ -1034,3 +1034,20 @@
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts` passed, `npm run lint` passed, and `npm run build` passed.
 - Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=9def184` rendered visible weak-section scope counts (`Studied`, `Practice`, `Components`, `No lane`) with `Weak-section drilldown`; browser console error count was `0`.
 - Dashboard proof: signed-in `https://barmatrix.app/dashboard?v=9def184` still rendered the `Outline Atlas` left-nav link and Atlas dashboard card; browser console error count was `0`.
+
+# Atlas V2 Selected Subtopic Rail - 2026-06-20
+
+## Plan
+
+- [x] Add selected-code sibling navigation for the current subtopic.
+- [x] Reuse existing coverage nodes and lane footprints; add no API/database/content lane.
+- [x] Run focused app checks, deploy production, and verify signed-in live behavior.
+
+## Review
+
+- App commit: `ada9b73` (`Add Atlas selected subtopic rail`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: manual Vercel deployment `dpl_8nG2wAN68XsGHqvebUDVkLjVAJFB` reached READY; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_Ht6m3Wxn8rpixXtmHq5x1XbVSmQ6`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts` passed, `npm run lint` passed, and `npm run build` passed.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=ada9b73` rendered `This subtopic` with five Appealability and Review codes (`93110000`, `93110100`, `93110101`, `93110200`, `93110300`) and each row's lane footprint.
+- Interaction proof: clicking the fifth rail item changed the live selected code to `https://barmatrix.app/atlas?code=93110300&v=ada9b73`, rendered `Scope of Review`, and kept the same subtopic rail visible; browser console error count was `0`.
+- Dashboard proof: signed-in `https://barmatrix.app/dashboard?v=ada9b73` still rendered the `Outline Atlas` left-nav link and Atlas dashboard card; browser console error count was `0`.
