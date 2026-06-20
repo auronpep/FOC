@@ -526,3 +526,433 @@
   - `openrouter/owl-alpha`: 0 passed / 41 validated under the current schema.
 - Interpreted pass rate as "current CQ contract pass," not a human legal-quality score. Failures included missing current analyzer provenance fields (`drift_audit`, `transformed_from`, `letter_map`), missing required headings, and malformed JSON/field shape errors such as missing `outline_code`.
 - Recommendation for MBE/CQ writing: default to `anthropic/claude-opus-4-8` for highest observed contract reliability, use `openai/gpt-5.5` for high-volume throughput, keep `openai/gpt-5.4` / `anthropic/claude-opus-4-7` / `anthropic/claude-opus-4-6` as promising small-sample candidates, and avoid `openrouter/owl-alpha`, `anthropic/claude-sonnet-4-6`, `openrouter/poolside/laguna-m.1:free`, and unproven NVIDIA/openrouter free models for final MBE question writing until they pass a fresh smoke batch.
+# Atlas Customer-Facing Drilldown - 2026-06-19
+
+## Plan
+
+- [x] Keep `/atlas-v1` as founder/admin-only intake and approval.
+- [x] Add a separate paid-user Atlas surface that exposes only included content.
+- [x] Reuse Atlas outline codes as the drilldown index: subject -> subtopic -> outline code.
+- [x] Let students jump from an outline code into approved questions/answer pages when available.
+- [x] Verify the route is auth-gated, noindexed, and does not expose review/rejected/admin controls.
+
+## Review
+
+- Added enrolled-user API routes under `/api/atlas-v1/*`; admin routes remain under `/api/admin/atlas-v1/*`.
+- Added paid app routes `/atlas` and `/atlas/questions/[id]/answer`.
+- Added dashboard links to the customer Outline Atlas while keeping founder intake on `/atlas-v1`.
+- Verification so far: API Atlas/security tests passed, API typecheck passed, app route tests passed, app lint passed, app production build passed.
+
+# Atlas V2 Customer Learning Map - 2026-06-19
+
+## Plan
+
+- [x] Keep `/atlas-v1` as admin/founder intake only and keep `/atlas` paid-user gated.
+- [x] Redesign `/atlas` as the customer V2 learning map: subject/subtopic/code drilldown, lesson-first selected-code panel, and component lanes.
+- [x] Show active approved questions and answer links; show lessons, traps, drills, flashcards, tensions, and boot-camps as gated lanes until approved/connected.
+- [x] Make dashboard left navigation point to the V2 Atlas wording without exposing admin controls.
+- [x] Run focused tests, lint/build, and live browser proof before calling this phase complete.
+
+## Review
+
+- API change: enrolled student coverage now returns all Atlas outline nodes with approved question counts, so zero-question codes remain visible for coverage gaps.
+- App change: `/atlas` is now the customer V2 learning map with subject/subtopic filters, search, next/previous code walking, selected-code lesson lane, component gates, and approved question links.
+- Dashboard copy now describes Atlas as an outline/component learning map; `/atlas-v1` remains admin/founder intake.
+- Commits: API `9482c56` (`Expose full Atlas coverage to students`), app `acccf62` (`Redesign customer Atlas as learning map`).
+- Verification: API Atlas/security tests passed (13/13), API typecheck passed, API build passed, app dashboard/proxy tests passed (10/10), app focused lint passed, app production build passed.
+- Deploy: API deploy stage `deploy-stage-20260619-185008` health check HTTP 200; Vercel production deployment `dpl_BRXyFKNmxpXb8Tgv2M43sbK4kS2P` aliased to `https://barmatrix.app`.
+- Live proof: anonymous `/atlas` redirects to sign-in, anonymous Atlas API returns 401, signed-in `/atlas` rendered V2 with 593 outline codes, 415 codes with questions, 1,355 approved questions, component gates, and zero-question `Needs item` codes.
+
+# Atlas V2 Component Lane Wiring - 2026-06-19
+
+## Plan
+
+- [x] Add an enrolled-student Atlas endpoint for one outline code that exposes only approved/active component availability.
+- [x] Wire `/atlas` selected-code panel to real component counts instead of placeholder lanes.
+- [x] Add a student action to start an approved LeadMe set for the selected outline code when one exists.
+- [x] Run focused API/app tests, typecheck/lint/build, then deploy and verify live behavior.
+
+## Review
+
+- API change: added enrolled-student `/api/atlas-v1/codes/:code/components`, returning only active Atlas nodes plus active/published LeadMe items/sets and reviewed/approved debrief elements.
+- App change: `/atlas` selected-code panel now loads real component lanes, shows customer-facing lane labels, and can start an approved LeadMe set for the selected outline code.
+- Commits: API `25a595e` (`Expose Atlas component lanes to students`), app `648c8c0` (`Wire Atlas component lanes`).
+- Verification: API full test suite passed (641/641), API typecheck passed, API build passed, app node tests passed (162/162), app focused lint passed, app production build passed.
+- Deploy: API deploy stage `deploy-stage-20260619-190647` health check HTTP 200; Vercel production deployment `dpl_4q96zu1W5Nuf6a12x1qtrphPgh1s` is READY and aliased to `barmatrix.app`.
+- Live proof: anonymous component endpoint returns 401, API health returns 200, signed-in `/atlas` renders 593 outline codes / 415 with questions / 1,355 approved questions, and the selected-code panel shows Guided items, Lessons, Drills, Traps, Flashcards, Tensions, Answer debriefs, and Boot camps with no browser console errors.
+
+# Atlas V2 Component-Aware Coverage Filters - 2026-06-19
+
+## Plan
+
+- [x] Extend student Atlas coverage with active LeadMe/debrief component counts per outline code.
+- [x] Add customer-facing filters so students can find codes with any lane, questions, lessons, or missing content.
+- [x] Show component availability in the outline list without requiring code-by-code clicks.
+- [x] Run focused API/app tests, typecheck/lint/build.
+
+## Review
+
+- API coverage now includes `leadme_item_count`, `debrief_element_count`, `leadme_set_count`, and `summary.with_components`.
+- App `/atlas` now has filters for `All codes`, `Has any lane`, `Has questions`, `Has lesson`, and `Needs content`, plus list-level component counts.
+- Verification: API Atlas/security tests passed (14/14), API typecheck passed, API build passed, app dashboard/proxy tests passed (10/10), app focused lint passed, app production build passed.
+- Commits: API `2d77815` (`Add Atlas component-aware coverage`), app `50b9ac2` (`Add Atlas component filters`).
+- Deploy: API deploy stage `deploy-stage-20260619-191801` health check HTTP 200; Vercel production deployment `dpl_YYX7yen1CQ1MfRfVwwntwuHdNSbo` is READY and aliased to `barmatrix.app`.
+- Live proof: signed-in `/atlas?v=50b9ac2` rendered `Codes with components`, `Has any lane`, `Has questions`, `Has lesson`, and `Needs content`; clicking `Has questions` removed `Needs item` rows and showed live-question codes.
+
+# Atlas V2 Direct Outline Links - 2026-06-19
+
+## Plan
+
+- [x] Let `/atlas?code=########` open directly to a specific outline code.
+- [x] Keep selected-code navigation reflected in the URL for shareable/customer support links.
+- [x] Add a visible direct-link affordance in the selected-code panel.
+- [x] Run focused test/lint/build, deploy production, and verify signed-in live behavior.
+
+## Review
+
+- App change: `/atlas` reads an 8-digit `code` query parameter, selects that Atlas node after coverage loads, updates the URL when students choose/walk codes, and shows a `Direct link` action in the selected-code panel.
+- Commit: app `2e5f5a6` (`Add Atlas outline direct links`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_3ZGcYQ5YKEUCLjrm6QDDdK5JTsSZ` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=2e5f5a6` selected code `93110101`, showed `Direct link`, component filters, `Question bank`, no sign-in/locked gate, and no browser console errors.
+
+# Atlas V2 Outline-Code Drill Starts - 2026-06-20
+
+## Plan
+
+- [x] Add `outline_code` as an enrolled drill-start target, using only included Atlas questions joined to active runnable questions.
+- [x] Add one selected-code action in `/atlas` to start a focused drill for that exact code.
+- [x] Keep missing-code behavior graceful when no approved questions exist.
+- [x] Run focused API/app tests, typecheck/lint/build, then deploy and verify.
+
+## Review
+
+- API change: `/api/drills/start` now accepts `kind: "outline_code"` with an 8-digit `outline_code`, selects only `atlas_questions.status = 'included'` joined to active `questions`, and reuses the existing drill assignment/runner path.
+- App change: `/atlas?code=...` selected-code panel now shows `Drill this code`; it starts an outline-code drill for the selected code and gracefully reports missing/runnable gaps.
+- Commits: API `4373392` (`Add Atlas outline code drills`), app `883a692` (`Start outline drills from Atlas`).
+- Verification: API tests passed (644/644), API typecheck passed, API build passed; app Atlas/dashboard test passed (8/8), app lint passed, app production build passed.
+- Deploy: API deploy stage `deploy-stage-20260619-194208` health check HTTP 200; Vercel production deployment `dpl_3zL3LkrzJSLJtqvtQ7gh6hDJcHA3` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=883a692` rendered selected code `93110101`, enabled `Drill this code`, `Direct link`, metrics, and `Question bank` with no console errors. Anonymous `POST /api/drills/start` with `kind=outline_code` returned 401, proving the route is live and still enrollment-gated without creating a drill assignment.
+
+# Atlas V2 Component Preview Lists - 2026-06-20
+
+## Plan
+
+- [x] Extend the enrolled Atlas component endpoint with approved, student-safe item/debrief previews for one outline code.
+- [x] Keep all approval/status gates intact: active Atlas node, active/published LeadMe, reviewed/approved debrief elements only.
+- [x] Render concrete connected components in the selected-code customer Atlas panel without adding a new route family.
+- [x] Run focused API/app tests, typecheck/lint/build, then deploy and verify live signed-in behavior.
+
+## Review
+
+- API change: `/api/atlas-v1/codes/:code/components` now keeps existing count fields and adds capped approved previews: active/published LeadMe item previews plus reviewed/approved debrief element previews.
+- App change: `/atlas?code=...` selected-code panel now includes a `Connected previews` section under Components, showing preview rows when approved content exists and a clear empty state while the component database remains approval-gated.
+- Commits: API `4a4e06c` (`Expose Atlas component previews`), app `34ef123` (`Show Atlas component previews`).
+- Verification: API tests passed (644/644), API typecheck passed, API build passed; app Atlas/dashboard test passed (8/8), app lint passed, app production build passed.
+- Deploy: API deploy stage `deploy-stage-20260619-195702` health check HTTP 200; Vercel production deployment `dpl_4xQQUNEVHUsPMYsjx4wQ8wFz7S1S` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=34ef123` rendered selected code `93110101`, `Connected previews`, `0 items`, empty preview state, `Drill this code`, `Direct link`, `LeadMe lesson`, four `Study answer` links, and no browser console errors. Anonymous `GET /api/atlas-v1/codes/93110101/components` returned 401.
+
+# Atlas V2 Outline Lesson Shell - 2026-06-20
+
+## Plan
+
+- [x] Add a visible selected-code `Study this code` action without creating a duplicate Atlas route.
+- [x] Turn the selected-code lesson area into an outline lesson shell every code can use, even before a LeadMe set is approved.
+- [x] Keep substantive legal lesson content gated to approved LeadMe/doctrinal content; do not invent doctrine from the outline label.
+- [x] Run focused app test, lint/build, deploy, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...` now has a selected-code `Study this code` action and an anchored `Outline lesson` shell, with code context, approved-question practice count, and the existing LeadMe approval gate.
+- Commit: app `81e591f` (`Add Atlas outline lesson shell`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: app Atlas/dashboard test passed (8/8), app lint passed, app production build passed.
+- Deploy: Vercel production deployment `dpl_6Upi5hNiMCLx5FfCsjTNmHC8AsTd` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=81e591f#atlas-code-lesson` rendered `Study this code`, `Outline lesson`, code row `93110101 / Appealability and Review`, practice row `4 approved questions`, LeadMe approval gate, component gates, four `Study answer` links, and no browser console errors.
+
+# Global Codex Plugin/Skill Install - 2026-06-19
+
+## Plan
+
+- [x] Verify current Codex plugin CLI and installed marketplace state.
+- [x] Inspect each requested GitHub source for plugin/skill layout.
+- [x] Install what is installable globally for Codex with the smallest durable setup.
+- [x] Validate Codex sees the installed plugins/skills and record results.
+
+## Review
+
+- Started from `codex-cli 0.141.0`.
+- Existing Codex marketplaces before this work: `pony-local`, `luke-local`, `openai-primary-runtime`, `openai-bundled`, and `openai-curated`.
+- The requested GitHub sources were Agent Skills repos, not ready-to-add Codex marketplaces, so the install used a thin local marketplace wrapper at `C:\Users\JesusLovesMe\.codex\local-marketplaces\requested-design-skills`.
+- Installed and enabled: `vercel-agent-skills@requested-design-skills` (`f8a72b9`), `frontend-design@requested-design-skills` (`0fd6da0`), `ui-skills@requested-design-skills` (`ec9ea2b`), `taste-skill@requested-design-skills` (`5285855`), and `design-craft@requested-design-skills` (`d2c5b72`).
+- `frontend-design` copied only the linked skill path from `vadimcomanescu/codex-skills`; the other four sources copied their repo skill folders into the local marketplace.
+- Verification: `codex plugin list --marketplace requested-design-skills` reports all five plugins as `installed, enabled`; installed cache contains 32 total `SKILL.md` files across the five plugins; the local marketplace copy contains no `.git` directories.
+
+# Atlas V2 Walk Position Indicator - 2026-06-20
+
+## Plan
+
+- [x] Add a selected-code Atlas walk position meter using the existing ordered outline-code list.
+- [x] Keep the change customer-facing and read-only: no API/database change and no approval-gate change.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...` selected-code panel now shows an `Atlas walk` position meter, e.g. `180 / 593`, using the existing ordered outline-code list.
+- Commit: app `2214714` (`Add Atlas walk progress indicator`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_3rNoS7CLetohjBLEVUvBcRQHNdJr` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=2214714#atlas-code-lesson` rendered `ATLAS WALK 180 / 593`, selected code `93110101`, `Study this code`, `Outline lesson`, LeadMe approval gate, `Question bank`, four `Study answer` links, and no browser console errors.
+
+# Atlas V2 Practice-Ready Shortcut - 2026-06-20
+
+## Plan
+
+- [x] Reframe the existing questions filter as a customer-facing `Practice ready` shortcut.
+- [x] Make the shortcut jump the selected-code panel to the first matching code in the current subject/subtopic scope.
+- [x] Keep the change app-only, using existing approved question counts; no new backend schema.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` now labels the question-count filter and metric as `Practice ready`, and clicking that shortcut selects the first matching ready code in the current subject/subtopic scope.
+- Commit: app `715de14` (`Add Atlas practice-ready shortcut`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_52CznK9aiQJJagUcJfNH97hkyNZL` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=715de14#atlas-code-lesson` rendered `Practice ready` and `Practice-ready codes`; clicking `Practice ready` selected `93110100`, changed the URL to `?code=93110100&v=715de14`, showed only ready badges in the visible list, and had no browser console errors.
+
+# Atlas V2 Subtopic Practice Density - 2026-06-20
+
+## Plan
+
+- [x] Show ready-code and question counts in the subtopic rail using existing Atlas coverage data.
+- [x] Add the same practice density to each subtopic section header for scanability.
+- [x] Keep the change app-only; no new user-performance or weakness API.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` subtopic rail now shows ready-code and approved-question density for each subtopic, and each subtopic section header repeats `codes / ready / questions` for scanability.
+- Commit: app `90461a5` (`Show Atlas subtopic practice density`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_mzBgmzaJ3sJy6orLdqHwDDHEXaKq` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=90461a5#atlas-code-lesson` rendered rail examples such as `All subtopics / 415 READY / 1355 QUESTIONS` and section headers such as `Appealability and Review / 5 CODES / 4 READY / 13 QUESTIONS`; clicking `Motions` selected `92080000`, showed `Motions / 13 CODES / 6 READY / 13 QUESTIONS`, and had no browser console errors.
+
+# Atlas V2 Practice Walk Controls - 2026-06-20
+
+## Plan
+
+- [x] Add selected-code practice walk controls over existing approved-question counts.
+- [x] Let students jump previous/next among practice-ready outline codes without a new backend.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...` selected-code panel now has `Practice walk` controls with previous/next jumps among codes that already have approved questions.
+- Commit: app `a5812ef` (`Add Atlas practice walk controls`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_8jFZbkmWe6U64Ls7zRu2g2gEj9p4` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=a5812ef#atlas-code-lesson` rendered `Practice walk`, `Prev ready`, `Next ready`, selected code `93110101`, `4 approved questions here.`, `Outline lesson`, and no browser console errors. Clicking `Next ready` changed the URL to `?code=93110200&v=a5812ef#atlas-code-lesson`, selected `93110200 / Finality of Judgment`, showed `1 approved question here.`, and had no browser console errors.
+
+# Atlas V2 Weak-Section Drilldown - 2026-06-20
+
+## Plan
+
+- [x] Add a customer-facing weak-section drilldown control using existing subject/subtopic scope and approved-question counts.
+- [x] Keep it honest: support user-known weak areas without pretending we have per-code weakness telemetry.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` now has a `Weak-section drilldown` panel that follows the selected subject/subtopic scope, shows ready-code/question counts, and lets the learner show ready codes or jump to the first practice-ready outline code in that weak area.
+- Commit: app `1682a76` (`Add Atlas weak-section drilldown`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_8igX3dPnTRXbS1TbMNhyJAUCyYzs` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=1682a76#atlas-code-lesson` rendered `Weak-section drilldown`, `Full Atlas`, `415 ready codes / 1355 questions`, `Show ready codes`, and `Jump to first ready` with no sign-in gate or console errors. Clicking `Show ready codes` selected `93110100`. Selecting `Motions` updated the drilldown to `6 ready codes / 13 questions`; clicking `Jump to first ready` selected `92080101 / Motion for judgment on the pleadings`, showed `1 approved question here.`, and had no browser console errors.
+
+# Atlas V2 Answer Case Study Modules - 2026-06-20
+
+## Plan
+
+- [x] Render approved case-study modules on Atlas answer pages when the API returns them.
+- [x] Omit missing modules and keep detours hidden until server-side student filtering is wired.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: Atlas answer pages now render approved non-empty `case_study_modules` returned by the API, while omitted modules stay absent and `detours` remain hidden until server-side student filtering is wired.
+- Commit: app `8883ea8` (`Render Atlas answer case study modules`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_Htxf6bgvtD7xnrP93fGqwSt7Vdey` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=8883ea8#atlas-code-lesson` rendered 593 outline codes, 415 practice-ready codes, 1355 approved questions, and four `Study answer` links with no console errors. Opening `https://barmatrix.app/atlas/questions/14010_bible_map_copyright_new_trial/answer?v=8883ea8` rendered the question, correct answer, `Approved answer modules`, and the case-study section without a sign-in gate or console errors.
+
+# Atlas V2 Answer-to-Code Return Path - 2026-06-20
+
+## Plan
+
+- [x] Add a direct customer action from an Atlas answer page back to that exact outline-code lesson.
+- [x] Keep this app-only: no new route, API field, or component schema.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: Atlas answer pages now show `Study this outline code`, linking back to `/atlas?code=<outline_code>#atlas-code-lesson` for the answered question's outline code.
+- App fix: Atlas direct-code selection now reads the requested code after the client loads coverage data, so direct links and answer-return links select the requested code instead of falling back to the first node.
+- Commits: app `1675428` (`Link Atlas answers back to outline code`) and `88f7ed4` (`Respect Atlas direct code links`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_9fdQyv4ShUWWyZoPwQPQSfpS3Six` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas/questions/14010_bible_map_copyright_new_trial/answer?v=88f7ed4` rendered the question, correct answer, and `Study this outline code` with href `/atlas?code=93110101#atlas-code-lesson`. Clicking it opened `https://barmatrix.app/atlas?code=93110101#atlas-code-lesson`, selected `93110101 / Final judgment rule`, showed `Outline lesson`, `Question bank`, four approved questions, and no sign-in gate or browser console errors.
+
+# Atlas V2 Filtered Answer Detours - 2026-06-20
+
+## Plan
+
+- [x] Add backend student-safe detour extraction and target counts for outline-code and trap detours.
+- [x] Render filtered answer detours on Atlas answer pages while keeping raw case-study detour specs hidden.
+- [x] Run focused API/app checks, deploy API/app, and verify signed-in production behavior.
+
+## Review
+
+- API change: Atlas answer responses now include a filtered `detours` array built from raw case-study specs only after server-side student filtering and target-count checks.
+- API detours currently support authoritative student counts for `outline_code` targets in `atlas_questions` and `trap` targets through the existing trap query helper. Unsupported/red-zone specs stay hidden until they have a dimension-aware contract.
+- App change: Atlas answer pages render `Related study detours` only from the filtered API `detours` array, while raw `case_study_modules.detours` stay hidden.
+- Commits: API `589d83f` (`Filter Atlas answer detours`) pushed to private `auronpep/barmatrix-api` branch `codex/api-live-hardening-2026-06-19`; app `95f1c6e` (`Render Atlas answer detours`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: API `npx tsx --test src/lib/atlas-v1.test.ts` passed (10/10), `npm run typecheck` passed, `npm run build` passed, and `git diff --check` passed. App `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Deploy: API atomic Hostinger deploy stage `deploy-stage-20260619-212715` passed health check HTTP 200. Vercel production deployment `dpl_BzJoWQ1WAYbXJSHUqKvqdCyHHayw` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110101&v=95f1c6e#atlas-code-lesson` rendered the customer Atlas with `593` outline codes, `415` practice-ready codes, `1355` approved questions, and no console errors. Signed-in `https://barmatrix.app/atlas/questions/14010_bible_map_copyright_new_trial/answer?v=95f1c6e` rendered the question, correct answer, `Study this outline code`, approved answer modules, and no sign-in/locked gate or console errors. This sample has no student-visible detours, so the detour panel correctly stayed absent instead of exposing raw specs. Clicking `Study this outline code` returned to `/atlas?code=93110101#atlas-code-lesson`.
+
+# Atlas V2 Resume Walk - 2026-06-20
+
+## Plan
+
+- [x] Remember the last selected Atlas outline code on this device.
+- [x] Prefer direct `?code=` links first, then resume the saved code when opening `/atlas`.
+- [x] Show a small customer-facing saved-position cue without adding a progress database.
+- [x] Run focused app checks, deploy, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` now saves the selected outline code in device-local storage, prefers direct `?code=` links first, then resumes the saved code when opening `/atlas` without a code.
+- UI change: the selected-code panel now shows `Saved on this device for next time`, keeping the resume behavior visible without adding a progress database.
+- Commit: app `6c7b4e6` (`Remember Atlas walk position`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Deploy: Vercel production deployment `dpl_Hr7FRww4GHoQXNavesCm6ZgUhXi8` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=6c7b4e6#atlas-code-lesson` selected `93110200`; opening `https://barmatrix.app/atlas?v=6c7b4e6` without a `code` resumed `93110200`, showed `Saved on this device for next time`, `Atlas walk 181 / 593`, `Practice walk 3 / 415`, `Outline lesson`, component approval gates, and no browser console errors.
+
+# Atlas V2 Per-Code Study Sequence - 2026-06-20
+
+## Plan
+
+- [x] Add a customer-facing study sequence inside each selected outline-code lesson.
+- [x] Keep the sequence non-doctrinal and approval-gated: use the outline label, approved question counts, approved component previews, and explicit gates only.
+- [x] Run focused app test, lint/build, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...#atlas-code-lesson` now shows a four-step per-code study sequence: anchor this code, work approved questions, open approved support, and follow approved detours.
+- Approval gates remain explicit when approved questions/components/detours are missing; no legal doctrine is generated from the outline label.
+- Commit: app `4f2d0c3` (`Add Atlas per-code study sequence`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_EHo2u849dTe1xE78cBrUzB6Fchtz` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=4f2d0c3#atlas-code-lesson` rendered 593 outline codes, 415 practice-ready codes, 1355 approved questions, selected `93110200 / Finality of Judgment`, `Study sequence`, all four sequence steps, LeadMe/component approval gates, `Question bank`, `Study answer`, and no browser console errors.
+
+# Atlas V2 Lesson Question Action - 2026-06-20
+
+## Plan
+
+- [x] Add a direct approved-question action inside the per-code study sequence.
+- [x] Keep it app-only and gated by the already loaded approved question list.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...#atlas-code-lesson` now shows `Open first answer` inside the `Work approved questions` step once the approved question list is loaded, with a `View question bank` anchor fallback while the list is still loading.
+- Commit: app `c188314` (`Add Atlas first answer action`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_EF2sV5ontmFJQm5pTo4TtBCdo76S` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=c188314#atlas-code-lesson` rendered `Open first answer` with href `/atlas/questions/19169_wedding_vendor_no_appeal/answer`, the real `Question bank` anchor, `Study answer`, and no console errors. Clicking the visible `Open first answer` link opened `https://barmatrix.app/atlas/questions/19169_wedding_vendor_no_appeal/answer`, which rendered `19169_wedding_vendor_no_appeal`, `93110200 - Finality of Judgment`, the question text, and no console errors.
+
+# Atlas V2 Studied Code Progress - 2026-06-20
+
+## Plan
+
+- [x] Add device-local studied-code tracking to the customer Atlas without adding a new progress database.
+- [x] Show studied progress and next-unstudied navigation inside the selected outline-code panel.
+- [x] Keep all question/component lanes approval-gated and unchanged.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` now tracks studied outline codes in device-local storage and shows a selected-code studied progress panel with `Mark studied`, `Marked studied`, and `Next unstudied` controls.
+- The progress state is app-only/local-only for now; no new database, API, question, or component approval surface was added.
+- Commit: app `85143f0` (`Track Atlas studied codes locally`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_WurCUGzfj1vRx7AHdm6prL9eQAMh` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=85143f0#atlas-code-lesson` rendered the customer Atlas without sign-in or paid-gate blocks. Direct locators confirmed `Studied on this device`, `Mark studied`, `Next unstudied`, and `Study sequence`; clicking `Mark studied` changed it to `Marked studied`; clicking `Next unstudied` advanced to `https://barmatrix.app/atlas?code=93110300&v=85143f0#atlas-code-lesson`; browser console error count stayed `0`.
+
+# Atlas V2 Scoped Study Walk - 2026-06-20
+
+## Plan
+
+- [x] Keep `Next unstudied` inside the active subject/subtopic scope when a learner is drilling a weak section.
+- [x] Show studied progress for the active scope without adding a backend progress model.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` studied progress now follows the active subject/subtopic scope. When a learner filters to a weak section, `Next unstudied` stays within that scope instead of jumping across the full outline.
+- The change is still app-only and device-local; no new database/API progress model or approval surface was added.
+- Commit: app `08a724f` (`Scope Atlas studied walk`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_F4Gre9X5MuCXWnRx24NmnjoZTFYD` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=31010101&v=08a724f#atlas-code-lesson` rendered `Scope: Full Atlas` and no console errors. Selecting `Evidence` changed the scope, direct locators confirmed `Scope: Evidence`, `Studied on this device`, `Next unstudied`, and `Study sequence`; clicking `Next unstudied` advanced from `33040000` to `33040100` while staying in Evidence; browser console error count stayed `0`.
+
+# Atlas V2 Answer Return Actions - 2026-06-20
+
+## Plan
+
+- [x] Add a stable answer-page return action to the selected outline code's approved question bank.
+- [x] Keep the existing outline lesson return and filtered detour behavior unchanged.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: Atlas answer pages now show `Review code questions`, linking directly back to `/atlas?code=<outline_code>#atlas-code-questions` beside the existing `Study this outline code` return.
+- Existing lesson return and filtered detour behavior are unchanged; no database/API changes.
+- Commit: app `7acc0d8` (`Add Atlas answer question-bank return`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_2QY4x9K7cB79fRA4TAHpGi8NNTH4` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas/questions/19169_wedding_vendor_no_appeal/answer?v=7acc0d8` rendered `Study this outline code` and `Review code questions`; `Review code questions` had href `/atlas?code=93110200#atlas-code-questions`. Clicking it opened `https://barmatrix.app/atlas?code=93110200#atlas-code-questions`, where `Question bank` and `Study answer` rendered for `93110200`, with no sign-in/locked gate and browser console error count `0`.
+
+# Atlas V2 Weak-Section Walk Entry - 2026-06-20
+
+## Plan
+
+- [x] Add a direct start/resume action to the weak-section drilldown box.
+- [x] Reuse existing subject/subtopic scope and device-local studied state; do not add a backend progress model.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas` weak-section drilldown now shows a scoped `Start walk`, `Continue walk`, or `Restart walk` action that jumps to the next unstudied outline code in the active subject/subtopic scope, falling back to the first scoped code when the scope is already complete.
+- The change is app-only and device-local; no new database/API progress model, content lane, question, or approval surface was added.
+- Commit: app `a62df43` (`Add Atlas scoped walk action`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_FbjqgiBrUxkkp9bVFktM2AS82nUp` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=a62df43` rendered the Atlas customer page with a unique `Continue walk` scoped-walk button. Clicking it advanced to `https://barmatrix.app/atlas?code=93110300&v=a62df43`; the page then rendered `Weak-section drilldown`, `Outline lesson`, `Study sequence`, `Question bank`, `Study this code`, and three `Study answer` links, with no sign-in/locked gate and browser console error count `0`.
+
+# Atlas V2 Selected-Code Scope Focus - 2026-06-20
+
+## Plan
+
+- [x] Add a selected-code action that turns any direct code link into a weak-section drilldown scope.
+- [x] Reuse existing subject/subtopic filters and device-local studied state; do not add a backend progress model.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...` selected-code panels now include `Focus this subtopic`, which applies the selected code's subject and subtopic filters so the customer can drill the weak section around that code.
+- The change is app-only and device-local; no new database/API progress model, content lane, question, or approval surface was added.
+- Commit: app `f010f84` (`Add Atlas subtopic focus action`) pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_C8NBKX7nbb2LUpHkgLP4LYyqDbnw` was forced without cache, is READY, and is aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=dpl_C8NBKX7nbb2LUpHkgLP4LYyqDbnw` rendered `Focus this subtopic`; clicking it switched the active filters from `All subjects` / `All subtopics` to `Civil Procedure` / `Appealability and Review` and narrowed the visible code list to the five codes in that subtopic (`93110000`, `93110100`, `93110101`, `93110200`, `93110300`).
