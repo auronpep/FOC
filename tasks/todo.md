@@ -1051,3 +1051,20 @@
 - Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=ada9b73` rendered `This subtopic` with five Appealability and Review codes (`93110000`, `93110100`, `93110101`, `93110200`, `93110300`) and each row's lane footprint.
 - Interaction proof: clicking the fifth rail item changed the live selected code to `https://barmatrix.app/atlas?code=93110300&v=ada9b73`, rendered `Scope of Review`, and kept the same subtopic rail visible; browser console error count was `0`.
 - Dashboard proof: signed-in `https://barmatrix.app/dashboard?v=ada9b73` still rendered the `Outline Atlas` left-nav link and Atlas dashboard card; browser console error count was `0`.
+
+# Atlas V2 Subtopic Step Controls - 2026-06-20
+
+## Plan
+
+- [x] Add selected-code previous/next controls inside the current subtopic.
+- [x] Reuse existing Atlas coverage nodes and query-param selection; add no API/database/content lane.
+- [x] Run focused app checks, deploy production, and verify live behavior.
+
+## Review
+
+- App commit: `9781f3d` (`Add Atlas subtopic step controls`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: manual Vercel deployment `dpl_G8rMQpPGozyRmpRweUCJbBpZvqmU` reached READY; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_En9yWrpTR5urG2DTDcHTJnnyWqxV`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts` passed, `npm run lint` passed, and `npm run build` passed.
+- Live Atlas proof: `https://barmatrix.app/atlas?code=93110200&v=9781f3d` rendered the Atlas page, selected code `93110200`, `Appealability and Review`, subtopic position `4 / 5`, exactly one enabled `Next in subtopic` button, and exactly one `Prev in subtopic` button.
+- Interaction proof: clicking `Next in subtopic` changed the live URL to `https://barmatrix.app/atlas?code=93110300&v=9781f3d`, rendered code `93110300`, `Scope of Review`, and subtopic position `5 / 5`; browser console error count was `0`.
+- Dashboard note: a fresh `https://barmatrix.app/dashboard?v=9781f3d` tab rendered the public shell in the current Chrome session, so authenticated dashboard proof was not captured in this pass; the source-level route test still asserts `/atlas` is wired into the paid dashboard navigation and card.
