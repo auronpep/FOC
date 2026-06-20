@@ -1,3 +1,22 @@
+# Atlas V2 Subtopic Position Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for selected-code subtopic position context.
+- [x] Show where the selected outline code sits inside its subtopic.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `cc66923 Show Atlas subtopic position cue`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected Atlas code checkpoint now shows `Subtopic position`, e.g. where the code sits inside the current subtopic sequence.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy passed: Vercel deployment `dpl_G7QDXRs2v52xgn44yEW54UQWEiRY` is `Ready` at `https://barmatrix-gwroxo59i-sunnylee.vercel.app`.
+- Live aliases confirmed by `vercel inspect https://barmatrix.app --scope sunnylee`: `https://barmatrix.app` and `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200.
+- This deploy also includes previously pending app commits `735cbfc Keep Atlas answer breadcrumb on code`, `0063040 Show Atlas LeadMe queued item count`, and `fb6dc09 Keep Atlas practice breadcrumb on code`.
+
 # Atlas V2 Practice Breadcrumb Context - 2026-06-20
 
 ## Plan
