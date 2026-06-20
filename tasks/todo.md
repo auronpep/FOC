@@ -1,3 +1,22 @@
+# Atlas V2 Next Content Gap Cue - 2026-06-20
+
+## Plan
+
+- [x] Add focused regression coverage for the next content-gap cue.
+- [x] Show a direct jump to the first outline code in the current scope with no approved content lane.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit and push to the private app repo.
+- [ ] Retry production deploy when Vercel daily deploy limit resets.
+
+## Review
+
+- App commit: `6399982 Show Atlas next content gap`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the Weak-section drilldown card now shows `Next content gap` when the selected scope contains any outline code without an approved lane.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy was not retried because the immediately prior deploy attempt failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_DHPD2Jwsk5HLbae8GyV9krgCmW6i` at `https://barmatrix-kbxxomia4-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live `/atlas` fetch returned HTTP 200.
+
 # Atlas V2 Next Question Gap Cue - 2026-06-20
 
 ## Plan
