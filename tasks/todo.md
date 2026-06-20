@@ -1485,3 +1485,21 @@
 - Verification: added a focused source regression that first failed against the permanent placeholder lane; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_AnAquuStKntrZVwra2wuKXapUSsU` reached READY for commit `46a95dcb63f92df7e3be9941b05583d36dc78b6e`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-6v1r5rius-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible browser DOM proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped boot-camp lane.
+
+# Atlas V2 Component List Filters - 2026-06-20
+
+## Plan
+
+- [x] Add outline-list filters for guided items and answer debriefs using existing coverage counts.
+- [x] Keep drill, flashcard, and boot-camp filtering out of the list until coverage exposes type-specific counts.
+- [x] Add focused source regression coverage.
+- [x] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `5030fffcb977a3b3572405c0a0749314d8f88ab6` (`Add Atlas component list filters`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the outline list filter now includes `Guided items` and `Debriefs`, letting students narrow the code map to approved support components the coverage API can honestly identify.
+- Implementation: reused existing `leadme_item_count` and `debrief_element_count`; did not add drill, flashcard, or boot-camp list filters because coverage does not expose type-specific counts for those at list level.
+- Verification: added a focused source regression that first failed against the old filter set; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_GdcrVXF78veVqeYsL2w38k991ysa` reached READY for commit `5030fffcb977a3b3572405c0a0749314d8f88ab6`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-3i3ggywy7-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible browser DOM proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped filter change.
