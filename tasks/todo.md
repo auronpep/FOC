@@ -1449,3 +1449,21 @@
 - Verification: added a focused source regression that first failed against the stale `Outline Atlas` title; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_67sbUqHgia4m9vxJPzLfY7mpx5hR` reached READY for commit `b6f91a688731c98e75df4124a916189c5476a9d8`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-14b6xagkh-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible browser-title proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped metadata change.
+
+# Atlas V2 Visible Page Naming - 2026-06-20
+
+## Plan
+
+- [x] Rename the visible Atlas page heading to `Outline Atlas V2`.
+- [x] Keep the existing page layout, filters, route, auth gate, and component lanes unchanged.
+- [x] Add focused source regression coverage.
+- [x] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `44af714fff40d4e4ce174ef06d30a47c7f1d5f57` (`Show Atlas V2 on Atlas page`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI copy change: the visible Atlas eyebrow now says `Outline Atlas V2`; sign-in and paid-program access copy now use the same label.
+- Implementation: preserved the existing `/atlas` route, page layout, filters, auth gate, and component lanes; no new component or route was added.
+- Verification: added a focused source regression that first failed against the old visible `Outline Atlas` copy; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_DhF39bkg98ijsavm6cDFa8j91A1n` reached READY for commit `44af714fff40d4e4ce174ef06d30a47c7f1d5f57`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-livwd37z4-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible browser DOM proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped visible-copy change.
