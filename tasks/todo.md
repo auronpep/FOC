@@ -1622,7 +1622,7 @@
 - [x] Add an outline-list filter for codes with zero approved questions.
 - [x] Use existing coverage `question_count` only; do not introduce a new API field or database write.
 - [x] Add focused source regression coverage.
-- [ ] Verify, deploy, and record proof.
+- [x] Verify, deploy, and record proof.
 
 ## Review
 
@@ -1630,7 +1630,7 @@
 - UI change: the Atlas outline-list component filter now includes `Needs questions`, which returns codes where `node.question_count === 0`.
 - Implementation: reused the existing coverage `question_count`; added no API field, route, database write, or content approval mutation.
 - Verification: the focused source regression first failed against the old filter set; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
-- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as the prior `https://barmatrix-3i3ggywy7-sunnylee.vercel.app` build, so this pushed commit is not live yet.
+- Production deploy: earlier deploy was blocked by `api-deployments-free-per-day`, but the later successful production deploy `dpl_ECgb41xiCgB6TZWnKYcckKNyZt1E` includes this pushed commit in `main` and is aliased to `https://barmatrix.app`.
 
 # Atlas V2 Question Gap Counter - 2026-06-20
 
