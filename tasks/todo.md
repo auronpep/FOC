@@ -1068,3 +1068,20 @@
 - Live Atlas proof: `https://barmatrix.app/atlas?code=93110200&v=9781f3d` rendered the Atlas page, selected code `93110200`, `Appealability and Review`, subtopic position `4 / 5`, exactly one enabled `Next in subtopic` button, and exactly one `Prev in subtopic` button.
 - Interaction proof: clicking `Next in subtopic` changed the live URL to `https://barmatrix.app/atlas?code=93110300&v=9781f3d`, rendered code `93110300`, `Scope of Review`, and subtopic position `5 / 5`; browser console error count was `0`.
 - Dashboard note: a fresh `https://barmatrix.app/dashboard?v=9781f3d` tab rendered the public shell in the current Chrome session, so authenticated dashboard proof was not captured in this pass; the source-level route test still asserts `/atlas` is wired into the paid dashboard navigation and card.
+
+# Atlas V2 Lesson Checkpoint - 2026-06-20
+
+## Plan
+
+- [x] Add an in-lesson studied checkpoint for the selected outline code.
+- [x] Reuse existing device-local studied state and next-unstudied walk logic; add no API/database/content lane.
+- [x] Run focused app checks, deploy production, and verify live behavior.
+
+## Review
+
+- App commit: `a078b8d` (`Add Atlas lesson checkpoint`) pushed to private `auronpep/barmatrix-app` `main`.
+- Follow-up repair commit: `b46e823` (`Fix Atlas selected code actions`) pushed to private `auronpep/barmatrix-app` `main` after live review found sidebar action issues.
+- Production deploy: manual Vercel deployment `dpl_3Wsiw1csYwebrjyJNFyp4fKV5sAi` reached READY; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_7yY1xK1qpA3qk11QxU6nFXd6xkBi`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts` passed, `npm run lint` passed, and `npm run build` passed.
+- Live repair proof: `https://barmatrix.app/atlas?code=93110100&v=b46e823` rendered selected code `93110100`, the 5-question count, `Copy link`, visible `Study lesson`, and `Open code questions`.
+- Interaction proof: clicking `Copy link` changed the control to `Link copied`; clicking `Open code questions` changed the URL hash to `#atlas-code-questions`; the old `Direct link`, unreadable `Study this code`, `Drill this code`, and `No runnable questions matched this outline code yet` surfaces were absent; browser console error count was `0`.
