@@ -956,3 +956,20 @@
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
 - Deploy: Vercel production deployment `dpl_C8NBKX7nbb2LUpHkgLP4LYyqDbnw` was forced without cache, is READY, and is aliased to `https://barmatrix.app`.
 - Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=dpl_C8NBKX7nbb2LUpHkgLP4LYyqDbnw` rendered `Focus this subtopic`; clicking it switched the active filters from `All subjects` / `All subtopics` to `Civil Procedure` / `Appealability and Review` and narrowed the visible code list to the five codes in that subtopic (`93110000`, `93110100`, `93110101`, `93110200`, `93110300`).
+
+# Atlas V2 Lesson Position Links - 2026-06-20
+
+## Plan
+
+- [x] Add selected-code lesson context that shows where the outline item sits in the full Atlas walk.
+- [x] Add prior/next lesson targets without creating a new route, API, database, or approval surface.
+- [x] Run focused app checks, deploy production, and verify signed-in production behavior.
+
+## Review
+
+- App change: `/atlas?code=...#atlas-code-lesson` now shows `Outline position` inside the lesson shell with subject, subtopic, and full-walk position, plus native `Prior lesson` and `Next lesson` anchors.
+- The final version uses plain anchors to the existing direct-code route instead of extra client state, keeping same-route navigation simple.
+- Commits: app `91dd645` added the position block, `ae32928` tried stateful jumps, and final app commit `72b7c74` (`Use native Atlas lesson jumps`) replaced them with native anchors; all were pushed to private `auronpep/barmatrix-app` `main`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `npm run lint` passed, `git diff --check` passed, and `npm run build` passed.
+- Deploy: Vercel production deployment `dpl_BVCxuNycW8Hgt5StzQEN1seJ8psn` is READY and aliased to `https://barmatrix.app`.
+- Live proof: signed-in `https://barmatrix.app/atlas?code=93110200&v=72b7c74#atlas-code-lesson` rendered `Outline position`, `93110200 / Appealability and Review / 181 of 593`, and anchors `Prior lesson` -> `/atlas?code=93110101#atlas-code-lesson` and `Next lesson` -> `/atlas?code=93110300#atlas-code-lesson`. Directly opening the next target rendered `93110300 / Scope of Review / 182 of 593`, and browser console error count stayed `0`.
