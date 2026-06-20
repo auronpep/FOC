@@ -1667,3 +1667,20 @@
 - Implementation: reused existing `studyFilter` and `scopedUnstudiedNodes`; added no API route, database write, content mutation, or new coverage field.
 - Verification: the focused source regression first failed against missing `Showing unstudied codes only`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-63qsdy83t-sunnylee.vercel.app`, so `2a7c6cb` is pushed but not live yet.
+
+# Atlas V2 Visible Filtered List Count - 2026-06-20
+
+## Plan
+
+- [x] Show how many outline codes are visible after the current Atlas filters.
+- [x] Reuse existing filtered Atlas client state; no API, database, or content change.
+- [x] Add focused source regression coverage.
+- [x] Verify, push, try deploy, and record status.
+
+## Review
+
+- App commit: `b812d8a` (`Show Atlas visible code count`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the Atlas result list now shows `Visible codes: {filtered.length} / {allNodes.length} in {scopeLabel}` above the grouped outline codes, so students can tell how much of the 400ish-code map their current filters are hiding.
+- Implementation: reused existing `filtered`, `allNodes`, and `scopeLabel`; added no API route, database write, content mutation, or new coverage field.
+- Verification: the focused source regression first failed against missing `Visible codes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-63qsdy83t-sunnylee.vercel.app`, so `b812d8a` is pushed but not live yet.
