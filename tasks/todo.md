@@ -1154,3 +1154,19 @@
 - Click proof: clicking the first live `Do first question` link opened `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice` in Chrome.
 - Practice route proof: `/atlas/questions/[id]/practice` loads the Atlas-native runner from `getAtlasAnswer`, renders A-D choices, and includes `Submit answer`; focused test `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8).
 - Browser limitation: after the click, Chrome extension control of the practice tab timed out during DOM/screenshot inspection, so final visual inspection of that tab was not recaptured in this pass; the open tab URL and prior route tests confirm the question-open path.
+
+# Atlas V2 Answer-to-Practice Bridge - 2026-06-20
+
+## Plan
+
+- [x] Add a direct answer-debrief CTA back to the same Atlas question practice route.
+- [x] Verify from a clean `origin/main` worktree so unrelated app WIP is not deployed.
+- [x] Deploy and prove the live answer page links into the runnable question page.
+
+## Review
+
+- App commit: `031ca79` (`Add Atlas answer practice bridge`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: Vercel deployment `dpl_DEafXKmbANxVWbCCocQcTaAFyBbb` reached READY and was aliased to `https://barmatrix.app`.
+- UI repair: the Atlas answer debrief now shows `Practice this question`, linking to `/atlas/questions/{question_id}/practice` for the same Atlas question.
+- Verification: in clean worktree `C:\barmatrix-app-atlas-answer-bridge`, `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check`, `npm run lint`, local `npm run build`, and Vercel production build passed.
+- Live proof: signed-in `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/answer?v=031ca79` had exactly one `Practice this question` link to `/atlas/questions/14001_christmas_stage_review/practice`; clicking it opened the practice route, which rendered `QUESTION 1 / 5`, A-D choices, and `Submit answer`; browser console error count was `0`.
