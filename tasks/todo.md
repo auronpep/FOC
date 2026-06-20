@@ -1789,3 +1789,20 @@
 - Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, or route change.
 - Verification: the focused source regression first failed against missing `Loading questions`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy: Vercel deployment `dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE` reached READY at `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` and is aliased to `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app`.
+
+# Atlas V2 Current Code Checklist - 2026-06-20
+
+## Plan
+
+- [x] Add a compact per-code checklist inside the lesson checkpoint.
+- [x] Reuse existing selected-code state for studied, practice, support, and detour readiness.
+- [x] Keep this client-only; no API, database, or route change.
+- [x] Verify, commit, push, deploy, and record proof.
+
+## Review
+
+- App commit: `63dcd08` (`Add Atlas current code checklist`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code lesson checkpoint now includes `Current code checklist` with `Lesson studied`, `Practice ready`, `Support ready`, and `Detours ready` statuses, using existing selected-code state and component counts.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
+- Verification: the focused source regression first failed against missing `Current code checklist`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` (`dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE`), so `63dcd08` is pushed but not live yet.
