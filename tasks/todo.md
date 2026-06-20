@@ -1,3 +1,19 @@
+# Atlas V2 Component Lane Quick Filters - 2026-06-20
+
+## Plan
+
+- [x] Add focused regressions for guided/debrief quick filters.
+- [x] Add one-click scoped actions for approved guided items and debrief support.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `39010eb Add Atlas component lane quick filters`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: added scoped `Guided items` and `Debriefs` quick actions in the weak-section drilldown panel. They reuse the existing `guided` and `debriefs` component filters and select the first matching code in the current subject/subtopic scope.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; current live production remains `dpl_CmBzQR3GZAZ2AMa6bcGWhNroRTia` at `https://barmatrix-rkcdc28ii-sunnylee.vercel.app`, aliased to `https://barmatrix.app`.
+
 # Atlas V2 Mark-And-Continue Code Walk - 2026-06-20
 
 ## Plan
