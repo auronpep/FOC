@@ -1503,3 +1503,20 @@
 - Verification: added a focused source regression that first failed against the old filter set; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_GdcrVXF78veVqeYsL2w38k991ysa` reached READY for commit `5030fffcb977a3b3572405c0a0749314d8f88ab6`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-3i3ggywy7-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible browser DOM proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped filter change.
+
+# Atlas V2 Needs-Question Filter - 2026-06-20
+
+## Plan
+
+- [x] Add an outline-list filter for codes with zero approved questions.
+- [x] Use existing coverage `question_count` only; do not introduce a new API field or database write.
+- [x] Add focused source regression coverage.
+- [ ] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `12319a7` (`Add Atlas needs-question filter`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the Atlas outline-list component filter now includes `Needs questions`, which returns codes where `node.question_count === 0`.
+- Implementation: reused the existing coverage `question_count`; added no API field, route, database write, or content approval mutation.
+- Verification: the focused source regression first failed against the old filter set; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; `vercel ls barmatrix-app --scope sunnylee` still shows the latest READY production deployment as the prior `https://barmatrix-3i3ggywy7-sunnylee.vercel.app` build, so this pushed commit is not live yet.
