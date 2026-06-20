@@ -1,3 +1,20 @@
+# Atlas V2 Empty Question Practice Walk - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for previous and next practice-ready actions in the empty question-bank state.
+- [x] Add `Previous practice-ready code` beside the existing next action when an earlier approved-question code exists.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `5ecf907 Add Atlas empty question practice walk`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the empty selected-code question bank now offers both `Previous practice-ready code` and `Next practice-ready code` when adjacent approved-question codes exist.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_B4yfmGrL2iNEDWgsgnbt1FUhBZwF` at `https://barmatrix-fvh8i54ro-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Empty Question Jump - 2026-06-20
 
 ## Plan
