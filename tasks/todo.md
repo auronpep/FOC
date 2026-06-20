@@ -1,3 +1,20 @@
+# Atlas V2 Practice Lesson Bridge - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for a practice-page link back to the selected outline lesson.
+- [x] Add a submitted-state `Study outline lesson` action next to the answer debrief and sibling-question navigation.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `ce0b065 Add Atlas practice lesson bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: after submitting an Atlas practice answer, students now get a `Study outline lesson` action back to the selected outline code's lesson section.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_MYrpxt2r5PWBWKt9xGqiPDYRDsET` at `https://barmatrix-fxt9a18a7-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Answer Page Bridge - 2026-06-20
 
 ## Plan
