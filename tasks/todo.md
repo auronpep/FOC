@@ -1,3 +1,20 @@
+# Atlas V2 Learning Path Position - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the selected-code path position panel.
+- [x] Show where the selected outline code sits in the full Atlas, visible filter, subtopic, lesson, and practice walks.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `28c5031 Show Atlas learning path position`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: selected outline codes now show a `Learning path position` panel with full Atlas, visible filter, subtopic, lesson-walk, and practice-walk position.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_MYrpxt2r5PWBWKt9xGqiPDYRDsET` at `https://barmatrix-fxt9a18a7-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Saved Position Notice - 2026-06-20
 
 ## Plan
