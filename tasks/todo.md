@@ -1,3 +1,20 @@
+# Atlas V2 Question Sequence Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for per-code question sequence labels.
+- [x] Show each selected-code question's position inside the current code's approved-question list.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `c64d569 Add Atlas question sequence cue`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: selected-code question cards now show their position in that code's approved-question list, e.g. `Question 1 / 5`.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_B4yfmGrL2iNEDWgsgnbt1FUhBZwF` at `https://barmatrix-fvh8i54ro-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Empty Question Practice Walk - 2026-06-20
 
 ## Plan
