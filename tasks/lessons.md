@@ -8,3 +8,4 @@
 - When wiring a new customer-facing question launcher, prove the entire click path through question render and answer submission/reveal on live data. A link that reaches a route is not enough if the route expects a different question ID namespace.
 - When an Atlas outline code displays an approved question count, the selected-code panel must expose a visible action that opens a runnable Atlas question, not only an anchor, copy action, or lesson navigation.
 - When a live Atlas screenshot still shows removed controls, verify the hydrated production DOM before patching. The user's tab can be running an older client state even when `barmatrix.app` now serves the fixed anchors.
+- When a stale Atlas client still exposes an old drill button, trace the old API path too. Server compatibility may be needed because an open tab can keep running removed client code after a deploy.

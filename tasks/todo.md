@@ -1228,3 +1228,22 @@
 - Live smoke: `https://barmatrix.app/dashboard?codexDeploy=3e61238` rendered the dashboard sidebar Atlas link; clicking the nav link opened `https://barmatrix.app/atlas`, which rendered `Outline Atlas` and `Walk the MBE outline by code` with console error/warn count `0`.
 - Live answer smoke: `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/answer?codexDeploy=3e61238` rendered the Atlas answer page, `PRACTICE THIS QUESTION`, `STUDY THIS OUTLINE CODE`, `REVIEW CODE QUESTIONS`, and `CORRECT ANSWER`; console error/warn count was `0`.
 - Data limitation: the sampled live question does not currently expose a trap or tension detour, so the `/tensions/{slug}` link path is proven by source tests/build and deployed code, not by a visible live sample link.
+
+# Atlas V2 Question Launch Bug Recheck - 2026-06-20
+
+## Plan
+
+- [x] Reproduce the live Atlas question-open path and identify the exact dead control.
+- [x] Trace the selected-code buttons from visible UI text to route/data source.
+- [x] Patch only the confirmed broken route, control, or stale-state path.
+- [x] Verify with focused tests and live deploy proof.
+- [x] Record root cause, deployment status, and lesson learned.
+
+## Review
+
+- Root cause: the stale `Drill this code` Atlas client called `/api/drills/start` with `kind: "outline_code"`, but API outline-code drill selection required a matching active row in the legacy `questions` table. Atlas-native question IDs such as `14001_christmas_stage_review` are approved in `atlas_questions` but are not legacy question UUIDs, so the API could return `drill_id: null` while Atlas displayed approved questions.
+- API fix: commit `7c380ad` on `auronpep/barmatrix-api` changes outline-code drill selection to use included `atlas_questions` rows, keeping active legacy rows when present and allowing Atlas-native rows when no legacy row exists. Production deploy used clean detached commit `ea9435a` based on the prior live API deploy `79799ba`; rollback snapshot is `~/domains/barmatrix.app/nodejs/dist.bak-20260620-021945`.
+- App fix: commit `c99981d` on private `auronpep/barmatrix-app` `main` redirects outline-code drill assignments containing Atlas-native non-UUID question IDs from `/drills/{id}` to `/atlas/questions/{firstQuestionId}/practice`.
+- Verification: API `npx tsx --test src/routes/drills.test.ts`, `npm run typecheck`, `npm run build`, and `git diff --check` passed in both the development repo and the clean deploy worktree. App `node --test tests\ambassador-dashboard-entry.test.ts`, `npm run lint`, `npm run build`, and `git diff --check` passed.
+- Live deploy proof: API deploy health check returned HTTP 200; `https://api.barmatrix.app/health?atlas_drill_compat=ea9435a` returned `{"ok":true,"db":"up"}`. Vercel production deployment `dpl_HS7fXRskvuKHFywZeJXXcFjA7ibH` is Ready and aliased to `https://barmatrix.app` and `https://www.barmatrix.app`.
+- Live unauthenticated proof: `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice?deploy=c99981d` redirects to sign-in with the intended practice URL preserved. Full signed-in old-tab click proof could not be captured because no signed-in browser/CDP session was available in this pass.
