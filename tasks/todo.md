@@ -1941,3 +1941,20 @@
 - Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
 - Verification: the focused source regression first failed against missing `scopedNextLessonNode`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-iho54q9cg-sunnylee.vercel.app` (`dpl_4yTT1J86kPGAmMp6jP1n7LgdCAT1`), so `9b99d2a` is pushed but not live yet.
+
+# Atlas V2 Lesson Backlog Filter - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for one-click lesson backlog filtering.
+- [x] Add a scope control that shows unstudied lesson-ready outline codes.
+- [x] Keep this client-only; no API, database, route, or content change.
+- [x] Verify, commit, push, deploy if available, and record status.
+
+## Review
+
+- App commit: `ace5b64` (`Add Atlas lesson backlog filter`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the weak-section drilldown now has `Show lesson backlog`, which filters to lesson-ready codes and unstudied codes in one click, then selects the next lesson target.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
+- Verification: the focused source regression first failed against missing `showScopedLessonBacklog`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-iho54q9cg-sunnylee.vercel.app` (`dpl_4yTT1J86kPGAmMp6jP1n7LgdCAT1`), so `ace5b64` is pushed but not live yet.
