@@ -1269,3 +1269,21 @@
 - App production deploy: Vercel deployment `dpl_8MSEBq2c6xKQ9pXedR4A1AhmdJWN` reached READY for commit `812c6df`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-bi2g7bqsf-sunnylee.vercel.app`.
 - Live checks: `https://api.barmatrix.app/health?atlas_detours=9f13b2d` returned `{"ok":true,"db":"up"}`; unauthenticated `https://barmatrix.app/atlas?code=93110100&codexDetours=812c6df` correctly redirects to sign-in with the intended Atlas URL preserved.
 - Limitation: no signed-in browser-control session was available in this pass, so final live DOM proof of visible `Related detours` links was not captured; the deployed route is proven by source tests, local/Vercel builds, commit metadata, production alias, API health, and auth redirect checks.
+
+# Atlas V2 Lesson Continuation - 2026-06-20
+
+## Plan
+
+- [x] Add one-click lesson continuation after the selected code checkpoint.
+- [x] Reuse existing device-local studied progress and `nextUnstudiedCode`; add no API, database, or content lane.
+- [x] Run focused app checks, deploy if source changes pass, and record proof.
+
+## Review
+
+- App commit: `2df1a55` (`Add Atlas lesson continuation`) pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code lesson checkpoint now has a one-click `Mark studied + continue` action; once the current code is already studied, the same control reads `Continue lesson walk`.
+- Implementation: reused device-local studied progress and existing Atlas node lists; added no API, database, or approval-lane change.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_GPMqpKRow9Pq4d8gaJT7VG6CTDi1` reached READY for commit `2df1a55`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-j4wli31th-sunnylee.vercel.app`.
+- Live check: unauthenticated `https://barmatrix.app/atlas?code=93110100&lessonContinue=2df1a55#atlas-code-lesson` redirects to sign-in with the intended Atlas URL preserved.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live DOM proof of the checkpoint button was not captured; source test, lint/build, Vercel build, alias state, and auth redirect prove the deployed route.
