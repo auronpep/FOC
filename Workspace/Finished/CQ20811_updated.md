@@ -1,0 +1,999 @@
+---
+qid: "20811_illuminated_psalms_solvent"
+transformed_from: "20811"
+subject: "CIVIL_PROCEDURE"
+topic: "Personal Jurisdiction"
+subtopic: "Specific jurisdiction - contacts before fairness"
+outline_code: "94020302"
+key: "D"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+Lydia, a Maine resident, paid to attend Barnabas’s private “Illuminated Psalms” calligraphy workshop in New Mexico. During the workshop, Barnabas handed students a solvent that he had prepared for the class. All instruction, materials use, and alleged negligent conduct occurred in New Mexico. After Lydia returned to Maine, her hands became inflamed and she missed several weeks of work on paid Advent-card commissions.
+
+Lydia sued Barnabas in Maine. She argues that Maine is the fairest forum because she is recovering there, her family can help her there, and traveling back to New Mexico would be difficult. Barnabas has never taught workshops, advertised, shipped supplies, or taken commissions in Maine.
+
+**Can fairness considerations alone create specific jurisdiction in Maine?**
+
+### 2. Distilled Core Question
+
+A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?
+
+### 3. Final answer choices
+
+**A.** Yes, because Lydia’s injury was felt in Maine.
+**B.** No, because private workshop injury claims are excluded from federal courts.
+**C.** Yes, because Lydia’s hardship is enough to create minimum contacts.
+**D.** No, because fairness cannot create minimum contacts absent purposeful Maine-directed conduct by Barnabas.
+
+### 4. Correct answer
+
+**D**. Original key letter: **C**. Source row:  
+
+### 5. Letter Map
+
+| Original → New | Mechanic                               | Substance | Pick % | Provenance                                 |
+| -------------- | -------------------------------------- | --------: | -----: | ------------------------------------------ |
+| A → C          | fairness hardship creates contacts     |      kept |    31% | predicted; no measured pick rates supplied |
+| B → A          | plaintiff-side injury/effects in forum |      kept |    28% | predicted; no measured pick rates supplied |
+| C → D          | correct_answer                         |      kept |    32% | predicted; no measured pick rates supplied |
+| D → B          | wrong court/category exclusion         |      kept |     9% | predicted; no measured pick rates supplied |
+
+### 6. Full right-answer explanation
+
+**D is correct.** The item is not asking whether Maine would be convenient for Lydia. It asks whether fairness alone can create specific jurisdiction. **Gold Key:** Specific jurisdiction starts with defendant-created forum contacts; fairness may be considered only after that threshold is met. **Silver Key:** Sort personal-jurisdiction answers by layer: contacts first, fairness second. Here, Barnabas’s work, instruction, and alleged negligent conduct all occurred in New Mexico, and the stem gives no Maine-directed teaching, advertising, shipping, or commissions. The contact layer fails, so fairness cannot rescue the forum.
+
+### 7. Full wrong-answer explanations
+
+**A.** This choice sells the instinct that the forum matters because the injury was felt there. The breaker is that the answer points to Lydia-side forum effects, not Barnabas-side Maine contacts; **Gold Key:** plaintiff-side injury in the forum does not by itself supply defendant-created contacts.
+
+**B.** This choice sounds formal because it invokes federal-court exclusion language. The breaker is that the call is about Maine’s specific jurisdiction over Barnabas, not whether a category of injury claim is excluded from federal court.
+
+**C.** This is the dominant fairness trap. It turns hardship into minimum contacts, but **Gold Key:** fairness is a second-layer check; it cannot manufacture the first-layer contact requirement.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The transformed item preserves the source row’s tested rule: courts consider fairness after minimum contacts; forum convenience and plaintiff hardship do not themselves create purposeful availment. The source row states that the original surgeon’s relevant conduct occurred outside the forum and that, without purposeful forum contacts, the case fails before fairness can supply jurisdiction. 
+
+Legally, the result is unchanged. *International Shoe* supplies the minimum-contacts / fair-play formulation. *World-Wide Volkswagen* confirms that jurisdiction cannot bind a defendant with no forum “contacts, ties, or relations.” *Walden* makes the contact inquiry defendant-focused: the defendant’s suit-related conduct must create the substantial connection with the forum. *Ford* confirms the modern “arise out of or relate to” formulation, but it also shows why this item comes out the other way: Ford had systematically served the forum market; Barnabas did not. ([Justia Law][1])
+
+Choice B remains a wrong-gate distractor. Federal courts may hear state-law civil actions when diversity jurisdiction requirements are satisfied; there is no categorical federal exclusion for private workshop injury claims. ([Legal Information Institute][2])
+
+### 9. Why the variation preserves rigor and difficulty
+
+The legal shape is unchanged: out-of-state defendant conduct, home-state injury effects, plaintiff fairness hardship, no forum-directed defendant activity, and a call asking whether fairness alone can create specific jurisdiction. The dominant trap remains the same: students want to reward the sympathetic plaintiff’s home-forum hardship before checking defendant contacts.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Lydia’s injury location is a forum-side fact. The call requires defendant-side contacts. Cut as **NOT_RESPONSIVE / wrong_element**.
+
+**CUT B:** Federal-court exclusion is a different gate. The call asks personal jurisdiction in Maine. Cut as **NOT_RESPONSIVE / misfit**.
+
+**CUT C:** Hardship is fairness. The answer treats fairness as if it creates contacts. Cut as **NOT_TRUE / backwards**, anchor-assisted by the Gold Key.
+
+**CALL / Residual:** D remains true and responsive. No unresolved clash remains.
+
+### 11. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Changed from surgery/medical treatment to paid Psalm-calligraphy workshop and solvent use.                                                                    |
+| Transaction frame          | Changed from medical care to private paid instruction.                                                                                                        |
+| Specific facts             | Changed from post-surgery complications to hand inflammation after workshop solvent exposure.                                                                 |
+| Numbers                    | No legally material numbers supplied; no artificial numbers added.                                                                                            |
+| Fact ordering / rhythm     | Reordered: paid workshop → solvent → later injury → suit → fairness argument → no forum contacts.                                                             |
+| Cast size / roles          | Changed to Lydia and Barnabas; added paid Advent-card commissions as texture without creating a new issue.                                                    |
+| Choice ordering            | Shuffled; new key is D.                                                                                                                                       |
+| Choice phrasing            | Paraphrased while preserving each legal mechanic.                                                                                                             |
+| Setting / era / texture    | Changed Utah/Idaho medical setting to Maine/New Mexico Christian art-workshop setting.                                                                        |
+| Call wording               | Kept materially equivalent because “fairness considerations alone create specific jurisdiction” is the tested legal function.                                 |
+| Skipped dimensions         | No additional Christian institutional facts added; skipped to avoid First Amendment, church-property, charitable-immunity, or religious-organization clutter. |
+
+**Original stem summary:** A Utah patient sues an Idaho surgeon in Utah after Idaho surgery and Utah complications, relying on fairness despite no Utah-directed conduct.
+**Variant stem summary:** A Maine calligraphy student sues a New Mexico workshop teacher in Maine after a paid Psalm-art class injury, relying on recovery hardship despite no Maine-directed teaching or sales.
+
+### 12. Review Truth
+
+Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.
+
+### 13. The 5 variations considered
+
+|  # | Title                              | Setting / cast                                                  | Exact preserved issue                                                          | Why memorable                                                        | Legal risks                                                                   | Divergence score                                                                               |
+| -: | ---------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+|  1 | **The Illuminated Psalms Solvent** | Maine student Lydia; New Mexico teacher Barnabas                | Fairness cannot create specific jurisdiction without defendant forum contacts. | Christian art texture, paid Advent-card commissions, solvent injury. | Avoided church-property and donation facts by making it a private paid class. | **9/10 — chosen**; kills asset, transaction frame, fact rhythm, setting, cast, and harm facts. |
+|  2 | The Bethlehem Bread Starter        | Vermont student Ruth; Colorado private baking instructor Martha | Same.                                                                          | Failed bread-starter / allergy after Christmas-bread course.         | Food product facts risk product-liability clutter.                            | 8/10.                                                                                          |
+|  3 | The Psalter Harp String            | Oregon musician David; Tennessee harp repairer Paul             | Same.                                                                          | Repaired harp string snaps during worship rehearsal.                 | Repair of goods might invite stream-of-commerce arguments if shipment added.  | 7/10.                                                                                          |
+|  4 | The Nativity Lantern Glass         | Maine artisan Hannah; Arizona glass instructor Peter            | Same.                                                                          | Stained-glass workshop injury after return home.                     | Product / equipment ownership could distract from service conduct.            | 8/10.                                                                                          |
+|  5 | The Scripture Memory Coach         | Rhode Island student Timothy; Montana private tutor Stephen     | Same.                                                                          | Paid memory-coaching retreat; stress injury felt at home.            | Emotional-distress facts could add tort-doctrine clutter.                     | 7/10.                                                                                          |
+
+**Pass-1 six-step audit:**
+Step 1: Tested rule is contacts before fairness.
+Step 2: Preserved issue, outcome, answer mechanics, and 3-vs-1 residual geometry.
+Step 3: Generated five Christian variations.
+Step 4: Kept all distractor mechanics; no swap.
+Step 5: Selected the highest-divergence valid variation.
+Step 6: Shuffled choices and completed the divergence audit.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20811_illuminated_psalms_solvent"
+  internal_id: "CP-107"
+  subject: CIVIL_PROCEDURE
+  topic: "Personal Jurisdiction"
+  subtopic: "Specific jurisdiction - contacts before fairness"
+  selection_percentages:
+    A:
+      value: 28
+      provenance: "predicted"
+      note: "No measured source pick rate supplied; predicted for transformed mechanic."
+    B:
+      value: 9
+      provenance: "predicted"
+      note: "No measured source pick rate supplied; predicted for transformed mechanic."
+    C:
+      value: 31
+      provenance: "predicted"
+      note: "No measured source pick rate supplied; predicted dominant fairness trap."
+    D:
+      value: 32
+      provenance: "predicted"
+      note: "No measured source pick rate supplied; predicted credited residual."
+  official_key: "D"
+  original_key_letter: "C"
+  call: "Can fairness considerations alone create specific jurisdiction in Maine?"
+  choices:
+    A: "Yes, because Lydia's injury was felt in Maine."
+    B: "No, because private workshop injury claims are excluded from federal courts."
+    C: "Yes, because Lydia's hardship is enough to create minimum contacts."
+    D: "No, because fairness cannot create minimum contacts absent purposeful Maine-directed conduct by Barnabas."
+
+transform_provenance:
+  transformed_from: "20811"
+  variant_slug: "illuminated_psalms_solvent"
+  original_key_letter: "C"
+  new_key_letter: "D"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "fairness hardship creates minimum contacts"
+      substance: "kept"
+      pick_rate:
+        value: 31
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "injury felt in forum"
+      substance: "kept"
+      pick_rate:
+        value: 28
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 32
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "wrong court/category exclusion"
+      substance: "kept"
+      pick_rate:
+        value: 9
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A Utah patient sues an Idaho surgeon in Utah after Idaho surgery and Utah complications, relying on fairness despite no Utah-directed conduct."
+    variant_stem_one_sentence: "A Maine calligraphy student sues a New Mexico workshop teacher in Maine after a paid Psalm-art class injury, relying on recovery hardship despite no Maine-directed teaching or sales."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "transaction_frame"
+      - "specific_facts"
+      - "fact_ordering"
+      - "cast_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "church_institutional_property"
+        reason: "Skipped to avoid First Amendment, church-property, charitable-immunity, or religious-organization clutter."
+      - dimension: "call_function"
+        reason: "Kept legally equivalent wording because the tested legal function is fairness-alone specific jurisdiction."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row"
+    use: "QID, subject, topic, subtopic, stem, call, choices, official key, explanations, rule reference."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "No separate row tags supplied; no tag hypotheses adopted."
+  - priority: 3
+    source: "C3 method and controlled vocabularies"
+    use: "CUT, CLASH, CALL; controlled fields only."
+  - priority: 4
+    source: "Civil Procedure overlay"
+    use: "Threshold gate before merits; jurisdiction present vs absent."
+  - priority: 5
+    source: "Universal C3 lessons"
+    use: "True and responsive; predict before peek; wrong-element; misfit; anchor deck; calibration."
+  - priority: 6
+    source: "Official explanation"
+    use: "Lawyer confirmation only."
+  - priority: 7
+    source: "Legal research"
+    use: "Lawyer confirmation only: International Shoe, World-Wide Volkswagen, Walden, Ford, 28 U.S.C. section 1332."
+
+student_access_contract:
+  allowed_moves:
+    - "TRUE and RESPONSIVE filter"
+    - "CUT before CLASH"
+    - "Predict call before choices"
+    - "Threshold before merits"
+    - "Wrong-element detection"
+    - "Misfit detection"
+    - "Gold Key: contacts before fairness"
+    - "Silver Key: contacts layer before fairness layer"
+  forbidden_moves:
+    - "Do not use case names to make the first-pass student cut."
+    - "Do not say forum hardship is legally false without invoking the taught Gold Key."
+    - "Do not convert the federal-court exclusion into a mini-outline."
+
+stem_parse:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  call_type: "specific jurisdiction threshold"
+  call: "Can fairness considerations alone create specific jurisdiction in Maine?"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Whether Maine is convenient for Lydia."
+    - "Whether federal courts can hear the type of claim."
+    - "Whether an injury felt in Maine is enough by itself."
+  predicted_answer:
+    outcome: "No."
+    reason: "The stem supplies no purposeful Maine-directed conduct by Barnabas."
+
+trigger_facts:
+  - fact: "Lydia is a Maine resident."
+    access_label: "student_visible"
+    role: "forum-side plaintiff fact"
+  - fact: "Paid private workshop occurred in New Mexico."
+    access_label: "student_visible"
+    role: "defendant conduct outside forum"
+  - fact: "All instruction, materials use, and alleged negligent conduct occurred in New Mexico."
+    access_label: "student_visible"
+    role: "defendant-side conduct location"
+  - fact: "Injury was felt after Lydia returned to Maine."
+    access_label: "student_visible"
+    role: "plaintiff-side effects trap"
+  - fact: "Maine is argued as fair because of illness, family help, and travel difficulty."
+    access_label: "student_visible"
+    role: "fairness trap"
+  - fact: "Barnabas never taught, advertised, shipped supplies, or took commissions in Maine."
+    access_label: "student_visible"
+    role: "missing forum-directed contacts"
+
+c3_routing:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "D"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "hard"
+  tension_axis: "defendant-created contacts vs plaintiff-side fairness/effects"
+  call_heuristic: "threshold before merits"
+
+answer_array:
+  geometry: "3-vs-1 threshold array"
+  array_read: "A and C are forum-side justifications; B is a wrong-gate answer; D is the defendant-contact threshold."
+  silver_key:
+    id: "SK-CIVIL_PROCEDURE-ILLUMINATED_PSALMS_SOLVENT-01"
+    type: "answer_array"
+    navigates: "Sort contacts before fairness in specific-jurisdiction arrays."
+  residual_logic: "After cutting plaintiff-side effects, federal-court misfit, and fairness-as-contacts, D remains."
+
+choice_walkthroughs:
+  A:
+    answer_text: "Yes, because Lydia's injury was felt in Maine."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - wrong_party
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Plaintiff-side injury fact, not defendant-side contact."
+    c3_signal: "The answer points to where Lydia felt harm. The call needs Barnabas's Maine contacts."
+    lawyer_confirmation: "Walden requires defendant-focused, suit-related forum conduct; plaintiff forum injury alone is not enough."
+  B:
+    answer_text: "No, because private workshop injury claims are excluded from federal courts."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: misfit
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - wrong_jurisdiction
+      - answer_to_different_question
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "Wrong gate."
+    c3_signal: "The answer talks about federal-court claim category. The call asks Maine personal jurisdiction."
+    lawyer_confirmation: "State-law claims are not categorically excluded from federal court; diversity jurisdiction may support federal subject-matter jurisdiction if statutory requirements are met."
+  C:
+    answer_text: "Yes, because Lydia's hardship is enough to create minimum contacts."
+    filter_broken: NOT_TRUE
+    mold_code: backwards
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - common_student_myth
+      - wrong_standard
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Fairness cannot create contacts."
+    c3_signal: "The answer puts the second-layer fairness idea in the first-layer contacts slot."
+    lawyer_confirmation: "Minimum contacts must come from defendant-created forum conduct before fairness factors matter."
+  D:
+    answer_text: "No, because fairness cannot create minimum contacts absent purposeful Maine-directed conduct by Barnabas."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "True and responsive."
+    c3_signal: "It answers the call directly and tracks the missing forum-directed conduct."
+    lawyer_confirmation: "Specific jurisdiction requires defendant contacts with the forum connected to the suit; fairness alone does not supply them."
+
+residual_answer:
+  credited_choice: "D"
+  reason: "D is the only answer that both answers the fairness-alone call and preserves the contacts-before-fairness threshold."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B answers a different procedural gate."
+      basis: "call/fact relation"
+      status: "passes"
+    - claim: "A focuses on plaintiff-side effects."
+      basis: "call/fact relation plus Gold Key"
+      status: "passes"
+    - claim: "C reverses the contacts/fairness order."
+      basis: "Gold Key"
+      status: "passes"
+    - claim: "D survives."
+      basis: "Gold Key plus stem fact"
+      status: "passes"
+  quarantined_lawyer_confirmation:
+    - "International Shoe minimum-contacts formulation."
+    - "World-Wide Volkswagen no contacts, ties, or relations."
+    - "Walden defendant-focused forum conduct."
+    - "Ford arise out of or relate to defendant contacts."
+    - "28 U.S.C. section 1332 diversity jurisdiction."
+  drift_audit: "No lawyer-only rule is used as a fake structural cut; the doctrinal order is promoted as a Gold Key."
+
+gold_keys:
+  - id: "GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01"
+    statement: "Specific jurisdiction starts with defendant-created forum contacts. Fairness or convenience can defeat jurisdiction after contacts exist, but it cannot create contacts by itself."
+    type: "threshold"
+    unlocks: "fairness-alone and forum-injury traps"
+    trigger: "The plaintiff felt harm at home or argues the home forum is fair, while the defendant's conduct all occurred elsewhere."
+    tested_choice: "C"
+    authority: "International Shoe; World-Wide Volkswagen; Walden; Ford."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CIVIL_PROCEDURE-ILLUMINATED_PSALMS_SOLVENT-01"
+    statement: "In a specific-jurisdiction array, sort contacts first and fairness second. A plaintiff-side hardship fact cannot do the work of a defendant-side contact fact."
+    type: "answer_array"
+    navigates: "contacts-before-fairness answer array"
+    trigger: "Choices mention hardship, injury felt in the forum, and no forum-directed defendant conduct."
+    tested_choice: "C"
+    outline_code: "94020302"
+    last_minute_review: true
+
+remediation:
+  card_id: "CIV-REM-PJ-CONTACTS-FIRST"
+  title: "Contacts First, Fairness Second"
+  signal: "Plaintiff argues home forum is fairest, but defendant did all conduct elsewhere."
+  student_move: "Ask for defendant-created forum contacts before weighing fairness."
+  tiny_rule: "Fairness can defeat jurisdiction; it cannot create minimum contacts."
+  trap: "Letting sympathy for plaintiff hardship substitute for purposeful availment."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?"
+
+review_truth: "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself."
+
+case_study_output:
+  program_frame: "This is a contacts-before-fairness personal-jurisdiction gate question."
+  final_student_script: "Contacts first. Injury felt in Maine is Lydia-side. Hardship is fairness-side. Barnabas has no Maine-directed conduct. Pick D."
+  residual_answer: "D"
+
+quality_control:
+  true_and_responsive_residual_equals_key: true
+  exactly_three_distractors_single_filter: true
+  controlled_vocab_used: true
+  gold_key_present_because_anchor_dependent: true
+  silver_key_present_because_navigation_move_decides: true
+  no_swap: true
+  no_fork: true
+  bank_validation_verdict: PASS
+
+analytics_hooks:
+  outline_code: "94020302"
+  trap_family:
+    - "contacts-before-fairness"
+    - "plaintiff-effects-in-forum"
+    - "wrong procedural gate"
+  component_routing:
+    - "Lesson 1: TRUE and RESPONSIVE"
+    - "Lesson 7: predict before peek"
+    - "Lesson 8: wrong-element and misfit"
+    - "Lesson 12: threshold before merits"
+  estimated_pick_rates:
+    A:
+      value: 28
+      provenance: "predicted"
+    B:
+      value: 9
+      provenance: "predicted"
+    C:
+      value: 31
+      provenance: "predicted"
+    D:
+      value: 32
+      provenance: "predicted"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Civil Procedure gate question. The issue is not whether Maine is sympathetic or convenient. The issue is whether Barnabas has Maine contacts that can support specific jurisdiction.
+
+## student_access_test
+
+A student may use only C3 moves, the Civil Procedure gate habit, and the Gold Key. The student does not need to cite cases. The student must not turn fairness into contacts unless the taught anchor allows it.
+
+## question_data
+
+**Subject:** Civil Procedure
+**Topic:** Personal Jurisdiction
+**Subtopic:** Specific jurisdiction — contacts before fairness
+**Call:** Can fairness considerations alone create specific jurisdiction in Maine?
+**Credited answer:** D
+
+## distilled_core_question
+
+A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?
+
+## call_and_prediction
+
+**Call lock:** Can fairness alone create specific jurisdiction?
+**Prediction:** No. Contacts come first. Fairness cannot create them.
+
+## trigger_facts
+
+| Fact                                                                      | Student use                      |
+| ------------------------------------------------------------------------- | -------------------------------- |
+| Lydia lives in Maine.                                                     | Forum-side plaintiff fact.       |
+| Paid workshop occurred in New Mexico.                                     | Defendant conduct outside forum. |
+| All alleged negligent conduct occurred in New Mexico.                     | No Maine conduct in the event.   |
+| Injury was felt in Maine.                                                 | Effects trap.                    |
+| Lydia argues family, illness, and travel hardship.                        | Fairness trap.                   |
+| Barnabas never taught, advertised, shipped, or took commissions in Maine. | Missing contact fact.            |
+
+## governing_c3_lane
+
+**Lane:** Threshold gate before fairness.
+**Method:** CUT.
+**Gold Key:** contacts before fairness.
+**Silver Key:** contacts layer before fairness layer.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The answer points to where Lydia felt the injury. The call needs the jurisdiction-making contact.
+2. **Student label:** Wrong element: plaintiff-side effects.
+3. **True/responsive version:** “Yes, because Barnabas purposefully taught, advertised, shipped, or solicited the relevant workshop in Maine.”
+4. **Lawyer confirmation:** Plaintiff forum injury alone does not establish defendant-created minimum contacts; *Walden* keeps the inquiry focused on the defendant’s suit-related forum conduct. ([Justia Law][3])
+
+### B
+
+1. **Student-accessible C3 signal:** The answer talks about federal-court exclusion. The call asks Maine personal jurisdiction.
+2. **Student label:** Misfit: wrong gate.
+3. **True/responsive version:** “No, because Maine lacks personal jurisdiction over Barnabas.”
+4. **Lawyer confirmation:** Private injury claims are not categorically excluded from federal court; federal diversity jurisdiction exists for civil actions satisfying § 1332. ([Legal Information Institute][2])
+
+### C
+
+1. **Student-accessible C3 signal:** The answer makes fairness do the work of minimum contacts.
+2. **Student label:** Backwards: fairness after contacts, not before contacts.
+3. **True/responsive version:** “Yes, because Barnabas purposefully directed the relevant workshop conduct toward Maine.”
+4. **Lawyer confirmation:** Minimum contacts must be established before fairness factors can support jurisdiction. *International Shoe* frames the combined requirement, and *World-Wide Volkswagen* rejects jurisdiction where the defendant has no forum contacts, ties, or relations. ([Justia Law][1])
+
+### D
+
+1. **Student-accessible C3 signal:** It answers the call directly and uses the missing contact fact.
+2. **Student label:** True and responsive.
+3. **True/responsive version:** This is already true and responsive.
+4. **Lawyer confirmation:** The modern specific-jurisdiction inquiry requires defendant forum contacts and a claim that arises out of or relates to those contacts. *Ford* upheld jurisdiction where Ford served the forum market; that contact feature is absent here. ([Justia Law][4])
+
+## residual_answer
+
+D survives. It is the only answer that keeps the order straight: defendant contacts first, fairness second.
+
+## legal_leak_audit
+
+The student may say C is bad only because the Gold Key gives the contacts-before-fairness rule. The student may cut B structurally because it answers a different gate. The student may cut A because it points to Lydia’s injury location rather than Barnabas’s forum conduct.
+
+**Drift audit:** No case authority is used as a student-first-pass reason. Authority stays in lawyer confirmation.
+
+## final_student_script
+
+Contacts first. Injury felt in Maine is a plaintiff-side fact. Hardship is fairness. Barnabas has no Maine-directed teaching, advertising, shipping, or commissions. Fairness cannot create contacts. Pick D.
+
+## remediation_card
+
+**Card:** CIV-REM-PJ-CONTACTS-FIRST
+**Signal:** Plaintiff argues the home forum is fairest after all defendant conduct occurred elsewhere.
+**Move:** Ask for defendant-created forum contacts before weighing fairness.
+**Tiny rule:** Fairness can defeat jurisdiction; it cannot create minimum contacts.
+**Trap:** Sympathy for hardship replaces the contact threshold.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01**
+Specific jurisdiction starts with defendant-created forum contacts. Fairness or convenience can defeat jurisdiction after contacts exist, but it cannot create contacts by itself.
+
+## Silver Key(s)
+
+**SK-CIVIL_PROCEDURE-ILLUMINATED_PSALMS_SOLVENT-01**
+In a specific-jurisdiction array, sort contacts first and fairness second. A plaintiff-side hardship fact cannot do the work of a defendant-side contact fact.
+
+## qa_checklist
+
+| Check                                   | Result |
+| --------------------------------------- | ------ |
+| Correct answer breaks no filter         | Pass   |
+| Three distractors each break one filter | Pass   |
+| C3 residual matches key                 | Pass   |
+| Gold Key present                        | Pass   |
+| Silver Key present                      | Pass   |
+| No fork                                 | Pass   |
+| No unsupported structural falsehood     | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Recovery                                                                                 |
+| ------ | ---------------------------------------------------------------------------------------- |
+| A      | Ask: “Whose fact is this?” Injury felt in Maine is Lydia’s fact, not Barnabas’s contact. |
+| B      | Ask: “What gate is the call testing?” It is PJ, not federal subject-matter exclusion.    |
+| C      | Say the Gold Key: “Fairness cannot create contacts.”                                     |
+
+## outline_mastery_map
+
+**Outline code:** 94020302
+**Placement:** Civil Procedure → Jurisdiction and Venue → Personal Jurisdiction → Modern Due Process or Constitutional Tests → Minimum contacts test.
+**This item teaches:** contacts before fairness.
+**Adjacent mastery:** long-arm statutes, specific vs general jurisdiction, purposeful availment, fairness factors.
+
+## crossover_intersection_map
+
+| Crossover                       | Use                                        |
+| ------------------------------- | ------------------------------------------ |
+| Civil Procedure threshold logic | Contacts are a threshold gate.             |
+| C3 wrong-element                | Injury location is not defendant contact.  |
+| C3 misfit                       | Federal-court exclusion is the wrong gate. |
+| C3 calibration                  | Anchor-assisted, not pure structural.      |
+
+## review_truth
+
+Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20811_illuminated_psalms_solvent",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "D",
+  "outline_code": "94020302",
+  "distilled_core_question": "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?",
+  "review_truth": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "defendant-created contacts vs plaintiff-side fairness/effects",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold before merits",
+    "difficulty": "hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01",
+        "explanation": "The answer uses the location of Lydia's injury, but the call needs Barnabas's forum contacts."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "procedural_frame",
+        "card_ref": "CIV-CALL-01",
+        "explanation": "The answer switches from personal jurisdiction to a federal-court category gate."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01",
+        "explanation": "The answer treats hardship and fairness as if they create minimum contacts."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Student path uses call/fact relation plus Gold Key only; case authority quarantined to lawyer confirmation.",
+      "transformed_from": "20811",
+      "letter_map": "A→C; B→A; C→D; D→B",
+      "pick_rate_note": "No measured source pick rates supplied; all emitted percentages are predicted."
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01",
+        "statement": "Specific jurisdiction starts with defendant-created forum contacts. Fairness or convenience can defeat jurisdiction after contacts exist, but it cannot create contacts by itself.",
+        "type": "threshold",
+        "unlocks": "fairness-alone and forum-injury traps",
+        "trigger": "The plaintiff felt harm at home or argues the home forum is fair, while the defendant's conduct all occurred elsewhere.",
+        "tested_choice": "C",
+        "authority": "International Shoe; World-Wide Volkswagen; Walden; Ford.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CIVIL_PROCEDURE-ILLUMINATED_PSALMS_SOLVENT-01",
+        "statement": "In a specific-jurisdiction array, sort contacts first and fairness second. A plaintiff-side hardship fact cannot do the work of a defendant-side contact fact.",
+        "type": "answer_array",
+        "navigates": "contacts-before-fairness answer array",
+        "trigger": "Choices mention hardship, injury felt in the forum, and no forum-directed defendant conduct.",
+        "tested_choice": "C",
+        "outline_code": "94020302",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "20811_illuminated_psalms_solvent",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?",
+  "review_truth": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+  "tension": {
+    "axis": "defendant-created contacts vs plaintiff-side fairness/effects",
+    "resolver": "No purposeful Maine-directed conduct by Barnabas."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student sees a real Maine fact: Lydia's injury was felt there. The breaker is that personal jurisdiction turns on Barnabas's forum contacts, not Lydia's forum effects.",
+      "focus_group_pct": 28,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "misfit",
+      "architecture": "procedural_frame",
+      "why_attractive": "The student hears formal federal-court language and treats it as a threshold answer. The breaker is that the call asks specific jurisdiction in Maine, not a categorical federal-court exclusion.",
+      "focus_group_pct": 9,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "backwards",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student sympathizes with Lydia and wants the fair forum to win. The breaker is that fairness is second-layer and cannot create the first-layer minimum contacts.",
+      "focus_group_pct": 31,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CIV-REM-PJ-CONTACTS-FIRST",
+    "title": "Contacts First, Fairness Second",
+    "signal": "Plaintiff argues the home forum is fairest, but defendant did all conduct elsewhere.",
+    "student_move": "Ask for defendant-created forum contacts before weighing fairness.",
+    "tiny_rule": "Fairness can defeat jurisdiction; it cannot create minimum contacts.",
+    "trap": "Letting sympathy for plaintiff hardship substitute for purposeful availment.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "plaintiff hardship",
+    "injury felt in forum",
+    "wrong procedural gate",
+    "contacts-before-fairness order"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20811_illuminated_psalms_solvent",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?",
+  "review_truth": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats the place where the injury was felt as the jurisdiction-making fact.",
+      "skipped_move": "Ask whether the fact belongs to the defendant or the plaintiff.",
+      "recovery_step": "Mark injury location as plaintiff-side and return to defendant contacts."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student trusts formal federal-court wording.",
+      "skipped_move": "Lock the call before accepting a threshold answer.",
+      "recovery_step": "Ask whether the answer addresses personal jurisdiction in Maine."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student lets fairness and hardship substitute for contacts.",
+      "skipped_move": "Use the Gold Key before fairness balancing.",
+      "recovery_step": "Say: contacts first, fairness second."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "wrong_element",
+      "prompt": "A defendant did all conduct in State X; plaintiff feels injury in State Y. Is injury felt in State Y the defendant contact?",
+      "answer": "No. It is a plaintiff-side effects fact."
+    },
+    {
+      "drill_type": "CUT",
+      "target_skill": "misfit",
+      "prompt": "The call asks personal jurisdiction; an answer discusses federal-court exclusion. What is the cut?",
+      "answer": "Misfit: wrong procedural gate."
+    },
+    {
+      "drill_type": "CALL",
+      "target_skill": "threshold ordering",
+      "prompt": "A personal-jurisdiction answer relies on fairness before defendant contacts. What is the ordered move?",
+      "answer": "Contacts first, fairness second."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "fairness-alone trap",
+      "prompt": "Plaintiff is ill and travel is hard. Defendant has no forum contacts. Can hardship create contacts?",
+      "answer": "No. Fairness cannot create minimum contacts."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "contacts_before_fairness",
+      "plaintiff_effects_in_forum",
+      "wrong_gate_federal_court",
+      "sympathetic_plaintiff_hardship"
+    ],
+    "misconception_tags": [
+      "fairness_equals_jurisdiction",
+      "forum_injury_equals_contact",
+      "state_law_claim_excluded_from_federal_court",
+      "minimum_contacts_can_be_created_by_convenience"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1: TRUE and RESPONSIVE",
+    "Lesson 2: CUT → CLASH → CALL",
+    "Lesson 7: Predict before you peek",
+    "Lesson 8: Not-responsive molds",
+    "Lesson 12: Threshold before merits",
+    "Lesson 13: Calibration"
+  ],
+  "crossovers": [
+    {
+      "area": "Civil Procedure",
+      "connection": "jurisdiction gate before fairness merits."
+    },
+    {
+      "area": "C3 Issue-Sense",
+      "connection": "wrong-element: plaintiff injury location is not defendant contact."
+    },
+    {
+      "area": "C3 Bait Architecture",
+      "connection": "procedural-frame misfit: federal-court exclusion is not the PJ call."
+    },
+    {
+      "area": "Constitutional Due Process",
+      "connection": "minimum contacts and fairness are due-process layers."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01",
+      "statement": "Specific jurisdiction starts with defendant-created forum contacts. Fairness or convenience can defeat jurisdiction after contacts exist, but it cannot create contacts by itself.",
+      "type": "threshold",
+      "unlocks": "fairness-alone and forum-injury traps",
+      "trigger": "The plaintiff felt harm at home or argues the home forum is fair, while the defendant's conduct all occurred elsewhere.",
+      "tested_choice": "C",
+      "authority": "International Shoe; World-Wide Volkswagen; Walden; Ford.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CIVIL_PROCEDURE-ILLUMINATED_PSALMS_SOLVENT-01",
+      "statement": "In a specific-jurisdiction array, sort contacts first and fairness second. A plaintiff-side hardship fact cannot do the work of a defendant-side contact fact.",
+      "type": "answer_array",
+      "navigates": "contacts-before-fairness answer array",
+      "trigger": "Choices mention hardship, injury felt in the forum, and no forum-directed defendant conduct.",
+      "tested_choice": "C",
+      "outline_code": "94020302",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Civil Procedure > Jurisdiction and Venue > Personal Jurisdiction > Modern Due Process or Constitutional Tests > Minimum contacts test",
+    "this_item_teaches": "Contacts before fairness in specific jurisdiction.",
+    "fills": [
+      "purposeful availment threshold",
+      "defendant-focused contact analysis",
+      "plaintiff effects trap",
+      "fairness-only trap"
+    ],
+    "adjacent_to_master": [
+      "general jurisdiction",
+      "long-arm statutes",
+      "arise out of or relate to",
+      "fair play and substantial justice factors",
+      "subject-matter jurisdiction misfits"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/326/310/?utm_source=chatgpt.com "International Shoe Co. v. Washington | 326 U.S. 310 (1945) | Justia U.S. Supreme Court Center"
+[2]: https://www.law.cornell.edu/uscode/text/28/1332?utm_source=chatgpt.com "28 U.S. Code § 1332 - Diversity of citizenship; amount in controversy; costs | U.S. Code | US Law | LII / Legal Information Institute"
+[3]: https://supreme.justia.com/cases/federal/us/571/277/?utm_source=chatgpt.com "Walden v. Fiore | 571 U.S. 277 (2014) | Justia U.S. Supreme Court Center"
+[4]: https://supreme.justia.com/cases/federal/us/592/19-368/?utm_source=chatgpt.com "Ford Motor Co. v. Montana Eighth Judicial District Court | 592 U.S. ___ (2021) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20811_illuminated_psalms_solvent",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "D",
+  "outline_code": "94020302",
+  "distilled_core_question": "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?",
+  "review_truth": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20811; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20811_illuminated_psalms_solvent",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?",
+  "review_truth": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20811",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20811_illuminated_psalms_solvent",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "A plaintiff travels to another state for a paid service, all defendant conduct occurs there, the harm is later felt at home, and the defendant has no home-state contacts. Can plaintiff hardship and forum fairness alone create specific jurisdiction?",
+  "review_truth": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "94020302",
+    "this_item_teaches": "Fairness can make jurisdiction unreasonable after contacts exist, but it cannot create minimum contacts by itself.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

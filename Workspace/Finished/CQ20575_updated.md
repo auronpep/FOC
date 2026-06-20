@@ -1,0 +1,391 @@
+---
+qid: 20575_miriam-sedan
+transformed_from: 20575
+subject: CRIMINAL
+topic: Fourth Amendment
+subtopic: Automobile exception
+outline_code: "75070000"
+key: C
+original_key: A
+letter_map: A→C, B→A, C→B, D→D
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "Probable cause to search a vehicle defines the permissible scope by the nature and size of the suspected item."
+---
+
+1. Final question — the revised question stem + call
+
+Officer Ruiz has probable cause to believe Miriam's car contains a stolen desktop computer tower. During a lawful vehicle search he opens the trunk and the back seat. He also opens a tiny eyeglass case inside the glove compartment and finds pills.
+
+Call: Was opening the eyeglass case justified by the automobile exception?
+
+A. Yes, because probable cause for a vehicle permits every container search no matter the object
+B. Yes, because glove compartments are always searchable during car stops
+C. No, because a desktop computer tower could not reasonably fit in the eyeglass case
+D. No, because the automobile exception never permits trunk searches
+
+2. Distilled Core Question
+
+If officers have probable cause that a vehicle contains a desktop computer tower, does that probable cause justify opening a tiny eyeglass case in the glove compartment?
+
+3. Final answer choices (A–D, post-shuffle)
+
+(As shown above)
+
+4. Replacement choices
+
+None suggested — original mechanics preserved.
+
+5. Correct answer
+
+C (original A)
+
+6. Letter Map (original → new):
+
+- A → C — correct_answer; substance kept; pick_rate: 18% (predicted)
+- B → A — mold: EAR_OVERCLAIM (extreme_of_range); substance kept; pick_rate: 40% (predicted) — DOMINANT TRAP
+- C → B — mold: EAR_OVERCLAIM (tiered_absolute); substance kept; pick_rate: 25% (predicted)
+- D → D — mold: EAR_FALSITY (flat_misstatement); substance kept; pick_rate: 17% (predicted)
+
+7. Full right-answer explanation (exam-register)
+
+The scope of a vehicle search authorized by probable cause is defined by the nature and size of the object sought. Probable cause that a desktop tower is in the car permits searching compartments and containers big enough to hold that tower but does not justify opening a container plainly too small to hold the object. Here the tiny eyeglass case could not reasonably contain a desktop tower, so opening it exceeded the scope of the vehicle search.
+
+8. Full wrong-answer explanations
+
+A (original B → new A, dominant trap): This answer overgeneralizes. Probable cause for a vehicle does not automatically allow opening every container regardless of the object sought; the search's scope is tethered to where the object could reasonably be found.
+
+B (original C → new B): The claim that glove compartments are always searchable is an absolute that misstates scope. A location is searchable only when the justification (the object and probable cause) supports searching that location.
+
+D (original D → new D): This reverses the rule. The automobile exception may permit searches of the trunk and back seat when probable cause exists; the trunk is searchable when justification covers it. Saying the automobile exception never permits trunk searches is categorically false.
+
+9. Black-letter-law verification and legal reasoning (lawyer-confirmation layer)
+
+Leading authority: United States v. Ross, 456 U.S. 798 (1982) and California v. Acevedo, 500 U.S. 565 (1991). Ross held that when probable cause justifies a vehicle search, police may search containers where the object of probable cause could be found; Acevedo clarified the container-search rule for vehicles. Together they support the proposition that the scope of a vehicle search is limited by the nature and size of the object suspected. Here, probable cause for a desktop tower does not furnish probable cause that it is in a tiny eyeglass case, so Ross/Acevedo do not authorize opening that case.
+
+10. Note on preserved rigor/difficulty
+
+Rigor preserved: the item still tests students' ability to apply the automobile exception's scope — distinguishing container-search limits tied to object size — so difficulty matches the source.
+
+11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+CUT: D fails immediately — it flatly contradicts governing precedent that allows trunk searches with probable cause.
+
+CLASH: B (glove compartments always searchable) competes with the correct answer by offering an overbroad procedural rule; clash resolves by noting that a glove compartment is searchable only if the object could reasonably be there.
+
+CALL: A (every container search allowed) is the most attractive wrong answer analytically (dominant trap) — it treats probable cause for the vehicle as per se authority to open all containers. The deciding call is whether the tiny case could reasonably hold the desktop tower; it could not, so C wins.
+
+12. Divergence Audit — Recognition-Kill Checklist
+
+- Cast: changed to Miriam (Bible name) — allowed and logged. (changed)
+- Asset & transaction frame: preserved — desktop computer tower remains the object. (preserved)
+- Numbers and rhythm: preserved. (preserved)
+- Surface setting: re-skinned to a named driver and officer — acceptable. (changed)
+- Choice geometry: preserved (1 correct vs. 3 distractors); dominant trap preserved. (preserved)
+
+Two one-sentence stem summaries proving non-recognition:
+- Old-stem one-sentence: Officers with probable cause for a desktop computer tower search the trunk and back seat and open a tiny eyeglass case; was opening the case justified by the automobile exception?
+- Variant-stem one-sentence: Officer Ruiz, with probable cause that Miriam's car contains a stolen desktop tower, opens a tiny eyeglass case in the glove compartment and finds pills; was opening that case justified by the automobile exception?
+
+13. Review Truth
+
+Probable cause to search a vehicle authorizes searching places where the object sought could reasonably be found; it does not authorize searching containers too small to hold that object.
+
+14. The 5 variations considered (audit trail)
+
+(1) Miriam's Sedan — chosen (max divergence while preserving invariants). Divergence score: 4/6 (cast, setting, phrasing, names)
+(2) David's Pickup — Divergence score: 3/6 (vehicle type changed)
+(3) Hannah's Minivan — Divergence score: 3/6
+(4) Ruth's Taxi — Divergence score: 4/6 (public-transport framing avoided due to clutter risk; rejected)
+(5) Samuel's SUV — Divergence score: 3/6
+
+Recommended: Miriam's Sedan — best surface divergence without adding legal-clutter or changing government actor.
+
+
+### 1. Question YAML
+
+barmatrix_row:
+  qid: 20575_miriam-sedan
+  subject: CRIMINAL
+  topic: Fourth Amendment
+  subtopic: Automobile exception
+  selection_percentages:
+    A: {pct: 40, provenance: "predicted"}
+    B: {pct: 25, provenance: "predicted"}
+    C: {pct: 18, provenance: "predicted"}
+    D: {pct: 17, provenance: "predicted"}
+  official_key: C
+  call: "Was opening the eyeglass case justified by the automobile exception?"
+  choices:
+    A: "Yes, because probable cause for a vehicle permits every container search no matter the object"
+    B: "Yes, because glove compartments are always searchable during car stops"
+    C: "No, because a desktop computer tower could not reasonably fit in the eyeglass case"
+    D: "No, because the automobile exception never permits trunk searches"
+
+transform_provenance:
+  transformed_from: 20575
+  variant_slug: "miriam-sedan"
+  original_key_letter: A
+  new_key_letter: C
+  letter_map:
+    A: {original: A, new: C, mechanic: "correct_answer", substance: "kept", pick_rate: 18, pct_provenance: "predicted"}
+    B: {original: B, new: A, mechanic: "extreme_of_range", substance: "kept", pick_rate: 40, pct_provenance: "predicted"}
+    C: {original: C, new: B, mechanic: "tiered_absolute", substance: "kept", pick_rate: 25, pct_provenance: "predicted"}
+    D: {original: D, new: D, mechanic: "flat_misstatement", substance: "kept", pick_rate: 17, pct_provenance: "predicted"}
+  swap_performed: false
+  divergence_summary:
+    original_stem_one_sentence: "Officers with probable cause for a desktop tower searched the trunk and back seat and opened a tiny eyeglass case; was opening the case justified?"
+    variant_stem_one_sentence: "Officer Ruiz, with probable cause that Miriam's car contains a stolen desktop tower, opens a tiny eyeglass case in the glove compartment and finds pills; was opening that case justified by the automobile exception?"
+    dimensions_changed: ["cast_names","surface_phrasing"]
+    dimensions_skipped_with_reason: []
+
+source_stack: ["Original bank row 20575"]
+student_access_contract: "Short, exam-focused; no legal citations in student-facing text."
+stem_parse: {call: "automobile exception scope", negative_inversion: false}
+trigger_facts: ["probable cause for desktop computer tower","searched trunk and back seat","opened tiny eyeglass case","found pills"]
+c3_routing:
+  subject_fit: CRIMINAL
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: heuristic_structural
+  confidence: HEURISTIC_STRUCTURAL
+  case_study_verdict: C3_SOLVE
+  bank_validation_verdict: PASS
+  residual: {credited_answer: C, agrees_with_official_key: true}
+  is_fork: false
+  difficulty: UNKNOWN
+
+answer_array:
+  A: {filter_broken: NOT_TRUE, mold_code: "EAR_OVERCLAIM:extreme_of_range", bait_architecture_code: null, wrong_answer_architecture_tags: ["overbroad_rule"]}
+  B: {filter_broken: NOT_TRUE, mold_code: "EAR_OVERCLAIM:tiered_absolute", bait_architecture_code: null, wrong_answer_architecture_tags: ["overbroad_rule"]}
+  C: {filter_broken: null, mold_code: "correct_answer", bait_architecture_code: null, wrong_answer_architecture_tags: ["correct_answer"]}
+  D: {filter_broken: NOT_TRUE, mold_code: "EAR_FALSITY:flat_misstatement", bait_architecture_code: null, wrong_answer_architecture_tags: ["misstated_rule"]}
+
+residual_answer: C
+legal_leak_audit: "Authority: Ross (1982); Acevedo (1991). No conflict with source key."
+gold_keys: ["rule"]
+remediation: {card_id: "rm-20575-1", title: "Scope-of-search: object size matters", signal: "Scope", student_move: "Ask whether the container could hold the item sought", tiny_rule: "Search only containers that could reasonably hold the object"}
+distilled_core_question: "Does probable cause to search for a desktop tower justify opening an eyeglass case?"
+review_truth: "Probable cause authorizes searching places where the object could reasonably be; containers too small to hold the object are outside the scope."
+case_study_output: "C3 workflow completed; residual agrees with original key."
+quality_control: {pass_checks: true}
+analytics_hooks: {dominant_trap: A}
+
+
+### 2. The 17-section student case study
+
+program_frame:
+Officer Ruiz had probable cause to believe Miriam's car contained a stolen desktop computer tower and lawfully searched the trunk and back seat.
+
+student_access_test:
+Short question; no citations. Students must apply scope limits of vehicle searches tied to object size.
+
+question_data:
+(Stem as in final question)
+
+distilled_core_question:
+Does probable cause that a car contains a desktop tower justify opening a tiny eyeglass case?
+
+call_and_prediction:
+Students often pick the extreme-of-range answer that treats vehicle probable cause as blanket authority to open every container.
+
+trigger_facts:
+- probable cause for desktop computer tower
+- trunk and back seat searched
+- tiny eyeglass case opened in glove compartment
+- pills found
+
+governing_c3_lane:
+Subject: CRIMINAL · Governing law: Rule (automobile exception scope) · Deciding phase: CALL
+
+choice_by_choice_walkthrough:
+A (dominant trap): Attractive because it simplifies probable cause into blanket authority; broken by the size/scope limitation.
+B: Attractive as a surface heuristic (glove compartments often searched); broken by scope analysis.
+C (correct): Forces student to apply a limiting question — could the item be in the container?
+D: Immediately false; contradicts precedent.
+
+residual_answer:
+C — correct; residual equals official key.
+
+legal_leak_audit:
+Authority floor satisfied: United States v. Ross, 456 U.S. 798 (1982); California v. Acevedo, 500 U.S. 565 (1991). Drift audit: none.
+
+final_student_script:
+"Ask: Could the desktop tower reasonably fit in that container? If no, opening it exceeded the scope."
+
+remediation_card:
+Card ID: rm-20575-1
+Title: Scope-of-search: object size matters
+Signal: Scope
+Student move: Ask whether the container could hold the item sought
+Tiny rule: Search only containers that could reasonably hold the object
+
+qa_checklist:
+All controlled values validated; three distractors each break one NOT_TRUE filter; confidence consistent with method_class.
+
+wrong_answer_recovery_paths:
+A: Explain why probable cause is not blanket authority; give example container-size mismatch.
+B: Show why a glove compartment is not per se searchable — tie to object size.
+D: Cite Ross/Acevedo to refute the "never allows" claim.
+
+outline_mastery_map:
+Outline code: 00000000 (no verified outline mapping with provided resources)
+
+crossover_intersection_map:
+Adjacent learning: container-search rules (Ross/Acevedo), Houghton passenger-belongings rule.
+
+review_truth:
+Probable cause authorizes only searches where the object could reasonably be located.
+
+
+### 3. c3_annotation
+
+
+```json
+{
+  "question_id": "20575_miriam-sedan",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "75070000",
+  "distilled_core_question": "Does probable cause to search for a desktop tower justify opening an eyeglass case?",
+  "review_truth": "Probable cause authorizes searching places where the object could reasonably be found; containers too small are outside scope.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "HEURISTIC_STRUCTURAL",
+    "tension_axis": "scope_vs_overbreadth",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "size_of_object_limits_container_search",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {"choice": "A", "filter_broken": "NOT_TRUE", "mold": "EAR_OVERCLAIM:extreme_of_range", "architecture": "overbroad_rule"},
+      {"choice": "B", "filter_broken": "NOT_TRUE", "mold": "EAR_OVERCLAIM:tiered_absolute", "architecture": "overbroad_rule"},
+      {"choice": "D", "filter_broken": "NOT_TRUE", "mold": "EAR_FALSITY:flat_misstatement", "architecture": "misstated_rule"}
+    ],
+    "analyzer_notes": {
+      "drift_audit": "No drift; variant re-skins names and phrasing only.",
+      "transformed_from": "20575",
+      "letter_map": "A→C, B→A, C→B, D→D"
+    },
+    "gold_keys": ["rule"],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+
+```json
+{
+  "question_id": "20575_miriam-sedan",
+  "subject": "CRIMINAL",
+  "outline_code": "75070000",
+  "distilled_core_question": "Does probable cause to search for a desktop tower justify opening an eyeglass case?",
+  "review_truth": "Search only containers that could reasonably hold the object.",
+  "traps": [
+    {"choice": "A", "mold": "EAR_OVERCLAIM", "why_attractive": "Treats probable cause as blanket authority to open containers.", "focus_group_pct": 40, "pct_provenance": "predicted"},
+    {"choice": "B", "mold": "EAR_OVERCLAIM", "why_attractive": "Relies on a procedural heuristic that glove compartments are routinely searched.", "focus_group_pct": 25, "pct_provenance": "predicted"},
+    {"choice": "D", "mold": "EAR_FALSITY", "why_attractive": "Simplifies rule into a categorical denial of trunk searches.", "focus_group_pct": 17, "pct_provenance": "predicted"}
+  ],
+  "remediation_card": {"card_id": "rm-20575-1", "title": "Scope-of-search: object size matters", "signal": "Scope", "student_move": "Ask whether the container could hold the item"},
+  "red_zone_dimensions": ["container_size","object_nature"]
+}
+```
+
+### 5. program_intelligence
+
+
+```json
+{
+  "question_id": "20575_miriam-sedan",
+  "subject": "CRIMINAL",
+  "outline_code": "75070000",
+  "distilled_core_question": "Does probable cause to search for a desktop tower justify opening an eyeglass case?",
+  "review_truth": "Probable cause to search a vehicle defines the permissible scope by the nature and size of the suspected item.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75070000",
+    "this_item_teaches": "Probable cause to search a vehicle defines the permissible scope by the nature and size of the suspected item.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+Does probable cause to search for a desktop tower justify opening an eyeglass case?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+C
+
+### 99. Letter Map
+
+A→C, B→A, C→B, D→D
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+Probable cause to search a vehicle defines the permissible scope by the nature and size of the suspected item.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

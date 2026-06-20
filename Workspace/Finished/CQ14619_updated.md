@@ -1,0 +1,966 @@
+---
+qid: "14619"
+transformed_from: "14619"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "75120000"
+key: "B"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant."
+---
+Source used: BARMATRIX Q#14619 with its full stem, pick rates, answer array, official key, and official explanation; the transform instructions require a Christian-first variation, five variations considered, and then the five PASS-2 blocks for the chosen variation.  I also reviewed the reasoning-creed posture: name the pivot, preserve the high-ambition target, prove before proxy, and keep legal/candor gaps explicit. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — chosen Christian variation
+
+**Title:** *Peter’s Two-Burden Jury Instruction*
+
+A statute provides: A person commits the crime of rape if he has sexual intercourse with a female, not his wife, without her consent.
+
+Peter is charged with the rape of Mary after a private Christian-college retreat. At trial, Mary testifies to facts sufficient for a jury to find that Peter had sexual intercourse with her, that she did not consent, and that the two were not married. Peter testifies in his own defense that he believed Mary consented to sexual intercourse and that she was his common-law wife.
+
+At the conclusion of the case, the court instructed the jury that, in order to find Peter guilty of rape, it must find beyond a reasonable doubt that he had sexual intercourse with Mary without her consent. The court also instructed the jury that it should find Peter not guilty if it found either that Mary was Peter’s wife or that Peter reasonably believed Mary had consented to the sexual intercourse, but that the burden of persuasion as to these issues was on Peter.
+
+The jury found Peter guilty, and Peter appealed, contending that the court’s instructions on the issues of whether Mary was his wife and whether he reasonably believed she had consented violated his constitutional rights. Peter’s constitutional rights were:
+
+## 2. Distilled Core Question
+
+A rape statute includes “not his wife” and “without consent.” The judge tells the jury the prosecution must prove actual nonconsent beyond a reasonable doubt, but puts the burden on the defendant to prove both wife status and reasonable belief in consent. Which burden shift violates due process?
+
+## 3. Final answer choices
+
+A. Violated by the instructions as to both issues.
+B. Violated by the instruction as to whether Mary was Peter’s wife, but not violated by the instruction on belief as to consent.
+C. Violated by the instruction on belief as to consent, but not violated by the instruction as to whether Mary was Peter’s wife.
+D. Not violated by either part of the instructions.
+
+## 4. Possible replacement answer choices
+
+No replacement was used.
+
+The only low-pick distractor in the source array was **C at 10%**, but it is structurally necessary because the array is a clean 2×2 matrix:
+
+| Choice | Wife-status instruction violated? | Belief-as-consent instruction violated? |
+| ------ | --------------------------------: | --------------------------------------: |
+| A      |                               Yes |                                     Yes |
+| B      |                               Yes |                                      No |
+| C      |                                No |                                     Yes |
+| D      |                                No |                                      No |
+
+Possible replacement candidate, not used:
+
+> C. Violated by the instruction on reasonable belief as to consent because that issue concerns consent, but not violated by the instruction as to whether Mary was Peter’s wife because marriage was a defense.
+
+Reason not used: it makes the trap too explicit and risks over-signaling the element/defense split.
+
+## 5. Correct answer
+
+**B.**
+
+## 6. Full right-answer explanation
+
+**B is correct.**
+
+**Gold Key:** The prosecution must prove each statutory element beyond a reasonable doubt, but a state may place the burden of persuasion for a true affirmative defense on the defendant if the defense does not negate an element the prosecution must prove.
+
+The statute itself includes **“not his wife.”** That makes wife status part of the offense definition. The judge could not place the persuasion burden on Peter to prove Mary was his wife.
+
+The reasonable-belief-in-consent issue is different. The jury was already told that the prosecution had to prove actual nonconsent beyond a reasonable doubt. Peter’s reasonable belief in consent is treated as a defense to liability, not as the statutory element of actual consent itself. The Constitution is not violated by placing that defensive burden on him.
+
+**Silver Key:** In a “both / first only / second only / neither” array, do not pick by vibe. Label each issue separately, then match the answer choice to the two labels.
+
+## 7. Full wrong-answer explanations
+
+**A is wrong.** It over-applies the element-burden rule. Wife status is an element issue, so that instruction violates due process. Reasonable belief in consent is treated as a defense, and the court already required the prosecution to prove actual nonconsent. **Gold Key:** element burden stays with the prosecution; true affirmative-defense burden may be placed on the defendant. A picks the dominant trap: “any burden shift against the defendant must be unconstitutional.”
+
+**C is wrong.** It reverses the two labels. Wife status is the element-side issue. Reasonable belief in consent is the defense-side issue. **Silver Key:** the array is a two-issue matrix; classify both issues before choosing.
+
+**D is wrong.** It ignores the statutory element. The statute says the victim must be “not his wife.” The prosecution must carry that element burden. D is attractive because one part of the instruction is valid, but it wrongly treats both parts as valid.
+
+## 8. Full black-letter-law verification and legal reasoning
+
+The tested rule and outcome are unchanged from the source item. The Due Process Clause requires the prosecution to prove beyond a reasonable doubt every fact necessary to constitute the charged crime. The source explanation identifies that rule and applies it to the “not his wife” element while treating reasonable belief in consent as an affirmative-defense burden. 
+
+Legal authority confirms the same structure. *In re Winship* states the constitutional reasonable-doubt requirement for facts necessary to constitute the crime. ([Justia Law][1]) *Patterson v. New York* permits a state to place the burden of persuasion on the defendant for an affirmative defense that does not negate an element the state must prove. ([Legal Information Institute][2]) *Martin v. Ohio* similarly confirms that placing an affirmative-defense burden on a defendant does not violate due process when the prosecution still bears the burden on the offense elements. ([Justia Law][3])
+
+## 9. Why the variation preserves rigor/difficulty
+
+The variation changes only the names and light setting. It preserves:
+
+* the statutory element/defense split;
+* the two challenged jury instructions;
+* the same 2×2 answer-array geometry;
+* the dominant trap A, which was the highest wrong-answer pick at 37%;
+* the same credited answer B;
+* the same anchor-dependent constitutional burden rule.
+
+No church-law, First Amendment, clergy, privilege, competency, or internal religious-governance issue was added.
+
+## 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT:** No answer dies purely by grammar. This is not a hard structural item. All four choices are formally responsive to the call.
+
+**CLASH:** The answer array is a two-issue matrix. The axis is:
+
+> Which challenged burden issue is an element, and which is an affirmative defense?
+
+**CALL / Gold Key:** Apply the element-vs-defense burden anchor.
+
+* Wife status is in the statute: “not his wife.” Element side → state burden → burden shift violates.
+* Reasonable belief in consent is a defense formulation. Defense side → defendant burden allowed → no violation.
+
+Residual answer: **B**.
+
+## 11. Review Truth
+
+Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.
+
+## 12. Five variations considered
+
+|  # | Title                                | Setting                                 | Cast           | Preserved issue                       | Why memorable                            | Legal risks                                               | Verdict    |
+| -: | ------------------------------------ | --------------------------------------- | -------------- | ------------------------------------- | ---------------------------------------- | --------------------------------------------------------- | ---------- |
+|  1 | Peter’s Two-Burden Jury Instruction  | Private Christian-college retreat       | Peter, Mary    | Element vs affirmative-defense burden | Clean Christian names; no extra doctrine | Sensitive facts; keep clinical                            | **Chosen** |
+|  2 | Timothy and Lydia’s Common-Law Claim | Law-school criminal procedure exam hypo | Timothy, Lydia | Same                                  | Law-school framing is clean              | Less Christian flavor                                     | Not chosen |
+|  3 | Daniel’s Retreat Appeal              | Private student retreat                 | Daniel, Esther | Same                                  | Strong Bible-name recall                 | Esther as complainant in sexual-assault hypo may distract | Not chosen |
+|  4 | Barnabas’s Jury-Charge Problem       | Bar-prep class hypo                     | Barnabas, Ruth | Same                                  | Very teachable “jury charge” title       | Barnabas is less common                                   | Not chosen |
+|  5 | Paul’s Burden-Split Appeal           | Christian student conference            | Paul, Martha   | Same                                  | Strong memory hook                       | “Conference” facts add no value                           | Not chosen |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+# B) PASS-2 FIVE BLOCKS
+
+## 1. Question YAML
+
+```yaml
+question_id: "14619_peters_two_burden_instruction"
+transformed_from: "14619"
+
+barmatrix_row:
+  qid: 14619
+  transformed_qid: "14619_peters_two_burden_instruction"
+  subject: CRIMINAL
+  topic: "Criminal Law"
+  subtopic: "Constitutional Protection of Accused Persons"
+  original_percent_correct: 22
+  selection_percentages:
+    A:
+      percent: 37
+      provenance: "inherited_from_original_dominant_trap"
+    B:
+      percent: 21
+      provenance: "inherited_from_original_credited_answer_pick_rate"
+    C:
+      percent: 10
+      provenance: "inherited_from_original_low_pick_matrix_cell"
+    D:
+      percent: 32
+      provenance: "inherited_from_original_secondary_trap"
+  official_key: "B"
+  call: "Peter’s constitutional rights were:"
+  stem: |
+    A statute provides: A person commits the crime of rape if he has sexual intercourse with a female, not his wife, without her consent.
+
+    Peter is charged with the rape of Mary after a private Christian-college retreat. At trial, Mary testifies to facts sufficient for a jury to find that Peter had sexual intercourse with her, that she did not consent, and that the two were not married. Peter testifies in his own defense that he believed Mary consented to sexual intercourse and that she was his common-law wife.
+
+    At the conclusion of the case, the court instructed the jury that, in order to find Peter guilty of rape, it must find beyond a reasonable doubt that he had sexual intercourse with Mary without her consent. The court also instructed the jury that it should find Peter not guilty if it found either that Mary was Peter’s wife or that Peter reasonably believed Mary had consented to the sexual intercourse, but that the burden of persuasion as to these issues was on Peter.
+
+    The jury found Peter guilty, and Peter appealed, contending that the court’s instructions on the issues of whether Mary was his wife and whether he reasonably believed she had consented violated his constitutional rights. Peter’s constitutional rights were:
+  choices:
+    A: "Violated by the instructions as to both issues."
+    B: "Violated by the instruction as to whether Mary was Peter’s wife, but not violated by the instruction on belief as to consent."
+    C: "Violated by the instruction on belief as to consent, but not violated by the instruction as to whether Mary was Peter’s wife."
+    D: "Not violated by either part of the instructions."
+
+source_stack:
+  - priority: 1
+    source: "BARMATRIX row 14619"
+    use: "QID, topic, subtopic, pick rates, stem, choices, official key, official explanations."
+  - priority: 2
+    source: "Existing C3/KFP method materials"
+    use: "Hypotheses only; downgraded to anchor-assisted where doctrine is required."
+  - priority: 3
+    source: "C3 controlled vocabulary"
+    use: "Molds, filters, method_class, verdicts, confidence."
+  - priority: 4
+    source: "Official legal explanation and legal research"
+    use: "Lawyer-confirmation only."
+  - priority: 5
+    source: "Reasoning Creed"
+    use: "Posture: name pivot; preserve ambition; proof before proxy; candor on gaps."
+
+student_access_contract:
+  allowed_material:
+    - "C3 TRUE + RESPONSIVE frame"
+    - "CUT -> CLASH -> CALL workflow"
+    - "2x2 answer-array read"
+    - "Gold Key: element burden vs affirmative-defense burden"
+    - "Silver Key: classify each issue in a both/first-only/second-only/neither array"
+  controlling_test: "A smart 10-year-old with C3 and the Gold Key can classify the two issues; without the Gold Key, the item is not purely structural."
+  prohibited_move: "Do not call A, C, or D false on pure structure alone."
+
+stem_parse:
+  statute_terms:
+    - "sexual intercourse"
+    - "female"
+    - "not his wife"
+    - "without her consent"
+  prosecution_evidence:
+    - "intercourse"
+    - "no actual consent"
+    - "not married"
+  defense_testimony:
+    - "Peter believed Mary consented"
+    - "Peter believed Mary was his common-law wife"
+  jury_instructions:
+    prosecution_burden: "intercourse without consent beyond a reasonable doubt"
+    defendant_burden:
+      - "Mary was Peter’s wife"
+      - "Peter reasonably believed Mary consented"
+  appeal_issue: "Whether placing those persuasion burdens on Peter violated due process."
+
+trigger_facts:
+  - fact: "The statute itself includes 'not his wife.'"
+    c3_access: "visible_statute_text"
+    legal_role: "element marker"
+  - fact: "The court put wife-status persuasion burden on Peter."
+    c3_access: "visible_instruction"
+    legal_role: "burden shift on an element"
+  - fact: "The court separately required the prosecution to prove actual nonconsent beyond a reasonable doubt."
+    c3_access: "visible_instruction"
+    legal_role: "actual nonconsent element preserved"
+  - fact: "Peter’s reasonable belief in consent was framed as a not-guilty defense."
+    c3_access: "visible_instruction_plus_gold_key"
+    legal_role: "affirmative-defense side"
+  - fact: "Answer array gives all four combinations."
+    c3_access: "visible_answer_array"
+    legal_role: "2x2 matrix"
+
+c3_routing:
+  subject_fit: "Criminal constitutional burden instructions = element/defense split + burden placement."
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 3
+  tension_axis: "Element burden vs affirmative-defense burden"
+
+answer_array:
+  geometry: "2x2_matrix"
+  axis_1: "wife-status instruction violates due process: yes/no"
+  axis_2: "belief-as-consent instruction violates due process: yes/no"
+  matrix:
+    A:
+      wife_status: "violation"
+      belief_as_consent: "violation"
+    B:
+      wife_status: "violation"
+      belief_as_consent: "no_violation"
+    C:
+      wife_status: "no_violation"
+      belief_as_consent: "violation"
+    D:
+      wife_status: "no_violation"
+      belief_as_consent: "no_violation"
+  silver_key_ref: "SK-CRIMINAL-TWO-BURDEN-MATRIX-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: extreme_of_range
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - exception_over_applied
+      - overbroad_rule
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Too broad: treats both burden shifts as unconstitutional."
+    c3_signal: "Both-issues answer in a 2x2 matrix; dominant trap."
+    lawyer_confirmation: "Wrong because the reasonable-belief-in-consent burden is treated as an affirmative-defense burden, not an element burden."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Residual: element burden violated; affirmative-defense burden not violated."
+    c3_signal: "Matches the Gold Key classification of the two issues."
+    lawyer_confirmation: "Correct under Winship/Patterson/Martin burden allocation."
+  C:
+    filter_broken: NOT_TRUE
+    mold_code: backwards
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - wrong_standard
+      - misstated_rule
+      - half_right_answer
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "Reversed split."
+    c3_signal: "Picks the opposite one-issue answer from the correct split."
+    lawyer_confirmation: "Wrong because wife status is the statutory element and reasonable belief in consent is the defense-side issue."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: half_truth
+    mold_family: EAR_DISTORTION
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - exception_omitted
+      - common_student_myth
+      - attractive_wrong_answer
+    method_class: anchor_assisted
+    student_label: "Half-right: no violation on belief, but misses the wife-status violation."
+    c3_signal: "Neither answer ignores that one issue is in the statute."
+    lawyer_confirmation: "Wrong because the prosecution cannot be relieved of proving the 'not his wife' element."
+
+residual_answer:
+  choice: "B"
+  reason: "The only answer that marks wife-status burden as unconstitutional and belief-as-consent burden as constitutional."
+  exam_day_form: "Element yes; defense no."
+
+gold_keys:
+  - id: "GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01"
+    statement: "The prosecution must prove statutory elements beyond a reasonable doubt; a state may assign the burden of persuasion for a true affirmative defense to the defendant if that defense does not negate an element."
+    type: "burden"
+    unlocks: "The both/only/neither burden-shift matrix."
+    trigger: "Jury instruction places a burden on defendant for one issue in the offense definition and one defensive issue."
+    tested_choice: "A"
+    authority: "In re Winship; Patterson v. New York; Martin v. Ohio"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-TWO-BURDEN-MATRIX-01"
+    statement: "When the answer array says both / first only / second only / neither, label each issue separately before choosing."
+    type: "answer_array"
+    navigates: "The two-issue burden matrix."
+    trigger: "Four choices distribute two challenged instructions across all yes/no combinations."
+    tested_choice: "C"
+    outline_code: "75120000"
+    last_minute_review: true
+
+legal_leak_audit:
+  result: "Anchor-assisted, not pure structural."
+  student_accessible:
+    - "The 2x2 matrix is visible."
+    - "The statute text visibly includes wife status."
+    - "The court visibly separated actual nonconsent from reasonable belief in consent."
+  quarantined_to_gold_key:
+    - "Due process element-burden rule."
+    - "Affirmative-defense burden rule."
+  drift_risk: "Calling C or D false without the Gold Key would leak doctrine."
+  drift_audit: "No wrong choice is labeled false on pure structure; each legal conclusion rests on the Gold Key."
+
+remediation:
+  card_id: "REM-CRIM-BURDEN-SPLIT-01"
+  title: "Element or Defense?"
+  signal: "A jury instruction puts the burden on the defendant for two different issues."
+  student_move: "Underline the statute words. If the issue is inside the offense definition, state burden. If it is a separate defensive excuse, defendant burden may be allowed."
+  tiny_rule: "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant."
+  trap: "Picking 'both' whenever the defendant gets any burden."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?"
+review_truth: "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant."
+
+case_study_output:
+  final_student_script: "Two burdens. Wife is in the statute, so state must prove not-wife. Reasonable belief is defense-side after actual nonconsent is already assigned to the state. So wife-only violation: B."
+  remediation_card_ref: "REM-CRIM-BURDEN-SPLIT-01"
+
+quality_control:
+  rule_unchanged: true
+  answer_unchanged: true
+  dominant_trap_preserved: true
+  answer_array_geometry_preserved: true
+  no_clutter_doctrine_added: true
+  popular_bible_names_only: true
+  christian_first: true
+  pass_available: true
+  reason: "Credited residual equals official key and exactly three distractors each break one filter."
+
+analytics_hooks:
+  dominant_trap_choice: "A"
+  dominant_trap_percent: 37
+  secondary_trap_choice: "D"
+  secondary_trap_percent: 32
+  low_pick_choice_preserved_for_matrix: "C"
+  low_pick_percent: 10
+  tested_skill: "Criminal due-process burden allocation"
+  c3_components:
+    - "answer_array_matrix"
+    - "element_defense_split"
+    - "gold_key_burden"
+    - "calibration_anchor_assisted"
+```
+
+## 2. Student case study
+
+## program_frame
+
+This is a two-burden jury-instruction question. It is not asking whether Peter is guilty. It is asking which burden shift violates due process.
+
+C3 route: **CLASH + Gold Key.**
+
+## student_access_test
+
+Could a trained C3 student solve this without outside doctrine?
+
+**Not fully.** The 2×2 matrix is visible, but the element-vs-affirmative-defense burden rule is a Gold Key. This is **ANCHOR_SOLVE**, not pure C3.
+
+## question_data
+
+**Question ID:** 14619_peters_two_burden_instruction
+**Transformed from:** 14619
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Constitutional Protection of Accused Persons
+**Correct answer:** B
+**Original correct rate:** 22%
+**Dominant wrong answer:** A, 37%
+
+## distilled_core_question
+
+Rape statute includes “not his wife” and “without consent.” The judge puts the burden on the defendant to prove wife status and reasonable belief in consent. Which burden shift violates due process?
+
+## call_and_prediction
+
+**Call:** Peter’s constitutional rights were violated by which instruction?
+
+**Prediction:** Do not answer “both” automatically. Separate the two issues.
+
+* Wife status: in the statute → element-side.
+* Reasonable belief in consent: defense-side, because actual nonconsent was already assigned to the prosecution.
+
+Prediction: **wife-only violation.**
+
+## trigger_facts
+
+1. The statute includes “not his wife.”
+2. The court put the burden on Peter for whether Mary was his wife.
+3. The court told the jury the prosecution must prove actual nonconsent beyond a reasonable doubt.
+4. The court also put the burden on Peter for reasonable belief in consent.
+5. The choices give every combination: both, wife-only, consent-only, neither.
+
+## governing_c3_lane
+
+**Lane:** Criminal constitutional burden allocation.
+**FIT:** Element/defense split + burden placement.
+**Phase:** CLASH.
+**Method:** anchor_assisted.
+**Confidence:** ANCHOR_ASSISTED.
+
+## choice_by_choice_walkthrough
+
+### A. Violated by the instructions as to both issues.
+
+1. **Student-accessible C3 signal:** This is the “both” answer in a 2×2 matrix. It is the broadest violation answer.
+2. **Student label:** Too broad after the Gold Key.
+3. **What a true/responsive version would look like:** “Both violated” would work only if both issues were elements the prosecution had to prove.
+4. **Lawyer confirmation:** The wife-status burden violates due process, but the reasonable-belief-in-consent burden does not. A over-applies the element-burden rule.
+
+### B. Violated by the instruction as to whether Mary was Peter’s wife, but not violated by the instruction on belief as to consent.
+
+1. **Student-accessible C3 signal:** This is the wife-only matrix cell.
+2. **Student label:** Residual.
+3. **What a true/responsive version would look like:** This choice already states the correct split.
+4. **Lawyer confirmation:** “Not his wife” is in the offense definition, so the prosecution must prove it. Reasonable belief in consent is treated as a defense-side issue after actual nonconsent remains on the prosecution.
+
+### C. Violated by the instruction on belief as to consent, but not violated by the instruction as to whether Mary was Peter’s wife.
+
+1. **Student-accessible C3 signal:** This is the reverse split.
+2. **Student label:** Backwards.
+3. **What a true/responsive version would look like:** It would need wife status to be the defense and reasonable belief in consent to be the element-side issue.
+4. **Lawyer confirmation:** The statute’s “not his wife” language makes wife status the element-side issue. C reverses the burden classification.
+
+### D. Not violated by either part of the instructions.
+
+1. **Student-accessible C3 signal:** This is the “neither” answer. It ignores that at least one burden issue is inside the statute.
+2. **Student label:** Half-right.
+3. **What a true/responsive version would look like:** “Neither” would work only if both issues were affirmative defenses.
+4. **Lawyer confirmation:** The belief instruction is valid, but the wife-status instruction is not.
+
+## residual_answer
+
+**B survives.** It is the only choice that matches the element/defense split.
+
+## legal_leak_audit
+
+The student-accessible structure is the answer matrix. The legal conclusion requires the Gold Key.
+
+Do not tell students that A, C, or D are “obviously false” from structure alone. They are false only after applying the burden anchor.
+
+**Drift audit:** The walkthrough keeps doctrine in the Gold Key and lawyer-confirmation layers; it does not relabel legal knowledge as hard structure.
+
+## final_student_script
+
+“Two issues. Wife status is in the statute, so the state must prove not-wife. Reasonable belief in consent is defense-side because the state already had actual nonconsent. Wife-only violation. B.”
+
+## remediation_card
+
+**REM-CRIM-BURDEN-SPLIT-01 — Element or Defense?**
+
+* **Signal:** Jury instruction puts burdens on the defendant for two different issues.
+* **Move:** Underline the statute words.
+* **Tiny rule:** Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.
+* **Trap:** Picking “both” just because the defendant got a burden.
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01**
+
+The prosecution must prove statutory elements beyond a reasonable doubt. A state may assign the burden of persuasion for a true affirmative defense to the defendant if that defense does not negate an element.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-TWO-BURDEN-MATRIX-01**
+
+When the array says both / first only / second only / neither, label each issue separately before choosing.
+
+## qa_checklist
+
+* Rule unchanged: yes.
+* Key unchanged: yes.
+* Dominant trap preserved: yes.
+* 2×2 matrix preserved: yes.
+* No new church-law issue: yes.
+* Gold Key included: yes.
+* Silver Key included: yes.
+* Verdict: PASS / ANCHOR_SOLVE.
+
+## wrong_answer_recovery_paths
+
+**A path:** Student sees “burden on defendant” twice and picks both.
+**Recovery:** Ask whether both issues are elements.
+
+**C path:** Student sees consent in the statute and assumes belief in consent must be the element-side burden.
+**Recovery:** Separate actual consent from reasonable belief in consent.
+
+**D path:** Student knows affirmative defenses can be assigned to defendants and over-applies that rule.
+**Recovery:** Underline “not his wife” in the statute.
+
+## outline_mastery_map
+
+This item belongs in a narrow Criminal Law / Criminal Procedure constitutional-protection anchor set:
+
+* burden of proof;
+* statutory elements;
+* affirmative defenses;
+* jury instructions;
+* due process.
+
+It should not become a full criminal-law outline lesson.
+
+## crossover_intersection_map
+
+* **Constitutional Law crossover:** due process burden allocation.
+* **Evidence crossover:** none.
+* **Civil Procedure crossover:** jury-instruction challenge posture, but not a procedure item.
+* **Criminal Law crossover:** statutory element vs defense.
+
+## review_truth
+
+Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.
+
+## 3. c3_annotation JSON
+
+```json
+{
+  "question_id": "14619_peters_two_burden_instruction",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "75120000",
+  "distilled_core_question": "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?",
+  "review_truth": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Element burden vs affirmative-defense burden",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "answer_array_matrix_plus_gold_key",
+    "difficulty": 3,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "extreme_of_range",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01",
+        "explanation": "Over-applies the element-burden rule to both issues."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": null,
+        "card_ref": "SK-CRIMINAL-TWO-BURDEN-MATRIX-01",
+        "explanation": "Reverses the correct element/defense split."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01",
+        "explanation": "Correct as to the defense-side burden but misses the wife-status element burden."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Anchor-assisted item; do not classify the element/affirmative-defense split as pure structure. transformed_from: 14619. Christian variation uses Peter and Mary; no legal issue changed.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01",
+        "statement": "The prosecution must prove statutory elements beyond a reasonable doubt; a state may assign the burden of persuasion for a true affirmative defense to the defendant if that defense does not negate an element.",
+        "type": "burden",
+        "unlocks": "The both/only/neither burden-shift matrix.",
+        "trigger": "Jury instruction places a burden on defendant for one issue in the offense definition and one defensive issue.",
+        "tested_choice": "A",
+        "authority": "In re Winship; Patterson v. New York; Martin v. Ohio",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-TWO-BURDEN-MATRIX-01",
+        "statement": "When the answer array says both / first only / second only / neither, label each issue separately before choosing.",
+        "type": "answer_array",
+        "navigates": "The two-issue burden matrix.",
+        "trigger": "Four choices distribute two challenged instructions across all yes/no combinations.",
+        "tested_choice": "C",
+        "outline_code": "75120000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## 4. program_elements JSON
+
+```json
+{
+  "question_id": "14619_peters_two_burden_instruction",
+  "subject": "CRIMINAL",
+  "outline_code": "75120000",
+  "distilled_core_question": "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?",
+  "review_truth": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+  "tension": {
+    "axis": "element vs affirmative defense",
+    "resolver": "statute text plus burden Gold Key",
+    "answer_array": "2x2_matrix"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "extreme_of_range",
+      "architecture": null,
+      "why_attractive": "Highest-pull trap: students see two defendant burdens and conclude both violate due process.",
+      "focus_group_pct": 37
+    },
+    {
+      "choice": "C",
+      "mold": "backwards",
+      "architecture": null,
+      "why_attractive": "Students merge actual consent with reasonable belief in consent and reverse the split.",
+      "focus_group_pct": 10
+    },
+    {
+      "choice": "D",
+      "mold": "half_truth",
+      "architecture": null,
+      "why_attractive": "Students know affirmative-defense burdens can go to the defendant and over-apply that idea to the statutory wife element.",
+      "focus_group_pct": 32
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-BURDEN-SPLIT-01",
+    "title": "Element or Defense?",
+    "signal": "A jury instruction puts the burden on the defendant for two different issues.",
+    "student_move": "Underline the statute words and label each burden issue separately.",
+    "tiny_rule": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+    "trap": "Picking 'both' whenever the defendant gets a burden.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "sexual-assault fact pattern: keep clinical and non-gratuitous",
+    "burden-shifting constitutional doctrine",
+    "answer-array matrix can seduce dominant-trap A",
+    "legal leak risk if element/defense distinction is taught as pure structure"
+  ]
+}
+```
+
+## 5. program_intelligence JSON
+
+```json
+{
+  "question_id": "14619_peters_two_burden_instruction",
+  "subject": "CRIMINAL",
+  "outline_code": "75120000",
+  "distilled_core_question": "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?",
+  "review_truth": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "extreme_of_range",
+      "why_a_student_picks_this": "They treat every defendant persuasion burden as unconstitutional.",
+      "skipped_move": "They did not separate element burden from affirmative-defense burden.",
+      "recovery_step": "Underline the statute and classify each issue separately."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "They see the word consent and assume the reasonable-belief issue must be the prosecution’s burden.",
+      "skipped_move": "They did not distinguish actual nonconsent from reasonable belief in consent.",
+      "recovery_step": "Check whether the jury already required actual nonconsent beyond a reasonable doubt."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "They know defendants can carry affirmative-defense burdens but apply that rule to the statutory wife element too.",
+      "skipped_move": "They did not map the offense-definition words.",
+      "recovery_step": "If a phrase is inside the offense definition, start by treating it as an element."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array",
+      "target_skill": "2x2 matrix labeling",
+      "prompt": "An array says both / first only / second only / neither. What is your first move?",
+      "answer": "Label each issue separately before choosing."
+    },
+    {
+      "drill_type": "gold_key",
+      "target_skill": "element vs affirmative-defense burden",
+      "prompt": "Who bears the burden on statutory elements in a criminal case?",
+      "answer": "The prosecution beyond a reasonable doubt."
+    },
+    {
+      "drill_type": "gold_key",
+      "target_skill": "affirmative-defense burden",
+      "prompt": "May a defendant carry the burden of persuasion for a true affirmative defense?",
+      "answer": "Yes, if it does not negate an element the prosecution must prove."
+    },
+    {
+      "drill_type": "trap_recovery",
+      "target_skill": "dominant trap A",
+      "prompt": "Why is 'both burden shifts violate due process' too broad here?",
+      "answer": "Only wife status is the element-side issue; reasonable belief in consent is defense-side."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "2x2_matrix",
+      "dominant_both_trap",
+      "burden_shift",
+      "element_defense_split",
+      "anchor_assisted"
+    ],
+    "misconception_tags": [
+      "all_burdens_on_defendant_are_unconstitutional",
+      "reasonable_belief_equals_actual_consent",
+      "affirmative_defense_rule_applies_to_elements"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 2 Cut-Clash-Call",
+    "Lesson 10 Matched pair / matrix fact navigation",
+    "Lesson 12 Anchor deck",
+    "Lesson 13 Calibration"
+  ],
+  "crossovers": [
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "connection": "Due process burden allocation."
+    },
+    {
+      "subject": "CRIMINAL",
+      "connection": "Statutory elements and affirmative defenses."
+    },
+    {
+      "subject": "EVIDENCE",
+      "connection": "No direct crossover."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "Jury-instruction posture only; not a Civ Pro item."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01",
+      "statement": "The prosecution must prove statutory elements beyond a reasonable doubt; a state may assign the burden of persuasion for a true affirmative defense to the defendant if that defense does not negate an element.",
+      "type": "burden",
+      "unlocks": "The both/only/neither burden-shift matrix.",
+      "trigger": "Jury instruction places a burden on defendant for one issue in the offense definition and one defensive issue.",
+      "tested_choice": "A",
+      "authority": "In re Winship; Patterson v. New York; Martin v. Ohio",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-TWO-BURDEN-MATRIX-01",
+      "statement": "When the answer array says both / first only / second only / neither, label each issue separately before choosing.",
+      "type": "answer_array",
+      "navigates": "The two-issue burden matrix.",
+      "trigger": "Four choices distribute two challenged instructions across all yes/no combinations.",
+      "tested_choice": "C",
+      "outline_code": "75120000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law / Constitutional Protection of Accused Persons / Burden allocation",
+    "this_item_teaches": "How to separate statutory elements from affirmative defenses in jury-instruction burden questions.",
+    "fills": [
+      "due_process_reasonable_doubt_anchor",
+      "affirmative_defense_burden_anchor",
+      "2x2_answer_array_navigation"
+    ],
+    "adjacent_to_master": [
+      "In re Winship burden rule",
+      "Patterson affirmative defense rule",
+      "Martin affirmative defense burden rule",
+      "jury instruction burden shifts"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/397/358/?utm_source=chatgpt.com "In re Winship | 397 U.S. 358 (1970)"
+[2]: https://www.law.cornell.edu/supremecourt/text/432/197?utm_source=chatgpt.com "Gordon G. PATTERSON, Jr., Appellant, v. State of NEW YORK."
+[3]: https://supreme.justia.com/cases/federal/us/480/228/?utm_source=chatgpt.com "Martin v. Ohio | 480 U.S. 228 (1987)"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14619",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "75120000",
+  "distilled_core_question": "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?",
+  "review_truth": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14619; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14619",
+  "subject": "CRIMINAL",
+  "outline_code": "75120000",
+  "distilled_core_question": "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?",
+  "review_truth": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14619",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14619",
+  "subject": "CRIMINAL",
+  "outline_code": "75120000",
+  "distilled_core_question": "Rape statute includes 'not his wife' and 'without consent'; court puts defendant burden on wife status and reasonable belief in consent. Which burden shift violates due process?",
+  "review_truth": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75120000",
+    "this_item_teaches": "Elements stay with the prosecution; true affirmative defenses may be assigned to the defendant.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

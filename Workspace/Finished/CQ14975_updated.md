@@ -1,0 +1,737 @@
+---
+qid: 14975_olive_grove_law_book_fair
+transformed_from: 14975
+subject: REAL_PROPERTY
+topic: Ownership
+subtopic: Ownership
+outline_code: 82010000
+key: A
+original_key: B
+letter_map: A→C, B→A, C→D, D→B
+dominant_trap: C
+pick_rates: inherited
+bank_validation_verdict: NEEDS_HUMAN
+review_truth: "For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules."
+---
+
+Lydia owned an olive grove in State A where she hosted weekend Scripture-copying retreats. During a Christian law-book fair in State B, Lydia made fraudulent statements to Timothy, a State B resident, and later transferred title to the grove to him. Timothy then filed a diversity suit against Lydia in the federal district court of State A, seeking to cancel the deed on the ground that Lydia's transfer was fraudulent. Will State B's choice-of-law rules apply to this lawsuit?
+
+Distilled Core Question: In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?
+
+A: No, because the grove is located in State A, so State A's choice-of-law rules will apply.
+B: Yes, because State B is where Timothy lives.
+C: No, because the suit was filed in State A, so State A's choice-of-law rules will apply.
+D: Yes, because State B is where Lydia made the fraudulent statements.
+
+Correct answer: Official credited answer A (original key letter: B). Legal/C3 review flags NEEDS_HUMAN because choice C is also legally supportable under Klaxon on the exact facts.
+
+Letter Map:
+- A→C: mechanic = forum-state filing rule; substance kept; pick rate = 24% inherited; dominant trap.
+- B→A: mechanic = correct_answer / situs; substance kept; pick rate = 56% inherited.
+- C→D: mechanic = fraud-location rule; substance kept; pick rate = 18% inherited.
+- D→B: mechanic = buyer-domicile rule; substance kept; pick rate = 2% inherited.
+
+Full right-answer explanation:
+The official credited answer is A. The answer is attractive and conventionally right under the situs framing: disputes over title to land are normally governed by the state where the land sits, and the grove sits in State A. Gold Key: when a land-title cancellation question points to a state where the land is located, situs is the land-law anchor. Silver Key: first separate State B facts from State A land; State B supplies the buyer and the alleged fraud location, but not the land.
+
+However, this item cannot receive a clean PASS. Choice C also says "No" and says State A choice-of-law rules apply because the diversity suit was filed in federal court in State A. Klaxon Co. v. Stentor Electric Mfg. Co., 313 U.S. 487 (1941), states that a federal diversity court applies the choice-of-law rules of the state in which it sits. Because the federal court sits in State A, choice C is legally supportable on these facts even if the official explanation prefers the situs reason.
+
+Full wrong-answer explanations:
+- B: This sells the buyer-domicile shortcut. Timothy's State B residence can feel important because diversity and party citizenship are in the stem, but domicile does not choose the conflicts rule for a deed-cancellation dispute about State A land.
+- C: This is the dominant trap and also the defect. The official explanation treats the filing-location reason as the wrong reason because land-title issues point to the situs, but Klaxon makes the forum-state choice-of-law point legally supportable in a federal diversity case filed in State A. This choice requires human review, not a forced cut.
+- D: This sells the tort-location shortcut. The State B law-book fair explains where the alleged fraud happened, but the requested relief cancels a deed to State A land, so the fraud location does not make State B's choice-of-law rules control.
+
+Full black-letter-law verification and legal reasoning for the right answer:
+The supplied official key chooses the situs answer: State A choice-of-law rules apply because the property is located in State A. The situs principle is consistent with Restatement (Second) of Conflict of Laws § 223 for interests in land and § 189 for contracts transferring interests in land: land-related interests are ordinarily governed by the law of the state where the land is situated unless a stronger relationship rule applies.
+
+The row has a separate federal-courts problem. Klaxon holds that in diversity cases, federal courts follow the conflict-of-laws rules of the states in which they sit. Here, the federal district court sits in State A. That makes the forum-based answer also legally supportable. Because the official key is not the only legally supportable answer, the bank validation verdict is NEEDS_HUMAN.
+
+Research authorities checked:
+- Klaxon Co. v. Stentor Electric Mfg. Co., 313 U.S. 487 (1941): https://supreme.justia.com/cases/federal/us/313/487/
+- Cornell LII, Klaxon text: https://www.law.cornell.edu/supremecourt/text/313/487
+- Restatement (Second) of Conflict of Laws § 189 selection excerpt: https://msgre2.people.wm.edu/2ndRestatement.html
+
+Brief note on why the variation preserves the original rigor/difficulty:
+The variation keeps the same four mechanics: situs, forum filing, fraud location, and buyer domicile. It changes the surface story to an olive-grove transfer after a Christian law-book fair while preserving the federal diversity posture, State A land, State B buyer, State B fraud, and deed-cancellation call. Because research shows the original dominant trap is legally supportable, rigor is preserved only by flagging the item for human review.
+
+C3 elimination walkthrough — CUT → CLASH → CALL for each wrong answer:
+- B: CUT. The answer says State B rules apply because Timothy lives there. The call asks which choice-of-law rules govern the land-deed lawsuit, and residence is a visible non-land fact. Filter: NOT_TRUE. Mold: flat_misstatement.
+- C: CLASH / HUMAN REVIEW. The answer says State B rules do not apply and State A rules apply because the suit was filed in State A. That conclusion is the same as A and the reason is supportable under Klaxon. C cannot be cleanly cut under the student-access test.
+- D: CUT. The answer says State B rules apply because the fraud happened there. The relief sought is cancellation of a deed to State A land, so the fraud-location fact is a neighboring-frame lure. Filter: NOT_TRUE. Mold: wrong_element.
+
+Divergence Audit:
+- Asset/subject matter: changed from generic land to an olive grove used for Scripture-copying retreats.
+- Transaction frame: kept title transfer and deed cancellation because changing it would alter the real-property issue.
+- Specific lies/facts: changed generic fraudulent transfer to fraudulent statements made at a Christian law-book fair.
+- Numbers: no legally free numbers appeared in the source row.
+- Fact ordering and stem rhythm: changed to begin with setting, then fraud location, then deed transfer and lawsuit.
+- Cast size/roles: changed owner/buyer to Lydia and Timothy; no antagonist-coded Bible names used.
+- Choice ordering: shuffled from original B to new A, D to new B, A to new C, C to new D.
+- Choice phrasing: re-skinned each reason while keeping the same legal mechanic.
+- Setting/era/texture: changed to a Christian law-book fair and retreat grove.
+- Call wording: kept the original call function because adding doctrine would lower difficulty.
+- Original stem summary: A State A landowner transferred title to a State B buyer, who sued in federal court in State A to cancel the deed for fraud committed in State B.
+- Variant stem summary: Lydia transferred a State A olive grove to Timothy after fraudulent statements at a State B Christian law-book fair, and Timothy sued in federal court in State A to cancel the deed.
+
+Review Truth: For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules.
+
+The 5 variations considered:
+1. Olive Grove Law-Book Fair — State A olive grove, Lydia, Timothy, fraud at State B Christian law-book fair. Divergence score: 8/10; kills asset texture, setting, fact rhythm, and cast while preserving all legal mechanics. Recommended because it has maximum surface divergence without clutter doctrine.
+2. Psalm-Engraving Cabin Sale — State A retreat cabin, Ruth, Daniel, fraud during a State B engraving workshop. Divergence score: 7/10; strong Christian texture but cabin sale too close to ordinary house-sale recognition.
+3. Vineyard Parcel Hymnal Auction — State A vineyard parcel, Esther, Barnabas, fraud at a State B hymnal auction. Divergence score: 8/10; high divergence but auction language risked adding sale-procedure clutter.
+4. Prayer-Trail Acreage Trade — State A acreage, Naomi, Stephen, fraud during a State B private tutoring weekend. Divergence score: 7/10; clean but less memorable.
+5. Bookbinder's Garden Lot — State A garden lot, Mary, Paul, fraud at a State B Bible-rebinding fair. Divergence score: 8/10; good surface divergence but the selected olive-grove version had cleaner land-title framing.
+
+### 1. Question YAML
+```yaml
+barmatrix_row:
+  qid: 14975_olive_grove_law_book_fair
+  subject: REAL_PROPERTY
+  topic: Ownership
+  subtopic: Ownership
+  outline_code: "82010000"
+  selection_percentages:
+    A:
+      value: 56
+      provenance: inherited
+    B:
+      value: 2
+      provenance: inherited
+    C:
+      value: 24
+      provenance: inherited
+    D:
+      value: 18
+      provenance: inherited
+  official_key: A
+  call: Will State B's choice-of-law rules apply to this lawsuit?
+  choices:
+    A: "No, because the grove is located in State A, so State A's choice-of-law rules will apply."
+    B: "Yes, because State B is where Timothy lives."
+    C: "No, because the suit was filed in State A, so State A's choice-of-law rules will apply."
+    D: "Yes, because State B is where Lydia made the fraudulent statements."
+transform_provenance:
+  transformed_from: 14975
+  variant_slug: olive_grove_law_book_fair
+  original_key_letter: B
+  new_key_letter: A
+  letter_map:
+    - original_letter: A
+      new_letter: C
+      mechanic: forum-state filing rule
+      substance: kept
+      pick_rate:
+        value: 24
+        provenance: inherited
+      dominant_trap: true
+    - original_letter: B
+      new_letter: A
+      mechanic: correct_answer / situs
+      substance: kept
+      pick_rate:
+        value: 56
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: C
+      new_letter: D
+      mechanic: fraud-location rule
+      substance: kept
+      pick_rate:
+        value: 18
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: D
+      new_letter: B
+      mechanic: buyer-domicile rule
+      substance: kept
+      pick_rate:
+        value: 2
+        provenance: inherited
+      dominant_trap: false
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A State A landowner transferred title to a State B buyer, who sued in federal court in State A to cancel the deed for fraud committed in State B."
+    variant_stem_one_sentence: "Lydia transferred a State A olive grove to Timothy after fraudulent statements at a State B Christian law-book fair, and Timothy sued in federal court in State A to cancel the deed."
+    dimensions_changed:
+      - asset texture
+      - specific fraud facts
+      - fact rhythm
+      - cast
+      - setting
+      - choice order
+      - choice phrasing
+    dimensions_skipped_with_reason:
+      - "Transaction frame kept because deed cancellation and title transfer are load-bearing."
+      - "Call wording kept because adding doctrine would issue-spot the test."
+source_stack:
+  - QBank/14975.md
+  - controlled_vocabularies.md
+  - OUTLINE_CODES_COMPLETE.md
+  - Klaxon Co. v. Stentor Electric Mfg. Co.
+student_access_contract:
+  student_can_use_only: "C3 lessons, taught tiny anchors, and the visible stem facts."
+  legal_leak_warning: "The forum-rule/situs clash requires lawyer confirmation."
+stem_parse:
+  parties:
+    owner: Lydia
+    buyer: Timothy
+  property_state: State A
+  buyer_residence: State B
+  fraud_location: State B
+  court: federal district court of State A
+  remedy: cancel the deed
+trigger_facts:
+  - fact: "land is in State A"
+    access: student_visible
+  - fact: "federal diversity suit is filed in State A"
+    access: student_visible
+  - fact: "buyer lives in State B"
+    access: student_visible
+  - fact: "fraud happened in State B"
+    access: student_visible
+c3_routing:
+  subject_fit: Real Property
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: needs_human
+  confidence: HUMAN_REVIEW
+  case_study_verdict: NEEDS_HUMAN
+  bank_validation_verdict: NEEDS_HUMAN
+  residual: "A and C"
+  agrees_with_official_key: false
+  is_fork: true
+  fork_type: QUESTION_AMBIGUITY
+  difficulty: UNKNOWN
+answer_array:
+  shape: "one situs answer, one forum answer, two State B lure answers"
+  tension_axis: "situs reason versus forum-state Klaxon reason"
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "official situs answer"
+    c3_signal: "State A land is the clean land-law anchor."
+    lawyer_confirmation: "Situs principle supports the official explanation."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_party
+    method_class: anchor_assisted
+    student_label: "buyer-domicile lure"
+    c3_signal: "The buyer's home state is not the land state."
+    lawyer_confirmation: "Domicile does not select the choice-of-law rules for this deed-cancellation dispute."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - bar_exam_bait
+    method_class: needs_human
+    student_label: "forum-rule defect"
+    c3_signal: "This answer reaches the same no result and has support under the diversity forum rule."
+    lawyer_confirmation: "Klaxon supports applying State A choice-of-law rules because the federal court sits in State A."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "fraud-location lure"
+    c3_signal: "The fraud location is not the land location."
+    lawyer_confirmation: "The alleged fraud location does not make State B choice-of-law rules control a State A land deed cancellation."
+residual_answer:
+  official: A
+  c3_residual: "A and C"
+  status: NEEDS_HUMAN
+legal_leak_audit:
+  result: "The item cannot be solved as a clean single-answer C3 item without importing a lawyer-level distinction that conflicts with Klaxon."
+gold_keys:
+  - id: GK-REAL_PROPERTY-SITUS-01
+    statement: "For land-title disputes, start with the situs: the state where the land sits is the natural land-law anchor."
+    type: rule
+    unlocks: "State B fraud-location and domicile lures"
+    trigger: "A deed or title dispute involving land in a named state."
+    tested_choice: A
+    authority: "Restatement (Second) of Conflict of Laws §§ 189, 223"
+    last_minute_review: true
+  - id: GK-CIVPRO-KLAXON-01
+    statement: "A federal diversity court ordinarily applies the choice-of-law rules of the state in which it sits."
+    type: rule
+    unlocks: "The forum-state answer that the official key treats as wrong"
+    trigger: "Federal diversity suit plus a question asking which state's choice-of-law rules apply."
+    tested_choice: C
+    authority: "Klaxon Co. v. Stentor Electric Mfg. Co., 313 U.S. 487 (1941)"
+    last_minute_review: true
+silver_keys:
+  - id: SK-REAL_PROPERTY-STATEB-LURES-01
+    statement: "When two facts point to State B but the land and court point to State A, isolate what each fact is trying to control before picking a rule."
+    type: clash
+    navigates: "State B residence and fraud-location lures versus State A land/forum facts"
+    trigger: "Four answer choices split between party residence, conduct location, forum, and land situs."
+    tested_choice: D
+    outline_code: "82010000"
+    last_minute_review: true
+remediation:
+  card_id: RC-14975-SITUS-KLAXON
+  title: "Situs versus Klaxon"
+  signal: "Land in one state, federal diversity court in a named state, and another state tied to parties or conduct."
+  student_move: "Separate land-law situs from federal diversity forum choice-of-law."
+  tiny_rule: "Situs controls land-title issues; Klaxon controls the federal forum's choice-of-law methodology."
+  trap: "Treating party residence or fraud location as the conflicts rule."
+  confidence: HUMAN_REVIEW
+distilled_core_question: "In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?"
+review_truth: "For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules."
+case_study_output: "NEEDS_HUMAN because official A and forum-rule C both point to State A choice-of-law rules on these facts."
+quality_control:
+  outline_code_verified: true
+  outline_code_source: "OUTLINE_CODES_COMPLETE.md contains 82010000."
+  json_blocks_parse_checked: true
+  key_consistency: "Official key A; residual A and C."
+analytics_hooks:
+  dominant_trap: C
+  bank_issue: "two legally supportable no/State A answers"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+This is a Real Property conflicts item with a federal-diversity wrinkle. The official path rewards the situs answer, but the bank row needs human review because the forum answer is also legally supportable.
+
+## student_access_test
+A student can cut the State B residence and State B fraud-location answers with the land-situs anchor. A student should not be asked to cut the forum answer as false because Klaxon supports it.
+
+## question_data
+Official credited answer: A. C3/legal residual: A and C. Bank validation: NEEDS_HUMAN.
+
+## distilled_core_question
+In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?
+
+## call_and_prediction
+The call asks whether State B's choice-of-law rules apply. Predict no. State B has the buyer and the fraud location, but not the land or the forum.
+
+## trigger_facts
+- State A: land is located there.
+- State A: federal district court sits there.
+- State B: buyer lives there.
+- State B: fraud happened there.
+- Relief: cancel the deed.
+
+## governing_c3_lane
+Lane: Real Property / Ownership / situs conflicts. Overlay: federal diversity choice-of-law.
+
+## choice_by_choice_walkthrough
+### Choice A
+1. Student-accessible C3 signal: The grove is in State A.
+2. Student label: Official situs answer.
+3. True/responsive version: State B rules do not apply because the land-title dispute points to State A.
+4. Lawyer confirmation: Restatement land-situs principles support this answer.
+
+### Choice B
+1. Student-accessible C3 signal: Timothy's residence is a party fact, not a land fact.
+2. Student label: Buyer-domicile lure.
+3. True/responsive version: State B residence may matter to citizenship/jurisdiction, not to the conflicts rule for cancelling a deed to State A land.
+4. Lawyer confirmation: Domicile does not make State B choice-of-law rules govern the deed-cancellation issue.
+
+### Choice C
+1. Student-accessible C3 signal: This choice also says State B rules do not apply.
+2. Student label: Forum-rule defect.
+3. True/responsive version: Under Klaxon, a federal diversity court applies the forum state's choice-of-law rules.
+4. Lawyer confirmation: Because the court sits in State A, this answer is legally supportable and cannot be cleanly eliminated.
+
+### Choice D
+1. Student-accessible C3 signal: Fraud location is not the land location.
+2. Student label: Fraud-location lure.
+3. True/responsive version: The fraud location may matter to a tort conflicts issue, but the relief seeks cancellation of a deed to State A land.
+4. Lawyer confirmation: The State B fraud fact does not make State B choice-of-law rules control the State A land-title dispute.
+
+## residual_answer
+Official residual: A. Legal residual: A and C. This is a NEEDS_HUMAN item.
+
+## legal_leak_audit
+The statement that choice C is wrong cannot be taught as a visible C3 cut. It requires lawyer-level reconciliation of situs doctrine and Klaxon, and Klaxon makes C supportable on these facts.
+
+Drift audit: transformed_from: 14975; letter_map: A→C, B→A, C→D, D→B; official key moved from B to A; residual is A and C, so PASS is unavailable.
+
+## final_student_script
+Do not chase State B just because State B appears twice. The buyer lives there and the alleged fraud happened there, but the land is in State A and the case is filed in State A. The official answer uses the situs route: State A. But this item needs human review because the forum route also points to State A under Klaxon.
+
+## remediation_card
+Card: Situs versus Klaxon. Signal: land in one state plus federal diversity court. Move: identify whether the answer is using land situs or federal forum choice-of-law. Tiny rule: situs is the land-title anchor; Klaxon is the federal-diversity forum rule.
+
+## Gold Key(s)
+- GK-REAL_PROPERTY-SITUS-01: For land-title disputes, start with the situs: the state where the land sits is the natural land-law anchor.
+- GK-CIVPRO-KLAXON-01: A federal diversity court ordinarily applies the choice-of-law rules of the state in which it sits.
+
+## Silver Key(s)
+- SK-REAL_PROPERTY-STATEB-LURES-01: When two facts point to State B but the land and court point to State A, isolate what each fact is trying to control before picking a rule.
+
+## qa_checklist
+Official key preserved in provenance. Dominant trap preserved. Pick rates inherited. Outline code verified. JSON blocks parse. Bank verdict not forced to PASS.
+
+## wrong_answer_recovery_paths
+- B: Stop treating residence as a conflicts rule. Ask what property or court fact is doing the legal work.
+- C: Do not mark as wrong without human review; it is the bank defect.
+- D: Move from conduct location back to deed/title relief.
+
+## outline_mastery_map
+Placement: 82010000 Nature and Ownership of Land. This item teaches conflicts routing in land-title disputes, with a federal diversity overlay.
+
+## crossover_intersection_map
+Real Property crosses Civil Procedure/Erie-Klaxon. The crossover is exactly why this row needs review.
+
+## review_truth
+For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules.
+
+### 3. c3_annotation
+```json
+{
+  "question_id": "14975_olive_grove_law_book_fair",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "A",
+  "outline_code": "82010000",
+  "distilled_core_question": "In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?",
+  "review_truth": "For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules.",
+  "c3": {
+    "verdict": "NEEDS_HUMAN",
+    "residual": "A and C",
+    "agrees_with_key": false,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "HUMAN_REVIEW",
+    "tension_axis": "situs reason versus forum-state Klaxon reason",
+    "is_fork": true,
+    "fork_type": "QUESTION_AMBIGUITY",
+    "call_heuristic": "Separate State B lures from State A situs/forum facts.",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-REAL_PROPERTY-SITUS-01",
+        "explanation": "Timothy's State B residence is attractive because citizenship is in the stem. The breaker is that residence does not choose the rule for cancelling a deed to State A land."
+      },
+      {
+        "choice": "C",
+        "filter_broken": null,
+        "mold": null,
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CIVPRO-KLAXON-01",
+        "explanation": "The forum answer is attractive because the case is filed in State A. It is also legally supportable under Klaxon, so it is not a clean distractor."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-REAL_PROPERTY-STATEB-LURES-01",
+        "explanation": "The fraud-location answer is attractive because State B is where the bad conduct happened. The breaker is that the lawsuit seeks cancellation of a deed to State A land."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Christian olive-grove variation changes surface facts while preserving State A land, State B buyer, State B fraud, federal State A forum, and deed-cancellation call. transformed_from: 14975. letter_map: A→C, B→A, C→D, D→B. Research created a bank defect because Klaxon supports choice C on these facts.",
+    "gold_keys": [
+      {
+        "id": "GK-REAL_PROPERTY-SITUS-01",
+        "statement": "For land-title disputes, start with the situs: the state where the land sits is the natural land-law anchor.",
+        "type": "rule",
+        "unlocks": "State B fraud-location and domicile lures",
+        "trigger": "A deed or title dispute involving land in a named state.",
+        "tested_choice": "A",
+        "authority": "Restatement (Second) of Conflict of Laws §§ 189, 223",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CIVPRO-KLAXON-01",
+        "statement": "A federal diversity court ordinarily applies the choice-of-law rules of the state in which it sits.",
+        "type": "rule",
+        "unlocks": "The forum-state answer that the official key treats as wrong",
+        "trigger": "Federal diversity suit plus a question asking which state's choice-of-law rules apply.",
+        "tested_choice": "C",
+        "authority": "Klaxon Co. v. Stentor Electric Mfg. Co., 313 U.S. 487 (1941)",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-REAL_PROPERTY-STATEB-LURES-01",
+        "statement": "When two facts point to State B but the land and court point to State A, isolate what each fact is trying to control before picking a rule.",
+        "type": "clash",
+        "navigates": "State B residence and fraud-location lures versus State A land/forum facts",
+        "trigger": "Four answer choices split between party residence, conduct location, forum, and land situs.",
+        "tested_choice": "D",
+        "outline_code": "82010000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+```json
+{
+  "question_id": "14975_olive_grove_law_book_fair",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "82010000",
+  "distilled_core_question": "In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?",
+  "review_truth": "For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules.",
+  "tension": "The situs answer is official, but the forum answer is also legally supportable under Klaxon.",
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "The buyer's State B residence feels important because diversity questions often make citizenship matter. The breaker is that domicile does not select the conflicts rule for cancelling a deed to State A land.",
+      "focus_group_pct": 2,
+      "pct_provenance": "inherited"
+    },
+    {
+      "choice": "C",
+      "mold": null,
+      "architecture": "procedural_frame",
+      "why_attractive": "The State A filing fact points to the ordinary Klaxon forum rule. The breaker is not clean because Klaxon actually supports this answer on the exact facts, creating a human-review defect.",
+      "focus_group_pct": 24,
+      "pct_provenance": "inherited"
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The State B fraud location feels like the wrongdoer's conduct should control. The breaker is that the requested relief concerns a deed to State A land.",
+      "focus_group_pct": 18,
+      "pct_provenance": "inherited"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "RC-14975-SITUS-KLAXON",
+    "title": "Situs versus Klaxon",
+    "signal": "Land in one state, federal diversity court in a named state, and another state tied to parties or conduct.",
+    "student_move": "Separate land-law situs from federal diversity forum choice-of-law.",
+    "tiny_rule": "Situs controls land-title issues; Klaxon controls the federal forum's choice-of-law methodology.",
+    "trap": "Treating party residence or fraud location as the conflicts rule.",
+    "confidence": "HUMAN_REVIEW"
+  },
+  "red_zone_dimensions": [
+    "choice-of-law state confusion",
+    "situs versus forum",
+    "party domicile lure",
+    "conduct-location lure",
+    "two-answer bank defect"
+  ]
+}
+```
+
+### 5. program_intelligence
+```json
+{
+  "question_id": "14975_olive_grove_law_book_fair",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "82010000",
+  "distilled_core_question": "In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?",
+  "review_truth": "For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student sees State B residence and treats it as the controlling state fact.",
+      "skipped_move": "Separate party citizenship from land-title conflicts.",
+      "recovery_step": "Ask where the land sits before using a party's home state."
+    },
+    {
+      "choice": "C",
+      "filter_broken": null,
+      "mold": null,
+      "why_a_student_picks_this": "The student knows federal diversity courts use forum-state choice-of-law rules.",
+      "skipped_move": "None; this is a human-review bank defect.",
+      "recovery_step": "Flag the item because Klaxon supports the forum answer."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student follows the place of fraud instead of the deed/title relief.",
+      "skipped_move": "Match the state fact to the remedy sought.",
+      "recovery_step": "Return to the State A land and deed-cancellation remedy."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "two_state_sort",
+      "target_skill": "Separate situs, forum, residence, and conduct-location facts.",
+      "prompt": "A State B buyer sues in federal court in State A to cancel a deed to State A land after fraud in State B. Which State B facts are lures?",
+      "answer": "The buyer's residence and fraud location are State B lures; the land and forum point to State A."
+    },
+    {
+      "drill_type": "bank_defect_spot",
+      "target_skill": "Identify when a distractor is legally supportable.",
+      "prompt": "Why is the forum answer not a clean wrong answer in a federal diversity case filed in State A?",
+      "answer": "Klaxon says the federal diversity court applies the choice-of-law rules of the state in which it sits."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "forum_situs_clash",
+      "state_b_fact_overweighting",
+      "two_true_answers"
+    ],
+    "misconception_tags": [
+      "domicile_controls_choice_of_law",
+      "fraud_location_controls_land_title",
+      "situs_erases_klaxon"
+    ]
+  },
+  "component_routing": [
+    {
+      "destination_key": "trap_forensics",
+      "route": "choice-law-state-confusion",
+      "component_tags": [
+        "situs versus forum",
+        "dominant trap C",
+        "bank defect"
+      ]
+    },
+    {
+      "destination_key": "red_zones",
+      "route": "real-property-conflicts",
+      "component_tags": [
+        "State B lure facts",
+        "land-title conflicts"
+      ]
+    },
+    {
+      "destination_key": "review_cards",
+      "route": "situs-klaxon",
+      "component_tags": [
+        "Gold Key",
+        "human review"
+      ]
+    }
+  ],
+  "crossovers": [
+    "Civil Procedure: Erie/Klaxon choice-of-law rule",
+    "Real Property: situs rule for land-title disputes"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-REAL_PROPERTY-SITUS-01",
+      "statement": "For land-title disputes, start with the situs: the state where the land sits is the natural land-law anchor.",
+      "type": "rule",
+      "unlocks": "State B fraud-location and domicile lures",
+      "trigger": "A deed or title dispute involving land in a named state.",
+      "tested_choice": "A",
+      "authority": "Restatement (Second) of Conflict of Laws §§ 189, 223",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CIVPRO-KLAXON-01",
+      "statement": "A federal diversity court ordinarily applies the choice-of-law rules of the state in which it sits.",
+      "type": "rule",
+      "unlocks": "The forum-state answer that the official key treats as wrong",
+      "trigger": "Federal diversity suit plus a question asking which state's choice-of-law rules apply.",
+      "tested_choice": "C",
+      "authority": "Klaxon Co. v. Stentor Electric Mfg. Co., 313 U.S. 487 (1941)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-REAL_PROPERTY-STATEB-LURES-01",
+      "statement": "When two facts point to State B but the land and court point to State A, isolate what each fact is trying to control before picking a rule.",
+      "type": "clash",
+      "navigates": "State B residence and fraud-location lures versus State A land/forum facts",
+      "trigger": "Four answer choices split between party residence, conduct location, forum, and land situs.",
+      "tested_choice": "D",
+      "outline_code": "82010000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "82010000 Nature and Ownership of Land",
+    "this_item_teaches": "Land-title choice-of-law routing with a federal diversity overlay.",
+    "fills": [
+      "situs anchor",
+      "forum-state choice-of-law rule",
+      "State B lure diagnosis"
+    ],
+    "adjacent_to_master": [
+      "85030000 Real Property Contracts",
+      "96060000 State Law Applied in Federal Courts"
+    ]
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+In a federal diversity suit to cancel a deed for land in State A, filed in State A by a State B buyer after fraud in State B, do State B's choice-of-law rules apply?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+A
+
+### 99. Letter Map
+
+A→C, B→A, C→D, D→B
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+For real-property disputes, the law of the situs normally controls land-title issues, but a federal diversity court ordinarily applies the forum state's choice-of-law rules.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

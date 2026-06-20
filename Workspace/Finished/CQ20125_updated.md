@@ -1,0 +1,651 @@
+---
+qid: 20125_peter-tutoring
+transformed_from: 20125
+subject: CONTRACTS
+topic: Formation of Contracts
+subtopic: Sufficiency of consideration
+outline_code: 55020205
+key: D
+original_key: C
+letter_map: A→B, B→A, C→D, D→C
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for."
+---
+
+# CQ20125 — Full C3 Transform Output
+
+## A) PASS-1 TRANSFORM REPORT
+
+---
+
+### 1. Final Question (Chosen Variation)
+
+Peter was a private bar-prep tutor. One afternoon he was walking past a community center when he heard shouting inside. He looked through the window and saw Timothy, a student he had never met, slumped over a desk, clearly in cardiac distress. Peter rushed in, performed CPR, and called 911. Timothy survived. A week later, Timothy wrote Peter a letter that said: "You saved my life. I promise to pay you $200 at the end of this month." Timothy died before the month ended. The jurisdiction has a statute that protects volunteers who render emergency aid from negligence liability. If Peter brings an action against the executor of Timothy's estate for the $200 Timothy promised, the court should find for
+
+**A:** Peter, because he detrimentally relied on Timothy's promise to pay him.
+
+**B:** Peter, because the jurisdiction has a statute that protects volunteers who render emergency aid from negligence liability.
+
+**C:** the executor, because it is impossible to calculate the value of Peter's services.
+
+**D:** the executor, because Timothy's promise was unsupported by consideration.
+
+---
+
+### 2. Distilled Core Question
+
+A stranger performs an emergency rescue with no expectation of payment. The rescued person later promises money. Is that promise enforceable?
+
+---
+
+### 3. Final Answer Choices (A–D, post-shuffle)
+
+**A:** Peter, because he detrimentally relied on Timothy's promise to pay him.
+
+**B:** Peter, because the jurisdiction has a statute that protects volunteers who render emergency aid from negligence liability.
+
+**C:** the executor, because it is impossible to calculate the value of Peter's services.
+
+**D:** the executor, because Timothy's promise was unsupported by consideration.
+
+---
+
+### 4. Possible Replacement Answer Choices
+
+No swap recommended. All three distractors are sound:
+- **A** (detrimental reliance) is the dominant trap — the most attractive wrong answer because students conflate promissory estoppel's reliance element with the facts.
+- **B** (Good Samaritan statute) is a classic misfit — the statute addresses tort liability, not contract formation.
+- **C** (impossible to calculate value) is a real misconception — students think uncertain value defeats consideration.
+
+---
+
+### 5. Correct Answer
+
+**D** (original key: C)
+
+---
+
+### 6. Letter Map
+
+| Original | New | Mechanic | Substance | Pick Rate | Provenance |
+|----------|-----|----------|-----------|-----------|------------|
+| A | B | Good Samaritan statute misfit (NOT_RESPONSIVE) | kept | 22% | predicted |
+| B | A | Detrimental reliance — no post-promise reliance (NOT_TRUE) | kept | **38%** | predicted ⚠️ DOMINANT TRAP |
+| C | D | Past consideration — no bargained-for exchange (correct answer) | kept | 28% | predicted |
+| D | C | Uncertain value defeats consideration (NOT_TRUE) | kept | 12% | predicted |
+
+**Dominant trap: A** (original B) — Detrimental reliance. Analytically the most attractive distractor because students see a promise + benefit conferred and instinctively reach for promissory estoppel, even though reliance must come *after* the promise.
+
+---
+
+### 7. Full Right-Answer Explanation (Exam Register)
+
+**D is correct.** Timothy's promise to pay $200 was made *after* Peter had already performed the rescue. Consideration requires a bargained-for exchange — the promise must induce the act, or the act must induce the promise. Here, Peter acted as a volunteer with no expectation of compensation at the time he performed. The service was past consideration, which is no consideration at all. Timothy's subsequent promise, while morally admirable, is a gratuitous promise unsupported by consideration and therefore unenforceable.
+
+**Gold Key:** Past consideration is no consideration. A promise made after the promisee has already completed the requested (or volunteered) act lacks the bargained-for exchange element. The act was not done in exchange for the promise — it was done before the promise existed.
+
+---
+
+### 8. Full Wrong-Answer Explanations
+
+**A (Dominant Trap):** This choice sells the idea that Peter "relied" on Timothy's promise. Promissory estoppel requires that the promisee change their position *in reliance on the promise*. Here, Peter performed the rescue before Timothy ever made the promise. Peter could not have relied on a promise that did not yet exist. The temporal sequence is wrong: the act came first, the promise came after. No post-promise reliance occurred.
+
+> **Gold Key:** Promissory estoppel requires detrimental reliance *after* the promise. A pre-existing act — even one that benefits the promisor — is not reliance on the promise.
+
+**B:** This choice tempts students who spot the "Good Samaritan" language and assume it must be relevant. Good Samaritan statutes protect rescuers from *negligence liability* — they say nothing about whether a subsequent promise to pay is enforceable. The statute is in the wrong legal domain entirely. Contract formation and tort liability protection are separate doctrines.
+
+> **Silver Key:** When you see a statute named in a contract question, ask: does this statute govern contracts or torts? A tort-protection statute cannot create contract consideration.
+
+**C:** This choice exploits the intuition that if you can't put a precise dollar value on something, it can't serve as consideration. But consideration does not require precise valuation. If something of value is given in return for a promise, the promise is supported by consideration even if the value is uncertain. The real problem here is not uncertain value — it's that the service was not bargained for at all.
+
+---
+
+### 9. Black-Letter-Law Verification & Legal Reasoning
+
+**Rule:** Consideration requires a bargained-for exchange — a benefit conferred or detriment suffered by the promisee *in exchange for* the promisor's promise. (Restatement (Second) of Contracts § 73.) Past consideration — an act performed before the promise is made — is not valid consideration because it was not bargained for. (Restatement (Second) of Contracts § 73, Comment a.)
+
+**Application:** Peter performed CPR and called 911 before Timothy made any promise. At the time of the rescue, Peter had no agreement with Timothy and no expectation of payment. The service was gratuitous. Timothy's subsequent letter promising $200 was a promise to fulfill a moral obligation, not a bargained-for exchange.
+
+**Moral obligation / Restatement § 86:** The Restatement (Second) of Contracts § 86 recognizes that a promise made in recognition of a previously received benefit *may* be binding to prevent justice — but subsection (2)(a) expressly excludes cases where "the promisee conferred the benefit as a gift or for other reasons the promisor has not been unjustly enriched." Peter's rescue was a volunteer act — a gift of services. Under § 86(2)(a), Timothy's promise is not binding.
+
+**Webb v. McGowin, 168 So. 199 (Ala. 1936):** The Alabama Supreme Court enforced a promise to pay for saving a life, reasoning that the material benefit (preservation of life) could support the promise. However, this represents the **minority view**. The majority rule — and the rule tested on the MBE — is that past consideration is no consideration, and a promise to pay for a volunteer rescue is unenforceable.
+
+**Good Samaritan statutes:** These statutes protect persons who render emergency aid from civil liability for negligence. They do not address contract formation, consideration, or the enforceability of subsequent promises to pay. They are irrelevant to the contract issue.
+
+**Promissory estoppel (Restatement § 90):** Requires (1) a promise, (2) foreseeable reliance, and (3) actual detrimental reliance. Peter did not change his position after Timothy's promise. The rescue preceded the promise. No reliance element is satisfied.
+
+**Conclusion:** The credited answer (D / original C) is correct. The tested rule (past consideration is no consideration), the legal issue (enforceability of a promise after a gratuitous act), and the credited outcome are all unchanged from the original.
+
+**Authority:** Restatement (Second) of Contracts §§ 73, 86, 90; Webb v. McGowin, 168 So. 199 (Ala. 1936) (minority view); E. Allen Farnsworth, Contracts § 2.7 (4th ed.).
+
+---
+
+### 10. Rigor/Difficulty Note
+
+This variation preserves the original difficulty. The core trap — past consideration vs. promissory estoppel reliance — is identical. The dominant trap (detrimental reliance) remains the most attractive distractor because the temporal sequence error is subtle under time pressure. The Good Samaritan misfit and uncertain-value distractors are preserved at their original strength. The variation changes the surface story (tutor/CPR/community center vs. hiker/cliff/woods) but the legal skeleton is unchanged.
+
+---
+
+### 11. C3 Elimination Walkthrough
+
+**CUT Phase:**
+
+- **Choice B (Good Samaritan statute):** CUT. The statute protects against negligence liability. This is a contract question. The statute is in the wrong legal domain — NOT_RESPONSIVE. A student who spots "Good Samaritan" and doesn't ask "torts or contracts?" gets caught here.
+
+- **Choice C (impossible to calculate value):** CUT. Consideration does not require precise valuation. If something of value is given, the promise is supported by consideration even if the value is uncertain. The choice overstates a non-rule — NOT_TRUE (overclaim detectable from the answer text itself).
+
+**CLASH Phase:**
+
+After cutting B and C, Choices A and D remain. The tension axis is: **Does promissory estoppel save this promise?**
+
+- **Choice A** says yes — Peter relied on the promise.
+- **Choice D** says no — the promise lacks consideration and reliance came before the promise.
+
+**Splitting fact:** The rescue happened *before* the promise. Promissory estoppel requires reliance *after* the promise. Peter could not have relied on a promise that did not yet exist. The temporal sequence kills the reliance argument.
+
+**CALL Phase:**
+
+No tiebreaker needed. The splitting fact resolves the clash. A is wrong. D is correct.
+
+---
+
+### 12. Divergence Audit — Recognition-Kill Checklist
+
+| Dimension | Changed? | Details |
+|-----------|----------|---------|
+| **Asset/subject matter** | ✅ | Cliff rescue → CPR/medical emergency at community center |
+| **Transaction frame** | ✅ | Promise to pay a rescuer → Promise to pay a tutor who performed CPR |
+| **Specific lies/facts** | ✅ | Hiker pulls climber from cliff → Tutor performs CPR on student |
+| **All numbers** | ✅ | $100 → $200; "first of next month" → "end of this month" |
+| **Fact ordering / stem rhythm** | ✅ | Single-paragraph narrative → Shorter sentences, letter format for promise |
+| **Cast size/roles** | ✅ | Hiker + climber → Tutor (Peter) + student (Timothy); added "student he had never met" |
+| **Choice ordering** | ✅ | A→B, B→A, C→D, D→C (shuffled) |
+| **Choice phrasing** | ✅ | Paraphrased all four choices; "Good Samaritan statute" reworded to full description |
+| **Setting/era/texture** | ✅ | Woods/cliff → Community center/urban; letter instead of oral promise |
+| **Call wording** | ✅ | "court should find for" preserved (identical legal function) |
+
+**One-sentence stem summaries:**
+
+- **Original:** A hiker rescues a climber from a cliff, the climber later promises $100, and the question is whether the promise is enforceable.
+- **Variation:** A tutor performs CPR on a student at a community center, the student later promises $200 by letter, and the question is whether the promise is enforceable.
+
+The two summaries share only the rule: a promise made after a gratuitous rescue is tested for consideration. No surface overlap in asset, transaction, setting, cast, or fact rhythm. **Recognition test: PASSED.**
+
+---
+
+### 13. Review Truth
+
+A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for.
+
+---
+
+### 14. The 5 Variations Considered
+
+**Variation 1: "Peter's Tutoring Rescue" (RECOMMENDED — SELECTED)**
+- **Setting:** Community center; Peter (tutor) performs CPR on Timothy (student).
+- **Cast:** Peter, Timothy.
+- **Issue:** Past consideration — promise after gratuitous rescue.
+- **Why memorable:** CPR is visceral and modern; the letter format for the promise adds texture.
+- **Legal risks:** None — same doctrine, same outcome.
+- **Divergence score:** 9/10 dimensions changed. Kills: asset, transaction, facts, numbers, cast, setting, rhythm.
+
+**Variation 2: "Barnabas's Roof Repair"**
+- **Setting:** Barnabas fixes Lydia's leaking roof during a storm without being asked; Lydia later promises $300.
+- **Issue:** Past consideration — promise after gratuitous repair.
+- **Divergence score:** 8/10. Strong, but "repair" edges toward implied-in-fact contract territory, adding clutter risk.
+
+**Variation 3: "Daniel's Livestock Rescue"**
+- **Setting:** Daniel pulls Naomi's goat from a well; Naomi promises $150.
+- **Issue:** Past consideration.
+- **Divergence score:** 7/10. Good surface change, but the "animal rescue" frame is less legally clean (potential implied contract arguments).
+
+**Variation 4: "Stephen's Tutoring Session"**
+- **Setting:** Stephen tutors Mary's son for free for a month; Mary later promises $250.
+- **Issue:** Past consideration.
+- **Divergence score:** 6/10. The ongoing-service frame risks confusion with material-benefit/moral-obligation exceptions under § 86.
+
+**Variation 5: "Ruth's Medical Transport"**
+- **Setting:** Ruth drives Hannah to the hospital during a medical emergency; Hannah later promises $100.
+- **Issue:** Past consideration.
+- **Divergence score:** 8/10. Strong divergence, but very close to the original hiker/cliff rescue structure (stranger + emergency + transport/rescue).
+
+**Why Variation 1 won:** Maximum surface divergence (9/10 dimensions) with zero legal clutter risk. The CPR/medical setting is distinctly different from cliff rescue. The letter format for the promise adds a new texture. The tutor/student cast is fresh. All distractors map cleanly.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+---
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20125_peter-tutoring"
+  subject: CONTRACTS
+  topic: Formation of Contracts
+  subtopic: Sufficiency of consideration
+  outline_code: "55020205"
+  stem: "Peter was a private bar-prep tutor. One afternoon he was walking past a community center when he heard shouting inside. He looked through the window and saw Timothy, a student he had never met, slumped over a desk, clearly in cardiac distress. Peter rushed in, performed CPR, and called 911. Timothy survived. A week later, Timothy wrote Peter a letter that said: 'You saved my life. I promise to pay you $200 at the end of this month.' Timothy died before the month ended. The jurisdiction has a statute that protects volunteers who render emergency aid from negligence liability."
+  call: "If Peter brings an action against the executor of Timothy's estate for the $200 Timothy promised, the court should find for"
+  choices:
+    A: "Peter, because he detrimentally relied on Timothy's promise to pay him."
+    B: "Peter, because the jurisdiction has a statute that protects volunteers who render emergency aid from negligence liability."
+    C: "the executor, because it is impossible to calculate the value of Peter's services."
+    D: "the executor, because Timothy's promise was unsupported by consideration."
+  official_key: D
+  selection_percentages:
+    A: { value: 38, provenance: predicted }
+    B: { value: 22, provenance: predicted }
+    C: { value: 12, provenance: predicted }
+    D: { value: 28, provenance: predicted }
+
+transform_provenance:
+  transformed_from: "20125"
+  variant_slug: "peter-tutoring"
+  original_key_letter: C
+  new_key_letter: D
+  letter_map:
+    - original_letter: A
+      new_letter: B
+      mechanic: "Good Samaritan statute misfit — NOT_RESPONSIVE"
+      substance: kept
+      pick_rate: { value: 22, provenance: predicted }
+    - original_letter: B
+      new_letter: A
+      mechanic: "Detrimental reliance — no post-promise reliance, NOT_TRUE"
+      substance: kept
+      pick_rate: { value: 38, provenance: predicted }
+    - original_letter: C
+      new_letter: D
+      mechanic: "correct_answer"
+      substance: kept
+      pick_rate: { value: 28, provenance: predicted }
+    - original_letter: D
+      new_letter: C
+      mechanic: "Uncertain value defeats consideration — NOT_TRUE"
+      substance: kept
+      pick_rate: { value: 12, provenance: predicted }
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A hiker rescues a climber from a cliff, the climber later promises $100, and the question is whether the promise is enforceable."
+    variant_stem_one_sentence: "A tutor performs CPR on a student at a community center, the student later promises $200 by letter, and the question is whether the promise is enforceable."
+    dimensions_changed:
+      - asset/subject matter
+      - transaction frame
+      - specific facts
+      - numbers
+      - fact ordering and stem rhythm
+      - cast size/roles
+      - choice ordering
+      - choice phrasing
+      - setting/era/texture
+    dimensions_skipped_with_reason: []
+
+source_stack:
+  1: "Original question row Q20125"
+  2: "Restatement (Second) of Contracts §§ 73, 86, 90"
+  3: "Webb v. McGowin, 168 So. 199 (Ala. 1936)"
+  4: "C3 method + controlled vocabularies"
+
+student_access_contract:
+  governing_rule: "Past consideration is no consideration"
+  anchor_required: true
+  anchor_type: "Gold Key — temporal sequence of reliance"
+  legal_leak: false
+
+stem_parse:
+  actors:
+    - name: Peter
+      role: promisee / rescuer
+    - name: Timothy
+      role: promisor / rescued party (deceased)
+    - name: Executor
+      role: defendant
+  sequence:
+    - event: Peter performs CPR on Timothy (gratuitous, no bargain)
+    - event: Timothy writes letter promising $200
+    - event: Timothy dies
+    - event: Peter sues executor
+  red_herring: "Good Samaritan statute (tort protection, irrelevant to contracts)"
+
+trigger_facts:
+  - fact: "Peter performed CPR before Timothy's promise"
+    access: visible
+    label: "temporal sequence — act before promise"
+  - fact: "Peter had never met Timothy before"
+    access: visible
+    label: "no pre-existing relationship"
+  - fact: "Timothy's promise came by letter a week later"
+    access: visible
+    label: "post-act promise"
+  - fact: "Good Samaritan statute exists in jurisdiction"
+    access: visible
+    label: "red herring — tort statute in contract question"
+
+c3_routing:
+  subject_fit: CONTRACTS
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: D
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: Core
+
+answer_array:
+  geometry: "flat (no matrix)"
+  shape: "1 correct + 3 single-filter distractors"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: EAR_FALSITY
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Reliance trap — conflates pre-act benefit with post-promise reliance"
+    c3_signal: "The act came BEFORE the promise. You can't rely on something that doesn't exist yet."
+    lawyer_confirmation: "Promissory estoppel (Restatement § 90) requires actual reliance after the promise. Peter's rescue preceded the promise. No post-promise reliance occurred."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: ISSUE_SENSE
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: misfit
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - answer_to_different_question
+    method_class: hard_structural
+    student_label: "Statute misfit — tort protection in a contract question"
+    c3_signal: "The statute protects against negligence suits. This is a contract question. Wrong legal domain."
+    lawyer_confirmation: "Good Samaritan statutes shield rescuers from tort liability. They do not address contract consideration."
+  C:
+    filter_broken: NOT_TRUE
+    mold_code: EAR_OVERCLAIM
+    mold_code_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - misstated_rule
+      - half_right_answer
+    method_class: hard_structural
+    student_label: "Value uncertainty myth — consideration doesn't require precise valuation"
+    c3_signal: "Consideration exists if something of value is given, even if the exact dollar amount is unclear."
+    lawyer_confirmation: "Consideration requires a bargained-for exchange, not a precise valuation. The problem here is lack of bargain, not uncertain value."
+  D:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Past consideration — the act was completed before the promise existed"
+    c3_signal: "Timothy promised $200 after Peter already saved him. No bargain, no consideration."
+    lawyer_confirmation: "Restatement (Second) of Contracts § 73: past consideration is not valid consideration. The rescue was gratuitous; the promise was made after the fact."
+
+residual_answer: D
+
+legal_leak_audit:
+  A: "anchor_assisted — requires Gold Key on temporal sequence of reliance"
+  B: "hard_structural — statute misfit is visible from the face of the choice"
+  C: "hard_structural — overclaim about valuation is visible from the choice text"
+  D: "anchor_assisted — requires Gold Key on past consideration rule"
+
+gold_keys:
+  - id: GK-CONTRACTS-PASTCONSID-01
+    statement: "Past consideration is no consideration. If the act is completed before the promise is made, there is no bargained-for exchange."
+    type: rule
+    unlocks: "Defeats the reliance trap by establishing that the temporal sequence — act before promise — means no consideration exists."
+    trigger: "A promise is made AFTER the promisee has already performed the service."
+    tested_choice: A
+    authority: "Restatement (Second) of Contracts § 73"
+    last_minute_review: true
+
+remediation:
+  card_id: RC-CONTRACTS-PASTCONSID-01
+  title: "Past Consideration vs. Detrimental Reliance"
+  signal: "Promise made after a benefit was already conferred"
+  student_move: "Ask: Did the act come before or after the promise? If before → past consideration. If after → possible reliance."
+  tiny_rule: "Past consideration is no consideration. Reliance must come AFTER the promise."
+  trap: "Conflating a pre-existing benefit with post-promise reliance"
+  confidence: ANCHOR_ASSISTED
+
+distilled_core_question: "A stranger performs an emergency rescue with no expectation of payment. The rescued person later promises money. Is that promise enforceable?"
+
+review_truth: "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for."
+
+case_study_output: "See Block 2 below."
+
+quality_control:
+  completeness_gate: "All blocks present"
+  pick_rates: "All predicted, sum = 100"
+  dominant_trap: "A (detrimental reliance)"
+  outline_code: "55020205 — verified in OUTLINE_CODES_COMPLETE.md"
+  key_consistency: "D is the correct answer in all blocks"
+  letter_map: "A→B, B→A, C→D, D→C"
+  controlled_vocab: "All field values from controlled_vocabularies.md"
+
+analytics_hooks:
+  red_zone: "Past consideration vs. promissory estoppel"
+  trap_type: "Temporal sequence confusion"
+  misconception: "Benefit conferred = reliance on promise"
+```
+
+---
+
+### 2. The 17-Section Student Case Study
+
+#### Program Frame
+
+This item tests **Contracts — Formation — Sufficiency of Consideration** (outline code 55020205). The core issue is whether a promise made after a gratuitous rescue is enforceable. The tested rule: **past consideration is no consideration.** The item is anchor-assisted — a Gold Key on the temporal sequence of reliance is needed to cleanly eliminate the dominant trap.
+
+#### Student Access Test
+
+A student who has learned the C3 method and the Gold Key "past consideration is no consideration" can solve this item. The statute misfit (B) and the valuation overclaim (C) are structurally visible. The reliance trap (A) requires the Gold Key to defeat cleanly.
+
+#### Question Data
+
+**Stem:** Peter, a tutor, performs CPR on Timothy (a stranger) at a community center. Timothy survives. A week later, Timothy writes a letter promising $200. Timothy dies. The jurisdiction has a Good Samaritan statute protecting volunteers from negligence liability.
+
+**Call:** If Peter sues Timothy's estate for the $200, the court should find for:
+
+- **A:** Peter, because he detrimentally relied on Timothy's promise.
+- **B:** Peter, because the jurisdiction has a Good Samaritan statute.
+- **C:** the executor, because it is impossible to calculate the value of Peter's services.
+- **D:** the executor, because Timothy's promise was unsupported by consideration.
+
+#### Distilled Core Question
+
+A stranger performs an emergency rescue with no expectation of payment. The rescued person later promises money. Is that promise enforceable?
+
+#### Call and Prediction
+
+The call asks who wins. Before looking at choices, predict: the promise was made after the rescue, so there's no bargained-for exchange. The promise is likely unenforceable. Look for an answer saying the promise lacks consideration.
+
+#### Trigger Facts
+
+1. **Peter performed CPR before Timothy's promise** — visible, critical. The act preceded the promise.
+2. **Peter had never met Timothy** — visible. No pre-existing relationship or bargain.
+3. **Timothy's promise came a week later by letter** — visible. Post-act promise.
+4. **Good Samaritan statute exists** — visible red herring. Tort statute in a contract question.
+
+#### Governing C3 Lane
+
+**CUT** choices that are structurally defective (wrong domain, overclaim). **CLASH** between reliance and no-consideration. **CALL** using the temporal splitting fact.
+
+#### Choice-by-Choice Walkthrough
+
+**Choice A: "Peter, because he detrimentally relied on Timothy's promise."**
+
+1. **Student-accessible C3 signal:** The rescue happened *before* the promise. You can't rely on something that doesn't exist yet. The temporal sequence is wrong for promissory estoppel.
+2. **Student label:** Reliance trap — conflates pre-act benefit with post-promise reliance.
+3. **What a true/responsive version would look like:** If Peter had *not* performed the rescue, and Timothy's promise induced him to do so, then reliance would be present. But that's not these facts.
+4. **Lawyer confirmation:** Promissory estoppel (Restatement § 90) requires actual reliance after the promise. Peter's rescue preceded the promise. No post-promise reliance occurred.
+
+> **Gold Key:** Past consideration is no consideration. A promise made after the act is completed lacks the bargained-for exchange element. Reliance must come *after* the promise — not before.
+
+**Choice B: "Peter, because the jurisdiction has a Good Samaritan statute."**
+
+1. **Student-accessible C3 signal:** The statute protects against *negligence* liability. This is a *contract* question. Wrong legal domain.
+2. **Student label:** Statute misfit — tort protection in a contract question.
+3. **What a true/responsive version would look like:** If the question were about whether Peter could be sued for injuring Timothy during the rescue, the statute would be relevant.
+4. **Lawyer confirmation:** Good Samaritan statutes shield rescuers from tort liability. They do not address contract consideration.
+
+> **Silver Key:** When you see a statute named in a contract question, ask: does this statute govern contracts or torts? A tort-protection statute cannot create contract consideration.
+
+**Choice C: "the executor, because it is impossible to calculate the value of Peter's services."**
+
+1. **Student-accessible C3 signal:** Consideration doesn't require precise valuation. If something of value is given, the exchange has consideration even if the dollar amount is unclear.
+2. **Student label:** Value uncertainty myth.
+3. **What a true/responsive version would look like:** If the rule required precise valuation, this would be correct. But it doesn't.
+4. **Lawyer confirmation:** Consideration requires a bargained-for exchange, not a precise valuation. The problem here is lack of bargain, not uncertain value.
+
+**Choice D: "the executor, because Timothy's promise was unsupported by consideration."**
+
+1. **Student-accessible C3 signal:** Timothy promised $200 *after* Peter already saved him. No bargain, no consideration. The act was gratuitous.
+2. **Student label:** Correct — past consideration is no consideration.
+3. **What a true/responsive version would look like:** This choice is already true and responsive.
+4. **Lawyer confirmation:** Restatement (Second) of Contracts § 73: past consideration is not valid consideration. The rescue was gratuitous; the promise was made after the fact.
+
+#### Residual Answer
+
+After cutting B (statute misfit) and C (valuation overclaim), the clash is between A (reliance) and D (no consideration). The splitting fact — the act came *before* the promise — kills the reliance argument. **D is the residual answer.**
+
+#### Legal Leak Audit
+
+- **A:** anchor_assisted — requires Gold Key on temporal sequence of reliance to defeat cleanly.
+- **B:** hard_structural — statute misfit is visible from the face of the choice.
+- **C:** hard_structural — overclaim about valuation is visible from the choice text.
+- **D:** anchor_assisted — requires Gold Key on past consideration rule.
+
+**Drift audit:** No drift. The transform preserves the original rule (past consideration), the original issue (enforceability of a promise after a gratuitous act), the original credited outcome (promise unenforceable), and all three distractor mechanics. The surface story is fully re-skinned.
+
+#### Final Student Script
+
+Cut B — statute misfit, wrong legal domain. Cut C — consideration doesn't require precise valuation. Clash between A and D on whether reliance saves the promise. The act came before the promise, so reliance is temporally impossible. D wins.
+
+#### Remediation Card
+
+- **Card ID:** RC-CONTRACTS-PASTCONSID-01
+- **Title:** Past Consideration vs. Detrimental Reliance
+- **Signal:** Promise made after a benefit was already conferred
+- **Student move:** Ask: Did the act come before or after the promise? If before → past consideration. If after → possible reliance.
+- **Tiny rule:** Past consideration is no consideration. Reliance must come AFTER the promise.
+- **Trap:** Conflating a pre-existing benefit with post-promise reliance
+- **Confidence:** ANCHOR_ASSISTED
+
+#### Gold Key(s)
+
+**GK-CONTRACTS-PASTCONSID-01**
+- **Statement:** Past consideration is no consideration. If the act is completed before the promise is made, there is no bargained-for exchange.
+- **Type:** rule
+- **Unlocks:** Defeats the reliance trap by establishing that the temporal sequence — act before promise — means no consideration exists.
+- **Trigger:** A promise is made AFTER the promisee has already performed the service.
+- **Tested choice:** A
+- **Authority:** Restatement (Second) of Contracts § 73
+- **Last-minute review:** true
+
+#### Silver Key(s)
+
+**SK-CONTRACTS-STATU
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20125_peter-tutoring",
+  "subject": "CONTRACTS",
+  "credited_answer": "D",
+  "outline_code": "55020205",
+  "distilled_core_question": "A stranger performs an emergency rescue with no expectation of payment. The rescued person later promises money. Is that promise enforceable?",
+  "review_truth": "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20125; letter_map: A→B, B→A, C→D, D→C",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20125_peter-tutoring",
+  "subject": "CONTRACTS",
+  "outline_code": "55020205",
+  "distilled_core_question": "A stranger performs an emergency rescue with no expectation of payment. The rescued person later promises money. Is that promise enforceable?",
+  "review_truth": "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20125",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20125_peter-tutoring",
+  "subject": "CONTRACTS",
+  "outline_code": "55020205",
+  "distilled_core_question": "A stranger performs an emergency rescue with no expectation of payment. The rescued person later promises money. Is that promise enforceable?",
+  "review_truth": "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "55020205",
+    "this_item_teaches": "A promise made after a gratuitous service is unsupported by consideration because the service was not bargained for.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

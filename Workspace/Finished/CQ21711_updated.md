@@ -1,0 +1,997 @@
+---
+qid: "21711_foam_whale_nativity_attachment"
+transformed_from: "21711"
+subject: "CIVIL_PROCEDURE"
+topic: "Personal Jurisdiction"
+subtopic: "Quasi-in-rem limits and relatedness"
+outline_code: "94020302"
+key: "B"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim."
+---
+Source row used: BARMATRIX Q# 21711, Civil Procedure, Personal Jurisdiction, quasi-in-rem limits and relatedness. The supplied row gives the original stem, choices, official key C, and rule reference. 
+
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+At a privately rented Bible-story obstacle-course party in State A, Lydia and Daniel, both State A citizens, are helping set up a giant foam whale prop. Daniel negligently bumps the prop, which falls and injures Lydia. Daniel owns a hand-carved olive-wood Nativity set stored in a private storage locker in State B, but Daniel has no other contacts with State B. Lydia sues Daniel in a State B court for the prop injury and attaches the Nativity set, arguing that the property gives State B power to decide the whole injury claim.
+
+**What is the best analysis?**
+
+### 2. Distilled Core Question
+
+Two State A citizens have a State A injury dispute. The defendant has unrelated personal property in State B and no other State B contacts. Can State B decide the whole injury claim because the plaintiff attaches that property?
+
+### 3. Final answer choices — post-shuffle
+
+**A.** State B may decide the claim because Lydia was injured, and plaintiffs choose the forum.
+**B.** State B likely lacks personal jurisdiction over the unrelated prop-injury claim despite the attached Nativity set.
+**C.** State B has jurisdiction only if the Nativity set is valuable enough to satisfy the whole judgment.
+**D.** State B may decide the entire injury claim because any property in the forum creates personal jurisdiction.
+
+### 4. Correct answer
+
+**B**. Original key: **C**.
+
+### 5. Letter Map
+
+No measured original pick rates were supplied in the row. All percentages below are **predicted**, not measured or inherited.
+
+| Original letter | New letter | Mechanic                                 | Substance | Pick % | Provenance |
+| --------------- | ---------: | ---------------------------------------- | --------- | -----: | ---------- |
+| A               |          D | property-as-total-jurisdiction overclaim | kept      |     22 | predicted  |
+| B               |          A | plaintiff-forum-choice wrong element     | kept      |     18 | predicted  |
+| C               |          B | correct_answer                           | kept      |     50 | predicted  |
+| D               |          C | asset-value wrong element / remedy frame | kept      |     10 | predicted  |
+
+### 6. Full right-answer explanation
+
+**B** is the best analysis. **Gold Key:** Attaching a defendant’s forum property does not itself let the forum decide an unrelated personal claim; after *Shaffer*, the property must supply a jurisdictional connection among the defendant, the forum, and the litigation, or other minimum contacts must exist. **Silver Key:** Lock the call as court power, not collection. The attached asset is only a lure unless it connects to the claim.
+
+### 7. Full wrong-answer explanations
+
+**A.** This sells a plaintiff-control move: Lydia picked State B, and she is the injured party, so State B sounds acceptable. The breaker is that the answer talks about the plaintiff’s preference, while personal jurisdiction is a court-power question about Daniel’s connection to State B.
+
+**C.** This sells a collection-value move: if the attached item can pay the judgment, the forum sounds practically adequate. **Silver Key:** value answers collection after a valid judgment; it does not answer whether the court had power to decide the case.
+
+**D.** This sells the old property-power shortcut: the defendant has property in the forum, so the court can decide the whole claim. **Gold Key:** unrelated forum property alone does not avoid due-process limits on personal jurisdiction.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The tested rule, legal issue, and credited outcome are unchanged. The original row tests whether attaching a defendant’s unrelated property in the forum can support jurisdiction over a claim unrelated to that property; the official answer says the forum likely lacks personal jurisdiction despite the attached property. 
+
+The governing authority supports the official key. *Shaffer v. Heitner* applies the *International Shoe* minimum-contacts standard to in rem and quasi-in-rem jurisdiction, and it states that when the attached property is unrelated to the plaintiff’s cause of action, the property’s presence alone, absent other ties among the defendant, forum, and litigation, does not support jurisdiction. ([Legal Information Institute][1]) The underlying *International Shoe* standard is that due process requires minimum contacts so that suit does not offend traditional notions of fair play and substantial justice. ([Legal Information Institute][2])
+
+Applied here, Daniel’s Nativity set is unrelated to Lydia’s State A prop-injury claim, and Daniel has no other State B contacts. State B therefore likely lacks personal jurisdiction over the whole injury claim.
+
+### 9. Brief note on preserved rigor/difficulty
+
+The variation keeps the same hard trap: students who remember old property-based jurisdiction or who confuse attachment with adjudicatory power will choose **D** or **C**. The Christian skin changes the story, asset, setting, and rhythm without changing the due-process rule.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Not responsive. Plaintiff injury and forum choice do not answer the court-power question.
+**CUT C:** Not responsive. Asset value answers judgment satisfaction, not jurisdiction.
+**CUT D:** Not true by Gold Key. “Any property” is an overclaim; unrelated property alone is not enough.
+**Residual:** **B**.
+**CLASH:** Not needed.
+**CALL:** Not needed beyond the Gold Key anchor.
+
+### 11. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                             |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Bank account → hand-carved olive-wood Nativity set in storage.                                                                     |
+| Transaction frame          | Car crash → private Bible-story obstacle-course prop injury.                                                                       |
+| Specific facts             | Vehicle collision → foam whale prop falls during setup.                                                                            |
+| Numbers                    | Original had no legally operative dollar amounts; no new threshold number added.                                                   |
+| Fact ordering / rhythm     | New stem starts with setting and prop event, then reveals separate stored property and forum suit.                                 |
+| Cast size / roles          | Generic Plaintiff/Defendant → Lydia and Daniel.                                                                                    |
+| Choice ordering            | Shuffled: correct answer moved to B.                                                                                               |
+| Choice phrasing            | Rephrased to match new story while preserving legal substance.                                                                     |
+| Setting / era / texture    | Generic car crash → private Christian-themed event with personal religious art asset.                                              |
+| Call wording               | Kept “best analysis” because changing it would not add divergence and could alter exam function.                                   |
+| Skipped dimension          | No transaction-frame shift to contract or property dispute; it would risk changing the personal-jurisdiction relatedness analysis. |
+| Clutter check              | No church property, donation, tithe, First Amendment, charitable-immunity, or church-internal dispute.                             |
+
+**Original stem summary:** Two State A parties have a State A car crash, and the plaintiff tries to use the defendant’s unrelated State B bank account to make State B decide the whole claim.
+**Variant stem summary:** At a private Bible-story obstacle-course party, Lydia is hurt by Daniel’s foam whale prop and tries to use Daniel’s unrelated State B Nativity set to sue him there.
+**Recognition test:** Passed. The shared core is only the rule: unrelated forum property does not supply jurisdiction over an unrelated personal claim.
+
+### 12. Review Truth
+
+Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.
+
+### 13. The 5 variations considered
+
+|  # | Title                          | Setting                                   | Cast             | Preserved issue                                                                     | Why memorable                                                              | Legal risks                                              | Divergence score                                                          |
+| -: | ------------------------------ | ----------------------------------------- | ---------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------- |
+|  1 | Foam Whale Nativity Attachment | Private Bible-story obstacle-course party | Lydia / Daniel   | Unrelated attached property cannot support jurisdiction over unrelated injury claim | Giant foam whale + Nativity set creates strong surface divergence          | Low; no church-property or religion-law issue            | **9/10 — recommended**; kills asset, accident type, rhythm, cast, setting |
+|  2 | Psalm Karaoke Speaker Crash    | Private Christian karaoke night           | Mary / Stephen   | Same                                                                                | Speaker tower falls; defendant owns hymnbook collection in State B         | Slight risk of “event organizer” vicarious issues        | 8/10                                                                      |
+|  3 | Esther Banner Ladder Fall      | Private Scripture-art workshop            | Esther / Paul    | Same                                                                                | Banner pole injury; defendant owns silver bookmark press in State B        | Ladder facts might invite premises-liability clutter     | 7/10                                                                      |
+|  4 | Timothy’s Fish Emblem Drone    | Private Christian craft fair              | Ruth / Timothy   | Same                                                                                | Drone knocks over display; defendant owns chalice-shaped trophy in State B | Drone may introduce regulation/negligence clutter        | 7/10                                                                      |
+|  5 | Barnabas’s Ark Float Spill     | Private Bible-themed children’s party     | Naomi / Barnabas | Same                                                                                | Ark float spills hot cider; defendant owns carved ark model in State B     | Child-party facts could distract into supervision issues | 6/10                                                                      |
+
+**Why #1 won:** It changed the most recognition-heavy facts while keeping the exact jurisdictional issue and answer-array mechanics intact.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "21711_foam_whale_nativity_attachment"
+  internal_id: "CP-265"
+  transformed_from: "21711"
+  subject: "CIVIL_PROCEDURE"
+  topic: "Personal Jurisdiction"
+  subtopic: "Quasi-in-rem limits and relatedness"
+  outline_code: "94020302"
+  selection_percentages:
+    A:
+      value: 18
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+    B:
+      value: 50
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+    C:
+      value: 10
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+    D:
+      value: 22
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+  official_key: "B"
+  original_key_letter: "C"
+  call: "What is the best analysis?"
+  stem: "At a privately rented Bible-story obstacle-course party in State A, Lydia and Daniel, both State A citizens, are helping set up a giant foam whale prop. Daniel negligently bumps the prop, which falls and injures Lydia. Daniel owns a hand-carved olive-wood Nativity set stored in a private storage locker in State B, but Daniel has no other contacts with State B. Lydia sues Daniel in a State B court for the prop injury and attaches the Nativity set, arguing that the property gives State B power to decide the whole injury claim."
+  choices:
+    A: "State B may decide the claim because Lydia was injured, and plaintiffs choose the forum."
+    B: "State B likely lacks personal jurisdiction over the unrelated prop-injury claim despite the attached Nativity set."
+    C: "State B has jurisdiction only if the Nativity set is valuable enough to satisfy the whole judgment."
+    D: "State B may decide the entire injury claim because any property in the forum creates personal jurisdiction."
+
+transform_provenance:
+  variant_slug: "foam_whale_nativity_attachment"
+  original_key_letter: "C"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "property_as_total_jurisdiction_overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 22
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "plaintiff_forum_choice_wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: 18
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 50
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "asset_value_wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: 10
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "Two State A parties have a State A car crash, and the plaintiff tries to use the defendant's unrelated State B bank account to make State B decide the whole claim."
+    variant_stem_one_sentence: "At a private Bible-story obstacle-course party, Lydia is hurt by Daniel's foam whale prop and tries to use Daniel's unrelated State B Nativity set to sue him there."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "transaction_frame"
+      - "specific_facts"
+      - "fact_ordering_and_rhythm"
+      - "cast_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "call_wording"
+        reason: "Kept best-analysis function to preserve MBE rigor."
+      - dimension: "numbers"
+        reason: "Original had no legally operative numbers; adding numbers would create clutter."
+
+source_stack:
+  - "BarMatrix row 21711 supplied in user file."
+  - "Controlled vocabularies from controlled_vocabularies.md."
+  - "Civil Procedure C3 overlay: jurisdiction present vs absent and threshold gate."
+  - "Official explanation quarantined to lawyer_confirmation."
+  - "Shaffer v. Heitner and International Shoe used only for lawyer-confirmation authority."
+
+student_access_contract:
+  allowed_c3_lessons:
+    - "TRUE and RESPONSIVE"
+    - "CUT -> CLASH -> CALL"
+    - "Overclaim"
+    - "Predict before you peek"
+    - "Not-responsive molds"
+    - "Bait architecture"
+    - "Anchor deck"
+    - "Calibration"
+    - "Full workflow"
+  subject_overlay:
+    fit: "Civil Procedure = procedural posture + structural prerequisite."
+    cards:
+      - "CIV-CLASH-02 jurisdiction present vs absent"
+      - "CIV-CALL-01 structural absence beats merits"
+  gold_keys:
+    - "GK-CIVIL_PROCEDURE-QIR-01"
+  silver_keys:
+    - "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01"
+  access_limit: "Student may use C3 structure plus the Gold Key; no broader personal-jurisdiction outline."
+
+stem_parse:
+  call_type: "best_analysis"
+  negative_stem: false
+  adjacent_call_traps:
+    - "collection_value"
+    - "plaintiff_forum_preference"
+    - "property_presence_shortcut"
+  role: "court_power_analysis"
+  governing_question: "Does State B have personal jurisdiction over Daniel for an unrelated State A injury claim because Daniel owns attached personal property in State B?"
+
+trigger_facts:
+  - fact: "Lydia and Daniel are both State A citizens."
+    access_label: "student_visible"
+    function: "Keeps the dispute centered outside State B."
+  - fact: "The injury occurred in State A."
+    access_label: "student_visible"
+    function: "Shows the claim did not arise from State B."
+  - fact: "Daniel owns a Nativity set stored in State B."
+    access_label: "student_visible"
+    function: "Creates the property-attachment lure."
+  - fact: "Daniel has no other contacts with State B."
+    access_label: "student_visible"
+    function: "Removes ordinary forum-contact support."
+  - fact: "Lydia sues in State B and attaches the Nativity set."
+    access_label: "student_visible"
+    function: "Frames the quasi-in-rem trap."
+
+c3_routing:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard"
+  tension_axis: "court power over defendant vs plaintiff/property/collection lures"
+  call_heuristic: null
+
+answer_array:
+  geometry: "3-vs-1"
+  dominant_trap: "D"
+  dominant_trap_description: "Any forum property creates personal jurisdiction over the entire claim."
+  array_read: "Three choices supply tempting substitutes for defendant-forum-litigation connection: plaintiff choice, asset value, and property presence."
+  silver_key:
+    id: "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01"
+    type: "trap_spotting"
+
+choice_walkthroughs:
+  A:
+    answer_text: "State B may decide the claim because Lydia was injured, and plaintiffs choose the forum."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "wrong_party"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "Plaintiff-choice wrong element."
+    c3_signal: "The answer talks about Lydia's injury and forum choice, but the call asks whether State B has power over Daniel."
+    lawyer_confirmation: "A plaintiff's choice of forum does not create personal jurisdiction over a defendant."
+  B:
+    answer_text: "State B likely lacks personal jurisdiction over the unrelated prop-injury claim despite the attached Nativity set."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "True and responsive residual."
+    c3_signal: "It answers the exact court-power question and uses the property/claim mismatch."
+    lawyer_confirmation: "Under Shaffer, unrelated forum property alone does not support jurisdiction absent other ties among defendant, forum, and litigation."
+  C:
+    answer_text: "State B has jurisdiction only if the Nativity set is valuable enough to satisfy the whole judgment."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "wrong_remedy"
+      - "answer_to_different_question"
+      - "half_right_answer"
+    method_class: "hard_structural"
+    student_label: "Collection-value wrong element."
+    c3_signal: "Value of the attached item answers collection, not court power."
+    lawyer_confirmation: "The due-process problem is lack of jurisdictional connection, not the amount of attached property."
+  D:
+    answer_text: "State B may decide the entire injury claim because any property in the forum creates personal jurisdiction."
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Any-property overclaim."
+    c3_signal: "The word any turns property presence into an unlimited court-power rule."
+    lawyer_confirmation: "Shaffer rejects jurisdiction based solely on unrelated forum property."
+
+residual_answer:
+  choice: "B"
+  why_survives: "It is the only answer that addresses the missing State B jurisdictional connection."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A focuses on plaintiff choice rather than defendant/forum connection."
+      access: "C3-visible"
+    - claim: "C focuses on collection value rather than adjudicatory power."
+      access: "C3-visible"
+    - claim: "D uses an absolute any-property rule."
+      access: "C3-visible as overclaim plus Gold Key"
+  anchor_quarantine:
+    - claim: "Unrelated attached property alone does not establish jurisdiction."
+      access: "Gold Key and lawyer_confirmation only"
+  drift_audit: "No student-facing explanation relies on Shaffer by name before the Gold Key or lawyer-confirmation layer."
+
+gold_keys:
+  - id: "GK-CIVIL_PROCEDURE-QIR-01"
+    statement: "Forum property is not a magic key. If the claim is unrelated to the attached property, the forum still needs a defendant-forum-litigation connection."
+    type: "constitutional_principle"
+    unlocks: "The any-property quasi-in-rem trap."
+    trigger: "A plaintiff attaches a defendant's forum property to sue on an unrelated personal claim."
+    tested_choice: "D"
+    authority: "Shaffer v. Heitner, 433 U.S. 186; International Shoe Co. v. Washington, 326 U.S. 310."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01"
+    statement: "Separate court power from collection. An asset's value may matter after a valid judgment, but it does not answer whether this court can decide the claim."
+    type: "trap_spotting"
+    navigates: "Asset-value answer C."
+    trigger: "An answer asks whether the attached property can satisfy the whole judgment."
+    tested_choice: "C"
+    outline_code: "94020302"
+    last_minute_review: true
+
+remediation:
+  card_id: "CIV-REM-QIR-RELATEDNESS-01"
+  title: "Unrelated property is not forum power."
+  signal: "Plaintiff attaches defendant's forum property for a claim arising elsewhere."
+  student_move: "Ask whether the property connects the defendant, forum, and litigation."
+  tiny_rule: "Unrelated property alone does not create jurisdiction over the personal claim."
+  trap: "Any-property / asset-value shortcut."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?"
+review_truth: "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim."
+
+case_study_output:
+  final_student_script: "Call is State B power over Daniel. A is plaintiff choice, not defendant contact. C is collection value, not court power. D says any property, but Gold Key says unrelated property is not enough. B remains."
+  outcome: "B"
+
+quality_control:
+  invariant_rule_preserved: true
+  credited_outcome_unmoved: true
+  dominant_trap_preserved: true
+  no_clutter_doctrine_added: true
+  recognition_test_passed: true
+  all_distractors_single_filter: true
+  yaml_before_walkthrough: true
+  key_consistency: "B across all blocks"
+
+analytics_hooks:
+  primary_trap: "quasi_in_rem_property_shortcut"
+  secondary_traps:
+    - "plaintiff_forum_choice"
+    - "asset_value_vs_court_power"
+  drill_targets:
+    - "CIV-CLASH-02"
+    - "CIV-CALL-01"
+    - "GK-CIVIL_PROCEDURE-QIR-01"
+    - "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01"
+```
+
+### 2. 17-section student case study
+
+## program_frame
+
+Subject: **Civil Procedure**.
+Lane: **procedural power before merits**.
+Task: Find the one answer that is true and responsive to State B’s power over Daniel.
+
+Civil Procedure overlay: identify the missing jurisdiction gate before merits. The overlay specifically trains “jurisdiction present vs absent” and “structural absence beats merits.” 
+
+## student_access_test
+
+A student may use:
+
+* TRUE and RESPONSIVE.
+* CUT → CLASH → CALL.
+* Overclaim detection.
+* Not-responsive molds.
+* Civil Procedure gate-before-merits overlay.
+* Gold Key: unrelated forum property does not itself create personal jurisdiction.
+* Silver Key: separate court power from collection value.
+
+No broader personal-jurisdiction outline is used in the student path.
+
+## question_data
+
+**Stem:** Lydia and Daniel are State A citizens. Lydia is injured in State A when Daniel bumps a foam whale prop. Daniel owns a Nativity set stored in State B. Daniel has no other State B contacts. Lydia sues Daniel in State B and attaches the Nativity set.
+
+**Call:** What is the best analysis?
+
+**Choices:**
+A. State B may decide the claim because Lydia was injured, and plaintiffs choose the forum.
+B. State B likely lacks personal jurisdiction over the unrelated prop-injury claim despite the attached Nativity set.
+C. State B has jurisdiction only if the Nativity set is valuable enough to satisfy the whole judgment.
+D. State B may decide the entire injury claim because any property in the forum creates personal jurisdiction.
+
+## distilled_core_question
+
+Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?
+
+## call_and_prediction
+
+**Call lock:** State B’s power over Daniel.
+**Adjacent-call traps:** plaintiff’s forum choice, asset value, and old property-power thinking.
+**Prediction:** State B likely lacks power because the injury and parties are tied to State A, while the State B property is just attached collateral.
+
+## trigger_facts
+
+| Fact                                 | Use                                         |
+| ------------------------------------ | ------------------------------------------- |
+| Both parties are State A citizens    | Keeps the personal dispute outside State B. |
+| Injury happened in State A           | Claim did not arise in State B.             |
+| Nativity set is in State B           | Creates attachment lure.                    |
+| Daniel has no other State B contacts | Removes ordinary jurisdiction support.      |
+| Lydia attaches the Nativity set      | Triggers quasi-in-rem trap.                 |
+
+## governing_c3_lane
+
+**Civil Procedure = procedural posture + structural prerequisite.**
+Gate first. Court power first. Merits and collection later.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** This answer talks about Lydia’s injury and choice of forum. The call asks whether State B has power over Daniel.
+2. **Student label:** Plaintiff-choice wrong element.
+3. **What a true/responsive version would look like:** “State B has jurisdiction because Daniel has a sufficient State B connection tied to the claim.”
+4. **Lawyer confirmation:** Plaintiff forum choice does not create personal jurisdiction over a defendant.
+
+### B
+
+1. **Student-accessible C3 signal:** This answer targets the exact missing gate: State B power over an unrelated claim despite attached property.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** *Shaffer* applies minimum contacts to quasi-in-rem jurisdiction, and unrelated property alone does not support jurisdiction. ([Legal Information Institute][1])
+
+### C
+
+1. **Student-accessible C3 signal:** This answer talks about whether the attached thing can pay the judgment. That is collection, not court power.
+2. **Student label:** Collection-value wrong element.
+3. **What a true/responsive version would look like:** “State B has jurisdiction because the property is related to the claim or other contacts support jurisdiction.”
+4. **Lawyer confirmation:** Asset value does not fix the due-process defect. The problem is missing contacts among Daniel, State B, and the litigation.
+
+### D
+
+1. **Student-accessible C3 signal:** The word “any” is the trap. It turns property presence into an unlimited jurisdiction rule.
+2. **Student label:** Any-property overclaim.
+3. **What a true/responsive version would look like:** “State B may have jurisdiction when the property itself is the source of the controversy or when other contacts satisfy due process.”
+4. **Lawyer confirmation:** *Shaffer* rejects jurisdiction based solely on unrelated property in the forum. ([Legal Information Institute][1])
+
+## residual_answer
+
+**B** remains. It answers the precise call: State B likely lacks personal jurisdiction over the unrelated claim despite attachment.
+
+## legal_leak_audit
+
+Student-facing path uses only call focus, wrong-element detection, overclaim detection, and the Gold Key. Case names and authority appear only in lawyer confirmation.
+
+**Drift audit:** No student-accessible step says “Shaffer” is required before the Gold Key. The legal authority is quarantined.
+
+## final_student_script
+
+State B power over Daniel is the call.
+A is about Lydia choosing the forum. Cut.
+C is about whether the asset can pay. Cut.
+D says any property creates jurisdiction. Gold Key cuts it.
+B is the residual.
+
+## remediation_card
+
+**Card ID:** CIV-REM-QIR-RELATEDNESS-01
+**Title:** Unrelated property is not forum power.
+**Signal:** Plaintiff attaches defendant’s forum property for a claim arising elsewhere.
+**Student move:** Ask whether the property connects the defendant, forum, and litigation.
+**Tiny rule:** Unrelated property alone does not create jurisdiction over the personal claim.
+**Trap:** Any-property / asset-value shortcut.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CIVIL_PROCEDURE-QIR-01**
+Forum property is not a magic key. If the claim is unrelated to the attached property, the forum still needs a defendant-forum-litigation connection.
+
+Type: `constitutional_principle`
+Trigger: attached property + unrelated personal claim.
+Authority: *Shaffer v. Heitner*; *International Shoe*. ([Legal Information Institute][2])
+
+## Silver Key(s)
+
+**SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01**
+Separate court power from collection. An asset’s value may matter after a valid judgment, but it does not answer whether this court can decide the claim.
+
+Type: `trap_spotting`
+Trigger: answer focuses on satisfying the judgment.
+
+## qa_checklist
+
+| Check                                   | Result |
+| --------------------------------------- | ------ |
+| Correct answer true and responsive      | Pass   |
+| Three distractors each break one filter | Pass   |
+| Official key substance preserved        | Pass   |
+| C3 residual agrees with key             | Pass   |
+| Gold Key used only as anchor            | Pass   |
+| No Christian-skin clutter doctrine      | Pass   |
+| Pick-rate provenance honest             | Pass   |
+
+## wrong_answer_recovery_paths
+
+**A:** Student sees the injured plaintiff and forgets the defendant-contact gate. Recovery: ask, “Whose power is being tested?”
+**C:** Student confuses attachment value with jurisdiction. Recovery: separate court power from collection.
+**D:** Student remembers old property jurisdiction. Recovery: use the Gold Key.
+
+## outline_mastery_map
+
+**Placement:** 94020302 — Civil Procedure > Jurisdiction and Venue > Personal Jurisdiction > Modern Due Process or Constitutional Tests > Minimum contacts test.
+
+**This item teaches:** Minimum contacts logic applies even when property is attached.
+
+**Fills:** quasi-in-rem / relatedness / defendant-forum-litigation connection.
+
+**Adjacent to master:** specific jurisdiction, general jurisdiction, traditional bases, attachment, due-process notice.
+
+## crossover_intersection_map
+
+* **Civil Procedure + Constitutional Law:** Due process limits state-court power.
+* **Civil Procedure + Remedies:** Attachment/collection is not jurisdiction.
+* **C3 universal:** Threshold before merits.
+* **C3 bait architecture:** violation/remedy and wrong-frame lures.
+
+## review_truth
+
+Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.
+
+### 3. c3_annotation JSON
+
+```json
+{
+  "question_id": "21711_foam_whale_nativity_attachment",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "B",
+  "outline_code": "94020302",
+  "distilled_core_question": "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?",
+  "review_truth": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "court power over defendant vs plaintiff/property/collection lures",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium-hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "CIV-CLASH-02",
+        "explanation": "The answer focuses on plaintiff injury and forum choice rather than State B power over Daniel."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01",
+        "explanation": "The answer focuses on the value of the attached asset, which answers collection rather than jurisdiction."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CIVIL_PROCEDURE-QIR-01",
+        "explanation": "The answer uses an overbroad any-property rule that the Gold Key defeats."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Student path uses C3 call focus and one Gold Key; legal authority remains in lawyer-confirmation layer.",
+      "transformed_from": "21711",
+      "letter_map": "A->D; B->A; C->B; D->C"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CIVIL_PROCEDURE-QIR-01",
+        "statement": "Forum property is not a magic key. If the claim is unrelated to the attached property, the forum still needs a defendant-forum-litigation connection.",
+        "type": "constitutional_principle",
+        "unlocks": "The any-property quasi-in-rem trap.",
+        "trigger": "A plaintiff attaches defendant's forum property to sue on an unrelated personal claim.",
+        "tested_choice": "D",
+        "authority": "Shaffer v. Heitner, 433 U.S. 186; International Shoe Co. v. Washington, 326 U.S. 310.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01",
+        "statement": "Separate court power from collection. An asset's value may matter after a valid judgment, but it does not answer whether this court can decide the claim.",
+        "type": "trap_spotting",
+        "navigates": "The asset-value distractor.",
+        "trigger": "An answer asks whether the attached property can satisfy the whole judgment.",
+        "tested_choice": "C",
+        "outline_code": "94020302",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements JSON
+
+```json
+{
+  "question_id": "21711_foam_whale_nativity_attachment",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?",
+  "review_truth": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+  "tension": {
+    "axis": "court power over defendant vs substitutes for that power",
+    "splitting_fact": "The State B property is unrelated to the State A injury claim, and Daniel has no other State B contacts."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student sees Lydia as the injured party and treats plaintiff choice as enough to pick a court. The breaker is that personal jurisdiction asks about State B's power over Daniel, not Lydia's preference.",
+      "focus_group_pct": 18,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "The student treats a valuable attached item as practically sufficient because it could pay the judgment. The breaker is that value answers collection after a valid judgment, not the court's power to enter one.",
+      "focus_group_pct": 10,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student remembers that property in the forum can matter and upgrades that memory into an any-property shortcut. The breaker is the Gold Key: unrelated property alone does not create jurisdiction over the whole unrelated claim.",
+      "focus_group_pct": 22,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CIV-REM-QIR-RELATEDNESS-01",
+    "title": "Unrelated property is not forum power.",
+    "signal": "Plaintiff attaches defendant's forum property for a claim arising elsewhere.",
+    "student_move": "Ask whether the property connects the defendant, forum, and litigation.",
+    "tiny_rule": "Unrelated property alone does not create jurisdiction over the personal claim.",
+    "trap": "Any-property / asset-value shortcut.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "property_presence_shortcut",
+    "attachment_vs_jurisdiction",
+    "plaintiff_forum_choice",
+    "collection_value_vs_court_power",
+    "unrelated_claim"
+  ]
+}
+```
+
+### 5. program_intelligence JSON
+
+```json
+{
+  "question_id": "21711_foam_whale_nativity_attachment",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?",
+  "review_truth": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student centers the injured plaintiff and forgets that personal jurisdiction is about power over the defendant.",
+      "skipped_move": "Call lock: court power over Daniel.",
+      "recovery_step": "Ask which party's connection to State B matters."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats attachment as a collection problem and asks whether the property can pay.",
+      "skipped_move": "Silver Key: separate court power from collection.",
+      "recovery_step": "Decide jurisdiction before thinking about judgment satisfaction."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student recognizes forum property and overextends it into an automatic jurisdiction rule.",
+      "skipped_move": "Gold Key: unrelated property is not a magic key.",
+      "recovery_step": "Check whether the property connects the defendant, forum, and litigation."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "wrong_element",
+      "prompt": "A plaintiff sues in State B because she was injured and prefers that forum. What is the C3 break?",
+      "answer": "NOT_RESPONSIVE: plaintiff preference is not defendant-forum power."
+    },
+    {
+      "drill_type": "CUT",
+      "target_skill": "violation_vs_remedy",
+      "prompt": "An answer says the attached property is valuable enough to satisfy the judgment. What is the trap?",
+      "answer": "It answers collection, not jurisdiction."
+    },
+    {
+      "drill_type": "ANCHOR",
+      "target_skill": "quasi_in_rem_relatedness",
+      "prompt": "A defendant's unrelated property is attached in the forum for a claim arising elsewhere. Does the property alone support jurisdiction?",
+      "answer": "No. Unrelated property alone is not enough."
+    },
+    {
+      "drill_type": "TRAP_SPOTTING",
+      "target_skill": "tiered_absolute",
+      "prompt": "Choice says any property in the forum creates personal jurisdiction. What word should ring?",
+      "answer": "Any."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "quasi_in_rem",
+      "minimum_contacts",
+      "unrelated_property",
+      "attachment_trap",
+      "threshold_gate"
+    ],
+    "misconception_tags": [
+      "old_property_jurisdiction_shortcut",
+      "plaintiff_chooses_forum",
+      "asset_value_confers_power"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 2 CUT -> CLASH -> CALL",
+    "Lesson 4 Overclaim",
+    "Lesson 8 Not-responsive molds",
+    "Lesson 11 Bait Architecture",
+    "Lesson 12 Anchor Deck",
+    "Civil Procedure Overlay: jurisdiction present vs absent"
+  ],
+  "crossovers": [
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "intersection": "Due process limits on state adjudicatory power."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "intersection": "Personal jurisdiction gate before merits."
+    },
+    {
+      "subject": "REAL_PROPERTY",
+      "intersection": "Property presence is a factual lure, not a property-law issue."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CIVIL_PROCEDURE-QIR-01",
+      "statement": "Forum property is not a magic key. If the claim is unrelated to the attached property, the forum still needs a defendant-forum-litigation connection.",
+      "type": "constitutional_principle",
+      "unlocks": "The any-property quasi-in-rem trap.",
+      "trigger": "A plaintiff attaches defendant's forum property to sue on an unrelated personal claim.",
+      "tested_choice": "D",
+      "authority": "Shaffer v. Heitner, 433 U.S. 186; International Shoe Co. v. Washington, 326 U.S. 310.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01",
+      "statement": "Separate court power from collection. An asset's value may matter after a valid judgment, but it does not answer whether this court can decide the claim.",
+      "type": "trap_spotting",
+      "navigates": "The asset-value distractor.",
+      "trigger": "An answer asks whether the attached property can satisfy the whole judgment.",
+      "tested_choice": "C",
+      "outline_code": "94020302",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Civil Procedure > Jurisdiction and Venue > Personal Jurisdiction > Modern Due Process or Constitutional Tests > Minimum contacts test",
+    "this_item_teaches": "Attachment of unrelated forum property does not substitute for personal jurisdiction.",
+    "fills": [
+      "quasi-in-rem limits",
+      "relatedness",
+      "minimum contacts threshold"
+    ],
+    "adjacent_to_master": [
+      "specific jurisdiction",
+      "general jurisdiction",
+      "traditional bases for personal jurisdiction",
+      "attachment procedures",
+      "due process notice"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/supremecourt/text/433/186?utm_source=chatgpt.com "R. F. SHAFFER et al., Appellants, v. Arnold HEITNER, as Custodian for Mark Andrew Heitner. | Supreme Court | US Law | LII / Legal Information Institute"
+[2]: https://www.law.cornell.edu/supremecourt/text/326/310?utm_source=chatgpt.com "INTERNATIONAL SHOE CO. v. STATE OF WASHINGTON, OFFICE OF UNEMPLOYMENT COMPENSATION AND PLACEMENT et al. | Supreme Court | US Law | LII / Legal Information Institute"
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 21711_foam_whale_nativity_attachment; source 21711.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CIVIL_PROCEDURE; topic Personal Jurisdiction; subtopic Quasi-in-rem limits and relatedness.
+4. **distilled_core_question:** Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 94020302.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 94020302.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "21711_foam_whale_nativity_attachment",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "B",
+  "outline_code": "94020302",
+  "distilled_core_question": "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?",
+  "review_truth": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 21711; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "21711_foam_whale_nativity_attachment",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?",
+  "review_truth": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-21711",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "21711_foam_whale_nativity_attachment",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "94020302",
+  "distilled_core_question": "Defendant has unrelated property in State B and no other State B contacts. Plaintiff sues there on a State A injury claim and attaches the property. Does State B have personal jurisdiction over the whole claim?",
+  "review_truth": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "94020302",
+    "this_item_teaches": "Unrelated forum property is not a magic key to personal jurisdiction over an unrelated claim.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

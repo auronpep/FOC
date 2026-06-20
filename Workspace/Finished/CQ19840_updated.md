@@ -1,0 +1,1025 @@
+---
+qid: "19840_red_sea_bridge_bolts"
+transformed_from: "19840"
+subject: "CIVIL_PROCEDURE"
+topic: "Discovery"
+subtopic: "Attorney-Client Privilege"
+outline_code: "95070405"
+key: "D"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Privilege can protect the lawyer conversation, but it does not hide the underlying fact."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+Source row: BARMATRIX Q#19840 is a Civil Procedure discovery / attorney-client privilege item. It tests whether an underlying factual identity is discoverable even though the fact was communicated to counsel; the supplied official key is C. 
+
+**Black-letter rule preserved:** Attorney-client privilege protects confidential legal-advice communications. It does not protect the underlying facts merely because those facts were communicated to counsel.
+
+**Invariant layer preserved:**
+
+* **Issue:** discovery of an underlying fact versus a privileged communication.
+* **Credited legal substance:** the underlying fact is discoverable if otherwise within discovery scope.
+* **Call function:** asks whether the fact is protected from discovery on the asserted privilege ground.
+* **Array geometry:** 2×2 outcome/reason grid: two “Yes” answers, two “No” answers; one “No” is correct, one “No” is an absolute false rule.
+* **Distractor mechanics preserved:**
+
+  * Overbroad “everything told to lawyer becomes privileged.”
+  * Wrong-frame waiver / later courtroom disclosure.
+  * Absolute false “privilege never applies in civil cases.”
+
+**Locked Christian variation — Red Sea Bridge Bolts**
+
+At Lydia’s privately owned Christian bookstore, Ruth was injured when a portable wooden “Red Sea crossing” bridge used for a paid Bible-story craft night shifted under her. Ruth sues Lydia in federal court for negligence. In an interrogatory, Ruth asks Lydia to identify who tightened the bridge’s bolts earlier that day. Lydia refuses, saying the answer is privileged because she gave that name to her lawyer during a confidential meeting seeking legal advice.
+
+**Call:** Is the identity of the person who tightened the bolts protected from discovery on that ground?
+
+### 2. Distilled Core Question
+
+In a federal negligence suit, can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?
+
+### 3. Final answer choices
+
+A. Yes, unless Lydia’s lawyer later states the name in open court.
+
+B. No, because attorney-client privilege never applies in civil cases.
+
+C. Yes, because every fact a client discusses with a lawyer while seeking legal advice becomes privileged.
+
+D. No, because an opposing party may discover relevant underlying facts even if those facts were communicated to counsel.
+
+### 5. Correct answer
+
+**D**. Original key letter: **C**.
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                                                 | Substance |     Pick rate |
+| --------------- | ---------: | -------------------------------------------------------- | --------- | ------------: |
+| A               |          C | `tiered_absolute` / overbroad privilege rule             | kept      | 44% predicted |
+| B               |          A | `bait_doctrine` / waiver frame instead of coverage frame | kept      | 16% predicted |
+| C               |          D | `correct_answer`                                         | kept      | 32% predicted |
+| D               |          B | `tiered_absolute` / privilege-never-applies absolute     | kept      |  8% predicted |
+
+No measured original pick rates were supplied. All rates above are predicted, not inherited.
+
+### 7. Full right-answer explanation
+
+**D is correct.** The interrogatory asks for a fact: the identity of the person who tightened the bridge bolts. Lydia’s private legal-advice meeting may protect the communication between Lydia and her lawyer, but it does not hide the fact itself. **Gold Key:** privilege protects legal-advice communications, not underlying facts. **Silver Key:** lock the object of discovery before reading the choices: Ruth asked for the name, not for “what Lydia said to her lawyer.”
+
+### 8. Full wrong-answer explanations
+
+**A.** This choice is attractive because waiver is a real privilege idea, and “the lawyer later says it in court” sounds like the moment privilege could be lost. The breaker is the frame: the question is not about later waiver; it is about whether the underlying name was privileged in the first place. **Silver Key:** when a choice introduces a new event not in the stem, ask whether it answers the call or a different privilege problem.
+
+**B.** This choice is attractive because it reaches the correct “No” outcome and gives an easy categorical shortcut. The breaker is the absolute: “never applies in civil cases” is too broad and collides with the premise that attorney-client privilege is a real privilege being asserted in a civil discovery dispute.
+
+**C.** This choice is the dominant trap. It sells the intuitive privacy move: “Lydia told the name to her lawyer in a confidential legal-advice meeting, so the fact must now be shielded.” The breaker is the word **every**. **Gold Key:** communicating a fact to counsel does not transform the fact into privileged material.
+
+### 9. Full black-letter-law verification and right-answer legal reasoning
+
+Federal discovery permits interrogatories about matters within Rule 26(b), and Rule 26(b)(1) permits discovery of nonprivileged matter relevant to a claim or defense and proportional to the needs of the case. ([Legal Information Institute][1]) The controlling attorney-client privilege distinction is the one stated in *Upjohn*: the privilege protects communications, not underlying facts, and a client may not refuse to disclose a relevant fact merely because the client communicated that fact to counsel. ([Justia Law][2])
+
+The transform keeps the legal issue unchanged. The requested item remains an underlying factual identity. The refusal remains based on the fact that the party communicated the identity to counsel while seeking legal advice. The credited outcome remains “No.”
+
+### 10. Why the variation preserves rigor/difficulty
+
+The new facts are vivid but legally inert. The question still turns on the same narrow discovery/privilege distinction. The dominant trap remains strong because the fact was shared in a confidential legal-advice meeting, making the overbroad privilege answer tempting.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Not responsive. It answers a waiver-by-later-disclosure scenario. The stem asks whether the identity is protected on the ground that Lydia told it to counsel.
+
+**CUT B:** Not true. “Never applies in civil cases” is an absolute. The question’s privilege frame itself makes that absolute suspect.
+
+**CUT C:** Not true. “Every fact” is the overclaim. It converts all facts discussed with a lawyer into privileged material.
+
+**Residual:** D. It directly answers the call: underlying facts remain discoverable even if communicated to counsel.
+
+**CLASH:** Not needed.
+
+**CALL:** Not needed.
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension    | Result                                                                                                                                          |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter        | Changed from stairwell inspection to portable “Red Sea crossing” bridge bolts.                                                                  |
+| Transaction frame             | Original was not a transaction. Preserved litigation/discovery frame; added paid private craft-night setting without creating a contract issue. |
+| Specific facts                | Changed inspector/stairwell/morning accident to bolt-tightener/bridge prop/Bible-story event.                                                   |
+| Numbers                       | No legal numbers in the original. None added.                                                                                                   |
+| Fact ordering and stem rhythm | Reordered: event setting first, injury second, suit third, discovery demand fourth, privilege refusal last.                                     |
+| Cast size / roles             | Changed generic defendant to Lydia, plaintiff to Ruth, added unnamed bolt-tightener as the factual identity.                                    |
+| Choice ordering               | Shuffled: original C moved to new D.                                                                                                            |
+| Choice phrasing               | Preserved legal substance; paraphrased to fit Lydia/Ruth facts.                                                                                 |
+| Setting / era / texture       | Changed generic stairwell negligence to private Christian bookstore craft-night prop.                                                           |
+| Call wording                  | Preserved function exactly: whether the identity is protected from discovery on that ground.                                                    |
+
+**Original stem summary:** A federal negligence defendant refuses to identify a stairwell inspector because the defendant told that fact to a lawyer.
+
+**Variant stem summary:** A Christian bookstore owner refuses to identify who tightened a Bible-story bridge prop because she told that name to her lawyer.
+
+Recognition test passed. The summaries share only the legal rule.
+
+### 13. Review Truth
+
+A lawyer conversation may be privileged, but the facts discussed in that conversation do not become privileged just because they were discussed.
+
+### 14. The 5 variations considered
+
+| Candidate                              | Setting / cast                                                                                | Preserved issue                                     | Why memorable                                          | Legal risks                                                                    | Divergence score                                                     |
+| -------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| **Red Sea Bridge Bolts — recommended** | Lydia’s private Christian bookstore; Ruth injured by portable bridge prop                     | Underlying factual identity communicated to counsel | Red Sea crossing prop is visual and far from stairwell | Low; private bookstore avoids church-property / First Amendment clutter        | **9/10** — kills asset, fact rhythm, roles, texture, and fact object |
+| Galilee Kayak Rack                     | Peter’s private lake-rental shop; Mary hurt by kayak rack; interrogatory asks who tied straps | Same fact-versus-communication issue                | “Galilee kayak rack” is memorable                      | Slight risk of recreational-activity facts distracting into assumption-of-risk | 8/10                                                                 |
+| Daniel’s Lion-Den Escape Room          | Daniel’s private Bible-themed escape room; Naomi hurt by prop gate; asks who reset latch      | Same issue                                          | Lion-den imagery is strong                             | Escape-room setting could invite waiver/consent distraction                    | 8/10                                                                 |
+| Manna Bakery Proofing Cart             | Ruth’s bakery; Hannah burned by rolling proofing cart; asks who adjusted wheel lock           | Same issue                                          | Manna bakery texture is Christian but ordinary         | Very low, but less divergent from generic premises negligence                  | 7/10                                                                 |
+| Paul’s Dove-Prop Pageant               | Paul’s private theater; Stephen struck by remote-control dove prop; asks who charged battery  | Same issue                                          | Comic and memorable                                    | Remote-control device may create product/technology distractions               | 7/10                                                                 |
+
+The recommended version won because it maximizes surface divergence while keeping the legal issue clean.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "19840_red_sea_bridge_bolts"
+  internal_id: "CP-333"
+  transformed_from: "19840"
+  subject: "CIVIL_PROCEDURE"
+  subject_display: "Civil Procedure"
+  topic: "Discovery"
+  subtopic: "Attorney-Client Privilege"
+  outline_code: "95070405"
+  selection_percentages:
+    A:
+      value: 16
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+    B:
+      value: 8
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+    C:
+      value: 44
+      provenance: "predicted"
+      note: "Predicted dominant trap by mechanic, not measured."
+    D:
+      value: 32
+      provenance: "predicted"
+      note: "No measured original pick rate supplied."
+  official_key: "D"
+  original_key_letter: "C"
+  call: "Is the identity of the person who tightened the bolts protected from discovery on that ground?"
+  stem: >-
+    At Lydia's privately owned Christian bookstore, Ruth was injured when a portable wooden
+    "Red Sea crossing" bridge used for a paid Bible-story craft night shifted under her.
+    Ruth sues Lydia in federal court for negligence. In an interrogatory, Ruth asks Lydia
+    to identify who tightened the bridge's bolts earlier that day. Lydia refuses, saying
+    the answer is privileged because she gave that name to her lawyer during a confidential
+    meeting seeking legal advice.
+  choices:
+    A: "Yes, unless Lydia's lawyer later states the name in open court."
+    B: "No, because attorney-client privilege never applies in civil cases."
+    C: "Yes, because every fact a client discusses with a lawyer while seeking legal advice becomes privileged."
+    D: "No, because an opposing party may discover relevant underlying facts even if those facts were communicated to counsel."
+
+transform_provenance:
+  variant_slug: "red_sea_bridge_bolts"
+  transformed_from: "19840"
+  original_key_letter: "C"
+  new_key_letter: "D"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: 44
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: 16
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 32
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: 8
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A federal negligence defendant refuses to identify a stairwell inspector because the defendant told that fact to a lawyer."
+    variant_stem_one_sentence: "A Christian bookstore owner refuses to identify who tightened a Bible-story bridge prop because she told that name to her lawyer."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific facts"
+      - "fact ordering and rhythm"
+      - "cast and roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/era/texture"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "Original was not transaction-based; litigation/discovery frame had to remain."
+      - dimension: "numbers"
+        reason: "No legally relevant original numbers; adding numbers would create noise."
+      - dimension: "call function"
+        reason: "Equivalent call preserved to avoid shifting legal issue."
+
+source_stack:
+  - priority: 1
+    source: "Pasted question row for BARMATRIX Q#19840"
+    use: "Question identity, subject, topic, subtopic, stem, choices, official key, official explanation."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "None supplied for this row."
+  - priority: 3
+    source: "Controlled vocabularies and C3 course method"
+    use: "Controlled field values and CUT/CLASH/CALL routing."
+  - priority: 4
+    source: "Official legal explanation"
+    use: "Lawyer confirmation only."
+  - priority: 5
+    source: "Legal authority"
+    use: "Lawyer confirmation only: Upjohn; FRCP 26(b)(1); FRCP 33(a)(2)."
+
+student_access_contract:
+  allowed_lessons:
+    - "TRUE and RESPONSIVE"
+    - "Ear I — Overclaim"
+    - "Ear II — Falsity"
+    - "Issue-Sense — Predict before you peek"
+    - "Issue-Sense — Not-responsive molds"
+    - "Bait Architecture"
+    - "Calibration"
+  allowed_tiny_anchors:
+    - "Gold Key: attorney-client privilege protects communications, not underlying facts."
+  controlling_test: >-
+    A student may cut a choice only if the defect is visible from grammar, overclaim,
+    stem/call relation, a named C3 card, or the Gold Key.
+
+stem_parse:
+  posture: "Federal negligence action in discovery."
+  discovery_device: "Interrogatory."
+  asserted_protection: "Attorney-client privilege."
+  requested_item: "Identity of the person who tightened the bridge bolts."
+  legal_question: "Whether the identity itself is protected because it was communicated to counsel."
+  adjacent_call_trap: "Whether a privileged communication was waived by later courtroom disclosure."
+  negative_stem_inversion: false
+
+trigger_facts:
+  - fact: "Ruth asks Lydia to identify who tightened the bridge bolts."
+    access_label: "student_visible"
+    role: "Shows the requested item is a factual identity."
+  - fact: "Lydia told that name to her lawyer."
+    access_label: "student_visible"
+    role: "Creates the privilege bait."
+  - fact: "The meeting was confidential and for legal advice."
+    access_label: "student_visible"
+    role: "Makes the privilege trap attractive without changing the underlying-fact rule."
+  - fact: "The request is made by interrogatory in federal litigation."
+    access_label: "student_visible"
+    role: "Routes to discovery scope and privilege."
+
+c3_routing:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "D"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium"
+  tension_axis: "fact itself vs communication about the fact"
+  call_heuristic: null
+
+answer_array:
+  geometry: "2x2 outcome-by-rationale"
+  outcome_groups:
+    yes:
+      - "A"
+      - "C"
+    no:
+      - "B"
+      - "D"
+  correct_answer: "D"
+  dominant_trap:
+    choice: "C"
+    basis: "predicted"
+    mechanic: "tiered_absolute"
+  silver_key:
+    id: "SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01"
+    type: "trap_spotting"
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "wrong_timing"
+      - "bar_exam_bait"
+    method_class: "heuristic_structural"
+    student_label: "wrong-frame waiver answer"
+    c3_signal: "The choice introduces later courtroom repetition, a fact not in the stem and not the ground asserted."
+    lawyer_confirmation: "Waiver is not the issue; the requested identity is an underlying fact."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "misstated_rule"
+      - "common_student_myth"
+      - "sounds_lawyerly"
+    method_class: "hard_structural"
+    student_label: "absolute no-privilege overclaim"
+    c3_signal: "The word never tries to erase the whole civil attorney-client privilege category."
+    lawyer_confirmation: "Attorney-client privilege can apply in civil cases; it does not protect underlying facts."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "common_student_myth"
+      - "bar_exam_bait"
+      - "exception_over_applied"
+    method_class: "hard_structural"
+    student_label: "every-fact privilege overclaim"
+    c3_signal: "The word every overextends privilege from communications to all facts discussed."
+    lawyer_confirmation: "Privilege protects confidential communications, not the underlying fact."
+  D:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "true and responsive residual"
+    c3_signal: "This directly answers the call and separates the fact from the lawyer conversation."
+    lawyer_confirmation: "Underlying facts remain discoverable if otherwise within Rule 26(b) scope."
+
+residual_answer:
+  choice: "D"
+  text: "No, because an opposing party may discover relevant underlying facts even if those facts were communicated to counsel."
+  why_residual: "It is the only choice that says no for the fact-versus-communication reason."
+  student_confidence: "anchor-assisted high"
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "C overclaims because it says every fact becomes privileged."
+      basis: "Ear I overclaim."
+      passes_controlling_test: true
+    - claim: "A is not responsive because it answers a later waiver scenario not in the stem."
+      basis: "Issue-Sense wrong-frame."
+      passes_controlling_test: true
+    - claim: "B overclaims because it says privilege never applies in civil cases."
+      basis: "Ear I overclaim plus privilege frame."
+      passes_controlling_test: true
+    - claim: "D survives because it directly answers the call."
+      basis: "Residual plus Gold Key."
+      passes_controlling_test: true
+  lawyer_only_claims:
+    - "Upjohn authority."
+    - "Rule 26(b)(1) scope."
+    - "Rule 33(a)(2) interrogatory scope."
+  drift_audit: "Doctrine is quarantined to lawyer_confirmation and Gold Key authority."
+
+gold_keys:
+  - id: "GK-CIVIL_PROCEDURE-UNDERLYING-FACTS-01"
+    statement: "Attorney-client privilege protects confidential legal-advice communications, not the underlying facts. A fact does not become privileged just because the client told it to a lawyer."
+    type: "distinction"
+    unlocks: "The every-fact privilege trap."
+    trigger: "The discovery request asks for a fact, but the refusal says the fact was told to counsel."
+    tested_choice: "C"
+    authority: "Upjohn Co. v. United States, 449 U.S. 383 (1981); Fed. R. Civ. P. 26(b)(1); Fed. R. Civ. P. 33(a)(2)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01"
+    statement: "Before reading privilege choices, name the object of discovery. If the other side asks for the fact itself, do not let an answer switch you to the lawyer conversation."
+    type: "trap_spotting"
+    navigates: "fact-versus-communication frame."
+    trigger: "Interrogatory asks for an identity or event fact; objection says the fact was told to counsel."
+    tested_choice: "A"
+    outline_code: "95070405"
+    last_minute_review: true
+
+remediation:
+  card_id: "CIV-DISC-PRIV-01"
+  title: "Fact, not chat"
+  signal: "Discovery asks for a fact; privilege objection points to a lawyer conversation."
+  student_move: "Separate the underlying fact from the communication that reported it."
+  tiny_rule: "Facts do not become privileged by being told to counsel."
+  trap: "Every fact discussed with a lawyer becomes privileged."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?"
+review_truth: "Privilege can protect the lawyer conversation, but it does not hide the underlying fact."
+
+case_study_output:
+  final_student_script: "They asked for the name, not the lawyer conversation. Cut every-fact, cut never-civil, cut the later-waiver frame. Pick D."
+  residual: "D"
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  true_and_responsive_residual_equals_key: true
+  exactly_three_distractors: true
+  each_distractor_breaks_one_filter: true
+  controlled_vocab_used: true
+  no_new_clutter_doctrine: true
+  christian_skin_clean: true
+  key_consistency_checked: true
+  bank_validation_verdict: "PASS"
+
+analytics_hooks:
+  forensic_tags:
+    - "privilege_scope"
+    - "underlying_fact_vs_communication"
+    - "civil_discovery_interrogatory"
+    - "absolute_privilege_overclaim"
+  misconception_tags:
+    - "telling_a_lawyer_hides_the_fact"
+    - "privilege_never_applies_in_civil_cases"
+    - "waiver_frame_when_coverage_frame_controls"
+  component_routing:
+    - "Ear I — Overclaim"
+    - "Issue-Sense — Not-responsive molds"
+    - "Gold Key — underlying facts"
+  red_zone_dimensions:
+    - "overbroad privilege language"
+    - "wrong-frame waiver language"
+    - "absolute civil-case language"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Civil Procedure discovery question. The job is not to define the full attorney-client privilege. The job is to decide what object the interrogatory asks for.
+
+## student_access_test
+
+Allowed student move: separate the **fact requested** from the **conversation with the lawyer**.
+
+Not allowed student move: announce detailed privilege doctrine unless it is the Gold Key.
+
+The student can cut:
+
+* **C** by hearing the absolute “every fact.”
+* **A** by seeing a new waiver event not in the stem.
+* **B** by hearing the absolute “never applies in civil cases.”
+
+The residual is **D**, confirmed by the Gold Key.
+
+## question_data
+
+**Stem:** Lydia’s private Christian bookstore used a portable Red Sea bridge prop. Ruth was injured. Ruth sued in federal court for negligence. Ruth asked by interrogatory who tightened the bolts. Lydia refused because she told that name to her lawyer during a confidential legal-advice meeting.
+
+**Call:** Is the identity protected from discovery on that ground?
+
+**Choices:** A, B, C, D as post-shuffle.
+
+**Correct answer:** D.
+
+## distilled_core_question
+
+Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?
+
+## call_and_prediction
+
+**Call lock:** protected from discovery on this asserted ground.
+
+**Prediction:** No. The name is a fact. The lawyer conversation may be protected, but the name itself is still discoverable.
+
+## trigger_facts
+
+| Fact                                               | Why it matters                              |
+| -------------------------------------------------- | ------------------------------------------- |
+| Ruth asks for who tightened the bolts.             | The requested object is a factual identity. |
+| Lydia told the name to her lawyer.                 | This creates the privilege bait.            |
+| The meeting was confidential and for legal advice. | Makes the wrong “Yes” answers attractive.   |
+| The request is an interrogatory.                   | Routes the question to discovery scope.     |
+
+## governing_c3_lane
+
+**Subject FIT:** Civil Procedure = procedural posture + structural prerequisite.
+
+**Lane:** Discovery scope plus privilege boundary.
+
+**Governing law type:** RULE.
+
+**Deciding phase:** CUT, with Gold Key confirmation.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The choice introduces later courtroom repetition. That event is not in the stem.
+2. **Student label:** Wrong-frame waiver answer.
+3. **True/responsive version:** “Yes, if the interrogatory asked what Lydia said to counsel and no waiver occurred.”
+4. **Lawyer confirmation:** Waiver is a different privilege issue. Here the threshold point is that the requested name is an underlying fact, not the protected communication.
+
+### B
+
+1. **Student-accessible C3 signal:** “Never applies in civil cases” is an absolute.
+2. **Student label:** Absolute no-privilege overclaim.
+3. **True/responsive version:** “No, because this requested item is an underlying fact rather than a privileged communication.”
+4. **Lawyer confirmation:** Attorney-client privilege can apply in civil cases. The defect is not that the case is civil; the defect is that the requested item is the underlying fact.
+
+### C
+
+1. **Student-accessible C3 signal:** “Every fact” is the loud overclaim.
+2. **Student label:** Every-fact privilege overclaim.
+3. **True/responsive version:** “Yes, if the interrogatory demanded the confidential legal-advice communication itself.”
+4. **Lawyer confirmation:** Privilege protects confidential legal-advice communications. It does not protect all facts discussed in those communications.
+
+### D
+
+1. **Student-accessible C3 signal:** It answers the exact call: the requested identity is discoverable even though it was communicated to counsel.
+2. **Student label:** True and responsive residual.
+3. **True/responsive version:** This is the true/responsive version.
+4. **Lawyer confirmation:** This matches the *Upjohn* fact-versus-communication distinction and federal discovery scope.
+
+## residual_answer
+
+**D** remains after the CUT.
+
+It is responsive because it answers whether the identity is protected from discovery on Lydia’s asserted ground.
+
+## legal_leak_audit
+
+Student-facing claims are limited to visible answer construction plus the Gold Key. The full authority stays in lawyer confirmation.
+
+**Allowed:** “Every fact” overclaims. “Never applies” overclaims. “Lawyer repeats in court” is a wrong-frame event. “D separates fact from conversation.”
+
+**Not allowed as pure structure:** Full privilege doctrine.
+
+**Drift audit:** The student path does not rely on *Upjohn* until lawyer confirmation; the Gold Key supplies the narrow anchor.
+
+## final_student_script
+
+They asked for the **name**, not for the lawyer conversation. C says **every fact** becomes privileged; cut it. B says privilege **never** applies in civil cases; cut it. A talks about the lawyer later saying the name in court; that is not the call. D is the residual: underlying facts stay discoverable.
+
+## remediation_card
+
+**CIV-DISC-PRIV-01 — Fact, not chat**
+
+* **Signal:** Interrogatory asks for an identity or event fact; objection says the fact was told to counsel.
+* **Student move:** Separate the fact from the lawyer communication.
+* **Tiny rule:** Facts do not become privileged just because they were told to counsel.
+* **Trap:** “Everything I told my lawyer is hidden.”
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CIVIL_PROCEDURE-UNDERLYING-FACTS-01**
+
+Attorney-client privilege protects confidential legal-advice communications, not the underlying facts. A fact does not become privileged just because the client told it to a lawyer.
+
+## Silver Key(s)
+
+**SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01**
+
+Before reading privilege choices, name the object of discovery. If the other side asks for the fact itself, do not let an answer switch you to the lawyer conversation.
+
+## qa_checklist
+
+| Check                                        | Result |
+| -------------------------------------------- | ------ |
+| New key matches original legal substance     | Pass   |
+| Three distractors each break one filter      | Pass   |
+| Correct answer breaks no filter              | Pass   |
+| No church-property / First Amendment clutter | Pass   |
+| Christian skin uses popular Bible names      | Pass   |
+| Authority quarantined                        | Pass   |
+| Pick-rate provenance honest                  | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why student picks it                        | Recovery                                                      |
+| ------ | ------------------------------------------- | ------------------------------------------------------------- |
+| A      | Waiver sounds like a privilege issue.       | Ask whether the stem contains the waiver event.               |
+| B      | It reaches “No” quickly.                    | Do not accept a “No” if the reason is an absolute false rule. |
+| C      | Confidential lawyer meeting feels powerful. | Hear “every fact” and separate fact from communication.       |
+
+## outline_mastery_map
+
+**Outline code:** 95070405.
+
+**Placement:** Civil Procedure > Pretrial Procedures > Discovery > Privileges.
+
+**This item teaches:** privilege scope in discovery; underlying fact versus protected communication.
+
+**Adjacent mastery:** discovery scope; interrogatories; work product versus attorney-client privilege.
+
+## crossover_intersection_map
+
+| Crossover                 | Why it matters                                         |
+| ------------------------- | ------------------------------------------------------ |
+| Evidence privilege        | Same privilege concept, different procedural setting.  |
+| Civil Procedure discovery | Interrogatory and Rule 26 scope supply the posture.    |
+| C3 Overclaim              | “Every” and “never” do most of the CUT work.           |
+| C3 Wrong-frame            | Waiver answer responds to an adjacent privilege issue. |
+
+## review_truth
+
+Privilege can protect the lawyer conversation, but it does not hide the underlying fact.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "19840_red_sea_bridge_bolts",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "D",
+  "outline_code": "95070405",
+  "distilled_core_question": "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?",
+  "review_truth": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "fact itself vs communication about the fact",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01",
+        "explanation": "The choice answers a later waiver problem, not whether the underlying name was privileged when requested."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "C3-L4-OVERCLAIM",
+        "explanation": "The word never overclaims by erasing civil attorney-client privilege."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CIVIL_PROCEDURE-UNDERLYING-FACTS-01",
+        "explanation": "The phrase every fact overextends privilege from communications to underlying facts."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Rule and outcome unchanged; surface story changed from stairwell inspector to Red Sea bridge bolt-tightener; authority quarantined to lawyer_confirmation.",
+      "transformed_from": "19840",
+      "letter_map": "A->C; B->A; C->D; D->B"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CIVIL_PROCEDURE-UNDERLYING-FACTS-01",
+        "statement": "Attorney-client privilege protects confidential legal-advice communications, not the underlying facts. A fact does not become privileged just because the client told it to a lawyer.",
+        "type": "distinction",
+        "unlocks": "The every-fact privilege trap.",
+        "trigger": "Discovery request asks for a fact; objection says the fact was told to counsel.",
+        "tested_choice": "C",
+        "authority": "Upjohn Co. v. United States, 449 U.S. 383 (1981); Fed. R. Civ. P. 26(b)(1); Fed. R. Civ. P. 33(a)(2).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01",
+        "statement": "Before reading privilege choices, name the object of discovery. If the other side asks for the fact itself, do not let an answer switch you to the lawyer conversation.",
+        "type": "trap_spotting",
+        "navigates": "fact-versus-communication frame",
+        "trigger": "Interrogatory asks for an identity or event fact; objection says the fact was told to counsel.",
+        "tested_choice": "A",
+        "outline_code": "95070405",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "19840_red_sea_bridge_bolts",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "95070405",
+  "distilled_core_question": "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?",
+  "review_truth": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+  "tension": {
+    "axis": "fact itself vs communication about the fact",
+    "resolved_by": "The interrogatory asks for the identity, not the legal-advice communication."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice sells a waiver story because lawyers repeating facts in court sounds like the moment a privilege would be lost. The breaker is that the asked-for item is an underlying fact, so waiver timing is not the question.",
+      "focus_group_pct": 16,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The choice sells an easy no by using a broad civil-case shortcut. The breaker is the absolute never, which contradicts the privilege frame rather than answering the fact-versus-communication split.",
+      "focus_group_pct": 8,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The choice sells privacy because the fact was discussed with a lawyer during a legal-advice meeting. The breaker is the word every, which tries to convert all discussed facts into protected material.",
+      "focus_group_pct": 44,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CIV-DISC-PRIV-01",
+    "title": "Fact, not chat",
+    "signal": "Discovery asks for a fact; privilege objection points to a lawyer conversation.",
+    "student_move": "Separate the underlying fact from the communication that reported it.",
+    "tiny_rule": "Facts do not become privileged by being told to counsel.",
+    "trap": "Every fact discussed with a lawyer becomes privileged.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "attorney-client privilege overclaim",
+    "wrong-frame waiver facts",
+    "absolute civil-case privilege statement",
+    "confusing confidentiality with discoverability"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "19840_red_sea_bridge_bolts",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "95070405",
+  "distilled_core_question": "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?",
+  "review_truth": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student recognizes waiver as privilege-adjacent and treats it as the controlling issue.",
+      "skipped_move": "Call lock: protected on what ground?",
+      "recovery_step": "Circle the asserted ground in the stem and reject events not in the stem."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student wants the correct no outcome and accepts a sweeping reason.",
+      "skipped_move": "Reason check on because answer.",
+      "recovery_step": "Test both halves: the outcome may be right while the reason is overbroad."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student treats confidentiality with a lawyer as a blanket shield for everything discussed.",
+      "skipped_move": "Gold Key: fact versus communication.",
+      "recovery_step": "Ask whether the request seeks the fact itself or the lawyer conversation."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "Overclaim detection",
+      "prompt": "A choice says every fact discussed with counsel becomes privileged. Name the mold.",
+      "answer": "tiered_absolute"
+    },
+    {
+      "drill_type": "ISSUE_SENSE",
+      "target_skill": "Wrong-frame detection",
+      "prompt": "A privilege choice turns on whether the lawyer later repeated the fact in court, but the stem asks whether the fact was privileged in the first place. Cut or keep?",
+      "answer": "Cut as NOT_RESPONSIVE / bait_doctrine."
+    },
+    {
+      "drill_type": "ANCHOR",
+      "target_skill": "Underlying facts rule",
+      "prompt": "A client tells a lawyer the name of a witness. Can the client refuse to disclose the witness's name solely for that reason?",
+      "answer": "No. The fact is not privileged merely because it was communicated to counsel."
+    },
+    {
+      "drill_type": "CALIBRATION",
+      "target_skill": "Residual after three named cuts",
+      "prompt": "You cut every-fact, never-civil, and wrong-frame waiver. What confidence band?",
+      "answer": "ANCHOR_ASSISTED high; commit after read-check."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "fact_vs_communication",
+      "privilege_scope",
+      "interrogatory_scope",
+      "because_answer_reason_check"
+    ],
+    "misconception_tags": [
+      "everything_told_to_lawyer_is_secret",
+      "civil_cases_have_no_privilege",
+      "waiver_controls_all_privilege_questions"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 4 Overclaim",
+    "Lesson 8 Not-responsive molds",
+    "Lesson 11 Bait architecture",
+    "Gold Key underlying facts",
+    "Silver Key fact-not-chat"
+  ],
+  "crossovers": [
+    {
+      "subject": "EVIDENCE",
+      "connection": "Privilege concepts also appear as evidence exclusions, but this item is discovery posture."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "Rule 26 and Rule 33 define discovery scope and interrogatory use."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CIVIL_PROCEDURE-UNDERLYING-FACTS-01",
+      "statement": "Attorney-client privilege protects confidential legal-advice communications, not the underlying facts. A fact does not become privileged just because the client told it to a lawyer.",
+      "type": "distinction",
+      "unlocks": "The every-fact privilege trap.",
+      "trigger": "Discovery request asks for a fact; objection says the fact was told to counsel.",
+      "tested_choice": "C",
+      "authority": "Upjohn Co. v. United States, 449 U.S. 383 (1981); Fed. R. Civ. P. 26(b)(1); Fed. R. Civ. P. 33(a)(2).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01",
+      "statement": "Before reading privilege choices, name the object of discovery. If the other side asks for the fact itself, do not let an answer switch you to the lawyer conversation.",
+      "type": "trap_spotting",
+      "navigates": "fact-versus-communication frame",
+      "trigger": "Interrogatory asks for an identity or event fact; objection says the fact was told to counsel.",
+      "tested_choice": "A",
+      "outline_code": "95070405",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Civil Procedure > Pretrial Procedures > Discovery > Privileges",
+    "this_item_teaches": "Attorney-client privilege does not block discovery of underlying facts.",
+    "fills": [
+      "privilege scope",
+      "interrogatory fact discovery",
+      "overclaim detection in discovery answers"
+    ],
+    "adjacent_to_master": [
+      "work product doctrine",
+      "Rule 26(b)(1) proportional discovery",
+      "Rule 33 interrogatories",
+      "privilege waiver"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/rules/frcp/rule_33?utm_source=chatgpt.com "Rule 33. Interrogatories to Parties | Federal Rules of Civil Procedure | US Law | LII / Legal Information Institute"
+[2]: https://supreme.justia.com/cases/federal/us/449/383/?utm_source=chatgpt.com "Upjohn Co. v. United States | 449 U.S. 383 (1981) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "19840_red_sea_bridge_bolts",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "D",
+  "outline_code": "95070405",
+  "distilled_core_question": "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?",
+  "review_truth": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 19840; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "19840_red_sea_bridge_bolts",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "95070405",
+  "distilled_core_question": "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?",
+  "review_truth": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-19840",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "19840_red_sea_bridge_bolts",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "95070405",
+  "distilled_core_question": "Can a party refuse to identify a relevant fact in an interrogatory just because the party told that fact to a lawyer while seeking legal advice?",
+  "review_truth": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "95070405",
+    "this_item_teaches": "Privilege can protect the lawyer conversation, but it does not hide the underlying fact.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

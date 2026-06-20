@@ -1,0 +1,1054 @@
+---
+qid: "20153_lampstand_labs"
+transformed_from: "20153"
+subject: "CONSTITUTIONAL_LAW"
+topic: "Individual Rights"
+subtopic: "First Amendment Protections - Freedom of religion"
+outline_code: "44040501"
+key: "B"
+original_key: "D"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation."
+---
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+**Question ID:** `20153_lampstand_labs`
+**Source row:** BARMATRIX Q# 20153, Constitutional Law, official key D. 
+
+Congress enacts the **Lampstand Labs Act**, which authorizes federal tax funds to buy robotics kits, digital microscopes, and portable planetarium projectors for qualifying private schools. The kits are available on identical terms to private schools with religious missions and to secular private schools. The Act states that every donated kit must be used only for secular instruction and secular academic activities.
+
+Mary and Peter, federal taxpayers whose children attend public schools in the state, sue in federal court for an order enjoining the federal government from spending tax funds on kits that will go to Christian and other religious private schools. They argue that the spending is unconstitutional.
+
+**Should the court issue the requested injunction?**
+
+## 2. Distilled Core Question
+
+Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?
+
+## 3. Final answer choices — post-shuffle
+
+A. **Yes, because education is solely a matter for the states.**
+
+B. **No, because the Act restricts the donated kits to secular educational use.**
+
+C. **No, because Mary and Peter lack standing to challenge federal spending.**
+
+D. **Yes, because using public funds to buy equipment for religious private schools violates the Establishment Clause.**
+
+## 4. Correct answer
+
+**B** — original key letter **D**.
+
+## 5. Letter Map
+
+| Original letter | New letter | Mechanic                                            | Substance | Pick rate                                           |
+| --------------- | ---------: | --------------------------------------------------- | --------- | --------------------------------------------------- |
+| A               |          D | `tiered_absolute` / Establishment Clause overclaim  | kept      | null, predicted — source row supplied no measured % |
+| B               |          A | `tiered_absolute` / states-only education overclaim | kept      | null, predicted — source row supplied no measured % |
+| C               |          C | `flat_misstatement` / standing falsehood            | kept      | null, predicted — source row supplied no measured % |
+| D               |          B | `correct_answer`                                    | kept      | null, predicted — source row supplied no measured % |
+
+No distractor swap. Selection percentages were not supplied in the source row, so no mechanic inherits a measured rate.
+
+## 6. Full right-answer explanation
+
+**B is correct.** The injunction should not issue because the statute is structured as a neutral educational-aid program: religious and secular private schools are treated alike, and the donated kits are restricted to secular educational use.
+
+**Gold Key:** Neutral aid to religious and nonreligious private schools is not automatically an Establishment Clause violation when the program uses neutral criteria and restricts aid to secular, nonideological use. **Silver Key:** Do not pick by the Yes/No result alone; grade the “because.” C has the right result but a bad threshold reason. B gives the merits reason that fits the statute.
+
+In *Mitchell v. Helms*, the Court upheld a similar school-aid program where materials and equipment went to religious and nonreligious schools under neutral criteria and the aid was restricted to secular, neutral, nonideological use. ([Justia Law][1])
+
+## 7. Full wrong-answer explanations
+
+**A.** This choice sells the federalism reflex: education sounds local, so “states only” feels plausible. The breaker is the word **solely**; Congress has taxing-and-spending power for the general welfare, so education subsidies are not barred just because education is also regulated by states. ([Congress.gov][2])
+
+**C.** This choice sells the threshold-first instinct: standing would stop the case before the merits. The breaker is the Gold Key for taxpayer standing: in an Establishment Clause challenge to congressional taxing-and-spending, federal taxpayers can have standing under the *Flast* exception. ([Justia Law][3])
+
+**D.** This choice sells the clean Establishment Clause fear: public money plus religious schools feels like automatic establishment. The breaker is the Gold Key: neutral, secular-use school aid is not automatically unconstitutional merely because religious schools receive it on equal terms. ([Justia Law][1])
+
+## 8. Full black-letter-law verification and right-answer legal reasoning
+
+The tested rule, issue, and credited outcome are unchanged from the source row: the original asked whether a court should enjoin federal spending for computers and audiovisual equipment donated to religious and nonreligious private schools on equal terms, limited to nonreligious use, and the official answer was no. 
+
+Legal verification:
+
+Congress has power to tax and spend for the general welfare under Article I, Section 8. ([Congress.gov][2]) In *Mitchell v. Helms*, the Court reversed a decision invalidating Chapter 2 aid and described the program as lending educational materials and equipment to public and private schools for secular, neutral, nonideological programs. ([Justia Law][1]) The controlling aid facts track this item: neutral eligibility, nondiscriminatory availability to religious and secular schools, and secular-use restrictions. The Court stated that Chapter 2 did not define recipients by religion, made aid available on a nondiscriminatory basis, and required that the aid be secular, neutral, and nonideological. ([Justia Law][1])
+
+Standing is also preserved. *Flast v. Cohen* recognizes federal taxpayer standing for challenges to congressional taxing-and-spending measures alleged to violate the Establishment Clause. ([Justia Law][3])
+
+## 9. Why the variation preserves rigor/difficulty
+
+The surface story changes from computers/audiovisual equipment to robotics, microscopes, and planetarium kits. The invariant legal core stays fixed: federal educational aid, religious and secular private schools treated equally, secular-use restriction, Establishment Clause challenge, standing trap, spending-power trap, and no injunction.
+
+## 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** The word **solely** creates a states-only overclaim. A needs the spending-power Gold Key.
+
+**CUT C:** Same result as the credited answer, but the reason fails. Standing is a threshold trap. C needs the taxpayer-standing Gold Key.
+
+**CUT D:** Establishment Clause overclaim. It treats all aid to religious schools as unconstitutional and ignores the neutral/secular-use facts. D needs the neutral-aid Gold Key.
+
+**Residual:** B. No CLASH remains. CALL is unnecessary after Gold Key-assisted CUT.
+
+## 11. Divergence Audit
+
+| Recognition-Kill dimension  | Result                                                                                                                        |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter      | Changed from computers and audiovisual equipment to robotics kits, digital microscopes, and portable planetarium projectors.  |
+| Transaction frame           | Preserved direct federal purchase/donation. Skipped because the legal rule turns on government aid to schools.                |
+| Specific facts              | Changed statute name, equipment type, plaintiff names, and kit-use wording; preserved equal access and secular-use condition. |
+| Numbers                     | No legally operative numbers in source; none added.                                                                           |
+| Fact ordering / stem rhythm | Reordered: equipment first, equal-access second, secular-use third, plaintiffs last.                                          |
+| Cast size / roles           | Added named taxpayer-parents Mary and Peter.                                                                                  |
+| Choice ordering             | Shuffled. New key is B.                                                                                                       |
+| Choice phrasing             | Paraphrased without changing legal substance.                                                                                 |
+| Setting / era / texture     | Moved to modern STEM lab / robotics setting.                                                                                  |
+| Call wording                | Changed to “Should the court issue the requested injunction?” Same legal function.                                            |
+
+**Original stem summary:** Congress funds computers and audiovisual equipment for religious and nonreligious private schools, limited to nonreligious use, and public-school parents seek an injunction.
+
+**Variant stem summary:** Mary and Peter challenge the Lampstand Labs Act, which sends secular-use STEM kits to religious and secular private schools on equal terms.
+
+Recognition test: passed. The summaries share the legal rule but not the memorable surface story.
+
+## 12. Review Truth
+
+Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.
+
+## 13. The 5 variations considered
+
+1. **Recommended — Lampstand Labs Act.** Setting: modern STEM kits. Cast: Mary and Peter. Preserved issue: neutral secular-use educational aid to religious schools. Memorable hook: Christian “lampstand” title plus robotics/planetarium gear. Legal risks: minimal; school-aid facts preserved. Divergence score: 8/10 — kills asset, rhythm, names, texture, and choice order while preserving direct aid.
+
+2. **Bethlehem Beehive Biology Grants.** Setting: pollinator-science kits for private schools. Cast: Ruth and Daniel. Preserved issue: secular-use school equipment aid. Memorable hook: beehives and botany. Legal risks: live animals could create premises/safety clutter. Divergence score: 7/10.
+
+3. **Galilee Garden Hydroponics Vans.** Setting: mobile hydroponics carts donated to schools. Cast: Lydia and Stephen. Preserved issue: secular-use equipment aid. Memorable hook: rolling gardens. Legal risks: “food” and “donation” could add welfare/charity noise. Divergence score: 7/10.
+
+4. **Emmaus Map Lab.** Setting: geography tablets and 3D map tables. Cast: Hannah and Timothy. Preserved issue: secular-use school equipment aid. Memorable hook: map-table lab. Legal risks: tablets too close to original computers. Divergence score: 6/10.
+
+5. **Barnabas Maker-Space Toolkits.** Setting: laser cutters and maker-space tools. Cast: Naomi and Paul. Preserved issue: secular-use school equipment aid. Memorable hook: maker-space workshop. Legal risks: tools could invite safety/liability distraction. Divergence score: 7/10.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+```yaml
+question_yaml:
+  barmatrix_row:
+    qid: "20153_lampstand_labs"
+    transformed_from: "20153"
+    subject: "CONSTITUTIONAL_LAW"
+    topic: "Individual Rights"
+    subtopic: "First Amendment Protections - Freedom of religion"
+    outline_code: "44040501"
+    selection_percentages:
+      A:
+        value: null
+        provenance: "predicted"
+      B:
+        value: null
+        provenance: "predicted"
+      C:
+        value: null
+        provenance: "predicted"
+      D:
+        value: null
+        provenance: "predicted"
+    official_key: "B"
+    call: "Should the court issue the requested injunction?"
+    stem: "Congress enacts the Lampstand Labs Act, which authorizes federal tax funds to buy robotics kits, digital microscopes, and portable planetarium projectors for qualifying private schools. The kits are available on identical terms to private schools with religious missions and to secular private schools. The Act states that every donated kit must be used only for secular instruction and secular academic activities. Mary and Peter, federal taxpayers whose children attend public schools in the state, sue in federal court for an order enjoining the federal government from spending tax funds on kits that will go to Christian and other religious private schools. They argue that the spending is unconstitutional. Should the court issue the requested injunction?"
+    choices:
+      A: "Yes, because education is solely a matter for the states."
+      B: "No, because the Act restricts the donated kits to secular educational use."
+      C: "No, because Mary and Peter lack standing to challenge federal spending."
+      D: "Yes, because using public funds to buy equipment for religious private schools violates the Establishment Clause."
+
+  transform_provenance:
+    transformed_from: "20153"
+    variant_slug: "lampstand_labs"
+    original_key_letter: "D"
+    new_key_letter: "B"
+    letter_map:
+      - original_letter: "A"
+        new_letter: "D"
+        mechanic: "tiered_absolute"
+        substance: "kept"
+        pick_rate:
+          value: null
+          provenance: "predicted"
+      - original_letter: "B"
+        new_letter: "A"
+        mechanic: "tiered_absolute"
+        substance: "kept"
+        pick_rate:
+          value: null
+          provenance: "predicted"
+      - original_letter: "C"
+        new_letter: "C"
+        mechanic: "flat_misstatement"
+        substance: "kept"
+        pick_rate:
+          value: null
+          provenance: "predicted"
+      - original_letter: "D"
+        new_letter: "B"
+        mechanic: "correct_answer"
+        substance: "kept"
+        pick_rate:
+          value: null
+          provenance: "predicted"
+    swap:
+      performed: false
+      replaced_original_letter: null
+      reason: null
+    divergence_summary:
+      original_stem_one_sentence: "Congress funds computers and audiovisual equipment for religious and nonreligious private schools, limited to nonreligious use, and public-school parents seek an injunction."
+      variant_stem_one_sentence: "Mary and Peter challenge the Lampstand Labs Act, which sends secular-use STEM kits to religious and secular private schools on equal terms."
+      dimensions_changed:
+        - "asset_subject_matter"
+        - "fact_ordering_and_stem_rhythm"
+        - "cast_size_roles"
+        - "choice_ordering"
+        - "choice_phrasing"
+        - "setting_era_texture"
+        - "call_wording"
+      dimensions_skipped_with_reason:
+        - dimension: "transaction_frame"
+          reason: "Direct federal purchase and donation is legally load-bearing for the school-aid Establishment Clause issue."
+        - dimension: "numbers"
+          reason: "No legally operative numbers appeared in the source item."
+        - dimension: "specific_lies_facts"
+          reason: "No fraud or misrepresentation facts existed; equivalent axis is neutral aid plus secular-use restriction."
+
+  source_stack:
+    - "Pasted BARMATRIX row: QID 20153, official key D, Mitchell v. Helms explanation."
+    - "Controlled vocabularies file for subject, molds, filters, method_class, verdict, confidence, key types."
+    - "C3 lessons and Con Law overlay: claim home, threshold, overclaim, answer-array read."
+    - "Lawyer-confirmation authority only: Mitchell v. Helms, Flast v. Cohen, Article I Section 8."
+
+  student_access_contract:
+    allowed_lessons:
+      - "Lesson 1: TRUE and RESPONSIVE"
+      - "Lesson 2: CUT -> CLASH -> CALL"
+      - "Lesson 4: overclaim"
+      - "Lesson 7: predict before you peek"
+      - "Lesson 11: bait architecture"
+      - "Lesson 12: anchor deck"
+      - "Con Law overlay: claim categorization and threshold-before-merits"
+    anchor_status: "Gold Key required"
+    student_access_limit: "No student-facing claim that Establishment Clause aid, taxpayer standing, or congressional education spending is false without a Gold Key."
+
+  stem_parse:
+    call_type: "injunction"
+    posture: "federal court suit seeking to enjoin federal tax spending"
+    negative_stem: false
+    adjacent_call_trap: "Do not answer only whether religious schools receive public items; answer whether this neutral, secular-use spending must be enjoined."
+    role: "judge"
+    predicted_answer: "No injunction if the program is neutral and secular-use only."
+
+  trigger_facts:
+    - fact: "Congress uses federal tax funds."
+      access_label: "Gold Key trigger - spending power and taxpayer standing"
+    - fact: "Religious and secular private schools receive aid on identical terms."
+      access_label: "Gold Key trigger - neutral aid"
+    - fact: "Donated kits must be used only for secular instruction and secular academic activities."
+      access_label: "Gold Key trigger - secular-use restriction"
+    - fact: "Mary and Peter are federal taxpayers and public-school parents."
+      access_label: "Gold Key trigger - taxpayer standing"
+    - fact: "Requested relief is an injunction against spending."
+      access_label: "C3-visible call fact"
+
+  c3_routing:
+    subject_fit: "Constitutional Law = claim categorization + threshold/aid-rule anchor"
+    governing_law_type: "RULE"
+    deciding_phase: "CUT"
+    method_class: "anchor_assisted"
+    confidence: "ANCHOR_ASSISTED"
+    case_study_verdict: "ANCHOR_SOLVE"
+    bank_validation_verdict: "PASS"
+    residual: "B"
+    agrees_with_official_key: true
+    is_fork: false
+    fork_type: null
+    difficulty: "medium-hard anchor item"
+
+  answer_array:
+    geometry: "2x2 outcome/reason grid"
+    structure:
+      yes_answers:
+        - "A: states-only education reason"
+        - "D: Establishment Clause per se aid reason"
+      no_answers:
+        - "B: correct secular-use merits reason"
+        - "C: false standing threshold reason"
+    silver_key: "Do not select by outcome alone; grade the because."
+    residual_after_cut: "B"
+
+  choice_walkthroughs:
+    A:
+      filter_broken: "NOT_TRUE"
+      mold_code: "tiered_absolute"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: "wrong_frame"
+      wrong_answer_architecture_tags:
+        - "overbroad_rule"
+        - "common_student_myth"
+        - "sounds_lawyerly"
+        - "answer_to_different_question"
+      method_class: "anchor_assisted"
+      student_label: "states-only overclaim"
+      c3_signal: "The word solely is the tell; it tries to make education exclusively state-controlled."
+      lawyer_confirmation: "Congress may tax and spend for the general welfare; education subsidies are not barred merely because states also regulate education."
+    B:
+      filter_broken: null
+      mold_code: null
+      mold_family: null
+      bait_architecture_code: null
+      wrong_answer_architecture_tags:
+        - "correct_answer"
+      method_class: "anchor_assisted"
+      student_label: "true and responsive residual"
+      c3_signal: "This is the only no-injunction answer that uses the secular-use fact."
+      lawyer_confirmation: "Mitchell v. Helms supports neutral, secular-use educational equipment aid to religious and nonreligious schools."
+    C:
+      filter_broken: "NOT_TRUE"
+      mold_code: "flat_misstatement"
+      mold_family: "EAR_FALSITY"
+      bait_architecture_code: "procedural_frame"
+      wrong_answer_architecture_tags:
+        - "wrong_jurisdiction"
+        - "wrong_procedural_posture"
+        - "sounds_lawyerly"
+        - "bar_exam_bait"
+      method_class: "anchor_assisted"
+      student_label: "false threshold"
+      c3_signal: "It has the right result but a threshold reason that needs the taxpayer-standing Gold Key."
+      lawyer_confirmation: "Flast v. Cohen recognizes taxpayer standing for congressional taxing-and-spending challenges alleging Establishment Clause violations."
+    D:
+      filter_broken: "NOT_TRUE"
+      mold_code: "tiered_absolute"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: null
+      wrong_answer_architecture_tags:
+        - "attractive_wrong_answer"
+        - "overbroad_rule"
+        - "common_student_myth"
+        - "bar_exam_bait"
+      method_class: "anchor_assisted"
+      student_label: "Establishment Clause overclaim"
+      c3_signal: "It treats public aid to religious schools as automatically unconstitutional and ignores neutral/secular-use facts."
+      lawyer_confirmation: "Mitchell rejects the per se rule that neutral, secular-use aid to religious schools is automatically forbidden."
+
+  residual_answer:
+    choice: "B"
+    why_survives: "It answers the injunction call and uses the two load-bearing facts: equal availability and secular-use restriction."
+    caveat: "This is an anchor-assisted residual, not a purely structural residual."
+
+  legal_leak_audit:
+    student_accessible:
+      - "A has an absolute word: solely."
+      - "C is a same-result wrong-reason trap."
+      - "D overclaims by treating one religious-school fact as automatically dispositive."
+      - "B engages the secular-use fact."
+    quarantined_to_lawyer_confirmation:
+      - "Mitchell v. Helms school-aid rule."
+      - "Flast taxpayer-standing exception."
+      - "Article I spending power."
+    drift_audit: "No doctrine is presented as hard structure unless tied to Gold Key."
+
+  gold_keys:
+    - id: "GK-CONLAW-LAMPSTAND-01"
+      statement: "Neutral educational aid available to religious and secular private schools on equal terms, restricted to secular use, is not automatically an Establishment Clause violation."
+      type: "constitutional_principle"
+      unlocks: "Establishment Clause public-aid overclaim"
+      trigger: "Public funds buy school equipment for religious and nonreligious schools on identical terms, with secular-use limits."
+      tested_choice: "D"
+      authority: "Mitchell v. Helms, 530 U.S. 793 (2000)"
+      last_minute_review: true
+    - id: "GK-CONLAW-LAMPSTAND-02"
+      statement: "Federal taxpayers can have standing to challenge congressional taxing-and-spending measures alleged to violate the Establishment Clause."
+      type: "threshold"
+      unlocks: "False no-standing threshold"
+      trigger: "Federal taxpayers sue to stop congressional spending on Establishment Clause grounds."
+      tested_choice: "C"
+      authority: "Flast v. Cohen, 392 U.S. 83 (1968)"
+      last_minute_review: true
+    - id: "GK-CONLAW-LAMPSTAND-03"
+      statement: "Congress is not categorically barred from subsidizing education; the taxing-and-spending power reaches general-welfare education spending."
+      type: "constitutional_principle"
+      unlocks: "States-only education overclaim"
+      trigger: "Answer says education is solely for states."
+      tested_choice: "A"
+      authority: "U.S. Const. art. I, sec. 8, cl. 1"
+      last_minute_review: true
+
+  silver_keys:
+    - id: "SK-CONLAW-LAMPSTAND-01"
+      statement: "In a 2-yes / 2-no constitutional array, do not pick by result. Grade the reason after because; same result plus false reason still dies."
+      type: "answer_array"
+      navigates: "same-result wrong-reason trap"
+      trigger: "Two choices say No but only one uses the statute's secular-use fact."
+      tested_choice: "C"
+      outline_code: "44040501"
+      last_minute_review: true
+
+  remediation:
+    card_id: "REM-CONLAW-LAMPSTAND-01"
+    title: "Neutral aid / secular-use restriction"
+    signal: "Religious and secular schools get the same educational aid, and the statute limits use to secular instruction."
+    student_move: "Do not make religious-school aid per se unconstitutional. Look for neutrality and use restriction."
+    tiny_rule: "Neutral + secular-use school aid usually defeats the per se Establishment Clause trap."
+    trap: "Public money plus religious school feels automatically invalid."
+    confidence: "ANCHOR_ASSISTED"
+
+  distilled_core_question: "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?"
+  review_truth: "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation."
+
+  case_study_output:
+    final_student_script: "The call asks for an injunction. I cut the states-only answer as an overclaim, cut the no-standing answer with the taxpayer-standing Gold Key, and cut the automatic-Establishment answer with the neutral-aid Gold Key. B remains because it uses the secular-use condition."
+    residual: "B"
+
+  quality_control:
+    pass_conditions:
+      true_responsive_residual_matches_key: true
+      exactly_three_distractors: true
+      each_distractor_single_filter: true
+      legal_leak_audit_complete: true
+      no_original_letters_outside_provenance: true
+      pick_rate_honesty: "No measured source percentages supplied; emitted as null predicted."
+    bank_validation_verdict: "PASS"
+
+  analytics_hooks:
+    component_routing:
+      - "CONLAW aid-to-religion anchor"
+      - "standing threshold anchor"
+      - "spending-power overclaim"
+      - "answer-array same-result wrong-reason"
+    drill_seed_tags:
+      - "neutral_aid"
+      - "secular_use"
+      - "taxpayer_standing"
+      - "states_only_overclaim"
+```
+
+## 1. program_frame
+
+This is an anchor-assisted Con Law item. The surface is a Christian-school aid story. The tested move is not a mini-outline. The student must read the array:
+
+* two answers say **Yes**
+* two answers say **No**
+* one **No** has a bad threshold reason
+* one **No** uses the secular-use restriction
+
+## 2. student_access_test
+
+The controlling test is strict here. A student cannot derive *Mitchell*, *Flast*, or the spending-power rule from grammar alone.
+
+Student-accessible structure:
+
+* A says **solely**. That is an overclaim signal.
+* C has the right result but may have the wrong **because**.
+* D treats one fact — religious schools receive aid — as automatically decisive.
+* B engages the statute’s secular-use condition.
+
+Anchor-assisted claims:
+
+* Neutral secular-use aid can be valid.
+* Federal taxpayer standing exists for this kind of Establishment Clause spending challenge.
+* Congress can spend for education under the general welfare power.
+
+## 3. question_data
+
+**Question ID:** `20153_lampstand_labs`
+**Subject:** `CONSTITUTIONAL_LAW`
+**Outline code:** `44040501`
+**Post-shuffle credited answer:** B
+**Call:** Should the court issue the requested injunction?
+
+## 4. distilled_core_question
+
+Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?
+
+## 5. call_and_prediction
+
+**Call:** Should the injunction issue?
+
+**Prediction:** No. The statute is neutral between religious and secular private schools and limits the kits to secular educational use.
+
+**Adjacent-call trap:** Do not answer only “religious schools receive public equipment.” The call asks whether the court should enjoin this statute.
+
+## 6. trigger_facts
+
+| Fact                                                      | Student use                                           |
+| --------------------------------------------------------- | ----------------------------------------------------- |
+| Federal tax funds                                         | Triggers spending-power and taxpayer-standing anchors |
+| Religious and secular private schools treated identically | Triggers neutral-aid anchor                           |
+| Donated kits restricted to secular instruction            | Triggers secular-use anchor                           |
+| Mary and Peter are federal taxpayers                      | Triggers standing anchor                              |
+| Requested relief is injunction                            | Locks the call                                        |
+
+## 7. governing_c3_lane
+
+**FIT:** Constitutional Law = claim categorization + threshold/aid-rule anchor.
+**Governing law type:** `RULE`
+**Deciding phase:** `CUT`
+**Method class:** `anchor_assisted`
+**Case-study verdict:** `ANCHOR_SOLVE`
+**Bank validation verdict:** `PASS`
+
+## 8. choice_by_choice_walkthrough
+
+### Choice A
+
+1. **Student-accessible C3 signal:** The word **solely** is the tell. It turns education into an all-or-nothing state-only category.
+2. **Student label:** states-only overclaim.
+3. **True/responsive version:** “Congress may not commandeer state education systems” would be a different kind of federalism answer.
+4. **Lawyer confirmation:** Congress has taxing-and-spending power for the general welfare; education subsidies are not categorically barred.
+
+### Choice B
+
+1. **Student-accessible C3 signal:** This answer uses the exact fact the stem emphasized: secular-use restriction.
+2. **Student label:** true and responsive residual.
+3. **True/responsive version:** This is already the true/responsive version.
+4. **Lawyer confirmation:** Under *Mitchell v. Helms*, neutral educational equipment aid restricted to secular use can survive an Establishment Clause challenge.
+
+### Choice C
+
+1. **Student-accessible C3 signal:** Same result as B, but threshold reason. Same result does not save a false because.
+2. **Student label:** false threshold.
+3. **True/responsive version:** “No standing” would work only if the plaintiffs had no recognized basis to challenge the spending.
+4. **Lawyer confirmation:** *Flast v. Cohen* recognizes taxpayer standing for congressional taxing-and-spending challenges alleging Establishment Clause violations.
+
+### Choice D
+
+1. **Student-accessible C3 signal:** It treats aid to religious schools as automatically invalid and ignores equal terms plus secular-use restriction.
+2. **Student label:** Establishment Clause overclaim.
+3. **True/responsive version:** “Yes, if the aid favored religious schools or funded religious instruction” would fit a different fact pattern.
+4. **Lawyer confirmation:** *Mitchell* rejects a per se invalidity rule for neutral, secular-use aid.
+
+## 9. residual_answer
+
+**Residual:** B.
+
+B is the only answer that is both result-correct and reason-correct after the Gold Keys are applied.
+
+## 10. legal_leak_audit
+
+Student path:
+
+* Cut A for overclaim language plus Gold Key.
+* Cut C for same-result wrong-reason plus Gold Key.
+* Cut D for per se Establishment Clause overclaim plus Gold Key.
+* Keep B because it uses the statute’s secular-use fact.
+
+Quarantined lawyer-only layer:
+
+* *Mitchell v. Helms*
+* *Flast v. Cohen*
+* Article I, Section 8 spending power
+
+**Drift audit:** No answer is labeled false solely from lawyer instinct. Every legal falsehood is marked anchor-assisted and routed to a Gold Key.
+
+## 11. final_student_script
+
+“Question asks whether to issue an injunction. A says education is solely for states — overclaim. C says no standing — same result, bad threshold, use the taxpayer-standing Gold Key. D says public funds to religious schools automatically violate the Establishment Clause — overclaim, use the neutral-aid Gold Key. B uses the secular-use restriction. Pick B.”
+
+## 12. remediation_card
+
+**Card:** `REM-CONLAW-LAMPSTAND-01`
+**Title:** Neutral aid / secular-use restriction
+**Signal:** Religious and secular private schools get the same educational aid; the statute limits use to secular instruction.
+**Move:** Do not make religious-school aid per se unconstitutional. Look for neutrality and use restriction.
+**Tiny rule:** Neutral + secular-use school aid usually defeats the automatic Establishment Clause trap.
+**Trap:** Public money plus religious school feels automatically invalid.
+**Confidence:** `ANCHOR_ASSISTED`
+
+## Gold Key(s)
+
+1. **GK-CONLAW-LAMPSTAND-01** — Neutral educational aid available to religious and secular private schools on equal terms, restricted to secular use, is not automatically an Establishment Clause violation.
+2. **GK-CONLAW-LAMPSTAND-02** — Federal taxpayers can have standing to challenge congressional taxing-and-spending measures alleged to violate the Establishment Clause.
+3. **GK-CONLAW-LAMPSTAND-03** — Congress is not categorically barred from subsidizing education; the spending power reaches general-welfare education spending.
+
+## Silver Key(s)
+
+**SK-CONLAW-LAMPSTAND-01** — In a 2-yes / 2-no constitutional array, do not pick by result. Grade the reason after “because”; same result plus false reason still dies.
+
+## 13. qa_checklist
+
+| Check                              | Result |
+| ---------------------------------- | ------ |
+| Rule unchanged                     | pass   |
+| Credited outcome unchanged         | pass   |
+| Trap structure preserved           | pass   |
+| Three distractors, one filter each | pass   |
+| Correct answer breaks no filter    | pass   |
+| Key letter consistent              | pass   |
+| Pick-rate provenance honest        | pass   |
+| Gold Keys present                  | pass   |
+| Silver Key present                 | pass   |
+| Legal authority quarantined        | pass   |
+
+## 14. wrong_answer_recovery_paths
+
+| Choice | Why picked                                        | Recovery                                             |
+| ------ | ------------------------------------------------- | ---------------------------------------------------- |
+| A      | Student sees education and thinks state control.  | Flinch at **solely**; apply spending-power Gold Key. |
+| C      | Student likes threshold answers.                  | Same result is not enough; test the because.         |
+| D      | Student sees public funds plus religious schools. | Look for neutral terms and secular-use restriction.  |
+
+## 15. outline_mastery_map
+
+**Placement:** `44040501` — Constitutional Law > Individual Rights > First Amendment Protections > Freedom of religion.
+
+**This item teaches:** Establishment Clause school-aid traps are not solved by “religious school = invalid.” The student must use neutrality, secular-use restrictions, standing, and spending-power anchors.
+
+**Fills:**
+
+* neutral-aid recognition
+* taxpayer-standing threshold
+* states-only overclaim
+* same-result wrong-reason discipline
+
+**Adjacent to master:**
+
+* Free Exercise exclusion cases
+* private-choice voucher cases
+* public-forum religious speech cases
+* standing/jurisdiction threshold questions
+
+## 16. crossover_intersection_map
+
+| Crossover                 | Use                                                                                     |
+| ------------------------- | --------------------------------------------------------------------------------------- |
+| Civil Procedure           | Standing as threshold trap                                                              |
+| Evidence / answer purpose | Same item can flip based on use/purpose                                                 |
+| Contracts                 | Same-result wrong-reason discipline mirrors “right result, wrong because” answer arrays |
+| C3 universal              | Overclaim + anchor-assisted CUT                                                         |
+
+## 17. review_truth
+
+Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.
+
+```json
+{
+  "question_id": "20153_lampstand_labs",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "B",
+  "outline_code": "44040501",
+  "distilled_core_question": "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?",
+  "review_truth": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "automatic invalidity of aid to religious schools vs neutral secular-use aid",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium-hard anchor item",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CONLAW-LAMPSTAND-03",
+        "explanation": "The states-only education reason overclaims. Spending-power doctrine kills it."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CONLAW-LAMPSTAND-02",
+        "explanation": "The no-standing threshold is false for this Establishment Clause spending challenge."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CONLAW-LAMPSTAND-01",
+        "explanation": "The Establishment Clause answer overclaims by treating religious-school aid as automatically invalid."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Anchor-assisted item. No doctrine treated as hard structure. Gold Keys carry Mitchell, Flast, and spending-power rules.",
+      "transformed_from": "20153",
+      "letter_map": "original A -> new D; original B -> new A; original C -> new C; original D -> new B",
+      "pick_rate_note": "Source row supplied no selection percentages; emitted null with predicted provenance."
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CONLAW-LAMPSTAND-01",
+        "statement": "Neutral educational aid available to religious and secular private schools on equal terms, restricted to secular use, is not automatically an Establishment Clause violation.",
+        "type": "constitutional_principle",
+        "unlocks": "Establishment Clause public-aid overclaim",
+        "trigger": "Public funds buy school equipment for religious and nonreligious schools on identical terms, with secular-use limits.",
+        "tested_choice": "D",
+        "authority": "Mitchell v. Helms, 530 U.S. 793 (2000)",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CONLAW-LAMPSTAND-02",
+        "statement": "Federal taxpayers can have standing to challenge congressional taxing-and-spending measures alleged to violate the Establishment Clause.",
+        "type": "threshold",
+        "unlocks": "False no-standing threshold",
+        "trigger": "Federal taxpayers sue to stop congressional spending on Establishment Clause grounds.",
+        "tested_choice": "C",
+        "authority": "Flast v. Cohen, 392 U.S. 83 (1968)",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CONLAW-LAMPSTAND-03",
+        "statement": "Congress is not categorically barred from subsidizing education; the taxing-and-spending power reaches general-welfare education spending.",
+        "type": "constitutional_principle",
+        "unlocks": "States-only education overclaim",
+        "trigger": "Answer says education is solely for states.",
+        "tested_choice": "A",
+        "authority": "U.S. Const. art. I, sec. 8, cl. 1",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONLAW-LAMPSTAND-01",
+        "statement": "In a 2-yes / 2-no constitutional array, do not pick by result. Grade the reason after because; same result plus false reason still dies.",
+        "type": "answer_array",
+        "navigates": "same-result wrong-reason trap",
+        "trigger": "Two choices say No but only one uses the statute's secular-use fact.",
+        "tested_choice": "C",
+        "outline_code": "44040501",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "20153_lampstand_labs",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?",
+  "review_truth": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+  "tension": {
+    "axis": "automatic invalidity of aid to religious schools vs neutral secular-use aid",
+    "resolving_fact": "The Act makes aid available on identical terms and restricts use to secular instruction."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": "wrong_frame",
+      "why_attractive": "Education feels local, so a states-only answer sounds constitutionally serious. The breaker is that solely overclaims against Congress's spending power.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "flat_misstatement",
+      "architecture": "procedural_frame",
+      "why_attractive": "Standing is a powerful threshold, and threshold answers often beat merits answers. The breaker is the Establishment Clause taxpayer-standing Gold Key.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "Public funds going to religious schools feels like the core Establishment Clause problem. The breaker is the neutral secular-use aid Gold Key.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CONLAW-LAMPSTAND-01",
+    "title": "Neutral aid / secular-use restriction",
+    "signal": "Religious and secular schools get the same educational aid, and the statute limits use to secular instruction.",
+    "student_move": "Do not make religious-school aid per se unconstitutional. Look for neutrality and use restriction.",
+    "tiny_rule": "Neutral + secular-use school aid usually defeats the automatic Establishment Clause trap.",
+    "trap": "Public money plus religious school feels automatically invalid.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "religious-school-aid overclaim",
+    "same-result wrong-reason",
+    "standing threshold lure",
+    "federalism states-only overclaim",
+    "anchor-assisted doctrine leak risk"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "20153_lampstand_labs",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?",
+  "review_truth": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student treats education as exclusively state-controlled.",
+      "skipped_move": "Overclaim check on solely.",
+      "recovery_step": "Apply spending-power Gold Key before accepting states-only language."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student overuses threshold-before-merits and likes the No result.",
+      "skipped_move": "Because-check on same-result answers.",
+      "recovery_step": "Use the taxpayer-standing Gold Key; same result with false reason dies."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student treats public money plus religious school as automatically unconstitutional.",
+      "skipped_move": "Neutrality and secular-use trigger check.",
+      "recovery_step": "Apply the neutral-aid Gold Key and ask whether the answer ignores the secular-use condition."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "neutral aid",
+      "prompt": "A federal program gives secular-use science equipment to religious and secular private schools on equal terms. Automatic Establishment Clause violation?",
+      "answer": "No. Neutral + secular-use aid is not automatically invalid."
+    },
+    {
+      "drill_type": "answer-array read",
+      "target_skill": "same-result wrong-reason",
+      "prompt": "Two choices say No. One says no standing; one says secular-use restriction. What do you check?",
+      "answer": "Grade the because; same result is not enough."
+    },
+    {
+      "drill_type": "overclaim detector",
+      "target_skill": "states-only language",
+      "prompt": "Answer says education is solely a state function. What is the C3 signal?",
+      "answer": "Solely is the overclaim signal; check spending-power anchor."
+    },
+    {
+      "drill_type": "threshold trap",
+      "target_skill": "Flast standing",
+      "prompt": "Federal taxpayers challenge congressional spending as violating the Establishment Clause. Standing absent?",
+      "answer": "No. Flast supplies the taxpayer-standing anchor."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "2x2_outcome_reason_grid",
+      "same_result_wrong_reason",
+      "anchor_assisted_cut",
+      "religion_aid_overclaim",
+      "standing_threshold_lure"
+    ],
+    "misconception_tags": [
+      "all_public_aid_to_religious_schools_invalid",
+      "education_is_states_only",
+      "taxpayers_never_have_standing",
+      "right_result_means_right_answer"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 4 overclaim",
+    "Lesson 7 predict before peek",
+    "Lesson 11 bait architecture",
+    "Lesson 12 anchor deck",
+    "Con Law overlay: claim home and threshold"
+  ],
+  "crossovers": [
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "standing as threshold trap"
+    },
+    {
+      "subject": "EVIDENCE",
+      "connection": "purpose/use facts determine whether an otherwise dangerous item is allowed"
+    },
+    {
+      "subject": "CONTRACTS",
+      "connection": "same-result wrong-reason discipline"
+    }
+  ],
+  "gold_keys": [
+    "GK-CONLAW-LAMPSTAND-01",
+    "GK-CONLAW-LAMPSTAND-02",
+    "GK-CONLAW-LAMPSTAND-03"
+  ],
+  "silver_keys": [
+    "SK-CONLAW-LAMPSTAND-01"
+  ],
+  "outline_mastery": {
+    "placement": "Constitutional Law > Individual Rights > First Amendment Protections > Freedom of religion",
+    "this_item_teaches": "Neutral, secular-use aid defeats the automatic Establishment Clause aid trap.",
+    "fills": [
+      "neutral aid",
+      "secular-use restriction",
+      "taxpayer standing",
+      "spending-power overclaim",
+      "same-result wrong-reason"
+    ],
+    "adjacent_to_master": [
+      "Free Exercise exclusions from public benefit programs",
+      "private-choice voucher programs",
+      "state-action threshold",
+      "standing threshold"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/530/793/?utm_source=chatgpt.com " Mitchell v. Helms | 530 U.S. 793 (2000) | Justia U.S. Supreme Court Center"
+[2]: https://constitution.congress.gov/browse/article-1/section-8/?utm_source=chatgpt.com "Article I Section 8 | Constitution Annotated | Congress.gov | Library of Congress"
+[3]: https://supreme.justia.com/cases/federal/us/392/83/?utm_source=chatgpt.com " Flast v. Cohen | 392 U.S. 83 (1968) | Justia U.S. Supreme Court Center"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20153_lampstand_labs"
+  question_id: "20153_lampstand_labs"
+  subject: "CONSTITUTIONAL_LAW"
+  topic: "Individual Rights"
+  subtopic: "First Amendment Protections - Freedom of religion"
+  outline_code: "44040501"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "20153"
+  variant_slug: "lampstand_labs"
+  original_key_letter: "D"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?"
+review_truth: "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20153_lampstand_labs; source 20153.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CONSTITUTIONAL_LAW; topic Individual Rights; subtopic First Amendment Protections - Freedom of religion.
+4. **distilled_core_question:** Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 44040501.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 44040501.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20153_lampstand_labs",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "B",
+  "outline_code": "44040501",
+  "distilled_core_question": "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?",
+  "review_truth": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20153; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20153_lampstand_labs",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?",
+  "review_truth": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20153",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20153_lampstand_labs",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Congress funds secular-use educational equipment for religious and nonreligious private schools on equal terms. Federal taxpayer-parents seek an injunction. Should the court stop the spending?",
+  "review_truth": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "44040501",
+    "this_item_teaches": "Neutral, secular-use educational aid available to religious and secular schools on equal terms is not automatically an Establishment Clause violation.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

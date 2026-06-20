@@ -1,0 +1,900 @@
+---
+qid: "20602_davids_harp_projector"
+transformed_from: "20602"
+subject: "EVIDENCE"
+topic: "III.C.1 — Subsequent Remedial Measures"
+subtopic: "Rule 407 product defect, design defect, and need for warning or instruction"
+outline_code: "35030301"
+key: "B"
+original_key: "D"
+letter_map: "- original_letter: \"A"
+dominant_trap: "No measured pick rates supplied; likely diagnostic trap is negligence-only Rule 407 scope."
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Rule 407 blocks later fixes offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source row: Q20602 is an Evidence / Subsequent Remedial Measures item testing Federal Rule of Evidence 407, with official key D and a diagnostic focused on product-defect, warning-need, feasibility, and relevance traps.  
+
+### 1. Final question — revised stem + call
+
+Naomi bought a portable “David’s Harp” hymn-projector kit for a neighborhood praise-night in her garage. As she unfolded the aluminum tripod, the hinge bracket snapped shut and crushed her hand. In a federal products-liability action governed by the Federal Rules of Evidence, Naomi offers evidence that, after her injury, the manufacturer replaced the hinge with a spring-loaded locking hinge and added a bold “keep hands clear / load limit” warning tag. Naomi offers the evidence to prove that the original hinge design was defective and that the original warning was inadequate.
+
+**How should the court rule under Rule 407?**
+
+### 2. Distilled Core Question
+
+After a product injury, the plaintiff offers a later product redesign and stronger warning to prove the original design defect and warning defect. Under Rule 407, admissible?
+
+### 3. Final answer choices
+
+**A.** Admit the evidence because the hinge change is relevant and relevant evidence is generally admissible.
+**B.** Exclude the evidence for this purpose because Rule 407 bars subsequent remedial measures offered to prove a product defect, design defect, or need for a warning or instruction.
+**C.** Admit the evidence because Rule 407 applies only to negligence claims, not products-liability claims.
+**D.** Admit the evidence automatically because a later redesign always proves feasibility.
+
+### 4. Correct answer
+
+**B** — original key **D**.
+
+### 5. Letter Map
+
+| Original letter | New letter | Mechanic                                                       | Substance | Pick rate                 |
+| --------------- | ---------: | -------------------------------------------------------------- | --------- | ------------------------- |
+| A               |          C | `flat_misstatement` / negligence-only Rule 407 scope           | kept      | not supplied; `predicted` |
+| B               |          D | `tiered_absolute` / automatic-feasibility overclaim            | kept      | not supplied; `predicted` |
+| C               |          A | `bait_doctrine` / general relevance overrides policy exclusion | kept      | not supplied; `predicted` |
+| D               |          B | `correct_answer` / barred purpose under Rule 407               | kept      | not supplied; `predicted` |
+
+### 6. Full right-answer explanation
+
+**B is correct. Gold Key:** Rule 407 is not negligence-only. It also bars later remedial measures when offered to prove product defect, design defect, or the need for a warning or instruction. **Silver Key:** lock the stated purpose first. Naomi is not offering the later hinge and warning to prove a disputed alternative purpose; she is offering them to prove original defect and warning inadequacy. That is the barred purpose lane.
+
+### 7. Full wrong-answer explanations
+
+**A.** This choice sells the safe memory that relevant evidence usually comes in. The breaker is that the call asks a Rule 407 public-policy exclusion question, so general relevance does not answer the specific exclusion.
+
+**C.** This choice sells a narrower, older-sounding version of the remedial-measure rule: “negligence only.” **Gold Key:** Rule 407 expressly reaches product defect, design defect, and need for a warning or instruction, so the negligence-only frame is too narrow.
+
+**D.** This choice sells the real word “feasibility,” which is a permitted-purpose word in Rule 407. The breaker is the overclaim: “automatically” and “always” skip the required purpose check and ignore that Naomi offered the evidence to prove defect and warning inadequacy, not disputed feasibility. **Silver Key:** feasibility language does not matter unless feasibility is the actual offered purpose.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+Federal Rule of Evidence 407 excludes later measures that would have made an earlier injury less likely when offered to prove negligence, culpable conduct, product defect, design defect, or need for a warning or instruction; it permits another purpose, such as impeachment or disputed ownership, control, or feasibility. ([Legal Information Institute][1]) The 1997 amendment note confirms that the rule was amended to cover product-liability uses, including product defect and warning/instruction theories. ([Legal Information Institute][1])
+
+The tested rule, issue, and credited outcome are unchanged from the source row: later remedial measures offered to prove product/design defect and warning inadequacy are excluded under Rule 407. The new hinge and warning tag are the same legal object as the source item’s later redesign and stronger warning; the offered purpose is still defect and warning need. The transformed credited answer therefore remains exclusion for this purpose.
+
+### 9. Why the variation preserves rigor and difficulty
+
+The surface changed from a home exercise product to a Christian-themed hymn-projector tripod. The legal engine did not move: post-injury redesign plus stronger warning; federal products-liability action; evidence offered to prove original design defect and warning inadequacy; Rule 407 call; three admit traps against one exclusion answer. The hard trap remains the negligence-only misconception and the feasibility exception lure.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** “Relevant evidence is generally admissible” answers a general Rule 402-style question. The call asks Rule 407. Cut as not responsive.
+
+**CUT C:** “Rule 407 applies only to negligence claims” is the scope fight. With the Gold Key, this is false because Rule 407 includes product/design defect and warning-need uses.
+
+**CUT D:** “Automatically” and “always” are the visible overclaim. Feasibility is not an automatic door. It must be the actual offered purpose and genuinely disputed.
+
+**Residual:** B is the only true-and-responsive answer.
+
+**CLASH:** No two-answer residue remains after Gold Key-assisted CUT.
+
+**CALL:** Not needed.
+
+### 11. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                                 |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Changed from home exercise machine to portable hymn-projector tripod kit.                                                              |
+| Transaction frame          | Preserved as product-liability evidence use; changing to service/lease would risk altering Rule 407 product-defect posture.            |
+| Specific facts             | Changed from guard/pinch point and warning label to tripod hinge collapse and hand-clear/load-limit warning.                           |
+| Numbers                    | No legally operative numbers in the source; none added.                                                                                |
+| Fact ordering and rhythm   | Reordered from injury → action → later measures → purpose into Christian product context → injury → action → later measures → purpose. |
+| Cast size / roles          | Changed Eve to Naomi; added neighborhood praise-night texture without adding a church-internal issue.                                  |
+| Choice ordering            | Shuffled. Correct answer moved to B.                                                                                                   |
+| Choice phrasing            | Paraphrased only where legal substance and trap pull stayed fixed.                                                                     |
+| Setting / era / texture    | Changed from home fitness setting to private neighborhood Christian praise-night setting.                                              |
+| Call wording               | Preserved “How should the court rule under Rule 407?” because it is the clean MBE function.                                            |
+| Skipped dimension          | Transaction frame not shifted away from products liability; doing so would weaken the product-defect/warning Rule 407 issue.           |
+
+**Original stem summary:** A person injured by a home exercise machine offers the manufacturer’s later redesign and warning to prove the product was defective and inadequately warned.
+
+**Variant stem summary:** Naomi is hurt by a hymn-projector tripod at a private praise-night and offers the maker’s later hinge and warning changes to prove the original hinge and warning were defective.
+
+Recognition test passed: the summaries share only the Rule 407 legal engine.
+
+### 12. Review Truth
+
+Rule 407 blocks later fixes when offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose.
+
+### 13. Five variations considered
+
+|  # | Title                                 | Setting / cast                                                              | Preserved issue                                                                  | Memorable feature                 | Legal risks                                                                     | Divergence score                                                                                             |
+| -: | ------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+|  1 | **David’s Harp Projector** — selected | Naomi, private garage praise-night, hymn-projector tripod                   | Later redesign + warning offered to prove product/design defect and warning need | Christian music gear crush injury | Minimal; private product suit, no church doctrine                               | 9/10: changes asset, setting, injury mechanism, rhythm, names, texture, later measure, choices, call context |
+|  2 | Esther’s Manna Mixer                  | Esther uses a countertop bread-kneading mixer for a family Bible-study meal | Later guard and warning offered for defect/warning                               | “Manna mixer” visual              | Slight recognition risk: still kitchen/mechanical guard                         | 7/10: strong texture, but mechanical guard remains close                                                     |
+|  3 | Timothy’s Scripture Sticker Press     | Timothy runs Bible craft stickers; press roller injures hand                | Later roller shield and warning offered for defect/warning                       | Craft-night roller press          | Similar pinch/roller danger may echo original                                   | 7/10: Christian and fun, but injury mechanics too close                                                      |
+|  4 | Lydia’s Prayer Garden Lantern         | Lydia’s rechargeable lantern overheats during prayer-garden setup           | Later thermal cutoff and battery warning offered for defect/warning              | Lantern fire/burn, garden setting | Design/warning clear; less visually tied to “redesign” unless specified tightly | 8/10: strong asset and injury divergence                                                                     |
+|  5 | Barnabas’s Ark Puppet Rig             | Barnabas uses a puppet-stage winch for a children’s Bible skit              | Later ratchet lock and warning offered for defect/warning                        | Ark puppet rig snaps down         | Church-performance flavor must stay private and not church-internal             | 8/10: high surface divergence, slightly higher clutter risk                                                  |
+
+Selected version won because it maximizes surface divergence while keeping the exact Rule 407 product-defect / warning-purpose engine.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20602_davids_harp_projector"
+  subject: "EVIDENCE"
+  topic: "III.C.1 — Subsequent Remedial Measures"
+  subtopic: "Rule 407 product defect, design defect, and need for warning or instruction"
+  difficulty: "Trap Repair"
+  internal_id: "barmatrix_evidence_privileges_8_mcq_batch_003::r9::Q08"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied in source row."
+    B:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied in source row."
+    C:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied in source row."
+    D:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied in source row."
+  official_key: "B"
+  call: "How should the court rule under Rule 407?"
+  stem: "Naomi bought a portable “David’s Harp” hymn-projector kit for a neighborhood praise-night in her garage. As she unfolded the aluminum tripod, the hinge bracket snapped shut and crushed her hand. In a federal products-liability action governed by the Federal Rules of Evidence, Naomi offers evidence that, after her injury, the manufacturer replaced the hinge with a spring-loaded locking hinge and added a bold “keep hands clear / load limit” warning tag. Naomi offers the evidence to prove that the original hinge design was defective and that the original warning was inadequate."
+  choices:
+    A: "Admit the evidence because the hinge change is relevant and relevant evidence is generally admissible."
+    B: "Exclude the evidence for this purpose because Rule 407 bars subsequent remedial measures offered to prove a product defect, design defect, or need for a warning or instruction."
+    C: "Admit the evidence because Rule 407 applies only to negligence claims, not products-liability claims."
+    D: "Admit the evidence automatically because a later redesign always proves feasibility."
+
+transform_provenance:
+  transformed_from: "20602"
+  variant_slug: "davids_harp_projector"
+  original_key_letter: "D"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "flat_misstatement"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: "No source pick rates supplied; all three distractor mechanics are C3-compatible and were preserved."
+  divergence_summary:
+    original_stem_one_sentence: "A person injured by a home exercise machine offers the manufacturer’s later redesign and warning to prove the original design and warning were defective."
+    variant_stem_one_sentence: "Naomi is hurt by a Christian hymn-projector tripod and offers the maker’s later hinge and warning changes to prove original hinge and warning defects."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "specific_facts"
+      - "fact_ordering_and_stem_rhythm"
+      - "cast_size_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_era_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction_frame"
+        reason: "Products-liability posture had to remain to preserve Rule 407 product-defect and warning-need scope."
+      - dimension: "call_wording"
+        reason: "The exact Rule 407 court-ruling call preserves MBE rigor."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row 20602 supplied in prompt"
+    use: "Question data, official key, official explanations, wrong-answer explanations, diagnostic."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "No existing item tags supplied; no hypotheses imported."
+  - priority: 3
+    source: "C3 method and controlled vocabularies"
+    use: "CUT, CLASH, CALL, filters, molds, method classes, verdicts, confidence."
+  - priority: 4
+    source: "Federal Rule of Evidence 407"
+    use: "Lawyer confirmation only."
+
+student_access_contract:
+  allowed_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 CUT → CLASH → CALL"
+    - "Lesson 4 Overclaim"
+    - "Lesson 7 Predict Before You Peek"
+    - "Lesson 8 Not-Responsive Molds"
+    - "Lesson 11 Bait Architecture, especially offered-for-purpose"
+    - "Lesson 12 Anchor Deck"
+    - "Lesson 13 Calibration"
+    - "Lesson 14 Full Workflow"
+  allowed_subject_overlay:
+    subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+    mantra: "Purpose first. Layer second. Exception last."
+  gold_keys_available:
+    - "GK-EVIDENCE-RULE407-PURPOSE-01"
+  silver_keys_available:
+    - "SK-EVIDENCE-RULE407-PURPOSE-01"
+  controlling_test: "A claim is student-accessible only if visible from answer grammar, overclaim words, call-purpose mismatch, or the taught Rule 407 Gold Key."
+
+stem_parse:
+  legal_role: "court ruling on admissibility"
+  governing_rule_named: "Rule 407"
+  negative_stem: false
+  adjacent_call_traps:
+    - "general relevance"
+    - "feasibility exception"
+    - "negligence-only Rule 407 scope"
+  offered_purpose: "to prove original hinge design defect and original warning inadequacy"
+  excluded_purpose_candidate: true
+  permitted_purpose_candidate: false
+
+trigger_facts:
+  - fact: "The manufacturer made changes after Naomi's injury."
+    access_label: "student_accessible"
+    c3_use: "Identifies subsequent remedial measure setting."
+  - fact: "The changes were a spring-loaded hinge and stronger warning tag."
+    access_label: "student_accessible"
+    c3_use: "Shows later measure and warning change."
+  - fact: "Naomi offers the evidence to prove original design defect and warning inadequacy."
+    access_label: "student_accessible"
+    c3_use: "Purpose lock; bars feasibility/relevance drift."
+  - fact: "Federal Rules of Evidence govern."
+    access_label: "anchor_assisted"
+    c3_use: "Triggers Federal Rule 407 Gold Key."
+
+c3_routing:
+  subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Trap Repair"
+  tension_axis: "Barred defect/warning purpose versus general relevance/feasibility/negligence-only drift."
+  call_heuristic: null
+
+answer_array:
+  geometry: "3-vs-1 admit/exclude"
+  array_note: "Three choices say admit using a wrong route; one choice excludes for this purpose."
+  silver_key:
+    id: "SK-EVIDENCE-RULE407-PURPOSE-01"
+    type: "call_focus"
+    statement: "When Rule 407 appears, lock the offered purpose before reading exceptions. Do not let relevance or feasibility words move you off the stated purpose."
+  dominant_trap: "No measured pick rates supplied; likely diagnostic trap is negligence-only Rule 407 scope."
+
+choice_walkthroughs:
+  A:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "offered_for_purpose"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "purpose_of_offer_confusion"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "General relevance answer to a Rule 407 purpose question."
+    c3_signal: "The call asks Rule 407; this answer gives a general relevance rule and never handles the public-policy exclusion."
+    lawyer_confirmation: "Relevant evidence can still be excluded by Rule 407 when offered for a barred purpose."
+  B:
+    credited: true
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "True and responsive residual."
+    c3_signal: "It answers the exact call and uses the purpose phrase: exclude for this purpose."
+    lawyer_confirmation: "Rule 407 bars subsequent remedial measures offered to prove product defect, design defect, or need for warning or instruction."
+  C:
+    credited: false
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "misstated_rule"
+      - "common_student_myth"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Negligence-only Rule 407 myth."
+    c3_signal: "This requires the Gold Key; the problem is not visible from grammar alone."
+    lawyer_confirmation: "Rule 407 expressly includes product defect, design defect, and need for warning or instruction."
+  D:
+    credited: false
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "offered_for_purpose"
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "exception_over_applied"
+      - "purpose_of_offer_confusion"
+      - "attractive_wrong_answer"
+    method_class: "hard_structural"
+    student_label: "Automatic-feasibility overclaim."
+    c3_signal: "The words automatically and always overclaim; the stated purpose is defect and warning inadequacy."
+    lawyer_confirmation: "Feasibility is a possible alternative purpose only if genuinely disputed and offered for that purpose."
+
+residual_answer:
+  choice: "B"
+  why_survives: "It is both true under the Gold Key and responsive to the exact offered purpose."
+  student_script: "Purpose first: Naomi offers the later hinge and warning to prove original defect and warning need. Rule 407 blocks that use. Pick B."
+
+legal_leak_audit:
+  student_accessible:
+    - claim: "A is not responsive because general relevance does not answer a specific Rule 407 call."
+      basis: "Lesson 7 call lock; Lesson 11 offered-purpose architecture."
+    - claim: "D overclaims because it uses automatically and always."
+      basis: "Lesson 4 overclaim."
+    - claim: "B uses for this purpose and matches the call."
+      basis: "Lesson 7 call lock; Silver Key."
+  anchor_assisted:
+    - claim: "Rule 407 includes product defect, design defect, and need for warning or instruction."
+      basis: "Gold Key."
+  quarantined_lawyer_confirmation:
+    - "Federal Rule of Evidence 407 text and 1997 amendment note."
+  drift_audit: "No lawyer-only doctrine is used to make a student-accessible structural cut except through the declared Gold Key."
+
+gold_keys:
+  - id: "GK-EVIDENCE-RULE407-PURPOSE-01"
+    statement: "Rule 407 is not negligence-only: it bars later fixes offered to prove product defect, design defect, or a need for warning or instruction. Feasibility is only a separate permitted purpose when it is genuinely disputed and actually offered for that purpose."
+    type: "distinction"
+    unlocks: "Negligence-only and feasibility traps in Rule 407 product cases."
+    trigger: "Post-injury redesign or stronger warning offered in a product case."
+    tested_choice: "C"
+    authority: "Federal Rule of Evidence 407; 1997 Advisory Committee note."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-EVIDENCE-RULE407-PURPOSE-01"
+    statement: "When the stem tells you why evidence is offered, hold that purpose fixed. Relevance and exception words do not matter until they match the stated purpose."
+    type: "call_focus"
+    navigates: "Rule 407 offered-purpose trap."
+    trigger: "The stem says the later measure is offered to prove defect or inadequate warning."
+    tested_choice: "D"
+    outline_code: "35030301"
+    last_minute_review: true
+
+remediation:
+  card_id: "REMED-EVIDENCE-407-PURPOSE"
+  title: "Rule 407 Purpose Lock"
+  signal: "Post-injury fix plus answer choices about relevance, feasibility, or negligence-only scope."
+  student_move: "Name the offered purpose before reading exceptions."
+  tiny_rule: "Defect/warning purpose is barred; feasibility is not automatic."
+  trap: "Treating feasibility or relevance as a universal admission route."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "After a product injury, the plaintiff offers a later product redesign and stronger warning to prove the original design defect and warning defect. Under Rule 407, admissible?"
+
+review_truth: "Rule 407 blocks later fixes offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose."
+
+case_study_output:
+  final_student_script: "Rule 407 question. Purpose first. Naomi offers the later hinge and warning to prove original design and warning defects. General relevance does not answer Rule 407. Feasibility is not automatic. Gold Key: Rule 407 covers product and warning defects. B."
+  residual: "B"
+
+quality_control:
+  transformed_rule_unchanged: true
+  credited_outcome_unmoved: true
+  exact_three_distractors: true
+  each_distractor_one_filter: true
+  residual_matches_key: true
+  bank_validation_verdict_available: true
+  recognition_test_passed: true
+  no_christian_clutter_issue: true
+  no_first_amendment_or_church_internal_issue: true
+  controlled_values_checked: true
+
+analytics_hooks:
+  outline_code: "35030301"
+  components:
+    - "C3-TRUE-RESPONSIVE"
+    - "EVIDENCE-PURPOSE-FIRST"
+    - "BA-4-OFFERED-FOR-PURPOSE"
+    - "EAR-OVERCLAIM"
+    - "GOLD-KEY-RULE407-PRODUCT"
+  trap_tags:
+    - "rule407_negligence_only"
+    - "feasibility_overapplied"
+    - "relevance_overrides_exclusion"
+  drill_recommendations:
+    - "Rule 407 barred vs permitted purposes"
+    - "Purpose-first Evidence cuts"
+    - "Overclaim words in exception answers"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is an Evidence admissibility question. The product story is not the point. The offered purpose is the point.
+
+## student_access_test
+
+A student can structurally cut **A** because it answers general relevance, not the Rule 407 call.
+A student can structurally cut **D** because “automatically” and “always” are overclaim words and the stated purpose is not feasibility.
+A student needs the Gold Key to cut **C** and to affirm **B**: Rule 407 includes product defect, design defect, and warning-need uses.
+
+## question_data
+
+**Stem:** Naomi is injured by a hymn-projector tripod. After the injury, the manufacturer changes the hinge and warning tag. Naomi offers those later changes to prove the original hinge design was defective and the original warning was inadequate.
+
+**Call:** How should the court rule under Rule 407?
+
+**Choices:**
+A. Admit because relevant.
+B. Exclude for this purpose under Rule 407.
+C. Admit because Rule 407 is negligence-only.
+D. Admit automatically because redesign always proves feasibility.
+
+## distilled_core_question
+
+After a product injury, the plaintiff offers a later product redesign and stronger warning to prove original design defect and warning defect. Under Rule 407, admissible?
+
+## call_and_prediction
+
+Call lock: admissibility under Rule 407.
+
+Prediction: exclude if the later fix is offered to prove product defect or warning inadequacy.
+
+Adjacent-call traps:
+
+* “Is it relevant?”
+* “Could it show feasibility?”
+* “Is Rule 407 only about negligence?”
+
+## trigger_facts
+
+| Fact                                                           | Why it matters                          |
+| -------------------------------------------------------------- | --------------------------------------- |
+| Later hinge and warning change                                 | Subsequent remedial measure setup.      |
+| Federal Rules of Evidence                                      | Rule 407 governs.                       |
+| Offered to prove original design defect and warning inadequacy | This is the purpose lock.               |
+| No stated feasibility dispute                                  | Feasibility answer has no purpose hook. |
+
+## governing_c3_lane
+
+Evidence FIT: **purpose first, layer second, exception last.**
+
+This is a Rule 407 purpose question. The C3 lane is BA-4: offered for what purpose.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The choice says the evidence is relevant. The call asks Rule 407.
+2. **Student label:** Not responsive — general relevance answer.
+3. **What a true/responsive version would look like:** “Relevant evidence may still be excluded if Rule 407 bars the purpose for which it is offered.”
+4. **Lawyer confirmation:** Rule 407 is an independent exclusion even if the evidence has some relevance.
+
+### B
+
+1. **Student-accessible C3 signal:** It says “for this purpose,” which matches the purpose lock in the stem.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is the true/responsive version: exclude because the offered purpose is product defect and warning need.
+4. **Lawyer confirmation:** Rule 407 bars later measures offered to prove product defect, design defect, or need for a warning or instruction.
+
+### C
+
+1. **Student-accessible C3 signal:** This cannot be killed by grammar alone. It requires the Gold Key.
+2. **Student label:** Anchor-assisted false rule — negligence-only myth.
+3. **What a true/responsive version would look like:** “Rule 407 also covers product defect, design defect, and warning-need uses.”
+4. **Lawyer confirmation:** The rule expressly reaches those product-liability purposes.
+
+### D
+
+1. **Student-accessible C3 signal:** “Automatically” and “always” overclaim. The stem does not offer the evidence for feasibility.
+2. **Student label:** Overclaim plus purpose drift.
+3. **What a true/responsive version would look like:** “The evidence may be admitted for feasibility only if feasibility is genuinely disputed and the evidence is offered for that purpose.”
+4. **Lawyer confirmation:** Feasibility is a possible permitted purpose under Rule 407, not an automatic admission route.
+
+## residual_answer
+
+B survives. It answers the precise call and matches the stated purpose.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* A fails because it answers a general relevance question.
+* D fails because of overclaim words and purpose drift.
+* B is responsive because it uses “for this purpose.”
+
+Anchor-assisted:
+
+* C fails because Rule 407 includes product-defect and warning-need uses.
+* B is legally correct because the Gold Key supplies the Rule 407 product/warning scope.
+
+Drift audit: The student path does not pretend that Rule 407 scope is visible from grammar. The product/warning scope is promoted as a Gold Key, not fake structure.
+
+## final_student_script
+
+“Rule 407. Purpose first. Naomi offers the later hinge and warning to prove original design defect and warning inadequacy. Relevance is not enough. Feasibility is not automatic. Gold Key: Rule 407 covers product defect and warning need. Exclude for this purpose. B.”
+
+## remediation_card
+
+**Card:** Rule 407 Purpose Lock
+**Signal:** Post-injury fix plus choices about relevance, feasibility, or negligence-only scope.
+**Move:** Name the offered purpose first.
+**Tiny rule:** Defect/warning use is barred; feasibility is only a permitted alternative purpose when genuinely disputed and actually offered.
+**Trap:** Treating the word “feasibility” as magic.
+**Confidence:** Anchor-assisted.
+
+## Gold Key(s)
+
+**GK-EVIDENCE-RULE407-PURPOSE-01**
+Rule 407 is not negligence-only: it bars later fixes offered to prove product defect, design defect, or a need for warning or instruction. Feasibility is only a separate permitted purpose when it is genuinely disputed and actually offered for that purpose.
+
+## Silver Key(s)
+
+**SK-EVIDENCE-RULE407-PURPOSE-01**
+When the stem tells you why evidence is offered, hold that purpose fixed. Relevance and exception words do not matter until they match the stated purpose.
+
+## qa_checklist
+
+* Call locked: Rule 407.
+* Offered purpose identified: defect and warning inadequacy.
+* Three distractors each break one filter.
+* Credited answer breaks neither filter.
+* Gold Key used only for Rule 407 scope.
+* No church, donation, or First Amendment clutter added.
+* New key letter is B throughout.
+
+## wrong_answer_recovery_paths
+
+**A recovery:** Ask, “Does this answer Rule 407 or just relevance?” Cut the general answer.
+
+**C recovery:** Pull the Gold Key. Rule 407 covers product and warning theories.
+
+**D recovery:** Circle “automatically” and “always.” Then ask whether feasibility is the stated purpose.
+
+## outline_mastery_map
+
+**Outline code:** 35030301
+**Placement:** Evidence → Privileges and Public Policy Exclusions → Public Policy Exclusions → Subsequent remedial measures.
+**This item teaches:** Rule 407 barred purposes in product cases.
+**Adjacent mastery:** Rule 408 settlement, Rule 409 medical payments, Rule 411 insurance, and purpose-dependent admissibility.
+
+## crossover_intersection_map
+
+* **Evidence / relevance:** relevance does not override policy exclusions.
+* **Evidence / purpose:** same evidence may be in for one purpose and out for another.
+* **Torts / products:** product defect and warning defect are the barred proof targets, but the item is still Evidence.
+* **C3 / overclaim:** automatic exception language is suspect.
+
+## review_truth
+
+Rule 407 blocks later fixes offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose.
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20602_davids_harp_projector",
+  "subject": "EVIDENCE",
+  "credited_answer": "B",
+  "outline_code": "35030301",
+  "distilled_core_question": "After a product injury, the plaintiff offers a later product redesign and stronger warning to prove the original design defect and warning defect. Under Rule 407, admissible?",
+  "review_truth": "Rule 407 blocks later fixes offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Barred defect/warning purpose versus general relevance, feasibility, and negligence-only drift.",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "Trap Repair",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "offered_for_purpose",
+        "card_ref": "SK-EVIDENCE-RULE407-PURPOSE-01",
+        "explanation": "General relevance is true as a background idea but does not answer the specific Rule 407 public-policy exclusion."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-EVIDENCE-RULE407-PURPOSE-01",
+        "explanation": "The negligence-only version of Rule 407 is too narrow."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "offered_for_purpose",
+        "card_ref": "SK-EVIDENCE-RULE407-PURPOSE-01",
+        "explanation": "Feasibility is not automatic; the stem states a barred defect/warning purpose."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Rule scope is handled as a Gold Key, not as fake hard structure. Student-accessible cuts are limited to relevance nonresponsiveness, overclaim language, and purpose-lock navigation.",
+      "transformed_from": "20602",
+      "letter_map": "A->C; B->D; C->A; D->B"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-EVIDENCE-RULE407-PURPOSE-01",
+        "type": "distinction",
+        "statement": "Rule 407 is not negligence-only: it bars later fixes offered to prove product defect, design defect, or a need for warning or instruction. Feasibility is only a separate permitted purpose when it is genuinely disputed and actually offered for that purpose.",
+        "unlocks": "Negligence-only and feasibility traps in Rule 407 product cases.",
+        "trigger": "Post-injury redesign or stronger warning offered in a product case.",
+        "tested_choice": "C",
+        "authority": "Federal Rule of Evidence 407; 1997 Advisory Committee note.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-EVIDENCE-RULE407-PURPOSE-01",
+        "type": "call_focus",
+        "statement": "When the stem tells you why evidence is offered, hold that purpose fixed. Relevance and exception words do not matter until they match the stated purpose.",
+        "navigates": "Rule 407 offered-purpose trap.",
+        "trigger": "The stem says the later measure is offered to prove defect or inadequate warning.",
+        "tested_choice": "D",
+        "outline_code": "35030301",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20602_davids_harp_projector",
+  "subject": "EVIDENCE",
+  "outline_code": "35030301",
+  "distilled_core_question": "After a product injury, the plaintiff offers a later product redesign and stronger warning to prove the original design defect and warning defect. Under Rule 407, admissible?",
+  "review_truth": "Rule 407 blocks later fixes offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose.",
+  "tension": {
+    "axis": "Stated barred purpose versus adjacent admissibility routes.",
+    "resolving_fact": "Naomi offers the later hinge and warning to prove original design defect and warning inadequacy."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "offered_for_purpose",
+      "why_attractive": "The student remembers that relevant evidence usually comes in. The breaker is that Rule 407 is a specific public-policy exclusion and the answer never handles the offered purpose.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student remembers the negligence language in Rule 407 and stops there. The breaker is the Gold Key that Rule 407 also covers product defect, design defect, and warning-need uses.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": "offered_for_purpose",
+      "why_attractive": "Feasibility is a real permitted-purpose word, so the choice feels like it found the exception. The breaker is that feasibility is not automatic and is not the purpose Naomi stated.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REMED-EVIDENCE-407-PURPOSE",
+    "title": "Rule 407 Purpose Lock",
+    "signal": "Post-injury fix plus choices about relevance, feasibility, or negligence-only scope.",
+    "student_move": "Name the offered purpose before reading exceptions.",
+    "tiny_rule": "Defect/warning purpose is barred; feasibility is not automatic.",
+    "trap": "Treating feasibility or relevance as a universal admission route.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "purpose_of_offer_confusion",
+    "negligence_only_rule407",
+    "relevance_overrides_exclusion",
+    "feasibility_exception_overapplied",
+    "three_admit_choices_against_one_exclude_choice"
+  ]
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20602_davids_harp_projector",
+  "subject": "EVIDENCE",
+  "outline_code": "35030301",
+  "distilled_core_question": "After a product injury, the plaintiff offers a later product redesign and stronger warning to prove the original design defect and warning defect. Under Rule 407, admissible?",
+  "review_truth": "Rule 407 blocks later fixes offered to prove defect or warning need; feasibility only matters when that is the actual disputed purpose.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees relevance and stops at the first admissibility layer.",
+      "skipped_move": "Purpose-first Rule 407 check.",
+      "recovery_step": "Ask whether the answer addresses the named exclusion, not just relevance."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student remembers negligence language but not the product-liability expansion.",
+      "skipped_move": "Gold Key recall.",
+      "recovery_step": "Recall that Rule 407 includes product defect, design defect, and warning/instruction need."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student recognizes feasibility as an exception word and treats it as automatic.",
+      "skipped_move": "Offered-purpose lock.",
+      "recovery_step": "Match the exception word to the actual purpose stated in the stem."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "purpose_pin",
+      "target_skill": "offered_for_purpose",
+      "prompt": "A plaintiff offers a later product redesign to prove the original product was defective. Name the offered purpose.",
+      "answer": "Product/design defect; barred under Rule 407."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "Rule 407 product scope",
+      "prompt": "True or false: Rule 407 applies only to negligence and culpable conduct.",
+      "answer": "False; it also covers product defect, design defect, and warning/instruction need."
+    },
+    {
+      "drill_type": "overclaim_cut",
+      "target_skill": "tiered_absolute",
+      "prompt": "Cut the phrase: 'A later redesign always proves feasibility.'",
+      "answer": "Always is the overclaim; feasibility is only a permitted purpose when disputed and actually offered."
+    },
+    {
+      "drill_type": "relevance_layer",
+      "target_skill": "specific exclusion over general relevance",
+      "prompt": "Why is 'relevant evidence is generally admissible' a bad answer to a Rule 407 call?",
+      "answer": "It answers the wrong layer; relevance does not override a specific exclusion."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "rule407",
+      "subsequent_remedial_measures",
+      "offered_purpose",
+      "product_defect",
+      "warning_defect",
+      "feasibility"
+    ],
+    "misconception_tags": [
+      "negligence_only_rule407",
+      "relevance_is_enough",
+      "feasibility_magic_word",
+      "automatic_exception"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Lesson 7 Predict Before You Peek",
+      "task": "Lock the call and purpose before choices."
+    },
+    {
+      "component": "Lesson 11 BA-4 Offered-for-What-Purpose",
+      "task": "Separate barred defect/warning purpose from feasibility purpose."
+    },
+    {
+      "component": "Lesson 4 Overclaim",
+      "task": "Cut automatic and always language."
+    },
+    {
+      "component": "Lesson 12 Anchor Deck",
+      "task": "Recall Rule 407 product/warning scope."
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "TORTS",
+      "intersection": "Products-liability facts supply the defect/warning purpose, but Evidence supplies the answer."
+    },
+    {
+      "subject": "EVIDENCE",
+      "intersection": "Rule 407 operates like other policy exclusions: purpose controls."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-EVIDENCE-RULE407-PURPOSE-01",
+      "type": "distinction",
+      "statement": "Rule 407 is not negligence-only: it bars later fixes offered to prove product defect, design defect, or a need for warning or instruction. Feasibility is only a separate permitted purpose when it is genuinely disputed and actually offered for that purpose.",
+      "unlocks": "Negligence-only and feasibility traps in Rule 407 product cases.",
+      "trigger": "Post-injury redesign or stronger warning offered in a product case.",
+      "tested_choice": "C",
+      "authority": "Federal Rule of Evidence 407; 1997 Advisory Committee note.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-EVIDENCE-RULE407-PURPOSE-01",
+      "type": "call_focus",
+      "statement": "When the stem tells you why evidence is offered, hold that purpose fixed. Relevance and exception words do not matter until they match the stated purpose.",
+      "navigates": "Rule 407 offered-purpose trap.",
+      "trigger": "The stem says the later measure is offered to prove defect or inadequate warning.",
+      "tested_choice": "D",
+      "outline_code": "35030301",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Evidence > Privileges and Public Policy Exclusions > Public Policy Exclusions > Subsequent remedial measures",
+    "this_item_teaches": "Rule 407 purpose lock in product defect and warning cases.",
+    "fills": [
+      "Subsequent remedial measure barred purposes",
+      "Product-liability inclusion in Rule 407",
+      "Feasibility exception limit",
+      "Relevance layer versus policy-exclusion layer"
+    ],
+    "adjacent_to_master": [
+      "Rule 408 settlement purposes",
+      "Rule 409 medical payments",
+      "Rule 411 liability insurance",
+      "Rule 403 as separate relevance limiter"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/rules/fre/rule_407?utm_source=chatgpt.com "Rule 407. Subsequent Remedial Measures | Federal Rules of Evidence | US Law | LII / Legal Information Institute"

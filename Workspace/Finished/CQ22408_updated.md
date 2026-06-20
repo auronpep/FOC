@@ -1,0 +1,853 @@
+---
+qid: "22408"
+transformed_from: "22408"
+subject: "CRIMINAL"
+topic: "Constitutional Protection of Accused Persons (Criminal Procedure)"
+subtopic: "Fourth Amendment"
+outline_code: "75070202"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Review truth not available in source file."
+---
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "22408"
+  internal_id: null
+  subject: "CRIMINAL"
+  subject_display: "Criminal Law"
+  topic: "Constitutional Protection of Accused Persons (Criminal Procedure)"
+  subtopic: "Fourth Amendment"
+  source_outline_code: "75070000"
+  outline_code: "75070202"
+  outline_code_note: "Source row used broad Fourth Amendment code; deepest matching listed code is Fourth Amendment > Searches and Seizures > Exceptions to warrant requirement."
+  source_selection_percentages_supplied: false
+  selection_percentages:
+    A:
+      value: 56
+      provenance: "predicted"
+    B:
+      value: 6
+      provenance: "predicted"
+    C:
+      value: 16
+      provenance: "predicted"
+    D:
+      value: 22
+      provenance: "predicted"
+  predicted_pick_rate_note: "No measured pick rates were supplied in the row; seed percentages are analytic estimates only."
+  official_key: "A"
+  call: "Should the court admit the cocaine into evidence?"
+  stem: "The police believed a woman was selling drugs from her hotel room. When the woman left the room to go out, the manager gave police officers a key and showed them into the woman’s room. Inside, the officers saw a large amount of cocaine sitting in the middle of the hotel bed in clear plastic bags. When the woman returned, she was placed under arrest. At trial, the woman moved to have the cocaine ruled inadmissible. Should the court admit the cocaine into evidence?"
+  choices:
+    A: "No, because the woman’s reasonable expectation of privacy was violated."
+    B: "No, because the arrest was unlawful."
+    C: "Yes, because the manager let the officers into the hotel room."
+    D: "Yes, because the cocaine was in plain view."
+  correct_answer_explanation: "A hotel guest has a Fourth Amendment privacy interest in the hotel room. The manager could not consent to the police search, so the officers were unlawfully inside the room. The plain-view exception does not rescue evidence seen from an unlawful vantage point."
+  wrong_answer_explanations:
+    B: "The admissibility problem comes from the hotel-room search, not the later arrest."
+    C: "A hotel manager cannot waive the guest’s Fourth Amendment rights by letting police into the room."
+    D: "Plain view requires lawful presence. The officers were unlawfully in the room when they saw the cocaine."
+source_stack:
+  - "BarMatrix row QID 22408 from MBE.xlsx"
+  - "Controlled vocabularies"
+  - "OUTLINE_CODES_COMPLETE.md"
+  - "C3 Lessons 1, 2, 7, 8, 11, 12, 13, 14"
+  - "C3 Master Deck CRIM-06 Fourth Amendment and TP-18/TP-19"
+  - "Legal verification: Fourth Amendment text; Stoner v. California; Horton v. California"
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old who completed only the C3 lessons, subject overlays, and taught tiny anchors identify this choice's problem without outside legal doctrine?"
+  item_result: "Anchor-assisted. The student needs two tiny Fourth Amendment anchors: hotel-room privacy/manager nonconsent, and plain view requiring lawful presence."
+  allowed_moves:
+    - "TRUE and RESPONSIVE"
+    - "CUT before CLASH before CALL"
+    - "Misfit: answer targets the wrong event or wrong frame"
+    - "Bait doctrine: a real exception is used outside its predicate"
+    - "Flat misstatement: manager consent does not waive the guest's right"
+    - "Gold Key: hotel manager cannot consent to police search of an occupied guest room"
+    - "Gold Key: plain view requires lawful vantage and access"
+    - "Silver Key: before using an exception, ask whether the officers were lawfully inside"
+  forbidden_moves:
+    - "Do not teach a full Fourth Amendment outline."
+    - "Do not call manager consent false without the hotel-room Gold Key."
+    - "Do not call plain view false without the lawful-presence Gold Key."
+    - "Do not rely on case citations in the student-facing first pass."
+stem_parse:
+  parties:
+    accused: "woman"
+    police: "police officers"
+    third_party: "hotel manager"
+  place: "woman's hotel room"
+  property_or_evidence: "large amount of cocaine in clear plastic bags on the hotel bed"
+  police_entry: "manager gave officers a key and showed them into the room"
+  warrant_status: "no warrant stated"
+  consent_status: "no consent from the woman"
+  arrest_timing: "after officers entered and saw the cocaine"
+  motion: "woman moved to have the cocaine ruled inadmissible"
+  call_type: "evidence admissibility after warrantless hotel-room entry"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Was the later arrest lawful?"
+    - "Could the manager authorize the entry?"
+    - "Does plain view cure the entry?"
+trigger_facts:
+  - fact: "The woman was using the room as her hotel room."
+    access_label: "student_visible"
+    role: "privacy anchor trigger"
+  - fact: "The officers had no warrant in the stem."
+    access_label: "student_visible"
+    role: "warrant-requirement trigger"
+  - fact: "The manager, not the woman, gave the officers the key."
+    access_label: "student_visible"
+    role: "third-party consent trap"
+  - fact: "The cocaine was in clear bags on the bed."
+    access_label: "student_visible"
+    role: "dominant plain-view trap"
+  - fact: "The arrest occurred after the officers saw the cocaine."
+    access_label: "student_visible"
+    role: "wrong-timing trap for choice B"
+c3_routing:
+  subject_fit: "Criminal Procedure = police-action posture + constitutional gate before evidence remedy."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  deciding_choice_method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: null
+answer_array:
+  architecture: "exception-bait array"
+  geometry: "One privacy-violation answer; one wrong-timing arrest answer; two warrant-exception bait answers."
+  dominant_trap: "D"
+  dominant_trap_basis: "Plain view is a familiar exception and the stem emphasizes clear bags on the bed."
+  primary_axis: "lawful entry before exception"
+  silver_key_ref: "SK-CRIMINAL-FOURTH-LAWFUL-ENTRY-FIRST-01"
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "privacy-right survivor"
+    c3_signal: "This choice answers the call: exclude the cocaine because the police got inside the private hotel room unlawfully."
+    lawyer_confirmation: "A hotel guest has Fourth Amendment protection in the room; manager consent does not waive the guest's right."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "answer_to_different_question"
+      - "wrong_timing"
+      - "wrong_remedy"
+      - "legally_true_but_irrelevant"
+    method_class: "hard_structural"
+    student_label: "post-search arrest misfit"
+    c3_signal: "The cocaine was found before the arrest. The call is about the room search and the evidence, not a later arrest."
+    lawyer_confirmation: "Suppression here turns on the unlawful hotel-room entry/search, not on the validity of the later arrest."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "misstated_rule"
+      - "wrong_party"
+      - "common_student_myth"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "manager-consent trap"
+    c3_signal: "This choice treats the manager as if he could waive the woman's privacy right. The Gold Key says he cannot."
+    lawyer_confirmation: "A hotel clerk or manager has no authority to consent to a police search of an occupied guest's room."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "exception_over_applied"
+      - "half_right_answer"
+      - "bar_exam_bait"
+      - "common_student_myth"
+    method_class: "anchor_assisted"
+    student_label: "plain-view-without-lawful-entry trap"
+    c3_signal: "The cocaine was visible, but plain view only helps if the officers were allowed to be where they were."
+    lawyer_confirmation: "Plain view requires lawful arrival at the vantage point and lawful access to the object; unlawful entry blocks the exception."
+residual_answer:
+  answer: "A"
+  why_survives: "It alone identifies the search problem that controls admissibility: the woman's hotel-room privacy was violated before the cocaine was seen."
+  confidence_band: "anchor-assisted high confidence"
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B is off-call because the arrest happens after the search."
+      status: "passes via visible stem timing"
+    - claim: "C fails because manager consent is not enough."
+      status: "anchor_assisted via hotel-room Gold Key"
+    - claim: "D fails because plain view requires lawful presence."
+      status: "anchor_assisted via plain-view Gold Key"
+    - claim: "A survives because it matches the privacy violation and the suppression call."
+      status: "anchor_assisted via Fourth Amendment Gold Key"
+  lawyer_only_claims:
+    - claim: "Stoner v. California is the governing Supreme Court hotel-room consent case."
+      quarantine: "lawyer_confirmation only"
+    - claim: "Horton v. California supplies the modern plain-view predicate."
+      quarantine: "lawyer_confirmation only"
+  drift_audit: "The student path does not pretend that hotel consent or plain-view predicates are pure structure. Both are labeled anchor-assisted."
+gold_keys:
+  - id: "GK-CRIMINAL-HOTEL-ROOM-PRIVACY-01"
+    statement: "A hotel guest has a Fourth Amendment privacy interest in the occupied room. A hotel manager or clerk cannot consent to a police search of that guest's room."
+    type: "constitutional_principle"
+    unlocks: "manager-consent trap"
+    trigger: "police enter an occupied hotel room with only manager or clerk permission"
+    tested_choice: "C"
+    authority: "Stoner v. California, 376 U.S. 483 (1964)"
+    last_minute_review: true
+  - id: "GK-CRIMINAL-PLAIN-VIEW-LAWFUL-PRESENCE-01"
+    statement: "Plain view works only if officers are lawfully located where they see the item and have lawful access to it. An unlawful entry cannot be cured by seeing contraband in the open."
+    type: "exception"
+    unlocks: "plain-view trap"
+    trigger: "contraband is obvious after police enter a protected place without a warrant or valid exception"
+    tested_choice: "D"
+    authority: "Horton v. California, 496 U.S. 128 (1990)"
+    last_minute_review: true
+silver_keys:
+  - id: "SK-CRIMINAL-FOURTH-LAWFUL-ENTRY-FIRST-01"
+    statement: "Before using a Fourth Amendment exception, ask whether the officers were lawfully where they stood. If the entry is bad, a later plain-view fact does not save the evidence."
+    type: "trap_spotting"
+    navigates: "plain-view and third-party-consent bait"
+    trigger: "the stem emphasizes visible contraband after a questionable entry"
+    tested_choice: "D"
+    outline_code: "75070202"
+    last_minute_review: true
+remediation:
+  card_id: "REM-CRIM-FOURTH-HOTEL-PLAIN-VIEW-01"
+  title: "Lawful Entry Before Plain View"
+  signal: "Police enter a hotel room through a manager and then see contraband."
+  student_move: "Check the entry before crediting plain view."
+  tiny_rule: "Manager consent is not guest consent; plain view needs lawful presence."
+  trap: "Visible contraband feels admissible, but the vantage point was unlawful."
+  confidence: "ANCHOR_ASSISTED"
+case_study_output:
+  final_student_script: "The call is admissibility of cocaine from a hotel-room search. The manager let police in, but a manager cannot waive the guest's privacy right. Plain view does not help because the officers were unlawfully inside when they saw the cocaine. The later arrest is not the point. Pick A."
+  residual: "A"
+  verdict: "ANCHOR_SOLVE"
+quality_control:
+  qid_consistent: true
+  official_key_consistent: true
+  outline_code_verified: true
+  predicted_pick_rates_not_all_null: true
+  dominant_trap_named: true
+  pass_requirements_met: true
+  exactly_three_distractors_single_filter: true
+  credited_answer_breaks_no_filter: true
+  controlled_vocab_values_checked: true
+analytics_hooks:
+  dominant_trap_choice: "D"
+  dominant_trap_pct: 22
+  pick_rate_mode: "predicted"
+  primary_component: "Fourth Amendment exceptions"
+  drill_family: "Hotel-room privacy and plain-view lawful presence"
+  review_queue: false
+```
+
+---
+
+### 2. Student-facing C3 case study
+
+## 1. program_frame
+
+This is a Criminal Procedure / Fourth Amendment item. The surface lure is “the cocaine was obvious.” The real question is earlier: **were the officers lawfully inside the hotel room when they saw it?**
+
+## 2. student_access_test
+
+This is **ANCHOR_SOLVE**, not pure structure. A student can structurally cut the arrest answer by timing, but the manager-consent and plain-view answers require taught tiny anchors.
+
+The two Gold Keys are:
+
+**Gold Key 1:** A hotel guest has a Fourth Amendment privacy interest in the occupied room; the hotel manager cannot consent to a police search of that guest’s room.
+
+**Gold Key 2:** Plain view only works from a lawful vantage point.
+
+The Fourth Amendment protects against unreasonable searches and seizures and requires warrants supported by probable cause and particularity. ([Congress.gov][1])
+
+## 3. question_data
+
+**QID:** 22408
+**Subject:** CRIMINAL
+**Topic:** Constitutional Protection of Accused Persons / Criminal Procedure
+**Subtopic:** Fourth Amendment
+**Selected outline code:** 75070202
+**Official key:** A
+
+**Call:** Should the court admit the cocaine?
+
+**Predicted answer:** No. The officers entered the hotel room without a warrant and without valid consent from the woman. The cocaine should be excluded.
+
+## 4. call_and_prediction
+
+Lock the call first.
+
+The call is not “Was the arrest lawful?” The cocaine was discovered before the arrest. The call is also not “Was cocaine visible?” It was visible. The call is whether visible cocaine is admissible when the police only got into the hotel room because the manager let them in.
+
+Prediction: **exclude the cocaine** because the woman’s hotel-room privacy was violated.
+
+## 5. trigger_facts
+
+The room was the woman’s hotel room. That triggers the privacy anchor.
+
+The manager gave police the key. That triggers the third-party-consent trap.
+
+The cocaine was in clear bags on the bed. That triggers the plain-view trap.
+
+The arrest happened after the officers saw the cocaine. That makes the arrest answer off-call.
+
+## 6. governing_c3_lane
+
+**Lane:** CUT.
+
+This is not a real two-answer Clash. Once the two anchors are applied, three choices break one filter each and A remains.
+
+**Subject FIT:** Criminal Procedure = police-action posture + constitutional gate before evidence remedy.
+
+## 7. choice_by_choice_walkthrough
+
+### A. No, because the woman’s reasonable expectation of privacy was violated.
+
+1. **Student-accessible C3 signal:** This is the only answer that starts at the entry into the hotel room, which is the event that produced the cocaine evidence.
+2. **Student label:** Privacy-right survivor.
+3. **What a true/responsive version would look like:** This answer already is true and responsive once the hotel-room privacy anchor is applied.
+4. **Lawyer confirmation:** The Supreme Court held in *Stoner v. California* that a hotel guest is entitled to constitutional protection against unreasonable searches and that the hotel clerk had no authority to permit the room search. ([Justia Law][2])
+
+### B. No, because the arrest was unlawful.
+
+1. **Student-accessible C3 signal:** Wrong timing. The officers saw the cocaine before they arrested her.
+2. **Student label:** Post-search arrest misfit.
+3. **What a true/responsive version would look like:** “No, because the search of the hotel room was unlawful.”
+4. **Lawyer confirmation:** The suppression problem is the warrantless hotel-room entry/search. The later arrest is not the operative reason this cocaine evidence is excluded.
+
+### C. Yes, because the manager let the officers into the hotel room.
+
+1. **Student-accessible C3 signal:** This answer uses the wrong person’s permission.
+2. **Student label:** Manager-consent trap.
+3. **What a true/responsive version would look like:** “Yes, because the woman herself consented,” or “Yes, because a valid warrant or valid exception authorized entry.”
+4. **Lawyer confirmation:** *Stoner* rejects the idea that hotel staff can waive the guest’s Fourth Amendment right; the right belonged to the guest, not the clerk or hotel. ([Justia Law][2])
+
+### D. Yes, because the cocaine was in plain view.
+
+1. **Student-accessible C3 signal:** The cocaine was visible, but the officers first had to be lawfully inside.
+2. **Student label:** Plain-view-without-lawful-entry trap.
+3. **What a true/responsive version would look like:** “Yes, because the officers were lawfully in the room when they saw cocaine in plain view.”
+4. **Lawyer confirmation:** *Horton v. California* states that plain-view seizure requires the officer not to have violated the Fourth Amendment in arriving at the place from which the object is viewed, plus immediately apparent incriminating character and lawful access. ([Legal Information Institute][3])
+
+## 8. residual_answer
+
+**A survives.**
+
+The officers entered a protected hotel room without a warrant and without valid consent from the occupant. The manager’s key does not fix the entry. Plain view does not fix the entry. The later arrest does not answer the search problem.
+
+## 9. legal_leak_audit
+
+**Student-accessible:** B is visibly off-call from timing. D is a recognizable exception trap once the lawful-entry Silver Key is taught.
+
+**Anchor-assisted:** A and C require the hotel-room privacy / manager-nonconsent Gold Key. D requires the plain-view lawful-presence Gold Key.
+
+**Quarantined lawyer layer:** Case names, official citations, and full Fourth Amendment doctrine stay in lawyer confirmation. The student does not need a full search-and-seizure outline.
+
+## 10. final_student_script
+
+The call is admissibility of cocaine from a hotel-room search. A hotel guest has privacy in the room. The manager cannot consent for her. Plain view does not help because the officers were unlawfully inside when they saw the cocaine. The arrest came later, so it is not the reason. **Pick A.**
+
+## 11. remediation_card
+
+**REM-CRIM-FOURTH-HOTEL-PLAIN-VIEW-01 — Lawful Entry Before Plain View**
+
+Signal: Police enter a hotel room through a manager and then see contraband.
+
+Move: Check the entry before using plain view.
+
+Tiny rule: Manager consent is not guest consent. Plain view needs lawful presence.
+
+Trap: Visible contraband feels admissible, but the vantage point was unlawful.
+
+## 12. qa_checklist
+
+| Check                                   | Result                           |
+| --------------------------------------- | -------------------------------- |
+| Official key matched                    | PASS                             |
+| Three distractors each break one filter | PASS                             |
+| Credited answer breaks no filter        | PASS                             |
+| Dominant trap named                     | PASS                             |
+| Pick rates not all null                 | PASS — predicted seed rates used |
+| Legal doctrine quarantined              | PASS                             |
+| Outline code valid                      | PASS                             |
+
+## 13. wrong_answer_recovery_paths
+
+**If the student picked B:** They answered the wrong event. Train “search before arrest” timing.
+
+**If the student picked C:** They overtrusted third-party consent. Drill: “Whose privacy right is being waived?”
+
+**If the student picked D:** They knew a real exception but skipped its predicate. Drill: “Plain view from where?”
+
+## 14. outline_mastery_map
+
+**Outline code:** 75070202
+**Node:** Fourth Amendment > Searches and Seizures > Exceptions to warrant requirement
+**Mastery target:** Student can test consent and plain view by asking whether the officers had valid entry before seizure.
+
+## 15. crossover_intersection_map
+
+This item intersects with C3’s **wrong-frame** architecture: the stem offers true-sounding neighboring frames, but the call is admissibility after entry into a private room.
+
+It also intersects with **violation-vs-remedy**: a Fourth Amendment violation does not always mean suppression in every case, but here the violation is the direct source of the cocaine evidence.
+
+---
+
+### 3. `c3_annotation` JSON
+
+```json
+{
+  "question_id": "22408",
+  "source": "BARMATRIX",
+  "subject": "CRIMINAL",
+  "subject_display": "Criminal Law",
+  "topic": "Constitutional Protection of Accused Persons (Criminal Procedure)",
+  "subtopic": "Fourth Amendment",
+  "source_outline_code": "75070000",
+  "outline_code": "75070202",
+  "official_key": "A",
+  "credited_answer": "A",
+  "residual": "A",
+  "case_study_verdict": "ANCHOR_SOLVE",
+  "bank_validation_verdict": "PASS",
+  "confidence": "ANCHOR_ASSISTED",
+  "deciding_phase": "CUT",
+  "governing_law_type": "RULE",
+  "fork_type": null,
+  "dominant_trap": {
+    "choice": "D",
+    "basis": "Plain view is the most attractive wrong answer because the stem emphasizes visible cocaine in clear bags on the bed.",
+    "pick_rate": {
+      "value": 22,
+      "provenance": "predicted"
+    }
+  },
+  "selection_percentages": {
+    "A": {
+      "value": 56,
+      "provenance": "predicted"
+    },
+    "B": {
+      "value": 6,
+      "provenance": "predicted"
+    },
+    "C": {
+      "value": 16,
+      "provenance": "predicted"
+    },
+    "D": {
+      "value": 22,
+      "provenance": "predicted"
+    }
+  },
+  "answer_choices": {
+    "A": {
+      "text": "No, because the woman’s reasonable expectation of privacy was violated.",
+      "filter_broken": null,
+      "mold_code": null,
+      "mold_family": null,
+      "bait_architecture_code": null,
+      "wrong_answer_architecture_tags": [
+        "correct_answer"
+      ],
+      "method_class": "anchor_assisted",
+      "why_wrong_or_correct": "Correct. Gold Key: a hotel guest has a Fourth Amendment privacy interest in the occupied room, and a hotel manager cannot consent to a police search of that room."
+    },
+    "B": {
+      "text": "No, because the arrest was unlawful.",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "misfit",
+      "mold_family": "ISSUE_SENSE",
+      "bait_architecture_code": "wrong_frame",
+      "wrong_answer_architecture_tags": [
+        "answer_to_different_question",
+        "wrong_timing",
+        "wrong_remedy",
+        "legally_true_but_irrelevant"
+      ],
+      "method_class": "hard_structural",
+      "why_wrong_or_correct": "Wrong. The cocaine was found before the arrest. This answer targets a later event instead of the hotel-room search that produced the evidence."
+    },
+    "C": {
+      "text": "Yes, because the manager let the officers into the hotel room.",
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "flat_misstatement",
+      "mold_family": "EAR_FALSITY",
+      "bait_architecture_code": "wrong_frame",
+      "wrong_answer_architecture_tags": [
+        "misstated_rule",
+        "wrong_party",
+        "common_student_myth",
+        "sounds_lawyerly",
+        "bar_exam_bait"
+      ],
+      "method_class": "anchor_assisted",
+      "why_wrong_or_correct": "Wrong. Gold Key: manager consent is not guest consent. The manager could not waive the woman's Fourth Amendment privacy right in her hotel room."
+    },
+    "D": {
+      "text": "Yes, because the cocaine was in plain view.",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "bait_doctrine",
+      "mold_family": "ISSUE_SENSE",
+      "bait_architecture_code": "wrong_frame",
+      "wrong_answer_architecture_tags": [
+        "attractive_wrong_answer",
+        "exception_over_applied",
+        "half_right_answer",
+        "bar_exam_bait",
+        "common_student_myth"
+      ],
+      "method_class": "anchor_assisted",
+      "why_wrong_or_correct": "Wrong. Silver Key: before using a Fourth Amendment exception, ask whether the officers were lawfully where they stood. Gold Key: plain view requires lawful presence."
+    }
+  },
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-HOTEL-ROOM-PRIVACY-01",
+      "statement": "A hotel guest has a Fourth Amendment privacy interest in the occupied room. A hotel manager or clerk cannot consent to a police search of that guest's room.",
+      "type": "constitutional_principle",
+      "unlocks": "manager-consent trap",
+      "trigger": "police enter an occupied hotel room with only manager or clerk permission",
+      "tested_choice": "C",
+      "authority": "Stoner v. California, 376 U.S. 483 (1964)",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-PLAIN-VIEW-LAWFUL-PRESENCE-01",
+      "statement": "Plain view works only if officers are lawfully located where they see the item and have lawful access to it. An unlawful entry cannot be cured by seeing contraband in the open.",
+      "type": "exception",
+      "unlocks": "plain-view trap",
+      "trigger": "contraband is obvious after police enter a protected place without a warrant or valid exception",
+      "tested_choice": "D",
+      "authority": "Horton v. California, 496 U.S. 128 (1990)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-FOURTH-LAWFUL-ENTRY-FIRST-01",
+      "statement": "Before using a Fourth Amendment exception, ask whether the officers were lawfully where they stood. If the entry is bad, a later plain-view fact does not save the evidence.",
+      "type": "trap_spotting",
+      "navigates": "plain-view and third-party-consent bait",
+      "trigger": "the stem emphasizes visible contraband after a questionable entry",
+      "tested_choice": "D",
+      "outline_code": "75070202",
+      "last_minute_review": true
+    }
+  ],
+  "analyzer_notes": "drift_audit: The row supplied broad outline code 75070000; the selected deepest valid code is 75070202. No measured pick rates were supplied, so predicted seed percentages were emitted. The student-access path labels hotel consent and plain-view requirements as anchor-assisted rather than fake structure."
+}
+```
+
+---
+
+### 4. `program_elements` JSON
+
+```json
+{
+  "question_id": "22408",
+  "program_frame": "Criminal Procedure Fourth Amendment item testing lawful entry before consent/plain-view exceptions.",
+  "traps": [
+    {
+      "choice": "B",
+      "trap_name": "post-search arrest misfit",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "misfit",
+      "student_error": "The student lets the later arrest replace the earlier search that produced the evidence.",
+      "repair_move": "Order the events: entry, observation, then arrest."
+    },
+    {
+      "choice": "C",
+      "trap_name": "manager-consent trap",
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "flat_misstatement",
+      "student_error": "The student treats a hotel manager as able to waive the guest's Fourth Amendment right.",
+      "repair_move": "Ask whose privacy right is being waived."
+    },
+    {
+      "choice": "D",
+      "trap_name": "plain-view-without-lawful-entry trap",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "bait_doctrine",
+      "student_error": "The student recognizes a real exception but skips the lawful-presence predicate.",
+      "repair_move": "Ask whether the officers were lawfully where they stood before using plain view."
+    }
+  ],
+  "tensions": [
+    {
+      "name": "lawful entry before exception",
+      "axis": "Were the officers lawfully inside the hotel room before they saw the cocaine?",
+      "splitting_fact": "The only entry fact is manager-provided access, not a warrant or consent from the woman.",
+      "resolver": "A hotel manager cannot consent for an occupied guest room; plain view is unavailable from an unlawful vantage point."
+    }
+  ],
+  "remediation_card": {
+    "id": "REM-CRIM-FOURTH-HOTEL-PLAIN-VIEW-01",
+    "title": "Lawful Entry Before Plain View",
+    "signal": "Police enter a hotel room through a manager and then see contraband.",
+    "student_move": "Check the entry before crediting plain view.",
+    "tiny_rule": "Manager consent is not guest consent; plain view needs lawful presence.",
+    "trap": "Visible contraband feels admissible, but the vantage point was unlawful.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zones": [
+    "Fourth Amendment exceptions",
+    "third-party consent",
+    "plain view",
+    "search before arrest timing",
+    "evidence suppression after unlawful entry"
+  ],
+  "gold_key_ids": [
+    "GK-CRIMINAL-HOTEL-ROOM-PRIVACY-01",
+    "GK-CRIMINAL-PLAIN-VIEW-LAWFUL-PRESENCE-01"
+  ],
+  "silver_key_ids": [
+    "SK-CRIMINAL-FOURTH-LAWFUL-ENTRY-FIRST-01"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence` JSON
+
+```json
+{
+  "question_id": "22408",
+  "wrong_answer_recovery": {
+    "B": {
+      "diagnosis": "Wrong event / wrong timing.",
+      "recovery_prompt": "Did the cocaine appear before or after the arrest?",
+      "micro_drill": "Sequence Fourth Amendment facts: entry, search/observation, seizure, arrest, suppression motion."
+    },
+    "C": {
+      "diagnosis": "Wrong-party consent.",
+      "recovery_prompt": "Whose Fourth Amendment right was at stake: the manager's or the guest's?",
+      "micro_drill": "Consent cards: occupant consent, co-occupant consent, apparent authority, hotel manager nonconsent."
+    },
+    "D": {
+      "diagnosis": "Exception over-applied.",
+      "recovery_prompt": "Plain view from where?",
+      "micro_drill": "Plain-view predicate drill: lawful vantage, immediately apparent incriminating character, lawful access."
+    }
+  },
+  "drill_seeds": [
+    {
+      "id": "DRILL-CRIM-FOURTH-001",
+      "prompt": "Police enter an occupied motel room using only the clerk's key and see contraband on the desk. Is plain view enough?",
+      "target_move": "No. Check lawful entry before plain view."
+    },
+    {
+      "id": "DRILL-CRIM-FOURTH-002",
+      "prompt": "Police lawfully enter under a valid warrant for stolen jewelry and see cocaine on the bed. Is plain view potentially available?",
+      "target_move": "Yes, if incriminating character is immediately apparent and access is lawful."
+    },
+    {
+      "id": "DRILL-CRIM-FOURTH-003",
+      "prompt": "Police see contraband, then arrest the defendant. A suppression answer discusses only the arrest. What is the C3 cut?",
+      "target_move": "Wrong timing / not responsive."
+    }
+  ],
+  "trap_tags": [
+    "manager consent",
+    "plain view",
+    "lawful vantage",
+    "search before arrest",
+    "exception bait",
+    "wrong party",
+    "wrong timing"
+  ],
+  "component_routing": {
+    "primary_component": "Fourth Amendment exception predicates",
+    "secondary_component": "Issue-Sense wrong-frame cut",
+    "c3_phase": "CUT",
+    "method_class": "anchor_assisted",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "crossovers": [
+    {
+      "source_component": "Evidence admissibility",
+      "intersection": "The call asks whether physical evidence is admissible, but the governing question is a criminal-procedure search rule."
+    },
+    {
+      "source_component": "Bait architecture",
+      "intersection": "The answer set offers real exception labels, but each exception must be matched to its predicate."
+    },
+    {
+      "source_component": "Timing discipline",
+      "intersection": "Arrest timing matters because the cocaine was discovered before the arrest."
+    }
+  ],
+  "outline_mastery": [
+    {
+      "outline_code": "75070202",
+      "node": "Fourth Amendment > Searches and Seizures > Exceptions to warrant requirement",
+      "mastery_statement": "Student can identify when consent and plain-view exceptions fail because police lacked lawful entry into a protected place.",
+      "status": "targeted_remediation"
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-HOTEL-ROOM-PRIVACY-01",
+      "statement": "A hotel guest has a Fourth Amendment privacy interest in the occupied room. A hotel manager or clerk cannot consent to a police search of that guest's room.",
+      "type": "constitutional_principle",
+      "unlocks": "manager-consent trap",
+      "trigger": "police enter an occupied hotel room with only manager or clerk permission",
+      "tested_choice": "C",
+      "authority": "Stoner v. California, 376 U.S. 483 (1964)",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-PLAIN-VIEW-LAWFUL-PRESENCE-01",
+      "statement": "Plain view works only if officers are lawfully located where they see the item and have lawful access to it. An unlawful entry cannot be cured by seeing contraband in the open.",
+      "type": "exception",
+      "unlocks": "plain-view trap",
+      "trigger": "contraband is obvious after police enter a protected place without a warrant or valid exception",
+      "tested_choice": "D",
+      "authority": "Horton v. California, 496 U.S. 128 (1990)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-FOURTH-LAWFUL-ENTRY-FIRST-01",
+      "statement": "Before using a Fourth Amendment exception, ask whether the officers were lawfully where they stood. If the entry is bad, a later plain-view fact does not save the evidence.",
+      "type": "trap_spotting",
+      "navigates": "plain-view and third-party-consent bait",
+      "trigger": "the stem emphasizes visible contraband after a questionable entry",
+      "tested_choice": "D",
+      "outline_code": "75070202",
+      "last_minute_review": true
+    }
+  ],
+  "analyzer_hooks": {
+    "bank_validation_verdict": "PASS",
+    "case_study_verdict": "ANCHOR_SOLVE",
+    "review_queue": false,
+    "dominant_trap_choice": "D",
+    "pick_rate_mode": "predicted",
+    "drift_audit": "Do not downgrade this item to hard structural. Manager nonconsent and plain-view lawful-presence are doctrine anchors."
+  }
+}
+```
+
+[1]: https://constitution.congress.gov/constitution/amendment-4/?utm_source=chatgpt.com "U.S. Constitution - Fourth Amendment | Resources | Constitution Annotated | Congress.gov | Library of Congress"
+[2]: https://supreme.justia.com/cases/federal/us/376/483/?utm_source=chatgpt.com " Stoner v. California | 376 U.S. 483 (1969) | Justia U.S. Supreme Court Center"
+[3]: https://www.law.cornell.edu/supremecourt/text/496/128?utm_source=chatgpt.com "Terry Brice HORTON, Petitioner v. CALIFORNIA. | Supreme Court | US Law | LII / Legal Information Institute"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "22408",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "75070202",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Review truth not available in source file.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 22408; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "22408",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Review truth not available in source file.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-22408",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Review truth not available in source file.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "22408",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Review truth not available in source file.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75070202",
+    "this_item_teaches": "Review truth not available in source file.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

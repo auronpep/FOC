@@ -1,0 +1,58 @@
+{
+  "mode": "apply",
+  "ok": true,
+  "env": {
+    "appPid": "3810467",
+    "database": "u211961595_barmatrix_prod",
+    "host": "127.0.0.1",
+    "port": 3306
+  },
+  "targetCount": 27,
+  "countsStable": true,
+  "before": {
+    "questions": 1252,
+    "answer_choices": 5008,
+    "question_tags": 47427,
+    "target_questions": 27,
+    "target_choices": 108
+  },
+  "after": {
+    "questions": 1252,
+    "answer_choices": 5008,
+    "question_tags": 47427,
+    "target_questions": 27,
+    "target_choices": 108
+  },
+  "verification": {
+    "checked": 27,
+    "matched": 27,
+    "failures": [],
+    "samples": [
+      {
+        "question_id": "314d1cf1-6a31-11f1-a7ad-f9e8a06a2fad",
+        "external_id": "20353_baptism_tank_burst",
+        "question_stem_sample": "In a federal diversity action, Lydia, a citizen of State A, sues Barnabas, a citizen of State B, for $120,000 after Barnabas’s privately owned portable baptism-tank display burst a"
+      },
+      {
+        "question_id": "314e1965-6a31-11f1-a7ad-f9e8a06a2fad",
+        "external_id": "20606_lydia_festival_venue",
+        "question_stem_sample": "Lydia, a worship harpist domiciled in the Northern District of State G, was injured when a propane coffee cart exploded during a privately run Christian music festival in the Centr"
+      },
+      {
+        "question_id": "314e6ba9-6a31-11f1-a7ad-f9e8a06a2fad",
+        "external_id": "20627_ruth_hymn_poster_contract",
+        "question_stem_sample": "Daniel was packing his private Scripture-verse printing booth for a Colorado craft fair when Ruth sued him in federal district court. The lawsuit, filed on April 4, was a state-law"
+      },
+      {
+        "question_id": "3168ab5d-6a31-11f1-a7ad-f9e8a06a2fad",
+        "external_id": "20153_lampstand_labs",
+        "question_stem_sample": "Congress enacts the Lampstand Labs Act, which authorizes federal tax funds to buy robotics kits, digital microscopes, and portable planetarium projectors for qualifying private sch"
+      },
+      {
+        "question_id": "316b20eb-6a31-11f1-a7ad-f9e8a06a2fad",
+        "external_id": "20638_advent_rescue_beacons",
+        "question_stem_sample": "Under authority granted by Congress, the United States Department of Defense hired Barnabas Metalworks, a private Advent-themed shop owned by Lydia, to manufacture rugged rescue-be"
+      }
+    ]
+  }
+}

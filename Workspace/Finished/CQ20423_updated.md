@@ -1,0 +1,1054 @@
+---
+qid: "20423_galilee_props_bias"
+transformed_from: "20423"
+subject: "EVIDENCE"
+topic: "Opinion or reputation"
+subtopic: "E5"
+outline_code: "31010505"
+key: "A"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+At a federal civil trial over a broken Christmas-pageant stage wagon, Peter sues **Galilee Props, Inc.**, a private prop-rental company. **Ruth** testifies for Galilee. On cross-examination, Peter’s lawyer asks Ruth whether she is the paid treasurer of **New Covenant Fellowship**, the religious organization that owns Galilee’s voting shares and appoints its managers. Galilee objects under the rule barring religious-belief credibility evidence. Peter says he offers the question to show Ruth’s possible bias toward Galilee, not to suggest that her religious views make her truthful or untruthful.
+
+**How should the court rule?**
+
+The source row for QID 20423 supplies the Evidence topic, original Rule 610 bias-purpose stem, original answer choices, official key C, and official explanation. 
+
+### 2. Distilled Core Question
+
+A witness has a paid role in a religious organization that controls a party. The cross-examiner asks about that role to show bias, not belief-based truthfulness. Should the Rule 610 objection be sustained?
+
+### 3. Final answer choices — post-shuffle
+
+**A.** Overrule the objection because the question targets possible bias from Ruth’s paid tie to the organization that owns Galilee, not her religious beliefs as a truthfulness trait.
+
+**B.** Sustain the objection because any reference to a witness’s religious affiliation is inadmissible.
+
+**C.** Overrule the objection only if Ruth’s character for truthfulness has first been attacked.
+
+**D.** Sustain the objection because bias may be shown only by reputation evidence.
+
+### 5. Correct answer
+
+**A** — original key **C**.
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                                                                   | Substance |     Pick rate |
+| --------------- | ---------: | -------------------------------------------------------------------------- | --------- | ------------: |
+| A               |          B | `tiered_absolute` / absolute religious-affiliation ban                     | kept      | 25% predicted |
+| B               |          D | `fabricated_rule` / bias only by reputation evidence                       | kept      |  8% predicted |
+| C               |          A | `correct_answer`                                                           | kept      | 56% predicted |
+| D               |          C | `bait_doctrine` / Rule 608(a) truthfulness precondition imported into bias | kept      | 11% predicted |
+
+No measured original pick rates were supplied. All percentages are predicted, not inherited.
+
+### 7. Full right-answer explanation
+
+**A is correct.** The objection should be overruled because the question is aimed at Ruth’s possible bias: she is a paid treasurer of the religious organization that owns and controls Galilee. **Gold Key:** Rule 610 blocks religion-as-truthfulness use; it does not block affiliation or interest evidence offered to show bias. **Silver Key:** Purpose first. The same religious-affiliation fact is barred for one credibility purpose but allowed for a different credibility purpose.
+
+### 8. Full wrong-answer explanations
+
+**B.** This choice sells a safe-sounding blanket rule: religious references feel dangerous, so “any reference” sounds protective. The breaker is the overclaim. The offered purpose is not belief-as-truthfulness; it is bias from a paid organizational tie. **Gold Key:** Rule 610 is not an absolute religious-affiliation blackout.
+
+**C.** This choice borrows a real truthfulness-character sequence. That makes it attractive because “truthfulness attacked first” sounds like the right foundation move. The breaker is purpose. Ruth’s truthfulness character is not being supported; bias is being shown.
+
+**D.** This choice confuses bias impeachment with opinion/reputation character evidence. It sounds plausible because the item sits near opinion/reputation credibility doctrine. The breaker is the invented “only.” Bias is not limited to reputation evidence.
+
+### 9. Black-letter-law verification and legal reasoning
+
+Federal Rule of Evidence 610 bars evidence of a witness’s religious beliefs or opinions when offered to attack or support credibility, but the Advisory Committee Note states that inquiry to show interest or bias is outside that prohibition and gives the example of church affiliation connected to a party in litigation. ([Legal Information Institute][1]) Rule 608(a) governs opinion/reputation evidence about truthfulness and allows evidence of truthful character only after truthfulness has been attacked, but that is not the purpose here. ([Legal Information Institute][2]) Rule 607 confirms that any party may attack a witness’s credibility. ([Legal Information Institute][3])
+
+The tested issue, rule, trap structure, and credited outcome are unchanged from the source row: Rule 610 / religious affiliation for bias, not belief-as-truthfulness. 
+
+### 10. Rigor / difficulty preservation
+
+The variation keeps the same hard boundary: religious-belief credibility evidence versus religious-affiliation evidence used to show bias. It preserves the three traps: absolute religious ban, fabricated bias-proof limit, and Rule 608(a) truthfulness-foundation bait.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT B.** “Any reference” is an overclaim. The stem says the purpose is bias, not belief-based truthfulness.
+
+**CUT C.** The answer moves to truthfulness-character rehabilitation. The stem’s lane is bias.
+
+**CUT D.** “Only by reputation evidence” invents a proof limit. The item asks about a cross-examination question aimed at bias.
+
+**Residual A.** It matches the offered purpose and the bias fact.
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                                                   |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Charity trial → broken Christmas-pageant stage wagon and private prop-rental company.                                                                    |
+| Transaction frame          | Generic civil trial against charity → civil trial over damaged pageant equipment.                                                                        |
+| Specific facts             | Paid officer of same religious organization controlling charity → paid treasurer of religious organization owning voting shares and appointing managers. |
+| Numbers                    | No legally meaningful numbers in original; none added.                                                                                                   |
+| Fact ordering / rhythm     | New stem starts with object/event and party identity before the witness relationship.                                                                    |
+| Cast size / roles          | Miriam / plaintiff / charity → Peter / Ruth / Galilee Props / New Covenant Fellowship.                                                                   |
+| Choice ordering            | Shuffled; original correct C moved to new A.                                                                                                             |
+| Choice phrasing            | Rephrased while preserving legal substance.                                                                                                              |
+| Setting / era / texture    | Generic charity trial → Christmas-pageant prop-rental dispute.                                                                                           |
+| Call wording               | Preserved as “How should the court rule?” because altering it would risk procedural function drift.                                                      |
+
+**Original stem summary:** A witness for a charity is asked about a paid role in a religious organization that controls the charity to show bias.
+**Variant stem summary:** In a Christmas-pageant wagon dispute, a witness for a private prop company is asked about her paid treasury role in the religious organization that owns and manages the company.
+
+Recognition test: passed. The summaries share only the legal rule.
+
+### 13. Review Truth
+
+Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.
+
+### 14. Five variations considered
+
+| Candidate                             | Setting / cast                                                                               | Preserved issue                | Memorable hook                            | Legal risks                                                   | Divergence score                                                   |
+| ------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Chosen: Galilee Props stage wagon** | Peter sues Galilee Props; Ruth is paid treasurer of New Covenant Fellowship.                 | Rule 610 affiliation for bias. | Broken Christmas-pageant wagon.           | Low; private company avoids church-internal dispute.          | 9/10; changes asset, defendant type, facts, rhythm, cast, texture. |
+| Bethlehem Bell Foundry                | Barnabas sues a bell foundry; Lydia is paid secretary of a fellowship owning it.             | Same.                          | Cracked handbell for a Christmas concert. | Moderate; “bell” setting may feel close to church property.   | 8/10.                                                              |
+| Emmaus Robotics Nativity Drones       | Daniel sues a drone company; Naomi is paid controller of a fellowship that owns the company. | Same.                          | Nativity drone crash.                     | Low, but more futuristic texture may distract.                | 9/10.                                                              |
+| Lydia’s Purple Tent Rentals           | Stephen sues tent-rental LLC; Hannah is paid officer of the fellowship owning the LLC.       | Same.                          | Purple revival tent collapsed.            | Moderate; “revival tent” could over-signal religious context. | 8/10.                                                              |
+| Jericho Bread Oven                    | Martha sues bakery equipment company; Paul is paid finance officer of the fellowship owner.  | Same.                          | Giant bread oven at a church supper.      | Moderate; food/event details add clutter.                     | 7/10.                                                              |
+
+---
+
+## B1) PASS-2 YAML
+
+```yaml
+barmatrix_row:
+  question_id: "20423_galilee_props_bias"
+  transformed_from: "20423"
+  internal_id: "presentation_questions_batch_024_E5_opinion_reputation::r11::Q10"
+  subject: "EVIDENCE"
+  subject_display: "Evidence"
+  topic: "Opinion or reputation"
+  subtopic: "E5"
+  difficulty: "Trap"
+  outline_code: "31010505"
+  selection_percentages:
+    A:
+      value: 56
+      provenance: "predicted"
+    B:
+      value: 25
+      provenance: "predicted"
+    C:
+      value: 11
+      provenance: "predicted"
+    D:
+      value: 8
+      provenance: "predicted"
+  official_key: "A"
+  original_key_letter: "C"
+  call: "How should the court rule?"
+  stem: "At a federal civil trial over a broken Christmas-pageant stage wagon, Peter sues Galilee Props, Inc., a private prop-rental company. Ruth testifies for Galilee. On cross-examination, Peter’s lawyer asks Ruth whether she is the paid treasurer of New Covenant Fellowship, the religious organization that owns Galilee’s voting shares and appoints its managers. Galilee objects under the rule barring religious-belief credibility evidence. Peter says he offers the question to show Ruth’s possible bias toward Galilee, not to suggest that her religious views make her truthful or untruthful. How should the court rule?"
+  choices:
+    A: "Overrule the objection because the question targets possible bias from Ruth’s paid tie to the organization that owns Galilee, not her religious beliefs as a truthfulness trait."
+    B: "Sustain the objection because any reference to a witness’s religious affiliation is inadmissible."
+    C: "Overrule the objection only if Ruth’s character for truthfulness has first been attacked."
+    D: "Sustain the objection because bias may be shown only by reputation evidence."
+
+transform_provenance:
+  transformed_from: "20423"
+  variant_slug: "galilee_props_bias"
+  original_key_letter: "C"
+  new_key_letter: "A"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "B"
+      mechanic: "tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: 25
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "fabricated_rule"
+      substance: "kept"
+      pick_rate:
+        value: 8
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 56
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: 11
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A witness for a charity is asked about a paid role in a religious organization that controls the charity to show bias."
+    variant_stem_one_sentence: "In a Christmas-pageant wagon dispute, a witness for a private prop company is asked about her paid treasury role in the religious organization that owns and manages the company."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "transaction_frame"
+      - "specific_facts"
+      - "fact_ordering"
+      - "cast_size_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "call_wording"
+        reason: "The court-ruling call preserves the evidentiary objection function."
+      - dimension: "numbers"
+        reason: "No legally meaningful numbers existed in the source item."
+
+source_stack:
+  primary_row: "20423 source row"
+  c3_tags: "none supplied beyond lb_rule_reference and lb_student_diagnostic"
+  subject_overlay: "Evidence = purpose, layer, failure mode"
+  universal_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 CUT → CLASH → CALL"
+    - "Lesson 4 Overclaim"
+    - "Lesson 8 Not-responsive molds"
+    - "Lesson 11 Offered-for-purpose architecture"
+  controlled_vocabularies: "controlled_vocabularies.md"
+  lawyer_confirmation:
+    - "Federal Rule of Evidence 610"
+    - "Federal Rule of Evidence 608(a)"
+    - "Federal Rule of Evidence 607"
+
+student_access_contract:
+  controlling_test: "Could a trained C3 student identify the problem without importing untaught doctrine?"
+  allowed_moves:
+    - "Purpose first"
+    - "TRUE and RESPONSIVE"
+    - "Overclaim detection"
+    - "Bait-doctrine detection"
+    - "Offered-for-purpose architecture"
+    - "Gold Key: Rule 610 religion-as-truthfulness versus affiliation-for-bias"
+    - "Silver Key: lock the offered purpose before applying the exclusion rule"
+  forbidden_moves:
+    - "Do not turn Rule 610 into a mini-outline."
+    - "Do not add First Amendment, church autonomy, or charitable-immunity analysis."
+
+stem_parse:
+  forum: "federal civil trial"
+  party_against_whom_witness_testifies_for: "Galilee Props, Inc."
+  witness: "Ruth"
+  examiner: "Peter’s lawyer"
+  objection: "religious-belief credibility evidence"
+  offered_purpose: "bias"
+  non_purpose: "religious views as truthfulness trait"
+  procedural_posture: "evidentiary objection on cross-examination"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Is all religious-affiliation evidence barred?"
+
+trigger_facts:
+  - fact: "Ruth testifies for Galilee."
+    access_label: "student_visible"
+    legal_role: "sets possible witness alignment"
+  - fact: "Ruth is paid treasurer of New Covenant Fellowship."
+    access_label: "student_visible"
+    legal_role: "bias relationship"
+  - fact: "New Covenant Fellowship owns Galilee’s voting shares and appoints its managers."
+    access_label: "student_visible"
+    legal_role: "connects affiliation to party interest"
+  - fact: "Peter offers the question to show bias."
+    access_label: "student_visible"
+    legal_role: "purpose controls admissibility"
+  - fact: "Peter does not offer the question to show truthfulness or untruthfulness from religious views."
+    access_label: "student_visible"
+    legal_role: "defeats Rule 610 truthfulness-character objection"
+
+c3_routing:
+  subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Trap"
+  tension_axis: "religious-belief truthfulness use versus organizational-affiliation bias use"
+  call_heuristic: "purpose controls admissibility"
+
+answer_array:
+  geometry: "result split with purpose-axis reason"
+  result_split:
+    overrule:
+      - "A"
+      - "C"
+    sustain:
+      - "B"
+      - "D"
+  purpose_axis:
+    correct_lane: "bias from paid organizational tie"
+    wrong_lanes:
+      - "absolute religious-affiliation ban"
+      - "truthfulness-character precondition"
+      - "reputation-only proof limit"
+  silver_key_id: "SK-EVIDENCE-PURPOSE-AXIS-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: "offered_for_purpose"
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "true and responsive"
+    c3_signal: "It matches the stem’s offered purpose: bias, not belief-based truthfulness."
+    lawyer_confirmation: "Rule 610 does not bar affiliation evidence offered to show bias or interest."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "offered_for_purpose"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "purpose_of_offer_confusion"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "heuristic_structural"
+    student_label: "overclaim"
+    c3_signal: "The word 'any' tries to erase the offered-purpose distinction."
+    lawyer_confirmation: "Rule 610 is not an absolute ban on religious-affiliation evidence."
+  C:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "offered_for_purpose"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "wrong_standard"
+      - "exception_hunting"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "wrong purpose lane"
+    c3_signal: "The answer talks about truthfulness-character attack; the stem says bias."
+    lawyer_confirmation: "Rule 608(a)’s truthful-character precondition does not govern bias impeachment."
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "fabricated_rule"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "offered_for_purpose"
+    wrong_answer_architecture_tags:
+      - "sounds_lawyerly"
+      - "misstated_rule"
+      - "wrong_standard"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "heuristic_structural"
+    student_label: "invented limit"
+    c3_signal: "The word 'only' invents a proof-method restriction for bias."
+    lawyer_confirmation: "Bias is not limited to reputation evidence."
+
+residual_answer:
+  choice: "A"
+  reason: "Only A overrules on the same purpose the stem gives: bias from a paid organizational tie."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B overclaims with 'any reference.'"
+      passes_controlling_test: true
+    - claim: "C answers a truthfulness-character question, not the bias question."
+      passes_controlling_test: true
+    - claim: "D invents an 'only reputation' restriction."
+      passes_controlling_test: true
+    - claim: "A tracks the offered purpose."
+      passes_controlling_test: true
+  quarantined_lawyer_confirmation:
+    - "FRE 610 text and Advisory Committee Note"
+    - "FRE 608(a)"
+    - "FRE 607"
+  drift_audit: "No student-facing step depends on authority; authority confirms the C3 purpose distinction."
+
+gold_keys:
+  - id: "GK-EVIDENCE-RELIGION-BIAS-01"
+    statement: "Rule 610 blocks religion-as-truthfulness evidence. It does not block religious affiliation or organizational ties when offered to show bias, interest, or relationship to a party."
+    type: "distinction"
+    unlocks: "religious-affiliation evidence offered for bias"
+    trigger: "religion objection plus paid role or organizational tie to a party"
+    tested_choice: "B"
+    authority: "Federal Rule of Evidence 610 Advisory Committee Note"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-EVIDENCE-PURPOSE-AXIS-01"
+    statement: "When an Evidence answer turns on the same fact being used for different credibility purposes, name the offered purpose first and grade only that lane."
+    type: "trap_spotting"
+    navigates: "Rule 610 truthfulness lane versus bias lane"
+    trigger: "The stem says 'offered to show bias' and 'not to show truthfulness.'"
+    tested_choice: "C"
+    outline_code: "31010505"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-EVIDENCE-R610-BIAS-01"
+  title: "Religion Evidence: Purpose Split"
+  signal: "Religious affiliation appears, but the proponent says bias."
+  student_move: "Do not stop at the religious-evidence objection. Ask the offered purpose."
+  tiny_rule: "Belief-as-truthfulness is barred; affiliation-for-bias is not."
+  trap: "Blanket religious-affiliation ban."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?"
+review_truth: "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest."
+
+case_study_output:
+  final_student_script: "Purpose first. This is bias, not belief-truthfulness. Cut the any-religion ban, cut the truthfulness-foundation answer, cut the reputation-only limit. Pick A."
+  residual: "A"
+
+quality_control:
+  pass_requires_three_single_filter_distractors: true
+  distractor_count: 3
+  each_distractor_one_filter: true
+  residual_equals_key: true
+  no_fork: true
+  recognition_test_passed: true
+  no_extra_church_doctrine_added: true
+  controlled_vocab_values_checked: true
+
+analytics_hooks:
+  component_routing:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 4 Overclaim"
+    - "Lesson 8 Bait doctrine"
+    - "Lesson 11 Offered-for-purpose"
+    - "Evidence overlay: Purpose first"
+  trap_tags:
+    - "rule_610_absolute_ban"
+    - "bias_vs_truthfulness"
+    - "purpose_controls"
+    - "rule_608_bait"
+  drill_seed_ids:
+    - "DRILL-EVI-R610-PURPOSE-01"
+    - "DRILL-EVI-608-610-CONTRAST-01"
+```
+
+---
+
+## B2) Student Case Study
+
+### program_frame
+
+This is an Evidence purpose question. The trap is not whether religion appears. The trap is why the question is being asked.
+
+### student_access_test
+
+A C3 student can solve the array with:
+
+* Purpose first.
+* TRUE and RESPONSIVE.
+* Overclaim detection.
+* Wrong-purpose detection.
+* Gold Key: Rule 610 bars belief-as-truthfulness, not affiliation-for-bias.
+
+### question_data
+
+**Subject:** Evidence
+**Topic:** Opinion or reputation
+**Post-shuffle key:** A
+**Call:** How should the court rule?
+
+### distilled_core_question
+
+A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?
+
+### call_and_prediction
+
+**Call:** rule on the objection.
+
+**Prediction:** overrule. The offered purpose is bias from a paid organizational tie, not religious belief as a truthfulness trait.
+
+### trigger_facts
+
+| Fact                                                | Why it matters                              |
+| --------------------------------------------------- | ------------------------------------------- |
+| Ruth testifies for Galilee.                         | She may have a reason to favor Galilee.     |
+| Ruth is paid treasurer of New Covenant Fellowship.  | The relationship is concrete and financial. |
+| New Covenant Fellowship owns and manages Galilee.   | The affiliation connects to the party.      |
+| Peter offers the question for bias.                 | Purpose controls.                           |
+| Peter does not offer it for religious truthfulness. | This avoids the barred lane.                |
+
+### governing_c3_lane
+
+**Evidence = admissibility-layer cascade + failure-mode scan.**
+
+Lane: **offered purpose controls admissibility.**
+
+### choice_by_choice_walkthrough
+
+#### A
+
+1. **Student-accessible C3 signal:** The answer matches the stem’s purpose: bias from a paid organizational tie.
+2. **Student label:** True and responsive.
+3. **What a true/responsive version would look like:** This is the true/responsive version.
+4. **Lawyer confirmation:** Rule 610 permits inquiry into religious affiliation when used to show bias or interest, rather than belief-based truthfulness.
+
+#### B
+
+1. **Student-accessible C3 signal:** “Any reference” is too broad.
+2. **Student label:** Overclaim.
+3. **What a true/responsive version would look like:** “Sustain if the question were offered to show that Ruth’s religious beliefs make her truthful or untruthful.”
+4. **Lawyer confirmation:** Rule 610 is not an absolute ban on all religious-affiliation evidence.
+
+#### C
+
+1. **Student-accessible C3 signal:** The answer talks about truthfulness-character attack. The stem says bias.
+2. **Student label:** Bait doctrine / wrong purpose lane.
+3. **What a true/responsive version would look like:** “Overrule because bias impeachment does not require a prior attack on truthfulness character.”
+4. **Lawyer confirmation:** Rule 608(a)’s first-attacked requirement applies to supporting truthful character, not to bias impeachment.
+
+#### D
+
+1. **Student-accessible C3 signal:** “Only by reputation evidence” invents a proof-method limit.
+2. **Student label:** Fabricated rule.
+3. **What a true/responsive version would look like:** “Bias may be explored through a proper cross-examination question about a concrete relationship to the party.”
+4. **Lawyer confirmation:** Bias is not confined to reputation proof.
+
+### residual_answer
+
+After B, C, and D break one filter each, **A** remains.
+
+### legal_leak_audit
+
+Student-facing analysis used only:
+
+* purpose words in the stem;
+* overclaim detection;
+* wrong-purpose lane detection;
+* the Gold Key distinction.
+
+Authority stayed in lawyer confirmation.
+
+**Drift audit:** No answer is called false unless the defect is visible from overclaim wording, purpose mismatch, or the taught Rule 610 Gold Key.
+
+### final_student_script
+
+Purpose first. Peter is not using Ruth’s religion to prove she is honest or dishonest. He is using her paid role in the owner-organization to show bias. B overclaims. C answers a truthfulness-character question. D invents a reputation-only limit. A survives.
+
+### remediation_card
+
+**REM-EVIDENCE-R610-BIAS-01 — Religion Evidence: Purpose Split**
+
+* **Signal:** A religious-affiliation question appears during witness impeachment.
+* **Student move:** Ask the offered purpose before applying the exclusion.
+* **Tiny rule:** Belief-as-truthfulness is barred; affiliation-for-bias is not.
+* **Trap:** Treating Rule 610 as an absolute blackout.
+* **Confidence:** ANCHOR_ASSISTED.
+
+### Gold Key(s)
+
+**GK-EVIDENCE-RELIGION-BIAS-01**
+Rule 610 blocks religion-as-truthfulness evidence. It does not block religious affiliation or organizational ties when offered to show bias, interest, or relationship to a party.
+
+### Silver Key(s)
+
+**SK-EVIDENCE-PURPOSE-AXIS-01**
+When an Evidence answer turns on the same fact being used for different credibility purposes, name the offered purpose first and grade only that lane.
+
+### qa_checklist
+
+| Check                                                 | Result |
+| ----------------------------------------------------- | ------ |
+| Correct answer breaks no filter                       | Pass   |
+| Three distractors break exactly one filter            | Pass   |
+| C3 residual agrees with key                           | Pass   |
+| No First Amendment or church-autonomy issue added     | Pass   |
+| Pick-rate provenance honest                           | Pass   |
+| Letter map present                                    | Pass   |
+| Gold Key present because anchor-dependent             | Pass   |
+| Silver Key present because purpose navigation matters | Pass   |
+
+### wrong_answer_recovery_paths
+
+| Choice | Student error                                     | Recovery step                                   |
+| ------ | ------------------------------------------------- | ----------------------------------------------- |
+| B      | Treats religious affiliation as always forbidden. | Circle “any” and ask the purpose.               |
+| C      | Imports truthfulness-character rules.             | Re-read the stem phrase “to show bias.”         |
+| D      | Confuses bias with reputation evidence.           | Separate bias impeachment from character proof. |
+
+### outline_mastery_map
+
+**Primary placement:** 31010505 — Evidence > Presentation of Evidence > Impeachment > Opinion or reputation.
+**Functional placement:** 31010503 — Bias.
+**This item teaches:** the boundary between Rule 608 truthfulness proof and Rule 610 religious-belief evidence when bias is the real purpose.
+
+### crossover_intersection_map
+
+| Intersection                  | Why it matters                                                       |
+| ----------------------------- | -------------------------------------------------------------------- |
+| FRE 610 × bias                | Religion objection does not end the analysis.                        |
+| FRE 608(a) × bias             | Truthfulness-character foundation is not the bias rule.              |
+| Evidence purpose architecture | Same fact can be barred or allowed depending on purpose.             |
+| Red-zone crossover            | Do not add First Amendment, church autonomy, or charitable immunity. |
+
+### review_truth
+
+Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.
+
+---
+
+## B3) `c3_annotation`
+
+```json
+{
+  "question_id": "20423_galilee_props_bias",
+  "subject": "EVIDENCE",
+  "credited_answer": "A",
+  "outline_code": "31010505",
+  "distilled_core_question": "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?",
+  "review_truth": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "religious-belief truthfulness use versus organizational-affiliation bias use",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "purpose controls admissibility",
+    "difficulty": "Trap",
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "offered_for_purpose",
+        "card_ref": "GK-EVIDENCE-RELIGION-BIAS-01",
+        "explanation": "The answer overclaims by treating any religious affiliation reference as inadmissible."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "offered_for_purpose",
+        "card_ref": "SK-EVIDENCE-PURPOSE-AXIS-01",
+        "explanation": "The answer imports a truthfulness-character precondition into a bias-purpose question."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "offered_for_purpose",
+        "card_ref": "SK-EVIDENCE-PURPOSE-AXIS-01",
+        "explanation": "The answer invents a rule that bias may be shown only by reputation evidence."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Student path rests on purpose, overclaim, and wrong-lane detection; FRE authority remains in lawyer confirmation.",
+      "transformed_from": "20423",
+      "letter_map": "A→B; B→D; C→A; D→C",
+      "pick_rate_note": "No measured original pick rates supplied; all emitted percentages are predicted."
+    },
+    "gold_keys": [
+      {
+        "id": "GK-EVIDENCE-RELIGION-BIAS-01",
+        "statement": "Rule 610 blocks religion-as-truthfulness evidence. It does not block religious affiliation or organizational ties when offered to show bias, interest, or relationship to a party.",
+        "type": "distinction",
+        "unlocks": "religious-affiliation evidence offered for bias",
+        "trigger": "religion objection plus paid role or organizational tie to a party",
+        "tested_choice": "B",
+        "authority": "Federal Rule of Evidence 610 Advisory Committee Note",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-EVIDENCE-PURPOSE-AXIS-01",
+        "statement": "When an Evidence answer turns on the same fact being used for different credibility purposes, name the offered purpose first and grade only that lane.",
+        "type": "trap_spotting",
+        "navigates": "Rule 610 truthfulness lane versus bias lane",
+        "trigger": "The stem says offered to show bias and not to show truthfulness.",
+        "tested_choice": "C",
+        "outline_code": "31010505",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B4) `program_elements`
+
+```json
+{
+  "question_id": "20423_galilee_props_bias",
+  "subject": "EVIDENCE",
+  "outline_code": "31010505",
+  "distilled_core_question": "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?",
+  "review_truth": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+  "tension": {
+    "axis": "belief-as-truthfulness versus affiliation-for-bias",
+    "resolving_fact": "Peter offers the question to show Ruth’s bias from her paid role in the organization that owns Galilee."
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "tiered_absolute",
+      "architecture": "offered_for_purpose",
+      "why_attractive": "It turns the Rule 610 objection into a blanket ban, which feels safe because religious references sound prejudicial. The breaker is the offered-purpose split: the question is about a paid organizational tie and bias, not belief-as-truthfulness.",
+      "focus_group_pct": 25,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "bait_doctrine",
+      "architecture": "offered_for_purpose",
+      "why_attractive": "It borrows the familiar Rule 608(a) sequence, so a student sees truthfulness attacked first and thinks foundation. The breaker is that the offered purpose is bias, not truthful-character rehabilitation.",
+      "focus_group_pct": 11,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "fabricated_rule",
+      "architecture": "offered_for_purpose",
+      "why_attractive": "It confuses bias impeachment with opinion/reputation character proof, which sounds plausible because the bank topic is opinion/reputation. The breaker is that bias is its own credibility purpose and is not limited to reputation evidence.",
+      "focus_group_pct": 8,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-EVIDENCE-R610-BIAS-01",
+    "title": "Religion Evidence: Purpose Split",
+    "signal": "Religious affiliation appears, but the proponent says bias.",
+    "student_move": "Do not stop at the religious-evidence objection. Ask the offered purpose.",
+    "tiny_rule": "Belief-as-truthfulness is barred; affiliation-for-bias is not.",
+    "trap": "Blanket religious-affiliation ban.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "Do not add First Amendment analysis.",
+    "Do not add church-autonomy doctrine.",
+    "Do not add charitable-immunity doctrine.",
+    "Do not treat all religious references as automatically inadmissible.",
+    "Do not confuse Rule 608(a) truthful-character rehabilitation with bias impeachment."
+  ]
+}
+```
+
+---
+
+## B5) `program_intelligence`
+
+```json
+{
+  "question_id": "20423_galilee_props_bias",
+  "subject": "EVIDENCE",
+  "outline_code": "31010505",
+  "distilled_core_question": "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?",
+  "review_truth": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student hears religion and assumes exclusion is automatic.",
+      "skipped_move": "Purpose first.",
+      "recovery_step": "Circle any and ask whether the purpose is truthfulness or bias."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student recognizes a real Rule 608(a) phrase and mistakes it for the governing lane.",
+      "skipped_move": "Separate truthfulness-character proof from bias impeachment.",
+      "recovery_step": "Match the answer to the stem’s stated purpose: bias."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student collapses bias into opinion/reputation character evidence.",
+      "skipped_move": "Run the invented-rule check on only.",
+      "recovery_step": "Ask whether the answer created a proof-method limit not in the stem or the Gold Key."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "purpose_axis",
+      "target_skill": "offered_for_purpose",
+      "prompt": "A witness belongs to a religious organization connected to a party. The question is offered to show bias. Is Rule 610 a blanket bar?",
+      "answer": "No. Bias purpose is outside the belief-as-truthfulness ban."
+    },
+    {
+      "drill_type": "overclaim_cut",
+      "target_skill": "tiered_absolute",
+      "prompt": "Cut the flaw: any reference to religious affiliation is inadmissible.",
+      "answer": "Overclaim. Any erases the bias-purpose lane."
+    },
+    {
+      "drill_type": "bait_doctrine_sort",
+      "target_skill": "bait_doctrine",
+      "prompt": "Truthful character may be supported only after attack. Does that govern a bias question?",
+      "answer": "No. That is Rule 608(a) truthfulness-character doctrine, not bias."
+    },
+    {
+      "drill_type": "fabricated_rule_cut",
+      "target_skill": "fabricated_rule",
+      "prompt": "Bias may be shown only by reputation evidence.",
+      "answer": "Cut. The only limit is invented."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "rule_610",
+      "rule_608a",
+      "bias_impeachment",
+      "religious_affiliation",
+      "offered_for_purpose"
+    ],
+    "misconception_tags": [
+      "religion_blackout",
+      "truthfulness_foundation_overapplied",
+      "bias_reputation_only",
+      "purpose_ignored"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Lesson 1",
+      "skill": "TRUE and RESPONSIVE"
+    },
+    {
+      "component": "Lesson 4",
+      "skill": "overclaim"
+    },
+    {
+      "component": "Lesson 8",
+      "skill": "bait doctrine"
+    },
+    {
+      "component": "Lesson 11",
+      "skill": "offered for what purpose"
+    },
+    {
+      "component": "Evidence overlay",
+      "skill": "Purpose first. Layer second. Exception last."
+    }
+  ],
+  "crossovers": [
+    {
+      "source": "FRE 610",
+      "target": "bias impeachment",
+      "note": "Religious affiliation may matter for bias even when religious belief cannot be used as a truthfulness trait."
+    },
+    {
+      "source": "FRE 608(a)",
+      "target": "truthfulness-character evidence",
+      "note": "The first-attacked requirement is a wrong lane when the offered purpose is bias."
+    },
+    {
+      "source": "Evidence purpose architecture",
+      "target": "Rule 407/408/409/411 style thinking",
+      "note": "Same evidence can be in or out depending on purpose."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-EVIDENCE-RELIGION-BIAS-01",
+      "statement": "Rule 610 blocks religion-as-truthfulness evidence. It does not block religious affiliation or organizational ties when offered to show bias, interest, or relationship to a party.",
+      "type": "distinction",
+      "unlocks": "religious-affiliation evidence offered for bias",
+      "trigger": "religion objection plus paid role or organizational tie to a party",
+      "tested_choice": "B",
+      "authority": "Federal Rule of Evidence 610 Advisory Committee Note",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-EVIDENCE-PURPOSE-AXIS-01",
+      "statement": "When an Evidence answer turns on the same fact being used for different credibility purposes, name the offered purpose first and grade only that lane.",
+      "type": "trap_spotting",
+      "navigates": "Rule 610 truthfulness lane versus bias lane",
+      "trigger": "The stem says offered to show bias and not to show truthfulness.",
+      "tested_choice": "C",
+      "outline_code": "31010505",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Evidence > Presentation of Evidence > Impeachment > Opinion or reputation",
+    "this_item_teaches": "Rule 610 does not block affiliation evidence offered to show bias.",
+    "fills": [
+      "Rule 610 purpose distinction",
+      "Rule 608(a) bait boundary",
+      "bias impeachment purpose recognition"
+    ],
+    "adjacent_to_master": [
+      "31010503 Evidence > Impeachment > Bias",
+      "31010505 Evidence > Impeachment > Opinion or reputation",
+      "31010406 Evidence > Witnesses > Truthfulness"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/rules/fre/rule_610?utm_source=chatgpt.com "Rule 610. Religious Beliefs or Opinions | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+[2]: https://www.law.cornell.edu/rules/fre/rule_608?utm_source=chatgpt.com "Rule 608. A Witness’s Character for Truthfulness or Untruthfulness | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+[3]: https://www.law.cornell.edu/rules/fre/rule_607?utm_source=chatgpt.com "Rule 607. Who May Impeach a Witness | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20423_galilee_props_bias"
+  question_id: "20423_galilee_props_bias"
+  subject: "EVIDENCE"
+  topic: "Opinion or reputation"
+  subtopic: "E5"
+  outline_code: "31010505"
+  official_key: "A"
+transform_provenance:
+  transformed_from: "20423"
+  variant_slug: "galilee_props_bias"
+  original_key_letter: "C"
+  new_key_letter: "A"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "A"
+distilled_core_question: "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?"
+review_truth: "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20423_galilee_props_bias; source 20423.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject EVIDENCE; topic Opinion or reputation; subtopic E5.
+4. **distilled_core_question:** A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?
+5. **call_and_prediction:** Credited answer: A.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 31010505.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** A
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 31010505.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20423_galilee_props_bias",
+  "subject": "EVIDENCE",
+  "credited_answer": "A",
+  "outline_code": "31010505",
+  "distilled_core_question": "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?",
+  "review_truth": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20423; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20423_galilee_props_bias",
+  "subject": "EVIDENCE",
+  "outline_code": "31010505",
+  "distilled_core_question": "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?",
+  "review_truth": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20423",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20423_galilee_props_bias",
+  "subject": "EVIDENCE",
+  "outline_code": "31010505",
+  "distilled_core_question": "A witness has a paid role in a religious organization that controls a party. The question is offered to show bias, not religious truthfulness. Should the objection be sustained?",
+  "review_truth": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "31010505",
+    "this_item_teaches": "Religion evidence is barred for truthfulness character, not for bias from affiliation or interest.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

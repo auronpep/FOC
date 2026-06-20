@@ -1,0 +1,769 @@
+---
+qid: 14507_bible_study_bakery_oven
+transformed_from: 14507
+subject: CONTRACTS
+topic: Legal Restitution
+subtopic: Remedies
+outline_code: 51060201
+key: A
+original_key: C
+letter_map: A->C, B->D, C->A, D->B
+dominant_trap: B
+pick_rates: inherited
+bank_validation_verdict: PASS
+review_truth: "Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not."
+---
+
+Martha agreed to sell Stephen, who ran a small Bible-study bakery, a used commercial bread oven for $8,000. When Stephen placed the order, he paid Martha $1,600. Stephen then spent $450 reinforcing a counter alcove for that oven. Martha did not deliver the oven. After reasonable efforts, Stephen bought a comparable oven for $8,900, but it would not fit in the reinforced alcove. Stephen sued Martha for breach of contract. Which claimed amount, if any, is best described as restitution?
+
+Distilled Core Question: In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?
+
+A: The $1,600 payment Stephen made when he placed the order.
+B: None of the claimed amounts.
+C: The $450 cost of reinforcing the counter alcove.
+D: The $900 extra amount Stephen paid for the replacement oven.
+
+Correct answer: A (original key letter: C).
+
+Letter Map:
+- A->C: mechanic = buyer's setup/reliance cost; substance = kept; pick rate = 8% inherited.
+- B->D: mechanic = cover-price differential; substance = kept; pick rate = 14% inherited.
+- C->A: mechanic = correct_answer / benefit conferred on seller; substance = kept; pick rate = 55% inherited.
+- D->B: mechanic = no restitution available; substance = kept; pick rate = 23% inherited; dominant trap.
+
+Full right-answer explanation:
+A is the restitution amount. Stephen gave Martha $1,600, and restitution asks what benefit the claimant conferred on the other party. The payment went to Martha, so returning it restores Stephen's benefit conferred on Martha. Gold Key: restitution is about giving back the benefit transferred to the breaching party; it is not the same as covering the buyer's loss. Silver Key: sort each dollar by destination. Money to Martha is restitution; money to the alcove or to the replacement seller is a different damages track.
+
+Full wrong-answer explanations:
+- B: This sells the dominant "nothing here sounds like restitution" trap. The contract setting makes the answer array look like ordinary damages, but the $1,600 payment is a direct benefit Stephen conferred on Martha, so "none" overreads the damages frame.
+- C: This sells the setup-cost trap. The $450 matters because Stephen spent it because of the deal, but Martha did not receive that money or that benefit. Gold Key: restitution returns a benefit conferred on the defendant; a buyer's own preparation expense points toward reliance or related damages, not restitution.
+- D: This sells the cover-damages trap. The $900 price increase is a real buyer-remedy idea after nondelivery, but it measures the cost of buying substitute goods, not a benefit Martha received. Silver Key: destination controls the first cut; money paid to a replacement seller does not become restitution against Martha.
+
+Full black-letter-law verification and legal reasoning for the right answer:
+The tested rule, legal issue, and credited outcome are unchanged. Restatement (Second) of Contracts section 344(c) describes the restitution interest as restoring to the injured party a benefit conferred on the other party. Stephen's $1,600 payment was conferred on Martha, so it is the amount best described as restitution.
+
+The UCC sales-remedy structure confirms the same result. UCC section 2-711(1) provides that when the seller fails to make delivery, the buyer may cancel and recover the price paid; UCC section 2-712 treats the replacement-purchase difference as cover damages; UCC section 2-715 separately addresses incidental and consequential damages. The $900 replacement price increase therefore belongs to the cover-damages lane, and the $450 alcove expense is not a benefit conferred on Martha.
+
+Research authorities checked:
+- UCC section 2-711, Buyer's Remedies in General: https://www.law.cornell.edu/ucc/2/2-711
+- UCC section 2-712, Cover; Buyer's Procurement of Substitute Goods: https://www.law.cornell.edu/ucc/2/2-712
+- UCC section 2-715, Buyer's Incidental and Consequential Damages: https://www.law.cornell.edu/ucc/2/2-715
+- Restatement (Second) of Contracts section 344(c), restitution interest: https://opencasebook.org/casebooks/12455-contracts/resources/6.1.1.1-r2k-344/
+
+Brief note on why the variation preserves the original rigor/difficulty:
+The variation keeps the same buyer-seller nondelivery posture, the same three remedy categories, and the same "which claimed amount is restitution" call. It changes the asset, numbers, setting, cast, and fact texture without moving the legal axis: benefit conferred on seller versus buyer-side or third-party costs.
+
+C3 elimination walkthrough - CUT -> CLASH -> CALL for each wrong answer:
+- B: CUT. The answer says no claimed amount is restitution. The visible breaker is that one amount went directly from Stephen to Martha, so the no-restitution answer cannot survive the benefit-conferred sort. Filter: NOT_TRUE. Mold: flat_misstatement.
+- C: CUT. The answer points to Stephen's own alcove expense. That money did not go to Martha and does not restore a benefit Martha received. Filter: NOT_RESPONSIVE. Mold: wrong_element.
+- D: CUT. The answer points to the extra cost of a substitute oven. That is a cover-damages measure against the deal, not the return of a benefit Martha received. Filter: NOT_RESPONSIVE. Mold: bait_doctrine.
+
+Divergence Audit:
+- Asset/subject matter: changed from a machine and foundation to a commercial bread oven and reinforced counter alcove.
+- Transaction frame: kept sale of goods because the UCC buyer-remedy structure is load-bearing.
+- Specific lies/facts: no lies were present; changed nondelivery texture and replacement-fit facts.
+- Numbers: changed price from $5,000 to $8,000, payment from $1,000 to $1,600, setup cost from $250 to $450, and cover increase from $500 to $900.
+- Fact ordering and stem rhythm: began with Stephen's Bible-study bakery context, then payment, setup, nondelivery, cover, and suit.
+- Cast size/roles: changed generic seller and buyer to Martha and Stephen; no antagonist-coded Bible names used.
+- Choice ordering: shuffled from original C to new A, original D to new B, original A to new C, and original B to new D.
+- Choice phrasing: rephrased each amount while preserving its legal category.
+- Setting/era/texture: changed to a small Bible-study bakery and a used commercial oven.
+- Call wording: kept the restitution-identification call because naming a different doctrine would lower difficulty.
+- Original stem summary: A seller agreed to sell a machine, received a down payment, failed to deliver, and the buyer incurred a foundation cost and a higher-priced replacement that did not fit the foundation.
+- Variant stem summary: Martha agreed to sell Stephen a used bread oven for his Bible-study bakery, received a payment, failed to deliver, and Stephen incurred an alcove cost and a higher-priced replacement that did not fit.
+
+Review Truth: Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not.
+
+The 5 variations considered:
+1. Bible-Study Bakery Oven - Martha sells Stephen a used commercial bread oven for a Bible-study bakery; payment, alcove setup, nondelivery, and replacement oven. Divergence score: 9/10; moves asset, numbers, setting, fact rhythm, cast, texture, and choice order while preserving the sale-goods remedy axis. Recommended because it kills the machine/foundation recognition pattern without adding legal clutter.
+2. Scripture-Journaling Press - Lydia sells Daniel a portable Bible-binding press; Daniel builds a rolling stand and later buys a different press. Divergence score: 8/10; strong Christian texture but "press" risked feeling too close to a generic machine.
+3. Hymn-Sheet Cutter - Ruth sells Paul a paper cutter for hymn-sheet packets; Paul installs a safety table and covers with a more expensive cutter. Divergence score: 8/10; clean goods frame but less memorable than the bakery oven.
+4. Prayer-Retreat Coffee Roaster - Esther sells Barnabas a small coffee roaster; Barnabas vents a pantry and covers with a larger roaster. Divergence score: 8/10; high surface difference but venting facts risked property-improvement clutter.
+5. Sunday-School Puppet Stage Lift - Naomi sells Timothy a portable stage lift; Timothy installs anchors and covers with a nonmatching lift. Divergence score: 7/10; fun Christian texture but "stage lift" risked avoidable safety/fixture noise.
+
+### 1. Question YAML
+```yaml
+barmatrix_row:
+  qid: 14507_bible_study_bakery_oven
+  subject: CONTRACTS
+  topic: Legal Restitution
+  subtopic: Remedies
+  outline_code: "51060201"
+  selection_percentages:
+    A:
+      value: 55
+      provenance: inherited
+    B:
+      value: 23
+      provenance: inherited
+    C:
+      value: 8
+      provenance: inherited
+    D:
+      value: 14
+      provenance: inherited
+  official_key: A
+  call: "Which claimed amount, if any, is best described as restitution?"
+  choices:
+    A: "The $1,600 payment Stephen made when he placed the order."
+    B: "None of the claimed amounts."
+    C: "The $450 cost of reinforcing the counter alcove."
+    D: "The $900 extra amount Stephen paid for the replacement oven."
+transform_provenance:
+  transformed_from: 14507
+  variant_slug: bible_study_bakery_oven
+  original_key_letter: C
+  new_key_letter: A
+  letter_map:
+    - original_letter: A
+      new_letter: C
+      mechanic: "buyer's setup/reliance cost"
+      substance: kept
+      pick_rate:
+        value: 8
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: B
+      new_letter: D
+      mechanic: "cover-price differential"
+      substance: kept
+      pick_rate:
+        value: 14
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: C
+      new_letter: A
+      mechanic: "correct_answer / benefit conferred on seller"
+      substance: kept
+      pick_rate:
+        value: 55
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: D
+      new_letter: B
+      mechanic: "no restitution available"
+      substance: kept
+      pick_rate:
+        value: 23
+        provenance: inherited
+      dominant_trap: true
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A seller agreed to sell a machine, received a down payment, failed to deliver, and the buyer incurred a foundation cost and a higher-priced replacement that did not fit the foundation."
+    variant_stem_one_sentence: "Martha agreed to sell Stephen a used bread oven for his Bible-study bakery, received a payment, failed to deliver, and Stephen incurred an alcove cost and a higher-priced replacement that did not fit."
+    dimensions_changed:
+      - asset/subject matter
+      - numbers
+      - fact rhythm
+      - cast
+      - setting/texture
+      - choice order
+      - choice phrasing
+    dimensions_skipped_with_reason:
+      - "Transaction frame kept because sale-of-goods remedies are load-bearing."
+      - "Call wording kept because the restitution-identification call is load-bearing."
+source_stack:
+  - "QBank/14507.md"
+  - "controlled_vocabularies.md"
+  - "OUTLINE_CODES_COMPLETE.md"
+  - "UCC sections 2-711, 2-712, and 2-715"
+  - "Restatement (Second) of Contracts section 344(c)"
+student_access_contract:
+  student_can_use_only: "C3 lessons, subject overlays, taught tiny anchors, and visible stem facts."
+  controlling_test: "Could a smart 10-year-old trained only in C3 identify the answer's structural problem without outside doctrine?"
+  result: "The final cut requires the taught restitution anchor."
+stem_parse:
+  parties:
+    seller: Martha
+    buyer: Stephen
+  contract:
+    goods: "used commercial bread oven"
+    price: 8000
+    payment_to_seller: 1600
+  buyer_setup_cost:
+    amount: 450
+    item: "reinforced counter alcove"
+  breach: "seller did not deliver"
+  cover:
+    replacement_price: 8900
+    difference: 900
+    fit_problem: "replacement did not fit the reinforced alcove"
+  call: "identify restitution amount"
+trigger_facts:
+  - fact: "Stephen paid Martha $1,600 when ordering."
+    access: student_visible
+    c3_use: "money went to breaching seller"
+  - fact: "Stephen spent $450 reinforcing his own counter alcove."
+    access: student_visible
+    c3_use: "money did not go to breaching seller"
+  - fact: "Stephen paid $900 more for a comparable replacement oven."
+    access: student_visible
+    c3_use: "money went to replacement transaction"
+  - fact: "Martha did not deliver."
+    access: student_visible
+    c3_use: "buyer-remedy posture"
+c3_routing:
+  subject_fit: Contracts
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: A
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: UNKNOWN
+answer_array:
+  shape: "three claimed amounts plus none"
+  tension_axis: "benefit conferred on seller versus buyer-side or third-party costs"
+  dominant_trap: B
+  post_shuffle_key: A
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "benefit-to-seller amount"
+    c3_signal: "This is the only money Stephen transferred to Martha."
+    lawyer_confirmation: "Restatement (Second) of Contracts section 344(c) and UCC section 2-711(1) confirm recovery of the buyer's price payment."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "no-restitution overread"
+    c3_signal: "One listed amount went directly to Martha, so none cannot survive the destination sort."
+    lawyer_confirmation: "The buyer may recover the price paid when the seller fails to make delivery."
+  C:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - half_right_answer
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "setup-cost lure"
+    c3_signal: "The alcove cost was Stephen's own preparation expense, not money or value given to Martha."
+    lawyer_confirmation: "A buyer-side preparation expense is not the restitution interest under Restatement section 344(c)."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "cover-damages lure"
+    c3_signal: "The extra price paid to obtain substitute goods is a damages measure, not a return of Martha's benefit."
+    lawyer_confirmation: "UCC section 2-712 treats the replacement-price difference as cover damages."
+residual_answer:
+  choice: A
+  why_true: "It identifies the only amount conferred on Martha."
+  why_responsive: "The call asks which amount is restitution."
+legal_leak_audit:
+  student_visible:
+    - "which dollars went to Martha"
+    - "which dollars went to Stephen's setup"
+    - "which dollars went to a replacement purchase"
+  anchor_assisted:
+    - "restitution means restoration of a benefit conferred on the other party"
+  lawyer_only:
+    - "Restatement (Second) of Contracts section 344(c)"
+    - "UCC sections 2-711, 2-712, and 2-715"
+  drift_audit: "Student-facing analysis uses destination sorting plus the taught restitution anchor; authorities stay in lawyer confirmation."
+gold_keys:
+  - id: GK-CONTRACTS-RESTITUTION-DEPOSIT-01
+    statement: "Restitution asks what benefit the claimant conferred on the other party. A buyer's payment to the breaching seller is restitution; cover costs and buyer-side preparation expenses are not."
+    type: distinction
+    unlocks: "distinguishing restitution from cover, reliance, and incidental/consequential damages"
+    trigger: "The call asks which claimed amount is restitution after seller nondelivery."
+    tested_choice: C
+    authority: "Restatement (Second) of Contracts section 344(c); UCC section 2-711(1)."
+    last_minute_review: true
+silver_keys:
+  - id: SK-CONTRACTS-RESTITUTION-AMOUNT-01
+    statement: "When the call asks which amount is restitution, sort each dollar by destination before naming the remedy label."
+    type: answer_array
+    navigates: "three-amount answer array"
+    trigger: "The choices are dollar amounts from different destinations."
+    tested_choice: D
+    outline_code: "51060201"
+    last_minute_review: true
+remediation:
+  card_id: RC-14507-RESTITUTION-DESTINATION
+  title: "Follow the Money to the Defendant"
+  signal: "The answer choices are competing dollar amounts."
+  student_move: "Ask who received each dollar."
+  tiny_rule: "Restitution returns a benefit conferred on the defendant."
+  trap: "Treating any buyer loss as restitution."
+  confidence: ANCHOR_ASSISTED
+distilled_core_question: "In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?"
+review_truth: "Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not."
+case_study_output:
+  final_student_script: "The call wants restitution. I sort the dollars by destination. Stephen's $1,600 went to Martha, so A restores the benefit conferred on Martha. The alcove cost and cover increase went elsewhere, and none is too broad."
+quality_control:
+  outline_code_verified: true
+  outline_code_source: "OUTLINE_CODES_COMPLETE.md contains 51060201 Remedies > Legal Restitution > Legal Restitution."
+  controlled_vocabularies_verified: true
+  json_blocks_parse_checked: true
+  key_consistency_checked: true
+  pick_rates_sum: 100
+analytics_hooks:
+  trap_tags:
+    - restitution_vs_damages
+    - cover_damages_lure
+    - setup_cost_lure
+  red_zone_dimensions:
+    - remedy_label_confusion
+    - amount_destination_sorting
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+This is a Contracts remedies question. The item is not asking how much Stephen can recover overall. It asks which claimed amount is best described as restitution.
+
+## student_access_test
+The student-access path is destination sorting plus a taught restitution anchor. A student can see where each dollar went. The legal label "restitution" needs the Gold Key.
+
+## question_data
+Martha agreed to sell Stephen a used commercial bread oven for $8,000. Stephen paid Martha $1,600, spent $450 reinforcing a counter alcove, and later paid $8,900 for a comparable replacement oven after Martha failed to deliver. The replacement did not fit the alcove. The call asks which claimed amount, if any, is restitution.
+
+Choices:
+- A: The $1,600 payment Stephen made when he placed the order.
+- B: None of the claimed amounts.
+- C: The $450 cost of reinforcing the counter alcove.
+- D: The $900 extra amount Stephen paid for the replacement oven.
+
+## distilled_core_question
+In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?
+
+## call_and_prediction
+Call lock: identify the amount best described as restitution. Prediction: look for money or value Stephen gave to Martha, not money Stephen spent on himself or on a substitute seller.
+
+## trigger_facts
+- Stephen paid Martha $1,600. This is the only direct benefit conferred on the breaching seller.
+- Stephen spent $450 on his own counter alcove. That is a buyer-side expense.
+- Stephen paid $900 more for a comparable replacement oven. That is a replacement-purchase difference.
+- Martha did not deliver. This creates the buyer-remedy setting.
+
+## governing_c3_lane
+Lane: Contracts > Remedies > Legal Restitution. The answer array is a three-amount-plus-none structure. The deciding axis is destination of the benefit: to the breaching party, to the buyer's own setup, or to a replacement transaction.
+
+## choice_by_choice_walkthrough
+### A
+1. Student-accessible C3 signal: This is the only amount Stephen transferred to Martha.
+2. Student label: Benefit-to-seller amount.
+3. What a true/responsive version would look like: This choice already gives the amount that restores Stephen's benefit conferred on Martha.
+4. Lawyer confirmation: Restatement (Second) of Contracts section 344(c) defines restitution by benefit conferred, and UCC section 2-711(1) allows a buyer to recover price paid when the seller fails to deliver.
+
+### B
+1. Student-accessible C3 signal: One amount went directly to Martha, so "none" ignores the visible destination clue.
+2. Student label: No-restitution overread.
+3. What a true/responsive version would look like: "None" would work only if no claimed amount had been conferred on Martha.
+4. Lawyer confirmation: The buyer's recovery of price paid is available after seller nondelivery and fits restitution's benefit-conferred idea.
+
+### C
+1. Student-accessible C3 signal: Stephen spent this money on his own counter alcove, not on Martha.
+2. Student label: Setup-cost lure.
+3. What a true/responsive version would look like: A true restitution amount would be a benefit Stephen gave Martha.
+4. Lawyer confirmation: This is not the restitution interest under Restatement section 344(c); at most it points toward a different damages theory.
+
+### D
+1. Student-accessible C3 signal: The extra $900 went into the replacement transaction, not back from Martha's benefit.
+2. Student label: Cover-damages lure.
+3. What a true/responsive version would look like: A true restitution amount would be the money Martha received from Stephen.
+4. Lawyer confirmation: UCC section 2-712 identifies the replacement-price difference as cover damages, not restitution.
+
+## residual_answer
+A remains. It is true because the $1,600 was conferred on Martha, and it is responsive because the call asks for restitution.
+
+## legal_leak_audit
+Student-safe: sorting each claimed dollar by destination. Anchor-assisted: knowing that restitution means restoration of a benefit conferred on the other party. Lawyer-only: Restatement section 344(c) and UCC buyer-remedy provisions.
+
+Drift audit: The student explanation does not cite authority or turn cover/reliance doctrine into fake structure; the authorities are quarantined in lawyer confirmation.
+
+## final_student_script
+"The call is restitution, so I follow the money. The $1,600 went to Martha. The alcove cost stayed on Stephen's side, and the $900 cover increase went to the replacement seller. A is the only benefit-conferred amount."
+
+## remediation_card
+Card: Follow the Money to the Defendant. Signal: the choices are different claimed dollar amounts. Move: ask who received each dollar. Tiny rule: restitution returns a benefit conferred on the defendant. Trap: calling every buyer loss restitution.
+
+## Gold Key(s)
+- GK-CONTRACTS-RESTITUTION-DEPOSIT-01: Restitution asks what benefit the claimant conferred on the other party. A buyer's payment to the breaching seller is restitution; cover costs and buyer-side preparation expenses are not.
+
+## Silver Key(s)
+- SK-CONTRACTS-RESTITUTION-AMOUNT-01: When the call asks which amount is restitution, sort each dollar by destination before naming the remedy label.
+
+## qa_checklist
+- Key letter is A everywhere.
+- Original key C maps to new A.
+- Dominant trap is B, inherited from the original "none" mechanic.
+- Outline code 51060201 appears verbatim in OUTLINE_CODES_COMPLETE.md.
+- Pick rates are inherited and sum to 100.
+- The item is anchor-assisted but bank-valid.
+
+## wrong_answer_recovery_paths
+- B recovery: Do not let "contract damages" erase a direct payment to the seller.
+- C recovery: A buyer's own setup expense is not a benefit to the seller.
+- D recovery: Cover is a real remedy, but the call did not ask for cover damages.
+
+## outline_mastery_map
+Placement: Contracts > Remedies > Legal Restitution > Legal Restitution, code 51060201. This item teaches the boundary between restitution and other buyer remedies. It fills the "benefit conferred" anchor and sits adjacent to expectation, reliance, cover, and incidental damages.
+
+## crossover_intersection_map
+Crossovers: UCC Article 2 buyer remedies; expectation damages; reliance damages; incidental and consequential damages. The item stays in Contracts and does not require property, tort, or equity doctrine.
+
+## review_truth
+Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not.
+
+### 3. c3_annotation
+```json
+{
+  "question_id": "14507_bible_study_bakery_oven",
+  "subject": "CONTRACTS",
+  "credited_answer": "A",
+  "outline_code": "51060201",
+  "distilled_core_question": "In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?",
+  "review_truth": "Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "benefit conferred on seller versus buyer-side or third-party costs",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Follow the money: restitution is the amount transferred to the breaching party.",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "RC-14507-RESTITUTION-DESTINATION",
+        "explanation": "This choice overreads the damages frame and ignores the direct payment to Martha."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CONTRACTS-RESTITUTION-DEPOSIT-01",
+        "explanation": "This choice uses a buyer-side preparation expense instead of a benefit conferred on Martha."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CONTRACTS-RESTITUTION-AMOUNT-01",
+        "explanation": "This choice is a cover-damages measure, not restitution."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Student-facing analysis uses destination sorting plus the taught restitution anchor; authorities stay in lawyer confirmation. transformed_from: 14507. letter_map: A->C, B->D, C->A, D->B. outline_code 51060201 verified in OUTLINE_CODES_COMPLETE.md. Research confirms the official key through Restatement (Second) of Contracts section 344(c) and UCC section 2-711(1).",
+    "gold_keys": [
+      {
+        "id": "GK-CONTRACTS-RESTITUTION-DEPOSIT-01",
+        "statement": "Restitution asks what benefit the claimant conferred on the other party. A buyer's payment to the breaching seller is restitution; cover costs and buyer-side preparation expenses are not.",
+        "type": "distinction",
+        "unlocks": "distinguishing restitution from cover, reliance, and incidental/consequential damages",
+        "trigger": "The call asks which claimed amount is restitution after seller nondelivery.",
+        "tested_choice": "C",
+        "authority": "Restatement (Second) of Contracts section 344(c); UCC section 2-711(1).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONTRACTS-RESTITUTION-AMOUNT-01",
+        "statement": "When the call asks which amount is restitution, sort each dollar by destination before naming the remedy label.",
+        "type": "answer_array",
+        "navigates": "three-amount answer array",
+        "trigger": "The choices are dollar amounts from different destinations.",
+        "tested_choice": "D",
+        "outline_code": "51060201",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+```json
+{
+  "question_id": "14507_bible_study_bakery_oven",
+  "subject": "CONTRACTS",
+  "outline_code": "51060201",
+  "distilled_core_question": "In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?",
+  "review_truth": "Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not.",
+  "tension": "The buyer has several possible losses, but only one amount was conferred on the seller.",
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student sees a breach-of-sales contract and thinks all listed amounts are damages labels rather than restitution. The breaker is that Stephen's $1,600 payment went directly to Martha.",
+      "focus_group_pct": 23,
+      "pct_provenance": "inherited"
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student treats Stephen's setup cost as the concrete loss caused by relying on the deal. The breaker is that restitution tracks the benefit to Martha, not Stephen's own preparation cost.",
+      "focus_group_pct": 8,
+      "pct_provenance": "inherited"
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student recognizes the replacement-purchase difference as a real UCC remedy. The breaker is that cover damages measure the substitute-purchase gap, not a benefit Martha received.",
+      "focus_group_pct": 14,
+      "pct_provenance": "inherited"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "RC-14507-RESTITUTION-DESTINATION",
+    "title": "Follow the Money to the Defendant",
+    "signal": "The choices are competing dollar amounts.",
+    "student_move": "Ask who received each dollar.",
+    "tiny_rule": "Restitution returns a benefit conferred on the defendant.",
+    "trap": "Treating any buyer loss as restitution.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "remedy_label_confusion",
+    "amount_destination_sorting",
+    "restitution_vs_cover",
+    "buyer_loss_vs_defendant_benefit"
+  ]
+}
+```
+
+### 5. program_intelligence
+```json
+{
+  "question_id": "14507_bible_study_bakery_oven",
+  "subject": "CONTRACTS",
+  "outline_code": "51060201",
+  "distilled_core_question": "In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?",
+  "review_truth": "Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student sees a breach and assumes every amount is some damages category, so none can be restitution.",
+      "skipped_move": "The student did not identify the payment that went directly to Martha.",
+      "recovery_step": "Circle the amount paid to the breaching party before judging remedy labels."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student focuses on Stephen's wasted setup cost because it feels like the cleanest caused loss.",
+      "skipped_move": "The student did not ask whether Martha received the benefit.",
+      "recovery_step": "Separate buyer-side reliance costs from defendant-side benefits."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student recognizes cover and treats a real remedy as the called-for remedy.",
+      "skipped_move": "The student did not lock the call to restitution.",
+      "recovery_step": "Name the call first, then reject true-but-neighboring remedy labels."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "amount_sort",
+      "target_skill": "distinguish restitution from other damages",
+      "prompt": "A buyer pays $700 to the seller, spends $200 preparing a room, and pays $150 extra for substitute goods. Which amount is restitution?",
+      "answer": "$700, because it was conferred on the seller."
+    },
+    {
+      "drill_type": "trap_label",
+      "target_skill": "cover-damages lure",
+      "prompt": "Why is the substitute-purchase price difference not restitution?",
+      "answer": "It measures cover damages, not a benefit the breaching seller received."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "benefit conferred anchor",
+      "prompt": "Complete the rule: restitution restores a benefit conferred on ____.",
+      "answer": "the other party or defendant."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "dominant_none_trap",
+      "cover_damages_lure",
+      "setup_cost_lure"
+    ],
+    "misconception_tags": [
+      "all_contract_money_is_damages",
+      "reliance_equals_restitution",
+      "real_remedy_equals_right_answer"
+    ]
+  },
+  "component_routing": [
+    {
+      "destination_key": "drills",
+      "route": "/contracts/remedies/restitution",
+      "component_tags": [
+        "amount_sort",
+        "benefit_conferred"
+      ]
+    },
+    {
+      "destination_key": "trap_forensics",
+      "route": "/contracts/remedies/restitution/traps",
+      "component_tags": [
+        "none_trap",
+        "cover_lure"
+      ]
+    },
+    {
+      "destination_key": "review_cards",
+      "route": "/contracts/remedies/restitution/cards",
+      "component_tags": [
+        "gold_key",
+        "follow_the_money"
+      ]
+    },
+    {
+      "destination_key": "outline_atlas",
+      "route": "/contracts/remedies/51060201",
+      "component_tags": [
+        "legal_restitution",
+        "ucc_buyer_remedies"
+      ]
+    }
+  ],
+  "crossovers": [
+    "UCC Article 2 buyer remedies",
+    "cover damages",
+    "reliance damages",
+    "incidental and consequential damages"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONTRACTS-RESTITUTION-DEPOSIT-01",
+      "statement": "Restitution asks what benefit the claimant conferred on the other party. A buyer's payment to the breaching seller is restitution; cover costs and buyer-side preparation expenses are not.",
+      "type": "distinction",
+      "unlocks": "distinguishing restitution from cover, reliance, and incidental/consequential damages",
+      "trigger": "The call asks which claimed amount is restitution after seller nondelivery.",
+      "tested_choice": "C",
+      "authority": "Restatement (Second) of Contracts section 344(c); UCC section 2-711(1).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONTRACTS-RESTITUTION-AMOUNT-01",
+      "statement": "When the call asks which amount is restitution, sort each dollar by destination before naming the remedy label.",
+      "type": "answer_array",
+      "navigates": "three-amount answer array",
+      "trigger": "The choices are dollar amounts from different destinations.",
+      "tested_choice": "D",
+      "outline_code": "51060201",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Contracts > Remedies > Legal Restitution > Legal Restitution",
+    "this_item_teaches": "Restitution is defendant-benefit recovery, not a generic label for any buyer loss.",
+    "fills": [
+      "benefit conferred on breaching party",
+      "restitution versus cover damages",
+      "restitution versus setup/reliance costs"
+    ],
+    "adjacent_to_master": [
+      "51060101 Remedies > Damages > Expectation damages",
+      "51060102 Remedies > Damages > Reliance damages",
+      "51060103 Remedies > Damages > Consequential damages",
+      "51060104 Remedies > Damages > Incidental damages"
+    ]
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+In a seller's nondelivery case, which claimed amount is restitution: the buyer's payment to the seller, the buyer's setup cost, the cover-price increase, or none?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+A
+
+### 99. Letter Map
+
+A->C, B->D, C->A, D->B
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+Restitution restores a benefit conferred on the breaching party, so a buyer's payment to the seller is restitution while cover costs and setup expenses are not.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

@@ -1,0 +1,1071 @@
+---
+qid: "14684_peters_third_shot"
+transformed_from: "14684"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Homicide"
+outline_code: "00000000"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: B"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source row: BARMATRIX Q# 14684 is Criminal Law / Homicide, with answer C credited and answer-choice selection data A 1%, B 11%, C 78%, D 10%. The official explanation states that the defendant killed the neighbor, so the case is not attempted murder; the remaining homicide range is murder or manslaughter depending on heat of passion. 
+Method posture: I used the prompt’s C3 rule that the YAML comes before the walkthrough and that doctrine belongs in lawyer-confirmation, not the student-access path.  The reasoning-creed pivot for this item is: “no fear” resolves self-defense only; it does not resolve murder versus manslaughter. 
+
+### 1. Final question
+
+**Question ID:** `14684_peters_third_shot`
+
+At a criminal trial, the evidence has shown that after a Bible-study dinner at Peter’s house, Peter’s neighbor Martha entered Peter’s house with a knife and told Peter that she was going to kill him. Peter ran to his bedroom, picked up a gun, and told Martha to back off. Martha did not stop and stabbed Peter in the arm. Peter then shot Martha twice. Martha fell to the floor and lay quietly moaning. After a few seconds, Peter fired a third shot into Martha.
+
+The case has gone to the jury, which has thus far found that Martha died instantly from the third shot and that Peter was no longer in fear of being attacked by Martha when he fired the third shot.
+
+**Of which of the following degrees of criminal homicide, if any, can the jury properly convict Peter?**
+
+### 2. Distilled Core Question
+
+Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree range remains?
+
+### 3. Final answer choices
+
+A. Attempted murder only.
+B. Manslaughter only.
+C. Murder or manslaughter.
+D. No degree of criminal homicide.
+
+### 4. Possible replacement answer choices
+
+No replacement adopted. The original array is an elegant four-outcome homicide range: attempted-only / manslaughter-only / murder-or-manslaughter / no-homicide. Replacing a low-pick distractor would flatten the geometry. The transform keeps all answer choices and inherits original pick-rate provenance.
+
+| Candidate                                                         | Replaces | Original % | Mold              | Adopted? | Reason                                                                               |
+| ----------------------------------------------------------------- | -------: | ---------: | ----------------- | -------- | ------------------------------------------------------------------------------------ |
+| “Assault with a deadly weapon only.”                              |        A |         1% | misfit            | No       | Too easy; shifts away from homicide-degree call.                                     |
+| “Murder only.”                                                    |        B |        11% | tiered_absolute   | No       | Would create a second “only” trap but loses the original dominant manslaughter trap. |
+| “No criminal homicide, because Martha was the initial aggressor.” |        D |        10% | flat_misstatement | No       | Adds a because-clause and over-signals the self-defense trap.                        |
+| “Justifiable homicide only.”                                      |        D |        10% | bait_doctrine     | No       | Too doctrinal; makes self-defense more visible than the original.                    |
+
+### 5. Correct answer
+
+**C. Murder or manslaughter.**
+
+### 6. Full right-answer explanation
+
+**C is correct.** Peter killed Martha with the third shot. The jury has also found that Peter was no longer afraid of being attacked when he fired that shot. That cuts off the “no homicide because self-defense” path. But the jury has not settled whether Peter fired the third shot while still in the heat of passion from Martha’s knife attack. If the fatal third shot was fired with malice not mitigated by heat of passion, murder is available. If the killing would otherwise be murder but heat of passion on adequate provocation mitigates it, manslaughter is available.
+
+**Gold Key:** Analyze the fatal shot. If self-defense has ended, the fatal shot is not excused; the remaining homicide fork is murder versus manslaughter.
+**Silver Key:** When the stem leaves the murder/manslaughter axis open, do not pick a single-degree “only” answer. The range answer wins.
+
+Lawyer confirmation: common-law murder turns on malice aforethought, and heat of passion negates malice in a murder prosecution. LII states that heat of passion is used to negate malice in murder, and *Mullaney v. Wilbur* treats heat of passion on sudden provocation as the critical murder-versus-manslaughter issue when properly presented. ([Legal Information Institute][1]) ([Justia Law][2])
+
+### 7. Full wrong-answer explanations
+
+**A. Attempted murder only — incorrect.**
+Peter’s third shot killed Martha. The call asks for criminal homicide degrees. A completed killing does not collapse into “attempt only.” This is the fastest CUT.
+
+**B. Manslaughter only — incorrect.**
+This is the dominant trap. Manslaughter is possible, but “only” goes too far. The stem has not forced the jury to find heat of passion.
+**Gold Key:** Heat of passion can reduce murder to manslaughter; it does not automatically erase murder from the range unless the mitigation fact is settled.
+**Silver Key:** “Manslaughter only” loses to “murder or manslaughter” when the stem leaves the mitigation axis open.
+
+**D. No degree of criminal homicide — incorrect.**
+This is the self-defense-overhang trap. Earlier force may have been defensive, but the fatal shot is the act that matters. The jury found Peter was no longer in fear when he fired that fatal third shot. Self-defense does not wipe out the homicide range on that fact. Self-defense requires an imminent threat and reasonable force; deadly force is tied to immediate necessity. ([Social Sci LibreTexts][3])
+
+### 8. Black-letter verification and legal reasoning
+
+The tested rule and answer are unchanged from the original. The original row’s credited answer is C, and the official explanation says the killing can be murder or manslaughter because the fatal shot killed the neighbor and the murder/manslaughter distinction depends on heat of passion. 
+
+Authority layer only: common law defined murder as killing with malice aforethought, and heat-of-passion killings do not qualify for murder in the same way because heat of passion negates malice. ([Legal Information Institute][4]) LII describes heat of passion as a mitigating factor provoked by the victim and used to negate malice in murder. ([Legal Information Institute][1]) *Mullaney* confirms that heat of passion on sudden provocation is the key reduction issue from murder to manslaughter once the issue is properly presented. ([Justia Law][2])
+
+### 9. Why the variation preserves rigor
+
+The transform changes only the story skin. It keeps the fatal-act timing, the “no longer in fear” finding, the unresolved heat-of-passion issue, the same answer array, the same credited answer, and the same dominant trap.
+
+### 10. C3 elimination walkthrough
+
+**CUT A:** Death occurred. “Attempted murder only” is outside the homicide-degree lane.
+**CUT D:** Fatal third shot occurred after the jury found no fear. No-homicide/self-defense path fails.
+**CLASH B vs C:** B says one homicide degree only. C says two-degree range.
+**CALL:** The stem does not settle heat of passion. Pick the inclusive range: murder or manslaughter.
+
+### 11. Review Truth
+
+Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.
+
+### 12. Five variations considered
+
+|  # | Title                   | Setting                                          | Cast               | Preserved issue                                             | Memorable hook                              | Legal risk | Recommendation                                   |
+| -: | ----------------------- | ------------------------------------------------ | ------------------ | ----------------------------------------------------------- | ------------------------------------------- | ---------- | ------------------------------------------------ |
+|  1 | Peter’s Third Shot      | Bible-study dinner at Peter’s house              | Peter / Martha     | fatal shot after fear ends; heat-of-passion fork unresolved | “Peter’s third shot” locks fatal-act timing | Low        | **Chosen**                                       |
+|  2 | Ruth’s Kitchen Door     | Ruth’s private apartment after devotional dinner | Ruth / Lydia       | same                                                        | private home, kitchen knife                 | Low        | Good, less memorable                             |
+|  3 | Daniel’s Bar-Prep Break | Law-student apartment after group study          | Daniel / Timothy   | same                                                        | bar-prep stress skin                        | Low        | Law-school variation, not Christian-first enough |
+|  4 | Esther’s Porch          | Esther’s house after hymn practice               | Esther / Mary      | same                                                        | porch-to-bedroom movement                   | Medium     | “hymn practice” adds clutter                     |
+|  5 | Barnabas’s Guest Room   | Private home after prayer meeting                | Barnabas / Stephen | same                                                        | strong Bible-name hook                      | Low        | Good but names longer and less compact           |
+
+---
+
+## B1. Question YAML
+
+```yaml
+barmatrix_row:
+  question_id: "14684_peters_third_shot"
+  transformed_from: "14684"
+  original_qid: 14684
+  subject: CRIMINAL
+  topic: "Criminal Law"
+  subtopic: "Homicide"
+  outline_code: "00000000"
+  selection_percentages:
+    original_measured:
+      A: 1
+      B: 11
+      C: 78
+      D: 10
+    transformed_item:
+      measured: false
+      provenance: "Kept/revised choices inherit original percentages for analytics only; transformed item is net-new."
+  official_key: C
+  stem: "At a criminal trial, the evidence has shown that after a Bible-study dinner at Peter’s house, Peter’s neighbor Martha entered Peter’s house with a knife and told Peter that she was going to kill him. Peter ran to his bedroom, picked up a gun, and told Martha to back off. Martha did not stop and stabbed Peter in the arm. Peter then shot Martha twice. Martha fell to the floor and lay quietly moaning. After a few seconds, Peter fired a third shot into Martha. The case has gone to the jury, which has thus far found that Martha died instantly from the third shot and that Peter was no longer in fear of being attacked by Martha when he fired the third shot."
+  call: "Of which of the following degrees of criminal homicide, if any, can the jury properly convict Peter?"
+  choices:
+    A: "Attempted murder only."
+    B: "Manslaughter only."
+    C: "Murder or manslaughter."
+    D: "No degree of criminal homicide."
+
+source_stack:
+  - priority: 1
+    source: "Pasted BARMATRIX row 14684"
+    role: "Source of QID, subject, stem, answer choices, key, pick rates, official explanations"
+  - priority: 2
+    source: "Existing C3 / KFP materials and prompt instructions"
+    role: "Hypotheses and output contract only"
+  - priority: 3
+    source: "C3 course lessons and controlled vocabulary"
+    role: "Student-access method and taxonomy"
+  - priority: 4
+    source: "Official legal explanation and legal research"
+    role: "Lawyer confirmation only"
+
+student_access_contract:
+  allowed:
+    - "C3 true-and-responsive frame"
+    - "CUT → CLASH → CALL"
+    - "Call lock: answer the exact criminal homicide degree call"
+    - "Silver Key: fatal-act focus"
+    - "Silver Key: inclusive range answer beats a single-degree only answer when the axis is open"
+    - "Gold Key: fatal shot after fear ends is not excused by self-defense"
+    - "Gold Key: heat of passion may mitigate murder to manslaughter"
+  not_allowed:
+    - "Full homicide outline"
+    - "Unassigned doctrine not in Gold Keys"
+    - "Treating official explanation as student-access structure"
+  controlling_test: "Could a smart 10-year-old with C3 cards and the Gold/Silver Keys identify the choice problem without outside doctrine?"
+  result: "Anchor-assisted solve; no lawyer-only doctrine is used as fake structure."
+
+stem_parse:
+  parties:
+    defendant: "Peter"
+    decedent: "Martha"
+    relationship: "neighbors"
+  location: "Peter’s house"
+  sequence:
+    - "Martha enters with a knife and threatens to kill Peter."
+    - "Peter retrieves a gun and warns Martha to back off."
+    - "Martha stabs Peter in the arm."
+    - "Peter shoots Martha twice."
+    - "Martha falls and moans quietly."
+    - "Peter fires a third shot after a few seconds."
+  jury_findings:
+    - "Martha died instantly from the third shot."
+    - "Peter was no longer in fear of being attacked when he fired the third shot."
+  call_type: "degree-of-criminal-homicide range"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Whether the first two shots were justified; the call turns on the fatal third shot."
+
+trigger_facts:
+  - fact: "Martha died instantly from the third shot."
+    access_label: "student_visible"
+    c3_function: "Cuts attempted-only answer; locks fatal act."
+  - fact: "Peter no longer feared attack when he fired the third shot."
+    access_label: "student_visible_plus_gold_key"
+    c3_function: "Cuts no-homicide/self-defense answer."
+  - fact: "Martha had just threatened Peter with a knife and stabbed him."
+    access_label: "student_visible_plus_gold_key"
+    c3_function: "Keeps manslaughter possibility alive through heat-of-passion mitigation."
+  - fact: "The jury has not found whether Peter acted in heat of passion."
+    access_label: "student_visible_inference_plus_gold_key"
+    c3_function: "Prevents manslaughter-only answer; leaves murder possible."
+
+c3_routing:
+  subject_fit: "Criminal Law = fatal-act timing + homicide-range classification."
+  governing_law_type: STANDARD
+  deciding_phase: CALL
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: C
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "single-degree-only vs inclusive murder/manslaughter range"
+  call_heuristic: "inclusive_range_when_stem_leaves_degree_axis_open"
+
+answer_array:
+  geometry: "four-outcome homicide range"
+  labels:
+    A: "inchoate-only"
+    B: "single mitigated degree only"
+    C: "inclusive homicide range"
+    D: "no homicide / self-defense overhang"
+  dominant_trap:
+    choice: B
+    inherited_focus_group_pct: 11
+    trap: "over-commits to manslaughter because provocation is visible"
+  silver_key:
+    id: "SK-CRIM-HOMICIDE-RANGE-01"
+    statement: "When the call asks what homicide degrees the jury can properly convict of and the stem leaves the murder/manslaughter axis open, prefer the inclusive range over a single-degree 'only' answer."
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: misfit
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - answer_to_different_question
+      - wrong_timing
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "Attempt lane, but the stem gives a death."
+    c3_signal: "The call asks for degrees of criminal homicide and the stem says Martha died from the third shot."
+    lawyer_confirmation: "A completed killing is not charged as attempted murder only when the fatal act caused death."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - half_right_answer
+      - exception_over_applied
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Too narrow: manslaughter may be possible, but 'only' overclaims."
+    c3_signal: "The answer collapses an unresolved range into one degree."
+    lawyer_confirmation: "Heat of passion can mitigate murder to manslaughter, but unless mitigation is settled, murder remains available."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Residual range answer."
+    c3_signal: "Death occurred; self-defense is cut off; heat-of-passion mitigation is unresolved."
+    lawyer_confirmation: "The fatal shot can support murder if malice is not mitigated, or manslaughter if heat of passion mitigates malice."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_timing
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Self-defense overhang applied to the wrong shot."
+    c3_signal: "The jury found Peter no longer feared attack when he fired the fatal shot."
+    lawyer_confirmation: "Self-defense requires imminent danger / immediate necessity; the fatal third shot was not excused on the jury's finding."
+
+residual_answer:
+  choice: C
+  text: "Murder or manslaughter."
+  why_survives: "It is the only answer that accounts for death, no ongoing fear, and unresolved heat of passion."
+
+legal_leak_audit:
+  student_access_claims:
+    - claim: "A is off-call because the stem says Martha died."
+      basis: "C3-visible call/fact relation"
+      verdict: "passes"
+    - claim: "D is cut because no fear at the fatal shot kills the no-homicide path."
+      basis: "Gold Key"
+      verdict: "passes"
+    - claim: "B is too narrow because the stem leaves the mitigation axis open."
+      basis: "Gold Key + Silver Key"
+      verdict: "passes"
+    - claim: "C is the residual range answer."
+      basis: "C3 answer-array move + Gold Key"
+      verdict: "passes"
+  lawyer_only_quarantine:
+    - "Malice aforethought doctrine"
+    - "Heat-of-passion mitigation doctrine"
+    - "Self-defense imminence doctrine"
+  drift_audit: "No choice is called false unless the defect is visible from grammar, call/fact relation, or a stated Gold/Silver Key."
+
+gold_keys:
+  - id: "GK-CRIM-FATAL-SHOT-TIMING-01"
+    statement: "In homicide, analyze the act that caused death. Earlier justified force does not excuse a later fatal shot after imminent danger has ended."
+    type: "distinction"
+    unlocks: "D: no degree of criminal homicide"
+    trigger: "Stem identifies one shot as fatal and states fear had ended at that shot."
+    tested_choice: "D"
+    authority: "Self-defense requires imminent threat / immediate necessity; see lawyer-confirmation discussion."
+    last_minute_review: true
+  - id: "GK-CRIM-HEAT-PASSION-RANGE-01"
+    statement: "Heat of passion can reduce murder to manslaughter, but if heat of passion is not settled, the proper range may be murder or manslaughter."
+    type: "exception"
+    unlocks: "B: manslaughter only; C: murder or manslaughter"
+    trigger: "Attack/provocation facts exist, but the jury finding does not resolve heat of passion."
+    tested_choice: "B"
+    authority: "Heat of passion negates malice; see lawyer-confirmation discussion."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-FATAL-ACT-01"
+    statement: "Lock onto the act that caused death before evaluating defenses."
+    type: "call_focus"
+    navigates: "Earlier defensive facts vs fatal third shot"
+    trigger: "Stem says the victim died instantly from a specific later act."
+    tested_choice: "D"
+    outline_code: "00000000"
+    last_minute_review: true
+  - id: "SK-CRIM-HOMICIDE-RANGE-01"
+    statement: "When the stem leaves the murder/manslaughter axis open, the inclusive range answer beats a single-degree 'only' answer."
+    type: "answer_array"
+    navigates: "B versus C"
+    trigger: "Answer set includes 'manslaughter only' and 'murder or manslaughter.'"
+    tested_choice: "B"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIM-14684-THIRD-SHOT-RANGE"
+  title: "Fatal shot first; range answer second"
+  signal: "The stem separates earlier defensive force from the fatal act."
+  student_move: "Circle the fatal act. Then ask whether the stem settled the murder/manslaughter axis."
+  tiny_rule: "No fear at the fatal shot cuts self-defense; unresolved heat of passion leaves murder or manslaughter."
+  trap: "Picking manslaughter only because provocation is visible."
+  confidence: ANCHOR_ASSISTED
+
+distilled_core_question: "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?"
+
+review_truth: "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter."
+
+case_study_output:
+  final_student_script: "Fatal shot first. She died from the third shot. No fear at that shot, so no self-defense/no-homicide. Heat of passion is not resolved, so manslaughter only is too narrow. Murder or manslaughter."
+  exam_day_confidence: "anchor-assisted high"
+  predicted_time_seconds: 45
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  stem_not_over_signaled: true
+  answer_array_geometry_preserved: true
+  no_clutter_doctrine_added: true
+  popular_bible_names_only: true
+  christian_first: true
+  transformed_from_present: true
+  pass_requirements_met: true
+  exactly_three_single_filter_distractors: true
+  pick_rate_provenance_honest: true
+  drift_audit: "All doctrine-heavy points are in Gold Key/lawyer-confirmation, not invented as hard structure."
+
+analytics_hooks:
+  component_routing:
+    - "C3_Core"
+    - "Criminal_Homicide_Overlay"
+    - "Fatal_Act_Timing"
+    - "Homicide_Range_Answer_Array"
+  trap_tags:
+    - "fatal_shot_timing"
+    - "self_defense_overhang"
+    - "heat_of_passion_overapplication"
+    - "only_answer_overclaim"
+  weakspot_dimensions:
+    - "wrong_timing"
+    - "overselects_single_degree"
+    - "misses_inclusive_range"
+```
+
+---
+
+## B2. 17-section student case study
+
+### 1. program_frame
+
+This is a Criminal Law homicide item. It is not a full homicide outline. The C3 job is narrower: lock onto the fatal act, cut the answer that ignores death, cut the answer that overextends self-defense, and choose the range answer because the murder/manslaughter axis remains open.
+
+### 2. student_access_test
+
+A student can solve this with C3 plus two Gold Keys.
+
+Student-visible without doctrine:
+
+* Martha died from the third shot.
+* Peter no longer feared attack when he fired the third shot.
+* The answer set includes “manslaughter only” and “murder or manslaughter.”
+
+Anchor-dependent:
+
+* No fear at the fatal shot defeats self-defense for that fatal shot.
+* Heat of passion may reduce murder to manslaughter but does not automatically force manslaughter.
+
+Verdict: **ANCHOR_SOLVE**.
+
+### 3. question_data
+
+**QID:** `14684_peters_third_shot`
+**Transformed from:** `14684`
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Homicide
+**Correct answer:** C
+**Original pick-rate inheritance:** A 1%, B 11%, C 78%, D 10%
+**Transformed pick rates:** no measured data.
+
+### 4. distilled_core_question
+
+Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?
+
+### 5. call_and_prediction
+
+**Call:** Of what degree(s) of criminal homicide, if any, can the jury convict Peter?
+
+**Prediction:** The answer should not be “attempt” because Martha died. It should not be “none” because the fatal shot happened after fear ended. The remaining range is murder or manslaughter because heat of passion is not settled.
+
+### 6. trigger_facts
+
+| Fact                                             | Student use                                       |
+| ------------------------------------------------ | ------------------------------------------------- |
+| Martha entered with a knife and threatened death | explains provocation; keeps manslaughter possible |
+| Martha stabbed Peter                             | strengthens provocation                           |
+| Peter shot twice, then Martha fell and moaned    | separates earlier defense from later fatal act    |
+| Peter fired a third shot                         | fatal act to analyze                              |
+| Martha died instantly from the third shot        | cuts attempted murder                             |
+| Peter no longer feared attack at the third shot  | cuts no-homicide/self-defense                     |
+
+### 7. governing_c3_lane
+
+**Criminal Law = fatal-act timing + homicide-range classification.**
+
+This item routes through:
+
+1. **CUT:** death cuts attempt; no fear at fatal shot cuts no homicide.
+2. **CLASH:** manslaughter only versus murder or manslaughter.
+3. **CALL:** inclusive range answer wins because the stem leaves heat of passion unresolved.
+
+### 8. choice_by_choice_walkthrough
+
+#### A. Attempted murder only.
+
+1. **Student-accessible C3 signal:** The stem says Martha died instantly from the third shot. The call asks criminal homicide degrees.
+2. **Student label:** Wrong lane. Attempt-only does not fit a completed killing.
+3. **What a true/responsive version would look like:** “Attempted murder” would fit if Martha had survived the shot or if the call asked for inchoate liability.
+4. **Lawyer confirmation:** Because death occurred from Peter’s shot, the case is completed homicide, not attempted murder only.
+
+#### B. Manslaughter only.
+
+1. **Student-accessible C3 signal:** “Only” is too narrow. The stem shows provocation, but it does not say the jury found heat of passion.
+2. **Student label:** Half-right range trap.
+3. **What a true/responsive version would look like:** “Manslaughter” would be the exclusive answer only if the stem settled the heat-of-passion mitigation in Peter’s favor.
+4. **Lawyer confirmation:** Heat of passion can mitigate murder to manslaughter by negating malice, but the jury may still convict of murder if that mitigation is not found. LII describes heat of passion as negating malice in murder, and *Mullaney* treats heat of passion on sudden provocation as the reduction issue. ([Legal Information Institute][1]) ([Justia Law][2])
+
+#### C. Murder or manslaughter.
+
+1. **Student-accessible C3 signal:** This is the only answer that includes both remaining possibilities after attempt and no-homicide are cut.
+2. **Student label:** Residual range answer.
+3. **What a true/responsive version would look like:** This answer is already true and responsive.
+4. **Lawyer confirmation:** Murder remains possible if malice is not mitigated; manslaughter remains possible if heat of passion mitigates malice. Common law murder is killing with malice aforethought, and heat-of-passion killing does not qualify the same way because it negates malice. ([Legal Information Institute][4])
+
+#### D. No degree of criminal homicide.
+
+1. **Student-accessible C3 signal:** The jury found Peter was no longer afraid when he fired the fatal shot.
+2. **Student label:** Self-defense overhang applied to the wrong timing.
+3. **What a true/responsive version would look like:** “No degree” would fit if the fatal shot itself were justified by ongoing imminent danger.
+4. **Lawyer confirmation:** Self-defense requires imminent threat / immediate necessity and reasonable force. The jury finding removes that justification for the fatal third shot. ([Social Sci LibreTexts][3])
+
+### 9. residual_answer
+
+**C. Murder or manslaughter** survives.
+
+A dies because death occurred.
+D dies because no fear at the fatal shot cuts self-defense.
+B dies because “only” overcommits.
+C remains because it preserves the open murder/manslaughter fork.
+
+### 10. legal_leak_audit
+
+Student-accessible:
+
+* “Died from the third shot” → A is off-lane.
+* “No longer in fear” → D cannot use self-defense for the fatal act, with Gold Key support.
+* “Manslaughter only” overclaims because heat-of-passion remains unresolved, with Gold Key support.
+* “Murder or manslaughter” is the inclusive range answer, with Silver Key support.
+
+Lawyer-only:
+
+* malice aforethought
+* adequate provocation
+* burden of proving absence of heat of passion
+* technical self-defense doctrine
+
+**Drift audit:** No choice is called false unless the defect is visible from grammar, call/fact relation, or a stated Gold/Silver Key.
+
+### 11. final_student_script
+
+“Fatal shot first. Martha died from the third shot. Peter no longer feared attack then, so no-homicide/self-defense is out. It is not attempt because she died. The only remaining fight is manslaughter only versus murder or manslaughter. The stem did not settle heat of passion, so manslaughter only is too narrow. Pick C.”
+
+### 12. remediation_card
+
+**Card:** `REM-CRIM-14684-THIRD-SHOT-RANGE`
+**Title:** Fatal shot first; range answer second.
+**Signal:** The stem separates earlier defensive force from the fatal act.
+**Student move:** Circle the act that caused death. Then ask whether the stem settled the mitigation axis.
+**Tiny rule:** No fear at the fatal shot cuts self-defense; unresolved heat of passion leaves murder or manslaughter.
+**Trap:** Picking manslaughter only because the victim’s provocation is vivid.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIM-FATAL-SHOT-TIMING-01**
+Analyze the act that caused death. Earlier justified force does not excuse a later fatal shot after imminent danger has ended.
+
+**GK-CRIM-HEAT-PASSION-RANGE-01**
+Heat of passion can reduce murder to manslaughter, but if heat of passion is not settled, the proper range may be murder or manslaughter.
+
+## Silver Key(s)
+
+**SK-CRIM-FATAL-ACT-01**
+Lock onto the act that caused death before evaluating defenses.
+
+**SK-CRIM-HOMICIDE-RANGE-01**
+When the stem leaves the murder/manslaughter axis open, the inclusive range answer beats a single-degree “only” answer.
+
+### 13. qa_checklist
+
+| Check                                                         | Result |
+| ------------------------------------------------------------- | ------ |
+| Same rule preserved                                           | Pass   |
+| Same answer preserved                                         | Pass   |
+| Same dominant trap preserved                                  | Pass   |
+| Christian-first variation                                     | Pass   |
+| No clutter doctrine added                                     | Pass   |
+| Popular Bible names only                                      | Pass   |
+| Exactly three distractors                                     | Pass   |
+| Each distractor has one filter                                | Pass   |
+| C3 residual equals official key                               | Pass   |
+| Gold Keys included because anchor-dependent                   | Pass   |
+| Silver Keys included because answer-array move is non-obvious | Pass   |
+| Drift audit included                                          | Pass   |
+
+### 14. wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                                  | Missed move       | Recovery                                                         |
+| ------ | ------------------------------------------------------- | ----------------- | ---------------------------------------------------------------- |
+| A      | Sees intent to kill and ignores death                   | Fatal-result lock | Ask: did the victim die from this act?                           |
+| B      | Sees provocation and jumps to manslaughter              | Inclusive range   | Ask: did the stem settle heat of passion?                        |
+| D      | Carries self-defense from first two shots to third shot | Fatal-act timing  | Ask: which act caused death, and was danger still imminent then? |
+
+### 15. outline_mastery_map
+
+**Placement:** Criminal Law → Homicide → murder / manslaughter / self-defense timing.
+**This item teaches:** do not analyze the whole fight as one block; analyze the fatal act.
+**Fills:** homicide range classification; heat-of-passion mitigation; self-defense timing.
+**Adjacent to master:** attempt vs completed offense; malice; voluntary manslaughter; provocation; justification defenses.
+
+### 16. crossover_intersection_map
+
+| Crossover               | Link                                                                               |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| Criminal → Torts        | Self-defense timing also appears in intentional tort defenses.                     |
+| Criminal → Evidence     | Jury findings control which facts are available for the answer.                    |
+| Criminal → C3 universal | Inclusive “both” answer wins when the stem leaves a binary axis open.              |
+| Criminal → Calibration  | Anchor-assisted range call deserves confidence, but not hard-structural certainty. |
+
+### 17. review_truth
+
+Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.
+
+---
+
+## B3. c3_annotation
+
+```json
+{
+  "question_id": "14684_peters_third_shot",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?",
+  "review_truth": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "STANDARD",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "manslaughter-only vs murder-or-manslaughter range",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "inclusive_range_when_axis_open",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIM-FATAL-ACT-01",
+        "explanation": "The answer moves to attempt even though the stem says Martha died from the third shot."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CRIM-HEAT-PASSION-RANGE-01",
+        "explanation": "Manslaughter is possible, but 'only' overclaims because the stem leaves heat of passion unresolved."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-FATAL-SHOT-TIMING-01",
+        "explanation": "No-homicide/self-defense does not fit because the fatal shot was fired after fear had ended."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Doctrine-heavy reasoning is quarantined under Gold Keys and lawyer_confirmation. The student path uses fatal-act focus, answer-array range, and stated homicide anchors only. transformed_from: 14684",
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-FATAL-SHOT-TIMING-01",
+        "statement": "In homicide, analyze the act that caused death. Earlier justified force does not excuse a later fatal shot after imminent danger has ended.",
+        "type": "distinction",
+        "unlocks": "D",
+        "trigger": "Victim dies from a later shot; jury finds fear had ended.",
+        "tested_choice": "D",
+        "authority": "Self-defense requires imminent threat / immediate necessity.",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIM-HEAT-PASSION-RANGE-01",
+        "statement": "Heat of passion can reduce murder to manslaughter, but if heat of passion is not settled, the proper range may be murder or manslaughter.",
+        "type": "exception",
+        "unlocks": "B and C",
+        "trigger": "Provocation facts exist but no jury finding settles heat of passion.",
+        "tested_choice": "B",
+        "authority": "Heat of passion negates malice in murder.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-FATAL-ACT-01",
+        "statement": "Lock onto the act that caused death before evaluating defenses.",
+        "type": "call_focus",
+        "navigates": "Earlier defensive facts vs fatal third shot",
+        "trigger": "Stem identifies one shot as fatal.",
+        "tested_choice": "D",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      },
+      {
+        "id": "SK-CRIM-HOMICIDE-RANGE-01",
+        "statement": "When the stem leaves the murder/manslaughter axis open, the inclusive range answer beats a single-degree 'only' answer.",
+        "type": "answer_array",
+        "navigates": "B versus C",
+        "trigger": "Answer set includes 'manslaughter only' and 'murder or manslaughter.'",
+        "tested_choice": "B",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B4. program_elements
+
+```json
+{
+  "question_id": "14684_peters_third_shot",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?",
+  "review_truth": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+  "tension": {
+    "axis": "single mitigated degree only vs inclusive homicide range",
+    "splitting_fact": "The jury found no fear at the fatal third shot but did not settle heat of passion.",
+    "resolution": "C"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student sees intent to kill and grabs attempt language without honoring the death fact.",
+      "focus_group_pct": 1
+    },
+    {
+      "choice": "B",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "Student sees the knife attack and assumes provocation forces manslaughter.",
+      "focus_group_pct": 11
+    },
+    {
+      "choice": "D",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student carries self-defense from the first two shots into the fatal third shot.",
+      "focus_group_pct": 10
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-14684-THIRD-SHOT-RANGE",
+    "title": "Fatal shot first; range answer second",
+    "signal": "The stem separates earlier defensive force from the fatal act.",
+    "student_move": "Circle the fatal act, then ask whether the stem settled the murder/manslaughter axis.",
+    "tiny_rule": "No fear at the fatal shot cuts self-defense; unresolved heat of passion leaves murder or manslaughter.",
+    "trap": "Picking manslaughter only because provocation is vivid.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "fatal_act_timing",
+    "self_defense_overhang",
+    "heat_of_passion_overapplication",
+    "single_degree_only_overclaim",
+    "inclusive_range_answer"
+  ]
+}
+```
+
+---
+
+## B5. program_intelligence
+
+```json
+{
+  "question_id": "14684_peters_third_shot",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?",
+  "review_truth": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student sees intentional shooting and thinks in attempted-murder terms.",
+      "skipped_move": "Fatal-result lock",
+      "recovery_step": "Ask whether the victim died from the charged act before considering attempt."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student overweights the knife attack and assumes heat of passion is established.",
+      "skipped_move": "Inclusive range check",
+      "recovery_step": "If the stem does not settle mitigation, do not choose a single-degree 'only' answer."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student treats the whole encounter as one self-defense event.",
+      "skipped_move": "Fatal-act timing",
+      "recovery_step": "Analyze the act that caused death, not the earlier defensive shots."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "fatal_act_lock",
+      "target_skill": "Separate earlier justified force from fatal act.",
+      "prompt": "Victim attacks defendant. Defendant repels attack. Victim falls. Defendant fires fatal later shot after threat has ended. What is the first C3 move?",
+      "answer": "Lock onto the fatal later shot."
+    },
+    {
+      "drill_type": "range_answer",
+      "target_skill": "Choose inclusive degree range when mitigation is unresolved.",
+      "prompt": "Answer choices include 'manslaughter only' and 'murder or manslaughter.' The stem shows provocation but no heat-of-passion finding. Which structure is safer?",
+      "answer": "Murder or manslaughter."
+    },
+    {
+      "drill_type": "self_defense_overhang",
+      "target_skill": "Cut no-homicide answer when imminent danger ended before fatal act.",
+      "prompt": "The jury finds defendant was no longer afraid when he fired the fatal shot. What answer path is cut?",
+      "answer": "No degree of criminal homicide / self-defense."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "fatal_shot",
+      "third_shot",
+      "jury_finding",
+      "degree_range",
+      "no_fear"
+    ],
+    "misconception_tags": [
+      "attempt_after_death",
+      "provocation_forces_manslaughter",
+      "self_defense_covers_entire_encounter",
+      "only_answer_overclaim"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Core",
+      "lesson": "CUT → CLASH → CALL",
+      "reason": "Clean sequence of two cuts and one inclusive-range call."
+    },
+    {
+      "component": "Criminal Homicide Overlay",
+      "lesson": "Fatal act timing",
+      "reason": "The fatal third shot controls the analysis."
+    },
+    {
+      "component": "Gold Key Deck",
+      "lesson": "Heat-of-passion range",
+      "reason": "Manslaughter-only trap requires tiny anchor."
+    },
+    {
+      "component": "Silver Key Deck",
+      "lesson": "Inclusive range answer",
+      "reason": "Answer-array navigation decides B versus C."
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "TORTS",
+      "connection": "Self-defense timing also appears in intentional tort defense questions."
+    },
+    {
+      "subject": "EVIDENCE",
+      "connection": "Jury findings define which facts are available for the answer."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "Threshold-before-merits maps to fatal-act-before-defense timing."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-FATAL-SHOT-TIMING-01",
+      "statement": "In homicide, analyze the act that caused death. Earlier justified force does not excuse a later fatal shot after imminent danger has ended.",
+      "type": "distinction",
+      "unlocks": "D",
+      "trigger": "Victim dies from a later shot; jury finds fear had ended.",
+      "tested_choice": "D",
+      "authority": "Self-defense requires imminent threat / immediate necessity.",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIM-HEAT-PASSION-RANGE-01",
+      "statement": "Heat of passion can reduce murder to manslaughter, but if heat of passion is not settled, the proper range may be murder or manslaughter.",
+      "type": "exception",
+      "unlocks": "B and C",
+      "trigger": "Provocation facts exist but no jury finding settles heat of passion.",
+      "tested_choice": "B",
+      "authority": "Heat of passion negates malice in murder.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-FATAL-ACT-01",
+      "statement": "Lock onto the act that caused death before evaluating defenses.",
+      "type": "call_focus",
+      "navigates": "Earlier defensive facts vs fatal third shot",
+      "trigger": "Stem identifies one shot as fatal.",
+      "tested_choice": "D",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    },
+    {
+      "id": "SK-CRIM-HOMICIDE-RANGE-01",
+      "statement": "When the stem leaves the murder/manslaughter axis open, the inclusive range answer beats a single-degree 'only' answer.",
+      "type": "answer_array",
+      "navigates": "B versus C",
+      "trigger": "Answer set includes 'manslaughter only' and 'murder or manslaughter.'",
+      "tested_choice": "B",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > Homicide > Murder / manslaughter / justification timing",
+    "this_item_teaches": "Fatal-act timing and inclusive homicide-range selection.",
+    "fills": [
+      "attempt versus completed homicide",
+      "self-defense timing",
+      "heat-of-passion mitigation",
+      "murder-or-manslaughter range answer"
+    ],
+    "adjacent_to_master": [
+      "malice aforethought",
+      "voluntary manslaughter",
+      "adequate provocation",
+      "imperfect self-defense",
+      "initial aggressor"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/wex/heat_of_passion "heat of passion | Wex | US Law | LII / Legal Information Institute"
+[2]: https://supreme.justia.com/cases/federal/us/421/684/ " Mullaney v. Wilbur | 421 U.S. 684 (1975) | Justia U.S. Supreme Court Center"
+[3]: https://socialsci.libretexts.org/Under_Construction/Purgatory/JPP_207_Substantive_Criminal_Law/05%3A_Criminal_Defenses_Part_1/5.02%3A_Self-Defense "5.2: Self-Defense - Social Sci LibreTexts"
+[4]: https://www.law.cornell.edu/wex/malice_aforethought "malice aforethought | Wex | US Law | LII / Legal Information Institute"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14684_peters_third_shot"
+  question_id: "14684_peters_third_shot"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Homicide"
+  outline_code: "00000000"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "14684"
+  variant_slug: "peters_third_shot"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "C"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?"
+review_truth: "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14684_peters_third_shot; source 14684.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Criminal Law; subtopic Homicide.
+4. **distilled_core_question:** Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 00000000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 00000000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14684_peters_third_shot",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?",
+  "review_truth": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14684; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14684_peters_third_shot",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?",
+  "review_truth": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14684",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14684_peters_third_shot",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defendant was attacked, fired two defensive shots, then fired a fatal third shot after the jury found he no longer feared attack. What homicide degree(s) can the jury convict of?",
+  "review_truth": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "Fatal shot after self-defense ends keeps homicide in play; unresolved heat of passion leaves murder or manslaughter.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

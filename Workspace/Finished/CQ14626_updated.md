@@ -1,0 +1,1057 @@
+---
+qid: "14626_lydias_sentencing_plan"
+transformed_from: "14626"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "00000000"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+**Variation title:** *Lydia’s Sentencing Plan Interview*
+
+Lydia entered a guilty plea to a charge of embezzlement from a privately owned Christian bookstore. Her attorney, Paul, hired Barnabas, a retired probation officer, as a consultant to gather information for the preparation of a sentencing plan for Lydia that would avoid jail. For that purpose, Barnabas interviewed Lydia for three hours.
+
+Thereafter, the prosecution undertook an investigation of Lydia’s possible involvement in other acts of embezzlement. Barnabas was subpoenaed to testify before a grand jury. Barnabas refused to answer any questions concerning his conversation with Lydia. The prosecution has moved for an order requiring him to answer those questions.
+
+**The motion should be:**
+
+### 2. Distilled Core Question
+
+A defense lawyer hires a nonlawyer consultant to interview the defendant for a sentencing plan. A grand jury later subpoenas the consultant about that interview. Must the consultant answer?
+
+### 3. Final answer choices
+
+A. **Denied, on the basis of the attorney-client privilege.**
+
+B. **Denied, due to the absence of probable cause to believe the interview developed evidence relevant to the grand jury’s inquiry.**
+
+C. **Granted, because Barnabas is not an attorney.**
+
+D. **Granted, because exclusionary evidentiary rules do not apply in grand jury proceedings.**
+
+### 4. Possible replacement answer choices
+
+Original **B** was selected by only **2%** of students, so it is the weak distractor. I did **not** replace it in the locked version because keeping the original B preserves the measured answer-array geometry. Recommended replacements for a future authored version:
+
+| Replace | Original % | Candidate replacement                                                                                                                | Filter   | Mold            | Clean elimination line                                                          |
+| ------- | ---------: | ------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------- | ------------------------------------------------------------------------------- |
+| B       |         2% | Denied, because the prosecution must first obtain court permission before a grand jury may question a defense sentencing consultant. | NOT_TRUE | fabricated_rule | Invents a preliminary permission requirement.                                   |
+| B       |         2% | Denied, because after a guilty plea, a grand jury may investigate only the offense to which the defendant pleaded guilty.            | NOT_TRUE | fabricated_rule | Invents a post-plea limit on grand jury inquiry.                                |
+| B       |         2% | Denied, because sentencing-plan interviews are never subject to grand jury questioning.                                              | NOT_TRUE | tiered_absolute | “Never” overclaims; privilege is the real stop, not the sentencing label alone. |
+
+### 5. Correct answer
+
+**A. Denied, on the basis of the attorney-client privilege.**
+
+The original BarMatrix row for Q14626 gives the same official key, A, with A selected by 58% and the dominant wrong answer D selected by 30%. The official explanation states that the consultant was hired by the attorney to gather information for the criminal case, making the consultant a representative of the attorney for privilege purposes. 
+
+### 6. Full right-answer explanation
+
+**A is correct.**
+
+**Gold Key:** Attorney-client privilege can cover a client’s confidential communications with a nonlawyer hired by the lawyer to help provide legal representation. Here, Paul hired Barnabas to gather information for Lydia’s sentencing plan. Barnabas was functioning as Paul’s representative, not as an ordinary outside witness.
+
+**Gold Key:** Grand jury proceedings relax many ordinary evidence rules, but privilege still matters. So the grand jury setting does not erase the attorney-client privilege.
+
+**Silver Key:** Do not stop at “Barnabas is not an attorney.” First ask whose team Barnabas was on and why the interview happened. The facts place him inside the defense lawyer’s legal work.
+
+### 7. Full wrong-answer explanations
+
+**B is incorrect.**
+This answer reaches the right outcome, denial, but gives a made-up reason. The grand jury does not need probable cause that the interview produced relevant evidence before asking questions. The motion is denied because of privilege, not because the prosecutor failed a probable-cause threshold.
+
+**C is incorrect.**
+This is the “not an attorney” trap. **Gold Key:** The privilege can extend through a lawyer’s representative when the representative is hired to help the lawyer provide legal representation. Barnabas’s nonlawyer status does not by itself defeat the privilege.
+
+**D is incorrect.**
+This is the dominant trap. It uses a true-sounding grand jury rule too broadly. **Gold Key:** Many ordinary exclusionary rules do not apply in grand jury proceedings, but privilege rules still do. **Silver Key:** When an answer says “grand jury rules are relaxed,” check whether the stem is really about a privilege. Privilege is a stopper.
+
+### 8. Black-letter-law verification and legal reasoning
+
+The tested rule and answer are unchanged from the original Q14626: the motion should be **denied** because the attorney-client privilege covers the defendant’s confidential communication with the lawyer’s hired consultant. The official source row confirms the same rule, same official key, and the same wrong-answer logic. 
+
+Legal confirmation: Federal privilege law is governed by Rule 501’s common-law framework unless a superior source controls. The official federal rules state that common law, as interpreted by federal courts in light of reason and experience, governs privilege claims. ([U.S. Code][1]) Rule 1101 separately states that privilege rules apply to all stages of a case or proceeding, while ordinary evidence rules—**except privilege rules**—do not apply to grand jury proceedings. ([Legal Information Institute][2])
+
+The consultant point is confirmed by *United States v. Kovel*, which treats a nonlawyer assisting the lawyer, such as an interpreter or comparable professional, as within the privilege when the client’s communication is confidential and made to help the lawyer give legal advice. ([Justia Law][3]) The grand jury threshold point is confirmed by *United States v. R. Enterprises*, which rejects requiring the government to justify a grand jury subpoena with a probable-cause showing and recognizes the grand jury’s broad investigatory role, while still leaving room for legally recognized limits. ([Justia Law][4])
+
+### 9. Why the variation preserves rigor
+
+The Christian flavor changes only the memory hook: Lydia, Paul, Barnabas, and a private Christian bookstore. It does not add church doctrine, clergy privilege, First Amendment facts, donation law, or internal church governance. The same legal structure remains:
+
+* attorney hires nonlawyer consultant;
+* consultant interviews defendant for sentencing representation;
+* grand jury later subpoenas consultant;
+* A/C fight over attorney vs. lawyer representative;
+* D dominant trap overgeneralizes grand jury evidence-rule laxity.
+
+### 10. C3 elimination walkthrough
+
+**CUT**
+
+* **B:** Cut as an anchor-assisted fabricated-rule answer. It invents a probable-cause threshold for grand jury questioning.
+* **C:** Cut as wrong-element / anchor-assisted. “Not an attorney” is true, but not the dispositive privilege question.
+* **D:** Cut as half-truth / anchor-assisted. Grand jury proceedings relax ordinary evidence rules, but not privilege.
+
+**CLASH**
+
+The real clash is **privilege representative vs. ordinary nonlawyer witness**, with a second trap axis of **privilege vs. relaxed grand jury evidence rules**.
+
+**CALL**
+
+Use the Gold Keys:
+
+1. Lawyer’s hired representative can sit inside privilege.
+2. Privilege survives grand jury proceedings.
+
+Residual answer: **A**.
+
+### 11. Review Truth
+
+A lawyer’s nonlawyer consultant can be inside attorney-client privilege when hired to help legal representation, and a grand jury does not override privilege just because ordinary evidence rules are relaxed.
+
+### 12. The 5 variations considered
+
+|  # | Title                                 | Setting                                   | Cast                     | Preserved issue                                 | Why memorable                               | Legal risks                                            | Recommendation |
+| -: | ------------------------------------- | ----------------------------------------- | ------------------------ | ----------------------------------------------- | ------------------------------------------- | ------------------------------------------------------ | -------------- |
+|  1 | **Lydia’s Sentencing Plan Interview** | Private Christian bookstore embezzlement  | Lydia, Paul, Barnabas    | Attorney-hired consultant + grand jury subpoena | Clean Christian hook; no church-law clutter | Low                                                    | **Chosen**     |
+|  2 | Peter’s Bar-Prep Ledger               | Private bar-prep company                  | Peter, Mary, Timothy     | Same                                            | Law-school funny; exam-fee theft            | Bar licensing clutter if overdone                      | Not chosen     |
+|  3 | Martha’s Retreat Fund                 | Private retreat company                   | Martha, Ruth, Stephen    | Same                                            | Strong Christian setting                    | Could imply church property if phrased badly           | Not chosen     |
+|  4 | Daniel’s Coffee-Cart Records          | Private campus coffee cart                | Daniel, Esther, Barnabas | Same                                            | Simple facts                                | Less Christian; more law-school commercial             | Not chosen     |
+|  5 | Mary’s Book Fair Receipts             | Private Christian school book fair vendor | Mary, Paul, Lydia        | Same                                            | Memorable                                   | School facts could invite institutional-status clutter | Not chosen     |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14626_lydias_sentencing_plan"
+  transformed_from: "14626"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Constitutional Protection of Accused Persons"
+  outline_code: "00000000"
+  selection_percentages:
+    original_focus_group_correct_pct: 61
+    A:
+      pct: 58
+      provenance: "inherited_revised"
+    B:
+      pct: 2
+      provenance: "inherited_revised"
+      note: "Weak distractor retained to preserve official array geometry and measured data."
+    C:
+      pct: 10
+      provenance: "inherited_revised"
+    D:
+      pct: 30
+      provenance: "inherited_revised"
+      note: "Dominant wrong-answer trap preserved."
+  official_key: "A"
+  call: "The motion should be:"
+  stem: "Lydia entered a guilty plea to a charge of embezzlement from a privately owned Christian bookstore. Her attorney, Paul, hired Barnabas, a retired probation officer, as a consultant to gather information for the preparation of a sentencing plan for Lydia that would avoid jail. For that purpose, Barnabas interviewed Lydia for three hours. Thereafter, the prosecution undertook an investigation of Lydia's possible involvement in other acts of embezzlement. Barnabas was subpoenaed to testify before a grand jury. Barnabas refused to answer any questions concerning his conversation with Lydia. The prosecution has moved for an order requiring him to answer those questions. The motion should be:"
+  choices:
+    A: "Denied, on the basis of the attorney-client privilege."
+    B: "Denied, due to the absence of probable cause to believe the interview developed evidence relevant to the grand jury's inquiry."
+    C: "Granted, because Barnabas is not an attorney."
+    D: "Granted, because exclusionary evidentiary rules do not apply in grand jury proceedings."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row 14626"
+    use: "QID, subject, subtopic, stem, answer choices, official key, percentages, official explanations."
+  - priority: 2
+    source: "Creative-transform instructions"
+    use: "Christian-first transformation, preserve trap, preserve law, honest pick-rate provenance."
+  - priority: 3
+    source: "C3 method and controlled vocabulary"
+    use: "CUT/CLASH/CALL, molds, filters, method_class, verdicts."
+  - priority: 4
+    source: "Official legal explanation"
+    use: "Lawyer confirmation only."
+  - priority: 5
+    source: "Legal authority"
+    use: "FRE 501; FRE 1101(c)-(d)(2); United States v. Kovel; United States v. R. Enterprises."
+
+student_access_contract:
+  allowed_universal_lessons:
+    - "TRUE and RESPONSIVE frame"
+    - "Ear vs Issue-Sense"
+    - "CUT -> CLASH -> CALL"
+    - "Not-true fabricated rule"
+    - "Wrong-element / true-but-not-dispositive answer"
+    - "Half-truth / exception omitted"
+    - "Bait architecture: violation-vs-remedy and wrong-frame"
+    - "Calibration: anchor-assisted questions are not hard-structural"
+  allowed_gold_keys:
+    - "GK-CRIMINAL-PRIVILEGE-AGENT-01"
+    - "GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02"
+    - "GK-CRIMINAL-GRAND-JURY-THRESHOLD-03"
+  allowed_silver_keys:
+    - "SK-CRIMINAL-PRIVILEGE-LAYER-01"
+  prohibited_moves:
+    - "Do not call C false merely because Barnabas is not an attorney."
+    - "Do not call D false as a pure structural move; the privilege exception is anchor-assisted."
+    - "Do not import clergy privilege, First Amendment, or church-property doctrine."
+
+stem_parse:
+  parties:
+    defendant: "Lydia"
+    defense_attorney: "Paul"
+    consultant: "Barnabas, retired probation officer"
+    prosecutor: "Prosecution"
+    tribunal_context: "Grand jury"
+  procedural_posture: "Prosecution moves to compel subpoenaed consultant's testimony."
+  adjacent_call_traps:
+    - "Whether grand jury evidence rules are relaxed generally."
+    - "Whether Barnabas is literally an attorney."
+    - "Whether the prosecutor has probable cause that the interview contains relevant evidence."
+  negative_stem_inversion: false
+  call_type: "motion_to_compel_grand_jury_testimony"
+
+trigger_facts:
+  - fact: "Paul hired Barnabas."
+    access_label: "student_visible"
+    role: "places consultant on lawyer's team"
+  - fact: "Barnabas was hired to gather information for a sentencing plan."
+    access_label: "student_visible"
+    role: "legal-representation purpose"
+  - fact: "Barnabas interviewed Lydia for that purpose."
+    access_label: "student_visible"
+    role: "communication connected to representation"
+  - fact: "Grand jury subpoenaed Barnabas about that conversation."
+    access_label: "student_visible"
+    role: "grand jury vs privilege trap"
+  - fact: "Barnabas refused to answer questions concerning the conversation."
+    access_label: "student_visible"
+    role: "privilege assertion"
+
+c3_routing:
+  subject_fit: "CRIMINAL = constitutional/procedural protection question with privilege threshold before grand-jury merits."
+  governing_law_type: "RULE"
+  deciding_phase: "CALL"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 3
+  tension_axis: "lawyer-representative privilege vs ordinary grand-jury evidence-rule laxity"
+  call_heuristic: "threshold_over_merits"
+
+answer_array:
+  geometry: "2 denied / 2 granted"
+  denied_choices:
+    - "A"
+    - "B"
+  granted_choices:
+    - "C"
+    - "D"
+  dominant_trap:
+    choice: "D"
+    original_pct: 30
+    trap: "Grand jury evidence-rule laxity overread to erase privilege."
+  key_silver_key:
+    id: "SK-CRIMINAL-PRIVILEGE-LAYER-01"
+    statement: "When an answer says grand jury rules are relaxed, ask whether the stem is really testing privilege first. Privilege is a threshold layer, not an ordinary trial-evidence rule."
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Survivor: privilege through lawyer's representative."
+    c3_signal: "The consultant was hired by the lawyer and interviewed the client for the sentencing plan."
+    lawyer_confirmation: "Confidential client communications to a lawyer's hired representative for legal representation can be privileged; privilege survives grand jury setting."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "fabricated_rule"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "procedural_frame"
+    wrong_answer_architecture_tags:
+      - "sounds_lawyerly"
+      - "wrong_standard"
+      - "bar_exam_bait"
+      - "answer_to_different_question"
+    method_class: "anchor_assisted"
+    student_label: "Wrong reason: invented probable-cause threshold."
+    c3_signal: "The answer gives the right outcome but adds a threshold the call does not visibly supply."
+    lawyer_confirmation: "Grand jury subpoenas do not require the government to show probable cause that the information is relevant before inquiry."
+  C:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "wrong_party"
+      - "exception_omitted"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "True fact, wrong element: nonlawyer status is not the privilege question."
+    c3_signal: "It answers only 'is Barnabas an attorney?' The stem points to 'was he the lawyer's representative?'"
+    lawyer_confirmation: "Privilege may extend to nonlawyer representatives hired to assist counsel."
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "exception_omitted"
+      - "half_right_answer"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Dominant trap: true-sounding grand jury rule, privilege exception omitted."
+    c3_signal: "It treats 'ordinary evidence rules are relaxed' as if it also erased privilege."
+    lawyer_confirmation: "FRE 1101 excepts privilege from the grand-jury nonapplicability rule."
+
+residual_answer:
+  choice: "A"
+  reason: "After the anchor-assisted cuts, A is the only answer that is both true and responsive to the motion."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B invents a probable-cause threshold."
+      access: "anchor_assisted"
+    - claim: "C answers the wrong role question."
+      access: "anchor_assisted"
+    - claim: "D omits the privilege exception to relaxed grand-jury evidence rules."
+      access: "anchor_assisted"
+    - claim: "A survives because Barnabas was hired by the lawyer for representation."
+      access: "anchor_assisted"
+  quarantined_lawyer_confirmation:
+    - "Federal Rule of Evidence 501 privilege framework."
+    - "Federal Rule of Evidence 1101(c)-(d)(2)."
+    - "United States v. Kovel."
+    - "United States v. R. Enterprises."
+  drift_audit: "No distractor is labeled hard-structural where the decisive defect requires a privilege/grand-jury anchor."
+
+gold_keys:
+  - id: "GK-CRIMINAL-PRIVILEGE-AGENT-01"
+    statement: "Attorney-client privilege can cover confidential client communications with a nonlawyer hired by the lawyer to help legal representation."
+    type: "rule"
+    unlocks: "Choice C and the credited answer A."
+    trigger: "Lawyer hires consultant; consultant interviews defendant for sentencing/legal plan."
+    tested_choice: "C"
+    authority: "United States v. Kovel; FRE 501"
+    last_minute_review: true
+  - id: "GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02"
+    statement: "Grand jury proceedings relax many ordinary evidence rules, but privilege rules still apply."
+    type: "exception"
+    unlocks: "Choice D."
+    trigger: "Grand jury subpoena plus attorney-client privilege claim."
+    tested_choice: "D"
+    authority: "FRE 1101(c)-(d)(2)"
+    last_minute_review: true
+  - id: "GK-CRIMINAL-GRAND-JURY-THRESHOLD-03"
+    statement: "A grand jury generally does not need a probable-cause showing that a witness's information is relevant before asking questions."
+    type: "threshold"
+    unlocks: "Choice B."
+    trigger: "Grand jury subpoena challenged by a made-up preliminary relevance/probable-cause threshold."
+    tested_choice: "B"
+    authority: "United States v. R. Enterprises"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIMINAL-PRIVILEGE-GJ-14626"
+  title: "Privilege is not just another trial evidence rule"
+  signal: "Lawyer hires nonlawyer helper + grand jury subpoena."
+  student_move: "Ask whether the helper is inside the lawyer's legal-representation team before applying ordinary grand-jury evidence-rule shortcuts."
+  tiny_rule: "Lawyer's representative can be privileged; grand jury does not erase privilege."
+  trap: "The consultant is not an attorney / grand jury evidence rules are relaxed."
+  confidence: "ANCHOR_ASSISTED"
+
+silver_keys:
+  - id: "SK-CRIMINAL-PRIVILEGE-LAYER-01"
+    statement: "When the choices split between privilege and grand-jury evidence-rule laxity, put privilege first. Privilege is a threshold layer."
+    type: "call_focus"
+    navigates: "D's dominant trap."
+    trigger: "Grand jury subpoena seeks lawyer-team communication."
+    tested_choice: "D"
+    outline_code: "00000000"
+    last_minute_review: true
+
+distilled_core_question: "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?"
+review_truth: "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege."
+
+case_study_output:
+  final_student_script: "Paul hired Barnabas to help with Lydia's sentencing plan. That is lawyer-team work. Grand jury rules are broad, but privilege survives. Cut B's invented probable-cause threshold, cut C's nonlawyer-status trap, cut D's privilege-exception omission. Pick A."
+  one_line_answer: "A — denied on attorney-client privilege."
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  no_clutter_doctrine_added: true
+  popular_bible_names_only: true
+  answer_array_geometry_preserved: true
+  exactly_three_distractors_single_filter: true
+  residual_equals_official_key: true
+  pass_available: true
+  gold_keys_present_if_anchor_dependent: true
+  silver_key_present_for_non_obvious_navigation: true
+  pick_rate_provenance_honest: true
+
+analytics_hooks:
+  trap_family:
+    - "privilege_agent_extension"
+    - "grand_jury_evidence_rule_overread"
+    - "right_result_wrong_reason"
+  student_weakspots:
+    - "confuses lawyer with lawyer representative"
+    - "overapplies grand jury evidence laxity"
+    - "chooses correct outcome for fabricated reason"
+  remediation_route:
+    - "Gold Key drill: lawyer representative privilege"
+    - "Gold Key drill: privilege survives grand jury"
+    - "Silver Key drill: threshold layer before forum shortcut"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is an anchor-assisted Criminal / constitutional-protection question. The surface is a grand jury motion. The real gate is privilege.
+
+The job is not to outline grand jury law. The job is to keep the layers straight:
+
+1. Who hired the consultant?
+2. Why did the interview happen?
+3. Does grand jury evidence-rule laxity override privilege?
+
+## student_access_test
+
+A smart 10-year-old with only the universal C3 lessons could see that:
+
+* B gives the right result but a suspicious, lawyer-sounding threshold.
+* C focuses on one fact: Barnabas is not an attorney.
+* D uses broad grand jury language.
+
+But the student could **not** fully solve the item without the Gold Keys. The decisive rules are anchor-assisted:
+
+* lawyer’s representative can be privileged;
+* privilege survives grand jury proceedings;
+* no probable-cause showing is required to ask grand jury questions.
+
+## question_data
+
+* **Question ID:** 14626_lydias_sentencing_plan
+* **Transformed from:** 14626
+* **Subject:** CRIMINAL
+* **Topic:** Criminal Law
+* **Subtopic:** Constitutional Protection of Accused Persons
+* **Official key:** A
+* **Original pick rates:** A 58%, B 2%, C 10%, D 30%
+* **Dominant trap:** D
+
+## distilled_core_question
+
+Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?
+
+## call_and_prediction
+
+**Call:** The motion to compel Barnabas to answer should be granted or denied.
+
+**Prediction:** Denied if the consultant is inside attorney-client privilege. The prosecution’s grand jury posture matters, but privilege must be checked first.
+
+Adjacent-call traps:
+
+* “Do grand jury evidence rules differ from trial rules?”
+* “Is Barnabas personally an attorney?”
+* “Did the prosecution show probable cause to believe the interview is relevant?”
+
+## trigger_facts
+
+| Fact                                           | Why it matters                                         |
+| ---------------------------------------------- | ------------------------------------------------------ |
+| Paul hired Barnabas.                           | Barnabas is connected to the lawyer, not just Lydia.   |
+| Barnabas was hired for a sentencing plan.      | The purpose is legal representation.                   |
+| Barnabas interviewed Lydia for that purpose.   | The communication is tied to the lawyer’s work.        |
+| Grand jury subpoenaed Barnabas.                | Creates the grand-jury trap.                           |
+| Questions concern the conversation with Lydia. | The exact thing sought is the protected communication. |
+
+## governing_c3_lane
+
+**Lane:** Privilege threshold before grand-jury merits.
+
+**Subject FIT:** Criminal procedure questions often tempt students to jump to government power. Here, the first layer is whether a protected attorney-client communication exists.
+
+**Deciding method:** CALL by Gold Key.
+
+## choice_by_choice_walkthrough
+
+### Choice A — Denied, on the basis of the attorney-client privilege.
+
+1. **Student-accessible C3 signal:** The facts repeatedly tie Barnabas to Paul’s legal work: hired by the attorney, sentencing plan, interview for that purpose.
+2. **Student label:** Survivor — lawyer-team privilege.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** The attorney-client privilege can include communications through a lawyer’s nonlawyer representative when the communication is confidential and made to help legal representation. Privilege rules also apply in grand jury proceedings. ([Justia Law][3])
+
+### Choice B — Denied, due to the absence of probable cause to believe the interview developed evidence relevant to the grand jury’s inquiry.
+
+1. **Student-accessible C3 signal:** Right outcome, suspicious reason. It adds a probable-cause threshold not visible from the call.
+2. **Student label:** Wrong reason — fabricated threshold.
+3. **What a true/responsive version would look like:** “Denied because the questions seek privileged communications with the lawyer’s representative.”
+4. **Lawyer confirmation:** A grand jury subpoena generally does not require the government to make a probable-cause showing first; the grand jury investigates to determine whether probable cause exists. ([Justia Law][4])
+
+### Choice C — Granted, because Barnabas is not an attorney.
+
+1. **Student-accessible C3 signal:** The answer spots a true fact but stops too early. The stem does not ask whether Barnabas is an attorney. It asks whether his conversation with Lydia must be disclosed.
+2. **Student label:** Wrong element — nonlawyer status is not dispositive.
+3. **What a true/responsive version would look like:** “Granted if Barnabas were an ordinary outsider not hired to assist Paul’s legal representation.”
+4. **Lawyer confirmation:** The privilege can extend to a nonlawyer hired by the lawyer to assist the lawyer’s legal advice. *Kovel* gives the core representative-helper principle. ([Justia Law][3])
+
+### Choice D — Granted, because exclusionary evidentiary rules do not apply in grand jury proceedings.
+
+1. **Student-accessible C3 signal:** This is the attractive general-rule answer. It says “grand jury rules are relaxed” and tries to end the question there.
+2. **Student label:** Dominant trap — half-truth with privilege exception omitted.
+3. **What a true/responsive version would look like:** “Granted if only an ordinary trial evidence exclusion were at issue and no privilege applied.”
+4. **Lawyer confirmation:** Rule 1101 states that privilege rules apply to all stages, and that the rules except privilege do not apply to grand jury proceedings. D erases the exception. ([Legal Information Institute][2])
+
+## residual_answer
+
+After anchor-assisted cuts, only **A** remains.
+
+**Residual:** A — denied, on attorney-client privilege.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* The answer array clearly pits privilege against grand jury evidence-rule looseness.
+* C visibly stops at “not an attorney,” while the stem emphasizes “hired by attorney.”
+* D visibly uses broad grand-jury language.
+
+Anchor-assisted:
+
+* Privilege extends to a lawyer’s representative.
+* Privilege survives grand jury proceedings.
+* Grand jury questioning does not require a probable-cause threshold for relevance.
+
+Drift audit: No choice is called false on lawyer-only grounds without marking the needed Gold Key.
+
+## final_student_script
+
+“Paul hired Barnabas to help with Lydia’s sentencing plan. That puts Barnabas on the lawyer’s legal team. B has the right result for the wrong reason. C stops at the fact that Barnabas is not an attorney, but the issue is representative privilege. D is the trap: grand jury rules are broad, but privilege still applies. Pick A.”
+
+## remediation_card
+
+**REM-CRIMINAL-PRIVILEGE-GJ-14626 — Privilege beats the grand jury shortcut**
+
+* **Signal:** Lawyer hires nonlawyer consultant; grand jury subpoenas consultant.
+* **Student move:** Ask whether the consultant is part of legal representation before applying ordinary grand-jury evidence-rule shortcuts.
+* **Tiny rule:** Lawyer representative can be privileged; grand jury does not erase privilege.
+* **Trap:** “Not an attorney” and “grand jury evidence rules are relaxed.”
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-PRIVILEGE-AGENT-01**
+Attorney-client privilege can cover confidential client communications with a nonlawyer hired by the lawyer to help legal representation.
+
+**GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02**
+Grand jury proceedings relax many ordinary evidence rules, but privilege rules still apply.
+
+**GK-CRIMINAL-GRAND-JURY-THRESHOLD-03**
+A grand jury generally does not need a probable-cause showing that a witness’s information is relevant before asking questions.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-PRIVILEGE-LAYER-01**
+When the choices split between privilege and grand-jury evidence-rule laxity, put privilege first. Privilege is a threshold layer.
+
+## qa_checklist
+
+| Check                                                           | Result |
+| --------------------------------------------------------------- | ------ |
+| Rule unchanged                                                  | Pass   |
+| Correct answer unchanged                                        | Pass   |
+| Dominant trap preserved                                         | Pass   |
+| Christian flavor adds no new legal issue                        | Pass   |
+| No clergy privilege / church doctrine / First Amendment clutter | Pass   |
+| Three distractors, each one filter                              | Pass   |
+| Residual equals official key                                    | Pass   |
+| Verdict PASS available                                          | Pass   |
+| Anchor dependence honestly labeled                              | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Wrong pick | Why student picks it                            | Missed move                                        | Recovery                                           |
+| ---------- | ----------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| B          | Wants denial and grabs the first denial reason. | Did not separate result from reason.               | “Correct result, wrong because” drill.             |
+| C          | Thinks privilege requires literal attorney.     | Missed representative layer.                       | Drill: lawyer hires helper → privilege can extend. |
+| D          | Knows grand jury evidence rules are relaxed.    | Overread general rule; missed privilege exception. | Drill: ordinary evidence rule vs privilege.        |
+
+## outline_mastery_map
+
+* **Placement:** Criminal procedure / accused protections / privilege in criminal process.
+* **This item teaches:** Privilege as a threshold limit on grand jury questioning.
+* **Fills:** lawyer representative privilege; grand jury evidence-rule exception.
+* **Adjacent to master:** Evidence privileges; grand jury subpoena powers; work-product/consultant confusion.
+
+## crossover_intersection_map
+
+| Intersection                           | Why it matters                                                          |
+| -------------------------------------- | ----------------------------------------------------------------------- |
+| Criminal Procedure × Evidence          | Grand jury subpoena seeks testimony, but privilege governs.             |
+| Evidence × Professional Responsibility | Lawyer’s representative/helper concept.                                 |
+| Sentencing × Grand Jury                | Sentencing-prep communication later targeted in separate investigation. |
+
+## review_truth
+
+A lawyer’s nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14626_lydias_sentencing_plan",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?",
+  "review_truth": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "lawyer-representative privilege vs ordinary grand-jury evidence-rule laxity",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold_over_merits",
+    "difficulty": 3,
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CRIMINAL-GRAND-JURY-THRESHOLD-03",
+        "explanation": "Invents a probable-cause threshold for grand jury questioning."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-PRIVILEGE-AGENT-01",
+        "explanation": "Barnabas's nonlawyer status is not dispositive because a lawyer's representative can be privileged."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02",
+        "explanation": "Ordinary evidence rules are relaxed in grand jury proceedings, but privilege rules still apply."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Anchor-assisted, not hard structural. No choice is called false without the needed privilege/grand-jury Gold Key. transformed_from: 14626",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-PRIVILEGE-AGENT-01",
+        "statement": "Attorney-client privilege can cover confidential client communications with a nonlawyer hired by the lawyer to help legal representation.",
+        "type": "rule",
+        "unlocks": "Choice C and the credited answer A.",
+        "trigger": "Lawyer hires consultant; consultant interviews defendant for sentencing/legal plan.",
+        "tested_choice": "C",
+        "authority": "United States v. Kovel; FRE 501",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02",
+        "statement": "Grand jury proceedings relax many ordinary evidence rules, but privilege rules still apply.",
+        "type": "exception",
+        "unlocks": "Choice D.",
+        "trigger": "Grand jury subpoena plus attorney-client privilege claim.",
+        "tested_choice": "D",
+        "authority": "FRE 1101(c)-(d)(2)",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIMINAL-GRAND-JURY-THRESHOLD-03",
+        "statement": "A grand jury generally does not need a probable-cause showing that a witness's information is relevant before asking questions.",
+        "type": "threshold",
+        "unlocks": "Choice B.",
+        "trigger": "Grand jury subpoena challenged by a made-up relevance/probable-cause threshold.",
+        "tested_choice": "B",
+        "authority": "United States v. R. Enterprises",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-PRIVILEGE-LAYER-01",
+        "statement": "When the choices split between privilege and grand-jury evidence-rule laxity, put privilege first. Privilege is a threshold layer.",
+        "type": "call_focus",
+        "navigates": "D's dominant trap.",
+        "trigger": "Grand jury subpoena seeks lawyer-team communication.",
+        "tested_choice": "D",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14626_lydias_sentencing_plan",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?",
+  "review_truth": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+  "tension": {
+    "name": "Privilege threshold vs grand-jury evidence-rule laxity",
+    "axis": "Does the grand jury setting erase the privilege claim?",
+    "resolver": "Barnabas was hired by the defense lawyer to assist legal representation, and privilege survives grand jury proceedings."
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "fabricated_rule",
+      "architecture": "procedural_frame",
+      "why_attractive": "It reaches the correct denial outcome and sounds like a procedural protection.",
+      "focus_group_pct": 2
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Students may think privilege protects only direct attorney conversations.",
+      "focus_group_pct": 10
+    },
+    {
+      "choice": "D",
+      "mold": "half_truth",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "Students know grand jury proceedings are not governed by ordinary trial evidence rules.",
+      "focus_group_pct": 30
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIMINAL-PRIVILEGE-GJ-14626",
+    "title": "Privilege is not just another trial evidence rule",
+    "signal": "Lawyer hires nonlawyer helper + grand jury subpoena.",
+    "student_move": "Ask whether the helper is inside the lawyer's legal-representation team before applying ordinary grand-jury evidence-rule shortcuts.",
+    "tiny_rule": "Lawyer's representative can be privileged; grand jury does not erase privilege.",
+    "trap": "The consultant is not an attorney / grand jury evidence rules are relaxed.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "right_result_wrong_reason",
+    "nonlawyer_privilege_misread",
+    "grand_jury_general_rule_overread",
+    "privilege_vs_exclusionary_rule_confusion",
+    "anchor_as_structure_drift"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14626_lydias_sentencing_plan",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?",
+  "review_truth": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student sees that the motion should be denied and accepts a lawyer-sounding procedural threshold.",
+      "skipped_move": "Because-check: correct result plus wrong reason is wrong.",
+      "recovery_step": "Ask whether the answer's stated threshold is actually supplied by a taught rule or Gold Key."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats literal attorney status as the privilege trigger.",
+      "skipped_move": "Role-layer check: hired by lawyer for legal representation.",
+      "recovery_step": "Recall GK-CRIMINAL-PRIVILEGE-AGENT-01."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The student knows grand jury proceedings relax ordinary evidence rules and stops there.",
+      "skipped_move": "Privilege-before-forum shortcut.",
+      "recovery_step": "Recall GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02 and apply SK-CRIMINAL-PRIVILEGE-LAYER-01."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "lawyer representative privilege",
+      "prompt": "A lawyer hires a nonlawyer consultant to interview the client for legal strategy. Is the communication automatically unprivileged because the consultant is not a lawyer?",
+      "answer": "No. A lawyer's representative can be inside privilege when assisting legal representation."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "grand jury half-truth",
+      "prompt": "Grand jury proceedings relax ordinary trial evidence rules. Does that mean attorney-client privilege does not apply?",
+      "answer": "No. Privilege rules still apply."
+    },
+    {
+      "drill_type": "because_check",
+      "target_skill": "right result wrong reason",
+      "prompt": "The motion should be denied, but the answer says denied because no probable cause showed relevance. What is the defect?",
+      "answer": "Correct result, fabricated threshold."
+    },
+    {
+      "drill_type": "choice_role_sort",
+      "target_skill": "wrong element",
+      "prompt": "Choice says granted because the consultant is not an attorney. What question does it answer, and what question should it answer?",
+      "answer": "It answers literal attorney status. It should answer whether the consultant was a lawyer's representative for legal representation."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "dominant_trap_D",
+      "half_truth_grand_jury",
+      "wrong_element_nonlawyer_status",
+      "fabricated_threshold"
+    ],
+    "misconception_tags": [
+      "privilege_only_attorney",
+      "grand_jury_erases_privilege",
+      "correct_outcome_is_enough",
+      "probable_cause_needed_for_subpoena_questions"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Gold Key Deck",
+      "reason": "Item is not clean hard-structural; privilege anchors decide."
+    },
+    {
+      "component": "Silver Key Deck",
+      "reason": "Student must navigate privilege as threshold layer before grand-jury evidence-rule shortcut."
+    },
+    {
+      "component": "Wrong Answer Recovery",
+      "reason": "D has high trap pull and requires exception-omitted diagnosis."
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "EVIDENCE",
+      "intersection": "privilege and policy exclusions"
+    },
+    {
+      "subject": "CRIMINAL",
+      "intersection": "grand jury subpoena practice"
+    },
+    {
+      "subject": "PROFESSIONAL_RESPONSIBILITY",
+      "intersection": "lawyer agents and confidential communications"
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-PRIVILEGE-AGENT-01",
+      "statement": "Attorney-client privilege can cover confidential client communications with a nonlawyer hired by the lawyer to help legal representation.",
+      "type": "rule",
+      "unlocks": "Choice C and the credited answer A.",
+      "trigger": "Lawyer hires consultant; consultant interviews defendant for sentencing/legal plan.",
+      "tested_choice": "C",
+      "authority": "United States v. Kovel; FRE 501",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02",
+      "statement": "Grand jury proceedings relax many ordinary evidence rules, but privilege rules still apply.",
+      "type": "exception",
+      "unlocks": "Choice D.",
+      "trigger": "Grand jury subpoena plus attorney-client privilege claim.",
+      "tested_choice": "D",
+      "authority": "FRE 1101(c)-(d)(2)",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-GRAND-JURY-THRESHOLD-03",
+      "statement": "A grand jury generally does not need a probable-cause showing that a witness's information is relevant before asking questions.",
+      "type": "threshold",
+      "unlocks": "Choice B.",
+      "trigger": "Grand jury subpoena challenged by a made-up relevance/probable-cause threshold.",
+      "tested_choice": "B",
+      "authority": "United States v. R. Enterprises",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-PRIVILEGE-LAYER-01",
+      "statement": "When the choices split between privilege and grand-jury evidence-rule laxity, put privilege first. Privilege is a threshold layer.",
+      "type": "call_focus",
+      "navigates": "D's dominant trap.",
+      "trigger": "Grand jury subpoena seeks lawyer-team communication.",
+      "tested_choice": "D",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Procedure / Constitutional Protection of Accused Persons / privilege in grand jury setting",
+    "this_item_teaches": "Privilege as a threshold limit on grand jury questioning when a lawyer's representative is involved.",
+    "fills": [
+      "attorney-client privilege representative extension",
+      "grand jury privilege exception",
+      "right-result-wrong-reason diagnosis"
+    ],
+    "adjacent_to_master": [
+      "Evidence privilege rules",
+      "grand jury subpoena powers",
+      "consulting expert / representative confusion",
+      "work product vs attorney-client privilege"
+    ]
+  }
+}
+```
+
+[1]: https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title28%2Ftitle28a%2Fnode232%2Farticle5 "28 USC App, FEDERAL RULES OF EVIDENCE, ARTICLE V: PRIVILEGES"
+[2]: https://www.law.cornell.edu/rules/fre/rule_1101 "Rule 1101. Applicability of the Rules | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+[3]: https://law.justia.com/cases/federal/appellate-courts/F2/296/918/131265/ "                United States v. Kovel, 296 F.2d 918 (2d Cir. 1961) :: Justia    "
+[4]: https://supreme.justia.com/cases/federal/us/498/292/ " United States v. R. Enterprises | 498 U.S. 292 (1991) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14626_lydias_sentencing_plan",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?",
+  "review_truth": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14626; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14626_lydias_sentencing_plan",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?",
+  "review_truth": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14626",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14626_lydias_sentencing_plan",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Defense lawyer hires a nonlawyer consultant to interview defendant for sentencing. Grand jury subpoenas consultant about that interview. Must consultant answer?",
+  "review_truth": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "A lawyer's nonlawyer consultant can be inside attorney-client privilege, and grand jury evidence-rule laxity does not erase privilege.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

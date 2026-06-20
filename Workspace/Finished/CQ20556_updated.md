@@ -1,0 +1,1037 @@
+---
+qid: "20556_mustard_seed_puppet_caravan"
+transformed_from: "20556"
+subject: "CONTRACTS"
+topic: "Performance, Breach, and Discharge"
+subtopic: "Prospective inability to perform; reliance before cure"
+outline_code: "56050403"
+key: "C"
+original_key: "D"
+letter_map: "- original_letter: A"
+dominant_trap: "choice: B"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source row: BARMATRIX Q#20556 supplies the contract stem, choices, official key D, and official explanation. 
+
+### 1. Final question — revised stem + call
+
+Martha owns and operates **Mustard Seed Puppet Caravan**, a private for-profit company that tours Bible-story puppet shows for families. The caravan hires only one full-time performer-driver for each tour season because that person travels with the caravan, sleeps in its bunk compartment, receives meals, drives between towns, and maintains the puppets and sound equipment.
+
+On September 3, Stephen entered into a valid written contract with Martha. Under the contract, Stephen was to begin traveling with the caravan on January 10 and continue until July 10. Martha was to pay Stephen $18,500 at the end of the season, and Stephen was to receive meals and bunk space during the tour.
+
+On September 18, Stephen signed a three-year contract to join an overseas gospel recording tour. That tour was scheduled to begin on December 20. A notice of Stephen’s new tour contract appeared in the “Praise Notes” column of a local arts newsletter and was read by Martha’s managers. Martha immediately began looking for another performer-driver. On December 5, Martha entered into a valid written contract with Barnabas on terms identical to Stephen’s contract.
+
+On December 12, Stephen failed the overseas tour’s health-clearance requirement and was released from that contract. On January 10, Stephen arrived at Martha’s garage ready to travel with the caravan, but Martha told him that his services were not needed.
+
+If Stephen asserts a claim against Martha for damages resulting from breach of contract, the court should find for whom?
+
+### 2. Distilled Core Question
+
+A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready to perform. Who wins the breach claim?
+
+### 3. Final answer choices — post-shuffle
+
+A. Stephen, since he never personally notified Martha that he would not report for the caravan job.
+
+B. Martha, since Stephen’s contract with the overseas tour was an anticipatory repudiation of his contract with Martha.
+
+C. Martha, since Martha hired Barnabas in reliance on the reasonable belief that Stephen would be unable to perform as agreed.
+
+D. Stephen, since he was ready, willing, and able to perform as agreed on January 10.
+
+### 5. Correct answer
+
+**C**. Source row key: **D**.
+
+### 6. Letter Map
+
+| Source letter | New letter | Mechanic                                     | Substance | Pick %                                      |
+| ------------- | ---------: | -------------------------------------------- | --------- | ------------------------------------------- |
+| A             |          D | wrong_element / wrong timing                 | kept      | null — predicted; no measured rate supplied |
+| B             |          A | wrong_element / direct-notice lure           | kept      | null — predicted; no measured rate supplied |
+| C             |          B | bait_doctrine / label-only repudiation frame | kept      | null — predicted; no measured rate supplied |
+| D             |          C | correct_answer                               | kept      | null — predicted; no measured rate supplied |
+
+### 7. Full right-answer explanation
+
+**C is correct.** Martha reasonably treated Stephen’s overseas-tour contract as creating a prospective inability to perform the puppet-caravan contract. The fact that matters is not Stephen’s later readiness on January 10. The fact that matters is that Martha changed position first by hiring Barnabas on identical terms while Stephen still appeared unavailable.
+
+**Gold Key:** A future-performance problem is locked when one side reasonably relies before the apparent inability disappears. Later readiness does not undo a completed, reasonable replacement step.
+
+**Silver Key:** When one defendant answer gives the reliance/timing fact and another gives only a legal label, keep the fact-loaded answer. The answer that uses the reliance fact is doing the work.
+
+### 8. Full wrong-answer explanations
+
+**A.** This answer sells the direct-notice trap: Stephen did not personally tell Martha he would miss the job, so the answer feels protective of Stephen. The breaker is that the call does not turn on personal notice; it turns on Martha’s reasonable knowledge and reliance before Stephen’s obstacle disappeared.
+
+**B.** This answer sells the right neighborhood: future nonperformance, repudiation, and contract discharge are all in the same doctrinal area. **Gold Key:** the item is testing reliance on apparent inability before cure, not the bare label “anticipatory repudiation.” **Silver Key:** the label-only defendant answer loses to the defendant answer that states the reliance/timing fact.
+
+**D.** This answer sells the strongest plaintiff fact: Stephen was ready on the performance date. The breaker is timing. Martha had already hired Barnabas in reasonable reliance before Stephen’s overseas-tour obstacle disappeared.
+
+### 9. Black-letter-law verification and legal reasoning
+
+The governing legal layer is unchanged from the supplied row: apparent future inability to perform plus justified detrimental reliance by the other contracting party. Restatement-style terminology recognizes that a repudiation can be a statement or a voluntary act making the obligor unable or apparently unable to perform; it also recognizes that repudiation or its basis is nullified only if the retraction or changed event reaches the injured party before the injured party materially changes position in reliance. Here, Martha materially changed position by contracting with Barnabas before Stephen was released from the overseas-tour contract, so the credited result remains for Martha. ([Matthew Miner][1])
+
+The transformed item preserves the official issue and outcome. It also preserves the trap around later readiness and the nearby “anticipatory repudiation” label. The lawyer-confirmation layer notes a terminology seam: modern Restatement language can describe voluntary acts causing apparent inability as repudiation, but the tested answer is still the reliance/timing answer because it states the fact that defeats later cure. ([Matthew Miner][1])
+
+### 10. Why the variation preserves rigor/difficulty
+
+The variation keeps the same legal engine: valid executory service contract, voluntary later commitment that appears to make performance impossible, reasonable notice to the other party, substitute contract before the obstacle disappears, later readiness, breach claim. It changes the story surface, but not the legal timing trap.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** True-looking, but not responsive. It answers “did Stephen personally warn Martha?” The call asks whether Martha reasonably relied on apparent inability.
+
+**CUT D:** True-looking, but wrong timing. It answers “was Stephen ready on January 10?” The call turns on what Martha reasonably did before December 12.
+
+**CLASH B vs C:** Both are defendant answers. Axis: **bare label vs reliance fact**. The splitting fact is Martha’s December 5 replacement contract, which came before Stephen’s December 12 release. C wins.
+
+**CALL:** No residual call needed after the Gold Key and Silver Key.
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Hotel/resort → private Bible-story puppet caravan.                                                                        |
+| Transaction frame          | Resident winter caretaker → full-season performer-driver contract.                                                        |
+| Specific facts             | Navy enlistment → three-year overseas gospel recording tour contract; Navy physical rejection → health-clearance release. |
+| Numbers                    | Aug. 1 / Oct. 1 / Apr. 1 / $10,000 → Sept. 3 / Jan. 10 / July 10 / $18,500.                                               |
+| Fact ordering / rhythm     | New stem opens with business/tour structure, then contract, then outside commitment, then replacement, then release.      |
+| Cast size / roles          | Owner/operator + caretaker + replacement → Martha + Stephen + Barnabas + managers.                                        |
+| Choice ordering            | Shuffled; source key moved to C.                                                                                          |
+| Choice phrasing            | Preserved legal substance; re-skinned to caravan facts.                                                                   |
+| Setting / era / texture    | Remote seasonal resort → mobile family puppet-show business.                                                              |
+| Call wording               | Equivalent breach-of-contract claimant call retained.                                                                     |
+| Skipped dimensions         | None. The single-performer fact stayed because it is needed to show reliance and detriment.                               |
+
+**Source stem summary:** A seasonal resort hired a winter caretaker who enlisted in the Navy, causing the resort to hire a replacement before he was rejected and later appeared for work.
+
+**Variant stem summary:** A Christian puppet caravan hired a performer-driver who signed with an overseas gospel tour, causing the caravan owner to hire a replacement before he lost that outside tour and later appeared.
+
+### 13. Review Truth
+
+Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.
+
+### 14. Five variations considered
+
+| Variation                                    | Setting / cast                                                                                                          | Preserved issue                                       | Memorable hook                                                            | Legal risk                                                             | Divergence score                                                                       |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Recommended: Mustard Seed Puppet Caravan** | Martha, Stephen, Barnabas; private Bible-story touring puppet business                                                  | Apparent inability + replacement reliance before cure | Gospel puppet caravan loses its sole performer-driver to an overseas tour | Low; private commercial contract, no church litigation                 | **10/10** — changes asset, job, outside commitment, dates, price, fact rhythm, texture |
+| Psalms-on-Air Radio Drama                    | Lydia hires Timothy as sole season-long radio narrator; Timothy joins a three-year overseas broadcast contract          | Same                                                  | Bible radio drama loses its only voice                                    | Medium; “sole voice” may imply uniqueness/specific performance clutter | 8/10                                                                                   |
+| Bethlehem Bread Truck Route                  | Naomi hires Peter as sole driver for a Christian-themed bakery food truck; Peter joins three-year relief-kitchen convoy | Same                                                  | Loaves-and-fishes food truck route                                        | Medium; food-service permits could clutter                             | 8/10                                                                                   |
+| Ruth’s Scripture Calligraphy Tour            | Ruth hires John as sole calligraphy demonstrator; John signs three-year overseas art ministry tour                      | Same                                                  | Traveling illuminated-manuscript show                                     | Low-medium; “artistry” may suggest uniqueness                          | 8/10                                                                                   |
+| Galilee Lantern Exhibit                      | Daniel hires Mary as sole lantern-exhibit guide; Mary signs three-year cruise entertainment contract                    | Same                                                  | Floating lantern exhibit                                                  | Medium; cruise/travel facts could distract                             | 7/10                                                                                   |
+
+---
+
+## B1) PASS-2 BLOCK 1 — Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20556_mustard_seed_puppet_caravan"
+  subject: CONTRACTS
+  subject_display: "Contract Law"
+  topic: "Performance, Breach, and Discharge"
+  subtopic: "Prospective inability to perform; reliance before cure"
+  outline_code: "56050403"
+  selection_percentages:
+    A:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+    B:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row; inferred dominant trap by legal proximity."
+    C:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+    D:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+  official_key: C
+  original_key_letter: D
+  call: "If Stephen asserts a claim against Martha for damages resulting from breach of contract, the court should find for whom?"
+  stem: >
+    Martha owns and operates Mustard Seed Puppet Caravan, a private for-profit company that tours Bible-story puppet shows for families.
+    The caravan hires only one full-time performer-driver for each tour season because that person travels with the caravan, sleeps in its bunk compartment,
+    receives meals, drives between towns, and maintains the puppets and sound equipment. On September 3, Stephen entered into a valid written contract with Martha.
+    Under the contract, Stephen was to begin traveling with the caravan on January 10 and continue until July 10. Martha was to pay Stephen $18,500 at the end
+    of the season, and Stephen was to receive meals and bunk space during the tour. On September 18, Stephen signed a three-year contract to join an overseas
+    gospel recording tour. That tour was scheduled to begin on December 20. A notice of Stephen's new tour contract appeared in the "Praise Notes" column of a
+    local arts newsletter and was read by Martha's managers. Martha immediately began looking for another performer-driver. On December 5, Martha entered into
+    a valid written contract with Barnabas on terms identical to Stephen's contract. On December 12, Stephen failed the overseas tour's health-clearance requirement
+    and was released from that contract. On January 10, Stephen arrived at Martha's garage ready to travel with the caravan, but Martha told him that his services were not needed.
+  choices:
+    A: "Stephen, since he never personally notified Martha that he would not report for the caravan job."
+    B: "Martha, since Stephen's contract with the overseas tour was an anticipatory repudiation of his contract with Martha."
+    C: "Martha, since Martha hired Barnabas in reliance on the reasonable belief that Stephen would be unable to perform as agreed."
+    D: "Stephen, since he was ready, willing, and able to perform as agreed on January 10."
+
+transform_provenance:
+  transformed_from: "20556"
+  variant_slug: "mustard_seed_puppet_caravan"
+  original_key_letter: D
+  new_key_letter: C
+  letter_map:
+    - original_letter: A
+      new_letter: D
+      mechanic: wrong_element
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+    - original_letter: B
+      new_letter: A
+      mechanic: wrong_element
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+    - original_letter: C
+      new_letter: B
+      mechanic: bait_doctrine
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+    - original_letter: D
+      new_letter: C
+      mechanic: correct_answer
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A seasonal resort hired a winter caretaker who enlisted in the Navy, causing the resort to hire a replacement before he was rejected and later appeared."
+    variant_stem_one_sentence: "A Christian puppet caravan hired a performer-driver who signed with an overseas gospel tour, causing the caravan owner to hire a replacement before he lost that outside tour and later appeared."
+    dimensions_changed:
+      - asset_subject_matter
+      - transaction_frame
+      - specific_facts
+      - numbers
+      - fact_ordering
+      - cast_roles
+      - choice_ordering
+      - choice_phrasing
+      - setting_texture
+      - call_wording_equivalent
+    dimensions_skipped_with_reason:
+      - dimension: "single role / replacement fact"
+        reason: "Necessary to preserve detrimental-reliance element."
+
+source_stack:
+  primary: "Uploaded source row for BARMATRIX 20556."
+  c3_taxonomy: "controlled_vocabularies.md"
+  universal_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 CUT → CLASH → CALL"
+    - "Lesson 7 predict call and dispositive fact"
+    - "Lesson 8 not-responsive molds"
+    - "Lesson 9 tension point / Clash"
+    - "Lesson 12 anchor deck"
+    - "Lesson 13 calibration"
+    - "Lesson 14 full workflow"
+  legal_confirmation:
+    - "Restatement (Second) of Contracts §§ 250, 253, 256."
+  official_explanation_quarantined: true
+
+student_access_contract:
+  allowed_without_anchor:
+    - "TRUE and RESPONSIVE frame"
+    - "wrong timing"
+    - "wrong element"
+    - "answer-to-different-question"
+    - "fact-loaded answer beats label-only answer"
+  taught_gold_keys:
+    - "GK-CONTRACTS-PROSPECTIVE-INABILITY-01"
+  taught_silver_keys:
+    - "SK-CONTRACTS-RELIANCE-TIMING-01"
+  prohibited_student_moves:
+    - "Do not say a contract-law label is false unless the Gold Key supplies the distinction."
+    - "Do not rely on Restatement terminology in the student path."
+
+stem_parse:
+  parties:
+    claimant: "Stephen"
+    defendant: "Martha"
+    replacement: "Barnabas"
+  contract_type: "executory personal-service / employment-style service contract"
+  performance_start: "January 10"
+  performance_end: "July 10"
+  payment: "$18,500 at end of season"
+  outside_commitment:
+    date: "September 18"
+    duration: "three years"
+    start: "December 20"
+  defendant_knowledge: "Local arts newsletter read by Martha's managers."
+  defendant_reliance: "Martha hired Barnabas on December 5 on identical terms."
+  cure_or_obstacle_removed: "Stephen released from outside tour on December 12."
+  later_tender: "Stephen appeared ready on January 10."
+  adjacent_call_traps:
+    - "Was Stephen ready on the performance date?"
+    - "Did Stephen personally notify Martha?"
+    - "What label describes Stephen's outside commitment?"
+  negative_stem_inversion: false
+
+trigger_facts:
+  - fact: "Stephen signed a three-year outside tour contract starting before his Martha contract performance."
+    access_label: anchor_assisted
+    role: "Creates apparent future inability."
+  - fact: "Martha's managers read the notice."
+    access_label: hard_structural
+    role: "Knowledge/reasonable belief trigger."
+  - fact: "Martha hired Barnabas on December 5."
+    access_label: hard_structural
+    role: "Reliance / material change of position."
+  - fact: "Stephen was released on December 12."
+    access_label: hard_structural
+    role: "Obstacle disappeared after reliance."
+  - fact: "Stephen appeared ready on January 10."
+    access_label: hard_structural
+    role: "Tempting plaintiff timing fact, not the deciding fact."
+
+c3_routing:
+  subject_fit: "Contracts = performance status + timing of discharge before merits."
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: C
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "hard"
+  tension_axis: "later readiness / label-only answer vs reliance before cure"
+  call_heuristic: "fact-engaged > abstract; timing fact controls"
+
+answer_array:
+  geometry: "3 plaintiff/label distractors versus 1 reliance-timing defendant answer; defendant pair B/C creates a label-vs-fact clash."
+  dominant_trap:
+    choice: B
+    basis: "inferred from legal proximity; no measured pick rates supplied"
+  silver_key_ref: "SK-CONTRACTS-RELIANCE-TIMING-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - answer_to_different_question
+      - wrong_standard
+      - sounds_lawyerly
+    method_class: anchor_assisted
+    student_label: "Direct-notice lure."
+    c3_signal: "The answer points to who spoke, but the stem gives Martha's knowledge and reliance."
+    lawyer_confirmation: "Direct personal notice is not the decisive element under the supplied prospective-inability/reliance rule."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - sounds_lawyerly
+      - bar_exam_bait
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "Label-only repudiation frame."
+    c3_signal: "This defendant answer gives a legal label but not the reliance-before-cure fact."
+    lawyer_confirmation: "Modern terminology may overlap, but the tested ground is the reliance/nullification sequence; the official row treats bare anticipatory-repudiation framing as the distractor."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Residual: reliance before cure."
+    c3_signal: "It uses the fact that Martha hired Barnabas before Stephen's outside-tour obstacle disappeared."
+    lawyer_confirmation: "The reliance-before-cure sequence supports discharge of Martha's duty under the tested rule."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - wrong_timing
+      - legally_true_but_irrelevant
+      - attractive_wrong_answer
+    method_class: anchor_assisted
+    student_label: "Later-readiness lure."
+    c3_signal: "The answer uses January 10; the trigger fact is December 5 before December 12."
+    lawyer_confirmation: "Later readiness does not defeat the prior justified material change of position."
+
+residual_answer:
+  choice: C
+  explanation: "C is the only answer that states both the defendant-side outcome and the reliance/timing fact that resolves the later cure."
+
+legal_leak_audit:
+  student_claims_allowed:
+    - "A and D fail because they answer the wrong timing or wrong element."
+    - "B fails because it is label-only and does not state the reliance fact."
+    - "C survives because it uses the reliance-before-cure fact."
+  quarantined_to_lawyer_confirmation:
+    - "Restatement terminology for repudiation."
+    - "The doctrinal distinction between prospective inability and anticipatory repudiation."
+    - "Effect of nullification / retraction after material reliance."
+  drift_audit: "No student-facing path says B is legally false; B is treated as anchor-assisted and not responsive to the tested reliance sequence."
+
+gold_keys:
+  - id: "GK-CONTRACTS-PROSPECTIVE-INABILITY-01"
+    statement: "If a party's own conduct makes future performance reasonably appear impossible, the other side can be discharged when it materially changes position in reliance before the obstacle disappears."
+    type: distinction
+    unlocks: "later-readiness and label-only traps"
+    trigger: "Outside commitment begins before contract performance; replacement hired before later release."
+    tested_choice: B
+    authority: "Restatement (Second) of Contracts §§ 250, 253, 256."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CONTRACTS-RELIANCE-TIMING-01"
+    statement: "In a future-performance clash, prefer the answer that states the reliance/timing fact over the answer that gives only a legal label."
+    type: clash
+    navigates: "B versus C defendant pair"
+    trigger: "Two defendant answers remain; one says only 'anticipatory repudiation,' the other says reliance."
+    tested_choice: B
+    outline_code: "56050403"
+    last_minute_review: true
+
+remediation:
+  card_id: "CONTRACTS-ANCHOR-PI-01"
+  title: "Prospective inability: reliance before cure"
+  signal: "Future performance appears impossible, then later becomes possible."
+  student_move: "Ask whether the other party changed position before the cure."
+  tiny_rule: "Reliance before cure locks the defendant-side discharge."
+  trap: "Later readiness feels decisive, but it is late."
+  confidence: ANCHOR_ASSISTED
+
+distilled_core_question: "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?"
+review_truth: "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared."
+
+case_study_output:
+  final_student_script: "Find the date Martha relied. Barnabas was hired on December 5. Stephen was released on December 12. Reliance came first. Pick C."
+  answer: C
+
+quality_control:
+  pass_conditions:
+    true_and_responsive_residual: true
+    three_single_filter_distractors: true
+    official_key_mapped_correctly: true
+    no_original_letters_outside_letter_map: true
+    pick_rate_honesty: "No measured rates supplied; all emitted as null/predicted."
+  legal_risk_note: "Terminology overlap with modern Restatement repudiation is quarantined under lawyer_confirmation and Gold Key."
+
+analytics_hooks:
+  trap_tags:
+    - reliance_before_cure
+    - later_readiness_lure
+    - label_only_repu_distractor
+    - direct_notice_lure
+  component_routing:
+    - "Lesson 7 call prediction"
+    - "Lesson 8 wrong element / bait doctrine"
+    - "Lesson 9 clash axis"
+    - "Lesson 12 anchor deck"
+    - "Lesson 13 calibration"
+```
+
+---
+
+## B2) PASS-2 BLOCK 2 — 17-section student case study
+
+## program_frame
+
+This is a Contracts timing question. Do not start with who feels fair. Start with the relied-on fact.
+
+## student_access_test
+
+A student can see A and D are aimed at tempting but late or incomplete facts. B needs the Gold Key because the problem with a bare “anticipatory repudiation” label is not visible without a tiny doctrine anchor. C becomes the residual once the student uses the reliance-before-cure trigger.
+
+## question_data
+
+**Question ID:** 20556_mustard_seed_puppet_caravan
+**Subject:** CONTRACTS
+**Credited answer:** C
+**Deciding phase:** CLASH
+**Confidence:** ANCHOR_ASSISTED
+**Case-study verdict:** ANCHOR_SOLVE
+
+## distilled_core_question
+
+A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready to perform. Who wins the breach claim?
+
+## call_and_prediction
+
+**Call:** Stephen sues Martha for breach. Who should the court find for?
+
+**Prediction:** Find the date of Martha’s reliance. If Martha hired a replacement before Stephen became available again, Stephen loses.
+
+## trigger_facts
+
+| Fact                                                                               | Why it matters                                                 |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Stephen signed a three-year outside tour contract beginning before the caravan job | Creates apparent inability.                                    |
+| Martha’s managers read the notice                                                  | Martha had a reason to believe Stephen would not be available. |
+| Martha hired Barnabas on December 5                                                | This is the reliance fact.                                     |
+| Stephen was released on December 12                                                | Cure came after reliance.                                      |
+| Stephen appeared ready on January 10                                               | Tempting, but late.                                            |
+
+## governing_c3_lane
+
+**Lane:** Contracts = performance status + timing of discharge.
+**Move:** CLASH the defendant answers on the reliance axis.
+**Gold Key needed:** yes.
+**Silver Key needed:** yes.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** A points to personal notice, but the stem already gives Martha knowledge through the newsletter and managers.
+2. **Student label:** Direct-notice lure.
+3. **What a true/responsive version would look like:** “Stephen wins because Martha lacked any reasonable basis to believe he could not perform before hiring Barnabas.”
+4. **Lawyer confirmation:** Direct personal notice is not the dispositive requirement. The relevant inquiry is reasonable belief plus reliance before cure.
+
+### B
+
+1. **Student-accessible C3 signal:** B gives a legal label but does not state the reliance-before-cure fact.
+2. **Student label:** Label-only repudiation frame.
+3. **What a true/responsive version would look like:** “Martha wins because Stephen’s outside commitment made performance appear impossible and Martha materially changed position before the obstacle disappeared.”
+4. **Lawyer confirmation:** This answer sits in the right legal neighborhood. The official item tests the reliance/nullification step, not the bare label.
+
+### C
+
+1. **Student-accessible C3 signal:** C uses the exact timing fact: Martha hired Barnabas before Stephen was released.
+2. **Student label:** Residual: reliance before cure.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** The reliance-before-cure sequence supports discharge of Martha’s duty.
+
+### D
+
+1. **Student-accessible C3 signal:** D uses a true fact, but it is the wrong date.
+2. **Student label:** Later-readiness lure.
+3. **What a true/responsive version would look like:** “Stephen wins because he became available before Martha materially changed position.”
+4. **Lawyer confirmation:** Stephen’s later readiness does not defeat Martha’s earlier reasonable replacement step.
+
+## residual_answer
+
+C remains. It is the only answer that combines the correct side with the reliance/timing fact.
+
+## legal_leak_audit
+
+Student-safe moves: wrong timing, wrong element, label-only answer, reliance fact controls.
+
+Quarantined doctrine: Restatement language about repudiation, nullification, and whether a voluntary act counts as repudiation.
+
+Drift audit: No student-facing path says B is legally false. B is anchor-assisted and not responsive to the tested reliance sequence.
+
+## final_student_script
+
+“Do not stop at January 10. Go backward. Martha hired Barnabas on December 5. Stephen was not released until December 12. Reliance came before cure. The answer that says reliance wins is C.”
+
+## remediation_card
+
+**Card:** CONTRACTS-ANCHOR-PI-01
+**Title:** Prospective inability: reliance before cure
+**Signal:** A future performer appears unavailable, then later becomes available.
+**Student move:** Ask whether the other side changed position first.
+**Tiny rule:** Reliance before cure locks the discharge.
+**Trap:** Later readiness feels decisive but is late.
+**Confidence:** ANCHOR_ASSISTED
+
+## Gold Key(s)
+
+**GK-CONTRACTS-PROSPECTIVE-INABILITY-01**
+If a party’s own conduct makes future performance reasonably appear impossible, the other side can be discharged when it materially changes position in reliance before the obstacle disappears. Trigger it when the stem gives an outside commitment, a replacement, and later restored availability.
+
+## Silver Key(s)
+
+**SK-CONTRACTS-RELIANCE-TIMING-01**
+When two defendant answers remain, prefer the one that states the reliance/timing fact over the one that gives only a legal label. The bar is rewarding the fact that locks the outcome.
+
+## qa_checklist
+
+| Check                                          | Status |
+| ---------------------------------------------- | ------ |
+| Correct answer post-shuffle consistent         | Pass   |
+| Original key mapped only in provenance         | Pass   |
+| Three distractors have one filter each         | Pass   |
+| Gold Key present for anchor-dependent move     | Pass   |
+| Silver Key present for answer-array navigation | Pass   |
+| Pick-rate provenance honest                    | Pass   |
+| Legal authority quarantined                    | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Recovery                                                                   |
+| ------ | -------------------------------------------------------------------------- |
+| A      | Replace “who told whom” with “what did Martha know and when did she rely?” |
+| B      | Replace the legal label with the reliance/timing fact.                     |
+| D      | Replace performance-date readiness with the earlier reliance date.         |
+
+## outline_mastery_map
+
+**Outline code:** 56050403
+**Placement:** Contracts → Performance, Breach, and Excuse → Breach → Anticipatory repudiation / prospective inability.
+**This item teaches:** future inability plus reliance before cure.
+**Adjacent mastery:** anticipatory repudiation, retraction, adequate assurances, material change in reliance.
+
+## crossover_intersection_map
+
+| Crossover                | Intersection                                    |
+| ------------------------ | ----------------------------------------------- |
+| Anticipatory repudiation | Bare label is not enough here.                  |
+| Retraction / cure        | Cure must precede material reliance.            |
+| Adequate assurances      | Same insecurity family; not the exact call.     |
+| Issue-Sense              | True facts can still be late facts.             |
+| Calibration              | Anchor-assisted; commit after the timing check. |
+
+## review_truth
+
+Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.
+
+---
+
+## B3) PASS-2 BLOCK 3 — DB-ready `c3_annotation`
+
+```json
+{
+  "question_id": "20556_mustard_seed_puppet_caravan",
+  "subject": "CONTRACTS",
+  "credited_answer": "C",
+  "outline_code": "56050403",
+  "distilled_core_question": "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?",
+  "review_truth": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "later readiness / label-only answer vs reliance before cure",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "fact-engaged > abstract",
+    "difficulty": "hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "CONTRACTS-ANCHOR-PI-01",
+        "explanation": "This choice answers personal notice, but the call turns on reasonable knowledge and reliance before cure."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CONTRACTS-PROSPECTIVE-INABILITY-01",
+        "explanation": "This choice gives a nearby legal label but omits the reliance-before-cure fact that resolves the item."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "CONTRACTS-ANCHOR-PI-01",
+        "explanation": "This choice uses the later performance-date fact, but the trigger fact is earlier reliance."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Student path does not assert that the label-only repudiation answer is legally false; it is treated as anchor-assisted and not responsive to the reliance-before-cure sequence. transformed_from: 20556. letter_map: A->D wrong_element; B->A wrong_element; C->B bait_doctrine; D->C correct_answer.",
+    "gold_keys": [
+      {
+        "id": "GK-CONTRACTS-PROSPECTIVE-INABILITY-01",
+        "statement": "If a party's own conduct makes future performance reasonably appear impossible, the other side can be discharged when it materially changes position in reliance before the obstacle disappears.",
+        "type": "distinction",
+        "unlocks": "later-readiness and label-only traps",
+        "trigger": "Outside commitment begins before contract performance; replacement hired before later release.",
+        "tested_choice": "B",
+        "authority": "Restatement (Second) of Contracts §§ 250, 253, 256.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONTRACTS-RELIANCE-TIMING-01",
+        "statement": "In a future-performance clash, prefer the answer that states the reliance/timing fact over the answer that gives only a legal label.",
+        "type": "clash",
+        "navigates": "B versus C defendant pair",
+        "trigger": "Two defendant answers remain; one says only a label and the other says reliance.",
+        "tested_choice": "B",
+        "outline_code": "56050403",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B4) PASS-2 BLOCK 4 — `program_elements`
+
+```json
+{
+  "question_id": "20556_mustard_seed_puppet_caravan",
+  "subject": "CONTRACTS",
+  "outline_code": "56050403",
+  "distilled_core_question": "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?",
+  "review_truth": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+  "tension": {
+    "axis": "reliance before cure",
+    "splitting_fact": "Martha hired Barnabas on December 5; Stephen was released on December 12."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student sees that Stephen never personally said he would miss the job and treats direct notice as decisive. The breaker is that Martha already had reasonable knowledge and changed position before Stephen became available again.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student recognizes future nonperformance vocabulary and grabs the most familiar label. The breaker is that the credited answer must state the reliance-before-cure fact, not merely a label.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student focuses on the clean plaintiff fact that Stephen appeared ready on the day performance was due. The breaker is that Martha's replacement contract came before Stephen's release from the outside tour.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CONTRACTS-ANCHOR-PI-01",
+    "title": "Prospective inability: reliance before cure",
+    "signal": "Future performance appears impossible, then later becomes possible.",
+    "student_move": "Ask whether the other party changed position before the cure.",
+    "tiny_rule": "Reliance before cure locks the defendant-side discharge.",
+    "trap": "Later readiness feels decisive, but it is late.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "wrong_timing",
+    "label_only_legal_answer",
+    "direct_notice_lure",
+    "prospective_inability_anchor",
+    "no_measured_pick_rates"
+  ]
+}
+```
+
+---
+
+## B5) PASS-2 BLOCK 5 — `program_intelligence`
+
+```json
+{
+  "question_id": "20556_mustard_seed_puppet_caravan",
+  "subject": "CONTRACTS",
+  "outline_code": "56050403",
+  "distilled_core_question": "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?",
+  "review_truth": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats lack of direct notice as the protective fact.",
+      "skipped_move": "Identify Martha's reasonable knowledge and reliance date.",
+      "recovery_step": "Ask what Martha knew and whether she changed position before Stephen's release."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student recognizes a familiar repudiation label and stops there.",
+      "skipped_move": "Compare the defendant answers and choose the fact-loaded one.",
+      "recovery_step": "Use the Silver Key: label-only loses to reliance/timing."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student focuses on Stephen's readiness on January 10.",
+      "skipped_move": "Run the timeline backward to December 5 and December 12.",
+      "recovery_step": "Mark reliance before cure."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "timeline_clash",
+      "target_skill": "CLASH",
+      "prompt": "Replacement hired December 5; outside commitment released December 12. Which date controls?",
+      "answer": "December 5 controls because reliance came before cure."
+    },
+    {
+      "drill_type": "label_vs_fact",
+      "target_skill": "Issue-Sense",
+      "prompt": "One answer says 'repudiation'; another says 'hired replacement in reliance.' Which is stronger?",
+      "answer": "The reliance answer."
+    },
+    {
+      "drill_type": "wrong_timing_cut",
+      "target_skill": "CUT",
+      "prompt": "A performer is ready on the start date after the company already hired a replacement. What is the trap?",
+      "answer": "Later readiness."
+    },
+    {
+      "drill_type": "notice_lure",
+      "target_skill": "CUT",
+      "prompt": "The performer never personally warned the company, but the company learned from a reliable notice. What is the trap?",
+      "answer": "Direct-notice wrong element."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "future_performance",
+      "prospective_inability",
+      "reliance_before_cure",
+      "label_only_distractor",
+      "later_readiness"
+    ],
+    "misconception_tags": [
+      "performance_date_controls_everything",
+      "direct_notice_required",
+      "legal_label_beats_fact",
+      "later_cure_revives_contract"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 7 Predict before you peek",
+    "Lesson 8 Not-responsive molds",
+    "Lesson 9 Tension points and Clash",
+    "Lesson 12 Anchor deck",
+    "Lesson 13 Calibration"
+  ],
+  "crossovers": [
+    {
+      "area": "Anticipatory repudiation",
+      "connection": "Nearby doctrine; label-only answer is the trap."
+    },
+    {
+      "area": "Retraction / cure",
+      "connection": "Cure matters only if it precedes material reliance."
+    },
+    {
+      "area": "Adequate assurance",
+      "connection": "Same insecurity family, but the item uses replacement reliance."
+    },
+    {
+      "area": "Reliance / estoppel",
+      "connection": "Material change of position is the fact that locks the result."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONTRACTS-PROSPECTIVE-INABILITY-01",
+      "statement": "If a party's own conduct makes future performance reasonably appear impossible, the other side can be discharged when it materially changes position in reliance before the obstacle disappears.",
+      "type": "distinction",
+      "unlocks": "later-readiness and label-only traps",
+      "trigger": "Outside commitment begins before contract performance; replacement hired before later release.",
+      "tested_choice": "B",
+      "authority": "Restatement (Second) of Contracts §§ 250, 253, 256.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONTRACTS-RELIANCE-TIMING-01",
+      "statement": "In a future-performance clash, prefer the answer that states the reliance/timing fact over the answer that gives only a legal label.",
+      "type": "clash",
+      "navigates": "B versus C defendant pair",
+      "trigger": "Two defendant answers remain; one says only a label and the other says reliance.",
+      "tested_choice": "B",
+      "outline_code": "56050403",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Contracts > Performance, Breach, and Excuse > Breach > Anticipatory repudiation / prospective inability",
+    "this_item_teaches": "Apparent future inability plus reliance before cure defeats later readiness.",
+    "fills": [
+      "prospective inability",
+      "material change in reliance",
+      "later cure timing",
+      "answer-array label-vs-fact clash"
+    ],
+    "adjacent_to_master": [
+      "anticipatory repudiation",
+      "retraction of repudiation",
+      "adequate assurances",
+      "material breach and discharge"
+    ]
+  }
+}
+```
+
+[1]: https://matthewminer.name/law/outlines/1L/2nd%2BSemester/LAW%2B506-002%2B%E2%80%93%2BContracts%2BII/Anticipatory%2BRepudiation?utm_source=chatgpt.com "Anticipatory Repudiation – Contracts II Outline"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20556_mustard_seed_puppet_caravan"
+  question_id: "20556_mustard_seed_puppet_caravan"
+  subject: "CONTRACTS"
+  topic: "Performance, Breach, and Discharge"
+  subtopic: "Prospective inability to perform; reliance before cure"
+  outline_code: "56050403"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "20556"
+  variant_slug: "mustard_seed_puppet_caravan"
+  original_key_letter: "D"
+  new_key_letter: "C"
+  letter_map: "- original_letter: A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?"
+review_truth: "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20556_mustard_seed_puppet_caravan; source 20556.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CONTRACTS; topic Performance, Breach, and Discharge; subtopic Prospective inability to perform; reliance before cure.
+4. **distilled_core_question:** A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 56050403.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 56050403.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20556_mustard_seed_puppet_caravan",
+  "subject": "CONTRACTS",
+  "credited_answer": "C",
+  "outline_code": "56050403",
+  "distilled_core_question": "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?",
+  "review_truth": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20556; letter_map: - original_letter: A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20556_mustard_seed_puppet_caravan",
+  "subject": "CONTRACTS",
+  "outline_code": "56050403",
+  "distilled_core_question": "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?",
+  "review_truth": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20556",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20556_mustard_seed_puppet_caravan",
+  "subject": "CONTRACTS",
+  "outline_code": "56050403",
+  "distilled_core_question": "A service contractor made himself apparently unable to perform, the other party reasonably hired a replacement before the obstacle disappeared, and the contractor later appeared ready. Who wins the breach claim?",
+  "review_truth": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "56050403",
+    "this_item_teaches": "Later readiness does not save the claimant when the other party reasonably relied on apparent future inability before the obstacle disappeared.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

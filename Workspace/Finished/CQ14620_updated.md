@@ -1,0 +1,994 @@
+---
+qid: "14620"
+transformed_from: "14620"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "75080400"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment."
+---
+Source basis: the uploaded row supplies QID 14620, Criminal Law / Constitutional Protection of Accused Persons, the original stem, answer choices, pick rates, official key C, and official explanations.  The prompt requires a Christian transformation followed by the transform report and the full C3 output blocks, including YAML, student case study, and JSON ingestion objects.  It also requires legal research to remain quarantined in the lawyer-confirmation layer.  I also used the Reasoning Creed posture: “never whether, only how,” preserve the goal, and tighten proof where there are gaps. 
+
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+**Final Christian variation — locked**
+
+Paul was charged with attempted murder after a fight outside a private Bible-study dinner. At the preliminary hearing, Judge Esther heard the testimony of four prosecution witnesses and found that the prosecution had failed to establish probable cause that Paul had committed any offense. Judge Esther dismissed the charge. Prosecutor Ruth then called the same four witnesses before a grand jury. The grand jury indicted Paul for attempted murder. Paul moved to quash the indictment on double jeopardy grounds.
+
+**How should the court proceed?**
+
+### 2. Distilled Core Question
+
+A charge is dismissed at a preliminary hearing for lack of probable cause. The prosecutor then obtains a grand-jury indictment on the same charge using the same witnesses. Does double jeopardy bar the indictment?
+
+### 3. Final answer choices
+
+A. Grant the motion, because the dismissal of the first charge on the merits, whether correct or incorrect, bars any further prosecution.
+
+B. Grant the motion, unless the prosecution has evidence that was not presented in the first proceeding.
+
+C. Deny the motion, because Paul has not yet been in jeopardy of conviction on the attempted murder charge.
+
+D. Deny the motion, because the protection of the Double Jeopardy Clause does not come into play until there has been a conviction or an acquittal.
+
+### 4. Possible replacement answer choices
+
+These are **not adopted** in the locked version. They are candidate replacements for the lower-pick original distractors, kept here for audit.
+
+| Replaced choice | Original pick % | Candidate replacement                                                                                                                                     | Mold              | Filter           | Use?                                                                          |
+| --------------- | --------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------- | ----------------------------------------------------------------------------- |
+| A               |             12% | Grant the motion, because a judicial finding that the prosecution lacked probable cause is the equivalent of an acquittal on the attempted-murder charge. | `bait_doctrine`   | `NOT_RESPONSIVE` | Not adopted; stronger but may over-signal the acquittal/pretrial distinction. |
+| B               |              8% | Grant the motion, unless the prosecutor shows that the grand-jury indictment was based on substantially different evidence.                               | `fabricated_rule` | `NOT_TRUE`       | Not adopted; nearly identical to original and adds no real teaching gain.     |
+
+### 5. Correct answer
+
+**C.**
+
+### 6. Full right-answer explanation
+
+C is correct.
+
+**Gold Key:** Double jeopardy does not attach at a preliminary hearing. It attaches when the defendant is put to trial: in a jury trial, when the jury is empaneled and sworn; in a bench trial, when the court begins to hear evidence.
+
+Paul had a preliminary hearing, not a trial. The judge found no probable cause and dismissed the charge at that preliminary stage. The later grand-jury indictment therefore does not place Paul twice in jeopardy.
+
+**Silver Key:** Do not stop at the result word. C and D both say “Deny,” but the “because” clause decides the question. C uses the right timing idea: no jeopardy yet. D moves the trigger too late.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** It treats the preliminary-hearing dismissal as if it were a trial-stage acquittal or merits judgment after jeopardy attached. That is the wrong frame. The dismissal here happened before trial jeopardy began.
+
+**B is wrong.** It invents a new-evidence requirement. Once the first dismissal happens before jeopardy attaches, the prosecutor does not need new evidence before seeking an indictment.
+
+**D is wrong.** It reaches the same result as C, but gives the wrong reason. **Gold Key:** double jeopardy can attach before conviction or acquittal, once trial begins. D makes the trigger too late. **Silver Key:** same result, wrong “because.”
+
+### 8. Black-letter-law verification and legal reasoning
+
+The rule and answer are unchanged from the original QID 14620: the official row identifies C as correct because a preliminary-hearing dismissal has no double-jeopardy consequences where jeopardy has not attached. 
+
+Lawyer-confirmation layer: in **Serfass v. United States**, the Supreme Court stated that jeopardy does not attach until the defendant is put to trial; in a jury trial this occurs when the jury is empaneled and sworn, and in a nonjury trial when the court begins to hear evidence. ([Legal Information Institute][1]) In **Crist v. Bretz**, the Court treated the jury-sworn attachment point as part of the constitutional double-jeopardy guarantee. ([GovInfo][2]) The Fifth Amendment Double Jeopardy Clause bars retrial after an acquittal, but this item is earlier than that: it is about attachment of jeopardy, not the effect of a completed acquittal. ([Congress.gov][3])
+
+### 9. Why the variation preserves rigor
+
+The variation changes only names and harmless setting. It preserves:
+
+* preliminary hearing dismissal for no probable cause;
+* same witnesses later called before the grand jury;
+* same attempted-murder indictment;
+* same double-jeopardy motion;
+* same C/D correct-result/wrong-reason trap;
+* same dominant wrong answer, D, inherited from the original 26% trap.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT**
+
+A is cut as right doctrine, wrong stage: it treats a preliminary-hearing dismissal like a trial acquittal.
+
+B is cut as a fabricated procedural requirement: new evidence is not required once no jeopardy attached.
+
+D is cut only after the Gold Key: it gives the right result but says double jeopardy waits until conviction or acquittal. That is too late.
+
+**CLASH**
+
+C and D are the live same-result pair: both deny the motion. The axis is the reason for denial.
+
+**CALL**
+
+Use the Gold Key. The deciding fact is **preliminary hearing, not trial**. C matches that trigger. D overshoots.
+
+### 11. Review Truth
+
+Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.
+
+### 12. The 5 variations considered
+
+|  # | Title                                         | Setting                              | Cast                                | Preserved issue                                      | Why memorable                              | Legal risks                                 | Recommendation |
+| -: | --------------------------------------------- | ------------------------------------ | ----------------------------------- | ---------------------------------------------------- | ------------------------------------------ | ------------------------------------------- | -------------- |
+|  1 | **Paul and the Grand Jury After Bible Study** | Private Bible-study dinner aftermath | Paul, Judge Esther, Prosecutor Ruth | Preliminary-hearing dismissal followed by indictment | Clean Christian names; no clutter doctrine | Minimal                                     | **Selected**   |
+|  2 | Peter at the Law-School Prayer Breakfast      | Law-school event                     | Peter, Mary, John                   | Same                                                 | Fun law-school flavor                      | Campus rules could distract                 | Not selected   |
+|  3 | Daniel and the Chapel Parking-Lot Fight       | Parking lot near chapel              | Daniel, Lydia, Barnabas             | Same                                                 | Visual and memorable                       | “Chapel” could imply church property issues | Not selected   |
+|  4 | Timothy at the Bar-Prep Bible Circle          | Bar-prep study group                 | Timothy, Martha                     | Same                                                 | Strong BarMatrix tie-in                    | Bar-prep facts add clutter                  | Not selected   |
+|  5 | Stephen and the Fellowship Dinner             | Private dinner                       | Stephen, Ruth, Mary                 | Same                                                 | Simple                                     | Slightly less memorable than Paul           | Not selected   |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+question_id: "14620_paul_grand_jury"
+transformed_from: "14620"
+
+barmatrix_row:
+  qid: 14620
+  subject: CRIMINAL
+  topic: "Criminal Law"
+  subtopic: "Constitutional Protection of Accused Persons"
+  original_selection_percentages:
+    correct_total: 54
+    A: 12
+    B: 8
+    C: 54
+    D: 26
+  variant_selection_percentages:
+    provenance: "net-new variation; no measured pick rates"
+    A: "inherited_original_pick_rate_12_not_measured"
+    B: "inherited_original_pick_rate_8_not_measured"
+    C: "inherited_original_pick_rate_54_not_measured"
+    D: "inherited_original_pick_rate_26_not_measured"
+  official_key: "C"
+  call: "How should the court proceed?"
+  stem: "Paul was charged with attempted murder after a fight outside a private Bible-study dinner. At the preliminary hearing, Judge Esther heard the testimony of four prosecution witnesses and found that the prosecution had failed to establish probable cause that Paul had committed any offense. Judge Esther dismissed the charge. Prosecutor Ruth then called the same four witnesses before a grand jury. The grand jury indicted Paul for attempted murder. Paul moved to quash the indictment on double jeopardy grounds."
+  choices:
+    A: "Grant the motion, because the dismissal of the first charge on the merits, whether correct or incorrect, bars any further prosecution."
+    B: "Grant the motion, unless the prosecution has evidence that was not presented in the first proceeding."
+    C: "Deny the motion, because Paul has not yet been in jeopardy of conviction on the attempted murder charge."
+    D: "Deny the motion, because the protection of the Double Jeopardy Clause does not come into play until there has been a conviction or an acquittal."
+
+source_stack:
+  - priority: 1
+    source: "Uploaded BarMatrix row for QID 14620"
+    use: "source of stem, choices, key, pick rates, and official explanations"
+  - priority: 2
+    source: "Existing C3 / KFP method files"
+    use: "student-access discipline, controlled vocabulary, Gold Key and Silver Key output rules"
+  - priority: 3
+    source: "Reasoning Creed"
+    use: "preserve ambition; tighten proof; do not shrink the transform"
+  - priority: 4
+    source: "Supreme Court authority"
+    use: "lawyer-confirmation layer only"
+
+student_access_contract:
+  allowed_universal_lessons:
+    - "TRUE and RESPONSIVE"
+    - "Ear vs Issue-Sense"
+    - "Cut → Clash → Call"
+    - "because-clause check"
+    - "same-result wrong-reason trap"
+    - "anchor escalation"
+  allowed_subject_overlay:
+    - "Criminal constitutional-protection question"
+    - "Double jeopardy as anchor-dependent threshold"
+  gold_keys_allowed:
+    - "GK-CRIMINAL-DJ-ATTACHES-01"
+  silver_keys_allowed:
+    - "SK-CRIMINAL-DJ-SAME-RESULT-01"
+  prohibited:
+    - "Do not call a choice false unless the defect is visible through grammar, answer relation, stem relation, or the Gold Key."
+
+stem_parse:
+  defendant: "Paul"
+  charge: "attempted murder"
+  first_proceeding: "preliminary hearing"
+  first_proceeding_result: "dismissed for failure to establish probable cause"
+  later_proceeding: "grand jury"
+  later_result: "indictment for attempted murder"
+  motion: "motion to quash indictment"
+  asserted_ground: "double jeopardy"
+  negative_stem_inversion: false
+  adjacent_call_trap:
+    - "Was the preliminary dismissal correct?"
+    - "Was the grand jury allowed to hear the same witnesses?"
+    - "Did the first proceeding end in an acquittal?"
+
+trigger_facts:
+  - fact: "preliminary hearing"
+    access_label: "student-visible"
+    function: "signals pretrial screening, not trial"
+  - fact: "dismissed for no probable cause"
+    access_label: "student-visible"
+    function: "creates the tempting 'merits dismissal' trap"
+  - fact: "same four witnesses before grand jury"
+    access_label: "student-visible"
+    function: "creates the new-evidence bait"
+  - fact: "motion to quash on double jeopardy grounds"
+    access_label: "student-visible"
+    function: "locks the call to attachment of jeopardy"
+
+c3_routing:
+  subject_fit: "CRIMINAL = constitutional-protection trigger + threshold timing anchor"
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "preliminary-hearing dismissal vs trial-stage jeopardy attachment"
+  call_heuristic: "anchor_threshold"
+
+answer_array:
+  geometry: "2 grant / 2 deny split; C and D are same-result different-reason pair"
+  dominant_trap:
+    choice: "D"
+    original_pick_rate: 26
+    reason: "correct result with too-late double-jeopardy trigger"
+  silver_key:
+    id: "SK-CRIMINAL-DJ-SAME-RESULT-01"
+    type: "answer_array"
+    trigger: "two deny answers with different because-clauses"
+  gold_key:
+    id: "GK-CRIMINAL-DJ-ATTACHES-01"
+    type: "threshold"
+    trigger: "preliminary hearing dismissed before trial"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - wrong_timing
+      - half_right_answer
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "wrong stage: treats preliminary dismissal like trial acquittal"
+    c3_signal: "The stem says preliminary hearing; A answers as if a jeopardy-attached merits adjudication already happened."
+    lawyer_confirmation: "A true acquittal after jeopardy attaches can bar retrial, but this was a pretrial probable-cause dismissal."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: fabricated_rule
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - common_student_myth
+      - fact_not_in_evidence
+      - sounds_lawyerly
+      - bar_exam_bait
+      - wrong_procedural_posture
+    method_class: anchor_assisted
+    student_label: "invented new-evidence condition"
+    c3_signal: "The answer adds a requirement not supplied by the answer array or stem."
+    lawyer_confirmation: "No new evidence is required when the first dismissal occurred before jeopardy attached."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "residual: deny because no jeopardy yet"
+    c3_signal: "Matches the trigger fact: preliminary hearing, not trial."
+    lawyer_confirmation: "Correct under the attachment rule."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: backwards
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - half_right_answer
+      - wrong_timing
+      - misstated_rule
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "right result, wrong trigger"
+    c3_signal: "D denies the motion, but its because-clause moves the trigger to conviction/acquittal."
+    lawyer_confirmation: "Double jeopardy can attach before conviction or acquittal, once the defendant is put to trial."
+
+residual_answer:
+  choice: "C"
+  text: "Deny the motion, because Paul has not yet been in jeopardy of conviction on the attempted murder charge."
+  why_survives: "It is true and responsive after the Gold Key is applied."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "C and D both deny, so the because-clause matters."
+      access: "hard_structural"
+    - claim: "The stem is a preliminary-hearing dismissal, not a trial verdict."
+      access: "stem-visible"
+    - claim: "No jeopardy attached at the preliminary hearing."
+      access: "anchor_assisted"
+      anchor: "GK-CRIMINAL-DJ-ATTACHES-01"
+  quarantined_claims:
+    - "Serfass and Crist authority"
+    - "precise jury/bench-trial attachment rule"
+  audit_result: "No lawyer-only doctrine used as fake structure."
+
+gold_keys:
+  - id: "GK-CRIMINAL-DJ-ATTACHES-01"
+    statement: "Double jeopardy attaches only when the defendant is put to trial: jury sworn in a jury trial; first witness/evidence begins in a bench trial. A preliminary hearing is not that point."
+    type: "threshold"
+    unlocks: "preliminary-hearing dismissal followed by indictment"
+    trigger: "dismissed at preliminary hearing, then indicted; motion to quash on double jeopardy"
+    tested_choice: "D"
+    authority: "Serfass v. United States; Crist v. Bretz"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-DJ-SAME-RESULT-01"
+    statement: "When two answers reach the same result, test the because-clause. Here C and D both deny, but only C gives the right timing reason."
+    type: "answer_array"
+    navigates: "same-result wrong-reason trap"
+    trigger: "two Deny answers in a double-jeopardy motion"
+    tested_choice: "D"
+    outline_code: "75080400"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIMINAL-DJ-ATTACHMENT-01"
+  title: "Do not treat preliminary hearings as jeopardy"
+  signal: "preliminary hearing + dismissal + later indictment"
+  student_move: "Ask whether trial began before applying double-jeopardy bars."
+  tiny_rule: "No trial start, no jeopardy attachment."
+  trap: "Correct result with wrong conviction/acquittal trigger."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?"
+review_truth: "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment."
+
+case_study_output:
+  exam_day_script: "This is double jeopardy. First event was a preliminary hearing, not trial. Gold Key: jeopardy attaches at trial. Deny. Between C and D, C gives the right reason; D waits too long."
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  rule_unchanged: true
+  issue_unchanged: true
+  correct_answer_unchanged: true
+  dominant_trap_preserved: true
+  christian_variation_no_clutter: true
+  answer_array_geometry_preserved: true
+  three_distractors_single_filter_each: true
+  residual_equals_key: true
+  bank_validation_verdict_available: true
+
+analytics_hooks:
+  outline_code: "75080400"
+  tested_anchor_ids:
+    - "GK-CRIMINAL-DJ-ATTACHES-01"
+  tested_silver_key_ids:
+    - "SK-CRIMINAL-DJ-SAME-RESULT-01"
+  trap_tags:
+    - "same_result_wrong_reason"
+    - "double_jeopardy_attachment"
+    - "preliminary_hearing_not_trial"
+  inherited_pick_rates:
+    A: 12
+    B: 8
+    C: 54
+    D: 26
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is an **anchor-assisted Criminal / constitutional-protection item**.
+
+The student goal is not to recite double jeopardy. The goal is to spot the procedural stage, then use one tiny anchor.
+
+## student_access_test
+
+Controlling question: could a trained C3 student identify each problem without outside doctrine?
+
+* A: not fully. Needs the double-jeopardy attachment anchor.
+* B: not fully. Needs the same anchor to see the new-evidence requirement is invented.
+* C: yes after the Gold Key.
+* D: yes after the Gold Key plus same-result “because” check.
+
+Item verdict: **ANCHOR_SOLVE**.
+
+## question_data
+
+**QID:** 14620_paul_grand_jury
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Constitutional Protection of Accused Persons
+**Call:** How should the court proceed?
+**Correct answer:** C
+**Dominant wrong answer:** D, inherited from original 26% trap.
+
+## distilled_core_question
+
+A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?
+
+## call_and_prediction
+
+The motion is to quash the indictment.
+
+Prediction: deny the motion if the first proceeding was not a trial and jeopardy had not attached.
+
+Adjacent-call traps:
+
+* Was the preliminary judge correct?
+* Did the prosecutor need new evidence?
+* Was the preliminary dismissal like an acquittal?
+
+## trigger_facts
+
+| Fact                        | Student use                               |
+| --------------------------- | ----------------------------------------- |
+| Preliminary hearing         | Pretrial stage. Do not treat it as trial. |
+| No probable-cause dismissal | Creates the acquittal/merits trap.        |
+| Same four witnesses         | Creates the new-evidence trap.            |
+| Grand-jury indictment       | Later prosecution step.                   |
+| Double-jeopardy motion      | Calls for attachment timing.              |
+
+## governing_c3_lane
+
+**Lane:** CALL → Gold Key.
+
+The Cut alone is not enough because the errors in A, B, and D require knowing the attachment trigger. Once that anchor fires, C is the residual answer.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The stem says preliminary hearing. A talks like there was a merits bar on further prosecution.
+2. **Student label:** Wrong stage / wrong frame.
+3. **True-responsive version:** “Grant the motion if the earlier proceeding was a jeopardy-attached acquittal.”
+4. **Lawyer confirmation:** A true acquittal after jeopardy attaches can bar reprosecution, but a pretrial probable-cause dismissal does not.
+
+### B
+
+1. **Student-accessible C3 signal:** B adds a new-evidence condition that the stem does not give.
+2. **Student label:** Invented condition.
+3. **True-responsive version:** “New evidence would matter only if a rule made it matter after a jeopardy-attached proceeding.”
+4. **Lawyer confirmation:** Because jeopardy had not attached, the prosecutor could seek an indictment without presenting new evidence.
+
+### C
+
+1. **Student-accessible C3 signal:** C matches the Gold Key: no jeopardy yet.
+2. **Student label:** True and responsive.
+3. **True-responsive version:** This is already the true-responsive version.
+4. **Lawyer confirmation:** A preliminary hearing is not the point at which jeopardy attaches.
+
+### D
+
+1. **Student-accessible C3 signal:** D has the right result but the wrong “because.”
+2. **Student label:** Correct result, wrong trigger.
+3. **True-responsive version:** “Deny because jeopardy had not yet attached at the preliminary hearing.”
+4. **Lawyer confirmation:** Double jeopardy can attach before conviction or acquittal, once trial begins.
+
+## residual_answer
+
+**C survives.**
+
+C is the only answer that denies the motion for the correct timing reason: Paul has not yet been placed in jeopardy on the attempted-murder charge.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* C/D same-result pair: visible from answer array.
+* “Because” clause matters: C3 answer-construction move.
+* Preliminary hearing vs trial: visible from stem.
+* Jeopardy attachment point: Gold Key required.
+
+Quarantined:
+
+* Serfass.
+* Crist.
+* Fifth Amendment authority.
+* Exact trial-attachment doctrine.
+
+Drift audit: no lawyer-only doctrine was converted into fake hard structure.
+
+## final_student_script
+
+“Motion to quash for double jeopardy. First proceeding was a preliminary hearing. Gold Key: jeopardy attaches at trial, not at preliminary screening. So deny. C and D both deny, but D says double jeopardy waits for conviction or acquittal. Too late. Pick C.”
+
+## remediation_card
+
+**REM-CRIMINAL-DJ-ATTACHMENT-01 — Preliminary hearing is not jeopardy**
+
+* **Signal:** preliminary hearing dismissed for no probable cause, then indictment.
+* **Move:** ask whether trial began.
+* **Tiny rule:** no trial start, no jeopardy attachment.
+* **Trap:** treating a pretrial dismissal as an acquittal or requiring new evidence.
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-DJ-ATTACHES-01**
+
+Double jeopardy attaches only when the defendant is put to trial: jury sworn in a jury trial; first witness/evidence begins in a bench trial. A preliminary hearing is not that point.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-DJ-SAME-RESULT-01**
+
+When two answers reach the same result, test the because-clause. C and D both deny; only C gives the right timing reason.
+
+## qa_checklist
+
+| Check                                                              | Result |
+| ------------------------------------------------------------------ | ------ |
+| Rule unchanged                                                     | Pass   |
+| Correct answer unchanged                                           | Pass   |
+| Dominant trap preserved                                            | Pass   |
+| Christian names only                                               | Pass   |
+| No villain names                                                   | Pass   |
+| No church-property / First Amendment clutter                       | Pass   |
+| Three distractors each break one filter                            | Pass   |
+| Residual equals official key                                       | Pass   |
+| Gold Key included because anchor-dependent                         | Pass   |
+| Silver Key included because C/D same-result trap is easy to fumble | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                       | Skipped move              | Recovery                                        |
+| ------ | -------------------------------------------- | ------------------------- | ----------------------------------------------- |
+| A      | “A judge dismissed it, so it must be final.” | Attachment threshold      | Ask: did trial begin?                           |
+| B      | “Same witnesses feels unfair.”               | Fabricated-condition scan | Ask: where did the new-evidence rule come from? |
+| D      | “Deny sounds right.”                         | Because-clause check      | Same result is not enough; test the reason.     |
+
+## outline_mastery_map
+
+Placement: Criminal Procedure / Constitutional Protection / Double Jeopardy.
+
+This item teaches:
+
+* attachment timing;
+* preliminary hearing vs trial;
+* same-result wrong-reason traps.
+
+It fills:
+
+* double-jeopardy threshold;
+* pretrial dismissal misconception;
+* grand-jury-after-dismissal trap.
+
+Adjacent to master:
+
+* acquittal after jeopardy attaches;
+* mistrial / manifest necessity;
+* retrial after reversal;
+* same-offense analysis.
+
+## crossover_intersection_map
+
+| Crossover          | Connection                                                                    |
+| ------------------ | ----------------------------------------------------------------------------- |
+| Civil Procedure    | Threshold timing before merits.                                               |
+| Evidence           | Preliminary hearing testimony is not the point; purpose/stage matters.        |
+| Constitutional Law | Constitutional protection depends on trigger/category, not fairness language. |
+| KFP / C3           | C and D are a same-result wrong-reason pair.                                  |
+
+## review_truth
+
+Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14620_paul_grand_jury",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "75080400",
+  "distilled_core_question": "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?",
+  "review_truth": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "preliminary-hearing dismissal vs trial-stage jeopardy attachment",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "anchor_threshold",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-DJ-ATTACHES-01",
+        "explanation": "Treats a preliminary-hearing dismissal as if it were a jeopardy-attached trial acquittal."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CRIMINAL-DJ-ATTACHES-01",
+        "explanation": "Invents a new-evidence requirement after a pretrial dismissal."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIMINAL-DJ-SAME-RESULT-01",
+        "explanation": "Correct result but wrong trigger; double jeopardy can attach before conviction or acquittal."
+      }
+    ],
+    "analyzer_notes": "drift_audit: anchor-dependent item; no hard structural claim made for the attachment rule. transformed_from: 14620. Christian variation preserves rule, key, dominant trap, and answer geometry.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-DJ-ATTACHES-01",
+        "statement": "Double jeopardy attaches only when the defendant is put to trial: jury sworn in a jury trial; first witness/evidence begins in a bench trial. A preliminary hearing is not that point.",
+        "type": "threshold",
+        "unlocks": "preliminary-hearing dismissal followed by indictment",
+        "trigger": "dismissed at preliminary hearing, then indicted; motion to quash on double jeopardy",
+        "tested_choice": "D",
+        "authority": "Serfass v. United States; Crist v. Bretz",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-DJ-SAME-RESULT-01",
+        "statement": "When two answers reach the same result, test the because-clause. Here C and D both deny, but only C gives the right timing reason.",
+        "type": "answer_array",
+        "navigates": "same-result wrong-reason trap",
+        "trigger": "two Deny answers in a double-jeopardy motion",
+        "tested_choice": "D",
+        "outline_code": "75080400",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14620_paul_grand_jury",
+  "subject": "CRIMINAL",
+  "outline_code": "75080400",
+  "distilled_core_question": "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?",
+  "review_truth": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+  "tension": {
+    "axis": "pretrial screening vs trial-stage jeopardy",
+    "resolver": "preliminary hearing"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "It sounds like the strong double-jeopardy rule for acquittals, but the proceeding was not a trial.",
+      "focus_group_pct": 12
+    },
+    {
+      "choice": "B",
+      "mold": "fabricated_rule",
+      "architecture": "procedural_frame",
+      "why_attractive": "Same witnesses feel unfair, so students invent a new-evidence condition.",
+      "focus_group_pct": 8
+    },
+    {
+      "choice": "D",
+      "mold": "backwards",
+      "architecture": "wrong_frame",
+      "why_attractive": "It reaches the right result and says conviction/acquittal, which sounds like double jeopardy language.",
+      "focus_group_pct": 26
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIMINAL-DJ-ATTACHMENT-01",
+    "title": "Preliminary hearing is not jeopardy",
+    "signal": "preliminary hearing + dismissal + later indictment",
+    "student_move": "Ask whether trial began before applying double-jeopardy bars.",
+    "tiny_rule": "No trial start, no jeopardy attachment.",
+    "trap": "Correct result with wrong conviction/acquittal trigger.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "same-result wrong-reason",
+    "pretrial dismissal treated as acquittal",
+    "same witnesses treated as new-evidence requirement",
+    "double-jeopardy trigger moved too late"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14620_paul_grand_jury",
+  "subject": "CRIMINAL",
+  "outline_code": "75080400",
+  "distilled_core_question": "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?",
+  "review_truth": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student treats any judicial dismissal for insufficient proof as an acquittal.",
+      "skipped_move": "Preliminary-hearing vs trial-stage check",
+      "recovery_step": "Ask whether the defendant was put to trial before calling the dismissal a double-jeopardy bar."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student thinks using the same witnesses twice must require a new-evidence justification.",
+      "skipped_move": "Fabricated-condition scan",
+      "recovery_step": "Ask whether the answer invented a condition not in the Gold Key."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student sees the correct result, stops at Deny, and ignores the because-clause.",
+      "skipped_move": "Same-result because-clause check",
+      "recovery_step": "Compare C and D: both deny; only C uses no-jeopardy-yet rather than conviction/acquittal as the trigger."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "anchor_flash",
+      "target_skill": "double-jeopardy attachment",
+      "prompt": "When does jeopardy attach in a jury trial?",
+      "answer": "When the jury is empaneled and sworn."
+    },
+    {
+      "drill_type": "anchor_flash",
+      "target_skill": "double-jeopardy attachment",
+      "prompt": "When does jeopardy attach in a bench trial?",
+      "answer": "When the court begins to hear evidence / the first witness is sworn."
+    },
+    {
+      "drill_type": "array_read",
+      "target_skill": "same-result wrong-reason",
+      "prompt": "Two answers both say Deny. One says no jeopardy yet; the other says no conviction/acquittal yet. Which is safer?",
+      "answer": "No jeopardy yet."
+    },
+    {
+      "drill_type": "issue_sense",
+      "target_skill": "pretrial vs trial",
+      "prompt": "Preliminary hearing dismissed for no probable cause. Trial started?",
+      "answer": "No."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "same_result_wrong_reason",
+      "anchor_threshold",
+      "pretrial_screening_vs_trial",
+      "correct_result_wrong_reason"
+    ],
+    "misconception_tags": [
+      "preliminary_dismissal_equals_acquittal",
+      "same_witnesses_requires_new_evidence",
+      "double_jeopardy_only_after_verdict"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Core",
+      "lesson": "TRUE and RESPONSIVE",
+      "reason": "D is result-responsive but reason-false."
+    },
+    {
+      "component": "Issue-Sense",
+      "lesson": "Wrong frame / bait doctrine",
+      "reason": "A imports the acquittal frame into a preliminary-hearing setting."
+    },
+    {
+      "component": "Anchor Deck",
+      "lesson": "Double-jeopardy attachment",
+      "reason": "The item turns on a bright-line procedural trigger."
+    },
+    {
+      "component": "KFP / Answer Array",
+      "lesson": "Same-result wrong-reason pair",
+      "reason": "C and D both deny but split on the reason."
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "Threshold timing before merits."
+    },
+    {
+      "subject": "EVIDENCE",
+      "connection": "Proceeding type matters; do not treat all hearings alike."
+    },
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "connection": "Clause protection depends on the correct trigger."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-DJ-ATTACHES-01",
+      "statement": "Double jeopardy attaches only when the defendant is put to trial: jury sworn in a jury trial; first witness/evidence begins in a bench trial. A preliminary hearing is not that point.",
+      "type": "threshold",
+      "unlocks": "preliminary-hearing dismissal followed by indictment",
+      "trigger": "dismissed at preliminary hearing, then indicted; motion to quash on double jeopardy",
+      "tested_choice": "D",
+      "authority": "Serfass v. United States; Crist v. Bretz",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-DJ-SAME-RESULT-01",
+      "statement": "When two answers reach the same result, test the because-clause. Here C and D both deny, but only C gives the right timing reason.",
+      "type": "answer_array",
+      "navigates": "same-result wrong-reason trap",
+      "trigger": "two Deny answers in a double-jeopardy motion",
+      "tested_choice": "D",
+      "outline_code": "75080400",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Procedure / Constitutional Protection of Accused Persons / Double Jeopardy",
+    "this_item_teaches": [
+      "attachment of jeopardy",
+      "preliminary hearing is not trial",
+      "same-result wrong-reason discrimination"
+    ],
+    "fills": [
+      "double-jeopardy threshold gap",
+      "pretrial-dismissal misconception",
+      "grand-jury-after-dismissal trap"
+    ],
+    "adjacent_to_master": [
+      "acquittal after jeopardy attaches",
+      "mistrial and manifest necessity",
+      "retrial after appeal reversal",
+      "same offense / Blockburger"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/supremecourt/text/420/377 "David Emery SERFASS, Petitioner, v. UNITED STATES. | Supreme Court | US Law | LII / Legal Information Institute"
+[2]: https://www.govinfo.gov/content/pkg/USREPORTS-437/pdf/USREPORTS-437-28.pdf "CRIST WARDEN et al. v. BRETZ et al."
+[3]: https://constitution.congress.gov/browse/essay/intro.9-2-10/ALDE_00013896/ "McElrath v. Georgia: Does the Double Jeopardy Clause Prohibit a Second Prosecution When a Prior Verdict of Acquittal was Vacated Pursuant to State Law As Incompatible with Another Verdict? | Constitution Annotated | Congress.gov | Library of Congress"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14620",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "75080400",
+  "distilled_core_question": "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?",
+  "review_truth": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14620; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14620",
+  "subject": "CRIMINAL",
+  "outline_code": "75080400",
+  "distilled_core_question": "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?",
+  "review_truth": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14620",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14620",
+  "subject": "CRIMINAL",
+  "outline_code": "75080400",
+  "distilled_core_question": "A preliminary-hearing dismissal for no probable cause is followed by a grand-jury indictment on the same charge. Does double jeopardy bar the indictment?",
+  "review_truth": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75080400",
+    "this_item_teaches": "Double jeopardy attaches at trial, not at a preliminary hearing; a no-probable-cause dismissal before trial does not bar a later indictment.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

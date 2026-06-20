@@ -1,0 +1,14 @@
+{
+  "files_to_edit": 268,
+  "detail_rows_in_allowlist": 1263,
+  "adjustments_passed": 1263,
+  "adjustments_failed": 0,
+  "missing_outputs": [],
+  "ignored_detail_rows_not_in_allowlist": 10,
+  "repair_note_files": [],
+  "extra_json_fence_files": [],
+  "outputs_existing": 268,
+  "repair_note_file_count": 0,
+  "extra_json_fence_file_count": 0,
+  "all_passed": true
+}

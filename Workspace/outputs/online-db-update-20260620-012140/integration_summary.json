@@ -1,0 +1,13 @@
+{
+  "eligible": 141,
+  "skippedLiveMatched": 25,
+  "questionChanged": 141,
+  "anyChoiceChanged": 15,
+  "totalChoiceChanges": 27,
+  "files": {
+    "diffCsv": "C:\\FOC\\Workspace\\outputs\\online-db-update-20260620-012140\\dry_run_diff_eligible_updates.csv",
+    "skippedCsv": "C:\\FOC\\Workspace\\outputs\\online-db-update-20260620-012140\\skipped_live_matched_blockers.csv",
+    "updateSql": "C:\\FOC\\Workspace\\outputs\\online-db-update-20260620-012140\\update_existing_questions.sql",
+    "expectedHashes": "C:\\FOC\\Workspace\\outputs\\online-db-update-20260620-012140\\expected_post_update_hashes.json"
+  }
+}

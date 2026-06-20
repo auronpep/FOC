@@ -1,0 +1,1034 @@
+---
+qid: "14659_bible_study_ambush"
+transformed_from: "14659"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Homicide"
+outline_code: "00000000"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source basis:** BARMATRIX Q#14659 supplies the homicide stem, answer percentages, official key A, and official explanation. The row tests first-degree murder where the defendant deliberately provokes a deadly confrontation and then claims mitigation or self-defense.  The output contract requires a Christian-first transformation, honest pick-rate provenance, Gold/Silver Keys when needed, and the five C3 ingestion blocks.  The Reasoning Creed posture is applied as “ambitious but bounded by candor”: preserve the high-upside transform while quarantining legal doctrine from student-accessible structure. 
+
+### 1. Final question — revised Christian variation
+
+A state statute divides murder into degrees and defines murder in the first degree as murder committed willfully with premeditation and deliberation. The statute defines murder in the second degree as all other murder at common law and defines voluntary manslaughter as at common law.
+
+Peter hated Paul, another volunteer in a neighborhood Bible-study group. When Peter learned that Paul was at John’s house after the group meeting, Peter grabbed his gun and went to John’s house hoping to provoke Paul into attacking him so that Peter could then shoot Paul. After arriving at the house, Peter insulted Paul and falsely bragged that he had had sexual relations with Paul’s wife two weeks earlier. The statement enraged Paul, who grabbed a knife from the kitchen table and ran toward Peter. Peter then shot and killed Paul.
+
+What is the most serious homicide offense of which Peter could properly be convicted?
+
+### 2. Distilled Core Question
+
+Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul took the bait and charged with a knife. Peter shot and killed him. The statute defines first-degree murder as willful, premeditated, deliberate murder. What is the most serious homicide conviction?
+
+### 3. Final answer choices
+
+A. Murder in the first degree.
+B. Murder in the second degree.
+C. Voluntary manslaughter, because Peter provoked Paul.
+D. No form of criminal homicide, because Peter acted in self-defense.
+
+### 4. Possible replacement answer choices
+
+No replacement adopted. All three original wrong-answer roles are kept because they preserve the offense ladder and the dominant self-defense trap.
+
+| Original choice | Original pick % | Kept or possible replacement | Mold          | Reason                                                                                                       |
+| --------------- | --------------: | ---------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------ |
+| B               |              4% | Kept                         | wrong_element | Useful lesser-offense trap. It fails the “most serious” call once first-degree is supported.                 |
+| C               |              2% | Kept                         | backwards     | Good provocation-direction trap. Peter provoked Paul; Paul did not provoke Peter into heat of passion.       |
+| D               |              5% | Kept                         | half_truth    | Dominant wrong answer. The knife fact makes self-defense attractive, but Peter engineered the confrontation. |
+
+### 5. Correct answer
+
+A. Murder in the first degree.
+
+### 6. Full right-answer explanation
+
+**A is correct.** Peter acted before the final confrontation with a plan: he grabbed a gun, went to John’s house, and hoped to provoke Paul into attacking so that Peter could shoot him. That supports willfulness, premeditation, and deliberation under the statute.
+
+**Gold Key:** Planned provocation does not let the killer use the victim’s predictable reaction as a self-defense escape hatch or as heat-of-passion mitigation. The top offense stays on the table when the facts show a deliberate plan to create the confrontation.
+
+**Silver Key:** On a “most serious homicide offense” call, read the answer set as a ladder: first-degree → second-degree → manslaughter → no homicide. Start at the top offense the facts support, then ask whether any defense or mitigation knocks it down.
+
+### 7. Full wrong-answer explanations
+
+**B is wrong.** Murder in the second degree may sound safer because Paul charged with a knife, but the call asks for the **most serious** offense. The planning facts point above second-degree: Peter armed himself, went to the house, and set up the encounter.
+
+**C is wrong.** This reverses the provocation direction. Voluntary manslaughter is not triggered merely because the killer provoked the victim. **Gold Key:** A defendant who deliberately provokes the victim to create a killing opportunity does not get mitigation from the victim’s expected reaction.
+
+**D is wrong.** This is the dominant trap. Paul’s knife makes self-defense look attractive, but Peter created the danger on purpose. **Gold Key:** Self-defense does not rescue the planned provocateur who sets up the attack as the excuse to shoot.
+
+### 8. Black-letter-law verification and legal reasoning
+
+The tested rule and outcome are unchanged from the original row. The official explanation states that the killing was willful, premeditated, and deliberate; it also states that “willfully” can be satisfied by knowing conduct under MPC § 2.02(8), and that self-defense fails because the defendant was the first aggressor and did not satisfy withdrawal or sudden-escalation exceptions. 
+
+Lawyer-confirmation layer: Peter intentionally created the deadly encounter and then used deadly force. The supplied rule treats knowing, planned deadly conduct as sufficient for “willful” murder where the statute does not require a narrower purpose-only reading. The facts also defeat the two downgrade paths: voluntary manslaughter and complete self-defense.
+
+### 9. Why the variation preserves rigor/difficulty
+
+The variation keeps the same statute, homicide ladder, factual geometry, and trap sequence. It changes only the setting and names. The stem still does not over-signal the answer by spelling out “first aggressor,” “no withdrawal,” or “no sudden escalation.”
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT B:** B answers the wrong level of the ladder. If first-degree survives, second-degree cannot be the most serious conviction.
+**CUT C:** C points provocation in the wrong direction. Peter provoked Paul. That is not a student-safe reason to reduce Peter’s killing.
+**CUT D:** D uses the knife fact but ignores the setup fact. Peter engineered the danger.
+**CALL A:** With the downgrades gone, the planned armed setup leaves first-degree murder as the residual.
+
+### 11. Review Truth
+
+A planned provocateur cannot turn the victim’s expected reaction into self-defense or voluntary manslaughter; if the killing was willful, premeditated, and deliberate, first-degree murder remains the top conviction.
+
+### 12. Five variations considered
+
+|  # | Title                       | Setting                                 | Cast                       | Preserved issue                       | Why memorable                              | Legal risks                              | Status          |
+| -: | --------------------------- | --------------------------------------- | -------------------------- | ------------------------------------- | ------------------------------------------ | ---------------------------------------- | --------------- |
+|  1 | Bible Study Ambush          | John’s private home after Bible study   | Peter, Paul, John          | Planned provocation + homicide ladder | Clean Christian setting; no extra doctrine | Must avoid church/state clutter          | **Recommended** |
+|  2 | Church Softball Parking Lot | Private parking lot after team practice | Barnabas, Timothy, Stephen | Same                                  | Visual and memorable                       | “Church property” may distract           | Rejected        |
+|  3 | Law-School Prayer Group     | Apartment after prayer group            | Daniel, Peter, Paul        | Same                                  | Law-school + Christian                     | Slightly busier setting                  | Rejected        |
+|  4 | Bar-Prep Fellowship Dinner  | Private dinner after study session      | Lydia, Ruth, Martha        | Same                                  | Fun law-school variation                   | Gender/name changes add no benefit       | Rejected        |
+|  5 | Seminary Moot-Court Night   | Private home after moot-court prep      | John, Stephen, Timothy     | Same                                  | Legal flavor                               | “Seminary” may imply institutional facts | Rejected        |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+## B) PASS-2 BLOCK 1 — Question YAML
+
+```yaml
+question_yaml_version: "v2"
+barmatrix_row:
+  question_id: "14659_bible_study_ambush"
+  transformed_from: "14659"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Homicide"
+  source_percent_correct_original: 89
+  selection_percentages:
+    A:
+      pct: 89
+      provenance: "inherited_from_original_role"
+    B:
+      pct: 4
+      provenance: "inherited_from_original_role"
+    C:
+      pct: 2
+      provenance: "inherited_from_original_role"
+    D:
+      pct: 5
+      provenance: "inherited_from_original_role"
+  official_key: "A"
+  call: "What is the most serious homicide offense of which Peter could properly be convicted?"
+  stem: "A state statute divides murder into degrees and defines murder in the first degree as murder committed willfully with premeditation and deliberation. The statute defines murder in the second degree as all other murder at common law and defines voluntary manslaughter as at common law. Peter hated Paul, another volunteer in a neighborhood Bible-study group. When Peter learned that Paul was at John's house after the group meeting, Peter grabbed his gun and went to John's house hoping to provoke Paul into attacking him so that Peter could then shoot Paul. After arriving at the house, Peter insulted Paul and falsely bragged that he had had sexual relations with Paul's wife two weeks earlier. The statement enraged Paul, who grabbed a knife from the kitchen table and ran toward Peter. Peter then shot and killed Paul."
+  choices:
+    A: "Murder in the first degree."
+    B: "Murder in the second degree."
+    C: "Voluntary manslaughter, because Peter provoked Paul."
+    D: "No form of criminal homicide, because Peter acted in self-defense."
+
+source_stack:
+  - rank: 1
+    source: "BARMATRIX row 14659"
+    use: "source of stem, call, choices, official key, pick rates, official explanation"
+  - rank: 2
+    source: "Existing C3 tags"
+    use: "none supplied for this row; no hard-structural hypothesis accepted without testing"
+  - rank: 3
+    source: "C3 lessons and Criminal overlay"
+    use: "TRUE/RESPONSIVE frame; Cut-Clash-Call; offense ladder; defense/mitigation traps"
+  - rank: 4
+    source: "Official legal explanation"
+    use: "lawyer_confirmation only"
+
+student_access_contract:
+  allowed_lessons:
+    - "L1 TRUE and RESPONSIVE"
+    - "L2 Cut -> Clash -> Call"
+    - "L3 Standards vs Rules"
+    - "L5 Falsity / backwards"
+    - "L6 Distortion / half-truth"
+    - "L7 Predict before you peek"
+    - "L8 Not-responsive molds"
+    - "L12 Anchors / Call"
+    - "L13 Calibration"
+    - "L14 Integration"
+  allowed_subject_overlay:
+    - "Criminal = offense ladder + mens rea + defense gate"
+  gold_keys_available:
+    - "GK-CRIMINAL-PLANNED-PROVOCATION-01"
+    - "GK-CRIMINAL-WILLFUL-PREMED-01"
+  silver_keys_available:
+    - "SK-CRIMINAL-HOMICIDE-LADDER-01"
+  student_access_limit: "Student may use structure, call focus, answer-array ladder, and listed Gold/Silver Keys. Doctrinal confirmation stays quarantined."
+
+stem_parse:
+  parties:
+    defendant: "Peter"
+    victim: "Paul"
+    location: "John's house"
+  statute:
+    first_degree: "willful, premeditated, deliberate murder"
+    second_degree: "all other common-law murder"
+    voluntary_manslaughter: "common law"
+  call_type: "most serious offense"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Was Paul threatening Peter at the moment of the shot?"
+    - "Could the killing be some homicide?"
+    - "Did Paul become enraged?"
+  predicted_answer_before_choices: "Most serious offense remains first-degree murder unless a defense or mitigation knocks it down."
+
+trigger_facts:
+  - fact: "Peter hated Paul."
+    access_label: "student_visible"
+    use: "motive / planning context"
+  - fact: "Peter grabbed his gun before going to John's house."
+    access_label: "student_visible"
+    use: "premeditation and deliberation signal"
+  - fact: "Peter went hoping to provoke Paul into attacking him so Peter could shoot Paul."
+    access_label: "student_visible"
+    use: "planned-provocation Gold Key trigger; defeats self-defense and manslaughter traps"
+  - fact: "Peter falsely bragged about sexual relations with Paul's wife."
+    access_label: "student_visible"
+    use: "provocation setup"
+  - fact: "Paul grabbed a knife and ran toward Peter."
+    access_label: "student_visible"
+    use: "dominant self-defense bait"
+  - fact: "Peter shot and killed Paul."
+    access_label: "student_visible"
+    use: "deadly-force / homicide fact"
+
+c3_routing:
+  subject_fit: "Criminal Law = offense ladder + mens rea + defense/mitigation gate."
+  governing_law_type: "RULE"
+  deciding_phase: "CALL"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "Top homicide offense vs mitigation/justification downgrade"
+  call_heuristic: "offense_ladder_top_down_with_gold_key"
+
+answer_array:
+  geometry: "offense ladder plus defense trap"
+  structure:
+    A: "top offense"
+    B: "lesser murder"
+    C: "mitigated homicide"
+    D: "justification / no homicide"
+  silver_key: "SK-CRIMINAL-HOMICIDE-LADDER-01"
+  dominant_wrong_answer:
+    choice: "D"
+    original_pick_pct: 5
+    trap: "knife fact tempts self-defense, but planned provocation defeats it"
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "true and responsive residual"
+    c3_signal: "Top ladder answer; planning facts match statute; Gold Keys block the downgrade choices."
+    lawyer_confirmation: "First-degree murder is supported by willful, premeditated, deliberate conduct; official explanation confirms willfulness under MPC §2.02(8) and no self-defense due to first-aggressor provocation."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "answer_to_different_question"
+      - "wrong_standard"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "lesser-offense answer"
+    c3_signal: "The call asks for the most serious offense. B stops one rung too low once A survives."
+    lawyer_confirmation: "Second-degree murder is not the most serious proper conviction because the facts support first-degree murder."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "backwards"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "common_student_myth"
+      - "wrong_party"
+      - "wrong_mental_state"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "provocation-direction reversal"
+    c3_signal: "C says Peter gets manslaughter because Peter provoked Paul. The direction is backwards for mitigation."
+    lawyer_confirmation: "Voluntary manslaughter does not apply because Peter was not acting in heat of passion; he deliberately set up the confrontation."
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "exception_omitted"
+      - "common_student_myth"
+      - "half_right_answer"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "self-defense half-truth"
+    c3_signal: "D uses Paul's knife but omits Peter's setup. The planned-provocation fact blocks the defense."
+    lawyer_confirmation: "Self-defense is unavailable because Peter intentionally provoked the attack and did not withdraw or face a sudden escalation outside his plan."
+
+residual_answer:
+  choice: "A"
+  text: "Murder in the first degree."
+  why_survives: "The top offense is supported, and the mitigation/justification traps are blocked by planned provocation."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "The call asks for the most serious offense."
+      status: "passes"
+      basis: "call text"
+    - claim: "B is lower than A in the answer ladder."
+      status: "passes"
+      basis: "answer-array wording"
+    - claim: "Peter planned the confrontation before Paul charged."
+      status: "passes"
+      basis: "stem facts"
+    - claim: "C reverses the provocation direction."
+      status: "passes with Gold Key"
+      basis: "answer text plus Gold Key"
+    - claim: "D omits the planned-provocation blocker."
+      status: "passes with Gold Key"
+      basis: "stem facts plus Gold Key"
+  quarantined_lawyer_claims:
+    - "MPC §2.02(8) willfulness/knowledge confirmation"
+    - "first-aggressor exceptions: withdrawal and sudden escalation"
+    - "common-law voluntary manslaughter heat-of-passion doctrine"
+  drift_audit: "No choice is called false on lawyer-only grounds without Gold Key support. Official explanation used only in lawyer_confirmation."
+
+gold_keys:
+  - id: "GK-CRIMINAL-PLANNED-PROVOCATION-01"
+    statement: "A defendant who deliberately provokes the victim to create an excuse to use deadly force cannot use the victim's predictable reaction as self-defense or heat-of-passion mitigation."
+    type: "rule"
+    unlocks: "self-defense and voluntary-manslaughter traps"
+    trigger: "defendant goes to the scene hoping to provoke an attack so he can shoot"
+    tested_choice: "D"
+    authority: "lawyer_confirmation: supplied official explanation states self-defense fails because the defendant was the first aggressor and did not satisfy withdrawal or sudden-escalation exceptions."
+    last_minute_review: true
+  - id: "GK-CRIMINAL-WILLFUL-PREMED-01"
+    statement: "For this item's first-degree statute, a planned deadly shooting can satisfy willful, premeditated, and deliberate murder when the shooter knows death is substantially certain."
+    type: "phrase"
+    unlocks: "first-degree over second-degree"
+    trigger: "armed trip plus plan to provoke and shoot"
+    tested_choice: "B"
+    authority: "lawyer_confirmation: supplied official explanation relies on MPC §2.02(8) for willfully as knowingly unless the statute indicates otherwise."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-HOMICIDE-LADDER-01"
+    statement: "When the call asks for the most serious homicide offense and the choices form a ladder, start at the top rung the facts support, then ask whether a defense or mitigation knocks it down."
+    type: "answer_array"
+    navigates: "first-degree vs lesser homicide vs no homicide"
+    trigger: "choices list first-degree, second-degree, manslaughter, and no homicide"
+    tested_choice: "B"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-PLANNED-PROVOCATION-01"
+  title: "Planned provocation blocks the downgrade"
+  signal: "Defendant goes to the victim hoping the victim will attack first."
+  student_move: "Treat later self-defense and manslaughter answers as traps unless the stem shows withdrawal or a truly new escalation."
+  tiny_rule: "Do not let the bait fact erase the setup fact."
+  trap: "Paul had a knife, so self-defense feels intuitive."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?"
+review_truth: "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate."
+
+case_study_output:
+  program_frame: "Anchor-assisted C3 solve."
+  final_student_script: "Most serious offense. Start at A. Peter planned, armed himself, and set up the attack. Gold Key blocks self-defense and manslaughter. B is too low. Answer A."
+  calibration: "High after Gold Key; not a pure hard-structural item."
+
+quality_control:
+  transformed_from: "14659"
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  stem_not_over_signaled: true
+  no_clutter_doctrine_added: true
+  popular_bible_names_only: true
+  answer_array_geometry_preserved: true
+  exactly_three_single_filter_distractors: true
+  residual_equals_official_key: true
+  pick_rate_provenance_honest: true
+  gold_keys_present_because_anchor_dependent: true
+  silver_key_present_because_answer_array_move_matters: true
+
+analytics_hooks:
+  trap_tags:
+    - "planned_provocation"
+    - "initial_aggressor"
+    - "self_defense_bait"
+    - "voluntary_manslaughter_direction"
+    - "most_serious_offense_ladder"
+  remediation_targets:
+    - "offense_ladder"
+    - "defense_gate"
+    - "provocation_direction"
+  predicted_student_errors:
+    B: "Stops at murder without checking top degree."
+    C: "Treats victim's rage as defendant's heat of passion."
+    D: "Overweights the knife and underweights the planned setup."
+```
+
+---
+
+## B) PASS-2 BLOCK 2 — 17-SECTION STUDENT CASE STUDY
+
+### 1. program_frame
+
+This is a **Criminal Law homicide ladder** question. It is not a full homicide outline. The task is narrower: identify the top offense the facts support, then test whether any answer validly downgrades or excuses it.
+
+### 2. student_access_test
+
+Controlling question: could a trained C3 student identify each problem without outside doctrine?
+
+* **B:** Yes, with the homicide-ladder Silver Key plus Gold Key. It is lower than A and does not answer “most serious” once A survives.
+* **C:** Yes, with Gold Key. It reverses the provocation direction.
+* **D:** Yes, with Gold Key. It uses the knife fact but omits the planned-provocation blocker.
+* **A:** Yes, with Gold Key. It is the residual after the downgrade answers fail.
+
+Result: **ANCHOR_SOLVE**, not pure C3. The student needs the tiny criminal-law unlock.
+
+### 3. question_data
+
+**Question ID:** 14659_bible_study_ambush
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Homicide
+**Original key:** A
+**Original pick rates:** A 89%, B 4%, C 2%, D 5%
+**Answer-array shape:** first-degree → second-degree → voluntary manslaughter → no homicide.
+
+### 4. distilled_core_question
+
+Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?
+
+### 5. call_and_prediction
+
+The call asks for the **most serious homicide offense**.
+
+Prediction before choices: start at the top. Peter armed himself and planned the encounter. First-degree is available unless self-defense or manslaughter knocks it down.
+
+Adjacent-call trap: “Was Peter scared when Paul charged with a knife?” That is not the call. The call is the most serious proper conviction.
+
+### 6. trigger_facts
+
+| Trigger fact                                     | Why it matters             |
+| ------------------------------------------------ | -------------------------- |
+| Peter hated Paul                                 | Motive signal              |
+| Peter grabbed his gun before going               | Planning signal            |
+| Peter hoped to provoke Paul so Peter could shoot | Gold Key trigger           |
+| Peter lied about Paul’s wife                     | Setup fact                 |
+| Paul grabbed a knife and ran toward Peter        | Dominant self-defense bait |
+| Peter shot and killed Paul                       | Homicide fact              |
+
+### 7. governing_c3_lane
+
+**Lane:** offense ladder + defense gate.
+**Move:** CALL with Gold Key.
+**Confidence:** ANCHOR_ASSISTED.
+**Why not hard structural:** deciding that planned provocation legally blocks self-defense and manslaughter is a taught anchor, not grammar alone.
+
+### 8. choice_by_choice_walkthrough
+
+#### Choice A — Murder in the first degree.
+
+1. **Student-accessible C3 signal:** A is the top rung of the ladder. The facts show planning before the killing.
+2. **Student label:** residual / top offense.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** The official explanation confirms willful, premeditated, deliberate killing and relies on MPC §2.02(8) for willfulness as knowingly when the statute does not say otherwise.
+
+#### Choice B — Murder in the second degree.
+
+1. **Student-accessible C3 signal:** B is one rung lower than A. The call asks for the most serious offense.
+2. **Student label:** lesser-offense answer; NOT_RESPONSIVE / wrong_element.
+3. **What a true/responsive version would look like:** “Murder in the second degree, if the planning facts did not satisfy first-degree murder.”
+4. **Lawyer confirmation:** Second-degree is not the most serious conviction because the facts support first-degree murder.
+
+#### Choice C — Voluntary manslaughter, because Peter provoked Paul.
+
+1. **Student-accessible C3 signal:** The reason points the wrong way. It says Peter gets the downgrade because Peter provoked Paul.
+2. **Student label:** provocation-direction reversal; NOT_TRUE / backwards.
+3. **What a true/responsive version would look like:** “Voluntary manslaughter, if Paul’s provocation caused Peter to kill in heat of passion and the planning facts did not control.”
+4. **Lawyer confirmation:** Peter was not acting in heat of passion; he planned the confrontation.
+
+#### Choice D — No form of criminal homicide, because Peter acted in self-defense.
+
+1. **Student-accessible C3 signal:** D grabs the knife fact and drops the setup fact.
+2. **Student label:** self-defense half-truth; NOT_TRUE / half_truth.
+3. **What a true/responsive version would look like:** “No homicide, if Peter had not deliberately provoked the confrontation and reasonably used defensive force.”
+4. **Lawyer confirmation:** Self-defense fails because Peter was the first aggressor and did not withdraw or face a sudden escalation outside his plan.
+
+### 9. residual_answer
+
+After B, C, and D are cut with the ladder move and Gold Key, A remains.
+
+**Residual:** A. Murder in the first degree.
+
+### 10. legal_leak_audit
+
+Student-safe claims:
+
+* “Most serious” means do not stop at a lower offense if a higher offense survives.
+* The facts show Peter planned before the killing.
+* C’s reason points provocation in the wrong direction.
+* D uses one fact but omits another.
+
+Quarantined lawyer-confirmation claims:
+
+* MPC §2.02(8) willfulness/knowledge rule.
+* Common-law voluntary manslaughter boundaries.
+* First-aggressor exceptions.
+
+**Drift audit:** No distractor is labeled false solely because of hidden doctrine. C and D are cut through the planned-provocation Gold Key; B is cut through the “most serious” call plus the first-degree Gold Key.
+
+### 11. final_student_script
+
+“Most serious offense. Read the ladder top-down. Peter did not just react; he armed himself and went to John’s house hoping to provoke Paul so he could shoot him. That blocks self-defense and manslaughter. Second-degree is too low. The top supported offense is first-degree murder. Pick A.”
+
+### 12. remediation_card
+
+**CRIM-REM-PLANNED-PROVOCATION-01 — Planned provocation blocks the downgrade**
+
+* **Signal:** Defendant goes to the scene hoping the victim will attack first.
+* **Move:** Do not let the later danger erase the earlier setup.
+* **Tiny rule:** The setup fact controls the defense trap.
+* **Trap:** Knife = self-defense instinct.
+* **Confidence:** ANCHOR_ASSISTED.
+
+### Gold Key(s)
+
+**GK-CRIMINAL-PLANNED-PROVOCATION-01**
+A defendant who deliberately provokes the victim to create an excuse to use deadly force cannot use the victim’s predictable reaction as self-defense or heat-of-passion mitigation.
+
+**GK-CRIMINAL-WILLFUL-PREMED-01**
+For this item’s first-degree statute, a planned deadly shooting can satisfy willful, premeditated, and deliberate murder when the shooter knows death is substantially certain.
+
+### Silver Key(s)
+
+**SK-CRIMINAL-HOMICIDE-LADDER-01**
+When the call asks for the most serious homicide offense and the choices form a ladder, start at the top rung the facts support, then ask whether a defense or mitigation knocks it down.
+
+### 13. qa_checklist
+
+| Check                                                       | Result |
+| ----------------------------------------------------------- | ------ |
+| Rule unchanged                                              | Pass   |
+| Correct answer unchanged                                    | Pass   |
+| Dominant trap preserved                                     | Pass   |
+| No over-signaling                                           | Pass   |
+| Popular Bible names only                                    | Pass   |
+| No clutter doctrine                                         | Pass   |
+| Three distractors, one filter each                          | Pass   |
+| Gold Keys included because anchor-dependent                 | Pass   |
+| Silver Key included because answer-array navigation matters | Pass   |
+| PASS verdict available                                      | Pass   |
+
+### 14. wrong_answer_recovery_paths
+
+**B path:** Student sees “murder” and stops. Recovery: re-read “most serious.” If A survives, B loses.
+
+**C path:** Student treats any provocation as manslaughter. Recovery: ask who was provoked into heat of passion. Here, Peter created the provocation.
+
+**D path:** Student sees Paul’s knife and picks self-defense. Recovery: ask who created the deadly confrontation. Peter did.
+
+### 15. outline_mastery_map
+
+**Placement:** Criminal Law → homicide degree ladder → defenses and mitigation.
+**This item teaches:** planned provocation blocks both the mitigation and self-defense exits.
+**Fills:** first-degree vs second-degree; voluntary manslaughter trap; self-defense trap.
+**Adjacent to master:** mens rea ladder; heat of passion; initial aggressor.
+
+### 16. crossover_intersection_map
+
+* **Criminal Law + Torts:** self-defense language appears in both, but criminal homicide asks offense and justification.
+* **Evidence-like skill:** do not overweight vivid facts. The knife is vivid; the setup is dispositive.
+* **C3 universal:** answer ladder + call focus.
+
+### 17. review_truth
+
+A planned provocateur cannot use the victim’s expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.
+
+---
+
+## B) PASS-2 BLOCK 3 — c3_annotation JSON
+
+```json
+{
+  "question_id": "14659_bible_study_ambush",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?",
+  "review_truth": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "top homicide offense vs mitigation/justification downgrade",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "offense_ladder_top_down_with_gold_key",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "SK-CRIMINAL-HOMICIDE-LADDER-01",
+        "explanation": "Second-degree murder is a lower rung and does not answer the most-serious-offense call once first-degree survives."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-PLANNED-PROVOCATION-01",
+        "explanation": "The answer reverses provocation direction: Peter provoked Paul, which does not mitigate Peter's planned killing."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-PLANNED-PROVOCATION-01",
+        "explanation": "The answer uses Paul's knife but omits Peter's planned-provocation setup, which blocks the self-defense trap."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Official explanation quarantined to lawyer_confirmation. Student path uses answer ladder, call focus, and Gold Keys; no lawyer-only doctrine is relabeled as hard structure. transformed_from: 14659",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-PLANNED-PROVOCATION-01",
+        "statement": "A defendant who deliberately provokes the victim to create an excuse to use deadly force cannot use the victim's predictable reaction as self-defense or heat-of-passion mitigation.",
+        "type": "rule",
+        "unlocks": "self-defense and voluntary-manslaughter traps",
+        "trigger": "defendant goes to the scene hoping to provoke an attack so he can shoot",
+        "tested_choice": "D",
+        "authority": "lawyer_confirmation: supplied official explanation states self-defense fails because defendant was first aggressor and did not satisfy withdrawal or sudden-escalation exceptions.",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIMINAL-WILLFUL-PREMED-01",
+        "statement": "For this item's first-degree statute, a planned deadly shooting can satisfy willful, premeditated, and deliberate murder when the shooter knows death is substantially certain.",
+        "type": "phrase",
+        "unlocks": "first-degree over second-degree",
+        "trigger": "armed trip plus plan to provoke and shoot",
+        "tested_choice": "B",
+        "authority": "lawyer_confirmation: supplied official explanation relies on MPC §2.02(8) for willfully as knowingly unless the statute indicates otherwise.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-HOMICIDE-LADDER-01",
+        "statement": "When the call asks for the most serious homicide offense and the choices form a ladder, start at the top rung the facts support, then ask whether a defense or mitigation knocks it down.",
+        "type": "answer_array",
+        "navigates": "first-degree vs lesser homicide vs no homicide",
+        "trigger": "choices list first-degree, second-degree, manslaughter, and no homicide",
+        "tested_choice": "B",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B) PASS-2 BLOCK 4 — program_elements JSON
+
+```json
+{
+  "question_id": "14659_bible_study_ambush",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?",
+  "review_truth": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+  "tension": {
+    "axis": "top homicide offense vs downgrade/defense",
+    "resolver": "Peter planned the confrontation before Paul charged with the knife"
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "It still says murder and feels cautious when the victim had a knife.",
+      "focus_group_pct": 4
+    },
+    {
+      "choice": "C",
+      "mold": "backwards",
+      "architecture": "wrong_frame",
+      "why_attractive": "Students see provocation and jump to manslaughter without checking who was provoked.",
+      "focus_group_pct": 2
+    },
+    {
+      "choice": "D",
+      "mold": "half_truth",
+      "architecture": "wrong_frame",
+      "why_attractive": "Paul charged with a knife, which makes self-defense emotionally plausible.",
+      "focus_group_pct": 5
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-PLANNED-PROVOCATION-01",
+    "title": "Planned provocation blocks the downgrade",
+    "signal": "Defendant goes to the scene hoping the victim will attack first.",
+    "student_move": "Treat later self-defense and manslaughter answers as traps unless the stem shows withdrawal or a truly new escalation.",
+    "tiny_rule": "Do not let the bait fact erase the setup fact.",
+    "trap": "Paul had a knife, so self-defense feels intuitive.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "overweighting_vivid_weapon_fact",
+    "missing_most_serious_call",
+    "provocation_direction_reversal",
+    "treating_less_serious_murder_as_safe",
+    "legal_leak_risk_if_first_aggressor_is_called_pure_structure"
+  ]
+}
+```
+
+---
+
+## B) PASS-2 BLOCK 5 — program_intelligence JSON
+
+```json
+{
+  "question_id": "14659_bible_study_ambush",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?",
+  "review_truth": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student sees murder and avoids the harsher degree because Paul had a knife.",
+      "skipped_move": "Silver Key: read the homicide ladder top-down under the most-serious call.",
+      "recovery_step": "Ask whether first-degree survives before selecting second-degree."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student sees the word provoked and auto-matches it to voluntary manslaughter.",
+      "skipped_move": "Gold Key: planned provocation by the defendant does not create heat-of-passion mitigation.",
+      "recovery_step": "Check who was provoked and who planned the confrontation."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The knife fact makes self-defense feel like the natural answer.",
+      "skipped_move": "Gold Key: planned provocateur cannot use the expected reaction as self-defense.",
+      "recovery_step": "Pair the knife fact with the earlier setup fact; the setup controls."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array",
+      "target_skill": "homicide ladder top-down",
+      "prompt": "Choices are first-degree, second-degree, manslaughter, and no homicide. The call asks for most serious offense. What do you test first?",
+      "answer": "Start with the top offense supported by the facts, then test downgrade or defense."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "planned-provocation blocker",
+      "prompt": "Defendant goes to the scene hoping the victim will attack first so defendant can shoot. Victim charges with a weapon. What fact must not be ignored?",
+      "answer": "The defendant planned and provoked the confrontation."
+    },
+    {
+      "drill_type": "mold_identification",
+      "target_skill": "provocation direction",
+      "prompt": "Voluntary manslaughter, because Peter provoked Paul. What mold?",
+      "answer": "Backwards: the provocation direction is reversed."
+    },
+    {
+      "drill_type": "calibration",
+      "target_skill": "anchor-assisted confidence",
+      "prompt": "A choice is eliminated only after applying the planned-provocation tiny rule. What confidence class?",
+      "answer": "ANCHOR_ASSISTED, not HARD_STRUCTURAL."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "offense_ladder",
+      "planned_provocation",
+      "initial_aggressor",
+      "deadly_force",
+      "most_serious_call"
+    ],
+    "misconception_tags": [
+      "knife_equals_self_defense",
+      "any_provocation_equals_manslaughter",
+      "second_degree_safe_answer",
+      "vivid_fact_over_setup_fact"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Core L1/L2",
+      "reason": "TRUE and RESPONSIVE plus Cut-Clash-Call residual."
+    },
+    {
+      "component": "C3 L8",
+      "reason": "B is not responsive to most-serious call."
+    },
+    {
+      "component": "C3 L12",
+      "reason": "Gold Key required for planned-provocation defense/mitigation blocker."
+    },
+    {
+      "component": "C3 L13",
+      "reason": "Calibrate as anchor-assisted, not hard structural."
+    }
+  ],
+  "crossovers": [
+    {
+      "area": "Torts self-defense vocabulary",
+      "note": "Do not import ordinary self-defense instinct without the criminal first-aggressor gate."
+    },
+    {
+      "area": "Evidence vivid-fact control",
+      "note": "Knife is vivid but not controlling; setup fact controls."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-PLANNED-PROVOCATION-01",
+      "statement": "A defendant who deliberately provokes the victim to create an excuse to use deadly force cannot use the victim's predictable reaction as self-defense or heat-of-passion mitigation.",
+      "type": "rule",
+      "unlocks": "self-defense and voluntary-manslaughter traps",
+      "trigger": "defendant goes to the scene hoping to provoke an attack so he can shoot",
+      "tested_choice": "D",
+      "authority": "lawyer_confirmation: supplied official explanation states self-defense fails because defendant was first aggressor and did not satisfy withdrawal or sudden-escalation exceptions.",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-WILLFUL-PREMED-01",
+      "statement": "For this item's first-degree statute, a planned deadly shooting can satisfy willful, premeditated, and deliberate murder when the shooter knows death is substantially certain.",
+      "type": "phrase",
+      "unlocks": "first-degree over second-degree",
+      "trigger": "armed trip plus plan to provoke and shoot",
+      "tested_choice": "B",
+      "authority": "lawyer_confirmation: supplied official explanation relies on MPC §2.02(8) for willfully as knowingly unless the statute indicates otherwise.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-HOMICIDE-LADDER-01",
+      "statement": "When the call asks for the most serious homicide offense and the choices form a ladder, start at the top rung the facts support, then ask whether a defense or mitigation knocks it down.",
+      "type": "answer_array",
+      "navigates": "first-degree vs lesser homicide vs no homicide",
+      "trigger": "choices list first-degree, second-degree, manslaughter, and no homicide",
+      "tested_choice": "B",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > Homicide > degree ladder and defenses",
+    "this_item_teaches": "Planned provocation blocks self-defense and manslaughter, leaving first-degree murder when planning supports the top degree.",
+    "fills": [
+      "first_degree_murder",
+      "second_degree_murder_less_serious",
+      "voluntary_manslaughter_direction",
+      "self_defense_initial_aggressor"
+    ],
+    "adjacent_to_master": [
+      "mens_rea_ladder",
+      "heat_of_passion",
+      "deadly_force_self_defense",
+      "initial_aggressor_exceptions"
+    ]
+  }
+}
+```
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14659_bible_study_ambush"
+  question_id: "14659_bible_study_ambush"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Homicide"
+  outline_code: "00000000"
+  official_key: "A"
+transform_provenance:
+  transformed_from: "14659"
+  variant_slug: "bible_study_ambush"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "A"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "A"
+distilled_core_question: "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?"
+review_truth: "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14659_bible_study_ambush; source 14659.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Criminal Law; subtopic Homicide.
+4. **distilled_core_question:** Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?
+5. **call_and_prediction:** Credited answer: A.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 00000000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** A
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 00000000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14659_bible_study_ambush",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?",
+  "review_truth": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14659; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14659_bible_study_ambush",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?",
+  "review_truth": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14659",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14659_bible_study_ambush",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Peter planned to provoke Paul into attacking him so Peter could shoot him. Paul charged with a knife. Peter shot him. Under a first-degree statute requiring willful, premeditated, deliberate murder, what is the most serious homicide conviction?",
+  "review_truth": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "A planned provocateur cannot use the victim's expected reaction as self-defense or voluntary manslaughter; first-degree murder remains available when the killing was willful, premeditated, and deliberate.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

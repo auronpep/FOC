@@ -1,3 +1,158 @@
+## Online Question Database Updated-Copy Integration - 2026-06-20
+
+- [x] Confirm the active online question database integration path and whether the target is production.
+- [x] Map the 268 audited `Finished\CQ*_updated.md` files to existing old-question records.
+- [x] Run a no-write diff/preflight showing exactly which online records would change.
+- [x] Apply the updated copy only after the preflight proves the target set and safety checks.
+- [x] Validate the database state after integration and record the evidence here.
+
+### Working Notes
+
+- Source copy is the audited `_updated.md` sibling set in `C:\FOC\Workspace\Finished`.
+- Prior workbook audit passed 1,263 listed adjustments across the 268-file allowlist with 0 remaining failures.
+- Live database writes require target confirmation, backup/export or transaction proof, and a dry-run diff first.
+- Target confirmed as Hostinger production database `u211961595_barmatrix_prod` through the deployed API env file path used by `dist/config.js`.
+- Staged the 268 updated files under `C:\FOC\Workspace\outputs\online-db-update-20260620-012140\source` with original `CQ*.md` names for generator compatibility.
+- Final generator output: `generated-corrected-stems-4\qa-report.json` reported 176 pass, 92 quarantine, 142 warnings. The parser emitted `cq-questions.json` for mapping and update-package generation.
+- Live mapping result: 166 of the 268 updated files matched existing live old-question rows by numeric prefix; 102 updated files were not present in the current online DB snapshot.
+- Integration scope: 141 live-matched generated-pass rows were updated in production; 25 live-matched rows were skipped because generator quarantine remained.
+- Production table counts stayed unchanged after the main update and correction pass: `questions=1252`, `answer_choices=5008`, `question_tags=47427`.
+- Main update artifacts: `dry_run_diff_eligible_updates.csv`, `update_existing_questions.sql`, `expected_post_update_hashes.json`, `post_update_verify.json`, and `pre_update_backup_eligible.json`.
+- Correction artifacts after API smoke found provenance text in some stems: `correction_clean_stems.sql`, `correction_rollback_validation.json`, `correction_apply_verify.json`, and `correction_post_update_verify.json`.
+
+### Review Results
+
+- Confirmed `update_existing_questions.sql` contained no `INSERT`, `DELETE`, or `TRUNCATE`; it updated 141 existing `questions` rows and 564 existing `answer_choices` rows behind hash guards.
+- Saved a pre-update backup of the 141 eligible target questions, 564 answer choices, and 6,025 tags to `pre_update_backup_eligible.json`.
+- Main production update rollback validation passed, then apply verification reported 141 checked, 141 matched, 0 failures, with table counts unchanged.
+- API smoke after the main update exposed provenance text at the start of some stems, so the generator parser was patched to strip leading metadata labels from recovered markdown stems before building SQL.
+- The correction SQL contained no `INSERT`, `DELETE`, `TRUNCATE`, `ALTER`, or `DROP`; it updated 27 target question rows and 108 choice rows behind hash guards.
+- Correction rollback validation passed against `u211961595_barmatrix_prod`: 27 target questions, 108 target choices, `countsStable=true`.
+- Correction apply and separate post-update verify both passed: 27 checked, 27 matched, 0 failures, `countsStable=true`.
+- Public API smoke passed for `CQ14640` (`31ba58b9-6a31-11f1-a7ad-f9e8a06a2fad`) and `CQ14616` (`31b7525b-6a31-11f1-a7ad-f9e8a06a2fad`): both returned 4 choices and fact-pattern stems, not metadata.
+- Quarantine reasons for the 25 skipped live-matched files are saved to `outputs\online-db-update-20260620-012140\quarantined_live_matched_items.md` and `.csv`.
+- Remaining live-matched blockers are listed in `skipped_live_matched_blockers.csv`: `CQ14595.md`, `CQ14676_church_youth_accusation.md`, `CQ14685.md`, `CQ14931.md`, `CQ15014.md`, `CQ15054.md`, `CQ15100.md`, `CQ17034.md`, `CQ17345.md`, `CQ17776.md`, `CQ18217.md`, `CQ18385.md`, `CQ19064.md`, `CQ19099.md`, `CQ19143.md`, `CQ19692.md`, `CQ20031.md`, `CQ20168.md`, `CQ20575.md`, `CQ21131.md`, `CQ21244.md`, `CQ21707.md`, `CQ21770.md`, `CQ22408.md`, and `CQ22409.md`.
+- Local verification passed: `npm run typecheck` in `C:\barmatrix-api`; `git diff --check` in `C:\barmatrix-api`; `git diff --check -- tasks/todo.md` in `C:\FOC\Workspace` with only the existing LF-to-CRLF warning.
+
+## Questions to Fix Workbook Repair - 2026-06-19
+
+- [x] Read workbook allowlist and grouped detail rows from `C:\Users\JesusLovesMe\Downloads\Questions to fix.xlsx`.
+- [x] Write `_updated.md` siblings for the 268 allowlisted `Finished\CQ*.md` files only.
+- [x] Fix only workbook-listed structural issues: missing frontmatter, missing current-contract headings/blocks, missing Pass-1 section count, and the one JSON parse defect.
+- [x] Validate updated files against the workbook issue checks and parse JSON blocks.
+- [x] Record review results and leave original files unchanged.
+
+### Mapping Plan
+
+- Use sheet `files to edit` as the allowlist; ignore detail rows for files not listed there.
+- Preserve existing legal/question text wherever possible; normalize wrappers/headings and add minimal extract-based blocks instead of regenerating questions.
+- Output path pattern: `Finished\<original stem>_updated.md`.
+
+### Review Results
+
+- Workbook sheet `files to edit` listed 268 unique files; all 268 now have sibling `_updated.md` files in `Finished\`.
+- Used 1,263 detail rows for the 268-file allowlist. Ignored 10 detail rows for two filenames not present on `files to edit`.
+- Repairs covered the listed issue types: missing frontmatter, missing Pass-1 section count, missing Question YAML/case-study/JSON block headings, and the `CQ20903.md` `program_elements` parse defect.
+- Validation command: bundled Python normalizer reported `written: 268`, `failures: []`, and `originalHashMismatches: []`.
+- Separate read-only validation reported 268 expected files, 0 missing `_updated.md` outputs, and 0 remaining listed issue failures.
+- `git diff --check -- 'tasks/todo.md' '.codex_spreadsheet_work/fix_questions_from_workbook.py'` completed with no whitespace errors; Git printed only the existing LF-to-CRLF warning for `tasks/todo.md`.
+
+### Follow-up Audit Results
+
+- Replaced generic Pass-1 `Repair Note` padding with named current-contract sections, then regenerated all 268 `_updated.md` files from the original source files.
+- Created per-adjustment audit artifacts:
+  - `outputs\questions-to-fix-audit\adjustment_audit.csv`
+  - `outputs\questions-to-fix-audit\adjustment_audit_summary.json`
+- Audit result: 1,263 workbook detail rows on the 268-file allowlist passed, 0 failed.
+- Issue-by-issue pass counts: `missing_frontmatter` 225, `missing_pass1_sections` 107, `missing_question_yaml` 130, `missing_case_study` 148, `missing_c3_annotation` 217, `missing_program_elements` 217, `missing_program_intelligence` 218, `program_elements_parse_error` 1.
+- Confirmed 268 expected outputs exist, 0 outputs are missing, 0 files contain generic `Repair Note` padding, and 0 JSON sections have duplicate fenced JSON blocks.
+- Workbook `details` contained 10 rows for filenames not present on `files to edit`; those were intentionally excluded because the user scoped edits to the `files to edit` sheet.
+
+## Finished Questions Master Workbook Audit - 2026-06-19
+
+- [x] Reproduce missing `QuestionQA.finalQuestion` cells for `CQ14032.md`, `CQ14062.md`, `CQ14068.md`, `CQ14071.md`, and `CQ14085.md`.
+- [x] Identify the parser root cause by comparing the source Markdown section headings and generated workbook cells.
+- [x] Patch the exporter so `QuestionQA` extracts these rows and similar older/current heading variants.
+- [x] Rebuild `finished_questions_master.xlsx`.
+- [x] Verify the named rows and audit all `QuestionQA` rows for blank final-question fields.
+
+### Review Results
+
+- Rebuilt `C:\FOC\Workspace\outputs\finished-questions-master\finished_questions_master.xlsx`.
+- Root causes fixed: markdown headings with `## 1. ...`, long-dash frontmatter closers, unnumbered/bold/plain Pass-1 headings, direct label-style questions, `Question YAML` fallback, case-study `question_data` fallback, and `c3_annotation.stem` fallback.
+- Verified by direct OpenXML read: ZIP integrity OK, 17 sheets, `QuestionQA` has 1,722 rows, `NeedsUpdatedInfo` has 772 rows, and `ParseIssues` has 1,273 rows.
+- Named rows now populate: `CQ14032.md`, `CQ14062.md`, `CQ14068.md`, `CQ14071.md`, and `CQ14085.md` all have nonblank `finalQuestion`, `choiceA`, and `correctAnswer` values.
+- Remaining blank `QuestionQA.finalQuestion` rows are source-file gaps, not parser misses: `CQ14621.md`, `CQ16040.md`, `CQ16052.md`, `CQ16160_christian_variant.md`, `CQ17564.md`, and `CQ17930.md`. These are listed in `NeedsUpdatedInfo`.
+
+## Finished Questions Master Workbook - 2026-06-19
+
+- [x] Locate active CQ workspace and required local docs under `C:\FOC\Workspace`.
+- [x] Inspect representative `Finished\CQ*.md` files and identify stable block boundaries.
+- [x] Build one master workbook from all `Finished\CQ*.md` variants, including suffix files.
+- [x] Include separate sheets for frontmatter YAML, Question YAML, case-study sections, JSON block summaries, Q&A fields, and parse issues.
+- [x] Verify workbook row counts, parsed JSON/YAML coverage, and readable sheet layout.
+
+### Review Results
+
+- Output written to `C:\FOC\Workspace\outputs\finished-questions-master\finished_questions_master.xlsx`.
+- Workbook includes 17 sheets: `Summary`, `Frontmatter`, `QuestionQA`, `Pass1Sections`, `QuestionYAML`, `CaseStudySections`, `C3Annotation`, `ProgramElements`, `ProgramTraps`, `ProgramIntelligence`, `WrongAnswerPaths`, `DrillSeeds`, `Routing`, `Keys`, `RawBlocks`, `NeedsUpdatedInfo`, and `ParseIssues`.
+- Source count: 1,722 `Finished\CQ*.md` files, including 1,718 exact `CQ<number>.md` files and 4 suffix variants.
+- Current-contract coverage: 1,534 Question YAML rows, 1,471 parsed `c3_annotation` rows, 1,476 parsed `program_elements` rows, 1,476 parsed `program_intelligence` rows, and 19,681 case-study section rows.
+- Added `NeedsUpdatedInfo` with 1,185 files missing at least one current-contract block, parseable JSON block, full case-study section set, or required frontmatter field.
+- Verification passed by reading the generated `.xlsx` as an OpenXML package: ZIP integrity OK, 17 sheets found, `Summary` has 25 rows, `QuestionQA` has 1,722 rows, and `NeedsUpdatedInfo` has 1,185 rows.
+
+## Q22294 C3 Transform - 2026-06-19
+
+- [x] Confirm `Finished\CQ22294.md` did not already exist.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, `skills\cq-transform-qa\MYSKILL.md`, the relevant Criminal Law homicide section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\22294.md`.
+- [x] Search available BarMatrix MBE workbooks for row `22294`; no matching workbook row was found, so `QBank\22294.md` was used as the source row.
+- [x] Verify governing authority for felony murder, co-felon death, and justified victim resistance.
+- [x] Draft and save the maximally divergent Christian variation plus Pass-1 and Pass-2 output for Q22294 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, predicted seed pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+
+### Review Results
+
+- Output written to `Finished\CQ22294.md` with variant id `22294_bookstore_display_case`.
+- Verified `74020101` appears in `OUTLINE_CODES_COMPLETE.md` as `Crimes against the Person > Homicide > Murder`.
+- Authority floor checked against Model Penal Code section 210.2(1)(b), `People v. Washington`, and `Commonwealth v. Redline`.
+- Source supplied no measured pick rates, so the file uses predicted seed rates totaling 100 and flags new choice `C` as the analytic dominant wrong-answer trap: A 14, B 19, C 31, D 36.
+- Cross-block consistency verified: question id `22294_bookstore_display_case`, credited answer `D`, residual `D`, original key `B`, outline code `74020101`, subject `CRIMINAL`, dominant trap `C`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- JSON Blocks 3, 4, and 5 parsed successfully; required Pass-2 headings are present; `drift_audit`, `transformed_from`, and `letter_map` are present in analyzer notes.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ22294.md`.
+- Stopped after Q22294; no other question was started.
+
+## Q14887 C3 Transform - 2026-06-17
+
+- [x] Confirm `Finished\CQ14887.md` does not already exist.
+- [x] Confirm source item `QBank\14887.md` exists and process exactly this one question.
+- [x] Read `PROMPT.md`, `controlled_vocabularies.md`, `skills\cq-transform-qa\SKILL.md`, the relevant Evidence lay-opinion section of `OUTLINE_CODES_COMPLETE.md`, and `QBank\14887.md`.
+- [x] Verify the governing authority floor and deepest matching outline code for prior-condition lay testimony / relevance.
+- [x] Draft and save the maximally divergent Christian variation and full Pass-1 plus Pass-2 output for Q14887 only.
+- [x] Validate JSON blocks, key/letter-map consistency, outline-code reuse, dominant trap, inherited pick rates, controlled routing, Gold/Silver Key consistency, and whitespace hygiene.
+- [x] Record review results and stop after Q14887 without starting another question.
+
+### Mapping Plan
+
+- Transform only Q14887 in this run.
+- Preserve the original admissibility issue, credited relevance/probative-value outcome, expert-qualification trap, later-cause weight trap, and measured dominant party-exemption trap.
+- Source supplies measured pick-rate data; inherit rates by mechanic through the Letter Map.
+- Use verified outline code `31010403`, which appears in `OUTLINE_CODES_COMPLETE.md` as `Presentation of Evidence > Witnesses > Lay opinion testimony`.
+
+### Review Results
+
+- Output written to `Finished/CQ14887.md` with variant id `14887_workshop_display_wrist`.
+- Verified `31010403` appears in `OUTLINE_CODES_COMPLETE.md` as `Presentation of Evidence > Witnesses > Lay opinion testimony`.
+- Authority floor checked against the U.S. Courts Federal Rules of Evidence PDF for FRE 401, 402, 602, and 701.
+- Source supplied measured pick rates, so the file inherits rates by mechanic through the Letter Map and flags new choice `C` as the dominant wrong-answer trap: A 2, B 92, C 5, D 1.
+- Cross-block consistency verified: question id `14887_workshop_display_wrist`, credited answer `B`, residual `B`, original key `C`, outline code `31010403`, subject `EVIDENCE`, dominant trap `C`, and matching Gold/Silver Keys between Blocks 3 and 5.
+- Controlled routing passed with `program_intelligence.component_routing[].destination_key` values from `controlled_vocabularies.md`.
+- Verified all three JSON blocks parse with `ConvertFrom-Json`; pick rates sum to 100; required Pass-2 headings are present; `drift_audit`, `transformed_from`, and `letter_map` are present in analyzer notes.
+- ASCII-only output, no `utm_`, `?utm`, `chatgpt.com`, legacy `red_zones` property, or trailing whitespace in `Finished\CQ14887.md`.
+- Verified `pwsh -NoProfile -File C:\FOC\Workspace\verify_json.ps1 -Path C:\FOC\Workspace\Finished\CQ14887.md` returned `Passed=True` and `FailureCount=0`.
+- Verified `git diff --check -- 'Finished/CQ14887.md'` completed with no whitespace errors.
+- Stopped after Q14887; no other question was started.
+
 ## Q17074 C3 Transform - 2026-06-17
 
 - [x] Confirm `Finished\CQ17074.md` does not already exist.

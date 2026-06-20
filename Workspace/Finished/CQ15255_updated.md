@@ -1,0 +1,1060 @@
+---
+qid: "15255"
+transformed_from: "15255"
+subject: "TORTS"
+topic: "Strict Liability and Products Liability"
+subtopic: "Federal Tort Claims Act negligence gate / strict-liability bait"
+outline_code: "00000000"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: ">"
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source basis.** The uploaded row identifies BARMATRIX Q# 15255 as a Torts / Strict Liability and Products Liability item, gives the original FTCA nuclear-reactor fact pattern, answer choices A–D, official key C, and official explanations for A, B, C, and D.  The project prompt also requires a Christian-first transform, popular Bible names, honest pick-rate provenance, QID linkage, Gold/Silver Keys when triggered, and the full five-block C3 output.  The reasoning-creed file frames the work as “never whether, only how,” with candor against motivated reasoning and proof-before-proxy discipline. 
+
+### 1. Final question — chosen Christian variation
+
+**Question ID:** `15255_good_shepherd_dairy`
+
+Under the Federal Tort Claims Act, with certain exceptions not relevant here, the federal government is liable only for negligence. A federally owned and operated nuclear research reactor near **Lydia’s Good Shepherd Dairy** emitted substantial quantities of radioactive matter that settled on Lydia’s dairy farm, killing her herd and contaminating the soil.
+
+At the trial of Lydia’s action against the federal government, the trier of fact found the following:
+(1) the reactor had a sound design, but a valve made by **Barnabas Engineering** had malfunctioned and allowed the radioactive matter to escape;
+(2) Barnabas Engineering was universally regarded as a quality manufacturer of components for nuclear reactors; and
+(3) there was no way the federal government could have anticipated or prevented the emission of the radioactive matter.
+
+If there is no other applicable statute, for which party should the court enter judgment?
+
+### 2. Distilled Core Question
+
+FTCA says the federal government is liable only for negligence. A federal reactor releases radioactive matter because a reputable manufacturer’s valve unexpectedly malfunctions, and the government could not anticipate or prevent it. Does the farm owner win, or does the government win?
+
+### 3. Final answer choices
+
+A. **Lydia**, on the ground that the doctrine of res ipsa loquitur applies.
+B. **Lydia**, on the ground that one who allows dangerous material to escape to the property of another is liable for the damage done.
+C. **The government**, on the ground that a case under the Federal Tort Claims Act has not been proved.
+D. **The government**, on the ground that Barnabas Engineering is the proximate cause of Lydia’s damage.
+
+### 4. Possible replacement answer choices
+
+No replacement is recommended. The uploaded row has no measured pick rates, so no distractor is honestly identifiable as a weak `<21%` distractor. All three wrong answers are structurally useful:
+
+| Choice | Keep / Replace | Reason                                                                         |
+| ------ | -------------: | ------------------------------------------------------------------------------ |
+| A      |           Keep | Tests the res ipsa shortcut trap. Anchor-assisted, but valuable.               |
+| B      |           Keep | Preserves the dominant strict-liability bait against the FTCA negligence gate. |
+| D      |           Keep | Preserves correct-result / wrong-layer causation bait.                         |
+
+### 5. Correct answer
+
+**C. The government, on the ground that a case under the Federal Tort Claims Act has not been proved.**
+
+### 6. Full right-answer explanation
+
+**C is correct.** The call asks for judgment in an FTCA action. The stem gives the governing gate: the government is liable only for negligence. The factfinder found a sound reactor design, a malfunctioning valve from a universally respected manufacturer, and no way for the government to anticipate or prevent the release. That means the plaintiff has not proved the negligence case the FTCA frame requires.
+
+**Gold Key:** In an FTCA frame that limits government liability to negligence, dangerous-activity strict liability does not win by itself. The plaintiff must prove a negligent or wrongful government act.
+
+**Silver Key:** Start with the liability gate in the first sentence. Do not chase “radioactive matter,” “dangerous material,” or “proximate cause” until a choice proves government negligence.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** It tries to use res ipsa loquitur as a shortcut to negligence. The problem is that the factfinder already gave the opposite signal: the government used a reputable component maker and could not anticipate or prevent the malfunction. **Gold Key:** Res ipsa is only a negligence-inference shortcut; it does not override facts that defeat the negligence inference.
+
+**B is wrong.** It states the strict-liability-style dangerous-escape idea. That is exactly the attractive trap. The stem says this FTCA claim allows liability only for negligence. **Gold Key:** FTCA negligence gate beats the dangerous-material strict-liability bait.
+
+**D is wrong.** It reaches the right side but gives the wrong reason. The clean reason is not “the manufacturer was the proximate cause.” The clean reason is more basic: Lydia did not prove a negligence case against the government. **Silver Key:** Pick the threshold failure before a downstream causation explanation.
+
+### 8. Black-letter-law verification and legal reasoning
+
+The FTCA jurisdictional provision covers claims for property loss or injury caused by the “negligent or wrongful act or omission” of a federal employee acting within the scope of employment, under circumstances where a private person would be liable under local law. ([Legal Information Institute][1]) The Supreme Court in **Laird v. Nelms** held that, regardless of state-law characterization, the FTCA itself precludes government liability where there is no negligence or other misfeasance/nonfeasance by the government. ([Justia Law][2])
+
+The variation preserves the original rule and result: no government negligence was found; strict liability for dangerous escape is not enough under the FTCA frame; judgment goes to the government.
+
+### 9. Why the variation preserves rigor and difficulty
+
+The transform changes names and setting flavor only. It preserves:
+
+* FTCA negligence-only frame.
+* Dangerous radioactive escape fact.
+* Reputable manufacturer malfunction.
+* No anticipation / prevention by the government.
+* Plaintiff traps: res ipsa and strict liability.
+* Government trap: right result for wrong causation reason.
+* Correct answer C.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Anchor-assisted cut. Res ipsa is a negligence-inference shortcut, but the facts are set against a negligence inference.
+**CUT B:** Cut as wrong-frame / bait doctrine. It answers a strict-liability question, not the FTCA negligence-only question.
+**CUT D:** Cut as wrong element / wrong layer. It discusses causation by Barnabas Engineering when the threshold defect is failure to prove government negligence.
+**Residual:** C. The FTCA case has not been proved.
+
+### 11. Review Truth
+
+When the FTCA frame limits the government to negligence liability, strict liability for dangerous escape is bait unless the plaintiff proves a negligent or wrongful government act.
+
+### 12. Five variations considered
+
+|  # | Title                   | Setting                                         | Cast                        | Exact preserved issue                           | Why memorable                                | Legal risks                                     | Recommendation |
+| -: | ----------------------- | ----------------------------------------------- | --------------------------- | ----------------------------------------------- | -------------------------------------------- | ----------------------------------------------- | -------------- |
+|  1 | **Good Shepherd Dairy** | Federal nuclear reactor near private dairy farm | Lydia, Barnabas Engineering | FTCA negligence gate vs strict-liability escape | Clean Christian image; no church-law clutter | Low                                             | **Selected**   |
+|  2 | Emmaus Olive Grove      | Federal isotope lab near olive grove            | Daniel, Peter Components    | Same                                            | Strong Bible geography flavor                | “Olive grove” less close to dairy-herd original | Not selected   |
+|  3 | Timothy’s Apiary        | Federal radiation lab harms bees and soil       | Timothy, Paul Engineering   | Same                                            | Memorable bees/honey motif                   | Changes herd-loss fact texture                  | Not selected   |
+|  4 | Martha’s Goat Dairy     | Federal reactor contaminates goat dairy         | Martha, Stephen Valves      | Same                                            | Keeps dairy animal loss                      | Slightly comic; less sober                      | Not selected   |
+|  5 | Jordan Valley Creamery  | Federal reactor near private creamery           | Ruth, Barnabas Engineering  | Same                                            | Strong Christian place-name flavor           | “Creamery” may imply processed goods issue      | Not selected   |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+question_yaml_version: "2.0"
+question_id: "15255_good_shepherd_dairy"
+transformed_from: "15255"
+
+barmatrix_row:
+  qid: "15255"
+  transformed_qid: "15255_good_shepherd_dairy"
+  subject: TORTS
+  topic: "Strict Liability and Products Liability"
+  subtopic: "Federal Tort Claims Act negligence gate / strict-liability bait"
+  source_status: "transformed_net_new_no_measured_pick_rates"
+  selection_percentages:
+    correct: null
+    A: null
+    B: null
+    C: null
+    D: null
+    provenance: "No pick-rate data supplied in source row."
+  original_official_key: "C"
+  official_key: "C"
+  call: "If there is no other applicable statute, for which party should the court enter judgment?"
+  stem: >
+    Under the Federal Tort Claims Act, with certain exceptions not relevant here,
+    the federal government is liable only for negligence. A federally owned and
+    operated nuclear research reactor near Lydia’s Good Shepherd Dairy emitted
+    substantial quantities of radioactive matter that settled on Lydia’s dairy
+    farm, killing her herd and contaminating the soil. At the trial of Lydia’s
+    action against the federal government, the trier of fact found the following:
+    (1) the reactor had a sound design, but a valve made by Barnabas Engineering
+    had malfunctioned and allowed the radioactive matter to escape; (2) Barnabas
+    Engineering was universally regarded as a quality manufacturer of components
+    for nuclear reactors; and (3) there was no way the federal government could
+    have anticipated or prevented the emission of the radioactive matter. If
+    there is no other applicable statute, for which party should the court enter
+    judgment?
+  choices:
+    A: "Lydia, on the ground that the doctrine of res ipsa loquitur applies."
+    B: "Lydia, on the ground that one who allows dangerous material to escape to the property of another is liable for the damage done."
+    C: "The government, on the ground that a case under the Federal Tort Claims Act has not been proved."
+    D: "The government, on the ground that Barnabas Engineering is the proximate cause of Lydia’s damage."
+
+source_stack:
+  - rank: 1
+    source: "BARMATRIX row 15255"
+    use: "Primary source for rule, original answer geometry, official key, and explanations."
+  - rank: 2
+    source: "Creative-transform guardrails"
+    use: "Christian-first transformation, popular Bible names, no clutter doctrines, QID provenance."
+  - rank: 3
+    source: "C3 method and controlled vocabulary"
+    use: "CUT/CLASH/CALL, filters, molds, method classes, verdicts."
+  - rank: 4
+    source: "Official explanation and legal authority"
+    use: "Lawyer-confirmation only; not used to fake student-access structure."
+
+student_access_contract:
+  allowed_c3_lessons:
+    - "TRUE and RESPONSIVE frame"
+    - "Cut → Clash → Call"
+    - "Issue-Sense: wrong frame / bait doctrine / wrong element"
+    - "Layer-fundamentalness: threshold before downstream element"
+    - "Anchor escalation when a named doctrine is not student-accessible"
+  taught_tiny_anchors:
+    - "Gold Key: FTCA negligence gate"
+    - "Gold Key: Res ipsa is a negligence-inference shortcut"
+  controlling_test: >
+    Could a smart 10-year-old who completed the C3 lessons and these Gold/Silver Keys
+    identify the choice problem without outside legal doctrine?
+  student_access_limit: >
+    The student may use the stem's explicit negligence-only gate, the C3 threshold-over-merits move,
+    and the Gold Keys. The student may not invent strict-liability or FTCA doctrine outside
+    those anchors.
+
+stem_parse:
+  subject_fit: "Torts = liability theory + element gate + wrong-theory bait."
+  governing_frame: "Federal Tort Claims Act claim against federal government."
+  call_type: "ordinary best-answer judgment call"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Whether radioactive release is abnormally dangerous."
+    - "Whether dangerous material escaped."
+    - "Whether Barnabas Engineering caused the harm."
+    - "Whether res ipsa can infer negligence."
+  plaintiff: "Lydia"
+  defendant: "Federal government"
+  nonparty_actor: "Barnabas Engineering"
+  requested_result: "Judgment for Lydia or for the government."
+
+trigger_facts:
+  - fact: "The FTCA frame says the federal government is liable only for negligence."
+    access_label: "student_visible_gate"
+    legal_role: "sets threshold theory of liability"
+  - fact: "The reactor had a sound design."
+    access_label: "student_visible"
+    legal_role: "points away from government negligence"
+  - fact: "A valve made by Barnabas Engineering malfunctioned."
+    access_label: "student_visible"
+    legal_role: "supplies nonparty malfunction and causation bait"
+  - fact: "Barnabas Engineering was universally regarded as a quality manufacturer."
+    access_label: "student_visible"
+    legal_role: "points away from negligent selection"
+  - fact: "No way the government could have anticipated or prevented the emission."
+    access_label: "student_visible"
+    legal_role: "points away from breach / foreseeability / preventability"
+  - fact: "No other applicable statute."
+    access_label: "student_visible"
+    legal_role: "blocks statutory workaround"
+
+c3_routing:
+  subject_fit: "Torts = liability theory + element gate + wrong-theory bait."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "FTCA negligence gate vs strict-liability / causation-side-path"
+  call_heuristic: "threshold_over_merits"
+
+answer_array:
+  geometry: "two plaintiff-verdict theories vs two government-verdict reasons"
+  layer_map:
+    A: "plaintiff wins via negligence inference shortcut"
+    B: "plaintiff wins via strict-liability dangerous-escape theory"
+    C: "government wins because threshold FTCA negligence case is not proved"
+    D: "government wins via nonparty proximate-cause explanation"
+  silver_key_applicable: true
+  silver_key_id: "SK-TORTS-FTCA-GATE-01"
+  dominant_trap_preserved: "B strict-liability dangerous-material escape bait"
+  flattening_logged: false
+
+choice_walkthroughs:
+  A:
+    text: "Lydia, on the ground that the doctrine of res ipsa loquitur applies."
+    credited: false
+    filter_broken: NOT_TRUE
+    mold_code: half_truth
+    mold_family: EAR_DISTORTION
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - exception_over_applied
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Named negligence shortcut that the facts do not support."
+    c3_signal: "The answer names a shortcut, but the stem’s findings point away from a negligence inference."
+    true_responsive_version: "Lydia would need facts supporting an inference that this release ordinarily would not occur without government negligence."
+    lawyer_confirmation: >
+      Res ipsa loquitur permits an inference of negligence only when its predicates are met.
+      Here, the findings negate government negligence: sound design, reputable manufacturer,
+      and no anticipation or prevention possible.
+  B:
+    text: "Lydia, on the ground that one who allows dangerous material to escape to the property of another is liable for the damage done."
+    credited: false
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - overbroad_rule
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Strict-liability bait in a negligence-only FTCA frame."
+    c3_signal: "The answer wins on dangerous escape alone; the stem says this case requires negligence."
+    true_responsive_version: "Lydia would need to prove a negligent or wrongful government act, not merely dangerous escape."
+    lawyer_confirmation: >
+      Laird v. Nelms confirms that FTCA liability cannot be imposed without negligence
+      or other misfeasance/nonfeasance by the government.
+  C:
+    text: "The government, on the ground that a case under the Federal Tort Claims Act has not been proved."
+    credited: true
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Threshold case-not-proved answer."
+    c3_signal: "This answer matches the opening gate and the no-negligence facts."
+    true_responsive_version: "Already true and responsive."
+    lawyer_confirmation: >
+      The FTCA claim requires a negligent or wrongful government act. The factfinder's
+      findings do not establish negligence by the government.
+  D:
+    text: "The government, on the ground that Barnabas Engineering is the proximate cause of Lydia’s damage."
+    credited: false
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - answer_to_different_question
+      - sounds_lawyerly
+      - wrong_party
+    method_class: heuristic_structural
+    student_label: "Right side, wrong layer."
+    c3_signal: "This answer talks about the nonparty’s causation role, but the threshold reason is failure to prove government negligence."
+    true_responsive_version: "The government wins because Lydia did not prove the FTCA negligence case."
+    lawyer_confirmation: >
+      Multiple actors can be proximate causes. The dispositive reason here is not sole causation
+      by Barnabas Engineering; it is the absence of government negligence.
+
+residual_answer:
+  choice: "C"
+  why_survives: "It is the only answer that matches both the FTCA negligence gate and the findings negating government negligence."
+  student_script: "FTCA only negligence. No government negligence found. Strict liability and res ipsa do not carry it. C."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B is wrong-frame because it uses dangerous escape without negligence."
+      access_basis: "stem explicitly says government liable only for negligence"
+      pass: true
+    - claim: "D is wrong-layer because C gives the threshold failure."
+      access_basis: "C3 threshold-over-merits / layer-fundamentalness"
+      pass: true
+    - claim: "A needs a Gold Key because res ipsa is a named doctrine."
+      access_basis: "anchor escalation"
+      pass: true
+  quarantined_lawyer_only_claims:
+    - "FTCA statutory authority under 28 U.S.C. § 1346(b)(1)."
+    - "Laird v. Nelms FTCA strict-liability limitation."
+    - "Technical elements of res ipsa loquitur."
+  drift_audit: "No legal-only doctrine is used as fake hard structure; A and B are anchor-assisted."
+
+gold_keys:
+  - id: "GK-TORTS-FTCA-NEGLIGENCE-GATE-01"
+    statement: "In an FTCA frame that limits the government to negligence, strict liability for dangerous escape does not win by itself; the plaintiff must prove a negligent or wrongful government act."
+    type: "distinction"
+    unlocks: "Choice B strict-liability bait and choice C threshold answer."
+    trigger: "Federal government defendant + FTCA + stem says liable only for negligence + dangerous activity facts."
+    tested_choice: "B"
+    authority: "28 U.S.C. § 1346(b)(1); Laird v. Nelms, 406 U.S. 797 (1972)."
+    last_minute_review: true
+  - id: "GK-TORTS-RES-IPSA-NEGLIGENCE-SHORTCUT-01"
+    statement: "Res ipsa is a negligence-inference shortcut, not automatic liability; it fails when the facts point away from negligence by the defendant."
+    type: "rule"
+    unlocks: "Choice A res ipsa bait."
+    trigger: "Named res ipsa answer + facts showing unforeseeable malfunction / no prevention possible."
+    tested_choice: "A"
+    authority: "Common-law res ipsa loquitur; Restatement (Second) of Torts § 328D."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-FTCA-GATE-01"
+    statement: "When the stem gives a liability gate in the first sentence, test every answer against that gate before chasing vivid harm facts."
+    type: "call_focus"
+    navigates: "Radioactive/dangerous-material facts pulling the student toward strict liability."
+    trigger: "Opening sentence says only negligence, later facts scream dangerous escape."
+    tested_choice: "B"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-TORTS-FTCA-GATE-01"
+  title: "Gate Before Danger"
+  signal: "Federal defendant + FTCA + dangerous release."
+  student_move: "Ask whether the answer proves government negligence. If not, cut or downgrade."
+  tiny_rule: "Dangerous activity does not bypass a negligence-only gate."
+  trap: "Choosing strict liability because the harm looks scary."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: >
+  FTCA says the government is liable only for negligence. A dangerous release occurs because
+  a reputable manufacturer’s valve unexpectedly fails, and the government could not anticipate
+  or prevent it. Has the FTCA case been proved?
+
+review_truth: >
+  Under a negligence-only FTCA frame, the plaintiff loses unless the facts prove government negligence;
+  dangerous escape alone is strict-liability bait.
+
+case_study_output:
+  final_student_script: "FTCA only negligence. The facts negate government negligence. B is strict liability, A is unsupported res ipsa, D is wrong-layer causation. Pick C."
+  verdict_line: "ANCHOR_SOLVE / PASS / C"
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  christian_variation: true
+  popular_bible_names_only: true
+  no_antagonist_names: true
+  no_clutter_doctrine_added: true
+  pick_rate_provenance_honest: true
+  each_distractor_one_filter_one_mold: true
+  residual_equals_official_key: true
+  pass_available: true
+  citations_required_for_lawyer_layer: true
+  review_truth_present: true
+  distilled_core_question_present: true
+  transformed_from_present: true
+
+analytics_hooks:
+  primary_trap: "strict_liability_bait_in_negligence_only_ftca_frame"
+  secondary_traps:
+    - "res_ipsa_shortcut_overapplied"
+    - "right_result_wrong_reason_proximate_cause"
+  skill_routes:
+    - "CUT"
+    - "Issue-Sense"
+    - "Anchor escalation"
+    - "Threshold over merits"
+  weakspot_tags:
+    - "wrong_frame"
+    - "strict_liability_vs_negligence"
+    - "named_doctrine_overtrust"
+    - "correct_result_wrong_reason"
+```
+
+---
+
+### 2. Student Case Study
+
+## program_frame
+
+This is a Christian variation of BARMATRIX Q# 15255. The legal rule, answer structure, and correct answer are preserved. The story is re-skinned as **Lydia’s Good Shepherd Dairy** and **Barnabas Engineering**. The original row supplies the FTCA negligence-only frame, the reactor release facts, the official key C, and the official explanation. 
+
+C3 lane: **Gate before danger.** The radioactive release is vivid, but the first sentence controls the route.
+
+## student_access_test
+
+The student may use:
+
+* The stem’s explicit gate: government liable only for negligence.
+* The visible facts negating government fault.
+* The C3 move: threshold failure before downstream causation.
+* The Gold Keys for FTCA negligence and res ipsa.
+
+The student may not pretend to know FTCA doctrine from vibes. FTCA strict-liability law stays in lawyer confirmation.
+
+## question_data
+
+**Subject:** TORTS
+**Topic:** Strict Liability and Products Liability
+**Subtopic:** FTCA negligence gate / strict-liability bait
+**Question ID:** `15255_good_shepherd_dairy`
+**Credited answer:** C
+**Pick rates:** none supplied; transformed item has no measured pick rates.
+
+## distilled_core_question
+
+FTCA says the government is liable only for negligence. A dangerous release occurs because a reputable manufacturer’s valve unexpectedly fails, and the government could not anticipate or prevent it. Has the FTCA case been proved?
+
+## call_and_prediction
+
+**Call:** For which party should the court enter judgment?
+
+**Prediction:** Government. The liability gate is negligence. The findings do not show government negligence.
+
+**Adjacent-call trap:** Whether dangerous radioactive material escaped. That is not the final question. The final question is whether the FTCA negligence case was proved.
+
+## trigger_facts
+
+| Fact                                                      | C3 use                                 |
+| --------------------------------------------------------- | -------------------------------------- |
+| FTCA liability only for negligence                        | Gate fact.                             |
+| Sound reactor design                                      | Negligence-negative fact.              |
+| Valve made by Barnabas Engineering malfunctioned          | Nonparty malfunction / causation bait. |
+| Barnabas was universally regarded as quality manufacturer | Negligent-selection bait blocked.      |
+| No way government could anticipate or prevent emission    | Negligence-negative fact.              |
+| No other applicable statute                               | No statutory bypass.                   |
+
+## governing_c3_lane
+
+**Subject FIT:** Torts = liability theory + element gate + wrong-theory bait.
+
+**Route:** CUT.
+**Method class:** anchor_assisted.
+**Why not hard structural:** A uses a named doctrine, res ipsa. B turns on a strict-liability / FTCA distinction. Those are not fully accessible without taught tiny anchors.
+
+## choice_by_choice_walkthrough
+
+### Choice A
+
+**Text:** Lydia, on the ground that the doctrine of res ipsa loquitur applies.
+
+1. **Student-accessible C3 signal:** This answer uses a named negligence shortcut, but the facts point away from a negligence inference.
+2. **Student label:** Named-doctrine shortcut overreach.
+3. **What a true/responsive version would look like:** Lydia would need facts supporting an inference that this kind of release ordinarily would not occur without government negligence.
+4. **Lawyer confirmation:** Res ipsa loquitur is a negligence-inference doctrine. Here, the findings negate government negligence: sound design, reputable manufacturer, and no possible anticipation or prevention.
+
+### Choice B
+
+**Text:** Lydia, on the ground that one who allows dangerous material to escape to the property of another is liable for the damage done.
+
+1. **Student-accessible C3 signal:** The answer uses dangerous escape alone. The stem’s gate says negligence only.
+2. **Student label:** Strict-liability bait.
+3. **What a true/responsive version would look like:** Lydia would need to show a negligent or wrongful government act.
+4. **Lawyer confirmation:** The FTCA does not impose strict liability where no government negligence or misfeasance/nonfeasance exists. ([Justia Law][2])
+
+### Choice C
+
+**Text:** The government, on the ground that a case under the Federal Tort Claims Act has not been proved.
+
+1. **Student-accessible C3 signal:** This answer matches the opening gate and the no-negligence facts.
+2. **Student label:** Threshold case-not-proved answer.
+3. **What a true/responsive version would look like:** Already true and responsive.
+4. **Lawyer confirmation:** The FTCA covers claims caused by a negligent or wrongful act or omission of a government employee acting within scope. ([Legal Information Institute][1]) No such negligent or wrongful act is proved on these facts.
+
+### Choice D
+
+**Text:** The government, on the ground that Barnabas Engineering is the proximate cause of Lydia’s damage.
+
+1. **Student-accessible C3 signal:** This answer reaches the government side but uses a downstream causation reason.
+2. **Student label:** Right result, wrong layer.
+3. **What a true/responsive version would look like:** The government wins because Lydia did not prove the FTCA negligence case.
+4. **Lawyer confirmation:** Proximate cause is not the needed reason. Multiple actors can contribute causally. The dispositive failure is no breach / no negligence by the government.
+
+## residual_answer
+
+**C survives.**
+
+It is the only answer that says: the required FTCA negligence case has not been proved.
+
+## legal_leak_audit
+
+| Claim                                            | Student-access status                     | Result                 |
+| ------------------------------------------------ | ----------------------------------------- | ---------------------- |
+| “B is strict-liability bait.”                    | Accessible through stem gate + Gold Key.  | Allowed.               |
+| “A’s res ipsa theory fails.”                     | Anchor-assisted.                          | Allowed with Gold Key. |
+| “D is wrong-layer causation.”                    | C3 threshold-over-merits / wrong-element. | Allowed.               |
+| “FTCA bars strict liability without negligence.” | Lawyer-confirmation layer.                | Quarantined.           |
+
+Drift audit: No legal-only doctrine is converted into fake hard structure. The item is marked `ANCHOR_SOLVE`, not `C3_SOLVE`.
+
+## final_student_script
+
+“First sentence: FTCA only negligence. The facts say sound design, reputable valve maker, and no way to anticipate or prevent. That means no government negligence. A is a res ipsa shortcut the facts do not support. B is strict liability. D is causation by the manufacturer, but C is the threshold failure. Pick C.”
+
+## remediation_card
+
+**REM-TORTS-FTCA-GATE-01 — Gate Before Danger**
+
+* **Signal:** Federal defendant + FTCA + dangerous release.
+* **Student move:** Ask whether the answer proves government negligence.
+* **Tiny rule:** Dangerous activity does not bypass a negligence-only gate.
+* **Trap:** Picking strict liability because the harm looks severe.
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-TORTS-FTCA-NEGLIGENCE-GATE-01**
+In an FTCA frame that limits the government to negligence, strict liability for dangerous escape does not win by itself; the plaintiff must prove a negligent or wrongful government act.
+**Trigger:** Federal government defendant + FTCA + dangerous release.
+
+**GK-TORTS-RES-IPSA-NEGLIGENCE-SHORTCUT-01**
+Res ipsa is a negligence-inference shortcut, not automatic liability; it fails when the facts point away from negligence by the defendant.
+**Trigger:** Named res ipsa answer + facts showing unforeseeable malfunction / no prevention possible.
+
+## Silver Key(s)
+
+**SK-TORTS-FTCA-GATE-01**
+When the stem gives a liability gate in the first sentence, test every answer against that gate before chasing vivid harm facts.
+**Type:** call_focus.
+**Trigger:** Opening sentence says only negligence, later facts scream dangerous escape.
+
+## qa_checklist
+
+| Check                                                        | Result |
+| ------------------------------------------------------------ | ------ |
+| Rule unchanged                                               | Pass   |
+| Correct answer unchanged                                     | Pass   |
+| Christian transform                                          | Pass   |
+| No church-property or First Amendment clutter                | Pass   |
+| Popular Bible names only                                     | Pass   |
+| Each wrong answer has one filter and one mold                | Pass   |
+| Gold Keys present because anchor-dependent                   | Pass   |
+| Silver Key present because gate navigation is easy to fumble | Pass   |
+| PASS available                                               | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Student mistake                                   | Recovery                                                |
+| ------ | ------------------------------------------------- | ------------------------------------------------------- |
+| A      | Trusts a named doctrine.                          | Ask whether the facts support the negligence inference. |
+| B      | Lets dangerous facts override the liability gate. | Re-read first sentence; negligence only.                |
+| D      | Picks the right side for a wrong reason.          | Prefer threshold failure over downstream causation.     |
+
+## outline_mastery_map
+
+**Placement:** Torts → strict liability / products liability crossover with FTCA negligence limitation.
+
+**This item teaches:** A vivid strict-liability-looking fact pattern can still be a negligence-gate question.
+
+**Fills:**
+
+* Strict liability vs negligence.
+* Res ipsa vs no-negligence findings.
+* Correct result / wrong reason.
+
+**Adjacent to master:**
+
+* Abnormally dangerous activity.
+* Products component malfunction.
+* Government liability gates.
+* Res ipsa loquitur.
+
+## crossover_intersection_map
+
+| Intersection                                | Function                                                        |
+| ------------------------------------------- | --------------------------------------------------------------- |
+| Strict liability × FTCA                     | Main trap: dangerous escape does not bypass negligence gate.    |
+| Products/component malfunction × negligence | Reputable manufacturer blocks negligent-selection theory.       |
+| Res ipsa × FTCA                             | Named doctrine does not supply automatic liability.             |
+| Causation × breach                          | Causation answer is downstream if breach/negligence is missing. |
+
+## review_truth
+
+Under a negligence-only FTCA frame, the plaintiff loses unless the facts prove government negligence; dangerous escape alone is strict-liability bait.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "15255_good_shepherd_dairy",
+  "subject": "TORTS",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "FTCA says the government is liable only for negligence. A dangerous release occurs because a reputable manufacturer’s valve unexpectedly fails, and the government could not anticipate or prevent it. Has the FTCA case been proved?",
+  "review_truth": "Under a negligence-only FTCA frame, the plaintiff loses unless the facts prove government negligence; dangerous escape alone is strict-liability bait.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "FTCA negligence gate vs strict-liability / causation-side-path",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold_over_merits",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-RES-IPSA-NEGLIGENCE-SHORTCUT-01",
+        "explanation": "Res ipsa is a negligence-inference shortcut, but the findings point away from government negligence."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-FTCA-NEGLIGENCE-GATE-01",
+        "explanation": "Dangerous-escape strict liability is the wrong frame where the stem requires FTCA negligence."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-TORTS-FTCA-GATE-01",
+        "explanation": "The manufacturer-causation answer reaches the correct side but skips the threshold failure: no FTCA negligence case proved."
+      }
+    ],
+    "analyzer_notes": "drift_audit: A and B are anchor-assisted; D is a student-accessible wrong-layer cut. No legal-only doctrine is labeled hard structural. transformed_from: 15255",
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-FTCA-NEGLIGENCE-GATE-01",
+        "statement": "In an FTCA frame that limits the government to negligence, strict liability for dangerous escape does not win by itself; the plaintiff must prove a negligent or wrongful government act.",
+        "type": "distinction",
+        "unlocks": "Choice B strict-liability bait and choice C threshold answer.",
+        "trigger": "Federal government defendant + FTCA + stem says liable only for negligence + dangerous activity facts.",
+        "tested_choice": "B",
+        "authority": "28 U.S.C. § 1346(b)(1); Laird v. Nelms, 406 U.S. 797 (1972).",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-TORTS-RES-IPSA-NEGLIGENCE-SHORTCUT-01",
+        "statement": "Res ipsa is a negligence-inference shortcut, not automatic liability; it fails when the facts point away from negligence by the defendant.",
+        "type": "rule",
+        "unlocks": "Choice A res ipsa bait.",
+        "trigger": "Named res ipsa answer + facts showing unforeseeable malfunction / no prevention possible.",
+        "tested_choice": "A",
+        "authority": "Common-law res ipsa loquitur; Restatement (Second) of Torts § 328D.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-FTCA-GATE-01",
+        "statement": "When the stem gives a liability gate in the first sentence, test every answer against that gate before chasing vivid harm facts.",
+        "type": "call_focus",
+        "navigates": "Radioactive/dangerous-material facts pulling the student toward strict liability.",
+        "trigger": "Opening sentence says only negligence, later facts scream dangerous escape.",
+        "tested_choice": "B",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "15255_good_shepherd_dairy",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "FTCA says the government is liable only for negligence. A dangerous release occurs because a reputable manufacturer’s valve unexpectedly fails, and the government could not anticipate or prevent it. Has the FTCA case been proved?",
+  "review_truth": "Under a negligence-only FTCA frame, the plaintiff loses unless the facts prove government negligence; dangerous escape alone is strict-liability bait.",
+  "tension": {
+    "axis": "negligence-only gate vs strict-liability-looking facts",
+    "resolving_fact": "The trier of fact found no way the government could anticipate or prevent the emission."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "half_truth",
+      "architecture": "wrong_frame",
+      "why_attractive": "Res ipsa sounds like a negligence bridge when direct proof is weak.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "Radioactive matter and contaminated soil scream strict liability.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "It gives the right winner and names the manufacturer that actually malfunctioned.",
+      "focus_group_pct": null
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-TORTS-FTCA-GATE-01",
+    "title": "Gate Before Danger",
+    "signal": "Federal defendant + FTCA + dangerous release.",
+    "student_move": "Ask whether the answer proves government negligence. If not, cut or downgrade.",
+    "tiny_rule": "Dangerous activity does not bypass a negligence-only gate.",
+    "trap": "Choosing strict liability because the harm looks scary.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "strict_liability_reflex",
+    "named_doctrine_overtrust",
+    "right_result_wrong_reason",
+    "vivid_fact_overweighting",
+    "failure_to_read_opening_gate"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "15255_good_shepherd_dairy",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "FTCA says the government is liable only for negligence. A dangerous release occurs because a reputable manufacturer’s valve unexpectedly fails, and the government could not anticipate or prevent it. Has the FTCA case been proved?",
+  "review_truth": "Under a negligence-only FTCA frame, the plaintiff loses unless the facts prove government negligence; dangerous escape alone is strict-liability bait.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The student knows res ipsa is a negligence shortcut and grabs the named doctrine.",
+      "skipped_move": "Anchor check: does the accident itself support negligence by this defendant?",
+      "recovery_step": "Read the no-anticipation/no-prevention finding before trusting the named doctrine."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The harm looks like classic dangerous-activity strict liability.",
+      "skipped_move": "Gate check: the stem says FTCA liability is negligence-only.",
+      "recovery_step": "Ask whether the choice proves negligence rather than dangerous escape."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "It picks the government and names the valve maker that malfunctioned.",
+      "skipped_move": "Threshold-over-merits: no FTCA case proved comes before causation allocation.",
+      "recovery_step": "Prefer the reason that defeats the required claim element over a downstream cause story."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "gate_check",
+      "target_skill": "Read the liability gate before vivid facts.",
+      "prompt": "FTCA says only negligence. A dangerous chemical leaks from a federal facility because a reputable supplier’s valve unexpectedly fails. The government could not anticipate or prevent it. Who wins?",
+      "answer": "Government; no FTCA negligence case is proved."
+    },
+    {
+      "drill_type": "bait_doctrine",
+      "target_skill": "Identify strict-liability bait.",
+      "prompt": "Why is 'one who allows dangerous material to escape is liable' a trap in an FTCA negligence-only stem?",
+      "answer": "It answers a strict-liability question, not the negligence-only FTCA question."
+    },
+    {
+      "drill_type": "wrong_layer",
+      "target_skill": "Correct result / wrong reason.",
+      "prompt": "Why is 'government wins because the supplier was the proximate cause' weaker than 'government wins because the FTCA case was not proved'?",
+      "answer": "The threshold defect is no government negligence; causation by another actor is downstream and incomplete."
+    },
+    {
+      "drill_type": "res_ipsa_anchor",
+      "target_skill": "Use res ipsa only as a negligence inference.",
+      "prompt": "A choice says res ipsa applies, but facts show the defendant could not anticipate or prevent the malfunction. What is the move?",
+      "answer": "Cut the res ipsa shortcut; the facts defeat the negligence inference."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "wrong_frame",
+      "layer_fundamentalness",
+      "strict_liability_bait",
+      "named_doctrine_shortcut",
+      "correct_result_wrong_reason"
+    ],
+    "misconception_tags": [
+      "dangerous_activity_always_liability",
+      "res_ipsa_equals_automatic_liability",
+      "third_party_cause_always_exonerates",
+      "skip_opening_liability_gate"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Lesson 1",
+      "reason": "TRUE and RESPONSIVE residual."
+    },
+    {
+      "component": "C3 Lesson 8",
+      "reason": "Bait doctrine and wrong element."
+    },
+    {
+      "component": "C3 Lesson 12",
+      "reason": "Gold Key anchor escalation."
+    },
+    {
+      "component": "C3 Lesson 13",
+      "reason": "Calibrate as anchor-assisted, not hard structural."
+    }
+  ],
+  "crossovers": [
+    {
+      "from": "Strict liability",
+      "to": "FTCA negligence gate",
+      "teaching_point": "Vivid dangerous facts do not control when the statutory frame requires negligence."
+    },
+    {
+      "from": "Products/component malfunction",
+      "to": "Negligent selection",
+      "teaching_point": "A reputable supplier fact blocks careless-selection reasoning."
+    },
+    {
+      "from": "Causation",
+      "to": "Breach/negligence",
+      "teaching_point": "No breach/negligence beats downstream causation arguments."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-FTCA-NEGLIGENCE-GATE-01",
+      "statement": "In an FTCA frame that limits the government to negligence, strict liability for dangerous escape does not win by itself; the plaintiff must prove a negligent or wrongful government act.",
+      "type": "distinction",
+      "unlocks": "Choice B strict-liability bait and choice C threshold answer.",
+      "trigger": "Federal government defendant + FTCA + stem says liable only for negligence + dangerous activity facts.",
+      "tested_choice": "B",
+      "authority": "28 U.S.C. § 1346(b)(1); Laird v. Nelms, 406 U.S. 797 (1972).",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-TORTS-RES-IPSA-NEGLIGENCE-SHORTCUT-01",
+      "statement": "Res ipsa is a negligence-inference shortcut, not automatic liability; it fails when the facts point away from negligence by the defendant.",
+      "type": "rule",
+      "unlocks": "Choice A res ipsa bait.",
+      "trigger": "Named res ipsa answer + facts showing unforeseeable malfunction / no prevention possible.",
+      "tested_choice": "A",
+      "authority": "Common-law res ipsa loquitur; Restatement (Second) of Torts § 328D.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-FTCA-GATE-01",
+      "statement": "When the stem gives a liability gate in the first sentence, test every answer against that gate before chasing vivid harm facts.",
+      "type": "call_focus",
+      "navigates": "Radioactive/dangerous-material facts pulling the student toward strict liability.",
+      "trigger": "Opening sentence says only negligence, later facts scream dangerous escape.",
+      "tested_choice": "B",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Torts / strict liability and products liability / FTCA negligence limitation",
+    "this_item_teaches": "A negligence-only statutory gate can defeat strict-liability-looking facts.",
+    "fills": [
+      "strict liability vs negligence",
+      "res ipsa vs no-negligence findings",
+      "proximate cause vs threshold element failure",
+      "FTCA government-liability gate"
+    ],
+    "adjacent_to_master": [
+      "abnormally dangerous activities",
+      "products liability component defect",
+      "negligent selection",
+      "res ipsa loquitur",
+      "Federal Tort Claims Act"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/uscode/text/28/1346?utm_source=chatgpt.com "28 U.S. Code § 1346 - United States as defendant"
+[2]: https://supreme.justia.com/cases/federal/us/406/797/?utm_source=chatgpt.com "Laird v. Nelms | 406 U.S. 797 (1972)"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "15255",
+  "subject": "TORTS",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": ">",
+  "review_truth": ">",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 15255; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "15255",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": ">",
+  "review_truth": ">",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-15255",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": ">",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "15255",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": ">",
+  "review_truth": ">",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": ">",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

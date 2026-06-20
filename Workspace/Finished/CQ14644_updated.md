@@ -1,0 +1,911 @@
+---
+qid: "14644"
+transformed_from: "14644"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "General Principles"
+outline_code: "75120300"
+key: "D"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: A"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source note:** The source row identifies BARMATRIX Q# 14644, Criminal Law / General Principles, official key D, pick rates, the original bartender fact pattern, and the official explanation distinguishing age mistake from ignorance of the regulation.  The requested workflow requires a creative Christian/law-school transform first, then full C3 YAML, case study, and three JSON ingestion blocks.  The reasoning posture applied here is “name the pivot” and “optimism on the goal, paranoia on the gaps.” 
+
+### 1. Final question — revised stem + call
+
+Barnabas worked as a bartender for a private banquet hall hosting a Christian law-school alumni dinner. He is charged with the statutory offense of “knowingly violating a regulation of the State Alcoholic Beverage Control Board” and with knowingly violating regulation number 345-90 issued by the Board.
+
+That regulation prohibits the sale of alcoholic beverages to any person under the age of 18. It also prohibits the sale of any alcoholic beverage to a person over the age of 17 and under the age of 22 without the presentation of that person’s driver’s license or other identification showing the purchaser’s age to be 18 or older.
+
+The evidence showed that Barnabas sold a bottle of beer to Timothy, who was 17 years old, and that Barnabas did not ask for or see Timothy’s driver’s license or any other identification.
+
+**Which of the following, if found by the jury, would be of the most help to Barnabas?**
+
+### 2. Distilled Core Question
+
+A bartender is charged with knowingly violating an alcohol regulation. He sold beer to a 17-year-old and did not check ID. What jury finding best helps him: fake ID existed, he did not know the ID rule, he did not know beer counted under the regulation, or he believed the buyer was 24?
+
+### 3. Final answer choices
+
+A. Timothy had a driver’s license that falsely showed his age to be 21.
+B. Barnabas had never been told he was supposed to check identification of persons over 17 and under 22 before selling them alcohol.
+C. Barnabas did not know that the regulations classified beer as an alcoholic beverage.
+D. Barnabas mistakenly believed Timothy to be 24 years old.
+
+### 4. Possible replacement answer choices
+
+No replacement is locked. B and C were low-pick distractors in the source row, but they are not defective. They preserve the key doctrinal trap: **ignorance of the regulation** versus **mistake about the age circumstance**.
+
+| Original choice | Original pick % | Keep? | Possible replacement candidate                                                | Mold            | Reason not locked                                                  |
+| --------------- | --------------: | ----- | ----------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------ |
+| B               |   10% inherited | Yes   | “The banquet manager had never explained regulation 345-90 to Barnabas.”      | `wrong_element` | Too manager-focused; risks adding reliance/authorization clutter.  |
+| C               |    9% inherited | Yes   | “Barnabas did not know that the Board treated beer as an alcoholic beverage.” | `wrong_element` | Equivalent to final C; final wording tracks original rigor better. |
+
+### 5. Correct answer
+
+**D. Barnabas mistakenly believed Timothy to be 24 years old.**
+
+### 6. Full right-answer explanation
+
+**D is correct.**
+
+The ID rule creates the trap. A person over 17 and under 22 must show ID. A person believed to be 24 sits outside that ID-check band. If the jury finds that Barnabas honestly believed Timothy was 24, that fact helps Barnabas because it targets the mental-state fact that matters: whether he knowingly sold alcohol to a person in the prohibited/protected age category.
+
+**Gold Key: mistake target controls.** In a “knowingly” offense, the helpful mistake is a mistake about the circumstance that makes the conduct criminal, here the buyer’s age/status. Ignorance of the regulation itself is not the same thing.
+
+**Silver Key: unseen ID is not reliance.** When the stem says the defendant did not ask for or see ID, a choice saying the buyer had fake ID is a trap. It describes a possible excuse the defendant never used.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** Timothy’s fake license would matter only if Barnabas had asked for it or seen it. The stem says Barnabas did not ask for or see ID. So A gives Barnabas an unused excuse. **Silver Key:** unseen ID is not reliance. The object exists, but it did not affect Barnabas’s mental state.
+
+**B is wrong.** Not being told about the ID rule targets knowledge of the regulation, not knowledge of Timothy’s age. **Gold Key:** the mens rea fight is over the circumstance that makes the sale criminal, not whether Barnabas knew every regulatory command.
+
+**C is wrong.** Not knowing that the regulation classified beer as an alcoholic beverage is another legal-classification mistake. It does not directly negate whether Barnabas knew Timothy was underage or within the ID-check band. **Gold Key:** mistake about the buyer’s age helps; ignorance of the legal label does not carry the same force.
+
+### 8. Black-letter verification and legal reasoning
+
+The tested rule is unchanged from the original: a knowing-offense answer turns on the difference between a mistake about a material circumstance and ignorance of the law/regulation. The source explanation states that D is correct because believing the buyer was 24 would mean the bartender believed the ID requirement did not apply and did not knowingly sell alcohol to a minor. 
+
+For lawyer confirmation, Model Penal Code § 2.02 defines acting “knowingly” with respect to attendant circumstances as awareness that those circumstances exist. ([The ALI Adviser][1]) MPC § 2.04 treats mistake as a defense when the mistake negatives the required culpability for a material element. ([Legal Information Institute][2]) MPC § 2.02(9) also separates culpability as to the illegality of conduct from culpability as to material elements unless the offense definition provides otherwise. ([Criminal Law Web][3])
+
+Applied here: believing Timothy was 24 is a mistake about the circumstance that makes the sale unlawful or ID-triggered. That helps Barnabas. Merely not knowing the ID rule or legal classification of beer does not target the same circumstance.
+
+### 9. Why the variation preserves rigor/difficulty
+
+The legal rule, answer key, trap, and geometry are preserved. The dominant wrong answer remains A: fake ID existed, but Barnabas did not see it. The Christian/law-school flavor is limited to the private banquet setting and Bible names. It adds no First Amendment, church-property, licensing, competency, or religious-autonomy issue.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** The stem says Barnabas did not ask for or see ID. A depends on an ID he never saw. Cut as `wrong_element`.
+
+**CUT B:** B answers “did he know the regulation?” The real mental-state fight is “did he know the age/status fact?” Cut with Gold Key assistance.
+
+**CUT C:** C answers “did he know the legal classification?” The real mental-state fight is again the age/status fact. Cut with Gold Key assistance.
+
+**CALL / residual:** D is the only answer that changes Barnabas’s mental-state position at the moment of sale. Pick D.
+
+### 11. Review Truth
+
+For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.
+
+### 12. The 5 variations considered
+
+|  # | Title                                            | Setting                   | Cast              | Preserved issue                                   | Why memorable                       | Legal risks                                                       | Recommendation |
+| -: | ------------------------------------------------ | ------------------------- | ----------------- | ------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------- | -------------- |
+|  1 | **Barnabas at the Christian Law-School Banquet** | Private banquet hall      | Barnabas, Timothy | Knowing violation; age mistake vs legal ignorance | Christian + law-school; clean facts | Minimal                                                           | **Chosen**     |
+|  2 | Lydia at a Christian Music Festival              | Festival concession stand | Lydia, Stephen    | Same                                              | Strong visual setting               | Festival licensing clutter possible                               | Not chosen     |
+|  3 | Peter at the Seminary Alumni Reception           | Private reception         | Peter, John       | Same                                              | Law-school adjacent                 | Seminary/church setting may suggest religious-institution clutter | Not chosen     |
+|  4 | Mary at the Bar-Prep Fellowship Mixer            | Private event             | Mary, Ruth        | Same                                              | BarMatrix-themed                    | “Bar-prep” pun may distract                                       | Not chosen     |
+|  5 | Daniel at the Charity Gala Banquet               | Private banquet           | Daniel, Timothy   | Same                                              | Clean private event                 | Charity flavor could suggest nonprofit/regulatory issues          | Not chosen     |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+question_id: "14644_barnabas_banquet"
+barmatrix_row:
+  qid: 14644
+  transformed_from: 14644
+  subject: CRIMINAL
+  topic: "Criminal Law"
+  subtopic: "General Principles"
+  selection_percentages:
+    A:
+      pct: 30
+      provenance: "inherited from original dominant wrong answer"
+    B:
+      pct: 10
+      provenance: "inherited from original"
+    C:
+      pct: 9
+      provenance: "inherited from original"
+    D:
+      pct: 51
+      provenance: "inherited from original credited answer"
+  official_key: D
+  call: "Which of the following, if found by the jury, would be of the most help to Barnabas?"
+  stem: "Barnabas worked as a bartender for a private banquet hall hosting a Christian law-school alumni dinner. He is charged with the statutory offense of 'knowingly violating a regulation of the State Alcoholic Beverage Control Board' and with knowingly violating regulation number 345-90 issued by the Board. That regulation prohibits the sale of alcoholic beverages to any person under the age of 18. It also prohibits the sale of any alcoholic beverage to a person over the age of 17 and under the age of 22 without the presentation of that person's driver's license or other identification showing the purchaser's age to be 18 or older. The evidence showed that Barnabas sold a bottle of beer to Timothy, who was 17 years old, and that Barnabas did not ask for or see Timothy's driver's license or any other identification."
+  choices:
+    A: "Timothy had a driver's license that falsely showed his age to be 21."
+    B: "Barnabas had never been told he was supposed to check identification of persons over 17 and under 22 before selling them alcohol."
+    C: "Barnabas did not know that the regulations classified beer as an alcoholic beverage."
+    D: "Barnabas mistakenly believed Timothy to be 24 years old."
+
+source_stack:
+  priority_1_row: "14644 source row: QID, Criminal Law / General Principles, pick rates, original stem, choices, official key D, official explanations."
+  priority_2_existing_tags: "No item-specific C3 tags supplied; all structural tags are generated fresh."
+  priority_3_c3_method: "Cut -> Clash -> Call; wrong answers break exactly one filter; legal doctrine cannot be smuggled into student-accessible structure."
+  priority_4_lawyer_confirmation: "Official explanation and MPC-based mens rea/mistake verification used only in lawyer_confirmation."
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old who completed C3 lessons and the taught Gold/Silver Keys identify the problem without outside legal doctrine?"
+  allowed_student_moves:
+    - "Read the call: most helpful fact for the defendant."
+    - "Spot facts the defendant did not see or rely on."
+    - "Separate age/status fact from regulation-knowledge facts using the Gold Key."
+    - "Use wrong_element when an answer proves a non-dispositive fact."
+  prohibited_moves:
+    - "Do not say B or C is legally wrong without the Gold Key."
+    - "Do not reverse-engineer the official explanation into fake structure."
+    - "Do not add religious-law or church-property implications."
+  access_result: "Anchor-assisted. A is hard structural; B, C, and D require the mens rea mistake-target Gold Key."
+
+stem_parse:
+  actors:
+    defendant: "Barnabas, bartender"
+    purchaser: "Timothy, age 17"
+    regulator: "State Alcoholic Beverage Control Board"
+  transaction: "Barnabas sold beer to Timothy."
+  charge: "Knowingly violating regulation 345-90."
+  regulation_structure:
+    layer_1: "No sale to a person under 18."
+    layer_2: "No sale to a person over 17 and under 22 without ID showing age 18 or older."
+    safe_zone_signal: "A person believed to be 24 is outside the ID-check band."
+  call_type: "Best-help fact for defendant."
+  adjacent_call_trap: "Whether an ID existed is adjacent; whether Barnabas saw or relied on it is the operative fact."
+  negative_stem_inversion: false
+
+trigger_facts:
+  - fact: "The offense uses the word knowingly."
+    access_label: "gold_key"
+    significance: "Mens rea matters."
+  - fact: "The purchaser was actually 17."
+    access_label: "stem_visible"
+    significance: "Actual violation facts exist."
+  - fact: "Barnabas did not ask for or see ID."
+    access_label: "hard_structural"
+    significance: "Fake-ID answer is nonresponsive."
+  - fact: "The regulation requires ID only for persons over 17 and under 22."
+    access_label: "gold_key"
+    significance: "Belief that purchaser was 24 targets the safe-zone fact."
+  - fact: "Call asks what would be most helpful to Barnabas."
+    access_label: "stem_visible"
+    significance: "Pick the fact that best negates required knowledge."
+
+c3_routing:
+  subject_fit: "Criminal = culpability phrase + mental-state target."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: D
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "age/status fact vs regulation/legal-classification knowledge"
+  call_heuristic: "fact-engaged mental-state answer over legal-ignorance answers"
+
+answer_array:
+  geometry: "3-vs-1 mental-state array with a dominant fake-ID trap"
+  dominant_trap:
+    choice: A
+    original_pick_pct: 30
+    trap_name: "unseen fake ID"
+  layer_map:
+    A: "Layer 1/2 adjacent-fact trap: ID existed, but not used."
+    B: "Layer 2 legal-knowledge trap: not told the regulation."
+    C: "Layer 2 legal-classification trap: did not know beer's regulatory label."
+    D: "Layer 3 target fact: believed the purchaser was outside the age/ID band."
+  silver_key_signal: "A choice uses an ID fact after the stem says no ID was asked for or seen."
+  gold_key_signal: "Choices split between mistake about legal command and mistake about age/status."
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_timing
+      - fact_not_in_evidence
+      - half_right_answer
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "Unseen-ID trap"
+    c3_signal: "The answer gives Barnabas an ID fact he never saw or used."
+    lawyer_confirmation: "A fake license would be relevant only if Barnabas saw or relied on it. The source facts say he did not ask for or see ID."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_mental_state
+      - common_student_myth
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Regulation-knowledge trap"
+    c3_signal: "This answers whether Barnabas knew the ID rule, not whether he knew Timothy's age/status."
+    lawyer_confirmation: "Ignorance of the ID regulation generally does not negate knowledge of the purchaser's age/status."
+  C:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_mental_state
+      - common_student_myth
+      - answer_to_different_question
+      - sounds_lawyerly
+    method_class: anchor_assisted
+    student_label: "Legal-classification trap"
+    c3_signal: "This answers whether Barnabas knew the regulation's label for beer, not whether he knew Timothy's age/status."
+    lawyer_confirmation: "Mistake about the regulation's classification of beer is legal-knowledge/classification territory, not the key age circumstance."
+  D:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Age/status mistake"
+    c3_signal: "This is the only answer that changes Barnabas's knowledge of the fact that made the sale prohibited or ID-triggered."
+    lawyer_confirmation: "If Barnabas believed Timothy was 24, he believed Timothy was outside the ID-check band and not underage."
+
+residual_answer:
+  choice: D
+  text: "Barnabas mistakenly believed Timothy to be 24 years old."
+  reason: "Only D targets the material age/status fact under the knowing-offense frame."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A fails because Barnabas did not see or rely on Timothy's ID."
+      passes_controlling_test: true
+      basis: "Stem-visible fact relation."
+    - claim: "B and C fail because they target legal/regulatory knowledge rather than age/status knowledge."
+      passes_controlling_test: true
+      basis: "Gold Key."
+    - claim: "D survives because it targets Barnabas's belief about Timothy's age."
+      passes_controlling_test: true
+      basis: "Gold Key plus answer/stem fit."
+  lawyer_only_claims:
+    - "MPC mens rea/mistake confirmation."
+    - "Ignorance-of-law distinction."
+  audit_result: "No legal-leak drift. Doctrine appears only in Gold Key and lawyer_confirmation."
+
+gold_keys:
+  - id: "GK-CRIM-MISTAKE-TARGET-01"
+    statement: "For a knowing offense, the useful mistake is about the circumstance that makes the act criminal; ignorance of the regulation itself usually does not do the same work."
+    type: "distinction"
+    unlocks: "Mistake of age/status beats ignorance of the ID rule or regulatory label."
+    trigger: "Answer choices split between age belief and knowledge of the regulation."
+    tested_choice: "D"
+    authority: "Model Penal Code §§ 2.02(2)(b), 2.04(1)(a), 2.02(9); lawyer_confirmation only."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-UNSEEN-ID-01"
+    statement: "An ID fact helps only if the defendant saw or relied on it. If the stem says no ID was requested or seen, a fake-ID choice is an unused-excuse trap."
+    type: "trap_spotting"
+    navigates: "Dominant wrong answer A."
+    trigger: "Stem says no ID was asked for or seen; choice says the purchaser had fake ID."
+    tested_choice: "A"
+    outline_code: "75120300"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-MISTAKE-TARGET-01"
+  title: "Mistake Target: Fact vs Regulation"
+  signal: "Knowingly + regulatory offense + answer choices about age, ID, and legal knowledge."
+  student_move: "Ask what the defendant was mistaken about: the buyer's age/status, or the rule itself."
+  tiny_rule: "Age/status mistake helps; unused ID and legal-knowledge mistakes do not."
+  trap: "Students pick fake ID because it sounds like a real-world excuse."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?"
+review_truth: "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not."
+
+case_study_output:
+  final_student_script: "Most help means mental-state help. Fake ID was unseen, so cut A. B and C are rule-knowledge traps. D targets the age fact. Pick D."
+  remediation_focus: "Mistake target."
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  stem_not_over_signaled: true
+  christian_first: true
+  popular_bible_names_only: true
+  no_antagonist_names: true
+  no_clutter_doctrine_added: true
+  every_distractor_one_filter: true
+  pass_requirements_met: true
+  drift_audit: "All doctrinal reasoning quarantined to Gold Key/lawyer_confirmation. transformed_from: 14644"
+
+analytics_hooks:
+  outline_code: "75120300"
+  trap_tags:
+    - "unseen_id_trap"
+    - "mistake_of_fact_vs_law"
+    - "wrong_mental_state"
+    - "regulatory_offense"
+  component_routing:
+    - "CRIMINAL"
+    - "mens_rea"
+    - "mistake_target"
+    - "wrong_element"
+  expected_wrong_answer_pull:
+    A: "high inherited pull"
+    B: "low inherited pull"
+    C: "low inherited pull"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a C3 case study for a transformed BarMatrix-style Criminal Law item. The question is not asking for a law outline. It is asking which fact most helps a defendant charged with **knowingly** violating a regulation.
+
+## student_access_test
+
+A student may use:
+
+* CUT: remove choices that do not answer the precise call.
+* Issue-Sense: identify choices that prove the wrong element.
+* Gold Key: separate mistake about a circumstance from ignorance of the regulation.
+* Silver Key: do not let an unseen fake ID become an excuse.
+
+A student may not say B or C “is false” without the Gold Key.
+
+## question_data
+
+**Question ID:** 14644_barnabas_banquet
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** General Principles
+**Official key:** D
+**Call:** Which finding would be of the most help to Barnabas?
+
+## distilled_core_question
+
+A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?
+
+## call_and_prediction
+
+The call is **most helpful fact for the defendant**.
+
+Prediction before answers: the helpful fact must affect Barnabas’s mental state at the sale. Since the offense says “knowingly,” the useful answer should target what Barnabas believed about Timothy’s age/status, not merely what legal rule he knew.
+
+## trigger_facts
+
+| Fact                                        | Student-access label | Use                               |
+| ------------------------------------------- | -------------------- | --------------------------------- |
+| Charged with knowingly violating regulation | Gold Key             | Mens rea matters.                 |
+| Timothy was actually 17                     | Stem-visible         | Actual violation facts exist.     |
+| Barnabas did not ask for or see ID          | Hard structural      | Cuts fake-ID trap.                |
+| ID required for people over 17 and under 22 | Gold Key             | Age band matters.                 |
+| Call asks “most help”                       | Stem-visible         | Pick strongest mental-state fact. |
+
+## governing_c3_lane
+
+**Criminal FIT:** culpability phrase + mental-state target.
+
+This is an anchor-assisted CUT item. One answer is visibly nonresponsive. Two require the Gold Key. The credited answer survives because it targets the age/status fact.
+
+## choice_by_choice_walkthrough
+
+### Choice A
+
+**Text:** Timothy had a driver’s license that falsely showed his age to be 21.
+
+1. **Student-accessible C3 signal:** The stem says Barnabas did not ask for or see ID. An ID he never saw cannot explain his conduct.
+2. **Student label:** Unseen-ID trap.
+3. **What a true/responsive version would look like:** “Barnabas asked for and saw a license that falsely showed Timothy was 21,” though even that would raise a different age-band issue.
+4. **Lawyer confirmation:** The official explanation rejects A because the fake ID was not requested or relied on. 
+
+### Choice B
+
+**Text:** Barnabas had never been told he was supposed to check identification of persons over 17 and under 22 before selling them alcohol.
+
+1. **Student-accessible C3 signal:** This targets knowledge of the rule, not knowledge of Timothy’s age/status.
+2. **Student label:** Regulation-knowledge trap.
+3. **What a true/responsive version would look like:** “Barnabas believed Timothy was outside the age band that triggered the rule.”
+4. **Lawyer confirmation:** Ignorance of the regulation does not target the required age/status knowledge; the source explanation treats this as not affecting the offense’s mens rea requirement. 
+
+### Choice C
+
+**Text:** Barnabas did not know that the regulations classified beer as an alcoholic beverage.
+
+1. **Student-accessible C3 signal:** This targets a legal label, not Timothy’s age/status.
+2. **Student label:** Legal-classification trap.
+3. **What a true/responsive version would look like:** “Barnabas mistakenly believed Timothy was 24.”
+4. **Lawyer confirmation:** The source explanation treats C as ignorance of law/classification and not the best help. 
+
+### Choice D
+
+**Text:** Barnabas mistakenly believed Timothy to be 24 years old.
+
+1. **Student-accessible C3 signal:** This is the only answer that targets the fact that changes whether Barnabas thought the sale was within the protected age/ID band.
+2. **Student label:** Age/status mistake.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** A knowing mental state as to circumstances requires awareness that the circumstance exists; a mistake that negatives required knowledge can be a defense. ([The ALI Adviser][1])
+
+## residual_answer
+
+**Residual:** D.
+
+D is the only true-and-responsive answer after cutting the unseen-ID trap and the regulation-knowledge traps.
+
+## legal_leak_audit
+
+A is structurally cut from the stem: Barnabas did not ask for or see ID. B and C are not student-accessibly false without the Gold Key. D is credited through the Gold Key.
+
+**Drift audit:** No doctrine is smuggled into fake structure. B, C, and D are anchor-assisted. A is hard structural. transformed_from: 14644.
+
+## final_student_script
+
+“Most help means the fact that changes Barnabas’s knowing mental state. A fake ID he never saw does not help. Not knowing the ID rule or the regulation’s beer label is legal-knowledge territory. Believing Timothy was 24 changes the age/status fact. Pick D.”
+
+## remediation_card
+
+**CRIM-REM-MISTAKE-TARGET-01 — Mistake Target: Fact vs Regulation**
+
+Signal: knowingly + regulatory offense + answers about age, ID, and rule knowledge.
+Move: Ask what the defendant was mistaken about.
+Tiny rule: Age/status mistake helps; regulation ignorance usually does not.
+Trap: Fake ID feels like a practical excuse, but it was unseen.
+
+## Gold Key(s)
+
+**GK-CRIM-MISTAKE-TARGET-01**
+For a knowing offense, the useful mistake is about the circumstance that makes the act criminal; ignorance of the regulation itself usually does not do the same work.
+
+## Silver Key(s)
+
+**SK-CRIM-UNSEEN-ID-01**
+An ID fact helps only if the defendant saw or relied on it. If the stem says no ID was requested or seen, a fake-ID choice is an unused-excuse trap.
+
+## qa_checklist
+
+| Check                                                     | Result |
+| --------------------------------------------------------- | ------ |
+| Rule unchanged                                            | Pass   |
+| Correct answer unchanged                                  | Pass   |
+| Dominant trap preserved                                   | Pass   |
+| No religious clutter doctrine                             | Pass   |
+| Popular Bible names only                                  | Pass   |
+| Three distractors each break one filter                   | Pass   |
+| Gold Key included because anchor-dependent                | Pass   |
+| Silver Key included because dominant trap is navigational | Pass   |
+| Bank verdict                                              | PASS   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                                   | Skipped move                               | Recovery                                   |
+| ------ | -------------------------------------------------------- | ------------------------------------------ | ------------------------------------------ |
+| A      | Fake ID sounds like a real-world excuse.                 | Did not check whether Barnabas saw it.     | Circle “did not ask for or see ID.”        |
+| B      | “Knowingly violating” sounds like he must know the rule. | Mistake target not named.                  | Ask: rule knowledge or age fact?           |
+| C      | “Beer classified as alcohol” sounds technical.           | Mistook legal label for circumstance fact. | Ask: did this change Timothy’s age/status? |
+
+## outline_mastery_map
+
+Placement: Criminal Law → General Principles → Mens rea → Mistake.
+This item teaches: mistake target under knowing offense.
+Fills: distinction between mistake of fact/circumstance and ignorance of regulation.
+Adjacent to master: strict liability, public-welfare offenses, mistake of law, statutory interpretation.
+
+## crossover_intersection_map
+
+* **Evidence crossover:** “offered for what purpose?” mirrors “mistaken about what?”
+* **Civil Procedure crossover:** threshold fact beats merits-like explanation.
+* **Con Law crossover:** doctrine-home discipline; answer the right constitutional home / mental-state home.
+
+## review_truth
+
+For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14644_barnabas_banquet",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "75120300",
+  "distilled_core_question": "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?",
+  "review_truth": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "age/status fact vs regulation/legal-classification knowledge",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "fact-engaged mental-state answer over legal-ignorance answers",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIM-UNSEEN-ID-01",
+        "explanation": "Fake ID existed but Barnabas did not ask for or see it."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MISTAKE-TARGET-01",
+        "explanation": "Targets knowledge of the rule rather than knowledge of the age/status circumstance."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MISTAKE-TARGET-01",
+        "explanation": "Targets knowledge of the regulation's legal classification rather than the purchaser's age/status."
+      }
+    ],
+    "analyzer_notes": "drift_audit: A is hard structural from the no-ID-seen fact; B/C/D are anchor-assisted through mistake-target Gold Key; official key preserved; transformed_from: 14644",
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-MISTAKE-TARGET-01",
+        "statement": "For a knowing offense, the useful mistake is about the circumstance that makes the act criminal; ignorance of the regulation itself usually does not do the same work.",
+        "type": "distinction",
+        "unlocks": "Mistake of age/status beats ignorance of the ID rule or regulatory label.",
+        "trigger": "Answer choices split between age belief and knowledge of the regulation.",
+        "tested_choice": "D",
+        "authority": "Model Penal Code §§ 2.02(2)(b), 2.04(1)(a), 2.02(9); lawyer_confirmation only.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-UNSEEN-ID-01",
+        "statement": "An ID fact helps only if the defendant saw or relied on it. If the stem says no ID was requested or seen, a fake-ID choice is an unused-excuse trap.",
+        "type": "trap_spotting",
+        "navigates": "Dominant wrong answer A.",
+        "trigger": "Stem says no ID was asked for or seen; choice says the purchaser had fake ID.",
+        "tested_choice": "A",
+        "outline_code": "75120300",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14644_barnabas_banquet",
+  "subject": "CRIMINAL",
+  "outline_code": "75120300",
+  "distilled_core_question": "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?",
+  "review_truth": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+  "tension": {
+    "axis": "mistake about age/status vs mistake about regulation/legal classification",
+    "resolver": "Which fact changes Barnabas's knowing mental state at the sale."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Fake ID sounds like the practical excuse a bartender would use.",
+      "focus_group_pct": 30
+    },
+    {
+      "choice": "B",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The word knowingly tempts students to require knowledge of the ID rule.",
+      "focus_group_pct": 10
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Classification language sounds technical and lawyerly.",
+      "focus_group_pct": 9
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-MISTAKE-TARGET-01",
+    "title": "Mistake Target: Fact vs Regulation",
+    "signal": "Knowingly + regulatory offense + answers about age, ID, and legal knowledge.",
+    "student_move": "Ask what the defendant was mistaken about: the buyer's age/status, or the rule itself.",
+    "tiny_rule": "Age/status mistake helps; unused ID and legal-knowledge mistakes do not.",
+    "trap": "Students pick fake ID because it sounds like a real-world excuse.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "mistake_of_fact_vs_mistake_of_law",
+    "unused_evidence_trap",
+    "wrong_mental_state_target",
+    "regulatory_offense_language",
+    "dominant_fake_id_pull"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14644_barnabas_banquet",
+  "subject": "CRIMINAL",
+  "outline_code": "75120300",
+  "distilled_core_question": "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?",
+  "review_truth": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student sees fake ID and assumes that equals a defense.",
+      "skipped_move": "Did not ask whether Barnabas saw or relied on the ID.",
+      "recovery_step": "Underline 'did not ask for or see ID' before evaluating A."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student reads 'knowingly violating' as knowledge of the regulation.",
+      "skipped_move": "Did not name the mistake target.",
+      "recovery_step": "Separate knowledge of the rule from knowledge of the buyer's age/status."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats legal classification of beer as the key mental-state fact.",
+      "skipped_move": "Did not separate legal label from age/status circumstance.",
+      "recovery_step": "Ask whether the answer changes Barnabas's belief about Timothy's age band."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "unseen evidence trap",
+      "prompt": "Stem says defendant did not ask for or see ID. Choice says the buyer had fake ID. Cut or keep?",
+      "answer": "Cut. The ID was unseen and unused."
+    },
+    {
+      "drill_type": "CALL",
+      "target_skill": "mistake target",
+      "prompt": "Knowingly violating regulation: defendant did not know the rule vs defendant believed buyer was over the age band. Which helps more?",
+      "answer": "Belief about age/status helps more."
+    },
+    {
+      "drill_type": "CLASH",
+      "target_skill": "age/status vs legal-knowledge axis",
+      "prompt": "Name the axis between 'not told the regulation' and 'believed buyer was 24.'",
+      "answer": "Legal/regulation knowledge vs age/status fact."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "dominant_trap_A_30pct",
+      "fake_id_unused",
+      "mens_rea_target",
+      "regulatory_classification"
+    ],
+    "misconception_tags": [
+      "fake_id_always_excuses_sale",
+      "knowingly_means_knowing_the_regulation",
+      "classification_mistake_equals_fact_mistake"
+    ]
+  },
+  "component_routing": [
+    "C3_CORE_CUT",
+    "ISSUE_SENSE_WRONG_ELEMENT",
+    "CRIMINAL_MENS_REA",
+    "GOLD_KEY_MISTAKE_TARGET",
+    "SILVER_KEY_UNSEEN_ID"
+  ],
+  "crossovers": [
+    {
+      "subject": "EVIDENCE",
+      "connection": "Purpose controls use; target controls mistake."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "Threshold/operative fact beats attractive adjacent fact."
+    },
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "connection": "Doctrine-home discipline mirrors mental-state-target discipline."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-MISTAKE-TARGET-01",
+      "statement": "For a knowing offense, the useful mistake is about the circumstance that makes the act criminal; ignorance of the regulation itself usually does not do the same work.",
+      "type": "distinction",
+      "unlocks": "Mistake of age/status beats ignorance of the ID rule or regulatory label.",
+      "trigger": "Answer choices split between age belief and knowledge of the regulation.",
+      "tested_choice": "D",
+      "authority": "Model Penal Code §§ 2.02(2)(b), 2.04(1)(a), 2.02(9); lawyer_confirmation only.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-UNSEEN-ID-01",
+      "statement": "An ID fact helps only if the defendant saw or relied on it. If the stem says no ID was requested or seen, a fake-ID choice is an unused-excuse trap.",
+      "type": "trap_spotting",
+      "navigates": "Dominant wrong answer A.",
+      "trigger": "Stem says no ID was asked for or seen; choice says the purchaser had fake ID.",
+      "tested_choice": "A",
+      "outline_code": "75120300",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law / General Principles / Mens Rea / Mistake",
+    "this_item_teaches": "How to target the mental-state fact in a knowing regulatory offense.",
+    "fills": [
+      "mistake of circumstance",
+      "ignorance of regulation",
+      "unused evidence trap"
+    ],
+    "adjacent_to_master": [
+      "strict liability",
+      "public welfare offenses",
+      "mistake of law",
+      "attendant circumstances"
+    ]
+  }
+}
+```
+
+[1]: https://www.thealiadviser.org/sexual-assault/mens-rea-reckless/ "What it Means to Be “Reckless” - The ALI Adviser"
+[2]: https://www.law.cornell.edu/wex/mistake_of_fact "mistake of fact | Wex | US Law | LII / Legal Information Institute"
+[3]: https://www.criminallawweb.net/web1/MPC/PART1/snippets/2_02%289%29.htm "2_02(9)"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14644",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "75120300",
+  "distilled_core_question": "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?",
+  "review_truth": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14644; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14644",
+  "subject": "CRIMINAL",
+  "outline_code": "75120300",
+  "distilled_core_question": "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?",
+  "review_truth": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14644",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14644",
+  "subject": "CRIMINAL",
+  "outline_code": "75120300",
+  "distilled_core_question": "A bartender sold beer to a 17-year-old without checking ID. Which helps most: fake ID existed, he did not know the ID rule, he did not know beer counted, or he believed the buyer was 24?",
+  "review_truth": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75120300",
+    "this_item_teaches": "For a knowing offense, a mistake about the age/circumstance can help; ignorance of the regulation usually does not.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

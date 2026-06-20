@@ -1,0 +1,27 @@
+{
+  "checked": 141,
+  "matched": 141,
+  "failures": [],
+  "counts": [
+    {
+      "metric": "questions",
+      "value": 1252
+    },
+    {
+      "metric": "answer_choices",
+      "value": 5008
+    },
+    {
+      "metric": "question_tags",
+      "value": 47427
+    },
+    {
+      "metric": "target_questions",
+      "value": 141
+    },
+    {
+      "metric": "target_choices",
+      "value": 564
+    }
+  ]
+}

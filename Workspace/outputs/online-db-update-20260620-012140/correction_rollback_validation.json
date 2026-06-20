@@ -1,0 +1,26 @@
+{
+  "mode": "rollback",
+  "ok": true,
+  "env": {
+    "appPid": "3810467",
+    "database": "u211961595_barmatrix_prod",
+    "host": "127.0.0.1",
+    "port": 3306
+  },
+  "targetCount": 27,
+  "countsStable": true,
+  "before": {
+    "questions": 1252,
+    "answer_choices": 5008,
+    "question_tags": 47427,
+    "target_questions": 27,
+    "target_choices": 108
+  },
+  "after": {
+    "questions": 1252,
+    "answer_choices": 5008,
+    "question_tags": 47427,
+    "target_questions": 27,
+    "target_choices": 108
+  }
+}

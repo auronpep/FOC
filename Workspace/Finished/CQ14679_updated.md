@@ -1,0 +1,1017 @@
+---
+qid: "14679_fellowship_cup"
+transformed_from: "14679"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Homicide"
+outline_code: "00000000"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source intake: Q#14679 is a Criminal Law / Homicide item. The original row reports A as the official key, with 82% selecting A, 5% selecting B, 10% selecting C, and 3% selecting D. The official explanation credits both attempted murder of the husband and murder or manslaughter of the maid.  The transform instructions require a Christian-first variation, preserved answer geometry, honest pick-rate provenance, and full C3 output.  The reasoning posture used here is “preserve the ambitious goal, then tighten proof and gaps,” consistent with the reasoning-creed file’s proof-before-proxy / optimism-with-candor frame. 
+
+### 1. Final question — revised stem + call
+
+**Title: The Fellowship Cup**
+
+At a weekly Bible-study dinner in their home, **Lydia** decided to kill her husband, **Stephen**, because she was angry about his infidelity. She obtained cyanide, a deadly poison. During dessert, Lydia poured grape juice laced with the cyanide into a glass, handed it to Stephen, and raised it in a warm toast about forgiveness.
+
+Stephen was moved by the toast. He set the glass on an end table and embraced Lydia. During the embrace, Lydia changed her mind about killing Stephen. She slid the glass behind a framed Bible verse on the end table, planning for **Ruth**, their housekeeper, to clear it away the next morning.
+
+Stephen did not drink the grape juice. The next morning, Ruth found the glass while cleaning. Rather than throw the grape juice away, Ruth drank it. Shortly afterward, she died from cyanide poisoning.
+
+**In a common law jurisdiction, of what crime(s), if any, could Lydia be found guilty?**
+
+### 2. Distilled Core Question
+
+A defendant poisons a drink intending to kill one person, hands it to that person, then changes her mind and hides the drink. The intended victim does not drink it. A cleaner later drinks it and dies. In a common law jurisdiction, what crimes could the defendant be found guilty of?
+
+### 3. Final answer choices
+
+A. **Attempted murder of Stephen and murder or manslaughter of Ruth.**
+B. **Only attempted murder of Stephen.**
+C. **Only murder or manslaughter of Ruth.**
+D. **No crime.**
+
+### 4. Possible replacement answer choices
+
+| Original choice | Original inherited % | Keep / replace                   | Candidate replacement                                                                          | Mold              | Filter         | Audit                                                                                                      |
+| --------------- | -------------------: | -------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------- | -------------- | ---------------------------------------------------------------------------------------------------------- |
+| B               |                   5% | Keep                             | “Only attempted murder of Stephen, because Lydia changed her mind before any death occurred.”  | wrong_element     | NOT_RESPONSIVE | Rejected. It adds reasoning and may over-signal abandonment. Original B cleanly preserves the matrix cell. |
+| C               |                  10% | Keep                             | “Only murder or manslaughter of Ruth, because Stephen was not harmed.”                         | wrong_element     | NOT_RESPONSIVE | Rejected. C is the dominant wrong answer and already clean. Added reasoning would make the trap easier.    |
+| D               |                   3% | Possible replacement, not locked | “No crime, because Stephen never drank the grape juice and Lydia did not intend to kill Ruth.” | flat_misstatement | NOT_TRUE       | Better as a future drill distractor, but not used here because the original 2×2 geometry is cleaner.       |
+
+### 5. Correct answer
+
+**A. Attempted murder of Stephen and murder or manslaughter of Ruth.**
+
+### 6. Full right-answer explanation
+
+**A is correct.**
+
+**Silver Key:** This is a two-victim checklist. Do not pick the answer for only the person who died or only the person originally targeted. Run both branches.
+
+**Gold Key:** Attempted murder does not require death. Once Lydia intended to kill Stephen and moved past preparation by putting the poisoned drink in his hands, the Stephen branch is alive even though he did not drink.
+
+**Gold Key:** The Ruth branch is separate. Lydia left a deadly poisoned drink where Ruth would clean it up. A factfinder could treat that as murder-level reckless disregard for human life, or at least manslaughter-level criminal negligence.
+
+So A is the only answer that fills both branches: **Stephen = attempted murder** and **Ruth = murder or manslaughter.**
+
+### 7. Full wrong-answer explanations
+
+**B. Only attempted murder of Stephen — wrong.**
+This answer gets the Stephen branch right but drops Ruth. **Silver Key:** the word “only” is dangerous in a two-victim checklist. **Gold Key:** Ruth’s death can support murder or manslaughter even though Lydia did not specifically intend to kill Ruth.
+
+**C. Only murder or manslaughter of Ruth — wrong.**
+This is the dominant trap. It focuses on the completed death and forgets that attempt does not require success. **Gold Key:** handing the poisoned drink to Stephen after deciding to kill him is enough for the attempt branch. Stephen did not need to drink.
+
+**D. No crime — wrong.**
+This misses both branches. Stephen supplies the attempted-murder branch. Ruth supplies the murder-or-manslaughter branch.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The tested rule and answer are unchanged from the original source row: the official key is A, and the official explanation states that the wife could be found guilty of attempted murder of the husband and murder or manslaughter of the maid. 
+
+For the attempt branch, common-law attempt requires specific intent plus conduct crossing beyond preparation; Cornell’s Wex notes that common-law jurisdictions generally require specific intent to complete the underlying crime and that MPC jurisdictions use the “substantial step” formulation. ([Legal Information Institute][1]) People v. Rizzo states the classic proximity idea: intent alone is not enough, but an overt act must be so near to accomplishment that the danger of success is great. ([Justia Law][2]) Lydia’s conduct is stronger than Rizzo: she placed the poisoned drink in Stephen’s hands.
+
+For the homicide branch, common-law murder includes malice aforethought, including depraved-heart murder, which Wex describes as killing in a way that shows callous disregard for human life. ([Legal Information Institute][3]) Justia’s homicide overview distinguishes murder-level extreme recklessness from involuntary manslaughter based on negligence or recklessness below the depraved-heart level. ([Justia][4]) Lydia left a deadly poisoned drink to be handled by Ruth; that supports the broad answer “murder or manslaughter.”
+
+### 9. Why the variation preserves rigor and difficulty
+
+The variation keeps the same legal engine: intended poisoned drink, intended victim does not drink, actor changes mind, third person later drinks and dies. It also preserves the exact answer-array geometry: **both / first only / second only / neither.** The Christian flavor is limited to names, dinner setting, and Bible-study atmosphere. No new doctrine is added.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT:** D can be cut after the two Gold Keys fire. “No crime” cannot survive once either branch is live.
+
+**CLASH:** B and C form a matched pair of “only one branch” answers. B keeps Stephen and drops Ruth. C keeps Ruth and drops Stephen.
+
+**CALL:** Apply the two-victim checklist. Stephen branch is live. Ruth branch is live. The only answer that covers both is A.
+
+### 11. Review Truth
+
+When a poisoned-drink fact pattern has an intended target who survives and a later victim who dies, test both branches: attempt for the target, homicide for the person who died.
+
+### 12. The 5 variations considered
+
+|  # | Title                           | Setting                                   | Cast                   | Preserved issue                               | Why memorable                                    | Legal risks                                                | Recommendation             |
+| -: | ------------------------------- | ----------------------------------------- | ---------------------- | --------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------- | -------------------------- |
+|  1 | **The Fellowship Cup**          | Home Bible-study dinner                   | Lydia, Stephen, Ruth   | Attempted murder + unintended-victim homicide | Poisoned grape juice after a “forgiveness” toast | Minimal                                                    | **Recommended. Cleanest.** |
+|  2 | The Potluck Pitcher             | Church-adjacent potluck at a private home | Martha, Peter, Mary    | Same                                          | Communal pitcher image sticks                    | Pitcher may imply multiple victims and overcomplicate risk | Not chosen                 |
+|  3 | The Chapel Choir Toast          | Private choir dinner after rehearsal      | Esther, Daniel, Ruth   | Same                                          | Choir dinner is vivid                            | Church setting might distract with institutional facts     | Not chosen                 |
+|  4 | The Law-School Prayer Breakfast | Christian law-student breakfast           | Lydia, Timothy, Mary   | Same                                          | Law-school variation is fun                      | Student setting may invite school-policy noise             | Not chosen                 |
+|  5 | The Barnabas House Dessert      | Private dinner after Bible study          | Mary, Barnabas, Martha | Same                                          | Strong Bible-name cast                           | Less smooth than Lydia / Stephen / Ruth                    | Not chosen                 |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14679_fellowship_cup"
+  transformed_from: "14679"
+  subject: CRIMINAL
+  topic: "Criminal Law"
+  subtopic: "Homicide"
+  selection_percentages:
+    A:
+      pct: 82
+      provenance: "inherited_from_original"
+    B:
+      pct: 5
+      provenance: "inherited_from_original"
+    C:
+      pct: 10
+      provenance: "inherited_from_original"
+    D:
+      pct: 3
+      provenance: "inherited_from_original"
+  official_key: "A"
+  call: "In a common law jurisdiction, of what crime(s), if any, could Lydia be found guilty?"
+  stem: >
+    At a weekly Bible-study dinner in their home, Lydia decided to kill her husband,
+    Stephen, because she was angry about his infidelity. She obtained cyanide, a deadly
+    poison. During dessert, Lydia poured grape juice laced with the cyanide into a glass,
+    handed it to Stephen, and raised it in a warm toast about forgiveness. Stephen was
+    moved by the toast. He set the glass on an end table and embraced Lydia. During the
+    embrace, Lydia changed her mind about killing Stephen. She slid the glass behind a
+    framed Bible verse on the end table, planning for Ruth, their housekeeper, to clear it
+    away the next morning. Stephen did not drink the grape juice. The next morning, Ruth
+    found the glass while cleaning. Rather than throw the grape juice away, Ruth drank it.
+    Shortly afterward, she died from cyanide poisoning.
+  choices:
+    A: "Attempted murder of Stephen and murder or manslaughter of Ruth."
+    B: "Only attempted murder of Stephen."
+    C: "Only murder or manslaughter of Ruth."
+    D: "No crime."
+
+source_stack:
+  - rank: 1
+    source: "Pasted BarMatrix row for Q14679"
+    use: "Source of QID, topic, stem structure, answer array, official key, official explanation, and pick rates."
+  - rank: 2
+    source: "Existing C3 tags"
+    use: "No reliable preexisting C3 tag was treated as controlling."
+  - rank: 3
+    source: "C3 method and controlled vocabulary"
+    use: "Mold, filter, method_class, verdict, and output schema."
+  - rank: 4
+    source: "Official legal explanation"
+    use: "Lawyer confirmation only."
+  - rank: 5
+    source: "Legal research"
+    use: "Lawyer-confirmation authority for attempt and homicide."
+  - rank: 6
+    source: "reasoning-creed-prompt.md"
+    use: "Reasoning posture only; no doctrine."
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old with C3 lessons and the listed Gold/Silver Keys identify the move without outside doctrine?"
+  allowed_c3_lessons:
+    - "TRUE and RESPONSIVE residual"
+    - "Cut → Clash → Call"
+    - "Wrong-element not-responsive answers"
+    - "2x2 answer-array / both-only-only-neither geometry"
+    - "Anchor escalation when structure runs out"
+  allowed_gold_keys:
+    - "GK-CRIM-POISON-ATTEMPT-01"
+    - "GK-CRIM-UNINTENDED-POISON-DEATH-01"
+  allowed_silver_keys:
+    - "SK-CRIM-TWO-VICTIM-CHECKLIST-01"
+  prohibited_moves:
+    - "Do not call B, C, or D false on lawyer-only grounds before the Gold Keys fire."
+    - "Do not teach transferred intent; the official path uses depraved-heart recklessness / criminal negligence for Ruth."
+    - "Do not collapse the two-victim checklist into the person who died."
+
+stem_parse:
+  actors:
+    defendant: "Lydia"
+    intended_target: "Stephen"
+    actual_decedent: "Ruth"
+  objects:
+    poison: "cyanide"
+    instrument: "grape juice in a glass"
+  call_type: "crime classification"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Whether Stephen died"
+    - "Whether Lydia intended to kill Ruth"
+    - "Whether Lydia changed her mind"
+  answer_array_geometry: "2x2 both-only-only-neither matrix"
+
+trigger_facts:
+  - fact: "Lydia decided to kill Stephen."
+    access_label: "stem_visible"
+    branch: "Stephen attempted murder"
+  - fact: "Lydia put cyanide in Stephen's drink and handed it to him."
+    access_label: "stem_visible_plus_gold_key"
+    branch: "Stephen attempted murder"
+  - fact: "Stephen did not drink."
+    access_label: "stem_visible"
+    branch: "attempt not completed"
+  - fact: "Lydia changed her mind after handing over the poisoned drink."
+    access_label: "stem_visible_plus_gold_key"
+    branch: "renunciation/attempt trap"
+  - fact: "Lydia hid the poisoned glass for Ruth to clear away."
+    access_label: "stem_visible_plus_gold_key"
+    branch: "Ruth homicide"
+  - fact: "Ruth drank the grape juice and died from cyanide poisoning."
+    access_label: "stem_visible"
+    branch: "Ruth homicide"
+
+c3_routing:
+  subject_fit: "CRIMINAL = conduct/result checklist + mental-state branch."
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "Two-victim charge matrix: intended target attempt branch + unintended victim homicide branch."
+  call_heuristic: "answer_array_two_branch_checklist"
+
+answer_array:
+  type: "2x2_matrix"
+  matrix_axes:
+    axis_1: "Attempted murder of Stephen"
+    axis_2: "Murder or manslaughter of Ruth"
+  cells:
+    A:
+      stephen_attempt: true
+      ruth_homicide: true
+      role: "credited residual"
+    B:
+      stephen_attempt: true
+      ruth_homicide: false
+      role: "first-branch-only distractor"
+    C:
+      stephen_attempt: false
+      ruth_homicide: true
+      role: "second-branch-only dominant trap"
+    D:
+      stephen_attempt: false
+      ruth_homicide: false
+      role: "neither-branch distractor"
+  silver_key: "SK-CRIM-TWO-VICTIM-CHECKLIST-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Both branches survive."
+    c3_signal: "Only A fills both boxes in the 2x2 matrix."
+    lawyer_confirmation: "Attempt branch plus homicide branch; matches official key and researched black-letter confirmation."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - answer_to_different_question
+      - attractive_wrong_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Stephen-only answer."
+    c3_signal: "The word 'only' drops Ruth's death branch."
+    lawyer_confirmation: "Correct as to attempted murder of Stephen, incomplete because Ruth's death can support murder or manslaughter."
+  C:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - answer_to_different_question
+      - attractive_wrong_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Ruth-only answer."
+    c3_signal: "The word 'only' drops Stephen's attempt branch."
+    lawyer_confirmation: "Correct as to possible homicide of Ruth, incomplete because attempted murder does not require Stephen's death."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - common_student_myth
+      - moral_common_sense_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Neither-branch answer."
+    c3_signal: "After the Gold Keys, at least one branch is live; D says zero."
+    lawyer_confirmation: "False under the attempt and homicide branches."
+
+residual_answer:
+  choice: "A"
+  text: "Attempted murder of Stephen and murder or manslaughter of Ruth."
+  reason: "A is the only true-and-responsive answer after both branch anchors are applied."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "The answer array is a 2x2 both/only/only/neither matrix."
+      status: "passes_controlling_test"
+    - claim: "B and C are each incomplete because each says 'only' and drops one branch."
+      status: "passes_after_gold_keys"
+    - claim: "D collapses both branches to zero."
+      status: "passes_after_gold_keys"
+  quarantined_lawyer_claims:
+    - "Attempt doctrine and common-law proximity/substantial-step analysis."
+    - "Murder vs manslaughter culpability for Ruth."
+    - "No transferred-intent shortcut used."
+  drift_audit: "No distractor is declared legally false until a C3-visible matrix move or Gold Key supports it."
+
+gold_keys:
+  - id: "GK-CRIM-POISON-ATTEMPT-01"
+    statement: "Attempted murder does not require death. Intent to kill plus handing over the poisoned drink is enough for the target-victim branch."
+    type: "rule"
+    unlocks: "The trap that Stephen survived, so there is no attempted murder."
+    trigger: "Poisoned drink handed to intended victim; victim does not drink."
+    tested_choice: "C"
+    authority: "People v. Rizzo; LII Wex attempt; original official explanation."
+    last_minute_review: true
+  - id: "GK-CRIM-UNINTENDED-POISON-DEATH-01"
+    statement: "When a defendant leaves deadly poison where another person later drinks it and dies, the death branch may be murder if reckless enough or manslaughter if criminally negligent."
+    type: "distinction"
+    unlocks: "The trap that Lydia intended only Stephen, so Ruth's death is legally separate or no crime."
+    trigger: "Deadly poison left behind; unintended person drinks and dies."
+    tested_choice: "B"
+    authority: "Cornell Wex murder; Justia homicide overview; original official explanation."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-TWO-VICTIM-CHECKLIST-01"
+    statement: "When the answers are both / first only / second only / neither, do not rank by which event feels bigger. Check each branch, then pick the cell that contains every live branch."
+    type: "answer_array"
+    navigates: "Two-victim answer-array geometry."
+    trigger: "Choices contain 'and,' 'only X,' 'only Y,' and 'no crime.'"
+    tested_choice: "C"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-14679-TWO-BRANCH"
+  title: "Do not let the dead victim erase the attempt victim."
+  signal: "One target survives; another person dies."
+  student_move: "Make two boxes: target branch and death branch."
+  tiny_rule: "Attempt does not need completion; homicide does need death."
+  trap: "Picking the completed-death answer and dropping attempt."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?"
+review_truth: "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies."
+
+case_study_output:
+  final_student_script: "Two branches. Stephen: poisoned drink handed to target, so attempted murder. Ruth: poisoned drink later kills cleaner, so murder or manslaughter. Both branches live. Pick A."
+  legal_leak_boundary: "Attempt and homicide rules are Gold Key material, not pure structure."
+  pass_status: "PASS"
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  christian_first: true
+  popular_bible_names_only: true
+  no_antagonist_names: true
+  no_clutter_doctrines_added: true
+  answer_array_geometry_preserved: true
+  dominant_trap_preserved: "C at inherited 10%"
+  pick_rate_provenance_honest: true
+  exactly_three_single_filter_distractors: true
+  c3_residual_matches_key: true
+  needs_human_review: false
+
+analytics_hooks:
+  subject: CRIMINAL
+  outline_code: "00000000"
+  tested_skills:
+    - "two-victim matrix"
+    - "attempt completion without death"
+    - "unintended victim homicide"
+    - "only-answer wrong-element trap"
+  expected_wrong_answer_pull:
+    dominant_wrong: "C"
+    reason: "Student focuses on the person who died and drops attempt."
+  drill_cluster:
+    - "CRIM_attempt_no_death"
+    - "CRIM_homicide_unintended_victim"
+    - "C3_answer_array_both_only_neither"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a C3 construction case. The answer set is not four separate legal statements. It is a two-branch matrix:
+
+* Stephen branch: attempted murder of the intended target.
+* Ruth branch: murder or manslaughter of the person who died.
+
+## student_access_test
+
+Without the Gold Keys, a student can see the **shape**: A says both, B says Stephen only, C says Ruth only, D says neither. The student cannot safely know which branches are legally live without the two Gold Keys. This is **ANCHOR_SOLVE**, not pure structure.
+
+## question_data
+
+**Question ID:** 14679_fellowship_cup
+**Transformed from:** 14679
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Homicide
+**Credited answer:** A
+**Inherited pick rates:** A 82%, B 5%, C 10%, D 3%
+
+## distilled_core_question
+
+A defendant poisons a drink for one person, hands it to him, then hides it. He does not drink. A cleaner later drinks it and dies. What crimes could the defendant be found guilty of?
+
+## call_and_prediction
+
+**Call:** What crimes, if any, could Lydia be found guilty of in a common law jurisdiction?
+
+**Prediction:** There are two branches. Stephen is the attempt branch. Ruth is the death branch. If both branches are live, the answer must be A.
+
+## trigger_facts
+
+| Fact                                        | Branch           | C3 access       |
+| ------------------------------------------- | ---------------- | --------------- |
+| Lydia decided to kill Stephen.              | Stephen attempt  | Stem-visible    |
+| Lydia handed Stephen the poisoned drink.    | Stephen attempt  | Gold Key needed |
+| Stephen did not drink.                      | Attempt trap     | Stem-visible    |
+| Lydia changed her mind later.               | Abandonment trap | Gold Key needed |
+| Lydia hid the drink for Ruth to clear away. | Ruth homicide    | Gold Key needed |
+| Ruth drank and died from cyanide.           | Ruth homicide    | Stem-visible    |
+
+## governing_c3_lane
+
+**CRIMINAL = conduct/result checklist + mental-state branch.**
+
+This item is a **two-victim branch checklist**. The student’s first task is not to decide murder vs manslaughter. The first task is to avoid dropping a branch.
+
+## choice_by_choice_walkthrough
+
+### A. Attempted murder of Stephen and murder or manslaughter of Ruth.
+
+1. **Student-accessible C3 signal:** A is the only “both branches” answer.
+2. **Student label:** Residual answer.
+3. **What a true/responsive version would look like:** This is already true and responsive once both Gold Keys fire.
+4. **Lawyer confirmation:** Lydia intended to kill Stephen and handed him the poisoned drink, supporting attempted murder. Ruth later died from the same poisoned drink, supporting murder or manslaughter depending on the factfinder’s view of Lydia’s culpability.
+
+### B. Only attempted murder of Stephen.
+
+1. **Student-accessible C3 signal:** “Only” drops Ruth’s death branch.
+2. **Student label:** Stephen-only wrong-element answer.
+3. **What a true/responsive version would look like:** “Attempted murder of Stephen and murder or manslaughter of Ruth.”
+4. **Lawyer confirmation:** The attempted-murder statement is right as far as it goes, but Ruth’s death can support homicide liability. This choice is incomplete.
+
+### C. Only murder or manslaughter of Ruth.
+
+1. **Student-accessible C3 signal:** “Only” drops Stephen’s attempt branch.
+2. **Student label:** Ruth-only dominant trap.
+3. **What a true/responsive version would look like:** “Attempted murder of Stephen and murder or manslaughter of Ruth.”
+4. **Lawyer confirmation:** Ruth’s death branch is right as far as it goes. But attempted murder of Stephen does not require Stephen to die.
+
+### D. No crime.
+
+1. **Student-accessible C3 signal:** D says neither branch exists. After the Gold Keys, that cannot be the residual.
+2. **Student label:** Zero-branch answer.
+3. **What a true/responsive version would look like:** “No completed murder of Stephen” would be true but would not answer the whole call.
+4. **Lawyer confirmation:** Lydia can be found guilty of attempted murder of Stephen and murder or manslaughter of Ruth.
+
+## residual_answer
+
+**A survives.**
+
+The answer array asks for every crime Lydia could be found guilty of. A is the only answer that includes both legally live branches.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* The answer array is both / Stephen only / Ruth only / neither.
+* “Only” choices are suspect in a two-branch call.
+* The call asks for crimes, plural, if any.
+
+Anchor-assisted:
+
+* Attempted murder of Stephen.
+* Murder or manslaughter of Ruth.
+* Later change of mind does not erase the attempt branch in this common-law setup.
+
+Lawyer-confirmation only:
+
+* Common-law / proximity attempt authority.
+* Depraved-heart murder vs criminal-negligence manslaughter.
+
+**Drift audit:** No legal conclusion is treated as pure structure. The student path uses answer-array structure plus Gold Keys; doctrine stays quarantined.
+
+## final_student_script
+
+Two boxes. Stephen box: Lydia intended to kill him and handed him poison, so attempted murder. Ruth box: Lydia left deadly poison and Ruth died, so murder or manslaughter. A is the only answer with both boxes.
+
+## remediation_card
+
+**Card:** CRIM-REM-14679-TWO-BRANCH
+**Signal:** One person was targeted. A different person died.
+**Move:** Do not choose the answer for only one person. Run both branches.
+**Tiny rule:** Attempt does not need death. Homicide does need death.
+**Trap:** C feels right because Ruth is the person who died. It is incomplete.
+
+## Gold Key(s)
+
+**GK-CRIM-POISON-ATTEMPT-01**
+Attempted murder does not require death. Intent to kill plus handing over the poisoned drink is enough for the target-victim branch.
+
+**GK-CRIM-UNINTENDED-POISON-DEATH-01**
+When a defendant leaves deadly poison where another person later drinks it and dies, the death branch may be murder if reckless enough or manslaughter if criminally negligent.
+
+## Silver Key(s)
+
+**SK-CRIM-TWO-VICTIM-CHECKLIST-01**
+When the answers are both / first only / second only / neither, check each branch, then pick the cell that contains every live branch.
+
+## qa_checklist
+
+| Check                                                       | Result  |
+| ----------------------------------------------------------- | ------- |
+| Rule unchanged                                              | Pass    |
+| Correct answer unchanged                                    | Pass    |
+| Dominant trap preserved                                     | Pass: C |
+| Christian names only                                        | Pass    |
+| No villain names                                            | Pass    |
+| No clutter doctrine                                         | Pass    |
+| Answer geometry preserved                                   | Pass    |
+| Three distractors, one filter each                          | Pass    |
+| Gold Keys present because anchor-dependent                  | Pass    |
+| Silver Key present because answer-array move is non-obvious | Pass    |
+| C3 residual agrees with official key                        | Pass    |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why student picks it                                              | Skipped move    | Recovery                                                         |
+| ------ | ----------------------------------------------------------------- | --------------- | ---------------------------------------------------------------- |
+| B      | Student sees attempt and thinks later death is too accidental.    | Ruth branch.    | Ask: did someone die from the poison?                            |
+| C      | Student sees the completed death and ignores the survivor.        | Stephen branch. | Ask: does attempt require death?                                 |
+| D      | Student overweights change of mind and no intended death of Ruth. | Both branches.  | Ask: did Lydia already cross the attempt line, and did Ruth die? |
+
+## outline_mastery_map
+
+**Placement:** Criminal Law → Inchoate Crimes + Homicide
+**This item teaches:** Attempt can coexist with homicide of another victim.
+**Fills:** Attempt without completion; unintended-victim homicide; reckless/negligent death branch.
+**Adjacent to master:** Abandonment / renunciation; depraved-heart murder; involuntary manslaughter.
+
+## crossover_intersection_map
+
+* **Inchoate crimes + homicide:** attempted murder of one person; homicide of another.
+* **Mental state + result crime:** intent as to Stephen; recklessness/negligence as to Ruth.
+* **Causation + culpability:** Ruth’s act of drinking does not erase the poisoning branch for bar purposes.
+* **C3 answer-array geometry:** both / only / only / neither.
+
+## review_truth
+
+Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14679_fellowship_cup",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?",
+  "review_truth": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Two-victim charge matrix: Stephen attempt branch vs Ruth homicide branch.",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "answer_array_two_branch_checklist",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "SK-CRIM-TWO-VICTIM-CHECKLIST-01",
+        "explanation": "Stephen-only answer drops Ruth's death branch."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-CRIM-POISON-ATTEMPT-01",
+        "explanation": "Ruth-only answer drops Stephen's attempted-murder branch."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-CRIM-POISON-ATTEMPT-01",
+        "explanation": "No-crime answer denies both live branches."
+      }
+    ],
+    "analyzer_notes": "drift_audit: anchor-assisted, not pure structural; student may use answer-array geometry, but attempt and homicide liability are Gold Key material. transformed_from: 14679",
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-POISON-ATTEMPT-01",
+        "statement": "Attempted murder does not require death. Intent to kill plus handing over the poisoned drink is enough for the target-victim branch.",
+        "type": "rule",
+        "unlocks": "The trap that Stephen survived, so there is no attempted murder.",
+        "trigger": "Poisoned drink handed to intended victim; victim does not drink.",
+        "tested_choice": "C",
+        "authority": "People v. Rizzo; LII Wex attempt; original official explanation.",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIM-UNINTENDED-POISON-DEATH-01",
+        "statement": "When a defendant leaves deadly poison where another person later drinks it and dies, the death branch may be murder if reckless enough or manslaughter if criminally negligent.",
+        "type": "distinction",
+        "unlocks": "The trap that Lydia intended only Stephen, so Ruth's death is legally separate or no crime.",
+        "trigger": "Deadly poison left behind; unintended person drinks and dies.",
+        "tested_choice": "B",
+        "authority": "Cornell Wex murder; Justia homicide overview; original official explanation.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-TWO-VICTIM-CHECKLIST-01",
+        "statement": "When the answers are both / first only / second only / neither, check each branch, then pick the cell that contains every live branch.",
+        "type": "answer_array",
+        "navigates": "Two-victim answer-array geometry.",
+        "trigger": "Choices contain 'and,' 'only X,' 'only Y,' and 'no crime.'",
+        "tested_choice": "C",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14679_fellowship_cup",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?",
+  "review_truth": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+  "tension": {
+    "name": "Two-victim charge matrix",
+    "axis_1": "Attempted murder of intended target",
+    "axis_2": "Murder or manslaughter of unintended victim",
+    "resolver": "Both branches are live after Gold Keys."
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student sees the intent-to-kill branch and thinks Ruth's drinking is too accidental.",
+      "focus_group_pct": 5
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student focuses on the only person who died and forgets attempt does not require death.",
+      "focus_group_pct": 10
+    },
+    {
+      "choice": "D",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "The student overweights Lydia's change of mind and lack of intent toward Ruth.",
+      "focus_group_pct": 3
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-14679-TWO-BRANCH",
+    "title": "Do not let the dead victim erase the attempt victim.",
+    "signal": "One person was targeted; another person died.",
+    "student_move": "Make two boxes: target branch and death branch.",
+    "tiny_rule": "Attempt does not need completion; homicide does need death.",
+    "trap": "Picking the completed-death answer and dropping attempt.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "Attempt abandonment after substantial step",
+    "Only-answer wrong-element trap",
+    "Unintended victim homicide",
+    "Two-victim charge checklist",
+    "Murder-or-manslaughter degree ambiguity"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14679_fellowship_cup",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?",
+  "review_truth": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "They recognize the attempt branch but think the later death is outside Lydia's liability.",
+      "skipped_move": "Ruth death branch",
+      "recovery_step": "Ask whether the poisoned drink caused a death and whether reckless/negligent homicide can attach."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "They chase the completed death and forget the intended target can support attempt.",
+      "skipped_move": "Stephen attempt branch",
+      "recovery_step": "Ask whether the intended target had to die for attempted murder."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "They think no death of Stephen and no intent toward Ruth means no crime.",
+      "skipped_move": "Both-branch Gold Key check",
+      "recovery_step": "Run the two boxes: attempt branch and homicide branch."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array",
+      "target_skill": "both-only-only-neither matrix",
+      "prompt": "Choices are: both crimes, only target attempt, only death-victim homicide, no crime. What is the first C3 move?",
+      "answer": "Draw two boxes and test each branch."
+    },
+    {
+      "drill_type": "gold_key",
+      "target_skill": "attempt without death",
+      "prompt": "A defendant intending to kill hands the victim a poisoned drink, but the victim never drinks. Is death required for attempt?",
+      "answer": "No. Intent plus crossing the attempt line is enough."
+    },
+    {
+      "drill_type": "gold_key",
+      "target_skill": "unintended victim homicide",
+      "prompt": "A defendant leaves deadly poison where a cleaner later drinks it and dies. What branch must be checked?",
+      "answer": "Murder or manslaughter depending on recklessness or criminal negligence."
+    },
+    {
+      "drill_type": "wrong_answer_recovery",
+      "target_skill": "only-answer trap",
+      "prompt": "Why is 'Only murder or manslaughter of Ruth' incomplete?",
+      "answer": "It drops attempted murder of Stephen."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "2x2_matrix",
+      "both_only_neither_array",
+      "attempt_no_completion",
+      "unintended_victim_death",
+      "dominant_trap_C"
+    ],
+    "misconception_tags": [
+      "attempt_requires_death",
+      "change_of_mind_erases_attempt",
+      "intent_to_kill_specific_victim_required_for_all_homicide",
+      "completed_death_branch_crowds_out_attempt_branch"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Core",
+      "lesson": "Answer arrays are engineered structures",
+      "priority": "high"
+    },
+    {
+      "component": "Criminal Law overlay",
+      "lesson": "Conduct/result checklist",
+      "priority": "high"
+    },
+    {
+      "component": "Gold Key deck",
+      "lesson": "Attempt and unintended-victim homicide anchors",
+      "priority": "high"
+    },
+    {
+      "component": "Remediation",
+      "lesson": "Only-answer wrong-element traps",
+      "priority": "medium"
+    }
+  ],
+  "crossovers": [
+    {
+      "name": "Inchoate crimes + homicide",
+      "description": "Attempt branch and homicide branch can coexist in one answer."
+    },
+    {
+      "name": "Mental state + result crime",
+      "description": "Intent to kill target differs from recklessness or negligence toward actual victim."
+    },
+    {
+      "name": "Causation + culpability",
+      "description": "Later victim's act of drinking does not automatically erase the poisoned-drink death branch."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-POISON-ATTEMPT-01",
+      "statement": "Attempted murder does not require death. Intent to kill plus handing over the poisoned drink is enough for the target-victim branch.",
+      "type": "rule",
+      "unlocks": "The trap that Stephen survived, so there is no attempted murder.",
+      "trigger": "Poisoned drink handed to intended victim; victim does not drink.",
+      "tested_choice": "C",
+      "authority": "People v. Rizzo; LII Wex attempt; original official explanation.",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIM-UNINTENDED-POISON-DEATH-01",
+      "statement": "When a defendant leaves deadly poison where another person later drinks it and dies, the death branch may be murder if reckless enough or manslaughter if criminally negligent.",
+      "type": "distinction",
+      "unlocks": "The trap that Lydia intended only Stephen, so Ruth's death is legally separate or no crime.",
+      "trigger": "Deadly poison left behind; unintended person drinks and dies.",
+      "tested_choice": "B",
+      "authority": "Cornell Wex murder; Justia homicide overview; original official explanation.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-TWO-VICTIM-CHECKLIST-01",
+      "statement": "When the answers are both / first only / second only / neither, check each branch, then pick the cell that contains every live branch.",
+      "type": "answer_array",
+      "navigates": "Two-victim answer-array geometry.",
+      "trigger": "Choices contain 'and,' 'only X,' 'only Y,' and 'no crime.'",
+      "tested_choice": "C",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > Inchoate Crimes and Homicide",
+    "this_item_teaches": "Attempt and homicide can both be present when the intended target survives but another person dies.",
+    "fills": [
+      "Attempted murder without completed murder",
+      "Poison as substantial / proximate attempt conduct",
+      "Depraved-heart murder or involuntary manslaughter for unintended death",
+      "Two-victim answer-array analysis"
+    ],
+    "adjacent_to_master": [
+      "Abandonment / renunciation",
+      "Transferred intent caution",
+      "Causation in homicide",
+      "Murder vs manslaughter mental-state degree"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/wex/attempt "attempt | Wex | US Law | LII / Legal Information Institute"
+[2]: https://law.justia.com/cases/new-york/court-of-appeals/1927/246-n-y-334-158-n-e-888.html "                People v. Rizzo :: 1927 :: New York Court of Appeals Decisions :: New York Case Law :: New York Law :: U.S. Law :: Justia    "
+[3]: https://www.law.cornell.edu/wex/murder "murder | Wex | US Law | LII / Legal Information Institute"
+[4]: https://www.justia.com/criminal/offenses/homicide/ "                Homicide Laws | Criminal Law Center | Justia    "
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14679_fellowship_cup",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?",
+  "review_truth": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14679; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14679_fellowship_cup",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?",
+  "review_truth": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14679",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14679_fellowship_cup",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A defendant poisons a drink for one person, hands it to him, then hides it; he does not drink, but a cleaner later drinks it and dies. What crimes could the defendant be found guilty of?",
+  "review_truth": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "Run poisoned-drink cases as two branches: attempted murder for the intended target, homicide for the person who dies.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

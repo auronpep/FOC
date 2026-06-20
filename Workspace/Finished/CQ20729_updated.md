@@ -1,0 +1,972 @@
+---
+qid: "20729_courtyard_stormwater"
+transformed_from: "20729"
+subject: "REAL_PROPERTY"
+topic: "Rights in Land"
+subtopic: "Takings / Landlord-Tenant"
+outline_code: "81020801"
+key: "C"
+original_key: "D"
+letter_map: "- original_letter: A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken."
+---
+Source row used: BARMATRIX Q#20729, Real Property, complete taking of a leased parcel by eminent domain, original key D. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+Lydia leased an urban courtyard lot that she owned to Timothy for a seven-year term so Timothy could run evening Bible-verse calligraphy workshops there. In the third year of the term, the city condemned the entire courtyard lot by eminent domain for a public stormwater basin.
+
+**Which statement best describes Timothy’s rights?**
+
+## 2. Distilled Core Question
+
+A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?
+
+## 3. Final answer choices, post-shuffle
+
+**A.** Timothy is entitled to a share of the condemnation award based on the value of the unexpired term of the leasehold less the rent that would have become due during that term.
+
+**B.** Timothy may continue to use the courtyard for the balance of the term unless his leasehold interest was specifically named in the condemnation award.
+
+**C.** Timothy is freed of the obligation to pay rent for the balance of the term and is also entitled to a share of the condemnation award based on the value of the unexpired term of the leasehold less the rent that would have become due during that term.
+
+**D.** Timothy is freed of the obligation to pay rent for the balance of the term.
+
+## 5. Correct answer
+
+**C**. Original key: **D**.
+
+## 6. Letter Map
+
+| Original letter | New letter | Mechanic                                        | Substance | Pick rate                                          |
+| --------------- | ---------: | ----------------------------------------------- | --------- | -------------------------------------------------- |
+| A               |          B | fabricated condition / continued-occupancy trap | kept      | null, predicted; source row supplied no measured % |
+| B               |          D | rent-only incomplete-right trap                 | kept      | null, predicted; source row supplied no measured % |
+| C               |          A | award-only incomplete-right trap                | kept      | null, predicted; source row supplied no measured % |
+| D               |          C | correct_answer                                  | kept      | null, predicted; source row supplied no measured % |
+
+## 7. Full right-answer explanation
+
+**C is correct. Gold Key:** when the government takes the entire leased parcel, the taking reaches the leasehold as well as the landlord’s interest. The tenant loses possession, so future rent stops, and the tenant also has a compensable leasehold interest measured by the value of the unexpired term minus the rent the tenant no longer has to pay.
+
+**Silver Key:** the answer array splits the rule into two single-consequence answers and one combined answer. Once both consequences are true, the combined answer is the complete response.
+
+## 8. Full wrong-answer explanations
+
+**A.** This choice is attractive because just compensation sounds like the whole constitutional answer. The breaker is that the tenant has two rights after a total taking: the lease ends for rent purposes, and the leasehold value can be compensated. **Silver Key:** when the array offers one answer for each half and one answer for both halves, the one-half answer is not complete.
+
+**B.** This choice is attractive because the “specifically named in the award” language sounds like a formal condemnation-paper requirement. **Gold Key:** a whole-parcel taking reaches the leasehold whether or not the decree names it separately, so Timothy cannot keep occupying the courtyard.
+
+**D.** This choice is attractive because no rent after total ouster feels like the obvious landlord-tenant consequence. The breaker is that rent discharge is only one half of Timothy’s rights; the leasehold itself is also a compensable property interest.
+
+## 9. Black-letter verification and legal reasoning
+
+The source row’s official explanation states that a total taking of realty by eminent domain acquires present and future interests, includes the leasehold, frees the lessee from future rent, and entitles the lessee to a proportional award based on the unexpired lease term minus unpaid future rent.  That rule is consistent with the Fifth Amendment’s Just Compensation Clause, which bars taking private property for public use without just compensation. ([Congress.gov][1]) The Supreme Court has treated a tenancy for years as a property interest within the protection of just compensation and has stated that compensation is paid for the value of the interest taken. ([Justia Law][2]) For the rent side, *Farr v. Williams* describes the common-law rule that when the entire demised premises are condemned, the tenant’s future rent obligation ceases; it also treats the condemnation as passing the tenant’s title or interest to the condemnor. ([Justia][3]) For the award side, *City of Vista v. Fielder* states the paired rules that a total public acquisition terminates the lease but does not eliminate the lessee’s right to compensation for the leasehold. ([Justia][4])
+
+**Unchanged legal issue:** rights of a tenant when the entire leased parcel is taken by eminent domain.
+
+**Unchanged credited outcome:** both future rent discharge and leasehold-award participation.
+
+## 10. Why the variation preserves rigor/difficulty
+
+The legal skeleton is unchanged: fixed-term lease, total taking, tenant-rights call, and a component-split answer array. The Christian surface changes the setting, names, purpose of use, timing, and public project, but it does not add church-property, charitable-immunity, First Amendment, business-loss, fixture, or lease-clause issues.
+
+## 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT B.** The “unless named in the award” condition is the trap. Under the Gold Key, total condemnation reaches the leasehold; the tenant does not continue occupying merely because the leasehold was not separately named.
+
+**CLASH/CALL A vs D vs C.** A gives the award half. D gives the rent half. C gives both.
+
+**CALL C.** Apply the Silver Key: when the array gives one answer for each component and one answer combining both, test the two components. Both are true under the Gold Key, so the combined answer is the residual.
+
+## 12. Divergence Audit
+
+| Recognition-Kill dimension  | Result                                                                                                                                              |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter      | Changed from a generic parcel of realty to an urban courtyard lot used for Bible-verse calligraphy workshops.                                       |
+| Transaction frame           | Preserved as a lease because the tested rule requires a leasehold. Skip logged: changing to sale, license, or service would change the legal issue. |
+| Specific facts              | Changed landlord/lessee into Lydia/Timothy; changed bare parcel into a courtyard lot; changed taking purpose to a municipal stormwater basin.       |
+| Numbers                     | Changed five-year term to seven-year term. Kept the legally relevant fact that there is an unexpired term.                                          |
+| Fact ordering / stem rhythm | Reordered into named property-use story first, then condemnation, then call.                                                                        |
+| Cast size / roles           | Added named Christian cast; kept only one landlord and one tenant to avoid clutter.                                                                 |
+| Choice ordering             | Shuffled. Original key moved to C.                                                                                                                  |
+| Choice phrasing             | Paraphrased “occupy the premises” into “use the courtyard”; preserved black-letter compensation formula.                                            |
+| Setting / era / texture     | Changed from generic realty to urban Christian-workshop courtyard and public stormwater project.                                                    |
+| Call wording                | Changed to “best describes Timothy’s rights” to preserve single-best function and make the component-array fair.                                    |
+
+**Original stem summary:** A tenant leases a parcel for five years, then the entire parcel is taken by eminent domain.
+
+**Variant stem summary:** Timothy rents Lydia’s urban courtyard for Bible-verse calligraphy workshops, and the city condemns the whole courtyard for a stormwater basin.
+
+Recognition test passed: the summaries share only the legal rule skeleton.
+
+## 13. Review Truth
+
+A total eminent-domain taking of leased land ends the tenant’s future rent duty and gives the tenant a claim for the value of the leasehold taken.
+
+## 14. The 5 variations considered
+
+|  # | Title                                        | Setting / cast                                                                                                | Preserved issue                                                  | Why memorable                                               | Legal risks                                                                            | Divergence score                                                                            |
+| -: | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+|  1 | **Timothy’s Advent Courtyard** — recommended | Lydia leases an urban courtyard to Timothy for Bible-verse calligraphy classes; city takes it for stormwater. | Total condemnation of leased realty; tenant rent + award rights. | Urban courtyard + Christian calligraphy + stormwater basin. | Mild business-loss noise, controlled by not asking about business losses.              | 9/10; changed asset texture, names, term, purpose, project, rhythm, setting, choices, call. |
+|  2 | Ruth’s Riverbank Psalm Garden                | Naomi leases a riverbank prayer-garden lot to Ruth; county takes it for a levee.                              | Same.                                                            | Psalms by the river.                                        | “Garden” could imply fixtures/plantings.                                               | 8/10; strong surface divergence, slight fixture risk.                                       |
+|  3 | Peter’s Fishers’ Breakfast Lot               | Barnabas leases a waterfront lot to Peter for sunrise breakfasts; city takes it for a ferry terminal.         | Same.                                                            | Gospel-like fishing texture.                                | Food operation could imply licensing/business loss.                                    | 7/10; memorable but more clutter.                                                           |
+|  4 | Esther’s Lantern Field                       | Daniel leases a meadow to Esther for Advent lantern workshops; state takes it for a highway interchange.      | Same.                                                            | Bright visual story.                                        | Meadow + workshop clean, but highway-taking resembles standard eminent-domain pattern. | 8/10.                                                                                       |
+|  5 | Paul’s Tentmaking Alley                      | Martha leases an alley lot to Paul for tentmaking lessons; city takes it for a light-rail station.            | Same.                                                            | “Tentmaking” is Christian-coded and vivid.                  | Alley access could add easement/access issues.                                         | 7/10.                                                                                       |
+
+**Why #1 won:** it maximizes surface divergence while keeping the legal payload clean. It avoids church property, donation language, First Amendment facts, lease clauses, fixtures, relocation, and partial-taking ambiguity.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+## 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20729_courtyard_stormwater"
+  subject: REAL_PROPERTY
+  topic: "Rights in Land"
+  subtopic: "Takings / Landlord-Tenant"
+  outline_code: "81020801"
+  selection_percentages:
+    A:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+    B:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+    C:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+    D:
+      value: null
+      provenance: predicted
+      note: "No measured pick rate supplied in source row."
+  official_key: C
+  call: "Which statement best describes Timothy's rights?"
+  stem: "Lydia leased an urban courtyard lot that she owned to Timothy for a seven-year term so Timothy could run evening Bible-verse calligraphy workshops there. In the third year of the term, the city condemned the entire courtyard lot by eminent domain for a public stormwater basin."
+  choices:
+    A: "Timothy is entitled to a share of the condemnation award based on the value of the unexpired term of the leasehold less the rent that would have become due during that term."
+    B: "Timothy may continue to use the courtyard for the balance of the term unless his leasehold interest was specifically named in the condemnation award."
+    C: "Timothy is freed of the obligation to pay rent for the balance of the term and is also entitled to a share of the condemnation award based on the value of the unexpired term of the leasehold less the rent that would have become due during that term."
+    D: "Timothy is freed of the obligation to pay rent for the balance of the term."
+
+transform_provenance:
+  transformed_from: "20729"
+  variant_slug: "courtyard_stormwater"
+  original_key_letter: D
+  new_key_letter: C
+  letter_map:
+    - original_letter: A
+      new_letter: B
+      mechanic: "fabricated_rule / continued occupancy after total taking"
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+    - original_letter: B
+      new_letter: D
+      mechanic: "wrong_element / rent-only incomplete right"
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+    - original_letter: C
+      new_letter: A
+      mechanic: "wrong_element / award-only incomplete right"
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+    - original_letter: D
+      new_letter: C
+      mechanic: correct_answer
+      substance: kept
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A tenant leases a parcel for five years, then the entire parcel is taken by eminent domain."
+    variant_stem_one_sentence: "Timothy rents Lydia's urban courtyard for Bible-verse calligraphy workshops, and the city condemns the whole courtyard for a stormwater basin."
+    dimensions_changed:
+      - "asset texture"
+      - "Christian names"
+      - "use of leased land"
+      - "lease term number"
+      - "public project"
+      - "fact rhythm"
+      - "setting"
+      - "choice order"
+      - "choice phrasing"
+      - "call wording"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "Lease must remain a lease because the tested rule concerns a leasehold."
+
+source_stack:
+  - "BarMatrix row 20729: source stem, answer choices, original key, official explanation."
+  - "Controlled vocabularies: subject, filters, molds, method classes, verdicts, confidence, key types."
+  - "C3 universal lessons: TRUE and RESPONSIVE; Cut-Clash-Call; answer-array component package."
+  - "C3 master deck: Real Property landlord-tenant and takings adjacency."
+  - "Legal authority quarantined to lawyer_confirmation."
+
+student_access_contract:
+  allowed_universal_lessons:
+    - "Lesson 1: TRUE and RESPONSIVE"
+    - "Lesson 2: Cut-Clash-Call"
+    - "Lesson 3: Rules vs standards"
+    - "Lesson 4: Overclaim / fabricated rule"
+    - "Lesson 8: Wrong-element not-responsive mold"
+    - "Lesson 10: matched / component answer array"
+    - "Lesson 12: anchor deck / rule-driven floor"
+    - "Lesson 14: full workflow"
+  subject_overlay:
+    available: false
+    applied_fit: "Real Property = property-interest classification + consequence after status change."
+  gold_keys_allowed:
+    - "GK-REAL_PROPERTY-WHOLE-TAKING-01"
+  silver_keys_allowed:
+    - "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01"
+  controlling_test_result: "The item is not hard-structural. It is solved only after the Gold Key supplies the total-taking rule."
+
+stem_parse:
+  parties:
+    landlord: Lydia
+    tenant: Timothy
+    condemnor: "city"
+  legal_relation: "seven-year lease of real property"
+  property: "urban courtyard lot"
+  event: "entire property condemned by eminent domain"
+  call_function: "single best statement of tenant rights"
+  negative_stem: false
+  adjacent_call_trap: "single consequence versus complete rights package"
+  role: "judge / legal-status classifier"
+
+trigger_facts:
+  - fact: "Timothy has a leasehold, not merely permission or a license."
+    access_label: "stem_visible"
+  - fact: "The lease term is unexpired when the taking occurs."
+    access_label: "stem_visible"
+  - fact: "The whole courtyard lot is condemned."
+    access_label: "stem_visible"
+  - fact: "The taking is by eminent domain for public use."
+    access_label: "stem_visible"
+  - fact: "A total taking reaches the leasehold and ends future rent while preserving compensation for leasehold value."
+    access_label: "gold_key"
+
+c3_routing:
+  subject_fit: "Real Property = property-interest status plus total-taking consequence."
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: pure_anchor
+  confidence: PURE_ANCHOR
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: C
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard anchor array"
+  call_heuristic: "component package: both true components beat one-component answers"
+
+answer_array:
+  geometry: "component package / both-not-one"
+  components:
+    rent_discharge: true
+    leasehold_award_share: true
+  choice_roles:
+    A: "award-only component"
+    B: "fabricated continued-occupancy condition"
+    C: "both components"
+    D: "rent-only component"
+  silver_key: "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - attractive_wrong_answer
+      - answer_to_different_question
+      - legally_true_but_irrelevant
+    method_class: pure_anchor
+    student_label: "award-only incomplete answer"
+    c3_signal: "This gives only one of the two rights in the array."
+    lawyer_confirmation: "A tenant whose leasehold is taken can have a compensation claim, but this answer omits the rent-discharge consequence."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: fabricated_rule
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - sounds_lawyerly
+      - misstated_rule
+      - exception_omitted
+      - bar_exam_bait
+    method_class: pure_anchor
+    student_label: "fake award-name condition"
+    c3_signal: "The answer invents a formal naming condition."
+    lawyer_confirmation: "A total taking includes the leasehold; the tenant does not keep possession merely because the award fails to name the leasehold."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: pure_anchor
+    student_label: "complete two-consequence answer"
+    c3_signal: "This answer contains both true components."
+    lawyer_confirmation: "The tenant is released from future rent and has a compensable leasehold interest measured by the value of the unexpired term minus rent no longer owed."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - attractive_wrong_answer
+      - answer_to_different_question
+    method_class: pure_anchor
+    student_label: "rent-only incomplete answer"
+    c3_signal: "This gives only one of the two rights in the array."
+    lawyer_confirmation: "A total taking releases the tenant from future rent, but the answer omits the compensation consequence."
+
+residual_answer:
+  choice: C
+  why_survives: "It is the only choice that includes both consequences of a total taking of a leasehold."
+  student_script: "Whole leased lot taken. Tenant loses the leasehold. No future rent, plus leasehold-value share. Pick the both answer."
+
+legal_leak_audit:
+  verdict: "controlled"
+  notes:
+    - "Choice B is not student-accessibly false without the Gold Key; it is tagged pure_anchor."
+    - "Choices A and D are not legally false in isolation; they are incomplete and tagged NOT_RESPONSIVE, not NOT_TRUE."
+    - "The student-facing route uses Gold Key plus Silver Key, not an invented hard-structural claim."
+    - "Authority appears only in lawyer_confirmation and legal-verification sections."
+
+gold_keys:
+  - id: "GK-REAL_PROPERTY-WHOLE-TAKING-01"
+    statement: "A total eminent-domain taking of leased land reaches the tenant's leasehold: future rent stops, and the tenant may claim the value of the leasehold interest taken."
+    type: rule
+    unlocks: "continued-occupancy trap and one-component rent/award traps"
+    trigger: "entire leased parcel taken by eminent domain during the lease term"
+    tested_choice: B
+    authority: "U.S. Const. amend. V; United States v. General Motors Corp.; Farr v. Williams; City of Vista v. Fielder"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01"
+    statement: "When two choices each give one consequence and a third combines them, test each component. If both components are true, the combined choice is the complete answer."
+    type: answer_array
+    navigates: "rent-only and award-only half answers"
+    trigger: "one answer says X, one says Y, one says X plus Y"
+    tested_choice: C
+    outline_code: "81020801"
+    last_minute_review: true
+
+remediation:
+  card_id: "RP-ANCHOR-TAKING-LEASE-01"
+  title: "Whole taking of leased premises"
+  signal: "Entire leased parcel is condemned during an unexpired term."
+  student_move: "Ask for both consequences: rent and award."
+  tiny_rule: "Whole taking = leasehold gone; future rent gone; leasehold value claim remains."
+  trap: "Picking only the rent half or only the award half."
+  confidence: "PURE_ANCHOR"
+
+distilled_core_question: "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?"
+
+review_truth: "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken."
+
+case_study_output:
+  final_student_script: "Whole leased lot taken. Gold Key says two consequences: no future rent and leasehold-value compensation. A and D are half answers; B invents continued occupancy. C is both."
+  verdict: ANCHOR_SOLVE
+
+quality_control:
+  pass_available: true
+  pass_reason: "Residual equals credited answer; three distractors each have one assigned filter."
+  transformation_changed_outcome: false
+  dominant_trap_status: "No measured dominant trap supplied; all original mechanics preserved."
+  no_new_clutter_doctrine: true
+  post_shuffle_key_consistent: true
+
+analytics_hooks:
+  forensic_tags:
+    - "component_package_answer"
+    - "total_taking_leasehold"
+    - "one_component_trap"
+  misconception_tags:
+    - "tenant_gets_only_award"
+    - "tenant_gets_only_rent_release"
+    - "condemnation_must_name_leasehold"
+  component_routing:
+    - "Gold Key remediation"
+    - "Silver Key answer-array drill"
+    - "Real Property takings / landlord-tenant crossover"
+```
+
+## 2. The 17-section student case study
+
+## program_frame
+
+This is a Real Property anchor item. The surface story is Christian. The legal engine is not.
+
+The array is not four unrelated statements. It is a component package:
+
+* one answer gives compensation only;
+* one answer gives rent discharge only;
+* one answer gives both;
+* one answer invents continued occupancy.
+
+## student_access_test
+
+Could a smart 10-year-old using only C3 structure solve this cold? No.
+
+The decisive rule is not visible from grammar alone. The student needs the Gold Key: **whole taking of leased premises = no future rent + leasehold compensation.**
+
+C3 still helps after the anchor appears. The Silver Key tells the student how to handle the answer array.
+
+## question_data
+
+**Question ID:** 20729_courtyard_stormwater
+**Subject:** REAL_PROPERTY
+**Outline code:** 81020801
+**Credited answer:** C
+**Teaching verdict:** ANCHOR_SOLVE
+**DB verdict:** PASS
+**Confidence:** PURE_ANCHOR
+**Deciding phase:** CALL
+
+## distilled_core_question
+
+A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?
+
+## call_and_prediction
+
+**Call:** Which statement best describes Timothy’s rights?
+
+**Prediction after anchor:** total taking wipes out possession, so Timothy does not pay future rent. The leasehold itself is property, so Timothy also gets compensation for the value of the unexpired term minus rent no longer owed.
+
+## trigger_facts
+
+| Fact                                   | Why it matters                                |
+| -------------------------------------- | --------------------------------------------- |
+| Timothy is a tenant under a lease.     | He has a leasehold, not mere permission.      |
+| The lease term is unexpired.           | There is leasehold value to measure.          |
+| The entire courtyard lot is condemned. | This is a total taking, not a partial taking. |
+| The taking is by eminent domain.       | The just-compensation rule is triggered.      |
+
+## governing_c3_lane
+
+**Lane:** RULE / anchor.
+
+**C3 move:** Gold Key first, Silver Key second.
+
+**Do not fake structure:** A and D are not false statements standing alone. They are incomplete answers to a two-consequence rights call.
+
+## choice_by_choice_walkthrough
+
+### Choice A
+
+**Text:** Timothy is entitled to a share of the condemnation award based on the value of the unexpired term of the leasehold less the rent that would have become due during that term.
+
+1. **Student-accessible C3 signal:** A gives only the award component.
+2. **Student label:** award-only incomplete answer.
+3. **What a true/responsive version would look like:** It would also say Timothy is freed from future rent.
+4. **Lawyer confirmation:** The compensation component is legally right, but incomplete. The leasehold can be compensable, but total taking also stops future rent.
+
+### Choice B
+
+**Text:** Timothy may continue to use the courtyard for the balance of the term unless his leasehold interest was specifically named in the condemnation award.
+
+1. **Student-accessible C3 signal:** The answer invents a formal naming condition.
+2. **Student label:** fake award-name condition.
+3. **What a true/responsive version would look like:** It would say the leasehold is taken with the whole parcel, whether or not separately named.
+4. **Lawyer confirmation:** Total condemnation reaches the leasehold interest. Timothy cannot keep occupying after the condemnor takes the whole property.
+
+### Choice C
+
+**Text:** Timothy is freed of the obligation to pay rent for the balance of the term and is also entitled to a share of the condemnation award based on the value of the unexpired term of the leasehold less the rent that would have become due during that term.
+
+1. **Student-accessible C3 signal:** This answer combines both true components.
+2. **Student label:** complete two-consequence answer.
+3. **What a true/responsive version would look like:** This is the true/responsive version.
+4. **Lawyer confirmation:** The total taking terminates the rent obligation and gives the tenant a compensable leasehold-value claim.
+
+### Choice D
+
+**Text:** Timothy is freed of the obligation to pay rent for the balance of the term.
+
+1. **Student-accessible C3 signal:** D gives only the rent component.
+2. **Student label:** rent-only incomplete answer.
+3. **What a true/responsive version would look like:** It would also say Timothy gets a leasehold-value share of the award.
+4. **Lawyer confirmation:** The rent component is legally right, but incomplete. The tenant also has a compensable property interest in the leasehold.
+
+## residual_answer
+
+**Residual:** C.
+
+Reason: C is the only answer that contains both consequences.
+
+## legal_leak_audit
+
+No choice is treated as hard structural. The student cannot know the condemnation consequences from grammar alone. The Gold Key supplies the rule. The Silver Key supplies the array move.
+
+**Drift audit:** A and D are tagged not-responsive, not false; B is tagged not-true only through the Gold Key; no lawyer-only doctrine is disguised as structure.
+
+## final_student_script
+
+Whole leased courtyard taken. Tenant loses possession. Gold Key: no future rent, plus leasehold-value compensation. A is award only. D is rent only. B invents continued occupancy. C is both.
+
+## remediation_card
+
+**Card ID:** RP-ANCHOR-TAKING-LEASE-01
+**Title:** Whole taking of leased premises
+**Signal:** Entire leased parcel condemned during an unexpired lease.
+**Student move:** Ask for both consequences: rent and award.
+**Tiny rule:** Whole taking = leasehold gone; future rent gone; leasehold value claim remains.
+**Trap:** Picking only one consequence.
+**Confidence:** PURE_ANCHOR.
+
+## Gold Key(s)
+
+**GK-REAL_PROPERTY-WHOLE-TAKING-01**
+A total eminent-domain taking of leased land reaches the tenant’s leasehold: future rent stops, and the tenant may claim the value of the leasehold interest taken.
+**Type:** rule.
+**Trigger:** entire leased parcel taken during the lease term.
+**Last-minute review:** true.
+
+## Silver Key(s)
+
+**SK-REAL_PROPERTY-COMPONENT-PACKAGE-01**
+When two choices each give one consequence and a third combines them, test each component. If both components are true, the combined choice is the complete answer.
+**Type:** answer_array.
+**Trigger:** X-only, Y-only, and X-plus-Y answer set.
+**Last-minute review:** true.
+
+## qa_checklist
+
+| Check                                                   | Result |
+| ------------------------------------------------------- | ------ |
+| Rule unchanged                                          | yes    |
+| Credited outcome unchanged                              | yes    |
+| Post-shuffle key consistent                             | yes    |
+| Three distractors each assigned one filter              | yes    |
+| Gold Key present because anchor-dependent               | yes    |
+| Silver Key present because component-array move decides | yes    |
+| No church-property / First Amendment clutter            | yes    |
+| No fake hard-structural claim                           | yes    |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                   | Missed move                           | Recovery                                                     |
+| ------ | ---------------------------------------- | ------------------------------------- | ------------------------------------------------------------ |
+| A      | The compensation clause sounds complete. | Did not check the rent component.     | Test both components before choosing a one-half answer.      |
+| B      | The award-name condition sounds formal.  | Did not use Gold Key.                 | Remember that total taking reaches the leasehold.            |
+| D      | The rent-release rule feels enough.      | Did not check compensation component. | Look for the combined answer when two consequences are true. |
+
+## outline_mastery_map
+
+**Placement:** 81020801 — Real Property > Rights in Land > Takings > Actual Takings.
+
+**Adjacent mastery:** 82010405 — Landlord and Tenant > Termination, including surrender and mitigation.
+
+**This item teaches:** a total taking is both a takings problem and a lease-termination problem.
+
+## crossover_intersection_map
+
+| Intersection                           | Relevance                                              |
+| -------------------------------------- | ------------------------------------------------------ |
+| Real Property / Takings                | Leasehold is a property interest.                      |
+| Landlord-Tenant / Termination          | Total taking ends the rent obligation.                 |
+| Constitutional Law / Just Compensation | Compensation principle supports leasehold-value award. |
+| Answer-array strategy                  | Component package: rent-only, award-only, both.        |
+
+## review_truth
+
+A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.
+
+## 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20729_courtyard_stormwater",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "C",
+  "outline_code": "81020801",
+  "distilled_core_question": "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?",
+  "review_truth": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": "single consequence versus complete two-consequence answer",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "component package: if both single components are true, choose the combined answer",
+    "difficulty": "medium-hard anchor array",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01",
+        "explanation": "Award-only answer. It omits the future-rent consequence."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": null,
+        "card_ref": "GK-REAL_PROPERTY-WHOLE-TAKING-01",
+        "explanation": "It invents a requirement that the leasehold be specifically named before the taking reaches the tenant."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01",
+        "explanation": "Rent-only answer. It omits the compensation consequence."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "A and D are incomplete, not false. B is false only through the Gold Key. C3 does not convert eminent-domain doctrine into hard structure.",
+      "transformed_from": "20729",
+      "letter_map": "A→B; B→D; C→A; D→C"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-REAL_PROPERTY-WHOLE-TAKING-01",
+        "statement": "A total eminent-domain taking of leased land reaches the tenant's leasehold: future rent stops, and the tenant may claim the value of the leasehold interest taken.",
+        "type": "rule",
+        "unlocks": "continued occupancy and one-component traps",
+        "trigger": "entire leased parcel taken by eminent domain during an unexpired lease term",
+        "tested_choice": "B",
+        "authority": "U.S. Const. amend. V; United States v. General Motors Corp.; Farr v. Williams; City of Vista v. Fielder",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01",
+        "statement": "When two choices each give one consequence and a third combines them, test each component. If both components are true, the combined choice is the complete answer.",
+        "type": "answer_array",
+        "navigates": "rent-only and award-only half answers",
+        "trigger": "one answer says X, one says Y, one says X plus Y",
+        "tested_choice": "C",
+        "outline_code": "81020801",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## 4. `program_elements`
+
+```json
+{
+  "question_id": "20729_courtyard_stormwater",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020801",
+  "distilled_core_question": "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?",
+  "review_truth": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+  "tension": {
+    "axis": "one-consequence answer versus combined-consequence answer",
+    "resolution": "Both consequences are true under the Gold Key, so the combined answer wins."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "This choice sells the constitutional-compensation half, which sounds like the whole eminent-domain answer. The breaker is that the tenant also stops owing future rent, so the award-only statement is incomplete.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "fabricated_rule",
+      "architecture": null,
+      "why_attractive": "This choice sells a formal-document trap by making the condemnation award sound controlling. The breaker is the Gold Key: a total taking reaches the leasehold whether or not the award names it separately.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "This choice sells the intuitive landlord-tenant half, because no rent after total ouster feels complete. The breaker is that the leasehold itself is also compensable, so the rent-only statement is incomplete.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "RP-ANCHOR-TAKING-LEASE-01",
+    "title": "Whole taking of leased premises",
+    "signal": "Entire leased parcel condemned during an unexpired term.",
+    "student_move": "Ask for both consequences: rent and award.",
+    "tiny_rule": "Whole taking = leasehold gone; future rent gone; leasehold value claim remains.",
+    "trap": "Picking only the rent half or only the award half.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": [
+    "anchor-only Real Property rule",
+    "component-package array",
+    "half-right answer trap",
+    "formal-document fabricated condition",
+    "Con Law just compensation crossover"
+  ]
+}
+```
+
+## 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20729_courtyard_stormwater",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020801",
+  "distilled_core_question": "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?",
+  "review_truth": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student sees 'condemnation award' and stops after the constitutional half.",
+      "skipped_move": "Did not test the rent component.",
+      "recovery_step": "When the array offers X-only, Y-only, and X-plus-Y, test both components before choosing."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student treats the condemnation award wording as if it controls what interests were taken.",
+      "skipped_move": "Did not apply the whole-taking Gold Key.",
+      "recovery_step": "Recall that total taking of the parcel includes the leasehold."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student recognizes that rent should stop and treats that as the complete answer.",
+      "skipped_move": "Did not test the compensation component.",
+      "recovery_step": "Add the leasehold-value compensation consequence when the entire leasehold is taken."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "total taking of leased premises",
+      "prompt": "A tenant has four years left when the entire leased parcel is condemned. Name the two tenant consequences.",
+      "answer": "Future rent stops; tenant may claim leasehold value in the award."
+    },
+    {
+      "drill_type": "Silver Key answer-array",
+      "target_skill": "component package",
+      "prompt": "One choice says X, one says Y, one says X and Y. What move do you run?",
+      "answer": "Test X and Y separately; if both are true, choose the combined answer."
+    },
+    {
+      "drill_type": "Trap diagnosis",
+      "target_skill": "fabricated formal condition",
+      "prompt": "A choice says a leasehold survives a taking unless named in the award. What mold is this?",
+      "answer": "fabricated_rule."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "component_package_answer",
+      "total_taking_leasehold",
+      "anchor_required",
+      "one_component_trap"
+    ],
+    "misconception_tags": [
+      "tenant_gets_only_award",
+      "tenant_gets_only_rent_release",
+      "condemnation_award_must_name_leasehold",
+      "leasehold_not_property"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Gold Key",
+      "id": "GK-REAL_PROPERTY-WHOLE-TAKING-01"
+    },
+    {
+      "component": "Silver Key",
+      "id": "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01"
+    },
+    {
+      "component": "Remediation",
+      "id": "RP-ANCHOR-TAKING-LEASE-01"
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "intersection": "Just Compensation Clause supports leasehold compensation."
+    },
+    {
+      "subject": "REAL_PROPERTY",
+      "intersection": "Landlord-tenant termination consequence supplies rent discharge."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-REAL_PROPERTY-WHOLE-TAKING-01",
+      "statement": "A total eminent-domain taking of leased land reaches the tenant's leasehold: future rent stops, and the tenant may claim the value of the leasehold interest taken.",
+      "type": "rule",
+      "unlocks": "continued-occupancy trap and one-component traps",
+      "trigger": "entire leased parcel taken by eminent domain during an unexpired lease term",
+      "tested_choice": "B",
+      "authority": "U.S. Const. amend. V; United States v. General Motors Corp.; Farr v. Williams; City of Vista v. Fielder",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01",
+      "statement": "When two choices each give one consequence and a third combines them, test each component. If both components are true, the combined choice is the complete answer.",
+      "type": "answer_array",
+      "navigates": "rent-only and award-only half answers",
+      "trigger": "one answer says X, one says Y, one says X plus Y",
+      "tested_choice": "C",
+      "outline_code": "81020801",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "81020801 — Real Property > Rights in Land > Takings > Actual Takings",
+    "this_item_teaches": "A leasehold is a property interest; total taking ends rent and preserves compensation.",
+    "fills": [
+      "total taking of leasehold",
+      "condemnation award apportionment",
+      "future rent discharge"
+    ],
+    "adjacent_to_master": [
+      "82010405 — Landlord and Tenant > Termination, including surrender and mitigation",
+      "44040604 — Constitutional Law > Individual Rights > Other Protections > Eminent domain—Takings Clause"
+    ]
+  }
+}
+```
+
+[1]: https://constitution.congress.gov/constitution/amendment-5/?utm_source=chatgpt.com "U.S. Constitution - Fifth Amendment | Resources | Constitution Annotated | Congress.gov | Library of Congress"
+[2]: https://supreme.justia.com/us/323/373/?utm_source=chatgpt.com " United States v. General Motors Corp. | 323 U.S. 373 (1945) | Justia U.S. Supreme Court Center"
+[3]: https://law.justia.com/cases/south-carolina/supreme-court/1957/17371-1.html?utm_source=chatgpt.com "                Farr v. Williams :: 1957 :: South Carolina Supreme Court Decisions :: South Carolina Case Law :: South Carolina Law :: U.S. Law :: Justia    "
+[4]: https://law.justia.com/cases/california/supreme-court/4th/13/612.html?utm_source=chatgpt.com "                City of Vista v. Fielder (1996) ::  :: Supreme Court of California Decisions :: California Case Law :: California Law :: U.S. Law :: Justia    "
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20729_courtyard_stormwater",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "C",
+  "outline_code": "81020801",
+  "distilled_core_question": "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?",
+  "review_truth": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20729; letter_map: - original_letter: A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20729_courtyard_stormwater",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020801",
+  "distilled_core_question": "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?",
+  "review_truth": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20729",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+    "trap": "See preserved traps when present.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20729_courtyard_stormwater",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020801",
+  "distilled_core_question": "A tenant still has years left on a lease when the government condemns the entire leased parcel. Is the tenant still liable for future rent, and does the tenant receive part of the condemnation award?",
+  "review_truth": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "81020801",
+    "this_item_teaches": "A total eminent-domain taking of leased land ends future rent and compensates the tenant for the leasehold value taken.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

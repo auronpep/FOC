@@ -1,0 +1,1010 @@
+---
+qid: "14238_lydias_barnabas_brief"
+transformed_from: "14238"
+subject: "CONSTITUTIONAL_LAW"
+topic: "Constitutional Law"
+subtopic: "Individual Rights"
+outline_code: "00000000"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "D: publication/press vocabulary tempts a prior-restraint frame."
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source basis: the uploaded Q14238 row supplies the original stem, answer choices, official key C, and official explanations; the prompt also requires a Christian-first transform before the C3 output.  The Con Law overlay identifies Q14238 as a topic-naming item: religion-favoritism points to Establishment Clause rather than generic constitutional filler.  The reasoning posture used here follows the project’s “proof before proxy” and “optimism on the goal, paranoia on the gaps” guardrails. 
+
+### 1. Final question — revised stem + call
+
+A state imposed a generally applicable sales tax payable by vendors. For several years, the tax law exempted from sales tax the sale of all magazines, periodicals, newspapers, and books.
+
+To raise additional revenue, the state legislature repealed that broad exemption and substituted a narrower exemption. The new exemption excluded from the sales tax only the sale of magazines, periodicals, newspapers, and books that are published or distributed by a recognized religious faith and that consist wholly of writings sacred to such a religious faith.
+
+Lydia edits **The Barnabas Brief**, a monthly publication sold at law-school bookstores and devoted to legal history and public affairs. The Barnabas Brief paid under protest the sales tax due on its sales under the amended law. It then brought an action in federal district court challenging the constitutionality of the amended tax law and requesting damages for the sales taxes paid. It contended that the new exemption restricted to sacred writings of recognized religious faiths violates the First and Fourteenth Amendments.
+
+Assume that The Barnabas Brief has proper standing. In this case, the court will probably rule that
+
+### 2. Distilled Core Question
+
+A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?
+
+### 3. Final answer choices
+
+**A.** the new, narrower exemption from the state sales tax law violates substantive due process because it is a deprivation of property and thus amounts to a taking from The Barnabas Brief.
+
+**B.** the new, narrower exemption from the state sales tax law violates the Privileges or Immunities Clause of the Fourteenth Amendment because it denies The Barnabas Brief the same rights granted to publications of recognized religious faiths.
+
+**C.** the new, narrower exemption from the state sales tax law violates the Establishment Clause of the First and Fourteenth Amendments by granting preferential state support to recognized religious faiths for the communication of their sacred writings.
+
+**D.** the new, narrower exemption from the state sales tax law violates the freedom of the press guaranteed by the First and Fourteenth Amendments because it imposes a prior restraint on publications such as The Barnabas Brief that are required to pay the tax.
+
+### 4. Possible replacement answer choices
+
+No replacement recommended.
+
+Reason: pick-rate data is blank in the source row, so no distractor can honestly be labeled a measured weak <21% distractor. The existing array is strong and should be preserved: A, B, C, and D each name a different constitutional doctrine home. That is the whole trap.
+
+### 5. Correct answer
+
+**C.**
+
+### 6. Full right-answer explanation
+
+**C is correct.** The tax exemption is not merely a broad accommodation that incidentally benefits religious publications. It is restricted to publications by recognized religious faiths and wholly sacred writings. That creates a religion-specific state benefit.
+
+**Gold Key:** A state tax exemption confined to sacred writings of recognized religious faiths is an Establishment Clause problem because it gives preferential state support to religious communication.
+
+**Silver Key:** In a Con Law doctrine-home array, name the object of the state preference first. Here the repeated object is “recognized religious faith” and “sacred writings,” so the Establishment Clause answer owns the claim.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** It turns the case into a property/taking problem. The stem is not built around government occupation, condemnation, or deprivation of a vested property entitlement. It is built around a religion-specific tax exemption. This is a doctrine-home misfit.
+
+**B is wrong.** It uses a broad constitutional-sounding clause, but the stem is not about interstate citizenship rights or travel-type privileges. It is about a state preference for recognized religious faiths. This is a doctrine-home misfit.
+
+**D is wrong.** It uses a real First Amendment neighborhood, but the chosen theory is the wrong one. Paying a sales tax is not, by itself, a prior restraint. **Silver Key:** “Press” is close enough to tempt you, but the stem’s repeated trigger is religious preference, not pre-publication censorship.
+
+### 8. Black-letter verification and legal reasoning
+
+The transformed rule and outcome match the original Q14238: the credited answer remains **C**, and the operative rule remains that a sales-tax exemption limited to sacred writings of recognized religious faiths violates the Establishment Clause. The official row states the same answer and rationale. 
+
+Legal confirmation: **Texas Monthly, Inc. v. Bullock**, 489 U.S. 1 (1989), involved a Texas sales-tax exemption for religious periodicals and sacred books and held that an exemption confined to publications advancing religious faith violated the Establishment Clause. The case is the direct authority for this item. ([Justia Law][1]) **Arkansas Writers’ Project v. Ragland**, 481 U.S. 221 (1987), also confirms that selective publication taxation can create First Amendment problems when tax status turns on publication content, but D is still not the best answer here because it frames the tax as a “prior restraint,” not as the religion-specific subsidy that the stem targets. ([Justia Law][2])
+
+### 9. Why the variation preserves rigor
+
+The variation changes only names and setting. It preserves:
+
+* the same tax structure;
+* the same religious-publication exemption;
+* the same secular publication challenger;
+* the same doctrine-home array;
+* the same correct answer;
+* the same press-clause/prior-restraint trap.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT**
+
+A is not a clean hard cut for a beginner. It needs the doctrine-home map: property/taking language does not answer the religion-preference claim.
+
+B is also doctrine-home filler. Privileges or Immunities sounds constitutional but does not own this claim.
+
+D is the attractive wrong-frame answer. It sees “publication” and jumps to press/prior restraint. The phrase “prior restraint” does not match a tax paid after sales.
+
+**CLASH**
+
+The array is not a two-answer clash. It is a **four-doctrine-home array**:
+
+* A = property/taking home;
+* B = Privileges or Immunities home;
+* C = religion/Establishment home;
+* D = press/prior-restraint home.
+
+**CALL**
+
+Use topic-naming alignment. The stem repeatedly says **recognized religious faith** and **sacred writings**. That points to **Establishment Clause**. C is the residual answer.
+
+### 11. Review Truth
+
+When a tax exemption is restricted to sacred writings of recognized religious faiths, the bar answer is Establishment Clause, not taking, Privileges or Immunities, or prior restraint.
+
+### 12. Five variations considered
+
+| Variation                           | Setting                    | Cast                  | Preserved issue                     | Risk                                                                    | Recommendation |
+| ----------------------------------- | -------------------------- | --------------------- | ----------------------------------- | ----------------------------------------------------------------------- | -------------- |
+| **Lydia’s Barnabas Brief**          | law-school bookstores      | Lydia, Barnabas title | religious-publication tax exemption | title could sound religious, but stem says legal history/public affairs | **Chosen**     |
+| Paul’s Campus Chronicle             | private bar-prep newspaper | Paul                  | same                                | less memorable                                                          | not chosen     |
+| Martha’s Moot Court Monthly         | law-school magazine        | Martha                | same                                | too law-school-only, less Christian flavor                              | not chosen     |
+| Daniel’s Debate Digest              | civics/politics magazine   | Daniel                | same                                | clean but less fun                                                      | not chosen     |
+| Ruth’s Review of History & Politics | general magazine           | Ruth                  | same                                | closest to original, less sticky                                        | not chosen     |
+
+---
+
+## B1) Question YAML
+
+```yaml
+barmatrix_row:
+  question_id: "14238_lydias_barnabas_brief"
+  transformed_from: "14238"
+  subject: "CONSTITUTIONAL_LAW"
+  topic: "Constitutional Law"
+  subtopic: "Individual Rights"
+  outline_code: "00000000"
+  selection_percentages:
+    correct: null
+    A: null
+    B: null
+    C: null
+    D: null
+    provenance: "Original pick rates blank; transformed item has no measured pick-rate data."
+  official_key: "C"
+  stem: "A state imposed a generally applicable sales tax payable by vendors. For several years, the tax law exempted from sales tax the sale of all magazines, periodicals, newspapers, and books. To raise additional revenue, the state legislature repealed that broad exemption and substituted a narrower exemption. The new exemption excluded from the sales tax only the sale of magazines, periodicals, newspapers, and books that are published or distributed by a recognized religious faith and that consist wholly of writings sacred to such a religious faith. Lydia edits The Barnabas Brief, a monthly publication sold at law-school bookstores and devoted to legal history and public affairs. The Barnabas Brief paid under protest the sales tax due on its sales under the amended law. It then brought an action in federal district court challenging the constitutionality of the amended tax law and requesting damages for the sales taxes paid. It contended that the new exemption restricted to sacred writings of recognized religious faiths violates the First and Fourteenth Amendments. Assume that The Barnabas Brief has proper standing. In this case, the court will probably rule that"
+  call: "In this case, the court will probably rule that"
+  choices:
+    A: "the new, narrower exemption from the state sales tax law violates substantive due process because it is a deprivation of property and thus amounts to a taking from The Barnabas Brief."
+    B: "the new, narrower exemption from the state sales tax law violates the Privileges or Immunities Clause of the Fourteenth Amendment because it denies The Barnabas Brief the same rights granted to publications of recognized religious faiths."
+    C: "the new, narrower exemption from the state sales tax law violates the Establishment Clause of the First and Fourteenth Amendments by granting preferential state support to recognized religious faiths for the communication of their sacred writings."
+    D: "the new, narrower exemption from the state sales tax law violates the freedom of the press guaranteed by the First and Fourteenth Amendments because it imposes a prior restraint on publications such as The Barnabas Brief that are required to pay the tax."
+
+source_stack:
+  - rank: 1
+    source: "BarMatrix Q14238 row"
+    use: "Controls tested rule, answer choices, official key, and official explanation."
+  - rank: 2
+    source: "Existing C3 Constitutional Law overlay"
+    use: "Hypothesis only: Q14238 is a doctrine-home/topic-naming item."
+  - rank: 3
+    source: "C3 lessons and controlled vocabulary"
+    use: "Controls filters, molds, method_class, verdicts, and output shape."
+  - rank: 4
+    source: "Official legal explanation"
+    use: "Lawyer confirmation only."
+  - rank: 5
+    source: "Texas Monthly, Inc. v. Bullock, 489 U.S. 1 (1989)"
+    use: "Lawyer-confirmation authority for Establishment Clause result."
+
+student_access_contract:
+  allowed_lessons:
+    - "L1 TRUE and RESPONSIVE"
+    - "L2 Ear vs Issue-Sense; Cut-Clash-Call"
+    - "L7 Predict before you peek"
+    - "L8 not-responsive molds: misfit and bait_doctrine"
+    - "L11 bait architecture: wrong_frame"
+    - "L12 anchor deck / doctrine-home tiny anchors"
+    - "Con Law overlay: claim home first; topic-naming alignment"
+  controlling_test: "Could a smart 10-year-old who completed only C3 lessons, Con Law overlay, and taught Gold/Silver Keys identify the choice problem without outside doctrine?"
+  access_limit: "The student may use topic-naming alignment and the Gold Key, but not an untaught mini-outline of Establishment Clause, Press Clause, Takings, or Privileges or Immunities."
+  legal_quarantine: "Authority and black-letter confirmation stay under lawyer_confirmation."
+
+stem_parse:
+  subject_fit: "Constitutional Law = claim categorization + doctrine-home selection."
+  call_type: "best constitutional ground / likely ruling"
+  negative_stem: false
+  adjacent_call_traps:
+    - "treating tax payment as a taking or property deprivation"
+    - "treating publication taxation as prior restraint"
+    - "treating unequal benefit as Privileges or Immunities"
+  predicted_answer_before_choices: "The state favors recognized religious faiths in a publication tax exemption; expect Establishment Clause."
+
+trigger_facts:
+  - fact: "The state originally exempted all magazines, periodicals, newspapers, and books."
+    access_label: "C3-visible"
+    role: "baseline broad exemption"
+  - fact: "The state narrowed the exemption to publications by a recognized religious faith."
+    access_label: "C3-visible"
+    role: "religion-preference trigger"
+  - fact: "The exempt publications must consist wholly of writings sacred to such a faith."
+    access_label: "C3-visible"
+    role: "sacred-writings trigger"
+  - fact: "The Barnabas Brief is devoted to legal history and public affairs."
+    access_label: "C3-visible"
+    role: "non-sacred-publication challenger"
+  - fact: "The challenger paid the tax under protest and sued."
+    access_label: "C3-visible"
+    role: "procedural posture; not the main constitutional home"
+  - fact: "Standing is assumed."
+    access_label: "C3-visible"
+    role: "threshold removed"
+
+c3_routing:
+  subject_fit: "CONSTITUTIONAL_LAW doctrine-home array"
+  governing_law_type: "RULE"
+  deciding_phase: "CALL"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "doctrine-home: property/P&I/religion/press"
+  call_heuristic: "topic_naming_alignment_plus_gold_key"
+
+answer_array:
+  geometry: "four-doctrine-home array"
+  shape: "{property/taking | Privileges-or-Immunities | Establishment | press/prior-restraint}"
+  silver_key_ref: "SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01"
+  preserved_from_original: true
+  dominant_trap: "D: publication/press vocabulary tempts a prior-restraint frame."
+  measured_pick_rates_available: false
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "answer_to_different_question"
+      - "sounds_lawyerly"
+      - "wrong_remedy"
+    method_class: "anchor_assisted"
+    student_label: "Property/taking home; wrong doctrine home."
+    c3_signal: "The stem repeats religious faith and sacred writings; A shifts to property deprivation."
+    lawyer_confirmation: "This is not a takings/substantive due process item. The tax does not take a vested property entitlement from the magazine."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "answer_to_different_question"
+      - "common_student_myth"
+      - "sounds_lawyerly"
+    method_class: "anchor_assisted"
+    student_label: "Privileges or Immunities home; wrong doctrine home."
+    c3_signal: "B uses broad constitutional equality language but does not name the religion-preference problem."
+    lawyer_confirmation: "Privileges or Immunities is not the operative doctrine for this publication-tax religious preference."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Residual: religion-preference home."
+    c3_signal: "C is the only answer whose doctrine name directly matches the repeated religious-faith/sacred-writings trigger."
+    lawyer_confirmation: "Texas Monthly confirms that a sales-tax exemption confined to religious publications or sacred writings violates the Establishment Clause."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "wrong_standard"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Press/prior-restraint home; neighboring First Amendment trap."
+    c3_signal: "D sees publication but chooses prior restraint; the stem asks about religious preference in a tax exemption."
+    lawyer_confirmation: "A sales tax burden is not a prior restraint merely because it applies to nonexempt publications."
+
+residual_answer:
+  choice: "C"
+  reason: "Religion-favoring tax exemption points to Establishment Clause."
+  student_path: "Doctrine-home array + topic-naming alignment + Gold Key."
+  lawyer_path: "Texas Monthly Establishment Clause holding."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "The answer array is a doctrine-home array."
+      access_result: "PASS"
+    - claim: "Religious faith / sacred writings are the repeated trigger facts."
+      access_result: "PASS"
+    - claim: "C is the answer whose doctrine name matches religion-favoritism."
+      access_result: "PASS"
+    - claim: "A, B, and D are wrong doctrine homes."
+      access_result: "ANCHOR_ASSISTED"
+  quarantined_claims:
+    - "Texas Monthly direct holding."
+    - "Privileges or Immunities scope."
+    - "Prior restraint definition."
+    - "Takings/substantive due process non-fit."
+  drift_audit: "No distractor is called false on purely lawyer-only grounds in the student path; doctrine lives under Gold Key and lawyer_confirmation."
+
+gold_keys:
+  - id: "GK-CONSTITUTIONAL_LAW-RELIGIOUS-PUBLICATION-TAX-01"
+    statement: "A tax exemption confined to publications of recognized religious faiths that consist wholly of sacred writings is a religion-specific state benefit; the bar answer treats it as an Establishment Clause violation."
+    type: "constitutional_principle"
+    unlocks: "Defeats the press/prior-restraint and generic constitutional-clause traps."
+    trigger: "Tax exemption limited to recognized religious faiths and sacred writings."
+    tested_choice: "C"
+    authority: "Texas Monthly, Inc. v. Bullock, 489 U.S. 1 (1989)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01"
+    statement: "In a Con Law doctrine-home array, first name the subject the facts keep repeating; then prefer the answer whose doctrine home names that subject."
+    type: "answer_array"
+    navigates: "property/P&I/religion/press answer-array split"
+    trigger: "Four answers each name a different constitutional clause or doctrine."
+    tested_choice: "C"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CONLAW-DOCTRINE-HOME-RELIGION-01"
+  title: "Religion-favoring tax benefit: do not drift to press or property"
+  signal: "State tax exemption turns on recognized religious faith and sacred writings."
+  student_move: "Pick the doctrine home that names the repeated subject: Establishment."
+  tiny_rule: "Religion-specific subsidy → Establishment Clause."
+  trap: "Publication facts lure students into Press Clause/prior restraint."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?"
+
+review_truth: "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint."
+
+case_study_output:
+  final_student_script: "This is a doctrine-home array. The facts keep saying recognized religious faith and sacred writings. Property, Privileges or Immunities, and prior restraint are neighboring homes. C names the religion-preference home. Pick C."
+  one_sentence_takeaway: "Claim home first: religion-favoring tax benefit belongs in Establishment."
+
+quality_control:
+  transformed_item_rule_unchanged: true
+  transformed_item_key_unchanged: true
+  answer_array_geometry_preserved: true
+  all_distractors_single_filter: true
+  no_measured_pick_rates_claimed: true
+  no_new_clutter_doctrine: true
+  popular_bible_names_only: true
+  pass_available: true
+  c3_residual_matches_key: true
+
+analytics_hooks:
+  qid_provenance: "transformed_from: 14238"
+  component_routing:
+    - "CONLAW-CLASH-02"
+    - "CONLAW-ANCHOR-01"
+    - "CONLAW-CALL-TOPIC-NAMING"
+  weakspot_dimensions:
+    - "doctrine_home_array"
+    - "wrong_frame"
+    - "religion_vs_press"
+    - "constitutional_clause_misfit"
+  recommended_drills:
+    - "DRILL-CONLAW-02 doctrine-home array"
+    - "Gold Key review: religious publication tax exemption"
+```
+
+---
+
+## B2) Student Case Study
+
+### 1. program_frame
+
+This is a Constitutional Law doctrine-home item. The answer choices are not four independent explanations. They are four constitutional homes:
+
+* property/taking;
+* Privileges or Immunities;
+* Establishment;
+* press/prior restraint.
+
+The task is to pick the home that matches the repeated trigger facts.
+
+### 2. student_access_test
+
+Student-access limit:
+
+* Use the Con Law overlay: **Claim home first.**
+* Use the Silver Key: repeated subject → matching doctrine home.
+* Use the Gold Key: religion-specific publication tax benefit → Establishment Clause.
+* Do not use a full Establishment Clause outline.
+
+Result: **ANCHOR_SOLVE.** The navigation is visible, but the final confidence depends on the Gold Key.
+
+### 3. question_data
+
+**Question ID:** 14238_lydias_barnabas_brief
+**Transformed from:** 14238
+**Subject:** CONSTITUTIONAL_LAW
+**Topic:** Individual Rights
+**Official key:** C
+**Pick rates:** no measured data supplied.
+
+### 4. distilled_core_question
+
+A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?
+
+### 5. call_and_prediction
+
+**Call:** The court will probably rule that what?
+
+**Prediction:** The state created a tax benefit for religious faiths and sacred writings. The likely constitutional home is Establishment Clause.
+
+**Adjacent-call traps:**
+
+* The magazine paid money, so A tries to make it property/taking.
+* The magazine is treated differently, so B tries generic constitutional equality.
+* The item concerns publications, so D tries press/prior restraint.
+
+### 6. trigger_facts
+
+| Trigger fact                                               | What it does                                       |
+| ---------------------------------------------------------- | -------------------------------------------------- |
+| Broad publication exemption existed first                  | Gives baseline                                     |
+| New exemption only for recognized religious faiths         | Religion-preference trigger                        |
+| Exempt writings must be sacred writings                    | Establishment trigger                              |
+| The Barnabas Brief covers legal history and public affairs | Challenger is outside the sacred-writing exemption |
+| Standing assumed                                           | Do not waste time on standing                      |
+
+### 7. governing_c3_lane
+
+**Lane:** Con Law doctrine-home array.
+**FIT:** Constitutional Law = claim categorization + doctrine-home consistency.
+**Deciding phase:** CALL.
+**Method:** topic-naming alignment plus Gold Key.
+**Confidence:** ANCHOR_ASSISTED.
+
+### 8. choice_by_choice_walkthrough
+
+#### Choice A
+
+**(1) Student-accessible C3 signal:** A talks about deprivation of property and taking. The stem’s repeated signal is not government occupation or property seizure; it is religious faith and sacred writings.
+
+**(2) Student label:** Misfit — property/taking home.
+
+**(3) True/responsive version:** A property/taking answer would need a stem about the government taking or occupying property, or depriving the magazine of a vested property entitlement.
+
+**(4) Lawyer confirmation:** The official explanation rejects takings/substantive due process because the magazine has no entitlement to continued receipt of a tax benefit. The direct constitutional problem is the religious-publication exemption.
+
+#### Choice B
+
+**(1) Student-accessible C3 signal:** B uses a broad constitutional clause but does not name the stem’s repeated religion trigger.
+
+**(2) Student label:** Misfit — Privileges or Immunities home.
+
+**(3) True/responsive version:** A Privileges or Immunities answer would need a question about rights tied to state citizenship, interstate travel, or a recognized P/I trigger.
+
+**(4) Lawyer confirmation:** Privileges or Immunities does not supply the operative rule for a religion-specific tax exemption.
+
+#### Choice C
+
+**(1) Student-accessible C3 signal:** C is the only answer that matches the repeated trigger: recognized religious faiths and sacred writings.
+
+**(2) Student label:** Residual answer — religion/Establishment home.
+
+**(3) True/responsive version:** This is the true/responsive version: it names the religious preference and the constitutional home that owns it.
+
+**(4) Lawyer confirmation:** Texas Monthly confirms the result: an exclusive sales-tax exemption for religious publications/sacred writings violates the Establishment Clause.
+
+#### Choice D
+
+**(1) Student-accessible C3 signal:** D sees “publication” and jumps to press. But it adds “prior restraint,” which does not match a tax paid after publication sales.
+
+**(2) Student label:** Bait-doctrine — press/prior-restraint neighbor.
+
+**(3) True/responsive version:** A press-tax answer would need to challenge selective taxation of publications as a press/content discrimination problem, not call the tax a prior restraint.
+
+**(4) Lawyer confirmation:** Selective publication taxes can raise First Amendment problems, but this answer’s stated reason is prior restraint. That is not the best ground here.
+
+### 9. residual_answer
+
+**Residual:** C.
+
+The answer that survives is the one whose constitutional home matches the repeated subject of the stem: religious faith + sacred writings → Establishment Clause.
+
+### 10. legal_leak_audit
+
+Student-accessible:
+
+* “This is a doctrine-home array.” Pass.
+* “The stem repeats religious faith and sacred writings.” Pass.
+* “C names the matching doctrine home.” Pass.
+* “A/B/D are wrong doctrine homes.” Anchor-assisted.
+
+Quarantined:
+
+* Texas Monthly holding.
+* Prior restraint doctrine.
+* Privileges or Immunities scope.
+* Takings/substantive due process analysis.
+
+**Drift audit:** No lawyer-only doctrine is disguised as hard structure. The student path uses topic-naming alignment and a Gold Key; authority stays in lawyer confirmation.
+
+### 11. final_student_script
+
+“This is not a four-law outline question. It is a doctrine-home array. A is property. B is Privileges or Immunities. D is press/prior restraint. The stem keeps repeating recognized religious faith and sacred writings. The answer whose home names that problem is Establishment Clause. Pick C.”
+
+### 12. remediation_card
+
+**REM-CONLAW-DOCTRINE-HOME-RELIGION-01 — Religion-favoring tax benefit**
+
+* **Signal:** Tax exemption limited to recognized religious faiths and sacred writings.
+* **Move:** Pick the religion doctrine home before debating press or property.
+* **Tiny rule:** Religion-specific subsidy → Establishment Clause.
+* **Trap:** Publication facts lure students into Press Clause/prior restraint.
+* **Confidence:** ANCHOR_ASSISTED.
+
+### 13. Gold Key(s)
+
+**GK-CONSTITUTIONAL_LAW-RELIGIOUS-PUBLICATION-TAX-01**
+
+A tax exemption confined to publications of recognized religious faiths that consist wholly of sacred writings is a religion-specific state benefit; the bar answer treats it as an Establishment Clause violation.
+
+### 14. Silver Key(s)
+
+**SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01**
+
+In a Con Law doctrine-home array, name the subject the facts keep repeating; then prefer the answer whose doctrine home names that subject.
+
+### 15. qa_checklist
+
+| Check                                                      | Result |
+| ---------------------------------------------------------- | ------ |
+| Rule unchanged                                             | Pass   |
+| Correct answer unchanged                                   | Pass   |
+| Christian/law-school transform without clutter             | Pass   |
+| Three distractors each break one filter                    | Pass   |
+| C3 residual equals official key                            | Pass   |
+| Gold Key included because item is anchor-dependent         | Pass   |
+| Silver Key included because navigation move is non-obvious | Pass   |
+| Pick-rate provenance honest                                | Pass   |
+
+### 16. wrong_answer_recovery_paths
+
+| Choice | Why a student picks it              | Missed move                                | Recovery                                                           |
+| ------ | ----------------------------------- | ------------------------------------------ | ------------------------------------------------------------------ |
+| A      | Tax paid = property loss            | Did not name claim home                    | Ask what subject the statute favors                                |
+| B      | “Same rights” sounds equality-based | Grabbed generic constitutional clause      | Match doctrine to repeated trigger                                 |
+| D      | Publication = press                 | Jumped to neighboring First Amendment home | Check whether the reason is prior restraint or religion preference |
+
+### 17. outline_mastery_map
+
+**Placement:** Constitutional Law → Individual Rights → Establishment / religious preference.
+
+**This item teaches:** claim-home categorization, not a full Establishment Clause lecture.
+
+**Fills:**
+
+* religion preference vs press framing;
+* tax benefit vs taking framing;
+* doctrine-home array recognition.
+
+**Adjacent to master:**
+
+* topic-naming alignment;
+* doctrine-home array;
+* wrong-frame bait;
+* Establishment Clause tiny anchor.
+
+### 18. crossover_intersection_map
+
+| Crossover                                | Why it matters                                              |
+| ---------------------------------------- | ----------------------------------------------------------- |
+| Con Law + Evidence-style purpose reading | Identify what the statute is doing before choosing doctrine |
+| Con Law + tax                            | Tax does not automatically mean taking                      |
+| Con Law + speech/press                   | Publication facts do not automatically mean prior restraint |
+| C3 + KFP                                 | Layer/home matching beats outline recall                    |
+
+### 19. review_truth
+
+Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.
+
+---
+
+## B3) `c3_annotation`
+
+```json
+{
+  "question_id": "14238_lydias_barnabas_brief",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?",
+  "review_truth": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "doctrine-home array: property/P&I/religion/press",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "topic_naming_alignment_plus_gold_key",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "CONLAW-CLASH-02",
+        "explanation": "A answers a property/taking question; the stem is a religious-publication tax-preference question."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "CONLAW-CLASH-02",
+        "explanation": "B invokes Privileges or Immunities rather than the religion-preference home."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "CONLAW-CLASH-02",
+        "explanation": "D invokes a neighboring press/prior-restraint frame; the repeated trigger is religious preference."
+      }
+    ],
+    "analyzer_notes": "drift_audit: student path uses doctrine-home array, topic-naming alignment, and a Gold Key; Texas Monthly and detailed doctrine are quarantined to lawyer_confirmation. transformed_from: 14238",
+    "gold_keys": [
+      {
+        "id": "GK-CONSTITUTIONAL_LAW-RELIGIOUS-PUBLICATION-TAX-01",
+        "statement": "A tax exemption confined to publications of recognized religious faiths that consist wholly of sacred writings is a religion-specific state benefit; the bar answer treats it as an Establishment Clause violation.",
+        "type": "constitutional_principle",
+        "unlocks": "Defeats the press/prior-restraint and generic constitutional-clause traps.",
+        "trigger": "Tax exemption limited to recognized religious faiths and sacred writings.",
+        "tested_choice": "C",
+        "authority": "Texas Monthly, Inc. v. Bullock, 489 U.S. 1 (1989).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01",
+        "statement": "In a Con Law doctrine-home array, first name the subject the facts keep repeating; then prefer the answer whose doctrine home names that subject.",
+        "type": "answer_array",
+        "navigates": "property/P&I/religion/press answer-array split",
+        "trigger": "Four answers each name a different constitutional clause or doctrine.",
+        "tested_choice": "C",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B4) `program_elements`
+
+```json
+{
+  "question_id": "14238_lydias_barnabas_brief",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "00000000",
+  "distilled_core_question": "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?",
+  "review_truth": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+  "tension": {
+    "type": "doctrine_home_array",
+    "axis": "property/P&I/religion/press",
+    "resolver": "religious faith and sacred writings trigger Establishment home"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "The magazine paid money under protest, so a student may over-focus on property loss.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "B",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "It sounds like equal treatment language and uses a constitutional clause.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The item concerns publications, so press/prior-restraint vocabulary feels close.",
+      "focus_group_pct": null
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CONLAW-DOCTRINE-HOME-RELIGION-01",
+    "title": "Religion-favoring tax benefit: do not drift to press or property",
+    "signal": "State tax exemption turns on recognized religious faith and sacred writings.",
+    "student_move": "Pick the doctrine home that names the repeated subject: Establishment.",
+    "tiny_rule": "Religion-specific subsidy → Establishment Clause.",
+    "trap": "Publication facts lure students into Press Clause/prior restraint.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "religion_vs_press",
+    "publication_tax_prior_restraint_trap",
+    "generic_clause_selection",
+    "property_loss_overread",
+    "doctrine_home_array"
+  ]
+}
+```
+
+---
+
+## B5) `program_intelligence`
+
+```json
+{
+  "question_id": "14238_lydias_barnabas_brief",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "00000000",
+  "distilled_core_question": "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?",
+  "review_truth": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student sees taxes paid and turns the case into property deprivation.",
+      "skipped_move": "claim-home naming",
+      "recovery_step": "Ask what the statute favors: recognized religious faiths and sacred writings."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student sees unequal treatment and grabs a broad constitutional clause.",
+      "skipped_move": "doctrine-home array scan",
+      "recovery_step": "Separate generic equality language from the doctrine that owns religion preference."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees publication and First Amendment and stops at press/prior restraint.",
+      "skipped_move": "reason check after topic match",
+      "recovery_step": "A tax after sales is not prior restraint; the repeated trigger is religious preference."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array_classification",
+      "target_skill": "doctrine-home array recognition",
+      "prompt": "Four answers name Takings, Privileges or Immunities, Establishment, and Press. The stem repeats recognized religious faith and sacred writings. Which home owns the claim?",
+      "answer": "Establishment Clause."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "publication facts vs prior restraint",
+      "prompt": "A publication pays a sales tax after sale. Is 'prior restraint' the natural home?",
+      "answer": "No. Prior restraint is the wrong frame; check whether the tax targets religion or content."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "religious publication tax exemption",
+      "prompt": "State exempts only sacred writings of recognized religious faiths from sales tax. What tiny anchor fires?",
+      "answer": "Religion-specific subsidy → Establishment Clause."
+    },
+    {
+      "drill_type": "wrong_frame_cut",
+      "target_skill": "Privileges or Immunities misfit",
+      "prompt": "A state benefit favors religious publications. An answer invokes Privileges or Immunities because others get the same right. Label the failure.",
+      "answer": "Misfit / wrong_frame."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "doctrine_home_array",
+      "topic_naming_alignment",
+      "wrong_frame",
+      "religion_preference",
+      "publication_tax"
+    ],
+    "misconception_tags": [
+      "tax_paid_equals_taking",
+      "unequal_benefit_equals_privileges_or_immunities",
+      "publication_equals_prior_restraint",
+      "generic_first_amendment_over_specific_establishment"
+    ]
+  },
+  "component_routing": [
+    "CONLAW-CLASH-02",
+    "CONLAW-CALL-TOPIC-NAMING",
+    "GK-CONSTITUTIONAL_LAW-RELIGIOUS-PUBLICATION-TAX-01",
+    "SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01",
+    "REM-CONLAW-DOCTRINE-HOME-RELIGION-01"
+  ],
+  "crossovers": [
+    {
+      "name": "Con Law + KFP layer matching",
+      "use": "Four doctrine homes appear; match repeated stem triggers to the correct home."
+    },
+    {
+      "name": "Con Law + tax",
+      "use": "Tax language can be a lure into taking/substantive due process."
+    },
+    {
+      "name": "Con Law + press",
+      "use": "Publication language can be a lure into prior restraint."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONSTITUTIONAL_LAW-RELIGIOUS-PUBLICATION-TAX-01",
+      "statement": "A tax exemption confined to publications of recognized religious faiths that consist wholly of sacred writings is a religion-specific state benefit; the bar answer treats it as an Establishment Clause violation.",
+      "type": "constitutional_principle",
+      "unlocks": "Defeats the press/prior-restraint and generic constitutional-clause traps.",
+      "trigger": "Tax exemption limited to recognized religious faiths and sacred writings.",
+      "tested_choice": "C",
+      "authority": "Texas Monthly, Inc. v. Bullock, 489 U.S. 1 (1989).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01",
+      "statement": "In a Con Law doctrine-home array, first name the subject the facts keep repeating; then prefer the answer whose doctrine home names that subject.",
+      "type": "answer_array",
+      "navigates": "property/P&I/religion/press answer-array split",
+      "trigger": "Four answers each name a different constitutional clause or doctrine.",
+      "tested_choice": "C",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Constitutional Law > Individual Rights > Establishment / religious preference",
+    "this_item_teaches": "Religious-publication tax exemptions are Establishment Clause doctrine-home items.",
+    "fills": [
+      "doctrine-home array recognition",
+      "religion preference vs press prior restraint",
+      "topic-naming alignment",
+      "Gold Key use without full outline drift"
+    ],
+    "adjacent_to_master": [
+      "Texas Monthly religious publication tax exemption",
+      "content-based publication tax traps",
+      "First Amendment clause selection",
+      "constitutional wrong-frame distractors"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/489/1/?utm_source=chatgpt.com "Texas Monthly, Inc. v. Bullock | 489 U.S. 1 (1989) | Justia U.S. Supreme Court Center"
+[2]: https://supreme.justia.com/cases/federal/us/481/221/?utm_source=chatgpt.com "Ark. Writers' Project v. Ragland | 481 U.S. 221 (1987) | Justia U.S. Supreme Court Center"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14238_lydias_barnabas_brief"
+  question_id: "14238_lydias_barnabas_brief"
+  subject: "CONSTITUTIONAL_LAW"
+  topic: "Constitutional Law"
+  subtopic: "Individual Rights"
+  outline_code: "00000000"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "14238"
+  variant_slug: "lydias_barnabas_brief"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "C"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?"
+review_truth: "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14238_lydias_barnabas_brief; source 14238.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CONSTITUTIONAL_LAW; topic Constitutional Law; subtopic Individual Rights.
+4. **distilled_core_question:** A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 00000000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 00000000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14238_lydias_barnabas_brief",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?",
+  "review_truth": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14238; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14238_lydias_barnabas_brief",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "00000000",
+  "distilled_core_question": "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?",
+  "review_truth": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14238",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14238_lydias_barnabas_brief",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "00000000",
+  "distilled_core_question": "A state taxes publications but exempts only publications by recognized religious faiths consisting wholly of sacred writings. A secular legal-history magazine challenges. Which constitutional theory wins?",
+  "review_truth": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "Religion-specific publication tax exemptions are Establishment Clause traps; do not answer with taking, Privileges or Immunities, or prior restraint.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

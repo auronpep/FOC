@@ -1,0 +1,1412 @@
+[
+  {
+    "fileName": "CQ14587.md",
+    "originalQid": "14587",
+    "question_id": "31b2259d-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14587_massiah-pretender",
+    "fact_pattern_sha256": "265b2ff2dc5abd34af52d80ada4d5da2dcba094d7414ba40016d231f56cbf6fc",
+    "question_stem_sha256": "e3757bc56b3059e94dd182d6a07bfbe3e9f4fbf4403f3814f0fcdfdb24401fcd",
+    "call_sha256": "c5bec38d31cb5b310ed44a556f320cdbde81b998f88dba75bfd6797c1de68de0",
+    "choice_hashes": "A:988743319f8380fb9bd1efdb82a10493a82f31176c4154646848f786abed430c:0|B:073fdb670109d005f7ae41fad6a7fdd5b6c097db7c2be6e8b23ef3cd05c74b73:0|C:e28dd45e6af3e881da9729c427d49007505bb3f2f99d503e957939ad57606cab:0|D:05cfa096b7985dc70daf3425ef3f508c8b6f610515dd74549fadc3745249ffdd:1"
+  },
+  {
+    "fileName": "CQ14610.md",
+    "originalQid": "14610",
+    "question_id": "31b6c37b-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14610_timothy_grand_jury",
+    "fact_pattern_sha256": "5a948712b78ed6f36b496c67fb97906b943fd7c306c41b48c5ea1b4bc4d8585b",
+    "question_stem_sha256": "970a4008fa116ef2773ffb9f2c0a968c39c0f821eb7fadf8e18aa519937a5012",
+    "call_sha256": "194ce2a327aa0f454b5566a641046ac2dbe56a065fd61a5cb166914c289d7dbf",
+    "choice_hashes": "A:15d4165c925f3cc8ec84a591c821128bec4be784b8c3a154856f762ca3f444d2:0|B:1f57a9d780b24af1748718adff38d4b94b445c222211666ad01fe23f9ff84744:0|C:5bb052784b79a27ee4a248aabc26c2b980e0b32971b03cf093ca5440b255d1eb:0|D:b13c49bdd67c8ad12213f23b035abdae7f8ab7ed48f41eb8c1402a84201fa159:1"
+  },
+  {
+    "fileName": "CQ14616.md",
+    "originalQid": "14616",
+    "question_id": "31b7525b-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14616_good_shepherd_cyber_watch",
+    "fact_pattern_sha256": "de9625f1faf253250e5dde17009b760c77d7fb2d1db8d9f8cb19dd386436bf9b",
+    "question_stem_sha256": "3fdadb6110d9f8140f410778ef6daeba89116d67f109fedd59e5b82da8ec9f2e",
+    "call_sha256": "33c00ca1122d1ceb77082c28a8b5836e4c9e8ce39ae6a1c806978a8c4caf6c21",
+    "choice_hashes": "A:15fe04f08bc77192e56f6a4d76e72873e31a98c0951b5a2ad313f092f0848a22:0|B:9d0ee62ee2bebf04031c67f399f452e553bca66f50278565e317133115a3d782:0|C:92d4cb11312e797d565d8904afce667662e0d4b43c334d886d2584dc8b81e269:0|D:d1e4f08cdc3fb15d83bcd70d34b951e31041a7d488d0abbdd7b602b411868a72:1"
+  },
+  {
+    "fileName": "CQ14619.md",
+    "originalQid": "14619",
+    "question_id": "31b794bd-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14619_peters_two_burden_instruction",
+    "fact_pattern_sha256": "524109d39b8891b9bf4ca7a397f19cf31338e6b6b98a74086a4dc739e83fd114",
+    "question_stem_sha256": "347fe04fc902f404cc46e87519d4a51eba7a43a15e7966a5ab9aaab46d220f60",
+    "call_sha256": "925dda5ba43ba21542ce086da607597c84578499a358626a6b854c685da9fdbc",
+    "choice_hashes": "A:49e12a857b7d6fa427dae2e8b1cc9e293854615649077a4cf864346b23907169:0|B:6390cd30a913032eb982a5f6691926feaf8e81140922b30884b4d8c1bc7b9ab8:1|C:abd07d0797707cd4244020c68a201790e4c668becb7de4b7ebf7e40a3aad3894:0|D:4208499279c0377a8ef6e77e9087d89a69e1d63fdbc21e507cc36548416d0dbc:0"
+  },
+  {
+    "fileName": "CQ14620.md",
+    "originalQid": "14620",
+    "question_id": "31b7d648-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14620_paul_grand_jury",
+    "fact_pattern_sha256": "6bc17d89d23a5dd50f980d282a06099c8305c99986d31305937fe263601183b5",
+    "question_stem_sha256": "9c155b0b6e88b5a4dc3c0aac9ad67d50ac7f17a91196b7812bc381b15e246492",
+    "call_sha256": "d439a8201ea246a36ef1de70a8b26e0be43f883b3110bb16dcfb5f1b500cbaa4",
+    "choice_hashes": "A:16b3ba6c3710bf260d8f93715a46752ba210f9c1dde8722d1567dfe113bdd976:0|B:cb00550d91291d7674e993e294413df3db6b7b90e14953c84984504f60dc677d:0|C:a1a869b5275332e272d179a4ec2776cc00cd10d98cb9190340f2a5ff50d337de:1|D:a2a5b2a58347af983125df8a37e9eac6bd3ebdf7c540f8cd0c4ef80fae80807c:0"
+  },
+  {
+    "fileName": "CQ14625.md",
+    "originalQid": "14625",
+    "question_id": "31b81726-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14625_private_retreat_felony_murder",
+    "fact_pattern_sha256": "5789d1d77959884197af253c100ccc57f9b93f485b725cb8ba4258d38029476d",
+    "question_stem_sha256": "2f946ee2bcc2e56bdb05a753f8338298892c92baedcc3914ef14efa004434aee",
+    "call_sha256": "cc140cec9a80942715be74734f174913c091a161471f9291e10841638aa86fd7",
+    "choice_hashes": "A:cf258b7d01b8e157f68e13d33bcb9a5b184bdfa0a2d77b2722f5f1491bd1d371:1|B:0fc6281e9537b66de16650914422471db41b8e01a625a5a24e7e4619c9ac2ed2:0|C:cf37b5bb64c4866f7efd4c3eada5a36975db70600382b0c2d83dfa72c8b4b484:0|D:cfa1776c2ca7450c34f2af261e7a3070987bdcb49ddf061a6386b64b24e4acf1:0"
+  },
+  {
+    "fileName": "CQ14630.md",
+    "originalQid": "14630",
+    "question_id": "31b85c52-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14630_fellowship_hall_white_powder",
+    "fact_pattern_sha256": "a9cfdb4c1c9ad64951f0a04828f5fadce211ce3957b9259146ce5ceb4630aba3",
+    "question_stem_sha256": "f187b58db43eae77165c15d998d1a549537b621258c303c48de9686998da5e00",
+    "call_sha256": "44c9893c29d13925cf45b39473ce92665581b2c55d24078c1ecf629c087ebcb6",
+    "choice_hashes": "A:3b8c69cae2911c9d4dc2b7ab0c663b1cdac41de4905c93528bde316c0649416b:0|B:3f00392df64eb95d9bd60a7a402317d0956390af87788489bce7102b69726665:0|C:ec25449562946f46138a843c8bb7bc26d8ce0afd9dc42da78f78ddf8f63b6c6c:0|D:66db3304588413d29ef08a4bc4c4c96e4a2a934db67a9a63a4188e553f82e2a5:1"
+  },
+  {
+    "fileName": "CQ14631.md",
+    "originalQid": "14631",
+    "question_id": "31b8a1d7-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14631_manna_mart",
+    "fact_pattern_sha256": "6f42370f976aa75e488deb7791b4d77889f3a8659b44a5fd7469ed1809aed109",
+    "question_stem_sha256": "f5089689ddb964faed014adfb89b748094d015baeba30f9b50756a2e5f56ea04",
+    "call_sha256": "28f860a35232fdbf355188d84c1abcb9a369e0190bb47517634074b2c5b00afe",
+    "choice_hashes": "A:88779a71fd6eca086e174767bca09f7bdd252e2ef8d92ff8bcd6ca1e05923a30:0|B:a1dd95b87a54db8d2c81f78609c3b09caf9b1dbbe3577be71061750d5d87269d:0|C:377a54e3d2cafa70a035ca2dcf593288e9942921a96c39bcdc6c28b0eb782f34:1|D:224a51629ad0659d286856eef7bb8148cb3dcd2e0e33676b90d74a54e7f38f07:0"
+  },
+  {
+    "fileName": "CQ14633.md",
+    "originalQid": "14633",
+    "question_id": "31b8db06-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14633_galilee_cafe",
+    "fact_pattern_sha256": "7da58794a305a00c37432f9d84e67750974d375e3b9cb0b34f45da4edab996b8",
+    "question_stem_sha256": "3c904b464011b9834b79f2c86b1c936de2d71869ba19395c524b1408f89b38a5",
+    "call_sha256": "23c9e2e4f467676fe540b008c0b0825d4ccbbbcf0e93375555b57c88cccfe740",
+    "choice_hashes": "A:53d9e99c8a17fc1e4db2f60bfeff13f34d8f426102bebd759df228d9f6c2b16d:1|B:f662c5aac2dd2f7c885a7e84997a7f1dde0856e1d173623230a846a08f966ef1:0|C:7d5134c08bc3babc4f00953f4a39727dd78ac4562ff868eca485d1a8d76122cd:0|D:772d6d54a0346fb9e54a57d83ac3be01c3ec957101b40d03faf80dea5fc7a00e:0"
+  },
+  {
+    "fileName": "CQ14635.md",
+    "originalQid": "14635",
+    "question_id": "31b9130c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14635_barnabas_aspirin_capsule",
+    "fact_pattern_sha256": "68b51b2e99bfa7f7b0aba772cf3d373f8481344fca1bca710ab8bd6727755d89",
+    "question_stem_sha256": "20ddf1e827021471862a328153dcc0cea2408a3019dd4428b64b1103f7e320c4",
+    "call_sha256": "182a77d6714b17dbca02f196a9dabc0d4bf6b4fe1d9fd5992f643a7e825d6867",
+    "choice_hashes": "A:497a0f183071d031a4b43665e37a0810d5948d834adeec61e7321c7053a3a825:0|B:ff3075ad5eb890d6db323c7c56929bcc662508f423aa417bd039b06754f41a46:1|C:b87606376ebf61570139fc94c7ace25fa43f53f7e8a0312fe6849987693523df:0|D:5d107a7dfa0da50200aceccb912f650ff31b48ac992b8c098d26a0c9e9c973c9:0"
+  },
+  {
+    "fileName": "CQ14636.md",
+    "originalQid": "14636",
+    "question_id": "31b95993-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14636_bible_cafe_basement",
+    "fact_pattern_sha256": "b55f172d86d53461a39109e444f9dca12434dc1b81da24ba85be8565ab76b716",
+    "question_stem_sha256": "b8997a5c7ed8dc389fc86066002a49ac3b63049b5aa6bf34f788e26adc826f98",
+    "call_sha256": "329e3987e913d169ee561c407c21b5a00ced6578917b1b45db49b188e00b54f7",
+    "choice_hashes": "A:c10c31eede0fe8a6250c58025a0379ab0b090807aee9bf516651714d511f3500:0|B:6c70a0a37da303af83bffe559e3e3482696219ba1831464634cde85eb82daf9d:0|C:d81ddd30735e06c16cd345ec4435aecf1c7650edf82c80738e80a4c982b5772f:0|D:f9e218454f9b37b84a49fc6e563fd5bd00ecdd8796238212e9dfe696603f521b:1"
+  },
+  {
+    "fileName": "CQ14637.md",
+    "originalQid": "14637",
+    "question_id": "31b9a16f-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14637_peters_hilltop_car_crash",
+    "fact_pattern_sha256": "d79d2c212c1c585fef0fe181cb7a80d8de49be2291ed27551c7eac4a846cf62e",
+    "question_stem_sha256": "3c0960bf25d46c496fb0a4105e3f06fad2690a0db60a7fa8aba9abc95103220d",
+    "call_sha256": "56a0cd49566f49683dba45fd7baab1031f114b23b0b375c1bcf4141bad8046ac",
+    "choice_hashes": "A:fc4fe012cda8cc85cd02a3ac40818287c5365a2fb5d569c51f683f853d39bb34:0|B:394994574ea3dc25c1c0eaa423207be73e849225365d3a4cd3bac82bce41ab0a:0|C:f34f9b915157a5013de86dd57cf8f1e7e13094888e0f8733e4d5d6ee24d8a5c6:1|D:341f9ab04bd575c2af392579a919c9befa22c396949621c6032e92b9b02b70ea:0"
+  },
+  {
+    "fileName": "CQ14638.md",
+    "originalQid": "14638",
+    "question_id": "31b9dd8c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14638_galilee_garments",
+    "fact_pattern_sha256": "37a1e5243f08f00afa3e19c41bac4f3048d4a58eb348b67738322e8059247394",
+    "question_stem_sha256": "cbfdedeaaf956fdaa9836902049539b65c23e825ecd4a4d44273b5a7615ea48a",
+    "call_sha256": "70b54991fbe4b5a178f7215f079d73efb9936194a8b245bfb2cff736617b4724",
+    "choice_hashes": "A:3d1f8b2d78c8a3d90dbdd26e8ac9d46f2294e4e1e4ffb1e78de49f8935c0ce6d:0|B:2cd08fce003ef622b38059f049386a67df7516ff920c6d8c057fa93b9ffcd2bf:0|C:33f8d89de016c38d4c4b9678b24f80b9bfb96ba347896ddf262d76dfb65d0988:0|D:d26e29f082d3030d822d818a7265fea9833fa79076dffdf3672da1143acd4f34:1"
+  },
+  {
+    "fileName": "CQ14639.md",
+    "originalQid": "14639",
+    "question_id": "31ba1bfc-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14639_prayer_walk_self_defense",
+    "fact_pattern_sha256": "ee1c6c38fa210ec82bb2e563ab264695b090f1453f12304e9c76a60abf891335",
+    "question_stem_sha256": "608032757b6dd5b45aebf7ced0cc5ca9f8576957f896ba9fbc807f9cecd1c31b",
+    "call_sha256": "8c0c43dea7856420380f2fff2ca17e1decb5532e2fed75be680d9b3308712490",
+    "choice_hashes": "A:6cbcaf75fa28ad5566969d29afa83bd4597ef1416f083ba4e213d1b7b8d36a57:1|B:31e6917e37b23721b2565acd3a28f9f72c3cf1f2e0f78c68adee24c3d8419175:0|C:70d4a7622ac507a42da165fe2ef395031492f8448e46454b90f5e6293995f702:0|D:ca675aee752a2eaca4fddf9612f6d328e403b39035b5cd8d84d266eacbd38910:0"
+  },
+  {
+    "fileName": "CQ14640.md",
+    "originalQid": "14640",
+    "question_id": "31ba58b9-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14640_church_preschool_custody",
+    "fact_pattern_sha256": "916b54eb182cba53cb40dda37816dd2b10ea480734b60145709dd6bb10266a8b",
+    "question_stem_sha256": "5265c9ac1c32226110912b3be9ce1a8d41ec0f877678e3d533593a0ba9a84c6e",
+    "call_sha256": "426d4e35fbf2b0b901f1047909689b33865ac02d4a0bc66ee690bd7189d5466d",
+    "choice_hashes": "A:fc4125d57e88a3fb87a11a5bf13af5a57a79c83801d953c0ad4164c94a8f6531:0|B:1e1a8f87da6ae578e9e1c44870b46e6cfe39f92cf407eef3b54ecf4c77c69e79:1|C:0db8b0a20e404b8f1b1e67d855319be94260b3577c6baac091bfed2cb051d4dd:0|D:6d6da3a8b36f5389cf614a6241d0f27f2745fed808c547c27cf6cd0802cd78cf:0"
+  },
+  {
+    "fileName": "CQ14641.md",
+    "originalQid": "14641",
+    "question_id": "31ba958a-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14641_bible_trivia_attempt",
+    "fact_pattern_sha256": "035e7c7801dfea54cb621a9e4ad104f7f1119cc03784cb9884cab97bde833b9e",
+    "question_stem_sha256": "ba6519cf8bb160b5b3b74b8f2124652c867067746fb2bf41af058538a113c061",
+    "call_sha256": "6b92c75c6e0e1a91de3d7ba00273c83e9c1e491a586f6f3e4d18467ec022425c",
+    "choice_hashes": "A:999c6a865d4a185db596325946a5d5d4377bc9f1be2d4f58f923e2d0cedcce8e:0|B:9e7c8912bfe0e60d92541114a25713ffd76639d0c9a60731befd28cb49403c6c:0|C:73041d4982e837dcc680909807c08b39ac19cb2211b4b3c024d3db5be16d1095:0|D:e68ec73fcf307df1cd84e9ccb3fc216ad6f4ca522df7c6ab4a6a7ae4e392768e:1"
+  },
+  {
+    "fileName": "CQ14643.md",
+    "originalQid": "14643",
+    "question_id": "31bad53c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14643_daniels_watch_party",
+    "fact_pattern_sha256": "11f942f0a35959073fc1ac46230d3ab1b48da7acc1dc9870d727664f49a41516",
+    "question_stem_sha256": "c3f26a8b13e458ae3cc8b5b1d71792cc10b05095b1b1298ea57eac0ce2e112e0",
+    "call_sha256": "2057da6d2e4b6f6017f5274f242cfcf0c4a0625246228f70f7fa81f221a7f17c",
+    "choice_hashes": "A:f5a21b30083f2f6d01de36f4e2e15a55b1aecccd141b0dd8a0f00fe54d9d2eba:0|B:5b94e0bf7943f2d3aba4203c0442a13c4d586c1e258d9c7651d08edae9aaa4e5:0|C:935b0716fb5ee5df60f0944ff78442938be9b2d5ed86c97f8b0e2bb2de3202d7:0|D:f759bfb10ab43ef0527505648a736ac4608c563c287742835c67ff679104f9b6:1"
+  },
+  {
+    "fileName": "CQ14644.md",
+    "originalQid": "14644",
+    "question_id": "31bb1a97-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14644_barnabas_banquet",
+    "fact_pattern_sha256": "a6613198836cc4d2978ec9d302c1f028dcc43db2e040b30effd47ff3d230ba79",
+    "question_stem_sha256": "c8d18d8684aa04cc20b48235cae6a6b45098e8807803164dfe2c94f2a966c768",
+    "call_sha256": "18ae27ca874c767f7901cad3fe8ade319e988e88506942c30010170fd993f74c",
+    "choice_hashes": "A:2fb7d1cdd94a9ddb9e5d01f2c97f180a9b56f5b021147059e7ab3ba5712bf331:0|B:e8c220f0a4a1a844ce35f3006946ec4ffad66138221f23052c4665ed62b0aa24:0|C:443cc07261c8db261d4068b66a85457cabb5e9815f27a9ce9863a5c28b168063:0|D:8f73ae2c0cbc78ad27b7c9d5e5c8625adf9214e6dae415e065f5ef268788d3fa:1"
+  },
+  {
+    "fileName": "CQ14645.md",
+    "originalQid": "14645",
+    "question_id": "31bb5d90-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14645_advent_sidewalk",
+    "fact_pattern_sha256": "dbd129b17ee3dd60727b481b9542c27034c1d2c352da3f1894501cb8ad8d02a1",
+    "question_stem_sha256": "e475801d4d70d1f746a5380b8ab5f1acdc8a600b7f62dc9438e14a5939d9bbed",
+    "call_sha256": "7dafdbe1bedd5241c3ac779a268b7075a844797590ed7139fb02ca8f2fd21417",
+    "choice_hashes": "A:215578fef7e4fc6c86b8949690c3d9a7d4389dde5608ea5a5ea98014e062c752:0|B:3dd75f88b577cb1c772b1382111ee5b5202d4c9a75131c2ba7f76b2999151112:1|C:95595021209d4d086ed4fd0bbd172a85c9e81dddcd03d8e602e52a2af36e987e:0|D:ddcdb65120210eb28ea3bc07c55273aad3ce210ac97a6793bf91278a8bf44dfc:0"
+  },
+  {
+    "fileName": "CQ14649.md",
+    "originalQid": "14649",
+    "question_id": "31bb9f7c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14649_pageant_warehouse",
+    "fact_pattern_sha256": "bffab22d693211e3b89a647dba21c6e0b6872d5cf1a6ff21aac9e492b07a162b",
+    "question_stem_sha256": "28ee708e6353d7821a813b7c6e2a1c3d84bb7c01fee3c0f0c27cd932828cecf0",
+    "call_sha256": "fda9defae921b512544f70f6093d6884f2ef84d2a81e9d8ff83e195d29dbd010",
+    "choice_hashes": "A:5dde6e049bf2b90b055da2f4e24a67145fabb772f1eec1cca6c67c603ce0fb8c:0|B:cb4ecd0977e6ab4593c3b5b3be75ab46aae655d266d05262dd036cb1946a6a93:0|C:6999dd2dabfddcb1f802523d3b50598621964a750b9202b4fabf8ed237d71134:0|D:937d8583323f5eabdb08ad9f63554451604bd9a5ff47853507b0f8442001c5fb:1"
+  },
+  {
+    "fileName": "CQ14650.md",
+    "originalQid": "14650",
+    "question_id": "31bbe7de-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14650_fellowship_picnic",
+    "fact_pattern_sha256": "2aba6ec4c1c9cab70b5885dfa1de98aae2f369a949a28fcc85f0f06391cbeaf6",
+    "question_stem_sha256": "500dcb162e9a08696fe558a6b471b048cd0f6f84ebc982f5a989bb26e18684f7",
+    "call_sha256": "bcec3544bfd21f9e8091a207a657b9ed4cafdc39d510a32f5a8adcf724475fb7",
+    "choice_hashes": "A:b5aadbc3f087ed48cc650da64d1ff472c21f3f7efc0ad182b3aafb9a0d80a510:0|B:d96aaab8a3c4c6b62840341f9a8bd54a1aef9a589cde188ed8b5d40da2d9c3a8:1|C:5bdc6f020dbfbe447437c397c4345c2ca20b99a016d8cffa27fbcd1a2045416b:0|D:a27d6eb1c35ba5412ba4eea895dd038fe1c96e2ba5292512d01f4a278cfcc66a:0"
+  },
+  {
+    "fileName": "CQ14654.md",
+    "originalQid": "14654",
+    "question_id": "31bc3260-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14654_fellowship_trail",
+    "fact_pattern_sha256": "ce516d5af7a945f5ed67d8c26ed74fbca5cc69b4a50fea9efce8d8c6355fb874",
+    "question_stem_sha256": "1dd2b2bc0b7388314fc16dd4dbc21cbfd6584531d2bdb15d9636c5ded1bd3d39",
+    "call_sha256": "72928307a7e8334051267a8e4e7dc59b76673b4a6b6f5d1faf6b6014a4168354",
+    "choice_hashes": "A:fdcc056307ce4c3dafede81d00dfe16bf9120330f65bdcd1d9c4ec47f078d2e0:0|B:787d26a2b49bb428e81f2c659427e6c79c275a4a8149735aac7b331c80f7f586:1|C:2afe504172d549492ef28c9121ab4f388e17f48c8bfc379bdf6016e4eee93f5d:0|D:255291ac51fffd57f9841722572d92d72ac0826c29604e9f306e3b79d1577ac5:0"
+  },
+  {
+    "fileName": "CQ14655.md",
+    "originalQid": "14655",
+    "question_id": "31bc7468-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14655_study_bible_case",
+    "fact_pattern_sha256": "b88cc94020a3547528a2e9e257508e97b8c8d113fabb9535973fab660787dd04",
+    "question_stem_sha256": "93b9c813ff6234833b3bec800fe46540cdaeb66cc6eae932d529fa8264d4605e",
+    "call_sha256": "1586b1b4b6d343fdb0775a85e17111fab0c0577a21a7c45f07cdafb63feadf6c",
+    "choice_hashes": "A:e171d4d371383fe31a8bf9bd7e169ae64a51dfd1ad546f49babeede1b9db3e0d:0|B:7cf48497cf459c032face521fd5914e221c4d8ea8f357c50c74c97bad3c95fb9:1|C:90b4afa9f0c55c17daf58f966e8c166c355a3ef35c0151cbbd5da2a1b2c9bd90:0|D:e96aa0058874ec5429b07facedc958570b18470459d5c97932add0686ca9b354:0"
+  },
+  {
+    "fileName": "CQ14656.md",
+    "originalQid": "14656",
+    "question_id": "31bcc351-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14656_fellowship_flag_football",
+    "fact_pattern_sha256": "d564c509e5a65a7a67908dd4cabac0fed7e9613f5ba35400e2b1a3661e8fc177",
+    "question_stem_sha256": "9e68bc716e8c33140293a609827ab377ce110e60330077e70d4ab467cf847149",
+    "call_sha256": "481b0595f844dc0e04ae45bebb74cb8c75eaf207911fba1ad8c5c3cbbdfdafef",
+    "choice_hashes": "A:5886b1ffd46e58235a8bf24f10d858f05e02cd1cada36886a6a9a84bb7913757:0|B:36abae0baab7e046286ed1ed8ce0abe9b48906defb6c2daf7124d40441458af9:1|C:fa42dd89d6298d5fab702c12a35b3869e60903ac309864c40dac3dcbb015e216:0|D:bf85c518ce314ea0bfea4eacd8e114c63edeec29420972498bc8d1b4d56a35d1:0"
+  },
+  {
+    "fileName": "CQ14657.md",
+    "originalQid": "14657",
+    "question_id": "31bd0e32-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14657_lampstand_window_volley",
+    "fact_pattern_sha256": "bb088563163dbe71fce85101c45c26810154237128d5b0688e1f11f89efd30f4",
+    "question_stem_sha256": "a35fe0905744660dc6cfc48b2ec68651267d6e082832116c54bf31a5b6bf2774",
+    "call_sha256": "bac922d2b969c262470a5a936bd131812d69c5b9d4ff18f054743d29731d3296",
+    "choice_hashes": "A:a4b5ce32d75575589e59a4a6da60a23ff74ddf89eda0fc64bacfd23b078d06d0:0|B:fb0b687a64d583bc0cb0f3bbf6c6cf2811b0e7c304dcb7067066e2c1093ea242:1|C:7102b633bfea9558d71acb9f687b63366a7c3dfd67f92458c759aae8ee6f4005:0|D:9503c543322442f451b40215ef94c4ae4df3997135146437c906c39694781a62:0"
+  },
+  {
+    "fileName": "CQ14658.md",
+    "originalQid": "14658",
+    "question_id": "31bd57f1-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14658_christian_publishing",
+    "fact_pattern_sha256": "17f4782b730580c7421cd8a6aef647e4039b1cd994f512a065ce74ff67119ca1",
+    "question_stem_sha256": "6964d2f9eab21a2c8d97b68cdab7e917c77905be375bdd2aa5f579d6f20f7dd9",
+    "call_sha256": "be62aea5b825cb75569cb51e6bc53e7629c39d7e720874babb25170eeb0a7a66",
+    "choice_hashes": "A:ddc505f2759789c8d2a1ba776fea24df5ca8945225f2cbb224bc67c292286f97:1|B:5799f0c410f0c1d5db5508e5ef0c8770eda886b5d887da0c091e97db19a07622:0|C:f7f959bb6040bcea3a35fc46806e33918341b83b53138e37777201f73fd4cf5c:0|D:41317eafbf28b2ed977763c2962d2e7f7798ae454e5b1625c1e94a88e676aafb:0"
+  },
+  {
+    "fileName": "CQ14663.md",
+    "originalQid": "14663",
+    "question_id": "31be0616-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14663_lydias_bookstore_warehouse",
+    "fact_pattern_sha256": "94edc5fe3826f1e3a5ae0fcb72ecd70f50accfdba597457c3d4476d4cab3acb7",
+    "question_stem_sha256": "7d18184bde14061aef39416fe122c03f293bf693993a84fbfa733ae7fdf91c3c",
+    "call_sha256": "c770fa1acb27509425f12f768fdc51a1a1844d39675ca138e6fbbd2268d432e4",
+    "choice_hashes": "A:d56cf30345eb9b71cd50ad376f88f1ed26d4d9bc57aad0be70b292ae7f2f36d5:1|B:b0964b881fb059319e0ac7f0c1bc7096eec9faddbe0191bd7ea3caf6e9641f6a:0|C:fe03dc42f3518d29bc013ba6c0085b7260514f6cfdc8a536f806e3929a0e8493:0|D:d81ddd30735e06c16cd345ec4435aecf1c7650edf82c80738e80a4c982b5772f:0"
+  },
+  {
+    "fileName": "CQ14664.md",
+    "originalQid": "14664",
+    "question_id": "31be575d-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14664_bible_study_gas_station",
+    "fact_pattern_sha256": "ae30c88432161bafe4a4c772c852879860687f851bf3b13808ddd6fbf2910f7e",
+    "question_stem_sha256": "9772176b8288479aba950c40dc64c1bc40d6f32780334e1e65eb23b8433f7258",
+    "call_sha256": "8189308b1a62a1e6189bf4eab9b3949423df01bf32e29e2eb8f911dfe22d5934",
+    "choice_hashes": "A:6186638aa3c006bee9f49186c454b7d7e3b0f34fca0d6adac69536abaa07a2a4:1|B:7635468db882542d3203bef50974f682d0a072b0c1053dea4b33d2960f303552:0|C:4f0e1da7ebd1cda928029e8c230a09fdc8d2bcbf8aba717106ac701960d731a2:0|D:1026cf487f429fccce4cd07b4de227556af59af4f2ab89b286242e3864846202:0"
+  },
+  {
+    "fileName": "CQ14665.md",
+    "originalQid": "14665",
+    "question_id": "31beae0f-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14665_bible_study_stop_sign",
+    "fact_pattern_sha256": "87129f5c3ef33f8477f36e1fddd9689a76a0dde4e7aba68b5903ea9626f8757a",
+    "question_stem_sha256": "386b053591bbe9a2f8a6d2f779204d2d59bf26f2c7e8cb47411824255f6280b3",
+    "call_sha256": "322833d72d517ee3ef5665f6e91a0bf002915050c9c8d84b518cc00c942f1363",
+    "choice_hashes": "A:a8622471dc5dec50faf7604a0693128d12a465fb9d1b9eb71c8bf290883939d2:0|B:ace622268e6c7cf301f4f32c80e25c22b878b4a7c931e7e005e03fc5882a9491:0|C:55d734eebd732dff70e3fd5488c60381bec747fb2f136abb5c3c76b9c76ffe4c:0|D:9e98254e48e47092393ed926912c918a452bc94bbaaae67cbb1d0c20b96f5249:1"
+  },
+  {
+    "fileName": "CQ14668.md",
+    "originalQid": "14668",
+    "question_id": "31bf60ae-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14668_laxative-lies",
+    "fact_pattern_sha256": "45f2ac8417fa1c91eaa2163d58653a55108380d239987ee401ea312e8e96ed83",
+    "question_stem_sha256": "9490870dd4dc69db97d539fe11148518df7df5517f914b945c4d4e30a396dcd5",
+    "call_sha256": "ee85ee48405617ff3cf8539b6698dc0eec82fd8db9e2d15fee9e639925e0bdff",
+    "choice_hashes": "A:c2ad3c85517e434269d8be1efca3950e94def0d1904a17e8a169da41081d5127:0|B:e496d719b2599d25f9adee56d4b5334e96d43b563d14f0d7ae4af3a6d891f8d7:0|C:38178a20b470cfd18299fb1593dd4ba706f1a83321dac051d01086efd8b7a96f:1|D:02fc5faa05ac4ce57fffdbde514e53cb6eadcaf356186de7aa99f2eaad6cf898:0"
+  },
+  {
+    "fileName": "CQ14680.md",
+    "originalQid": "14680",
+    "question_id": "31c16ff6-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14680_christian_bookstore_ricochet",
+    "fact_pattern_sha256": "d5733746ff11a3bf074bed655985d2dbf356bfad69d6c8151762513795c60236",
+    "question_stem_sha256": "177c19427c0b55ac073e920b358feca6ba9a146c726ea2448c4a441b1ce103be",
+    "call_sha256": "6401851bcb85771e60e3a7aceaa5b6289d151a5125be9817f11d2c184ed8f38c",
+    "choice_hashes": "A:a2813df557afa5288e71fd9f6723ce70957bf0f3d2435e5ae570e81afddb3c1e:1|B:5ac08f9e7460b3d2dd2a676f300b18c3b54670d4569eaa0c352764f3716814ab:0|C:21af0aea0bd3323193a2126bbff9fc16784e6a5052438e7610542e9c839980ae:0|D:416de5d1af4737297179e205edc96dc22d096f5d04c1ec2dcf780dfa8e349cad:0"
+  },
+  {
+    "fileName": "CQ14690.md",
+    "originalQid": "14690",
+    "question_id": "31c28445-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14690_bible_study_protected_victim",
+    "fact_pattern_sha256": "0cf74e5504376faee119161f5fb26744187add38309def2d48fd937ddd865ca4",
+    "question_stem_sha256": "6c1e9bc6eb2ad3994565dc39c2029204d3ff4cbc19201d028c7f962cfaae67d3",
+    "call_sha256": "af420030256c07c6b2912a0cdf85dbc1cfdb9b084918a233a9ad4c6cf2348ee3",
+    "choice_hashes": "A:dadaa4acd7f0ce625509d9587f7a27d3df6a755fbe1a6eef3f3c5b4bfabdb9c4:0|B:0ec78b40181206a36ed4bee59d1fce3366b0ff1365dd0aee4d0125acc2f19f3c:1|C:144d40e59a7e63f19f52ba60353885b005a57ed360bcb763c562f5837e70a541:0|D:882f2962da11a78ad06cc8d96ffd62e4a5ae7f2b4a77c9cc3302f5afd2e04fb4:0"
+  },
+  {
+    "fileName": "CQ14728.md",
+    "originalQid": "14728",
+    "question_id": "31c9e07c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14728_bible_quest_projector",
+    "fact_pattern_sha256": "3497554fab073edb6ea50c0e99fff04ce23c73e4cf29be1d7393f4ea270a5b79",
+    "question_stem_sha256": "7ec476b2bb6412c4b9c4a0f1cec606927794cf7b04c211830f13106be27904dc",
+    "call_sha256": "69fa1b105966a9c3dd7c61186894e64be74f5be9780c0a3f54a4a5684ebd8c8b",
+    "choice_hashes": "A:440939f6c72666599749e52abfd3167abd25729ef2149b49c51a5694247c575c:0|B:1569b1b0b8d2a8bb9f0dae56c730ac91beea317941023630c837d96ef6144eb2:0|C:6e85dceb46438f1127a2bb3f32178a270967ae4c137c72741fbc92edced19666:0|D:b7c374ee942fa305864b790f52f4e50a1b71b09228f02a0165879edfdc666ff1:1"
+  },
+  {
+    "fileName": "CQ14730.md",
+    "originalQid": "14730",
+    "question_id": "31ca29b8-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14730_potluck_flight",
+    "fact_pattern_sha256": "5cda0a512b8df9ca4523c89430c0bdffbea6e3eeac341d70b30bbe880c0646e1",
+    "question_stem_sha256": "5763dad04ef72c9aa938dbb9ab69115dfb2d37f19dbfbac1e7d0a3d3c09317b2",
+    "call_sha256": "7e874360656805624c237fee039968b457aa3efa59bcd8fec5c95651bbba1d30",
+    "choice_hashes": "A:8adf96a06de1a7fc29cc1cd2f2133b5be1d74e91742bc939b5751f14a71fd724:0|B:9a58c670eaab40cb21b5222bf5952275ffbb13301fc55ca3829e82c3a0b2ea57:0|C:b562c14c7ea01b0d2b7907e2fa932bd9b2c3aa1e3851a8e969f01aca22929f71:0|D:e77798cd8ae679222b7c5f64e7700c1a275cbdc1538589f5121ef10917076249:1"
+  },
+  {
+    "fileName": "CQ14736.md",
+    "originalQid": "14736",
+    "question_id": "31cb9147-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14736_camp_van_crossing",
+    "fact_pattern_sha256": "da186302ff1800a090674ee68a46d477bfcf1ba42a1d894494461e7d8b11e263",
+    "question_stem_sha256": "cb6941f0d4be01eef181fbcd18463d410c4aa5e9bb9a6a69881c41fdd32a22aa",
+    "call_sha256": "4a1e862db826065723b129534d9ff5c948191180f5f35756bfc5ae5460a1ed2c",
+    "choice_hashes": "A:0e576507233d2d1cf4e4c0f2b0212a796aeaaf0464e1b7154cbc52b86ecd07d4:0|B:ebf0003da411627eab2337578721681f445511c598032910c83e7f8de007bd5d:0|C:48157d21121e37c586929ff9340771869638dd761556bd50b92a9774090a363a:1|D:90849e9a059a481bab18b01a8ec768c844402d70de74c5d83a1e10d32f6f8102:0"
+  },
+  {
+    "fileName": "CQ14904.md",
+    "originalQid": "14904",
+    "question_id": "3233c6e0-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "14904_best_evidence_refresh",
+    "fact_pattern_sha256": "a2f9a15df07e6c7e733ab25443bd31d22731627de23b28b6312cc0261f9aed69",
+    "question_stem_sha256": "6fe88ac576906788d0f75ca6f158350b511f4872adb705cffedd3cbe8b110ffa",
+    "call_sha256": "ea783b74428d7b993a0f190dc077b81bd856aabfbe45aa918e347e48ee940b6a",
+    "choice_hashes": "A:8d980c9735960eb448e7d0e26aaad3c29fd3ff09a9deb0e200c6ac8e0736af12:0|B:87e68368c9c6163f5331339f520e08125f0667a198b5a68d59b8806367e5a438:0|C:c3073602e270b04446fd0a4dfa5abe5ebc3b32d1c44d5b8bbae8e05064f7ed26:1|D:9538776491392104fa1151998918982f95d836730babaf28a6e7fc0193097edb:0"
+  },
+  {
+    "fileName": "CQ16001.md",
+    "originalQid": "16001",
+    "question_id": "31ce09d9-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "16001_seminary_baggage_claim",
+    "fact_pattern_sha256": "ed2a23def99e301c85e95c507555a06b6e3d484300eae233f0844b0c27fb20dc",
+    "question_stem_sha256": "9955b6ba5635d9bfb895ec720954466c0a58d8dc6297b9d2a7cb8abc05e4267d",
+    "call_sha256": "6f3b78c1c450f60bf10a820d1d013ebf911301041de037f188ce7820b358ce28",
+    "choice_hashes": "A:a489002f3f0da774f22c36338ace7e5517f215eabd039a8a6f3589b989d3a4ba:0|B:03a76304154878409f3cbb4e1ad9ba3f70cb31b47c305a9fcedf146e276651a9:0|C:f08f15731ce49801636684aa1cec166f036ba384421d5e1afac019c8789f2a1a:0|D:2b61e711f578e0d6a2c5b1e7ef1dde1bd656cc610ee00e06fa74168758494f34:1"
+  },
+  {
+    "fileName": "CQ17026.md",
+    "originalQid": "17026",
+    "question_id": "3193863a-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17026_manger_prop_bundles",
+    "fact_pattern_sha256": "a91e929ae6f19ee27bf8e296ae0947b3fbb3f3541b25acde06b7137a2afae12b",
+    "question_stem_sha256": "f48aad4f8eee663e14150f4dfe5c0f1cfb5f3fca7217afb9da00f7974711e45c",
+    "call_sha256": "ef0c7cb359d1b9be2e0971e96990975548e3c5c5672da119e987e18d0dcddfd6",
+    "choice_hashes": "A:abda0492f24f668efcee3189b3ea94dc1a8f4aca059be4481c8318dd64e8e7bf:0|B:21c2de48755a8da013e49e4fda637527192c68b828060f157efc2556b5beeab9:0|C:1d4826c44c8c5b98c6367a814ecba8e855f0ea87b31a629691ff2d13ae23f9ae:1|D:d061b8ef06091627fbbe4a45a4b74767c3df92ee9f526db4e0a9901ec973fb52:0"
+  },
+  {
+    "fileName": "CQ17058.md",
+    "originalQid": "17058",
+    "question_id": "3267203d-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17058_advent_honey_parcel",
+    "fact_pattern_sha256": "f7aa68982ac0c92016688c34e75f17d1e55ca08b35953ff9d0c8cc2bc45dd639",
+    "question_stem_sha256": "c422da73d43174b801d7874b671e307d33ef464187e53741fae1298beee5b7c3",
+    "call_sha256": "91d73a11483e345cca280c76f6684d61fc7e39f08f63d7d81753616b55a57272",
+    "choice_hashes": "A:c09eebf8451e39fe1fa028064cac23e974faa14ed35bdbf982e78aefba593cee:0|B:280bf7e68cb358730620be0efe4e244c9062f9240de854959f6ae694a4bd2609:1|C:a858726fd6e5fa65176f87c41925ffaf1f1bb07225d77a80c16b9aa7a6046992:0|D:9c2e96c8cbd2454e732271595ccc655fd321dd1af6df2af4c9fdd58235f38f89:0"
+  },
+  {
+    "fileName": "CQ17084.md",
+    "originalQid": "17084",
+    "question_id": "31de7a57-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17084_five_loaves_bank_records",
+    "fact_pattern_sha256": "975b25a9daad7af24ddc9ef481afe4100c1c2875c267c54d71107fc164a1ef51",
+    "question_stem_sha256": "c4ebfb2051b076aa1f88a8d5fd919e3b8a526e827f1a9936b062a9487552d5ca",
+    "call_sha256": "ea1d71c3e5cf6cfd458aef3e22f542a3fff060595cfab6e1dbd4e00f4b799f2e",
+    "choice_hashes": "A:b7ef3b28985415b91bbaf6bbf132fe3d73143b22f765fc525dcce44a69e6f5ff:0|B:937148c7516368fec162d490458dc435dcd1f752f0409971f9daf4663e00646f:1|C:0d9382e719bb367a17d4e848cd55bc85953fa0a194d345e80bb326354dc13119:0|D:e45d8eee695b6b2ea4c3f9bdcf116406bdacdae6b6d8358ac58fbabbb071fd02:0"
+  },
+  {
+    "fileName": "CQ17110.md",
+    "originalQid": "17110",
+    "question_id": "31947c04-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17110_sticker_press_guaranty",
+    "fact_pattern_sha256": "c0c034be3f33d2699f213fdf2ef57b1446c2cc8aa863403ecd4cee4a8e269657",
+    "question_stem_sha256": "5efa584d130074f7847f5a099bacdcfb32711148402d14795a166aac11513814",
+    "call_sha256": "041ccf1b38ad88689d79f86515ce8f224be12781dddb7250384ef53ab4a1e02c",
+    "choice_hashes": "A:7608b144be085f11c4271a2a6a66bd585c8252e58621dfd071096f12e2027608:0|B:aac8612f8baae49207cac17a1610bffd44a84f95a29eb2f161dac29030a85cdb:0|C:a126b219e10477bddde9f67b6847271bd843442308edc2a1d875b704bbd85ad5:0|D:3b5c9c05b5b451c86c254f8800b51adc3732c6839b9614699c02b894548fff80:1"
+  },
+  {
+    "fileName": "CQ17151.md",
+    "originalQid": "17151",
+    "question_id": "31df1ed2-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17151_carol_program",
+    "fact_pattern_sha256": "7a463b8af04dd9b82b22cb4809d694b1e16a4c6ae282f56e1573fd683c5fdfc3",
+    "question_stem_sha256": "2c8e1ced98a8f2d1f76d1eedbe24572d1ff223c0fd4a0645644fe77c90cb57b8",
+    "call_sha256": "345a25f394d1b4a61b914be07d29c704de20ff614804bd5aaf34bcd78df73939",
+    "choice_hashes": "A:de5fa60dc285829be43c575913b1d81a83e3bb5f952cabc37fb0ee0ce504fa38:0|B:fa63aee19e728785a2e9937a9831657b89b6078a9fe1af1faab96ded0813248e:1|C:96dfaf090fbff43a280806e84130a34c5eeb7f983401276ea434ec1a55b12233:0|D:e16ef8d1d0a3ff1f01cd0148f4b6a6eab2874e11541faaba3cd6356192bc0836:0"
+  },
+  {
+    "fileName": "CQ17157.md",
+    "originalQid": "17157",
+    "question_id": "315e249b-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17157_vocational-rehab",
+    "fact_pattern_sha256": "234918d636fec05002de92239bc464398cbb4934e4cca84b7f5a3278eed30ada",
+    "question_stem_sha256": "47d906cd9a329e6b20d8556accfdcbbe0a6b75f927138c78bd5a2699e4a967ab",
+    "call_sha256": "5b553956b141bd90e14d87f2ce6f0b9abea2ae1c7848c9e7e57becccaf23e3c0",
+    "choice_hashes": "A:127cc0dd8e6403190f6c96d507ffed7ac4191740230992733367cc5427075e50:0|B:3ce9a8861e395143cb14c479f4697b8ec0bee3da0ea3323eeae85d12c929d222:0|C:dbc01b7724ec3852f1245b30f9c926c3e9cad4a1b6e1b7ee0a531d11778f5fcf:1|D:0b3a01aa195e7ad31937401d022b6686f49eba455222f037ac9b18a3ef36ea93:0"
+  },
+  {
+    "fileName": "CQ17167.md",
+    "originalQid": "17167",
+    "question_id": "315ea861-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17167_manger_lights_portal",
+    "fact_pattern_sha256": "052245be18b85c4e8adbd8fe845cd72b844c0cb1c25e900ff1253eb8c77ca86a",
+    "question_stem_sha256": "50280511501c86d585c6484ec9b3859cf26fcc02c56dce1477e1e01e5c71ac5f",
+    "call_sha256": "0d4c6784211eb1d7f552009a001c9a842b6b60289c3784ff6f7665673fae6213",
+    "choice_hashes": "A:59ad9336002f10d91100595f19535f54fdcbeab3bdadeac60cd3d9e1974b9ba2:1|B:23512c314ddd01c9e4b09a4e116a395d9dab778d84473535a835f5859c0a4b92:0|C:aa55824f6bc95645c50c1d5cbc198d857acb51c1307e57a51debfbb904e0596e:0|D:0fa7526a8706282c99b7cefcbcc6eb3d7eb176b01e1045c79b64c19da39ebb41:0"
+  },
+  {
+    "fileName": "CQ17173.md",
+    "originalQid": "17173",
+    "question_id": "319573fd-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17173_road_to_emmaus_puzzle_quest",
+    "fact_pattern_sha256": "98a6d94edfc64c0693bc6e2eb19071e91518a2f8e7812d38ce70554de43b069e",
+    "question_stem_sha256": "5cd8e5beefdfabcd0d239baf15f4c155fabb4d479165c16d606044e3dbcc8d03",
+    "call_sha256": "09eeb191e5d35dbfe7c851b4e61b08afe267edb15ff8a72948106a1d2de3f582",
+    "choice_hashes": "A:0973beb4facd68d5a7147b3cc959b3e5ea140442388b8d5d8ea372790dbf7afb:0|B:2408ebe5e1403679fe7b4a89e378a10bcdc06708029e28e0b82f39ca08668f47:0|C:18c69acfc58f76f36baa60ea84657148beb1a5c13d76dbc74beafef7f34e2c3d:1|D:658fb94720aa28d714134cd1f753109c0fe57d71b5354ba62d7f94b3beca9b65:0"
+  },
+  {
+    "fileName": "CQ17979.md",
+    "originalQid": "17979",
+    "question_id": "32856184-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "17979_hannahs_tractor",
+    "fact_pattern_sha256": "fb717169b15e4d2f50f004a6b3b9fa61c46b57100174399e9267e4428f025168",
+    "question_stem_sha256": "ecf1306ecc4815cdd00a233d66a0b68496e09c5143574483cbfbb60b8b5b81fd",
+    "call_sha256": "0e527f1a8d86d3d65cf5e75cae7be6e175fe39145424fd567186164bf38ac030",
+    "choice_hashes": "A:16a252ab1a55962fab18b956fb22d92de3df709228ff65c1f99c40cfb145cdd5:0|B:e10f5d9e36b57b5d148989dc97be6f8dc2d61bfef741c22bab0a60d984273db4:1|C:1d67ed0d3cb281c852d21f76e85adaa39771ab54b1e9c14dfc0b9cfae78b1f4b:0|D:effaaba6ff38bebdddc58e25dc1b2d4c490200c2aacefeac277ed697f03fc92c:0"
+  },
+  {
+    "fileName": "CQ18090.md",
+    "originalQid": "18090",
+    "question_id": "31980d30-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "18090_prayer_journals_price_line",
+    "fact_pattern_sha256": "19ec1836b9f76c8e10d0b609dd0d79d1b4abd4fcf808a69db0339aae46acc991",
+    "question_stem_sha256": "838781031b4c489e568a688b8de2cf83f1b65900a9b35911e7fe0a74723b92af",
+    "call_sha256": "53d1003438f951878e890a27b4ac06d966845f2dedfb1d3bac840484ad47098e",
+    "choice_hashes": "A:d9bf7b53c44a5f053dafe42e6b33c1f2f84fbef7f13db134698a83e5418854d6:0|B:b7946bed096d581949fe2840440d0780c2e85233df498d6df20ecb070b0c670f:0|C:462881f7709f7158426d78148e39fc6bfe73a097311466677684bf018487cb0f:1|D:fb4d325665bd0acf4bd3ab9ddf5f0cc2c5e1dd3e5599b536c10c456978ed4328:0"
+  },
+  {
+    "fileName": "CQ19177.md",
+    "originalQid": "19177",
+    "question_id": "3163fa59-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19177_manna_wagon_disposal",
+    "fact_pattern_sha256": "cfb53d49c55e67a87282f280c794a9e031ec314f3d8a13c5527caa4540d125b8",
+    "question_stem_sha256": "d1e330afa5c5fe6d7f5d564179fbaf762170cab91ab20c08b23118141b17922d",
+    "call_sha256": "f6ddce41c9ce6c163e7fbecc9fdaf7f58bbb42686bf2fb20af5688ef90dadb31",
+    "choice_hashes": "A:f9ab49317cc61a8d3a224881eb75b755579552fd4d12b956a83adffacbeb24f2:0|B:3ce81a47139ed09104153b7f15414e571b5d383cc330420e8d03be6eeb3d5afc:1|C:fc83ece2c5d1dad28453f7d43527eccfb261ae288a221fa46f6b984f5223836a:0|D:de24c26b8009adafdda210273879ff9072e378805a65963cd7e41d95481c6c70:0"
+  },
+  {
+    "fileName": "CQ19194.md",
+    "originalQid": "19194",
+    "question_id": "31644dde-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19194_loaves_pages",
+    "fact_pattern_sha256": "e8304c43d31014d58341ef2544326c939e2d5bc9983a475a7f1d26166ab7a017",
+    "question_stem_sha256": "000d4f6bbe8a6742910bdf58eb29efafface4f067b65f3fbed32fa7ad82e5c90",
+    "call_sha256": "e717fc4b862f1240a24a8ba50c02a481faf95897fac2c476cc134b16f2acae2b",
+    "choice_hashes": "A:cda7b0aa458207e33a75b380c2669c49a6ba07cee9954881d3d0e64171e8d0ce:0|B:614ed6799530cd796b9968222a30e2dec4eed9da0c6ace6a93f1cc642778ac5d:0|C:197926f38360fe0d2b0671a6fda7ffbb0df849431f676d06c74f33f1e13d3c2f:0|D:605d3db79568f9a815384f6a320eceafbb6420eff53f7d399be17d561b74c426:1"
+  },
+  {
+    "fileName": "CQ19213.md",
+    "originalQid": "19213",
+    "question_id": "3289f5cd-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19213_road_to_emmaus_breezeway",
+    "fact_pattern_sha256": "522af4f880a97966e8a99638e407693bf66e351e6ff219d7be9376cf913cdc09",
+    "question_stem_sha256": "9ac0141489ea192b68ff41ad7bc135584f706ee5b7ad1088b76e6c36c7be69ed",
+    "call_sha256": "b2e2010a662d7f15a79432d398204b7d745657ee26256aa86b477dea595a2ad2",
+    "choice_hashes": "A:5c7edcca5299fdf197c5303b0d203c15d6bef6dac3c991adebff84cd7da1bba0:0|B:6c977adb70ea744aa4b808d8959a575083be6ac30ccf02c79d2dc080a8615c73:0|C:3d3b5ebff3b39c0fc00b19f64f46d9704f59edbdd04e63539eadf58236c7d641:1|D:e894436c9d7d3507e551d8866855b9c21457570d57325b1cb2bd3b0bd37c0dc3:0"
+  },
+  {
+    "fileName": "CQ19228.md",
+    "originalQid": "19228",
+    "question_id": "323b9ac0-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19228_prayer_card_study_bible",
+    "fact_pattern_sha256": "2b07cd46346ff52381d8ce810d7e7050c8fc9fc73be26786c83be35077e5053a",
+    "question_stem_sha256": "29ebf4c757f33c30274a53b9a5bf6ae882f7427fc8670e0eb49eb8819795a56f",
+    "call_sha256": "87e6ef278784ae18313cb42c6253643cba61cec208caf6d5b4dab965232a0fb7",
+    "choice_hashes": "A:e95fd7414caec7941e2f083f18ae9931664b94ccc9142530c7ca2812e9dcad15:0|B:e05f7df55e2d06ea5978c1111af291acf39088685fe7a2b7dc3504fa46eda62f:0|C:1f676cbf25cc3c4a2941ccc22d2152838d135e9c744ba8539f80bdff6bebcc9e:1|D:b89982de6ec28bea8df09216ecd74d8da33c8613c05101e0e17c68bf15b6f1bc:0"
+  },
+  {
+    "fileName": "CQ19250.md",
+    "originalQid": "19250",
+    "question_id": "3199fa5d-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19250_scripture_card_printer",
+    "fact_pattern_sha256": "c46a3037060b9592b6ba24ae7318b0a496bda92e442e00fe03c976b74dc7c829",
+    "question_stem_sha256": "951293ff08d016b5965372184effc17f62ee3e3b148d03e5c301b41fa9778391",
+    "call_sha256": "1ce0e7b087816dfaaa8f6cc64260e79c3bafea7e3838f0f4a1e3bd4150cd4459",
+    "choice_hashes": "A:4c617865cb0c074765e023ec1b50a8e6cbc4f08603b5eee6e1dfd686f396b017:0|B:bde415095cdf395b3f5ea143b6e8d368b2ab57b625ada795b1f2b3f695ba0945:1|C:d83db6ddddb86961d0bc12639b9008ba003deb85ff060ca9ff33e48e78459b8f:0|D:c98d6d6156935aa41b4bb167a835a09ee0f822fd642a9caf6aa67b575cb80c9b:0"
+  },
+  {
+    "fileName": "CQ19263.md",
+    "originalQid": "19263",
+    "question_id": "31f9c833-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19263_chapel_handbells",
+    "fact_pattern_sha256": "241361e33278105cd16142bf66aaadab5d2e0c82b41306de387c9f9b603539d4",
+    "question_stem_sha256": "dbe564a2c6a6eb5aaf7c132a9d3bd4fac6ac9f7308a21866f5374d3a1d5b939b",
+    "call_sha256": "e9f81004b6efff3261d0f607fec44dde5ed79f096be617b47a76614e7f40f15c",
+    "choice_hashes": "A:05274c76626d949b2c54441d93430072160c3d3284c68f0cf3ba27a82de9849d:0|B:f0787e1538e0a37158dbf3ac3065ceb8c8d2947a6719f8530ca27a39a9cec049:1|C:ab87c384edf7f947785dac9ac943d80a4dcad83259ce480ae9d142ecc399d1d4:0|D:e81741eb9732eef5d6ca43b701b16d1c0884f4a3b204eab5ba413cce2c479809:0"
+  },
+  {
+    "fileName": "CQ19266.md",
+    "originalQid": "19266",
+    "question_id": "3147370c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19266_carol_banquet_jmol",
+    "fact_pattern_sha256": "096fc88d82e80fd1c8a1f5855e199800d39164ede6699d9868fc2a35e1fae2cc",
+    "question_stem_sha256": "49e9545683b6b28bf4bcc9aa277489914bd9b2f981fd20d71e35f7f57af64985",
+    "call_sha256": "cfd14ffda30f101ecd9439f2b7787cf1ae65e4c03bacbaf175fc9d94e2307d8c",
+    "choice_hashes": "A:4e50f5a29bdf9dbce3ec9fc147c136aa5cb2b9a40f5fec1cd59de6334412aec8:0|B:8779427c16f365d3eb932958816a19609029ce78ac36027e7818b905ed382bf7:0|C:529feffa6eee696b51ed5a33b9c0164e1f71da147f8ff7fd835cdfd359566152:1|D:804c4fa5e41b6949725fb4a479ec8d92dd63e94a3c40487e61cc6e0de8c449da:0"
+  },
+  {
+    "fileName": "CQ19286.md",
+    "originalQid": "19286",
+    "question_id": "31478c83-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19286_five_loaves_press",
+    "fact_pattern_sha256": "260fce46b28081232006e85b79fbf46387e4bcbd1c25bd5850b16b1f90ec6867",
+    "question_stem_sha256": "fcc29c4e77d68a1c35695d83343cab34ff7b90cc31852ca10b349459a1bf055b",
+    "call_sha256": "b2b65726d1539e187845ba0e6adb0c8ad1b95c031a5c1168b2bc39b6a9806c4b",
+    "choice_hashes": "A:f39596575fe8750eafd3a82b521e348763048cf0ae9b5107b3ed5f3f62e3f084:0|B:31975237105ffb01a988367c361b948483f2e47a266ad4c50afd73e3b8fdfb23:0|C:fc053d7c5ee39c9227f51e9ddf384fe91539d55356b9b860b5982f567bdcfb91:1|D:996ccd5602abebe846ee6178b639a1bd73cee5d267c57f3b295b669e3cbc7728:0"
+  },
+  {
+    "fileName": "CQ19336.md",
+    "originalQid": "19336",
+    "question_id": "31fa9460-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19336_nativity_warehouse_rescue",
+    "fact_pattern_sha256": "cb1e297f24d481e453267af5e2893f1154b0ffb441f24a2129eb3f1c21b6c123",
+    "question_stem_sha256": "31f5602dd314c2ca842fe683155af9587505eb19b04aad6c27d2815e72546406",
+    "call_sha256": "8019e676ffe6975db9f37ec7203fed0b971978b636e4a090f481677af99cfc18",
+    "choice_hashes": "A:290386a1e5b37d4d3dc0281a2618848efa4f063421bc2c62b6cd852ad8bb7ccb:0|B:31edfacadbef545c199a27b2ad52e8b7f90c982ccbafcc853bc0eb9568a4388b:1|C:c371938ce62554e443b06f475eb5d5c2a45a6382c6732beb6036e1fb4fb5a7c8:0|D:d4de025bfbc1180799a677bb45e9e678ec54014d2f29719302108c1c0e663b79:0"
+  },
+  {
+    "fileName": "CQ19379.md",
+    "originalQid": "19379",
+    "question_id": "323c02f3-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19379_hymn_candle_invoice_van",
+    "fact_pattern_sha256": "ab865bedb439dd4eaf22ca20c1207a30dab157ba2d3260a243bc53a1b0159833",
+    "question_stem_sha256": "32e9f7c716271c38cc545c3c679379f7540a9bc92137882e0df266cd55855201",
+    "call_sha256": "8210c47533e896ca9682c208a3895685335b3a4a21e48728da4674f2018810c2",
+    "choice_hashes": "A:b977005fe2157f996b439d05c8401dfec30ac6e61b91e5fcf8c659f5e400870a:0|B:ffa6664a8a24b2ab74ca9e2997d3811d0f99a02afca74ef41ce9b3711087d548:1|C:da366a2664125e0e8a24bb50cae4d3672178462d9f28bb164fd1acb7a67e5ba1:0|D:dfb1265dca6b180940ce02a769928c0ae859a0db1c937657833cc33516254827:0"
+  },
+  {
+    "fileName": "CQ19381.md",
+    "originalQid": "19381",
+    "question_id": "326c91b5-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19381_shepherd_olive_press_deed",
+    "fact_pattern_sha256": "069af00a474c6eda52909c748180a6c5e78bdda2c8bba51da5d5ea9d88ba4082",
+    "question_stem_sha256": "5a3e0f9b6e4bf04569586b279c67b5861430b827996e8f717702c04c91b5bce2",
+    "call_sha256": "648466531f0094cced4d681ac8d530edcf77b5dc6180c44774f3a93e10475e7f",
+    "choice_hashes": "A:c895c735a6678ef430d6537c2e2e6351e58260fe63c96024f992d646d889b675:0|B:2457aa9ca287ab66e7c4cdf83bb4062e1388123584bab042cabb954ee108ad4d:0|C:64d8e255b32c25f8f25fae7b7f1e271e2c1055342e00641366ea32acb75b9d89:1|D:9741f77de0b9f5c91b6a24c9dec9372429dfefe9be789f35fec3376fa5934233:0"
+  },
+  {
+    "fileName": "CQ19386.md",
+    "originalQid": "19386",
+    "question_id": "319a48f8-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19386_scripture_audio_cap",
+    "fact_pattern_sha256": "9731bdaa2100c170764844ff94dd88886d010061c0cf6a23b12ff83a4f55e6c1",
+    "question_stem_sha256": "df96742d6495b5f33acdb504e76f5efdec7b42ed5edfad30db114b65115f263a",
+    "call_sha256": "d70a2ac3417a8626d2b249a27516943512e7e5ad3c67c16d6532cb0526ec0ba5",
+    "choice_hashes": "A:5d25d9deb052c9a1818469026960e1434a7ca6a9d2c0e86fd9a337e4058434a5:1|B:33e4cccc921bab4e82be044e879df6e08f67c2a852df8e75fce4babf0a0abb03:0|C:49fdcc3300fb652d814afbd3395099b38d76280ec734fce31f91a433948157d5:0|D:23c64c219a3de942a654dba84d79e8777e2beadbe5e3f7376b8971388a88d2f8:0"
+  },
+  {
+    "fileName": "CQ19430.md",
+    "originalQid": "19430",
+    "question_id": "326d1380-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19430_harp_instructor_olive_grove",
+    "fact_pattern_sha256": "ea4211e7ed064455fde0ff2e610b54000d71715da0aab5bd92b19ad08d6181a3",
+    "question_stem_sha256": "fcba3db19f5f79121cf12850bb3d9f7608491f2936332f31a36edd9072a243a1",
+    "call_sha256": "4ae14afbc9008900ec54c92a7c174f710b4bf5f92c6afae56005140fc5482ce2",
+    "choice_hashes": "A:9e2942bf8bc30c80faf995b172c25a63788ca7cdc77c55629e32a0043f0dc0f7:1|B:e9cf35565853d4850db2be6f3bcf3f6ff208aa4f7c406e7ba067f1e258564325:0|C:3b11470294cccca2146b83a8a1950811f19eed4f2db6f8a8e4220c44e91a2374:0|D:6009250732fe6f3cb14b389fb992953300aae83650e79b52a1cb6472a92e3758:0"
+  },
+  {
+    "fileName": "CQ19434.md",
+    "originalQid": "19434",
+    "question_id": "328ac639-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19434_hymn_hands_stimulator",
+    "fact_pattern_sha256": "697e247d2e3f678df53f10e7f0db48ddf3821ac413b151548b62ea6a43726a94",
+    "question_stem_sha256": "861f7dff59547296d72b046342df2e8381cdd9d88170c49a9383ceb3f99e707a",
+    "call_sha256": "78bc14f3fc734dae0c3682871ff7f56d37e9db0b6932adaf30a33c8197ec4064",
+    "choice_hashes": "A:a9f96b5f5333718bee28e85e190b6ea16a7888952c024b0a09f15bd9fd599e72:0|B:2d1886169ac87ba25cf1342a7e3bb05087f48679ff226c8cacb057b75902e534:0|C:8b5ded030984a740292faaef3941dd0b7552eb789a4788941daf0f85bc7fdd0c:0|D:84f3e02c341d1c28d8e1cb0a807fda39edd1ddd2de863cf906202885fcd0b1b4:1"
+  },
+  {
+    "fileName": "CQ19448.md",
+    "originalQid": "19448",
+    "question_id": "328b0995-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19448_praise_night_tshirt_cannon",
+    "fact_pattern_sha256": "5fdf3baa2d017f22694c746b51ae5a1b0cf0ffc7ee5ecec7f29de53613e922cf",
+    "question_stem_sha256": "ea68135e362a5c93071d238f0180a4fc41ab96199bbf8105fef7ca4581b43df0",
+    "call_sha256": "0c83a8c74070af243df6243d70e2164315f4e1068885aa5431fb76c867f7781e",
+    "choice_hashes": "A:6567d6d807e6885b6843c283bbc7749ea50fa1be87f18424bac736a3a983857f:0|B:4fa4fdb8c5abcff78242361e89b548e5e6de52ad2c00f287fd39146054edc825:0|C:567a3d3138c03cba71773a9ff994188e4542b51bd4a2bb113c0addd4837c8750:0|D:2a89a423f244702a0e380e0d28c594734df5d68a0d16e7ba06a1653918158bda:1"
+  },
+  {
+    "fileName": "CQ19499.md",
+    "originalQid": "19499",
+    "question_id": "31fc5832-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19499_jericho_chariot_night",
+    "fact_pattern_sha256": "afb4ae7b4854c1344f40922df8435db3de3d5c6f8c9437cc1231b635d75584e3",
+    "question_stem_sha256": "fec7a3e4f5f999846cd43c9ee31d63e740b01eaccd0dbac3daf11f749b6ca1d3",
+    "call_sha256": "579e631367d4db1ca01f576f98d153b0104eb311071187e2a3274f3f9581c26b",
+    "choice_hashes": "A:8647ff1ed3c0cc65ed3646bda7d72a2dd05d277905f14833d5ef384fe0484a72:0|B:2505846fb9b8f74fdc33756571eea61b878ee355769bfa99d19e55698cb337aa:0|C:86d3eda806d10ab5a3e2383d1e0aad475173643dd0fcee60a7c71468f1000973:1|D:0e3c6957e84b321e992443e58f3fb2cc8621602bdcf1f7eb071e5720e9b1fa49:0"
+  },
+  {
+    "fileName": "CQ19502.md",
+    "originalQid": "19502",
+    "question_id": "3165553e-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19502_manna_festival_finals_tax",
+    "fact_pattern_sha256": "f62cf5c781b2229abbda0c6ddf860e3cc967df2521be38f3b636c48dcb8d771a",
+    "question_stem_sha256": "c3aad74a358868ad2f1ca9e6e3eeb382ed77518f393d8d35543b49c7d1b5e97a",
+    "call_sha256": "ffa6873bedbef0d5c151df9323775b82aa655ac3882df4413e6782b5874262cd",
+    "choice_hashes": "A:fdd3132c63fe7f2f01c5c930e3c075968dac52a1842b9b08fab74c3592aa6947:0|B:403ec0ace9cdc0830b510165a8c87a69270c8c5d226023bb2c5e4bfaa169dce0:0|C:715c8f186d9802ddff510a15c3cdcca3e37ccbb655a7ccf91f93fe5c093c854b:1|D:bdc39e489bf257756c82ad015e995c8447185346a6f0ab1573374b3e073e2f13:0"
+  },
+  {
+    "fileName": "CQ19607.md",
+    "originalQid": "19607",
+    "question_id": "3165ac9e-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19607_cana_hills_bethany_flats",
+    "fact_pattern_sha256": "2ae892354f1c3851a73fa2add7ac07a9456e54b266d7d9190a15887510d545a2",
+    "question_stem_sha256": "8ce6980c1bff8f30dac7fe375e4ccda3f303ada18c10d4f8fdce185cbbef7df7",
+    "call_sha256": "62f410f8491004c209fae6a87197e46d02e1dbfa5a7067eb05cbd72653a0e669",
+    "choice_hashes": "A:43ef88a9ff74ea85a938577c454aba4eafcd4607b8a8ffe765835a2fa6faf779:0|B:1152376dfb4285d6cf1a53c719234c816eb4b21807cf548eb53adaa9d35b6625:0|C:3e6463577a99a04da04880210dd4e10ab8988c74c4b2d130a28ece845c106e8f:0|D:8e7cb19180280262a24b781ceb185ebef016d5ffe8d97266b0c88a34dc24f5d2:1"
+  },
+  {
+    "fileName": "CQ19721.md",
+    "originalQid": "19721",
+    "question_id": "314a9c77-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19721_jonah_whale_float",
+    "fact_pattern_sha256": "82bff318c53a9b8e63aa9328a03eb8419add5d09347af7ea3935166949721b9e",
+    "question_stem_sha256": "879b21a857a7200c10aed175cc94d745e4640d987d2d19b1aac124edfecd77d7",
+    "call_sha256": "18009f473b8b958f7ebbac8e5d04bddcc21b4dc624b96d2a351e4dd1f352ce9e",
+    "choice_hashes": "A:73930a3f38fb27d06abbbb520ba9a4fe9e181023f54c3b60f2975c07b11edcee:0|B:8146470c9415b928a1557c74f37adecb51d2b5096f71d66b33c9750bea58abd0:0|C:2d7527f45b98333c0a7854551cebdc1b6ca1fce7d8cd562b7e8fe20cf5acb48b:1|D:d0f0259e06f44db20c271d7e4b59adee1582804c9f51c289b7f83dee8ddbc7c5:0"
+  },
+  {
+    "fileName": "CQ19793.md",
+    "originalQid": "19793",
+    "question_id": "314af16e-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19793_dove_candle_ledgers",
+    "fact_pattern_sha256": "88d08e08c49d66c15880e6382c27cee360b85c170a0a6d6ff4826089eccc5152",
+    "question_stem_sha256": "f408e3104de4ebe2820f2fee4079d5de5f13cd67860f193725a7a2409b29d231",
+    "call_sha256": "bcc389528024e492e595bf7f37db423cb942f1363e18f820233d57dbc25149fc",
+    "choice_hashes": "A:3582c8bad364482ebd58019c146ffaf4c230419d14512cfe52220f6f004763b7:0|B:4f5f48357a158adc109801e8393989ec785513767acc0b12e89af0326a14ed43:1|C:07df156328d9aa16da7f0b1bff931d4814bf1c9b5c109705cf65877747360143:0|D:793d3fbf60e95447bb4f483fbbb87376eb1c863d01c9f18f6f4e199f822f6d3d:0"
+  },
+  {
+    "fileName": "CQ19840.md",
+    "originalQid": "19840",
+    "question_id": "314b43eb-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19840_red_sea_bridge_bolts",
+    "fact_pattern_sha256": "554d77ab4c8296d96c4742b4f90847318a918e8a0a9d333a22c3c885c36de405",
+    "question_stem_sha256": "b31ef32b56906a9a37175c276a9949f85bab65ebefda8ae40758e86dbcd6bd8a",
+    "call_sha256": "d214589d8c2d4e9a7de132044925089496865dc8a49ea8a07cace45ef1059a7d",
+    "choice_hashes": "A:7302726ac7a2816f2c9051eadf9558c62b811ba44349148a5f873d1a4dba848e:0|B:03d987136a9c2bfd5941719f90aeee8c28e1e3903f6ddcc541f7c1f8ccdd4eaf:0|C:d62b9548a0468058a79150895136e7e0a420ae8917fdc5fdeb23329e06e491d3:0|D:f10b185f6548cd74f99e8f5916174da77f333e5cde2667d2b981b2b03bf93684:1"
+  },
+  {
+    "fileName": "CQ19904.md",
+    "originalQid": "19904",
+    "question_id": "326e771b-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19904_psalm_orchard_foreclosure_notice",
+    "fact_pattern_sha256": "eabc31d05609ff52791adaef87cb8b9227db8035f8a0957d41776388767a8e0e",
+    "question_stem_sha256": "f0cf00bfefc3c3da841dcde41c29bddb050f4d7670358ac286fd807e2a7a5000",
+    "call_sha256": "1cab94c1269bdea4cc5a3a9bfa871a25dec5443ec255a862c739d8768e0149b8",
+    "choice_hashes": "A:8464bacc5efa5d341956183d81fe8f8b85271be4f1431858b991c1e0a940f4ab:0|B:973e8b2cd54c86ae5f8639c3021476114076f8e79ae15d2ad14711626102cd97:0|C:5352660ed2ecdd4d2dc0c8f68652b9bc0ced8237eaf441bdc0bbc959c058efed:1|D:5eafa3d794c417ab39bc03ddcf676f72236267227aa156aaa7b586b2c4a7d7ea:0"
+  },
+  {
+    "fileName": "CQ19982.md",
+    "originalQid": "19982",
+    "question_id": "316801c5-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "19982_manna_warehouse",
+    "fact_pattern_sha256": "4749fb02660084c94029ac893a882cfb4e2cb130b892f4bdd1b36ee8bd5dd6b7",
+    "question_stem_sha256": "af797ad5fe0e80e474233b1b3afdf3271b6588f7113e650d4b6072c806795e5b",
+    "call_sha256": "beec94d4976bd06d34adf70a16c22b0ad4edf79e6884ba35ae9a0dd6d0882c43",
+    "choice_hashes": "A:858e59c159529fd9692c9bebe0fb30c1bee525a2fa69e3de13eccd1d047d1e8d:0|B:c6016357690bb565b683aa9b1359cc5dc4a5c549332c07ed4646198fa37d10ff:0|C:715a0e6cfb7ad8c0a16cd79cc1e315bd6f9fcc72cecbb9efa1d691674164ad60:1|D:ec0266edc082b73bfe9af1ba4cbe53fd04db75ddaed4dd9f00e6c960775661ce:0"
+  },
+  {
+    "fileName": "CQ20004.md",
+    "originalQid": "20004",
+    "question_id": "319bdddb-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20004_dove_tokens_manna_game",
+    "fact_pattern_sha256": "9b3621d844d1ea9c25193877090b4fd7735e5dbb6ad3087a8e4da289742512fa",
+    "question_stem_sha256": "5323c75ab1c2c8cdfb3a62813a2fa445a3c06970340efd5b075b46d2c450dcc7",
+    "call_sha256": "b608c07b554bdb4c3aa52a8aa32f75728c9e65ac56c4cab2f0bbef7f9937e14f",
+    "choice_hashes": "A:db48ff76c67f21f28227d94515c5d521daac39e44e56dcb7972e7060e359d758:0|B:72a810db382d34dd8d5601c2568ad342732c09058e30413a1f1ce702504087e9:0|C:6ebf6d09e04b3fc2e7620762fe8a54b61350c581d0f076a5a296052b706fcdb8:0|D:5668035bec844de22459c42aacad3806429008df24bd6e2cdacdbdeed99db610:1"
+  },
+  {
+    "fileName": "CQ20024.md",
+    "originalQid": "20024",
+    "question_id": "328b9d5e-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20024_loaves_fishes_crate_count",
+    "fact_pattern_sha256": "ebd20556f7cee388f017edf1438a17434a6cc8b6c89887dee12e8715f7d2d968",
+    "question_stem_sha256": "7ab4db98b2770764e4e70d90a946783add3fe92d7832058a1d78ee6ec86be385",
+    "call_sha256": "81317dc52b15035792dd8c8b729fa102dedd0d122ba92086db2e8a2fb9becf24",
+    "choice_hashes": "A:026589cc4740d95a325d460feae5cf017872c2c998003a24f14a7e14b03061c0:0|B:f20c1e7a2e06ddcf15d4339648b4a5a889d0a2688d6fb1490d67702bf75b2e31:1|C:a64114bbcdc01349c1f6705a0e153b82b653bafee9d3e77ed9b31b3a70eb399d:0|D:248cb233a6f97db6a84b46bf3e5df0e6570109ea5431e9ad1e16e4ba45f02cf6:0"
+  },
+  {
+    "fileName": "CQ20100.md",
+    "originalQid": "20100",
+    "question_id": "319c2b55-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20100_fish_and_loaves_keychains",
+    "fact_pattern_sha256": "23c0deea7d6a65a3936ae361750b138a2723baf52ffa5887c97b4f66cb388d2f",
+    "question_stem_sha256": "680919819ec9e1fe9de5df2904734302fc1b6963ccfb9b914b5d6951732ded20",
+    "call_sha256": "0d95cf7bea7ffc1735399574d688f7074f9acefedca79e08953904925c21e72d",
+    "choice_hashes": "A:cd78248f67f4e5635b89f4ee84f29e65465d27ff06704367fc35f45be627fac8:0|B:576c63033db6f19f17c8125d0e564a4aedb9e057f8646bab8200c57ea8d2f836:1|C:c8f68f7a1b526d00ec0933b0a1cf8bdde49bc5bc365d916fedc5c643afd6607a:0|D:0dba91714ba4cf70ec5507ed6956698a0e567986852b839b47436ad528b1e2d8:0"
+  },
+  {
+    "fileName": "CQ20123.md",
+    "originalQid": "20123",
+    "question_id": "328be4af-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20123_prayer_card_threat_writers",
+    "fact_pattern_sha256": "cc6054756b72c8c998b29dbc6fd0562db80bf095ac2fffa52dac3705a0eff041",
+    "question_stem_sha256": "00112f8084ee160dba900cf853e5d411fbc18bfc110f6e2d2c3cba05bf0b8820",
+    "call_sha256": "25d0d8c0cdbc813dd418a9cca3b9762e238519d89e45b127a3dc5de6806b55c3",
+    "choice_hashes": "A:93a3a31bee499a535e4705e4bb7744c8e9e8267d9ef48ae7f7bce72ef0ec3af7:0|B:19083d8e93775618a226e1dfc2392876f12cdc8856fe33582e0d1049f0bbd5f6:0|C:b8bddb7b891f76e2e81d9ff9b6c643d13e4cb1e86eb232a3264255c9b5e45cec:1|D:3465c46fae29bcf720e52f0d06026a031689125b68ca11f6b2e60572ec5dbcf1:0"
+  },
+  {
+    "fileName": "CQ20127.md",
+    "originalQid": "20127",
+    "question_id": "32039fff-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20127_jericho_trumpet",
+    "fact_pattern_sha256": "5bb2e0117f11582370d8099411cacd58f6211b1e1a3d39e45e5e88de3ebd3dd1",
+    "question_stem_sha256": "12d132ad19c3dd1ecc265d3459ef5023fbd4d461be42c0d30970318e64981ddf",
+    "call_sha256": "3ada29541b32b3a741545dfe87bf3cbc878abaa6d22ffd03aad809ec55cf7ebe",
+    "choice_hashes": "A:47faaf29f395ea5c1f760cd9c09ad9735669eafa3f292666343f36215159de40:0|B:c1e87734edd84903e456fa6fd6a96afc0394a82bb2d5a0fb8397e60ab1779a4d:0|C:4e1b573ec55add1580b9e3e134bd255b8ef62665ea002e0ff270a371e0b925b3:0|D:ba0f957cba8090a8fc36617bb628c615b735cfcdea49a86e72d106d017037dcb:1"
+  },
+  {
+    "fileName": "CQ20153.md",
+    "originalQid": "20153",
+    "question_id": "3168ab5d-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20153_lampstand_labs",
+    "fact_pattern_sha256": "0177bac5cc80973e1f5cdb05502fae0674aa543e327e0d7c177dd93e3683a6f4",
+    "question_stem_sha256": "f52417f7de3033974ea5b5f1557dccf024524ff5ac6350fec3e946bb52ae8342",
+    "call_sha256": "40cec2d4d8f612e35c1a487f75bb9356b04733ef237166688cbf85cd4e4bcafe",
+    "choice_hashes": "A:60f5ab0f21d3b73dc0a6f00a99f5ddf0c47dee0c54d32686953c56ea92b087d5:0|B:0fc7584a0c3bde087165bc73ca5038c8b4783e26afd4826c1ee013d5a91a3bc8:1|C:3c5c564b18cb1ecc160990e53a2fbc819be23c94a889eb1a1b3840f2ef216627:0|D:441689a64048d53ba4c53882ad79844a776a27296ea90107b8ced117ae00a022:0"
+  },
+  {
+    "fileName": "CQ20186.md",
+    "originalQid": "20186",
+    "question_id": "3168f62c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20186_road_to_emmaus_royalty_ledgers",
+    "fact_pattern_sha256": "6bb969d53f45b3fb062bd4616c46f3905aa870d8a487ebcf83109de3ad44e1f5",
+    "question_stem_sha256": "394807b99d893ec3305e9c1b1deed479a02ea7753099a8df307235efb8691f04",
+    "call_sha256": "1adafe562f8e3e3524d947dcaaa45be339e243a2c3eb1afd05c19ced5e4c2511",
+    "choice_hashes": "A:65d4b691472a93a7738aed0b360cf59f7e51f5a4d1b9e47964dfc6f35ffb6aa7:0|B:eca5b39c898272d9f88dee5dd948391f70ab9028f7c10eafa449f98601787fe9:0|C:b3b84132dc69be34092060ccceeefd96e35ab25c0ce082b3bfb7cc04fcc6980c:0|D:4b644657d780d0b8e3d4933b710c74f5c2fb2f6c243374b603204df3a951281f:1"
+  },
+  {
+    "fileName": "CQ20213.md",
+    "originalQid": "20213",
+    "question_id": "326fc669-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20213_mercy_pool_reliction",
+    "fact_pattern_sha256": "04873db9fe26d9267bd2867957bcce6bca83aef06eae23a7cf65fa615f64e207",
+    "question_stem_sha256": "e8fbc6fc16f245de04abb07c90b1fbe709275c4bf9e5345f48a37c0a50f904f3",
+    "call_sha256": "9d96514fba105973f51539f49088861f93b566594385e72881c0971db2ef1616",
+    "choice_hashes": "A:fe0cffca3eb0c58ea5f816651f133c5938e6392a66eef9492521a96832e7394b:0|B:df11bf30ae59190fcb46604d4f428431835e9fd605c8649a0bcafcf1628907f1:1|C:f18d7b243542beffa13a5df12f6feade9bbae6e245c94c5e41d6f35cd447f990:0|D:dcfdc937e90d35686c273f0c2d7efcc459d871d0635104d41a9669e2a6a13087:0"
+  },
+  {
+    "fileName": "CQ20231.md",
+    "originalQid": "20231",
+    "question_id": "3169b530-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20231_crown_above_caesars",
+    "fact_pattern_sha256": "f3bd193b6154f331b4407ed412e5000f864c17cfbc9d5b6fb5f9110114ec87a7",
+    "question_stem_sha256": "b1d299d6644fb1df4ae4e04f0353e4e182af543820e93d55b21025a9b7fad2fe",
+    "call_sha256": "5d31615b1a1115beccd895c13609cd37e2270dcd75679e611bc27cce1df7feb3",
+    "choice_hashes": "A:89baa3b05fc919dde2fad0a09d04b1f2ff970d4c679c5bc0a92db04b2d94a933:0|B:1f521b1811e871f22400a382f56fa6f1427ff19ab6ea4867c35d2d39198c4552:0|C:8fde8c86f120b9b091e8a5b5d45df0ed2ee4beca59f8d59602af33785b839241:1|D:da640d0df63c009b771ca86250b62edde669a4631ce53399ce13809f99452194:0"
+  },
+  {
+    "fileName": "CQ20247.md",
+    "originalQid": "20247",
+    "question_id": "314c5e9f-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20247_bible_memory_kit",
+    "fact_pattern_sha256": "3c284add43707538056d7dab330d4f62ae2477734a8d5c62151ea1d296570172",
+    "question_stem_sha256": "fd6c6779403776df773ef2414bfbfcb20ecdf3b3a5e7eb8801dc879bb08d4436",
+    "call_sha256": "8a1d4fb1e7a9736294864791665249567e2edb5b6312d3c80cb1f55202fcefc6",
+    "choice_hashes": "A:5cc27b5bc3bdf4b2d19e9e4e373ab6cb67a95fb9c94276911d897ef01fe75eb1:0|B:f993501960ba5a83d819095ead36f04264f0c321f5197c66c6199cd28692ebf2:1|C:cb330405398f33c0387b9d50de08048539b14275c0d484b1a1bd5423bd01d046:0|D:00562a9ddd8c054d61da1ef446fceac4517fde64408a4ef3e4d000cb22dfd1c7:0"
+  },
+  {
+    "fileName": "CQ20258.md",
+    "originalQid": "20258",
+    "question_id": "3205c532-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20258_psalter_pressure",
+    "fact_pattern_sha256": "5b8c850ba204e68c1ca1bf8b907099ad3e8c3820d8c0b9f5c3db56b5fe41d3ef",
+    "question_stem_sha256": "73c34c139f2af759958df1dac61a8693fc5d64f7fd8d9bb21e0eeb04fa3afe91",
+    "call_sha256": "7bfeeec8de981be929b2ecfa2e4315aaa54a5032fe4554f8d25b106a4ca2383d",
+    "choice_hashes": "A:9e0df0ccc18bfedc28b7551cf7b4b9b294975ad125580419ff42b0e84542107e:0|B:bfbd0811cfb46015627cea95581006e6df2a5b118b518cb409d17eed01c3947d:1|C:0d6778b8ea86c25ce9b2016111333a66e5466c7622fb7e118fcc4495b488c082:0|D:74a880e72d8b61eed67c59735c9b9b65bc518017e4199a50c0c12cf6de70c5af:0"
+  },
+  {
+    "fileName": "CQ20271.md",
+    "originalQid": "20271",
+    "question_id": "319c7826-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20271_lantern_handbell_evening",
+    "fact_pattern_sha256": "f841311cb587833f7d35df3e6b13eeb2baa79fbd41f9023529c4ff6b902b0c7e",
+    "question_stem_sha256": "c7985e2e3d0377fc6eb4ce9d3729dd116ca871d9492190c6845460fe7e6aeeee",
+    "call_sha256": "5193da87c41a140a64d8a6cf6f5a3602c5ca0d80b29f9b9891e63fe228752bc7",
+    "choice_hashes": "A:c7754cf88fee4211a17bf9f00b34b7473c0e597a2ed06d06a450e499bc74caae:1|B:9644582774fc0e523778971a1a9d23893d2cd95d0e8cec74ddcd738f55fb2a67:0|C:c8c6caa67de7ef4da411e47a1131298c5253605f0706220360a6d8f2fcace693:0|D:b63cd480449616f81849fbe35af39fa723c7a986bc3d5b2d0f2f56cc8550504f:0"
+  },
+  {
+    "fileName": "CQ20291.md",
+    "originalQid": "20291",
+    "question_id": "314cb040-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20291_nativity_prop_rental_freeze",
+    "fact_pattern_sha256": "9b824b0b8b606820b5e1563b259644890815276d149aec2133062d0068768616",
+    "question_stem_sha256": "664b43a890eb22310be35f4ce11d7f1f158c4e3f23e841829eabd17ff39209db",
+    "call_sha256": "b3279c98b544d2494b0670c2e3d11f09fa53aa3c28b0be279ca3922bf107262d",
+    "choice_hashes": "A:6fb808d8f4a125d5b5a24d783ebf13faed67aa7972237d1acf944ffed3e3ed39:0|B:6b2bdee9591c878778b23430b8aa0b5e5712ea9db8221d588736555a1ed4e2d9:0|C:0ddf8d16cab470b74d35eb1ef32214d13631fd8ed53c2c0fa7b57c9b511eb63a:1|D:52655fdf4d2fc8ca6900ce0b8e75b0b60540f5de8a04412b2741bc0315d7633c:0"
+  },
+  {
+    "fileName": "CQ20307.md",
+    "originalQid": "20307",
+    "question_id": "323e22d7-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20307_bethany_banners_transcript",
+    "fact_pattern_sha256": "34b034905adb19240eb4f29b6e900a0f467589182c720e45a555e6ea70429e50",
+    "question_stem_sha256": "68fe8224375d34dd8adab958dd33617093fb859efe884c86e0f2cc2c14e91b5b",
+    "call_sha256": "f7fc2bb5b5e360f109614cf6ba08c1487789bcde8804c2057b7c623828fd000a",
+    "choice_hashes": "A:595327f2144aca965d71fa2b74c86b3674b6cdc6f678413ed7d4c1972b472cfa:1|B:c1deb40a9f0729950a7b531aa0a1bf96cf6bd304c58f27945311ab0a6ef57c64:0|C:56667ad244c3bc408240b712ea7d32ea96cd45c40fff4a3f30b132bd606bd290:0|D:35968b4028367a1b41c1e88e9a4930e094f16338a299d7cdc3f7c88880696567:0"
+  },
+  {
+    "fileName": "CQ20310.md",
+    "originalQid": "20310",
+    "question_id": "328d04f5-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20310_psalms_wax_lamp",
+    "fact_pattern_sha256": "591d9a6ef280be0ac2abb2ed9cf1d9725e7e0c0cfda73b48e926f44c8e2e3f65",
+    "question_stem_sha256": "c95052a7e6511347db9741a730704ccc4a849025af6d6fe9baf975cca85a5f10",
+    "call_sha256": "b5c4a01a2d58680204cfc05617ecfdbee3a28cde56c3137c8c3d74a9888a8bae",
+    "choice_hashes": "A:b631b78aa472efc666ad2a2f9ffe3c8f238fa3ecde1094c0bec3b697ee87f815:1|B:8743d4ac8242339bbbdd97bc6ca16bccc43e3180f4ee896de33cf7d236889070:0|C:680937339ef70d1c99fc5c118c6c78d24fac1b0b967071ffc2bfc18662e3d1b9:0|D:6e94ab2bc3d6ff4ac57d0a8f9428b010d46feb52aea1ca3dc3761cf2b93b540d:0"
+  },
+  {
+    "fileName": "CQ20312.md",
+    "originalQid": "20312",
+    "question_id": "327006e6-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20312_loaves_fishes_retreat",
+    "fact_pattern_sha256": "68e3015a82a100475c27c09992e53ddd9fb003797d5ffc7bbd1285f7c32c5c06",
+    "question_stem_sha256": "181236cce2a915862164b86143a6b631d6fc082f031e45d720951689c85e137b",
+    "call_sha256": "f0cae88d407a9b416912a01b77b1d6a0e915b580e3a2c73b2dd1c8728fd75f73",
+    "choice_hashes": "A:ca2444dba9ec295afa7ce928afd2a2cacd71dfead38d4535df202897d1b592ed:0|B:a7ed795bed2ad7c49356d107aa498692aeaaecdd80715a27fc9fdb77a863c55a:0|C:9f996c81a0d93eacf2dcadaec346b19b862c81880e021e49136eae120ff8a34b:1|D:9c6db164e9824a335bd1788909bc802296ce7a277bdb9f15a5cbec2f53192aa2:0"
+  },
+  {
+    "fileName": "CQ20313.md",
+    "originalQid": "20313",
+    "question_id": "323e56b1-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20313_bethlehem_olivewood_crosses",
+    "fact_pattern_sha256": "0534bdd559649756856c24c4497f671fbf6e1adadee7a2cee7fbf5f26bfda8b1",
+    "question_stem_sha256": "5ee0e52f09a82d7ebe477098ec86fbc090b2e78f8c1c319e85e26c8ff7c82593",
+    "call_sha256": "c0088d70e466181b5959f0d620535429e07d1dc763d30e6388f62b21ce3fdb9e",
+    "choice_hashes": "A:473d69a8205a21a51b656207fc550e117185cc4b0fc2ecc943eb93294a21646e:0|B:dcccd55b800fc454cfd885cadc6844550de68a56651ff5387a71014effd34e6c:0|C:0a60f3181c9eda18ad740690e67e623848706b2ff8c9d257495143a054d56fad:1|D:0a433c2e03bfda460c07f6db03043c7c0313539975766fb6a04878fb6b6435a4:0"
+  },
+  {
+    "fileName": "CQ20328.md",
+    "originalQid": "20328",
+    "question_id": "328d4c40-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20328_bethlehem_star_drop",
+    "fact_pattern_sha256": "aeefeaa88aa934f5535f9983a33d13b928e8d08ae5ba26ec59a5ae603efedd42",
+    "question_stem_sha256": "b31af0e698a73c713115f889d87a2f407548d1bfa60fd1829a122582daeabaa7",
+    "call_sha256": "25af64191e6e141deb558e4945c72f35ea2e567b7feaef08f95764dadb3cba4d",
+    "choice_hashes": "A:4dccaac86aa2202103b4a896d9f38c7d8814db74f444d62413b11a29767e00bf:0|B:aad60aa5597cc54a014491f872cd1984215819519d035432e2340ad7e2a0b4a8:0|C:15338af6aeaec182d4a638a22bd8016ac429731b4ecf0152568f56ef441d3162:0|D:7a9ab71393e434a7deb66418759d68014a4c5712f5c882fb883a0b6c956c0957:1"
+  },
+  {
+    "fileName": "CQ20351.md",
+    "originalQid": "20351",
+    "question_id": "319d180f-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20351_red_sea_mini_golf",
+    "fact_pattern_sha256": "5f082e049c355c518b8d7881491ed391d9f6490f0fa45e95e0028e9c509243f1",
+    "question_stem_sha256": "c7e7815fcc12171c279872f7116779674149f0cf03056cedb07ce142408a1e50",
+    "call_sha256": "87e6ef278784ae18313cb42c6253643cba61cec208caf6d5b4dab965232a0fb7",
+    "choice_hashes": "A:b83a1022be3e1dc83a1a2f67749dda929d4be3f0a71c95aeef45fdf56535c817:0|B:bb3ff5c7ff3d56b3c866d3588538edd56fd641e6bf2577f16df24a30f23cd588:0|C:a1d712329877e9aa297c16fcfd860567e3de7b57e15a3ee69a3abdf2a59e7120:0|D:31a7bb96d8b5f808b915bdbb89a321cafe09584760fe04e0a031c9fe1f0eb7df:1"
+  },
+  {
+    "fileName": "CQ20353.md",
+    "originalQid": "20353",
+    "question_id": "314d1cf1-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20353_baptism_tank_burst",
+    "fact_pattern_sha256": "e46ab9bf08c35816b57b88927ac99638a923582eef0095339a1c9a5a1c32a66c",
+    "question_stem_sha256": "cb786388761d20d7baca784e1d4f71100b89357020de61c0f8291478a2b5361d",
+    "call_sha256": "fbb54344292f1345a1fa420d709ca8eab8a16dffef94063673b68f7f827892d6",
+    "choice_hashes": "A:2e8081012d59e822be0f2126f6b8715a80ba43f442a4683e4083d5957a6768e1:0|B:e2b331c1ab2c82753b69100d2348e8148790935e2f5db124967c6a4231c30cae:0|C:ef2972aed71dca3953f85ababdeb1bf3a7be7eee6a16b10b1402ce6ccb6ec010:0|D:93ad35ffeeecd02f91e5c2807c288a3efd49b68b503fa4f71620ff81b1e67a9d:1"
+  },
+  {
+    "fileName": "CQ20370.md",
+    "originalQid": "20370",
+    "question_id": "319d6607-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20370_dove_mug_notice",
+    "fact_pattern_sha256": "848a86e33f9be569aeeab8d09e325555f58fa5ffd261b85ff4e28763626a8b8b",
+    "question_stem_sha256": "7482cd0b75d9c17a60818d001e0a3f97f5b9adb0880d9fe548f03b09ddc4d95a",
+    "call_sha256": "b4719525e156e0dfcf4e5ec37e4f348b3f69e013a279feb37e6d32a96fc63c86",
+    "choice_hashes": "A:1459f2f55e1738d028eefd9900c42b70f33a1d0b622b11c33945d4b8716e13e6:0|B:6c08d7df0138e8c26c37815a9639549774e912d1bbb883bb4fe8ac91af14726b:0|C:24c2ece99fe7a8ba036f8d745535fc02a6577d95968c7d32637fb6b98d2b7092:1|D:16d8dc475efd704665d882ad6130d5c9694540f9512339c42eedac6b20b9d060:0"
+  },
+  {
+    "fileName": "CQ20387.md",
+    "originalQid": "20387",
+    "question_id": "3206d0ad-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20387_psalms_chess_indictment",
+    "fact_pattern_sha256": "100235541b603011452d39d1674401d11229d3e94a0a3dbbf4c940ef78fb30d2",
+    "question_stem_sha256": "91dc4549fcd0c75b5bd1628308d34f9e242fc07a4413a242b1c99a7a29b99276",
+    "call_sha256": "87e6ef278784ae18313cb42c6253643cba61cec208caf6d5b4dab965232a0fb7",
+    "choice_hashes": "A:3f35b6e29145da4e861760fa11acd713a7bc015e1c3b31e30e67bf912a4bed27:0|B:7d9010f0b7b881d7547d726e52da6d9429ad5574efe6b5a72aa15490db5b1fe2:0|C:7947d58d22e3f0f58c1bdd89b3aecfc8e462b3e1f14e4137af31f5da55023653:0|D:1df27fab24e2e05f888475cc3cdc64bcb8f1baeef1ff2ab4eb966dede1496287:1"
+  },
+  {
+    "fileName": "CQ20404.md",
+    "originalQid": "20404",
+    "question_id": "323ebd1c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20404_acts_axes_cash_loads",
+    "fact_pattern_sha256": "72a7bcab4b12a57cda0367dea8c9c11a14df3c2ca8e0b071fc832c8ca87fa963",
+    "question_stem_sha256": "d91272a80bee68f812446724afe79858882289af0482b83da39da7875e6c11a4",
+    "call_sha256": "a7721880cff21d86788d54fdf55324258860b9083632a6180672562e41512090",
+    "choice_hashes": "A:08a1cff09824c301afea90ce311db57ebdc9fcf5b2ee4a18b1d28b9f892db193:0|B:5faf05109663b6a6ebd4d63fc740efa8582a3c85a830c8e7aa56dfbf9b947f0c:1|C:7fcf41967dcea416ec07a14eaf9c75592055576234dde664e085e60d7503b85c:0|D:6555b749172d110689310ca76fddeea120f740a5186596504ac5a9d8feb9bd09:0"
+  },
+  {
+    "fileName": "CQ20423.md",
+    "originalQid": "20423",
+    "question_id": "323eeddc-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20423_galilee_props_bias",
+    "fact_pattern_sha256": "23d54172f0ee25f13e887b1bc209cf44f5bea2efe66533f229a92375fbc3ba97",
+    "question_stem_sha256": "0da7f4b9a7babd97bbfb6a2c0518d5529be690c1d794399ef8d3568add887585",
+    "call_sha256": "09be893ce603c11e3535aef9902b7bcf2249c0b173da4c5cca79c266e923246e",
+    "choice_hashes": "A:68c3b202018f14aa33a3f024ebf31eb443c7664f4048142eac206ab01cfd953e:1|B:f64bd8789851b31f48f604b2a552e4422d60878c49b73c8abe776b3c7056439f:0|C:a6c149f062a4ca1303e22691b274d5ba84ede649fe1afca1ed3b9516e313d66a:0|D:196c5dab261c717521d56662dd9d87d6ed857f139cbd4b00ab6e1e4ac1affb6b:0"
+  },
+  {
+    "fileName": "CQ20439.md",
+    "originalQid": "20439",
+    "question_id": "328d9604-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20439_floating_star_driveway",
+    "fact_pattern_sha256": "e5482709f456f3025fa3eee1ec58a8d3cb70bbad87c4f47f05451064346601b3",
+    "question_stem_sha256": "d4e950502af64c3916cba6394c8b16122f66398da019cdd7125939c953dcc9db",
+    "call_sha256": "e8b78f4452e01ade4477c780b9607e5ac3ff5771a76f7a2d4a56fc209f6c5645",
+    "choice_hashes": "A:72e91456f0380162fdf94250502752f7d953084e714f6499bc7852f7f0732255:0|B:7a1d74a03ed8353e3902b0ebd6bcf37372fa2dbde6a95efc66fbd86a23e6f7b0:0|C:e8f9e76dfd0cb81d0436213a87b43c8e26eb8555b7ed0b0881b18e2af7dc7fb6:1|D:05f1a9ff9bddc8984f1fd21ee94323f66a1a96f072c969c04f7dbea2d7deb758:0"
+  },
+  {
+    "fileName": "CQ20461.md",
+    "originalQid": "20461",
+    "question_id": "319e0585-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20461_lydia_beeswax_requirements",
+    "fact_pattern_sha256": "5a0d51952e7bef9364b3d87f34491a19ecd9179a4a9c48fc8a26ff8a189060a7",
+    "question_stem_sha256": "429d58f2a35486f31ac609645cb676e3c20e0ea9b4d42a2bc93903bbb6eb4729",
+    "call_sha256": "5c4d8426a61081cd78a4a6b86c6da300d0dae5e662db41990188fa2964763ced",
+    "choice_hashes": "A:97f4ebfd1a98eaf851e7f5aa0a43c24324e2889586552b816bb74da66de75ecd:0|B:3c89599c876e7b56acb351c203eaf9a5d91cb74a0110d803ffa7d15bb5c7bdef:1|C:e5355e8d379843de30447a78213b5b4072a85ffe869ce96016bd009e591a3c95:0|D:3f35f4ee9b377c15a4333934e7ebf48a36a52212f90a752843825fbef747c1b6:0"
+  },
+  {
+    "fileName": "CQ20476.md",
+    "originalQid": "20476",
+    "question_id": "3207dd3a-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20476_road_to_bethlehem_sash",
+    "fact_pattern_sha256": "9ca5eaad8aef966029a4fa269f49d67168342c03efa0025c10726274770c4069",
+    "question_stem_sha256": "aa48929163819ae6e5b81f1430064d627d424727a9eb9e94f47ee950393762a1",
+    "call_sha256": "4d0220230f5c38d69bb56daf34cf64b9e0ffcef1d288d62d921a8be3cfb2cc89",
+    "choice_hashes": "A:5c45dbf84f1009c62115848c2ad9fb42031acee84c3806468012a7506ee342a6:1|B:0c93cc24a151e4d4bb946efe816230c743da9fd7c5656bd2a13d0c62076738ad:0|C:1d131f7e5194a3fa9cc2b43a58d70c7f0871628365b81a45ac0acbef293384a7:0|D:f41aedc3f43947cd52452488c70aa799974833af97089cc907c41164249e0af9:0"
+  },
+  {
+    "fileName": "CQ20493.md",
+    "originalQid": "20493",
+    "question_id": "32708c36-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20493_fish_mark_picnic_lot",
+    "fact_pattern_sha256": "30a3b4f299f5a4b9ba259034f35615f99d38478c5c4e45896d664f2319b49caf",
+    "question_stem_sha256": "c4c1e240c6f4e562390b17582e1fe5a85a9b6a1cb4be6166cf0dc7f7d1fdcc66",
+    "call_sha256": "557baa272413775064c993a63dfe34cbdfc96cdf540208f0254ccdfc7a6ce828",
+    "choice_hashes": "A:d32d561fc833ca1287f8ae2ce74e9cf3ee9f4b139b1f0b4da4a0e977036d43dc:0|B:65a0ab31830ae2e0aba763979e85919528b532205aa57858a3594b479964930a:1|C:21c6fea22b458963f00b6bc9ff9906108488e09a5431c16f1af6847e6cca1796:0|D:e8a8686df4632b2b151f91ca38c586185cd4efb3f80859fbd2f601bd6ca07995:0"
+  },
+  {
+    "fileName": "CQ20496.md",
+    "originalQid": "20496",
+    "question_id": "328de1ba-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20496_loaves_prop_cart",
+    "fact_pattern_sha256": "ea6224bc2399c9c12e76f5b9f6aa8654c701604e9640597e164c75ca6796e0c4",
+    "question_stem_sha256": "e3ab43b51bef8ecc1f970ac6b487050dfdffcf137eb790d81a47fa7596f2dba1",
+    "call_sha256": "b37b46648cc808b0d44e7cf41abad06083376143c4ee1a79d4b0510f537c2159",
+    "choice_hashes": "A:d39d45ba47e8872f752314cf8752923d64074e944806cc8afc7e0a03fa5be4b1:0|B:ba0ef57a22c396484288096cbb945254867f08f966241866f5716d9816931255:0|C:88230fe11e0936379b5e03c6ba9e1ba8ac19f4a518b3773e22f9526dc9acaa9d:1|D:03a7952a38154937d688720b31b425e23fe8f18447889fc1bba422c30b452843:0"
+  },
+  {
+    "fileName": "CQ20516.md",
+    "originalQid": "20516",
+    "question_id": "3208a914-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20516_manna_games_duress",
+    "fact_pattern_sha256": "e4eac13aa201ee7bb77eb6b27e4506b3df95211de67aecc5517730be91b418ae",
+    "question_stem_sha256": "90270d3779291ed7592317a1658b49361ae2f7bb17b8ac735562e2b146137944",
+    "call_sha256": "bc8d6f4c903817d2994ed60af0c0d4fb35905d8b45cdf04f27f02e975faa0d97",
+    "choice_hashes": "A:a8841a48c993ab101e78b417d6071d228b58535eb4749063fa53f530a57194e3:0|B:959eed737f5784d73e4bc0208b269b4357a3e42198ca68a25b62472ef96705ba:1|C:7b2391958637e9f8a8e000b170f479ec5e0d8fe5d7b64417356c1566347acefd:0|D:4a949f519258b4639e9a24edbd2c13add6c0218c5f795f624df04aac64c41b5f:0"
+  },
+  {
+    "fileName": "CQ20523.md",
+    "originalQid": "20523",
+    "question_id": "319ea344-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20523_easter_stage_guaranty",
+    "fact_pattern_sha256": "1955d1b77b9345854cc5cdf20100dffe7e96d414e61764e3d74f946ca04c487f",
+    "question_stem_sha256": "d284a6282037a84ff336d6f0b8b98133e95382912776fddaa19f7a2cb76111f2",
+    "call_sha256": "71b243b9256d6bd41c2384cc9a92b793a2905de942d4ec7a29bc539757d90bbe",
+    "choice_hashes": "A:897fb54b6cb7fb68a63c52e188639ed7beabf99ec5c4324ac664e42024cdb0de:0|B:296dfdc936c2466054d438f3a08f3b888c3b20379120d171bf57a4404869b26f:1|C:ef7c7d26e4f0de3ece2c2f123ea68ec7ca8e5b6b947cea585d858bd52a618512:0|D:0843403e6c431e4185d72b7e40f68e4b392135acbf4821ca66cf0ac5f79a5cbd:0"
+  },
+  {
+    "fileName": "CQ20542.md",
+    "originalQid": "20542",
+    "question_id": "3208f144-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20542_praise_festival_cashbox",
+    "fact_pattern_sha256": "b138e0589b2bf1cc0198e4f1b00b017bc07de5c731ddb3068abacbfe9faa8e18",
+    "question_stem_sha256": "ab7d9137e2daa5790048679a8b76573ac4b8a0e846273cb8602ced3744544f92",
+    "call_sha256": "9893198cbbde82662ac8bdd07b1305f264bbca2ca140409f4fa3e698614cf161",
+    "choice_hashes": "A:21ed86b277a9a8e952f556c769855788abf888532c5e93c59fc6f277989ab59c:0|B:18434ee075fb0f6b3408fb32423e1db091ed3f6812eceac9d2c2d4c0203ce73d:1|C:7d68d3489cc42666311b1867ce13217a1eded86d38a3b631981c641b92430a7e:0|D:82c2e39f65b46048209ee511c1dfd767226efc2bc5e0d9148fb837a05a5b0dec:0"
+  },
+  {
+    "fileName": "CQ20546.md",
+    "originalQid": "20546",
+    "question_id": "328e2c55-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20546_jericho_wall_studio",
+    "fact_pattern_sha256": "03148b825b658ae41d40f68cf0f5c7b4cb0e6911d531c27687165184971d0722",
+    "question_stem_sha256": "e77b37dd27e1f53c95626696a902e4d5b11e1caf62d3755825d9184a06e04a69",
+    "call_sha256": "74b62f0b06e02ba9aa13ae5af0eac908549512d686745d7f9547df376451d9da",
+    "choice_hashes": "A:ea00833ce2584d8c1f5055c9e687a8b52aea96811c802cc8a04938c49d7e5976:0|B:751c44bbbf8ffbf64806b1abf97e077173f966bef23c110c2764a56443c2f48a:1|C:2052ecfc04b0cb0f654d9edd7ca575d9d9ae641fdaab021565e3f7164cc4b9e0:0|D:20f8565bc0205deb6ba3380dfb376884bbf7fc6b6fc1818b4d4fac7421c04ad8:0"
+  },
+  {
+    "fileName": "CQ20556.md",
+    "originalQid": "20556",
+    "question_id": "319f43a5-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20556_mustard_seed_puppet_caravan",
+    "fact_pattern_sha256": "8ea6374411c2b57a8328e687b1f9b9d5de09881ab63fc26a429a41c862eb8614",
+    "question_stem_sha256": "a1ed00e27610d16f853cd4613900a955ff9e5b0edabfe9274e1b93b49364291e",
+    "call_sha256": "52cac8dd652c4874d5cc26406301ac465298c63f775ee753abf348c579670d8c",
+    "choice_hashes": "A:2677a61c95553099d764449ade1c83e5ac1628c9fb222f695744ff3fbcdff9a5:0|B:5698b6e930ce0eeede9a7b7f8dd9acb3e67423dde13427691381fe4352b142fa:0|C:323e2d3fbec88f9f23a3c29a7342bffcfe5ee7633b925760718d6baf4ae3955b:1|D:35f2b1652c4bf96af113ca8483be7df22f2950efe06b744f1bd09f47f7a67fbc:0"
+  },
+  {
+    "fileName": "CQ20565.md",
+    "originalQid": "20565",
+    "question_id": "323f80fc-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20565_purple_gear_hymnbook_tote",
+    "fact_pattern_sha256": "7ed289a11b50b5dc28ceb164d80dac02d857fa3fbda262470a6ade440757819e",
+    "question_stem_sha256": "d8440ab5bea970bd982f39658c6f7aac9010ed038e5deb476f34dcd58393d5fa",
+    "call_sha256": "0e8e7ec641898a8b2cb53694ffc5d735d16cdf8e1a7037423919f458c1d3ec54",
+    "choice_hashes": "A:7e59ebc2a4a0ea6cdaf9765502ddbefff0a056b6f39834d1392fb77316e1ce89:0|B:85b96b9daf2471b303459c52766b2d16c410e3c93ac208ad96c50a5ff57cf676:1|C:1da6a53c194536c54f0ea1bf3111c6f7d964d3bd8a4b08f38e7901620d54cd7b:0|D:a07d55f857be0bcbb6ca03c959138b3b9650c832b98ab9cf9dcf2b99508620c9:0"
+  },
+  {
+    "fileName": "CQ20567.md",
+    "originalQid": "20567",
+    "question_id": "314dc5f2-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20567_psalm_panels_venue",
+    "fact_pattern_sha256": "630ffe67539d18f7a8b572d41fb98f60f86e82a06facea07334d7a740ec14a20",
+    "question_stem_sha256": "09054764aef3c4bbe94d780ad18f920fa0cba0c2116ed69378ea316990e393d1",
+    "call_sha256": "55dbe82fecd48da8401bc528b9c153be320e18da45bc7dc668b2db1143e24c1b",
+    "choice_hashes": "A:3d120794c8334859e34290f463e8476d2845dc56fffa5fdff2715d6c3ddcf9ad:0|B:0405ec859aa6323ff034456d90fabf80de7f089b15c40e731ec9dce9eab12183:0|C:d522c43a9062d14ff55578c56176b4118913513ce9120640871192c91140611f:1|D:6b2e47950aec0d186fd026dce6617cb69b5292d936f82acf3d238bf64bf53397:0"
+  },
+  {
+    "fileName": "CQ20569.md",
+    "originalQid": "20569",
+    "question_id": "319f923c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20569_ark_float",
+    "fact_pattern_sha256": "d9297af762567603147af6e1f31526448fa75fff01853e1a18baa48691d258ba",
+    "question_stem_sha256": "e67c1a0ee21c51ad228089356d347468b396a29ab883b1ac861ccd9703aafdad",
+    "call_sha256": "395a03d6a4a0fed8bf503897ef727bf80a859e64c1c110b41cf4e4377ffa0dfb",
+    "choice_hashes": "A:a0249b9457041afd2698d94259f5e2e3fe4582f87ae2865152d49eec7b0b3a5f:0|B:e77246b35ad3c1725a7dbfdc4bcb18c2c65774041a478a49479209c3244ed078:1|C:0355515974de1b5a8554ffc207425c3ecb53152fda4aefa2d8612a37f98c8c57:0|D:a51af517a9a2081d7908888f15d447b0fa82999f183925078b59b43a108d4dd2:0"
+  },
+  {
+    "fileName": "CQ20586.md",
+    "originalQid": "20586",
+    "question_id": "316a97d0-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20586_psalms_hormone_use",
+    "fact_pattern_sha256": "67c03dd6d394b23da0c55cf560bd02faba4c42bbdddc77abba640f23df459e7f",
+    "question_stem_sha256": "09b9a96be16e0c9a55cc8591e653f4ba7de1ffe126e2612458f6a356c7cca541",
+    "call_sha256": "99119644226a89e8d2fa4673763904e1085c431ffe4259efe8c9cf43e9f5c006",
+    "choice_hashes": "A:1720fd567f9f21e1ede899cd6280991dc4c172e174e4a94e5f5387b460ac0823:0|B:e225fbf15b9beaab08675e8586b147b6ae9f89c486b086de5a49d7ae55997efc:0|C:55a3ce4608b7525368b9643d245c0f44f23b964d4db3b84932a0478063267820:1|D:1829b91e64849baf548a43f41d0bbe36ee47d35e964df5402b9f6f2726956b51:0"
+  },
+  {
+    "fileName": "CQ20594.md",
+    "originalQid": "20594",
+    "question_id": "328e7419-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20594_daniels_whale_float",
+    "fact_pattern_sha256": "c701808d835345d6b15f40fa698e04081fa0420f55049628a97b88e29bded557",
+    "question_stem_sha256": "13d7bf55022c95fab1a1791531cfa8491e3ea35bc42ed2a1fda6e8fde50795c9",
+    "call_sha256": "3d7fc5d4fe172e273b8430a96f70b007191df4979e37781d6fe37f616766cc9c",
+    "choice_hashes": "A:7f6d6466b482ad81b4c63883cf822009d2b4c5a1b18bb69acbb7959ad8fe3a42:0|B:5bd2f3c29590c97ed2287bf1c74489412e0406333268899b0b17a96507dafa62:0|C:dfbc41dad6b1d8dc7afa16497f66e346e1a6396632ffd258266918f5c0b81a26:1|D:8d78731f48c62d9f78d640c5cad3efb7ffe9fd43a127cffc848aad05c17ab3d6:0"
+  },
+  {
+    "fileName": "CQ20597.md",
+    "originalQid": "20597",
+    "question_id": "3209b84f-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20597_olivewood_nativity_craft_swap",
+    "fact_pattern_sha256": "48bbcf444825545251d0419312d17fbfbc814c4f20fe0157df869f27f0b04fec",
+    "question_stem_sha256": "51d6a5581b7627a864d581595dd4477224387806875f7008af0a030a3b7cdee3",
+    "call_sha256": "10e0e309ddf55b240d24634044d3cf61ebd590ad849d6a4312c276f8305efd0f",
+    "choice_hashes": "A:36852eca45bf92bde5b3bcfce61bad7fb05c4a953762e271f1d654f91be7b59a:0|B:9ea90bcaeb0fb22b42767da3d0cbedcc3c37ffe8fbb44c11fe087947449ae3ad:0|C:1130ee04f1bc99f96175d56c0003105d7e704b6c215a5eef859d70d32c7cbc22:1|D:277b9836bc02918a0916e5c5ace12092e070c721d7ba859f9de5cf7c7b785ee4:0"
+  },
+  {
+    "fileName": "CQ20598.md",
+    "originalQid": "20598",
+    "question_id": "328ebe01-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20598_write_it_on_your_heart",
+    "fact_pattern_sha256": "1f8fa2a829608dd5f1fdd3154e0db07ce1c539f4e6e2e7b55636138dfe00a130",
+    "question_stem_sha256": "f543a456d7ef0412d2b68c3c5a04c9df126427574f18b038097e0558a62e73d0",
+    "call_sha256": "a72dc73fb7ee8d610cb61a61882a18300d8f625d4a58ca1c71321cf81aa408b7",
+    "choice_hashes": "A:e51eb2ce9497c756c0c6fa8ae8fad0bce406a614b81e1ccf37c1dd5c4dfda757:0|B:52f766acc589981b1230148c2b504291ebd40564b2215ff31795c4ab3785ee9e:1|C:c9a7a6b7a30c41462509be632a25f506db8d8f7b49ca1073e930e437d2c055fa:0|D:b634b15b98378f972cb36a46b7fdbe967e0f9d93599f3959b453a683d0e64d30:0"
+  },
+  {
+    "fileName": "CQ20599.md",
+    "originalQid": "20599",
+    "question_id": "319fe3ca-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20599_advent_handbell_integration",
+    "fact_pattern_sha256": "961cf5701a2316f769cae2bafc97b28bc7fbc63589864b2ec0a4a7301fbdc323",
+    "question_stem_sha256": "60d9a6aff06f01737333a932e71a226b6c4d5e5a53daa14e600f2a49dbcf40b6",
+    "call_sha256": "87e6ef278784ae18313cb42c6253643cba61cec208caf6d5b4dab965232a0fb7",
+    "choice_hashes": "A:ce41b8d670f45a5b47eab604ec0aa203662da8a0fe118345c7e89e207920269e:1|B:6fffd52cced7d800980a22f748f641a2dbae19e9bd49ed360c8a549228cc4be4:0|C:5daae04c2bed30370fd1e8c8eff7fe03e637e51afb750380cda7168877ed682d:0|D:ae4a38c32022921e49b5605e4e37cfe38b20692e77d2cd516c9ba892ead7604d:0"
+  },
+  {
+    "fileName": "CQ20602.md",
+    "originalQid": "20602",
+    "question_id": "323fb1ed-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20602_davids_harp_projector",
+    "fact_pattern_sha256": "40621c8a2c6abdf48678a82db8179b608b01b2e160c95d65f80d4d5389c19fea",
+    "question_stem_sha256": "264e21089367604a948e363a1ff921e5f65d6bce754edaff47e93ea69f4c50d8",
+    "call_sha256": "1ab4eb55530ea1925c82ad660c6a15cc6c2fe2f9e931e56baf3123cf72d76a4c",
+    "choice_hashes": "A:31780d6f1b29e5c3b37b4f6de3f71a01e22a594ba9defdfcf2125d36a52a5ee3:0|B:a9530a558cd5abf700f803e9114fec8bd0b72633ec24cf700aa018584814c59f:1|C:f74ca92c5b86a8632b61cda3fcc7859649573914598c1d34c4ee92cc1dd8e10d:0|D:de22f5ccd1498ba794ec64452118339ae25747116521f2a1160bc1f7aa931bc9:0"
+  },
+  {
+    "fileName": "CQ20603.md",
+    "originalQid": "20603",
+    "question_id": "328f0730-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20603_road_to_emmaus_escape_room",
+    "fact_pattern_sha256": "ce4413330bf053ef4b056971e7bb5581317ab4fb9090ac0a5f7aa8f33f9c153d",
+    "question_stem_sha256": "b43ad645e6f967d09e6ef8e8d804da2216314186142e4650ab1db8b98b906419",
+    "call_sha256": "f963c868cb486dad98ddda8e8cd708c16b373f3080f15848ddf4af713005ee11",
+    "choice_hashes": "A:e76a41fe98adf132ba1e9a22a024c07862ff29438c2d87f973d8bd1cc9d83f82:0|B:6f8f928365d4700373057840c2982bb25d2c56ba4f8653d474eade1b579bd306:1|C:2a32e9776922ed8c61ef77030f37b23a2b03332596ffd49ae4fd9db4854a1571:0|D:bfe74f6bb9f137a7d7ed513b455f85186d5745e383587d2f996678f1c09c5198:0"
+  },
+  {
+    "fileName": "CQ20605.md",
+    "originalQid": "20605",
+    "question_id": "328f5271-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20605_scripture_quiz_whisper",
+    "fact_pattern_sha256": "2292d43631830d24b86e2e396e09545b8645b77e97bc71497b93cb5b3f4708a8",
+    "question_stem_sha256": "3f2734fc92318bbf3d427066a27ccb0d20acdd112a9a4ad6c86aae56ce8def60",
+    "call_sha256": "cf77c754178554f8036901afae63382065001b7712da6e9ace156fa51c0e01c5",
+    "choice_hashes": "A:902c2b7951decfdfb6af834c80f8b0e09459ea330a7bffec78a6d66b91226572:0|B:f1d2d1ee06a1ec577ee5c50b94ddb778da22dee62f46198104c18c33dd564319:1|C:3f251159d0a7d00244e6950c63284c5c321c25417abb49d75edb3537f53fdee5:0|D:9e39a8d09f1d85902c8fc91ee2ebd017e549c4deb9b3f39ba78c7eaa72c21a8d:0"
+  },
+  {
+    "fileName": "CQ20606.md",
+    "originalQid": "20606",
+    "question_id": "314e1965-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20606_lydia_festival_venue",
+    "fact_pattern_sha256": "e0dbd6f50e7bc49322e184e3d2215f39f334f97f23e3532c3aa2ca4b71a6621d",
+    "question_stem_sha256": "151cc51acda13ce333ad6309a224e14fd482da0b315e7fe322d178e4ce5e81a7",
+    "call_sha256": "3e6225e8d082b6ce2acf85a7ab14bb4790977fb64acfb1501140800869450a4a",
+    "choice_hashes": "A:9deab8b5774f5cc2167f17d5ba0c599077a95ddec2ac794e3420aac8b67c2897:0|B:ee2bbf9ebe8877aaf55bf2faac8cd73ee9d84340f4a3b699aaf78606096dd26a:0|C:bd07eba2c1e85ecb650223bf7a8db0d452c5705e4da1bb63b93c52ecb1502832:1|D:046dc573f853bdf5e25ea0d8e5ba13b4fef1babf0e7f1f9c42e9a20380abdef1:0"
+  },
+  {
+    "fileName": "CQ20627.md",
+    "originalQid": "20627",
+    "question_id": "314e6ba9-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20627_ruth_hymn_poster_contract",
+    "fact_pattern_sha256": "1d41edac20e4f1bacaa00bdcc2c415f7f3a93b3835fb4ea6af5151cfbc5986ea",
+    "question_stem_sha256": "5b13c85e57cb807c9ce78cce3a558a773ecf127b60a9a5f3d563e3a6359abfbe",
+    "call_sha256": "8564f63c502e7ac87f635104adc557a3a15c68ae80c04e27f8e19915c0bf331a",
+    "choice_hashes": "A:e55a6bf943a0a723c31b9117ec6a82ff888a95dd14050d0e6c012865af337930:0|B:9b40461e2fe7502415dc1d588662cac31f89b42d0ad0a0957ae657291f311311:0|C:6d0f14237f7126a6c7aa72650e8dca18513ecf9e3d5fc55bd8e5dedbf7bbade9:1|D:8a9513013df0ff9a1ed766c4f48309b955857e996abfdc4e4a636bf5f7f738f2:0"
+  },
+  {
+    "fileName": "CQ20638.md",
+    "originalQid": "20638",
+    "question_id": "316b20eb-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20638_advent_rescue_beacons",
+    "fact_pattern_sha256": "7e90e4677651b2f0c577fed5786205e8118aedd9014f0eeac0a6f2a1ef38248b",
+    "question_stem_sha256": "4fe433b3001f9cfcfb2cfa84377bb1f69aa75d9ad8c8863c0e8c9d73ed95af67",
+    "call_sha256": "a7fbdf4800f1b647900c04c551a2b31e7a248176e5ed719e01799f1dbdcf5993",
+    "choice_hashes": "A:ec69c33a877890843edef6a89f9e48b1f598026dc9b3e07e5d4c5627331a541f:0|B:c88ea27f3ddc1dc542a218ce37838b662e0f12e25fa1c7cfe2db6a0e2905b134:0|C:2cec34f6ba771121d4f16e3a4e980c36bdd2304d7361e7c4eb4aae9b9a317a84:1|D:ca0aab4040210a39c5c38cf0fbab6986db21d45f35f4854b7e482afd26371bbf:0"
+  },
+  {
+    "fileName": "CQ20649.md",
+    "originalQid": "20649",
+    "question_id": "328f9d30-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20649_christmas_pageant_platform",
+    "fact_pattern_sha256": "a8a6d737f514c8742fccfc945f2bf8c6d5d5f062586a12291d5ef46a4fe8b039",
+    "question_stem_sha256": "1b47a42be32a52f903a23168cefe9367911fee72e764eef2a2c9882362b73b54",
+    "call_sha256": "393fcd043a59f7dbb0986974945d7d7f2825b40d4a1724fd6b5c9aa3d3989321",
+    "choice_hashes": "A:b2e8b0caf66823b25f242d70e7b2b6ac14f9828d4fa0acc4c9b1e34cfa3386de:0|B:9acc5e2f5ebe8feaa6b28783d249ab385f193cf230c952091c7ce17a75362bbf:0|C:9ce63df10a29800581d65672bcee65bcaf99ccb38a3b59ffd807d70abfab2c50:1|D:d9413f1cf1e84ecd603376d236cbfe76704bcb210198e9a59fa32c24a1a851a7:0"
+  },
+  {
+    "fileName": "CQ20654.md",
+    "originalQid": "20654",
+    "question_id": "320a4624-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20654_nativity_ornaments_volition",
+    "fact_pattern_sha256": "4aa20ef77bf44c723e89780743e621c6c0776b721a2ecafcf5adfa70924af670",
+    "question_stem_sha256": "4767af311d9b948891488649167b7a64e7bf272a0aec55b04d245727706b5d28",
+    "call_sha256": "cc6f1a50426ecd4dc67f305ff5f290e7e784f66ca358c496203c7d76cb73a8f1",
+    "choice_hashes": "A:8341dcc6d6b9713fe3eb6aa36033eb2835becba772e05f92b15f0fa182b63af2:0|B:76336fd1fcb2c4f931c1e3cbfd5e74b289ea37556259c0800bb7df9647cdff44:1|C:bb42ad64411c4e377789ff2224f3763287a33a854ce1444304fe25ba6e3e9605:0|D:6e3f7fc04b4efc1a80706a432463b5c7cec57fbca40888086acf9d0069bb7630:0"
+  },
+  {
+    "fileName": "CQ20690.md",
+    "originalQid": "20690",
+    "question_id": "314ebf1c-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20690_bethlehem_star_drone",
+    "fact_pattern_sha256": "bd4532a69e5b940eda9e7ab3f01556ef5565b5591f69f5f311ea199e9ab2f94a",
+    "question_stem_sha256": "c03c8a35c188d56823d06129dfedc006319f7f5196cb1e761bd3b1da9e740bcc",
+    "call_sha256": "87e6ef278784ae18313cb42c6253643cba61cec208caf6d5b4dab965232a0fb7",
+    "choice_hashes": "A:e700ae1128958c252abacd54b3b4b75afd48ff7f4082e17c3446d63a146c469c:0|B:e572ed7906a6c1b299d3810ae1227ad1aa5fe4667eecbe9cab25ba764c8e53f9:1|C:19e8c081d6055efd2aee9c12871a55912a5a3c7263f11b2bc0dd0691283fa2a1:0|D:2826c30f63b60f10ef81192e496c6b6c8c3a2e53caf37d78a0192c74d586fbed:0"
+  },
+  {
+    "fileName": "CQ20714.md",
+    "originalQid": "20714",
+    "question_id": "316b5a33-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20714_prayer_robotics_kits",
+    "fact_pattern_sha256": "34334e6a87090de603180b3632a700d675eed67bff204c6fcd20988c2cc1e5da",
+    "question_stem_sha256": "0769c91ce9e8627632e6289ca448e78ee421bb925c143493d9745e65e225a1ff",
+    "call_sha256": "e4bbdaa9bfbc6666dbc4bcd26c06d008784785080fa8238424dbfbcf1ca1a28a",
+    "choice_hashes": "A:99f1e270950d35a2f76b0d703242c1a3cb09dd7cff81e4c880f54fa65cddab1c:0|B:cc1af035a7ce7032d51be8848a1eeef6e1ea9c5bb55d7a8e0e3c0468e17b7420:0|C:e1ace109c1af19dc0030e79dd76d9791101c6d68f9f279b20f8c453e18c93efa:0|D:53569fa4ad2b768fd5a4c2d35b0faa61bc72a20c39c6c7ff59dfd43720092c3b:1"
+  },
+  {
+    "fileName": "CQ20717.md",
+    "originalQid": "20717",
+    "question_id": "328fd5ec-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20717_ruths_hymn_recording_procedure",
+    "fact_pattern_sha256": "d64569ed88d4cc42eb3f2706187c60e52aa09026fad15a10fe12d45064f4659f",
+    "question_stem_sha256": "2a319ace40c5319bbabd2419d924106b310cbc20bbcaa50fd437ed9aa325d71e",
+    "call_sha256": "57acc04eb94658a72959ade992e26ed76d018fc730be580957705d2e418e3a2b",
+    "choice_hashes": "A:85482969d69da87263c840c74833da39785738bc013e8feaa3223c9e15071a5c:1|B:c28a06385a7044dd09638c3965be085ea635558fad631b981471548982e858b3:0|C:b12673109840cca09dd44131400f975ef9df1006be60459560383b469d1a4781:0|D:d1134b9ab93367a63799f2c42a80fdb30b8db88488ef22979bf4be11fe9871d9:0"
+  },
+  {
+    "fileName": "CQ20725.md",
+    "originalQid": "20725",
+    "question_id": "32901cd4-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20725_emmaus_laser_cutter",
+    "fact_pattern_sha256": "fdb15d40e6927bdbe5f2ce72803633d7aa5b81fa34291a045c2f5ca3727c21c7",
+    "question_stem_sha256": "9334299e043223b0ac5338af424f06dbd727129ba417f999311cf897f6786096",
+    "call_sha256": "8ebec443535a4ee91a9b674306c4f9f08b598f57bd939f441f6a1476d0b15594",
+    "choice_hashes": "A:4216b286fcb6ddff3ae801d5fe4579ddb379df11da4e9073439fb1587f53cfa5:0|B:25db8d1643d10a6adfe60b5391ee8dab17eac6c8f3c72db0d25c3674017337fa:0|C:546100bc1a00ed776b607b2656b200b111527ba3b9566668b1186de455fb1497:0|D:91ae6920b6a218f7108c1a5a58c679b27ade63107fa480d2a77f956cc4c655d7:1"
+  },
+  {
+    "fileName": "CQ20728.md",
+    "originalQid": "20728",
+    "question_id": "32718c51-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20728_star_stable_stall",
+    "fact_pattern_sha256": "108b751b39293020e8ee38da54a08fc1ad741ba9d0730b5070dd4baf810cc5de",
+    "question_stem_sha256": "79ea05edc3dc6d0d06c1b1d3e2dca3d5510b2755d67bcfc330153317bdb260be",
+    "call_sha256": "af8238f8d5a59c65304627666b7c3557d333675c28901816b18fd48b2beee959",
+    "choice_hashes": "A:2b43c69c5d80fa2c7f99ea3c09a3e721295fca54463ebfcef2faa6d3a0cb3b28:0|B:cf48f923d2f71bb45b6d89ba7dcae7cf2bfee38fb34f9d769824b79c3a00eeca:1|C:2b361b1be379ed134d25859e6547cbd8c4bb73e16fc5aaf712219e4f228c7418:0|D:d1e9d7eb13fb1d95f4540f48fa9cd3f83d86d5d926704cb9bfe18b4e1297a1b8:0"
+  },
+  {
+    "fileName": "CQ20729.md",
+    "originalQid": "20729",
+    "question_id": "3271caf7-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20729_courtyard_stormwater",
+    "fact_pattern_sha256": "0167b3fb0ea585f462b84e3de28dd632179b3af15f59c42d308be52d7c7053fe",
+    "question_stem_sha256": "18f36c4fc7dc0cdfa03f25cfa6e3e4bd51051374cefe3fd88ccfe76a95a5eee6",
+    "call_sha256": "675854479fe8a48e7ccfa09c7d71502c904f888ed59f6c901b6e01485fc96614",
+    "choice_hashes": "A:0b3ea6c35fadaa431824fe46d70978d7ad02df6509c81b9d0bd470126f2b2bf6:0|B:44abe070330a45d8d315ee34a8464d4ea2e46ec88e8ef9908ce905283d211330:0|C:961e0f20b82bef2bdab32c8d53d668e6b65eb68ebb92a94bce11c408254e02d7:1|D:fa0f66ddd7168d93b03cec9151c9fd8744920135575257b07ecf09e443135f94:0"
+  },
+  {
+    "fileName": "CQ20730.md",
+    "originalQid": "20730",
+    "question_id": "32906507-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20730_shepherd_sling_fair",
+    "fact_pattern_sha256": "01501039c86984e5bb861db614e4bcf109d078287f390c58ffe2df3dbc72c650",
+    "question_stem_sha256": "a4469a650dc55ece350540caff58109014bf000e728120266c57751013211572",
+    "call_sha256": "4fc91dd9d410d4661102d1a30da5e4b7ff6d7ba0959e0a8e09523498d194e312",
+    "choice_hashes": "A:b34b129add33c3676432165f0a886dd7e9697ed6bd2c254f009a054b36bbfab2:0|B:c98c08cbcea4d4c9db49883d1364f30e0de5feeb477ec22d91951fb752cee5bd:0|C:ccb0df50ee981b3a845187a59594d1f221c6534db8e15cbdc278064cb829aa6b:0|D:41d103e3f711eacf886dfac4fd5fa14d55b7be6d21bb65fca32d4a6a573919dd:1"
+  },
+  {
+    "fileName": "CQ20733.md",
+    "originalQid": "20733",
+    "question_id": "3290aabb-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20733_galilee_trails_death_notice",
+    "fact_pattern_sha256": "6583cca385bfb347b60b56f37c00fea7633126e36f86b43ed7626412adf91348",
+    "question_stem_sha256": "a3d54092ff80e8d9f0a086feefad8d63c487eba6223d36a092406872c2a06f18",
+    "call_sha256": "30d36151734b33ccde1b30fb2f2b1aaae0a3208349fffe7caabe98075c1e9bd3",
+    "choice_hashes": "A:2d00cd6e4828f14d270fb7b7e6836e6bce65a9c03e34e652a340c43019f6013c:0|B:b696734ed1f988d3375e3b4cffeda9963c55cc10d12635d55565b50749766ce7:0|C:e8252792c2032a1e5b7831758cbb948c3a95603974b957dbb610aa4f9f949fc6:1|D:de443070676acc557701fdc31681502f1ffdf39ecf6cbd526074bec051e96641:0"
+  },
+  {
+    "fileName": "CQ20735.md",
+    "originalQid": "20735",
+    "question_id": "3290f136-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20735_bethlehem_donkey_blower",
+    "fact_pattern_sha256": "2a5504a6565c6cec0f3d384916444a8c357ff3768594474bf9cf42bf30aa23a0",
+    "question_stem_sha256": "c9d3070fcbea545074af5eef192c4e32dd1df1fa05225c3d6f3bcee656ef14f3",
+    "call_sha256": "471bd31a8781e867ae2da3205ecc585f7da626b3252659826a770ab336c187d1",
+    "choice_hashes": "A:d87f824f4c123b708d097182f1562256a87442ef23943535d7582d6092bd7235:0|B:38cadf4ec364cc8c484b28f13bf1839416b88dc0a0cbe940dea9589a9e74186f:0|C:31e91289432dcefaee91f2504d2228ce79fe6d956b00c51f047b69dc16f4fea1:0|D:4bd86c9d722afe0b921302616118a049abb5cb607ac475f94a48a02739963e2f:1"
+  },
+  {
+    "fileName": "CQ20737.md",
+    "originalQid": "20737",
+    "question_id": "31a0824a-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20737_jonahs_whale_lyre",
+    "fact_pattern_sha256": "a2356e3c05bc1f48fd621c5b0dcef96d06abc55e098ca0224fcdb6015dbef62a",
+    "question_stem_sha256": "524b849de1eedc26c13c7f52144a2b6962095cdca399cd6e9c9fb1fba976ed34",
+    "call_sha256": "fe114fce301442924cf59d46ec49b2f87b40cd44b87c8284238bdd28ed14ee5d",
+    "choice_hashes": "A:704fe45b6565b1c37982cdfa57287396d40d0789a66bd52f8b1845df1a262aa4:0|B:48dfa8e5fe4e7a5bdf7bc2ee983ed06bd166da0359d176c32c80147ef69bf73c:1|C:f7f52f19e940643bc75fbf18e277558a83a5e60f9976e6e157e4212f7f0d6286:0|D:01573775569776f3405a65d4b4c2f09f108fa1c50704e8c8675f0b7a820de34f:0"
+  },
+  {
+    "fileName": "CQ20744.md",
+    "originalQid": "20744",
+    "question_id": "32913a71-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20744_bethlehem_loading_lane",
+    "fact_pattern_sha256": "dc872dcfb1c6bf6a3b93967a8545232017175fd8f2138d798770a309221c912e",
+    "question_stem_sha256": "e7ed78dbad708c63bc8594428d1a2db8e880c25bb6067a1d7268d605c31f5f4d",
+    "call_sha256": "8093b43ef0f6d4af4c4738843203762f32805af18bc45ab0cf7751502e5e1940",
+    "choice_hashes": "A:670c47ca1649a58497d31cc54a030f5ef496f4d6787ce8a1506589d7e550be23:0|B:de2f450c3ea12835368d3af0f18a81b2417a8b9552f25f89de12527ea8a7ca98:1|C:11624aef2932839b6f7e9963b4b717e602688b3cde1d4ae7fd0c62cb9e5edf25:0|D:cb947eed7cf29b7497e2ee0c260d5444f9405c78f8c613038b71cf36e7f5e291:0"
+  },
+  {
+    "fileName": "CQ20760.md",
+    "originalQid": "20760",
+    "question_id": "323fe54d-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20760_rubber_stamp_mail_fraud",
+    "fact_pattern_sha256": "fb70068c8b56f4fd950d98d76122c3540347f78b5c98f32a56a58750742f1524",
+    "question_stem_sha256": "e8d2f7386aaaa3e5f15268f983b766f4cecef501bcfde2478bb906b8cf3c284f",
+    "call_sha256": "f2572f43c2255c983d69cc59534a2dfc427bf21c9ba736ac45494f32bf3ff8ad",
+    "choice_hashes": "A:d203dafde2b0970b5574a0f8927c297021c808bba242dc38d95c3726cabc2f2e:0|B:907e53e73f5dbe376baf89cc39b0c2fd7720bea129904902434a0b83efe6709c:0|C:5f5f5fb29cf06706d1db28ba42589509c186448a762c46f3a6f1224249cc3a02:0|D:7091ab869853176ecba833183e66ca4c3ec05e6f5c7b45885c21fe354e810d05:1"
+  },
+  {
+    "fileName": "CQ20808.md",
+    "originalQid": "20808",
+    "question_id": "31a1293e-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20808_jericho_press",
+    "fact_pattern_sha256": "80e23815ac3292bbbc78e4fa61d3a6ddf44ef6ae91f367369ef789f9296ce49c",
+    "question_stem_sha256": "eb1b647e3eb124644817dda7173ef0540fed4f9c7d706eb8cb5262b3f6329ce7",
+    "call_sha256": "ad0d56bb1f6209f2d005982dcbbdd3f792f388bded24265d2c13d14623b7075b",
+    "choice_hashes": "A:dbbd571f7e1508b08dae1a7b80afbec7e530cfd7f2ec664331a60ef412021aff:0|B:053d99ac28727fe9f8dda508dc10b5af67a7b9d42da357dc4c343a19b2cf8612:1|C:17e48f46a21519ae2452c327407b7927340d06407dc51ed691ac9185e5defef1:0|D:02c27f0ea049bb0a63920b2b338f24edd5e4ae86fbd5b97f9fc56e15bc0ad5e1:0"
+  },
+  {
+    "fileName": "CQ20811.md",
+    "originalQid": "20811",
+    "question_id": "314f1216-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "20811_illuminated_psalms_solvent",
+    "fact_pattern_sha256": "87e78f29d952749b204156fbf8a902110efd8e90ceccba4b8fd3e732219a67d2",
+    "question_stem_sha256": "a167a6ffde006943ec051870f2ba68f6b9bf0aa4cb409a33714bd6120be98c43",
+    "call_sha256": "c1ce7085a9ba387047e30bd7f3d0bcab6ab0692818f54029621a9ffcfcbac8a0",
+    "choice_hashes": "A:5313a5880ef4377b56a6124fe1d3281baabc875f8dc4039a074e1be69bafccc5:0|B:c97f9b7688f316968e8f5434ee4970c3756a184e06436a3c575c6cb4638b504d:0|C:c7e5eb1b48be6d92193c0c1c7183a7c3e9c86725e70e4a21d24dbddb762404b0:0|D:02f22264ec737341fba0ed68d08b3f823dbce6e1739a932950af43c04ce9955c:1"
+  },
+  {
+    "fileName": "CQ21711.md",
+    "originalQid": "21711",
+    "question_id": "31500d28-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21711_foam_whale_nativity_attachment",
+    "fact_pattern_sha256": "a16fe9be6887546029e4eeea82e81e35e5f22093f6fb9fa71b5d6dbc4db54c4d",
+    "question_stem_sha256": "b4fafc9fbe18097a520e6a5bdaaa6929943bbc869c438d7ff8f9852f4fac7181",
+    "call_sha256": "25493340e9eedf4f78d1e278944256353c372004f5f215540a798443d19f1997",
+    "choice_hashes": "A:20936335139647126bedf99341a458c31befa64ce656d2a97fb411c71f789c29:0|B:3653bf2eeefc705ad41c1a6627e257959af2c65da04c879295e4574cb403d55a:1|C:a637217356ea2c3ba44b782eff8f2fd4a21a875e1bd9d2779bffc1c57f912a64:0|D:16fcb4f10c89d559c6f0a9cb8bf169b4a70e8e2412cca91ac1e3447fb6d4d7b4:0"
+  },
+  {
+    "fileName": "CQ21752.md",
+    "originalQid": "21752",
+    "question_id": "3293b2d2-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21752_olive_oil_ramp",
+    "fact_pattern_sha256": "1021e8f5aba0b76a6d545bf68e033b4d7ea53f87fc6f6128e2a515bc96789ad4",
+    "question_stem_sha256": "b3d77479a84b455cfca47a2a1c1b802b84cdf5cba0e4fb127049e44f887ccea9",
+    "call_sha256": "dd0c2765cf3de9f3aab465d4e8a3e374c0a0a0b2a184f65f413dbd3c127c8046",
+    "choice_hashes": "A:f0b73b0b68086874a0572d405389657ea4826ba65ff5013a5ce4c9fe3c808510:0|B:2fb3f47995c10452df002ac9e1a486b3ab3a0ac28ace30ae62c9f8a7dfee6fc9:0|C:d868e72e51358041de6817a52d213b32a9f1e516808edc1eb624a004b1f082e3:1|D:2e596c6f9f1023dce46be17d28faf60483b6e57f4dce3f9960599c9a9ca38707:0"
+  },
+  {
+    "fileName": "CQ21848.md",
+    "originalQid": "21848",
+    "question_id": "316dab2f-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21848_manna_house_family_integrity",
+    "fact_pattern_sha256": "2154662b121396f7361699b1e9c5e8b94d101960f703c75b271777cb010a148b",
+    "question_stem_sha256": "b67535e3afd57bc9b4bdb57ab08a8b75f060dc68c0b6b6802c813988f0387374",
+    "call_sha256": "f7530950223294a8c1d011eef6804961122791b5b5fa6a4bdc9382a18d832c47",
+    "choice_hashes": "A:676600ab7ac401cba8322ec79fefbb220ce0b871f531a059f3dfd260596f36d9:0|B:ff852beb56ea40b271240e8f05db709fa46d8a121989c8db1da0f614cf67800d:0|C:f0a779a672b15540df912460080556ab19757dc2ecfa7540e9bf9ac0f07b3401:1|D:ad14c01c8176debe39f157248c59f326d95f0c39c51a25631b27f416d74b7cae:0"
+  },
+  {
+    "fileName": "CQ21867.md",
+    "originalQid": "21867",
+    "question_id": "32188c34-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21867_psalm_puzzle_booth",
+    "fact_pattern_sha256": "69731c46560d0bb062d9cb2a4e46422f87121d93d9c6f42d27f887ff7dd65348",
+    "question_stem_sha256": "95bcb383e2e4be1c33d53094b319cd0d16b3cd113064ed4431602ac82ea41f0d",
+    "call_sha256": "f17d5ce718f68f73c9a7f93e5fe00803abc611b3126f0b53f4bb2776bb6f42e7",
+    "choice_hashes": "A:9ea7e9925e71663a0c889fe411ed75092a93b93137193e1ed9872f91ff35351d:1|B:43bcbd88186ec45e2374c625d1dbcfe7dfa17499549be3cd1789a26f32c19910:0|C:91b8dd8b7635c6ef8d8fd20ecc9984727e407cb462e6f6bf0654944990a3f449:0|D:7a06e8c2d894735468e2af666e526eaeaee4a1f71c12399403f0e283afee8b47:0"
+  },
+  {
+    "fileName": "CQ21869.md",
+    "originalQid": "21869",
+    "question_id": "3218db87-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21869_tiny_house_hymn_sheet",
+    "fact_pattern_sha256": "72dd68ba85b8fbe6f9dbbfe3e6be1a021b7a0cbbb5aa1a162499d8bb6dd14a45",
+    "question_stem_sha256": "71b92bcef7bb7a1384bd75ab431a7bdb070ac9e72c5505d48e3a777d34dba460",
+    "call_sha256": "97ffa98cee34ffc4d1c782dafbe85eb83c674ecb6175cb37a84cf309d36818bd",
+    "choice_hashes": "A:0d871e97089b55a99366521a035a5bc79461c81fbcdae5d381e8f91a14aa0c38:0|B:19a13ffda145074248b2771da8c7f3ab8ceda395265afb7ac84b4fc24355bb4f:0|C:4fcebdb1d5a62023f16d0892850af0a53855a16457a5402fd09e415d68ecacfb:0|D:6a6733b334871d765e0336a3f976cb3f3aeedc9fee3d1d90965cec65ffa46102:1"
+  },
+  {
+    "fileName": "CQ21872.md",
+    "originalQid": "21872",
+    "question_id": "316dfe7e-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21872_scripturequest_price_gate",
+    "fact_pattern_sha256": "08f8ffffb5bc94f914e5e45f80b773df03d207ebef33bdea5f0a24b92fdecc23",
+    "question_stem_sha256": "d6447f7fd9cc0642a2056866f16b3ae655be1166c600884e66c6c0554ae71dcb",
+    "call_sha256": "aeb13c94183f4b3ed125cb56b940aaa9cfaa868c4048be109d932c145fc11da7",
+    "choice_hashes": "A:043ebe8e5c0abb6dbf4d6d7665b99dc99d0a00524cc01886f9c722b629b17824:0|B:78b0d051d34844f466fff7beef1ba623d77e62b275d919666f0a9f08e0b20943:0|C:e44031c49ee0099eaf9722e40e4a875531ef7ce7e0d98f26b7111b806fe28215:1|D:b39d42ef3dde60bac9c80c508d24532e2e8146474839013e5be5e5e1cc9f5da9:0"
+  },
+  {
+    "fileName": "CQ21879.md",
+    "originalQid": "21879",
+    "question_id": "31a3cc15-6a31-11f1-a7ad-f9e8a06a2fad",
+    "external_id": "21879_noahs_ark_puppet_set",
+    "fact_pattern_sha256": "57c54664abde487f6271ce29b304affc5be5c20969695211a6e20c8f6636cb3d",
+    "question_stem_sha256": "c263f075297c15c726f620a18e2d0c61046e42b8c37ba1036f5c55fbc54ad787",
+    "call_sha256": "6ca2bfec3b1af58f8e7daee78b795de06ee279dedcf788c659866b491916fa28",
+    "choice_hashes": "A:d0fa16461bd45af59ed4fdaa44c790c9243fc07e82c9aae4dd0c6732e91b62e3:0|B:6835f1db41011575585e098ccb663e427726f7486e742f70faef7ea531a9a5e5:0|C:07062c8800b0be93e80a6acdb0f62dd8d82a88893462a1b922a5c759aaa67f54:1|D:148d9227c537a9ff74be9cc1904545d9217f21745f7ec41c77f1bdd56acddeef:0"
+  }
+]
