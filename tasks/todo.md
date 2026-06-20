@@ -1,3 +1,20 @@
+# Atlas V2 Practice Neighbor Position Cue - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for previous/next practice target positions.
+- [x] Show each submitted-state previous/next question link's target position in the current code.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `9b828e6 Add Atlas practice neighbor cues`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: previous/next question links on the Atlas practice page now show the target question's position in the current outline code.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`.
+- Current live production remains `dpl_B4yfmGrL2iNEDWgsgnbt1FUhBZwF` at `https://barmatrix-fvh8i54ro-sunnylee.vercel.app`, aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+
 # Atlas V2 Question Sequence Cue - 2026-06-20
 
 ## Plan
