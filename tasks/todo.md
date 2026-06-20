@@ -1287,3 +1287,22 @@
 - Production deploy: Vercel deployment `dpl_GPMqpKRow9Pq4d8gaJT7VG6CTDi1` reached READY for commit `2df1a55`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-j4wli31th-sunnylee.vercel.app`.
 - Live check: unauthenticated `https://barmatrix.app/atlas?code=93110100&lessonContinue=2df1a55#atlas-code-lesson` redirects to sign-in with the intended Atlas URL preserved.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live DOM proof of the checkpoint button was not captured; source test, lint/build, Vercel build, alias state, and auth redirect prove the deployed route.
+
+# Atlas V2 Connected Preview Action - 2026-06-20
+
+## Plan
+
+- [x] Confirm whether approved LeadMe preview IDs map to already-runnable study routes.
+- [x] If direct preview routes are not proven, add a safe selected-code preview action that opens the approved LeadMe path instead of guessing item URLs.
+- [x] Write the focused source regression before production edits.
+- [x] Run focused source test, lint, build, whitespace check, and deploy if the source change passes.
+- [x] Record root cause, proof, deployment status, and remaining route-data limitation.
+
+## Review
+
+- Route-data finding: `leadme_item_previews` currently expose `item_id`, `external_id`, `component_type`, and `estimated_seconds`, but not a verified app `href`; API study route data is still placeholder/empty, so direct preview-item URLs would be guessed.
+- App commit: `2e9d553` (`Make Atlas previews open LeadMe`) pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: LeadMe preview rows in the selected-code `Connected previews` section now render as controls with `Open through LeadMe` when an approved LeadMe set exists, reusing the existing `startLeadMe` flow instead of creating new item routes.
+- Verification: wrote the source regression first and confirmed it failed on missing `Open through LeadMe`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 8/8, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_Djo4knNh1aq2hhJhX5EyexRtQjfP` reached READY for commit `2e9d553664d7089602add495729faaa13a535569`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-7j6265uy0-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live DOM proof of `Open through LeadMe` was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
