@@ -1113,3 +1113,9 @@
 - Root cause: Atlas linked to the answer debrief and in-page question list, but had no customer path that mounted the shared `QuestionRunner` for an approved Atlas question.
 - App change in progress: added `/atlas/questions/[id]/practice` using the shared `QuestionRunner`, changed selected-code primary action to `Do first question`, and added `Do question` beside each listed Atlas question.
 - Verification so far: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check`, `npm run lint`, and `npm run build` passed; the build route table includes `/atlas/questions/[id]/practice`.
+- Live proof found a second root cause: Atlas question IDs such as `14001_christmas_stage_review` are not main-bank UUIDs, so the shared `QuestionRunner` loaded `/api/questions/:id` and failed with API 400 `invalid question id`.
+- Final app patch: replaced the practice page with an Atlas-native runner that loads `getAtlasAnswer`, renders A-D choices, supports local submit/reveal, and links into the approved answer debrief.
+- App commit: `2e9bdc2` (`Fix Atlas practice runner`) pushed to private `auronpep/barmatrix-app` `main`.
+- Production deploy: manual Vercel deployment `dpl_8gfXPWB6LidCnBkK17Yr5nFDECSt` reached READY and is aliased to `https://barmatrix.app`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts` passed (8/8), `git diff --check`, `npm run lint`, local `npm run build`, and Vercel production build passed.
+- Live proof: from `https://barmatrix.app/atlas`, clicking `Do first question` opened `https://barmatrix.app/atlas/questions/14001_christmas_stage_review/practice`; the page rendered code `93110100`, four answer choices, enabled `Submit answer` only after a choice, and after submit revealed `Not quite`, `Correct answer: B`, the minimum explanation, and `Study answer debrief`.
