@@ -1003,3 +1003,18 @@
 - Production deploy: manual Vercel deploy `dpl_3xwZhUQsQYudTh7rD1Qc6JWaXiL7` reached ready; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_CpsqGLuxbRjXyAgTCMzB9Ranx5si`.
 - Verification: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts`, `npm run lint`, and `npm run build` passed.
 - Live browser proof: `https://barmatrix.app/atlas?code=93110200&v=5a87871` loads the signed-in Atlas, selected code `93110200`, lesson section, and outline rows with lane footprints like `3 questions`; dashboard `/dashboard?v=5a87871` shows the `Outline Atlas` left-nav link and Atlas card; no browser console errors were captured.
+
+# Atlas V2 Saved Code Resume - 2026-06-20
+
+## Plan
+
+- [x] Surface the locally saved Atlas code as a resume/return control inside the outline walk.
+- [x] Reuse existing `LAST_ATLAS_CODE_KEY`; add no API, database, or auth changes.
+- [x] Run focused app checks, deploy production, and verify signed-in live behavior.
+
+## Review
+
+- App commit: `bb2bb26 Add Atlas saved code resume` in `C:\barmatrix-app`.
+- Production deploy: manual Vercel deploy `dpl_2nTxvBDZnh7MmNez1NRzJUaJZHyF` reached ready; final alias check shows `https://barmatrix.app` currently resolves to ready production deployment `dpl_8UUxv2w2DM6SZ5S1BLRTADpBjgte`.
+- Verification: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check -- app/atlas/atlas-client.tsx tests/ambassador-dashboard-entry.test.ts`, `npm run lint`, and `npm run build` passed.
+- Live browser proof: opening `https://barmatrix.app/atlas?code=93110200&v=bb2bb26`, then `https://barmatrix.app/atlas?v=bb2bb26`, resumed selected code `93110200` and showed `Saved code on this device: 93110200`; signed-in `/dashboard?v=bb2bb26` still shows the `Outline Atlas` left-nav link and Atlas card; no browser console errors were captured.
