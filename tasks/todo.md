@@ -1,3 +1,20 @@
+# Atlas V2 Empty Question Jump - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for an empty question-bank jump to the next practice-ready code.
+- [x] Add a `Next practice-ready code` action when the selected outline code has no approved questions and a later code does.
+- [x] Run focused Atlas/dashboard test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `4c5f2f7 Add Atlas empty question jump`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the empty selected-code question bank now offers `Next practice-ready code` when a later approved-question code exists.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy passed: Vercel deployment `dpl_B4yfmGrL2iNEDWgsgnbt1FUhBZwF` is `Ready` at `https://barmatrix-fvh8i54ro-sunnylee.vercel.app`.
+- Live aliases confirmed by `vercel inspect https://barmatrix.app --scope sunnylee`: `https://barmatrix.app` and `https://www.barmatrix.app`.
+
 # Atlas V2 Question Debrief Label - 2026-06-20
 
 ## Plan
