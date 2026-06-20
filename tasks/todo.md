@@ -1684,3 +1684,20 @@
 - Implementation: reused existing `filtered`, `allNodes`, and `scopeLabel`; added no API route, database write, content mutation, or new coverage field.
 - Verification: the focused source regression first failed against missing `Visible codes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-63qsdy83t-sunnylee.vercel.app`, so `b812d8a` is pushed but not live yet.
+
+# Atlas V2 Visible List Navigation - 2026-06-20
+
+## Plan
+
+- [x] Make the selected-code Previous/Next controls follow the currently visible filtered Atlas list.
+- [x] Preserve existing global code order for lesson links and other walk targets.
+- [x] Add focused source regression coverage.
+- [x] Verify, push, try deploy, and record status.
+
+## Review
+
+- App commit: `20c78d8` (`Make Atlas navigation follow visible filters`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code `Previous` / `Next` controls now move through the currently visible filtered Atlas list, so filtered walks such as unstudied, lesson-ready, practice-ready, or searched codes stay inside the student's chosen slice.
+- Implementation: added `selectedVisibleIndex`, `previousVisibleCode`, and `nextVisibleCode` from existing `filtered` state; preserved `previousCode` and `nextCode` for existing lesson links and global-position uses.
+- Verification: the focused source regression first failed against missing visible-navigation state; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-63qsdy83t-sunnylee.vercel.app`, so `20c78d8` is pushed but not live yet.
