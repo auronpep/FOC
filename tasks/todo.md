@@ -1432,3 +1432,20 @@
 - Verification: wrote the focused source regression first and confirmed it failed against the generic `Open detours` implementation; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 9/9, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_GaMwViFGdAFtFwQj9oehzwezrbvo` reached READY for commit `dca86ecc9c942c1cb6da16fae6cf5595776cdb63`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-2oxjpfe63-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live Atlas DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Page Metadata Naming - 2026-06-20
+
+## Plan
+
+- [x] Rename the Atlas page metadata to match the dashboard-facing `Outline Atlas V2` label.
+- [x] Keep the existing `/atlas` route, auth behavior, and noindex stance unchanged.
+- [x] Add focused source regression coverage.
+- [x] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `b6f91a688731c98e75df4124a916189c5476a9d8` (`Name Atlas page metadata V2`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI metadata change: `/atlas` now ships `title: "Outline Atlas V2"` while preserving the existing `/atlas` route and `robots: { index: false, follow: false }`.
+- Verification: added a focused source regression that first failed against the stale `Outline Atlas` title; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_67sbUqHgia4m9vxJPzLfY7mpx5hR` reached READY for commit `b6f91a688731c98e75df4124a916189c5476a9d8`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-14b6xagkh-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible browser-title proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped metadata change.
