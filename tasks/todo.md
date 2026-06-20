@@ -1467,3 +1467,21 @@
 - Verification: added a focused source regression that first failed against the old visible `Outline Atlas` copy; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_DhF39bkg98ijsavm6cDFa8j91A1n` reached READY for commit `44af714fff40d4e4ce174ef06d30a47c7f1d5f57`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-livwd37z4-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible browser DOM proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped visible-copy change.
+
+# Atlas V2 Boot-Camp Lane - 2026-06-20
+
+## Plan
+
+- [x] Surface approved boot-camp components in the Atlas component index.
+- [x] Convert the placeholder Boot camps row into a live gated lane when approved boot-camp items exist.
+- [x] Reuse existing LeadMe start behavior; add no API field, route, or database write.
+- [x] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `46a95dcb63f92df7e3be9941b05583d36dc78b6e` (`Surface Atlas boot camp lane`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the component index now includes `Boot-camps`; the Boot camps lane becomes `Live` and opens through LeadMe when approved boot-camp items exist, otherwise it remains an approval gate.
+- Implementation: reused existing `leadme_items`, `countMatching`, `startLeadMe`, and lane components; added no API field, route, database write, or new abstraction.
+- Verification: added a focused source regression that first failed against the permanent placeholder lane; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_AnAquuStKntrZVwra2wuKXapUSsU` reached READY for commit `46a95dcb63f92df7e3be9941b05583d36dc78b6e`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-6v1r5rius-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible browser DOM proof was not captured; source regression, local build, Vercel build, deployment metadata, and alias state prove the shipped boot-camp lane.
