@@ -1414,3 +1414,21 @@
 - Verification: wrote the focused source regression first and confirmed it failed on the old `Outline Atlas` labels; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 9/9, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
 - Production deploy: Vercel deployment `dpl_FHd84drqB68NE8EgEvjUmG11Lxeb` reached READY for commit `32a74ea3ea48627d2fa7dd936cff4c7b26ea5350`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-kgtt2a3l0-sunnylee.vercel.app`.
 - Limitation: no signed-in browser-control session was available in this pass, so visible live dashboard DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
+
+# Atlas V2 Typed Detour Lane Actions - 2026-06-20
+
+## Plan
+
+- [x] Make Trap and Tension component-lane actions type-specific.
+- [x] Keep existing detour routes and anchors; add no new API field, route, or guessed URL.
+- [x] Leave non-detour trap/tension counts informational instead of linking to the wrong detour type.
+- [x] Verify, deploy, and record proof.
+
+## Review
+
+- App commit: `dca86ecc9c942c1cb6da16fae6cf5595776cdb63` (`Use typed Atlas detour lane actions`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the Trap lane now says `Open trap detours` and only links to `#atlas-code-detours` when `trapDetourCount > 0`; the Tensions lane now says `Open tension detours` and only links when `tensionDetourCount > 0`.
+- Implementation: reused the existing detour anchor and typed counts; added no route, API field, approval state, or guessed item URL.
+- Verification: wrote the focused source regression first and confirmed it failed against the generic `Open detours` implementation; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 9/9, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed.
+- Production deploy: Vercel deployment `dpl_GaMwViFGdAFtFwQj9oehzwezrbvo` reached READY for commit `dca86ecc9c942c1cb6da16fae6cf5595776cdb63`; aliases `https://barmatrix.app` and `https://www.barmatrix.app` point to `barmatrix-2oxjpfe63-sunnylee.vercel.app`.
+- Limitation: no signed-in browser-control session was available in this pass, so visible live Atlas DOM proof was not captured; source test, local build, Vercel build, deployment metadata, and alias state prove the shipped change.
