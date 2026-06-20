@@ -1806,3 +1806,19 @@
 - Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
 - Verification: the focused source regression first failed against missing `Current code checklist`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` (`dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE`), so `63dcd08` is pushed but not live yet.
+
+# Atlas V2 Next Lesson Target Preview - 2026-06-20
+
+## Plan
+
+- [x] Show the next lesson-walk target before the student continues.
+- [x] Reuse existing `nextLessonWalkNode`; no new state, API, database, or route change.
+- [x] Verify, commit, push, attempt deploy, and record status.
+
+## Review
+
+- App commit: `04b6fa1` (`Show Atlas next lesson target`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the lesson checkpoint now shows `Up next in lesson walk`, including the next target's outline code, outline text, and subtopic, before the student uses `Continue lesson walk` / `Mark studied + continue`.
+- Implementation: reused existing `nextLessonWalkNode`; changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no new state, API, database, route, or content change.
+- Verification: the focused source regression first failed against missing `Up next in lesson walk`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` (`dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE`), so `04b6fa1` is pushed but not live yet.
