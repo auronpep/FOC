@@ -1,3 +1,19 @@
+# Atlas V2 Mark-And-Continue Code Walk - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for marking a code studied and moving to the next unstudied code.
+- [x] Add one main-panel action that uses the existing device-local studied state.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `3cb45c4 Add Atlas mark-and-continue code walk`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: added `markCodeStudiedAndContinue` and a `Mark studied + next code` action in the selected-code studied-progress panel, using existing device-local studied storage and `nextUnstudiedCode`.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; current live production remains `dpl_CmBzQR3GZAZ2AMa6bcGWhNroRTia` at `https://barmatrix-rkcdc28ii-sunnylee.vercel.app`, aliased to `https://barmatrix.app`.
+
 # Atlas V2 Scoped Content Gap Action - 2026-06-20
 
 ## Plan
