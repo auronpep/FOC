@@ -1701,3 +1701,22 @@
 - Implementation: added `selectedVisibleIndex`, `previousVisibleCode`, and `nextVisibleCode` from existing `filtered` state; preserved `previousCode` and `nextCode` for existing lesson links and global-position uses.
 - Verification: the focused source regression first failed against missing visible-navigation state; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-63qsdy83t-sunnylee.vercel.app`, so `20c78d8` is pushed but not live yet.
+
+# Atlas V2 Visible Walk Position - 2026-06-20
+
+## Plan
+
+- [x] Show the selected code's position inside the currently visible filtered Atlas list.
+- [x] Reuse existing `filtered` and visible-navigation state; no API, database, or content change.
+- [x] Add focused source regression coverage.
+- [x] Verify, push, try deploy, and record status.
+
+## Review
+
+- App commit: `b8764e1` (`Show Atlas visible walk position`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the selected-code panel now shows `Visible walk` with the selected code's position inside the currently visible filtered Atlas list, matching the filtered `Previous` / `Next` behavior.
+- Implementation: reused `filtered` and `selectedVisibleIndex`; added `selectedVisiblePosition`; added no API route, database write, content mutation, or new coverage field.
+- Verification: the focused source regression first failed against missing `selectedVisiblePosition`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only LF/CRLF warnings.
+- Production deploy: Vercel deployment `dpl_HREmRh4jEzCpxfyToErBWmYYWkeG` reached READY at `https://barmatrix-lm7fimyez-sunnylee.vercel.app`.
+- Aliases: `https://barmatrix.app`, `https://www.barmatrix.app`, `https://barmatrix-app.vercel.app`, `https://barmatrix-app-sunnylee.vercel.app`, and `https://barmatrix-app-sunnylwood-7609-sunnylee.vercel.app` point to this deployment.
+- Included Atlas changes since the prior live deployment: unstudied scope filter, unstudied filter status, visible filtered-list count, visible-list navigation, and visible walk position.
