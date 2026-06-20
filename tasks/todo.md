@@ -1,3 +1,20 @@
+# Atlas V2 Saved Position Notice - 2026-06-20
+
+## Plan
+
+- [x] Add a focused regression for the saved-position notice.
+- [x] Make the auto-resumed outline code visibly clear in the weak-section panel.
+- [x] Run focused Atlas test, lint, build, and whitespace checks.
+- [x] Commit/push/deploy if clean, then record proof here.
+
+## Review
+
+- App commit: `b8d87a8 Clarify Atlas saved position`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the weak-section panel now shows a visible `Resumed saved code` notice when Atlas restores the last selected outline code from this device.
+- Proof passed: `node --test tests\ambassador-dashboard-entry.test.ts`, `git diff --check` (CRLF warnings only), `npm run lint`, and `npm run build`.
+- Production deploy: `dpl_MYrpxt2r5PWBWKt9xGqiPDYRDsET` is ready at `https://barmatrix-fxt9a18a7-sunnylee.vercel.app` and aliased to `https://barmatrix.app` / `https://www.barmatrix.app`.
+- Live check: anonymous `https://barmatrix.app/atlas` returns `307` to `/sign-in?redirect_url=https%3A%2F%2Fbarmatrix.app%2Fatlas`, so signed-in UI proof still requires an authenticated browser session.
+
 # Atlas V2 Persistent Detour Lane - 2026-06-20
 
 ## Plan
