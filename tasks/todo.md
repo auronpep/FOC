@@ -1822,3 +1822,19 @@
 - Implementation: reused existing `nextLessonWalkNode`; changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no new state, API, database, route, or content change.
 - Verification: the focused source regression first failed against missing `Up next in lesson walk`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` (`dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE`), so `04b6fa1` is pushed but not live yet.
+
+# Atlas V2 Restart Lesson Walk - 2026-06-20
+
+## Plan
+
+- [x] Let the lesson-walk action restart the current lesson scope after every target is studied.
+- [x] Reuse existing lesson-walk nodes; no API, database, route, or content change.
+- [x] Verify, commit, push, attempt deploy, and record status.
+
+## Review
+
+- App commit: `f967a11` (`Let Atlas lesson walk restart`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: the lesson checkpoint action now uses `lessonWalkTargetCode`; when no next unstudied lesson remains, it shows `Restart lesson walk` and jumps to the first lesson-walk target instead of becoming a dead disabled endpoint.
+- Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
+- Verification: the focused source regression first failed against missing `Restart lesson walk`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`. Production remains `https://barmatrix-2mq3hovdr-sunnylee.vercel.app` (`dpl_7aQF1KDgd1w8prRkrDjVpjJj9PBE`), so `f967a11` is pushed but not live yet.
