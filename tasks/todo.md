@@ -1606,3 +1606,20 @@
 - Implementation: reused existing `leadme_set_count` and `leadme_item_count`; added no API route, database write, content mutation, or new coverage field.
 - Verification: the focused source regression first failed against the missing `lessonWalkNodes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-386g7i58g-sunnylee.vercel.app`, so `1d5ecfa` is pushed but not live yet.
+
+# Atlas V2 Scoped Lesson Codes Action - 2026-06-20
+
+## Plan
+
+- [x] Add a weak-section action that filters to lesson-ready outline codes.
+- [x] Reuse existing `leadme_set_count` and `leadme_item_count`; no API or database change.
+- [x] Keep the action disabled when the current scope has no lesson-ready codes.
+- [x] Verify locally, push if green, and record deploy status.
+
+## Review
+
+- App commit: `e69a071` (`Add Atlas scoped lesson-code action`) in `C:\barmatrix-app-atlas-answer-bridge`, pushed to private `auronpep/barmatrix-app` `main`.
+- UI change: weak-section drilldown now has `Show lesson codes`, which switches the Atlas list to the existing `lessons` filter and selects the first lesson-ready code in the current scope.
+- Implementation: promoted `scopedLessonNodes` from the existing lesson-walk logic; reused `leadme_set_count` and `leadme_item_count`; added no API route, database write, content mutation, or new coverage field.
+- Verification: the focused source regression first failed against the missing `Show lesson codes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `npm run lint` passed, `npm run build` passed, and `git diff --check` passed with only existing LF/CRLF warnings.
+- Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` still fails with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`; production still shows prior READY deployment `https://barmatrix-386g7i58g-sunnylee.vercel.app`, so `e69a071` is pushed but not live yet.
