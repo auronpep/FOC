@@ -1,0 +1,1012 @@
+---
+qid: "14637"
+transformed_from: "14637"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "General Principles"
+outline_code: "72010302"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"A"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation."
+---
+Source basis: the original Q14637 row supplies Criminal Law / General Principles, pick rates, the exact stem, choices, official key C, and the official explanation that the instruction wrongly omitted the mental state for malicious damage to property.  The project prompt requires a Christian-first transformation, five variation audit, YAML first in Pass 2, Gold/Silver Keys when anchor-dependent, and provenance through `transformed_from: 14637`.  I also applied the Reasoning Creed posture: preserve the ambitious version, prove before proxy, and keep candor on gaps. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+Peter, a student in a Christian law-school bar-prep cohort, decided to steal Mary’s car after seeing it parked on a hill outside the classroom building. After Peter got in and started the engine, the car began rolling down the hill. Peter quickly discovered that the brakes did not work. He crashed through the front window of Lydia’s private bookstore at the bottom of the hill.
+
+Peter was charged with larceny of Mary’s car and with malicious damage to Lydia’s property. At trial, the judge instructed the jury that if it found both that Peter was guilty of larceny of Mary’s car and that the damage to Lydia’s bookstore was the result of that larceny, then it should also find Peter guilty of malicious damage to property.
+
+Peter was convicted on both counts. On appeal, he argued that the conviction for malicious damage to property should be reversed because the instruction was not a correct statement of the law.
+
+**Should Peter’s conviction for malicious damage to property be affirmed?**
+
+## 2. Distilled Core Question
+
+A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?
+
+## 3. Final answer choices
+
+A. Yes, because Peter’s intent to steal Mary’s car provides the necessary mental element.
+
+B. Yes, because Peter was committing a felony.
+
+C. No, because the instruction wrongly described the necessary mental state.
+
+D. No, because it would violate double jeopardy to convict Peter of two crimes for a single act.
+
+## 4. Possible replacement answer choices
+
+No replacement adopted. B and D were low-pick distractors in the original data, but both are clean traps and preserve the original answer-array geometry: two “yes” answers that try to affirm by borrowing culpability, one correct “no” answer focused on instruction/mens rea, and one “no” answer with a constitutional red herring.
+
+| Candidate                                                                               | Would replace | Original pick % | Mold                | Filter           | Reason not adopted                                                                |
+| --------------------------------------------------------------------------------------- | ------------: | --------------: | ------------------- | ---------------- | --------------------------------------------------------------------------------- |
+| “Yes, because a person is criminally responsible for all damage caused during a theft.” |             B |              3% | `tiered_absolute`   | `NOT_TRUE`       | Too easy. “All damage” is louder than the original felony trap.                   |
+| “Yes, because the crash was a foreseeable result of stealing a car from a hill.”        |             B |              3% | `wrong_element`     | `NOT_RESPONSIVE` | Stronger but risks adding tort-style foreseeability clutter.                      |
+| “No, because the store damage was accidental.”                                          |             D |              5% | `wrong_element`     | `NOT_RESPONSIVE` | Too close to the credited answer; could create a second partially correct choice. |
+| “No, because larceny and malicious damage to property merge into a single offense.”     |             D |              5% | `flat_misstatement` | `NOT_TRUE`       | Clean but less realistic than the double-jeopardy red herring.                    |
+
+## 5. Correct answer
+
+**C. No, because the instruction wrongly described the necessary mental state.**
+
+## 6. Full right-answer explanation
+
+C is correct because the jury instruction made the wrong shortcut. It told the jury that if Peter committed larceny and the bookstore damage resulted from that larceny, the jury should also convict him of malicious damage to property. That skips the separate mental-state question for the property-damage count.
+
+**Gold Key:** Mens rea must land on the charged element. Intent to commit one crime does not automatically supply the mental state for a different result in a different crime.
+
+**Silver Key:** When an instruction says “if Crime A happened and Result B followed, convict on Crime B,” check whether the instruction skipped the mental state for Crime B.
+
+## 7. Full wrong-answer explanations
+
+**A. Wrong.** A uses Peter’s intent to steal Mary’s car as if it automatically supplies the mental element for damaging Lydia’s bookstore. That is the dominant trap. Peter’s car-theft intent is aimed at Mary’s car, not at the bookstore damage. **Gold Key:** Mens rea must land on the charged element; intent does not jump from larceny to malicious damage.
+
+**B. Wrong.** B says the felony status solves the property-damage count. That is a neighboring-crime shortcut. It answers as though “committing a felony” automatically supplies mental state for every damage that follows. It does not.
+
+**D. Wrong.** D gives a different reason to reverse: double jeopardy. The problem in this question is not being punished twice for one act. The problem is the bad instruction on the mental state for malicious damage. Separate crimes with separate legal elements are not automatically barred merely because they arise from one episode.
+
+## 8. Black-letter-law verification and legal reasoning
+
+The tested rule and answer are unchanged from the original: the official key is C, and the official explanation states that intent to steal the car and the fact that Peter was committing another felony do not prove the required mental state for malicious damage to the store. 
+
+Lawyer confirmation: the instruction is defective because it lets the jury convict on malicious damage to property from larceny plus causation alone. Modern criminal-mischief formulations require culpability as to damage or tampering with property; for example, Model Penal Code § 220.3 defines criminal mischief through purposeful, reckless, or negligent damage in specified circumstances, or purposeful/reckless tampering or loss-causing conduct. ([Criminal Law Web][1]) Modern statutes similarly require purposeful/knowing/reckless culpability for property damage or tampering. ([Justia Law][2]) The official explanation’s “practically certain” phrasing aligns with the Model Penal Code definition of knowledge for a result element. ([Open Casebook][3])
+
+## 9. Why the variation preserves rigor/difficulty
+
+The variation changes only surface dressing. It keeps the same legal issue, same procedural posture, same appeal from a jury instruction, same larceny-to-property-damage mens rea trap, same answer key, and same dominant wrong answer A. It avoids church-property, First Amendment, donation, licensing, competency, or establishment clutter.
+
+## 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT**
+
+D is cut first as a different legal frame. The stem attacks the jury instruction’s mental-state shortcut. D answers with double jeopardy. It needs a small anchor, but it is one clean defect.
+
+**CLASH**
+
+A and C fight on one axis: **Does intent to steal Mary’s car supply the mental state for malicious damage to Lydia’s property?**
+
+The splitting fact is built into the instruction: it used **larceny + resulting damage** instead of requiring mental state as to the bookstore damage. C wins.
+
+**CALL**
+
+B dies under the same Gold Key. A felony label does not solve the mental state for a different charged offense. C is the residual.
+
+## 11. Review Truth
+
+A jury instruction cannot turn “intent to steal one thing plus accidental resulting damage” into malicious damage to property without requiring the mental state for the damage.
+
+## 12. Five variations considered
+
+|  # | Title                         | Setting                             | Cast                    | Preserved issue                                | Memorable hook                           | Legal risks                                           | Recommendation        |
+| -: | ----------------------------- | ----------------------------------- | ----------------------- | ---------------------------------------------- | ---------------------------------------- | ----------------------------------------------------- | --------------------- |
+|  1 | **Peter’s Hilltop Car Crash** | Christian law-school bar-prep class | Peter, Mary, Lydia      | Larceny plus damage instruction skips mens rea | Car rolls downhill into bookstore        | Minimal                                               | **Chosen. Cleanest.** |
+|  2 | Timothy’s Retreat Van         | Christian retreat parking lot       | Timothy, Ruth, Barnabas | Same                                           | Retreat van crashes into Barnabas’s shed | “Retreat” could imply church property; rejected.      | Not chosen            |
+|  3 | Daniel’s Law-Library Cart     | Law-school library                  | Daniel, Esther, John    | Same                                           | Rolling cart damages study room          | Vehicle/property change weakens larceny-of-car match. | Not chosen            |
+|  4 | Paul’s Seminary Parking Lot   | Private seminary lot                | Paul, Mary, Stephen     | Same                                           | Seminary hill crash                      | Seminary/church facts could distract.                 | Not chosen            |
+|  5 | Martha’s Bookstore Window     | Christian bookstore district        | Peter, Martha, Lydia    | Same                                           | Private bookstore window                 | Similar to chosen but less law-school flavor.         | Runner-up             |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+# B) PASS-2 FIVE BLOCKS
+
+## 1. Question YAML
+
+```yaml
+question_id: "14637_peters_hilltop_car_crash"
+barmatrix_row:
+  qid: 14637
+  transformed_from: 14637
+  subject: CRIMINAL
+  topic: "Criminal Law"
+  subtopic: "General Principles"
+  source_pick_rates:
+    percent_correct_original: 70
+    A_original_percent: 22
+    B_original_percent: 3
+    C_original_percent: 70
+    D_original_percent: 5
+  selection_percentages:
+    provenance: "transformed item is net-new; no measured pick rates"
+    inherited_original:
+      A: 22
+      B: 3
+      C: 70
+      D: 5
+  official_key: "C"
+  call: "Should Peter's conviction for malicious damage to property be affirmed?"
+  stem: "Peter, a student in a Christian law-school bar-prep cohort, decided to steal Mary’s car after seeing it parked on a hill outside the classroom building. After Peter got in and started the engine, the car began rolling down the hill. Peter quickly discovered that the brakes did not work. He crashed through the front window of Lydia’s private bookstore at the bottom of the hill. Peter was charged with larceny of Mary’s car and with malicious damage to Lydia’s property. At trial, the judge instructed the jury that if it found both that Peter was guilty of larceny of Mary’s car and that the damage to Lydia’s bookstore was the result of that larceny, then it should also find Peter guilty of malicious damage to property. Peter was convicted on both counts. On appeal, he argued that the conviction for malicious damage to property should be reversed because the instruction was not a correct statement of the law."
+  choices:
+    A: "Yes, because Peter’s intent to steal Mary’s car provides the necessary mental element."
+    B: "Yes, because Peter was committing a felony."
+    C: "No, because the instruction wrongly described the necessary mental state."
+    D: "No, because it would violate double jeopardy to convict Peter of two crimes for a single act."
+
+source_stack:
+  - priority: 1
+    source: "BARMATRIX row 14637"
+    used_for: "stem, choices, official key, pick rates, official explanation"
+  - priority: 2
+    source: "existing C3 tags"
+    used_for: "hypothesis only; item previously marked manual C3 pass / clash"
+  - priority: 3
+    source: "C3 method and controlled vocabularies"
+    used_for: "filter, mold, verdict, confidence, and output schema"
+  - priority: 4
+    source: "official explanation and legal research"
+    used_for: "lawyer_confirmation only"
+
+student_access_contract:
+  allowed_lessons:
+    - "L1 TRUE and RESPONSIVE"
+    - "L2 Ear vs Issue-Sense; CUT → CLASH → CALL"
+    - "L5 falsity family"
+    - "L8 not-responsive molds"
+    - "L9 Clash axis"
+    - "L11 bait architecture / wrong-frame"
+    - "L12 anchors"
+    - "L13 calibration"
+  allowed_gold_keys:
+    - "GK-CRIM-MENS-STATE-TARGET-01"
+    - "GK-CRIM-SEPARATE-COUNTS-01"
+  allowed_silver_keys:
+    - "SK-CRIM-INSTRUCTION-SHORTCUT-01"
+  controlling_test: "Do not call a choice false unless the defect is visible from grammar, overclaim, taught C3 card, taught Gold Key, or stem-call relation."
+
+stem_parse:
+  actors:
+    defendant: "Peter"
+    car_owner: "Mary"
+    property_owner: "Lydia"
+  criminal_charges:
+    - "larceny of Mary’s car"
+    - "malicious damage to Lydia’s property"
+  procedural_posture: "appeal after conviction on both counts"
+  challenged_action: "jury instruction"
+  instruction_structure: "if larceny + damage resulted from larceny, then malicious damage"
+  adjacent_call_trap: "whether Peter is generally blameworthy for the crash"
+  negative_stem_inversion: false
+  precise_call: "whether the malicious-damage conviction should be affirmed despite the challenged instruction"
+
+trigger_facts:
+  - fact: "Peter intended to steal Mary’s car."
+    access_label: "student_visible"
+    role: "tempts A; mental state aimed at larceny"
+  - fact: "The car rolled downhill and damaged Lydia’s bookstore."
+    access_label: "student_visible"
+    role: "causation fact; tempts the shortcut instruction"
+  - fact: "The instruction used larceny plus resulting damage as enough for malicious damage."
+    access_label: "student_visible"
+    role: "deciding fact"
+  - fact: "Peter appealed based on incorrect jury instruction."
+    access_label: "student_visible"
+    role: "call lock; cuts non-instruction frames"
+  - fact: "No separate instruction required culpability as to damaging Lydia’s property."
+    access_label: "lawyer_confirmed_inference"
+    role: "legal confirmation of C"
+
+c3_routing:
+  subject_fit: "Criminal = mens rea target + offense-specific element"
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "borrowed intent / felony status vs required mental state for the charged property-damage count"
+
+answer_array:
+  geometry: "two yes affirmance shortcuts, one no instruction/mens-rea answer, one no constitutional red herring"
+  dominant_trap:
+    choice: "A"
+    original_pick_percent: 22
+    trap: "intent-to-steal supplies mental state for damage"
+  silver_key:
+    id: "SK-CRIM-INSTRUCTION-SHORTCUT-01"
+    array_read: "Instruction says Crime A + Result B = Crime B; check whether mental state for Crime B disappeared."
+  layer_map:
+    A: "Layer 2 trap: borrows a real mental state from the wrong target"
+    B: "Layer 1/2 trap: felony shortcut"
+    C: "Layer 3 answer: instruction omitted the limiting mental-state requirement"
+    D: "Layer 0/anchor trap: wrong constitutional frame"
+
+choice_walkthroughs:
+  A:
+    choice_text: "Yes, because Peter’s intent to steal Mary’s car provides the necessary mental element."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_mental_state
+      - half_right_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "wrong mental-state target"
+    c3_signal: "The answer points to intent to steal the car; the challenged count is malicious damage to the bookstore."
+    lawyer_confirmation: "Intent to steal the car does not establish the culpability required for malicious damage to another property."
+  B:
+    choice_text: "Yes, because Peter was committing a felony."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - wrong_mental_state
+      - common_student_myth
+      - sounds_lawyerly
+    method_class: anchor_assisted
+    student_label: "felony-status shortcut"
+    c3_signal: "The answer gives a felony label, not the mental state for the property-damage offense."
+    lawyer_confirmation: "Felony status does not automatically satisfy the culpability element for malicious damage to property."
+  C:
+    choice_text: "No, because the instruction wrongly described the necessary mental state."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "true and responsive residual"
+    c3_signal: "This answer targets the instruction and the missing mental-state step."
+    lawyer_confirmation: "The instruction allowed conviction on larceny plus causation alone and therefore omitted the required culpability as to damaging the property."
+  D:
+    choice_text: "No, because it would violate double jeopardy to convict Peter of two crimes for a single act."
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: violation_vs_remedy
+    wrong_answer_architecture_tags:
+      - wrong_remedy
+      - wrong_procedural_posture
+      - sounds_lawyerly
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "wrong constitutional reason"
+    c3_signal: "The answer abandons the instruction problem and moves to double jeopardy."
+    lawyer_confirmation: "Separate convictions for distinct offenses with separate legal elements are not barred merely because they arise from one episode."
+
+residual_answer:
+  choice: "C"
+  why_residual: "A and B borrow culpability from the wrong place; D uses the wrong constitutional frame; C alone answers the instruction/mens-rea defect."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "The call is about the challenged instruction."
+      status: "hard_structural"
+    - claim: "A points to car-theft intent while the charged count is bookstore damage."
+      status: "hard_structural observation; legal consequence is anchor_assisted"
+    - claim: "B gives felony status, not a mental state for the damage count."
+      status: "hard_structural observation; legal consequence is anchor_assisted"
+    - claim: "D is double-jeopardy doctrine, not the instruction defect."
+      status: "hard_structural observation; legal consequence is anchor_assisted"
+  quarantined_to_lawyer_confirmation:
+    - "exact culpability standard for malicious damage / criminal mischief"
+    - "double-jeopardy separate-elements doctrine"
+  drift_audit: "No legal conclusion is labeled hard_structural unless the student could see the call/fact mismatch or had the named Gold Key."
+
+gold_keys:
+  - id: "GK-CRIM-MENS-STATE-TARGET-01"
+    statement: "A mental state must attach to the charged offense element it is supposed to prove. Intent to steal one item does not automatically prove the mental state for damaging different property."
+    type: "distinction"
+    unlocks: "A and B"
+    trigger: "An instruction uses Crime A plus resulting harm to convict on Crime B."
+    tested_choice: "A"
+    authority: "lawyer_confirmation: supplied official explanation; MPC culpability concepts; criminal mischief formulations"
+    last_minute_review: true
+  - id: "GK-CRIM-SEPARATE-COUNTS-01"
+    statement: "Two convictions from one episode are not automatically double jeopardy when the offenses have separate legal elements."
+    type: "rule"
+    unlocks: "D"
+    trigger: "A distractor says two crimes from one act cannot both be punished."
+    tested_choice: "D"
+    authority: "lawyer_confirmation: separate-elements doctrine"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-INSTRUCTION-SHORTCUT-01"
+    statement: "When a jury instruction reads 'if Crime A happened and Result B followed, convict on Crime B,' check whether the instruction skipped Crime B’s own mental state."
+    type: "trap_spotting"
+    navigates: "instruction shortcut trap"
+    trigger: "if larceny + damage, then malicious damage"
+    tested_choice: "A"
+    outline_code: "72010302"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIM-MENS-STATE-TARGET-01"
+  title: "Mental-state target check"
+  signal: "Answer borrows intent from one crime to prove another crime."
+  student_move: "Circle the noun after the intent word and the noun after the charged offense. If they differ, slow down."
+  tiny_rule: "Mens rea must be aimed at the charged result or element."
+  trap: "Intent to steal Mary’s car gets used to prove malicious damage to Lydia’s store."
+  confidence: ANCHOR_ASSISTED
+
+distilled_core_question: "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?"
+review_truth: "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation."
+
+case_study_output:
+  final_student_script: "The appeal is about the instruction. The instruction used larceny plus resulting damage as enough for malicious damage. A and B borrow the wrong mental state. D is a double-jeopardy detour. C answers the instruction defect."
+  verdict: "ANCHOR_SOLVE"
+  residual: "C"
+
+quality_control:
+  rule_unchanged: true
+  answer_key_unchanged: true
+  dominant_trap_preserved: true
+  no_clutter_doctrine_added: true
+  christian_names_valid: true
+  popular_bible_names_only: true
+  no_antagonist_names_used: true
+  exact_three_distractors_one_filter_each: true
+  residual_equals_key: true
+  pass_available: true
+  transformed_from: 14637
+  drift_audit: "PASS; anchor-assisted, not claimed as pure hard structural."
+
+analytics_hooks:
+  tags:
+    - "criminal_mens_rea"
+    - "jury_instruction"
+    - "wrong_mental_state"
+    - "felony_shortcut"
+    - "double_jeopardy_red_herring"
+  expected_trap_choice: "A"
+  expected_trap_pick_rate_source: "inherited original 22%"
+  drill_family:
+    - "wrong_element"
+    - "bait_doctrine"
+    - "instruction_shortcut"
+```
+
+## 2. Student Case Study — 17 sections
+
+## program_frame
+
+This is a Criminal Law instruction question. Do not start with “Peter is blameworthy.” Start with the instruction.
+
+C3 lane: **CUT → CLASH → CALL**, with a Gold Key because the decisive point is a small mens rea anchor.
+
+## student_access_test
+
+Controlling question: could a student using only C3 lessons and the named Gold Keys see the problem?
+
+Yes, with limits.
+
+The student can see structurally that A and B point to **car theft / felony status**, while the appealed count is **malicious damage to Lydia’s property**. The legal reason that this mismatch matters comes from the Gold Key.
+
+## question_data
+
+* Subject: CRIMINAL
+* Topic: Criminal Law
+* Subtopic: General Principles
+* Original QID: 14637
+* Variation QID: 14637_peters_hilltop_car_crash
+* Original correct answer: C
+* Original dominant wrong answer: A at 22%
+* Transformed pick rates: no measured data; original percentages inherited for provenance only.
+
+## distilled_core_question
+
+A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?
+
+## call_and_prediction
+
+The call asks whether the malicious-damage conviction should be affirmed.
+
+Prediction before choices: the vulnerable point is the **instruction**. If the instruction skipped the mental state for malicious damage, reversal is the best answer.
+
+Adjacent-call trap: whether Peter deserves blame for the whole crash.
+
+## trigger_facts
+
+| Trigger fact                                                          | Why it matters                                       |
+| --------------------------------------------------------------------- | ---------------------------------------------------- |
+| Peter intended to steal Mary’s car.                                   | Tempts A.                                            |
+| The car damaged Lydia’s bookstore.                                    | Supplies causation but not necessarily mental state. |
+| The judge instructed “larceny + resulting damage = malicious damage.” | Deciding fact.                                       |
+| Peter appeals the instruction.                                        | Locks the call.                                      |
+
+## governing_c3_lane
+
+**Criminal = mental-state target + offense-specific element.**
+
+The answer array is not a homicide ladder or a theft-classification set. It is an instruction-shortcut set.
+
+## choice_by_choice_walkthrough
+
+### A. Yes, because Peter’s intent to steal Mary’s car provides the necessary mental element.
+
+1. **Student-accessible C3 signal:** The answer points to intent to steal Mary’s car. The charged count is malicious damage to Lydia’s property.
+2. **Student label:** Wrong mental-state target.
+3. **What a true/responsive version would look like:** “Yes, because the instruction required the jury to find Peter had the required mental state as to damaging Lydia’s property.”
+4. **Lawyer confirmation:** Intent to steal the car does not satisfy the culpability requirement for malicious damage to different property. Gold Key kills this trap.
+
+### B. Yes, because Peter was committing a felony.
+
+1. **Student-accessible C3 signal:** This gives a felony label. It does not answer whether the instruction required mental state for the damage count.
+2. **Student label:** Felony-status shortcut.
+3. **What a true/responsive version would look like:** “Yes, because the applicable property-damage offense makes felony causation alone sufficient.” That is not the tested rule here.
+4. **Lawyer confirmation:** The official explanation rejects felony status as proof of intentional/malicious damage.
+
+### C. No, because the instruction wrongly described the necessary mental state.
+
+1. **Student-accessible C3 signal:** This answer matches the appeal: instruction + mental state.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is it.
+4. **Lawyer confirmation:** The instruction allowed conviction from larceny plus causation alone. That is not a correct statement of the required culpability for malicious damage to property.
+
+### D. No, because it would violate double jeopardy to convict Peter of two crimes for a single act.
+
+1. **Student-accessible C3 signal:** This shifts to a constitutional double-jeopardy reason. The stem’s challenge is the instruction.
+2. **Student label:** Wrong constitutional reason.
+3. **What a true/responsive version would look like:** “No, because the jury instruction omitted the required mental state.”
+4. **Lawyer confirmation:** Double jeopardy does not automatically bar conviction for separate offenses with distinct elements arising from one episode.
+
+## residual_answer
+
+C remains. It is the only choice that directly attacks the jury instruction’s missing mental-state step.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* The call is about the instruction.
+* A and B do not describe the mental state for damaging Lydia’s property.
+* C describes the instruction problem.
+* D changes the frame to double jeopardy.
+
+Anchor-assisted:
+
+* Why larceny intent does not satisfy malicious damage.
+* Why felony status does not satisfy malicious damage.
+* Why double jeopardy does not bar both convictions.
+
+Drift audit: The walkthrough does not call A, B, or D legally false as a pure structural matter. The legal conclusion is routed through Gold Keys and lawyer confirmation.
+
+## final_student_script
+
+“The appeal is about the instruction. The instruction said: if larceny plus damage, then malicious damage. That skips the mental state for malicious damage. A and B borrow intent/felony status from larceny. D is a double-jeopardy detour. C is the answer.”
+
+## remediation_card
+
+**REM-CRIM-MENS-STATE-TARGET-01 — Mental-state target check**
+
+* Signal: Answer borrows intent from one crime to prove another crime.
+* Student move: Circle the object/result attached to the intent and compare it to the charged offense.
+* Tiny rule: Mens rea must attach to the charged element.
+* Trap: “Intent to steal the car” gets used to prove “maliciously damaged the store.”
+* Confidence: ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIM-MENS-STATE-TARGET-01**
+
+A mental state must attach to the charged offense element it is supposed to prove. Intent to steal one item does not automatically prove the mental state for damaging different property.
+
+**GK-CRIM-SEPARATE-COUNTS-01**
+
+Two convictions from one episode are not automatically double jeopardy when the offenses have separate legal elements.
+
+## Silver Key(s)
+
+**SK-CRIM-INSTRUCTION-SHORTCUT-01**
+
+When a jury instruction reads “if Crime A happened and Result B followed, convict on Crime B,” check whether the instruction skipped Crime B’s own mental state.
+
+## qa_checklist
+
+| Check                                                | Result |
+| ---------------------------------------------------- | ------ |
+| Rule unchanged                                       | Pass   |
+| Key unchanged                                        | Pass   |
+| Dominant trap preserved                              | Pass   |
+| No church-property / First Amendment clutter         | Pass   |
+| Popular Bible names only                             | Pass   |
+| Three distractors each break one filter              | Pass   |
+| Gold Keys emitted because anchor-dependent           | Pass   |
+| Silver Key emitted because navigation move is useful | Pass   |
+| `transformed_from` recorded                          | Pass   |
+
+## wrong_answer_recovery_paths
+
+**A recovery:** Student saw “intent” and stopped. Recovery move: ask “intent toward what?” If the answer’s object is Mary’s car and the charge is Lydia’s window, the target is wrong.
+
+**B recovery:** Student saw “felony” and imported a shortcut. Recovery move: felony status is not a substitute unless the rule says so. Here the instruction needed the property-damage mental state.
+
+**D recovery:** Student saw “two crimes / one act” and jumped to double jeopardy. Recovery move: stay with the challenged instruction before taking a constitutional detour.
+
+## outline_mastery_map
+
+* Placement: Criminal Law → General Principles → Mens Rea / jury instructions.
+* This item teaches: mental-state targeting, not a full theft or homicide outline.
+* Fills: wrong-mental-state trap; felony shortcut trap; instruction shortcut trap.
+* Adjacent to master: mistake-of-fact mental state questions; felony-murder shortcut questions; merger/double-jeopardy traps.
+
+## crossover_intersection_map
+
+| Crossover                     | Why adjacent                                                                 |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| Evidence limiting instruction | Both test what a jury instruction actually permits.                          |
+| Torts transferred intent      | Tempts students to transfer intent too freely.                               |
+| Felony murder                 | Felony status can matter in homicide, but that is the neighboring trap here. |
+| Double jeopardy / merger      | D is a constitutional detour from the instruction issue.                     |
+
+## review_truth
+
+A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.
+
+## 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14637_peters_hilltop_car_crash",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "72010302",
+  "distilled_core_question": "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?",
+  "review_truth": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "borrowed intent or felony status vs required mental state for malicious damage",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MENS-STATE-TARGET-01",
+        "explanation": "Uses intent to steal Mary’s car to supply the mental element for damaging Lydia’s property."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MENS-STATE-TARGET-01",
+        "explanation": "Uses felony status as a neighboring shortcut instead of the mental state for malicious damage."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "GK-CRIM-SEPARATE-COUNTS-01",
+        "explanation": "Double jeopardy does not automatically bar separate offenses with separate elements arising from one episode."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Anchor-assisted item. Structural path identifies wrong target and instruction shortcut, but legal invalidity of A/B and D requires Gold Keys; transformed_from: 14637",
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-MENS-STATE-TARGET-01",
+        "statement": "A mental state must attach to the charged offense element it is supposed to prove. Intent to steal one item does not automatically prove the mental state for damaging different property.",
+        "type": "distinction",
+        "unlocks": "A and B",
+        "trigger": "An instruction uses Crime A plus resulting harm to convict on Crime B.",
+        "tested_choice": "A",
+        "authority": "lawyer_confirmation only",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIM-SEPARATE-COUNTS-01",
+        "statement": "Two convictions from one episode are not automatically double jeopardy when the offenses have separate legal elements.",
+        "type": "rule",
+        "unlocks": "D",
+        "trigger": "A distractor says two crimes from one act cannot both be punished.",
+        "tested_choice": "D",
+        "authority": "lawyer_confirmation only",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-INSTRUCTION-SHORTCUT-01",
+        "statement": "When a jury instruction reads 'if Crime A happened and Result B followed, convict on Crime B,' check whether the instruction skipped Crime B’s own mental state.",
+        "type": "trap_spotting",
+        "navigates": "instruction shortcut trap",
+        "trigger": "if larceny plus damage, then malicious damage",
+        "tested_choice": "A",
+        "outline_code": "72010302",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## 4. `program_elements`
+
+```json
+{
+  "question_id": "14637_peters_hilltop_car_crash",
+  "subject": "CRIMINAL",
+  "outline_code": "72010302",
+  "distilled_core_question": "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?",
+  "review_truth": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+  "tension": {
+    "axis": "borrowed larceny intent vs charged-offense mental state",
+    "splitting_fact": "the instruction used larceny plus causation, not mental state as to damaging Lydia’s property"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Students see real intent and assume any intent is enough.",
+      "focus_group_pct": {
+        "value": 22,
+        "provenance": "inherited original"
+      }
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "Students import a felony-result shortcut from neighboring criminal doctrines.",
+      "focus_group_pct": {
+        "value": 3,
+        "provenance": "inherited original"
+      }
+    },
+    {
+      "choice": "D",
+      "mold": "flat_misstatement",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "Students see two convictions from one episode and jump to a constitutional slogan.",
+      "focus_group_pct": {
+        "value": 5,
+        "provenance": "inherited original"
+      }
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-MENS-STATE-TARGET-01",
+    "title": "Mental-state target check",
+    "signal": "Answer borrows intent from one offense to prove another offense.",
+    "student_move": "Circle the target of the mental-state phrase and compare it to the charged count.",
+    "tiny_rule": "Mens rea must attach to the charged element.",
+    "trap": "Intent to steal Mary’s car is used to prove malicious damage to Lydia’s store.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "wrong mental-state target",
+    "jury-instruction shortcut",
+    "felony-status shortcut",
+    "double-jeopardy detour",
+    "causation mistaken for culpability"
+  ]
+}
+```
+
+## 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14637_peters_hilltop_car_crash",
+  "subject": "CRIMINAL",
+  "outline_code": "72010302",
+  "distilled_core_question": "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?",
+  "review_truth": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student sees Peter had intent and stops before asking what that intent was aimed at.",
+      "skipped_move": "target check",
+      "recovery_step": "Ask: intent toward Mary’s car or mental state toward Lydia’s property damage?"
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student treats felony status as a universal criminal-law shortcut.",
+      "skipped_move": "charged-count check",
+      "recovery_step": "Ask whether the felony label supplies the element of the property-damage offense."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student sees two convictions from one episode and reaches for double jeopardy.",
+      "skipped_move": "instruction-call lock",
+      "recovery_step": "Return to the challenged instruction and test the element omitted."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "target_check",
+      "target_skill": "mental-state target",
+      "prompt": "Answer says intent to steal the car supplies mental state for damaging the store. What target mismatch appears?",
+      "answer": "Intent points to the car theft; the charged count is store damage."
+    },
+    {
+      "drill_type": "instruction_shortcut",
+      "target_skill": "jury-instruction defect",
+      "prompt": "Instruction says: if larceny plus resulting damage, then malicious damage. What step is missing?",
+      "answer": "Mental state as to the property damage."
+    },
+    {
+      "drill_type": "red_herring_cut",
+      "target_skill": "double-jeopardy detour",
+      "prompt": "Why is 'two crimes for one act' not the first move in this question?",
+      "answer": "The appeal attacks the instruction; separate crimes do not automatically collapse."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "mens_rea_borrowing",
+      "jury_instruction_shortcut",
+      "felony_status_bait",
+      "wrong_reason_no_answer"
+    ],
+    "misconception_tags": [
+      "any_intent_is_enough",
+      "felony_causation_equals_malice",
+      "one_act_one_crime",
+      "causation_equals_culpability"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Lesson 8",
+      "reason": "wrong_element and bait_doctrine"
+    },
+    {
+      "component": "C3 Lesson 9",
+      "reason": "CLASH axis: borrowed intent vs charged mental state"
+    },
+    {
+      "component": "C3 Lesson 12",
+      "reason": "Gold Key escalation"
+    },
+    {
+      "component": "C3 Lesson 13",
+      "reason": "anchor-assisted confidence calibration"
+    }
+  ],
+  "crossovers": [
+    {
+      "area": "Torts transferred intent",
+      "connection": "Do not assume intent freely transfers across different legal targets."
+    },
+    {
+      "area": "Felony murder",
+      "connection": "Felony status can matter in a neighboring doctrine; this item tests not importing that shortcut."
+    },
+    {
+      "area": "Evidence limiting instructions",
+      "connection": "Both require reading exactly what the jury was told to do."
+    },
+    {
+      "area": "Double jeopardy",
+      "connection": "D is a separate-count red herring."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-MENS-STATE-TARGET-01",
+      "statement": "A mental state must attach to the charged offense element it is supposed to prove. Intent to steal one item does not automatically prove the mental state for damaging different property.",
+      "type": "distinction",
+      "unlocks": "A and B",
+      "trigger": "An instruction uses Crime A plus resulting harm to convict on Crime B.",
+      "tested_choice": "A",
+      "authority": "lawyer_confirmation only",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIM-SEPARATE-COUNTS-01",
+      "statement": "Two convictions from one episode are not automatically double jeopardy when the offenses have separate legal elements.",
+      "type": "rule",
+      "unlocks": "D",
+      "trigger": "A distractor says two crimes from one act cannot both be punished.",
+      "tested_choice": "D",
+      "authority": "lawyer_confirmation only",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-INSTRUCTION-SHORTCUT-01",
+      "statement": "When a jury instruction reads 'if Crime A happened and Result B followed, convict on Crime B,' check whether the instruction skipped Crime B’s own mental state.",
+      "type": "trap_spotting",
+      "navigates": "instruction shortcut trap",
+      "trigger": "if larceny plus damage, then malicious damage",
+      "tested_choice": "A",
+      "outline_code": "72010302",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > General Principles > Mens Rea / jury instructions",
+    "this_item_teaches": "Mental-state targeting in a faulty instruction.",
+    "fills": [
+      "wrong_element mens rea",
+      "bait_doctrine felony shortcut",
+      "flat_misstatement double jeopardy detour"
+    ],
+    "adjacent_to_master": [
+      "mistake of fact negating mens rea",
+      "felony murder mens rea shortcuts",
+      "separate-elements double jeopardy"
+    ]
+  }
+}
+```
+
+[1]: https://www.criminallawweb.net/web1/mpc/PART1/snippets/violations.htm "violations"
+[2]: https://law.justia.com/codes/new-jersey/title-2c/section-2c-17-3/ " New Jersey Revised Statutes Section 2C:17-3 (2025) - Criminal mischief. :: 2025 New Jersey Revised Statutes :: U.S. Codes and Statutes :: U.S. Law :: Justia"
+[3]: https://opencasebook.org/casebooks/6141-tanaka-criminal-law-casebook/resources/6.1.1-model-penal-code-mpc-202-general-requirements-of-culpability-mens-rea/?utm_source=chatgpt.com "Model Penal Code (MPC) 2.02 General Requirements of ..."
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14637; source 14637.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Criminal Law; subtopic General Principles.
+4. **distilled_core_question:** A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 72010302.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 72010302.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14637",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "72010302",
+  "distilled_core_question": "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?",
+  "review_truth": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14637; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14637",
+  "subject": "CRIMINAL",
+  "outline_code": "72010302",
+  "distilled_core_question": "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?",
+  "review_truth": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14637",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14637",
+  "subject": "CRIMINAL",
+  "outline_code": "72010302",
+  "distilled_core_question": "A defendant steals a car, the car crashes into a store, and the jury is told that larceny plus resulting store damage automatically equals malicious damage to property. Was that instruction correct?",
+  "review_truth": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72010302",
+    "this_item_teaches": "A jury instruction cannot replace the mental state for malicious damage with intent to commit larceny plus causation.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,1084 @@
+---
+qid: "16001_seminary_baggage_claim"
+transformed_from: "16001"
+subject: "CRIMINAL"
+topic: "Criminal Law and Procedure"
+subtopic: "Constitutional Protection of Accused Persons - Fourth Amendment Searches and Seizures"
+outline_code: "75070202"
+key: "D"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "A"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+**The Seminary Baggage Claim**
+
+Mary, a second-year student at Galilee Law School and a member of its Christian Legal Society, checked her suitcase for a cross-country flight home from a national moot-court retreat. Police officers had a warrant for Mary’s arrest.
+
+When the plane landed, a trained police dog that recognizes the smell of marijuana was allowed to sniff all checked baggage as part of a routine airport inspection procedure. When the dog sniffed Mary’s suitcase, it gave the signal it had been trained to give when it recognized marijuana.
+
+Mary claimed the suitcase after leaving the plane. As she carried it through the airport, an officer arrested her for possession of a controlled drug. The officer then searched the suitcase and found a package of marijuana.
+
+After Mary’s conviction for drug possession, she made a timely appeal seeking to suppress the marijuana as evidence. The trial court found that the arresting officer had probable cause to believe Mary was in possession of marijuana.
+
+**Should the motion to suppress be granted?**
+
+---
+
+### 2. Distilled Core Question
+
+A trained drug dog alerts on a traveler’s checked suitcase in an airport. After the traveler claims and carries the suitcase, an officer arrests her for drug possession and immediately searches the suitcase. The trial court found probable cause. Suppress the marijuana?
+
+---
+
+### 3. Final answer choices
+
+A. **Yes, because allowing the dog to sniff Mary’s luggage was an unreasonable search.**
+
+B. **No, because the police had a warrant for Mary’s arrest.**
+
+C. **No, because the possibility of airline hijacking makes routine examination of passengers’ luggage necessary to protect the public against a clear and present danger.**
+
+D. **No, because when Mary was arrested, the arresting officer had probable cause to believe that she was in possession of marijuana.**
+
+---
+
+### 4. Possible replacement answer choices
+
+Selection percentages were **not supplied**. No mandatory replacement is made.
+
+Optional cleaner replacement for **B** if the bank reviewer wants to reduce legal-adjacent ambiguity:
+
+> **B-replacement:** No, because an arrest warrant automatically authorizes police to search any luggage the arrestee checked for the flight.
+> Original percentage: not supplied.
+> Mold: `extreme_of_range`.
+> Filter: `NOT_TRUE`.
+> Clean elimination line: an arrest warrant is not a blanket luggage-search warrant.
+
+I kept the original B structure because it preserves the warrant-bait trap.
+
+---
+
+### 5. Correct answer
+
+**D.**
+
+---
+
+### 6. Full right-answer explanation
+
+**D is correct.** The answer ties the suppression issue to the fact that matters: by the time Mary was arrested, the trained dog’s alert on the suitcase gave the officer probable cause to believe she possessed marijuana, and she was carrying the suitcase when arrested.
+
+**Gold Key:** A trained narcotics dog sniff of luggage in a public place is not treated as the kind of Fourth Amendment search that makes the later evidence suppressible merely because no search warrant preceded the sniff. **Silver Key:** In a suppression question, do not stop at the surface result “No.” Pick the “No” reason that connects the challenged evidence to the facts that made the search lawful.
+
+---
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** It attacks the dog sniff as the constitutional violation. **Gold Key:** Under the exam rule, a trained narcotics dog sniff of public luggage is not an unreasonable search. A treats the sniff as the fatal event, but the sniff is the step that produced probable cause.
+
+**B is wrong.** It gives a true-looking arrest fact, but it does not answer the best suppression reason for the marijuana in the suitcase. **Silver Key:** When two “No” answers compete, choose the reason that explains the challenged evidence. The arrest warrant points to arrest authority; D points to the probable-cause fact connected to the suitcase and the marijuana.
+
+**C is wrong.** It answers a different airport-search problem. Hijacking safety would explain a weapons/security inspection. This dog was trained for marijuana, alerted after the plane landed, and the prosecution wants to use marijuana evidence. C is a wrong-frame safety rationale.
+
+---
+
+### 8. Black-letter-law verification and legal reasoning
+
+The tested rule is unchanged from the original: the motion should be denied because the officer had probable cause to arrest Mary for drug possession after the dog alert, and the suitcase was within Mary’s control when she was arrested.
+
+The Supreme Court has treated a trained narcotics dog sniff of public luggage as not a Fourth Amendment “search” in the ordinary sense because it is limited in both manner and content; *United States v. Place* states that exposing public luggage to a trained canine did not constitute a search. ([Justia Law][1]) *Illinois v. Caballes* similarly treats a properly conducted dog sniff that reveals only contraband as not violating the Fourth Amendment, and the trial judge in that case treated the dog alert as sufficient probable cause for the search. ([Justia Law][2])
+
+A warrantless public arrest is valid when supported by probable cause, and the question’s trial-court finding supplies that probable-cause predicate. ([Justia Law][3]) After a lawful arrest, officers may search the arrestee and the area within the arrestee’s immediate control to remove weapons and prevent destruction of evidence. ([Justia Law][4])
+
+Exam-only caveat: this answer follows the supplied BarMatrix premise that marijuana possession is criminal. Real-jurisdiction results can vary where marijuana legality changes the probable-cause analysis.
+
+---
+
+### 9. Why the variation preserves rigor/difficulty
+
+The variation keeps the same Fourth Amendment structure, the same dog-sniff trap, the same arrest-warrant lure, the same airport-safety misfit, and the same credited answer. The Christian/law-school skin adds memory without adding legally relevant clutter.
+
+---
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** `NOT_TRUE`, but only by Gold Key. Dog sniff of public luggage is not the suppressing search.
+
+**CUT C:** `NOT_RESPONSIVE`. Hijacking/security rationale answers a weapons-safety inspection, not a marijuana dog alert and drug-possession arrest.
+
+**CUT B:** `NOT_RESPONSIVE`. The warrant fact is adjacent. The call is suppression of marijuana from the suitcase; D connects the suitcase, the dog alert, probable cause, and the arrest.
+
+**Residual D:** True and responsive. The arresting officer had probable cause tied to the suitcase and drug possession.
+
+**Deciding phase:** CUT, with anchor assistance.
+
+---
+
+### 11. Review Truth
+
+A public luggage dog sniff is not the suppression problem; after a reliable alert gives probable cause and the suspect is arrested while carrying the suitcase, the suitcase-search answer is the fact-engaged “No.”
+
+---
+
+### 12. Five variations considered
+
+1. **The Seminary Baggage Claim** — Recommended. Mary returns from a Christian law-school retreat. Clean, memorable, no added doctrine.
+2. **Lydia’s Missions Conference Suitcase** — Lydia returns from a missions conference. Memorable, but “missions” risks distracting students with moral sympathy.
+3. **Paul’s Moot-Court Carry-On** — Law-school themed, but changing checked luggage to carry-on risks altering the expectation-of-privacy setup.
+4. **Esther’s Bible Bowl Flight** — Fun, but Bible Bowl adds youth/minor ambiguity if not carefully drafted.
+5. **Barnabas at Baggage Claim** — Good name and setting, but less natural than Mary for a simple defendant role.
+
+Recommended final: **The Seminary Baggage Claim**, because it is Christian/law-school themed while keeping the original legal machine intact.
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "16001_seminary_baggage_claim"
+  transformed_from: "16001"
+  subject: "CRIMINAL"
+  topic: "Criminal Law and Procedure"
+  subtopic: "Constitutional Protection of Accused Persons - Fourth Amendment Searches and Seizures"
+  outline_code: "75070202"
+  selection_percentages:
+    A: "not_supplied"
+    B: "not_supplied"
+    C: "not_supplied"
+    D: "not_supplied"
+  official_key: "D"
+  call: "Should the motion to suppress be granted?"
+  stem: "Mary checked her suitcase for a cross-country flight home from a Christian law-school moot-court retreat. Police had a warrant for Mary's arrest. When the plane landed, a trained police dog that recognizes marijuana sniffed all checked baggage as part of a routine airport inspection and alerted on Mary's suitcase. Mary claimed and carried the suitcase through the airport. An officer arrested her for possession of a controlled drug and searched the suitcase, finding marijuana. After conviction, Mary timely moved to suppress the marijuana. The trial court found probable cause to believe Mary possessed marijuana."
+  choices:
+    A: "Yes, because allowing the dog to sniff Mary's luggage was an unreasonable search."
+    B: "No, because the police had a warrant for Mary's arrest."
+    C: "No, because the possibility of airline hijacking makes routine examination of passengers' luggage necessary to protect the public against a clear and present danger."
+    D: "No, because when Mary was arrested, the arresting officer had probable cause to believe that she was in possession of marijuana."
+
+source_stack:
+  priority_1_barmatrix_row:
+    used: true
+    notes: "Original QID 16001 supplied full stem, choices, official key, and explanations."
+  priority_2_existing_c3_tags:
+    used: false
+    notes: "No existing row-level C3 tags or pick percentages were supplied in the prompt."
+  priority_3_c3_method:
+    used: true
+    lessons:
+      - "Lesson 1: true and responsive"
+      - "Lesson 2: Cut -> Clash -> Call"
+      - "Lesson 7: predict before you peek"
+      - "Lesson 8: not-responsive molds"
+      - "Lesson 11: wrong-frame bait architecture"
+      - "Lesson 12: anchor deck"
+      - "Lesson 14: full workflow"
+  priority_4_official_explanation:
+    used: true
+    quarantine: "Used only for lawyer_confirmation and answer-key verification."
+
+student_access_contract:
+  allowed_moves:
+    - "TRUE + RESPONSIVE filter"
+    - "CUT not-true answers only when a named anchor or visible text defect supports the cut"
+    - "CUT not-responsive answers that answer an adjacent call"
+    - "Wrong-frame detection"
+    - "Fact-engaged reason over adjacent abstract reason"
+    - "Gold Key dog-sniff public-luggage rule"
+    - "Gold Key search-incident/immediate-control rule"
+    - "Silver Key suppression-reason focus"
+  prohibited_moves:
+    - "Do not call A false without the dog-sniff Gold Key."
+    - "Do not call B legally false; treat it as adjacent/not responsive."
+    - "Do not use official explanation to fake a hard-structural C3 cut."
+  controlling_test_result: "ANCHOR_ASSISTED item. A and D require Fourth Amendment anchor knowledge."
+
+stem_parse:
+  parties:
+    defendant: "Mary"
+    government_actor: "police officer"
+  procedural_posture: "Post-conviction timely appeal/motion to suppress marijuana evidence."
+  call_type: "suppression"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Was the dog sniff a search?"
+    - "Was the arrest authorized by an arrest warrant?"
+    - "Were airport safety inspections justified by hijacking danger?"
+  predicted_answer_before_choices: "Deny suppression if the dog alert gave probable cause and Mary was arrested while carrying the suitcase."
+
+trigger_facts:
+  - fact: "The dog was trained to recognize marijuana and alerted on Mary's suitcase."
+    access_label: "gold_key_required"
+    legal_role: "probable cause trigger"
+  - fact: "Mary claimed and carried the suitcase before the arrest."
+    access_label: "student_visible"
+    legal_role: "connects suitcase to Mary and places it within control"
+  - fact: "The trial court found probable cause to believe Mary possessed marijuana."
+    access_label: "student_visible"
+    legal_role: "locks probable cause"
+  - fact: "The dog sniff occurred after the plane landed and concerned marijuana."
+    access_label: "student_visible"
+    legal_role: "cuts hijacking/public-danger rationale"
+  - fact: "Police had an arrest warrant."
+    access_label: "student_visible"
+    legal_role: "adjacent arrest-authority lure"
+
+c3_routing:
+  subject_fit: "Criminal Procedure = Fourth Amendment event chain + remedy filter."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "D"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium_high"
+  tension_axis: "Which No answer gives the operative suppression reason: generic arrest authority or probable cause tied to the suitcase?"
+
+answer_array:
+  geometry: "One Yes suppress answer; three No answers with competing reasons."
+  credited_choice: "D"
+  dominant_trap: "A"
+  secondary_trap: "B"
+  array_notes:
+    - "A challenges the dog sniff."
+    - "B relies on the arrest warrant."
+    - "C relies on airport hijacking safety."
+    - "D relies on probable cause at arrest."
+  residual_after_cut:
+    cut:
+      A: "Gold Key cut"
+      B: "adjacent-call cut"
+      C: "wrong-frame cut"
+    survivor: "D"
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "common_student_myth"
+      - "misstated_rule"
+      - "bar_exam_bait"
+    method_class: "pure_anchor"
+    student_label: "Dog-sniff-as-search trap"
+    c3_signal: "This cannot be cut by structure alone. Use the Gold Key: public luggage dog sniff is not the unreasonable search."
+    lawyer_confirmation: "Under the exam rule and United States v. Place, a trained narcotics dog sniff of public luggage is not a Fourth Amendment search."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "half_right_answer"
+      - "wrong_procedural_posture"
+      - "bar_exam_bait"
+    method_class: "heuristic_structural"
+    student_label: "Arrest-authority adjacent call"
+    c3_signal: "The warrant explains a possible arrest route; it does not give the fact-engaged reason for using the marijuana from the suitcase."
+    lawyer_confirmation: "The official key treats probable cause from the dog alert and possession arrest as the operative basis. B is legal-adjacent but less responsive to the evidence-suppression reason."
+  C:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "wrong_standard"
+      - "answer_to_different_question"
+      - "moral_common_sense_answer"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "Hijacking-safety wrong frame"
+    c3_signal: "The stem is about a marijuana dog alert after landing, not a weapons or hijacking search."
+    lawyer_confirmation: "Airport-safety inspection doctrine does not explain this drug-possession search."
+  D:
+    filter_broken: null
+    mold_code: null
+    mold_family: "CREDITED"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "True and responsive residual"
+    c3_signal: "This answer uses the trial court's probable-cause fact and connects it to Mary carrying the suitcase at arrest."
+    lawyer_confirmation: "A lawful arrest supported by probable cause permits a contemporaneous search of the arrestee and the area/items within immediate control."
+
+residual_answer:
+  choice: "D"
+  reason: "It is the only answer that answers the suppression call through the fact that the officer had probable cause tied to Mary's possession of the suitcase."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "C is wrong-frame because hijacking safety does not match marijuana dog alert."
+    - "B is adjacent because arrest warrant does not use the suitcase/probable-cause fact."
+    - "D is fact-engaged because it uses the trial court's probable-cause finding."
+  anchor_required_claims:
+    - "A is wrong because public luggage dog sniff is not an unreasonable search."
+    - "D is legally sufficient because probable cause plus arrest plus immediate-control search defeats suppression."
+  legal_leak_risks:
+    - "Do not pretend a student can derive the dog-sniff rule from grammar alone."
+    - "Do not overstate B as legally false; teach it as not responsive to the best suppression reason."
+  conclusion: "No unsupported lawyer-only doctrine is presented as hard structure."
+
+gold_keys:
+  - id: "GK-CRIM-DOG-SNIFF-LUGGAGE-01"
+    statement: "A trained narcotics dog sniff of luggage in a public place is not treated as a Fourth Amendment search for MBE purposes."
+    type: "rule"
+    unlocks: "Cuts the dog-sniff-as-search suppression trap."
+    trigger: "Dog sniffs checked luggage or exterior of property in a public transportation setting."
+    tested_choice: "A"
+    authority: "United States v. Place; Illinois v. Caballes"
+    last_minute_review: true
+  - id: "GK-CRIM-SIA-IMMEDIATE-CONTROL-01"
+    statement: "After a lawful custodial arrest, police may search the arrestee and the area or item within immediate control to protect safety and preserve evidence."
+    type: "exception"
+    unlocks: "Explains why the suitcase search is not suppressible once probable cause supports the arrest."
+    trigger: "Arrestee is carrying or reaching-distance to the container when arrested."
+    tested_choice: "D"
+    authority: "Chimel v. California; United States v. Robinson"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-SUPPRESSION-REASON-01"
+    statement: "In a suppression question with several 'No, because' answers, pick the reason that connects the challenged evidence to the exact fact that made the search lawful."
+    type: "call_focus"
+    navigates: "B versus D"
+    trigger: "Two answers deny suppression but one uses an adjacent arrest fact and the other uses the evidence-linked probable-cause fact."
+    tested_choice: "B"
+    outline_code: "75070202"
+    last_minute_review: true
+  - id: "SK-CRIM-WRONG-PURPOSE-SECURITY-01"
+    statement: "Do not let an airport-safety rationale answer a narcotics-search question unless the stem is actually about weapons or flight safety."
+    type: "trap_spotting"
+    navigates: "C wrong-frame cut"
+    trigger: "Hijacking/public-danger language appears in a marijuana dog-sniff problem."
+    tested_choice: "C"
+    outline_code: "75070202"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-16001-SUPPRESSION-CHAIN"
+  title: "Suppression chain: event, evidence, reason"
+  signal: "A choice gives the right result but a reason that does not connect to the evidence."
+  student_move: "Ask what evidence is being suppressed and which fact made that evidence lawfully obtained."
+  tiny_rule: "In Fourth Amendment questions, match the justification to the challenged evidence, not merely to the officer's general authority."
+  trap: "Arrest warrant = all evidence admissible."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?"
+review_truth: "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer."
+
+case_study_output:
+  program_frame: "Anchor-assisted C3 suppression chain."
+  final_student_script: "Dog sniff is not the bad search. Hijacking is wrong frame. Warrant is adjacent. Probable cause tied to the suitcase is the responsive No. Pick D."
+
+quality_control:
+  key_matches_official: true
+  exactly_three_distractors: true
+  each_distractor_one_filter: true
+  credited_breaks_no_filter: true
+  pick_rate_provenance: "not supplied"
+  replacement_used: false
+  legal_adjacent_note: "B is close; retained as official adjacent-call trap."
+
+analytics_hooks:
+  likely_student_errors:
+    - "Treats dog sniff as a search."
+    - "Picks any 'No' answer without checking reason."
+    - "Uses airport safety rationale for a drug-dog fact pattern."
+  routed_drills:
+    - "Dog sniff Gold Key recall"
+    - "Suppression reason matching"
+    - "Wrong-frame airport safety versus narcotics"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a **Criminal Procedure / Fourth Amendment** question.
+
+The issue is not “airports are dangerous.”
+The issue is not “police had some warrant somewhere.”
+The issue is whether the marijuana found in Mary’s suitcase should be suppressed.
+
+C3 route: **CUT → residual.**
+But the item is **anchor-assisted**, because the dog-sniff rule and search-incident rule are not pure grammar.
+
+---
+
+## student_access_test
+
+A smart student with only C3 structure can cut **C**.
+That student can also distrust **B** as an adjacent-call answer.
+
+But the student cannot safely cut **A** without a Gold Key. The rule that a public luggage dog sniff is not a Fourth Amendment search is doctrine. Do not fake it as structure.
+
+---
+
+## question_data
+
+**Subject:** CRIMINAL
+**Topic:** Fourth Amendment search and seizure
+**Call:** Should the motion to suppress be granted?
+**Credited answer:** D
+**Official key agreement:** yes
+**Teaching verdict:** ANCHOR_SOLVE
+**Bank verdict:** PASS
+
+---
+
+## distilled_core_question
+
+A trained drug dog alerts on checked luggage. The traveler claims and carries the suitcase. The officer arrests her for drug possession with probable cause and immediately searches the suitcase. Suppress the marijuana?
+
+---
+
+## call_and_prediction
+
+The call asks whether the marijuana should be suppressed.
+
+Prediction: **No**, if the dog alert gave probable cause and the suitcase was within Mary’s control when she was arrested.
+
+Adjacent calls to avoid:
+
+* Was the dog sniff itself a search?
+* Did the arrest warrant authorize Mary’s arrest?
+* Are airport security inspections justified by hijacking danger?
+
+---
+
+## trigger_facts
+
+| Fact                                                     | Why it matters                                                         |
+| -------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Dog trained for marijuana alerted on Mary’s suitcase     | Probable-cause trigger                                                 |
+| Mary claimed and carried the suitcase                    | Connects the suitcase to Mary                                          |
+| Officer arrested Mary for possession                     | Search tied to possession                                              |
+| Trial court found probable cause                         | Locks the operative legal fact                                         |
+| Dog sniff occurred after landing and concerned marijuana | Cuts hijacking/security rationale                                      |
+| Police had arrest warrant                                | Attractive adjacent fact, but not the best evidence-suppression reason |
+
+---
+
+## governing_c3_lane
+
+**Criminal Procedure = event chain + remedy filter.**
+
+Ask:
+
+1. What event is challenged?
+2. What evidence is being suppressed?
+3. Which fact made the evidence lawful or unlawful?
+
+Here: dog alert → probable cause → arrest while carrying suitcase → search → marijuana.
+
+---
+
+## choice_by_choice_walkthrough
+
+### A. Yes, because allowing the dog to sniff Mary’s luggage was an unreasonable search.
+
+1. **Student-accessible C3 signal:** This is not safely cut by structure alone. It needs the dog-sniff Gold Key.
+2. **Student label:** Dog-sniff-as-search trap.
+3. **True/responsive version:** “Yes, if the dog sniff itself were an unconstitutional search and the marijuana were fruit of that search.”
+4. **Lawyer confirmation:** For public luggage, the trained narcotics dog sniff is not treated as a Fourth Amendment search under the exam rule. *Place* is the core authority. ([Justia Law][1])
+
+---
+
+### B. No, because the police had a warrant for Mary’s arrest.
+
+1. **Student-accessible C3 signal:** This gives a general arrest-authority fact, but the call is about suppressing marijuana found in the suitcase.
+2. **Student label:** Adjacent-call warrant answer.
+3. **True/responsive version:** “No, because the lawful arrest plus immediate-control suitcase search justified seizing the marijuana.”
+4. **Lawyer confirmation:** The official key does not rely on the arrest warrant. It relies on probable cause to believe Mary possessed marijuana when arrested. B is legal-adjacent but not the best suppression reason.
+
+---
+
+### C. No, because the possibility of airline hijacking makes routine examination of passengers’ luggage necessary to protect the public against a clear and present danger.
+
+1. **Student-accessible C3 signal:** Wrong purpose. The dog was smelling for marijuana after landing, not screening for weapons before flight.
+2. **Student label:** Hijacking-safety wrong frame.
+3. **True/responsive version:** “No, because a properly limited airport weapons/security inspection justified the search.” That is not this fact pattern.
+4. **Lawyer confirmation:** Airport security logic does not justify this marijuana search. The official explanation calls this a non sequitur.
+
+---
+
+### D. No, because when Mary was arrested, the arresting officer had probable cause to believe that she was in possession of marijuana.
+
+1. **Student-accessible C3 signal:** This answer uses the fact the trial court found and connects it to the suitcase.
+2. **Student label:** True and responsive residual.
+3. **True/responsive version:** This is already the true/responsive version.
+4. **Lawyer confirmation:** Probable cause supports the arrest, and a lawful arrest allows a contemporaneous search of the arrestee and the area/items within immediate control. ([Justia Law][3])
+
+---
+
+## residual_answer
+
+After cuts:
+
+* A dies by Gold Key.
+* B dies as adjacent/not responsive.
+* C dies as wrong frame.
+* D remains.
+
+Residual: **D**.
+
+---
+
+## legal_leak_audit
+
+A is not student-accessibly false without a dog-sniff anchor.
+D is not student-accessibly complete without a search-incident/immediate-control anchor.
+B should not be described as flatly false. It is better described as adjacent and less responsive than D.
+C is structurally visible because hijacking safety does not match marijuana evidence.
+
+Drift audit: No lawyer-only rule is presented as hard structure; the dog-sniff and search-incident rules are quarantined as Gold Keys.
+
+---
+
+## final_student_script
+
+“Suppression question. Marijuana in suitcase. Dog sniff is not the bad search by Gold Key. Hijacking is wrong frame. Warrant is adjacent. The trial court found probable cause when Mary was arrested while carrying the suitcase. That is the evidence-linked reason. Pick D.”
+
+---
+
+## remediation_card
+
+**Card:** CRIM-REM-16001-SUPPRESSION-CHAIN
+**Signal:** Several answers say “No,” but only one reason links to the challenged evidence.
+**Move:** Match the justification to the evidence being suppressed.
+**Tiny rule:** Fourth Amendment questions are event-chain questions. Event → justification → evidence.
+**Trap:** Picking the first lawful-police-action fact.
+
+---
+
+## Gold Key(s)
+
+### GK-CRIM-DOG-SNIFF-LUGGAGE-01
+
+A trained narcotics dog sniff of luggage in a public place is not treated as a Fourth Amendment search for MBE purposes.
+
+**Unlocks:** A.
+**Trigger:** Dog sniffs checked luggage or exterior of property in a public transportation setting.
+**Last-minute review:** yes.
+
+### GK-CRIM-SIA-IMMEDIATE-CONTROL-01
+
+After a lawful custodial arrest, police may search the arrestee and the area or item within immediate control.
+
+**Unlocks:** D.
+**Trigger:** Arrestee is carrying or reaching-distance to the container when arrested.
+**Last-minute review:** yes.
+
+---
+
+## Silver Key(s)
+
+### SK-CRIM-SUPPRESSION-REASON-01
+
+In a suppression question with several “No, because” answers, choose the reason that connects the challenged evidence to the exact fact that made the search lawful.
+
+**Navigates:** B versus D.
+**Trigger:** One “No” answer gives an adjacent arrest fact; another gives the evidence-linked probable-cause fact.
+
+### SK-CRIM-WRONG-PURPOSE-SECURITY-01
+
+Do not let an airport-safety rationale answer a narcotics-search question unless the stem is actually about weapons or flight safety.
+
+**Navigates:** C.
+**Trigger:** Hijacking/public-danger language appears in a marijuana dog-sniff question.
+
+---
+
+## qa_checklist
+
+| Check                                                 | Result |
+| ----------------------------------------------------- | ------ |
+| Correct answer unchanged                              | yes    |
+| Original trap preserved                               | yes    |
+| Christian/law-school variation without added doctrine | yes    |
+| A requires Gold Key                                   | yes    |
+| B not overstated as false                             | yes    |
+| C structurally cut                                    | yes    |
+| D residual matches official key                       | yes    |
+| Three distractors each break one filter               | yes    |
+| PASS available                                        | yes    |
+
+---
+
+## wrong_answer_recovery_paths
+
+**A recovery:** Learn the dog-sniff Gold Key. Do not assume every police information-gathering act is a search.
+
+**B recovery:** In “because” answers, the reason matters. The warrant fact is adjacent; D uses the suitcase/probable-cause fact.
+
+**C recovery:** Match purpose. Hijacking safety belongs to weapons/security screening, not marijuana evidence.
+
+---
+
+## outline_mastery_map
+
+**Outline code:** 75070202
+**Placement:** Criminal Procedure → Fourth Amendment → Searches and Seizures → Exceptions to warrant requirement
+**This item teaches:** Dog sniff, probable cause, search incident to arrest, suppression-reason matching.
+**Adjacent to master:** automobile searches, inventory searches, Terry stops, search incident to arrest, good-faith exception.
+
+---
+
+## crossover_intersection_map
+
+* **Evidence crossover:** This is about suppression/admissibility of physical evidence, but the rule is Fourth Amendment.
+* **Civil Procedure crossover:** Procedural posture matters; the call is a motion to suppress after conviction.
+* **C3 crossover:** Same as service questions: do not answer an adjacent procedural fact when the call targets a different event.
+
+---
+
+## review_truth
+
+A public luggage dog sniff is not the suppression problem; after the alert gives probable cause and the suspect is arrested while carrying the suitcase, the fact-engaged “No” answer wins.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "16001_seminary_baggage_claim",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "75070202",
+  "distilled_core_question": "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?",
+  "review_truth": "A public luggage dog sniff is not the suppression problem; after the alert gives probable cause and the suspect is arrested while carrying the suitcase, the fact-engaged No answer wins.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Which No answer gives the operative suppression reason: generic arrest authority or probable cause tied to the suitcase?",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "fact-engaged over adjacent abstract reason",
+    "difficulty": "medium_high",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-CRIM-DOG-SNIFF-LUGGAGE-01",
+        "explanation": "Dog sniff of public luggage is not treated as an unreasonable search for MBE purposes."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIM-SUPPRESSION-REASON-01",
+        "explanation": "The arrest warrant fact is adjacent; it does not give the evidence-linked reason for denying suppression."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIM-WRONG-PURPOSE-SECURITY-01",
+        "explanation": "Hijacking safety is a wrong-frame rationale for a marijuana dog-sniff and drug-possession arrest."
+      }
+    ],
+    "analyzer_notes": "drift_audit: A and D require Gold Key support; B is not called legally false, only not responsive to the best suppression reason. transformed_from: 16001",
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-DOG-SNIFF-LUGGAGE-01",
+        "statement": "A trained narcotics dog sniff of luggage in a public place is not treated as a Fourth Amendment search for MBE purposes.",
+        "type": "rule",
+        "unlocks": "Cuts the dog-sniff-as-search suppression trap.",
+        "trigger": "Dog sniffs checked luggage or exterior property in a public transportation setting.",
+        "tested_choice": "A",
+        "authority": "United States v. Place; Illinois v. Caballes",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIM-SIA-IMMEDIATE-CONTROL-01",
+        "statement": "After a lawful custodial arrest, police may search the arrestee and the area or item within immediate control.",
+        "type": "exception",
+        "unlocks": "Explains why the suitcase search is not suppressible once probable cause supports the arrest.",
+        "trigger": "Arrestee is carrying or reaching-distance to the container when arrested.",
+        "tested_choice": "D",
+        "authority": "Chimel v. California; United States v. Robinson",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-SUPPRESSION-REASON-01",
+        "statement": "In a suppression question with several No-because answers, pick the reason that connects the challenged evidence to the exact fact that made the search lawful.",
+        "type": "call_focus",
+        "navigates": "B versus D",
+        "trigger": "Multiple No answers, only one evidence-linked reason.",
+        "tested_choice": "B",
+        "outline_code": "75070202",
+        "last_minute_review": true
+      },
+      {
+        "id": "SK-CRIM-WRONG-PURPOSE-SECURITY-01",
+        "statement": "Do not let an airport-safety rationale answer a narcotics-search question unless the stem is actually about weapons or flight safety.",
+        "type": "trap_spotting",
+        "navigates": "C wrong-frame cut",
+        "trigger": "Hijacking/public-danger language in a marijuana dog-sniff problem.",
+        "tested_choice": "C",
+        "outline_code": "75070202",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "16001_seminary_baggage_claim",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?",
+  "review_truth": "A public luggage dog sniff is not the suppression problem; after the alert gives probable cause and the suspect is arrested while carrying the suitcase, the fact-engaged No answer wins.",
+  "tension": {
+    "axis": "generic arrest authority versus evidence-linked probable cause",
+    "splitting_fact": "trial court found probable cause to believe Mary possessed marijuana when arrested while carrying the suitcase"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "Students overgeneralize that any police sensory investigation of luggage is a search.",
+      "focus_group_pct": "not_supplied"
+    },
+    {
+      "choice": "B",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The arrest warrant sounds like enough police authority and reaches the same No result.",
+      "focus_group_pct": "not_supplied"
+    },
+    {
+      "choice": "C",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "Airport safety feels powerful and public-protective.",
+      "focus_group_pct": "not_supplied"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-16001-SUPPRESSION-CHAIN",
+    "title": "Suppression chain: event, evidence, reason",
+    "signal": "A choice gives the correct result but a reason that does not connect to the evidence.",
+    "student_move": "Ask what evidence is being suppressed and which fact made that evidence lawfully obtained.",
+    "tiny_rule": "In Fourth Amendment questions, match the justification to the challenged evidence, not merely to the officer's general authority.",
+    "trap": "Arrest warrant equals all evidence admissible.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "dog_sniff_as_search_myth",
+    "because_reason_neglect",
+    "airport_security_wrong_frame",
+    "arrest_authority_vs_evidence_admissibility",
+    "probable_cause_fact_ignored"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "16001_seminary_baggage_claim",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?",
+  "review_truth": "A public luggage dog sniff is not the suppression problem; after the alert gives probable cause and the suspect is arrested while carrying the suitcase, the fact-engaged No answer wins.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "They think the dog sniff itself was the unconstitutional search.",
+      "skipped_move": "Gold Key recall: public luggage dog sniff is not the search problem.",
+      "recovery_step": "Drill dog-sniff fact patterns separately from home-curtilage dog-sniff cases."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "They see a warrant and stop analyzing the challenged evidence.",
+      "skipped_move": "Silver Key: match the No-because reason to the marijuana evidence.",
+      "recovery_step": "Underline the evidence to be suppressed, then pick the answer that explains that evidence."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "They are attracted to airport danger and public-safety language.",
+      "skipped_move": "Purpose match: marijuana dog alert is not hijacking screening.",
+      "recovery_step": "Ask whether the safety rationale matches the object searched for."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "dog sniff public luggage",
+      "prompt": "A trained drug dog sniffs checked luggage in a public airport and alerts. Is the sniff itself a Fourth Amendment search?",
+      "answer": "No, for MBE purposes."
+    },
+    {
+      "drill_type": "Silver Key suppression chain",
+      "target_skill": "reason matching",
+      "prompt": "Two answers say No suppression. One cites an arrest warrant; one cites probable cause tied to the bag containing drugs. Which reason is more responsive?",
+      "answer": "The probable-cause reason tied to the challenged evidence."
+    },
+    {
+      "drill_type": "Wrong-frame cut",
+      "target_skill": "airport security misfit",
+      "prompt": "A choice justifies a marijuana dog-sniff search by hijacking danger. What mold?",
+      "answer": "Misfit / wrong_frame."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "dog_sniff",
+      "search_incident_to_arrest",
+      "probable_cause",
+      "suppression",
+      "airport_luggage"
+    ],
+    "misconception_tags": [
+      "every_police_sniff_is_search",
+      "arrest_warrant_solves_everything",
+      "airport_safety_always_controls",
+      "same_result_wrong_reason"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE/RESPONSIVE",
+    "Lesson 7 Predict Before Peek",
+    "Lesson 8 Not-Responsive Molds",
+    "Lesson 11 Wrong Frame",
+    "Lesson 12 Anchor Deck",
+    "Gold Key dog sniff",
+    "Gold Key search incident"
+  ],
+  "crossovers": [
+    {
+      "subject": "EVIDENCE",
+      "connection": "Suppression determines whether physical evidence may be used."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "connection": "Procedural posture matters: motion/appeal asks what the court should do."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-DOG-SNIFF-LUGGAGE-01",
+      "statement": "A trained narcotics dog sniff of luggage in a public place is not treated as a Fourth Amendment search for MBE purposes.",
+      "type": "rule",
+      "unlocks": "Cuts A.",
+      "trigger": "Dog sniffs public luggage.",
+      "tested_choice": "A",
+      "authority": "United States v. Place; Illinois v. Caballes",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIM-SIA-IMMEDIATE-CONTROL-01",
+      "statement": "After a lawful custodial arrest, police may search the arrestee and the area or item within immediate control.",
+      "type": "exception",
+      "unlocks": "Supports D.",
+      "trigger": "Arrestee carries or controls container at arrest.",
+      "tested_choice": "D",
+      "authority": "Chimel v. California; United States v. Robinson",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-SUPPRESSION-REASON-01",
+      "statement": "In a suppression question with several No-because answers, pick the reason that connects the challenged evidence to the exact fact that made the search lawful.",
+      "type": "call_focus",
+      "navigates": "B versus D",
+      "trigger": "Multiple No answers with different reasons.",
+      "tested_choice": "B",
+      "outline_code": "75070202",
+      "last_minute_review": true
+    },
+    {
+      "id": "SK-CRIM-WRONG-PURPOSE-SECURITY-01",
+      "statement": "Do not let an airport-safety rationale answer a narcotics-search question unless the stem is actually about weapons or flight safety.",
+      "type": "trap_spotting",
+      "navigates": "C",
+      "trigger": "Hijacking/public-danger language appears in a marijuana dog-sniff problem.",
+      "tested_choice": "C",
+      "outline_code": "75070202",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Procedure > Fourth Amendment > Searches and Seizures > Exceptions to warrant requirement",
+    "this_item_teaches": "Dog sniff of public luggage, probable cause from alert, search incident to arrest, and suppression-reason matching.",
+    "fills": [
+      "dog sniff not search",
+      "probable cause after alert",
+      "search incident to lawful arrest",
+      "wrong-frame airport security rationale"
+    ],
+    "adjacent_to_master": [
+      "vehicle dog sniff",
+      "home-curtilage dog sniff",
+      "inventory search",
+      "administrative airport search",
+      "good-faith exception",
+      "automobile exception"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/462/696/?utm_source=chatgpt.com "United States v. Place | 462 U.S. 696 (1983) | Justia U.S. Supreme Court Center"
+[2]: https://supreme.justia.com/cases/federal/us/543/405/?utm_source=chatgpt.com "Illinois v. Caballes | 543 U.S. 405 (2005) | Justia U.S. Supreme Court Center"
+[3]: https://supreme.justia.com/cases/federal/us/423/411/?utm_source=chatgpt.com "United States v. Watson | 423 U.S. 411 (1976) | Justia U.S. Supreme Court Center"
+[4]: https://supreme.justia.com/cases/federal/us/395/752/?utm_source=chatgpt.com "Chimel v. California | 395 U.S. 752 (1969) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "16001_seminary_baggage_claim",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "75070202",
+  "distilled_core_question": "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?",
+  "review_truth": "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 16001; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "16001_seminary_baggage_claim",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?",
+  "review_truth": "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-16001",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "16001_seminary_baggage_claim",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "Dog alerts on checked luggage. Traveler claims and carries it. Officer arrests with probable cause and immediately searches suitcase. Suppress marijuana?",
+  "review_truth": "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75070202",
+    "this_item_teaches": "A public luggage dog sniff is not the suppression problem; the fact-engaged answer is the probable-cause/search-incident answer.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

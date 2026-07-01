@@ -1,0 +1,1024 @@
+---
+qid: "20565_purple_gear_hymnbook_tote"
+transformed_from: "20565"
+subject: "EVIDENCE"
+topic: "Laying a Foundation"
+subtopic: "II.B"
+outline_code: "32020200"
+key: "B"
+original_key: "A"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+In a federal products-liability action over a battery-powered fog machine used in a private Christmas pageant, Lydia offers a cracked purple plastic gear that Stephen found three weeks later inside a hymnbook tote at Martha’s rented banquet hall. Stephen did not see it come from the fog machine; no witness recognizes it; no logo, serial number, or marking ties it to the fog machine; and no evidence shows how it got into the tote. Lydia says the jury can decide what to make of it. The manufacturer objects. How should the court rule?
+
+### 2. Distilled Core Question
+
+Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?
+
+### 3. Final answer choices — post-shuffle
+
+A. Admit the gear because the manufacturer can argue about its weight.
+B. Exclude the gear because there is no evidence sufficient to support a finding that it is connected to the fog machine or the accident.
+C. Exclude the gear only if the manufacturer proves it came from some other device.
+D. Admit the gear because any physical object may be considered by the jury.
+
+### 5. Correct answer
+
+**B**. Original key letter: **A**.
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                         | Substance | Pick rate                                           |
+| --------------- | ---------: | -------------------------------- | --------- | --------------------------------------------------- |
+| A               |          B | correct_answer                   | kept      | null, predicted; original row supplied no pick rate |
+| B               |          D | `tiered_absolute` / NOT_TRUE     | kept      | null, predicted; original row supplied no pick rate |
+| C               |          A | `bait_doctrine` / NOT_RESPONSIVE | kept      | null, predicted; original row supplied no pick rate |
+| D               |          C | `backwards` / NOT_TRUE           | kept      | null, predicted; original row supplied no pick rate |
+
+### 7. Full right-answer explanation
+
+**B is correct.** The gear is offered as if it is connected to the fog machine or the pageant accident, but the stem gives no identifying witness, no recognizable marking, and no circumstance tying the gear to that product or event. **Gold Key:** A physical object needs a threshold link before the jury can consider it as case evidence. **Silver Key:** Gate before weight; the jury does not weigh an object that has not crossed the foundation gate.
+
+### 8. Full wrong-answer explanations
+
+**A.** This choice sells a familiar evidence move: let the item in and let the opponent attack its weight. The breaker is sequence. Weight arguments come after a threshold foundation exists. Here the stem gives a total connection gap, so the item never reaches the weight stage.
+
+**C.** This choice sells a burden-shift story. It makes exclusion depend on the manufacturer proving that the gear came from somewhere else. The breaker is direction. Lydia is offering the gear, so Lydia must supply the threshold link first.
+
+**D.** This choice sells trust-the-jury breadth. The word **any** makes all physical objects sound eligible once brought to court. The breaker is the overclaim. A physical object still needs some case connection before the jury can consider it.
+
+### 9. Black-letter verification and right-answer legal reasoning
+
+The source row identifies QID 20565 as an Evidence / Laying a Foundation item, gives official key A, and identifies the tested rule as FRE 901 / insufficient foundation for an unidentified object.  The variation keeps the same rule, legal issue, trap structure, and credited outcome.
+
+Lawyer confirmation: Federal Rule of Evidence 901(a) requires the proponent to produce evidence sufficient to support a finding that an item is what the proponent claims it is; Rule 104(b) likewise requires sufficient proof when relevance depends on a fact. ([Legal Information Institute][1]) Here, the offered gear has no witness identification, markings, source evidence, or circumstantial link. The manufacturer does not need to prove another source. The court should exclude it.
+
+### 10. Why the variation preserves rigor/difficulty
+
+The new story changes the surface object, location, timing, cast, and Christian texture, but preserves the same foundation gap: an unidentified physical object is offered with no link to the product or accident. The trap difficulty remains high because the two strongest distractors still sell “jury weight” and burden-shifting.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT D.** “Any physical object” is the tell. The answer overclaims. It says too much.
+
+**CUT A.** The choice answers the later weight question. The stem is at the earlier foundation gate. No link means no weight stage.
+
+**CUT C.** The choice points the burden the wrong way. The offering party must supply the connection; the opponent does not have to disprove it.
+
+**Residual B.** B alone matches the call and the trigger facts. It excludes because the object has no threshold connection.
+
+**CLASH.** Not needed. One answer survives the Cut.
+
+**CALL.** Not needed. The Gold Key confirms the threshold gate.
+
+### 12. Divergence Audit — Recognition-Kill Checklist
+
+| Dimension                | Changed or skipped | Audit line                                                                                                              |
+| ------------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter   | Changed            | Metal bolt became a cracked purple plastic gear.                                                                        |
+| Transaction frame        | Changed            | Generic products case became a product case involving a pageant fog machine.                                            |
+| Specific facts           | Changed            | Courthouse parking lot / morning of trial became hymnbook tote / private Christmas pageant venue / three weeks later.   |
+| Numbers                  | Changed            | Morning of trial became three weeks later; no legal deadline turns on it.                                               |
+| Fact ordering and rhythm | Changed            | The scene opens with the Christian pageant product, then discovery location, then missing links.                        |
+| Cast size / roles        | Changed            | Added Lydia, Stephen, and Martha; no added legal issue.                                                                 |
+| Choice ordering          | Changed            | New key is B.                                                                                                           |
+| Choice phrasing          | Partly changed     | Phrasing was re-skinned, but the threshold foundation language was preserved where MBE rigor required it.               |
+| Setting / era / texture  | Changed            | Courthouse parking lot became a rented banquet hall after a private Christmas pageant.                                  |
+| Call wording             | Preserved          | “How should the court rule?” was kept because it is the cleanest admissibility call.                                    |
+| Christian skin           | Changed            | Christmas pageant, hymnbook tote, and popular Bible names were added without church-property or First Amendment issues. |
+| Over-signaling           | Avoided            | The stem states missing links but does not add “therefore no foundation” language.                                      |
+| Precedence-rule skip     | Logged             | No swap from “admissible/exclude” legal wording; changing it would weaken legal precision.                              |
+
+**Original one-sentence stem summary:** A plaintiff in a products-liability case offers an unidentified bolt found in a courthouse parking lot with no connection to the product or accident.
+**Variant one-sentence stem summary:** Lydia offers a cracked purple gear found weeks later in a hymnbook tote after a private Christmas pageant, with no connection to the fog machine or accident.
+
+### 13. Review Truth
+
+A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.
+
+### 14. The 5 variations considered
+
+| Candidate                                           | Setting / cast                                    | Preserved issue                        | Why memorable                                        | Legal risk                                                           | Divergence score                                                        |
+| --------------------------------------------------- | ------------------------------------------------- | -------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Recommended: “Purple Gear in the Hymnbook Tote”** | Private Christmas pageant; Lydia, Stephen, Martha | Unidentified object with no foundation | Vivid object, Christian texture, no church-law issue | Low                                                                  | **9/10**; kills asset, location, timing, fact rhythm, cast, and texture |
+| “Bible Quiz Buzzer Chip”                            | Christian homeschool tournament; Peter and Ruth   | Unidentified electronic chip           | Strong surface divergence                            | Moderate; product details could invite electronics causation clutter | 8/10                                                                    |
+| “Olive-Wood Peg at the Retreat Center”              | Private retreat craft table; Hannah and Barnabas  | Unidentified wooden peg                | Strong Christian texture                             | Moderate; wood peg may feel less product-specific                    | 7/10                                                                    |
+| “Choir-Robe Snap in the Guitar Case”                | Worship-band rehearsal; Paul and Naomi            | Unidentified hardware                  | Memorable container                                  | Moderate; clothing object may distract from products claim           | 8/10                                                                    |
+| “Pageant Camel-Wheel Washer”                        | Christmas stage prop; Mary and Timothy            | Unidentified washer                    | Fun and on-theme                                     | Higher; stage prop may blur product vs premises                      | 7/10                                                                    |
+
+**Pass-1 step audit.**
+Step 1: tested rule is FRE 901 threshold foundation for a physical object.
+Step 2: invariant layer preserved: rule, issue, key substance, 2-admit / 2-exclude array, and all distractor mechanics.
+Step 3: five Christian variations generated.
+Step 4: no distractor swap; original mechanics are sound and no pick rates were supplied.
+Step 5: “Purple Gear in the Hymnbook Tote” wins maximum legal-safe divergence.
+Step 6: choices shuffled; Letter Map and Divergence Audit completed.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+```yaml
+barmatrix_row:
+  qid: "20565_purple_gear_hymnbook_tote"
+  transformed_from: "20565"
+  internal_id: "relevance_questions_batch_029_IIB_laying_foundation::r17::Q16"
+  subject: EVIDENCE
+  subject_display: "Evidence"
+  topic: "Laying a Foundation"
+  subtopic: "II.B"
+  outline_code: "32020200"
+  difficulty: "Core"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "Original row supplied no measured pick rate."
+    B:
+      value: null
+      provenance: "predicted"
+      note: "Original row supplied no measured pick rate."
+    C:
+      value: null
+      provenance: "predicted"
+      note: "Original row supplied no measured pick rate."
+    D:
+      value: null
+      provenance: "predicted"
+      note: "Original row supplied no measured pick rate."
+  official_key: "B"
+  original_key_letter: "A"
+  call: "How should the court rule?"
+  stem: "In a federal products-liability action over a battery-powered fog machine used in a private Christmas pageant, Lydia offers a cracked purple plastic gear that Stephen found three weeks later inside a hymnbook tote at Martha’s rented banquet hall. Stephen did not see it come from the fog machine; no witness recognizes it; no logo, serial number, or marking ties it to the fog machine; and no evidence shows how it got into the tote. Lydia says the jury can decide what to make of it. The manufacturer objects. How should the court rule?"
+  choices:
+    A: "Admit the gear because the manufacturer can argue about its weight."
+    B: "Exclude the gear because there is no evidence sufficient to support a finding that it is connected to the fog machine or the accident."
+    C: "Exclude the gear only if the manufacturer proves it came from some other device."
+    D: "Admit the gear because any physical object may be considered by the jury."
+
+transform_provenance:
+  transformed_from: "20565"
+  variant_slug: "purple_gear_hymnbook_tote"
+  original_key_letter: "A"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No source pick rate supplied."
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No source pick rate supplied."
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No source pick rate supplied."
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "backwards"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No source pick rate supplied."
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A plaintiff in a products-liability case offers an unidentified bolt found in a courthouse parking lot with no connection to the product or accident."
+    variant_stem_one_sentence: "Lydia offers a cracked purple gear found weeks later in a hymnbook tote after a private Christmas pageant, with no connection to the fog machine or accident."
+    dimensions_changed:
+      - "asset_or_subject_matter"
+      - "transaction_frame"
+      - "specific_facts"
+      - "numbers_or_timing"
+      - "fact_ordering_and_stem_rhythm"
+      - "cast_size_and_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_era_texture"
+      - "christian_skin"
+    dimensions_skipped_with_reason:
+      - dimension: "call_wording"
+        reason: "Kept because the admissibility call is legally exact and changing it would not add safe divergence."
+      - dimension: "standard_threshold_phrase"
+        reason: "Kept because the answer must preserve the FRE 901 threshold formulation."
+
+source_stack:
+  - priority: 1
+    source: "Pasted question row for BARMATRIX Q# 20565"
+    role: "Rule, issue, answer choices, official key, official explanation."
+  - priority: 2
+    source: "Existing C3 / Evidence overlay"
+    role: "Hypothesis layer: Evidence = admissibility-layer cascade + failure-mode scan."
+  - priority: 3
+    source: "controlled_vocabularies.md"
+    role: "Controlled fields for subject, molds, filters, method_class, verdicts, confidence, key types."
+  - priority: 4
+    source: "FRE 901 and FRE 104(b)"
+    role: "Lawyer-confirmation authority only."
+
+student_access_contract:
+  allowed_sources:
+    - "True and Responsive frame"
+    - "CUT -> CLASH -> CALL"
+    - "Ear: overclaim and falsity"
+    - "Issue-Sense: bait-doctrine and wrong-element"
+    - "Evidence overlay: purpose, layer, failure mode"
+    - "EVI-11 authentication foundation anchor"
+    - "Gold Key GK-EVIDENCE-FOUNDATION-GATE-01"
+    - "Silver Key SK-EVIDENCE-FOUNDATION-GATE-01"
+  controlling_test: "Could a smart 10-year-old with only C3 lessons, overlays, and taught keys see the problem?"
+  drift_guardrail: "No choice is called false unless the defect is visible from grammar, overclaim, taught key, or stem/call relation."
+
+stem_parse:
+  subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+  call_type: "court ruling on admissibility objection"
+  negative_stem: false
+  adjacent_call_trap: "jury weight vs threshold admissibility"
+  offered_item: "cracked purple plastic gear"
+  proponent: "Lydia"
+  opponent: "manufacturer"
+  claimed_connection: "gear is connected to the fog machine or accident"
+
+trigger_facts:
+  - fact: "Stephen found the gear three weeks later inside a hymnbook tote."
+    access_label: "student_accessible"
+    relevance: "remote discovery context; does not itself connect the gear."
+  - fact: "Stephen did not see it come from the fog machine."
+    access_label: "student_accessible"
+    relevance: "no witness identification."
+  - fact: "No witness recognizes it."
+    access_label: "student_accessible"
+    relevance: "no identification foundation."
+  - fact: "No logo, serial number, or marking ties it to the fog machine."
+    access_label: "student_accessible"
+    relevance: "no distinctive-characteristics link."
+  - fact: "No evidence shows how it got into the tote."
+    access_label: "student_accessible"
+    relevance: "no chain/source circumstance."
+  - fact: "Lydia says the jury can decide what to make of it."
+    access_label: "student_accessible"
+    relevance: "sets the weight-versus-foundation trap."
+
+c3_routing:
+  subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Core"
+  tension_axis: "foundation gate vs jury weight"
+  call_heuristic: "threshold before weight"
+
+answer_array:
+  architecture: "2-admit / 2-exclude outcome split; foundation-gate layer controls."
+  admit_choices:
+    - "A"
+    - "D"
+  exclude_choices:
+    - "B"
+    - "C"
+  residual_answer: "B"
+  silver_key_read: "Do not compare weight arguments until the threshold foundation gate is crossed."
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - answer_to_different_question
+      - half_right_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "weight-before-gate trap"
+    c3_signal: "The answer talks about weight after admissibility; the stem is still missing the threshold link."
+    lawyer_confirmation: "Weight arguments are available only after a sufficient foundation supports admissibility."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "threshold-foundation residual"
+    c3_signal: "This answer uses the missing-link facts and answers the objection."
+    lawyer_confirmation: "FRE 901(a) and conditional relevance principles require evidence sufficient to support a finding of the claimed identity or connection."
+  C:
+    filter_broken: NOT_TRUE
+    mold_code: backwards
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - misstated_rule
+      - wrong_standard
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "burden reversed"
+    c3_signal: "The answer says the opponent must disprove a connection before exclusion."
+    lawyer_confirmation: "The proponent bears the foundation burden; the opponent need not prove another source."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - overbroad_rule
+      - common_student_myth
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "any-object overclaim"
+    c3_signal: "The word 'any' erases the foundation gate."
+    lawyer_confirmation: "Physical evidence must still satisfy relevance and authentication/foundation requirements."
+
+residual_answer:
+  choice: "B"
+  why_survives: "It is true and responsive: it uses the no-link facts and resolves the admissibility objection at the threshold layer."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "The stem gives no identifying witness, marking, or source evidence."
+    - "A says weight, but the stem is still at the admissibility gate."
+    - "D overclaims with 'any physical object.'"
+    - "C reverses who must make the first showing."
+  anchor_assisted_claims:
+    - "A physical object needs evidence sufficient to support a finding that it is what the proponent claims."
+    - "The proponent, not the opponent, bears the foundation burden."
+  quarantined_lawyer_confirmation:
+    - "FRE 901(a)"
+    - "FRE 104(b)"
+  drift_audit: "Student path relies on missing-link facts, answer-array layer, and taught keys; authority appears only in lawyer_confirmation."
+
+gold_keys:
+  - id: "GK-EVIDENCE-FOUNDATION-GATE-01"
+    statement: "A physical object does not reach the jury on 'maybe.' The proponent must first supply some link supporting a finding that the object is what it claims or is connected to the case."
+    type: "threshold"
+    unlocks: "foundation-vs-weight trap for unidentified objects"
+    trigger: "An object is offered, but the stem gives no identifying witness, no marks, and no source facts."
+    tested_choice: "A"
+    authority: "FRE 901(a); FRE 104(b)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-EVIDENCE-FOUNDATION-GATE-01"
+    statement: "When a choice says the jury can weigh it, first ask whether the item crossed the foundation gate. No gate, no weight."
+    type: "call_focus"
+    navigates: "weight-versus-foundation trap"
+    trigger: "The proponent says the jury can decide what to make of an unidentified object."
+    tested_choice: "A"
+    outline_code: "32020200"
+    last_minute_review: true
+
+remediation:
+  card_id: "RM-EVI-FOUNDATION-GATE-01"
+  title: "Gate Before Weight"
+  signal: "Unidentified object; no witness; no marking; no chain/source fact."
+  student_move: "Cut weight arguments until a threshold link exists."
+  tiny_rule: "A jury weighs weak evidence; it does not supply the first connection."
+  trap: "Let the jury decide."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?"
+review_truth: "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case."
+
+case_study_output:
+  final_student_script: "Call is admissibility. The object has no witness, no marking, and no source link. Cut any-object. Cut weight-before-gate. Cut burden-reversal. Pick B."
+  residual: "B"
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  rule_unchanged: true
+  credited_outcome_unmoved: true
+  trap_structure_preserved: true
+  answer_array_preserved: true
+  choices_shuffled: true
+  each_distractor_one_filter: true
+  official_key_agreement: true
+  no_fork: true
+  no_legal_leak_in_student_path: true
+  pass_available: true
+
+analytics_hooks:
+  tested_rule: "FRE 901 insufficient foundation for unidentified object"
+  primary_skill: "CUT"
+  secondary_skill: "Evidence layer cascade"
+  trap_family:
+    - "weight-before-foundation"
+    - "burden reversal"
+    - "any-object overclaim"
+  card_refs:
+    - "GK-EVIDENCE-FOUNDATION-GATE-01"
+    - "SK-EVIDENCE-FOUNDATION-GATE-01"
+    - "RM-EVI-FOUNDATION-GATE-01"
+```
+
+## 2. Student Case Study — 17 sections
+
+### program_frame
+
+This is an Evidence foundation question. The item is not asking whether the gear is persuasive. It is asking whether the gear gets past the admissibility gate at all.
+
+### student_access_test
+
+Allowed moves: True and Responsive, CUT → CLASH → CALL, overclaim detection, wrong-frame detection, Evidence layer cascade, and the foundation-gate Gold Key.
+
+The key question: can the student see the defect without outside doctrine? For A and C, the student needs the taught foundation-gate key. For D, the overclaim is visible from the word **any**.
+
+### question_data
+
+**Question ID:** 20565_purple_gear_hymnbook_tote
+**Subject:** Evidence
+**Topic:** Laying a Foundation
+**Call:** How should the court rule?
+**Correct answer:** B
+
+### distilled_core_question
+
+Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?
+
+### call_and_prediction
+
+**Call:** rule on the objection.
+**Adjacent-call trap:** how much weight the jury should give the gear.
+**Prediction:** exclude. The stem gives no link between the gear and the product or accident.
+
+### trigger_facts
+
+| Fact                                             | Student use                                    |
+| ------------------------------------------------ | ---------------------------------------------- |
+| Gear found three weeks later in a hymnbook tote  | Discovery context does not supply a case link. |
+| Stephen did not see it come from the fog machine | No witness identification.                     |
+| No witness recognizes it                         | No identification.                             |
+| No logo, serial number, or marking               | No distinctive link.                           |
+| No evidence shows how it got into the tote       | No chain/source link.                          |
+| Lydia says jury can decide                       | Weight-vs-foundation trap.                     |
+
+### governing_c3_lane
+
+**Evidence FIT:** admissibility-layer cascade + failure-mode scan.
+**Lane:** foundation gate before weight.
+**Phase:** CUT.
+**Confidence:** ANCHOR_ASSISTED.
+
+### choice_by_choice_walkthrough
+
+#### A
+
+1. **Student-accessible C3 signal:** The answer talks about jury weight, but the stem shows the item has not crossed the foundation gate.
+2. **Student label:** Weight-before-gate trap.
+3. **True/responsive version:** “Admit if Lydia first supplies some witness, mark, chain, or circumstance connecting the gear to the fog machine or accident; then the manufacturer can attack weight.”
+4. **Lawyer confirmation:** Weight arguments matter after a sufficient foundation. With no threshold link, admission is not justified.
+
+#### B
+
+1. **Student-accessible C3 signal:** This answer matches the missing-link facts and answers the objection.
+2. **Student label:** Threshold-foundation residual.
+3. **True/responsive version:** It already is true and responsive.
+4. **Lawyer confirmation:** FRE 901(a) requires evidence sufficient to support a finding that the item is what the proponent claims, and FRE 104(b) requires sufficient proof when relevance depends on a fact.
+
+#### C
+
+1. **Student-accessible C3 signal:** The answer makes the manufacturer disprove connection. That points the first showing in the wrong direction.
+2. **Student label:** Burden reversed.
+3. **True/responsive version:** “Exclude unless Lydia supplies evidence sufficient to support a finding that the gear is connected to the fog machine or accident.”
+4. **Lawyer confirmation:** The offering party must lay the foundation. The opponent need not prove an alternate source.
+
+#### D
+
+1. **Student-accessible C3 signal:** The word **any** is too broad. The answer erases all foundation limits.
+2. **Student label:** Any-object overclaim.
+3. **True/responsive version:** “A physical object may be considered by the jury if it is relevant and properly connected to the case.”
+4. **Lawyer confirmation:** Physical evidence must satisfy relevance and authentication/foundation requirements.
+
+### residual_answer
+
+**B survives.** It is the only answer that uses the stem’s no-link facts and resolves the admissibility objection at the threshold layer.
+
+### legal_leak_audit
+
+Student-accessible: no witness, no markings, no source facts, weight-before-gate trap, any-object overclaim, burden-direction problem.
+
+Anchor-assisted: the exact FRE 901 threshold and proponent-burden rule.
+
+Lawyer-only: FRE 901(a) and FRE 104(b) citations.
+
+Drift audit: The student path does not rely on untaught authority. Authority is quarantined in lawyer confirmation.
+
+### final_student_script
+
+“Call: admissibility. Trigger facts: no witness, no marking, no source link. D says any physical object; cut the overclaim. A says weight; cut because no foundation gate yet. C shifts the burden to the manufacturer; cut. B is the residual.”
+
+### remediation_card
+
+**RM-EVI-FOUNDATION-GATE-01 — Gate Before Weight**
+
+Signal: unidentified object with no witness, marking, or source fact.
+Move: before accepting a “jury can weigh it” answer, ask whether the item has crossed the foundation gate.
+Tiny rule: weak connected evidence may be weighed; unconnected evidence is excluded.
+Trap: “Let the jury decide.”
+
+### Gold Key(s)
+
+**GK-EVIDENCE-FOUNDATION-GATE-01**
+A physical object does not reach the jury on “maybe.” The proponent must first supply some link supporting a finding that the object is what it claims or is connected to the case.
+
+### Silver Key(s)
+
+**SK-EVIDENCE-FOUNDATION-GATE-01**
+When a choice says the jury can weigh it, first ask whether the item crossed the foundation gate. No gate, no weight.
+
+### qa_checklist
+
+| Check                                                           | Result |
+| --------------------------------------------------------------- | ------ |
+| Correct answer equals official key after shuffle                | Pass   |
+| Three distractors each break one filter                         | Pass   |
+| No fork                                                         | Pass   |
+| Legal rule unchanged                                            | Pass   |
+| Christian skin adds no First Amendment or church-property issue | Pass   |
+| Gold Key used only for anchor layer                             | Pass   |
+| Silver Key has no authority field                               | Pass   |
+
+### wrong_answer_recovery_paths
+
+| Choice | Recovery path                                                                      |
+| ------ | ---------------------------------------------------------------------------------- |
+| A      | Ask: “What must happen before weight?” The item must first have a foundation link. |
+| C      | Ask: “Who is offering the item?” The offering party must supply the connection.    |
+| D      | Flinch at **any**. Evidence rules do not admit every physical object.              |
+
+### outline_mastery_map
+
+**Placement:** Evidence → Relevance → Laying a Foundation.
+**This item teaches:** foundation for unidentified physical evidence.
+**Fills:** authentication / conditional relevance gate.
+**Adjacent to master:** relevance, authentication and identification, Rule 104(b), Rule 901.
+
+### crossover_intersection_map
+
+| Crossover                       | Use                                                             |
+| ------------------------------- | --------------------------------------------------------------- |
+| Civil Procedure threshold logic | Gate before merits resembles jurisdiction before merits.        |
+| Evidence offered-purpose logic  | The jury-weight purpose cannot bypass admissibility foundation. |
+| C3 overclaim Ear                | “Any physical object” is a clean overclaim.                     |
+
+### review_truth
+
+A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.
+
+```json
+{
+  "question_id": "20565_purple_gear_hymnbook_tote",
+  "subject": "EVIDENCE",
+  "credited_answer": "B",
+  "outline_code": "32020200",
+  "distilled_core_question": "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?",
+  "review_truth": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "foundation gate vs jury weight",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold before weight",
+    "difficulty": "Core",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-EVIDENCE-FOUNDATION-GATE-01",
+        "explanation": "A answers the later weight question before the foundation gate is crossed."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": null,
+        "card_ref": "GK-EVIDENCE-FOUNDATION-GATE-01",
+        "explanation": "C reverses the first-showing burden by requiring the opponent to prove another source."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "PHIL-02",
+        "explanation": "D overclaims by saying any physical object may be considered by the jury."
+      }
+    ],
+    "analyzer_notes": "drift_audit: surface story fully transformed while preserving FRE 901 foundation issue, 2-admit/2-exclude geometry, and all distractor mechanics; transformed_from: 20565; letter_map: A->B correct_answer kept null predicted, B->D tiered_absolute kept null predicted, C->A bait_doctrine kept null predicted, D->C backwards kept null predicted.",
+    "gold_keys": [
+      {
+        "id": "GK-EVIDENCE-FOUNDATION-GATE-01",
+        "statement": "A physical object does not reach the jury on 'maybe.' The proponent must first supply some link supporting a finding that the object is what it claims or is connected to the case.",
+        "type": "threshold",
+        "unlocks": "foundation-vs-weight trap for unidentified objects",
+        "trigger": "An object is offered, but the stem gives no identifying witness, no marks, and no source facts.",
+        "tested_choice": "A",
+        "authority": "FRE 901(a); FRE 104(b).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-EVIDENCE-FOUNDATION-GATE-01",
+        "statement": "When a choice says the jury can weigh it, first ask whether the item crossed the foundation gate. No gate, no weight.",
+        "type": "call_focus",
+        "navigates": "weight-versus-foundation trap",
+        "trigger": "The proponent says the jury can decide what to make of an unidentified object.",
+        "tested_choice": "A",
+        "outline_code": "32020200",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "20565_purple_gear_hymnbook_tote",
+  "subject": "EVIDENCE",
+  "outline_code": "32020200",
+  "distilled_core_question": "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?",
+  "review_truth": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+  "tension": {
+    "axis": "foundation gate vs jury weight",
+    "resolved_by": "total absence of witness, marking, and source-link facts"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice sells the common instinct that flaws go only to weight once the item is in the courtroom. The breaker is the missing foundation gate; without a threshold link, the jury never reaches weight.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "backwards",
+      "architecture": null,
+      "why_attractive": "The choice sells a burden-shift story: exclude only after the opponent proves a different source. The breaker is the proponent's first move; the offering party must supply the link.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The choice sells trust-the-jury breadth and makes all physical things sound eligible. The breaker is the word any; the rule still requires a case connection.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "RM-EVI-FOUNDATION-GATE-01",
+    "title": "Gate Before Weight",
+    "signal": "Unidentified object; no witness; no marking; no chain/source fact.",
+    "student_move": "Cut weight arguments until a threshold link exists.",
+    "tiny_rule": "A jury weighs weak evidence; it does not supply the first connection.",
+    "trap": "Let the jury decide.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "weight_vs_admissibility",
+    "proponent_burden",
+    "any_object_overclaim",
+    "foundation_gap_total"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "20565_purple_gear_hymnbook_tote",
+  "subject": "EVIDENCE",
+  "outline_code": "32020200",
+  "distilled_core_question": "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?",
+  "review_truth": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student remembers that opponents can attack weak evidence by arguing weight.",
+      "skipped_move": "Skipped the Evidence layer gate.",
+      "recovery_step": "Ask whether there is any foundation link before discussing weight."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student thinks the object should be excluded only if the opponent can affirmatively disprove it.",
+      "skipped_move": "Skipped burden-direction check.",
+      "recovery_step": "Ask who is offering the item and who must supply the first link."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student over-trusts the jury and treats physical evidence as automatically admissible.",
+      "skipped_move": "Skipped the Ear flinch at an absolute.",
+      "recovery_step": "Mark 'any' and check whether the rule really has no gate."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "weight-before-foundation",
+      "prompt": "An unidentified object is offered with no witness, marking, or source fact. One answer says admit because the opponent can argue weight. Cut or keep?",
+      "answer": "Cut. Weight comes after foundation."
+    },
+    {
+      "drill_type": "CUT",
+      "target_skill": "burden direction",
+      "prompt": "An answer says exclude only if the opponent proves the object came from somewhere else. What is the problem?",
+      "answer": "Backwards. The proponent must first show a connection."
+    },
+    {
+      "drill_type": "EAR",
+      "target_skill": "tiered absolute",
+      "prompt": "An answer says any physical object may be considered by the jury. What is the mold?",
+      "answer": "tiered_absolute; it erases the foundation requirement."
+    },
+    {
+      "drill_type": "CALL",
+      "target_skill": "threshold before weight",
+      "prompt": "Two choices survive: one says weight, one says no foundation. Which layer controls?",
+      "answer": "No foundation controls before weight."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "foundation_gap",
+      "authentication",
+      "physical_evidence",
+      "conditional_relevance",
+      "threshold_gate"
+    ],
+    "misconception_tags": [
+      "jury_decides_everything",
+      "weight_not_admissibility_overused",
+      "opponent_must_disprove",
+      "physical_object_auto_admit"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Lesson 1",
+      "reason": "True and Responsive residual."
+    },
+    {
+      "component": "Lesson 4",
+      "reason": "Any-object overclaim."
+    },
+    {
+      "component": "Lesson 8",
+      "reason": "Weight answer is true in a neighboring context but not responsive at the foundation stage."
+    },
+    {
+      "component": "Evidence overlay",
+      "reason": "Admissibility-layer cascade."
+    },
+    {
+      "component": "Anchor deck",
+      "reason": "Authentication/foundation threshold."
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "intersection": "Threshold before merits."
+    },
+    {
+      "subject": "EVIDENCE",
+      "intersection": "Purpose/layer before exception or weight."
+    },
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "intersection": "Burden direction as a structural crack."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-EVIDENCE-FOUNDATION-GATE-01",
+      "statement": "A physical object does not reach the jury on 'maybe.' The proponent must first supply some link supporting a finding that the object is what it claims or is connected to the case.",
+      "type": "threshold",
+      "unlocks": "foundation-vs-weight trap for unidentified objects",
+      "trigger": "An object is offered, but the stem gives no identifying witness, no marks, and no source facts.",
+      "tested_choice": "A",
+      "authority": "FRE 901(a); FRE 104(b).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-EVIDENCE-FOUNDATION-GATE-01",
+      "statement": "When a choice says the jury can weigh it, first ask whether the item crossed the foundation gate. No gate, no weight.",
+      "type": "call_focus",
+      "navigates": "weight-versus-foundation trap",
+      "trigger": "The proponent says the jury can decide what to make of an unidentified object.",
+      "tested_choice": "A",
+      "outline_code": "32020200",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Evidence > Relevance > Laying a Foundation",
+    "this_item_teaches": "Foundation threshold for unidentified physical evidence.",
+    "fills": [
+      "Rule 901 threshold language",
+      "conditional relevance link",
+      "weight-vs-admissibility sequence"
+    ],
+    "adjacent_to_master": [
+      "Authentication and Identification",
+      "Relevance",
+      "Rule 104(b)",
+      "Physical evidence foundation"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/rules/fre/rule_901?utm_source=chatgpt.com "Rule 901. Authenticating or Identifying Evidence | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20565_purple_gear_hymnbook_tote"
+  question_id: "20565_purple_gear_hymnbook_tote"
+  subject: "EVIDENCE"
+  topic: "Laying a Foundation"
+  subtopic: "II.B"
+  outline_code: "32020200"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "20565"
+  variant_slug: "purple_gear_hymnbook_tote"
+  original_key_letter: "A"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?"
+review_truth: "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20565_purple_gear_hymnbook_tote; source 20565.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject EVIDENCE; topic Laying a Foundation; subtopic II.B.
+4. **distilled_core_question:** Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 32020200.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 32020200.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20565_purple_gear_hymnbook_tote",
+  "subject": "EVIDENCE",
+  "credited_answer": "B",
+  "outline_code": "32020200",
+  "distilled_core_question": "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?",
+  "review_truth": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20565; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20565_purple_gear_hymnbook_tote",
+  "subject": "EVIDENCE",
+  "outline_code": "32020200",
+  "distilled_core_question": "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?",
+  "review_truth": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20565",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20565_purple_gear_hymnbook_tote",
+  "subject": "EVIDENCE",
+  "outline_code": "32020200",
+  "distilled_core_question": "Plaintiff offers an unidentified object with no witness, marking, or circumstance connecting it to the product or accident. Should the court admit it for the jury to weigh, or exclude it for lack of foundation?",
+  "review_truth": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "32020200",
+    "this_item_teaches": "A jury cannot weigh a physical object until the proponent supplies a threshold link connecting it to the case.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

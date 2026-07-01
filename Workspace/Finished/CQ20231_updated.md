@@ -1,0 +1,1062 @@
+---
+qid: "20231_crown_above_caesars"
+transformed_from: "20231"
+subject: "CONSTITUTIONAL_LAW"
+topic: "First Amendment Religion"
+subtopic: "Free Exercise Clause"
+outline_code: "44040501"
+key: "C"
+original_key: "A"
+letter_map: "- original_letter: \"A"
+dominant_trap: "measured: null"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Free Exercise protects religious belief as such; conduct is the separate regulatory lane."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+During a private Bible-study art class in a rented storefront, Esther teaches a creed she calls **“Crown Above Caesars”**: that Christ’s authority is higher than any earthly government. A state statute makes it a misdemeanor to **hold or teach** that creed. After charging Esther, the state argues that because it may regulate unlawful acts committed by people who invoke the creed, it may also forbid the creed itself.
+
+**What is the best constitutional response?**
+
+### 2. Distilled Core Question
+
+Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?
+
+### 3. Final answer choices, post-shuffle
+
+A. The law is invalid only if it also violates the Establishment Clause.
+
+B. The law is valid if the state has a rational basis for deterring unlawful acts committed under the creed.
+
+C. The law is unconstitutional because the government may not punish religious belief as such.
+
+D. The law is valid because the Free Exercise Clause protects only formal church organizations.
+
+### 5. Correct answer
+
+**C** — original key letter: **A**. The source row identifies Q20231 as a Free Exercise Clause item with original key A and the rule that government may not punish religious belief as such, while religiously motivated conduct is analyzed separately. 
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                           | Legal substance | Pick rate                                                |
+| --------------- | ---------: | ---------------------------------- | --------------- | -------------------------------------------------------- |
+| A               |          C | correct_answer                     | kept            | null, predicted — no measured source percentage supplied |
+| B               |          B | conduct-vs-belief bait_doctrine    | kept            | null, predicted — no measured source percentage supplied |
+| C               |          D | church-only tiered_absolute        | kept            | null, predicted — no measured source percentage supplied |
+| D               |          A | Establishment-only tiered_absolute | kept            | null, predicted — no measured source percentage supplied |
+
+No optional distractor swap was used. The source row did not supply focus-group percentages, so no inherited measured rate is emitted. Pick-rate provenance is marked `predicted` rather than measured.
+
+### 7. Full right-answer explanation
+
+**C is correct. Gold Key:** Free Exercise draws a hard line between **religious belief as such** and **religiously motivated conduct**. The state may sometimes regulate conduct, but this statute reaches the creed itself: it criminalizes holding or teaching the belief. **Silver Key:** Lock the object of the statute before reading the choices. If the statute punishes belief, an answer about unlawful acts is answering the adjacent conduct question.
+
+### 8. Full wrong-answer explanations
+
+**A.** This choice is attractive because the Establishment Clause sounds like the religion-specific constitutional home. The breaker is the word **only**: Free Exercise is enough when the statute punishes religious belief itself.
+
+**B.** This choice sells the state’s best-looking move: shift from the creed to unlawful acts that might be committed under it. **Silver Key:** once the stem says the statute punishes holding or teaching the creed, the conduct answer is the wrong frame.
+
+**D.** This choice is attractive because it treats Free Exercise as institutional religion protection. The breaker is the overclaim **only formal church organizations**; the item is about a person being punished for holding or teaching a religious belief.
+
+### 9. Black-letter-law verification and legal reasoning
+
+The tested rule and credited outcome are unchanged from the source row: the government may not criminalize religious belief as such, even though religiously motivated conduct can be regulated under the applicable constitutional standard. 
+
+Legal confirmation: **Reynolds** distinguishes belief from practices, explaining that laws govern actions and may not interfere with mere religious belief and opinions, while practices may be regulated. ([Legal Information Institute][1]) **Cantwell** states the same belief/action split: freedom to believe is absolute, while conduct remains subject to regulation. ([Justia Law][2]) **Employment Division v. Smith** confirms that Free Exercise first protects the right to believe and profess religious doctrine and excludes governmental regulation of religious beliefs as such, while separately addressing generally applicable laws regulating conduct. ([Justia Law][3])
+
+### 10. Why the variation preserves rigor and difficulty
+
+The variation preserves the original rule, call function, credited outcome, and trap geometry. It keeps the central trap: the state’s argument moves from regulable **conduct** to punishable **belief**. Difficulty is maintained because the student must notice that the answer about unlawful acts is an adjacent-call bait, not a response to the statute actually described.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A — Establishment-only overclaim.** The word **only** makes the answer too narrow. The call asks for the best constitutional response to punishment of belief; Free Exercise can do that work without an Establishment Clause violation.
+
+**CUT B — conduct-switch bait.** B talks about deterring unlawful acts. The stem says the statute criminalizes holding or teaching a creed. That is the adjacent conduct question, not the belief-punishment question.
+
+**CUT D — church-only overclaim.** D narrows Free Exercise protection to formal church organizations. The stem concerns Esther, an individual, and the answer over-restricts the protected category.
+
+**CLASH.** No two-answer clash remains after the Cut.
+
+**CALL.** No Call needed. Residual answer: **C**.
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension  | Result                                                                                                                                                        |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter      | Changed from abstract civil-law/divine-law belief to the “Crown Above Caesars” creed taught in a Bible-study art class.                                       |
+| Transaction frame           | No transaction existed in the source; reframed into a private instructional setting without adding contract, donation, employment, or church-property issues. |
+| Specific facts              | Changed the belief wording, setting, speaker, charge context, and state justification while preserving belief-as-such punishment.                             |
+| Numbers                     | No legally relevant numbers existed; none added.                                                                                                              |
+| Fact ordering / stem rhythm | Changed from statute → state argument to setting/speaker → statute → charge → state argument.                                                                 |
+| Cast size / roles           | Added Esther as the charged individual; no antagonist biblical names used.                                                                                    |
+| Choice ordering             | Shuffled. Correct answer moved from original A to new C.                                                                                                      |
+| Choice phrasing             | Rephrased all choices while preserving legal substance and trap pull.                                                                                         |
+| Setting / era / texture     | Changed to a rented storefront Bible-study art class with a named creed.                                                                                      |
+| Call wording                | Kept “best constitutional response” because changing it would risk shifting the call function.                                                                |
+| Dominant-trap handling      | No measured dominant trap supplied. Conduct-vs-belief bait preserved and treated as pedagogical dominant.                                                     |
+| Clutter check               | No church-property, Establishment, charitable-immunity, internal-church, public-forum, or competency issue added.                                             |
+| Stem over-signaling check   | Did not add “belief, not conduct” as a negative fact; the student still must notice the switch.                                                               |
+| Recognition test            | Passed.                                                                                                                                                       |
+
+**Original stem summary:** A state criminalizes teaching that civil law is subordinate to divine law and defends the ban by pointing to regulable conduct.
+
+**Variant stem summary:** Esther is charged for teaching the “Crown Above Caesars” creed in a private Bible-study art class, and the state defends the charge by pointing to unlawful acts committed under the creed.
+
+### 13. Review Truth
+
+Free Exercise protects religious belief as such; conduct is the separate regulatory lane.
+
+### 14. Five variations considered
+
+|  # | Title                         | Setting                                            | Cast            | Exact preserved issue                                                                     | Why memorable                                               | Legal risks                                                             | Divergence score                                                                                                      |
+| -: | ----------------------------- | -------------------------------------------------- | --------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+|  1 | **Crown Above Caesars**       | Private Bible-study art class in rented storefront | Esther          | State criminalizes holding/teaching religious belief, then argues from conduct regulation | Visual, Christian, distinct from abstract civil-law wording | Low; private class avoids forum/church-property issues                  | **9/10 — selected.** Moves asset, setting, cast, creed wording, rhythm, texture, choice order, phrasing, and posture. |
+|  2 | Shepherd’s Microphone         | Christian podcast recorded by Daniel               | Daniel          | Same belief/conduct distinction                                                           | Modern and memorable                                        | Podcast framing could pull in speech/media doctrine                     | 8/10                                                                                                                  |
+|  3 | Pilgrim Choir Banner          | Community choir rehearsal                          | Lydia, Ruth     | Same belief/conduct distinction                                                           | Musical and concrete                                        | Choir/public performance could over-signal speech/assembly              | 8/10                                                                                                                  |
+|  4 | Fish-and-Loaves Robotics Club | Private tutoring club                              | Timothy, Martha | Same belief/conduct distinction                                                           | Funny, high divergence                                      | Minor/student context risks education/parental-right clutter            | 7/10                                                                                                                  |
+|  5 | Barnabas’s Backpack Patch     | Private devotional craft night                     | Barnabas        | Same belief/conduct distinction                                                           | Strong visual object                                        | Wearing/distributing patch risks expressive-conduct/public-forum issues | 7/10                                                                                                                  |
+
+**Recommendation:** Variation 1 won because it maximizes surface divergence while staying tightly inside the belief-punishment rule.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+question_id: "20231_crown_above_caesars"
+
+barmatrix_row:
+  qid: "20231_crown_above_caesars"
+  transformed_from: "20231"
+  internal_id: "CL-309"
+  subject: "CONSTITUTIONAL_LAW"
+  subject_display: "Constitutional Law"
+  topic: "First Amendment Religion"
+  subtopic: "Free Exercise Clause"
+  outline_code: "44040501"
+  call: "What is the best constitutional response?"
+  stem: "During a private Bible-study art class in a rented storefront, Esther teaches a creed she calls \"Crown Above Caesars\": that Christ's authority is higher than any earthly government. A state statute makes it a misdemeanor to hold or teach that creed. After charging Esther, the state argues that because it may regulate unlawful acts committed by people who invoke the creed, it may also forbid the creed itself."
+  choices:
+    A: "The law is invalid only if it also violates the Establishment Clause."
+    B: "The law is valid if the state has a rational basis for deterring unlawful acts committed under the creed."
+    C: "The law is unconstitutional because the government may not punish religious belief as such."
+    D: "The law is valid because the Free Exercise Clause protects only formal church organizations."
+  official_key: "C"
+  original_key_letter: "A"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "No measured source percentage supplied."
+    B:
+      value: null
+      provenance: "predicted"
+      note: "No measured source percentage supplied."
+    C:
+      value: null
+      provenance: "predicted"
+      note: "No measured source percentage supplied."
+    D:
+      value: null
+      provenance: "predicted"
+      note: "No measured source percentage supplied."
+  source_rule_reference: "Government may not punish religious belief as such; religiously motivated conduct is analyzed separately."
+
+transform_provenance:
+  transformed_from: "20231"
+  variant_slug: "crown_above_caesars"
+  original_key_letter: "A"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No measured source percentage supplied."
+    - original_letter: "B"
+      new_letter: "B"
+      mechanic: "conduct-vs-belief bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No measured source percentage supplied."
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "church-only tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No measured source percentage supplied."
+    - original_letter: "D"
+      new_letter: "A"
+      mechanic: "Establishment-only tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No measured source percentage supplied."
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A state criminalizes teaching that civil law is subordinate to divine law and defends the ban by pointing to regulable conduct."
+    variant_stem_one_sentence: "Esther is charged for teaching the Crown Above Caesars creed in a private Bible-study art class, and the state defends the charge by pointing to unlawful acts committed under the creed."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "specific_facts"
+      - "fact_ordering_and_stem_rhythm"
+      - "cast_size_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_era_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "numbers"
+        reason: "No legally relevant numbers existed in the source."
+      - dimension: "call_wording"
+        reason: "Kept to preserve the same call function and MBE rigor."
+      - dimension: "transaction_frame"
+        reason: "No transaction existed; converted only to a private teaching setting without adding a new legal issue."
+
+source_stack:
+  - rank: 1
+    source: "Pasted BarMatrix row Q20231"
+    use: "Primary source for rule, call, answer choices, official key, and explanations."
+  - rank: 2
+    source: "Existing C3 tags"
+    use: "None supplied for this item; no inherited C3 tags used."
+  - rank: 3
+    source: "Controlled vocabularies and C3 method"
+    use: "Controlled fields and CUT-CLASH-CALL labels."
+  - rank: 4
+    source: "Legal authority"
+    use: "Lawyer-confirmation only: Reynolds, Cantwell, Employment Division v. Smith."
+
+student_access_contract:
+  allowed_sources:
+    - "Lesson 1: TRUE and RESPONSIVE"
+    - "Lesson 2: CUT → CLASH → CALL"
+    - "Lesson 4: overclaim"
+    - "Lesson 7: predict before peek"
+    - "Lesson 8: not-responsive molds"
+    - "Lesson 11: wrong-frame bait architecture"
+    - "Lesson 12: anchor deck"
+    - "Constitutional Law overlay: claim home first; threshold before merits"
+    - "Gold Key GK-CONLAW-BELIEF-CONDUCT-01"
+    - "Silver Key SK-CONLAW-BELIEF-CONDUCT-01"
+  prohibited_sources_for_student_path:
+    - "Case names and citations"
+    - "Full Free Exercise doctrine outline"
+    - "Post-Smith neutral-law doctrine beyond lawyer confirmation"
+  controlling_test_result: "Anchor-assisted: the belief/conduct distinction is a taught Gold Key; the B-choice switch is visible from the stem once the key is available."
+
+stem_parse:
+  subject_fit: "Constitutional Law = claim categorization + tier/burden consistency."
+  call_type: "best constitutional response"
+  call_function: "Select the constitutional rule that directly answers punishment of religious belief."
+  negative_stem: false
+  adjacent_call_trap: "Whether the state may regulate unlawful conduct committed under a religious creed."
+  role: "judge/scholar"
+  issue_frame: "Free Exercise belief-as-such punishment"
+  non_issues:
+    - "Establishment Clause"
+    - "church-institution-only protection"
+    - "rational basis for unlawful conduct"
+
+trigger_facts:
+  - fact: "The statute makes it a misdemeanor to hold or teach the creed."
+    access_label: "C3_visible"
+    legal_role: "Targets belief/profession, not conduct."
+  - fact: "The state justifies the law by pointing to unlawful acts committed under the creed."
+    access_label: "C3_visible"
+    legal_role: "Creates adjacent-call bait: conduct regulation."
+  - fact: "Esther is an individual teacher, not a formal church organization."
+    access_label: "C3_visible"
+    legal_role: "Defeats church-only answer with Gold Key support."
+  - fact: "The call asks for the best constitutional response."
+    access_label: "C3_visible"
+    legal_role: "Requires direct clause/rule response."
+
+c3_routing:
+  subject_fit: "Constitutional Law = claim categorization + tier/burden consistency."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  call_heuristic: null
+  difficulty: "moderate-anchor"
+  tension_axis: "belief-as-such punishment vs conduct regulation"
+  dominant_trap:
+    measured: null
+    pedagogical: "B"
+    reason: "No measured pick rates supplied; conduct-vs-belief bait is the central trap."
+
+answer_array:
+  geometry: "3-vs-1"
+  architecture:
+    - "one true-and-responsive Free Exercise belief answer"
+    - "one wrong-frame conduct answer"
+    - "two over-narrow religion-clause/protection answers"
+  silver_key_signal: "Object of statute: belief/teaching or conduct?"
+  residual_answer: "C"
+
+choice_walkthroughs:
+  A:
+    answer_text: "The law is invalid only if it also violates the Establishment Clause."
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "answer_to_different_question"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Establishment-only overclaim"
+    c3_signal: "The answer adds an only-if gate not in the call."
+    true_responsive_version: "The law is unconstitutional because Free Exercise itself forbids punishment of religious belief as such."
+    lawyer_confirmation: "Free Exercise independently bars governmental punishment of religious belief as such; an Establishment Clause violation is not required."
+  B:
+    answer_text: "The law is valid if the state has a rational basis for deterring unlawful acts committed under the creed."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "wrong_standard"
+      - "answer_to_different_question"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Conduct-switch bait"
+    c3_signal: "The answer talks about unlawful acts, but the statute punishes holding or teaching the creed."
+    true_responsive_version: "The state may regulate conduct under the applicable standard, but it may not criminalize belief itself."
+    lawyer_confirmation: "The conduct-regulation principle is separate; the statute targets belief/profession, so rational-basis conduct reasoning does not save it."
+  C:
+    answer_text: "The law is unconstitutional because the government may not punish religious belief as such."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Belief-as-such residual"
+    c3_signal: "This answer matches the object of the statute: holding or teaching the creed."
+    true_responsive_version: "Already true and responsive."
+    lawyer_confirmation: "Religious belief and profession receive absolute protection from punishment as belief; conduct is analyzed separately."
+  D:
+    answer_text: "The law is valid because the Free Exercise Clause protects only formal church organizations."
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "misstated_rule"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Church-only overclaim"
+    c3_signal: "The word only narrows protection to institutions even though the stem concerns an individual belief."
+    true_responsive_version: "Free Exercise protects individuals' religious belief and profession, not only formal church organizations."
+    lawyer_confirmation: "Free Exercise protection is not limited to formal churches; the individual believer/professor is within the protected lane."
+
+residual_answer:
+  choice: "C"
+  why_survives: "It is true and responsive: it answers the statute's punishment of holding or teaching a creed."
+  exam_register: "C directly tracks the belief-as-such trigger and avoids the conduct switch."
+
+legal_leak_audit:
+  verdict: "clean_with_anchor"
+  student_path_claims:
+    - claim: "The statute punishes holding or teaching a creed."
+      access: "C3_visible"
+      status: "allowed"
+    - claim: "B switches to conduct."
+      access: "C3_visible"
+      status: "allowed"
+    - claim: "A uses an only-if overclaim."
+      access: "Gold_Key_supported"
+      status: "allowed"
+    - claim: "D uses a church-only overclaim."
+      access: "Gold_Key_supported"
+      status: "allowed"
+    - claim: "Belief as such cannot be punished."
+      access: "Gold_Key"
+      status: "anchor_assisted"
+  lawyer_only_claims:
+    - "Reynolds, Cantwell, and Employment Division v. Smith confirm the belief/conduct distinction."
+  drift_audit: "No lawyer-only authority is used to create fake hard structure."
+
+gold_keys:
+  - id: "GK-CONLAW-BELIEF-CONDUCT-01"
+    statement: "Free Exercise protects religious belief and profession as such. Conduct inspired by belief is a separate lane and may be regulated under the applicable constitutional standard."
+    type: "distinction"
+    unlocks: "The conduct-vs-belief trap and the church-only overclaim."
+    trigger: "A statute punishes holding, teaching, professing, or affirming a religious belief."
+    tested_choice: "B"
+    authority: "Reynolds v. United States; Cantwell v. Connecticut; Employment Division v. Smith."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CONLAW-BELIEF-CONDUCT-01"
+    statement: "First lock the object of the law: belief/teaching or conduct. If the answer changes the object from belief to unlawful acts, cut it as the adjacent-call answer."
+    type: "cut"
+    navigates: "Wrong-frame conduct bait."
+    trigger: "Stem says hold or teach, while an answer says unlawful acts or conduct."
+    tested_choice: "B"
+    outline_code: "44040501"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CONLAW-BELIEF-CONDUCT-01"
+  title: "Belief lane vs conduct lane"
+  signal: "A religion question says the state punishes holding, teaching, professing, or affirming a belief."
+  student_move: "Cut answers that switch to conduct, churches only, or a different Religion Clause."
+  tiny_rule: "Belief as such is protected; conduct is separate."
+  trap: "The state justifies a belief ban by pointing to regulable conduct."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?"
+
+review_truth: "Free Exercise protects religious belief as such; conduct is the separate regulatory lane."
+
+case_study_output:
+  program_frame: "Anchor-assisted Con Law CUT item."
+  final_student_script: "The statute punishes holding or teaching a creed. B talks conduct, A talks Establishment-only, and D says churches-only. C is the residual."
+  residual: "C"
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  controlled_vocabularies_checked: true
+  exact_three_distractors: true
+  exactly_one_filter_per_distractor: true
+  credited_answer_breaks_no_filter: true
+  key_letter_consistent: true
+  post_shuffle_letters_used: true
+  agrees_with_official_key: true
+  bank_validation_verdict: "PASS"
+  no_optional_swap: true
+  no_new_clutter_issue: true
+  recognition_test_passed: true
+  authority_quarantined: true
+
+analytics_hooks:
+  trap_tags:
+    - "belief_conduct_switch"
+    - "religion_clause_misroute"
+    - "church_only_myth"
+    - "only_if_overclaim"
+  component_routing:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 4 overclaim"
+    - "Lesson 8 bait_doctrine"
+    - "Lesson 11 wrong_frame"
+    - "Lesson 12 anchor"
+  drill_seed_ids:
+    - "DRILL-CONLAW-BELIEF-CONDUCT-CUT"
+    - "DRILL-CONLAW-RELIGION-CLAUSE-MISROUTE"
+```
+
+### 2. Student case study
+
+## program_frame
+
+This is a **Constitutional Law / Free Exercise** item. The C3 lane is **ANCHOR_SOLVE** because the decisive move uses a taught Gold Key: belief as such is protected; conduct is the separate regulatory lane.
+
+## student_access_test
+
+Could a student solve it from C3 alone?
+
+Partly. The student can see the **B-choice switch** from “hold or teach” to “unlawful acts.” But the reason that the residual wins is a constitutional tiny anchor. So the item is **anchor_assisted**, not hard structural.
+
+## question_data
+
+**Question ID:** 20231_crown_above_caesars
+**Subject:** CONSTITUTIONAL_LAW
+**Topic:** First Amendment Religion
+**Subtopic:** Free Exercise Clause
+**Post-shuffle correct answer:** C
+**Outline code:** 44040501
+**Source provenance:** transformed from Q20231.
+
+## distilled_core_question
+
+Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?
+
+## call_and_prediction
+
+**Call:** What is the best constitutional response?
+
+**Prediction:** The law is unconstitutional. The state is punishing a creed itself, not merely regulating unlawful conduct.
+
+## trigger_facts
+
+| Trigger fact                                                   | C3 access         | Why it matters                         |
+| -------------------------------------------------------------- | ----------------- | -------------------------------------- |
+| The statute punishes holding or teaching the creed.            | Visible from stem | Object of law is belief/profession.    |
+| The state argues from unlawful acts committed under the creed. | Visible from stem | Creates conduct-switch bait.           |
+| Esther is an individual teacher.                               | Visible from stem | Blocks church-only narrowing.          |
+| The call asks for the best constitutional response.            | Visible from call | Pick the direct constitutional answer. |
+
+## governing_c3_lane
+
+**FIT:** Constitutional Law = claim categorization + tier/burden consistency.
+
+**Route:** CUT.
+
+**Gold Key route:** Belief/conduct distinction.
+
+**Silver Key route:** Lock the object of the statute before reading choices.
+
+## choice_by_choice_walkthrough
+
+### A
+
+**(1) Student-accessible C3 signal:**
+The phrase **only if** is too narrow. The choice makes a second Religion Clause a required gate.
+
+**(2) Student label:**
+Establishment-only overclaim.
+
+**(3) What a true/responsive version would look like:**
+“The law is invalid because Free Exercise itself forbids punishment of religious belief as such.”
+
+**(4) Lawyer confirmation:**
+Free Exercise independently protects belief and profession from punishment; the answer does not need an additional Establishment Clause violation. Cantwell identifies freedom to believe as absolute, and Smith excludes governmental regulation of religious beliefs as such. ([Justia Law][2])
+
+### B
+
+**(1) Student-accessible C3 signal:**
+The stem says **hold or teach**. B says **unlawful acts**. That is the adjacent conduct question.
+
+**(2) Student label:**
+Conduct-switch bait.
+
+**(3) What a true/responsive version would look like:**
+“The state may regulate conduct under the applicable standard, but this law punishes belief itself.”
+
+**(4) Lawyer confirmation:**
+The belief/conduct distinction is the core legal split. Reynolds and Cantwell both separate protected belief from regulable conduct. ([Legal Information Institute][1])
+
+### C
+
+**(1) Student-accessible C3 signal:**
+This answer matches the object of the statute: punishment of holding or teaching the creed.
+
+**(2) Student label:**
+Belief-as-such residual.
+
+**(3) What a true/responsive version would look like:**
+Already true and responsive.
+
+**(4) Lawyer confirmation:**
+The government may not punish religious belief as such. Smith states that Free Exercise first protects the right to believe and profess religious doctrine and excludes governmental regulation of religious beliefs as such. ([Justia Law][3])
+
+### D
+
+**(1) Student-accessible C3 signal:**
+The word **only** narrows Free Exercise protection to formal church organizations.
+
+**(2) Student label:**
+Church-only overclaim.
+
+**(3) What a true/responsive version would look like:**
+“Free Exercise protects religious belief and profession by individuals, not only formal church organizations.”
+
+**(4) Lawyer confirmation:**
+Free Exercise protects individual belief and profession; it is not limited to formal church entities. Smith’s formulation is individual-facing: the right to believe and profess religious doctrine. ([Justia Law][3])
+
+## residual_answer
+
+After the CUT, only **C** remains.
+
+C is true and responsive because it directly answers the statute’s belief-punishment problem.
+
+## legal_leak_audit
+
+The student path does not rely on case names. The student uses two allowed tools: the visible object of the statute and the Gold Key belief/conduct distinction. The legal authorities are quarantined in lawyer confirmation.
+
+Drift audit: No lawyer-only doctrine was converted into fake hard structure.
+
+## final_student_script
+
+The call asks for the constitutional response. The statute punishes holding or teaching a creed. B switches to unlawful acts, A adds an Establishment-only gate, and D says only formal churches are protected. C is the belief-as-such answer. Pick C.
+
+## remediation_card
+
+**Card ID:** REM-CONLAW-BELIEF-CONDUCT-01
+**Title:** Belief lane vs conduct lane
+**Signal:** A religion question says the government punishes holding, teaching, professing, or affirming a belief.
+**Student move:** Cut answers that switch to conduct, churches only, or another Religion Clause.
+**Tiny rule:** Belief as such is protected; conduct is separate.
+**Trap:** The state justifies a belief ban by pointing to regulable conduct.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CONLAW-BELIEF-CONDUCT-01**
+Free Exercise protects religious belief and profession as such. Conduct inspired by belief is a separate lane and may be regulated under the applicable constitutional standard.
+
+Type: `distinction`
+Trigger: statute punishes holding, teaching, professing, or affirming a religious belief.
+Unlocks: B’s conduct switch; D’s church-only myth; A’s extra-clause overclaim.
+
+## Silver Key(s)
+
+**SK-CONLAW-BELIEF-CONDUCT-01**
+First lock the object of the law: belief/teaching or conduct. If an answer changes the object from belief to unlawful acts, cut it as the adjacent-call answer.
+
+Type: `cut`
+Trigger: the stem says “hold or teach,” while an answer says “unlawful acts” or “conduct.”
+
+## qa_checklist
+
+| Check                                       | Result |
+| ------------------------------------------- | ------ |
+| Rule unchanged                              | Pass   |
+| Credited outcome unchanged                  | Pass   |
+| Correct letter post-shuffle                 | C      |
+| Original key letter preserved in provenance | A      |
+| Three distractors                           | Pass   |
+| One filter per distractor                   | Pass   |
+| Gold Key present                            | Pass   |
+| Silver Key present                          | Pass   |
+| Authority quarantined                       | Pass   |
+| Bank validation                             | PASS   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Error path                                                                     | Recovery move                                                    |
+| ------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| A      | Student grabs the Religion Clause word “Establishment” and misses **only if**. | Ask whether Free Exercise alone answers the call.                |
+| B      | Student accepts the state’s conduct frame.                                     | Return to the statute’s object: hold or teach.                   |
+| D      | Student treats Free Exercise as institutional church protection.               | Recall Gold Key: individuals can hold/profess protected beliefs. |
+
+## outline_mastery_map
+
+**Placement:** 44040501 — Constitutional Law > Individual Rights > First Amendment Protections > Freedom of religion.
+
+**This item teaches:** the belief/conduct split.
+
+**Fills:** Free Exercise threshold recognition; wrong-frame conduct bait; Religion Clause misrouting.
+
+**Adjacent to master:** neutral law of general applicability, targeted religious conduct, Establishment Clause decoys.
+
+## crossover_intersection_map
+
+| Crossover                     | Why it matters                                            |
+| ----------------------------- | --------------------------------------------------------- |
+| Lesson 1 TRUE and RESPONSIVE  | C survives both filters.                                  |
+| Lesson 4 Overclaim            | A and D use “only” narrowing.                             |
+| Lesson 8 Not-responsive molds | B is true-looking conduct doctrine in the wrong context.  |
+| Lesson 11 Wrong-frame         | State’s argument shifts the frame from belief to conduct. |
+| Lesson 12 Anchor deck         | Gold Key supplies the constitutional unlock.              |
+
+## review_truth
+
+Free Exercise protects religious belief as such; conduct is the separate regulatory lane.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20231_crown_above_caesars",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "44040501",
+  "distilled_core_question": "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?",
+  "review_truth": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "belief-as-such punishment vs conduct regulation",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "moderate-anchor",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CONLAW-BELIEF-CONDUCT-01",
+        "explanation": "The answer makes an Establishment Clause violation an only-if gate even though Free Exercise itself answers punishment of religious belief."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CONLAW-BELIEF-CONDUCT-01",
+        "explanation": "The answer switches from the statute's object, holding or teaching a creed, to unlawful acts committed under the creed."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CONLAW-BELIEF-CONDUCT-01",
+        "explanation": "The answer over-narrows Free Exercise protection to formal church organizations."
+      }
+    ],
+    "analyzer_notes": "drift_audit: variant changes setting, cast, creed wording, fact rhythm, and choice order while preserving the belief-as-such rule; transformed_from: 20231; letter_map: A->C correct_answer, B->B conduct-vs-belief bait_doctrine, C->D church-only tiered_absolute, D->A Establishment-only tiered_absolute; no measured pick rates supplied; all percentages are null predicted.",
+    "gold_keys": [
+      {
+        "id": "GK-CONLAW-BELIEF-CONDUCT-01",
+        "statement": "Free Exercise protects religious belief and profession as such. Conduct inspired by belief is a separate lane and may be regulated under the applicable constitutional standard.",
+        "type": "distinction",
+        "unlocks": "conduct-vs-belief trap and church-only overclaim",
+        "trigger": "statute punishes holding, teaching, professing, or affirming a religious belief",
+        "tested_choice": "B",
+        "authority": "Reynolds v. United States; Cantwell v. Connecticut; Employment Division v. Smith",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONLAW-BELIEF-CONDUCT-01",
+        "statement": "First lock the object of the law: belief/teaching or conduct. If the answer changes the object from belief to unlawful acts, cut it as the adjacent-call answer.",
+        "type": "cut",
+        "navigates": "wrong-frame conduct bait",
+        "trigger": "stem says hold or teach while an answer says unlawful acts or conduct",
+        "tested_choice": "B",
+        "outline_code": "44040501",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "20231_crown_above_caesars",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?",
+  "review_truth": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+  "tension": {
+    "axis": "belief-as-such punishment vs conduct regulation",
+    "resolved_by": "statute punishes holding or teaching the creed"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The Establishment Clause sounds like the safest religion-clause answer. The breaker is the word only, because Free Exercise itself resolves punishment of belief.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The state’s conduct argument sounds practical and familiar. The breaker is that the statute punishes holding or teaching the creed, not unlawful acts.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The answer makes Free Exercise sound like an institutional church rule. The breaker is that individuals can hold and profess protected religious beliefs.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CONLAW-BELIEF-CONDUCT-01",
+    "title": "Belief lane vs conduct lane",
+    "signal": "A religion question says the state punishes holding, teaching, professing, or affirming a belief.",
+    "student_move": "Cut answers that switch to conduct, churches only, or another Religion Clause.",
+    "tiny_rule": "Belief as such is protected; conduct is separate.",
+    "trap": "The state justifies a belief ban by pointing to regulable conduct.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "belief_conduct_switch",
+    "religion_clause_misroute",
+    "institution_only_free_exercise_myth",
+    "only_if_overclaim",
+    "rational_basis_adjacent_call"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20231_crown_above_caesars",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?",
+  "review_truth": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student sees a Religion Clause term and assumes Establishment must be involved whenever religion and the state appear together.",
+      "skipped_move": "Check the word only against the call.",
+      "recovery_step": "Ask whether Free Exercise alone answers punishment of religious belief."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student follows the state’s justification instead of the statute’s actual object.",
+      "skipped_move": "Lock belief/teaching before reading the conduct answer.",
+      "recovery_step": "Circle the punished object: hold or teach the creed."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student treats Free Exercise as protection for churches as organizations rather than belief and profession.",
+      "skipped_move": "Check the overclaim only.",
+      "recovery_step": "Recall the Gold Key that Free Exercise protects belief/profession, including by individuals."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "belief/conduct object lock",
+      "prompt": "A statute punishes teaching a religious creed. One answer defends it by citing the state's power to regulate unlawful acts inspired by the creed. What is the C3 cut?",
+      "answer": "NOT_RESPONSIVE; bait_doctrine; wrong_frame."
+    },
+    {
+      "drill_type": "CUT",
+      "target_skill": "only-if overclaim",
+      "prompt": "A religion-clause answer says the law is invalid only if it also violates Establishment. What is the mold?",
+      "answer": "NOT_TRUE; tiered_absolute."
+    },
+    {
+      "drill_type": "ANCHOR",
+      "target_skill": "Free Exercise tiny anchor",
+      "prompt": "State the Gold Key for a statute that punishes holding or teaching a religious belief.",
+      "answer": "Belief/profession as such is protected; conduct is separate."
+    },
+    {
+      "drill_type": "SILVER_KEY",
+      "target_skill": "adjacent-call defense",
+      "prompt": "What is the Silver Key when the stem says hold or teach but the answer says unlawful acts?",
+      "answer": "Lock the object of the law; cut object-switch answers."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "belief_conduct_switch",
+      "only_if_overclaim",
+      "wrong_frame",
+      "religion_clause_misroute"
+    ],
+    "misconception_tags": [
+      "rational_basis_saves_belief_ban",
+      "free_exercise_only_for_churches",
+      "establishment_required_for_religion_claim"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Lesson 1",
+      "skill": "TRUE and RESPONSIVE",
+      "use": "C survives both filters."
+    },
+    {
+      "component": "Lesson 4",
+      "skill": "Overclaim",
+      "use": "A and D narrow with only."
+    },
+    {
+      "component": "Lesson 8",
+      "skill": "Bait-doctrine",
+      "use": "B is conduct law in the wrong context."
+    },
+    {
+      "component": "Lesson 11",
+      "skill": "Wrong-frame architecture",
+      "use": "State’s defense changes the frame from belief to acts."
+    },
+    {
+      "component": "Lesson 12",
+      "skill": "Anchor deck",
+      "use": "Gold Key resolves belief/conduct distinction."
+    }
+  ],
+  "crossovers": [
+    {
+      "name": "Con Law doctrine-home array",
+      "connection": "A misroutes to Establishment; C stays in Free Exercise."
+    },
+    {
+      "name": "Threshold before merits",
+      "connection": "Before rational basis, ask what the government is regulating."
+    },
+    {
+      "name": "Evidence offered-purpose analogy",
+      "connection": "Like purpose controls admissibility, object of regulation controls the constitutional lane."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONLAW-BELIEF-CONDUCT-01",
+      "statement": "Free Exercise protects religious belief and profession as such. Conduct inspired by belief is a separate lane and may be regulated under the applicable constitutional standard.",
+      "type": "distinction",
+      "trigger": "statute punishes holding, teaching, professing, or affirming a religious belief",
+      "tested_choice": "B",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONLAW-BELIEF-CONDUCT-01",
+      "statement": "First lock the object of the law: belief/teaching or conduct. If the answer changes the object from belief to unlawful acts, cut it as the adjacent-call answer.",
+      "type": "cut",
+      "trigger": "stem says hold or teach while an answer says unlawful acts or conduct",
+      "tested_choice": "B",
+      "outline_code": "44040501",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "44040501 Constitutional Law > Individual Rights > First Amendment Protections > Freedom of religion",
+    "this_item_teaches": "belief-as-such protection and conduct-lane separation",
+    "fills": [
+      "Free Exercise belief/conduct distinction",
+      "Religion Clause misroute",
+      "wrong-frame conduct bait",
+      "institution-only overclaim"
+    ],
+    "adjacent_to_master": [
+      "neutral and generally applicable laws",
+      "targeted religious conduct",
+      "Establishment Clause decoys",
+      "speech/religion overlap"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/supremecourt/text/98/145?utm_source=chatgpt.com "REYNOLDS v. UNITED STATES. | Supreme Court | US Law | LII / Legal Information Institute"
+[2]: https://supreme.justia.com/cases/federal/us/310/296/?utm_source=chatgpt.com " Cantwell v. Connecticut | 310 U.S. 296 (1940) | Justia U.S. Supreme Court Center"
+[3]: https://supreme.justia.com/cases/federal/us/494/872/?utm_source=chatgpt.com " Employment Division v. Smith | 494 U.S. 872 (1990) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20231_crown_above_caesars",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "44040501",
+  "distilled_core_question": "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?",
+  "review_truth": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20231; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20231_crown_above_caesars",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?",
+  "review_truth": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20231",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20231_crown_above_caesars",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040501",
+  "distilled_core_question": "Can a state criminalize holding or teaching a religious belief because conduct inspired by that belief can be regulated?",
+  "review_truth": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "44040501",
+    "this_item_teaches": "Free Exercise protects religious belief as such; conduct is the separate regulatory lane.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,1010 @@
+---
+qid: "17045_scripture_banner_cloth"
+transformed_from: "17045"
+subject: "EVIDENCE"
+topic: "Opinion and specialized-knowledge testimony"
+subtopic: "Trade terminology / expert testimony"
+outline_code: "32020801"
+key: "B"
+original_key: "A"
+letter_map: "- original_letter: A"
+dominant_trap: "choice: A"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths."
+---
+# A) PASS-1 TRANSFORM REPORT
+
+Source item: BARMATRIX Q# 17045, an Evidence Law admissibility item about trade terminology testimony, supplied with official key A and official explanations.  The governing legal verification is consistent with UCC § 1-303(c)–(d), which treats usage of trade as fact-proven and relevant to the meaning of an agreement, and with FRE 702/704, which allow qualified specialized-knowledge testimony and do not exclude opinion merely because it is opinion. ([Legal Information Institute][1])
+
+## 1. Final question
+
+Lydia, a wholesaler of specialty textiles, entered into a valid written contract with Barnabas, who operated a chain of Christian craft shops that specialized in handmade Scripture banners. The contract called for Lydia to supply “3,600 yards of sanctuary-quality banner cloth,” with deliveries to be made over four months.
+
+Two weeks after Lydia’s first delivery, Barnabas notified her that the cloth was unacceptable because the bolts were only 48 inches wide and were made from a cotton-polyester blend rather than all linen. Lydia later brought an action against Barnabas for breach of contract.
+
+At trial, Lydia offered the testimony of Ruth. Ruth testified that she was the head seamstress for a well-known Bible-pageant company, that she was an expert in designing Scripture banners for pageants and retreats, and that she had worked in Christian stage and banner design for more than 30 years. She testified further that, during that time, she had purchased large quantities of cloth and was familiar with terminology used in the wholesale textile industry. Ruth stated that when the phrase “sanctuary-quality banner cloth” is used in the wholesale textile business, it means 45-to-54-inch bolts of either linen or cotton-polyester blend suitable for hanging display banners.
+
+For purposes of trial, the parties specifically agreed to be bound by the terminology of the wholesale textile industry. Upon proper objection by Barnabas’s attorney, Ruth’s testimony as to the meaning of the phrase should be:
+
+## 2. Distilled Core Question
+
+A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?
+
+## 3. Final answer choices
+
+A. Admitted, because Ruth is an expert in designing Scripture banners for pageants and retreats.
+B. Admitted as evidence of trade terminology.
+C. Excluded, since it is an opinion.
+D. Admitted, because the parties specifically agreed to be bound by the terminology of the wholesale textile industry.
+
+## 4. Correct answer
+
+**B**. Original key: **A**.
+
+## 5. Letter Map
+
+| Original letter | New letter | Mechanic                                                                 | Substance |        Pick % |
+| --------------- | ---------: | ------------------------------------------------------------------------ | --------- | ------------: |
+| A               |          B | correct_answer                                                           | kept      | 35% predicted |
+| B               |          A | bait_doctrine: end-use expertise confused with trade-term expertise      | kept      | 32% predicted |
+| C               |          D | wrong_element: party stipulation treated as the reason for admissibility | kept      | 23% predicted |
+| D               |          C | flat_misstatement: opinion treated as automatically excluded             | kept      | 10% predicted |
+
+No measured pick rates were supplied with the source row. All percentages above are predicted, not inherited.
+
+## 6. Full right-answer explanation
+
+**B is correct.** Ruth’s testimony is offered to explain the meaning of a contract phrase in the relevant trade. The contract uses “sanctuary-quality banner cloth,” and Ruth has experience buying large quantities of cloth and familiarity with wholesale textile terminology. That makes the testimony admissible as evidence of trade terminology.
+
+**Gold Key:** Trade-usage testimony is admitted to explain the trade meaning of a contract term. The reason is the trade-meaning function, not the witness’s end-use craft expertise and not the parties’ express stipulation.
+
+**Silver Key:** On an Evidence admissibility call, name the purpose of the testimony first. Here the purpose is “what this trade phrase means,” so the answer that names trade terminology beats choices that name background facts.
+
+## 7. Full wrong-answer explanations
+
+**A.** This choice sells the attractive move “Ruth is an expert, so the testimony comes in.” The breaker is purpose mismatch: the testimony is not offered to show how Scripture banners are designed; it is offered to explain the wholesale-textile meaning of the contract phrase.
+
+**C.** This choice sells the old student myth that opinion testimony is automatically suspect. **Gold Key:** opinion form does not by itself exclude testimony when a qualified witness’s specialized knowledge helps the factfinder.
+
+**D.** This choice sells a true fact from the stem: the parties agreed to be bound by wholesale textile terminology. The breaker is that the stipulation is not the operative admissibility reason; trade terminology may be relevant to explain the contract term even without making party agreement the key.
+
+## 8. Full black-letter-law verification and legal reasoning
+
+The legal issue and credited outcome are unchanged from Q17045: the testimony is admissible as trade-terminology evidence. UCC § 1-303(c) defines usage of trade by regularity of observance, and § 1-303(d) provides that trade usage known or chargeable to the parties is relevant to ascertaining and giving particular meaning to the agreement. ([Legal Information Institute][1]) FRE 702 permits testimony by a witness qualified through knowledge, skill, experience, training, or education when the specialized knowledge helps the trier of fact; FRE 704 confirms that an opinion is not objectionable merely because it embraces an issue. ([Legal Information Institute][2])
+
+## 9. Brief note on preserved rigor
+
+The new item preserves the same admissibility call, same trade-terminology rule, same “wrong expertise” trap, same “party agreement” trap, and same “opinion excluded” trap. The surface story changes from fast-food fish to Christian craft textiles, but the legal item remains the same.
+
+## 10. C3 elimination walkthrough
+
+**CUT A:** The call is about the meaning of the wholesale phrase. A answers with Ruth’s end-use banner-design expertise. That is right neighborhood, wrong purpose.
+
+**CUT C:** C says opinion form excludes the testimony. Gold Key kills it: opinion is not automatically excluded when the witness has qualifying specialized knowledge.
+
+**CUT D:** D uses a true stem fact, but it gives the wrong reason. The testimony comes in because it explains trade terminology; the stipulation is not the admissibility engine.
+
+**Residual:** B.
+
+**CLASH:** Not needed after the CUT once the Gold Keys are applied.
+
+**CALL:** Not needed.
+
+## 11. Divergence Audit
+
+| Recognition-Kill dimension | Audit result                                                                                         |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Changed from frozen fish filets to wholesale banner cloth.                                           |
+| Transaction frame          | Sale-of-goods frame retained to preserve the UCC/trade-usage structure.                              |
+| Specific facts             | Changed from filet weight and fish grade to bolt width and textile composition.                      |
+| Numbers                    | Changed 6,000 pounds / six months / one week to 3,600 yards / four months / two weeks.               |
+| Fact ordering and rhythm   | Rebuilt with Christian craft-business setup first, rejection facts second, witness foundation third. |
+| Cast size / roles          | Recast as Lydia, Barnabas, and Ruth; all popular, non-antagonist Bible names.                        |
+| Choice ordering            | Shuffled; original key A moved to new B.                                                             |
+| Choice phrasing            | Preserved black-letter admissibility language where needed; re-skinned nouns and expertise.          |
+| Setting / texture          | Changed from commercial fast food to private Christian craft shops and Bible-pageant textile work.   |
+| Call wording               | Retained “should be” because changing the evidentiary call would weaken MBE rigor.                   |
+
+**Original one-sentence summary:** A fast-food fish buyer rejects frozen fish, and a chef testifies about wholesale fish terminology.
+**Variant one-sentence summary:** A Christian craft-store buyer rejects banner cloth, and a pageant seamstress testifies about wholesale textile terminology.
+
+Recognition test passes: the shared core is only the rule that trade-terminology evidence can explain a contract term.
+
+## 12. Review Truth
+
+Trade-term testimony is admitted because it explains the trade meaning of the contract language; do not swap in end-use expertise, party stipulation, or “opinion” as the reason.
+
+## 13. The 5 variations considered
+
+|  # | Title                                  | Setting / cast                                                                          | Exact preserved issue                                  | Why memorable                            | Legal risks                                                                        | Divergence score                                                                 |
+| -: | -------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+|  1 | **The Scripture Banner Cloth Dispute** | Lydia textile wholesaler; Barnabas Christian craft-chain owner; Ruth pageant seamstress | Trade terminology testimony explaining a contract term | Visual, Christian, no church-law clutter | Must avoid making church property or donation facts                                | **9/10 — recommended**: kills asset, facts, rhythm, setting; sale frame retained |
+|  2 | The Handbell Bronze Order              | Stephen buys “chapel-grade handbell bronze” from Paul; Mary is bell foundry buyer       | Trade terminology                                      | Memorable sound/metal texture            | Risk of more technical metallurgical proof distracting from trade term             | 8/10                                                                             |
+|  3 | The Nativity Sandal Leather Case       | Martha buys “pilgrim-grade sandal leather” from Timothy; Naomi is costume buyer         | Trade terminology                                      | Strong Bible-pageant imagery             | Risk that leather-grade facts feel like product-defect facts                       | 8/10                                                                             |
+|  4 | The Advent Candle Wax Case             | Hannah buys “devotional-taper wax” from Peter; Lydia is candle buyer                    | Trade terminology                                      | Seasonal Christian texture               | Candle/wax quality may invite fire-safety clutter                                  | 8/10                                                                             |
+|  5 | The Psalm-Notebook Paper Shipment      | John buys “devotional-calligraphy paper” from Esther; Ruth is stationery buyer          | Trade terminology                                      | Quiet, classroom-friendly                | Paper weight may look like ordinary consumer ambiguity rather than wholesale trade | 7/10                                                                             |
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+```yaml
+barmatrix_row:
+  qid: "17045_scripture_banner_cloth"
+  subject: EVIDENCE
+  topic: "Opinion and specialized-knowledge testimony"
+  subtopic: "Trade terminology / expert testimony"
+  outline_code: "32020801"
+  selection_percentages:
+    A:
+      value: 32
+      provenance: predicted
+      note: "No original pick rate supplied; predicted for transformed item."
+    B:
+      value: 35
+      provenance: predicted
+      note: "No original pick rate supplied; predicted for transformed item."
+    C:
+      value: 10
+      provenance: predicted
+      note: "No original pick rate supplied; predicted for transformed item."
+    D:
+      value: 23
+      provenance: predicted
+      note: "No original pick rate supplied; predicted for transformed item."
+  official_key: B
+  call: "Upon proper objection by Barnabas’s attorney, Ruth’s testimony as to the meaning of the phrase should be:"
+  choices:
+    A: "Admitted, because Ruth is an expert in designing Scripture banners for pageants and retreats."
+    B: "Admitted as evidence of trade terminology."
+    C: "Excluded, since it is an opinion."
+    D: "Admitted, because the parties specifically agreed to be bound by the terminology of the wholesale textile industry."
+
+transform_provenance:
+  transformed_from: "17045"
+  variant_slug: "scripture_banner_cloth"
+  original_key_letter: A
+  new_key_letter: B
+  letter_map:
+    - original_letter: A
+      new_letter: B
+      mechanic: correct_answer
+      substance: kept
+      pick_rate:
+        value: 35
+        provenance: predicted
+    - original_letter: B
+      new_letter: A
+      mechanic: "bait_doctrine: end-use expertise confused with trade-term expertise"
+      substance: kept
+      pick_rate:
+        value: 32
+        provenance: predicted
+    - original_letter: C
+      new_letter: D
+      mechanic: "wrong_element: party stipulation treated as admissibility reason"
+      substance: kept
+      pick_rate:
+        value: 23
+        provenance: predicted
+    - original_letter: D
+      new_letter: C
+      mechanic: "flat_misstatement: opinion treated as automatically excluded"
+      substance: kept
+      pick_rate:
+        value: 10
+        provenance: predicted
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A fast-food fish buyer rejects frozen fish, and a chef testifies about wholesale fish terminology."
+    variant_stem_one_sentence: "A Christian craft-store buyer rejects banner cloth, and a pageant seamstress testifies about wholesale textile terminology."
+    dimensions_changed:
+      - asset_subject_matter
+      - specific_facts
+      - numbers
+      - fact_ordering_and_stem_rhythm
+      - cast_size_roles
+      - choice_ordering
+      - choice_phrasing
+      - setting_era_texture
+    dimensions_skipped_with_reason:
+      - dimension: transaction_frame
+        reason: "Sale-of-goods frame retained to preserve UCC trade-usage structure."
+      - dimension: call_wording
+        reason: "Evidentiary 'should be admitted/excluded' call retained to preserve MBE rigor."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row 17045"
+    use: "Question, official key, official explanations, and wrong-answer mechanics."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "None supplied."
+  - priority: 3
+    source: "C3 Evidence overlay"
+    use: "Purpose first; layer second; failure-mode scan."
+  - priority: 4
+    source: "Controlled vocabularies"
+    use: "All controlled-field values."
+  - priority: 5
+    source: "Official legal explanation"
+    use: "Lawyer confirmation only."
+  - priority: 6
+    source: "Legal authority"
+    use: "UCC 1-303; FRE 702; FRE 704."
+
+student_access_contract:
+  allowed_lessons:
+    - "Lesson 1: True and Responsive"
+    - "Lesson 2: CUT -> CLASH -> CALL"
+    - "Lesson 7: Predict Before You Peek"
+    - "Lesson 8: Not-responsive molds"
+    - "Lesson 11: Bait Architecture"
+    - "Evidence overlay: Purpose first. Layer second. Exception last."
+  allowed_gold_keys:
+    - "GK-EVIDENCE-TRADE-TERMS-01"
+    - "GK-EVIDENCE-OPINION-01"
+  allowed_silver_keys:
+    - "SK-EVIDENCE-PURPOSE-LABEL-01"
+  prohibited_moves:
+    - "Do not use untaught trade-usage doctrine as fake structure."
+    - "Do not call D false without the Gold Key."
+    - "Do not call C false without the Gold Key."
+
+stem_parse:
+  parties:
+    plaintiff: "Lydia"
+    defendant: "Barnabas"
+    witness: "Ruth"
+  transaction: "Valid written sale-of-goods contract for 3,600 yards of sanctuary-quality banner cloth."
+  dispute: "Barnabas rejects the first delivery based on bolt width and textile composition."
+  offered_testimony: "Ruth explains the wholesale textile meaning of 'sanctuary-quality banner cloth.'"
+  call_type: "admissibility"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Whether Ruth is generally expert in banner design, instead of whether her testimony explains trade terminology."
+
+trigger_facts:
+  - fact: "The contract phrase is a trade-like phrase."
+    access_label: "student_visible"
+    role: "Points toward trade terminology."
+  - fact: "Ruth has purchased large quantities of cloth."
+    access_label: "student_visible"
+    role: "Connects witness to wholesale terminology."
+  - fact: "Ruth is familiar with wholesale textile terminology."
+    access_label: "student_visible"
+    role: "Foundation for trade-term testimony."
+  - fact: "Ruth is also an expert in designing banners."
+    access_label: "student_visible"
+    role: "Bait fact for choice A."
+  - fact: "Parties agreed to be bound by wholesale terminology."
+    access_label: "student_visible"
+    role: "Bait fact for choice D."
+  - fact: "The testimony explains meaning, not banner-making technique."
+    access_label: "student_visible"
+    role: "Purpose split."
+
+c3_routing:
+  subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: B
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard"
+  tension_axis: null
+  call_heuristic: null
+
+answer_array:
+  geometry: "3-vs-1 admissibility-reason array"
+  credited_answer: B
+  answer_roles:
+    A: "Admit / wrong expertise reason"
+    B: "Admit / correct trade-terminology reason"
+    C: "Exclude / opinion-myth reason"
+    D: "Admit / true but non-dispositive stipulation reason"
+  dominant_trap:
+    choice: A
+    basis: "Predicted, because no measured pick rates were supplied."
+  silver_key:
+    id: "SK-EVIDENCE-PURPOSE-LABEL-01"
+    role: "Purpose label controls the admissibility reason."
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: offered_for_purpose
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - wrong_standard
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "Right witness label, wrong testimony purpose."
+    c3_signal: "The answer points to banner-design expertise, but the testimony is offered to explain wholesale textile words."
+    lawyer_confirmation: "End-use design expertise is not the legal reason this trade-terminology testimony is admitted."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "True and responsive residual."
+    c3_signal: "This answer names exactly what the testimony is used for: trade terminology."
+    lawyer_confirmation: "Trade-usage evidence is relevant to explain a contract term under UCC 1-303 and common-law usage principles."
+  C:
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - misstated_rule
+      - common_student_myth
+      - sounds_lawyerly
+      - overbroad_rule
+    method_class: anchor_assisted
+    student_label: "Opinion-myth cut."
+    c3_signal: "This is not student-accessibly false without the opinion-testimony Gold Key."
+    lawyer_confirmation: "FRE 702 permits qualified specialized-knowledge testimony in opinion form, and FRE 704 rejects automatic exclusion for opinion on an issue."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - legally_true_but_irrelevant
+      - fact_not_in_evidence
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "True fact, wrong reason."
+    c3_signal: "The answer grabs the stipulation fact instead of the evidence-use label."
+    lawyer_confirmation: "The trade-usage route does not depend on an express trial agreement as the operative reason for admissibility."
+
+residual_answer:
+  choice: B
+  text: "Admitted as evidence of trade terminology."
+  why_it_survives: "It is true, responsive, and matches the offered purpose."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A mismatches the purpose of Ruth’s testimony."
+      status: "passes_controlling_test"
+    - claim: "B names the evidence-use category."
+      status: "passes_with_gold_key"
+    - claim: "C is not false without the opinion-testimony Gold Key."
+      status: "quarantined_to_gold_key"
+    - claim: "D is not wrong merely because the agreement fact exists; its defect needs the trade-usage Gold Key."
+      status: "quarantined_to_gold_key"
+  drift_audit: "No lawyer-only doctrine is used as hard structure. Anchor-dependent cuts are labeled anchor_assisted."
+
+gold_keys:
+  - id: "GK-EVIDENCE-TRADE-TERMS-01"
+    statement: "Trade terminology or usage evidence may be admitted to explain the trade meaning of a contract term. The reason is the trade-meaning function, not an express agreement by the parties."
+    type: rule
+    unlocks: "Choice D and the credited answer."
+    trigger: "A contract phrase is explained by someone familiar with the relevant wholesale trade."
+    tested_choice: D
+    authority: "UCC 1-303(c)-(d); Restatement (Second) of Contracts 222."
+    last_minute_review: true
+  - id: "GK-EVIDENCE-OPINION-01"
+    statement: "Opinion form alone does not exclude qualified specialized-knowledge testimony."
+    type: rule
+    unlocks: "Choice C."
+    trigger: "An answer says to exclude testimony simply because it is an opinion."
+    tested_choice: C
+    authority: "FRE 702; FRE 704."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-EVIDENCE-PURPOSE-LABEL-01"
+    statement: "On an admissibility call, first name what the testimony is offered to prove. Pick the answer that labels that use, not the answer that repeats a tempting background fact."
+    type: call_focus
+    navigates: "A vs B vs D admissibility-reason trap."
+    trigger: "Three choices say admitted, but for different reasons."
+    tested_choice: A
+    outline_code: "32020801"
+    last_minute_review: true
+
+remediation:
+  card_id: "EVI-ANCHOR-TRADE-TERMS-01"
+  title: "Trade term, not craft expertise"
+  signal: "A contract phrase is explained by a witness familiar with the trade’s vocabulary."
+  student_move: "Name the testimony purpose before evaluating expert labels."
+  tiny_rule: "Trade-term testimony explains trade meaning."
+  trap: "Choosing the witness’s end-use expertise or the parties’ stipulation as the reason."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?"
+review_truth: "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths."
+
+case_study_output:
+  final_student_script: "Purpose first: Ruth is explaining wholesale textile words. A is banner-design expertise; C is the opinion myth; D is a true stipulation fact but not the admissibility reason. B is trade terminology."
+  residual_answer: B
+
+quality_control:
+  credited_answer_matches_official_key: true
+  exactly_three_distractors: true
+  each_distractor_one_filter: true
+  original_letters_outside_letter_map: false
+  no_uncontrolled_values: true
+  authority_quarantined: true
+  recognition_test_passed: true
+
+analytics_hooks:
+  component_routing:
+    - "Evidence overlay"
+    - "Issue-Sense: bait doctrine"
+    - "Issue-Sense: wrong element"
+    - "Ear: flat misstatement"
+    - "Gold Key: trade terminology"
+  trap_tags:
+    - "purpose_label_trap"
+    - "expertise_scope_trap"
+    - "true_fact_wrong_reason"
+    - "opinion_myth"
+```
+
+## 2. The 17-section student case study
+
+### program_frame
+
+This is an Evidence admissibility question. The Evidence overlay says: **Purpose first. Layer second. Exception last.** The subject overlay teaches that Evidence questions often turn on the purpose or layer of the evidence, not on the most familiar doctrine word in the choice. 
+
+### student_access_test
+
+Allowed student moves:
+
+* Identify the call: should Ruth’s testimony about the phrase be admitted?
+* Identify the testimony purpose: explain the wholesale-textile meaning.
+* Cut a choice that talks about the wrong purpose.
+* Use the Gold Keys for trade terminology and opinion testimony.
+* Use the Silver Key: when three answers say admitted, pick the one that names the right use.
+
+Student-access warning: the student may not say “trade usage is admissible even without agreement” unless using the Gold Key.
+
+### question_data
+
+**Subject:** Evidence
+**Outline code:** 32020801
+**Question ID:** 17045_scripture_banner_cloth
+**Credited answer:** B
+**Official-key agreement:** yes
+**Teaching verdict:** ANCHOR_SOLVE
+**DB verdict:** PASS
+
+### distilled_core_question
+
+A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?
+
+### call_and_prediction
+
+**Call:** Upon proper objection, should testimony about the phrase’s meaning be admitted or excluded?
+
+**Prediction:** Admit it if the testimony is being used to explain trade terminology.
+
+**Adjacent-call trap:** Do not answer “is Ruth an expert in making banners?” The call is about the meaning of the contract phrase.
+
+### trigger_facts
+
+| Fact                                                    | Student use                            |
+| ------------------------------------------------------- | -------------------------------------- |
+| “Sanctuary-quality banner cloth” is a trade-like phrase | Points to trade terminology            |
+| Ruth bought large quantities of cloth                   | Connects her to the wholesale trade    |
+| Ruth is familiar with wholesale textile terminology     | Foundation for term-meaning testimony  |
+| Ruth is expert in designing banners                     | Bait for the wrong-expertise answer    |
+| Parties agreed to wholesale terminology                 | Bait for true-fact/wrong-reason answer |
+| Testimony explains meaning                              | Purpose controls                       |
+
+### governing_c3_lane
+
+**Lane:** Evidence purpose/layer scan.
+**Workflow:** CUT.
+**Why:** Three distractors can be cut once the offered purpose and Gold Keys are locked.
+**Confidence:** ANCHOR_ASSISTED.
+
+### choice_by_choice_walkthrough
+
+#### A
+
+1. **Student-accessible C3 signal:** The answer says “banner-design expert.” The testimony is about wholesale words.
+2. **Student label:** Right neighborhood, wrong purpose.
+3. **What a true/responsive version would look like:** “Admitted because Ruth is familiar with wholesale textile terminology and is explaining the trade meaning.”
+4. **Lawyer confirmation:** End-use design expertise is not the operative admissibility basis. The admissibility basis is trade-terminology evidence.
+
+#### B
+
+1. **Student-accessible C3 signal:** This answer names the exact use of the testimony: trade terminology.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is already the true and responsive version.
+4. **Lawyer confirmation:** UCC § 1-303 makes trade usage relevant to ascertain and give particular meaning to an agreement; specialized-knowledge testimony may help the trier of fact understand that meaning. ([Legal Information Institute][1])
+
+#### C
+
+1. **Student-accessible C3 signal:** Without the Gold Key, do not call this structurally false.
+2. **Student label:** Opinion-myth cut.
+3. **What a true/responsive version would look like:** “Excluded if Ruth lacked qualifying specialized knowledge or the testimony did not help the factfinder.”
+4. **Lawyer confirmation:** FRE 702 permits qualified specialized-knowledge testimony in opinion form, and FRE 704 states that opinion is not objectionable merely because it reaches an issue. ([Legal Information Institute][2])
+
+#### D
+
+1. **Student-accessible C3 signal:** The answer repeats a true fact, but it does not label the testimony’s purpose.
+2. **Student label:** True fact, wrong reason.
+3. **What a true/responsive version would look like:** “Admitted as trade-terminology evidence; the stipulation confirms relevance but is not the core admissibility ground.”
+4. **Lawyer confirmation:** Trade usage may be used to explain an agreement when it is relevant to the parties’ trade or known/chargeable to them; the official explanation rejects making express agreement the necessary admissibility reason.
+
+### residual_answer
+
+**B remains.** It is true and responsive because it states the evidence-use category that answers the call.
+
+### legal_leak_audit
+
+A is student-accessible: purpose mismatch.
+B is Gold-Key supported: trade terminology explains the phrase.
+C is Gold-Key supported: opinion is not automatically excluded.
+D is anchor-assisted: the student needs the trade-usage Gold Key to avoid treating the stipulation as sufficient.
+
+**Drift audit:** no distractor is called false unless the defect is visible from purpose mismatch or supplied by a Gold Key.
+
+### final_student_script
+
+Purpose first. Ruth is explaining what “sanctuary-quality banner cloth” means in the wholesale textile trade. A is about making banners, not trade words. C is the opinion myth. D uses a true stipulation fact, but the testimony comes in as trade terminology. Pick B.
+
+### remediation_card
+
+**Card:** EVI-ANCHOR-TRADE-TERMS-01
+**Signal:** A contract phrase is explained by someone familiar with a trade.
+**Student move:** Ask what the testimony is offered to prove.
+**Tiny rule:** Trade-term testimony explains trade meaning.
+**Trap:** Choosing end-use expertise or party agreement as the reason.
+**Confidence:** ANCHOR_ASSISTED.
+
+### Gold Key(s)
+
+**GK-EVIDENCE-TRADE-TERMS-01**
+Trade terminology or usage evidence may be admitted to explain the trade meaning of a contract term. The reason is the trade-meaning function, not an express agreement by the parties.
+
+**GK-EVIDENCE-OPINION-01**
+Opinion form alone does not exclude qualified specialized-knowledge testimony.
+
+### Silver Key(s)
+
+**SK-EVIDENCE-PURPOSE-LABEL-01**
+On an admissibility call, first name what the testimony is offered to prove. Pick the answer that labels that use, not the answer that repeats a tempting background fact.
+
+### qa_checklist
+
+* Rule preserved: yes.
+* Credited outcome preserved: yes.
+* Three distractors each break one filter: yes.
+* Post-shuffle key consistent: B.
+* Gold Keys used only for anchor-dependent cuts: yes.
+* Silver Key contains no authority field: yes.
+* Recognition test passed: yes.
+* No church-law clutter added: yes.
+
+### wrong_answer_recovery_paths
+
+| Choice | Student mistake                      | Recovery                                                         |
+| ------ | ------------------------------------ | ---------------------------------------------------------------- |
+| A      | “Expert in banners” feels enough     | Ask: expert in what, for what purpose?                           |
+| C      | Opinion testimony feels forbidden    | Recall Gold Key: opinion form alone does not exclude.            |
+| D      | True stipulation fact feels decisive | Ask: is that the use of the testimony or just a background fact? |
+
+### outline_mastery_map
+
+**Placement:** Evidence > Relevance > Expert Testimony > Acceptable testimony.
+**This item teaches:** admissibility reason discipline.
+**Fills:** trade terminology; specialized knowledge; opinion-form myth.
+**Adjacent to master:** Contracts usage of trade; parol-evidence explanation/supplement rules.
+
+### crossover_intersection_map
+
+This is an Evidence/Contracts crossover. Evidence supplies the admissibility question. Contracts supplies the trade-term meaning issue. The student should not turn it into a full contracts outline.
+
+### review_truth
+
+Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.
+
+```json
+{
+  "c3_annotation": {
+    "question_id": "17045_scripture_banner_cloth",
+    "subject": "EVIDENCE",
+    "credited_answer": "B",
+    "outline_code": "32020801",
+    "distilled_core_question": "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?",
+    "review_truth": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+    "c3": {
+      "verdict": "ANCHOR_SOLVE",
+      "residual": "B",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis": null,
+      "is_fork": false,
+      "fork_type": null,
+      "call_heuristic": null,
+      "difficulty": "medium-hard",
+      "distractors": [
+        {
+          "choice": "A",
+          "filter_broken": "NOT_RESPONSIVE",
+          "mold": "bait_doctrine",
+          "architecture": "offered_for_purpose",
+          "card_ref": "SK-EVIDENCE-PURPOSE-LABEL-01",
+          "explanation": "The answer relies on Ruth's banner-design expertise, but the testimony is offered to explain wholesale textile terminology."
+        },
+        {
+          "choice": "C",
+          "filter_broken": "NOT_TRUE",
+          "mold": "flat_misstatement",
+          "architecture": null,
+          "card_ref": "GK-EVIDENCE-OPINION-01",
+          "explanation": "The answer treats opinion form as automatically excluding the testimony."
+        },
+        {
+          "choice": "D",
+          "filter_broken": "NOT_RESPONSIVE",
+          "mold": "wrong_element",
+          "architecture": null,
+          "card_ref": "GK-EVIDENCE-TRADE-TERMS-01",
+          "explanation": "The answer relies on the stipulation fact rather than the trade-terminology function."
+        }
+      ],
+      "analyzer_notes": {
+        "drift_audit": "A is hard structural by purpose mismatch. C and D are anchor-assisted and not labeled as student-accessibly false without the Gold Keys.",
+        "transformed_from": "17045",
+        "letter_map": "A->B correct_answer; B->A bait_doctrine; C->D wrong_element; D->C flat_misstatement",
+        "pick_rate_note": "No source pick rates supplied; all rates predicted."
+      },
+      "gold_keys": [
+        {
+          "id": "GK-EVIDENCE-TRADE-TERMS-01",
+          "statement": "Trade terminology or usage evidence may be admitted to explain the trade meaning of a contract term.",
+          "type": "rule",
+          "unlocks": "Choice D and credited answer B",
+          "trigger": "A contract phrase is explained by someone familiar with the relevant wholesale trade.",
+          "tested_choice": "D",
+          "authority": "UCC 1-303(c)-(d); Restatement (Second) of Contracts 222.",
+          "last_minute_review": true
+        },
+        {
+          "id": "GK-EVIDENCE-OPINION-01",
+          "statement": "Opinion form alone does not exclude qualified specialized-knowledge testimony.",
+          "type": "rule",
+          "unlocks": "Choice C",
+          "trigger": "An answer says to exclude testimony simply because it is an opinion.",
+          "tested_choice": "C",
+          "authority": "FRE 702; FRE 704.",
+          "last_minute_review": true
+        }
+      ],
+      "silver_keys": [
+        {
+          "id": "SK-EVIDENCE-PURPOSE-LABEL-01",
+          "statement": "On an admissibility call, first name what the testimony is offered to prove.",
+          "type": "call_focus",
+          "navigates": "A vs B vs D admissibility-reason trap.",
+          "trigger": "Three choices say admitted, but for different reasons.",
+          "tested_choice": "A",
+          "outline_code": "32020801",
+          "last_minute_review": true
+        }
+      ]
+    }
+  }
+}
+```
+
+```json
+{
+  "program_elements": {
+    "question_id": "17045_scripture_banner_cloth",
+    "subject": "EVIDENCE",
+    "outline_code": "32020801",
+    "distilled_core_question": "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?",
+    "review_truth": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+    "tension": null,
+    "traps": [
+      {
+        "choice": "A",
+        "mold": "bait_doctrine",
+        "architecture": "offered_for_purpose",
+        "why_attractive": "The student sees Ruth is an expert and treats any expertise as enough. The breaker is that her banner-design expertise is not the purpose of the testimony.",
+        "focus_group_pct": 32,
+        "pct_provenance": "predicted"
+      },
+      {
+        "choice": "C",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "why_attractive": "The student remembers that opinion testimony can be dangerous and overcuts it. The breaker is the Gold Key that qualified specialized-knowledge testimony may be opinion testimony.",
+        "focus_group_pct": 10,
+        "pct_provenance": "predicted"
+      },
+      {
+        "choice": "D",
+        "mold": "wrong_element",
+        "architecture": null,
+        "why_attractive": "The student grabs a true fact from the stem and makes it the reason for admission. The breaker is that the testimony is admitted as trade terminology, not because express party agreement is required.",
+        "focus_group_pct": 23,
+        "pct_provenance": "predicted"
+      }
+    ],
+    "remediation_card": {
+      "card_id": "EVI-ANCHOR-TRADE-TERMS-01",
+      "title": "Trade term, not craft expertise",
+      "signal": "A contract phrase is explained by a witness familiar with the trade's vocabulary.",
+      "student_move": "Name the testimony purpose before evaluating expert labels.",
+      "tiny_rule": "Trade-term testimony explains trade meaning.",
+      "trap": "Choosing end-use expertise or party agreement as the reason.",
+      "confidence": "ANCHOR_ASSISTED"
+    },
+    "red_zone_dimensions": [
+      "expertise_scope",
+      "true_fact_wrong_reason",
+      "opinion_form_myth",
+      "evidence_contract_crossover"
+    ]
+  }
+}
+```
+
+```json
+{
+  "program_intelligence": {
+    "question_id": "17045_scripture_banner_cloth",
+    "subject": "EVIDENCE",
+    "outline_code": "32020801",
+    "distilled_core_question": "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?",
+    "review_truth": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+    "wrong_answer_paths": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "why_a_student_picks_this": "The student treats Ruth's expert status as globally sufficient.",
+        "skipped_move": "Purpose first.",
+        "recovery_step": "Ask what the testimony is offered to prove."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "why_a_student_picks_this": "The student thinks opinions are categorically excluded.",
+        "skipped_move": "Gold Key recall.",
+        "recovery_step": "Recall that qualified specialized-knowledge testimony may be opinion testimony."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "why_a_student_picks_this": "The student overvalues a true stipulation fact.",
+        "skipped_move": "Evidence-use label.",
+        "recovery_step": "Separate the background fact from the reason the testimony is admissible."
+      }
+    ],
+    "drill_seeds": [
+      {
+        "drill_type": "CUT",
+        "target_skill": "offered purpose",
+        "prompt": "A witness familiar with wholesale terminology explains a contract phrase. Choice says admitted because the witness is expert in using the product. Cut or keep?",
+        "answer": "Cut. Wrong purpose."
+      },
+      {
+        "drill_type": "ANCHOR",
+        "target_skill": "opinion testimony",
+        "prompt": "A qualified specialized-knowledge witness gives an opinion that helps explain a disputed term. Exclude merely because it is opinion?",
+        "answer": "No."
+      },
+      {
+        "drill_type": "CALL_FOCUS",
+        "target_skill": "true fact versus legal reason",
+        "prompt": "Parties agree to use trade terminology. Is that the core reason a trade-term witness's testimony is admitted?",
+        "answer": "No. The core reason is trade terminology explaining the contract term."
+      }
+    ],
+    "trap_tags": {
+      "forensic_tags": [
+        "purpose_label_trap",
+        "expertise_scope_trap",
+        "opinion_myth",
+        "true_fact_wrong_reason"
+      ],
+      "misconception_tags": [
+        "all_experts_are_interchangeable",
+        "opinions_are_excluded",
+        "stipulation_is_required_for_trade_usage"
+      ]
+    },
+    "component_routing": [
+      "Lesson 1: True and Responsive",
+      "Lesson 7: Predict Before You Peek",
+      "Lesson 8: Bait Doctrine",
+      "Lesson 11: Offered For What Purpose",
+      "Evidence Overlay",
+      "Gold Key Deck"
+    ],
+    "crossovers": [
+      {
+        "subject": "CONTRACTS",
+        "link": "Usage of trade / contract term meaning"
+      },
+      {
+        "subject": "EVIDENCE",
+        "link": "Specialized-knowledge testimony / admissibility reason"
+      }
+    ],
+    "gold_keys": [
+      {
+        "id": "GK-EVIDENCE-TRADE-TERMS-01",
+        "statement": "Trade terminology or usage evidence may be admitted to explain the trade meaning of a contract term.",
+        "type": "rule",
+        "tested_choice": "D"
+      },
+      {
+        "id": "GK-EVIDENCE-OPINION-01",
+        "statement": "Opinion form alone does not exclude qualified specialized-knowledge testimony.",
+        "type": "rule",
+        "tested_choice": "C"
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-EVIDENCE-PURPOSE-LABEL-01",
+        "statement": "On an admissibility call, first name what the testimony is offered to prove.",
+        "type": "call_focus",
+        "tested_choice": "A"
+      }
+    ],
+    "outline_mastery": {
+      "placement": "Evidence > Relevance > Expert Testimony > Acceptable testimony",
+      "this_item_teaches": "Admissibility reason discipline for trade-terminology testimony.",
+      "fills": [
+        "expertise scope",
+        "trade terminology",
+        "opinion-form myth",
+        "true-fact wrong-reason trap"
+      ],
+      "adjacent_to_master": [
+        "Contracts usage of trade",
+        "Parol evidence explanation/supplement",
+        "Evidence purpose-first scan"
+      ]
+    }
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/ucc/1/1-303?utm_source=chatgpt.com "§ 1-303. Course of Performance, Course of Dealing, and Usage of Trade. | Uniform Commercial Code | US Law | LII / Legal Information Institute"
+[2]: https://www.law.cornell.edu/rules/fre/rule_702?utm_source=chatgpt.com "Rule 702. Testimony by Expert Witnesses | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "17045_scripture_banner_cloth"
+  question_id: "17045_scripture_banner_cloth"
+  subject: "EVIDENCE"
+  topic: "Opinion and specialized-knowledge testimony"
+  subtopic: "Trade terminology / expert testimony"
+  outline_code: "32020801"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "17045"
+  variant_slug: "scripture_banner_cloth"
+  original_key_letter: "A"
+  new_key_letter: "B"
+  letter_map: "- original_letter: A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?"
+review_truth: "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths."
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "17045_scripture_banner_cloth",
+  "subject": "EVIDENCE",
+  "credited_answer": "B",
+  "outline_code": "32020801",
+  "distilled_core_question": "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?",
+  "review_truth": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 17045; letter_map: - original_letter: A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "17045_scripture_banner_cloth",
+  "subject": "EVIDENCE",
+  "outline_code": "32020801",
+  "distilled_core_question": "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?",
+  "review_truth": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-17045",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "17045_scripture_banner_cloth",
+  "subject": "EVIDENCE",
+  "outline_code": "32020801",
+  "distilled_core_question": "A sales contract uses a trade phrase. A witness experienced in that wholesale trade explains what the phrase means. Should the testimony be admitted as trade-terminology evidence?",
+  "review_truth": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "32020801",
+    "this_item_teaches": "Trade-term testimony is admitted because it explains the trade meaning of contract language; do not swap in end-use expertise, party stipulation, or opinion-form myths.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

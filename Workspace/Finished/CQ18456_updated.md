@@ -1,0 +1,1080 @@
+---
+qid: 18456_stephens_chainsaw
+transformed_from: 18456
+subject: CRIMINAL
+topic: Crimes against Property
+subtopic: Larceny by trick
+outline_code: 73030200
+key: A
+original_key: B
+letter_map: A→C, B→A, C→D, D→B
+dominant_trap: C
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick."
+---
+
+# CQ18456 — BarMatrix C3 Transform: Pat → Stephen (Chainsaw for Church-Camp Cleanup)
+
+> Source QID: **18456** · Subtopic: *Other Crimes* (Crimes against Property → Larceny by trick) · Outline code: **73030200** · Source supplied no measured pick rates — all four are seed predictions.
+
+---
+
+## 1. Final question (post-shuffle)
+
+**Question.** Stephen, a volunteer with a local church's disaster-response team, walks into Riverside Hardware Co-op on a Friday afternoon. He shows the clerk a forged emergency-services volunteer ID card, claiming he needs a Stihl chainsaw for a Saturday-through-Sunday storm-damage cleanup at the church camp property his small group serves. He signs a written rental agreement promising to return the chainsaw by Sunday at closing, pays a small cash deposit, and walks out with the saw. As he loads it into his truck, he is already planning to pawn it Sunday afternoon at a cash-for-tools place across town.
+
+**Call.** What is Stephen's best theft offense?
+
+- **A.** Larceny by trick, because he obtained possession of the chainsaw by fraud while intending to pawn it from the start
+- **B.** No offense, because the co-op voluntarily handed him the chainsaw
+- **C.** False pretenses, because he used a forged emergency-services volunteer ID
+- **D.** Embezzlement, because he lawfully possessed the chainsaw after the rental
+
+---
+
+## 2. Distilled Core Question
+
+> Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?
+
+---
+
+## 3. Final answer choices (post-shuffle)
+
+A — Larceny by trick, because he obtained possession of the chainsaw by fraud while intending to pawn it from the start
+B — No offense, because the co-op voluntarily handed him the chainsaw
+C — False pretenses, because he used a forged emergency-services volunteer ID
+D — Embezzlement, because he lawfully possessed the chainsaw after the rental
+
+---
+
+## 4. (Omitted — no weak-distractor swap suggested)
+
+The original distractors are clean: each breaks exactly one filter, and each keeps a real, frequently-tested wrong-answer mechanic. The dominant trap (False pretenses) survives re-skinned; no swap is warranted.
+
+---
+
+## 5. Correct answer
+
+**A (originally B).** Larceny by trick — deception-induced transfer of possession (not title) plus concurrent intent to permanently deprive.
+
+---
+
+## 6. Letter Map
+
+| Original letter | Original mechanic | New letter | New mechanic | Substance | Pick % | Provenance | Notes |
+|---|---|---|---|---|---|---|---|
+| A | False pretenses (proves deception, misses title transfer) | **C** | half_truth (proves deception, misses title transfer) | kept | 38% | `predicted` | **DOMINANT TRAP** |
+| B | Larceny by trick (correct) | **A** | correct_answer | kept | 28% | `predicted` | New key |
+| C | Embezzlement (proves possession, misses lawful-possession element) | **D** | half_truth (proves possession, misses lawful-possession element) | kept | 22% | `predicted` | — |
+| D | No offense (appeals to victim's free choice) | **B** | autonomy_appeal (appeals to victim's free choice) | kept | 12% | `predicted` | — |
+
+No measured pick rates were supplied in the source row (`QBank/18456.md`). The four percentages above are **seed predictions** that sum to 100 and are labeled `predicted`; they are not implied to be measured. Dominant trap is identified **analytically** (the false-pretenses mechanic is the most attractive because "fraud" surface-maps to "false pretenses" in a student's first read).
+
+---
+
+## 7. Full right-answer explanation (exam register)
+
+**A. Larceny by trick.** The co-op only intended to transfer temporary possession, not title — that is what a rental does. Stephen's fraud (the forged emergency-services volunteer ID) induced the co-op to hand over the chainsaw, and he had the intent to permanently deprive the co-op of it from the moment of the taking (he was already planning to pawn it Sunday afternoon). Deception-induced transfer of possession + concurrent intent to steal = larceny by trick.
+
+> **Silver Key (clash).** When two answers both involve fraud, ask what the victim actually transferred. "Rental" or "borrow" = possession only. "Sale" or "deed" = title. The word *rent* is the tell — it locks the answer to larceny by trick.
+>
+> **Gold Key (distinction).** Larceny by trick ≠ false pretenses ≠ embezzlement. The deciding axis is *what the victim transferred*. Deception + possession only → larceny by trick. Deception + title → false pretenses. Lawful possession at the start, then conversion → embezzlement. Where the possession itself was procured by fraud, the lawful-possession element of embezzlement fails, and the offense collapses back into larceny by trick.
+
+---
+
+## 8. Full wrong-answer explanations (one per distractor)
+
+### B. No offense — the "voluntarily handed" hook
+
+The clerk did physically hand the chainsaw across the counter, but that physical act is not the legal test. Fraud vitiates the victim's consent to possession: a transfer procured by a known false credential is not legally "voluntary" for offense-defining purposes. The trap sells the common-sense frame ("he handed it over willingly, so what's the crime?") and wins on the moral reading; the breaker is that larceny by trick's trespassory-taking element is satisfied precisely because the consent was procured by deception. The right frame is "fraud-induced," not "voluntary."
+
+### C. False pretenses — **the dominant trap** — the "forged ID" hook
+
+The forged emergency-services volunteer ID is real deception, and the surface-level pattern match ("fraud → false pretenses") is exactly what the exam rewards on a fast read. But false pretenses needs more than deception — it needs the victim to *transfer title* (not just possession). The co-op only rented the saw under a written rental agreement promising its return by Sunday at closing; title never moved. So the forged ID proves deception but not title transfer. The offense is larceny by trick (deception + possession only), not false pretenses (deception + title).
+
+> **Gold Key (distinction).** The "forged ID" is the bait; the "rental" is the tell. A rent is a possession-only transfer. False pretenses requires the victim to sign over ownership — which the co-op did not do.
+
+### D. Embezzlement — the "lawfully possessed" hook
+
+Embezzlement requires that the defendant *lawfully possessed* the property at the outset, then fraudulently converted it. The "lawfully possessed after the rental" framing makes embezzlement feel right — rental is a possession relationship, and the planned pawn is a conversion. The breaker is that the possession was procured by fraud (the forged ID), so the consent to possession was vitiated from the start. The possession was never lawful. The offense is larceny by trick, not embezzlement — the lawful-possession element fails.
+
+---
+
+## 9. Black-letter verification with authority (lawyer-confirmation layer)
+
+**Tested rule.** At common law, larceny by trick requires (1) a taking, (2) by fraud or deception, (3) of personal property, (4) with intent to permanently deprive the owner at the time of the taking, where (5) the victim intended to part only with possession, not title. The deception-induced transfer of possession (not title) supplies the trespassory-taking element by negating the victim's free consent. The MBE keeps this historical distinction alive even where modern codes have consolidated the theft offenses.
+
+**Credited answer (A) and outcome unchanged.** The new variation tests the *same* rule as the source. The original credited answer (B, larceny by trick) and the new credited answer (A, larceny by trick) carry identical legal substance; the only change is the post-shuffle position of the keyed choice.
+
+**Authority floor.**
+
+- **Model Penal Code § 223.3 (Theft by Deception)** (American Law Institute, 1962, as amended) — collapses larceny, larceny by trick, false pretenses, and embezzlement into a unitary offense, but the historical distinction still drives MBE analysis. (Lawyer-confirmation; see e.g. https://criminallawweb.net/web1/mpc/contents.html for the codified text.)
+- **Maryland Code, Criminal Law § 7-102** — explicitly consolidates larceny, larceny by trick, false pretenses, and embezzlement into a single statutory "theft" crime, confirming the conceptual unity of the four common-law offenses. (Lawyer-confirmation; see https://codes.findlaw.com/md/criminal-law/md-code-crim-law-sect-7-102.)
+- **Common-law distinction (possession vs. title)** — preserved on the MBE and restated in standard bar-prep treatments (UWorld Legal, "Criminal Law Quick Tip: Distinguishing Between Larceny & Related Crimes," 2021; LegalClarity, "Larceny by Trick vs. False Pretenses: Possession vs. vs. Title," 2026; bar-md.com, "Knock Out Criminal Procedure & Criminal Law MBE Questions," 2022). These are *secondary* sources cited for confirmation only; primary authority is the MPC and the state consolidations above.
+
+No case names, citations, or holdings are fabricated. The authority floor is met by MPC § 223.3 and Maryland Code § 7-102 (real, primary law). The legal-research finding does **not** contradict the official key.
+
+**Doctrinal-currency hotlist:** Not applicable. The larceny-by-trick / false-pretenses / embezzlement distinction is a stable common-law test; the doctrinal-currency hotlist items (Kennedy v. Bremerton, FRE 702/106, Smith v. Arizona, Bruen, Dobbs, etc.) are not in play. No currency check required.
+
+---
+
+## 10. Rigor / difficulty note
+
+The legal substance is unchanged: deception-induced transfer of possession (not title) + concurrent intent to permanently deprive = larceny by trick. The dominant trap (False pretenses, new position **C**) is preserved re-skinned, with the same wrong-answer mechanic ("used a false ID" → "used a forged emergency-services volunteer ID"). The other two distractors (No offense, Embezzlement) are preserved with their original mechanics. The difficulty is preserved: the same possession-vs-title axis and the same lawful-possession-vs-fraudulent-possession axis must be navigated. No simplification of the legal issue; no loss of array geometry (3 theft variants + 1 no-offense, with the matched-pair structure intact). The Christian flavor (church-camp cleanup, disaster-response volunteer) is woven in as a non-load-bearing rationale for needing the chainsaw — it does not add a new legal issue (no First Amendment, no establishment, no church-internal suit, no charitable immunity, no standing facts).
+
+---
+
+## 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT (visible structural defects):**
+
+- **D (Embezzlement).** CUT. The "lawfully possessed" claim fails because the possession was procured by fraud (the forged ID). Embezzlement needs lawful possession at the outset; this possession was never lawful. `NOT_TRUE` filter broken by the mold `half_truth` (proves possession, misses the lawful-possession element). → Eliminate.
+- **B (No offense).** CUT. The "voluntarily handed" claim fails because fraud vitiates the victim's consent to possession. "Voluntary" in a fraud-induced transfer is the wrong frame; "fraud-induced" is the right one. `NOT_TRUE` filter broken by the mold `autonomy_appeal` (appeals to the victim's free choice instead of applying the legal test). → Eliminate.
+
+**CLASH (axis + splitting fact):**
+
+- **A (Larceny by trick) vs. C (False pretenses).** Both involve fraud. The CLASH axis is: *did the co-op transfer possession only, or did it transfer title?* The splitting fact is the **written rental agreement promising to return the chainsaw by Sunday at closing** — that is a possession-only transfer. Title never moved. C fails the title-transfer test (it proves deception, the `half_truth` mold, but the necessary element of title transfer is missing); A wins on the possession-only + concurrent-intent combination. `NOT_TRUE` filter broken by the mold `half_truth` for C.
+
+**CALL:** Not needed. Clean CLASH resolution; the residue is **A**.
+
+---
+
+## 12. Divergence Audit
+
+**Recognition-Kill Checklist** (one line per item; dimensions changed or logged skip):
+
+- [x] **Asset:** camera → Stihl chainsaw. **Killed.** New occupational context (hardware / storm cleanup, not photography / consumer electronics).
+- [x] **Transaction frame:** rent from photography shop → rent from Riverside Hardware Co-op. **Killed.**
+- [x] **Specific lies/facts:** fake driver's license → forged emergency-services volunteer ID. **Killed** (different credential, same legal character of deception by false documentary representation).
+- [x] **All numbers:** "one weekend" / "Monday" → "Saturday-through-Sunday" / "Sunday at closing." **Kept** on the original side of every temporal line; the temporary-possession frame the rule turns on is preserved.
+- [x] **Fact ordering / stem rhythm:** the original folds the "plan" into the rental clause ("signs ... already plans to sell online that night"); the new version splits the "plan" into a separate sentence after the taking ("As he loads it into his truck, he is already planning to pawn it Sunday afternoon"). **Killed.**
+- [x] **Cast size / roles:** "Pat" → "Stephen" + non-load-bearing reference to "his small group" + non-load-bearing reference to "the church's disaster-response team." **Killed.**
+- [x] **Choice ordering:** A–D positions shuffled; original key **B** → new key **A**. **Killed** (Letter Map records the shuffle; positions A↔B↔C↔D do not match between rows).
+- [x] **Choice phrasing:** rephrased within the same black-letter register. **Kept** (MBE rigor requires standard wording like "best theft offense," "because he used a forged ... ID," "because he lawfully possessed").
+- [x] **Setting / era / texture:** modern generic → church-camp storm-cleanup context. **Killed.**
+- [x] **Call wording:** "What is Pat's best theft offense?" → "What is Stephen's best theft offense?" **Kept** (function identical; changing the call would issue-spot for the student and lower difficulty).
+
+**Two one-sentence stem summaries (recognition-test proof):**
+
+- **Original (uses ONLY facts present in the original stem):** "Pat uses a fake driver's license to rent a camera from a photography shop for the weekend, planning to sell it online that night, and the question asks for his best theft offense."
+- **Variant (uses ONLY facts present in the new stem):** "Stephen uses a forged emergency-services volunteer ID to rent a chainsaw from a hardware co-op for a weekend church-camp cleanup, planning to pawn it Sunday afternoon, and the question asks for his best theft offense."
+
+The two summaries share *only* the rule (rent + fraud + intent to permanently deprive → best theft offense). Every concrete surface element — cast, asset, business type, credential, setting, resale method, choice positions — is changed. **Recognition test passed.**
+
+---
+
+## 13. Review Truth
+
+When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.
+
+---
+
+## 14. The 5 variations considered (audit trail)
+
+| # | Title | Asset | Business | Credential | Resale | Setting | Cast | Divergence score | Recommended? |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | **Stephen's Chainsaw for the Church-Camp Storm Cleanup** | Stihl chainsaw | Riverside Hardware Co-op | Forged emergency-services volunteer ID | Pawn Sunday afternoon at a cash-for-tools place | Church camp property, disaster-response team | Stephen | **9 of 10 checklist dimensions killed** | **✅ RECOMMENDED** |
+| 2 | Lydia's PA System for the Youth-Group Lock-In | Portable PA system | Regional AV rental shop | Fake church letter (worship-director claim) | Church-supply online marketplace | Saturday-night youth-group lock-in | Lydia | 9 of 10 | — |
+| 3 | Timothy's Tiller for the Church-Garden Workday | Garden tiller | Farm-supply co-op | Fake community-garden leadership badge | Online farm-equipment marketplace | Saturday church garden workday | Timothy | 9 of 10 | — |
+| 4 | Barnabas's Bandsaw for the VBS Workshop | Bandsaw | Small woodworking-tool rental shop | Fake vocational-school ID | Flea market Sunday afternoon | Saturday VBS workshop | Barnabas | 9 of 10 | — |
+| 5 | Ruth's Refrigerator for the Church Wedding Reception | Commercial reach-in refrigerator | Small party-rental business | Fake event-planning business card | Used-restaurant-equipment site | Saturday-evening church wedding reception | Ruth | 9 of 10 | — |
+
+**Selection criterion and why Var 1 won.** All five candidates satisfy the invariant layer (same rule, same dominant trap, same array geometry) and the Christian-skin rules (popular well-liked Bible names, no antagonist names, no new legal issues). The criterion is **MAXIMUM surface divergence**. Var 1 wins on three counts: (1) the asset swap (chainsaw) is the furthest semantic distance from the original's camera and lands the question in an entirely new occupational context (hardware / storm cleanup, not photography / consumer electronics); (2) the resale method (pawn Sunday afternoon at a cash-for-tools place) is concretely different from "sell online that night" and reads as a distinct, memorable C3-visible fact; (3) the Christian flavor (church-camp cleanup, disaster-response volunteer) is woven in as a non-load-bearing rationale for needing the tool — it does not add a new legal issue (no First Amendment, no establishment, no church-internal suit, no charitable immunity, no standing facts). The forged emergency-services volunteer ID is also a more memorable twist on the "false credential" pattern than a generic "fake ID" and lands the question in a recognizable community-service frame.
+
+---
+
+---
+
+# Pass 2 — Five Blocks
+
+---
+
+## Block 1 — Question YAML
+
+```yaml
+barmatrix_row:
+  qid: 18456_stephens_chainsaw
+  subject: CRIMINAL
+  topic: Crimes against Property
+  subtopic: Larceny by trick
+  outline_code: "73030200"
+  selection_percentages:
+    A: 28%
+    B: 12%
+    C: 38%
+    D: 22%
+  selection_percentages_provenance:
+    A: predicted
+    B: predicted
+    C: predicted
+    D: predicted
+  official_key: A
+  call: "What is Stephen's best theft offense?"
+  choices:
+    A: "Larceny by trick, because he obtained possession of the chainsaw by fraud while intending to pawn it from the start"
+    B: "No offense, because the co-op voluntarily handed him the chainsaw"
+    C: "False pretenses, because he used a forged emergency-services volunteer ID"
+    D: "Embezzlement, because he lawfully possessed the chainsaw after the rental"
+
+transform_provenance:
+  transformed_from: "18456"
+  variant_slug: "stephens_chainsaw"
+  original_key_letter: B
+  new_key_letter: A
+  letter_map:
+    - original_letter: A
+      new_letter: C
+      mechanic: "half_truth (proves deception, misses title transfer)"
+      substance: "kept"
+      pick_rate: 38%
+      pct_provenance: "predicted"
+      notes: "DOMINANT TRAP"
+    - original_letter: B
+      new_letter: A
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate: 28%
+      pct_provenance: "predicted"
+    - original_letter: C
+      new_letter: D
+      mechanic: "half_truth (proves possession, misses lawful-possession element)"
+      substance: "kept"
+      pick_rate: 22%
+      pct_provenance: "predicted"
+    - original_letter: D
+      new_letter: B
+      mechanic: "autonomy_appeal (appeals to victim's free choice)"
+      substance: "kept"
+      pick_rate: 12%
+      pct_provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "Pat uses a fake driver's license to rent a camera from a photography shop for the weekend, planning to sell it online that night, and the question asks for his best theft offense."
+    variant_stem_one_sentence: "Stephen uses a forged emergency-services volunteer ID to rent a chainsaw from a hardware co-op for a weekend church-camp cleanup, planning to pawn it Sunday afternoon, and the question asks for his best theft offense."
+    dimensions_changed:
+      - "Asset: camera → Stihl chainsaw"
+      - "Transaction frame: rent from photography shop → rent from hardware co-op"
+      - "Specific lies/facts: fake driver's license → forged emergency-services volunteer ID"
+      - "Resale method: sell online that night → pawn Sunday afternoon at a cash-for-tools place"
+      - "Fact ordering/stem rhythm: combined 'signs and plans' clause → separated into 'signs' clause + 'loads it into his truck, he is already planning' sentence"
+      - "Cast: Pat → Stephen + non-load-bearing small group + non-load-bearing church disaster-response team"
+      - "Choice ordering: shuffled A–D positions (new key A, original key B)"
+      - "Setting: modern generic → church-camp storm-cleanup context"
+    dimensions_skipped_with_reason:
+      - "Call wording: kept identical structure ('What is X's best theft offense?') — changing it would issue-spot for the student and lower difficulty, and the call's function is unchanged."
+      - "Numbers: kept on the original side of every temporal line; 'weekend' / 'Sunday at closing' preserves the temporary-possession frame the rule turns on."
+      - "Choice phrasing: rephrased within the same black-letter register; standard black-letter wording like 'best theft offense,' 'because he used a forged ... ID,' 'because he lawfully possessed' is required for MBE rigor and would not be improved by further divergence."
+
+source_stack:
+  - "QBank/18456.md (source row, no measured pick rates supplied)"
+  - "OUTLINE_CODES_COMPLETE.md (73030200 verified verbatim: 'Crimes against Property > Larceny by trick')"
+  - "controlled_vocabularies.md (all controlled-field values drawn from taxonomy)"
+  - "skills/cq-transform-qa/SKILL.md (binding QA gate)"
+  - "Web research (lawyer-confirmation only): Model Penal Code § 223.3 (Theft by Deception) at criminallawweb.net; Maryland Code, Criminal Law § 7-102 at codes.findlaw.com; LegalClarity, UWorld Legal, bar-md.com secondary confirmations of the common-law possession-vs-title distinction."
+
+student_access_contract:
+  must_be_visible_from: "C3 lessons, subject overlays, taught tiny anchors, and Gold Keys only — no outside legal doctrine."
+  fail_label: "anchor_assisted / pure_anchor / anchor_gap / legal_leak"
+
+stem_parse:
+  call: "What is Stephen's best theft offense?"
+  call_function: "best-offense identification (positive call)"
+  adjacent_call_trap: null
+  negative_stem_inversion: false
+
+trigger_facts:
+  - fact: "forged emergency-services volunteer ID (deception)"
+    access_label: "C3-visible (deception is named in the stem)"
+  - fact: "rental agreement for Saturday-through-Sunday (temporary-possession frame)"
+    access_label: "C3-visible ('rental' is the rent-vs-buy tell)"
+  - fact: "written promise to return the chainsaw by Sunday at closing (possession-only tell)"
+    access_label: "C3-visible (the 'return' promise is the title-vs-possession split)"
+  - fact: "pre-formed plan to pawn Sunday afternoon (concurrent intent to permanently deprive)"
+    access_label: "C3-visible (intent at the time of the taking)"
+  - fact: "chainsaw was loaded into his truck (taking / asportation)"
+    access_label: "C3-visible (the physical act of carrying away)"
+
+c3_routing:
+  subject_fit: "CRIMINAL — Crimes against Property — Larceny by trick"
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  method_class: "heuristic_structural"
+  confidence: "HEURISTIC_STRUCTURAL"
+  case_study_verdict: "C3_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: A
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Core"
+
+answer_array:
+  shape: "3-vs-1 (three theft variants + one no-offense)"
+  pairing: "matched pairs along the {possession vs. title} axis (A vs. C) and the {lawful possession vs. fraudulent possession} axis (A vs. D); B is a no-offense outlier"
+  navigation: "CUT two distractors (B, D) on visible structural defects; CLASH the remaining pair (A, C) on the possession-vs-title axis; residual is A. No CALL needed."
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags: ["correct_answer"]
+    method_class: "hard_structural"
+    student_label: "Larceny by trick (correct)"
+    c3_signal: "Deception-induced transfer of possession only + concurrent intent to permanently deprive = larceny by trick."
+    lawyer_confirmation: "At common law, larceny by trick requires (1) a taking, (2) by fraud or deception, (3) of personal property, (4) with intent to permanently deprive the owner at the time of the taking, where (5) the victim intended to part only with possession, not title. Model Penal Code § 223.3 (Theft by Deception) collapses larceny, larceny by trick, false pretenses, and embezzlement into a unitary offense, but the historical distinction still drives MBE analysis. See also Maryland Code, Criminal Law § 7-102 (consolidating the four into a single statutory 'theft' crime)."
+
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "autonomy_appeal"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "sounds_lawyerly"
+      - "common_student_myth"
+    method_class: "heuristic_structural"
+    student_label: "No offense (autonomy appeal)"
+    c3_signal: "The 'voluntarily handed' hook is bait. Fraud vitiates the victim's consent to possession. 'Voluntary' in a fraud-induced transfer is the wrong frame; the right frame is 'fraud-induced.'"
+    lawyer_confirmation: "Fraud negates the consent required for the victim's transfer of possession. Without valid consent, the taking is trespassory for larceny-by-trick purposes. The 'voluntarily handed' justification cannot survive the fraud-plus-possession-plus-intent facts."
+
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "bar_exam_bait"
+      - "common_student_myth"
+    method_class: "heuristic_structural"
+    student_label: "False pretenses (half-truth — proves deception, misses title transfer) — DOMINANT TRAP"
+    c3_signal: "The 'forged ID' hook pulls students toward false pretenses. But the question is: did the co-op hand over possession (rental) or sign over title (sale)? The rental agreement is a possession-only transfer. False pretenses needs title to move; here, title never moved."
+    lawyer_confirmation: "False pretenses at common law required a fraudulent transfer of title (not merely possession) to the victim's property, with intent to defraud. Where the victim parts only with possession under a fraud-induced rental, the offense is larceny by trick, not false pretenses. Model Penal Code § 223.3 merges the two as 'theft by deception,' but the historical distinction still governs MBE analysis."
+
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "half_right_answer"
+    method_class: "heuristic_structural"
+    student_label: "Embezzlement (half-truth — proves possession, misses lawful-possession element)"
+    c3_signal: "The 'lawfully possessed after the rental' hook makes embezzlement feel right. But the consent to possession was procured by fraud (the forged ID), so the possession was not lawful at the outset. Embezzlement needs lawful possession at the start + later fraudulent conversion. Fraudulent acquisition = larceny by trick, not embezzlement."
+    lawyer_confirmation: "Embezzlement at common law required (1) lawful possession of the property, (2) by the defendant, (3) followed by a fraudulent conversion. Where the possession itself is procured by fraud, the lawful-possession element fails, and the offense is larceny by trick."
+
+residual_answer: A
+
+legal_leak_audit: "All four choice-walkthrough explanations are grounded in (1) the stem's visible facts, (2) the C3 CUT/CLASH structure, and (3) MBE-standard black-letter wording. No explanation requires outside legal doctrine not in the controlled surface. Drift audit: original key B (larceny by trick), new key A (larceny by trick) — same legal substance re-skinned; tested rule unchanged; outcome unchanged; dominant trap re-skinned (False pretenses, original A → new C, 38% predicted); array geometry preserved (3-vs-1)."
+
+gold_keys:
+  - id: "GK-CRIM-LARCENY_BY_TRICK-01"
+    statement: "Larceny by trick ≠ false pretenses ≠ embezzlement. The axis is what the victim transferred: possession only → larceny by trick; title → false pretenses; lawful possession at the start, then conversion → embezzlement."
+    type: "distinction"
+    unlocks: "the false-pretenses trap (assumes fraud = title transfer) and the embezzlement trap (assumes rental = lawful possession)"
+    trigger: "a fact pattern showing fraud-induced transfer of a rented or borrowed item"
+    tested_choice: C
+    authority: "Model Penal Code § 223.3 (Theft by Deception) (American Law Institute); common-law distinction preserved by MBE; see also Maryland Code, Criminal Law § 7-102 (consolidating larceny, larceny by trick, false pretenses, and embezzlement into a single statutory 'theft' crime)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-LARCENY_BY_TRICK-01"
+    statement: "When two answers both involve fraud, ask what the victim actually transferred. 'Rental' or 'borrow' = possession only. 'Sale' or 'deed' = title. The word 'rent' is the tell."
+    type: "clash"
+    navigates: "the larceny-by-trick vs. false-pretenses clash on the possession-vs-title axis"
+    trigger: "a fact pattern with fraud + a temporary-transfer frame"
+    tested_choice: C
+    outline_code: "73030200"
+    last_minute_review: true
+
+remediation:
+  card_id: "RC-CRIM-LARCENY_BY_TRICK-01"
+  title: "Possession vs. title — the rent vs. buy tell"
+  signal: "When a fact pattern shows fraud + a temporary-transfer frame, ask what the victim transferred: possession only (rent / borrow) or title (sale / deed). The word 'rent' is the tell."
+  student_move: "Cut embezzlement if the possession itself was procured by fraud (lawful-possession element fails). Cut 'no offense' (fraud vitiates consent). Clash larceny-by-trick against false pretenses on the possession-vs-title axis."
+  tiny_rule: "Deception + possession only + intent to steal at the time of the taking = larceny by trick."
+  trap: "Do not map 'fraud' to 'false pretenses' by reflex. The deciding question is what the victim transferred, not whether the defendant lied."
+  confidence: "HEURISTIC_STRUCTURAL"
+
+distilled_core_question: "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?"
+
+review_truth: "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick."
+
+case_study_output:
+  verdict: "C3_SOLVE"
+  residual: A
+  agrees_with_official_key: true
+  dominant_trap: C
+
+quality_control:
+  pass_criteria:
+    - "true-and-responsive residual equal to credited answer (A = Larceny by trick)"
+    - "exactly three distractors each breaking exactly one filter (B, C, D each break NOT_TRUE exactly once)"
+    - "gold_keys and silver_keys conform to the taxonomy (type values verified)"
+    - "outline_code 73030200 verified verbatim in OUTLINE_CODES_COMPLETE.md"
+  pass_status: "PASS"
+  drift_audit: "original key B (larceny by trick), new key A (larceny by trick) — same legal substance re-skinned. tested rule unchanged (deception-induced transfer of possession only + concurrent intent to permanently deprive = larceny by trick). outcome unchanged. dominant trap re-skinned and preserved at the new C position (38% predicted). recognition test passed (the two one-sentence stem summaries share only the rule itself; all cast / asset / business / credential / setting / resale method are changed)."
+  recognition_test_passed: true
+  recognition_test_evidence: "Original: 'Pat uses a fake driver's license to rent a camera from a photography shop for the weekend, planning to sell it online that night, and the question asks for his best theft offense.' Variant: 'Stephen uses a forged emergency-services volunteer ID to rent a chainsaw from a hardware co-op for a weekend church-camp cleanup, planning to pawn it Sunday afternoon, and the question asks for his best theft offense.' Shared: rent + fraud + intent to permanently deprive + 'best theft offense' call. Everything else: changed."
+
+analytics_hooks:
+  trap_tags:
+    - "rental_larceny_by_trick"
+    - "possession_vs_title"
+    - "lawful_possession_myth"
+    - "fraud_vitiates_consent"
+  misconception_tags:
+    - "fraud_equals_false_pretenses"
+    - "rental_equals_lawful_possession"
+    - "voluntary_transfer_means_no_offense"
+  crossovers:
+    - "73030300 (False pretenses — the dominant trap)"
+    - "73030500 (Embezzlement — the embezzlement trap)"
+  fills:
+    - "possession-vs-title axis"
+    - "rent-vs-buy tell (the C3-visible trigger for larceny-by-trick fact patterns)"
+    - "fraud-vitiates-consent cut (kills the 'no offense' distractor)"
+  adjacent_to_master:
+    - "73030100 (Larceny — the parent offense; this item tests the fraud-induced sub-form)"
+    - "73030300 (False pretenses — the dominant trap lives here)"
+    - "73030500 (Embezzlement — the embezzlement trap lives here)"
+```
+
+---
+
+## Block 2 — The 17-Section Student Case Study
+
+### 1. program_frame
+
+This is a CRIMINAL → Crimes against Property → Larceny by trick item (outline code **73030200**). The C3 program routes it through the **larceny-by-trick case-study lane**, with the **possession-vs-title axis** as the governing heuristic and **deception + concurrent intent** as the load-bearing trigger facts. The dominant trap is the false-pretenses mechanic, re-skinned at the new position C; the residual is larceny by trick at position A.
+
+### 2. student_access_test
+
+A smart 10-year-old who completed only the C3 lessons, the CRIMINAL subject overlay, and the taught tiny anchors / Gold Keys should be able to identify each choice's problem **without outside legal doctrine**:
+- **A (Larceny by trick):** true and responsive — survives the test.
+- **B (No offense):** the "voluntarily handed" claim is the wrong frame; the C3-visible fraud-vitiates-consent principle kills it.
+- **C (False pretenses, dominant trap):** the "forged ID" proves deception, but the C3-visible rent-vs-buy tell (a rental is a possession-only transfer) shows the title element is missing.
+- **D (Embezzlement):** the "lawfully possessed" claim fails the C3-visible lawful-possession element, because the consent to possession was procured by fraud.
+
+No choice requires outside doctrine. PASS the access test.
+
+### 3. question_data
+
+- **Subject:** CRIMINAL
+- **Topic:** Crimes against Property
+- **Subtopic:** Larceny by trick
+- **Outline code:** 73030200
+- **QID:** 18456_stephens_chainsaw
+- **Transformed from:** 18456 (original key B → new key A)
+- **Call:** "What is Stephen's best theft offense?" (positive call, best-offense identification)
+- **Stem (recap):** Stephen uses a forged emergency-services volunteer ID to rent a Stihl chainsaw from Riverside Hardware Co-op for a Saturday-through-Sunday storm-damage cleanup at the church camp his small group serves; he signs a written rental agreement promising to return the chainsaw by Sunday at closing; he is already planning to pawn it Sunday afternoon at a cash-for-tools place across town.
+- **Choices (post-shuffle):** A — Larceny by trick; B — No offense; C — False pretenses (DOMINANT TRAP); D — Embezzlement.
+
+### 4. distilled_core_question
+
+> Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?
+
+### 5. call_and_prediction
+
+- **Call type:** positive, "best-offense" identification.
+- **Adjacent-call trap:** none (no "EXCEPT" / "LEAST" inversion; no negative-stem flip).
+- **Prediction:** Larceny by trick (position A). The fraud-induced transfer of possession only, plus the pre-formed plan to pawn, satisfies every element of larceny by trick and defeats both false pretenses (no title) and embezzlement (no lawful possession).
+
+### 6. trigger_facts
+
+| Trigger fact | Access label |
+|---|---|
+| Forged emergency-services volunteer ID | C3-visible (deception is named in the stem) |
+| Rental agreement for Saturday-through-Sunday | C3-visible ('rental' is the rent-vs-buy tell) |
+| Written promise to return the chainsaw by Sunday at closing | C3-visible (the 'return' promise is the title-vs-possession split) |
+| Pre-formed plan to pawn Sunday afternoon | C3-visible (intent at the time of the taking) |
+| Chainsaw loaded into his truck | C3-visible (the physical act of carrying away) |
+
+Every load-bearing fact is C3-visible from the stem. No anchor gap. No legal leak.
+
+### 7. governing_c3_lane
+
+- **Lane:** CRIMINAL → Crimes against Property → Larceny by trick
+- **Governing heuristic:** the possession-vs-title axis. Deciding phase: **CLASH** between A and C. CUT phases: D and B.
+- **Anchor surface:** the rent-vs-buy tell (C3-visible); the lawful-possession element of embezzlement (C3-visible once you read the stem); the fraud-vitiates-consent principle (C3-visible once you read the stem).
+- **No mini-outline.** The lane is the deciding axis, not a doctrinal summary.
+
+### 8. choice_by_choice_walkthrough
+
+#### A — Larceny by trick (correct)
+
+1. **Student-accessible C3 signal:** "Rent vs. buy. The co-op only handed him the saw for the weekend — he never got ownership. Add the forged ID plus the pre-formed plan to pawn it, and the taking was fraudulent from the start. That's the textbook larceny-by-trick combination: deception + possession only + intent to permanently deprive at the time of taking."
+2. **Student label:** Larceny by trick (correct).
+3. **What a true/responsive version would look like:** a true/responsive version would restate the rule and tie it to the facts — fraud-induced possession (not title) plus intent to steal at the time of the taking. This choice does exactly that.
+4. **Lawyer confirmation:** at common law, larceny by trick requires (1) a taking, (2) by fraud or deception, (3) of personal property, (4) with intent to permanently deprive the owner at the time of the taking, where (5) the victim intended to part only with possession, not title. The deception-induced transfer of possession (not title) satisfies the trespassory-taking element by negating the victim's free consent. Modern codes (Model Penal Code § 223.3) collapse larceny, larceny by trick, false pretenses, and embezzlement into a unitary "theft by deception," but the historical distinction still drives MBE analysis.
+
+#### B — No offense (the "voluntarily handed" hook)
+
+1. **Student-accessible C3 signal:** "The 'voluntarily handed' hook is bait. Fraud kills clean consent — when the victim parts with property because of a known false credential, the consent to possession is vitiated, and a taking-offense attaches. So 'voluntary' is the wrong frame; the right frame is 'fraud-induced.'"
+2. **Student label:** No offense (autonomy appeal).
+3. **What a true/responsive version would look like:** a true/responsive version of this choice would name the correct offense, not deny one. "No offense" cannot be a true answer when the facts show fraud + possession + intent to permanently deprive.
+4. **Lawyer confirmation:** fraud vitiates the consent required for the victim's transfer of possession. Without valid consent, the taking is trespassory for larceny-by-trick purposes. The victim's apparent "voluntary" act does not save the defendant when that act was induced by deception.
+
+#### C — False pretenses (DOMINANT TRAP, the "forged ID" hook)
+
+1. **Student-accessible C3 signal:** "The 'forged ID' hook pulls students toward false pretenses. But the question is: did the co-op hand over possession (rental) or sign over title (sale)? The rental agreement is a possession-only transfer. False pretenses needs title to move; here, the co-op never moved title. So the offense is larceny by trick, not false pretenses."
+2. **Student label:** False pretenses (half-truth — proves deception, misses title transfer).
+3. **What a true/responsive version would look like:** a true/responsive false-pretenses answer would say: "False pretenses, because Stephen deceived the co-op into transferring title to the chainsaw." Here, the co-op only rented the saw, so title never moved.
+4. **Lawyer confirmation:** false pretenses at common law required a fraudulent transfer of title (not merely possession) to the victim's property, with intent to defraud. Where the victim parts only with possession under a fraud-induced rental, the offense is larceny by trick, not false pretenses. Model Penal Code § 223.3 merges the two as "theft by deception," but the historical distinction still governs MBE analysis.
+
+> **Gold Key:** The "forged ID" is the bait; the "rental" is the tell. A rent is a possession-only transfer. False pretenses requires the victim to sign over ownership — what the co-op did not do.
+
+#### D — Embezzlement (the "lawfully possessed" hook)
+
+1. **Student-accessible C3 signal:** "The 'lawfully possessed after the rental' hook makes embezzlement feel right. But the consent to possession was procured by fraud (the forged ID), so the possession was not lawful at the outset. Embezzlement needs lawful possession at the start + later fraudulent conversion. Fraudulent acquisition = larceny by trick, not embezzlement."
+2. **Student label:** Embezzlement (half-truth — proves possession, misses lawful-possession element).
+3. **What a true/responsive version would look like:** a true/responsive embezzlement answer would say: "Embezzlement, because Stephen received the chainsaw lawfully and then converted it." Here, the receipt was not lawful (it was induced by a forged ID), so embezzlement is the wrong frame.
+4. **Lawyer confirmation:** embezzlement at common law required (1) lawful possession of the property, (2) by the defendant, (3) followed by a fraudulent conversion. Where the possession itself is procured by fraud, the lawful-possession element fails, and the offense is larceny by trick.
+
+### 9. residual_answer
+
+**A — Larceny by trick.** Deception (forged emergency-services volunteer ID) + possession only (rental, not sale) + concurrent intent to permanently deprive (pre-formed plan to pawn) = larceny by trick. The dominant trap (False pretenses, C) fails the title-transfer test; the embezzlement trap (D) fails the lawful-possession test; the no-offense trap (B) fails the fraud-vitiates-consent principle.
+
+### 10. legal_leak_audit
+
+Every claim in the four choice blocks is grounded in (1) the stem's visible facts (forged ID, rental agreement, return promise, pawn plan, loading the saw), (2) the C3 CUT/CLASH structure (visible defects, axis + splitting fact, residue), and (3) MBE-standard black-letter wording ("best theft offense," "lawfully possessed," "used a forged ... ID," etc.). No choice explanation requires outside legal doctrine. No claim is asserted as "true" without a visible structural failure mode (NOT_TRUE filter), a C3-visible call/fact relation (the rental frame), or a named card / Gold Key (the possession-vs-title distinction). Drift audit: original key B → new key A, same legal substance re-skinned; tested rule unchanged; outcome unchanged; dominant trap re-skinned (False pretenses, original A → new C, 38% predicted); array geometry preserved (3-vs-1).
+
+### 11. final_student_script
+
+1. **Read the call.** "Best theft offense" — name the offense that best fits the facts; don't deny liability.
+2. **CUT the obvious defects.**
+   - D (Embezzlement): possession was procured by fraud → not lawful → CUT.
+   - B (No offense): fraud vitiates consent → CUT.
+3. **CLASH the remaining pair.**
+   - A (Larceny by trick) vs. C (False pretenses). The CLASH axis is possession vs. title. The splitting fact is the **written rental agreement promising to return the chainsaw by Sunday at closing** — a possession-only transfer.
+4. **Residue = A.** Larceny by trick.
+
+### 12. remediation_card
+
+- **Card ID:** RC-CRIM-LARCENY_BY_TRICK-01
+- **Title:** Possession vs. title — the rent vs. buy tell
+- **Signal:** When a fact pattern shows fraud + a temporary-transfer frame, ask what the victim transferred: possession only (rent / borrow) or title (sale / deed). The word "rent" is the tell.
+- **Student move:** Cut embezzlement if the possession itself was procured by fraud (lawful-possession element fails). Cut "no offense" (fraud vitiates consent). Clash larceny-by-trick against false pretenses on the possession-vs-title axis.
+- **Tiny rule:** Deception + possession only + intent to steal at the time of the taking = larceny by trick.
+- **Trap:** Do not map "fraud" to "false pretenses" by reflex. The deciding question is what the victim transferred, not whether the defendant lied.
+- **Confidence:** HEURISTIC_STRUCTURAL
+
+### Gold Key(s)
+
+> **GK-CRIM-LARCENY_BY_TRICK-01 (distinction).** Larceny by trick ≠ false pretenses ≠ embezzlement. The axis is what the victim transferred: possession only → larceny by trick; title → false pretenses; lawful possession at the start, then conversion → embezzlement. *Unlocks:* the false-pretenses trap (assumes fraud = title transfer) and the embezzlement trap (assumes rental = lawful possession). *Trigger:* a fact pattern showing fraud-induced transfer of a rented or borrowed item. *Tested choice:* C. *Authority (lawyer-confirmation only):* Model Penal Code § 223.3 (Theft by Deception) (American Law Institute); common-law distinction preserved by MBE; see also Maryland Code, Criminal Law § 7-102 (consolidating larceny, larceny by trick, false pretenses, and embezzlement into a single statutory "theft" crime). *Last-minute review:* yes.
+
+### Silver Key(s)
+
+> **SK-CRIM-LARCENY_BY_TRICK-01 (clash).** When two answers both involve fraud, ask what the victim actually transferred. "Rental" or "borrow" = possession only. "Sale" or "deed" = title. The word "rent" is the tell. *Navigates:* the larceny-by-trick vs. false-pretenses clash on the possession-vs-title axis. *Trigger:* a fact pattern with fraud + a temporary-transfer frame. *Tested choice:* C. *Outline code:* 73030200. *Last-minute review:* yes. (No authority field — student-accessible navigation move.)
+
+### 13. qa_checklist
+
+- [x] True-and-responsive residual equal to credited answer: **A = Larceny by trick** ✓
+- [x] Exactly three distractors each breaking exactly one filter: **B (NOT_TRUE, autonomy_appeal), C (NOT_TRUE, half_truth), D (NOT_TRUE, half_truth)** ✓
+- [x] All five blocks present (Question YAML, 17-section case study, c3_annotation JSON, program_elements JSON, program_intelligence JSON) ✓
+- [x] JSON blocks parse (validated post-write)
+- [x] `program_elements` uses `red_zone_dimensions` exactly (not `red_zones`) ✓
+- [x] `program_intelligence.component_routing[]` uses controlled `destination_key` values from taxonomy (drills, trap_forensics, misconceptions, pattern_board, review_cards) ✓
+- [x] `gold_keys` / `silver_keys` identical between Block 3 and Block 5 ✓
+- [x] Post-shuffle key letter **A** identical across the transform report, the YAML, all JSON blocks, and the residual ✓
+- [x] `analyzer_notes` contains `drift_audit:`, `transformed_from: 18456`, and the full `letter_map:` ✓
+- [x] Original letters appear **only** in the Letter Map and the provenance fields ✓
+- [x] Pick rates never all-null; all four are `predicted` and sum to 100 ✓
+- [x] Dominant trap named and flagged in the Letter Map (DOMINANT TRAP on row A→C) ✓
+- [x] Outline code `73030200` verified verbatim in `OUTLINE_CODES_COMPLETE.md` ("Crimes against Property > Larceny by trick") ✓
+- [x] Difficulty value `Core` is not an 8-digit outline-code pattern; source row did not supply a difficulty, default used ✓
+- [x] `confidence` = `HEURISTIC_STRUCTURAL` matches the deciding choice's `method_class` = `heuristic_structural` per the taxonomy derivation table ✓
+- [x] Gold Key present iff anchor-dependent (yes — the possession-vs-title distinction is the anchor) ✓
+- [x] Silver Key present iff a non-obvious navigation move decides the item (yes — the rent-vs-buy clash tell) ✓
+- [x] All controlled-field values came from `controlled_vocabularies.md` (no invented values) ✓
+- [x] Distilled Core Question present ✓
+- [x] Review Truth present (pure student-facing rule sentence, no process commentary) ✓
+- [x] Divergence Audit present with both one-sentence stem summaries ✓
+- [x] Frontmatter present as item 0 and consistent with the body (key=A, original_key=B, dominant_trap=C, letter_map matches) ✓
+- [x] Every Pass-2 block preceded by its exact name heading; all three JSON blocks parse ✓
+- [x] Cited URLs stripped of tracking parameters (no URLs cited; MPC § 223.3 and Maryland Code § 7-102 cited by code) ✓
+- [x] Old-stem summary uses only original-stem facts ✓
+- [x] Frontmatter YAML is the very first thing in the file ✓
+- [x] Christian-first variation (Stephen is a popular, well-liked Bible name from Acts; no antagonist names; flavor adds no new legal issue) ✓
+- [x] No clutter doctrine (no First Amendment, no establishment, no church-internal suit, no charitable immunity, no standing facts added) ✓
+- [x] Stem does not over-signal (the negative fact that resolves the dominant trap — that title was not transferred — is not spelled out; the word "rental" implies it, consistent with the original stem's MBE-standard wording) ✓
+
+### 14. wrong_answer_recovery_paths
+
+- **B (No offense) → A (Larceny by trick).** Skipped move: the fraud-vitiates-consent cut. Recovery: when the victim parts with property because of a known false credential, the consent to possession is vitiated; "voluntary" in a fraud-induced transfer is the wrong frame. Larceny by trick's trespassory-taking element is satisfied by the fraud-induced transfer.
+- **C (False pretenses) → A (Larceny by trick).** Skipped move: the possession-vs-title clash. Recovery: "rental" / "borrow" = possession only; "sale" / "deed" = title. The word "rent" is the tell. The co-op never moved title, so the offense is larceny by trick (deception + possession only), not false pretenses (deception + title).
+- **D (Embezzlement) → A (Larceny by trick).** Skipped move: the lawful-possession cut. Recovery: embezzlement requires lawful possession at the outset. Fraud-induced possession fails the lawful-possession element; the offense collapses back into larceny by trick.
+
+### 15. outline_mastery_map
+
+- **Placement:** Crimes against Property > Larceny by trick (outline code **73030200**).
+- **This item teaches:** the possession-vs-title axis as the deciding distinction between larceny by trick, false pretenses, and (in part) embezzlement; the fraud-vitiates-consent principle; the concurrent-intent requirement (intent to permanently deprive at the time of the taking).
+- **Fills:**
+  - The possession-vs-title axis as a C3-visible distinguishing tell.
+  - The rent-vs-buy tell as a C3-visible trigger for larceny-by-trick fact patterns.
+  - The fraud-vitiates-consent cut as a C3-visible killer of the "no offense" distractor.
+- **Adjacent to master:**
+  - 73030100 (Larceny — the parent offense; this item tests the fraud-induced sub-form).
+  - 73030300 (False pretenses — the dominant trap lives here).
+  - 73030500 (Embezzlement — the embezzlement trap lives here).
+
+### 16. crossover_intersection_map
+
+- **73030300 (False pretenses) — the dominant trap.** False pretenses requires deception + title transfer. This item's dominant trap (C) is the false-pretenses wrong-answer mechanic, re-skinned. The cross-over teaches the student to read the rent-vs-buy tell before pattern-matching "fraud" to "false pretenses."
+- **73030500 (Embezzlement) — the embezzlement trap.** Embezzlement requires lawful possession at the outset. This item's embezzlement trap (D) is the lawful-possession myth, re-skinned. The cross-over teaches the student that fraud-induced possession is not "lawful" for embezzlement purposes.
+- **73030100 (Larceny) — the parent offense.** Larceny by trick is a sub-form of larceny; the trespassory-taking element is supplied by the fraud-induced transfer of possession. The cross-over reinforces that the taking element survives when the victim's consent is procured by deception.
+
+### 17. review_truth
+
+When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.
+
+---
+
+## Block 3 — c3_annotation (JSON)
+
+```json
+{
+  "question_id": "18456_stephens_chainsaw",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "73030200",
+  "distilled_core_question": "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?",
+  "review_truth": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "HEURISTIC_STRUCTURAL",
+    "tension_axis": "What did the victim transfer — possession only (rental) or title (sale)?",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Rent vs. buy — 'rental agreement' means possession only, so the offense is larceny by trick, not false pretenses.",
+    "difficulty": "Core",
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "autonomy_appeal",
+        "architecture": "wrong_frame",
+        "card_ref": "fraud_vitiates_consent",
+        "explanation": "The 'voluntarily handed' hook is bait. Fraud vitiates the victim's consent to possession. 'Voluntary' in a fraud-induced transfer is the wrong frame; the right frame is 'fraud-induced.'"
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "wrong_frame",
+        "card_ref": "rent_vs_buy_tell",
+        "explanation": "The 'forged ID' hook pulls students toward false pretenses. The rental agreement is a possession-only transfer; false pretenses needs title to move, so the offense is larceny by trick, not false pretenses."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "wrong_frame",
+        "card_ref": "lawful_possession_required",
+        "explanation": "The 'lawfully possessed' hook makes embezzlement feel right. But the consent to possession was procured by fraud, so the lawful-possession element fails; the offense is larceny by trick, not embezzlement."
+      }
+    ],
+    "analyzer_notes": "drift_audit: original key B (larceny by trick), new key A (larceny by trick) — same legal substance re-skinned. tested rule unchanged (deception-induced transfer of possession only + concurrent intent to permanently deprive = larceny by trick). outcome unchanged. dominant trap re-skinned (False pretenses, original A → new C, 38% predicted). transformed_from: 18456. letter_map: A→C (False pretenses, half_truth, 38% predicted, DOMINANT TRAP), B→A (Larceny by trick correct, 28% predicted), C→D (Embezzlement, half_truth, 22% predicted), D→B (No offense, autonomy_appeal, 12% predicted). seed_pick_rates_note: source row supplied no measured pick rates; all four are seed predictions, every one labeled 'predicted'."
+  },
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-LARCENY_BY_TRICK-01",
+      "statement": "Larceny by trick ≠ false pretenses ≠ embezzlement. The axis is what the victim transferred: possession only → larceny by trick; title → false pretenses; lawful possession at the start, then conversion → embezzlement.",
+      "type": "distinction",
+      "unlocks": "the false-pretenses trap (assumes fraud = title transfer) and the embezzlement trap (assumes rental = lawful possession)",
+      "trigger": "a fact pattern showing fraud-induced transfer of a rented or borrowed item",
+      "tested_choice": "C",
+      "authority": "Model Penal Code § 223.3 (Theft by Deception) (American Law Institute); common-law distinction preserved by MBE; see also Maryland Code, Criminal Law § 7-102 (consolidating larceny, larceny by trick, false pretenses, and embezzlement into a single statutory 'theft' crime).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-LARCENY_BY_TRICK-01",
+      "statement": "When two answers both involve fraud, ask what the victim actually transferred. 'Rental' or 'borrow' = possession only. 'Sale' or 'deed' = title. The word 'rent' is the tell.",
+      "type": "clash",
+      "navigates": "the larceny-by-trick vs. false-pretenses clash on the possession-vs-title axis",
+      "trigger": "a fact pattern with fraud + a temporary-transfer frame",
+      "tested_choice": "C",
+      "outline_code": "73030200",
+      "last_minute_review": true
+    }
+  ]
+}
+```
+
+---
+
+## Block 4 — program_elements (JSON)
+
+```json
+{
+  "question_id": "18456_stephens_chainsaw",
+  "subject": "CRIMINAL",
+  "outline_code": "73030200",
+  "distilled_core_question": "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?",
+  "review_truth": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+  "tension": "What did the victim transfer — possession only (rental) or title (sale)?",
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "autonomy_appeal",
+      "architecture": "wrong_frame",
+      "why_attractive": "The 'voluntarily handed him' hook makes no-offense feel intuitive — the clerk physically handed the chainsaw across the counter, so the transfer reads as voluntary. The breaker is that fraud vitiates consent: a fraud-induced transfer is not legally voluntary for offense-defining purposes.",
+      "focus_group_pct": "12%",
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "half_truth",
+      "architecture": "wrong_frame",
+      "why_attractive": "The 'forged emergency-services volunteer ID' hook pulls students toward false pretenses — fraud is the surface signal. The breaker is that false pretenses requires title transfer, not just deception; the rental agreement is a possession-only transfer, so the offense is larceny by trick, not false pretenses.",
+      "focus_group_pct": "38%",
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "half_truth",
+      "architecture": "wrong_frame",
+      "why_attractive": "The 'lawfully possessed after the rental' hook makes embezzlement feel right — rental is a possession relationship, and the planned pawn is a conversion. The breaker is that the possession was procured by fraud, so the 'lawful' qualifier fails; the offense is larceny by trick, not embezzlement.",
+      "focus_group_pct": "22%",
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "RC-CRIM-LARCENY_BY_TRICK-01",
+    "title": "Possession vs. title — the rent vs. buy tell",
+    "signal": "When a fact pattern shows fraud + a temporary-transfer frame, ask what the victim transferred: possession only (rent / borrow) or title (sale / deed). The word 'rent' is the tell.",
+    "student_move": "Cut embezzlement if the possession itself was procured by fraud (lawful-possession element fails). Cut 'no offense' (fraud vitiates consent). Clash larceny-by-trick against false pretenses on the possession-vs-title axis.",
+    "tiny_rule": "Deception + possession only + intent to steal at the time of the taking = larceny by trick.",
+    "trap": "Do not map 'fraud' to 'false pretenses' by reflex. The deciding question is what the victim transferred, not whether the defendant lied.",
+    "confidence": "HEURISTIC_STRUCTURAL"
+  },
+  "red_zone_dimensions": [
+    "possession-vs-title axis",
+    "rent-vs-buy tell (the C3-visible trigger for larceny-by-trick fact patterns)",
+    "fraud-vitiates-consent principle (kills the 'no offense' distractor)",
+    "concurrent-intent requirement (intent to permanently deprive at the time of the taking)",
+    "lawful-possession element of embezzlement (kills the embezzlement distractor when possession is fraud-induced)"
+  ]
+}
+```
+
+---
+
+## Block 5 — program_intelligence (JSON)
+
+```json
+{
+  "question_id": "18456_stephens_chainsaw",
+  "subject": "CRIMINAL",
+  "outline_code": "73030200",
+  "distilled_core_question": "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?",
+  "review_truth": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "autonomy_appeal",
+      "why_a_student_picks_this": "The student pattern-matches 'voluntary' to 'no offense,' missing that fraud kills clean consent for larceny-by-trick purposes.",
+      "skipped_move": "the fraud-vitiates-consent cut",
+      "recovery_step": "Recall: a fraud-induced transfer is not legally voluntary for offense-defining purposes; the consent to possession is vitiated, and the taking is trespassory for larceny by trick."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The student pattern-matches 'fraud' to 'false pretenses,' missing that false pretenses needs title transfer, not just deception.",
+      "skipped_move": "the possession-vs-title clash",
+      "recovery_step": "Recall: the word 'rent' (or 'borrow') is a possession-only transfer; title never moved in a rental. False pretenses requires title."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The student pattern-matches 'rental + planned conversion' to 'embezzlement,' missing that the possession was procured by fraud, so it was never lawful.",
+      "skipped_move": "the lawful-possession cut",
+      "recovery_step": "Recall: embezzlement requires lawful possession at the outset; fraud-induced possession fails the lawful-possession element and collapses back into larceny by trick."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "rent_vs_buy_classifier",
+      "target_skill": "possession-vs-title distinction",
+      "prompt": "A defendant uses a fake name to rent a pressure washer from a small business for the weekend, planning to sell it online that night. What is the best theft offense?",
+      "answer": "Larceny by trick — the rental is a possession-only transfer; the deception + concurrent intent to permanently deprive satisfies the elements."
+    },
+    {
+      "drill_type": "title_transfer_recognizer",
+      "target_skill": "title-vs-possession recognition",
+      "prompt": "A defendant uses a forged power of attorney to convince an elderly homeowner to sign a deed transferring her house to the defendant. What is the best theft offense?",
+      "answer": "False pretenses — the deed transfers title; the deception + title transfer satisfies the elements."
+    },
+    {
+      "drill_type": "lawful_possession_classifier",
+      "target_skill": "embezzlement-vs-larceny-by-trick boundary",
+      "prompt": "A defendant's sister lawfully gives the defendant her car to drive to the grocery store; the defendant instead drives it across state lines and sells it. What is the best theft offense?",
+      "answer": "Embezzlement — the sister gave the defendant lawful possession at the outset; the subsequent conversion is the embezzlement."
+    },
+    {
+      "drill_type": "no_offense_killer",
+      "target_skill": "fraud-vitiates-consent principle",
+      "prompt": "A defendant uses a fake name to rent a generator from a hardware store for the weekend, planning to keep it. He returns on Monday and says he lost it. What is the best theft offense?",
+      "answer": "Larceny by trick — the rental was procured by fraud, so the original possession was never lawful; the 'voluntarily handed' frame does not save the no-offense answer."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "rental_larceny_by_trick",
+      "possession_vs_title",
+      "lawful_possession_myth",
+      "fraud_vitiates_consent",
+      "concurrent_intent_requirement"
+    ],
+    "misconception_tags": [
+      "fraud_equals_false_pretenses",
+      "rental_equals_lawful_possession",
+      "voluntary_transfer_means_no_offense"
+    ]
+  },
+  "component_routing": [
+    {
+      "destination_key": "drills",
+      "route": "rent_vs_buy_classifier drill (see drill_seeds)",
+      "component_tags": ["possession_vs_title", "larceny_by_trick", "rent_vs_buy_tell"]
+    },
+    {
+      "destination_key": "trap_forensics",
+      "route": "false-pretenses trap forensics (choice C, DOMINANT TRAP)",
+      "component_tags": ["fraud_equals_false_pretenses", "rental_larceny_by_trick", "possession_vs_title"]
+    },
+    {
+      "destination_key": "misconceptions",
+      "route": "rental-equals-lawful-possession misconception (choice D)",
+      "component_tags": ["embezzlement_vs_larceny_by_trick", "lawful_possession_myth", "fraud_vitiates_consent"]
+    },
+    {
+      "destination_key": "pattern_board",
+      "route": "the possession-vs-title pattern (this item is a flagship example)",
+      "component_tags": ["possession_vs_title", "rent_vs_buy_tell", "larceny_by_trick"]
+    },
+    {
+      "destination_key": "review_cards",
+      "route": "RC-CRIM-LARCENY_BY_TRICK-01 last-minute review card + GK-CRIM-LARCENY_BY_TRICK-01 + SK-CRIM-LARCENY_BY_TRICK-01",
+      "component_tags": ["larceny_by_trick", "last_minute_review", "possession_vs_title"]
+    }
+  ],
+  "crossovers": [
+    "73030300 (False pretenses — the dominant trap lives here)",
+    "73030500 (Embezzlement — the embezzlement trap lives here)",
+    "73030100 (Larceny — the parent offense)"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-LARCENY_BY_TRICK-01",
+      "statement": "Larceny by trick ≠ false pretenses ≠ embezzlement. The axis is what the victim transferred: possession only → larceny by trick; title → false pretenses; lawful possession at the start, then conversion → embezzlement.",
+      "type": "distinction",
+      "unlocks": "the false-pretenses trap (assumes fraud = title transfer) and the embezzlement trap (assumes rental = lawful possession)",
+      "trigger": "a fact pattern showing fraud-induced transfer of a rented or borrowed item",
+      "tested_choice": "C",
+      "authority": "Model Penal Code § 223.3 (Theft by Deception) (American Law Institute); common-law distinction preserved by MBE; see also Maryland Code, Criminal Law § 7-102 (consolidating larceny, larceny by trick, false pretenses, and embezzlement into a single statutory 'theft' crime).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-LARCENY_BY_TRICK-01",
+      "statement": "When two answers both involve fraud, ask what the victim actually transferred. 'Rental' or 'borrow' = possession only. 'Sale' or 'deed' = title. The word 'rent' is the tell.",
+      "type": "clash",
+      "navigates": "the larceny-by-trick vs. false-pretenses clash on the possession-vs-title axis",
+      "trigger": "a fact pattern with fraud + a temporary-transfer frame",
+      "tested_choice": "C",
+      "outline_code": "73030200",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Crimes against Property > Larceny by trick (outline code 73030200)",
+    "this_item_teaches": "the possession-vs-title axis as the deciding distinction between larceny by trick, false pretenses, and (in part) embezzlement; the fraud-vitiates-consent principle; the concurrent-intent requirement for larceny.",
+    "fills": [
+      "possession-vs-title axis (the deciding axis for theft-offense classification)",
+      "rent-vs-buy tell (a C3-visible trigger for larceny-by-trick fact patterns)",
+      "fraud-vitiates-consent cut (a C3-visible killer of the 'no offense' distractor)"
+    ],
+    "adjacent_to_master": [
+      "73030100 (Larceny — the parent offense; this item tests the fraud-induced sub-form)",
+      "73030300 (False pretenses — the dominant trap lives here)",
+      "73030500 (Embezzlement — the embezzlement trap lives here)"
+    ]
+  }
+}
+```
+
+---
+
+## Self-check footer (post-write validation)
+
+- All three JSON blocks round-trip parse as valid JSON.
+- The post-shuffle key letter **A** is identical across the frontmatter, the Pass-1 correct-answer line, the YAML (`official_key: A`, `residual: A`), the `c3_annotation.credited_answer` = `"A"`, the `c3_annotation.c3.residual` = `"A"`, and the 17-section case study's residual-answer section.
+- `analyzer_notes` contains `drift_audit:`, `transformed_from: 18456`, and the full `letter_map:` for all four choices.
+- Outline code `73030200` is identical in the frontmatter, the YAML, and all three JSON blocks.
+- All pick rates are labeled `predicted`; no measured rates are implied.
+- Dominant trap (C) is named and flagged in the Letter Map with the DOMINANT TRAP marker.
+- Original letters appear only in the Letter Map and the `transform_provenance.letter_map` provenance field.
+- The two one-sentence stem summaries in the Divergence Audit pass the recognition test (they share only the rule).
+- The Christian-skin rules are satisfied: Stephen is a popular, well-liked Bible name from Acts; the church-camp cleanup context is non-load-bearing and adds no new legal issue; no antagonist names are used; no First Amendment, establishment, charitable-immunity, or church-internal-suit facts are introduced.
+- The black-letter verification cites Model Penal Code § 223.3 and Maryland Code, Criminal Law § 7-102 (real, primary law); no case names, citations, or holdings are fabricated. Authority-class gate met (primary law only; secondary sources cited as confirmations only).
+- The legal-research finding does **not** contradict the official key (key B → new key A, same legal substance).
+- `bank_validation_verdict` = `PASS` (true-and-responsive residual equal to credited answer + exactly three single-filter distractors).
+- `confidence` = `HEURISTIC_STRUCTURAL` (matches the deciding choice's `method_class` = `heuristic_structural` per the taxonomy derivation table).
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "18456_stephens_chainsaw"
+  question_id: "18456_stephens_chainsaw"
+  subject: "CRIMINAL"
+  topic: "Crimes against Property"
+  subtopic: "Larceny by trick"
+  outline_code: "73030200"
+  official_key: "A"
+transform_provenance:
+  transformed_from: "18456"
+  variant_slug: "stephens_chainsaw"
+  original_key_letter: "B"
+  new_key_letter: "A"
+  letter_map: "A→C, B→A, C→D, D→B"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "C3_SOLVE"
+  confidence: "HEURISTIC_STRUCTURAL"
+  residual: "A"
+distilled_core_question: "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?"
+review_truth: "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 18456_stephens_chainsaw; source 18456.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Crimes against Property; subtopic Larceny by trick.
+4. **distilled_core_question:** Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?
+5. **call_and_prediction:** Credited answer: A.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 73030200.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** A
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 73030200.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "18456_stephens_chainsaw",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "73030200",
+  "distilled_core_question": "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?",
+  "review_truth": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "HEURISTIC_STRUCTURAL",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 18456; letter_map: A→C, B→A, C→D, D→B",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "18456_stephens_chainsaw",
+  "subject": "CRIMINAL",
+  "outline_code": "73030200",
+  "distilled_core_question": "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?",
+  "review_truth": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-18456",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+    "trap": "See preserved traps when present.",
+    "confidence": "HEURISTIC_STRUCTURAL"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "18456_stephens_chainsaw",
+  "subject": "CRIMINAL",
+  "outline_code": "73030200",
+  "distilled_core_question": "Using a fraudulent credential, a defendant rents an item from a small business for a short period, intending from the start to permanently deprive the owner. What is the best theft offense?",
+  "review_truth": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "73030200",
+    "this_item_teaches": "When deception causes the owner to transfer possession (not title), and the defendant intends to permanently deprive at the time of the taking, the offense is larceny by trick.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

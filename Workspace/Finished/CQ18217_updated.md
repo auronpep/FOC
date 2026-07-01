@@ -1,0 +1,927 @@
+---
+qid: 18217_youth_rally_stop
+transformed_from: 18217
+subject: CRIMINAL
+topic: Fourth Amendment
+subtopic: Searches and seizures
+outline_code: 75070200
+key: C
+original_key: A
+letter_map: A→C, B→B, C→D, D→A
+dominant_trap: B
+pick_rates: predicted
+bank_validation_verdict: PASS
+review_truth: "A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority."
+---
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question
+
+Outside a Christian youth rally in a city park, an officer saw Timothy standing near the food-truck row and shouted, "Police—stop." Timothy immediately ran toward the parking lot. While running, Timothy tossed a plastic pouch of pills into a public trash barrel beside a volunteer prayer tent. Officers caught Timothy near the bus stop one block away. Timothy moves to suppress the pouch as fruit of a seizure at the moment of the shout.
+
+Was Timothy seized when the officer shouted "Police—stop"?
+
+## 2. Distilled Core Question
+
+Police shout stop; the suspect runs and discards evidence before being caught. Was there a seizure at the shout?
+
+## 3. Final answer choices
+
+A. No, because the Fourth Amendment never applies to property tossed into a public trash barrel.
+B. Yes, because a police command always creates an immediate seizure.
+C. No, because Timothy did not submit to the officer's show of authority before tossing the pouch.
+D. Yes, because Timothy subjectively felt enough pressure to run.
+
+## 4. Correct answer
+
+**C**. Original key letter: **A**.
+
+## 5. Letter Map
+
+No measured focus-group rates were supplied in the source row. The percentages below are seed estimates, not measured data.
+
+| Original letter | New letter | Mechanic | Substance | Pick rate | Provenance | Dominant trap |
+|---|---:|---|---|---:|---|---|
+| A | C | `correct_answer` | kept | 48% | predicted | no |
+| B | B | `tiered_absolute` | kept | 36% | predicted | **yes** |
+| C | D | `wrong_element` | kept | 10% | predicted | no |
+| D | A | `tiered_absolute` | kept | 6% | predicted | no |
+
+## 6. Full right-answer explanation
+
+**C is correct.** Timothy was not seized at the moment of the shouted command. **Gold Key:** a police show of authority is not a Fourth Amendment seizure unless the person submits. Timothy ran instead of stopping and tossed the pouch before the later capture. **Silver Key:** lock the sequence: command → flight → discard → capture. Because the discard came before submission or force, the pouch was not fruit of a seizure at the command.
+
+## 7. Full wrong-answer explanations
+
+**A.** This choice uses a too-wide discarded-property rule. The word **never** is the signal. Discarded property can matter if the discard follows an unlawful seizure. The problem for Timothy is timing, not a universal no-Fourth-Amendment rule.
+
+**B.** This is the dominant trap. It treats a police command as automatically creating a seizure. **Gold Key:** a show of authority requires submission. Timothy did not submit before tossing the pouch.
+
+**D.** This choice makes Timothy's subjective pressure do the work. That is not the controlling element. **Silver Key:** the sequence and submission fact control; subjective pressure alone does not answer whether a seizure occurred at the shout.
+
+## 8. Full black-letter-law verification and legal reasoning
+
+The source row is Q18217, a Criminal Procedure / Fourth Amendment item keyed to **A** because a show of authority without physical force becomes a seizure only if the person submits, and the suspect discarded the evidence before being caught. The verified outline code is **75070200**, "Fourth Amendment > Searches and Seizures."
+
+The controlling authority is **California v. Hodari D., 499 U.S. 621 (1991)**. The Court held that a seizure requires physical force or, absent force, submission to a show of authority; because Hodari dropped the cocaine before he submitted or was tackled, it was not fruit of a seizure. **Torres v. Madrid (2021)** confirms the physical-force side of the distinction: physical force with intent to restrain can be a seizure even if the person escapes. This variation uses no physical force before the discard, so Hodari D.'s show-of-authority/submission rule controls.
+
+The official key is consistent with current law. The transform preserves the legal issue and credited outcome: Timothy ran, discarded the pouch, and was caught only later.
+
+## 9. Rigor/difficulty preservation
+
+The transform preserves the same trap pull: a student who equates "police shouted stop" with "seizure" picks the wrong yes answer. The Christian surface changes the setting, cast, object, disposal location, rhythm, and choice order while preserving the government-police posture and the seizure-timing rule.
+
+## 10. C3 CUT → CLASH → CALL walkthrough
+
+**CUT A:** "Never applies" is an overclaim. The Fourth Amendment problem depends on timing, not a universal abandoned-property rule. Filter: **NOT_TRUE**.
+
+**CUT B:** "Always creates an immediate seizure" is the dominant overclaim. The Gold Key supplies the exact defect: a show of authority requires submission. Filter: **NOT_TRUE**.
+
+**CUT D:** Subjective pressure is not the dispositive element. The question is whether Timothy submitted or was physically seized before the discard. Filter: **NOT_RESPONSIVE**.
+
+**Residual:** C. It matches the timeline and the anchor: no submission before the pouch was tossed.
+
+**CALL:** No tiebreaker needed.
+
+## 11. Divergence Audit
+
+* **Asset/object:** packet of drugs → plastic pouch of pills. Changed.
+* **Setting:** street corner → Christian youth rally in a city park. Changed.
+* **Discard location:** trash can → public trash barrel beside a volunteer prayer tent. Changed.
+* **Cast/name:** Noel → Timothy. Changed.
+* **Fact rhythm:** the new stem starts with the youth-rally setting, then the command, flight, discard, later capture, and suppression theory. Changed.
+* **Choice ordering:** original A→C, B→B, C→D, D→A. Changed.
+* **Choice phrasing:** paraphrased while preserving legal substance and trap pull. Changed.
+* **Constitutional posture:** preserved. The actor remains a police officer; the item still concerns a criminal defendant's Fourth Amendment suppression argument.
+* **Call function:** preserved. The call still asks whether the person was seized at the command.
+
+**Old-stem summary:** An officer ordered Noel to stop, Noel ran, threw drugs into a trash can before being caught, and claimed the drugs were fruit of a seizure at the command.
+
+**Variant-stem summary:** At a Christian youth rally, Timothy ran after an officer shouted for him to stop, tossed pills into a public trash barrel, and claimed the pouch was fruit of the shouted command.
+
+Recognition test: passed. The summaries share only the legal timing structure.
+
+## 12. Review Truth
+
+A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority.
+
+## 13. The 5 variations considered
+
+| Rank | Title | Setting | Cast | Exact preserved issue | Why memorable | Legal risks | Divergence score |
+|---:|---|---|---|---|---|---|---|
+| 1 | **The Youth-Rally Stop** | Christian youth rally in a city park | Timothy | Show of authority, flight, discard before capture | Command-flight-discard sequence in a vivid public rally setting | Low; police actor and public setting preserve constitutional posture | **9/10** |
+| 2 | The Bookstore Alley | Sidewalk near a Christian bookstore | Daniel | Same | Quiet bookstore-to-alley contrast | Low; private bookstore is background only | 8/10 |
+| 3 | The Seminary Open-House Dash | Public sidewalk outside a seminary open house | Paul | Same | Seminary event surface is distinct from street corner | Medium; avoid suggesting school discipline or campus police | 7/10 |
+| 4 | The Choir-Festival Trash Barrel | City amphitheater after a choir festival | Ruth | Same | Music-festival texture | Low; government police stays intact | 8/10 |
+| 5 | The Advent-Market Run | City Christmas market | Stephen | Same | Seasonal Christian market feel | Medium; avoid public-forum/free-speech clutter | 7/10 |
+
+Recommended variation: **The Youth-Rally Stop**, because it changes setting, cast, object, disposal location, rhythm, and choice order while keeping the exact Fourth Amendment show-of-authority issue.
+
+# B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: 18217_youth_rally_stop
+  transformed_from: '18217'
+  variant_slug: youth_rally_stop
+  internal_id: CR-488
+  subject: CRIMINAL
+  subject_display: Criminal Law
+  topic: Fourth Amendment
+  subtopic: Searches and seizures
+  outline_code: '75070200'
+  selection_percentages:
+    A:
+      value: 6
+      provenance: predicted
+    B:
+      value: 36
+      provenance: predicted
+    C:
+      value: 48
+      provenance: predicted
+    D:
+      value: 10
+      provenance: predicted
+  pick_rate_note: No measured focus-group rates were supplied in the source row; all rates are seed estimates.
+  official_key: C
+  original_key_letter: A
+  difficulty: null
+  question: 'Outside a Christian youth rally in a city park, an officer saw Timothy standing near the food-truck
+    row and shouted, "Police—stop." Timothy immediately ran toward the parking lot. While running, Timothy tossed
+    a plastic pouch of pills into a public trash barrel beside a volunteer prayer tent. Officers caught Timothy
+    near the bus stop one block away. Timothy moves to suppress the pouch as fruit of a seizure at the moment of
+    the shout.
+
+
+    Was Timothy seized when the officer shouted "Police—stop"?'
+  call: Was Timothy seized when the officer shouted "Police—stop"?
+  choices:
+    A: No, because the Fourth Amendment never applies to property tossed into a public trash barrel.
+    B: Yes, because a police command always creates an immediate seizure.
+    C: No, because Timothy did not submit to the officer's show of authority before tossing the pouch.
+    D: Yes, because Timothy subjectively felt enough pressure to run.
+  correct_answer_explanation: A show of authority without physical force becomes a seizure only if the person submits.
+    Timothy fled and discarded the pouch before being caught.
+  wrong_answer_explanations:
+    A: This is an overbroad discarded-property rule. Discarded property can be fruit if discarded after an unlawful
+      seizure; here the timing means no seizure had occurred when Timothy tossed it.
+    B: A command alone is only a show of authority; it is not a seizure unless the suspect submits or physical force
+      is applied.
+    D: The test is not Timothy's subjective pressure alone. The timing and submission/force rule controls.
+  lb_rule_reference: When police use a show of authority but no physical force, a seizure occurs only if the person
+    submits to that authority.
+transform_provenance:
+  letter_map:
+  - original_letter: A
+    new_letter: C
+    mechanic: correct_answer
+    substance: kept
+    pick_rate:
+      value: 48
+      provenance: predicted
+    dominant_trap: false
+  - original_letter: B
+    new_letter: B
+    mechanic: tiered_absolute
+    substance: kept
+    pick_rate:
+      value: 36
+      provenance: predicted
+    dominant_trap: true
+  - original_letter: C
+    new_letter: D
+    mechanic: wrong_element
+    substance: kept
+    pick_rate:
+      value: 10
+      provenance: predicted
+    dominant_trap: false
+  - original_letter: D
+    new_letter: A
+    mechanic: tiered_absolute
+    substance: kept
+    pick_rate:
+      value: 6
+      provenance: predicted
+    dominant_trap: false
+  dominant_trap: B
+  swap:
+    performed: false
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: An officer ordered Noel to stop, Noel ran, threw drugs into a trash can before being
+      caught, and claimed the drugs were fruit of a seizure at the command.
+    variant_stem_one_sentence: At a Christian youth rally, Timothy ran after an officer shouted for him to stop,
+      tossed pills into a public trash barrel, and claimed the pouch was fruit of the shouted command.
+    dimensions_changed:
+    - setting/era/texture
+    - cast/name
+    - asset/object
+    - discard location texture
+    - fact ordering and rhythm
+    - choice ordering
+    - choice phrasing
+    dimensions_skipped_with_reason:
+    - dimension: constitutional posture
+      reason: The government-police posture is load-bearing and was preserved.
+    - dimension: call function
+      reason: The call must remain a seizure-timing question.
+source_stack:
+- BarMatrix row 18217 from MBE.xlsx
+- controlled_vocabularies.md
+- OUTLINE_CODES_COMPLETE.md
+- C3 Lessons 1, 2, 4, 7, 8, 9, 12, 13, 14
+- C3 Master Deck philosophy cards
+- 'Legal verification: California v. Hodari D. and Torres v. Madrid'
+student_access_contract:
+  controlling_test: Could a smart 10-year-old with only C3 lessons, subject overlays, and taught Gold Keys identify
+    the choice's problem without outside doctrine?
+  allowed_moves:
+  - TRUE and RESPONSIVE
+  - CUT before CLASH before CALL
+  - tiered_absolute
+  - wrong_element
+  - 'Gold Key: show-of-authority seizure requires submission'
+  - 'Silver Key: lock command, flight, discard, capture timing'
+  forbidden_moves:
+  - Do not teach a full Fourth Amendment outline.
+  - Do not call the police-command trap false without the Gold Key.
+  - Do not use case citations as the student-facing reason.
+stem_parse:
+  actor: government police officer
+  suspect: Timothy
+  initial_police_action: The officer shouted "Police—stop."
+  response: Timothy immediately ran.
+  discard: Timothy tossed a plastic pouch of pills into a public trash barrel while running.
+  later_restraint: Officers caught Timothy one block away.
+  suppression_theory: the pouch was fruit of a seizure at the moment of the shout
+  call_type: Fourth Amendment seizure timing
+  negative_stem_inversion: false
+  adjacent_call_trap: whether a police order feels coercive or whether tossed property is always abandoned
+trigger_facts:
+- fact: The officer used a command rather than physical force at the first moment.
+  access_label: student_visible
+  role: show-of-authority trigger
+- fact: Timothy immediately ran instead of stopping.
+  access_label: student_visible
+  role: non-submission fact
+- fact: Timothy discarded the pouch while running.
+  access_label: student_visible
+  role: timing fact
+- fact: Officers caught Timothy after the discard.
+  access_label: student_visible
+  role: later seizure fact
+c3_routing:
+  subject_fit: Criminal Procedure Fourth Amendment question = constitutional threshold plus timing sequence.
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: C
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: null
+answer_array:
+  architecture: two yes answers and two no answers, with the dominant trap over-reading a police command as an automatic
+    seizure
+  geometry: Correct no answer keyed to non-submission; wrong yes answer keyed to command alone; two flank distractors
+    on discarded property and subjective pressure.
+  dominant_trap: B
+  tension_axis: show of authority alone versus submission to show of authority before discard
+  gold_key_ref: GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01
+  silver_key_ref: SK-CRIMINAL-SEIZURE-TIMING-01
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: violation_vs_remedy
+    wrong_answer_architecture_tags:
+    - overbroad_rule
+    - misstated_rule
+    - wrong_remedy
+    - bar_exam_bait
+    method_class: hard_structural
+    student_label: discarded-property overclaim
+    c3_signal: The word never is the tell. The answer tries to make a broad no-Fourth-Amendment rule for all discarded
+      property.
+    lawyer_confirmation: Discarded property may be suppressible if the discard follows an unlawful seizure; the
+      timing here is the reason suppression fails.
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+    - attractive_wrong_answer
+    - overbroad_rule
+    - common_student_myth
+    - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: dominant command-equals-seizure trap
+    c3_signal: 'Always is too much. The Gold Key adds the missing piece: a command is not a seizure unless Timothy
+      submits.'
+    lawyer_confirmation: Under Hodari D., a show of authority without physical force requires submission before
+      a Fourth Amendment seizure occurs.
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+    - correct_answer
+    method_class: anchor_assisted
+    student_label: non-submission survivor
+    c3_signal: 'This choice uses the exact timing fact: Timothy ran and tossed the pouch before submitting or being
+      caught.'
+    lawyer_confirmation: No seizure occurred at the shouted command because Timothy did not submit before discarding
+      the pouch.
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+    - wrong_standard
+    - half_right_answer
+    - answer_to_different_question
+    - fact_not_in_evidence
+    method_class: anchor_assisted
+    student_label: subjective-pressure wrong element
+    c3_signal: Even if Timothy felt pressure, the call is not about how pressured he felt. The Gold Key asks whether
+      he submitted or was touched before the discard.
+    lawyer_confirmation: The seizure inquiry does not turn on subjective pressure alone; a show-of-authority seizure
+      requires submission.
+residual_answer:
+  answer: C
+  why_survives: 'It alone matches the rule and the sequence: command, flight, discard, later capture.'
+  confidence_band: anchor-assisted high confidence
+legal_leak_audit:
+  student_accessible_claims:
+  - claim: A command alone is not automatically a seizure.
+    status: passes via Gold Key
+  - claim: The discard happened before submission or force.
+    status: passes via stem facts and Silver Key
+  - claim: Never and always are overclaim tells.
+    status: passes via Lesson 4
+  lawyer_only_claims:
+  - claim: Hodari D. is the controlling show-of-authority case.
+    quarantine: lawyer_confirmation only
+  - claim: Torres preserves the physical-force side of the seizure distinction.
+    quarantine: lawyer_confirmation only
+  drift_audit: The student path uses the Gold Key and timing sequence, not case-law exposition.
+gold_keys:
+- id: GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01
+  statement: A police show of authority is not a Fourth Amendment seizure unless the person submits. Without submission,
+    seizure starts only when physical force is applied or the person is actually restrained.
+  type: distinction
+  unlocks: the police-command-equals-seizure trap
+  trigger: an officer commands a suspect to stop, but the suspect runs and discards evidence before capture
+  tested_choice: B
+  authority: California v. Hodari D., 499 U.S. 621 (1991); Torres v. Madrid (2021)
+  last_minute_review: true
+silver_keys:
+- id: SK-CRIMINAL-SEIZURE-TIMING-01
+  statement: 'On seizure/suppression timing, lock the sequence: command, flight, discard, capture. If the discard
+    happens before submission or force, it is not fruit of the command.'
+  type: trap_spotting
+  navigates: the fruit-of-seizure timing trap
+  trigger: the stem asks whether the person was seized at the moment of a shouted command
+  tested_choice: B
+  outline_code: '75070200'
+  last_minute_review: true
+remediation:
+  card_id: REM-CRIM-SEIZURE-SHOW-AUTHORITY-01
+  title: Command Is Not Submission
+  signal: Police shout stop; suspect runs; evidence is discarded before capture.
+  student_move: Lock the timeline and ask whether the suspect submitted before the discard.
+  tiny_rule: Show of authority requires submission; physical force is a separate route.
+  trap: Treating a police command as an automatic seizure.
+  confidence: ANCHOR_ASSISTED
+distilled_core_question: Police shout stop; the suspect runs and discards evidence before being caught. Was there
+  a seizure at the shout?
+review_truth: A police show of authority is not a seizure unless the person submits; property discarded before submission
+  or force is not fruit of that show of authority.
+case_study_output:
+  final_student_script: Command, flight, discard, capture. The command was only a show of authority. Timothy did
+    not submit before tossing the pouch, and no force happened until later. No seizure at the shout. Pick C.
+  residual: C
+  verdict: ANCHOR_SOLVE
+quality_control:
+  qid_consistent: true
+  post_shuffle_key_consistent: true
+  original_letters_restricted_to_provenance: true
+  outline_code_verified: true
+  json_blocks_to_parse: true
+  gold_keys_required_and_present: true
+  silver_keys_required_and_present: true
+  pass_requirements_met: true
+analytics_hooks:
+  dominant_trap_choice: B
+  dominant_trap_pct: 36
+  pick_rate_mode: predicted
+  primary_component: Fourth Amendment show-of-authority seizure
+  drill_family: Command, flight, discard, capture timing
+  review_queue: false
+```
+
+### 2. The 17-section student case study
+
+## 1. program_frame
+
+This is a Criminal Procedure / Fourth Amendment timing item. The trap is not whether the officer sounded official. The trap is whether Timothy was **seized before he tossed the pouch**.
+
+## 2. student_access_test
+
+This item is **anchor-assisted**. A student needs the Gold Key that a police show of authority is not a seizure unless the suspect submits. Once that anchor is available, the rest is a C3 timing move.
+
+## 3. question_data
+
+Subject: Criminal Law / Criminal Procedure.  
+Topic: Fourth Amendment.  
+Subtopic: Searches and seizures.  
+Outline code: 75070200.  
+Post-shuffle credited answer: **C**.  
+Pick-rate mode: predicted seed rates only.
+
+## 4. call_and_prediction
+
+Call: Was Timothy seized when the officer shouted "Police—stop"?
+
+Prediction: no seizure at the shout. Timothy ran, tossed the pouch while running, and was caught only later.
+
+## 5. trigger_facts
+
+* Police used a **shouted command** first.
+* Timothy **ran** instead of stopping.
+* Timothy **discarded the pouch while running**.
+* Police caught him **after** the discard.
+
+## 6. governing_c3_lane
+
+Lane: **Gold Key + timing Cut**.  
+Gold Key: show-of-authority seizure requires submission.  
+Silver Key: command → flight → discard → capture.
+
+## 7. choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The word **never** is the overclaim tell.
+2. **Student label:** Discarded-property overclaim.
+3. **What a true/responsive version would look like:** "No, because the discard happened before any seizure."
+4. **Lawyer confirmation:** Discarded property can be fruit if the discard follows an unlawful seizure. This item fails for Timothy because no seizure happened before the discard.
+
+### B
+
+1. **Student-accessible C3 signal:** The word **always** is the overclaim tell. The Gold Key gives the exact reason.
+2. **Student label:** Dominant command-equals-seizure trap.
+3. **What a true/responsive version would look like:** "Yes, if Timothy submitted to the command before tossing the pouch."
+4. **Lawyer confirmation:** Under Hodari D., a show of authority without physical force requires submission before a seizure occurs.
+
+### C
+
+1. **Student-accessible C3 signal:** This answer matches the dispositive fact: Timothy did not submit before tossing the pouch.
+2. **Student label:** Non-submission survivor.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** No Fourth Amendment seizure occurred at the shouted command because Timothy fled and discarded the pouch before any submission or physical restraint.
+
+### D
+
+1. **Student-accessible C3 signal:** The choice talks about Timothy's subjective pressure, but the lane asks for submission/timing.
+2. **Student label:** Subjective-pressure wrong element.
+3. **What a true/responsive version would look like:** "Yes, because Timothy stopped in response to the command before discarding the pouch."
+4. **Lawyer confirmation:** Subjective pressure alone is not the show-of-authority seizure test.
+
+## 8. residual_answer
+
+C survives. It is the only answer that uses the rule and the sequence.
+
+## 9. legal_leak_audit
+
+Student-accessible:
+* Always/never overclaims are visible.
+* The command-flight-discard-capture sequence is visible.
+* The Gold Key is narrow and taught as an exam-day anchor.
+
+Lawyer-only:
+* Hodari D. and Torres case framing.
+* The full Fourth Amendment seizure taxonomy.
+* Abandonment and fruit doctrine outside this timing fact pattern.
+
+## 10. final_student_script
+
+Command, flight, discard, capture. The command was only a show of authority. Timothy did not submit before tossing the pouch, and no physical force happened until later. No seizure at the shout. Pick **C**.
+
+## 11. remediation_card
+
+**Card:** Command Is Not Submission.  
+**Front:** Officer shouts stop; suspect runs and discards evidence.  
+**Back:** Show of authority requires submission. If discard comes first, it is not fruit of the command.  
+**Review Truth:** A police show of authority is not a seizure unless the person submits.
+
+## 12. qa_checklist
+
+* Correct answer equals residual: yes.
+* Exactly three distractors each break one filter: yes.
+* No legal doctrine disguised as pure structure: yes.
+* Gold Key present: yes.
+* Silver Key present: yes.
+* Outline code verified: 75070200.
+* Bank verdict: PASS.
+
+## 13. wrong_answer_recovery_paths
+
+**A recovery:** Do not accept "never" on discarded property. Ask whether the timing of the discard matters.
+
+**B recovery:** Do not stop at the police command. Ask whether the suspect submitted.
+
+**D recovery:** Do not use subjective pressure as the test. Use the command-flight-discard-capture sequence.
+
+## 14. outline_mastery_map
+
+Outline code 75070200: Fourth Amendment > Searches and Seizures.  
+Mastery task: identify when a show of authority becomes a seizure.
+
+Related code 75100000: Exclusionary Rule.  
+Mastery task: separate the threshold seizure question from the later fruit/suppression question.
+
+## 15. crossover_intersection_map
+
+Evidence/suppression crossover: "fruit" analysis depends on a prior constitutional violation. No seizure first means no fruit from that alleged seizure.
+
+Timing crossover: Criminal Procedure questions often turn on whether the key fact happened before or after police restraint.
+
+## 16. gold_and_silver_keys
+
+**Gold Key — GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01:** A police show of authority is not a Fourth Amendment seizure unless the person submits. Without submission, seizure starts only when physical force is applied or the person is actually restrained.
+
+**Silver Key — SK-CRIMINAL-SEIZURE-TIMING-01:** On seizure/suppression timing, lock the sequence: command, flight, discard, capture. If the discard happens before submission or force, it is not fruit of the command.
+
+## 17. student_black_letter_law_answer_explanation
+
+A police command is a show of authority, but it is not automatically a seizure. If the police do not use physical force, the suspect must submit to the command before there is a seizure. Timothy did not submit; he ran and tossed the pouch before officers caught him. Therefore, he was not seized at the shout, and **C** is correct.
+
+### c3_annotation
+
+```json
+{
+  "question_id": "18217_youth_rally_stop",
+  "transformed_from": "18217",
+  "subject": "CRIMINAL",
+  "topic": "Fourth Amendment",
+  "subtopic": "Searches and seizures",
+  "outline_code": "75070200",
+  "official_key": "C",
+  "credited_answer": "C",
+  "residual": "C",
+  "case_study_verdict": "ANCHOR_SOLVE",
+  "bank_validation_verdict": "PASS",
+  "confidence": "ANCHOR_ASSISTED",
+  "deciding_phase": "CUT",
+  "governing_law_type": "RULE",
+  "method_class": "anchor_assisted",
+  "dominant_trap": "B",
+  "selection_percentages": {
+    "A": {
+      "value": 6,
+      "provenance": "predicted"
+    },
+    "B": {
+      "value": 36,
+      "provenance": "predicted"
+    },
+    "C": {
+      "value": 48,
+      "provenance": "predicted"
+    },
+    "D": {
+      "value": 10,
+      "provenance": "predicted"
+    }
+  },
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01",
+      "statement": "A police show of authority is not a Fourth Amendment seizure unless the person submits. Without submission, seizure starts only when physical force is applied or the person is actually restrained.",
+      "type": "distinction",
+      "unlocks": "the police-command-equals-seizure trap",
+      "trigger": "an officer commands a suspect to stop, but the suspect runs and discards evidence before capture",
+      "tested_choice": "B",
+      "authority": "California v. Hodari D., 499 U.S. 621 (1991); Torres v. Madrid (2021)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-SEIZURE-TIMING-01",
+      "statement": "On seizure/suppression timing, lock the sequence: command, flight, discard, capture. If the discard happens before submission or force, it is not fruit of the command.",
+      "type": "trap_spotting",
+      "navigates": "the fruit-of-seizure timing trap",
+      "trigger": "the stem asks whether the person was seized at the moment of a shouted command",
+      "tested_choice": "B",
+      "outline_code": "75070200",
+      "last_minute_review": true
+    }
+  ],
+  "answer_choices": {
+    "A": {
+      "is_correct": false,
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "tiered_absolute",
+      "mold_family": "EAR_OVERCLAIM",
+      "method_class": "hard_structural",
+      "wrong_answer_architecture_tags": [
+        "overbroad_rule",
+        "misstated_rule",
+        "wrong_remedy",
+        "bar_exam_bait"
+      ],
+      "why_wrong_or_correct": "Wrong. Silver Key: lock the timing; discarded property can matter if the discard follows an unlawful seizure, so 'never applies' is too broad."
+    },
+    "B": {
+      "is_correct": false,
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "tiered_absolute",
+      "mold_family": "EAR_OVERCLAIM",
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "attractive_wrong_answer",
+        "overbroad_rule",
+        "common_student_myth",
+        "bar_exam_bait"
+      ],
+      "why_wrong_or_correct": "Wrong. Gold Key: a show of authority is not a seizure unless the person submits. A police command does not always create an immediate seizure."
+    },
+    "C": {
+      "is_correct": true,
+      "filter_broken": null,
+      "mold_code": null,
+      "mold_family": null,
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "correct_answer"
+      ],
+      "why_wrong_or_correct": "Correct. Gold Key: a show-of-authority seizure requires submission. Timothy ran and tossed the pouch before submitting or being caught."
+    },
+    "D": {
+      "is_correct": false,
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "wrong_element",
+      "mold_family": "ISSUE_SENSE",
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "wrong_standard",
+        "half_right_answer",
+        "answer_to_different_question",
+        "fact_not_in_evidence"
+      ],
+      "why_wrong_or_correct": "Wrong. Silver Key: the sequence and submission fact control, not Timothy's subjective pressure."
+    }
+  },
+  "analyzer_notes": "drift_audit: no full Fourth Amendment outline; student path limited to Gold Key and timing sequence. transformed_from: 18217. letter_map: A\u2192C correct_answer predicted 48; B\u2192B tiered_absolute predicted 36 dominant; C\u2192D wrong_element predicted 10; D\u2192A tiered_absolute predicted 6."
+}
+```
+
+### program_elements
+
+```json
+{
+  "question_id": "18217_youth_rally_stop",
+  "trap_tags": [
+    "police_command_equals_seizure",
+    "discarded_property_overclaim",
+    "subjective_pressure_wrong_standard",
+    "timing_sequence_trap"
+  ],
+  "tensions": [
+    {
+      "axis": "show of authority alone versus submission before discard",
+      "resolving_fact": "Timothy ran and discarded the pouch before being caught."
+    }
+  ],
+  "remediation_card": {
+    "id": "REM-CRIM-SEIZURE-SHOW-AUTHORITY-01",
+    "front": "Officer shouts stop; suspect runs and discards evidence.",
+    "back": "No seizure at the shout unless the suspect submits; physical force is a separate route.",
+    "outline_code": "75070200"
+  },
+  "red_zones": [
+    "Treating coercive police words as automatic seizure",
+    "Ignoring the order of command, discard, and capture",
+    "Over-reading abandoned-property doctrine"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01",
+      "statement": "A police show of authority is not a Fourth Amendment seizure unless the person submits. Without submission, seizure starts only when physical force is applied or the person is actually restrained.",
+      "type": "distinction",
+      "unlocks": "the police-command-equals-seizure trap",
+      "trigger": "an officer commands a suspect to stop, but the suspect runs and discards evidence before capture",
+      "tested_choice": "B",
+      "authority": "California v. Hodari D., 499 U.S. 621 (1991); Torres v. Madrid (2021)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-SEIZURE-TIMING-01",
+      "statement": "On seizure/suppression timing, lock the sequence: command, flight, discard, capture. If the discard happens before submission or force, it is not fruit of the command.",
+      "type": "trap_spotting",
+      "navigates": "the fruit-of-seizure timing trap",
+      "trigger": "the stem asks whether the person was seized at the moment of a shouted command",
+      "tested_choice": "B",
+      "outline_code": "75070200",
+      "last_minute_review": true
+    }
+  ]
+}
+```
+
+### program_intelligence
+
+```json
+{
+  "question_id": "18217_youth_rally_stop",
+  "wrong_answer_recovery": {
+    "A": "Train against absolute no-remedy language. Discarded evidence is not always outside the Fourth Amendment.",
+    "B": "Dominant trap drill: police command is a show of authority, not a seizure without submission.",
+    "D": "Replace subjective-feeling analysis with sequence analysis."
+  },
+  "drill_seeds": [
+    {
+      "prompt": "Officer says stop; suspect runs and drops contraband before being tackled. Seized at the command?",
+      "answer": "No, no submission before the discard.",
+      "outline_code": "75070200"
+    },
+    {
+      "prompt": "Officer says stop; suspect stops, then drops contraband. Same result?",
+      "answer": "No. Submission before the discard makes the timing different.",
+      "outline_code": "75070200"
+    },
+    {
+      "prompt": "Officer grabs suspect's sleeve; suspect breaks free and drops contraband. Same result?",
+      "answer": "No. Physical force can be a seizure even without continued control.",
+      "outline_code": "75070200"
+    }
+  ],
+  "component_routing": {
+    "gold_key": "GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01",
+    "silver_key": "SK-CRIMINAL-SEIZURE-TIMING-01",
+    "c3_lessons": [
+      "Lesson 1",
+      "Lesson 2",
+      "Lesson 4",
+      "Lesson 7",
+      "Lesson 12",
+      "Lesson 13",
+      "Lesson 14"
+    ],
+    "outline_code": "75070200"
+  },
+  "crossovers": [
+    {
+      "area": "Evidence suppression",
+      "note": "Fruit analysis depends on whether a constitutional violation occurred before the evidence was discarded."
+    },
+    {
+      "area": "Criminal Procedure timing",
+      "note": "The dispositive fact is often the order of police conduct and defendant action."
+    }
+  ],
+  "outline_mastery": [
+    {
+      "outline_code": "75070200",
+      "task": "Distinguish a show of authority from a seizure."
+    },
+    {
+      "outline_code": "75100000",
+      "task": "Connect seizure timing to fruit-of-the-poisonous-tree arguments without confusing the threshold issue."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-SHOW-AUTHORITY-SEIZURE-01",
+      "statement": "A police show of authority is not a Fourth Amendment seizure unless the person submits. Without submission, seizure starts only when physical force is applied or the person is actually restrained.",
+      "type": "distinction",
+      "unlocks": "the police-command-equals-seizure trap",
+      "trigger": "an officer commands a suspect to stop, but the suspect runs and discards evidence before capture",
+      "tested_choice": "B",
+      "authority": "California v. Hodari D., 499 U.S. 621 (1991); Torres v. Madrid (2021)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-SEIZURE-TIMING-01",
+      "statement": "On seizure/suppression timing, lock the sequence: command, flight, discard, capture. If the discard happens before submission or force, it is not fruit of the command.",
+      "type": "trap_spotting",
+      "navigates": "the fruit-of-seizure timing trap",
+      "trigger": "the stem asks whether the person was seized at the moment of a shouted command",
+      "tested_choice": "B",
+      "outline_code": "75070200",
+      "last_minute_review": true
+    }
+  ]
+}
+```
+
+## Legal verification source links
+
+[1]: https://supreme.justia.com/cases/federal/us/499/621/
+[2]: https://www.law.cornell.edu/supremecourt/text/19-292
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "18217_youth_rally_stop",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "75070200",
+  "distilled_core_question": "Police shout stop; the suspect runs and discards evidence before being caught. Was there",
+  "review_truth": "A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 18217; letter_map: A→C, B→B, C→D, D→A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "18217_youth_rally_stop",
+  "subject": "CRIMINAL",
+  "outline_code": "75070200",
+  "distilled_core_question": "Police shout stop; the suspect runs and discards evidence before being caught. Was there",
+  "review_truth": "A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-18217",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "18217_youth_rally_stop",
+  "subject": "CRIMINAL",
+  "outline_code": "75070200",
+  "distilled_core_question": "Police shout stop; the suspect runs and discards evidence before being caught. Was there",
+  "review_truth": "A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75070200",
+    "this_item_teaches": "A police show of authority is not a seizure unless the person submits; property discarded before submission or force is not fruit of that show of authority.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

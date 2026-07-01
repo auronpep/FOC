@@ -1,0 +1,1033 @@
+---
+qid: "19904_psalm_orchard_foreclosure_notice"
+transformed_from: "19904"
+subject: "REAL_PROPERTY"
+topic: "Mortgages"
+subtopic: "Foreclosure - parties and priorities"
+outline_code: "83050603"
+key: "C"
+original_key: "D"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+Ruth owned a private orchard cottage where she made Scripture memory cards for sale at weekend markets. To buy a new printing press, Ruth borrowed $74,000 from Barnabas and gave Barnabas a promissory note and a mortgage on the orchard parcel. Barnabas immediately and properly recorded the mortgage.
+
+Six weeks later, Ruth borrowed $41,000 from Lydia and gave Lydia a promissory note and a mortgage on the same parcel. Lydia immediately and properly recorded the mortgage.
+
+Ruth died soon afterward. Her will left the orchard parcel to Stephen for life, then to Mary. Stephen moved into the cottage. Neither Barnabas nor Lydia received the payments due on their notes. Without notifying or serving Stephen or Mary, Barnabas asks a court to order a foreclosure sale of the orchard parcel.
+
+The court should:
+
+### 2. Distilled Core Question
+
+A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?
+
+### 3. Final answer choices
+
+A. order the sale of a remainder only.
+B. order the sale of a life estate only.
+C. deny Barnabas’s request.
+D. order the sale of a fee interest.
+
+### 4. Correct answer
+
+C. Original key letter: D.
+
+### 5. Letter Map
+
+| Original letter | New letter | Mechanic                       | Substance | Pick rate       |
+| --------------- | ---------: | ------------------------------ | --------- | --------------- |
+| A               |          B | wrong_element / NOT_RESPONSIVE | kept      | null, predicted |
+| B               |          A | wrong_element / NOT_RESPONSIVE | kept      | null, predicted |
+| C               |          D | bait_doctrine / NOT_RESPONSIVE | kept      | null, predicted |
+| D               |          C | correct_answer                 | kept      | null, predicted |
+
+No optional replacement answer choices were used. The original distractors are structurally sound, and no measured pick rates were supplied.
+
+### 6. Full right-answer explanation
+
+C is correct. Barnabas has a senior recorded mortgage, and the later devisees took their property interests subject to that mortgage. But that does not let Barnabas jump straight to a foreclosure sale without bringing the current property-interest holders into the case.
+
+**Gold Key:** In a judicial foreclosure, all holders of present or future property interests that may be cut off by the sale must receive notice and be made parties before the court orders the sale.
+
+**Silver Key:** The phrase “without notifying or serving Stephen or Mary” turns the question into a process-first item. Do not choose what estate can be sold until the people who hold those estates are in court.
+
+Stephen holds the life estate. Mary holds the remainder. Both interests would be affected by a foreclosure sale. Since neither Stephen nor Mary was notified or served, the court should deny Barnabas’s request.
+
+### 7. Full wrong-answer explanations
+
+**A. order the sale of a remainder only.**
+This sells the idea that Mary’s future interest is the only slice the court needs to isolate. The breaker is that the call is not asking which slice to sell first; it asks whether the court may order a foreclosure sale when the property-interest holders were not served.
+
+**B. order the sale of a life estate only.**
+This sells the visible-possession fact: Stephen moved in, so the answer focuses on the life estate. The breaker is the same process problem: an unserved interest holder cannot be bypassed by narrowing the sale to that person’s estate.
+
+**D. order the sale of a fee interest.**
+This is the strongest substantive trap because, after proper notice and joinder, the senior mortgage can reach the full fee interest burdened by the mortgage. **Gold Key:** the court still cannot order that sale now because Stephen and Mary were not notified or served; **Silver Key:** sale scope is second, process is first.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The supplied official explanation says the heirs/devisees took subject to the prior recorded mortgages, but due process requires notice and an opportunity to be heard for persons whose property interests may be affected by the judicial proceeding; it identifies both the life tenant and the remainderman as necessary parties and concludes that the sale request must be denied because neither was served. 
+
+That rule is consistent with the due-process notice principle in *Mullane v. Central Hanover Bank & Trust Co.*, which requires notice reasonably calculated to inform interested parties and give them a chance to object, and with *Mennonite Board of Missions v. Adams*, which treats a legally protected property interest as requiring notice before a proceeding that may affect it. ([Justia Law][1])
+
+The tested issue, legal rule, and credited outcome are unchanged: a judicial foreclosure cannot proceed to a sale that affects present and future property interests when the holders of those interests have not been notified or served.
+
+### 9. Why the variation preserves rigor/difficulty
+
+The new stem keeps the same legal machinery: two recorded mortgages, death of the mortgagor, a will splitting possession into a life estate and remainder, default, and a foreclosure request without service on either property-interest holder. The difficulty remains the same because the fee-interest answer remains attractive on mortgage substance, while the credited answer turns on the process threshold.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** A is a single-interest answer. It focuses on Mary’s remainder, but the process fact says neither Stephen nor Mary was notified or served. Cut as NOT_RESPONSIVE.
+
+**CUT B:** B is also a single-interest answer. It focuses on Stephen’s life estate, but the court’s first problem is missing service on interest holders. Cut as NOT_RESPONSIVE.
+
+**CUT D:** D is the best merits answer after proper party joinder. It fails the current call because the stem says the sale is requested without notice/service. Cut as NOT_RESPONSIVE.
+
+**CALL:** No tie remains. C is the residual answer.
+
+### 11. Divergence Audit
+
+* **Asset/subject matter:** changed from generic realty to a private orchard cottage tied to a Scripture-card business. Kept realty because mortgage foreclosure requires land.
+* **Transaction frame:** kept loan + note + mortgage. Skipped changing to sale/lease/service because that would change the tested mortgage-foreclosure rule.
+* **Specific facts:** changed accountant/brother/nephew/niece into Barnabas/Lydia/Stephen/Mary, changed personal purpose of borrowing, changed property texture.
+* **Numbers:** added $74,000 and $41,000; changed one month to six weeks. No threshold turns on the exact amounts or interval.
+* **Fact ordering and rhythm:** kept necessary chronology but changed sentence rhythm and factual texture.
+* **Cast size/roles:** changed family/professional relationships to private lender/cousin/devisees with popular Bible names.
+* **Choice ordering:** shuffled all four positions; key moved to C.
+* **Choice phrasing:** lightly paraphrased only where legally safe; retained estate labels because the answer-array geometry depends on them.
+* **Setting/era/texture:** changed from plain landowner/accountant setting to private Christian small-business/orchard setting.
+* **Call wording:** kept “the court should” because changing the call would weaken MBE rigor.
+
+**Original stem summary:** A senior mortgagee sought foreclosure of mortgaged land after the mortgagor split title into a life estate and remainder by will, without serving either holder.
+**Variant stem summary:** A Scripture-card entrepreneur’s orchard cottage was mortgaged twice, then left to two friends as successive interests, and the first lender tried to foreclose without bringing those friends into court.
+
+### 12. Review Truth
+
+Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.
+
+### 13. Five variations considered
+
+|  # | Title                            | Setting                                                   | Cast                                     | Preserved issue                                            | Why memorable                          | Legal risks                                               | Divergence score                                                                         |
+| -: | -------------------------------- | --------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+|  1 | **Psalm Orchard Printing Press** | Private orchard cottage + Scripture-card business         | Ruth, Barnabas, Lydia, Stephen, Mary     | Foreclosure without notice to life tenant and remainderman | Concrete, Christian, visually distinct | Low; property remains private                             | **9/10 — selected. Kills asset texture, roles, purpose, numbers, rhythm, choice order.** |
+|  2 | Fishers of Men Boat-House Parcel | Lakeside parcel with fishing-lesson shed                  | Peter, Andrew, Martha, John, Naomi       | Same                                                       | Strong Christian motif                 | “Boat-house” could distract toward chattel/fixtures       | 7/10                                                                                     |
+|  3 | Hymnbook Bakery Lot              | Private bakery building used for hymnbook-themed pastries | Hannah, Paul, Timothy, Esther, Ruth      | Same                                                       | Memorable business texture             | “Bakery” adds commercial premises clutter                 | 8/10                                                                                     |
+|  4 | Cedar Workshop for Bible Stands  | Woodshop parcel making Bible stands                       | Daniel, Stephen, Lydia, Peter, Mary      | Same                                                       | Good asset divergence                  | Workshop could invite fixture/security-interest confusion | 8/10                                                                                     |
+|  5 | Sheepfold Retreat Cabin          | Rural retreat cabin with private family prayer trail      | Naomi, Barnabas, Martha, Timothy, Hannah | Same                                                       | Strong land texture                    | “Retreat” risks church-property overtones                 | 7/10                                                                                     |
+
+---
+
+## B1) Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "19904_psalm_orchard_foreclosure_notice"
+  subject: REAL_PROPERTY
+  topic: "Mortgages"
+  subtopic: "Foreclosure - parties and priorities"
+  outline_code: "83050603"
+  transformed_from: "19904"
+  original_key_letter: "D"
+  official_key: "C"
+  call: "The court should:"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+    B:
+      value: null
+      provenance: "predicted"
+    C:
+      value: null
+      provenance: "predicted"
+    D:
+      value: null
+      provenance: "predicted"
+  stem: >-
+    Ruth owned a private orchard cottage where she made Scripture memory cards for sale at weekend markets.
+    To buy a new printing press, Ruth borrowed $74,000 from Barnabas and gave Barnabas a promissory
+    note and a mortgage on the orchard parcel. Barnabas immediately and properly recorded the mortgage.
+    Six weeks later, Ruth borrowed $41,000 from Lydia and gave Lydia a promissory note and a mortgage
+    on the same parcel. Lydia immediately and properly recorded the mortgage. Ruth died soon afterward.
+    Her will left the orchard parcel to Stephen for life, then to Mary. Stephen moved into the cottage.
+    Neither Barnabas nor Lydia received the payments due on their notes. Without notifying or serving
+    Stephen or Mary, Barnabas asks a court to order a foreclosure sale of the orchard parcel.
+  choices:
+    A: "order the sale of a remainder only."
+    B: "order the sale of a life estate only."
+    C: "deny Barnabas's request."
+    D: "order the sale of a fee interest."
+
+transform_provenance:
+  transformed_from: "19904"
+  variant_slug: "psalm_orchard_foreclosure_notice"
+  original_key_letter: "D"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "B"
+      mechanic: "wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A senior mortgagee sought foreclosure of mortgaged land after the mortgagor split title into a life estate and remainder by will, without serving either holder."
+    variant_stem_one_sentence: "A Scripture-card entrepreneur's orchard cottage was mortgaged twice, then left to two friends as successive interests, and the first lender tried to foreclose without bringing those friends into court."
+    dimensions_changed:
+      - "asset/subject matter texture"
+      - "specific factual setting"
+      - "numbers"
+      - "time interval"
+      - "cast roles"
+      - "choice ordering"
+      - "setting/era/texture"
+      - "fact rhythm"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "Loan plus mortgage must remain to preserve the foreclosure rule."
+      - dimension: "call wording"
+        reason: "The court-should call preserves the procedural function."
+      - dimension: "estate labels"
+        reason: "Life estate, remainder, fee interest are invariant answer-array terms."
+
+source_stack:
+  - priority: 1
+    source: "Pasted BarMatrix row"
+    note: "QID, stem, choices, official key, and official explanation."
+  - priority: 2
+    source: "Controlled vocabularies"
+    note: "All controlled fields use the supplied values."
+  - priority: 3
+    source: "C3 method / Master Deck"
+    note: "TRUE and RESPONSIVE, CUT -> CLASH -> CALL, process-first navigation."
+  - priority: 4
+    source: "Official explanation"
+    note: "Used only after student-access path, in lawyer confirmation."
+  - priority: 5
+    source: "Legal research"
+    note: "Mullane and Mennonite used only for lawyer-confirmation authority."
+
+student_access_contract:
+  allowed_lessons:
+    - "TRUE and RESPONSIVE"
+    - "CUT -> CLASH -> CALL"
+    - "Predict before you peek"
+    - "Bait architecture: procedural frame"
+    - "Threshold/process before merits"
+    - "Calibration"
+  taught_anchor_status:
+    gold_key_required: true
+    silver_key_required: true
+  controlling_test_result: >-
+    A student can structurally notice that three choices order some kind of sale while the stem flags
+    no notice/service. The precise reason that notice/service blocks foreclosure is anchor-assisted.
+
+stem_parse:
+  call_type: "court_should_rule"
+  role: "judge"
+  negative_stem: false
+  adjacent_call_trap: "what estate could be sold after proper notice"
+  precise_call: "whether the court may order foreclosure sale now"
+  predicted_answer: "deny because the affected interest holders were not notified or served"
+
+trigger_facts:
+  - fact: "Barnabas recorded the first mortgage."
+    access_label: "lawyer_confirmation"
+    role: "establishes senior mortgage interest"
+  - fact: "Lydia recorded the second mortgage."
+    access_label: "lawyer_confirmation"
+    role: "confirms existing encumbrance structure"
+  - fact: "Ruth left a life estate to Stephen and a remainder to Mary."
+    access_label: "student_visible"
+    role: "identifies present and future interest holders"
+  - fact: "Stephen moved into the cottage."
+    access_label: "student_visible"
+    role: "makes the life estate holder visible"
+  - fact: "Neither note was paid."
+    access_label: "student_visible"
+    role: "explains why foreclosure is being sought"
+  - fact: "Barnabas sought foreclosure without notifying or serving Stephen or Mary."
+    access_label: "student_visible"
+    role: "deciding process fact"
+
+c3_routing:
+  subject_fit: "Real Property = property-interest classification + foreclosure process threshold"
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard"
+  tension_axis: "process threshold versus sale-scope merits"
+  call_heuristic: "threshold before merits"
+
+answer_array:
+  geometry: "3 sale-scope choices versus 1 process-denial choice"
+  dominant_trap:
+    choice: "D"
+    reason: "The fee-interest answer matches the likely substantive foreclosure result after proper service."
+    pick_rate:
+      value: null
+      provenance: "predicted"
+  silver_key:
+    id: "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01"
+    type: "call_focus"
+
+choice_walkthroughs:
+  A:
+    text: "order the sale of a remainder only."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_party
+      - half_right_answer
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "single-interest sale answer"
+    c3_signal: "The stem flags no notice/service to both interest holders; this answer talks only about Mary's future slice."
+    true_responsive_version: "Deny now unless Mary and Stephen are notified or served."
+    lawyer_confirmation: "A remainder holder has a property interest that cannot be cut off in judicial foreclosure without notice and party status."
+  B:
+    text: "order the sale of a life estate only."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_party
+      - half_right_answer
+      - answer_to_different_question
+    method_class: anchor_assisted
+    student_label: "possession-focused sale answer"
+    c3_signal: "Stephen moved in, but the no-service fact is broader than Stephen's possession."
+    true_responsive_version: "Deny now unless the affected interest holders are in the case."
+    lawyer_confirmation: "A life tenant is a necessary party when the foreclosure may affect that interest."
+  C:
+    text: "deny Barnabas's request."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "process-threshold answer"
+    c3_signal: "This is the only answer that responds to the no-notice/no-service fact."
+    true_responsive_version: "Already true and responsive."
+    lawyer_confirmation: "Due process and foreclosure-party rules require notice to holders of present and future property interests affected by the sale."
+  D:
+    text: "order the sale of a fee interest."
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - legally_true_but_irrelevant
+      - wrong_procedural_posture
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "substantive-rights trap"
+    c3_signal: "This may match the post-notice sale scope, but it skips the process threshold."
+    true_responsive_version: "After proper notice and joinder, the court could address sale of the fee interest."
+    lawyer_confirmation: "A senior mortgage may support foreclosure of the mortgaged fee, but not by a decree entered without affected interest holders receiving notice."
+
+residual_answer:
+  letter: "C"
+  text: "deny Barnabas's request."
+  reason: "It is the only answer that addresses the missing notice/service threshold."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "The call asks what the court should do now."
+    - "The stem highlights no notice/service."
+    - "Three choices order sales; one choice denies the request."
+    - "Process-first navigation defeats sale-scope bait."
+  anchor_assisted_claims:
+    - "Present and future property-interest holders are necessary parties to a foreclosure that may cut off their interests."
+    - "Due process requires notice and opportunity to be heard."
+  quarantined_to_lawyer_confirmation:
+    - "Recorded prior mortgages bind devisees."
+    - "A senior mortgage can reach the fee after proper foreclosure procedure."
+  drift_audit: "No student-facing claim asserts foreclosure-party doctrine without labeling it anchor-assisted."
+
+gold_keys:
+  - id: "GK-REAL_PROPERTY-FORECLOSURE-NOTICE-01"
+    statement: "In judicial foreclosure, holders of present or future property interests that may be cut off by the sale must receive notice and be made parties before the court orders the sale."
+    type: "threshold"
+    unlocks: "The fee-interest sale trap."
+    trigger: "Foreclosure requested without notice or service on a life tenant or remainderman."
+    tested_choice: "D"
+    authority: "Mullane v. Central Hanover Bank & Trust Co.; Mennonite Board of Missions v. Adams."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01"
+    statement: "When a foreclosure stem says the lender did not notify or serve the estate holders, lock the call as process first and sale scope second."
+    type: "call_focus"
+    navigates: "Sale-scope choices versus threshold-denial choice."
+    trigger: "without notifying or serving"
+    tested_choice: "D"
+    outline_code: "83050603"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-RP-FORECLOSURE-NOTICE-01"
+  title: "Foreclosure: bring interest holders into court"
+  signal: "Foreclosure request + life estate/remainder + no notice/service"
+  student_move: "Cut every sale-scope answer until the service threshold is satisfied."
+  tiny_rule: "No notice to affected estate holders, no sale order."
+  trap: "Choosing the estate that can be sold instead of the process answer."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?"
+review_truth: "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off."
+
+case_study_output:
+  final_student_script: "The sale answers are premature. Stephen and Mary hold the interests named in the stem, and the lender did not notify or serve either one. Process first; deny."
+  wrong_answer_recovery: "If you picked a sale-scope answer, you answered the adjacent merits question instead of the court-should-do-now question."
+
+quality_control:
+  true_responsive_residual_equals_key: true
+  exactly_three_single_filter_distractors: true
+  controlled_vocab_checked: true
+  no_fork: true
+  bank_validation_verdict: PASS
+
+analytics_hooks:
+  trap_family: "procedural_frame"
+  primary_skill: "Issue-Sense"
+  anchor_required: true
+  drill_route:
+    - "foreclosure necessary parties"
+    - "threshold before merits"
+    - "sale-scope bait"
+```
+
+---
+
+## B2) Student Case Study
+
+### 1. program_frame
+
+This is a Real Property mortgage-foreclosure item. The answer array is not asking which estate is most visible. It is asking whether the court can order a sale now.
+
+### 2. student_access_test
+
+Student-access path: the stem spotlights “without notifying or serving Stephen or Mary.” Three choices order a sale. One choice denies the request. The C3 move is process first, sale scope second.
+
+Anchor dependency: the exact rule that life tenants and remaindermen must be notified before foreclosure can cut off their interests is not pure structure. It requires the Gold Key.
+
+### 3. question_data
+
+**Subject:** REAL_PROPERTY
+**Topic:** Mortgages
+**Subtopic:** Foreclosure — parties and priorities
+**Outline code:** 83050603
+**Correct answer:** C
+**Verdict:** ANCHOR_SOLVE
+**Bank validation:** PASS
+
+### 4. distilled_core_question
+
+A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?
+
+### 5. call_and_prediction
+
+**Call:** What should the court do?
+
+**Prediction:** Deny the request. The lender is asking for a foreclosure sale without notifying or serving the people who hold the present and future interests in the property.
+
+**Adjacent-call trap:** What estate could be sold after proper notice and joinder?
+
+### 6. trigger_facts
+
+| Trigger fact                                            | Student access  | Use                               |
+| ------------------------------------------------------- | --------------- | --------------------------------- |
+| Ruth gave Barnabas a recorded mortgage.                 | anchor/lawyer   | Barnabas has the senior mortgage. |
+| Ruth later gave Lydia a recorded mortgage.              | anchor/lawyer   | Confirms mortgage layering.       |
+| Ruth left the parcel to Stephen for life, then to Mary. | student-visible | Two interest holders exist.       |
+| Stephen moved in.                                       | student-visible | Life estate is visible.           |
+| Payments were not made.                                 | student-visible | Explains foreclosure request.     |
+| Barnabas did not notify or serve Stephen or Mary.       | student-visible | Deciding process fact.            |
+
+### 7. governing_c3_lane
+
+**Lane:** Real Property = property-interest classification + foreclosure process threshold.
+
+**Move:** CUT sale-scope answers as premature.
+
+**Gold Key lane:** necessary-party notice in foreclosure.
+
+**Silver Key lane:** process first, sale scope second.
+
+### 8. choice_by_choice_walkthrough
+
+#### A. order the sale of a remainder only.
+
+1. **Student-accessible C3 signal:** This answer focuses only on Mary’s future interest. The stem’s process fact says no notice/service was given to Stephen or Mary.
+2. **Student label:** Single-interest sale answer.
+3. **What a true/responsive version would look like:** “Deny unless the holders of the life estate and remainder are notified or served.”
+4. **Lawyer confirmation:** Mary’s remainder is a property interest that cannot be cut off in foreclosure without notice and party status.
+
+#### B. order the sale of a life estate only.
+
+1. **Student-accessible C3 signal:** This answer follows Stephen because he moved in. But the call is not asking which person is in possession; it asks what the court should do with no notice/service.
+2. **Student label:** Possession-focused sale answer.
+3. **What a true/responsive version would look like:** “Deny unless Stephen and Mary are brought into the proceeding.”
+4. **Lawyer confirmation:** Stephen’s life estate is a present property interest, making him a necessary party to a foreclosure that may affect that interest.
+
+#### C. deny Barnabas’s request.
+
+1. **Student-accessible C3 signal:** This is the only answer that responds to “without notifying or serving Stephen or Mary.”
+2. **Student label:** Process-threshold answer.
+3. **What a true/responsive version would look like:** Already true and responsive.
+4. **Lawyer confirmation:** Foreclosure cannot proceed to a sale cutting off affected present and future interests without notice and opportunity to be heard.
+
+#### D. order the sale of a fee interest.
+
+1. **Student-accessible C3 signal:** This answer looks strongest on sale scope. But it skips the process threshold.
+2. **Student label:** Substantive-rights trap.
+3. **What a true/responsive version would look like:** “After proper notice and joinder, the court may determine whether the mortgage supports sale of the fee.”
+4. **Lawyer confirmation:** The senior mortgage can reach the mortgaged fee after proper foreclosure procedure, but the court should not order the sale when affected interest holders were not served.
+
+### 9. residual_answer
+
+C survives. It is the only answer that answers the present procedural posture: no notice/service to the property-interest holders.
+
+### 10. legal_leak_audit
+
+Student-safe:
+
+* “The call asks what the court should do now.”
+* “No notice/service is a process fact.”
+* “Sale answers are premature when process is missing.”
+
+Anchor-assisted:
+
+* “Life tenants and remaindermen are necessary foreclosure parties.”
+* “Due process requires notice and opportunity to be heard.”
+
+Quarantined:
+
+* Mortgage priority.
+* Devisees taking subject to recorded mortgages.
+* Fee-interest sale scope after proper foreclosure.
+
+Drift audit: No sale-scope answer was called legally false on lawyer-only grounds; each was cut as not responsive to the missing-service call.
+
+### 11. final_student_script
+
+“Do not pick the estate. The stem says the lender did not notify or serve the life tenant or the remainderman. That is a process threshold. Sale scope comes later. The court should deny.”
+
+### 12. remediation_card
+
+**REM-RP-FORECLOSURE-NOTICE-01 — Foreclosure: bring interest holders into court**
+
+* **Signal:** Foreclosure + life estate/remainder + no notice/service.
+* **Student move:** Cut sale-scope answers first.
+* **Tiny rule:** No notice to affected estate holders, no sale order.
+* **Trap:** Picking the estate the mortgage reaches.
+* **Confidence:** ANCHOR_ASSISTED.
+
+### Gold Key(s)
+
+**GK-REAL_PROPERTY-FORECLOSURE-NOTICE-01**
+In judicial foreclosure, holders of present or future property interests that may be cut off by the sale must receive notice and be made parties before the court orders the sale. Trigger it when the stem says the lender did not notify or serve a life tenant, remainderman, junior mortgagee, or other affected interest holder.
+
+### Silver Key(s)
+
+**SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01**
+When a foreclosure stem says the lender did not notify or serve the estate holders, lock the call as process first and sale scope second. The sale-scope choices are premature.
+
+### 13. qa_checklist
+
+| Check                                   | Result |
+| --------------------------------------- | ------ |
+| Correct residual equals key             | PASS   |
+| Three distractors break one filter each | PASS   |
+| Controlled vocabulary used              | PASS   |
+| No fork forced                          | PASS   |
+| Gold Key used only for doctrine         | PASS   |
+| Silver Key has no authority field       | PASS   |
+| Official key preserved                  | PASS   |
+
+### 14. wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                             | Skipped move             | Recovery                                            |
+| ------ | -------------------------------------------------- | ------------------------ | --------------------------------------------------- |
+| A      | Future interest looks legally precise.             | Process-first call lock. | Ask: “Was the remainderman served?”                 |
+| B      | Possession makes Stephen feel like the key person. | Two-interest check.      | Ask: “Does this answer address Mary too?”           |
+| D      | Fee sale matches the mortgage substance.           | Threshold before merits. | Say: “Proper sale scope only after proper parties.” |
+
+### 15. outline_mastery_map
+
+**Placement:** 83050603 — Real Property > Mortgages > Foreclosure > Parties and priorities.
+
+**This item teaches:** notice and participation requirements in judicial foreclosure.
+
+**Fills:** necessary-party awareness; present/future interest recognition; sale-scope bait control.
+
+**Adjacent to master:** mortgage priority; equity of redemption; foreclosure proceeds.
+
+### 16. crossover_intersection_map
+
+| Crossover          | Use                                             |
+| ------------------ | ----------------------------------------------- |
+| Civil Procedure    | Service/notice threshold before merits.         |
+| Constitutional Law | Due process notice and opportunity to be heard. |
+| Real Property      | Life estate/remainder classification.           |
+
+### 17. review_truth
+
+Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.
+
+---
+
+```json
+{
+  "question_id": "19904_psalm_orchard_foreclosure_notice",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "C",
+  "outline_code": "83050603",
+  "distilled_core_question": "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?",
+  "review_truth": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "process threshold versus sale-scope merits",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold before merits",
+    "difficulty": "medium-hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "procedural_frame",
+        "card_ref": "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+        "explanation": "The choice isolates the remainder but does not answer whether a sale may be ordered without notice/service to the interest holders."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "procedural_frame",
+        "card_ref": "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+        "explanation": "The choice isolates the life estate but does not answer the missing-service threshold."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+        "explanation": "The choice may describe the sale scope after proper procedure, but it skips the current notice/service defect."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Student-facing path cuts sale-scope choices as not responsive to the no-service call; doctrine about necessary parties remains under Gold Key/lawyer confirmation.",
+      "transformed_from": "19904",
+      "letter_map": "A->B; B->A; C->D; D->C"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+        "statement": "In judicial foreclosure, holders of present or future property interests that may be cut off by the sale must receive notice and be made parties before the court orders the sale.",
+        "type": "threshold",
+        "unlocks": "The fee-interest sale trap.",
+        "trigger": "Foreclosure requested without notice or service on a life tenant or remainderman.",
+        "tested_choice": "D",
+        "authority": "Mullane v. Central Hanover Bank & Trust Co.; Mennonite Board of Missions v. Adams.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+        "statement": "When a foreclosure stem says the lender did not notify or serve the estate holders, lock the call as process first and sale scope second.",
+        "type": "call_focus",
+        "navigates": "Sale-scope choices versus threshold-denial choice.",
+        "trigger": "without notifying or serving",
+        "tested_choice": "D",
+        "outline_code": "83050603",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "19904_psalm_orchard_foreclosure_notice",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "83050603",
+  "distilled_core_question": "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?",
+  "review_truth": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+  "tension": {
+    "axis": "process threshold versus sale-scope merits",
+    "resolver": "no notice/service to both estate holders"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "procedural_frame",
+      "why_attractive": "The student sees Mary’s future interest and treats the remainder as the legally precise target. The breaker is that the court cannot choose a sale target before the affected interest holders are served.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "wrong_element",
+      "architecture": "procedural_frame",
+      "why_attractive": "The student sees Stephen in possession and follows the visible life estate. The breaker is that possession does not answer the missing service on both interest holders.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "procedural_frame",
+      "why_attractive": "The student knows a senior recorded mortgage can support foreclosure of the mortgaged fee and reaches the substantive result. The breaker is the Gold Key: sale scope comes only after the necessary parties receive notice.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-RP-FORECLOSURE-NOTICE-01",
+    "title": "Foreclosure: bring interest holders into court",
+    "signal": "Foreclosure request + life estate/remainder + no notice/service",
+    "student_move": "Cut every sale-scope answer until the service threshold is satisfied.",
+    "tiny_rule": "No notice to affected estate holders, no sale order.",
+    "trap": "Choosing the estate that can be sold instead of the process answer.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "sale-scope bait",
+    "future-interest holder ignored",
+    "visible possessor overfocus",
+    "process threshold skipped"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "19904_psalm_orchard_foreclosure_notice",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "83050603",
+  "distilled_core_question": "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?",
+  "review_truth": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student notices the remainder and treats the future interest as the technical answer.",
+      "skipped_move": "Lock the call as process-first.",
+      "recovery_step": "Ask whether the remainderman was notified or served before any sale answer can be chosen."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student overweights the fact that Stephen moved into the cottage.",
+      "skipped_move": "Check both interest holders.",
+      "recovery_step": "List the holders: life tenant and remainderman. Then check service."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student answers the substantive mortgage question after proper foreclosure procedure.",
+      "skipped_move": "Threshold before merits.",
+      "recovery_step": "Say: fee sale may be later; denial is now."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "procedural_frame",
+      "prompt": "A foreclosure stem says the lender did not notify the life tenant or remainderman. Three choices order a sale. What is the first cut?",
+      "answer": "Cut the sale-scope choices as premature; choose the process answer."
+    },
+    {
+      "drill_type": "CALL",
+      "target_skill": "threshold before merits",
+      "prompt": "Which comes first in foreclosure: identifying the estate to sell or serving the holders of affected estates?",
+      "answer": "Serving the affected estate holders."
+    },
+    {
+      "drill_type": "anchor",
+      "target_skill": "foreclosure necessary parties",
+      "prompt": "Who must receive notice when a judicial foreclosure may cut off a life estate and remainder?",
+      "answer": "Both the life tenant and the remainderman."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "procedural_frame",
+      "sale_scope_bait",
+      "threshold_before_merits",
+      "necessary_party_notice"
+    ],
+    "misconception_tags": [
+      "visible_possessor_controls",
+      "future_interest_can_be_ignored",
+      "substantive_fee_answer_beats_process"
+    ]
+  },
+  "component_routing": [
+    "Issue-Sense",
+    "Bait Architecture",
+    "Gold Key",
+    "Silver Key",
+    "Calibration"
+  ],
+  "crossovers": [
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "intersection": "service and necessary-party threshold before merits"
+    },
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "intersection": "due process notice and opportunity to be heard"
+    },
+    {
+      "subject": "REAL_PROPERTY",
+      "intersection": "life estate, remainder, mortgage foreclosure"
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+      "statement": "In judicial foreclosure, holders of present or future property interests that may be cut off by the sale must receive notice and be made parties before the court orders the sale.",
+      "type": "threshold",
+      "unlocks": "The fee-interest sale trap.",
+      "trigger": "Foreclosure requested without notice or service on a life tenant or remainderman.",
+      "tested_choice": "D",
+      "authority": "Mullane v. Central Hanover Bank & Trust Co.; Mennonite Board of Missions v. Adams.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01",
+      "statement": "When a foreclosure stem says the lender did not notify or serve the estate holders, lock the call as process first and sale scope second.",
+      "type": "call_focus",
+      "navigates": "Sale-scope choices versus threshold-denial choice.",
+      "trigger": "without notifying or serving",
+      "tested_choice": "D",
+      "outline_code": "83050603",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "83050603 - Real Property > Mortgages > Foreclosure > Parties and priorities",
+    "this_item_teaches": "Notice and participation requirements in foreclosure.",
+    "fills": [
+      "life tenant as affected present interest holder",
+      "remainderman as affected future interest holder",
+      "sale-scope answers as premature"
+    ],
+    "adjacent_to_master": [
+      "mortgage priority",
+      "foreclosure proceeds",
+      "equity of redemption"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/339/306/?utm_source=chatgpt.com "Mullane v. Central Hanover Bank & Trust Co. | 339 U.S. 306 (1950) | Justia U.S. Supreme Court Center"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "19904_psalm_orchard_foreclosure_notice"
+  question_id: "19904_psalm_orchard_foreclosure_notice"
+  subject: "REAL_PROPERTY"
+  topic: "Mortgages"
+  subtopic: "Foreclosure - parties and priorities"
+  outline_code: "83050603"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "19904"
+  variant_slug: "psalm_orchard_foreclosure_notice"
+  original_key_letter: "D"
+  new_key_letter: "C"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?"
+review_truth: "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 19904_psalm_orchard_foreclosure_notice; source 19904.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject REAL_PROPERTY; topic Mortgages; subtopic Foreclosure - parties and priorities.
+4. **distilled_core_question:** A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 83050603.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 83050603.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "19904_psalm_orchard_foreclosure_notice",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "C",
+  "outline_code": "83050603",
+  "distilled_core_question": "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?",
+  "review_truth": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 19904; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "19904_psalm_orchard_foreclosure_notice",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "83050603",
+  "distilled_core_question": "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?",
+  "review_truth": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-19904",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "19904_psalm_orchard_foreclosure_notice",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "83050603",
+  "distilled_core_question": "A senior mortgagee seeks judicial foreclosure without notifying or serving the life tenant or remainderman. Should the court order a sale or deny the request?",
+  "review_truth": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "83050603",
+    "this_item_teaches": "Foreclosure sale waits for process: present and future interest holders must receive notice before their interests can be cut off.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

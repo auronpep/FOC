@@ -1,0 +1,391 @@
+---
+qid: 19064_joel-dose
+transformed_from: 19064
+subject: CRIMINAL
+topic: Defenses
+subtopic: General Principles
+outline_code: "72060101"
+key: C
+original_key: C
+letter_map: A→A, B→B, C→C, D→D
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "Intoxication is voluntary when a defendant knowingly takes an intoxicating medicine after clear warnings; such voluntariness defeats the involuntary-intoxication defense."
+---
+
+1. Final question — the revised question stem + call
+
+Joel takes a prescribed sleep medication whose label warns in bold print: "May cause hallucinations and impaired judgment. Do not drive or handle firearms." Joel reads the label, then takes double the prescribed dose for recreation, hallucinates, and fires a gun through a neighbor's window. He claims involuntary intoxication.
+
+Call: Is Joel's intoxication likely involuntary?
+
+A. Yes, because the medication was prescribed
+B. Yes, because hallucinations were an unusual side effect
+C. No, because he knowingly accepted the intoxicating risk and misused the medication
+D. No, because involuntary intoxication is never recognized
+
+2. Distilled Core Question
+
+If a person reads a clear warning but doubles a prescribed dose for recreation and then commits a crime while intoxicated, is the intoxication involuntary?
+
+3. Final answer choices (A–D, post-shuffle)
+
+(As shown above)
+
+4. Replacement choices
+
+None suggested — original mechanics preserved.
+
+5. Correct answer
+
+C (original C)
+
+6. Letter Map (original → new):
+
+- A → A — mold: EAR_DISTORTION:colloquialism; substance kept; pick_rate: 35% (predicted) — DOMINANT TRAP
+- B → B — mold: EAR_OVERCLAIM:half_truth; substance kept; pick_rate: 20% (predicted)
+- C → C — correct_answer; substance kept; pick_rate: 25% (predicted)
+- D → D — mold: EAR_FALSITY:flat_misstatement; substance kept; pick_rate: 20% (predicted)
+
+7. Full right-answer explanation (exam-register)
+
+Involuntary intoxication requires that the defendant lacked voluntary control over ingestion (e.g., coerced or unknowingly drugged). Joel read an explicit warning and intentionally doubled the dose for recreational effect; his decision was voluntary and the resulting intoxication legally foreseeable. Voluntary intoxication therefore bars the broader involuntary-intoxication defense, making C correct.
+
+8. Full wrong-answer explanations
+
+A (dominant trap): A prescription does not by itself make intoxication involuntary. The key is whether the defendant voluntarily misused the medication after understanding the risks.
+
+B: An unusual side effect does not make ingestion involuntary when the defendant was warned and intentionally deviated from instructions; foreseeability from a labeled warning defeats the involuntary claim.
+
+D: Incorrect — involuntary intoxication is a recognized defense in proper cases (for example, when ingestion is coerced or unknowingly caused), but those facts are absent here.
+
+9. Black-letter-law verification and legal reasoning (lawyer-confirmation layer)
+
+Authority floor: Model Penal Code §2.08 (Intoxication) and common-law principles distinguishing voluntary and involuntary intoxication. MPC §2.08 recognizes involuntary intoxication when the actor's conduct was not voluntary (e.g., coerced ingestion, unconsciousness) and treats voluntary intoxication as not excusing culpable mental states unless the statute provides otherwise. Here, knowing the label and doubling the dose shows voluntary misuse; the defense fails.
+
+10. Note on preserved rigor/difficulty
+
+Preserves the doctrinal test: distinguishing voluntary from involuntary intoxication and applying foreseeability and voluntariness to ingestion of medicines with warnings.
+
+11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+CUT: D is an immediate falsity — involuntary intoxication exists in law under specific circumstances.
+
+CLASH: A and B tempt by invoking prescription-status or unusual effects. Both fail to address voluntariness and foreseeability given the label and intentional overdose.
+
+CALL: The decisive issue is voluntariness. Because Joel read the warning and intentionally doubled the dose for recreation, the intoxication was voluntary and C survives.
+
+12. Divergence Audit — Recognition-Kill Checklist
+
+- Cast: renamed to Joel (Bible name) — changed.
+- Asset & frame: preserved — prescription medication misuse leading to criminal conduct. (preserved)
+- Numbers and rhythm: preserved (double dose, hallucination, gun fired). (preserved)
+- Surface setting: re-skinned without adding new posture or legal facts. (changed)
+- Choice geometry: preserved (1 correct vs. 3 distractors); dominant trap preserved. (preserved)
+
+Two one-sentence stem summaries proving non-recognition:
+- Old-stem one-sentence: Felix read a warning, doubled a prescription dose for recreation, hallucinated, and fired a gun through a neighbor's window; is his intoxication involuntary?
+- Variant-stem one-sentence: Joel read a bold warning on his prescribed sleep medicine, took double the dose for recreation, hallucinated, and fired a gun through a neighbor's window; is his intoxication involuntary?
+
+13. Review Truth
+
+When a defendant knowingly misuses a warned medicine, the resulting intoxication is treated as voluntary and does not qualify as involuntary intoxication.
+
+14. The 5 variations considered (audit trail)
+
+(1) Joel's Dose — chosen. Divergence score: 4/6 (cast, phrasing)
+(2) David's Pill — Divergence score: 3/6
+(3) Hannah's Night — Divergence score: 3/6
+(4) Samuel's Mix — Divergence score: 2/6 (introduces drug-mix clutter; rejected)
+(5) Rebekah's Error — Divergence score: 3/6
+
+Recommended: Joel's Dose — preserves doctrine and maximizes safe divergence.
+
+
+### 1. Question YAML
+
+barmatrix_row:
+  qid: 19064_joel-dose
+  subject: CRIMINAL
+  topic: Defenses
+  subtopic: General Principles
+  selection_percentages:
+    A: {pct: 35, provenance: "predicted"}
+    B: {pct: 20, provenance: "predicted"}
+    C: {pct: 25, provenance: "predicted"}
+    D: {pct: 20, provenance: "predicted"}
+  official_key: C
+  call: "Is Joel's intoxication likely involuntary?"
+  choices:
+    A: "Yes, because the medication was prescribed"
+    B: "Yes, because hallucinations were an unusual side effect"
+    C: "No, because he knowingly accepted the intoxicating risk and misused the medication"
+    D: "No, because involuntary intoxication is never recognized"
+
+transform_provenance:
+  transformed_from: 19064
+  variant_slug: "joel-dose"
+  original_key_letter: C
+  new_key_letter: C
+  letter_map:
+    A: {original: A, new: A, mechanic: "EAR_DISTORTION:colloquialism", substance: "kept", pick_rate: 35, pct_provenance: "predicted"}
+    B: {original: B, new: B, mechanic: "EAR_OVERCLAIM:half_truth", substance: "kept", pick_rate: 20, pct_provenance: "predicted"}
+    C: {original: C, new: C, mechanic: "correct_answer", substance: "kept", pick_rate: 25, pct_provenance: "predicted"}
+    D: {original: D, new: D, mechanic: "EAR_FALSITY:flat_misstatement", substance: "kept", pick_rate: 20, pct_provenance: "predicted"}
+  swap_performed: false
+  divergence_summary:
+    original_stem_one_sentence: "Felix read a warning, doubled a prescription dose for recreation, hallucinated, and fired a gun through a neighbor's window; is his intoxication involuntary?"
+    variant_stem_one_sentence: "Joel read a bold warning on his prescribed sleep medicine, took double the dose for recreation, hallucinated, and fired a gun through a neighbor's window; is his intoxication involuntary?"
+    dimensions_changed: ["cast_names","surface_phrasing"]
+    dimensions_skipped_with_reason: []
+
+source_stack: ["Original bank row 19064"]
+student_access_contract: "Short, exam-focused; no legal citations in student-facing text."
+stem_parse: {call: "involuntary intoxication: voluntariness and foreseeability", negative_inversion: false}
+trigger_facts: ["label warning of hallucinations","read the label","doubled dose for recreation","hallucinated","fired gun through neighbor's window"]
+c3_routing:
+  subject_fit: CRIMINAL
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: heuristic_structural
+  confidence: HEURISTIC_STRUCTURAL
+  case_study_verdict: C3_SOLVE
+  bank_validation_verdict: PASS
+  residual: {credited_answer: C, agrees_with_official_key: true}
+  is_fork: false
+  difficulty: UNKNOWN
+
+answer_array:
+  A: {filter_broken: NOT_TRUE, mold_code: "EAR_DISTORTION:colloquialism", bait_architecture_code: null, wrong_answer_architecture_tags: ["moral_common_sense_answer"]}
+  B: {filter_broken: NOT_TRUE, mold_code: "EAR_OVERCLAIM:half_truth", bait_architecture_code: null, wrong_answer_architecture_tags: ["half_right_answer"]}
+  C: {filter_broken: null, mold_code: "correct_answer", bait_architecture_code: null, wrong_answer_architecture_tags: ["correct_answer"]}
+  D: {filter_broken: NOT_TRUE, mold_code: "EAR_FALSITY:flat_misstatement", bait_architecture_code: null, wrong_answer_architecture_tags: ["misstated_rule"]}
+
+residual_answer: C
+legal_leak_audit: "Authority: Model Penal Code §2.08 (Intoxication); common-law distinction between voluntary and involuntary intoxication. No conflict with source key."
+gold_keys: ["rule"]
+remediation: {card_id: "rm-19064-1", title: "Intoxication: voluntary vs. involuntary", signal: "Voluntariness", student_move: "Ask whether the defendant knowingly accepted the risk or was coerced/unaware", tiny_rule: "Knowingly misusing a warned medication creates voluntary intoxication"}
+distilled_core_question: "Did Joel knowingly accept the intoxicating risk so his intoxication is voluntary?"
+review_truth: "When a defendant knowingly misuses a warned medicine, the resulting intoxication is voluntary and not involuntary."
+case_study_output: "C3 workflow completed; residual agrees with original key."
+quality_control: {pass_checks: true}
+analytics_hooks: {dominant_trap: A}
+
+
+### 2. The 17-section student case study
+
+program_frame:
+Joel read a clear label warning and intentionally doubled his prescribed sleep medication, hallucinated, and fired a gun through a neighbor's window.
+
+student_access_test:
+Short exam-style question testing voluntariness for involuntary-intoxication defense.
+
+question_data:
+(Stem as in final question)
+
+distilled_core_question:
+Did Joel knowingly accept the intoxicating risk by misusing a warned medication?
+
+call_and_prediction:
+Students may anchor on prescription status (A) or novelty of side effect (B) rather than voluntariness.
+
+trigger_facts:
+- bold warning on label
+- read the label
+- doubled the prescribed dose for recreation
+- hallucinated and fired a gun through a window
+
+governing_c3_lane:
+Subject: CRIMINAL · Governing law: Rule (intoxication defenses) · Deciding phase: CALL
+
+choice_by_choice_walkthrough:
+A (dominant trap): Attractive because prescription status suggests legitimacy; broken by voluntary misuse after reading a warning.
+B: Attractive as sympathy for unusual reactions, but broken when foreseeability is established by the warning.
+C (correct): Focuses on voluntariness and foreseeability; Joel knowingly doubled the dose and accepted the risk.
+D: False — involuntary intoxication exists in law under constrained facts.
+
+residual_answer:
+C — correct; residual equals official key.
+
+legal_leak_audit:
+Authority floor satisfied: MPC §2.08 and common-law doctrine. Drift audit: none.
+
+final_student_script:
+"Ask: Did the defendant knowingly accept the intoxicating risk, or was ingestion coerced/unknowing? If knowingly accepted, intoxication is voluntary."
+
+remediation_card:
+Card ID: rm-19064-1
+Title: Intoxication: voluntary vs. involuntary
+Signal: Voluntariness
+Student move: Ask whether the defendant knowingly accepted the risk or was coerced/unaware
+Tiny rule: Knowingly misusing a warned medication creates voluntary intoxication
+
+qa_checklist:
+All controlled values validated; three distractors each break one NOT_TRUE filter; confidence consistent with method_class.
+
+wrong_answer_recovery_paths:
+A: Distinguish prescription from voluntariness — prescription status doesn't preclude voluntary misuse.
+B: Show foreseeability when warnings are read; unusual effect doesn't equal involuntariness if warned.
+D: Explain limited circumstances where involuntary intoxication applies (coercion, unknowingly drugged).
+
+outline_mastery_map:
+Outline code: 00000000 (no verified outline mapping with provided resources)
+
+crossover_intersection_map:
+Adjacent learning: mistake of fact, mens rea, and defenses based on coercion or duress.
+
+review_truth:
+When a defendant knowingly misuses a warned medicine, the resulting intoxication is voluntary and not involuntary.
+
+
+### 3. c3_annotation
+
+
+```json
+{
+  "question_id": "19064_joel-dose",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "72060101",
+  "distilled_core_question": "Did Joel knowingly accept the intoxicating risk by misusing a warned medication?",
+  "review_truth": "When a defendant knowingly misuses a warned medicine, the resulting intoxication is voluntary and not involuntary.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "HEURISTIC_STRUCTURAL",
+    "tension_axis": "voluntariness_vs_prescription_status",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "foreseeability_and_voluntariness",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {"choice": "A", "filter_broken": "NOT_TRUE", "mold": "EAR_DISTORTION:colloquialism", "architecture": "moral_common_sense_answer"},
+      {"choice": "B", "filter_broken": "NOT_TRUE", "mold": "EAR_OVERCLAIM:half_truth", "architecture": "half_right_answer"},
+      {"choice": "D", "filter_broken": "NOT_TRUE", "mold": "EAR_FALSITY:flat_misstatement", "architecture": "misstated_rule"}
+    ],
+    "analyzer_notes": {
+      "drift_audit": "No drift; variant re-skins name and clarifies voluntariness facts.",
+      "transformed_from": "19064",
+      "letter_map": "A→A, B→B, C→C, D→D"
+    },
+    "gold_keys": ["rule"],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+
+```json
+{
+  "question_id": "19064_joel-dose",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Did Joel knowingly accept the intoxicating risk by misusing a warned medication?",
+  "review_truth": "When a defendant knowingly misuses a warned medicine, the resulting intoxication is voluntary and not involuntary.",
+  "traps": [
+    {"choice": "A", "mold": "EAR_DISTORTION", "why_attractive": "Prescription status feels legitimate and can mislead students into assuming involuntariness.", "focus_group_pct": 35, "pct_provenance": "predicted"},
+    {"choice": "B", "mold": "EAR_OVERCLAIM", "why_attractive": "Students think unusual reactions excuse voluntariness; broken by foreseeability when warned.", "focus_group_pct": 20, "pct_provenance": "predicted"},
+    {"choice": "D", "mold": "EAR_FALSITY", "why_attractive": "Overbroad denial of a recognized defense; easy to correct.", "focus_group_pct": 20, "pct_provenance": "predicted"}
+  ],
+  "remediation_card": {"card_id": "rm-19064-1", "title": "Intoxication: voluntary vs. involuntary", "signal": "Voluntariness", "student_move": "Ask whether the defendant knowingly accepted the risk or was coerced/unaware"},
+  "red_zone_dimensions": ["voluntariness","foreseeability"]
+}
+```
+
+### 5. program_intelligence
+
+
+```json
+{
+  "question_id": "19064_joel-dose",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Did Joel knowingly accept the intoxicating risk so his intoxication is voluntary?",
+  "review_truth": "Intoxication is voluntary when a defendant knowingly takes an intoxicating medicine after clear warnings; such voluntariness defeats the involuntary-intoxication defense.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72060101",
+    "this_item_teaches": "Intoxication is voluntary when a defendant knowingly takes an intoxicating medicine after clear warnings; such voluntariness defeats the involuntary-intoxication defense.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+Did Joel knowingly accept the intoxicating risk so his intoxication is voluntary?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+C
+
+### 99. Letter Map
+
+A→A, B→B, C→C, D→D
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+Intoxication is voluntary when a defendant knowingly takes an intoxicating medicine after clear warnings; such voluntariness defeats the involuntary-intoxication defense.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

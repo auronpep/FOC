@@ -1,0 +1,969 @@
+---
+qid: "15262_fiery_furnace_panels"
+transformed_from: "15262"
+subject: "TORTS"
+topic: "Torts"
+subtopic: "Strict Liability and Products Liability"
+outline_code: "00000000"
+key: "D"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source basis.** The source row supplies BARMATRIX Q# 15262, Torts / Strict Liability and Products Liability, a strict-products asbestos/asbestosis stem, answer choices A–D, official key D, and official explanations identifying A, B, and C as wrong for causation, cause-of-action, and overbreadth reasons.  The requested engine also requires a Christian-first variation, QID provenance, C3 outputs, Gold/Silver Key discipline, and no legal leakage into the student-access path.  The reasoning posture used here is the pivot-first approach: preserve the goal, name the load-bearing condition, and split the mechanism cleanly. 
+
+### 1. Final question — revised Christian variation
+
+**Question ID:** `15262_fiery_furnace_panels`
+**Transformed from:** `15262`
+
+Daniel worked for a privately owned company that built Bible-themed stage sets for Christian schools. While building a “fiery furnace” scene, Daniel handled heat-resistant panels supplied by Lydia Supply Co. The panels contained asbestos. Daniel is being treated by a physician for asbestosis, an abnormal chest condition caused by his on-the-job handling of those panels. His physician has told him that the asbestosis is not presently cancerous, but that it considerably increases the risk that he will ultimately develop lung cancer.
+
+Daniel brought an action for damages, based on strict product liability, against Lydia Supply Co. The court in this jurisdiction has ruled against recovery of damages for negligently inflicted emotional distress in the absence of physical harm.
+
+**If Lydia Supply Co. is subject to liability to Daniel for damages, should the award include damages for emotional distress he has suffered arising from his knowledge of the increased risk that he will develop lung cancer?**
+
+### 2. Distilled Core Question
+
+A plaintiff has present asbestos-caused asbestosis, is suing in strict products liability, and fears future cancer. The jurisdiction bars stand-alone NIED without physical harm. If the supplier is liable, do damages include emotional distress from the increased cancer risk?
+
+### 3. Final answer choices
+
+A. No, because Daniel’s emotional distress did not cause his physical condition.
+B. No, because the court does not recognize a cause of action for an increased risk of cancer.
+C. Yes, because the supplier of a dangerous product is strictly liable for the harm it causes.
+D. Yes, because Daniel’s emotional distress arises from bodily harm caused by his exposure to asbestos.
+
+### 4. Possible replacement answer choices
+
+No replacements adopted. The source row does not provide pick-rate data, so no distractor can honestly be identified as a measured `<21%` weak distractor. The original geometry is preserved.
+
+| Candidate                                                                      | Replace | Data status    | Mold            | Filter         | Adoption                                                          |
+| ------------------------------------------------------------------------------ | ------: | -------------- | --------------- | -------------- | ----------------------------------------------------------------- |
+| “No, because Daniel has not yet developed cancer.”                             |       B | predicted only | wrong_element   | NOT_RESPONSIVE | Not adopted; would over-signal the future-cancer trap.            |
+| “Yes, because emotional distress is always recoverable in strict liability.”   |       C | predicted only | tiered_absolute | NOT_TRUE       | Not adopted; too easy because of “always.”                        |
+| “No, because asbestos suppliers are liable only for present medical expenses.” |       C | predicted only | fabricated_rule | NOT_TRUE       | Not adopted; invents a damages cap and weakens the original trap. |
+
+### 5. Correct answer
+
+**D.**
+
+### 6. Full right-answer explanation
+
+**D is correct.**
+
+**Silver Key:** The call says, “If Lydia Supply Co. is subject to liability.” That means the question is not asking whether Daniel has a separate emotional-distress cause of action. It is asking what damages ride along with an already assumed products-liability claim.
+
+**Gold Key:** When a tort defendant is liable for a present bodily injury, emotional distress that flows from that bodily injury may be recovered as part of pain-and-suffering damages. The NIED “no physical harm” bar does not control because this is not a stand-alone NIED claim.
+
+Daniel has a present asbestos-caused bodily condition: asbestosis. His fear is tied to the increased cancer risk created by that physical condition. So the emotional distress belongs in the damages award.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** It reverses the causal chain. The question does not require Daniel’s emotional distress to cause his asbestosis. The stem says the asbestos exposure caused the bodily condition, and Daniel’s emotional distress arises from what he now knows about that condition.
+
+**B is wrong.** It answers the wrong question. The call assumes liability and asks about the scope of damages. **Silver Key:** When the call assumes liability, do not pick an answer about whether a separate cause of action exists. **Gold Key:** Emotional distress can ride as damages on a present bodily injury even if a stand-alone NIED claim without physical harm would fail.
+
+**C is wrong.** It is too broad. Strict products liability does not automatically make every emotional harm recoverable. **Gold Key:** The missing connector is present bodily harm. The correct answer must tie the emotional distress to Daniel’s asbestosis.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The tested rule and outcome are unchanged from Q15262: D remains correct. The source explanation states that D is correct because the supplier is liable for a physical injury and the emotional distress stems from that underlying tortious conduct; it also identifies B as a cause-of-action trap and C as too broad. 
+
+Lawyer-confirmation layer: Restatement (Second) of Torts § 402A imposes strict liability on a seller of a defective, unreasonably dangerous product for physical harm caused to the user or consumer, even if the seller exercised all possible care and even without privity. ([Biotech Law][1]) The damages principle is confirmed by *Norfolk & Western Railway Co. v. Ayers*, where the Court held that mental anguish damages from fear of cancer may be recovered by an asbestosis claimant as part of pain-and-suffering damages tied to present asbestos-caused disease; the Court distinguished stand-alone emotional-distress claims from distress brought on by physical injury. ([Legal Information Institute][2])
+
+Authority is used only to confirm the lawyer layer. The student path stays on the C3-visible call/fact structure plus the Gold Key.
+
+### 9. Why the variation preserves rigor/difficulty
+
+The variation keeps the exact legal engine: asbestos-containing material, asbestosis, increased future cancer risk, strict products liability, NIED-without-physical-harm jurisdictional rule, and a damages-scope call. The Christian flavor is limited to the private stage-set context and Bible-themed “fiery furnace” prop. It adds no church-property, First Amendment, employment-law, donation, or internal-religious-governance issue.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Reverse-causation tell. The answer makes emotional distress the cause of the physical condition. The stem makes bodily harm the source of the distress.
+
+**CUT B:** Adjacent-call trap. The call assumes supplier liability and asks damages. B answers whether there is a separate increased-risk cause of action.
+
+**CLASH C vs. D:** Both say yes. C gives a broad strict-liability reason. D gives a physical-injury-linked damages reason.
+
+**CALL / Gold Key:** Emotional distress is recoverable here because it arises from bodily harm. Pick D.
+
+### 11. Review Truth
+
+When the defendant is liable for a present bodily injury, emotional distress flowing from that injury is damages; do not treat it as a stand-alone NIED claim.
+
+### 12. Five variations considered
+
+|  # | Title                         | Setting                                    | Cast                     | Preserved issue                                   | Why memorable                                        | Legal risks                                         | Decision   |
+| -: | ----------------------------- | ------------------------------------------ | ------------------------ | ------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------- | ---------- |
+|  1 | **Fiery Furnace Panels**      | Private Bible-themed stage-set shop        | Daniel, Lydia Supply Co. | Asbestos physical injury + fear-of-cancer damages | “Fiery furnace” makes asbestos heat panels memorable | Minimal; private business, no church-property issue | **Chosen** |
+|  2 | Noah’s Ark Soundproofing      | Private children’s theater prop shop       | Peter, Martha Materials  | Same                                              | Ark set + insulation image sticks                    | Soundproofing could distract into premises facts    | Rejected   |
+|  3 | Paul’s Tentmaking Workshop    | Private craft workshop                     | Paul, Barnabas Supply    | Same                                              | Biblical tentmaking theme                            | “Tentmaking” risks old-world materials confusion    | Rejected   |
+|  4 | Esther’s Moot Court Exhibit   | Law-school Christian legal society exhibit | Esther, Timothy Supply   | Same                                              | Law-school variant                                   | Campus facts could imply First Amendment noise      | Rejected   |
+|  5 | Ruth’s Bookstore Reading Nook | Private Christian bookstore remodel        | Ruth, Stephen Supply     | Same                                              | Ordinary private business                            | Remodel facts could imply property/premises issues  | Rejected   |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+## B) PASS-2 FIVE BLOCKS FOR CHOSEN VARIATION
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  question_id: "15262_fiery_furnace_panels"
+  transformed_from: "15262"
+  subject: "TORTS"
+  topic: "Torts"
+  subtopic: "Strict Liability and Products Liability"
+  outline_code: "00000000"
+  selection_percentages:
+    correct_percent: null
+    A: null
+    B: null
+    C: null
+    D: null
+    provenance: "Original row supplied blank pick-rate fields; transformed item is net-new with no measured rates."
+  official_key: "D"
+  call: "If Lydia Supply Co. is subject to liability to Daniel for damages, should the award include damages for emotional distress arising from Daniel's knowledge of his increased risk of lung cancer?"
+  stem: >-
+    Daniel worked for a privately owned company that built Bible-themed stage sets for Christian schools. While building a "fiery furnace" scene, Daniel handled heat-resistant panels supplied by Lydia Supply Co. The panels contained asbestos. Daniel is being treated by a physician for asbestosis, an abnormal chest condition caused by his on-the-job handling of those panels. His physician has told him that the asbestosis is not presently cancerous, but that it considerably increases the risk that he will ultimately develop lung cancer. Daniel brought an action for damages, based on strict product liability, against Lydia Supply Co. The court in this jurisdiction has ruled against recovery of damages for negligently inflicted emotional distress in the absence of physical harm.
+  choices:
+    A: "No, because Daniel's emotional distress did not cause his physical condition."
+    B: "No, because the court does not recognize a cause of action for an increased risk of cancer."
+    C: "Yes, because the supplier of a dangerous product is strictly liable for the harm it causes."
+    D: "Yes, because Daniel's emotional distress arises from bodily harm caused by his exposure to asbestos."
+
+source_stack:
+  primary_row:
+    source: "User-supplied BARMATRIX row 15262"
+    role: "Source of QID, subject, original legal structure, official key, and official explanations."
+  existing_c3_tags:
+    supplied: false
+    treatment: "None supplied."
+  c3_method:
+    allowed_lessons:
+      - "TRUE and RESPONSIVE filter"
+      - "Ear vs Issue-Sense"
+      - "CUT -> CLASH -> CALL"
+      - "Not-responsive adjacent-call trap"
+      - "Overclaim / extreme-of-range"
+      - "Violation-vs-remedy / cause-of-action-vs-damages architecture"
+      - "Anchor escalation"
+  official_explanation:
+    use: "Lawyer confirmation only"
+    quarantined: true
+  legal_research:
+    use: "Lawyer confirmation only"
+    authorities:
+      - "Restatement (Second) of Torts § 402A"
+      - "Norfolk & Western Ry. Co. v. Ayers, 538 U.S. 135 (2003)"
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old trained only in C3 and the taught Gold/Silver Keys identify the move without outside doctrine?"
+  student_accessible:
+    - "The call assumes supplier liability."
+    - "The call asks about damages, not whether a separate cause of action exists."
+    - "A reverses the causal chain stated in the stem."
+    - "B answers the adjacent cause-of-action question."
+    - "C is broader than D and lacks the physical-injury damages connector."
+    - "D matches the bodily-harm-to-emotional-distress chain stated in the stem."
+  anchor_needed:
+    - "Whether emotional distress can be recovered as damages when it flows from present bodily harm."
+  gold_key_ids:
+    - "GK-TORTS-PHYSICAL-HARM-ED-01"
+  silver_key_ids:
+    - "SK-TORTS-DAMAGES-CALL-01"
+  prohibited_leak: "Do not teach NIED doctrine or products-liability doctrine as a mini-outline."
+
+stem_parse:
+  question_type: "Yes/No damages-scope question"
+  negative_stem: false
+  adjacent_call_trap: "Whether Daniel has a separate cause of action for increased risk of cancer or NIED."
+  assumed_fact_in_call: "Lydia Supply Co. is subject to liability to Daniel for damages."
+  precise_call: "Whether the damages award should include emotional distress tied to fear of future cancer."
+  predicted_answer_before_choices: "Yes, if the emotional distress is tied to the present bodily injury rather than asserted as a stand-alone no-physical-harm NIED claim."
+
+trigger_facts:
+  - fact: "Daniel has asbestosis."
+    access_label: "C3-visible"
+    use: "Present bodily harm exists."
+  - fact: "The condition was caused by asbestos-containing panels."
+    access_label: "C3-visible"
+    use: "Links bodily harm to product exposure."
+  - fact: "The condition is not presently cancerous but increases risk of lung cancer."
+    access_label: "C3-visible"
+    use: "Explains why Daniel fears future cancer."
+  - fact: "Action is based on strict product liability."
+    access_label: "anchor-assisted"
+    use: "Underlying physical-injury claim."
+  - fact: "Jurisdiction bars NIED without physical harm."
+    access_label: "C3-visible"
+    use: "Creates the B trap."
+  - fact: "The call assumes supplier liability."
+    access_label: "C3-visible"
+    use: "Makes cause-of-action answers nonresponsive."
+  - fact: "Emotional distress arises from knowledge of increased cancer risk."
+    access_label: "C3-visible"
+    use: "Connects damages to bodily harm."
+
+c3_routing:
+  subject_fit: "Torts = physical harm + scope of damages; products overlay supplies the underlying liability."
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "D"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "General strict-liability harm vs bodily-harm-linked emotional-distress damages."
+  call_heuristic: "Fact-engaged damages-chain answer beats broad liability recital."
+
+answer_array:
+  geometry: "2 yes / 2 no; final clash is broad-yes C vs fact-engaged-yes D."
+  no_pair:
+    A: "No by reversed causation."
+    B: "No by adjacent cause-of-action frame."
+  yes_pair:
+    C: "Yes by broad strict-liability recital."
+    D: "Yes by bodily-harm-to-emotional-distress damages chain."
+  silver_key: "When the call assumes liability, read the array as damages scope, not liability existence."
+  dominant_trap_status: "No pick rates supplied; B and C preserve the two likely traps from the original item."
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_TRUE"
+    mold_code: "backwards"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "wrong_timing"
+      - "wrong_element"
+      - "answer_to_different_question"
+    method_class: "hard_structural"
+    student_label: "Reverse-causation answer."
+    c3_signal: "The stem says bodily harm caused emotional distress; A says emotional distress did not cause bodily harm."
+    lawyer_confirmation: "The causation requirement for the damages item is not that distress caused the physical injury; the distress flows from the injury."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+      - "wrong_remedy"
+    method_class: "hard_structural"
+    student_label: "Cause-of-action trap."
+    c3_signal: "The call assumes liability and asks what damages are included."
+    lawyer_confirmation: "The issue is not a stand-alone increased-risk or NIED cause of action; it is whether emotional distress is included in damages for a physical injury."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "extreme_of_range"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "half_right_answer"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Broad-yes trap."
+    c3_signal: "C gives a general strict-liability reason but does not link emotional distress to bodily harm."
+    lawyer_confirmation: "Strict products liability for physical harm does not by itself answer whether this emotional-distress item is recoverable; the physical-injury connection is the damages gateway."
+  D:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "True and responsive residual."
+    c3_signal: "D tracks the call and the stem: emotional distress arises from bodily harm caused by asbestos exposure."
+    lawyer_confirmation: "This matches the physical-injury damages rule: distress/fear stemming from present asbestos-caused bodily injury may be included as pain-and-suffering damages."
+
+residual_answer:
+  choice: "D"
+  text: "Yes, because Daniel's emotional distress arises from bodily harm caused by his exposure to asbestos."
+  why_residual: "After A and B are cut and C is limited by the Gold Key, D is the only answer that is both true and responsive to damages scope."
+
+legal_leak_audit:
+  student_access_claims:
+    - claim: "The call assumes liability."
+      basis: "Visible from call."
+      leak_status: "clean"
+    - claim: "A reverses the causal direction."
+      basis: "Visible from stem and answer text."
+      leak_status: "clean"
+    - claim: "B answers cause of action rather than damages."
+      basis: "Visible from call."
+      leak_status: "clean"
+    - claim: "C is too broad because it lacks the bodily-harm connector."
+      basis: "Gold Key required."
+      leak_status: "anchor_assisted"
+    - claim: "D is legally sufficient."
+      basis: "Gold Key + lawyer confirmation."
+      leak_status: "anchor_assisted"
+  official_explanation_quarantined: true
+  lawyer_doctrine_location: "lawyer_confirmation and gold key authority only"
+  drift_audit: "No mini-outline; doctrine limited to physical-injury emotional-distress damages gateway."
+
+gold_keys:
+  - id: "GK-TORTS-PHYSICAL-HARM-ED-01"
+    statement: "When a tort defendant is liable for a present bodily injury, emotional distress that flows from that bodily injury may be recovered as pain-and-suffering damages; the no-physical-harm NIED bar does not control a damages item attached to bodily harm."
+    type: "distinction"
+    unlocks: "Separates stand-alone NIED/increased-risk cause from damages flowing from present bodily harm."
+    trigger: "The call assumes liability and the plaintiff already has a physical condition."
+    tested_choice: "B"
+    authority: "Restatement (Second) of Torts § 402A; Norfolk & Western Ry. Co. v. Ayers, 538 U.S. 135 (2003)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-DAMAGES-CALL-01"
+    statement: "When the call says 'if the defendant is liable,' stop fighting liability and read the answers as damages-scope answers."
+    type: "call_focus"
+    navigates: "Cause-of-action trap and broad-liability trap."
+    trigger: "A call that assumes liability and asks whether a damages award should include a specific loss."
+    tested_choice: "B"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-TORTS-DAMAGES-SCOPE-01"
+  title: "Damages scope after physical injury"
+  signal: "The stem gives present bodily harm and a separate emotional-distress fact."
+  student_move: "Ask whether distress is standing alone or riding on the physical injury."
+  tiny_rule: "Standalone distress is hard; distress attached to bodily harm can be damages."
+  trap: "Treating the item as a new NIED claim."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?"
+review_truth: "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim."
+
+case_study_output:
+  final_student_script: "Call assumes liability. A reverses the chain. B answers cause of action, not damages. C is broad. D ties distress to bodily harm. Pick D."
+  outcome: "D"
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  rule_unchanged: true
+  answer_unchanged: true
+  issue_unchanged: true
+  dominant_trap_preserved: "Unmeasured; original B and C trap roles preserved."
+  stem_over_signaling: false
+  clutter_doctrine_added: false
+  christian_names_compliant: true
+  bible_antagonist_names_used: false
+  exactly_three_single_filter_distractors: true
+  credited_answer_has_no_filter_broken: true
+  bank_pass_available: true
+  drift_audit_present: true
+  transformed_from_present: true
+
+analytics_hooks:
+  component_routing:
+    - "C3 Lesson 1: TRUE and RESPONSIVE"
+    - "C3 Lesson 2: Ear vs Issue-Sense"
+    - "C3 Lesson 8: Not-responsive molds"
+    - "C3 Lesson 11: Violation vs remedy / wrong frame"
+    - "C3 Lesson 12: Anchor escalation"
+  trap_tags:
+    - "cause_action_vs_damages"
+    - "physical_harm_gateway"
+    - "broad_yes_trap"
+    - "reverse_causation"
+  expected_student_misses:
+    - "B: treats call as stand-alone NIED / increased-risk cause."
+    - "C: stops at general strict-products liability."
+  drill_seed_ids:
+    - "DRILL-TORTS-DAMAGES-SCOPE-01"
+    - "DRILL-TORTS-CALL-ASSUMES-LIABILITY-01"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Torts products-liability damages question. The story is Christian-flavored, but the legal engine is unchanged. The question is not “is Lydia liable?” The call assumes liability. The pivot is whether Daniel’s emotional distress is a stand-alone emotional-distress claim or a damages item attached to present bodily harm.
+
+## student_access_test
+
+A student may use only:
+
+* The call: “If Lydia Supply Co. is subject to liability.”
+* The stem facts: asbestosis, asbestos exposure, increased cancer risk, emotional distress.
+* The TRUE + RESPONSIVE frame.
+* The adjacent-call trap card.
+* The Gold Key for physical-injury-linked emotional distress.
+* The Silver Key for damages-scope calls.
+
+A student may not use a torts outline about NIED or product-liability damages as the first-pass basis.
+
+## question_data
+
+**Subject:** TORTS
+**Topic:** Strict Liability and Products Liability
+**Question ID:** `15262_fiery_furnace_panels`
+**Transformed from:** `15262`
+**Correct answer:** D
+**Pick rates:** not supplied in source row; no measured dominant trap.
+
+## distilled_core_question
+
+A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?
+
+## call_and_prediction
+
+**Call:** If the supplier is liable, should the damages award include emotional distress from the increased cancer risk?
+
+**Adjacent-call trap:** Whether Daniel has a separate cause of action for increased risk of cancer or NIED.
+
+**Prediction:** Yes, if the distress flows from Daniel’s present bodily harm. No, if the distress stands alone without physical harm. Here, Daniel has present bodily harm.
+
+## trigger_facts
+
+| Fact                                          | Why it matters                                      | Access            |
+| --------------------------------------------- | --------------------------------------------------- | ----------------- |
+| Daniel has asbestosis.                        | Present bodily harm exists.                         | C3-visible        |
+| Asbestosis came from asbestos panels.         | Bodily harm is tied to product exposure.            | C3-visible        |
+| Cancer has not yet developed.                 | The claim is fear/risk, not current cancer damages. | C3-visible        |
+| Cancer risk is considerably increased.        | Explains the emotional distress.                    | C3-visible        |
+| Jurisdiction bars NIED without physical harm. | Creates the B trap.                                 | C3-visible        |
+| Call assumes Lydia’s liability.               | Makes cause-of-action answers late.                 | C3-visible        |
+| Distress arises from knowledge of the risk.   | Must be linked back to bodily harm.                 | Gold-Key assisted |
+
+## governing_c3_lane
+
+**Lane:** Damages-scope lane.
+
+The item starts as a C3 call-focus problem. A and B can be cut by structure. C and D require the physical-harm damages Gold Key. The final selection is anchor-assisted because the student must know that emotional distress can ride on present bodily harm as damages.
+
+## choice_by_choice_walkthrough
+
+### A. No, because Daniel’s emotional distress did not cause his physical condition.
+
+1. **Student-accessible C3 signal:** The causal arrow points the wrong way. The stem says asbestos exposure caused the bodily condition, and the emotional distress came after Daniel learned of the risk.
+2. **Student label:** Reverse-causation answer.
+3. **What a true/responsive version would look like:** “No, because Daniel’s emotional distress is not legally connected to the bodily harm.” That would at least aim at the damages link.
+4. **Lawyer confirmation:** The law does not require the distress to cause the physical condition. The damages question is whether the distress flows from the physical injury.
+
+### B. No, because the court does not recognize a cause of action for an increased risk of cancer.
+
+1. **Student-accessible C3 signal:** The call says Lydia is liable and asks about damages. B talks about whether a cause of action exists.
+2. **Student label:** Adjacent-call / cause-of-action trap.
+3. **What a true/responsive version would look like:** “No, because emotional distress from increased risk is not recoverable as damages attached to this bodily injury.” That would answer damages scope.
+4. **Lawyer confirmation:** The jurisdiction’s NIED rule does not bar emotional distress damages that are attached to a present physical injury. This answer misses the assumed-liability frame.
+
+### C. Yes, because the supplier of a dangerous product is strictly liable for the harm it causes.
+
+1. **Student-accessible C3 signal:** C gives a broad “yes” but does not say why this emotional-distress item belongs in damages.
+2. **Student label:** Broad-yes trap.
+3. **What a true/responsive version would look like:** “Yes, because the emotional distress arises from Daniel’s bodily harm caused by asbestos exposure.”
+4. **Lawyer confirmation:** Strict liability for physical harm is not enough by itself. The emotional distress must be linked to present bodily harm. C states the general liability frame but omits the damages gateway.
+
+### D. Yes, because Daniel’s emotional distress arises from bodily harm caused by his exposure to asbestos.
+
+1. **Student-accessible C3 signal:** D uses the exact damages chain: bodily harm → increased cancer risk → emotional distress.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** Emotional distress tied to proven asbestos-caused asbestosis is recoverable as pain-and-suffering damages when liability for the bodily injury is established.
+
+## residual_answer
+
+D survives. It answers the precise call and includes the missing connector: the distress arises from bodily harm.
+
+## legal_leak_audit
+
+A and B are student-accessible cuts. A fails on the stem’s causal direction. B fails on the call’s assumed-liability frame. C is not safely false without the Gold Key. D is not safely true without the same Gold Key.
+
+The official explanation and legal research are kept in lawyer confirmation. The student-facing route does not turn into an NIED or products-liability outline.
+
+Drift audit: C3 uses call focus, causal-direction reading, and one Gold Key; it does not smuggle a full tort damages lecture into the structural path.
+
+## final_student_script
+
+“Call assumes liability. We are only asking damages. A reverses the chain. B answers a new cause-of-action question. C is a broad yes but misses the physical-injury connector. D gives the whole chain: asbestos bodily harm caused distress about future cancer. Pick D.”
+
+## remediation_card
+
+**REM-TORTS-DAMAGES-SCOPE-01 — Physical injury opens the damages door**
+
+* **Signal:** Present bodily harm plus emotional distress.
+* **Student move:** Ask whether distress stands alone or rides on the physical injury.
+* **Tiny rule:** Stand-alone distress is restricted; distress attached to bodily harm can be damages.
+* **Trap:** Treating the case as NIED without physical harm.
+* **Confidence:** Anchor-assisted.
+
+## Gold Key(s)
+
+**GK-TORTS-PHYSICAL-HARM-ED-01**
+
+When a tort defendant is liable for a present bodily injury, emotional distress that flows from that bodily injury may be recovered as pain-and-suffering damages; the no-physical-harm NIED bar does not control a damages item attached to bodily harm.
+
+## Silver Key(s)
+
+**SK-TORTS-DAMAGES-CALL-01**
+
+When the call says “if the defendant is liable,” stop fighting liability and read the answers as damages-scope answers.
+
+## qa_checklist
+
+| Check                                               | Result |
+| --------------------------------------------------- | ------ |
+| Rule unchanged                                      | Pass   |
+| Outcome unchanged                                   | Pass   |
+| Correct answer still D                              | Pass   |
+| Christian variation without clutter doctrine        | Pass   |
+| No church-property or First Amendment issue         | Pass   |
+| Three wrong answers, one filter each                | Pass   |
+| Credited answer has no broken filter                | Pass   |
+| Gold Key included because anchor-dependent          | Pass   |
+| Silver Key included because call-focus move matters | Pass   |
+| Pick-rate provenance honest                         | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice picked | Likely missed move | Recovery                                                          |
+| ------------- | ------------------ | ----------------------------------------------------------------- |
+| A             | Causal direction   | Draw the arrow: asbestos → asbestosis → fear.                     |
+| B             | Adjacent call      | Circle “if liable.” That makes liability/cause of action assumed. |
+| C             | Broad yes trap     | Demand the bodily-harm connector for emotional-distress damages.  |
+
+## outline_mastery_map
+
+**Placement:** Torts → Products Liability → Damages / emotional distress attached to bodily harm.
+
+**This item teaches:** The line between a stand-alone emotional-distress claim and emotional distress as part of damages after bodily injury.
+
+**Fills:** Physical-harm gateway; damages scope; strict-liability damages.
+
+**Adjacent to master:** NIED no-physical-harm rule; strict products liability for physical harm; fear-of-future-disease damages.
+
+## crossover_intersection_map
+
+| Crossover                       | Why it matters                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------ |
+| Products liability × damages    | Liability is assumed; damages scope controls.                                  |
+| NIED × physical harm            | NIED bar is bait when physical harm already exists.                            |
+| Toxic exposure × future disease | Future disease risk explains fear but is not itself the current cancer damage. |
+| C3 call-focus × tort damages    | “If liable” reroutes the whole item away from cause of action.                 |
+
+## review_truth
+
+Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "15262_fiery_furnace_panels",
+  "subject": "TORTS",
+  "credited_answer": "D",
+  "outline_code": "00000000",
+  "distilled_core_question": "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?",
+  "review_truth": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "General strict-liability harm vs bodily-harm-linked emotional-distress damages.",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Fact-engaged damages-chain answer beats broad liability recital.",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": null,
+        "card_ref": null,
+        "explanation": "Reverses the causal chain: the distress did not need to cause the physical condition; the physical condition is what produces the distress."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "SK-TORTS-DAMAGES-CALL-01",
+        "explanation": "Answers whether a separate cause of action exists, but the call assumes liability and asks damages scope."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "extreme_of_range",
+        "architecture": null,
+        "card_ref": "GK-TORTS-PHYSICAL-HARM-ED-01",
+        "explanation": "Overstates the general strict-liability frame by omitting the physical-injury connector needed for emotional-distress damages."
+      }
+    ],
+    "analyzer_notes": "drift_audit: Student route uses call focus, causal direction, broad-vs-specific answer-array reading, and one Gold Key; no torts outline inserted. transformed_from: 15262. No pick-rate data supplied; dominant trap cannot be confirmed, so original trap roles B and C were preserved.",
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-PHYSICAL-HARM-ED-01",
+        "statement": "When a tort defendant is liable for a present bodily injury, emotional distress that flows from that bodily injury may be recovered as pain-and-suffering damages; the no-physical-harm NIED bar does not control a damages item attached to bodily harm.",
+        "type": "distinction",
+        "unlocks": "Separates stand-alone NIED/increased-risk cause from damages flowing from present bodily harm.",
+        "trigger": "The call assumes liability and the plaintiff already has a physical condition.",
+        "tested_choice": "B",
+        "authority": "Restatement (Second) of Torts § 402A; Norfolk & Western Ry. Co. v. Ayers, 538 U.S. 135 (2003).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-DAMAGES-CALL-01",
+        "statement": "When the call says 'if the defendant is liable,' stop fighting liability and read the answers as damages-scope answers.",
+        "type": "call_focus",
+        "navigates": "Cause-of-action trap and broad-liability trap.",
+        "trigger": "A call that assumes liability and asks whether a damages award should include a specific loss.",
+        "tested_choice": "B",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "15262_fiery_furnace_panels",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?",
+  "review_truth": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+  "tension": {
+    "axis": "General strict-liability harm vs bodily-harm-linked emotional-distress damages.",
+    "resolver": "Does the answer tie the emotional distress to present bodily harm?"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "backwards",
+      "architecture": null,
+      "why_attractive": "Students may think causation must run through emotional distress because the call mentions distress.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "It uses the jurisdiction's NIED rule and sounds like the precise exception stated in the stem.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "C",
+      "mold": "extreme_of_range",
+      "architecture": null,
+      "why_attractive": "It states a familiar strict-products rule and reaches the correct yes outcome, but too broadly.",
+      "focus_group_pct": null
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-TORTS-DAMAGES-SCOPE-01",
+    "title": "Physical injury opens the damages door",
+    "signal": "Present bodily harm plus emotional distress.",
+    "student_move": "Ask whether distress stands alone or rides on the physical injury.",
+    "tiny_rule": "Standalone distress is restricted; distress attached to bodily harm can be damages.",
+    "trap": "Treating the case as NIED without physical harm.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "cause_action_vs_damages",
+    "physical_harm_gateway",
+    "broad_yes_trap",
+    "reverse_causation",
+    "future_disease_fear"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "15262_fiery_furnace_panels",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?",
+  "review_truth": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student sees emotional distress and searches for emotional-distress causation.",
+      "skipped_move": "Causal-arrow check.",
+      "recovery_step": "Write the chain: asbestos exposure -> asbestosis -> fear of cancer."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student treats the jurisdiction's NIED rule as the whole question.",
+      "skipped_move": "Call-focus check.",
+      "recovery_step": "Circle 'if subject to liability' and reframe the item as damages scope."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "extreme_of_range",
+      "why_a_student_picks_this": "The student likes the yes outcome and stops at general strict liability.",
+      "skipped_move": "Gold Key physical-harm connector.",
+      "recovery_step": "Require the answer to tie emotional distress to present bodily harm."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "call_focus",
+      "target_skill": "Assumed liability vs damages scope",
+      "prompt": "A call begins, 'If the defendant is liable, should damages include X?' What question are you answering?",
+      "answer": "Damages scope, not whether the cause of action exists."
+    },
+    {
+      "drill_type": "causal_arrow",
+      "target_skill": "Physical harm to emotional distress chain",
+      "prompt": "Asbestos exposure causes asbestosis; asbestosis creates fear of cancer. Which direction does causation run?",
+      "answer": "Exposure/physical harm causes the fear; the fear does not need to cause the physical harm."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "Physical-injury emotional distress damages",
+      "prompt": "When can emotional distress ride as damages in a tort case?",
+      "answer": "When it flows from a present bodily injury for which the defendant is liable."
+    },
+    {
+      "drill_type": "answer_array",
+      "target_skill": "Broad yes vs fact-engaged yes",
+      "prompt": "C says yes because strict liability covers harm. D says yes because distress arises from bodily harm. Which is more responsive?",
+      "answer": "D, because it supplies the damages connector."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "2_yes_2_no",
+      "broad_yes_trap",
+      "adjacent_call",
+      "physical_harm_gateway",
+      "damages_scope"
+    ],
+    "misconception_tags": [
+      "NIED_bar_controls_every_emotional_distress_fact",
+      "strict_liability_automatically_covers_all_harm",
+      "fear_of_future_cancer_is_separate_cause_only",
+      "causation_arrow_reversed"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Lesson 1 TRUE and RESPONSIVE",
+      "reason": "B is true-sounding but not responsive to the damages call."
+    },
+    {
+      "component": "Lesson 2 Ear vs Issue-Sense",
+      "reason": "A is Ear/backwards; B is Issue-Sense/not-responsive."
+    },
+    {
+      "component": "Lesson 8 Not-responsive molds",
+      "reason": "B is bait-doctrine / adjacent call."
+    },
+    {
+      "component": "Lesson 11 Bait architecture",
+      "reason": "B confuses cause of action with damages consequence."
+    },
+    {
+      "component": "Lesson 12 Anchor escalation",
+      "reason": "C vs D requires the physical-injury emotional-distress Gold Key."
+    }
+  ],
+  "crossovers": [
+    {
+      "name": "Products liability x damages",
+      "note": "Underlying strict liability is assumed; damages scope decides."
+    },
+    {
+      "name": "NIED x physical harm",
+      "note": "The no-physical-harm bar is a trap when the plaintiff already has bodily harm."
+    },
+    {
+      "name": "Toxic exposure x future disease",
+      "note": "Fear of future disease can be part of current pain-and-suffering damages when tied to present disease."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-PHYSICAL-HARM-ED-01",
+      "statement": "When a tort defendant is liable for a present bodily injury, emotional distress that flows from that bodily injury may be recovered as pain-and-suffering damages; the no-physical-harm NIED bar does not control a damages item attached to bodily harm.",
+      "type": "distinction",
+      "unlocks": "Separates stand-alone NIED/increased-risk cause from damages flowing from present bodily harm.",
+      "trigger": "The call assumes liability and the plaintiff already has a physical condition.",
+      "tested_choice": "B",
+      "authority": "Restatement (Second) of Torts § 402A; Norfolk & Western Ry. Co. v. Ayers, 538 U.S. 135 (2003).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-DAMAGES-CALL-01",
+      "statement": "When the call says 'if the defendant is liable,' stop fighting liability and read the answers as damages-scope answers.",
+      "type": "call_focus",
+      "navigates": "Cause-of-action trap and broad-liability trap.",
+      "trigger": "A call that assumes liability and asks whether a damages award should include a specific loss.",
+      "tested_choice": "B",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Torts -> Strict Liability and Products Liability -> Damages",
+    "this_item_teaches": "Physical-injury-linked emotional distress as damages.",
+    "fills": [
+      "Scope of damages",
+      "Physical-harm gateway",
+      "Strict-products liability damages",
+      "Fear-of-future-disease damages"
+    ],
+    "adjacent_to_master": [
+      "Negligent infliction of emotional distress",
+      "Products strict liability for physical harm",
+      "Pain and suffering",
+      "Latent disease / increased risk"
+    ]
+  }
+}
+```
+
+[1]: https://biotech.law.lsu.edu/cases/products/402a-b.htm "Restatement s 402a and 402b"
+[2]: https://www.law.cornell.edu/supremecourt/text/538/135 "NORFOLK & WESTERN RAILWAY CO. v. AYERS ET AL. | Supreme Court | US Law | LII / Legal Information Institute"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "15262_fiery_furnace_panels",
+  "subject": "TORTS",
+  "credited_answer": "D",
+  "outline_code": "00000000",
+  "distilled_core_question": "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?",
+  "review_truth": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 15262; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "15262_fiery_furnace_panels",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?",
+  "review_truth": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-15262",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "15262_fiery_furnace_panels",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A plaintiff has present asbestos-caused asbestosis, sues in strict products liability, and fears future cancer. If the supplier is liable, are fear-of-cancer emotional-distress damages included?",
+  "review_truth": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "Emotional distress tied to present bodily harm is damages, not a stand-alone NIED claim.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

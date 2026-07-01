@@ -1,0 +1,958 @@
+---
+qid: "14650_fellowship_picnic"
+transformed_from: "14650"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "General Principles"
+outline_code: "72060101"
+key: "B"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source note.** The source row is BARMATRIX Q#14650. It gives Criminal Law / General Principles, pick rates, official key B, and an official explanation that the original item was treated as an A/B dual-credit item.  The reasoning posture was also checked against the project’s Reasoning Creed. 
+
+### 1. Final question — chosen Christian variation
+
+At a private Christian fellowship picnic, Peter and Barnabas got into a heated argument while helping clean up after lunch. During the altercation, Barnabas suffered a knife wound in his abdomen. Peter was charged with criminal battery and attempted murder.
+
+At Peter’s trial, he seeks to offer evidence that he had been drinking at the picnic and was highly intoxicated at the time of the altercation. In a jurisdiction that follows the common-law rules concerning admissibility of evidence of voluntary intoxication, the evidence of Peter’s intoxication should be
+
+### 2. Distilled Core Question
+
+Peter is charged with one general-intent completed battery count and one specific-intent attempted murder count. He offers voluntary-intoxication evidence. For which charge is the evidence admissible?
+
+### 3. Final answer choices
+
+A. admitted without limitation.
+B. admitted subject to an instruction that it pertains only to the attempted murder charge.
+C. admitted subject to an instruction that it pertains only to the criminal battery charge.
+D. excluded altogether.
+
+### 4. Possible replacement answer choices
+
+The only low-pick distractor in the source row is D at 11%. It is weak by popularity, but it completes the clean four-corner answer geometry: **all / attempted murder only / battery only / none**. I recommend keeping it.
+
+Possible replacements not adopted:
+
+| Replaced choice | Original % | Candidate                                                           | Mold            | Filter         | Reason not adopted                                                              |
+| --------------- | ---------: | ------------------------------------------------------------------- | --------------- | -------------- | ------------------------------------------------------------------------------- |
+| D               |         11 | excluded unless Peter first testifies.                              | fabricated_rule | NOT_TRUE       | Adds an evidence-condition distraction not in the original rule.                |
+| D               |         11 | admitted only if the prosecution first offers evidence of sobriety. | fabricated_rule | NOT_TRUE       | Too artificial and less clean than “excluded altogether.”                       |
+| D               |         11 | admitted only to show Peter was less morally blameworthy.           | wrong_element   | NOT_RESPONSIVE | Introduces punishment/mitigation language rather than charge-specific mens rea. |
+
+### 5. Correct answer
+
+**B. admitted subject to an instruction that it pertains only to the attempted murder charge.**
+
+### 6. Full right-answer explanation
+
+**B is correct.**
+
+**Gold Key:** Voluntary intoxication is charge-specific. Under the common-law exam rule, it may be used to negate a **specific-intent** mental state, but not a **general-intent** completed battery.
+
+**Silver Key:** This answer set is a scope quartet: **all / only attempted murder / only battery / none**. Do not pick by whether the story feels sympathetic. Tag each charge by the mental state the intoxication evidence can affect.
+
+Attempted murder requires the specific intent to kill, so intoxication evidence can matter there. Criminal battery is the completed physical-injury charge; it does not require the same specific intent to kill. The evidence should therefore be admitted with a limiting instruction for attempted murder only.
+
+### 7. Full wrong-answer explanations
+
+**A. admitted without limitation.**
+Wrong. This is the “all charges” overclaim. **Gold Key:** voluntary intoxication does not travel to every count just because it is relevant to one count. It can matter to attempted murder, but it does not become a general defense to the completed battery count.
+
+**C. admitted subject to an instruction that it pertains only to the criminal battery charge.**
+Wrong. This reverses the charge-specific map. The intoxication evidence matters, if at all, to the specific-intent attempted murder count, not only to the completed battery count. **Silver Key:** when the choices are “only Count 1” versus “only Count 2,” label the two counts before picking.
+
+**D. excluded altogether.**
+Wrong. This is the “none” overclaim. The evidence is not admissible for the battery count, but it is admissible for the attempted murder count because that count requires specific intent to kill.
+
+### 8. Black-letter-law verification and legal reasoning
+
+The tested rule is unchanged: voluntary intoxication is relevant only where it can negate a required specific-intent mental state. The Supreme Court in *Montana v. Egelhoff* describes the later common-law development allowing intoxication to be considered where a crime required “specific intent,” while also noting the older common-law hostility to treating intoxication as an excuse. ([Legal Information Institute][1]) Justia’s current Criminal Law Center states the exam-level rule directly: voluntary intoxication is not a defense to general-intent crimes, but may be used for specific-intent crimes if it prevents formation of the required criminal intent. ([Justia][2])
+
+Attempted murder requires specific intent to kill; *Braxton v. United States* states that “attempt to commit murder requires a specific intent to kill.” ([Legal Information Institute][3]) The completed battery side of the variation is the repair mechanism: the source item was defective because the original assault count created an A/B ambiguity. The California Supreme Court’s assault-intoxication cases illustrate the same bar-exam distinction: simple assault / assaultive battery-type conduct is treated as general-intent for intoxication purposes, while assault with intent to murder is specific intent. ([Justia Law][4])
+
+The variation preserves the intended official-key outcome, B, while repairing the original released-row ambiguity by changing the first count from “assault” to “criminal battery.” The original row itself notes that A or B was accepted, so the source item would not be a clean PASS without repair. 
+
+### 9. Why the variation preserves rigor and difficulty
+
+The legal engine remains the same: **voluntary intoxication + two criminal charges + charge-specific admissibility**. The difficulty is cleaner because the first count is now a completed battery, not an assault count that can be characterized in more than one way. The dominant trap survives: students still want to send the intoxication evidence to the wrong count, or to all counts.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT:** No safe pure-structure cut decides the item. The answer array is intentionally symmetrical.
+
+**CLASH:** The array is a four-corner scope set:
+
+* A = all charges
+* B = attempted murder only
+* C = battery only
+* D = no charges
+
+**CALL:** Use the Gold Key. Voluntary intoxication maps to specific intent only. Attempted murder is the specific-intent charge. Battery is the general-intent completed physical-contact charge. Residual answer: **B**.
+
+### 11. Review Truth
+
+Voluntary intoxication is charge-specific: admit it for the specific-intent count, not for the general-intent completed battery count.
+
+### 12. The 5 variations considered
+
+|  # | Title                           | Setting                             | Cast             | Preserved issue                                    | Memorable hook                          | Legal risk                                                | Status     |
+| -: | ------------------------------- | ----------------------------------- | ---------------- | -------------------------------------------------- | --------------------------------------- | --------------------------------------------------------- | ---------- |
+|  1 | Fellowship Picnic Knife Wound   | Private Christian fellowship picnic | Peter / Barnabas | Voluntary intoxication limited to attempted murder | Picnic + cleanup argument               | Low; no church-law issue                                  | **Chosen** |
+|  2 | Bible Study Softball Cookout    | Softball cookout after Bible study  | Daniel / Timothy | Same                                               | “Softball rivalry went too far”         | Slight clutter from sports facts                          | Rejected   |
+|  3 | Chapel Potluck Cleanup          | Private potluck cleanup             | John / Stephen   | Same                                               | Cleanup-table knife                     | “Chapel” could distract weak students into religion facts | Rejected   |
+|  4 | Law School Prayer Breakfast     | Law-school student group breakfast  | Lydia / Ruth     | Same                                               | Criminal hypo inside law-school culture | Less clearly Christian criminal fact pattern              | Rejected   |
+|  5 | Retreat Center Kitchen Argument | Private retreat center kitchen      | Martha / Esther  | Same                                               | Kitchen knife fact feels natural        | Risk of premises/employer clutter                         | Rejected   |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+question_yaml:
+  barmatrix_row:
+    qid: "14650_fellowship_picnic"
+    transformed_from: "14650"
+    subject: "CRIMINAL"
+    topic: "Criminal Law"
+    subtopic: "General Principles"
+    original_percent_correct: 43
+    selection_percentages:
+      provenance: "inherited_from_original_source_row; transformed item has no measured pick rates"
+      A:
+        pct: 28
+        status: "inherited_original"
+      B:
+        pct: 18
+        status: "inherited_original_official_key_but_source_row_dual_credit"
+      C:
+        pct: 43
+        status: "inherited_original_dominant_trap"
+      D:
+        pct: 11
+        status: "inherited_original_low_pick_but_geometry_kept"
+    official_key: "B"
+    official_key_note: "Original row states A or B was accepted; transformed item repairs ambiguity and makes B sole credited answer."
+    stem: "At a private Christian fellowship picnic, Peter and Barnabas got into a heated argument while helping clean up after lunch. During the altercation, Barnabas suffered a knife wound in his abdomen. Peter was charged with criminal battery and attempted murder. At Peter’s trial, he seeks to offer evidence that he had been drinking at the picnic and was highly intoxicated at the time of the altercation. In a jurisdiction that follows the common-law rules concerning admissibility of evidence of voluntary intoxication, the evidence of Peter’s intoxication should be"
+    call: "the evidence of Peter’s intoxication should be"
+    choices:
+      A: "admitted without limitation."
+      B: "admitted subject to an instruction that it pertains only to the attempted murder charge."
+      C: "admitted subject to an instruction that it pertains only to the criminal battery charge."
+      D: "excluded altogether."
+
+  source_stack:
+    priority_1_barmatrix_row:
+      used: true
+      notes:
+        - "Original QID 14650 supplied the voluntary-intoxication issue, four-choice scope array, pick rates, official key B, and dual-credit explanation."
+        - "Original item was legally ambiguous because A and B were both accepted."
+    priority_2_existing_c3_tags:
+      used: false
+      notes:
+        - "No existing item-specific C3 tags supplied for QID 14650."
+    priority_3_subject_overlay:
+      used: true
+      notes:
+        - "Criminal overlay: charge/defense/result mismatch; mens rea/charge-specific routing."
+    priority_4_universal_c3:
+      used: true
+      notes:
+        - "CUT → CLASH → CALL."
+        - "True and responsive residual."
+        - "No fake structure where anchor knowledge is required."
+    priority_5_taxonomy:
+      used: true
+      notes:
+        - "Controlled vocabularies used for subject, filters, molds, method_class, verdicts, confidence."
+    priority_6_lawyer_confirmation:
+      used: true
+      notes:
+        - "Authority quarantined to lawyer-confirmation layer."
+
+  student_access_contract:
+    allowed_lessons:
+      - "L1 TRUE and RESPONSIVE"
+      - "L2 Ear vs Issue-Sense and CUT → CLASH → CALL"
+      - "L3 Standards vs Rules"
+      - "L8 Not-responsive molds"
+      - "L10 Matched-pair / answer-array geometry"
+      - "L12 Anchors"
+      - "L13 Calibration"
+      - "L14 Integration"
+    allowed_subject_overlay:
+      - "Criminal Law: charge/defense/result mismatch"
+      - "Criminal Law: mens rea ladder anchor"
+    allowed_gold_keys:
+      - "GK-CRIMINAL-INTOX-SPECIFIC-01"
+    allowed_silver_keys:
+      - "SK-CRIMINAL-SCOPE-QUARTET-01"
+    controlling_test_result: "The item is not purely structurally solvable. The decisive move requires the Gold Key."
+    prohibited_moves:
+      - "Do not call A, C, or D student-accessibly false without the Gold Key."
+      - "Do not rely on the original official explanation to pretend the ambiguity was structural."
+
+  stem_parse:
+    actors:
+      defendant: "Peter"
+      injured_person: "Barnabas"
+    setting: "private Christian fellowship picnic"
+    charged_offenses:
+      - "criminal battery"
+      - "attempted murder"
+    evidence_offered: "Peter had been drinking and was highly intoxicated at the time of the altercation."
+    jurisdiction: "common-law rules concerning admissibility of evidence of voluntary intoxication"
+    negative_stem_inversion: false
+    adjacent_call_trap:
+      exists: true
+      description: "Do not ask whether intoxication excuses Peter entirely. The call asks the charge-specific admissibility scope."
+
+  trigger_facts:
+    - fact: "Peter is charged with attempted murder."
+      access_label: "anchor_trigger"
+      significance_student: "Flag as one count that may require a specific-intent mental state."
+      significance_lawyer: "Attempted murder requires specific intent to kill."
+    - fact: "Peter is charged with criminal battery."
+      access_label: "anchor_trigger"
+      significance_student: "Flag as the completed physical-contact count."
+      significance_lawyer: "Battery is treated as the general-intent completed contact charge for this item."
+    - fact: "Peter voluntarily drank and was highly intoxicated."
+      access_label: "stem_visible"
+      significance_student: "Same intoxication evidence is being routed across two charges."
+      significance_lawyer: "Voluntary intoxication may negate specific intent but does not generally excuse general-intent crimes."
+
+  c3_routing:
+    subject_fit: "Criminal Law = charge/defense/result mismatch + mens rea-specificity routing."
+    governing_law_type: "RULE"
+    deciding_phase: "CALL"
+    method_class: "pure_anchor"
+    confidence: "PURE_ANCHOR"
+    case_study_verdict: "ANCHOR_SOLVE"
+    bank_validation_verdict: "PASS"
+    residual: "B"
+    agrees_with_official_key: true
+    is_fork: false
+    fork_type: null
+    difficulty: 3
+    note: "Original source row would be DEFECT/FORK_OR_SPLIT because A and B were accepted; transformed item is PASS."
+
+  answer_array:
+    geometry: "scope_quartet"
+    pattern: "all / only attempted murder / only battery / none"
+    silver_key: "SK-CRIMINAL-SCOPE-QUARTET-01"
+    decision_axis: "Which charged offense has the mental-state element voluntary intoxication can negate?"
+    choices_by_scope:
+      A: "all charges"
+      B: "attempted murder only"
+      C: "criminal battery only"
+      D: "no charges"
+    dominant_trap:
+      choice: "C"
+      inherited_pct: 43
+      why: "Student routes intoxication to the visible stabbing/battery count rather than the specific-intent attempted murder count."
+
+  choice_walkthroughs:
+    A:
+      filter_broken: "NOT_TRUE"
+      mold_code: "tiered_absolute"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: "wrong_frame"
+      wrong_answer_architecture_tags:
+        - "overbroad_rule"
+        - "exception_over_applied"
+        - "bar_exam_bait"
+      method_class: "pure_anchor"
+      student_label: "all-charges overclaim"
+      c3_signal: "The word/scope 'without limitation' claims more than the charge-specific anchor allows."
+      lawyer_confirmation: "Voluntary intoxication may be relevant to attempted murder, but not to the completed battery count."
+    B:
+      filter_broken: null
+      mold_code: null
+      mold_family: null
+      bait_architecture_code: null
+      wrong_answer_architecture_tags:
+        - "correct_answer"
+      method_class: "pure_anchor"
+      student_label: "true and responsive residual"
+      c3_signal: "It matches the Gold Key and the scope quartet: admit only for the specific-intent attempted murder charge."
+      lawyer_confirmation: "Correct under the repaired variation."
+    C:
+      filter_broken: "NOT_TRUE"
+      mold_code: "backwards"
+      mold_family: "EAR_FALSITY"
+      bait_architecture_code: "wrong_frame"
+      wrong_answer_architecture_tags:
+        - "wrong_mental_state"
+        - "wrong_standard"
+        - "attractive_wrong_answer"
+        - "bar_exam_bait"
+      method_class: "pure_anchor"
+      student_label: "charge-scope reversal"
+      c3_signal: "It routes the evidence to the wrong charge."
+      lawyer_confirmation: "The intoxication evidence goes to attempted murder, not only to criminal battery."
+    D:
+      filter_broken: "NOT_TRUE"
+      mold_code: "tiered_absolute"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: null
+      wrong_answer_architecture_tags:
+        - "overbroad_rule"
+        - "exception_omitted"
+        - "common_student_myth"
+      method_class: "pure_anchor"
+      student_label: "none overclaim"
+      c3_signal: "It denies admissibility for every charge, including the specific-intent count."
+      lawyer_confirmation: "Excluding the evidence altogether ignores its relevance to attempted murder intent."
+
+  residual_answer:
+    choice: "B"
+    text: "admitted subject to an instruction that it pertains only to the attempted murder charge."
+    why_survives: "It is the only answer whose scope matches the voluntary-intoxication Gold Key."
+
+  legal_leak_audit:
+    item_is_pure_structure: false
+    anchor_required: true
+    leak_risks:
+      - "Calling battery general-intent without labeling the move as anchor-dependent."
+      - "Calling A wrong despite the original source row's A/B ambiguity."
+      - "Treating the official explanation as a student-accessible C3 path."
+    containment:
+      - "Choice defects are explained through Gold Key after the array is named."
+      - "Original ambiguity is logged."
+      - "Lawyer authority is quarantined."
+    drift_audit: "No doctrine is converted into fake structure. This is an ANCHOR_SOLVE item."
+
+  gold_keys:
+    - id: "GK-CRIMINAL-INTOX-SPECIFIC-01"
+      statement: "Voluntary intoxication is charge-specific: it may be considered for a crime requiring specific intent, but not for a general-intent completed battery."
+      type: "distinction"
+      unlocks: "The all/only-attempted-murder/only-battery/none scope trap."
+      trigger: "One intoxication fact is offered against two charged offenses with different mental states."
+      tested_choice: "C"
+      authority: "Lawyer-confirmation only; see legal verification section."
+      last_minute_review: true
+
+  silver_keys:
+    - id: "SK-CRIMINAL-SCOPE-QUARTET-01"
+      statement: "When the choices are all / only first charge / only second charge / none, classify each charge before choosing the scope answer."
+      type: "answer_array"
+      navigates: "Scope quartet and dominant wrong-count trap."
+      trigger: "Answer choices divide admissibility by charged offense."
+      tested_choice: "C"
+      outline_code: "72060101"
+      last_minute_review: true
+
+  remediation:
+    card_id: "REM-CRIMINAL-INTOX-SCOPE-01"
+    title: "Voluntary intoxication scope quartet"
+    signal: "Same intoxication evidence; two charges; choices divide by count."
+    student_move: "Tag the charges: specific-intent count gets the evidence; general-intent count does not."
+    tiny_rule: "Specific intent only."
+    trap: "The visible injury count feels like the place intoxication matters, but the attempted murder intent is the real target."
+    confidence: "PURE_ANCHOR"
+
+  distilled_core_question: "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?"
+  review_truth: "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no."
+
+  case_study_output:
+    final_student_script: "This is a scope quartet. Do not pick all or none yet. Tag the charges. Attempted murder needs intent to kill; battery is the completed general-intent contact count. Intoxication can go only to attempted murder. Pick B."
+    verdict: "ANCHOR_SOLVE"
+
+  quality_control:
+    rule_answer_issue_unchanged: true
+    original_defect_logged: true
+    dominant_trap_preserved: true
+    no_clutter_doctrine_added: true
+    popular_bible_names_only: true
+    single_filter_distractors: 3
+    credited_answer_has_no_filter_broken: true
+    pass_available_for_transformed_item: true
+    transformed_item_has_measured_pick_rates: false
+    pick_rate_provenance_honest: true
+    drift_audit: "transformed_from: 14650; original A/B dual-credit issue repaired by charging battery plus attempted murder."
+
+  analytics_hooks:
+    component_routing:
+      - "Criminal Law"
+      - "General Principles"
+      - "Mens rea ladder"
+      - "Voluntary intoxication"
+      - "Scope quartet"
+    trap_tags:
+      - "wrong_charge_scope"
+      - "specific_vs_general_intent"
+      - "all_none_overclaim"
+    drill_recommendations:
+      - "Charge-specific admissibility drill"
+      - "Specific/general intent sort"
+      - "Scope quartet answer-array drill"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Criminal Law anchor item. The question is not asking whether Peter is guilty. It asks how far voluntary-intoxication evidence travels across two charges.
+
+The construction is a four-corner scope array:
+
+* all charges
+* attempted murder only
+* battery only
+* no charges
+
+## student_access_test
+
+A student can see the answer-array shape without doctrine. A student cannot safely decide the winning scope without the Gold Key.
+
+Result: **ANCHOR_SOLVE**.
+
+## question_data
+
+**Question ID:** 14650_fellowship_picnic
+**Transformed from:** 14650
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** General Principles
+**Credited answer:** B
+**Original source issue:** original row accepted A or B; variation repairs this by charging criminal battery plus attempted murder.
+
+## distilled_core_question
+
+Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?
+
+## call_and_prediction
+
+**Call:** The evidence should be admitted for which charge, if any.
+
+**Prediction:** The answer should limit the evidence to the charge whose mental state intoxication can negate.
+
+**Adjacent-call trap:** Do not answer “is intoxication a complete defense?” The call is only about admissibility scope.
+
+## trigger_facts
+
+1. **Attempted murder charge** — possible specific-intent count.
+2. **Criminal battery charge** — completed physical-contact count.
+3. **Voluntary intoxication** — evidence offered to negate mens rea.
+4. **Common-law intoxication rules** — tells you to use the specific/general intent distinction.
+
+## governing_c3_lane
+
+**Lane:** Criminal Law → charge/defense/result mismatch → mens rea-specificity routing.
+
+**C3 status:** Structure identifies the trap. The Gold Key decides it.
+
+## choice_by_choice_walkthrough
+
+### A. admitted without limitation.
+
+1. **Student-accessible C3 signal:** “Without limitation” is the all-charges corner of the scope quartet.
+2. **Student label:** All-charges overclaim.
+3. **True/responsive version:** “Admitted for any charge requiring specific intent.”
+4. **Lawyer confirmation:** Wrong in the cleaned variation because battery is not the charge whose specific intent the intoxication evidence can negate.
+
+### B. admitted subject to an instruction that it pertains only to the attempted murder charge.
+
+1. **Student-accessible C3 signal:** This is the “only the specific-intent-looking charge” corner.
+2. **Student label:** Residual after the Gold Key.
+3. **True/responsive version:** This is the true/responsive version.
+4. **Lawyer confirmation:** Correct. Attempted murder requires intent to kill; voluntary intoxication evidence is admissible only for that count.
+
+### C. admitted subject to an instruction that it pertains only to the criminal battery charge.
+
+1. **Student-accessible C3 signal:** This is the mirror of B, but routed to the visible injury count.
+2. **Student label:** Wrong-charge trap.
+3. **True/responsive version:** “Only attempted murder charge.”
+4. **Lawyer confirmation:** Wrong. The completed battery count is not where the voluntary-intoxication evidence does the work.
+
+### D. excluded altogether.
+
+1. **Student-accessible C3 signal:** This is the none corner of the scope quartet.
+2. **Student label:** None overclaim.
+3. **True/responsive version:** “Excluded as to battery, admitted as to attempted murder.”
+4. **Lawyer confirmation:** Wrong because the evidence may negate intent to kill for attempted murder.
+
+## residual_answer
+
+**B survives.**
+
+The evidence is admitted, but only with a limiting instruction for attempted murder.
+
+## legal_leak_audit
+
+The decisive rule is not structurally visible from grammar alone. A student needs the Gold Key. The structural part is the answer-array map; the doctrinal part is the specific/general intent distinction.
+
+**Drift audit:** No choice is called wrong on lawyer-only grounds until the Gold Key is invoked. Original A/B ambiguity is logged. The transformed item repairs the source defect.
+
+## final_student_script
+
+“Scope quartet. A says all. D says none. B and C split by charge. Use the Gold Key: voluntary intoxication only matters for specific intent. Attempted murder needs intent to kill. Battery is the completed contact count. So the evidence is admitted only for attempted murder. Pick B.”
+
+## remediation_card
+
+**REM-CRIMINAL-INTOX-SCOPE-01 — Specific intent only**
+
+* **Signal:** Same intoxication evidence; two charges; answers split by charge.
+* **Move:** Tag each charge before picking.
+* **Tiny rule:** Voluntary intoxication goes only to specific-intent charges.
+* **Trap:** The visible wound makes students pick the battery count.
+* **Confidence:** PURE_ANCHOR.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-INTOX-SPECIFIC-01**
+
+Voluntary intoxication is charge-specific: it may be considered for a crime requiring specific intent, but not for a general-intent completed battery.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-SCOPE-QUARTET-01**
+
+When the choices are all / only first charge / only second charge / none, classify each charge before choosing the scope answer.
+
+## qa_checklist
+
+* Rule preserved: yes.
+* Official intended answer preserved: yes, B.
+* Original ambiguity repaired: yes.
+* Dominant trap preserved: yes, wrong charge scope.
+* Christian names used: yes, Peter and Barnabas.
+* No religious-law clutter: yes.
+* Gold Key required: yes.
+* Silver Key required: yes.
+* Verdict: PASS for transformed item.
+
+## wrong_answer_recovery_paths
+
+**A recovery:** Stop treating one admissible use as “all uses.”
+**C recovery:** Do not route intoxication to the most visible injury. Route it to the charge with the specific intent.
+**D recovery:** “Voluntary” does not mean “always excluded.” It means “limited.”
+
+## outline_mastery_map
+
+**Placement:** Criminal Law → General Principles → Mens rea defenses → Voluntary intoxication.
+
+**This item teaches:** scope of voluntary intoxication evidence across multiple charges.
+
+**Fills:** specific intent vs general intent; limiting instruction; wrong-count trap.
+
+**Adjacent to master:** attempt, attempted murder, battery, merger/repair of assault ambiguity.
+
+## crossover_intersection_map
+
+* **Evidence crossover:** limiting instruction by purpose/count.
+* **Criminal Law crossover:** mens rea classification.
+* **C3 crossover:** scope quartet answer-array reading.
+
+## review_truth
+
+Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14650_fellowship_picnic",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060101",
+  "distilled_core_question": "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?",
+  "review_truth": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": "specific-intent charge vs general-intent charge",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "anchor_tiebreaker",
+    "difficulty": 3,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-INTOX-SPECIFIC-01",
+        "explanation": "Admits the evidence without limitation and over-applies a specific-intent intoxication rule to the general-intent battery count."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIMINAL-SCOPE-QUARTET-01",
+        "explanation": "Reverses the scope by routing intoxication only to the battery count instead of the attempted murder count."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-INTOX-SPECIFIC-01",
+        "explanation": "Excludes the evidence altogether and omits its admissible use on the attempted murder count."
+      }
+    ],
+    "analyzer_notes": "drift_audit: original QID 14650 had A/B dual-credit ambiguity. transformed_from: 14650. Variation repairs ambiguity by changing assault to criminal battery while preserving the voluntary-intoxication/specific-intent rule and intended B answer.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-INTOX-SPECIFIC-01",
+        "statement": "Voluntary intoxication is charge-specific: it may be considered for a crime requiring specific intent, but not for a general-intent completed battery.",
+        "type": "distinction",
+        "unlocks": "The all/only attempted murder/only battery/none trap.",
+        "trigger": "One intoxication fact is offered against two charges with different mental states.",
+        "tested_choice": "C",
+        "authority": "Lawyer-confirmation only; see legal verification section.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-SCOPE-QUARTET-01",
+        "statement": "When the choices are all / only first charge / only second charge / none, classify each charge before choosing the scope answer.",
+        "type": "answer_array",
+        "navigates": "Scope quartet and wrong-count trap.",
+        "trigger": "Answer choices divide admissibility by charged offense.",
+        "tested_choice": "C",
+        "outline_code": "72060101",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14650_fellowship_picnic",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?",
+  "review_truth": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+  "tension": {
+    "axis": "specific-intent charge vs general-intent charge",
+    "answer_array": "all / attempted murder only / battery only / none",
+    "resolver": "Gold Key: voluntary intoxication applies only to the specific-intent count."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": "wrong_frame",
+      "why_attractive": "Students know intoxication can negate intent and over-apply it to both charges.",
+      "focus_group_pct": {
+        "value": 28,
+        "provenance": "inherited_original_not_measured_for_transform"
+      }
+    },
+    {
+      "choice": "C",
+      "mold": "backwards",
+      "architecture": "wrong_frame",
+      "why_attractive": "The visible knife wound makes the battery count feel like the charge the evidence should target.",
+      "focus_group_pct": {
+        "value": 43,
+        "provenance": "inherited_original_dominant_trap_not_measured_for_transform"
+      }
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "Students remember that voluntary intoxication is disfavored and turn that into total exclusion.",
+      "focus_group_pct": {
+        "value": 11,
+        "provenance": "inherited_original_not_measured_for_transform"
+      }
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIMINAL-INTOX-SCOPE-01",
+    "title": "Voluntary intoxication scope quartet",
+    "signal": "Same intoxication evidence; two charges; choices divide by count.",
+    "student_move": "Tag the charges before picking the scope answer.",
+    "tiny_rule": "Specific intent only.",
+    "trap": "Do not let the visible injury count pull the evidence away from attempted murder.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": [
+    "specific_vs_general_intent",
+    "charge_scope",
+    "limiting_instruction",
+    "all_none_overclaim",
+    "original_source_defect_awareness"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14650_fellowship_picnic",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?",
+  "review_truth": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student remembers that intoxication can negate intent and applies that rule to every count.",
+      "skipped_move": "Classify each charge before choosing scope.",
+      "recovery_step": "Ask: which count actually requires the intent intoxication can negate?"
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student follows the physical stabbing fact instead of the mental-state element.",
+      "skipped_move": "Use the Gold Key after recognizing the scope quartet.",
+      "recovery_step": "Map attempted murder to specific intent and battery to general intent."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student remembers voluntary intoxication is disfavored and over-converts that into total exclusion.",
+      "skipped_move": "Avoid all-or-nothing thinking.",
+      "recovery_step": "Split admissibility by charge."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "scope_quartet",
+      "target_skill": "Classify all/only/only/none answer arrays.",
+      "prompt": "Evidence applies to one of two charges. Choices say all, only charge 1, only charge 2, none. What is the first move?",
+      "answer": "Classify each charge by the rule before choosing scope."
+    },
+    {
+      "drill_type": "mens_rea_sort",
+      "target_skill": "Specific intent vs general intent.",
+      "prompt": "Attempted murder and battery appear in the same intoxication question. Which count receives the voluntary-intoxication evidence?",
+      "answer": "Attempted murder."
+    },
+    {
+      "drill_type": "trap_recovery",
+      "target_skill": "Recover from visible-injury trap.",
+      "prompt": "The injury count is the most vivid fact. Why might it still be the wrong charge for intoxication evidence?",
+      "answer": "Because admissibility turns on mental-state type, not vividness of the injury."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "scope_quartet",
+      "charge_specific_evidence",
+      "attempted_murder_specific_intent",
+      "battery_general_intent"
+    ],
+    "misconception_tags": [
+      "intoxication_applies_to_all_intent_words",
+      "visible_harm_count_controls",
+      "voluntary_intoxication_always_excluded"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "CUT",
+      "status": "not_sufficient_without_anchor",
+      "lesson": "Do not fake structural certainty."
+    },
+    {
+      "component": "CLASH",
+      "status": "array_shape_identified",
+      "lesson": "Scope quartet."
+    },
+    {
+      "component": "CALL",
+      "status": "deciding_move",
+      "lesson": "Gold Key: specific intent only."
+    }
+  ],
+  "crossovers": [
+    {
+      "area": "Evidence",
+      "connection": "Limiting instruction by admissible purpose/count."
+    },
+    {
+      "area": "Criminal Law",
+      "connection": "Mens rea controls availability of intoxication evidence."
+    },
+    {
+      "area": "C3",
+      "connection": "Answer-array geometry plus anchor."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-INTOX-SPECIFIC-01",
+      "statement": "Voluntary intoxication is charge-specific: it may be considered for a crime requiring specific intent, but not for a general-intent completed battery.",
+      "type": "distinction",
+      "unlocks": "The all/only attempted murder/only battery/none trap.",
+      "trigger": "One intoxication fact is offered against two charges with different mental states.",
+      "tested_choice": "C",
+      "authority": "Lawyer-confirmation only; see legal verification section.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-SCOPE-QUARTET-01",
+      "statement": "When the choices are all / only first charge / only second charge / none, classify each charge before choosing the scope answer.",
+      "type": "answer_array",
+      "navigates": "Scope quartet and wrong-count trap.",
+      "trigger": "Answer choices divide admissibility by charged offense.",
+      "tested_choice": "C",
+      "outline_code": "72060101",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > General Principles > Voluntary Intoxication",
+    "this_item_teaches": "Voluntary intoxication evidence is admitted only for the charge whose specific intent it can negate.",
+    "fills": [
+      "specific/general intent distinction",
+      "attempted murder intent",
+      "general-intent battery",
+      "limiting instruction"
+    ],
+    "adjacent_to_master": [
+      "attempt",
+      "homicide intent",
+      "assault/battery classification",
+      "mistake of fact negating mens rea"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/supct/html/95-566.ZO.html "Montana v. Egelhoff, 518 U.S. 37 (1996)."
+[2]: https://www.justia.com/criminal/defenses/intoxication/ "                The Intoxication Defense in Criminal Law Cases | Criminal Law Center | Justia    "
+[3]: https://www.law.cornell.edu/supct/html/90-5358.ZO.html "Braxton v. United States, 500 U.S. 344 (1991)"
+[4]: https://law.justia.com/cases/california/supreme-court/3d/1/444.html "                People v. Hood ::  :: Supreme Court of California Decisions :: California Case Law :: California Law :: U.S. Law :: Justia    "
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14650_fellowship_picnic",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060101",
+  "distilled_core_question": "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?",
+  "review_truth": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14650; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14650_fellowship_picnic",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?",
+  "review_truth": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14650",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+    "trap": "See preserved traps when present.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14650_fellowship_picnic",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Peter is charged with criminal battery and attempted murder. He offers voluntary-intoxication evidence. For which charge is it admissible?",
+  "review_truth": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72060101",
+    "this_item_teaches": "Voluntary intoxication is charge-specific: specific-intent count yes; general-intent battery no.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

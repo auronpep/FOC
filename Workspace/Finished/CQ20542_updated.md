@@ -1,0 +1,1079 @@
+---
+qid: "20542_praise_festival_cashbox"
+transformed_from: "20542"
+subject: "CRIMINAL"
+topic: "Sixth Amendment"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "75090400"
+key: "B"
+original_key: "A"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label."
+---
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+**Final variant — QID `20542_praise_festival_cashbox`**
+
+Peter is indicted for armed robbery of Lydia’s traveling Scripture-calligraphy booth at a private praise-music festival, and counsel is appointed. Later, while counsel is absent, detectives visit Peter at his apartment. They say they only want to ask whether he committed “the unarmed theft of the cash box from that same booth during the closing-night festival rush.” They obtain no waiver. Peter admits that he took Lydia’s cash box during that incident.
+
+**Call:** Should Peter’s statement be suppressed under the Sixth Amendment?
+
+Source row: the original BarMatrix item is QID 20542, with original key A and a Sixth Amendment post-indictment deliberate-elicitation issue. 
+
+## 2. Distilled Core Question
+
+After indictment and appointed counsel, police question the defendant without counsel or waiver about a relabeled lesser version of the same charged incident. Suppress under the Sixth Amendment?
+
+## 3. Final answer choices — post-shuffle
+
+A. No, because Peter was not in custody when the detectives spoke with him.
+B. Yes, because the questioning concerned the same charged criminal episode and a same-offense variant after attachment.
+C. Yes, because police may not question an indicted defendant about any unrelated offense.
+D. No, because unarmed theft and armed robbery use different labels.
+
+## 4. Correct answer
+
+**B** — original key letter: **A**.
+
+## 5. Letter Map
+
+| Original letter | New letter | Mechanic                                             | Substance | Pick rate     |
+| --------------- | ---------: | ---------------------------------------------------- | --------- | ------------- |
+| A               |          B | correct_answer                                       | kept      | 42% predicted |
+| B               |          D | label-only offense-specific trap / `bait_doctrine`   | kept      | 26% predicted |
+| C               |          A | Fifth Amendment custody-frame trap / `bait_doctrine` | kept      | 20% predicted |
+| D               |          C | global-unrelated-crime overclaim / `tiered_absolute` | kept      | 12% predicted |
+
+Measured focus-group percentages were not supplied in the source row. All rates above are predicted, not measured.
+
+## 6. Full right-answer explanation — exam register
+
+**B is correct.** Peter had been indicted and counsel had been appointed. The detectives then deliberately sought an admission about the same festival-booth incident, merely recast as an unarmed theft rather than armed robbery. They did this without counsel and without a waiver. **Gold Key:** after attachment, the Sixth Amendment bars deliberate elicitation about the charged offense, and a lesser-included or same-offense relabeling does not create a clean new offense. **Silver Key:** do not let the answer turn on the noun-label; lock the call to “Sixth Amendment after indictment” and ask whether the new question is really about the charged event.
+
+## 7. Full wrong-answer explanations
+
+**A.** The custody answer sells the Miranda reflex. It looks attractive because “custody” is a real interrogation word, but the call is Sixth Amendment after attachment, not Fifth Amendment Miranda custody. **Gold Key:** post-charge Sixth Amendment analysis uses deliberate elicitation about the charged offense; custody is not the deciding condition.
+
+**C.** The “any unrelated offense” answer sells a broad defendant-protection version of the rule. Its breaker is the word **any**: the Sixth Amendment right is offense-specific, so the problem here is not a universal ban on unrelated-crime questioning; the problem is that this supposedly narrower theft question still points at the same charged event.
+
+**D.** The label answer sells the real idea that the Sixth Amendment is offense-specific. Its breaker is that labels do not control by themselves. **Gold Key:** a lesser-included or same-Blockburger variant of the charged offense remains inside the attached right, so “unarmed theft” cannot be used as a relabeling escape hatch for the charged armed robbery incident.
+
+## 8. Full black-letter-law verification and right-answer legal reasoning
+
+The governing rule is unchanged from the original: once adversary judicial proceedings begin, the Sixth Amendment right to counsel attaches for the charged offense, and the government may not deliberately elicit statements about that offense outside counsel’s presence without a valid waiver. *Massiah* held that statements deliberately elicited from an indicted defendant in counsel’s absence could not be used at trial; *Fellers* confirms that the Sixth Amendment deliberate-elicitation standard is distinct from Fifth Amendment custodial interrogation. ([Justia Law][1])
+
+The right is offense-specific; it does not automatically bar questioning about all future or unrelated crimes. *McNeil* states that the Sixth Amendment right attaches at or after formal charging events such as indictment and is offense-specific. ([Justia Law][2])
+
+But “offense-specific” does not mean police can evade the attached right by changing the charge label. *Texas v. Cobb* applies the *Blockburger* same-offense test to the Sixth Amendment right-to-counsel context, and *Brown v. Ohio* explains that greater and lesser-included offenses are the same for *Blockburger* purposes. ([Justia Law][3])
+
+Applied here: armed robbery of Lydia’s booth and the unarmed theft of the same cash box during the same incident are not separated by a mere label for Sixth Amendment purposes. Peter’s statement should be suppressed. The tested rule, legal issue, and credited outcome remain unchanged from the original row.
+
+## 9. Brief note on preserved rigor/difficulty
+
+The variation keeps the hard MBE seam: post-indictment Sixth Amendment deliberate elicitation, offense-specific limits, Miranda custody bait, and relabeling as a lesser theft. Difficulty is maintained because the attractive wrong answer is not absurd; it borrows the real “offense-specific” principle and misuses it as label-only reasoning.
+
+## 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Custody is a wrong-frame trap. It answers a Miranda-style question, not the Sixth Amendment call.
+
+**CUT C:** “Any unrelated offense” overclaims. The stem is about the same festival-booth incident, and the rule is not a global unrelated-crime ban.
+
+**CLASH B vs D:** Axis: **substance of same offense vs different label.**
+Splitting fact: detectives asked about the same booth, same cash box, same festival-rush incident, merely without the weapon label.
+Resolution: same-offense variant after attachment. B survives.
+
+**CALL:** No residual call needed after Gold-Key-assisted Clash.
+
+## 11. Divergence Audit — Recognition-Kill Checklist
+
+| Dimension                 | Result                                                                                                                                       |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter    | Convenience-store money changed to Scripture-calligraphy festival cash box.                                                                  |
+| Transaction / event frame | Ordinary store robbery changed to private festival-booth incident. Interrogation legal function preserved.                                   |
+| Specific facts            | “Theft from the same store without the weapon” changed to “unarmed theft of the cash box from the same booth during the festival rush.”      |
+| Numbers                   | No rule-turning numbers in source; none added.                                                                                               |
+| Fact ordering / rhythm    | New stem starts with festival booth and counsel, then moves to apartment visit and cash-box admission.                                       |
+| Cast size / roles         | Owen changed to Peter; private booth owner Lydia added.                                                                                      |
+| Choice ordering           | Shuffled. New key is B.                                                                                                                      |
+| Choice phrasing           | Preserved legal substance; paraphrased around Peter/Lydia and the festival facts.                                                            |
+| Setting / texture         | Convenience store changed to private Christian praise-music festival.                                                                        |
+| Call wording              | Same legal function retained: suppression under the Sixth Amendment.                                                                         |
+| Precedence-rule skips     | The core “indicted / counsel appointed / no waiver / same-offense questioning” facts were not removed because they are legally load-bearing. |
+| Christian skin guardrail  | Private booth and festival setting avoid church-property, First Amendment, charitable-immunity, and church-internal issues.                  |
+
+**Original stem summary:** indicted robbery defendant is questioned without counsel about a relabeled theft from the same convenience-store incident.
+**Variant stem summary:** indicted praise-festival booth robbery defendant is questioned without counsel at home about an unarmed cash-box theft from the same private booth incident.
+
+Recognition test passed.
+
+## 12. Review Truth
+
+After indictment, the Sixth Amendment follows the charged offense in substance, not the police’s new label.
+
+## 13. The 5 variations considered
+
+|  # | Title                                      | Setting / cast                             | Preserved issue                          | Why memorable                                             | Legal risks                                              | Divergence score                                                                                           |
+| -: | ------------------------------------------ | ------------------------------------------ | ---------------------------------------- | --------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+|  1 | **Praise Festival Cash Box** — recommended | Peter, Lydia, private festival booth       | Same-offense relabeling after attachment | Christian music festival + Scripture-calligraphy cash box | Low; private property, no church-law issue               | **9/10**: changes asset, setting, cast, fact rhythm, texture, choice order; keeps legal load-bearing facts |
+|  2 | Gospel Quartet Merch Table                 | Stephen accused; Ruth owns merch table     | Same charged robbery recast as theft     | Tour merch table and hymn CDs                             | Slight risk of over-texture                              | 8/10                                                                                                       |
+|  3 | Bible Memory Contest Prize Envelope        | Timothy accused; Mary runs private contest | Robbery recast as theft                  | Prize envelope at contest                                 | Robbery facts could feel forced                          | 7/10                                                                                                       |
+|  4 | Private Christian Book Fair Donation Tin   | Barnabas accused; Naomi owns booth         | Same-offense relabeling                  | Book fair image                                           | “Donation” wording risk; could create charitable clutter | 6/10                                                                                                       |
+|  5 | Fish-and-Loaves Food Truck Register        | Paul accused; Martha owns food truck       | Robbery recast as theft                  | Food truck and register                                   | Less Christian texture unless overdone                   | 7/10                                                                                                       |
+
+**Pass-1 six-step trace:**
+
+1. Rule identified: post-attachment Sixth Amendment deliberate elicitation about same offense.
+2. Invariant layer preserved: rule, issue, key outcome, label trap, custody trap, unrelated-crime overclaim.
+3. Five Christian variations generated.
+4. Distractor policy applied: no swap; all mechanics are useful and mold-valid.
+5. Final version selected for maximum surface divergence with low clutter risk.
+6. Choices shuffled and Letter Map locked.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+## B1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20542_praise_festival_cashbox"
+  transformed_from: "20542"
+  internal_id: "CR-372"
+  subject: "CRIMINAL"
+  subject_display: "Criminal Procedure"
+  topic: "Sixth Amendment"
+  subtopic: "Constitutional Protection of Accused Persons"
+  outline_code: "75090400"
+  official_key: "B"
+  original_key_letter: "A"
+  call: "Should Peter's statement be suppressed under the Sixth Amendment?"
+  stem: "Peter is indicted for armed robbery of Lydia's traveling Scripture-calligraphy booth at a private praise-music festival, and counsel is appointed. Later, while counsel is absent, detectives visit Peter at his apartment. They say they only want to ask whether he committed 'the unarmed theft of the cash box from that same booth during the closing-night festival rush.' They obtain no waiver. Peter admits that he took Lydia's cash box during that incident."
+  choices:
+    A: "No, because Peter was not in custody when the detectives spoke with him."
+    B: "Yes, because the questioning concerned the same charged criminal episode and a same-offense variant after attachment."
+    C: "Yes, because police may not question an indicted defendant about any unrelated offense."
+    D: "No, because unarmed theft and armed robbery use different labels."
+  selection_percentages:
+    A:
+      value: 20
+      provenance: "predicted"
+    B:
+      value: 42
+      provenance: "predicted"
+    C:
+      value: 12
+      provenance: "predicted"
+    D:
+      value: 26
+      provenance: "predicted"
+
+transform_provenance:
+  transformed_from: "20542"
+  variant_slug: "praise_festival_cashbox"
+  original_key_letter: "A"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 42
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "bait_doctrine_label_only_offense_specificity"
+      substance: "kept"
+      pick_rate:
+        value: 26
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "bait_doctrine_fifth_amendment_custody_frame"
+      substance: "kept"
+      pick_rate:
+        value: 20
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "tiered_absolute_global_unrelated_crime_overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 12
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "An indicted armed-robbery defendant is questioned without counsel about a relabeled theft from the same convenience-store incident."
+    variant_stem_one_sentence: "An indicted praise-festival booth robbery defendant is questioned without counsel at home about an unarmed cash-box theft from the same private booth incident."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific facts"
+      - "fact ordering and rhythm"
+      - "cast"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/era/texture"
+    dimensions_skipped_with_reason:
+      - dimension: "attachment/no waiver facts"
+        reason: "Legally load-bearing for Sixth Amendment attachment and waiver."
+      - dimension: "same-offense relabeling"
+        reason: "Legally load-bearing for the credited answer and dominant trap."
+
+source_stack:
+  - priority: 1
+    source: "Uploaded BarMatrix row for QID 20542"
+    use: "Controls rule, issue, trap structure, original key, explanations."
+  - priority: 2
+    source: "Controlled vocabularies"
+    use: "Controls subject, filters, molds, verdicts, confidence, key types."
+  - priority: 3
+    source: "C3 lessons and deck"
+    use: "Controls CUT -> CLASH -> CALL method and student-access limit."
+  - priority: 4
+    source: "Legal authority"
+    use: "Lawyer confirmation only."
+
+student_access_contract:
+  allowed_universal_lessons:
+    - "TRUE and RESPONSIVE"
+    - "Ear vs Issue-Sense"
+    - "CUT -> CLASH -> CALL"
+    - "Bait architecture: wrong_frame"
+    - "Matched-pair-on-a-fact"
+    - "Calibration"
+  allowed_gold_keys:
+    - "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01"
+    - "GK-CRIMINAL-MASSIAH-CUSTODY-01"
+  allowed_silver_keys:
+    - "SK-CRIMINAL-LABEL-VS-SUBSTANCE-01"
+  prohibited_student_basis:
+    - "Full Supreme Court case analysis"
+    - "Untaught Sixth Amendment doctrine beyond Gold Key"
+
+stem_parse:
+  call_type: "normal"
+  negative_stem: false
+  legal_role: "judge ruling on suppression"
+  subject_fit: "CRIMINAL = constitutional trigger + charged-offense frame + remedy."
+  adjacent_call_traps:
+    - "Fifth Amendment custody / Miranda call"
+    - "Unrelated-crime questioning call"
+    - "Formal label rather than same-offense substance"
+
+trigger_facts:
+  - fact: "Peter is indicted."
+    access_label: "stem_visible"
+    function: "attachment trigger"
+  - fact: "Counsel is appointed."
+    access_label: "stem_visible"
+    function: "right-to-counsel trigger"
+  - fact: "Detectives visit without counsel present."
+    access_label: "stem_visible"
+    function: "counsel absence"
+  - fact: "No waiver is obtained."
+    access_label: "stem_visible"
+    function: "no valid waiver"
+  - fact: "Detectives ask about unarmed theft from the same booth during the same incident."
+    access_label: "stem_visible_plus_gold_key"
+    function: "same-offense relabeling"
+  - fact: "Peter admits taking the cash box during that incident."
+    access_label: "stem_visible"
+    function: "statement to suppress"
+
+c3_routing:
+  subject_fit: "CRIMINAL = constitutional trigger + charged-offense frame + remedy."
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "hard"
+  tension_axis: "same-offense substance versus different label"
+  call_heuristic: null
+
+answer_array:
+  geometry: "3-vs-1 with a Gold-Key CLASH between same-offense substance and label-only offense specificity"
+  credited_answer: "B"
+  dominant_trap_candidate:
+    choice: "D"
+    reason: "It borrows the real offense-specific rule and misuses it as formal-label reasoning."
+  silver_key:
+    id: "SK-CRIMINAL-LABEL-VS-SUBSTANCE-01"
+    type: "clash"
+
+choice_walkthroughs:
+  A:
+    text: "No, because Peter was not in custody when the detectives spoke with him."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "wrong_standard"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Miranda custody frame"
+    c3_signal: "The call says Sixth Amendment, not custody interrogation."
+    lawyer_confirmation: "Fellers distinguishes Sixth Amendment deliberate elicitation from Fifth Amendment custodial interrogation."
+  B:
+    text: "Yes, because the questioning concerned the same charged criminal episode and a same-offense variant after attachment."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "same-offense variant after attachment"
+    c3_signal: "It matches indictment, counsel, no waiver, and the same incident."
+    lawyer_confirmation: "Massiah/Fellers plus Cobb/Blockburger support suppression."
+  C:
+    text: "Yes, because police may not question an indicted defendant about any unrelated offense."
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "exception_omitted"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "global unrelated-crime overclaim"
+    c3_signal: "The word any pushes the rule beyond the charged offense."
+    lawyer_confirmation: "McNeil confirms the Sixth Amendment right is offense-specific."
+  D:
+    text: "No, because unarmed theft and armed robbery use different labels."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "half_right_answer"
+      - "sounds_lawyerly"
+      - "answer_to_different_question"
+      - "common_student_myth"
+    method_class: "anchor_assisted"
+    student_label: "label-only offense-specificity"
+    c3_signal: "It answers by label instead of the stem's same-incident substance."
+    lawyer_confirmation: "Cobb uses Blockburger, and lesser-included variants are same-offense under Brown."
+
+residual_answer:
+  choice: "B"
+  why_survives: "It alone tracks attachment, deliberate questioning, no counsel/no waiver, and same-offense substance."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A is a wrong-frame custody trap."
+      basis: "call wording plus Gold Key"
+      status: "passes"
+    - claim: "C overclaims with any unrelated offense."
+      basis: "answer text plus Gold Key"
+      status: "passes"
+    - claim: "D uses labels rather than same-offense substance."
+      basis: "stem fact plus Gold Key"
+      status: "passes"
+    - claim: "B is residual."
+      basis: "Gold-Key-assisted Clash"
+      status: "passes"
+  lawyer_only_claims_quarantined:
+    - "Massiah"
+    - "Fellers"
+    - "McNeil"
+    - "Texas v. Cobb"
+    - "Brown v. Ohio"
+  drift_audit: "No lawyer-only authority is used as the student's first-pass basis."
+
+gold_keys:
+  - id: "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01"
+    statement: "After formal charge, the Sixth Amendment bars deliberate elicitation about the charged offense without counsel or waiver; a lesser-included or same-Blockburger relabeling stays inside the charged offense."
+    type: "distinction"
+    unlocks: "label-only offense-specificity trap"
+    trigger: "indictment/counsel appointed + police ask about a renamed version of the same incident"
+    tested_choice: "D"
+    authority: "Massiah; Fellers; McNeil; Texas v. Cobb; Brown v. Ohio"
+    last_minute_review: true
+  - id: "GK-CRIMINAL-MASSIAH-CUSTODY-01"
+    statement: "Sixth Amendment post-charge deliberate elicitation is not the same test as Fifth Amendment custodial interrogation."
+    type: "distinction"
+    unlocks: "custody/Miranda wrong-frame trap"
+    trigger: "Sixth Amendment call + post-indictment questioning"
+    tested_choice: "A"
+    authority: "Fellers; Massiah"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-LABEL-VS-SUBSTANCE-01"
+    statement: "When the choices fight over crime labels, go back to the stem and ask whether the officers are really asking about the same charged event in a smaller costume."
+    type: "clash"
+    navigates: "same-offense substance versus different-label trap"
+    trigger: "charged armed robbery followed by police asking about unarmed theft from the same event"
+    tested_choice: "D"
+    outline_code: "75090400"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-20542-SAME-OFFENSE"
+  title: "Same offense, new label"
+  signal: "Police say they only want to ask about a smaller version of the charged incident."
+  student_move: "Do not stop at the label. Compare the factual event and offense substance."
+  tiny_rule: "Post-charge Sixth Amendment protection follows the same offense in substance."
+  trap: "The label-only answer sounds precise but is too shallow."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?"
+review_truth: "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label."
+
+case_study_output:
+  final_student_script: "Sixth Amendment call. Indicted and counsel appointed. No counsel, no waiver. Police asked about the same booth and cash box, just as unarmed theft. Cut custody. Cut any-unrelated overclaim. Clash label versus same-offense substance. Same incident wins. B."
+  residual: "B"
+
+quality_control:
+  pass_requires_three_single_filter_distractors: true
+  exactly_three_distractors_single_filter: true
+  key_breaks_no_filter: true
+  residual_equals_key: true
+  no_fork_forced: true
+  controlled_vocab_used: true
+  gold_key_required_and_present: true
+  silver_key_required_and_present: true
+
+analytics_hooks:
+  forensic_tags:
+    - "sixth_amendment_massiah"
+    - "offense_specificity"
+    - "same_offense_relabeling"
+    - "miranda_custody_bait"
+  misconception_tags:
+    - "custody_required_for_sixth_amendment"
+    - "different_label_means_different_offense"
+    - "indictment_bars_all_future_questioning"
+  drill_targets:
+    - "Gold Key recall"
+    - "wrong_frame CUT"
+    - "same-offense CLASH"
+```
+
+## B2. Student case study — 17 sections
+
+## 1. program_frame
+
+This is a **Sixth Amendment post-charge questioning** item. The trap is not a dramatic fact. The trap is the frame: custody, unrelated crimes, and labels.
+
+## 2. student_access_test
+
+A student can solve this only after a Gold Key. Without the Gold Key, the same-offense/lesser-variant rule is not visible from grammar alone.
+
+Classification: **ANCHOR_SOLVE**.
+
+## 3. question_data
+
+**Stem:** Peter is indicted for armed robbery of Lydia’s traveling Scripture-calligraphy booth at a private praise-music festival. Counsel is appointed. Detectives later visit Peter at his apartment without counsel. They get no waiver. They ask about the unarmed theft of the cash box from that same booth during the same festival incident. Peter admits taking it.
+
+**Call:** Should the statement be suppressed under the Sixth Amendment?
+
+**Choices:**
+A. No — not in custody.
+B. Yes — same charged episode / same-offense variant after attachment.
+C. Yes — no questioning about any unrelated offense.
+D. No — different labels.
+
+## 4. distilled_core_question
+
+After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?
+
+## 5. call_and_prediction
+
+**Call lock:** suppression under the Sixth Amendment.
+
+**Prediction:** suppress if this is the same charged offense in substance. Do not answer a Miranda custody question. Do not answer a global unrelated-crime question.
+
+## 6. trigger_facts
+
+| Trigger fact                               | Why it matters          |
+| ------------------------------------------ | ----------------------- |
+| Peter is indicted                          | Attachment signal       |
+| Counsel is appointed                       | Right-to-counsel signal |
+| Counsel absent                             | Counsel gap             |
+| No waiver                                  | No waiver escape        |
+| Same booth / same cash box / same incident | Same-offense substance  |
+| “Unarmed theft” label                      | Relabeling trap         |
+
+## 7. governing_c3_lane
+
+**Lane:** Criminal Procedure right-to-counsel frame.
+
+**Workflow:** CUT wrong frames first. Then CLASH the remaining label-vs-substance pair.
+
+**Gold Key needed:** post-charge Sixth Amendment deliberate elicitation about the same offense is not controlled by custody and cannot be escaped by relabeling the same charged event.
+
+## 8. choice_by_choice_walkthrough
+
+### Choice A
+
+1. **Student-accessible C3 signal:** The answer uses the custody word. The call says Sixth Amendment.
+2. **Student label:** Miranda custody frame.
+3. **What a true/responsive version would look like:** “No, because the questioning concerned a genuinely uncharged, separate offense outside the attached right.”
+4. **Lawyer confirmation:** Custody is a Fifth Amendment/Miranda concept. Sixth Amendment post-charge deliberate elicitation uses a different test.
+
+### Choice B
+
+1. **Student-accessible C3 signal:** It matches every trigger: indictment, appointed counsel, no waiver, and same-event questioning.
+2. **Student label:** Same-offense variant after attachment.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** Post-indictment deliberate elicitation about the charged offense without counsel or waiver violates the Sixth Amendment.
+
+### Choice C
+
+1. **Student-accessible C3 signal:** The word **any** is too big. The stem is not about a truly unrelated offense.
+2. **Student label:** Global unrelated-crime overclaim.
+3. **What a true/responsive version would look like:** “Yes, because this was the same offense in substance, not because all unrelated questioning is forbidden.”
+4. **Lawyer confirmation:** The right is offense-specific. It does not bar all questioning about unrelated crimes.
+
+### Choice D
+
+1. **Student-accessible C3 signal:** This answer stops at labels. The stem gives same booth, same cash box, same incident.
+2. **Student label:** Label-only offense-specificity.
+3. **What a true/responsive version would look like:** “No, because the officers questioned Peter about a genuinely separate offense requiring different proof, not a lesser version of the charged event.”
+4. **Lawyer confirmation:** Same-offense analysis is not label-only; lesser-included and same-Blockburger variants remain inside the attached right.
+
+## 9. residual_answer
+
+**Residual:** B.
+
+It is the only answer that is both true and responsive after the Gold-Key-assisted Clash.
+
+## 10. legal_leak_audit
+
+The student may use: call words, indictment, counsel appointed, no waiver, same event, answer-label mismatch, and the Gold Keys.
+
+The student may not be asked to derive: *Massiah*, *Fellers*, *McNeil*, *Cobb*, *Blockburger*, or *Brown* from scratch.
+
+Drift audit: All dispositive student moves are stem-visible, answer-text visible, or Gold-Key assisted; authority remains in lawyer confirmation.
+
+## 11. final_student_script
+
+Sixth Amendment call. Peter was indicted and counsel was appointed. Detectives came without counsel and got no waiver. They asked about the same booth, same cash box, same incident, just under the smaller “unarmed theft” label. Cut A: custody is the wrong frame. Cut C: **any unrelated offense** overclaims. Clash B and D: same offense in substance or different label. Same substance wins. Pick **B**.
+
+## 12. remediation_card
+
+**Card ID:** CRIM-REM-20542-SAME-OFFENSE
+**Title:** Same offense, new label
+**Signal:** Police say they only want to ask about a smaller version of the charged incident.
+**Student move:** Do not stop at the label. Compare the factual event and offense substance.
+**Tiny rule:** Post-charge Sixth Amendment protection follows the same offense in substance.
+**Trap:** The label-only answer sounds precise but is too shallow.
+**Confidence:** ANCHOR_ASSISTED
+
+## Gold Key(s)
+
+**GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01**
+After formal charge, the Sixth Amendment bars deliberate elicitation about the charged offense without counsel or waiver; a lesser-included or same-Blockburger relabeling stays inside the charged offense.
+Type: `distinction`.
+
+**GK-CRIMINAL-MASSIAH-CUSTODY-01**
+Sixth Amendment post-charge deliberate elicitation is not the same test as Fifth Amendment custodial interrogation.
+Type: `distinction`.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-LABEL-VS-SUBSTANCE-01**
+When the choices fight over crime labels, go back to the stem and ask whether the officers are really asking about the same charged event in a smaller costume.
+Type: `clash`.
+
+## 13. qa_checklist
+
+| Check                                      | Result |
+| ------------------------------------------ | ------ |
+| Key breaks no filter                       | Pass   |
+| Three distractors each break one filter    | Pass   |
+| Residual equals official key after shuffle | Pass   |
+| No fork forced                             | Pass   |
+| Gold Key present                           | Pass   |
+| Silver Key present                         | Pass   |
+| Controlled vocabulary used                 | Pass   |
+
+## 14. wrong_answer_recovery_paths
+
+| Choice | Recovery path                                                                              |
+| ------ | ------------------------------------------------------------------------------------------ |
+| A      | When you see “custody,” ask whether the call is Fifth or Sixth Amendment.                  |
+| C      | When you see **any**, check whether the answer is bigger than the actual rule.             |
+| D      | When two crime names differ, compare the event and elements instead of trusting the label. |
+
+## 15. outline_mastery_map
+
+**Outline placement:** `75090400` — Criminal Law and Procedure → Constitutional Protection of Accused Persons → Sixth Amendment—Other Rights of the Accused → Right to Counsel.
+
+**This item teaches:** attachment, deliberate elicitation, no waiver, offense-specific boundary.
+
+**Adjacent mastery:** Fifth Amendment Miranda custody; Double Jeopardy same-offense analysis; suppression remedy.
+
+## 16. crossover_intersection_map
+
+| Crossover                             | How it appears                                      |
+| ------------------------------------- | --------------------------------------------------- |
+| Fifth Amendment / Miranda             | A uses custody bait.                                |
+| Double Jeopardy / Blockburger         | Same-offense analysis uses the same-elements idea.  |
+| Sixth Amendment offense-specificity   | D overuses a real rule.                             |
+| Criminal-law lesser-included offenses | Theft is a smaller version of robbery in substance. |
+
+## 17. review_truth
+
+After indictment, the Sixth Amendment follows the charged offense in substance, not the police’s new label.
+
+## B3. c3_annotation
+
+```json
+{
+  "question_id": "20542_praise_festival_cashbox",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "75090400",
+  "distilled_core_question": "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?",
+  "review_truth": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "same-offense substance versus different label",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-MASSIAH-CUSTODY-01",
+        "explanation": "The choice uses a Fifth Amendment custody frame when the call asks for Sixth Amendment suppression after attachment."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01",
+        "explanation": "The choice overclaims by treating indictment as a bar to questioning about any unrelated offense."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01",
+        "explanation": "The choice borrows offense-specificity but answers by formal labels rather than same-offense substance."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "All student-facing legal conclusions are stem-visible, answer-text visible, or Gold-Key assisted; case authority is quarantined to lawyer confirmation.",
+      "transformed_from": "20542",
+      "letter_map": "A->B; B->D; C->A; D->C",
+      "pick_rate_note": "All emitted pick rates are predicted because measured original rates were not supplied."
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01",
+        "statement": "After formal charge, the Sixth Amendment bars deliberate elicitation about the charged offense without counsel or waiver; a lesser-included or same-Blockburger relabeling stays inside the charged offense.",
+        "type": "distinction",
+        "unlocks": "label-only offense-specificity trap",
+        "trigger": "indictment/counsel appointed + police ask about a renamed version of the same incident",
+        "tested_choice": "D",
+        "authority": "Massiah; Fellers; McNeil; Texas v. Cobb; Brown v. Ohio",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIMINAL-MASSIAH-CUSTODY-01",
+        "statement": "Sixth Amendment post-charge deliberate elicitation is not the same test as Fifth Amendment custodial interrogation.",
+        "type": "distinction",
+        "unlocks": "custody/Miranda wrong-frame trap",
+        "trigger": "Sixth Amendment call + post-indictment questioning",
+        "tested_choice": "A",
+        "authority": "Fellers; Massiah",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-LABEL-VS-SUBSTANCE-01",
+        "statement": "When the choices fight over crime labels, go back to the stem and ask whether the officers are really asking about the same charged event in a smaller costume.",
+        "type": "clash",
+        "navigates": "same-offense substance versus different-label trap",
+        "trigger": "charged armed robbery followed by police asking about unarmed theft from the same event",
+        "tested_choice": "D",
+        "outline_code": "75090400",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## B4. program_elements
+
+```json
+{
+  "question_id": "20542_praise_festival_cashbox",
+  "subject": "CRIMINAL",
+  "outline_code": "75090400",
+  "distilled_core_question": "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?",
+  "review_truth": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+  "tension": {
+    "axis": "same-offense substance versus different label",
+    "splitting_fact": "The question concerned the same booth, same cash box, and same festival incident."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student sees a police-questioning problem and reaches for custody because custody is a real Miranda trigger. The breaker is that the call is Sixth Amendment deliberate elicitation after attachment, not Fifth Amendment custodial interrogation.",
+      "focus_group_pct": 20,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "tiered_absolute",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student remembers that indictment gives the defendant a strong counsel right and inflates it into a universal shield. The breaker is that the Sixth Amendment right is offense-specific, so unrelated-crime questioning is not categorically barred by this rule.",
+      "focus_group_pct": 12,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student remembers the true phrase offense-specific and treats different crime names as enough. The breaker is that the stem points to the same charged event in a lesser-offense costume, so label-only reasoning is not responsive.",
+      "focus_group_pct": 26,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-20542-SAME-OFFENSE",
+    "title": "Same offense, new label",
+    "signal": "Police say they only want to ask about a smaller version of the charged incident.",
+    "student_move": "Do not stop at the label. Compare the factual event and offense substance.",
+    "tiny_rule": "Post-charge Sixth Amendment protection follows the same offense in substance.",
+    "trap": "The label-only answer sounds precise but is too shallow.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "Miranda custody lure",
+    "offense-specificity overread",
+    "crime-label formalism",
+    "unrelated-crime overclaim",
+    "post-indictment no-waiver trigger"
+  ]
+}
+```
+
+## B5. program_intelligence
+
+```json
+{
+  "question_id": "20542_praise_festival_cashbox",
+  "subject": "CRIMINAL",
+  "outline_code": "75090400",
+  "distilled_core_question": "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?",
+  "review_truth": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees police questioning and defaults to custody.",
+      "skipped_move": "Call lock: Sixth Amendment, not Miranda.",
+      "recovery_step": "Mark custody as wrong-frame unless the call asks Fifth Amendment or Miranda."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student overprotects the indicted defendant and treats counsel as a global shield.",
+      "skipped_move": "Offense-specific boundary check.",
+      "recovery_step": "Strike any answer that bars any unrelated offense unless a Gold Key says the right is global."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student remembers offense-specificity and stops at different labels.",
+      "skipped_move": "Same-offense substance Clash.",
+      "recovery_step": "Compare the event and lesser-included relation before trusting labels."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "Sixth Amendment attachment and same-offense boundary",
+      "prompt": "After indictment, police ask without counsel about a relabeled lesser version of the charged incident. What is the trigger?",
+      "answer": "Same charged offense in substance after attachment; suppress without counsel or waiver."
+    },
+    {
+      "drill_type": "Wrong-frame CUT",
+      "target_skill": "Miranda vs Massiah",
+      "prompt": "A choice says no suppression because the defendant was not in custody. The call is Sixth Amendment after indictment. Cut or keep?",
+      "answer": "Cut as bait_doctrine / wrong_frame."
+    },
+    {
+      "drill_type": "CLASH axis",
+      "target_skill": "same offense versus different label",
+      "prompt": "One answer says same charged offense; another says different labels. What fact decides?",
+      "answer": "Whether the questioning targets the same incident and same offense in substance."
+    },
+    {
+      "drill_type": "Overclaim scan",
+      "target_skill": "tiered_absolute",
+      "prompt": "Police may not question an indicted defendant about any unrelated offense. What is the mold?",
+      "answer": "tiered_absolute; the Sixth Amendment right is offense-specific."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "sixth_amendment",
+      "right_to_counsel",
+      "deliberate_elicitation",
+      "offense_specific",
+      "same_offense_variant",
+      "suppression"
+    ],
+    "misconception_tags": [
+      "custody_required",
+      "different_label_controls",
+      "indictment_bars_all_questioning",
+      "same_event_not_enough_without_same_offense_check"
+    ]
+  },
+  "component_routing": [
+    "Gold Key recall",
+    "CUT wrong_frame",
+    "CLASH same-offense substance",
+    "Calibration anchor_assisted"
+  ],
+  "crossovers": [
+    {
+      "domain": "Fifth Amendment Miranda",
+      "intersection": "Custody is relevant there, not to the Sixth Amendment deliberate-elicitation standard."
+    },
+    {
+      "domain": "Double Jeopardy",
+      "intersection": "Same-offense and lesser-included reasoning borrows the Blockburger idea."
+    },
+    {
+      "domain": "Criminal Law",
+      "intersection": "Robbery contains a theft core, making label-only reasoning dangerous."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01",
+      "statement": "After formal charge, the Sixth Amendment bars deliberate elicitation about the charged offense without counsel or waiver; a lesser-included or same-Blockburger relabeling stays inside the charged offense.",
+      "type": "distinction",
+      "unlocks": "label-only offense-specificity trap",
+      "trigger": "indictment/counsel appointed + police ask about a renamed version of the same incident",
+      "tested_choice": "D",
+      "authority": "Massiah; Fellers; McNeil; Texas v. Cobb; Brown v. Ohio",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-MASSIAH-CUSTODY-01",
+      "statement": "Sixth Amendment post-charge deliberate elicitation is not the same test as Fifth Amendment custodial interrogation.",
+      "type": "distinction",
+      "unlocks": "custody/Miranda wrong-frame trap",
+      "trigger": "Sixth Amendment call + post-indictment questioning",
+      "tested_choice": "A",
+      "authority": "Fellers; Massiah",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-LABEL-VS-SUBSTANCE-01",
+      "statement": "When the choices fight over crime labels, go back to the stem and ask whether the officers are really asking about the same charged event in a smaller costume.",
+      "type": "clash",
+      "navigates": "same-offense substance versus different-label trap",
+      "trigger": "charged armed robbery followed by police asking about unarmed theft from the same event",
+      "tested_choice": "D",
+      "outline_code": "75090400",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "75090400",
+    "this_item_teaches": "Sixth Amendment right to counsel after attachment; deliberate elicitation; offense-specific scope; same-offense relabeling.",
+    "fills": [
+      "attachment trigger",
+      "no waiver",
+      "same-offense variant",
+      "custody wrong-frame"
+    ],
+    "adjacent_to_master": [
+      "75080102",
+      "75080402",
+      "75100000"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/377/201/?utm_source=chatgpt.com "Massiah v. United States | 377 U.S. 201 (1964) | Justia U.S. Supreme Court Center"
+[2]: https://supreme.justia.com/cases/federal/us/501/171/?utm_source=chatgpt.com "McNeil v. Wisconsin | 501 U.S. 171 (1991) | Justia U.S. Supreme Court Center"
+[3]: https://supreme.justia.com/cases/federal/us/532/162/?utm_source=chatgpt.com "Texas v. Cobb | 532 U.S. 162 (2001) | Justia U.S. Supreme Court Center"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20542_praise_festival_cashbox"
+  question_id: "20542_praise_festival_cashbox"
+  subject: "CRIMINAL"
+  topic: "Sixth Amendment"
+  subtopic: "Constitutional Protection of Accused Persons"
+  outline_code: "75090400"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "20542"
+  variant_slug: "praise_festival_cashbox"
+  original_key_letter: "A"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?"
+review_truth: "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20542_praise_festival_cashbox; source 20542.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Sixth Amendment; subtopic Constitutional Protection of Accused Persons.
+4. **distilled_core_question:** After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 75090400.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 75090400.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20542_praise_festival_cashbox",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "75090400",
+  "distilled_core_question": "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?",
+  "review_truth": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20542; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20542_praise_festival_cashbox",
+  "subject": "CRIMINAL",
+  "outline_code": "75090400",
+  "distilled_core_question": "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?",
+  "review_truth": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20542",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20542_praise_festival_cashbox",
+  "subject": "CRIMINAL",
+  "outline_code": "75090400",
+  "distilled_core_question": "After indictment and counsel, police ask without waiver about a relabeled lesser version of the same charged incident. Suppress?",
+  "review_truth": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75090400",
+    "this_item_teaches": "After indictment, the Sixth Amendment follows the charged offense in substance, not the police's new label.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,4 @@
+"Name","Command","Location","User"
+"electron.app.LM Studio","C:\Users\Blessed\AppData\Local\Programs\LM Studio\LM Studio.exe --run-as-service","HKU\S-1-5-21-2369937846-1027655405-735039739-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run","HAILKINGJESUS\Blessed"
+"SecurityHealth","%windir%\system32\SecurityHealthSystray.exe","HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run","Public"
+"RtkAudUService","""C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_01de91f5c3258938\RtkAudUService64.exe"" -background","HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run","Public"

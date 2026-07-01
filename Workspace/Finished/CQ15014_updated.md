@@ -1,0 +1,859 @@
+---
+qid: "15014"
+transformed_from: "15014"
+subject: "REAL_PROPERTY"
+topic: "Rights in Land"
+subtopic: "Equitable Servitudes / Restrictive Covenants"
+outline_code: "81020502"
+key: "D"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Review truth not available in source file."
+---
+```yaml
+barmatrix_row:
+  qid: "15014"
+  subject: "REAL_PROPERTY"
+  subject_display: "Real Property"
+  topic: "Rights in Land"
+  subtopic: "Equitable Servitudes / Restrictive Covenants"
+  outline_code: "81020502"
+  percent_correct: 77
+  selection_percentages:
+    A: 7
+    B: 7
+    C: 9
+    D: 77
+  stem: "A landowner owned a large tract of land known as Peterhill. During the landowner's lifetime, the landowner conveyed the easterly half (East Peterhill), situated in one municipality, to a farmer, and the westerly half (West Peterhill), situated in a different municipality, to a teacher. Each of the conveyances, which were promptly and properly recorded, contained the following language: The parties agree for themselves and their heirs and assigns that the premises herein conveyed shall be used only for residential purposes; that each lot created within the premises herein conveyed shall contain not less than five acres; and that each lot shall have not more than one single-family dwelling. This agreement shall bind all successor owners of all or any portion of Peterhill and any owner of any part of Peterhill may enforce this covenant. After the landowner's death, the farmer desired to build houses on one-half acre lots in the East Peterhill tract as authorized by current applicable zoning and building codes in its municipality. The area surrounding East Peterhill in the municipality was developed as a residential community with homes built on one-half acre lots. West Peterhill was in a residential area covered by the other municipality's zoning code, which allowed residential development only on five-acre tracts of land. In an appropriate action brought by the teacher to enjoin the farmer's proposed construction on one-half acre lots, the court will find the quoted restriction to be"
+  call: "In an appropriate action brought by the teacher to enjoin the farmer's proposed construction on one-half acre lots, the court will find the quoted restriction to be"
+  choices:
+    A: "invalid, because of the change of circumstance in the neighborhood."
+    B: "invalid, because it conflicts with the applicable zoning code."
+    C: "valid, but only so long as the original grantees from the landowner own their respective tracts of Peterhill."
+    D: "valid, because the provision imposed an equitable servitude."
+  official_key: "D"
+  official_explanation: "D is correct. The restriction described in the facts constitutes an equitable servitude. The deeds show intent to bind successors, recording provides notice, and the restriction touches and concerns the land."
+  wrong_answer_explanations:
+    A: "The facts do not show a legally sufficient change in condition that defeats the restriction."
+    B: "Zoning permission does not make a stricter private restriction invalid."
+    C: "Privity is required for real covenants, not for equitable servitudes."
+  additional_info: ""
+  lb_rule_reference: ""
+  lb_student_diagnostic: ""
+
+source_stack:
+  - "BarMatrix row 15014"
+  - "Existing C3 tag hypothesis: CLASH; HEURISTIC STRUCTURAL candidate; 2x2 matrix"
+  - "Controlled vocabularies"
+  - "C3 Lessons 1, 2, 4, 7, 8, 9, 10, 12, 13, 14"
+  - "C3 Master Deck RP-06: Covenants vs equitable servitudes"
+  - "Official legal explanation used only for lawyer confirmation"
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old who completed only C3 and the taught Real Property tiny anchor identify the choice's problem without outside doctrine?"
+  allowed_lessons_and_anchors:
+    - "TRUE and RESPONSIVE"
+    - "CUT -> CLASH -> CALL"
+    - "Predict before peeking"
+    - "Issue-Sense: bait doctrine and wrong element"
+    - "Ear: overclaim"
+    - "Clash axis: equitable servitude versus original-owner/privity limit"
+    - "Tiny anchor: equitable servitude for injunction needs intent, notice, touch-and-concern; privity is not required"
+  forbidden_moves:
+    - "Do not teach a full servitudes outline."
+    - "Do not say zoning automatically controls private restrictions without the tiny anchor."
+    - "Do not turn changed circumstances into a clean structural cut without checking whether the facts trigger it."
+
+stem_parse:
+  legal_setting: "Private land-use restriction in recorded deeds"
+  parties:
+    original_landowner: "landowner"
+    east_owner: "farmer"
+    west_owner: "teacher"
+  land:
+    original_tract: "Peterhill"
+    east_half: "East Peterhill"
+    west_half: "West Peterhill"
+  deed_language:
+    residential_use_only: true
+    minimum_lot_size: "five acres"
+    dwelling_limit: "not more than one single-family dwelling per lot"
+    successor_language: "bind all successor owners"
+    enforcement_language: "any owner of any part of Peterhill may enforce"
+  recording: "promptly and properly recorded"
+  requested_remedy: "injunction against one-half acre construction"
+  farmer_plan: "one-half acre residential lots on East Peterhill"
+  zoning_fact: "East Peterhill zoning permits the proposed one-half acre lots"
+  neighborhood_fact: "area surrounding East Peterhill has one-half acre residential lots"
+  west_fact: "West Peterhill zoning allows residential development only on five-acre tracts"
+  call_type: "validity/enforceability of quoted restriction"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "public zoning permission versus private restriction"
+    - "changed neighborhood around East Peterhill versus servitude validity"
+    - "real covenant privity versus equitable servitude injunction"
+
+trigger_facts:
+  - fact: "The deeds were promptly and properly recorded."
+    access_label: "student_visible"
+    legal_role: "notice"
+    c3_role: "supports the equitable-servitude anchor"
+  - fact: "The deeds say the agreement binds successors and may be enforced by any owner of Peterhill."
+    access_label: "student_visible"
+    legal_role: "intent to run and mutual enforceability"
+    c3_role: "cuts the original-grantees-only limit"
+  - fact: "The restriction controls use, lot size, and number of dwellings."
+    access_label: "student_visible"
+    legal_role: "touches and concerns land"
+    c3_role: "supports the valid-servitude answer"
+  - fact: "The teacher seeks an injunction."
+    access_label: "student_visible"
+    legal_role: "equitable remedy"
+    c3_role: "points to equitable servitude rather than damages covenant"
+  - fact: "Zoning permits one-half acre lots in East Peterhill."
+    access_label: "student_visible"
+    legal_role: "zoning trap"
+    c3_role: "tempts choice B"
+  - fact: "Surrounding land near East Peterhill has one-half acre homes."
+    access_label: "student_visible"
+    legal_role: "changed-circumstances trap"
+    c3_role: "tempts choice A but does not defeat the restriction on these facts"
+
+c3_routing:
+  subject_fit: "Real Property = property-interest classification + running/enforcement trigger."
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  deciding_choice: "D"
+  deciding_choice_method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  fork_type: null
+  fork_reason: null
+  agrees_with_official_key: true
+  dominant_trap: "C"
+  dominant_trap_basis: "highest wrong-answer pick rate and real-covenant/equitable-servitude confusion"
+
+answer_array:
+  architecture: "valid/invalid split plus covenant-versus-servitude layer fight"
+  geometry: "A and B say invalid for external conditions; C and D say valid but fight over whether the restriction runs beyond original grantees."
+  array_read:
+    A: "invalid because neighborhood changed"
+    B: "invalid because zoning permits the project"
+    C: "valid but original-grantee limited"
+    D: "valid as equitable servitude"
+  clash_axis: "Does the restriction operate as an equitable servitude enforceable by injunction, or is it limited to original grantees?"
+  splitting_fact_or_anchor: "Recorded deeds show successor intent and notice; teacher seeks an injunction; the use restriction touches the land."
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "fact_not_in_evidence"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    c3_signal: "This choice points to changed circumstances around East Peterhill, but the stem does not give the needed trigger that the restriction has lost its value across the restricted/benefited land."
+    student_label: "changed-circumstances bait"
+    true_or_responsive_version: "A responsive changed-circumstances answer would need facts showing the restriction's purpose has been defeated so enforcement would no longer benefit the land."
+    lawyer_confirmation: "Changed conditions can affect enforcement of an equitable servitude, but these facts do not show a sufficient change defeating the restriction."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "common_student_myth"
+      - "wrong_standard"
+      - "bar_exam_bait"
+      - "misstated_rule"
+    method_class: "anchor_assisted"
+    c3_signal: "The stem says zoning authorizes the farmer's plan; it does not say zoning requires the plan. A stricter private restriction can coexist with more permissive zoning."
+    student_label: "zoning permission overread"
+    true_or_responsive_version: "A true zoning answer would say that zoning permission does not by itself erase a stricter private servitude."
+    lawyer_confirmation: "Public zoning sets what the municipality permits; it does not invalidate a stricter private land-use restriction."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "exception_omitted"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    c3_signal: "The phrase 'only so long as' imposes an original-owner limit. The deed text says the opposite: heirs, assigns, successors, and any owner of Peterhill."
+    student_label: "original-grantees-only overclaim"
+    true_or_responsive_version: "A true version would say the restriction is valid and may run because the deed shows successor intent, notice, and land-use burden/benefit."
+    lawyer_confirmation: "Privity is required for some real-covenant damages analysis, but an equitable servitude enforced by injunction does not require privity."
+  D:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    c3_signal: "This choice matches the remedy and the deed facts: injunction, recorded restriction, successor language, and land-use limits."
+    student_label: "equitable-servitude survivor"
+    true_or_responsive_version: "Already true and responsive."
+    lawyer_confirmation: "The restriction is enforceable as an equitable servitude because the facts show intent, notice, and touch-and-concern; the teacher seeks equitable relief."
+
+residual_answer:
+  answer: "D"
+  why_survives: "It is the only answer that matches both the call and the land-use restriction facts. The teacher seeks an injunction, and the recorded deeds show successor intent, notice, and a land-use restriction."
+  confidence_band: "ANCHOR_ASSISTED"
+
+legal_leak_audit:
+  student_accessible:
+    - claim: "Zoning permission is not the same thing as invalidating a private restriction."
+      support: "tiny anchor plus stem wording"
+      status: "allowed"
+    - claim: "C overclaims with 'only so long as' because the deed speaks in successor language."
+      support: "answer text plus stem fact"
+      status: "allowed"
+    - claim: "D is the survivor because the injunction frame points to equitable servitude."
+      support: "RP-06 tiny anchor"
+      status: "allowed"
+  lawyer_only:
+    - claim: "Full doctrinal taxonomy of real covenants, equitable servitudes, horizontal privity, vertical privity, and equitable defenses."
+      quarantine: "lawyer_confirmation only"
+    - claim: "Precise jurisdiction-specific changed-circumstances doctrine."
+      quarantine: "lawyer_confirmation only"
+  audit_result: "No student-facing conclusion depends on untaught doctrine beyond the disclosed Real Property tiny anchor."
+
+gold_keys:
+  - id: "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-01"
+    statement: "An equitable servitude enforced by injunction needs intent, notice, and a restriction that touches and concerns the land. Privity is not required."
+    type: "distinction"
+    unlocks: "the original-grantees-only trap in choice C"
+    trigger: "recorded deed restriction plus injunction request"
+    tested_choice: "C"
+    authority: "Official BarMatrix explanation; traditional equitable servitude doctrine"
+    last_minute_review: true
+  - id: "GK-REAL_PROPERTY-ZONING-SERVITUDE-01"
+    statement: "Permissive zoning does not wipe out a stricter private land-use restriction."
+    type: "rule"
+    unlocks: "the zoning-conflict trap in choice B"
+    trigger: "zoning permits smaller lots but the deed restriction requires larger lots"
+    tested_choice: "B"
+    authority: "Official BarMatrix explanation; private servitude doctrine"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-REAL_PROPERTY-SERVITUDE-ARRAY-01"
+    statement: "When the answer set splits valid/invalid and one valid answer says 'only original grantees,' check the deed language for successor words before importing a privity limit."
+    type: "answer_array"
+    navigates: "C versus D"
+    trigger: "heirs, assigns, successors, and any owner may enforce"
+    tested_choice: "C"
+    outline_code: "81020502"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-RP-EQUITABLE-SERVITUDE-15014"
+  title: "Injunction Means Equitable Servitude"
+  signal: "Recorded deed restriction; successor language; private owner seeks injunction."
+  student_move: "Check intent, notice, and land-use burden/benefit. Do not demand privity."
+  tiny_anchor: "Equitable servitude = injunction + intent + notice + touch-and-concern; no privity."
+  trap: "Real-covenant privity/original-owner thinking."
+  drill_seed: "Give students four deed-restriction choices: zoning, changed circumstances, original owners only, equitable servitude."
+
+case_study_output:
+  verdict: "ANCHOR_SOLVE"
+  final_student_script: "The teacher wants an injunction. That points to equitable servitude. The deeds were recorded, say heirs/assigns/successors, and restrict land use and lot size. Zoning permission does not erase the private restriction, and it is not limited to original grantees. Pick D."
+  residual: "D"
+
+quality_control:
+  official_key_matches_residual: true
+  exactly_three_distractors: true
+  each_distractor_has_one_filter: true
+  credited_answer_has_no_filter_broken: true
+  controlled_vocab_checked: true
+  outline_code_verified: true
+  pass_available: true
+  bank_validation_verdict: "PASS"
+
+analytics_hooks:
+  outline_code: "81020502"
+  primary_component: "Real Property equitable servitude running with land"
+  deciding_phase: "CLASH"
+  dominant_trap_choice: "C"
+  dominant_trap_pick_rate: 9
+  most_common_wrong_move: "Importing a real-covenant/original-owner limitation into an equitable-servitude injunction item."
+  review_queue: false
+```
+
+## 2. Student Case Study
+
+### 1. program_frame
+
+This is a Real Property servitudes item. The stem is not asking whether the farmer’s plan is good land use. It asks whether a recorded private restriction can be enforced by injunction.
+
+The working frame:
+
+**Recorded deed restriction + injunction = think equitable servitude.**
+
+### 2. student_access_test
+
+This item is **anchor-assisted**. A student can see several structural signals, but the clean solve requires a tiny anchor:
+
+**Gold Key:** An equitable servitude enforced by injunction needs intent, notice, and a restriction that touches and concerns the land. Privity is not required.
+
+That anchor is enough. No full servitudes outline is needed.
+
+### 3. question_data
+
+**QID:** 15014
+**Subject:** Real Property
+**Topic:** Rights in Land
+**Subtopic:** Equitable Servitudes / Restrictive Covenants
+**Outline code:** 81020502
+**Official key:** D
+**Pick rates:** A 7%, B 7%, C 9%, D 77%
+
+Dominant trap: **C**, because it says the restriction is valid but limits it to original grantees.
+
+### 4. call_and_prediction
+
+The call asks what the court will find the quoted restriction to be in an action by the teacher to **enjoin** the farmer’s proposed construction.
+
+Prediction before choices:
+
+The restriction should be valid if the deed restriction works as an equitable servitude. The stem gives successor language, recording, and land-use limits. The teacher seeks an injunction. Expect the answer to say valid equitable servitude.
+
+### 5. trigger_facts
+
+The key facts are not the surrounding homes or the zoning code. They are the deed facts.
+
+The deeds were promptly and properly recorded. That supplies notice.
+
+The deeds say the agreement binds heirs, assigns, and successor owners, and any owner of Peterhill may enforce it. That supplies intent.
+
+The restriction controls residential use, minimum lot size, and dwelling count. That touches the land.
+
+The teacher seeks an injunction. That points to equitable servitude rather than damages covenant.
+
+### 6. governing_c3_lane
+
+**Lane:** Anchor-assisted CLASH.
+
+The item first cuts invalidity answers, then resolves the valid-answer pair.
+
+A and B say the restriction is invalid. C and D say it is valid. The real fight is between C and D:
+
+**C:** valid, but only while original grantees own the land.
+**D:** valid as an equitable servitude.
+
+The axis is: **original-owner/privity limit versus equitable-servitude enforcement.**
+
+### 7. choice_by_choice_walkthrough
+
+#### A. invalid, because of the change of circumstance in the neighborhood.
+
+1. **Student-accessible C3 signal:** This choice points to the surrounding neighborhood, but the stem does not show that the restriction’s purpose has been defeated across the restricted/benefited land. West Peterhill still sits in a five-acre residential zoning area.
+
+2. **Student label:** changed-circumstances bait.
+
+3. **What a true/responsive version would look like:** “Invalid because changed conditions have made the restriction useless or inequitable to enforce” would need stronger facts showing the covenant’s purpose has collapsed.
+
+4. **Lawyer confirmation:** Changed conditions can affect equitable-servitude enforcement, but these facts do not show a legally sufficient change. A is not the credited answer.
+
+#### B. invalid, because it conflicts with the applicable zoning code.
+
+1. **Student-accessible C3 signal:** The stem says zoning permits one-half acre lots. It does not say zoning requires them. A stricter private restriction can coexist with more permissive zoning.
+
+2. **Student label:** zoning permission overread.
+
+3. **What a true/responsive version would look like:** “Zoning permits the farmer’s plan, but private restrictions may still be stricter.”
+
+4. **Lawyer confirmation:** A zoning ordinance does not invalidate a private servitude merely because the zoning code permits more intensive use. B is not the credited answer.
+
+#### C. valid, but only so long as the original grantees from the landowner own their respective tracts of Peterhill.
+
+1. **Student-accessible C3 signal:** The phrase “only so long as” is the tell. The deed says heirs, assigns, successor owners, and any owner of Peterhill may enforce. C imposes a limit the deed language is trying to avoid.
+
+2. **Student label:** original-grantees-only overclaim.
+
+3. **What a true/responsive version would look like:** “Valid and enforceable by successors if the equitable-servitude requirements are met.”
+
+4. **Lawyer confirmation:** Privity is a real-covenant issue. An equitable servitude enforced by injunction does not require privity. C is the dominant trap.
+
+#### D. valid, because the provision imposed an equitable servitude.
+
+1. **Student-accessible C3 signal:** This matches the stem’s remedy and facts: injunction, recorded deeds, successor language, and a land-use restriction.
+
+2. **Student label:** equitable-servitude survivor.
+
+3. **What a true/responsive version would look like:** This is already true and responsive.
+
+4. **Lawyer confirmation:** The facts establish intent, notice, and touch-and-concern. The restriction is valid as an equitable servitude.
+
+### 8. residual_answer
+
+The residual answer is **D**.
+
+A and B try to make the restriction invalid. C makes it valid but wrongly limits enforcement to original grantees. D uses the correct category for an injunction enforcing a recorded land-use restriction.
+
+### 9. legal_leak_audit
+
+The student-facing path is allowed because it uses the taught tiny anchor.
+
+Allowed: “injunction points to equitable servitude.”
+Allowed: “successor language defeats original-grantees-only.”
+Allowed: “permissive zoning does not erase stricter private restrictions.”
+
+Quarantined to lawyer confirmation: full real-covenant/equitable-servitude taxonomy, privity subdivisions, and jurisdiction-specific changed-circumstances doctrine.
+
+### 10. final_student_script
+
+“The teacher wants an injunction, so think equitable servitude. The deeds were recorded, restrict land use, and say heirs, assigns, successors, and any owner can enforce. Zoning permission does not erase the private restriction. It is not limited to original grantees. Pick D.”
+
+### 11. remediation_card
+
+**Card:** Injunction Means Equitable Servitude
+**Signal:** recorded deed restriction plus injunction request.
+**Move:** check intent, notice, and touch-and-concern.
+**Tiny anchor:** no privity required for equitable servitude.
+**Trap:** treating the item like a real-covenant damages question.
+
+### 12. qa_checklist
+
+The credited answer is true and responsive.
+Each distractor breaks one filter.
+The official key and C3 residual match.
+The item is not hard-structural because the deciding move needs the equitable-servitude anchor.
+Verdict: **PASS / ANCHOR_SOLVE**.
+
+### 13. wrong_answer_recovery_paths
+
+If a student picked **A**, they overtrusted the neighborhood-change fact. Recovery: ask whether the restriction’s purpose has been defeated, not merely whether nearby land looks different.
+
+If a student picked **B**, they treated zoning as superior to private restrictions. Recovery: permissive zoning is a floor/permission, not a private-covenant eraser.
+
+If a student picked **C**, they imported the wrong servitude category. Recovery: injunction means equitable servitude; do not demand privity.
+
+### 14. outline_mastery_map
+
+**81020502 — Equitable Servitudes / Restrictive Covenants > Running with the land**
+
+Mastery target: identify when a recorded private land-use restriction can be enforced by an owner through injunction against another owner.
+
+One-sentence rule: Equitable servitudes run when the facts show intent, notice, and a land-use burden/benefit; privity is not required.
+
+### 15. crossover_intersection_map
+
+This item intersects with three common traps.
+
+Real Property × zoning: public zoning permission does not defeat stricter private restrictions.
+
+Real Property × remedies: injunction points to equitable servitude.
+
+Real Property × answer-array reading: when two answers say “valid,” pick the one that explains the correct enforcement layer, not the one that adds a limiting condition.
+
+## 3. `c3_annotation` JSON
+
+```json
+{
+  "qid": "15014",
+  "subject": "REAL_PROPERTY",
+  "topic": "Rights in Land",
+  "subtopic": "Equitable Servitudes / Restrictive Covenants",
+  "outline_code": "81020502",
+  "official_key": "D",
+  "credited_answer": "D",
+  "residual": "D",
+  "percent_correct": 77,
+  "selection_percentages": {
+    "A": 7,
+    "B": 7,
+    "C": 9,
+    "D": 77
+  },
+  "case_study_verdict": "ANCHOR_SOLVE",
+  "bank_validation_verdict": "PASS",
+  "confidence": "ANCHOR_ASSISTED",
+  "governing_law_type": "RULE",
+  "deciding_phase": "CLASH",
+  "dominant_trap": {
+    "choice": "C",
+    "basis": "highest wrong-answer pick rate and equitable-servitude/privity confusion"
+  },
+  "student_access_contract": {
+    "method": "anchor_assisted",
+    "tiny_anchor_required": "Equitable servitude enforced by injunction requires intent, notice, and touch-and-concern; privity is not required."
+  },
+  "choice_annotations": {
+    "A": {
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "bait_doctrine",
+      "mold_family": "ISSUE_SENSE",
+      "bait_architecture_code": "wrong_frame",
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "attractive_wrong_answer",
+        "fact_not_in_evidence",
+        "answer_to_different_question",
+        "bar_exam_bait"
+      ]
+    },
+    "B": {
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "flat_misstatement",
+      "mold_family": "EAR_FALSITY",
+      "bait_architecture_code": "wrong_frame",
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "common_student_myth",
+        "wrong_standard",
+        "bar_exam_bait",
+        "misstated_rule"
+      ]
+    },
+    "C": {
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "tiered_absolute",
+      "mold_family": "EAR_OVERCLAIM",
+      "bait_architecture_code": "wrong_frame",
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "attractive_wrong_answer",
+        "overbroad_rule",
+        "exception_omitted",
+        "bar_exam_bait"
+      ]
+    },
+    "D": {
+      "filter_broken": null,
+      "mold_code": null,
+      "mold_family": null,
+      "bait_architecture_code": null,
+      "method_class": "anchor_assisted",
+      "wrong_answer_architecture_tags": [
+        "correct_answer"
+      ]
+    }
+  },
+  "gold_keys": [
+    {
+      "id": "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-01",
+      "statement": "An equitable servitude enforced by injunction needs intent, notice, and a restriction that touches and concerns the land. Privity is not required.",
+      "type": "distinction",
+      "unlocks": "the original-grantees-only trap",
+      "trigger": "recorded deed restriction plus injunction request",
+      "tested_choice": "C",
+      "authority": "Official BarMatrix explanation; traditional equitable servitude doctrine",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-REAL_PROPERTY-ZONING-SERVITUDE-01",
+      "statement": "Permissive zoning does not wipe out a stricter private land-use restriction.",
+      "type": "rule",
+      "unlocks": "the zoning-conflict trap",
+      "trigger": "zoning permits smaller lots but the deed restriction requires larger lots",
+      "tested_choice": "B",
+      "authority": "Official BarMatrix explanation; private servitude doctrine",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-REAL_PROPERTY-SERVITUDE-ARRAY-01",
+      "statement": "When the answer set splits valid/invalid and one valid answer says 'only original grantees,' check the deed language for successor words before importing a privity limit.",
+      "type": "answer_array",
+      "navigates": "C versus D",
+      "trigger": "heirs, assigns, successors, and any owner may enforce",
+      "tested_choice": "C",
+      "outline_code": "81020502",
+      "last_minute_review": true
+    }
+  ],
+  "analyzer_notes": "drift_audit: anchor-assisted, not hard structural; existing CLASH tag accepted but downgraded from heuristic candidate to anchor-assisted because the decisive equitable-servitude/privity distinction is a Real Property anchor. transformed_from: null. letter_map: not applicable."
+}
+```
+
+## 4. `program_elements` JSON
+
+```json
+{
+  "qid": "15014",
+  "program_frame": "Real Property servitudes item testing whether a recorded private land-use restriction is enforceable by injunction as an equitable servitude.",
+  "traps": [
+    {
+      "choice": "A",
+      "name": "changed-circumstances bait",
+      "trap_type": "wrong_frame",
+      "student_error": "Treating nearby development as enough to invalidate the restriction."
+    },
+    {
+      "choice": "B",
+      "name": "zoning permission overread",
+      "trap_type": "wrong_frame",
+      "student_error": "Treating permissive zoning as if it defeats private restrictions."
+    },
+    {
+      "choice": "C",
+      "name": "original-grantees-only overclaim",
+      "trap_type": "dominant_trap",
+      "student_error": "Importing a privity/original-owner limit into an equitable-servitude injunction item."
+    }
+  ],
+  "tensions": [
+    {
+      "axis": "validity versus invalidity",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "resolver": "A and B are invalidity traps; the deed facts point to enforceability."
+    },
+    {
+      "axis": "original-grantee limit versus equitable servitude",
+      "choices": [
+        "C",
+        "D"
+      ],
+      "resolver": "Recorded deed language plus injunction points to equitable servitude without privity."
+    }
+  ],
+  "remediation_card": {
+    "id": "REM-RP-EQUITABLE-SERVITUDE-15014",
+    "title": "Injunction Means Equitable Servitude",
+    "signal": "recorded deed restriction plus injunction request",
+    "tiny_anchor": "equitable servitude = intent + notice + touch-and-concern; no privity",
+    "student_move": "Do not demand original-grantee ownership when the deed uses successor language.",
+    "red_zone": "Real Property servitude category confusion"
+  },
+  "red_zones": [
+    "Real Property: covenants versus equitable servitudes",
+    "Real Property: zoning versus private restrictions",
+    "C3: answer-array valid/invalid split",
+    "C3: overclaim in limiting words such as 'only'"
+  ],
+  "qa": {
+    "pass_requirements_met": true,
+    "official_key_matches_residual": true,
+    "requires_anchor": true,
+    "legal_leak_risk": "medium"
+  }
+}
+```
+
+## 5. `program_intelligence` JSON
+
+```json
+{
+  "qid": "15014",
+  "component_routing": {
+    "primary_component": "Real Property equitable servitudes",
+    "secondary_component": "private restrictions versus zoning",
+    "c3_components": [
+      "CUT",
+      "CLASH",
+      "anchor-assisted residual",
+      "answer-array reading"
+    ],
+    "outline_code": "81020502"
+  },
+  "wrong_answer_recovery": {
+    "A": {
+      "diagnosis": "Student overread the neighborhood-change fact.",
+      "repair": "Require a fact showing the restriction's purpose is defeated before using changed circumstances."
+    },
+    "B": {
+      "diagnosis": "Student treated zoning permission as controlling over private restrictions.",
+      "repair": "Drill zoning-permits versus covenant-restricts distinctions."
+    },
+    "C": {
+      "diagnosis": "Student confused real covenant/privity thinking with equitable-servitude injunction analysis.",
+      "repair": "Drill injunction = equitable servitude; no privity required."
+    }
+  },
+  "drill_seeds": [
+    {
+      "id": "DRILL-RP-ES-01",
+      "prompt": "Recorded deed restriction says successors are bound; owner seeks injunction. Which category is live?",
+      "target": "equitable servitude"
+    },
+    {
+      "id": "DRILL-RP-ES-02",
+      "prompt": "Zoning permits smaller lots; private covenant requires larger lots. Does zoning erase the covenant?",
+      "target": "no"
+    },
+    {
+      "id": "DRILL-RP-ES-03",
+      "prompt": "Answer says valid only while original grantees own. Stem says heirs, assigns, successors. What is the C3 signal?",
+      "target": "overclaim / successor-language clash"
+    }
+  ],
+  "trap_tags": [
+    "bar_exam_bait",
+    "overbroad_rule",
+    "wrong_standard",
+    "fact_not_in_evidence",
+    "common_student_myth"
+  ],
+  "gold_keys": [
+    "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-01",
+    "GK-REAL_PROPERTY-ZONING-SERVITUDE-01"
+  ],
+  "silver_keys": [
+    "SK-REAL_PROPERTY-SERVITUDE-ARRAY-01"
+  ],
+  "crossover_intersections": [
+    {
+      "intersection": "Real Property x Civil Procedure remedy posture",
+      "note": "The requested injunction is the signal for equitable servitude."
+    },
+    {
+      "intersection": "Real Property x Public/private law layer",
+      "note": "Zoning permission is public law; private servitudes can be stricter."
+    },
+    {
+      "intersection": "C3 x Overclaim",
+      "note": "Choice C's 'only so long as' imposes a limitation the stem's successor language resists."
+    }
+  ],
+  "outline_mastery": {
+    "code": "81020502",
+    "name": "Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Running with the land",
+    "mastery_statement": "Student can identify a recorded land-use restriction enforceable by injunction as an equitable servitude and avoid importing privity/original-owner limitations."
+  },
+  "analytics": {
+    "case_study_verdict": "ANCHOR_SOLVE",
+    "bank_validation_verdict": "PASS",
+    "confidence": "ANCHOR_ASSISTED",
+    "dominant_trap_choice": "C",
+    "dominant_trap_pick_rate": 9,
+    "review_queue": false
+  }
+}
+```
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "15014"
+  question_id: "15014"
+  subject: "REAL_PROPERTY"
+  topic: "Rights in Land"
+  subtopic: "Equitable Servitudes / Restrictive Covenants"
+  outline_code: "81020502"
+  official_key: "D"
+transform_provenance:
+  transformed_from: "15014"
+  variant_slug: "15014"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "D"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "D"
+distilled_core_question: "Distilled core question not available in source file."
+review_truth: "Review truth not available in source file."
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "15014",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "D",
+  "outline_code": "81020502",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Review truth not available in source file.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 15014; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "15014",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020502",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Review truth not available in source file.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-15014",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Review truth not available in source file.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "15014",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020502",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Review truth not available in source file.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "81020502",
+    "this_item_teaches": "Review truth not available in source file.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

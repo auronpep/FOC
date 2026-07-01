@@ -1,0 +1,1084 @@
+---
+qid: "14701"
+transformed_from: "14701"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Inchoate Crimes"
+outline_code: "00000000"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"B"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source lock.** The source row is BARMATRIX Q#14701, Criminal Law / Inchoate Crimes, official key A, with pick rates A 84%, B 10%, C 2%, D 4%; the official explanation tests attempted murder by specific intent plus substantial step, and rejects recklessness, imminent-danger, and principal-liability-cap arguments.  The requested build also requires a Christian transform, honest pick-rate provenance, Gold Keys when anchor-dependent, Silver Keys for navigation moves, and five ingestible C3 blocks.  The reasoning-creed posture was reviewed and used as a constraint: preserve the ambitious creative transform, but quarantine proof and legal authority to the lawyer-confirmation layer. 
+
+### 1. Final question — chosen Christian variation
+
+**Question ID:** `14701_christian_bookstore_agent`
+
+Lydia was fired by Peter, the director of a private Christian bookstore. Lydia wanted revenge against Peter, but decided against trying to do it herself because she knew Peter was protected by private security guards whenever he was at the store.
+
+Lydia knew that Stephen had a violent temper and was very jealous. Lydia falsely told Stephen that Stephen’s wife, Ruth, was having an affair with Peter. Enraged, Stephen said, “What am I going to do?” Lydia replied, “If it were my spouse, I’d walk into Peter’s office and shoot him.”
+
+Stephen grabbed a revolver and rushed to the bookstore. He walked into the bookstore carrying the gun in his hand. One of the security guards, believing a robbery was about to occur, shot and killed Stephen.
+
+If charged with attempted murder of Peter, Lydia should be found:
+
+### 2. Distilled Core Question
+
+A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?
+
+### 3. Final answer choices
+
+A. **Guilty**, because Lydia intended to kill Peter and used Stephen to carry out her plan.
+
+B. **Guilty**, because Lydia was extremely reckless as to Peter.
+
+C. **Not guilty**, because Peter was never in imminent danger of being killed.
+
+D. **Not guilty**, because Stephen, if successful, would be guilty of no more than manslaughter and an accessory cannot be guilty of a higher crime than the principal.
+
+### 4. Possible replacement answer choices
+
+No replacement is locked. All original distractors are retained in reskinned form because each tests a distinct high-value misunderstanding.
+
+| Choice | Original pick % | Keep / replace | Reason                                                                                                           |
+| ------ | --------------: | -------------- | ---------------------------------------------------------------------------------------------------------------- |
+| B      |             10% | Keep           | Dominant wrong answer. Clean wrong-mental-state trap: recklessness is not enough for attempt.                    |
+| C      |              2% | Keep           | Low pick rate, but clean fabricated-threshold trap: “imminent danger” confuses attempt with completion.          |
+| D      |              4% | Keep           | Low pick rate, but valuable advanced trap: principal’s mitigation does not cap instigator’s own higher mens rea. |
+
+Optional unused replacement for C, if the bank wanted a stronger low-pick distractor:
+
+> C. Not guilty, because Stephen was killed before he fired a shot.
+
+Mold: `fabricated_rule`; filter: `NOT_TRUE`; reason: invents a “shot fired” threshold for attempt. Not used because the original “imminent danger” language better preserves the official trap.
+
+### 5. Correct answer
+
+**A. Guilty, because Lydia intended to kill Peter and used Stephen to carry out her plan.**
+
+### 6. Full right-answer explanation
+
+A is correct.
+
+**Gold Key:** Attempted murder requires the intent to kill plus a substantial step toward killing. Extreme recklessness is not enough. A substantial step can be using, urging, or manipulating another person to carry out the killing.
+
+**Silver Key:** Do not ask whether Peter was actually reached. The call is attempted murder by the instigator. Lock the instigator’s mental state and the instigator’s step.
+
+Lydia wanted Peter killed. She chose Stephen because she knew he was violent and jealous. She lied to trigger Stephen’s jealousy, then gave him the killing script. Stephen armed himself and went to Peter’s workplace. That leaves A as the true and responsive answer.
+
+### 7. Full wrong-answer explanations
+
+**B is wrong.** It keeps the guilty outcome but swaps the mental state. **Gold Key:** attempt is not an extreme-recklessness crime. The answer must say intent to kill, not merely risk creation.
+
+**C is wrong.** It invents a danger-zone requirement. **Silver Key:** the fact that the guard stopped Stephen goes to completion, not attempt. Attempt asks whether the instigator took a substantial step with the required intent.
+
+**D is wrong.** It caps Lydia’s guilt by Stephen’s likely mitigation. **Gold Key:** the instigator/helper can be judged by her own mental state. Stephen’s possible manslaughter mitigation does not automatically reduce Lydia’s own attempted-murder liability.
+
+### 8. Black-letter verification and legal reasoning
+
+The tested rule is unchanged from Q14701: attempted murder requires intent that murder occur and a substantial step toward that murder; recklessness alone does not suffice. The Model Penal Code formulation of attempt includes purposeful conduct constituting a substantial step, and it also expressly covers conduct designed to aid another’s commission of a crime even if the other person does not complete or attempt the crime. ([Open Casebook][1]) Federal pattern-instruction commentary notes the First Circuit’s adoption of the MPC attempt standard and states that factual impossibility is not a defense to attempt. ([Massachusetts Bankruptcy Court][2])
+
+The official answer is also consistent with the personal-mens-rea principle for accomplice/instigator liability: aider guilt is based on the aider’s own acts and mental state, and mitigation personal to the direct actor does not automatically reduce the aider. *People v. McCoy* describes aider liability as based on the direct actor’s conduct plus the aider’s own acts and mental state, and gives an Iago/Othello-type jealousy hypothetical matching this fact pattern’s logic. ([Justia Law][3])
+
+### 9. Why this variation preserves rigor/difficulty
+
+The transform preserves every legal moving part: protected target, revenge motive, use of a jealous violent intermediary, false affair trigger, explicit kill suggestion, armed rush to the target’s workplace, interruption by guard, and the same four-answer trap set. It adds Christian flavor through a private Christian bookstore and Bible names without adding First Amendment, church-governance, property, competency, or contract clutter.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT B:** wrong mental-state answer. It says “extremely reckless.” The Gold Key requires intent to kill for attempted murder.
+
+**CUT C:** fabricated threshold. It says Peter was never in imminent danger. The Gold Key asks substantial step, not actual danger arrival.
+
+**CUT D:** absolute cap. It says an accessory cannot be guilty of a higher crime than the principal. The Gold Key says the instigator’s own mens rea controls.
+
+**Residual:** A. No CLASH remains after anchor-assisted CUT.
+
+### 11. Review Truth
+
+For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.
+
+### 12. The five variations considered
+
+|  # | Title                         | Setting / cast                                                               | Preserved issue                                               | Memorable hook                                    | Legal risk                                                | Decision   |
+| -: | ----------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------- | ---------- |
+|  1 | **Christian Bookstore Agent** | Lydia, Peter, Stephen, Ruth at a private Christian bookstore                 | Attempted murder by manipulating violent jealous intermediary | “Bible bookstore revenge plot” is vivid but clean | Security at bookstore must not imply public/church law    | **Chosen** |
+|  2 | Chapel Coffee Bar Closing     | Mary fired by John from a private coffee bar near a chapel; Paul manipulated | Same                                                          | “Latte line turned lethal”                        | Chapel reference could distract toward religious premises | Rejected   |
+|  3 | Bible College Tutoring Office | Esther fired by Daniel from a private tutor program; Timothy manipulated     | Same                                                          | Law-school adjacent, clean private setting        | Slightly less Christian-memorable                         | Rejected   |
+|  4 | Seminary Book Fair Booth      | Martha fired by Barnabas from a private vendor booth; Stephen manipulated    | Same                                                          | Funny fair-booth image                            | Book fair crowd could add bystander clutter               | Rejected   |
+|  5 | Private Choir-Robe Shop       | Ruth fired by Peter from a robe shop; Paul manipulated                       | Same                                                          | Memorable Christian object                        | Too quirky; robe shop not as credible for security        | Rejected   |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  question_id: "14701_christian_bookstore_agent"
+  transformed_from: "14701"
+  original_qid: "14701"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Inchoate Crimes"
+  source_question_summary: "Instigator uses a jealous violent intermediary to attempt killing a protected target."
+  selection_percentages:
+    provenance: "inherited_from_original_for_kept_reskinned_choices"
+    percent_correct_original: 84
+    A:
+      percent: 84
+      provenance: "inherited"
+    B:
+      percent: 10
+      provenance: "inherited"
+      dominant_wrong_answer: true
+    C:
+      percent: 2
+      provenance: "inherited"
+    D:
+      percent: 4
+      provenance: "inherited"
+  official_key: "A"
+  transformed_call: "If charged with attempted murder of Peter, Lydia should be found:"
+  call_type: "ordinary_positive"
+  choices:
+    A: "Guilty, because Lydia intended to kill Peter and used Stephen to carry out her plan."
+    B: "Guilty, because Lydia was extremely reckless as to Peter."
+    C: "Not guilty, because Peter was never in imminent danger of being killed."
+    D: "Not guilty, because Stephen, if successful, would be guilty of no more than manslaughter and an accessory cannot be guilty of a higher crime than the principal."
+
+source_stack:
+  priority_1_barmatrix_row:
+    qid: "14701"
+    status: "primary"
+    cited_source: "uploaded 14701.md"
+    official_key: "A"
+    official_explanation_locked: true
+  priority_2_existing_c3_tags:
+    status: "none supplied for this exact transformed item"
+  priority_3_c3_method:
+    cards_used:
+      - "PHIL-01 TRUE and RESPONSIVE"
+      - "PHIL-02 Ear vs Issue-Sense"
+      - "PHIL-04 Cut → Clash → Call"
+      - "CRIM-ANCHOR-ATTEMPT-MENS-REA"
+      - "CRIM-ANCHOR-ATTEMPT-AGENT-SUBSTANTIAL-STEP"
+  priority_4_lawyer_confirmation:
+    quarantine: true
+    authorities:
+      - "Model Penal Code § 5.01"
+      - "First Circuit pattern instruction commentary on attempt / factual impossibility"
+      - "People v. McCoy, 25 Cal. 4th 1111 (2001)"
+
+student_access_contract:
+  allowed_universal_lessons:
+    - "L1 TRUE and RESPONSIVE"
+    - "L2 Ear, Issue-Sense, Cut → Clash → Call"
+    - "L3 Rules vs Standards"
+    - "L4 Overclaim family"
+    - "L5 Falsity family"
+    - "L7 Predict before you peek"
+    - "L8 Not-responsive molds"
+    - "L12 Anchors"
+    - "L13 Calibration"
+    - "L14 Integration"
+  allowed_subject_overlay:
+    subject_fit: "Criminal = mens rea + actus reus + defenses; inchoate crimes require the target mental state plus a substantial step."
+    overlay_source: "Criminal anchor map / C3 criminal subject FIT"
+  taught_gold_keys:
+    - "GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01"
+    - "GK-CRIMINAL-HELPER-HIGHER-MENS-REA-01"
+  taught_silver_keys:
+    - "SK-CRIMINAL-ATTEMPT-ARRAY-01"
+  controlling_test_result: "Anchor-assisted. A student cannot honestly cut all distractors from grammar alone; the attempt and accomplice-mens-rea anchors do the deciding work."
+
+stem_parse:
+  transformed_stem: "Lydia was fired by Peter, the director of a private Christian bookstore. Lydia wanted revenge against Peter, but decided against trying to do it herself because she knew Peter was protected by private security guards whenever he was at the store. Lydia knew that Stephen had a violent temper and was very jealous. Lydia falsely told Stephen that Stephen’s wife, Ruth, was having an affair with Peter. Enraged, Stephen said, “What am I going to do?” Lydia replied, “If it were my spouse, I’d walk into Peter’s office and shoot him.” Stephen grabbed a revolver and rushed to the bookstore. He walked into the bookstore carrying the gun in his hand. One of the security guards, believing a robbery was about to occur, shot and killed Stephen."
+  parties:
+    instigator: "Lydia"
+    target: "Peter"
+    intermediary: "Stephen"
+    intermediary_spouse: "Ruth"
+    interrupter: "private security guard"
+  call:
+    text: "If charged with attempted murder of Peter, Lydia should be found:"
+    negative_stem_inversion: false
+    adjacent_call_traps:
+      - "completed murder of Peter"
+      - "Stephen's liability if successful"
+      - "whether Peter was actually in immediate danger"
+      - "whether Lydia was reckless rather than intentional"
+  predicted_answer_before_choices: "Guilty if Lydia intended Peter's killing and took a substantial step by manipulating Stephen into going armed to Peter's workplace."
+
+trigger_facts:
+  - fact: "Lydia wanted revenge against Peter."
+    access_label: "stem_visible"
+    c3_role: "motive; not enough alone"
+  - fact: "Lydia decided not to try personally because Peter was guarded."
+    access_label: "stem_visible"
+    c3_role: "shows transfer-to-agent plan"
+  - fact: "Lydia knew Stephen was violent and jealous."
+    access_label: "stem_visible"
+    c3_role: "agent-selection fact"
+  - fact: "Lydia falsely told Stephen that Ruth was having an affair with Peter."
+    access_label: "stem_visible"
+    c3_role: "provocation/manipulation step"
+  - fact: "Lydia told Stephen she would walk into Peter's office and shoot him."
+    access_label: "stem_visible"
+    c3_role: "kill-script fact"
+  - fact: "Stephen grabbed a revolver and rushed to the bookstore."
+    access_label: "stem_visible"
+    c3_role: "agent acted on the plan"
+  - fact: "Stephen was killed before Peter was shot or reached."
+    access_label: "stem_visible"
+    c3_role: "completion failed; attempt still possible"
+
+c3_routing:
+  subject_fit: "Criminal Law = mens rea + actus reus / inchoate attempt"
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: null
+  call_heuristic: null
+  c3_note: "All three wrong choices are cut once the attempt-mens-rea and agent/accomplice Gold Keys are active."
+
+answer_array:
+  geometry: "2 yes / 2 no outcome array"
+  outcome_split:
+    guilty:
+      - "A: intent + use of agent"
+      - "B: extreme recklessness"
+    not_guilty:
+      - "C: no imminent danger"
+      - "D: principal/accessory cap"
+  dominant_trap:
+    choice: "B"
+    original_pick_percent: 10
+    trap: "Treats attempted murder like a recklessness crime."
+  silver_key:
+    id: "SK-CRIMINAL-ATTEMPT-ARRAY-01"
+    reason: "The array separates mental-state answers from completion/failure answers."
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Residual: true and responsive once the attempt-agent Gold Key is active."
+    c3_signal: "A is the only answer that states intent to kill plus use of Stephen as the instrument."
+    lawyer_confirmation: "Attempt liability can rest on purposeful conduct constituting a substantial step; conduct designed to aid another can be attempt even if the other person does not complete the offense."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "wrong_mental_state"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Wrong mental state."
+    c3_signal: "The answer says reckless, while the Gold Key says attempted murder requires intent to kill."
+    lawyer_confirmation: "Extreme recklessness is not enough for attempted murder; attempt requires the target intent for the attempted homicide."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "fabricated_rule"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "misstated_rule"
+      - "wrong_timing"
+      - "fact_not_in_evidence"
+      - "answer_to_different_question"
+    method_class: "anchor_assisted"
+    student_label: "Invented completion/danger threshold."
+    c3_signal: "The call asks attempt; the answer demands actual imminent danger."
+    lawyer_confirmation: "A substantial step is enough; factual impossibility or interruption before actual danger does not defeat attempt."
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "exception_omitted"
+      - "sounds_lawyerly"
+      - "wrong_mental_state"
+    method_class: "anchor_assisted"
+    student_label: "Absolute principal-liability cap."
+    c3_signal: "The answer says an accessory cannot be guilty of a higher crime; the Gold Key says the helper's own mens rea can matter."
+    lawyer_confirmation: "The instigator/helper can be more culpable than the direct actor when the helper has the higher mens rea and the direct actor has a personal mitigation."
+
+residual_answer:
+  choice: "A"
+  answer_text: "Guilty, because Lydia intended to kill Peter and used Stephen to carry out her plan."
+  why_residual: "After anchor-assisted cuts to B, C, and D, A is the only true-and-responsive answer."
+  official_key_match: true
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B uses wrong mental-state category."
+      status: "passes with Gold Key"
+    - claim: "C invents an imminent-danger requirement."
+      status: "passes with Gold Key"
+    - claim: "D overclaims by capping helper liability at principal liability."
+      status: "passes with Gold Key"
+    - claim: "A survives because it matches intent plus use-of-agent facts."
+      status: "passes with Gold Key"
+  quarantined_to_lawyer_confirmation:
+    - "MPC §5.01 details"
+    - "factual impossibility doctrine"
+    - "accomplice-greater-than-principal cases"
+  drift_audit: "No choice is called false from structure alone. Every doctrinal cut is labeled anchor_assisted and tied to a Gold Key."
+
+gold_keys:
+  - id: "GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01"
+    statement: "Attempted murder requires intent to kill plus a substantial step; extreme recklessness is not enough. Manipulating another person to go carry out the killing can be the substantial step."
+    type: "rule"
+    unlocks: "B and C"
+    trigger: "Instigator wants target killed, sends/uses another person, and completion is interrupted."
+    tested_choice: "B"
+    authority: "Model Penal Code § 5.01; First Circuit attempt instruction commentary"
+    last_minute_review: true
+  - id: "GK-CRIMINAL-HELPER-HIGHER-MENS-REA-01"
+    statement: "A helper or instigator is judged by that person's own mental state; the direct actor's personal mitigation does not automatically cap the helper's liability."
+    type: "distinction"
+    unlocks: "D"
+    trigger: "Direct actor may have heat-of-passion mitigation, but instigator planned a killing."
+    tested_choice: "D"
+    authority: "People v. McCoy, 25 Cal. 4th 1111 (2001)"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-ATTEMPT-ARRAY-01"
+    statement: "On an attempt-by-instigator array, sort first by the instigator's mens rea and step; do not let failure to reach the victim answer the wrong question."
+    type: "answer_array"
+    navigates: "2 yes / 2 no array where the traps swap intent, completion, and principal-liability cap."
+    trigger: "Guilty/not guilty split with intent, recklessness, no-danger, and accessory-cap reasons."
+    tested_choice: "C"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-ATTEMPT-AGENT-01"
+  title: "Attempt by using another person"
+  signal: "Defendant wants crime done but routes it through another person."
+  student_move: "Ask for the defendant's intent and the defendant's step. Then ask whether the wrong answer is demanding completion."
+  tiny_rule: "Attempt = intent + substantial step; no completed harm required."
+  trap: "Recklessness, no imminent danger, or principal's lesser crime."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?"
+
+review_truth: "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt."
+
+case_study_output:
+  final_student_script: "Attempted murder call. Lydia wanted Peter killed. She did not merely risk harm; she picked Stephen, lied to him, gave him the shooting script, and he went armed to Peter's store. Cut B: recklessness. Cut C: no-danger completion trap. Cut D: accessory-cap overclaim. A remains."
+  case_study_sections: 17
+  gold_key_required: true
+  silver_key_required: true
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  stem_not_over_signaled: true
+  no_clutter_doctrine_added: true
+  popular_bible_names_only: true
+  christian_first: true
+  answer_array_geometry_preserved: true
+  pick_rate_provenance_honest: true
+  exactly_three_single_filter_distractors: true
+  c3_residual_equals_official_key: true
+  attorney_status_stamp: "not_used"
+  drift_audit_present: true
+
+analytics_hooks:
+  transform_slug: "christian_bookstore_agent"
+  subject: "CRIMINAL"
+  topic_cluster: "attempt"
+  subtopic_cluster: "inchoate_crimes"
+  primary_miss: "wrong_mental_state"
+  secondary_miss: "completion_required"
+  tertiary_miss: "principal_liability_cap"
+  dominant_wrong_choice: "B"
+  expected_student_recovery_card: "CRIM-REM-ATTEMPT-AGENT-01"
+  tags:
+    - "attempted_murder"
+    - "specific_intent"
+    - "substantial_step"
+    - "using_another_person"
+    - "factual_impossibility"
+    - "principal_accomplice_mens_rea"
+```
+
+### 2. Student case study — 17 sections
+
+## 1. program_frame
+
+This is a Criminal Law / Inchoate Crimes item. It is not a homicide-completion question. It is an attempt-by-instigator question.
+
+C3 status: **ANCHOR_SOLVE**. The answer is clean after the Gold Keys are active. Without those anchors, several cuts would become legal leaks.
+
+## 2. student_access_test
+
+Student-access limit:
+
+* The student may use TRUE + RESPONSIVE.
+* The student may use Cut → Clash → Call.
+* The student may use the wrong-mental-state mold.
+* The student may use Gold Keys on attempt and helper mens rea.
+* The student may not silently import lawyer-only doctrine and call it structure.
+
+Result: anchor-assisted. The student can solve it, but only after the tiny anchors are taught.
+
+## 3. question_data
+
+**Question ID:** `14701_christian_bookstore_agent`
+**Transformed from:** `14701`
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Inchoate Crimes
+**Original official key:** A
+**Original correct rate:** 84%
+**Dominant wrong answer:** B at 10%
+
+## 4. distilled_core_question
+
+A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?
+
+## 5. call_and_prediction
+
+**Call:** If charged with attempted murder of Peter, should Lydia be found guilty?
+
+**Prediction:** Yes, if Lydia had intent to kill and took a substantial step through Stephen.
+
+**Adjacent-call traps:**
+
+* Was Peter actually killed? No. Not the call.
+* Was Peter in imminent danger? Not the attempt threshold.
+* What crime would Stephen have committed? Not the cap on Lydia’s mens rea.
+* Was Lydia merely reckless? No. The stem gives a plan.
+
+## 6. trigger_facts
+
+| Trigger fact                                            | Student use                                      |
+| ------------------------------------------------------- | ------------------------------------------------ |
+| Lydia wanted revenge against Peter                      | Motive. Not enough alone.                        |
+| Lydia avoided personal action because Peter was guarded | She chose an indirect route.                     |
+| Lydia knew Stephen was violent and jealous              | She selected a dangerous instrument.             |
+| Lydia lied about Ruth and Peter                         | She triggered Stephen.                           |
+| Lydia told Stephen she would shoot Peter                | She supplied the killing script.                 |
+| Stephen grabbed a revolver and rushed to the bookstore  | The plan moved beyond talk.                      |
+| Guard killed Stephen before Peter was reached           | Completion failed, but attempt remains possible. |
+
+## 7. governing_c3_lane
+
+**Lane:** Criminal attempt by instigator.
+
+**FIT:** Criminal = mental state + act step. Inchoate crime asks whether the crime has gone far enough even though completion failed.
+
+**Deciding phase:** CUT, anchor-assisted.
+
+## 8. choice_by_choice_walkthrough
+
+### Choice A
+
+**Answer:** Guilty, because Lydia intended to kill Peter and used Stephen to carry out her plan.
+
+1. **Student-accessible C3 signal:** A names the two facts the call cares about: Lydia’s intent and Stephen as the instrument.
+2. **Student label:** Residual answer.
+3. **What a true/responsive version would look like:** This is already the true/responsive version once the Gold Key is active.
+4. **Lawyer confirmation:** A matches attempt doctrine: intent to kill plus substantial step. MPC §5.01 covers purposeful substantial-step conduct and conduct designed to aid another’s commission of the crime even if the other person does not complete it. ([Open Casebook][1])
+
+### Choice B
+
+**Answer:** Guilty, because Lydia was extremely reckless as to Peter.
+
+1. **Student-accessible C3 signal:** It changes “intended killing” into “extreme risk.”
+2. **Student label:** Wrong mental state.
+3. **What a true/responsive version would look like:** “Guilty, because Lydia intended Peter’s death and took a substantial step.”
+4. **Lawyer confirmation:** Attempted murder is not satisfied by extreme recklessness. The attempt standard turns on purpose / intent for the target crime; federal commentary applying MPC attempt also frames substantial step around criminal intent. ([Massachusetts Bankruptcy Court][2])
+
+### Choice C
+
+**Answer:** Not guilty, because Peter was never in imminent danger of being killed.
+
+1. **Student-accessible C3 signal:** It answers completion danger, not attempt.
+2. **Student label:** Fabricated threshold.
+3. **What a true/responsive version would look like:** “Not guilty if Lydia had not taken a substantial step toward Peter’s killing.”
+4. **Lawyer confirmation:** Factual impossibility and interruption before completion do not defeat attempt; the MPC-style test looks at the actor’s purposeful substantial step under the circumstances as believed. ([Massachusetts Bankruptcy Court][2])
+
+### Choice D
+
+**Answer:** Not guilty, because Stephen, if successful, would be guilty of no more than manslaughter and an accessory cannot be guilty of a higher crime than the principal.
+
+1. **Student-accessible C3 signal:** It uses an absolute cap: “cannot be guilty of a higher crime.”
+2. **Student label:** Principal-liability cap overclaim.
+3. **What a true/responsive version would look like:** “Not guilty of attempted murder if Lydia herself lacked intent to kill.”
+4. **Lawyer confirmation:** The helper/instigator’s liability can rest on the helper’s own acts and mental state. *People v. McCoy* rejects automatic reduction of an aider’s guilt based on mitigation personal to the direct actor and includes a jealousy-instigation hypothetical matching this structure. ([Justia Law][3])
+
+## 9. residual_answer
+
+A remains.
+
+B dies on wrong mental state.
+C dies on invented completion/danger requirement.
+D dies on accessory-cap overclaim.
+
+Residual: **A.**
+
+## 10. legal_leak_audit
+
+No distractor is labeled false from grammar alone.
+
+* B requires the attempt-mens-rea Gold Key.
+* C requires the substantial-step / no-imminent-danger Gold Key.
+* D requires the helper-own-mens-rea Gold Key.
+* A requires the same Gold Key to be affirmatively selected.
+
+**Drift audit:** Anchor-dependent legal claims are quarantined under Gold Keys and lawyer confirmation; student-facing cuts are not dressed up as pure structure.
+
+## 11. final_student_script
+
+“Attempted murder of Peter. Lydia wanted Peter killed. She knew Stephen was violent and jealous. She lied to him, gave him the shooting idea, and he went armed to Peter’s store. B is just recklessness, not intent. C demands actual danger, but attempt does not require completion. D caps Lydia by Stephen, but Lydia’s own intent controls. A.”
+
+## 12. remediation_card
+
+**Card:** `CRIM-REM-ATTEMPT-AGENT-01`
+**Title:** Attempt by using another person
+**Signal:** The defendant wants the crime done but routes the act through someone else.
+**Student move:** Lock the defendant’s intent and the defendant’s step.
+**Tiny rule:** Attempt = intent plus substantial step; completion is not required.
+**Trap:** Recklessness, no imminent danger, or the intermediary’s lower crime.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01**
+Attempted murder requires intent to kill plus a substantial step; extreme recklessness is not enough. Manipulating another person to go carry out the killing can be the substantial step.
+
+**GK-CRIMINAL-HELPER-HIGHER-MENS-REA-01**
+A helper or instigator is judged by that person’s own mental state; the direct actor’s personal mitigation does not automatically cap the helper’s liability.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-ATTEMPT-ARRAY-01**
+On an attempt-by-instigator array, sort first by the instigator’s mens rea and step; do not let failure to reach the victim answer the wrong question.
+
+## 13. qa_checklist
+
+| Check                                                | Result |
+| ---------------------------------------------------- | ------ |
+| Rule unchanged                                       | Pass   |
+| Correct answer unchanged                             | Pass   |
+| Dominant trap B preserved                            | Pass   |
+| Christian names only                                 | Pass   |
+| No antagonist names                                  | Pass   |
+| No church-law clutter                                | Pass   |
+| Pick-rate provenance honest                          | Pass   |
+| Exactly three single-filter distractors              | Pass   |
+| Gold Keys included because anchor-dependent          | Pass   |
+| Silver Key included because array navigation matters | Pass   |
+| Bank verdict                                         | PASS   |
+
+## 14. wrong_answer_recovery_paths
+
+**B recovery:** Student saw danger and picked guilt. Recovery: require intent language for attempt.
+
+**C recovery:** Student saw no completed killing and chose no guilt. Recovery: separate attempt from completion.
+
+**D recovery:** Student tracked Stephen’s likely mitigation and applied it to Lydia. Recovery: ask whose mental state is being judged.
+
+## 15. outline_mastery_map
+
+**Placement:** Criminal Law → Inchoate Crimes → Attempt.
+
+**This item teaches:**
+
+* Attempted murder mental state.
+* Substantial step through another person.
+* Failure of completion.
+* Helper/instigator mental-state independence.
+
+**Adjacent to:**
+
+* Solicitation.
+* Accomplice liability.
+* Factual impossibility.
+* Voluntary manslaughter mitigation.
+
+## 16. crossover_intersection_map
+
+| Crossover                                  | Why it matters                                       |
+| ------------------------------------------ | ---------------------------------------------------- |
+| Attempt × accomplice liability             | Lydia acts through Stephen.                          |
+| Attempt × factual impossibility            | Peter is not reached.                                |
+| Attempted murder × manslaughter mitigation | Stephen might have mitigation; Lydia planned murder. |
+| Mens rea × answer-array reading            | Intent answer beats recklessness answer.             |
+
+## 17. review_truth
+
+For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14701_christian_bookstore_agent",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?",
+  "review_truth": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01",
+        "explanation": "B uses extreme recklessness where the attempt-murder answer requires intent to kill."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01",
+        "explanation": "C invents an imminent-danger requirement and confuses failed completion with no attempt."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-HELPER-HIGHER-MENS-REA-01",
+        "explanation": "D overclaims that an accessory cannot be guilty of a higher crime than the principal."
+      }
+    ],
+    "analyzer_notes": "drift_audit: anchor-dependent cuts are labeled anchor_assisted; no lawyer-only doctrine is presented as hard structure. transformed_from: 14701. The Christian bookstore variation preserves the original rule, answer geometry, and dominant wrong-answer trap.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01",
+        "statement": "Attempted murder requires intent to kill plus a substantial step; extreme recklessness is not enough. Manipulating another person to go carry out the killing can be the substantial step.",
+        "type": "rule",
+        "unlocks": "B and C",
+        "trigger": "Instigator wants target killed, sends or uses another person, and completion is interrupted.",
+        "tested_choice": "B",
+        "authority": "Model Penal Code § 5.01; First Circuit attempt instruction commentary",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIMINAL-HELPER-HIGHER-MENS-REA-01",
+        "statement": "A helper or instigator is judged by that person's own mental state; the direct actor's personal mitigation does not automatically cap the helper's liability.",
+        "type": "distinction",
+        "unlocks": "D",
+        "trigger": "Direct actor may have heat-of-passion mitigation, but instigator planned a killing.",
+        "tested_choice": "D",
+        "authority": "People v. McCoy, 25 Cal. 4th 1111 (2001)",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-ATTEMPT-ARRAY-01",
+        "statement": "On an attempt-by-instigator array, sort first by the instigator's mens rea and step; do not let failure to reach the victim answer the wrong question.",
+        "type": "answer_array",
+        "navigates": "2 yes / 2 no array where traps swap intent, completion, and principal-liability cap.",
+        "trigger": "Guilty/not guilty split with intent, recklessness, no-danger, and accessory-cap reasons.",
+        "tested_choice": "C",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14701_christian_bookstore_agent",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?",
+  "review_truth": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+  "tension": {
+    "axis": "instigator intent and step vs completion/principal-liability distractions",
+    "resolved_by": "Gold Key: attempt by using another person"
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student sees dangerous manipulation and downgrades intent into extreme recklessness.",
+      "focus_group_pct": 10
+    },
+    {
+      "choice": "C",
+      "mold": "fabricated_rule",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "Student thinks no actual danger means no attempt.",
+      "focus_group_pct": 2
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student reasons from Stephen's possible manslaughter mitigation and caps Lydia's liability.",
+      "focus_group_pct": 4
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-ATTEMPT-AGENT-01",
+    "title": "Attempt by using another person",
+    "signal": "Defendant wants crime done but routes it through another person.",
+    "student_move": "Ask for the defendant's intent and the defendant's step. Then ask whether the wrong answer is demanding completion.",
+    "tiny_rule": "Attempt = intent + substantial step; no completed harm required.",
+    "trap": "Recklessness, no imminent danger, or principal's lesser crime.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "wrong mental state",
+    "completion requirement",
+    "factual impossibility confusion",
+    "principal/accomplice cap overclaim",
+    "heat-of-passion mitigation bleedover"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14701_christian_bookstore_agent",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?",
+  "review_truth": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student sees Lydia created a lethal risk but misses that attempt requires the target intent.",
+      "skipped_move": "Gold Key: attempt mental state",
+      "recovery_step": "Circle the mens rea word. Replace 'reckless' with 'intended' before accepting a guilty attempt answer."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student treats failed completion as no attempt.",
+      "skipped_move": "Silver Key: sort by instigator's step, not victim danger.",
+      "recovery_step": "Ask whether the answer is demanding actual harm or immediate danger. If yes, check the substantial-step anchor."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student follows Stephen's mitigation and forgets Lydia's separate intent.",
+      "skipped_move": "Gold Key: helper's own mens rea",
+      "recovery_step": "Separate Stephen's possible crime from Lydia's charged attempt."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "Attempt mental state",
+      "prompt": "An answer says an attempted murderer was extremely reckless. What word must you demand instead?",
+      "answer": "Intent to kill."
+    },
+    {
+      "drill_type": "trigger_fact_extraction",
+      "target_skill": "Substantial step through another person",
+      "prompt": "List the facts showing Lydia used Stephen as the instrument.",
+      "answer": "She knew he was violent and jealous, lied about Ruth and Peter, gave the shooting script, and Stephen went armed to Peter's store."
+    },
+    {
+      "drill_type": "wrong_answer_recovery",
+      "target_skill": "Completion vs attempt",
+      "prompt": "Why is 'Peter was never in imminent danger' not enough?",
+      "answer": "Attempt does not require completed harm or arrival in actual danger; it requires intent plus substantial step."
+    },
+    {
+      "drill_type": "array_reading",
+      "target_skill": "2 yes / 2 no structure",
+      "prompt": "In this array, what do the two guilty answers fight over?",
+      "answer": "Intent to kill versus extreme recklessness."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "attempt_by_agent",
+      "wrong_mens_rea",
+      "substantial_step",
+      "factual_impossibility",
+      "intermediary_mitigation"
+    ],
+    "misconception_tags": [
+      "recklessness_suffices_for_attempt",
+      "attempt_requires_imminent_danger",
+      "helper_cannot_exceed_principal",
+      "completion_required"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Gold Key deck",
+      "reason": "Attempt and accomplice-mens-rea anchors decide the item."
+    },
+    {
+      "component": "Silver Key deck",
+      "reason": "Answer-array navigation prevents completion-trap selection."
+    },
+    {
+      "component": "Criminal Law inchoate crimes drills",
+      "reason": "The item tests attempted murder and substantial step."
+    },
+    {
+      "component": "Wrong mental state remediation",
+      "reason": "Dominant wrong answer B is a wrong-mens-rea trap."
+    }
+  ],
+  "crossovers": [
+    {
+      "from": "Inchoate Crimes",
+      "to": "Homicide",
+      "skill": "Attempted murder requires intent to kill."
+    },
+    {
+      "from": "Inchoate Crimes",
+      "to": "Accomplice Liability",
+      "skill": "Using another person can support attempt liability."
+    },
+    {
+      "from": "Homicide",
+      "to": "Manslaughter",
+      "skill": "Direct actor's provocation mitigation does not automatically cap planner's mens rea."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-ATTEMPT-MURDER-AGENT-01",
+      "statement": "Attempted murder requires intent to kill plus a substantial step; extreme recklessness is not enough. Manipulating another person to go carry out the killing can be the substantial step.",
+      "type": "rule",
+      "unlocks": "B and C",
+      "trigger": "Instigator wants target killed, sends or uses another person, and completion is interrupted.",
+      "tested_choice": "B",
+      "authority": "Model Penal Code § 5.01; First Circuit attempt instruction commentary",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-HELPER-HIGHER-MENS-REA-01",
+      "statement": "A helper or instigator is judged by that person's own mental state; the direct actor's personal mitigation does not automatically cap the helper's liability.",
+      "type": "distinction",
+      "unlocks": "D",
+      "trigger": "Direct actor may have heat-of-passion mitigation, but instigator planned a killing.",
+      "tested_choice": "D",
+      "authority": "People v. McCoy, 25 Cal. 4th 1111 (2001)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-ATTEMPT-ARRAY-01",
+      "statement": "On an attempt-by-instigator array, sort first by the instigator's mens rea and step; do not let failure to reach the victim answer the wrong question.",
+      "type": "answer_array",
+      "navigates": "2 yes / 2 no array where traps swap intent, completion, and principal-liability cap.",
+      "trigger": "Guilty/not guilty split with intent, recklessness, no-danger, and accessory-cap reasons.",
+      "tested_choice": "C",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > Inchoate Crimes > Attempt",
+    "this_item_teaches": "Attempted murder can be committed by an instigator who intentionally sends another person toward the killing, even if the target is never reached.",
+    "fills": [
+      "attempt mens rea",
+      "substantial step",
+      "factual impossibility",
+      "using another person",
+      "helper's own mental state"
+    ],
+    "adjacent_to_master": [
+      "solicitation",
+      "accomplice liability",
+      "voluntary manslaughter",
+      "factual vs legal impossibility"
+    ]
+  }
+}
+```
+
+[1]: https://opencasebook.org/casebooks/6141-tanaka-criminal-law-casebook/resources/10.2.1.1-model-penal-code-mpc-501-criminal-attempt/ "  Tanaka Criminal Law Casebook : Model Penal Code (MPC) 5.01 Criminal Attempt   | H2O"
+[2]: https://www.mad.uscourts.gov/resources/pattern2003/html/patt2uwk.htm "Attempt"
+[3]: https://law.justia.com/cases/california/supreme-court/4th/25/1111.html "                People v. McCoy (2001) ::  :: Supreme Court of California Decisions :: California Case Law :: California Law :: U.S. Law :: Justia    "
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14701; source 14701.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Criminal Law; subtopic Inchoate Crimes.
+4. **distilled_core_question:** A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?
+5. **call_and_prediction:** Credited answer: A.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 00000000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** A
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 00000000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14701",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "00000000",
+  "distilled_core_question": "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?",
+  "review_truth": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14701; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14701",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?",
+  "review_truth": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14701",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14701",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "A person wants a protected target killed, lies to a violent jealous person to provoke the killing, tells him to shoot the target, and the armed person goes to the target’s workplace but is killed before reaching the target. Is the instigator guilty of attempted murder?",
+  "review_truth": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "For attempted murder, look for the instigator’s intent to kill and substantial step; do not let recklessness, failure to reach the victim, or the intermediary’s mitigation cap the instigator’s guilt.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

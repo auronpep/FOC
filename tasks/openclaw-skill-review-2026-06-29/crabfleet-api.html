@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API Reference — Crabfleet</title>
+  <meta name="description" content="REST API reference for Crabfleet.">
+  <link rel="canonical" href="https://docs.crabfleet.ai/api/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Crabfleet">
+  <meta property="og:title" content="API Reference — Crabfleet">
+  <meta property="og:description" content="REST API reference for Crabfleet.">
+  <meta property="og:url" content="https://docs.crabfleet.ai/api/">
+  <meta property="og:image" content="https://docs.crabfleet.ai/crabfleet-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="API Reference — Crabfleet">
+  <meta name="twitter:description" content="REST API reference for Crabfleet.">
+  <meta name="twitter:image" content="https://docs.crabfleet.ai/crabfleet-og.png">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>(function(){var s;try{s=localStorage.getItem('theme')}catch(e){}var d=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.dataset.theme=s||(d?'dark':'light')})();</script>
+  <style>
+:root{
+  --ink:#0d0d0d;
+  --text:#30313a;
+  --muted:#6b7280;
+  --subtle:#9ca3af;
+  --bg:#f7f8fa;
+  --paper:#ffffff;
+  --paper-soft:#f9fafb;
+  --accent:#e44861;
+  --accent-soft:rgba(228,72,97,.1);
+  --accent-strong:#c73b52;
+  --blue:#0ea5e9;
+  --green:#10b981;
+  --amber:#f59e0b;
+  --line:#e5e7eb;
+  --line-soft:#eef0f3;
+  --code-bg:#0f172a;
+  --code-fg:#e6edf3;
+  --code-inline-fg:#1c2128;
+  --code-border:#1f2937;
+  --pill-border:#dbe2eb;
+  --shadow-card:0 4px 14px rgba(15,17,21,.08);
+  --scrollbar:#cbd5e1;
+  --hl-keyword:#7aa2ff;
+  --hl-string:#9ece6a;
+  --hl-number:#e0a96d;
+  --hl-comment:#7c8597;
+  --hl-flag:#c4a4ff;
+  --hl-meta:#f08aa0;
+  --hl-prompt:#64748b;
+}
+:root[data-theme="dark"]{
+  --ink:#f2f2f5;
+  --text:#c9c5cf;
+  --muted:#918d98;
+  --subtle:#5f5a66;
+  --bg:#070a10;
+  --paper:#100b0d;
+  --paper-soft:#151016;
+  --accent:#f05a70;
+  --accent-soft:rgba(240,90,112,.16);
+  --accent-strong:#ff8092;
+  --blue:#3b82f6;
+  --green:#34d399;
+  --amber:#fbbf24;
+  --line:#2a2630;
+  --line-soft:#18131a;
+  --code-bg:#06080d;
+  --code-fg:#e6edf3;
+  --code-inline-fg:#e6edf3;
+  --code-border:#1c2030;
+  --pill-border:#2a2f3c;
+  --shadow-card:0 4px 18px rgba(0,0,0,.45);
+  --scrollbar:#3a4154;
+  --hl-keyword:#7aa2ff;
+  --hl-string:#a6e3a1;
+  --hl-number:#f0a868;
+  --hl-comment:#6b7388;
+  --hl-flag:#c4a4ff;
+  --hl-meta:#ff8aa0;
+  --hl-prompt:#7e8ba3;
+}
+:root{color-scheme:light}
+:root[data-theme="dark"]{color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:radial-gradient(circle at 48% -8%,color-mix(in srgb,var(--accent) 12%,transparent),transparent 34rem),radial-gradient(circle at 86% 12%,color-mix(in srgb,var(--blue) 10%,transparent),transparent 30rem),var(--bg);color:var(--text);font-family:"Inter",ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;font-feature-settings:"cv02","cv03","cv04","cv11";transition:background-color .18s,color .18s}
+::selection{background:var(--accent);color:#fff}
+a{color:var(--accent);text-decoration:none;transition:color .12s}
+a:hover{text-decoration:underline;text-underline-offset:.2em}
+.shell{display:grid;grid-template-columns:268px minmax(0,1fr);min-height:100vh}
+.sidebar{position:sticky;top:0;height:100vh;overflow:auto;padding:24px 22px;background:color-mix(in srgb,var(--paper) 88%,transparent);border-right:1px solid var(--line);backdrop-filter:blur(18px);scrollbar-width:thin;scrollbar-color:var(--line) transparent;transition:background-color .18s,border-color .18s}
+.sidebar::-webkit-scrollbar{width:6px}
+.sidebar::-webkit-scrollbar-thumb{background:var(--line);border-radius:6px}
+.sidebar-head{display:flex;align-items:center;gap:10px;margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:11px;color:var(--ink);text-decoration:none;flex:1;min-width:0}
+.brand:hover{text-decoration:none}
+.brand .mark{flex:0 0 28px;width:28px;height:28px;border-radius:8px;display:block}
+.brand strong{display:block;font-size:1.05rem;line-height:1.1;font-weight:600;letter-spacing:0;color:var(--ink)}
+.brand small{display:block;color:var(--muted);font-size:.74rem;margin-top:3px;font-weight:400}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--paper-soft);color:var(--muted);cursor:pointer;padding:0;transition:border-color .15s,color .15s,background-color .15s,transform .12s}
+.theme-toggle:hover{border-color:var(--ink);color:var(--ink)}
+.theme-toggle:active{transform:scale(.94)}
+.theme-toggle svg{width:16px;height:16px;display:block}
+.theme-icon-moon{display:block}
+.theme-icon-sun{display:none}
+:root[data-theme="dark"] .theme-icon-moon{display:none}
+:root[data-theme="dark"] .theme-icon-sun{display:block}
+.search{display:block;margin:0 0 22px}
+.search span{display:block;color:var(--muted);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0;margin-bottom:7px}
+.search input{width:100%;border:1px solid var(--line);background:var(--paper-soft);border-radius:8px;padding:9px 12px;font:inherit;font-size:.9rem;color:var(--text);outline:none;transition:border-color .15s,box-shadow .15s,background-color .18s}
+.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+nav section{margin:0 0 18px}
+nav h2{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:0;margin:0 0 6px;font-weight:600}
+.nav-link{display:block;color:var(--text);text-decoration:none;border-radius:6px;padding:5px 10px;margin:1px 0;font-size:.9rem;line-height:1.4;transition:background .12s,color .12s}
+.nav-link:hover{background:var(--line-soft);color:var(--ink);text-decoration:none}
+.nav-link.active{background:var(--accent-soft);color:var(--accent);font-weight:600}
+main{min-width:0;padding:32px clamp(20px,4.5vw,56px) 80px;max-width:1180px;margin:0 auto;width:100%}
+.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:22px;border-bottom:1px solid var(--line);padding:8px 0 22px;margin-bottom:8px;flex-wrap:wrap}
+.hero-text{min-width:0;flex:1 1 320px}
+.eyebrow{margin:0 0 8px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:0;font-size:.7rem}
+.hero h1{font-size:2.25rem;line-height:1.1;letter-spacing:0;margin:0;font-weight:700;color:var(--ink)}
+.hero-meta{display:flex;gap:8px;flex:0 0 auto;flex-wrap:wrap}
+.repo,.edit,.btn-ghost{border:1px solid var(--line);color:var(--text);text-decoration:none;border-radius:7px;padding:6px 11px;font-weight:500;font-size:.83rem;background:var(--paper);transition:border-color .15s,color .15s,background .15s}
+.repo:hover,.edit:hover,.btn-ghost:hover{border-color:var(--ink);color:var(--ink);text-decoration:none}
+.edit{color:var(--muted)}
+.home-hero{padding:14px 0 28px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.home-hero h1{font-size:3.25rem;line-height:1.04;letter-spacing:0;margin:0 0 .35em;font-weight:700;color:var(--ink)}
+.home-hero .lede{font-size:1.18rem;line-height:1.55;color:var(--text);margin:0 0 1.2em;max-width:60ch}
+.home-cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.home-cta .btn{display:inline-flex;align-items:center;gap:7px;border-radius:8px;padding:10px 16px;font-weight:600;font-size:.92rem;text-decoration:none;transition:background .15s,border-color .15s,color .15s,transform .12s}
+.home-cta .btn-primary{background:var(--accent);color:#fff;border:1px solid var(--accent)}
+.home-cta .btn-primary:hover{background:var(--accent-strong);border-color:var(--accent-strong);text-decoration:none}
+.home-cta .btn-ghost{padding:10px 16px}
+.home-install{display:flex;align-items:center;gap:12px;background:var(--code-bg);color:var(--code-fg);border-radius:8px;padding:10px 10px 10px 16px;font:500 .9rem/1.2 "JetBrains Mono","SF Mono",ui-monospace,monospace;max-width:38em;border:1px solid var(--code-border);box-shadow:0 18px 44px rgba(0,0,0,.18)}
+.home-install .prompt{color:#64748b;user-select:none;flex:0 0 auto}
+.home-install code{flex:1;background:transparent;border:0;color:var(--code-fg);font:inherit;padding:0;white-space:pre;overflow:hidden;text-overflow:ellipsis}
+.home-install .copy{flex:0 0 auto;background:rgba(255,255,255,.08);color:var(--code-fg);border:1px solid rgba(255,255,255,.16);border-radius:6px;padding:5px 11px;font:500 .72rem/1 "Inter",sans-serif;cursor:pointer;transition:background .15s,border-color .15s}
+.home-install .copy:hover{background:rgba(255,255,255,.16)}
+.home-install .copy.copied{background:var(--accent);border-color:var(--accent)}
+.home-services{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 18px}
+.home-services span{display:inline-block;padding:3px 9px;border:1px solid var(--line);border-radius:999px;font-size:.78rem;color:var(--muted);background:var(--paper-soft)}
+.doc-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:48px;margin-top:24px}
+.doc-grid-home{margin-top:8px}
+@media(min-width:1180px){.doc-grid{grid-template-columns:minmax(0,72ch) 200px;justify-content:start}.doc-grid-home{grid-template-columns:minmax(0,76ch);justify-content:start}}
+.doc{min-width:0;max-width:72ch;overflow-wrap:break-word}
+.doc-home{max-width:76ch}
+.doc h1{font-size:2.6rem;line-height:1.08;letter-spacing:0;margin:0 0 .4em;font-weight:700;color:var(--ink)}
+body:not(.home) .doc>h1:first-child{display:none}
+.doc h2{font-size:1.45rem;line-height:1.2;margin:2em 0 .5em;font-weight:600;letter-spacing:0;color:var(--ink);position:relative}
+.doc h3{font-size:1.1rem;margin:1.7em 0 .35em;position:relative;font-weight:600;color:var(--ink);letter-spacing:0}
+.doc h4{font-size:.98rem;margin:1.4em 0 .25em;color:var(--ink);position:relative;font-weight:600}
+.doc h2:first-child,.doc h3:first-child,.doc h4:first-child{margin-top:.2em}
+.doc :is(h2,h3,h4) .anchor{position:absolute;left:-1.05em;top:0;color:var(--subtle);opacity:0;text-decoration:none;font-weight:400;padding-right:.3em;transition:opacity .12s,color .12s}
+.doc :is(h2,h3,h4):hover .anchor{opacity:.7}
+.doc :is(h2,h3,h4) .anchor:hover{opacity:1;color:var(--accent);text-decoration:none}
+.doc p{margin:0 0 1.05em}
+.doc ul,.doc ol{padding-left:1.3rem;margin:0 0 1.15em}
+.doc li{margin:.25em 0}
+.doc li>p{margin:0 0 .4em}
+.doc strong{font-weight:600;color:var(--ink)}
+.doc em{font-style:italic}
+.doc code{font-family:"JetBrains Mono","SF Mono",ui-monospace,monospace;font-size:.84em;background:var(--line-soft);border:1px solid var(--line);border-radius:5px;padding:.08em .35em;color:var(--code-inline-fg)}
+.doc pre{position:relative;overflow:auto;background:var(--code-bg);color:var(--code-fg);border-radius:8px;padding:14px 18px;margin:1.3em 0;font-size:.85em;line-height:1.6;scrollbar-width:thin;scrollbar-color:#334155 transparent;border:1px solid var(--code-border)}
+.doc pre::-webkit-scrollbar{height:8px;width:8px}
+.doc pre::-webkit-scrollbar-thumb{background:#334155;border-radius:8px}
+.doc pre code{display:block;background:transparent;border:0;color:inherit;padding:0;font-size:1em;white-space:pre}
+.doc pre .copy{position:absolute;top:8px;right:8px;background:rgba(255,255,255,.06);color:var(--code-fg);border:1px solid rgba(255,255,255,.16);border-radius:6px;padding:3px 9px;font:500 .7rem/1 "Inter",sans-serif;cursor:pointer;opacity:0;transition:opacity .15s,background .15s,border-color .15s}
+.doc pre:hover .copy,.doc pre .copy:focus{opacity:1}
+.doc pre .copy:hover{background:rgba(255,255,255,.12)}
+.doc pre .copy.copied{background:var(--accent);border-color:var(--accent);opacity:1}
+.doc pre .hl-c{color:var(--hl-comment);font-style:italic}
+.doc pre .hl-s{color:var(--hl-string)}
+.doc pre .hl-n{color:var(--hl-number)}
+.doc pre .hl-k{color:var(--hl-keyword);font-weight:600}
+.doc pre .hl-f{color:var(--hl-flag)}
+.doc pre .hl-m{color:var(--hl-meta);font-weight:600}
+.doc pre .hl-p{color:var(--hl-prompt);user-select:none}
+.doc pre .hl-cmd{color:var(--hl-keyword);font-weight:600}
+.doc blockquote{margin:1.4em 0;padding:10px 16px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 8px 8px 0;color:var(--text)}
+.doc blockquote p:last-child{margin-bottom:0}
+.doc table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:.92em}
+.doc th,.doc td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+.doc th{font-weight:600;color:var(--ink);background:var(--line-soft);border-bottom:1px solid var(--line)}
+.doc hr{border:0;border-top:1px solid var(--line);margin:2.2em 0}
+.toc{position:sticky;top:24px;align-self:start;font-size:.84rem;padding-left:14px;border-left:1px solid var(--line);max-height:calc(100vh - 48px);overflow:auto;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.toc::-webkit-scrollbar{width:5px}
+.toc::-webkit-scrollbar-thumb{background:var(--line);border-radius:5px}
+.toc h2{font-size:.66rem;color:var(--muted);text-transform:uppercase;letter-spacing:0;margin:0 0 10px;font-weight:600}
+.toc a{display:block;color:var(--muted);text-decoration:none;padding:4px 0 4px 10px;line-height:1.35;border-left:2px solid transparent;margin-left:-12px;transition:color .12s,border-color .12s}
+.toc a:hover{color:var(--ink);text-decoration:none}
+.toc a.active{color:var(--accent);border-left-color:var(--accent);font-weight:500}
+.toc-l3{padding-left:22px!important;font-size:.94em}
+@media(max-width:1179px){.toc{display:none}}
+.page-nav{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:48px;border-top:1px solid var(--line);padding-top:20px}
+.page-nav>a{display:block;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:13px 16px;text-decoration:none;color:var(--text);transition:border-color .15s,transform .15s,box-shadow .15s,background-color .18s}
+.page-nav>a:hover{border-color:var(--accent);text-decoration:none;color:var(--ink)}
+.page-nav small{display:block;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:0;margin-bottom:5px;font-weight:600}
+.page-nav span{display:block;font-weight:600;line-height:1.3;color:var(--ink)}
+.page-nav-prev{text-align:left}
+.page-nav-next{text-align:right;grid-column:2}
+.page-nav-prev:only-child{grid-column:1}
+.nav-toggle{display:none;position:fixed;top:14px;right:14px;top:calc(14px + env(safe-area-inset-top, 0px));right:calc(14px + env(safe-area-inset-right, 0px));z-index:20;width:40px;height:40px;border-radius:8px;background:var(--paper);border:1px solid var(--line);color:var(--ink);cursor:pointer;padding:10px 9px;flex-direction:column;align-items:stretch;justify-content:space-between;box-shadow:var(--shadow-card)}
+.nav-toggle span{display:block;width:100%;height:2px;flex:0 0 2px;background:currentColor;border-radius:2px;transition:transform .2s,opacity .2s}
+.nav-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.nav-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+@media(max-width:900px){
+  .shell{display:block}
+  .sidebar{position:fixed;inset:0 30% 0 0;max-width:320px;height:100vh;z-index:15;transform:translateX(-100%);transition:transform .25s ease,background-color .18s,border-color .18s;box-shadow:0 18px 40px rgba(0,0,0,.18);background:var(--paper);pointer-events:none}
+  .sidebar.open{transform:translateX(0);pointer-events:auto}
+  .nav-toggle{display:flex}
+  main{padding:64px 18px 56px}
+  .hero{padding-top:6px}
+  .hero h1{font-size:1.8rem}
+  .home-hero h1{font-size:2.45rem}
+  .doc h1{font-size:2.1rem}
+  .hero-meta{width:100%;justify-content:flex-start}
+  .home-hero{padding-top:8px}
+  .doc{padding:0}
+  .doc-grid{margin-top:18px;gap:24px}
+  .doc :is(h2,h3,h4) .anchor{display:none}
+}
+@media(max-width:520px){
+  main{padding:60px 14px 48px}
+  .doc pre{margin-left:-14px;margin-right:-14px;border-radius:0;border-left:0;border-right:0}
+  .home-install{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+  <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+  </button>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <a class="brand" href="../" aria-label="Crabfleet docs home">
+          <img class="mark" src="../crabbox-logo.png" alt="" width="28" height="28">
+          <span><strong>Crabfleet</strong><small>Control plane docs</small></span>
+        </a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false" data-theme-toggle>
+    <svg class="theme-icon-moon" viewBox="0 0 20 20" aria-hidden="true"><path d="M14.6 12.1A6.5 6.5 0 0 1 7.4 2.7a6.5 6.5 0 1 0 7.2 9.4z" fill="currentColor"/></svg>
+    <svg class="theme-icon-sun" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"/><line x1="10" y1="16" x2="10" y2="18"/><line x1="2" y1="10" x2="4" y2="10"/><line x1="16" y1="10" x2="18" y2="10"/><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"/><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"/><line x1="4.2" y1="15.8" x2="5.6" y2="14.4"/><line x1="14.4" y1="5.6" x2="15.8" y2="4.2"/></g></svg>
+  </button>
+      </div>
+      <label class="search"><span>Search</span><input id="doc-search" type="search" placeholder="cards, runs, admin"></label>
+      <nav><section><h2>Start</h2><a class="nav-link" href="../">Overview</a><a class="nav-link" href="../quickstart/">Quickstart</a><a class="nav-link" href="../architecture/">Architecture</a></section><section><h2>Features</h2><a class="nav-link" href="../cards/">Cards</a><a class="nav-link" href="../runs/">Runs</a><a class="nav-link" href="../github-actions-sessions/">GitHub Actions Sessions</a><a class="nav-link" href="../macos-native-client/">Native macOS Client</a><a class="nav-link" href="../admin/">Admin</a></section><section><h2>Reference</h2><a class="nav-link active" href="./">API Reference</a><a class="nav-link" href="../spec/">Spec</a><a class="nav-link" href="../spec-v2/">Fleet v2 Implementation Record</a></section></nav>
+    </aside>
+    <main>
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Reference</p>
+          <h1>API Reference</h1>
+        </div>
+        <div class="hero-meta">
+          <a class="repo" href="https://github.com/openclaw/crabfleet" rel="noopener">GitHub</a>
+          <a class="edit" href="https://github.com/openclaw/crabfleet/edit/main/docs/api.md" rel="noopener">Edit page</a>
+        </div>
+      </header>
+      <div class="doc-grid">
+        <article class="doc"><h1 id="api-reference">API Reference</h1>
+<p>Crabfleet exposes same-origin REST APIs and terminal WebSocket APIs from the Worker. Browser clients keep app state in D1-backed REST calls and attach to live Codex terminals through the multiplex terminal hub.</p>
+<h2 id="auth"><a class="anchor" href="#auth" aria-label="Anchor link">#</a>Auth</h2>
+<p>Session cookie: <code>crabbox_session</code></p>
+<ul>
+<li>GitHub OAuth: <code>/login/github</code></li>
+<li>Bootstrap token: <code>POST /api/login/token</code></li>
+<li>Logout: <code>POST /api/logout</code></li>
+</ul>
+<p>GitHub sessions last 15 minutes. Bootstrap sessions last 1 hour. API JSON responses use <code>cache-control: no-store</code>.</p>
+<p>Deployments may instead accept a trusted reverse-proxy identity when all trusted-proxy bindings are configured. The request URL must use the exact configured backend origin, and the proxy must send the shared secret and configured identity header. The asserted user needs a direct login/email allowlist entry unless <code>CRABFLEET_TRUSTED_PROXY_AUTO_ROLE</code> grants valid proxy identities the <code>viewer</code> or <code>maintainer</code> role; allowlist matches take precedence and all other automatic-role values fail closed. Mutations and WebSocket upgrades must also prove the configured public origin. Crabfleet strips proxy assertions, cookies, and upstream authorization credentials before app and terminal routing.</p>
+<p><code>CRABFLEET_TENANCY_MODE</code> defaults to <code>private</code>. Private API reads return only cards and sessions owned by the authenticated stable subject, plus sessions covered by an unexpired named grant or delegated-control lease. Global roles do not bypass this boundary. Set the mode to exact <code>shared</code> only for the legacy team-wide visibility contract.</p>
+<h2 id="native-device-link"><a class="anchor" href="#native-device-link" aria-label="Anchor link">#</a>Native Device Link</h2>
+<p>The versioned native API gives the macOS client read-only access to the Fleet registry without copying a browser cookie. Device links expire after 10 minutes. The resulting bearer lasts 24 hours, has the exact <code>fleet:read</code> scope, and is accepted only by the native session, Fleet, and revocation endpoints. All responses use <code>cache-control: no-store</code>; timestamps are Unix epoch milliseconds. The one-time bearer handoff is encrypted with <code>CRABBOX_TOKEN_ENCRYPTION_KEY</code>, falling back to <code>GITHUB_CLIENT_SECRET</code> when GitHub OAuth is configured. A trusted-proxy-only deployment must set the explicit encryption key before native device approval can succeed. GitHub-approved grants also retain the approving session&#39;s OAuth credential as encrypted ciphertext on the native token row so membership and team access can be refreshed throughout the grant. That credential is never returned to the native app and is erased when the token is revoked. The scheduled Worker cleanup deletes expired device-link and access-token rows even when no later authorization request arrives; approved grants that are never polled are deleted with the 10-minute device link instead of retaining their encrypted GitHub credential for 24 hours.</p>
+<h3 id="post-api-native-v1-auth-device"><a class="anchor" href="#post-api-native-v1-auth-device" aria-label="Anchor link">#</a>POST /api/native/v1/auth/device</h3>
+<p>Starts an unauthenticated device link. <code>clientName</code> is required and limited to 120 characters.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;clientName&quot;:</span> <span class="hl-s">&quot;Crabfleet for macOS&quot;</span>
+}</code></pre>
+<p>Returns <code>201</code>:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;deviceCode&quot;:</span> <span class="hl-s">&quot;&lt;one-time-device-secret&gt;&quot;</span>,
+  <span class="hl-k">&quot;verificationUri&quot;:</span> <span class="hl-s">&quot;https://fleet.example/native/link/&lt;one-time-link-secret&gt;&quot;</span>,
+  <span class="hl-k">&quot;expiresAt&quot;:</span> <span class="hl-n">1782288600000</span>,
+  <span class="hl-k">&quot;intervalSeconds&quot;:</span> <span class="hl-n">5</span>
+}</code></pre>
+<p>The app opens <code>verificationUri</code> in the user&#39;s browser. A <code>GET /native/link/:code</code> never approves the device: it requires a normal browser-authenticated <code>viewer</code> and renders a confirmation form. A <code>POST /native/link/:code</code> requires that browser session and the exact configured public origin. Cookie-authenticated deployments also require the link-bound CSRF cookie; trusted-proxy deployments use their asserted browser identity plus exact-Origin enforcement because the Worker strips upstream cookies. Development identities cannot approve native clients. When <code>GITHUB_REDIRECT_URI</code> names another authoritative origin, the link redirects there before lookup or cookie creation. An expired or already-used link returns <code>410</code>.</p>
+<p>When the trusted-proxy public origin is also the OAuth callback origin, an already authenticated proxy request is served on the configured backend origin rather than redirected back through its browser-visible origin. This avoids a proxy-to-Worker canonicalization loop while the form&#39;s unsafe request still requires the exact public <code>Origin</code>. A genuinely separate OAuth callback origin still receives one canonical redirect before lookup or cookie creation.</p>
+<h3 id="post-api-native-v1-auth-token"><a class="anchor" href="#post-api-native-v1-auth-token" aria-label="Anchor link">#</a>POST /api/native/v1/auth/token</h3>
+<p>Polls the device link without browser credentials:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;deviceCode&quot;:</span> <span class="hl-s">&quot;&lt;one-time-device-secret&gt;&quot;</span>
+}</code></pre>
+<p>While approval is pending, the endpoint returns <code>202</code>, includes <code>Retry-After: 5</code>, and returns:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;status&quot;:</span> <span class="hl-s">&quot;pending&quot;</span>
+}</code></pre>
+<p>Polling before the advertised interval returns <code>429</code>, includes the same <code>Retry-After</code>, and returns <code>{ &quot;error&quot;: &quot;slow_down&quot; }</code>. After approval, one poll consumes the device code and returns <code>200</code>:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;accessToken&quot;:</span> <span class="hl-s">&quot;&lt;native-bearer-secret&gt;&quot;</span>,
+  <span class="hl-k">&quot;tokenType&quot;:</span> <span class="hl-s">&quot;Bearer&quot;</span>,
+  <span class="hl-k">&quot;expiresAt&quot;:</span> <span class="hl-n">1782374400000</span>,
+  <span class="hl-k">&quot;user&quot;:</span> {
+    <span class="hl-k">&quot;subject&quot;:</span> <span class="hl-s">&quot;github:1234&quot;</span>,
+    <span class="hl-k">&quot;login&quot;:</span> <span class="hl-s">&quot;octocat&quot;</span>,
+    <span class="hl-k">&quot;email&quot;:</span> <span class="hl-m">null</span>,
+    <span class="hl-k">&quot;name&quot;:</span> <span class="hl-s">&quot;Octo Cat&quot;</span>,
+    <span class="hl-k">&quot;role&quot;:</span> <span class="hl-s">&quot;viewer&quot;</span>,
+    <span class="hl-k">&quot;allowed&quot;:</span> <span class="hl-m">true</span>,
+    <span class="hl-k">&quot;teams&quot;:</span> []
+  }
+}</code></pre>
+<p>Invalid, expired, consumed, or no-longer-authorized device codes return <code>401</code>. Transient GitHub membership-refresh failures return retryable <code>503</code> without consuming the approved device code; clients may continue polling until the original link expiry.</p>
+<h3 id="get-api-native-v1-session"><a class="anchor" href="#get-api-native-v1-session" aria-label="Anchor link">#</a>GET /api/native/v1/session</h3>
+<p>Requires <code>Authorization: Bearer &lt;native-bearer-secret&gt;</code>. Returns the currently authorized user and public deployment metadata:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;user&quot;:</span> {
+    <span class="hl-k">&quot;subject&quot;:</span> <span class="hl-s">&quot;github:1234&quot;</span>,
+    <span class="hl-k">&quot;login&quot;:</span> <span class="hl-s">&quot;octocat&quot;</span>,
+    <span class="hl-k">&quot;email&quot;:</span> <span class="hl-m">null</span>,
+    <span class="hl-k">&quot;name&quot;:</span> <span class="hl-s">&quot;Octo Cat&quot;</span>,
+    <span class="hl-k">&quot;role&quot;:</span> <span class="hl-s">&quot;viewer&quot;</span>,
+    <span class="hl-k">&quot;allowed&quot;:</span> <span class="hl-m">true</span>,
+    <span class="hl-k">&quot;teams&quot;:</span> []
+  },
+  <span class="hl-k">&quot;deployment&quot;:</span> {
+    <span class="hl-k">&quot;label&quot;:</span> <span class="hl-s">&quot;Crabfleet&quot;</span>,
+    <span class="hl-k">&quot;canonicalUrl&quot;:</span> <span class="hl-s">&quot;https://fleet.example&quot;</span>,
+    <span class="hl-k">&quot;productUrl&quot;:</span> <span class="hl-s">&quot;https://product.example&quot;</span>,
+    <span class="hl-k">&quot;sshHost&quot;:</span> <span class="hl-s">&quot;ssh.example&quot;</span>
+  }
+}</code></pre>
+<h3 id="get-api-native-v1-fleet"><a class="anchor" href="#get-api-native-v1-fleet" aria-label="Anchor link">#</a>GET /api/native/v1/fleet</h3>
+<p>Requires the native bearer and returns the same tenant-filtered, redacted <code>{ &quot;fleet&quot;: ... }</code> envelope as <code>GET /api/fleet</code>. It does not return an attach credential, native RFB endpoint, or mutation authority.</p>
+<h3 id="post-api-native-v1-native-vnc"><a class="anchor" href="#post-api-native-v1-native-vnc" aria-label="Anchor link">#</a>POST /api/native/v1/native-vnc</h3>
+<p>Requires the native bearer, a current controllable Crabbox runtime-adapter session, and <code>capabilities.nativeVnc=true</code>. Crabfleet asks the session&#39;s registered adapter for a one-minute, single-use grant and returns it with <code>Cache-Control: no-store</code>. Fleet exposes the Crabfleet session ID for this request instead of the provider lease ID; the JSON body is <code>{ &quot;sessionId&quot;: &quot;IS-&lt;number&gt;&quot; }</code>. The macOS app sends the grant ticket to the installed Crabbox CLI on stdin; the ticket is never placed in argv or a URL.</p>
+<h3 id="delete-api-native-v1-auth-token"><a class="anchor" href="#delete-api-native-v1-auth-token" aria-label="Anchor link">#</a>DELETE /api/native/v1/auth/token</h3>
+<p>Requires the native bearer, revokes that token without depending on an external identity-provider refresh, and returns:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;ok&quot;:</span> <span class="hl-m">true</span>
+}</code></pre>
+<p>Expired, revoked, malformed, or ambiguous proxy-plus-bearer credentials return a uniform <code>401</code> from every bearer-authenticated native endpoint. Each use also rechecks the stored user against current deployment authorization. GitHub grants additionally refresh active organization membership and current teams before the device-code handoff and every bearer use. Inactive membership, identity mismatch, invalid GitHub credentials, or allowlist denial revokes the native token and clears its encrypted GitHub credential. A transient GitHub failure or incomplete email lookup returns retryable <code>503</code> without destroying the grant or granting access from stale identity data.</p>
+<p>Trusted identity gateways must bypass browser SSO only for this exact native API method/path set:</p>
+<ul>
+<li><code>POST /api/native/v1/auth/device</code></li>
+<li><code>POST /api/native/v1/auth/token</code></li>
+<li><code>DELETE /api/native/v1/auth/token</code></li>
+<li><code>GET /api/native/v1/session</code></li>
+<li><code>GET /api/native/v1/fleet</code></li>
+<li><code>POST /api/native/v1/native-vnc</code></li>
+</ul>
+<p>They must pass those requests directly to Crabfleet and must not add a competing asserted identity to bearer requests. Every <code>/native/link/*</code> browser route remains behind browser SSO and Crabfleet&#39;s normal browser authentication; do not add a wildcard <code>/api/native/*</code> bypass.</p>
+<p>If a gateway cannot bypass browser SSO for exact routes but supports OAuth 2.0 dynamic client registration and authorization-code PKCE, it may instead return a Bearer challenge whose same-origin <code>resource_metadata</code> describes the protected resource and authorization server and whose <code>scope</code> names the required read-only scope, plus these exact authenticated operations:</p>
+<ul>
+<li><code>GET /mcp/crabfleet/native/v1/session</code></li>
+<li><code>GET /mcp/crabfleet/native/v1/fleet</code></li>
+<li><code>POST /mcp/crabfleet/native/v1/native-vnc</code></li>
+</ul>
+<p>All three challenges must resolve to the same authorization server. RFC 9728 metadata identifies each exact challenged route, and the client requests all resource identifiers. A compatibility profile may return authorization-server metadata directly only when it omits a <code>resource</code> field and its explicit <code>api://</code> scope can be matched to the issued JWT&#39;s <code>aud</code> claim before the bearer is sent to either route. Scope lists must remain within the client&#39;s advertised aggregate limit. Before contacting an OAuth issuer or endpoint outside the deployment origin, the client requires explicit user trust for that provider origin.</p>
+<p>The gateway must consume and strip its OAuth bearer, assert the authenticated browser identity through the deployment&#39;s trusted-proxy boundary, and map the two reads plus the native VNC grant POST to their exact <code>/api/native/v1/*</code> counterparts. It must reject queries, other mutations, unknown suffixes, and WebSocket upgrades under that prefix. This alternative does not expose Crabfleet&#39;s device-code or token endpoints through the gateway.</p>
+<h2 id="public-endpoints"><a class="anchor" href="#public-endpoints" aria-label="Anchor link">#</a>Public Endpoints</h2>
+<h3 id="get-healthz"><a class="anchor" href="#get-healthz" aria-label="Anchor link">#</a>GET /healthz</h3>
+<p>Returns:</p>
+<pre><code class="language-text">ok</code></pre>
+<h3 id="get-api-auth"><a class="anchor" href="#get-api-auth" aria-label="Anchor link">#</a>GET /api/auth</h3>
+<p>Returns available login methods without requiring a session.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;auth&quot;:</span> {
+    <span class="hl-k">&quot;github&quot;:</span> <span class="hl-m">true</span>,
+    <span class="hl-k">&quot;token&quot;:</span> <span class="hl-m">true</span>
+  },
+  <span class="hl-k">&quot;deployment&quot;:</span> {
+    <span class="hl-k">&quot;label&quot;:</span> <span class="hl-s">&quot;Crabfleet&quot;</span>,
+    <span class="hl-k">&quot;canonicalUrl&quot;:</span> <span class="hl-s">&quot;https://crabfleet.openclaw.ai&quot;</span>,
+    <span class="hl-k">&quot;productUrl&quot;:</span> <span class="hl-s">&quot;https://crabfleet.ai&quot;</span>,
+    <span class="hl-k">&quot;sshHost&quot;:</span> <span class="hl-s">&quot;crabd.sh&quot;</span>
+  }
+}</code></pre>
+<p>The unauthenticated response exposes branding and SSH connection fields only. Preferred repository, default runtime, adapter profile, and other routing configuration are returned after authentication through <code>/api/state</code>.</p>
+<h3 id="post-api-login-token"><a class="anchor" href="#post-api-login-token" aria-label="Anchor link">#</a>POST /api/login/token</h3>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;token&quot;:</span> <span class="hl-s">&quot;bootstrap-token&quot;</span>
+}</code></pre>
+<p>Returns the bootstrap owner user and sets <code>crabbox_session</code>.</p>
+<h3 id="get-login-github"><a class="anchor" href="#get-login-github" aria-label="Anchor link">#</a>GET /login/github</h3>
+<p>Starts GitHub OAuth with <code>read:user read:org repo</code>.</p>
+<p>When <code>GITHUB_REDIRECT_URI</code> is configured, that validated HTTPS callback is authoritative for both authorization and token exchange. Login, SSH-link, and native-link requests received on another origin redirect to the configured origin before any host-only state cookie is created, preserving the pending link code through callback. Without the binding, Crabfleet uses the request-origin callback; insecure non-loopback HTTP origins are rejected.</p>
+<h3 id="get-auth-github-callback"><a class="anchor" href="#get-auth-github-callback" aria-label="Anchor link">#</a>GET /auth/github/callback</h3>
+<p>Completes OAuth, verifies active org membership, applies the allowlist, stores the user, and redirects to <code>/app</code>.</p>
+<p>With <code>GITHUB_REDIRECT_URI</code> configured, callback requests whose origin or path does not exactly match the configured callback are rejected before token exchange.</p>
+<h2 id="session-endpoints"><a class="anchor" href="#session-endpoints" aria-label="Anchor link">#</a>Session Endpoints</h2>
+<h3 id="post-api-logout"><a class="anchor" href="#post-api-logout" aria-label="Anchor link">#</a>POST /api/logout</h3>
+<p>Deletes the session and clears the cookie.</p>
+<h3 id="get-api-session"><a class="anchor" href="#get-api-session" aria-label="Anchor link">#</a>GET /api/session</h3>
+<p>Returns current user and enabled auth methods.</p>
+<h3 id="get-api-state"><a class="anchor" href="#get-api-state" aria-label="Anchor link">#</a>GET /api/state</h3>
+<p>Returns app state:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;user&quot;:</span> {},
+  <span class="hl-k">&quot;auth&quot;:</span> {},
+  <span class="hl-k">&quot;org&quot;:</span> <span class="hl-s">&quot;OpenClaw&quot;</span>,
+  <span class="hl-k">&quot;cap&quot;:</span> <span class="hl-n">20</span>,
+  <span class="hl-k">&quot;retention&quot;:</span> <span class="hl-s">&quot;30&quot;</span>,
+  <span class="hl-k">&quot;merge&quot;:</span> <span class="hl-s">&quot;guarded&quot;</span>,
+  <span class="hl-k">&quot;allow&quot;:</span> [],
+  <span class="hl-k">&quot;repos&quot;:</span> [<span class="hl-s">&quot;openclaw/crabfleet&quot;</span>, <span class="hl-s">&quot;openclaw/crabbox&quot;</span>],
+  <span class="hl-k">&quot;workflows&quot;:</span> [],
+  <span class="hl-k">&quot;cards&quot;:</span> []
+}</code></pre>
+<p>Owner-only fields:</p>
+<ul>
+<li><code>allow</code></li>
+<li><code>workflows</code></li>
+</ul>
+<p>Every card may include:</p>
+<ul>
+<li><code>changes</code>: changed file summary; list responses omit diff patches</li>
+<li><code>run</code>: active run attempt, including <code>selectionReason</code> and <code>capabilities</code></li>
+<li><code>logs</code>: last 80 events</li>
+<li><code>schedule</code>, <code>nextRunAt</code>, and <code>lastScheduledRunAt</code>: recurring cadence and persisted scheduler evidence</li>
+</ul>
+<p>In private tenancy mode, <code>cards</code>, <code>interactiveSessions</code>, and derived Fleet state contain only the current tenant&#39;s visible records.</p>
+<h2 id="github-lookup"><a class="anchor" href="#github-lookup" aria-label="Anchor link">#</a>GitHub Lookup</h2>
+<h3 id="get-api-github-refs-number-76552"><a class="anchor" href="#get-api-github-refs-number-76552" aria-label="Anchor link">#</a>GET /api/github/refs?number=76552</h3>
+<p>Maintainer+. Searches enabled repos for issue/PR number matches.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;matches&quot;:</span> [
+    {
+      <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>,
+      <span class="hl-k">&quot;number&quot;:</span> <span class="hl-n">76552</span>,
+      <span class="hl-k">&quot;title&quot;:</span> <span class="hl-s">&quot;Fix runtime policy&quot;</span>,
+      <span class="hl-k">&quot;source&quot;:</span> <span class="hl-s">&quot;Issue&quot;</span>,
+      <span class="hl-k">&quot;state&quot;:</span> <span class="hl-s">&quot;open&quot;</span>,
+      <span class="hl-k">&quot;url&quot;:</span> <span class="hl-s">&quot;https://github.com/openclaw/crabfleet/issues/76552&quot;</span>,
+      <span class="hl-k">&quot;author&quot;:</span> <span class="hl-s">&quot;octocat&quot;</span>,
+      <span class="hl-k">&quot;updatedAt&quot;:</span> <span class="hl-s">&quot;2026-05-17T10:00:00Z&quot;</span>,
+      <span class="hl-k">&quot;body&quot;:</span> <span class="hl-s">&quot;...&quot;</span>
+    }
+  ]
+}</code></pre>
+<p>With <code>GITHUB_TOKEN</code>, lookup runs across all enabled repos. Without it, lookup falls back to the preferred repo.</p>
+<h2 id="cards"><a class="anchor" href="#cards" aria-label="Anchor link">#</a>Cards</h2>
+<h3 id="post-api-cards"><a class="anchor" href="#post-api-cards" aria-label="Anchor link">#</a>POST /api/cards</h3>
+<p>Maintainer+. Creates a card.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;prompt&quot;:</span> <span class="hl-s">&quot;Implement allowlisted admin workflow&quot;</span>,
+  <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>,
+  <span class="hl-k">&quot;source&quot;:</span> <span class="hl-s">&quot;Prompt&quot;</span>,
+  <span class="hl-k">&quot;runtime&quot;:</span> <span class="hl-s">&quot;auto&quot;</span>,
+  <span class="hl-k">&quot;policy&quot;:</span> <span class="hl-s">&quot;&quot;</span>,
+  <span class="hl-k">&quot;schedule&quot;:</span> { <span class="hl-k">&quot;kind&quot;:</span> <span class="hl-s">&quot;interval&quot;</span>, <span class="hl-k">&quot;everyMs&quot;:</span> <span class="hl-n">86400000</span> }
+}</code></pre>
+<p>Fields:</p>
+<ul>
+<li><code>prompt</code>: required, max 4000 chars.</li>
+<li><code>repo</code>: required, enabled repo.</li>
+<li><code>title</code>: optional, max 140 chars; derived from prompt if blank.</li>
+<li><code>source</code>: optional <code>Prompt</code>, <code>Issue</code>, or <code>PR</code>.</li>
+<li><code>runtime</code>: optional <code>auto</code>, <code>container</code>, or <code>crabbox</code>.</li>
+<li><code>policy</code>: optional. Blank, <code>default</code>, or <code>repo_default</code> uses a valid repo workflow policy, then <code>open_pr</code>.</li>
+<li><code>schedule</code>: optional interval schedule. <code>everyMs</code> must be an integer from 60000 through 2678400000. Optional <code>startAt</code> is a non-negative Unix epoch millisecond timestamp. The first occurrence is the first cadence-aligned timestamp after creation unless <code>startAt</code> is in the future.</li>
+</ul>
+<p>Invalid explicit merge policies or schedules return <code>400</code>.</p>
+<p>Scheduled cards include <code>schedule</code>, <code>nextRunAt</code>, and <code>lastScheduledRunAt</code> in card responses. Due occurrences are atomically claimed and advanced. If an active run or capacity limit prevents dispatch, the occurrence is recorded as skipped and the next cadence remains aligned.</p>
+<h3 id="post-api-admin-scheduler-tick"><a class="anchor" href="#post-api-admin-scheduler-tick" aria-label="Anchor link">#</a>POST /api/admin/scheduler/tick</h3>
+<p>Owner only. Runs one recurring-card scheduler tick and returns bounded counters:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;status&quot;:</span> <span class="hl-s">&quot;ok&quot;</span>,
+  <span class="hl-k">&quot;now&quot;:</span> <span class="hl-n">1779000000000</span>,
+  <span class="hl-k">&quot;scanned&quot;:</span> <span class="hl-n">1</span>,
+  <span class="hl-k">&quot;claimed&quot;:</span> <span class="hl-n">1</span>,
+  <span class="hl-k">&quot;queued&quot;:</span> <span class="hl-n">1</span>,
+  <span class="hl-k">&quot;skipped&quot;:</span> <span class="hl-n">0</span>,
+  <span class="hl-k">&quot;invalid&quot;:</span> <span class="hl-n">0</span>
+}</code></pre>
+<h3 id="post-api-cards-id-actions"><a class="anchor" href="#post-api-cards-id-actions" aria-label="Anchor link">#</a>POST /api/cards/:id/actions</h3>
+<p>Actions:</p>
+<ul>
+<li><code>start</code>: maintainer, claim run or pulse active run.</li>
+<li><code>pulse</code>: maintainer, same as start for active runs.</li>
+<li><code>advance</code>: maintainer, move to next lane.</li>
+<li><code>attach</code>: viewer, fetch current card/logs.</li>
+<li><code>watch</code>: viewer, record watch event.</li>
+<li><code>takeover</code>: maintainer, requires active run and <code>capabilities.takeover</code>.</li>
+<li><code>stall</code>: maintainer, mark active run stalled and move to Human Review.</li>
+</ul>
+<p>Response:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;card&quot;:</span> {}
+}</code></pre>
+<p>Takeover errors:</p>
+<ul>
+<li><code>400 no active run to take over</code></li>
+<li><code>400 runtime does not support takeover</code></li>
+</ul>
+<h3 id="get-api-cards-id-runs"><a class="anchor" href="#get-api-cards-id-runs" aria-label="Anchor link">#</a>GET /api/cards/:id/runs</h3>
+<p>Returns all run attempts for a card, newest first.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;runs&quot;:</span> [
+    {
+      <span class="hl-k">&quot;id&quot;:</span> <span class="hl-s">&quot;CY-101-R1&quot;</span>,
+      <span class="hl-k">&quot;cardId&quot;:</span> <span class="hl-s">&quot;CY-101&quot;</span>,
+      <span class="hl-k">&quot;attempt&quot;:</span> <span class="hl-n">1</span>,
+      <span class="hl-k">&quot;runtime&quot;:</span> <span class="hl-s">&quot;container&quot;</span>,
+      <span class="hl-k">&quot;status&quot;:</span> <span class="hl-s">&quot;running&quot;</span>,
+      <span class="hl-k">&quot;controlIntent&quot;:</span> <span class="hl-m">null</span>,
+      <span class="hl-k">&quot;leaseId&quot;:</span> <span class="hl-m">null</span>,
+      <span class="hl-k">&quot;attachUrl&quot;:</span> <span class="hl-m">null</span>,
+      <span class="hl-k">&quot;vncUrl&quot;:</span> <span class="hl-m">null</span>,
+      <span class="hl-k">&quot;selectionReason&quot;:</span> <span class="hl-s">&quot;default container runtime&quot;</span>,
+      <span class="hl-k">&quot;capabilities&quot;:</span> {
+        <span class="hl-k">&quot;terminal&quot;:</span> <span class="hl-m">true</span>,
+        <span class="hl-k">&quot;takeover&quot;:</span> <span class="hl-m">false</span>,
+        <span class="hl-k">&quot;vnc&quot;:</span> <span class="hl-m">false</span>,
+        <span class="hl-k">&quot;desktop&quot;:</span> <span class="hl-m">false</span>,
+        <span class="hl-k">&quot;logs&quot;:</span> <span class="hl-m">true</span>,
+        <span class="hl-k">&quot;artifacts&quot;:</span> <span class="hl-m">true</span>
+      },
+      <span class="hl-k">&quot;operator&quot;:</span> <span class="hl-m">null</span>,
+      <span class="hl-k">&quot;lastHeartbeatAt&quot;:</span> <span class="hl-n">1779000000000</span>,
+      <span class="hl-k">&quot;startedAt&quot;:</span> <span class="hl-n">1779000000000</span>,
+      <span class="hl-k">&quot;endedAt&quot;:</span> <span class="hl-m">null</span>,
+      <span class="hl-k">&quot;createdAt&quot;:</span> <span class="hl-n">1779000000000</span>,
+      <span class="hl-k">&quot;updatedAt&quot;:</span> <span class="hl-n">1779000000000</span>,
+      <span class="hl-k">&quot;error&quot;:</span> <span class="hl-m">null</span>
+    }
+  ]
+}</code></pre>
+<h2 id="interactive-sessions"><a class="anchor" href="#interactive-sessions" aria-label="Anchor link">#</a>Interactive Sessions</h2>
+<h3 id="get-api-shared-sessions-id-token-token"><a class="anchor" href="#get-api-shared-sessions-id-token-token" aria-label="Anchor link">#</a>GET /api/shared-sessions/:id?token=:token</h3>
+<p>Public read-only endpoint for a generated session share link. Returns the shared interactive session, D1 event scrollback, and <code>sharedReadOnly: true</code>. Invalid, disabled, or rotated tokens return <code>404</code>.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;session&quot;:</span> {
+    <span class="hl-k">&quot;id&quot;:</span> <span class="hl-s">&quot;IS-105&quot;</span>,
+    <span class="hl-k">&quot;sharedReadOnly&quot;:</span> <span class="hl-m">true</span>,
+    <span class="hl-k">&quot;canControl&quot;:</span> <span class="hl-m">false</span>,
+    <span class="hl-k">&quot;logs&quot;:</span> []
+  }
+}</code></pre>
+<h3 id="post-api-provision-interactive"><a class="anchor" href="#post-api-provision-interactive" aria-label="Anchor link">#</a>POST /api/provision/interactive</h3>
+<p>Provision hook for built-in Cloudflare Sandbox workspaces. It accepts the managed session request shape and returns normalized provision status.</p>
+<p>Auth:</p>
+<ul>
+<li>Callers must send <code>Authorization: Bearer &lt;CRABBOX_INTERACTIVE_PROVISION_TOKEN&gt;</code>.</li>
+<li>Provision, PTY, and standalone stop fail closed when the token is absent, including after the Sandbox binding is removed.</li>
+</ul>
+<p>Backends:</p>
+<ul>
+<li>Versioned lifecycle adapters are deliberately excluded from this stateless hook. Create those workspaces through <code>POST /api/interactive-sessions</code>, which durably records ownership before calling the adapter.</li>
+<li>Direct built-in Sandbox calls without a managed interactive-session row acquire a durable standalone ownership fence before credential-policy registration. Standalone IDs cannot use the case-insensitive <code>IS-&lt;number&gt;</code> managed-session namespace. Retries with the same ID must match the original immutable request; abandoned claims and failed provisions enter the same generation-fenced cleanup path as managed sessions.</li>
+<li>A request whose ID already belongs to a managed interactive session is rejected unless every immutable request field matches that row and the call wins an exact session-version ownership claim before allocating a Sandbox. Completion commits through the immutable lease, claim, agent-token, and status ownership fence while monotonically advancing the session version, so an intervening metadata edit does not discard the non-replayable result.</li>
+<li>Only <code>runtime=container</code> is accepted. Crabbox workspaces must use the versioned managed lifecycle.</li>
+<li>Without the <code>SANDBOX</code> binding, the request fails instead of selecting another provider.</li>
+</ul>
+<p>For a successful direct built-in Sandbox provision, <code>attachUrl</code> is an absolute <code>wss://</code> URL under <code>/api/provision/interactive/:id/pty</code>, and <code>expiresAt</code> is bounded by <code>CRABBOX_STANDALONE_SANDBOX_TTL_SECONDS</code> (default four hours, maximum one day). Connect with the same <code>Authorization: Bearer &lt;CRABBOX_INTERACTIVE_PROVISION_TOKEN&gt;</code> header used for provisioning. The Worker validates the unexpired standalone owner and exact active credential-policy generation, strips the bearer before opening the Sandbox terminal, proxies the WebSocket while periodically revalidating that ownership, and closes both peers after stop, expiry, or policy revocation. It never routes the connection through <code>interactive_sessions</code>. <code>POST /api/provision/interactive/:id/stop</code> always requires that configured bearer, even if runtime backend bindings were removed after creation, and atomically moves the exact owner plus every matching policy into durable cleanup; expiry follows the same path from cron and PTY access, and cleanup terminates the Sandbox terminal execution session before deleting its owner row.</p>
+<h4 id="versioned-runtime-adapter"><a class="anchor" href="#versioned-runtime-adapter" aria-label="Anchor link">#</a>Versioned runtime adapter</h4>
+<p>Crabfleet authenticates every adapter request with <code>Authorization: Bearer CRABBOX_RUNTIME_ADAPTER_TOKEN</code>. Configure either one fixed <code>CRABBOX_RUNTIME_ADAPTER_URL</code> or a profile-routed <code>CRABBOX_RUNTIME_ADAPTER_URL_TEMPLATE</code>, never both. A template contains exactly one <code>{profile}</code> full path segment and accepts only lowercase DNS-label profile IDs. This lets a generic profile catalog select separate outbound adapters without teaching Crabfleet about their providers. Adapter URLs must use HTTPS, except literal loopback HTTP for same-host deployments. The original or resolved base URL may include a nested path, whose semantics are preserved, but any raw <code>?</code> or <code>#</code> delimiter is rejected even when its query or fragment is empty. Authenticated adapter requests reject redirects so the bearer token cannot cross origins. The resolved canonical control-plane base URL is persisted with the lifecycle registration before create. Replay, inspect, desktop connection, and delete recompute the route from the persisted profile and fail closed unless it exactly matches that registered identity, so a configuration change cannot redirect an existing workspace ID or turn a 404 from another origin into release proof.</p>
+<ul>
+<li><code>POST /v1/workspaces</code>: idempotent create. Crabfleet persists the deterministic adapter identity, TTL, idle timeout, requested capabilities, and exact serialized create payload before the request, then sends the same namespaced DNS-safe lowercase <code>id</code> and <code>Idempotency-Key</code>, plus repo, branch, runtime, opaque profile, command, prompt, ownership/lineage, and lifecycle settings. A definitive non-2xx response to the initial request is read once, sanitized, and durably recorded as the failure reason before provider release begins. After an ambiguous result, a bounded reconciliation pass retries only that immutable payload and key before any inspect; later edits to session metadata do not alter it. Replay-time authentication, routing, validation, or other non-success responses cannot prove the original request failed and therefore keep create ambiguity pending.</li>
+<li>An adapter that finds the requested ID already bound to a different immutable request returns <code>409</code> with <code>error.code = &quot;workspace_id_conflict&quot;</code>. Crabfleet marks only its local session failed and atomically drops that adapter identity when the exact pending create attempt still owns the lifecycle revision and reconciliation claim; a stale conflict response is ignored. It never adopts, inspects, or deletes the pre-existing workspace. Other <code>409</code> responses remain ambiguous and retryable.</li>
+<li><code>GET /v1/workspaces/:id</code>: inspect current status, capabilities, terminal URL, expiry, and provider resource identity. Status-only responses preserve previously stored capabilities and expiry; explicit <code>null</code> clears those fields. Active external sessions are reconciled in bounded batches; state responses wait only for a short foreground budget while remaining work continues in the Worker background.</li>
+<li><code>DELETE /v1/workspaces/:id</code>: stop/release. Crabfleet enters <code>stopping</code> before calling the adapter and marks the session stopped only after <code>204</code>, <code>404</code>, or a valid exact-ID terminal response confirms release; malformed successful bodies remain <code>stopping</code>. Plain-text and malformed-JSON responses are read once and sanitized before their evidence is retained. An explicit stop whose ownership claim loses returns success only when the exact workspace is already stopping or terminal; otherwise it returns a lifecycle conflict.</li>
+<li><code>POST /v1/workspaces/:id/connections/desktop</code>: mint a current transient desktop URL. The request has no body. <code>expiresAt</code> is optional; when present it must be in the future and no more than 15 minutes away. Accepted HTTPS URLs are treated as opaque signed connection material and redirected byte-for-byte without URL normalization. After minting, Crabfleet re-reads the exact current session status, control grant, capabilities, and registered adapter identity before redirecting; a concurrent stop, revocation, capability withdrawal, or lifecycle replacement discards the URL and denies access.</li>
+<li><code>POST /v1/workspaces/:id/connections/native-vnc</code>: mint a short-lived, single-use native VNC grant. The response must use the <code>crabbox/native-vnc-grant/v1</code> schema, an HTTPS broker URL (literal loopback HTTP is allowed for development), the exact opaque lease ID, a 32-byte-hex <code>native_vnc_</code> ticket, and an expiry no more than two minutes away. Crabfleet never exposes the provider lease ID in Fleet state and requests this grant only after revalidating current session control and the persisted adapter identity.</li>
+</ul>
+<p><code>CRABBOX_RUNTIME_ADAPTER_NAMESPACE</code> is required and must remain stable for the deployment. It prevents workspace and idempotency collisions when an adapter serves more than one Crabfleet tenant. The adapter workspace <code>id</code> is an immutable lifecycle route key and remains separate from an opaque <code>providerResourceId</code>; the provider identity is never interpreted as a Sandbox lease ID. Create, inspect, and stop responses must echo the byte-exact requested DNS-safe <code>id</code>; whitespace normalization is not accepted. Responses use <code>status</code>, <code>id</code>, optional <code>providerResourceId</code>, <code>attachUrl</code>, <code>capabilities</code>, <code>expiresAt</code>, and <code>message</code>. The optional <code>capabilities.nativeVnc</code> flag advertises a native-client handoff without asserting that the browser desktop endpoint exists; <code>vnc</code> and <code>desktop</code> remain the browser endpoint capability. Only a literal <code>null</code> clears a previously stored expiry; a malformed non-null timestamp invalidates the response. A terminal URL implies terminal capability only when the response omits a terminal capability; an explicit <code>terminal: false</code> wins. Supported status values include <code>provisioning</code>, <code>ready</code>, <code>stopping</code>, <code>stopped</code>, <code>expired</code>, and <code>failed</code>. Every session-bound provider DELETE is gated on the persisted create ambiguity marker being clear.</p>
+<p>Every create, inspect, delete, and desktop response body is consumed through one 64 KiB bounded stream reader before JSON or text parsing. Declared or chunked oversized bodies are cancelled and fail safely: ambiguous create remains reconcilable, delete remains pending, inspect retries later, and desktop access is denied.</p>
+<p>Adapter messages are untrusted display text. Crabfleet removes raw and slash-escaped HTTP/WebSocket connection URLs directly from arbitrary message/detail text; Bearer and Basic credentials; authorization, cookie, and API-key headers; and sensitive assignments such as quoted JSON, colon fields, <code>token</code>, <code>ticket</code>, <code>access_token</code>, passwords, signatures, and secrets before replacing opaque provider identifiers and storing text in <code>lastEvent</code>, events, terminal failure evidence, or archives. For non-successful or malformed responses, opaque <code>providerResourceId</code>, <code>provider_resource_id</code>, <code>leaseId</code>, and <code>lease_id</code> values are collected from body, workspace, and error envelopes before redaction. Sanitizing credential structure first prevents an identifier such as <code>token</code> from hiding <code>token=secret</code>.</p>
+<p>An adapter-reported <code>failed</code> workspace is not locally terminal until Crabfleet calls DELETE and confirms release. Crabfleet durably clears create ambiguity and records the requested failed terminal state and original failure reason before awaiting DELETE, so reconciliation cannot replay the create or replace useful failure evidence with a generic release message. Asynchronous or uncertain release remains <code>stopping</code>; reconciliation records <code>failed</code> only after the workspace is gone. A stop racing an ambiguous create also remains <code>stopping</code>: every reconciliation pass uses a dedicated replay path fenced to the exact <code>stopping</code> row, pending marker, registered control plane, immutable payload, settings, and session version, then issues DELETE before recording the requested terminal state. Generic provisioning cannot restage that row. After confirmed release, Crabfleet re-reads and compare-and-swaps the current ambiguity marker and terminal intent: a cleared marker terminalizes immediately, while a still-pending create remains <code>stopping</code>. Only a valid exact-ID successful replay, including <code>provisioning</code>, proves ownership and clears ambiguity. An explicit <code>workspace_id_conflict</code> proves non-ownership and atomically detaches the local lifecycle without DELETE; every other replay response leaves the marker pending.</p>
+<h3 id="get-api-terminal-ws"><a class="anchor" href="#get-api-terminal-ws" aria-label="Anchor link">#</a>GET /api/terminal/ws</h3>
+<p>Visible session owner, user with a current named viewer/controller grant, current delegated controller, SSH gateway linked-key identity, scoped session agent, or a public shared-link token for read-only sessions. In shared tenancy mode, legacy maintainer/owner visibility also applies. Multiplex WebSocket endpoint used by the Ghostty WASM session grid, Go CLI, and SSH gateway. One socket can subscribe to multiple interactive sessions, receive PTY output frames, resize terminals, and send input only when the current user has control.</p>
+<p>The wire format is a compact binary frame:</p>
+<pre><code class="language-text">u16 magic 0x5943
+u8 version 2
+u8 message_type
+u32 session_id_length
+utf8 session_id
+u32 payload_length
+payload bytes</code></pre>
+<p>Supported client actions:</p>
+<ul>
+<li><code>Subscribe</code>: attach to a session with output/snapshot/event flags. Its payload is exactly five little-endian <code>u32</code> fields: flags, snapshot minimum interval, snapshot maximum interval, initial cols, and initial rows. Zero dimensions select server defaults.</li>
+<li><code>Unsubscribe</code>: detach one session without closing the hub.</li>
+<li><code>Input</code> / <code>Key</code>: send terminal bytes when control is granted.</li>
+<li><code>Resize</code>: forward terminal dimensions to the upstream PTY.</li>
+<li><code>Stop</code>: close the upstream subscription.</li>
+<li><code>Ping</code>: keepalive, answered with <code>Pong</code>.</li>
+<li><code>Ack</code>: acknowledge consumed output bytes for negotiated flow control.</li>
+</ul>
+<p>Server messages include <code>Welcome</code>, <code>Output</code>, <code>Event</code>, <code>Error</code>, <code>ControlRevoked</code>, and <code>Pong</code>. Shared-link and named-viewer clients can subscribe and scroll output, but input frames are rejected without current controller or owner access. Subscriptions require the current <code>terminal</code> capability; withdrawing it prevents new attaches, closes existing terminal sockets on the next authorization check, suppresses attachable state from app, API, fleet, CLI, and SSH responses, and removes Fleet terminal/SSH affordances. Recurring and per-input authorization use short-lived D1 snapshots only; throttled subscription reconciliation runs independently and never blocks an input frame on provider I/O.</p>
+<p>Target resolution:</p>
+<ul>
+<li>Built-in Sandbox terminal: Crabfleet opens the session PTY through the <code>SANDBOX</code> binding and forwards the requested terminal dimensions.</li>
+<li>Provider terminal connection: if the provision adapter returned a <code>wss://</code> URL, or literal loopback <code>ws://</code> URL, Crabfleet retains it server-side and proxies to it unchanged, including its path and signed query string.</li>
+</ul>
+<p>Crabfleet never rewrites an adapter <code>attachUrl</code>. It authenticates versioned-adapter terminal upgrades with <code>CRABBOX_RUNTIME_ADAPTER_TOKEN</code> only when the terminal shares the persisted and currently configured adapter origin; adapter URLs never carry reusable shell credentials. Clients never receive upstream credentials.</p>
+<h3 id="post-api-interactive-sessions-id-clipboard"><a class="anchor" href="#post-api-interactive-sessions-id-clipboard" aria-label="Anchor link">#</a>POST /api/interactive-sessions/:id/clipboard</h3>
+<p>Viewer+ with writable terminal control. Uploads a browser clipboard image/file body into the controlled Cloudflare Sandbox workspace and returns <code>{ path, name, mediaType, byteCount }</code>. The browser then pastes the returned path into the PTY. Max body size: 10 MiB. Non-Sandbox PTY backends do not expose file paste.</p>
+<h3 id="get-api-interactive-sessions-id-vnc"><a class="anchor" href="#get-api-interactive-sessions-id-vnc" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id/vnc</h3>
+<p>Viewer+ with writable session control. For <code>runtime-v1</code>, Crabfleet authenticates the browser session, asks the adapter to mint a current desktop connection, validates its HTTPS URL and optional bounded expiry, and issues a no-store redirect. Versioned-adapter desktop URLs are never persisted in D1 or returned by fleet state. API and CLI session views expose an absolute canonical Crabfleet browser URL for this cookie-authenticated route; the SSH gateway does not mint or receive the underlying adapter URL. Built-in Sandbox sessions may expose their validated desktop URL while active.</p>
+<h3 id="post-api-openclaw-action-sessions"><a class="anchor" href="#post-api-openclaw-action-sessions" aria-label="Anchor link">#</a>POST /api/openclaw/action-sessions</h3>
+<p>Internal OpenClaw service endpoint authenticated with <code>Authorization: Bearer CRABBOX_OPENCLAW_TOKEN</code>. Registers or resumes one durable <code>github_actions</code> session per <code>workKey</code>. Re-registration returns the same logical session and rotates its scoped agent token.</p>
+<p>See <a href="../github-actions-sessions/">GitHub Actions Sessions</a> for the complete integration lifecycle and operational invariants.</p>
+<p>Request:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;workKey&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet:pr:42&quot;</span>,
+  <span class="hl-k">&quot;workKind&quot;:</span> <span class="hl-s">&quot;pr_repair&quot;</span>,
+  <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>,
+  <span class="hl-k">&quot;branch&quot;:</span> <span class="hl-s">&quot;fix/pr-42&quot;</span>,
+  <span class="hl-k">&quot;owner&quot;:</span> <span class="hl-s">&quot;operator@example.test&quot;</span>,
+  <span class="hl-k">&quot;sourceUrl&quot;:</span> <span class="hl-s">&quot;https://github.com/openclaw/crabfleet/pull/42&quot;</span>,
+  <span class="hl-k">&quot;runUrl&quot;:</span> <span class="hl-s">&quot;https://github.com/openclaw/crabfleet/actions/runs/123&quot;</span>,
+  <span class="hl-k">&quot;purpose&quot;:</span> <span class="hl-s">&quot;repair PR 42&quot;</span>,
+  <span class="hl-k">&quot;summary&quot;:</span> <span class="hl-s">&quot;starting repair&quot;</span>
+}</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;session&quot;:</span> {},
+  <span class="hl-k">&quot;agentToken&quot;:</span> <span class="hl-s">&quot;rotated-session-token&quot;</span>,
+  <span class="hl-k">&quot;runnerPtyUrl&quot;:</span> <span class="hl-s">&quot;wss://crabfleet.openclaw.ai/api/agent/interactive-sessions/IS-123/runner-pty?agentToken=...&quot;</span>,
+  <span class="hl-k">&quot;browserUrl&quot;:</span> <span class="hl-s">&quot;https://crabfleet.openclaw.ai/app/sessions/IS-123&quot;</span>
+}</code></pre>
+<p>Every new work key requires <code>owner</code>; it must resolve to exactly one active Crabfleet user by login, email, or stable subject. Existing owned work keys can resume without repeating it, and a work key cannot transfer to a different stable owner. <code>runnerPtyUrl</code> is directly usable with Node&#39;s global <code>WebSocket</code>; no custom headers are required. The query credential is session-scoped, rotates on registration, is stored only as a hash, and is not exposed through viewer/session APIs.</p>
+<h3 id="get-api-agent-interactive-sessions-id-runner-pty"><a class="anchor" href="#get-api-agent-interactive-sessions-id-runner-pty" aria-label="Anchor link">#</a>GET /api/agent/interactive-sessions/:id/runner-pty</h3>
+<p>WebSocket endpoint for the outbound GitHub Actions runner. Authentication uses the scoped <code>agentToken</code> query parameter embedded in <code>runnerPtyUrl</code>. The runner sends raw terminal output bytes and receives raw viewer input bytes. One runner is current; a reconnect replaces the previous runner while browser viewers remain attached.</p>
+<h3 id="post-api-agent-interactive-sessions-id-work-state"><a class="anchor" href="#post-api-agent-interactive-sessions-id-work-state" aria-label="Anchor link">#</a>POST /api/agent/interactive-sessions/:id/work-state</h3>
+<p>Agent-authenticated heartbeat and state update. Use <code>Authorization: Bearer &lt;agentToken&gt;</code>.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;state&quot;:</span> <span class="hl-s">&quot;running&quot;</span>,
+  <span class="hl-k">&quot;phase&quot;:</span> <span class="hl-s">&quot;fixing_tests&quot;</span>,
+  <span class="hl-k">&quot;summary&quot;:</span> <span class="hl-s">&quot;two tests fixed; checking CI&quot;</span>,
+  <span class="hl-k">&quot;codexThreadId&quot;:</span> <span class="hl-s">&quot;thread-id&quot;</span>,
+  <span class="hl-k">&quot;codexTurnId&quot;:</span> <span class="hl-s">&quot;turn-id&quot;</span>,
+  <span class="hl-k">&quot;completionReason&quot;:</span> <span class="hl-m">null</span>
+}</code></pre>
+<p>Every call updates <code>lastHeartbeatAt</code>. Active states are <code>registered</code> and <code>running</code>; <code>phase</code> keeps active steps distinguishable. Terminal states are <code>completed</code>, <code>blocked</code>, <code>failed</code>, and <code>canceled</code>.</p>
+<h3 id="post-api-interactive-sessions"><a class="anchor" href="#post-api-interactive-sessions" aria-label="Anchor link">#</a>POST /api/interactive-sessions</h3>
+<p>Maintainer+. Creates a standalone Codex CLI workspace request.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>,
+  <span class="hl-k">&quot;branch&quot;:</span> <span class="hl-s">&quot;main&quot;</span>,
+  <span class="hl-k">&quot;runtime&quot;:</span> <span class="hl-s">&quot;container&quot;</span>,
+  <span class="hl-k">&quot;profile&quot;:</span> <span class="hl-s">&quot;default&quot;</span>,
+  <span class="hl-k">&quot;command&quot;:</span> <span class="hl-s">&quot;codex&quot;</span>,
+  <span class="hl-k">&quot;prompt&quot;:</span> <span class="hl-s">&quot;Investigate flaky release CI&quot;</span>,
+  <span class="hl-k">&quot;parentSessionId&quot;:</span> <span class="hl-s">&quot;IS-100&quot;</span>,
+  <span class="hl-k">&quot;rootSessionId&quot;:</span> <span class="hl-s">&quot;IS-100&quot;</span>,
+  <span class="hl-k">&quot;purpose&quot;:</span> <span class="hl-s">&quot;debug release CI&quot;</span>,
+  <span class="hl-k">&quot;summary&quot;:</span> <span class="hl-s">&quot;checking the release workflow&quot;</span>
+}</code></pre>
+<p>Fields:</p>
+<ul>
+<li><code>repo</code>: required, enabled repo.</li>
+<li><code>branch</code>: optional, default <code>main</code>.</li>
+<li><code>runtime</code>: optional <code>crabbox</code> or <code>container</code>; the value must be enabled by <code>CRABFLEET_INTERACTIVE_RUNTIMES</code>. Omission uses <code>CRABFLEET_DEFAULT_RUNTIME</code>, which defaults to <code>container</code> when enabled or otherwise the only enabled runtime.</li>
+<li><code>profile</code>: optional opaque adapter profile, defaulted by <code>CRABFLEET_DEFAULT_PROFILE</code>. When <code>CRABFLEET_RUNTIME_PROFILES_JSON</code> is configured, the value must name a configured profile; its capability flags seed the requested adapter capabilities for Crabbox sessions.</li>
+<li><code>github_actions</code> is service-created through <code>/api/openclaw/action-sessions</code> and is not accepted by this endpoint.</li>
+<li><code>command</code>: optional, default <code>codex</code>.</li>
+<li><code>prompt</code>: optional initial context note.</li>
+<li><code>parentSessionId</code>: optional parent session for supervision trees.</li>
+<li><code>rootSessionId</code>: optional root session; inferred from the parent when present.</li>
+<li><code>purpose</code>: optional short mission label.</li>
+<li><code>summary</code>: optional list/closeout summary.</li>
+</ul>
+<p>Container sessions use the built-in Sandbox when its binding is available. Otherwise, and for Crabbox sessions, <code>CRABBOX_RUNTIME_ADAPTER_URL</code> or <code>CRABBOX_RUNTIME_ADAPTER_URL_TEMPLATE</code> creates and reconciles the versioned adapter workspace and records its resolved lifecycle identity, status, capabilities, expiry, and terminal connection. Without either supported backend the session is stored as <code>pending_adapter</code>.</p>
+<p>Session responses include <code>ptyAvailable</code>, the authenticated Worker&#39;s authoritative answer for whether the current terminal capability, lifecycle state, grant, and configured Sandbox or adapter route permit a PTY connection. Owners, controllers, and named viewers with live read-only access receive only the Worker-owned <code>/api/terminal/ws</code> route in <code>attachUrl</code>; signed provider connections remain server-side, and every input frame is independently restricted to current controllers.</p>
+<p>When the selected runtime profile configures <code>codexSsh</code>, a ready <code>runtime-v1</code> session response may include <code>codexSsh: { alias, setupCommand }</code> for session managers. The alias and optional command are resolved from bounded <code>{providerResourceId}</code>, <code>{workspaceId}</code>, <code>{sessionId}</code>, and <code>{profile}</code> placeholders. Alias components use a strict OpenSSH-safe character set. <code>codexSsh.setupCommand</code> is an argv-like array whose first and static items use a shell-safe character set and whose dynamic items must each be one complete placeholder; Crabfleet POSIX-shell-quotes every substituted argument so opaque provider identifiers remain data. Missing values, an unsafe resolved alias, or a current profile route that differs from the workspace&#39;s immutable registered adapter control plane suppresses the handoff. Shared links and delegated terminal-only controllers never receive it. The command is display/copy data only; Crabfleet never executes it.</p>
+<p>Built-in Sandbox sessions receive <code>CRABFLEET_SESSION_ID</code>, <code>CRABFLEET_PARENT_SESSION_ID</code>, <code>CRABFLEET_ROOT_SESSION_ID</code>, <code>CRABFLEET_AGENT_TOKEN</code>, and <code>CRABFLEET_API_URL</code>. The managed provision hook rotates a fresh agent token in the same durable claim that owns provisioning, then injects that exact token into the Sandbox. The agent token can call the <code>/api/agent/*</code> endpoints below for its authenticated session and direct children, including child creation, transcripts, and summary updates; it cannot discover unrelated sessions owned by the same human.</p>
+<h3 id="post-api-interactive-sessions-cleanup"><a class="anchor" href="#post-api-interactive-sessions-cleanup" aria-label="Anchor link">#</a>POST /api/interactive-sessions/cleanup</h3>
+<p>Viewer+. Deletes manageable stopped, expired, or failed sessions only after terminal finalization, credential-policy cleanup, and complete archive finalization. Pass an optional <code>ids</code> array to limit cleanup; an empty list considers all eligible dead sessions visible to the caller.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;ids&quot;:</span> [<span class="hl-s">&quot;IS-105&quot;</span>, <span class="hl-s">&quot;IS-109&quot;</span>]
+}</code></pre>
+<p>Returns refreshed app state plus <code>removedIds</code>.</p>
+<h3 id="get-api-interactive-sessions-id"><a class="anchor" href="#get-api-interactive-sessions-id" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id</h3>
+<p>Authenticated viewer. Returns one current decorated session after a bounded lifecycle refresh only when the caller owns it, has a current named grant, or holds the active delegated-control lease. Hidden sessions return <code>404</code>.</p>
+<h3 id="get-api-interactive-sessions-id-logs"><a class="anchor" href="#get-api-interactive-sessions-id-logs" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id/logs</h3>
+<p>Visible-session viewer. Returns up to 5,000 recent D1 events, the total event count, truncation state, and current R2 archive snapshot metadata when available. It does not read or return the archived R2 objects.</p>
+<h3 id="get-api-interactive-sessions-id-transcript"><a class="anchor" href="#get-api-interactive-sessions-id-transcript" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id/transcript</h3>
+<p>Visible-session viewer. Returns the Markdown transcript from R2 when archived, or a D1 event-log transcript fallback.</p>
+<h3 id="post-api-interactive-sessions-id-summary"><a class="anchor" href="#post-api-interactive-sessions-id-summary" aria-label="Anchor link">#</a>POST /api/interactive-sessions/:id/summary</h3>
+<p>Session manager. In private mode this is the stable session owner. Updates <code>purpose</code> and/or <code>summary</code>.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;purpose&quot;:</span> <span class="hl-s">&quot;review sibling fix&quot;</span>,
+  <span class="hl-k">&quot;summary&quot;:</span> <span class="hl-s">&quot;waiting on CI&quot;</span>
+}</code></pre>
+<h3 id="get-api-interactive-sessions-id-grants"><a class="anchor" href="#get-api-interactive-sessions-id-grants" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id/grants</h3>
+<p>Session owner. Lists named access grants, including role and expiry. Expired grants remain visible for owner audit but do not authorize access. Listing remains available while a session is stopping so access can be audited and revoked during teardown.</p>
+<h3 id="post-api-interactive-sessions-id-grants"><a class="anchor" href="#post-api-interactive-sessions-id-grants" aria-label="Anchor link">#</a>POST /api/interactive-sessions/:id/grants</h3>
+<p>Session owner. Creates or replaces one time-limited named grant for exactly one active Crabfleet user. Resolution rechecks the current allowlist or configured trusted-proxy automatic role instead of trusting persisted historical admission state. Returns <code>201</code> and the refreshed grant list.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;principal&quot;:</span> <span class="hl-s">&quot;teammate@example.com&quot;</span>,
+  <span class="hl-k">&quot;role&quot;:</span> <span class="hl-s">&quot;controller&quot;</span>,
+  <span class="hl-k">&quot;expiresInSeconds&quot;:</span> <span class="hl-n">86400</span>
+}</code></pre>
+<ul>
+<li><code>principal</code>: unique active user subject, login, or email.</li>
+<li><code>role</code>: <code>viewer</code> for state/log/transcript/read-only terminal access, or <code>controller</code> to add terminal input, diagnostics, clipboard, and desktop access.</li>
+<li><code>expiresInSeconds</code>: optional; defaults to 24 hours and must be between 5 minutes and 30 days.</li>
+</ul>
+<h3 id="delete-api-interactive-sessions-id-grants-subject"><a class="anchor" href="#delete-api-interactive-sessions-id-grants-subject" aria-label="Anchor link">#</a>DELETE /api/interactive-sessions/:id/grants/:subject</h3>
+<p>Session owner. Revokes the named grant, atomically clears any pending or active delegated-control lease for that subject, and advances the session revision so an older concurrent approval cannot restore control. Revocation remains available while the session is stopping. Returns the refreshed grant list. <code>:subject</code> is URL encoded.</p>
+<h3 id="get-api-interactive-sessions-id-diagnostics"><a class="anchor" href="#get-api-interactive-sessions-id-diagnostics" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id/diagnostics</h3>
+<p>Viewer+ with writable control. Runs a bounded environment, checkout, GitHub, Codex, and tool inventory inside a Cloudflare Sandbox session. Other backends return an unavailable result instead of executing diagnostics.</p>
+<h3 id="get-api-interactive-sessions-id-checkpoints"><a class="anchor" href="#get-api-interactive-sessions-id-checkpoints" aria-label="Anchor link">#</a>GET /api/interactive-sessions/:id/checkpoints</h3>
+<p>Session manager. In private mode this is the stable session owner. Lists registered Cloudflare Sandbox checkpoints without exposing provider backup material.</p>
+<h3 id="post-api-interactive-sessions-id-checkpoints"><a class="anchor" href="#post-api-interactive-sessions-id-checkpoints" aria-label="Anchor link">#</a>POST /api/interactive-sessions/:id/checkpoints</h3>
+<p>Session manager. In private mode this is the stable session owner. Creates a backup of the current Sandbox worktree and returns <code>201</code>. Checkpoint storage requires the configured backup R2 binding and, for presigned backups, the matching Cloudflare account and R2 credentials.</p>
+<h3 id="post-api-interactive-sessions-id-checkpoints-checkpoint-restore"><a class="anchor" href="#post-api-interactive-sessions-id-checkpoints-checkpoint-restore" aria-label="Anchor link">#</a>POST /api/interactive-sessions/:id/checkpoints/:checkpoint/restore</h3>
+<p>Session manager. In private mode this is the stable session owner. Restores a registered checkpoint into the active Cloudflare Sandbox session.</p>
+<h3 id="post-api-interactive-sessions-id-actions"><a class="anchor" href="#post-api-interactive-sessions-id-actions" aria-label="Anchor link">#</a>POST /api/interactive-sessions/:id/actions</h3>
+<p>Actions:</p>
+<ul>
+<li><code>attach</code>: viewer with control, mark seen/attached and return the session.</li>
+<li><code>share_link</code>: session manager, enable or rotate a public read-only share URL; response includes <code>shareUrl</code> once.</li>
+<li><code>disable_share</code>: session manager, disable the share URL and clear pending/granted control.</li>
+<li><code>request_control</code>: viewer, request writable terminal control.</li>
+<li><code>approve_control</code>: session manager, grant pending requester 30 minutes of writable terminal control.</li>
+<li><code>deny_control</code>: session manager, clear a pending control request.</li>
+<li><code>revoke_control</code>: session manager, revoke active delegated control.</li>
+<li><code>enable_multiplayer</code>: session creator, prefix submitted terminal prompts with the actor.</li>
+<li><code>disable_multiplayer</code>: session creator, stop prefixing submitted terminal prompts with the actor.</li>
+<li><code>stop</code>: session manager, internal wire action behind user-facing Delete or End. Versioned adapters release the provider workspace before marking stopped, and asynchronous releases remain <code>stopping</code> until reconciliation confirms completion. Built-in Sandbox sessions clean up their durable lease and credential policy. For GitHub Actions, End disconnects and finalizes only the Crabfleet terminal session; it does not call GitHub&#39;s workflow-cancellation API, so the workflow run may continue.</li>
+</ul>
+<p>Response:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;session&quot;:</span> {},
+  <span class="hl-k">&quot;shareUrl&quot;:</span> <span class="hl-s">&quot;https://crabfleet.openclaw.ai/app/sessions/IS-105?token=...&quot;</span>
+}</code></pre>
+<h2 id="ssh-gateway"><a class="anchor" href="#ssh-gateway" aria-label="Anchor link">#</a>SSH Gateway</h2>
+<p>The Go gateway terminates raw SSH and calls Worker APIs with <code>Authorization: Bearer CRABFLEET_SSH_GATEWAY_TOKEN</code>. These endpoints are not browser APIs.</p>
+<ul>
+<li><code>POST /api/ssh/auth</code>: checks a public-key fingerprint. Unknown keys receive a short <code>/ssh/link/:code</code> GitHub OAuth URL only when the gateway is in explicit link mode, e.g. <code>ssh link@host</code>.</li>
+<li><code>GET /api/ssh/state</code>: returns the same board/session state for the linked SSH user.</li>
+<li><code>POST /api/ssh/interactive-sessions</code>: creates an interactive Codex session for the linked SSH user.</li>
+<li><code>GET /api/ssh/interactive-sessions/:id</code>: reads one visible session.</li>
+<li><code>POST /api/ssh/interactive-sessions/:id/actions</code>: performs the same authorized session actions as the browser API.</li>
+<li><code>GET /api/ssh/interactive-sessions/:id/logs</code>: returns the D1 event stream plus R2 archive metadata for a visible crabbox session.</li>
+<li><code>GET /api/ssh/interactive-sessions/:id/transcript</code>: returns the Markdown transcript.</li>
+<li><code>POST /api/ssh/interactive-sessions/:id/summary</code>: updates <code>purpose</code> and/or <code>summary</code>.</li>
+<li><code>GET /api/ssh/interactive-sessions/:id/checkpoints</code>: lists Cloudflare Sandbox checkpoints.</li>
+<li><code>POST /api/ssh/interactive-sessions/:id/checkpoints</code>: creates a Cloudflare Sandbox checkpoint.</li>
+<li><code>POST /api/ssh/interactive-sessions/:id/checkpoints/:checkpoint/restore</code>: restores a checkpoint.</li>
+</ul>
+<p>PTY attach and message commands use <code>/api/terminal/ws</code> with the gateway bearer and linked-key fingerprint headers.</p>
+<h2 id="agent-session-api"><a class="anchor" href="#agent-session-api" aria-label="Anchor link">#</a>Agent Session API</h2>
+<p>Crabfleet-issued session agents use <code>Authorization: Bearer &lt;CRABFLEET_AGENT_TOKEN&gt;</code> plus <code>X-Crabfleet-Session-ID: &lt;CRABFLEET_SESSION_ID&gt;</code>. These endpoints mirror the SSH lifecycle subset without requiring an SSH key inside the sandbox.</p>
+<ul>
+<li><code>GET /api/agent/state</code>: returns app/fleet state plus <code>{ agent: { sessionId, rootSessionId } }</code>.</li>
+<li><code>POST /api/agent/interactive-sessions</code>: creates a child session owned by the same user and linked under the current agent session.</li>
+<li><code>GET /api/agent/interactive-sessions/:id</code>: reads the authenticated session or one of its direct children.</li>
+<li><code>GET /api/agent/interactive-sessions/:id/logs</code>: returns event logs.</li>
+<li><code>GET /api/agent/interactive-sessions/:id/transcript</code>: returns the Markdown transcript.</li>
+<li><code>POST /api/agent/interactive-sessions/:id/summary</code>: updates <code>purpose</code> and/or <code>summary</code>.</li>
+</ul>
+<p>Session-scoped terminal steering uses <code>/api/terminal/ws</code> with the agent bearer and session ID header; the CLI uses this protocol for <code>crabfleet message</code>.</p>
+<h2 id="openclaw-service"><a class="anchor" href="#openclaw-service" aria-label="Anchor link">#</a>OpenClaw Service</h2>
+<p>Internal automation uses <code>Authorization: Bearer CRABBOX_OPENCLAW_TOKEN</code>.</p>
+<h3 id="post-api-openclaw-crabboxes"><a class="anchor" href="#post-api-openclaw-crabboxes" aria-label="Anchor link">#</a>POST /api/openclaw/crabboxes</h3>
+<p>Creates a repo-ready crabbox for an operator, e.g. from a Discord meeting handoff or a MultiCodex room.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;owner&quot;:</span> <span class="hl-s">&quot;@steipete&quot;</span>,
+  <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>,
+  <span class="hl-k">&quot;branch&quot;:</span> <span class="hl-s">&quot;main&quot;</span>,
+  <span class="hl-k">&quot;runtime&quot;:</span> <span class="hl-s">&quot;crabbox&quot;</span>,
+  <span class="hl-k">&quot;command&quot;:</span> <span class="hl-s">&quot;codex --yolo&quot;</span>,
+  <span class="hl-k">&quot;prompt&quot;:</span> <span class="hl-s">&quot;prep the meeting follow-up&quot;</span>,
+  <span class="hl-k">&quot;requestId&quot;:</span> <span class="hl-s">&quot;multicodex-room-123-host&quot;</span>
+}</code></pre>
+<p><code>requestId</code> is optional, limited to 200 characters, and strongly recommended for automation. Crabfleet persists it in a durable replay ledger with the session reservation before branch preparation or runtime creation. Replaying the same request returns the original crabbox; reusing the ID with a different request is rejected. A replay while the original reservation is still preparing returns a retryable service-unavailable response instead of claiming the crabbox is ready. After finalized-session cleanup, the retained replay tombstone rejects the request instead of provisioning duplicate work. The fingerprint includes the resolved stable owner subject and a nonreversible digest of any supplied GitHub credential; the credential itself is not stored in the replay ledger. Request IDs created before stable-owner fingerprints were introduced are intentionally not replayed; callers must allocate a new request ID.</p>
+<p><code>owner</code> must resolve to exactly one active Crabfleet user by login, email, or stable subject. Crabfleet persists both the stable subject and the user&#39;s actor-compatible login/email so Sandbox credential and lease checks agree with the human owner. That subject owns human visibility and management; the exact OpenClaw service separately retains automation lifecycle and terminal authority for its own session and only descendants first validated inside that service-owned lineage.</p>
+<p>Response:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;session&quot;:</span> {
+    <span class="hl-k">&quot;id&quot;:</span> <span class="hl-s">&quot;IS-105&quot;</span>,
+    <span class="hl-k">&quot;owner&quot;:</span> <span class="hl-s">&quot;steipete&quot;</span>,
+    <span class="hl-k">&quot;runtime&quot;:</span> <span class="hl-s">&quot;crabbox&quot;</span>,
+    <span class="hl-k">&quot;vncUrl&quot;:</span> <span class="hl-s">&quot;https://...&quot;</span>
+  },
+  <span class="hl-k">&quot;browserUrl&quot;:</span> <span class="hl-s">&quot;https://crabfleet.openclaw.ai/app/sessions/IS-105&quot;</span>
+}</code></pre>
+<h3 id="openclaw-crabbox-supervision"><a class="anchor" href="#openclaw-crabbox-supervision" aria-label="Anchor link">#</a>OpenClaw crabbox supervision</h3>
+<p>Internal OpenClaw automation can supervise a created room/session tree without using browser cookies or an individual session&#39;s agent token:</p>
+<ul>
+<li><code>GET /api/openclaw/session-roots/:rootSessionId</code>: list the exact root and up to</li>
+<p>63 service-created or agent-created descendants, with logs omitted from each session summary.</p>
+<li><code>GET /api/openclaw/crabboxes/:id</code>: read one current crabbox.</li>
+<li><code>GET /api/openclaw/crabboxes/:id/transcript</code>: read a bounded recent transcript.</li>
+<li><code>POST /api/openclaw/crabboxes/:id/message</code>: send one terminal message/nudge.</li>
+<li><code>POST /api/openclaw/crabboxes/:id/actions</code>: request the supported <code>stop</code> action.</li>
+<li><code>POST /api/openclaw/crabboxes/:id/embed-ticket</code>: mint a short-lived browser URL</li>
+<p>that can view and control only that crabbox terminal without a Crabfleet login.</p>
+<li><code>POST /api/openclaw/session-roots/:rootSessionId/actions</code>: freeze room-tree</li>
+<p>admission and recursively stop every pending or active descendant.</p>
+</ul>
+<p>Room supervision endpoints require a configured service capability: the existing <code>CRABBOX_OPENCLAW_TOKEN</code>, or the dedicated <code>CRABBOX_MULTICODEX_TOKEN</code> for a MultiCodex deployment. Action-session registration accepts only <code>CRABBOX_OPENCLAW_TOKEN</code>; the narrower MultiCodex credential cannot register or resume GitHub Actions sessions. Crabbox creation can explicitly include <code>baseBranch</code>; after request validation, when the requested branch is missing, Crabfleet creates it from that base with its deployment GitHub credential before provisioning the session. If that control-plane credential is denied with <code>403</code> or GitHub&#39;s masked <code>404</code>, Crabfleet defers branch validation to the separately credentialed runtime adapter so an existing branch can still launch. A missing control-plane credential is also deferrable. Without an explicit <code>baseBranch</code>, Crabfleet does not mutate GitHub. A missing or inaccessible branch then fails during runtime checkout. Per-crabbox reads require <code>X-Crabfleet-Root-Session-ID</code>; message and action bodies require <code>rootSessionId</code>. A session outside that exact root is returned as not found. Creation rejects a supervised descendant that would exceed the 64-session room-tree limit before runtime provisioning begins. Transcript responses contain at most the newest 240 events and 64 KiB of UTF-8 text and report whether evidence was truncated. Every message and stop request writes an audit event.</p>
+<p>Embed-ticket bodies require <code>rootSessionId</code> and may include <code>ttlSeconds</code>. Lifetimes default to one hour and are clamped between one minute and four hours. The returned signed bearer is scoped to one terminal session and never exposes the room service credential. It cannot read fleet state, manage the session, paste files, or access sibling sessions. Ticket signing requires the Crabfleet-only <code>CRABBOX_EMBED_TICKET_SECRET</code>; room-service consumers must never receive that signing secret.</p>
+<p>Message request:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;rootSessionId&quot;:</span> <span class="hl-s">&quot;IS-100&quot;</span>,
+  <span class="hl-k">&quot;message&quot;:</span> <span class="hl-s">&quot;Align the response contract with the frontend lane.&quot;</span>,
+  <span class="hl-k">&quot;enter&quot;:</span> <span class="hl-m">true</span>
+}</code></pre>
+<p>Stop request:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;rootSessionId&quot;:</span> <span class="hl-s">&quot;IS-100&quot;</span>,
+  <span class="hl-k">&quot;action&quot;:</span> <span class="hl-s">&quot;stop&quot;</span>
+}</code></pre>
+<p>Root stop request:</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;action&quot;:</span> <span class="hl-s">&quot;stop&quot;</span>
+}</code></pre>
+<p>Root stop closes descendant admission before rolling back pending reservations and driving the remaining root tree terminal in bounded batches, including a tree above the normal supervision limit. It returns only after the whole tree is quiescent; a failed request leaves admission closed and can be retried safely.</p>
+<h2 id="admin"><a class="anchor" href="#admin" aria-label="Anchor link">#</a>Admin</h2>
+<p>Owner role required.</p>
+<h3 id="post-api-admin-allow"><a class="anchor" href="#post-api-admin-allow" aria-label="Anchor link">#</a>POST /api/admin/allow</h3>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;value&quot;:</span> <span class="hl-s">&quot;@openclaw/maintainer&quot;</span>,
+  <span class="hl-k">&quot;role&quot;:</span> <span class="hl-s">&quot;maintainer&quot;</span>
+}</code></pre>
+<p>Values can be <code>@login</code>, <code>@org/team</code>, or email. Returns full state.</p>
+<h3 id="delete-api-admin-allow-value"><a class="anchor" href="#delete-api-admin-allow-value" aria-label="Anchor link">#</a>DELETE /api/admin/allow/:value</h3>
+<p>Removes an allowlist entry. <code>:value</code> is URL encoded.</p>
+<h3 id="post-api-admin-repos"><a class="anchor" href="#post-api-admin-repos" aria-label="Anchor link">#</a>POST /api/admin/repos</h3>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>
+}</code></pre>
+<p>Enables a repo. Returns full state.</p>
+<h3 id="delete-api-admin-repos-repo"><a class="anchor" href="#delete-api-admin-repos-repo" aria-label="Anchor link">#</a>DELETE /api/admin/repos/:repo</h3>
+<p>Disables a repo by setting <code>enabled = 0</code>.</p>
+<h3 id="put-api-admin-policy"><a class="anchor" href="#put-api-admin-policy" aria-label="Anchor link">#</a>PUT /api/admin/policy</h3>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;cap&quot;:</span> <span class="hl-n">20</span>,
+  <span class="hl-k">&quot;retention&quot;:</span> <span class="hl-s">&quot;30&quot;</span>,
+  <span class="hl-k">&quot;merge&quot;:</span> <span class="hl-s">&quot;guarded&quot;</span>
+}</code></pre>
+<p>Fields:</p>
+<ul>
+<li><code>cap</code>: 1-200.</li>
+<li><code>retention</code>: <code>14</code>, <code>30</code>, or <code>60</code>.</li>
+<li><code>merge</code>: <code>guarded</code>, <code>disabled</code>, or <code>maintainers</code>.</li>
+</ul>
+<h3 id="post-api-admin-workflows-evaluate"><a class="anchor" href="#post-api-admin-workflows-evaluate" aria-label="Anchor link">#</a>POST /api/admin/workflows/evaluate</h3>
+<p>Fetches and evaluates <code>CRABBOX.md</code> for an enabled repo. Private repos require deployment <code>GITHUB_TOKEN</code> access; the logged-in user&#39;s OAuth token is not used for this fetch.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;repo&quot;:</span> <span class="hl-s">&quot;openclaw/crabfleet&quot;</span>
+}</code></pre>
+<p>Returns full state. Owner state includes workflow summaries with:</p>
+<ul>
+<li><code>repo</code></li>
+<li><code>status</code>: <code>ok</code>, <code>missing</code>, <code>invalid</code>, or <code>error</code></li>
+<li><code>sourcePath</code></li>
+<li><code>sourceSha</code></li>
+<li><code>config</code></li>
+<li><code>error</code></li>
+<li><code>evaluatedAt</code></li>
+<li><code>updatedAt</code></li>
+</ul>
+<p>The stored prompt body is not returned in state summaries.</p>
+<h3 id="get-api-fleet"><a class="anchor" href="#get-api-fleet" aria-label="Anchor link">#</a>GET /api/fleet</h3>
+<p>Returns the redacted fleet registry for the signed-in viewer.</p>
+<p>Includes:</p>
+<ul>
+<li><code>canonicalUrl</code></li>
+<li><code>productUrl</code></li>
+<li><code>registryAvailable</code></li>
+<li><code>egress</code></li>
+<li><code>totals</code></li>
+<li><code>sessions</code></li>
+<li><code>desktopHosts</code>: private registered Tailscale VNC endpoints owned by the signed-in stable subject</li>
+</ul>
+<p>Secrets, ciphertext, and token values are never returned.</p>
+<h3 id="put-api-desktop-hosts-id"><a class="anchor" href="#put-api-desktop-hosts-id" aria-label="Anchor link">#</a>PUT /api/desktop-hosts/:id</h3>
+<p>Registers or updates one private desktop owned by the signed-in viewer. The ID is a stable 1-80 character machine identifier. The address must be a canonical IPv4 address in Tailscale&#39;s <code>100.64.0.0/10</code> range; arbitrary LAN and public addresses are rejected.</p>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;name&quot;:</span> <span class="hl-s">&quot;Studio&quot;</span>,
+  <span class="hl-k">&quot;address&quot;:</span> <span class="hl-s">&quot;100.64.12.34&quot;</span>,
+  <span class="hl-k">&quot;port&quot;:</span> <span class="hl-n">5901</span>
+}</code></pre>
+<p>The host is visible only to the same stable user, regardless of shared or private session-tenancy mode. Re-registering the same ID updates its name, address, port, and timestamp while preserving its creation time.</p>
+<h3 id="delete-api-desktop-hosts-id"><a class="anchor" href="#delete-api-desktop-hosts-id" aria-label="Anchor link">#</a>DELETE /api/desktop-hosts/:id</h3>
+<p>Removes one registered desktop owned by the signed-in viewer. The route cannot remove another user&#39;s record with the same ID.</p>
+<h2 id="static-routes"><a class="anchor" href="#static-routes" aria-label="Anchor link">#</a>Static Routes</h2>
+<ul>
+<li><code>/</code> and <code>/app</code>: app shell.</li>
+<li><code>/docs</code>, <code>/docs/</code>, <code>/docs/spec</code>, <code>/docs/spec/</code>: generated docs page, or Markdown when <code>Accept</code> includes <code>text/markdown</code>.</li>
+<li><code>/docs/spec.md</code>: Markdown spec.</li>
+<li><code>/docs/spec-v2</code>, <code>/docs/spec-v2/</code>: generated v2 spec page, or Markdown when <code>Accept</code> includes <code>text/markdown</code>.</li>
+<li><code>/docs/spec-v2.md</code>: Markdown v2 spec.</li>
+<li><code>/crabbox-logo.png</code>: logo.</li>
+<li><code>/vendor/ghostty-web.js</code>: local Ghostty WASM bundle.</li>
+</ul>
+<h2 id="error-shape"><a class="anchor" href="#error-shape" aria-label="Anchor link">#</a>Error Shape</h2>
+<pre><code class="language-json">{
+  <span class="hl-k">&quot;error&quot;:</span> <span class="hl-s">&quot;message&quot;</span>
+}</code></pre>
+<p>Common statuses:</p>
+<ul>
+<li><code>400</code>: invalid input or unsupported action.</li>
+<li><code>401</code>: missing/expired session.</li>
+<li><code>403</code>: insufficient role, repo blocked, or no longer allowlisted.</li>
+<li><code>404</code>: missing card or route.</li>
+<li><code>409</code>: lifecycle or immutable workspace identity conflict.</li>
+<li><code>413</code>: request or upstream response exceeded its bounded size.</li>
+<li><code>429</code>: rate limit.</li>
+<li><code>502</code>: runtime adapter returned an invalid or failed response.</li>
+<li><code>503</code>: GitHub dependency unavailable or rate limited.</li>
+</ul><nav class="page-nav" aria-label="Pager"><a class="page-nav-prev" href="../admin/"><small>Previous</small><span>Admin</span></a><a class="page-nav-next" href="../spec/"><small>Next</small><span>Spec</span></a></nav></article>
+        <nav class="toc" aria-label="On this page"><h2>On this page</h2><a class="toc-l2" href="#auth">Auth</a><a class="toc-l2" href="#native-device-link">Native Device Link</a><a class="toc-l3" href="#post-api-native-v1-auth-device">POST /api/native/v1/auth/device</a><a class="toc-l3" href="#post-api-native-v1-auth-token">POST /api/native/v1/auth/token</a><a class="toc-l3" href="#get-api-native-v1-session">GET /api/native/v1/session</a><a class="toc-l3" href="#get-api-native-v1-fleet">GET /api/native/v1/fleet</a><a class="toc-l3" href="#post-api-native-v1-native-vnc">POST /api/native/v1/native-vnc</a><a class="toc-l3" href="#delete-api-native-v1-auth-token">DELETE /api/native/v1/auth/token</a><a class="toc-l2" href="#public-endpoints">Public Endpoints</a><a class="toc-l3" href="#get-healthz">GET /healthz</a><a class="toc-l3" href="#get-api-auth">GET /api/auth</a><a class="toc-l3" href="#post-api-login-token">POST /api/login/token</a><a class="toc-l3" href="#get-login-github">GET /login/github</a><a class="toc-l3" href="#get-auth-github-callback">GET /auth/github/callback</a><a class="toc-l2" href="#session-endpoints">Session Endpoints</a><a class="toc-l3" href="#post-api-logout">POST /api/logout</a><a class="toc-l3" href="#get-api-session">GET /api/session</a><a class="toc-l3" href="#get-api-state">GET /api/state</a><a class="toc-l2" href="#github-lookup">GitHub Lookup</a><a class="toc-l3" href="#get-api-github-refs-number-76552">GET /api/github/refs?number=76552</a><a class="toc-l2" href="#cards">Cards</a><a class="toc-l3" href="#post-api-cards">POST /api/cards</a><a class="toc-l3" href="#post-api-admin-scheduler-tick">POST /api/admin/scheduler/tick</a><a class="toc-l3" href="#post-api-cards-id-actions">POST /api/cards/:id/actions</a><a class="toc-l3" href="#get-api-cards-id-runs">GET /api/cards/:id/runs</a><a class="toc-l2" href="#interactive-sessions">Interactive Sessions</a><a class="toc-l3" href="#get-api-shared-sessions-id-token-token">GET /api/shared-sessions/:id?token=:token</a><a class="toc-l3" href="#post-api-provision-interactive">POST /api/provision/interactive</a><a class="toc-l3" href="#get-api-terminal-ws">GET /api/terminal/ws</a><a class="toc-l3" href="#post-api-interactive-sessions-id-clipboard">POST /api/interactive-sessions/:id/clipboard</a><a class="toc-l3" href="#get-api-interactive-sessions-id-vnc">GET /api/interactive-sessions/:id/vnc</a><a class="toc-l3" href="#post-api-openclaw-action-sessions">POST /api/openclaw/action-sessions</a><a class="toc-l3" href="#get-api-agent-interactive-sessions-id-runner-pty">GET /api/agent/interactive-sessions/:id/runner-pty</a><a class="toc-l3" href="#post-api-agent-interactive-sessions-id-work-state">POST /api/agent/interactive-sessions/:id/work-state</a><a class="toc-l3" href="#post-api-interactive-sessions">POST /api/interactive-sessions</a><a class="toc-l3" href="#post-api-interactive-sessions-cleanup">POST /api/interactive-sessions/cleanup</a><a class="toc-l3" href="#get-api-interactive-sessions-id">GET /api/interactive-sessions/:id</a><a class="toc-l3" href="#get-api-interactive-sessions-id-logs">GET /api/interactive-sessions/:id/logs</a><a class="toc-l3" href="#get-api-interactive-sessions-id-transcript">GET /api/interactive-sessions/:id/transcript</a><a class="toc-l3" href="#post-api-interactive-sessions-id-summary">POST /api/interactive-sessions/:id/summary</a><a class="toc-l3" href="#get-api-interactive-sessions-id-grants">GET /api/interactive-sessions/:id/grants</a><a class="toc-l3" href="#post-api-interactive-sessions-id-grants">POST /api/interactive-sessions/:id/grants</a><a class="toc-l3" href="#delete-api-interactive-sessions-id-grants-subject">DELETE /api/interactive-sessions/:id/grants/:subject</a><a class="toc-l3" href="#get-api-interactive-sessions-id-diagnostics">GET /api/interactive-sessions/:id/diagnostics</a><a class="toc-l3" href="#get-api-interactive-sessions-id-checkpoints">GET /api/interactive-sessions/:id/checkpoints</a><a class="toc-l3" href="#post-api-interactive-sessions-id-checkpoints">POST /api/interactive-sessions/:id/checkpoints</a><a class="toc-l3" href="#post-api-interactive-sessions-id-checkpoints-checkpoint-restore">POST /api/interactive-sessions/:id/checkpoints/:checkpoint/restore</a><a class="toc-l3" href="#post-api-interactive-sessions-id-actions">POST /api/interactive-sessions/:id/actions</a><a class="toc-l2" href="#ssh-gateway">SSH Gateway</a><a class="toc-l2" href="#agent-session-api">Agent Session API</a><a class="toc-l2" href="#openclaw-service">OpenClaw Service</a><a class="toc-l3" href="#post-api-openclaw-crabboxes">POST /api/openclaw/crabboxes</a><a class="toc-l3" href="#openclaw-crabbox-supervision">OpenClaw crabbox supervision</a><a class="toc-l2" href="#admin">Admin</a><a class="toc-l3" href="#post-api-admin-allow">POST /api/admin/allow</a><a class="toc-l3" href="#delete-api-admin-allow-value">DELETE /api/admin/allow/:value</a><a class="toc-l3" href="#post-api-admin-repos">POST /api/admin/repos</a><a class="toc-l3" href="#delete-api-admin-repos-repo">DELETE /api/admin/repos/:repo</a><a class="toc-l3" href="#put-api-admin-policy">PUT /api/admin/policy</a><a class="toc-l3" href="#post-api-admin-workflows-evaluate">POST /api/admin/workflows/evaluate</a><a class="toc-l3" href="#get-api-fleet">GET /api/fleet</a><a class="toc-l3" href="#put-api-desktop-hosts-id">PUT /api/desktop-hosts/:id</a><a class="toc-l3" href="#delete-api-desktop-hosts-id">DELETE /api/desktop-hosts/:id</a><a class="toc-l2" href="#static-routes">Static Routes</a><a class="toc-l2" href="#error-shape">Error Shape</a></nav>
+      </div>
+    </main>
+  </div>
+  <script>
+const themeRoot=document.documentElement;
+function applyTheme(mode){themeRoot.dataset.theme=mode;document.querySelectorAll('[data-theme-toggle]').forEach(b=>b.setAttribute('aria-pressed',mode==='dark'?'true':'false'))}
+function storedTheme(){try{return localStorage.getItem('theme')}catch(e){return null}}
+function persistTheme(mode){try{localStorage.setItem('theme',mode)}catch(e){}}
+applyTheme(themeRoot.dataset.theme==='dark'?'dark':'light');
+document.querySelectorAll('[data-theme-toggle]').forEach(btn=>{btn.addEventListener('click',()=>{const next=themeRoot.dataset.theme==='dark'?'light':'dark';applyTheme(next);persistTheme(next)})});
+const systemDark=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)');
+function onSystemChange(e){if(storedTheme())return;applyTheme(e.matches?'dark':'light')}
+if(systemDark){if(systemDark.addEventListener)systemDark.addEventListener('change',onSystemChange);else if(systemDark.addListener)systemDark.addListener(onSystemChange)}
+const sidebar=document.querySelector('.sidebar');
+const toggle=document.querySelector('.nav-toggle');
+const mobileNav=window.matchMedia('(max-width: 900px)');
+const sidebarFocusable='a[href],button,input,select,textarea,[tabindex]';
+function setSidebarFocusable(enabled){
+  sidebar?.querySelectorAll(sidebarFocusable).forEach((el)=>{
+    if(enabled){
+      if(el.dataset.sidebarTabindex!==undefined){
+        if(el.dataset.sidebarTabindex)el.setAttribute('tabindex',el.dataset.sidebarTabindex);
+        else el.removeAttribute('tabindex');
+        delete el.dataset.sidebarTabindex;
+      }
+    }else if(el.dataset.sidebarTabindex===undefined){
+      el.dataset.sidebarTabindex=el.getAttribute('tabindex')??'';
+      el.setAttribute('tabindex','-1');
+    }
+  });
+}
+function setSidebarOpen(open){
+  if(!sidebar||!toggle)return;
+  sidebar.classList.toggle('open',open);
+  toggle.setAttribute('aria-expanded',open?'true':'false');
+  if(mobileNav.matches){
+    sidebar.inert=!open;
+    if(open)sidebar.removeAttribute('aria-hidden');
+    else sidebar.setAttribute('aria-hidden','true');
+    setSidebarFocusable(open);
+  }else{
+    sidebar.inert=false;
+    sidebar.removeAttribute('aria-hidden');
+    setSidebarFocusable(true);
+  }
+}
+setSidebarOpen(false);
+toggle?.addEventListener('click',()=>setSidebarOpen(!sidebar?.classList.contains('open')));
+document.addEventListener('click',(e)=>{if(!sidebar?.classList.contains('open'))return;if(sidebar.contains(e.target)||toggle?.contains(e.target))return;setSidebarOpen(false)});
+document.addEventListener('keydown',(e)=>{if(e.key==='Escape')setSidebarOpen(false)});
+const syncSidebarForViewport=()=>setSidebarOpen(sidebar?.classList.contains('open')??false);
+if(mobileNav.addEventListener)mobileNav.addEventListener('change',syncSidebarForViewport);
+else mobileNav.addListener?.(syncSidebarForViewport);
+const input=document.getElementById('doc-search');
+input?.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();document.querySelectorAll('nav section').forEach(sec=>{let any=false;sec.querySelectorAll('.nav-link').forEach(a=>{const m=!q||a.textContent.toLowerCase().includes(q);a.style.display=m?'block':'none';if(m)any=true});sec.style.display=any?'block':'none'})});
+function attachCopy(target,getText){const btn=document.createElement('button');btn.type='button';btn.className='copy';btn.textContent='Copy';btn.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(getText());btn.textContent='Copied';btn.classList.add('copied');setTimeout(()=>{btn.textContent='Copy';btn.classList.remove('copied')},1400)}catch{btn.textContent='Failed';setTimeout(()=>{btn.textContent='Copy'},1400)}});target.appendChild(btn)}
+document.querySelectorAll('.doc pre').forEach(pre=>attachCopy(pre,()=>pre.querySelector('code')?.textContent??''));
+document.querySelectorAll('.home-install').forEach(el=>attachCopy(el,()=>el.querySelector('code')?.textContent??''));
+const tocLinks=document.querySelectorAll('.toc a');
+if(tocLinks.length){const map=new Map();tocLinks.forEach(a=>{const id=a.getAttribute('href').slice(1);const el=document.getElementById(id);if(el)map.set(el,a)});const setActive=l=>{tocLinks.forEach(x=>x.classList.remove('active'));l.classList.add('active')};const obs=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);if(visible.length){const link=map.get(visible[0].target);if(link)setActive(link)}},{rootMargin:'-15% 0px -65% 0px',threshold:0});map.forEach((_,el)=>obs.observe(el))}
+</script>
+</body>
+</html>

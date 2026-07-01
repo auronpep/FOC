@@ -1,0 +1,4 @@
+"Location","Name","Command"
+"HKCU:\Software\Microsoft\Windows\CurrentVersion\Run","electron.app.LM Studio","C:\Users\Blessed\AppData\Local\Programs\LM Studio\LM Studio.exe --run-as-service"
+"HKLM:\Software\Microsoft\Windows\CurrentVersion\Run","SecurityHealth","C:\WINDOWS\system32\SecurityHealthSystray.exe"
+"HKLM:\Software\Microsoft\Windows\CurrentVersion\Run","RtkAudUService","""C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_01de91f5c3258938\RtkAudUService64.exe"" -background"

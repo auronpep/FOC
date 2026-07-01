@@ -369,6 +369,21 @@
 ### Review Results
 - Validator closeout marker for the preceding one-question transform; complete and stopped.
 
+## OpenClaw LM Studio Agent Temperatures - 2026-06-29
+
+- [x] Update `C:\FOC\.openclaw\openclaw.json` to use LM Studio at `http://169.254.83.107:5962/v1` for both chat and memory embeddings.
+- [x] Set `sarah` to Qwythos creative rewrite, disciplined: `temperature=0.45`, `top_p=0.9`, `maxTokens=8192`.
+- [x] Set `rachel` to Qwythos creative rewrite, more exploratory: `temperature=0.65`, `top_p=0.95`, `maxTokens=8192`.
+- [x] Set `leah` to Qwythos MBE analysis: `temperature=0.1`, `top_p=0.85`, `maxTokens=1200`.
+- [x] Move `ruth` to Qwythos strategy distillation: `temperature=0.25`, `top_p=0.85`, `maxTokens=2500`.
+
+### Review Results
+
+- JSON parse and value inspection passed for the updated remote config.
+- `Test-NetConnection 169.254.83.107 -Port 5962` returned `TcpTestSucceeded=True`.
+- `GET http://169.254.83.107:5962/v1/models` returned Qwythos, the Nomic embedding model, and other LM Studio models.
+- `openclaw config validate` still reports pre-existing unrelated issues: `tools.web.search.provider=parallel-free` and stale `openai/gpt-5.3-codex-spark` model refs.
+
 ## Q19461 C3 Transform - 2026-06-16
 
 - [x] Confirm `Finished\CQ19461.md` did not already exist before the run.

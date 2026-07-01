@@ -1,0 +1,952 @@
+---
+qid: "20247_bible_memory_kit"
+transformed_from: "20247"
+subject: "CIVIL_PROCEDURE"
+topic: "Appeals and Finality"
+subtopic: "Rule 54(b)"
+outline_code: "93110101"
+key: "B"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+Source row: BARMATRIX Q# 20247, Civil Procedure, Appeals and Finality, Rule 54(b), with original credited answer C. 
+
+**Final variation: “Ruth’s Bible-Memory Tournament Kit Case.”**
+
+Ruth filed a federal civil action after a private Bible-memory tournament kit launch fell apart. Her complaint asserted four unrelated claims against Timothy, Lydia, and Stephen. The district court dismissed every claim against Timothy and wrote, “Timothy is no longer part of this case.” The order did not direct entry of judgment, and it did not state that there was no just reason for delay. Several claims against Lydia and Stephen remain.
+
+**Call:** May Ruth immediately appeal the dismissal under Rule 54(b)?
+
+### 2. Distilled Core Question
+
+A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?
+
+### 3. Final answer choices, post-shuffle
+
+**A.** Yes, because Rule 54(b) applies automatically in every multi-party civil case.
+**B.** No, because the court did not expressly direct entry of judgment or determine that there is no just reason for delay.
+**C.** No, because Rule 54(b) applies only to criminal cases.
+**D.** Yes, because one defendant is fully dismissed.
+
+### 5. Correct answer
+
+**B**. Original key: C.
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                                              | Substance |        Pick % |
+| --------------- | ---------: | ----------------------------------------------------- | --------- | ------------: |
+| A               |          D | wrong_element: full dismissal treated as enough       | kept      | 20% predicted |
+| B               |          A | tiered_absolute: automatic in every multi-party case  | kept      | 18% predicted |
+| C               |          B | correct_answer                                        | kept      | 55% predicted |
+| D               |          C | flat_misstatement: civil rule recast as criminal only | kept      |  7% predicted |
+
+No measured focus-group percentages were supplied in the source row, so all percentages are predicted, not inherited.
+
+### 7. Full right-answer explanation
+
+**B is correct.** The order resolved Timothy out of the case, but it did not contain the two formal Rule 54(b) signals that convert a partial resolution into an immediately appealable judgment. **Gold Key:** Rule 54(b) is not automatic; for fewer-than-all claims or parties, the district court must direct entry of judgment and expressly determine that there is no just reason for delay. **Silver Key:** When the stem lists the missing formal signals, match the answer that accounts for both omissions.
+
+### 8. Full wrong-answer explanations
+
+**A.** This choice sells the “multi-party case equals automatic appeal” shortcut. The breaker is the word **automatically**: Rule 54(b) requires district-court action, not mere multi-party status.
+
+**C.** This choice is attractive only if the student treats the rule number as abstract and ignores the civil-procedure lane. The breaker is the frame: Rule 54(b) is operating in a federal civil action, not a criminal case.
+
+**D.** This choice sells the strongest fact in the stem: Timothy is fully out. The breaker is that full dismissal is only a partial-disposition fact; it does not answer the missing-certification problem. **Gold Key:** Rule 54(b) still needs the judgment direction and the no-just-reason determination.
+
+### 9. Black-letter-law verification and right-answer legal reasoning
+
+The tested rule and outcome are unchanged. Federal Rule of Civil Procedure 54(b) applies when an action has multiple claims or multiple parties. The rule permits entry of final judgment as to fewer than all claims or parties only when the court directs entry of judgment and expressly determines that there is no just reason for delay; otherwise, the partial order does not end the action as to those claims or parties. ([Legal Information Institute][1])
+
+Here, the order dismissed Timothy but did not direct entry of judgment and did not make the no-just-reason determination. The dismissal is not immediately appealable under Rule 54(b). That matches the supplied official explanation and the listed rule reference. 
+
+### 10. Why the variation preserves rigor/difficulty
+
+The legal engine is identical: multi-claim/multi-party civil case, fewer-than-all parties resolved, Rule 54(b) certification missing, immediate appealability asked. Difficulty is preserved because the dominant trap remains the partial-disposition shortcut: a fully dismissed defendant feels “final,” but the formal Rule 54(b) gate is still missing.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** “Automatically in every” is a visible overclaim. Rule 54(b) is not triggered merely by multi-party status.
+**CUT C:** “Only to criminal cases” is a wrong-frame flat misstatement in a civil-procedure item.
+**CUT D:** “One defendant is fully dismissed” is a true fact, but it is not the whole Rule 54(b) gate. It answers a partial element, not immediate appealability.
+**Residual:** B.
+**CLASH:** Not needed after the cut.
+**CALL:** Anchor confirmation only: Rule 54(b) requires the missing formal certification.
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                                                         |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Changed from generic complaint to private Bible-memory tournament kit dispute.                                                                                 |
+| Transaction frame          | Kept as federal civil litigation; skipped broader transaction shift because Rule 54(b) requires litigation posture.                                            |
+| Specific facts             | Changed party names, underlying dispute texture, number of claims, number of defendants, and order wording.                                                    |
+| Numbers                    | Changed from three claims/two defendants to four claims/three defendants. Legal side of the line remains multi-claim/multi-party with fewer-than-all resolved. |
+| Fact ordering and rhythm   | Changed from bare procedural summary to story-first, then dismissal, then missing certification.                                                               |
+| Cast size / roles          | Expanded from two generic defendants to Ruth, Timothy, Lydia, and Stephen.                                                                                     |
+| Choice ordering            | Shuffled. Correct answer moved from original C to new B.                                                                                                       |
+| Choice phrasing            | Paraphrased while preserving legal substance and trap mechanics.                                                                                               |
+| Setting / era / texture    | Changed to a modern private Christian-themed product dispute.                                                                                                  |
+| Call wording               | Changed from “Does the order become immediately appealable” to “May Ruth immediately appeal,” same legal function.                                             |
+
+**Original stem summary:** A generic civil complaint has several claims against two defendants; one defendant is dismissed without Rule 54(b) certification while claims remain.
+**Variant stem summary:** Ruth’s Bible-memory tournament kit lawsuit has several claims against multiple named defendants; Timothy is dismissed without Rule 54(b) certification while claims remain.
+
+Recognition test passed: the summaries share only the Rule 54(b) certification problem.
+
+### 13. Review Truth
+
+Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.
+
+### 14. The 5 variations considered
+
+| Variation                                                | Setting / cast                                                    | Preserved issue                                                | Why memorable                        | Legal risks                                            | Divergence score                                                   |
+| -------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------ |
+| **Recommended: Ruth’s Bible-Memory Tournament Kit Case** | Private Christian product launch; Ruth v. Timothy, Lydia, Stephen | Rule 54(b) missing certification after one defendant dismissed | Bright, concrete, non-church dispute | Low; private civil case avoids First Amendment clutter | 9/10: changes asset, numbers, rhythm, cast, setting, choices, call |
+| “Paul’s Psalm-Calligraphy Pop-Up”                        | Private art booth contract dispute; Paul, Mary, Barnabas          | Same                                                           | Visual and distinct                  | Slight risk of overcomplicating underlying claims      | 8/10                                                               |
+| “Esther’s Nativity Puppet Tour”                          | Private touring show vendor dispute; Esther, John, Hannah         | Same                                                           | Strongly memorable                   | Could feel too entertainment-specific but legally safe | 8/10                                                               |
+| “Daniel’s Galilee Fishing-Lure Startup”                  | Private goods venture; Daniel, Martha, Stephen                    | Same                                                           | Strong asset change                  | Less openly Christian unless over-textured             | 7/10                                                               |
+| “Naomi’s Proverbs Puzzle Subscription”                   | Private subscription-box dispute; Naomi, Lydia, Peter             | Same                                                           | Clean and compact                    | Similar to final but less vivid                        | 8/10                                                               |
+
+**Distractor policy audit:** No swap performed. The criminal-case distractor is weak but mold-valid and preserves the original flat-misstatement mechanic. The predicted dominant trap is D, because it uses a true and salient fact: one defendant was fully dismissed.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20247_bible_memory_kit"
+  subject: CIVIL_PROCEDURE
+  subject_display: "Civil Procedure"
+  topic: "Appeals and Finality"
+  subtopic: "Rule 54(b)"
+  internal_id: "CP-382"
+  selection_percentages:
+    A:
+      value: 18
+      provenance: predicted
+      note: "No measured source pick rate supplied."
+    B:
+      value: 55
+      provenance: predicted
+      note: "No measured source pick rate supplied."
+    C:
+      value: 7
+      provenance: predicted
+      note: "No measured source pick rate supplied."
+    D:
+      value: 20
+      provenance: predicted
+      note: "No measured source pick rate supplied."
+  official_key: "B"
+  original_key_letter: "C"
+  call: "May Ruth immediately appeal the dismissal under Rule 54(b)?"
+  stem: "Ruth filed a federal civil action after a private Bible-memory tournament kit launch fell apart. Her complaint asserted four unrelated claims against Timothy, Lydia, and Stephen. The district court dismissed every claim against Timothy and wrote, “Timothy is no longer part of this case.” The order did not direct entry of judgment, and it did not state that there was no just reason for delay. Several claims against Lydia and Stephen remain."
+  choices:
+    A: "Yes, because Rule 54(b) applies automatically in every multi-party civil case."
+    B: "No, because the court did not expressly direct entry of judgment or determine that there is no just reason for delay."
+    C: "No, because Rule 54(b) applies only to criminal cases."
+    D: "Yes, because one defendant is fully dismissed."
+
+transform_provenance:
+  transformed_from: "20247"
+  variant_slug: "bible_memory_kit"
+  original_key_letter: "C"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "wrong_element"
+      substance: kept
+      pick_rate:
+        value: 20
+        provenance: predicted
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "tiered_absolute"
+      substance: kept
+      pick_rate:
+        value: 18
+        provenance: predicted
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: kept
+      pick_rate:
+        value: 55
+        provenance: predicted
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "flat_misstatement"
+      substance: kept
+      pick_rate:
+        value: 7
+        provenance: predicted
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A generic civil complaint has several claims against two defendants; one defendant is dismissed without Rule 54(b) certification while claims remain."
+    variant_stem_one_sentence: "Ruth’s Bible-memory tournament kit lawsuit has several claims against multiple named defendants; Timothy is dismissed without Rule 54(b) certification while claims remain."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific facts"
+      - "numbers"
+      - "fact ordering and rhythm"
+      - "cast size and roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/texture"
+      - "call wording"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "Kept as federal civil litigation because Rule 54(b) requires a litigation posture."
+
+source_stack:
+  - priority: 1
+    source: "Pasted question row"
+    use: "QID, subject, subtopic, stem, call, choices, official key, official explanations, rule reference."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "No item-specific C3 tags supplied; none used."
+  - priority: 3
+    source: "C3 method and controlled vocabularies"
+    use: "Molds, filters, method_class, verdicts, confidence, Gold Key and Silver Key types."
+  - priority: 4
+    source: "Official legal explanation and Rule 54(b)"
+    use: "Lawyer confirmation only."
+
+student_access_contract:
+  allowed_material:
+    - "C3 Lesson 1: TRUE and RESPONSIVE"
+    - "C3 Lesson 2: CUT → CLASH → CALL"
+    - "C3 Lesson 4: overclaim"
+    - "C3 Lesson 5: falsity"
+    - "C3 Lesson 7: predict before peeking"
+    - "C3 Lesson 8: wrong-element and not-responsive answers"
+    - "C3 Lesson 11: procedural-frame bait"
+    - "C3 Lesson 12: threshold and anchor deck"
+    - "C3 Lesson 14: full workflow"
+    - "Civil Procedure overlay: gate/status before merits"
+    - "Gold Key GK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+    - "Silver Key SK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+  controlling_test: "Could a trained C3 student identify the choice problem without outside doctrine?"
+  result: "Yes with the Rule 54(b) Gold Key; otherwise the credited answer would be anchor-dependent."
+
+stem_parse:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  call_type: "Immediate appealability under Rule 54(b)"
+  adjacent_call_trap: "Treating a party’s full dismissal as final judgment without the Rule 54(b) gate."
+  negative_stem_inversion: false
+  procedural_posture: "Partial dismissal in a multi-claim, multi-party federal civil action."
+  role: "Judge / appellate gatekeeper"
+
+trigger_facts:
+  - fact: "Federal civil action."
+    access_label: "student-visible"
+    legal_role: "Civil procedure frame; defeats criminal-only distractor."
+  - fact: "Four unrelated claims against Timothy, Lydia, and Stephen."
+    access_label: "student-visible"
+    legal_role: "Multiple claims and multiple parties."
+  - fact: "Every claim against Timothy dismissed."
+    access_label: "student-visible"
+    legal_role: "Partial disposition; attractive but incomplete."
+  - fact: "Order did not direct entry of judgment."
+    access_label: "student-visible + Gold Key"
+    legal_role: "Missing Rule 54(b) requirement."
+  - fact: "Order did not state no just reason for delay."
+    access_label: "student-visible + Gold Key"
+    legal_role: "Missing Rule 54(b) requirement."
+  - fact: "Claims against Lydia and Stephen remain."
+    access_label: "student-visible"
+    legal_role: "Fewer than all claims/parties resolved."
+
+c3_routing:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-high"
+  tension_axis: "Partial dismissal alone vs Rule 54(b) certification gate."
+  call_heuristic: "threshold > merits"
+
+answer_array:
+  geometry: "2x2 outcome split: yes/no × valid/invalid reason, with a certification-gate residual."
+  yes_choices:
+    - "A: automatic every multi-party case"
+    - "D: one defendant fully dismissed"
+  no_choices:
+    - "B: missing express Rule 54(b) steps"
+    - "C: criminal-only frame"
+  dominant_trap:
+    choice: "D"
+    basis: "Predicted; no measured pick rates supplied."
+  silver_key:
+    id: "SK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - overbroad_rule
+      - common_student_myth
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "Automatic-every overclaim."
+    c3_signal: "The words 'automatically' and 'every' turn a procedural exception into an all-case shortcut."
+    true_responsive_version: "Yes, if the court had directed entry of judgment and made the no-just-reason determination."
+    lawyer_confirmation: "Rule 54(b) does not operate automatically; it requires court action."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Residual: matches both missing Rule 54(b) signals."
+    c3_signal: "The stem names two missing formal steps; this answer accounts for both."
+    true_responsive_version: "Already true and responsive."
+    lawyer_confirmation: "This matches Rule 54(b)'s certification gate."
+  C:
+    filter_broken: NOT_TRUE
+    mold_code: flat_misstatement
+    mold_family: EAR_FALSITY
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - misstated_rule
+      - wrong_procedural_posture
+      - answer_to_different_question
+    method_class: hard_structural
+    student_label: "Civil/criminal wrong-frame."
+    c3_signal: "The stem is a federal civil action; saying the civil rule is only criminal is a frame crash."
+    true_responsive_version: "No, because the civil Rule 54(b) requirements were missing."
+    lawyer_confirmation: "Rule 54(b) is part of the Federal Rules of Civil Procedure."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - half_right_answer
+      - wrong_procedural_posture
+      - attractive_wrong_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "True fact, incomplete gate."
+    c3_signal: "One defendant is fully dismissed, but the call asks immediate appealability under Rule 54(b)."
+    true_responsive_version: "Yes, because the court dismissed Timothy and also entered the required Rule 54(b) certification."
+    lawyer_confirmation: "Dismissing one party can be eligible for Rule 54(b), but eligibility is not certification."
+
+residual_answer:
+  choice: "B"
+  why: "It is the only answer that accounts for both missing Rule 54(b) requirements."
+  student_script: "No immediate appeal. Fewer than all parties are resolved, and the order lacks both Rule 54(b) signals."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "A overclaims with 'automatically' and 'every.'"
+    - "C conflicts with the civil frame."
+    - "D is a true fact but not the whole procedural gate."
+    - "B matches the two missing formal facts."
+  anchor_quarantined_claims:
+    - "The exact Rule 54(b) requirements are supplied by Gold Key, not invented as pure structure."
+  lawyer_only_claims:
+    - "Rule 54(b)'s text and federal authority."
+  drift_audit: "No lawyer-only doctrine was used to create a fake structural cut."
+
+gold_keys:
+  - id: "GK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+    statement: "Rule 54(b) is not automatic. A partial judgment in a multi-claim or multi-party civil action is immediately appealable only if the district court directs entry of judgment and determines that there is no just reason for delay."
+    type: threshold
+    unlocks: "The trap that a fully dismissed defendant is automatically appealable."
+    trigger: "Fewer than all claims or parties resolved; claims remain; order lacks certification language."
+    tested_choice: "D"
+    authority: "Fed. R. Civ. P. 54(b)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+    statement: "When the stem goes out of its way to say the order lacks formal Rule 54(b) language, do not let a partial-dismissal fact do the work by itself."
+    type: trap_spotting
+    navigates: "Partial finality bait."
+    trigger: "One party is out, but other claims remain and formal certification is missing."
+    tested_choice: "D"
+    outline_code: "93110101"
+    last_minute_review: true
+
+remediation:
+  card_id: "CIV-REM-54B-CERT-GATE"
+  title: "Rule 54(b): partial dismissal is not automatic finality"
+  signal: "Fewer than all claims or parties resolved."
+  student_move: "Ask whether the court both directed entry of judgment and found no just reason for delay."
+  tiny_rule: "No certification, no immediate Rule 54(b) appeal."
+  trap: "Full dismissal of one defendant feels final."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?"
+review_truth: "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay."
+
+case_study_output:
+  program_frame: "This is a Civil Procedure gate question, not a merits question."
+  final_student_script: "Rule 54(b) call. Fewer than all claims and parties are resolved. The stem says no judgment direction and no no-just-reason finding. Cut automatic, criminal-only, and full-dismissal-only. Pick B."
+
+quality_control:
+  pass_requires_three_single_filter_distractors: true
+  exactly_three_distractors:
+    A: "NOT_TRUE / tiered_absolute"
+    C: "NOT_TRUE / flat_misstatement"
+    D: "NOT_RESPONSIVE / wrong_element"
+  credited_answer_breaks_no_filter: true
+  official_key_match_after_shuffle: true
+  no_fork: true
+  no_swap: true
+  no_uncontrolled_values_used: true
+
+analytics_hooks:
+  outline_code: "93110101"
+  component_routing:
+    - "CIVIL_PROCEDURE"
+    - "Appealability and Review"
+    - "Final judgment rule"
+    - "Rule 54(b) certification"
+  trap_tags:
+    - "partial_finality_bait"
+    - "automatic_rule_overclaim"
+    - "civil_criminal_wrong_frame"
+  drill_targets:
+    - "Rule 54(b) certification gate"
+    - "Civil Procedure threshold before merits"
+    - "Wrong-element procedural answers"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+Civil Procedure gate question. Do not ask who should win the underlying case. Ask whether this order can go up on appeal now.
+
+## student_access_test
+
+A student can cut A from “automatically/every.”
+A student can cut C from the civil/criminal frame crash.
+A student needs the Rule 54(b) Gold Key to cut D cleanly and keep B.
+Verdict: **ANCHOR_SOLVE**.
+
+## question_data
+
+**Stem:** Ruth filed a federal civil action after a private Bible-memory tournament kit launch fell apart. Her complaint asserted four unrelated claims against Timothy, Lydia, and Stephen. The district court dismissed every claim against Timothy and wrote, “Timothy is no longer part of this case.” The order did not direct entry of judgment, and it did not state that there was no just reason for delay. Several claims against Lydia and Stephen remain.
+
+**Call:** May Ruth immediately appeal the dismissal under Rule 54(b)?
+
+**Choices:**
+A. Yes, because Rule 54(b) applies automatically in every multi-party civil case.
+B. No, because the court did not expressly direct entry of judgment or determine that there is no just reason for delay.
+C. No, because Rule 54(b) applies only to criminal cases.
+D. Yes, because one defendant is fully dismissed.
+
+## distilled_core_question
+
+A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?
+
+## call_and_prediction
+
+Call: immediate appealability under Rule 54(b).
+Prediction: no immediate appeal, because the order lacks the formal Rule 54(b) gate.
+
+## trigger_facts
+
+| Fact                                    | C3 use                           |
+| --------------------------------------- | -------------------------------- |
+| Federal civil action                    | Civil Procedure frame            |
+| Multiple claims and multiple defendants | Rule 54(b) territory             |
+| Timothy fully dismissed                 | Attractive partial-finality fact |
+| Judgment direction missing              | Certification defect             |
+| No-just-reason finding missing          | Certification defect             |
+| Claims against Lydia and Stephen remain | No full final judgment           |
+
+## governing_c3_lane
+
+Civil Procedure = procedural posture + structural prerequisite.
+Lane: threshold before merits.
+Rule type: RULE.
+Deciding phase: CUT with Gold Key support.
+
+## choice_by_choice_walkthrough
+
+### Choice A
+
+1. **Student-accessible C3 signal:** “Automatically” and “every” are overclaim words.
+2. **Student label:** Automatic-every overclaim.
+3. **True/responsive version:** “Yes, if the court made the required Rule 54(b) certification.”
+4. **Lawyer confirmation:** Rule 54(b) does not apply automatically in every multi-party case.
+
+### Choice B
+
+1. **Student-accessible C3 signal:** This choice matches both missing facts the stem highlights.
+2. **Student label:** Residual answer; missing-certification answer.
+3. **True/responsive version:** Already true and responsive.
+4. **Lawyer confirmation:** Rule 54(b) requires the partial judgment gate; the order lacks it.
+
+### Choice C
+
+1. **Student-accessible C3 signal:** The case is civil. The answer says criminal only.
+2. **Student label:** Civil/criminal wrong-frame.
+3. **True/responsive version:** “No, because the civil Rule 54(b) requirements are missing.”
+4. **Lawyer confirmation:** Rule 54(b) is a Federal Rule of Civil Procedure.
+
+### Choice D
+
+1. **Student-accessible C3 signal:** True fact, wrong gate. Timothy is out, but the call asks whether the order is appealable now.
+2. **Student label:** True fact, incomplete procedural gate.
+3. **True/responsive version:** “Yes, because Timothy was dismissed and the court entered the required Rule 54(b) certification.”
+4. **Lawyer confirmation:** A full dismissal of one party can be eligible for Rule 54(b), but certification is still required.
+
+## residual_answer
+
+B survives. It is the only answer that accounts for the two missing formal requirements.
+
+## legal_leak_audit
+
+Student path: overclaim, wrong-frame, wrong-element, residual.
+Anchor path: Rule 54(b) Gold Key supplies the formal gate.
+Lawyer-only layer: Federal Rule of Civil Procedure 54(b) authority.
+Drift audit: The student-facing explanation does not pretend the exact Rule 54(b) text is visible without the anchor.
+
+## final_student_script
+
+Rule 54(b) call. Multi-claim, multi-party case. One defendant is out, but claims remain. The stem says no judgment direction and no no-just-reason finding. Cut A for “automatically/every.” Cut C for criminal-only. Cut D because full dismissal is not the whole gate. Pick B.
+
+## remediation_card
+
+**Card:** CIV-REM-54B-CERT-GATE
+**Signal:** Fewer than all claims or parties resolved.
+**Student move:** Check for both formal signals.
+**Tiny rule:** No certification, no immediate Rule 54(b) appeal.
+**Trap:** “One defendant is fully dismissed” feels final.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CIVIL_PROCEDURE-RULE54B-CERT-01**
+Rule 54(b) is not automatic. A partial judgment in a multi-claim or multi-party civil action is immediately appealable only if the district court directs entry of judgment and determines that there is no just reason for delay.
+Type: threshold.
+Trigger: fewer than all claims or parties resolved; claims remain; certification language missing.
+
+## Silver Key(s)
+
+**SK-CIVIL_PROCEDURE-RULE54B-CERT-01**
+When the stem goes out of its way to say the order lacks formal Rule 54(b) language, do not let a partial-dismissal fact do the work by itself.
+Type: trap_spotting.
+Trigger: one party is out, but other claims remain and formal certification is missing.
+
+## qa_checklist
+
+| Check                                   | Result |
+| --------------------------------------- | ------ |
+| Correct answer breaks no filter         | Pass   |
+| Three distractors each break one filter | Pass   |
+| C3 residual matches key                 | Pass   |
+| No fork                                 | Pass   |
+| Gold Key present for anchor             | Pass   |
+| Silver Key present for navigation       | Pass   |
+| Letter map present                      | Pass   |
+
+## wrong_answer_recovery_paths
+
+**A:** Student overreads multi-party status. Recovery: flinch at “automatically/every.”
+**C:** Student loses the subject frame. Recovery: civil action means civil rule.
+**D:** Student stops at the salient fact. Recovery: finish the procedural gate.
+
+## outline_mastery_map
+
+Outline code: **93110101**.
+Placement: Civil Procedure > Appealability and Review > Appeal and Review > Interlocutory Review > Final judgment rule.
+This item teaches the Rule 54(b) certification gate.
+
+## crossover_intersection_map
+
+Civil Procedure threshold logic crosses with:
+
+* final judgment rule;
+* interlocutory review;
+* appealability vs merits;
+* C3 wrong-element answers.
+
+## review_truth
+
+Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20247_bible_memory_kit",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "B",
+  "outline_code": "93110101",
+  "distilled_core_question": "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?",
+  "review_truth": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Partial dismissal alone vs Rule 54(b) certification gate.",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold > merits",
+    "difficulty": "medium-high",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "procedural_frame",
+        "card_ref": "CIV-CUT-02",
+        "explanation": "The choice turns Rule 54(b) into an automatic every-case shortcut."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "CIV-CUT-01",
+        "explanation": "The choice puts a civil procedure rule in a criminal-only frame."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "procedural_frame",
+        "card_ref": "CIV-CALL-01",
+        "explanation": "The choice gives a true partial-disposition fact but skips the Rule 54(b) certification gate."
+      }
+    ],
+    "analyzer_notes": "drift_audit: student path uses only overclaim, civil/criminal frame, wrong-element gate logic, and the stated Gold Key; authority quarantined. transformed_from: 20247. letter_map: A→D, B→A, C→B, D→C.",
+    "gold_keys": [
+      {
+        "id": "GK-CIVIL_PROCEDURE-RULE54B-CERT-01",
+        "statement": "Rule 54(b) is not automatic. A partial judgment in a multi-claim or multi-party civil action is immediately appealable only if the district court directs entry of judgment and determines that there is no just reason for delay.",
+        "type": "threshold",
+        "unlocks": "The trap that a fully dismissed defendant is automatically appealable.",
+        "trigger": "Fewer than all claims or parties resolved; claims remain; order lacks certification language.",
+        "tested_choice": "D",
+        "authority": "Fed. R. Civ. P. 54(b).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CIVIL_PROCEDURE-RULE54B-CERT-01",
+        "statement": "When the stem goes out of its way to say the order lacks formal Rule 54(b) language, do not let a partial-dismissal fact do the work by itself.",
+        "type": "trap_spotting",
+        "navigates": "Partial finality bait.",
+        "trigger": "One party is out, but other claims remain and formal certification is missing.",
+        "tested_choice": "D",
+        "outline_code": "93110101",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "20247_bible_memory_kit",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110101",
+  "distilled_core_question": "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?",
+  "review_truth": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+  "tension": {
+    "axis": "Partial dismissal alone vs Rule 54(b) certification gate.",
+    "resolving_fact": "The order lacks both formal Rule 54(b) signals."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": "procedural_frame",
+      "why_attractive": "The student sees multiple parties and reaches for a shortcut that sounds efficient. The breaker is that “automatically in every” overstates a procedural exception.",
+      "focus_group_pct": 18,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student treats the rule number as a free-floating label instead of keeping the civil-procedure lane. The breaker is that the case is a federal civil action, not a criminal case.",
+      "focus_group_pct": 7,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": "procedural_frame",
+      "why_attractive": "The student locks onto the strongest fact: one defendant is fully dismissed. The breaker is that full dismissal is not the whole Rule 54(b) gate.",
+      "focus_group_pct": 20,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CIV-REM-54B-CERT-GATE",
+    "title": "Rule 54(b): partial dismissal is not automatic finality",
+    "signal": "Fewer than all claims or parties resolved.",
+    "student_move": "Ask whether the court both directed entry of judgment and found no just reason for delay.",
+    "tiny_rule": "No certification, no immediate Rule 54(b) appeal.",
+    "trap": "Full dismissal of one defendant feels final.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "partial_finality_bait",
+    "automatic_rule_overclaim",
+    "civil_criminal_wrong_frame",
+    "missing_certification_language",
+    "procedural_gate_before_merits"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20247_bible_memory_kit",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110101",
+  "distilled_core_question": "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?",
+  "review_truth": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student thinks multi-party status itself activates Rule 54(b).",
+      "skipped_move": "Overclaim flinch on automatic/every.",
+      "recovery_step": "Circle absolute words in procedural-rule answers."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student loses the civil-procedure frame and treats the rule label abstractly.",
+      "skipped_move": "Subject-lane check.",
+      "recovery_step": "Match the answer’s frame to the stem’s case type."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student stops at a true fact: Timothy is fully dismissed.",
+      "skipped_move": "Finish the procedural gate.",
+      "recovery_step": "Ask whether the answer accounts for both missing Rule 54(b) signals."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "cut",
+      "target_skill": "overclaim detection",
+      "prompt": "Rule 54(b) applies automatically in every multi-party case.",
+      "answer": "CUT: tiered_absolute."
+    },
+    {
+      "drill_type": "anchor",
+      "target_skill": "Rule 54(b) certification",
+      "prompt": "A multi-party civil case dismisses one defendant; claims remain; no no-just-reason finding. Immediate appeal?",
+      "answer": "No."
+    },
+    {
+      "drill_type": "issue_sense",
+      "target_skill": "wrong-element procedural answer",
+      "prompt": "Yes, because one defendant is fully dismissed.",
+      "answer": "CUT: true fact, incomplete Rule 54(b) gate."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "partial_finality_bait",
+      "procedural_frame",
+      "threshold_gate",
+      "rule_54b_certification"
+    ],
+    "misconception_tags": [
+      "one_party_dismissed_equals_final",
+      "rule_applies_automatically",
+      "civil_rule_as_criminal_rule"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 2 CUT → CLASH → CALL",
+    "Lesson 4 overclaim",
+    "Lesson 5 falsity",
+    "Lesson 8 wrong_element",
+    "Lesson 11 procedural_frame",
+    "Lesson 12 threshold > merits",
+    "Civil Procedure overlay: gate before merits"
+  ],
+  "crossovers": [
+    "final judgment rule",
+    "interlocutory review",
+    "partial final judgment",
+    "threshold before merits",
+    "procedural posture bait"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CIVIL_PROCEDURE-RULE54B-CERT-01",
+      "statement": "Rule 54(b) is not automatic. A partial judgment in a multi-claim or multi-party civil action is immediately appealable only if the district court directs entry of judgment and determines that there is no just reason for delay.",
+      "type": "threshold",
+      "unlocks": "The trap that a fully dismissed defendant is automatically appealable.",
+      "trigger": "Fewer than all claims or parties resolved; claims remain; order lacks certification language.",
+      "tested_choice": "D",
+      "authority": "Fed. R. Civ. P. 54(b).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CIVIL_PROCEDURE-RULE54B-CERT-01",
+      "statement": "When the stem goes out of its way to say the order lacks formal Rule 54(b) language, do not let a partial-dismissal fact do the work by itself.",
+      "type": "trap_spotting",
+      "navigates": "Partial finality bait.",
+      "trigger": "One party is out, but other claims remain and formal certification is missing.",
+      "tested_choice": "D",
+      "outline_code": "93110101",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Civil Procedure > Appealability and Review > Appeal and Review > Interlocutory Review > Final judgment rule",
+    "this_item_teaches": "Rule 54(b) certification gate for fewer-than-all claims or parties.",
+    "fills": [
+      "Partial final judgment",
+      "Immediate appealability",
+      "No certification no appeal"
+    ],
+    "adjacent_to_master": [
+      "28 U.S.C. 1291 final judgment rule",
+      "Rule 23(f) certification appeals",
+      "Collateral order doctrine",
+      "1292(b) certified interlocutory appeal"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/uscode/text/28a/courtrules-Civil/title-VII/courtrule-54?utm_source=chatgpt.com "28a U.S. Code Court Rule 54 - Judgment; Costs | U.S. Code | US Law | LII / Legal Information Institute"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20247_bible_memory_kit",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "B",
+  "outline_code": "93110101",
+  "distilled_core_question": "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?",
+  "review_truth": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20247; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20247_bible_memory_kit",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110101",
+  "distilled_core_question": "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?",
+  "review_truth": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20247",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20247_bible_memory_kit",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110101",
+  "distilled_core_question": "A federal civil case still has claims pending. One defendant is fully dismissed, but the order lacks Rule 54(b)’s judgment direction and no-just-reason determination. Is the dismissal immediately appealable?",
+  "review_truth": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "93110101",
+    "this_item_teaches": "Partial dismissal is not immediately appealable under Rule 54(b) unless the district court directs entry of judgment and finds no just reason for delay.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

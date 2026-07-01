@@ -1,0 +1,1060 @@
+---
+qid: "14730_potluck_flight"
+transformed_from: "14730"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Other Crimes"
+outline_code: "72050300"
+key: "D"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required."
+---
+## Source note
+
+The source row for BARMATRIX Q#14730 supplies the original Criminal Law / Other Crimes fact pattern, pick rates, answer choices, official key D, and official explanations.  The uploaded prompt also requires a Christian-first transform, five variations considered, Gold/Silver Keys when needed, a transform report, and then the five PASS-2 C3 blocks.  I treated `reasoning-creed-prompt.md` as the posture layer: preserve the ambitious goal, identify the pivot, and keep proof separate from proxy. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — chosen Christian variation
+
+**Question ID:** `14730_potluck_flight`
+**Transformed from:** `14730`
+**Title:** *The Potluck Flight*
+
+Paul was engaged to marry Mary. One evening after a church potluck, Paul became enraged at the comments of Mary’s eight-year-old daughter, Ruth, who was complaining in her usual way that she did not want Mary to marry Paul. Paul, who had too much to drink, began beating Ruth. Ruth suffered bruises and a broken arm.
+
+Mary took Ruth to the hospital. The hospital staff notified the police. Paul was indicted for felony child abuse. Paul pleaded with Mary to forgive him and to run away with him. Mary agreed. They moved out of state and took Ruth with them. Without Ruth’s testimony, the prosecution was forced to dismiss the case.
+
+Sometime later, Mary returned for a visit with her family and was arrested and indicted as an accessory after the fact to child abuse.
+
+**At Mary’s trial, the court should:**
+
+## 2. Distilled Core Question
+
+After Paul committed felony child abuse, Mary helped him leave the state with the child witness, and the case was dismissed because the witness became unavailable. Is Mary’s accessory-after-the-fact case for the jury? Yes, if her purpose in leaving was to prevent Paul’s conviction.
+
+## 3. Final answer choices
+
+A. dismiss the charge, because Paul had not been convicted.
+B. dismiss the charge, because the evidence shows that any aid Mary rendered occurred after the crime was completed.
+C. submit the case to the jury, on an instruction to convict only if Mary knew Paul had been indicted.
+D. submit the case to the jury, on an instruction to convict only if Mary’s purpose in moving was to prevent Paul’s conviction.
+
+## 4. Possible replacement answer choices
+
+No replacement is locked. The original wrong answers are low-pick but clean: A, B, and C each test a different false prerequisite to accessory-after-the-fact liability. Because the original geometry is strong, the final variation keeps all three distractors and inherits the original pick percentages as historical, not measured-on-variant data.
+
+Optional replacement candidates, not used:
+
+| Replaced choice | Original pick % | Candidate                                                                           | Mold            | Reason not used                                                                  |
+| --------------- | --------------: | ----------------------------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------- |
+| A               |               9 | “dismiss the charge, because the child-abuse case against Paul had been dismissed.” | fabricated_rule | Too close to A’s conviction trap and risks over-signaling independent liability. |
+| B               |               9 | “dismiss the charge, because Mary did not help Paul commit the beating itself.”     | wrong_element   | Good trap, but changes B from timing-reversal to accomplice/accessory confusion. |
+| C               |              10 | “submit the case to the jury only if Mary intended Paul to avoid arrest.”           | half_truth      | Legally too close to D; risks creating a second partially correct answer.        |
+
+## 5. Correct answer
+
+**D.**
+
+## 6. Full right-answer explanation
+
+D is correct. The case should go to the jury if the jury could find that Mary helped Paul leave the state with Ruth for the purpose of preventing Paul’s conviction. The stem gives the functional chain: Paul committed the child abuse, Mary knew what happened, Paul asked her to run away, she left with him and the child witness, and the prosecution lost the witness.
+
+**Gold Key:** Accessory after the fact is a separate post-crime offense. The key is not whether the principal was already convicted or whether the helper knew about a formal indictment. The key is post-crime assistance given with the purpose of hindering the offender’s apprehension, trial, conviction, or punishment.
+
+**Silver Key:** When the call says “accessory after the fact,” do not treat “after the crime was completed” as a defect. That timing is the lane. Then fight C against D on the required mental state: formal indictment knowledge versus purpose to hinder conviction.
+
+## 7. Full wrong-answer explanations
+
+**A is wrong.** It invents a conviction prerequisite. Mary’s liability does not wait for Paul to be convicted. The charge asks whether Mary committed a separate post-crime offense by helping Paul avoid the criminal process.
+
+**B is wrong.** It reverses the charge’s timing. “After the crime was completed” is not a reason to dismiss an accessory-after-the-fact charge. It is exactly the timing that makes the charge possible.
+
+**C is wrong.** It chooses the wrong mental-state target. Knowledge that Paul had been formally indicted is not the required instruction. The important question is whether Mary’s purpose in leaving was to help Paul avoid conviction or punishment.
+
+## 8. Black-letter-law verification and legal reasoning
+
+The tested rule is unchanged from the original: accessory-after-the-fact liability turns on post-offense assistance, knowledge of the completed offense, and purpose to hinder apprehension, trial, conviction, or punishment. The original row’s official explanation states that D is correct because the woman aided the man in avoiding punishment by helping him move out of state and rendering the victim unavailable. It also states that the principal need not have been convicted, that post-crime aid is not a defense, and that knowledge of indictment is not required. 
+
+For lawyer confirmation, 18 U.S.C. § 3 uses the same core formulation: knowing an offense has been committed, the defendant assists the offender to hinder or prevent apprehension, trial, or punishment. ([Legal Information Institute][1]) The Ninth Circuit model jury instruction is even tighter for this item: it lists the elements and expressly states that the government need not prove the principal “has been indicted for or convicted of” the crime. ([U.S. Courts][2]) Cornell Wex states the same operational elements: assistance after the crime, knowledge of the crime, and intent to help avoid arrest or punishment. ([Legal Information Institute][3])
+
+## 9. Rigor / difficulty preservation
+
+The variation changes only the skin: Paul, Mary, and Ruth replace the original parties; a church potluck supplies memorable Christian flavor without adding church-law, First Amendment, clergy, privilege, or institutional-liability clutter. The same legal chain remains: felony child abuse, post-crime flight, witness unavailable, accessory-after-the-fact indictment. The dominant trap survives: students may focus on indictment/conviction procedure instead of the functional purpose to hinder conviction.
+
+## 10. C3 elimination walkthrough
+
+**CUT B:** The call says “accessory after the fact.” B says dismiss because the aid occurred after the crime was complete. That points the timing backward. The timing is not a defect; it is the lane.
+
+**ANCHOR-CUT A:** A requires Paul’s conviction first. Gold Key kills that. Accessory after the fact is separate.
+
+**CLASH C vs. D:** Both submit the case to the jury. They fight on the mental-state instruction. C says knowledge of indictment. D says purpose to prevent conviction.
+
+**CALL by Gold Key:** The required mental state is purpose to hinder the criminal process. D is the residual.
+
+## 11. Review Truth
+
+Accessory after the fact is post-crime help given to hinder the offender’s apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.
+
+## 12. The five variations considered
+
+1. **The Potluck Flight — selected.**
+   Setting: church potluck and family home. Cast: Paul, Mary, Ruth. Preserved issue: post-crime aid to avoid conviction. Memorable because the “flight after potluck” image cleanly tracks the after-fact timing. Legal risk: minimal.
+
+2. **The Choir Practice Coverup.**
+   Setting: youth choir rehearsal. Cast: Timothy, Lydia, Esther. Preserved issue: moving the child witness out of state after felony abuse. Memorable, but church-program facts add mild institutional clutter.
+
+3. **The Bible Bowl Bus Trip.**
+   Setting: Bible quiz trip. Cast: Barnabas, Martha, Ruth. Preserved issue: aid after completed crime. Memorable, but travel facts risk distracting from voluntary flight.
+
+4. **The Seminary Study Group Flight.**
+   Setting: private apartment after a study group. Cast: Stephen, Mary, Lydia. Preserved issue: purpose to prevent conviction. Clean, but less vivid than potluck.
+
+5. **The Law-School Chapel Variation.**
+   Setting: law-school chapel event. Cast: Daniel, Esther, Ruth. Preserved issue: accessory after the fact. Good for law-school flavor, but Christian setting plus law-school setting added unnecessary noise.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+## B1) Question YAML
+
+```yaml
+question_yaml:
+  barmatrix_row:
+    question_id: "14730_potluck_flight"
+    transformed_from: "14730"
+    source_qid: 14730
+    subject: "CRIMINAL"
+    topic: "Criminal Law"
+    subtopic: "Other Crimes"
+    original_selection_percentages:
+      correct_overall: 72
+      A: 9
+      B: 9
+      C: 10
+      D: 72
+      provenance: "inherited_from_original; not measured on transformed variation"
+    official_key: "D"
+    transformed_call: "At Mary's trial, the court should:"
+    transformed_stem: >
+      Paul was engaged to marry Mary. One evening after a church potluck, Paul became
+      enraged at the comments of Mary's eight-year-old daughter, Ruth, who was complaining
+      in her usual way that she did not want Mary to marry Paul. Paul, who had too much to
+      drink, began beating Ruth. Ruth suffered bruises and a broken arm. Mary took Ruth to
+      the hospital. The hospital staff notified the police. Paul was indicted for felony
+      child abuse. Paul pleaded with Mary to forgive him and to run away with him. Mary
+      agreed. They moved out of state and took Ruth with them. Without Ruth's testimony,
+      the prosecution was forced to dismiss the case. Sometime later, Mary returned for a
+      visit with her family and was arrested and indicted as an accessory after the fact to
+      child abuse.
+    choices:
+      A: "dismiss the charge, because Paul had not been convicted."
+      B: "dismiss the charge, because the evidence shows that any aid Mary rendered occurred after the crime was completed."
+      C: "submit the case to the jury, on an instruction to convict only if Mary knew Paul had been indicted."
+      D: "submit the case to the jury, on an instruction to convict only if Mary's purpose in moving was to prevent Paul's conviction."
+
+  source_stack:
+    - priority: 1
+      source: "BARMATRIX row 14730"
+      used_for: "subject, topic, subtopic, stem structure, answer choices, official key, pick rates, official explanations"
+    - priority: 2
+      source: "Creative-transform guardrails"
+      used_for: "Christian-first reskin, popular Bible names, no clutter doctrines, provenance"
+    - priority: 3
+      source: "C3 core and controlled vocabulary"
+      used_for: "CUT/CLASH/CALL, molds, filters, method class, verdicts"
+    - priority: 4
+      source: "Legal authority layer"
+      used_for: "lawyer confirmation only: 18 U.S.C. § 3, Ninth Circuit model jury instruction, Cornell Wex"
+
+  student_access_contract:
+    allowed_universal_lessons:
+      - "L1 TRUE and RESPONSIVE"
+      - "L2 CUT → CLASH → CALL"
+      - "L5 Falsity family"
+      - "L8 Not-responsive molds"
+      - "L11 Bait architecture"
+      - "L12 Anchors / Call"
+      - "L13 Calibration"
+    allowed_gold_keys:
+      - "GK-CRIMINAL-ACCESSORY-AFTER-FACT-01"
+    allowed_silver_keys:
+      - "SK-CRIMINAL-AFTER-FACT-TIMING-01"
+    controlling_test_result: >
+      B is student-visible from the charge label and timing language. A and C require the
+      Gold Key. The final C/D fight is anchor-assisted, not hard structural.
+
+  stem_parse:
+    parties:
+      principal_offender: "Paul"
+      alleged_accessory: "Mary"
+      child_victim_witness: "Ruth"
+    underlying_crime: "felony child abuse"
+    accessory_charge: "accessory after the fact to child abuse"
+    chronology:
+      - "Paul beats Ruth."
+      - "Ruth is treated at hospital."
+      - "Police are notified."
+      - "Paul is indicted."
+      - "Paul asks Mary to forgive him and flee."
+      - "Mary leaves the state with Paul and Ruth."
+      - "Ruth becomes unavailable to the prosecution."
+      - "Case against Paul is dismissed."
+      - "Mary is indicted as accessory after the fact."
+    call_type: "trial court action / jury instruction"
+    adjacent_call_traps:
+      - "whether Paul has already been convicted"
+      - "whether Mary knew of the indictment"
+      - "whether Mary helped before the abuse"
+    negative_stem_inversion: false
+
+  trigger_facts:
+    - fact: "Paul completed the beating before Mary helped him leave."
+      access_label: "student_visible"
+      legal_role: "places the aid after the underlying offense"
+    - fact: "Mary knew Paul beat Ruth because she took Ruth to the hospital."
+      access_label: "student_visible"
+      legal_role: "supports knowledge of the completed crime"
+    - fact: "Paul pleaded with Mary to forgive him and run away."
+      access_label: "student_visible"
+      legal_role: "supports purpose inference"
+    - fact: "Mary moved out of state with Paul and Ruth."
+      access_label: "student_visible"
+      legal_role: "assistance to offender after the crime"
+    - fact: "Without Ruth's testimony, the prosecution dismissed the case."
+      access_label: "student_visible"
+      legal_role: "assistance made conviction harder or impossible"
+    - fact: "Paul had not been convicted."
+      access_label: "student_visible"
+      legal_role: "bait fact; not a required prerequisite under Gold Key"
+
+  c3_routing:
+    subject_fit: "Criminal Law = actor role + timing + mental-state gate."
+    governing_law_type: "RULE"
+    deciding_phase: "CALL"
+    method_class: "anchor_assisted"
+    confidence: "ANCHOR_ASSISTED"
+    case_study_verdict: "ANCHOR_SOLVE"
+    bank_validation_verdict: "PASS"
+    residual: "D"
+    agrees_with_official_key: true
+    is_fork: false
+    fork_type: null
+    difficulty: 2
+
+  answer_array:
+    geometry: "2 dismissal answers versus 2 jury-submission answers; C/D are a mental-state fight pair."
+    layer_map:
+      A: "Layer 1 false procedural prerequisite: principal conviction required"
+      B: "Layer 0/1 timing reversal: after-completion aid treated as defect"
+      C: "Layer 2 formal-knowledge trap: indictment knowledge required"
+      D: "Layer 3 functional-purpose answer: purpose to prevent conviction"
+    silver_key_signal: "When C and D both submit to the jury, the fight is mental state, not dismissal."
+    dominant_trap:
+      choice: "C"
+      original_pick_percent: 10
+      provenance: "highest wrong-answer percentage inherited from original"
+
+  choice_walkthroughs:
+    A:
+      filter_broken: "NOT_TRUE"
+      mold_code: "fabricated_rule"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: "procedural_frame"
+      wrong_answer_architecture_tags:
+        - "common_student_myth"
+        - "wrong_procedural_posture"
+        - "sounds_lawyerly"
+      method_class: "anchor_assisted"
+      student_label: "fake conviction prerequisite"
+      c3_signal: "Requires a procedural status the charge does not require under the Gold Key."
+      lawyer_confirmation: "Principal conviction is not required for accessory-after-the-fact liability."
+    B:
+      filter_broken: "NOT_TRUE"
+      mold_code: "backwards"
+      mold_family: "EAR_FALSITY"
+      bait_architecture_code: "wrong_frame"
+      wrong_answer_architecture_tags:
+        - "answer_to_different_question"
+        - "wrong_timing"
+        - "bar_exam_bait"
+      method_class: "hard_structural"
+      student_label: "after-fact timing reversal"
+      c3_signal: "The charge itself says after the fact; B treats after-completion aid as a reason to dismiss."
+      lawyer_confirmation: "Accessory after the fact requires aid after the underlying crime is complete."
+    C:
+      filter_broken: "NOT_TRUE"
+      mold_code: "fabricated_rule"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: "wrong_frame"
+      wrong_answer_architecture_tags:
+        - "wrong_mental_state"
+        - "sounds_lawyerly"
+        - "attractive_wrong_answer"
+      method_class: "anchor_assisted"
+      student_label: "fake indictment-knowledge requirement"
+      c3_signal: "C and D fight on mental state. Gold Key selects purpose to hinder, not knowledge of indictment."
+      lawyer_confirmation: "Knowledge of indictment is not required; knowledge of the crime plus purpose to hinder is enough."
+    D:
+      filter_broken: null
+      mold_code: null
+      mold_family: null
+      bait_architecture_code: null
+      wrong_answer_architecture_tags:
+        - "correct_answer"
+      method_class: "anchor_assisted"
+      student_label: "true and responsive residual"
+      c3_signal: "Answers the call and uses the functional purpose that explains why the move mattered."
+      lawyer_confirmation: "Post-crime assistance with purpose to prevent conviction supports jury submission."
+
+  residual_answer:
+    choice: "D"
+    reason: "D is the only answer that keeps the case with the jury and names the required purpose-to-hinder mental state."
+    student_confidence_band: "~80-90% after Gold Key; lower without the anchor"
+
+  legal_leak_audit:
+    student_accessible_claims:
+      - claim: "B is backwards because after-completion aid matches the charge label."
+        access: "hard_structural"
+      - claim: "C and D fight on mental state."
+        access: "hard_structural answer-array read"
+      - claim: "D beats C because purpose to hinder is the required mental state."
+        access: "Gold Key required"
+      - claim: "A is wrong because conviction is not required."
+        access: "Gold Key required"
+    quarantined_lawyer_claims:
+      - "18 U.S.C. § 3 formulation"
+      - "Ninth Circuit model jury instruction"
+      - "official explanation confirmation"
+    drift_audit: "No doctrine outside the Gold Key is used as fake structure."
+
+  gold_keys:
+    - id: "GK-CRIMINAL-ACCESSORY-AFTER-FACT-01"
+      statement: "Accessory after the fact is a separate post-crime offense: after the crime is complete, knowingly assist the offender with the purpose of hindering apprehension, trial, conviction, or punishment. The principal need not already be indicted or convicted."
+      type: "rule"
+      unlocks: "Cuts the conviction-required and indictment-knowledge traps; selects the purpose-to-hinder instruction."
+      trigger: "Call charges accessory after the fact and facts show flight, concealment, missing witness, or avoided prosecution."
+      tested_choice: "C"
+      authority: "lawyer_confirmation_only: 18 U.S.C. § 3; Ninth Circuit Model Criminal Jury Instruction 5.2; Cornell Wex accessory-after-the-fact"
+      last_minute_review: true
+
+  silver_keys:
+    - id: "SK-CRIMINAL-AFTER-FACT-TIMING-01"
+      statement: "When the call says accessory after the fact, do not cut the case because the aid came after the crime. After-completion timing points into the rule; then pick the answer that names the helper's purpose."
+      type: "answer_array"
+      navigates: "Prevents the B timing reversal and focuses C/D on mental state."
+      trigger: "A charge label containing 'after the fact' plus an answer saying the aid came after the crime."
+      tested_choice: "B"
+      outline_code: "72050300"
+      last_minute_review: true
+
+  remediation:
+    card_id: "CRIM-REM-ACCESSORY-AFTER-FACT-01"
+    title: "After-the-fact means after the crime"
+    signal: "A helper moves, hides, lies, or removes a witness after the completed crime."
+    student_move: "Do not ask whether the principal was convicted. Ask whether the helper acted to hinder apprehension, trial, conviction, or punishment."
+    tiny_rule: "Post-crime aid + knowledge + purpose to hinder = accessory after the fact."
+    trap: "Mistaking indictment or conviction status for an element."
+    confidence: "ANCHOR_ASSISTED"
+
+  distilled_core_question: "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction."
+  review_truth: "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required."
+
+  case_study_output:
+    final_student_script: "After-the-fact means after the crime, so B is backwards. A and C are fake formal prerequisites. The real fight is mental state: indictment knowledge or purpose to hinder. Purpose wins. Pick D."
+    exam_day_time_target_seconds: 45
+
+  quality_control:
+    rule_answer_issue_unchanged: true
+    christian_first: true
+    popular_bible_names_only: true
+    no_villain_names: true
+    no_clutter_doctrine_added: true
+    dominant_trap_preserved: true
+    pick_rate_provenance_honest: true
+    exact_three_distractors_one_filter_each: true
+    credited_answer_breaks_no_filter: true
+    bank_pass_available: true
+
+  analytics_hooks:
+    component_routing:
+      - "CRIMINAL"
+      - "L1_TRUE_RESPONSIVE"
+      - "L2_CUT_CLASH_CALL"
+      - "L8_NOT_RESPONSIVE"
+      - "L12_ANCHOR"
+      - "GOLD_KEY_ACCESSORY_AFTER_FACT"
+    trap_tags:
+      - "accessory_after_fact"
+      - "fake_conviction_prerequisite"
+      - "after_completion_reversal"
+      - "fake_indictment_knowledge"
+      - "purpose_to_hinder"
+    expected_wrong_answer_pull:
+      A: "low; conviction-status myth"
+      B: "low; timing reversal"
+      C: "dominant wrong; formal indictment-knowledge trap"
+```
+
+## B2) Student case study
+
+### 1. program_frame
+
+This is a Criminal Law “other crimes” item. It is not asking whether Paul is guilty of child abuse. It is asking whether Mary’s accessory-after-the-fact charge should go to the jury.
+
+The item is anchor-assisted. Structure gets you part of the way. The Gold Key finishes it.
+
+### 2. student_access_test
+
+A student can see this much without doctrine:
+
+* The charge says **accessory after the fact**.
+* B says dismiss because the aid happened **after** the crime.
+* That is suspicious because “after” is built into the charge.
+* C and D both send the case to the jury.
+* C and D fight over the required mental state.
+
+A student cannot honestly know, from structure alone, whether the required mental state is “knowledge of indictment” or “purpose to prevent conviction.” That is the Gold Key.
+
+### 3. question_data
+
+**Question ID:** `14730_potluck_flight`
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** Other Crimes
+**Original correct rate:** 72%
+**Original wrong-answer pull:** A 9%, B 9%, C 10%
+**Credited answer:** D
+**Pick-rate provenance:** inherited from original; not measured on this transformed variation.
+
+### 4. distilled_core_question
+
+After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary’s accessory-after-the-fact case for the jury?
+
+Yes, if her purpose was to prevent Paul’s conviction.
+
+### 5. call_and_prediction
+
+**Call:** At Mary’s trial, what should the court do?
+
+**Prediction:** The court should submit the case to the jury if the facts support Mary’s post-crime assistance with the purpose of helping Paul avoid the criminal process.
+
+**Adjacent-call traps:**
+
+* Do not answer whether Paul was convicted.
+* Do not answer whether Mary helped commit the original beating.
+* Do not answer only whether Mary knew about the indictment.
+
+### 6. trigger_facts
+
+| Fact                                         | Student use                                     |
+| -------------------------------------------- | ----------------------------------------------- |
+| Paul beat Ruth and broke her arm.            | Underlying felony exists.                       |
+| Mary took Ruth to the hospital.              | Mary knows about the crime.                     |
+| Paul asked Mary to forgive him and run away. | Purpose inference starts.                       |
+| Mary left the state with Paul and Ruth.      | Post-crime assistance.                          |
+| Ruth’s absence caused dismissal.             | The assistance affected prosecution/conviction. |
+
+### 7. governing_c3_lane
+
+**FIT:** Criminal Law = actor role + timing + mental-state gate.
+
+This item is not a broad criminal-law outline question. It is a role question. Paul is the principal. Mary is the alleged helper after the crime. The key is the helper’s purpose.
+
+### 8. choice_by_choice_walkthrough
+
+#### Choice A
+
+**(1) Student-accessible C3 signal:**
+A asks for dismissal because Paul had not been convicted. That sounds like a formal procedural prerequisite.
+
+**(2) Student label:**
+Fake conviction prerequisite.
+
+**(3) What a true/responsive version would look like:**
+“Dismiss if the prosecution cannot prove Paul committed the underlying child abuse at all.”
+
+**(4) Lawyer confirmation:**
+A principal’s prior conviction is not required. The government must prove the underlying crime occurred, but it need not prove the principal was already convicted.
+
+#### Choice B
+
+**(1) Student-accessible C3 signal:**
+The answer says the aid happened after the crime was completed. The charge is accessory **after the fact**. The answer points the timing backward.
+
+**(2) Student label:**
+After-fact timing reversal.
+
+**(3) What a true/responsive version would look like:**
+“Dismiss if Mary’s aid occurred before the crime was complete and she was charged only as accessory after the fact.”
+
+**(4) Lawyer confirmation:**
+Accessory after the fact requires aid after the principal offense is complete.
+
+#### Choice C
+
+**(1) Student-accessible C3 signal:**
+C and D both send the case to the jury. They fight on the instruction. C says the required mental state is knowledge of indictment.
+
+**(2) Student label:**
+Fake indictment-knowledge requirement.
+
+**(3) What a true/responsive version would look like:**
+“Submit the case only if Mary knew Paul had committed the child abuse and acted to hinder the criminal process.”
+
+**(4) Lawyer confirmation:**
+The prosecution need not prove Mary knew Paul had been indicted. The required mental-state focus is knowledge of the crime plus purpose to hinder apprehension, trial, conviction, or punishment.
+
+#### Choice D
+
+**(1) Student-accessible C3 signal:**
+D is the only choice that both sends the case to the jury and ties Mary’s move to the purpose that made the move matter.
+
+**(2) Student label:**
+Purpose-to-hinder residual.
+
+**(3) What a true/responsive version would look like:**
+This is the true/responsive version.
+
+**(4) Lawyer confirmation:**
+The case may go to the jury if Mary knowingly assisted Paul after the crime with the purpose of preventing conviction or punishment.
+
+### 9. residual_answer
+
+D survives.
+
+It answers the exact call: the trial court should submit the case to the jury, but the jury must be instructed to convict only if Mary’s purpose in moving was to prevent Paul’s conviction.
+
+### 10. legal_leak_audit
+
+Hard structural:
+
+* B is backwards because it treats “after the crime” as a defect in an “after the fact” charge.
+* C and D are the mental-state fight pair.
+
+Anchor-assisted:
+
+* A requires the Gold Key.
+* C requires the Gold Key.
+* D’s final selection requires the Gold Key.
+
+Not student-accessible without Gold Key:
+
+* “Principal need not be convicted.”
+* “Knowledge of indictment is not required.”
+* “Purpose to hinder apprehension/trial/punishment is the required mental-state target.”
+
+**Drift audit:** The student-facing path does not pretend A or C are structurally false. Those cuts are explicitly anchor-assisted.
+
+### 11. final_student_script
+
+“Accessory after the fact means the help comes after the crime, so B is backwards. A and C add formal prerequisites: conviction and indictment knowledge. The answer array points me to C versus D because both go to the jury. Gold Key: the helper must act with purpose to hinder the criminal process. D says that. Pick D.”
+
+### 12. remediation_card
+
+**Card ID:** CRIM-REM-ACCESSORY-AFTER-FACT-01
+**Title:** After-the-fact means after the crime.
+**Signal:** The helper moves, hides, lies, removes a witness, or shelters the offender after the completed crime.
+**Student move:** Do not ask whether the principal was convicted. Ask whether the helper acted to hinder apprehension, trial, conviction, or punishment.
+**Tiny rule:** Post-crime aid + knowledge + purpose to hinder = accessory after the fact.
+**Trap:** Indictment/conviction status feels formal and lawyerly, but it is not the element.
+
+### Gold Key(s)
+
+**GK-CRIMINAL-ACCESSORY-AFTER-FACT-01**
+Accessory after the fact is a separate post-crime offense: after the crime is complete, knowingly assist the offender with the purpose of hindering apprehension, trial, conviction, or punishment. The principal need not already be indicted or convicted.
+
+### Silver Key(s)
+
+**SK-CRIMINAL-AFTER-FACT-TIMING-01**
+When the call says accessory after the fact, do not cut the case because the aid came after the crime. After-completion timing points into the rule; then pick the answer that names the helper’s purpose.
+
+### 13. qa_checklist
+
+* Rule unchanged: yes.
+* Correct answer unchanged: yes.
+* Dominant trap preserved: yes.
+* Christian variation uses popular Bible names only: yes.
+* No antagonist/villain names: yes.
+* No church-law or First Amendment clutter: yes.
+* Each distractor breaks exactly one filter: yes.
+* Credited answer breaks no filter: yes.
+* C3 residual agrees with official key: yes.
+* Verdict: PASS.
+
+### 14. wrong_answer_recovery_paths
+
+**A path:** Student thinks no conviction means no accessory case.
+Recovery: Learn the Gold Key. Accessory after the fact is separate.
+
+**B path:** Student thinks aid after completion is too late.
+Recovery: Read the charge name. “After the fact” means after completion.
+
+**C path:** Student focuses on indictment because it sounds formal.
+Recovery: Fight C against D. Formal knowledge loses to purpose to hinder.
+
+### 15. outline_mastery_map
+
+**Placement:** Criminal Law → parties to crime / accessory after the fact / obstruction-adjacent post-crime assistance.
+
+**This item teaches:** The helper’s role after the completed crime.
+
+**Fills:**
+
+* principal versus accessory after the fact
+* post-crime assistance
+* purpose to hinder prosecution or punishment
+* no conviction/indictment prerequisite
+
+**Adjacent to master:**
+
+* accomplice liability
+* misprision / concealment
+* obstruction
+* witness tampering
+
+### 16. crossover_intersection_map
+
+| Crossover                           | Why it matters                                                               |
+| ----------------------------------- | ---------------------------------------------------------------------------- |
+| Accomplice vs. accessory after fact | Before/during crime versus after completion.                                 |
+| Obstruction / witness availability  | Ruth’s absence makes the prosecution fail.                                   |
+| Jury-instruction posture            | The answer is not “guilty”; it is “submit with the correct instruction.”     |
+| Evidence/witness dependence         | The witness fact is not an Evidence issue; it is the purpose-to-hinder fact. |
+
+### 17. review_truth
+
+Accessory after the fact is post-crime help given to hinder the offender’s apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.
+
+## B3) `c3_annotation`
+
+```json
+{
+  "question_id": "14730_potluck_flight",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "72050300",
+  "distilled_core_question": "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.",
+  "review_truth": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "required mental state: indictment knowledge vs purpose to hinder conviction",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "gold_key_accessory_after_fact",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CRIMINAL-ACCESSORY-AFTER-FACT-01",
+        "explanation": "Invents a principal-conviction prerequisite."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIMINAL-AFTER-FACT-TIMING-01",
+        "explanation": "Treats after-completion aid as a defect even though the charge is accessory after the fact."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-ACCESSORY-AFTER-FACT-01",
+        "explanation": "Invents a knowledge-of-indictment requirement instead of the purpose-to-hinder requirement."
+      }
+    ],
+    "analyzer_notes": "drift_audit: A and C are anchor-assisted, not hard structural; B is student-visible from the charge label and timing reversal. transformed_from: 14730. Christian variation keeps rule, issue, answer key, and trap geometry unchanged.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-ACCESSORY-AFTER-FACT-01",
+        "statement": "Accessory after the fact is a separate post-crime offense: after the crime is complete, knowingly assist the offender with the purpose of hindering apprehension, trial, conviction, or punishment. The principal need not already be indicted or convicted.",
+        "type": "rule",
+        "unlocks": "Cuts the conviction-required and indictment-knowledge traps; selects the purpose-to-hinder instruction.",
+        "trigger": "Call charges accessory after the fact and facts show flight, concealment, missing witness, or avoided prosecution.",
+        "tested_choice": "C",
+        "authority": "lawyer_confirmation_only: 18 U.S.C. § 3; Ninth Circuit Model Criminal Jury Instruction 5.2; Cornell Wex accessory-after-the-fact",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-AFTER-FACT-TIMING-01",
+        "statement": "When the call says accessory after the fact, do not cut the case because the aid came after the crime. After-completion timing points into the rule; then pick the answer that names the helper's purpose.",
+        "type": "answer_array",
+        "navigates": "Prevents the B timing reversal and focuses C/D on mental state.",
+        "trigger": "A charge label containing 'after the fact' plus an answer saying the aid came after the crime.",
+        "tested_choice": "B",
+        "outline_code": "72050300",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## B4) `program_elements`
+
+```json
+{
+  "question_id": "14730_potluck_flight",
+  "subject": "CRIMINAL",
+  "outline_code": "72050300",
+  "distilled_core_question": "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.",
+  "review_truth": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+  "tension": {
+    "axis": "formal prosecution knowledge vs functional purpose to hinder conviction",
+    "resolver": "Gold Key: accessory after the fact requires purpose to hinder apprehension, trial, conviction, or punishment, not knowledge of indictment."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "fabricated_rule",
+      "architecture": "procedural_frame",
+      "why_attractive": "Students think accessory liability depends on the principal's conviction status.",
+      "focus_group_pct": {
+        "value": 9,
+        "provenance": "inherited_from_original; not measured on variant"
+      }
+    },
+    {
+      "choice": "B",
+      "mold": "backwards",
+      "architecture": "wrong_frame",
+      "why_attractive": "Students treat post-crime timing as too late instead of recognizing that after-fact liability starts there.",
+      "focus_group_pct": {
+        "value": 9,
+        "provenance": "inherited_from_original; not measured on variant"
+      }
+    },
+    {
+      "choice": "C",
+      "mold": "fabricated_rule",
+      "architecture": "wrong_frame",
+      "why_attractive": "Indictment sounds like the formal event that makes the helper's flight legally meaningful.",
+      "focus_group_pct": {
+        "value": 10,
+        "provenance": "inherited_from_original; not measured on variant"
+      }
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-ACCESSORY-AFTER-FACT-01",
+    "title": "After-the-fact means after the crime",
+    "signal": "A helper moves, hides, lies, shelters the offender, or removes a witness after a completed crime.",
+    "student_move": "Do not ask whether the principal was convicted. Ask whether the helper acted to hinder apprehension, trial, conviction, or punishment.",
+    "tiny_rule": "Post-crime aid + knowledge + purpose to hinder = accessory after the fact.",
+    "trap": "Mistaking indictment or conviction status for an element.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "formal-procedure bait",
+    "after-completion timing reversal",
+    "wrong mental state",
+    "principal-liability dependency myth",
+    "jury-instruction posture"
+  ]
+}
+```
+
+## B5) `program_intelligence`
+
+```json
+{
+  "question_id": "14730_potluck_flight",
+  "subject": "CRIMINAL",
+  "outline_code": "72050300",
+  "distilled_core_question": "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.",
+  "review_truth": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student thinks the accessory case depends on a completed conviction of the principal.",
+      "skipped_move": "Gold Key: accessory after the fact is separate from the principal's conviction status.",
+      "recovery_step": "Ask whether the underlying crime occurred and whether Mary aided Paul to avoid the process, not whether Paul was convicted."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student treats aid after the completed crime as too late for liability.",
+      "skipped_move": "Silver Key: after-the-fact timing is the lane, not the defect.",
+      "recovery_step": "Circle 'after the fact' in the charge and compare it to 'after the crime was completed' in the answer."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student overvalues formal indictment knowledge because it sounds precise and lawyerly.",
+      "skipped_move": "CLASH C vs D on mental state, then apply the Gold Key.",
+      "recovery_step": "Replace 'knew indicted' with 'purpose to hinder apprehension, trial, conviction, or punishment.'"
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "Accessory-after-the-fact elements",
+      "prompt": "A helper shelters an offender after a felony. The principal has not been convicted. Can accessory-after-the-fact liability still be submitted?",
+      "answer": "Yes. Principal conviction is not required if the helper knowingly assisted with purpose to hinder apprehension, trial, conviction, or punishment."
+    },
+    {
+      "drill_type": "silver_key_trap_spotting",
+      "target_skill": "After-fact timing reversal",
+      "prompt": "The charge is accessory after the fact. A choice says dismiss because the aid occurred after the crime was complete. What is the move?",
+      "answer": "Cut it as backwards. After-completion timing is required for after-the-fact liability."
+    },
+    {
+      "drill_type": "clash_axis",
+      "target_skill": "Mental-state fight pair",
+      "prompt": "Choice C requires knowledge of indictment. Choice D requires purpose to prevent conviction. Name the axis.",
+      "answer": "Formal indictment knowledge versus functional purpose to hinder the criminal process."
+    },
+    {
+      "drill_type": "distilled_core",
+      "target_skill": "Fact-to-purpose inference",
+      "prompt": "The helper leaves the state with the child witness and the case is dismissed for lack of that witness. What fact matters?",
+      "answer": "The move made the witness unavailable, supporting purpose to prevent conviction."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "C_D_mental_state_fight_pair",
+      "A_B_dismissal_decoys",
+      "formal_status_decoy",
+      "post_completion_reversal",
+      "witness_unavailability_trigger"
+    ],
+    "misconception_tags": [
+      "principal_must_be_convicted",
+      "aid_after_completion_is_too_late",
+      "indictment_knowledge_required",
+      "case_dismissal_erases_accessory_liability"
+    ]
+  },
+  "component_routing": [
+    "L1_TRUE_RESPONSIVE",
+    "L2_CUT_CLASH_CALL",
+    "L5_BACKWARDS",
+    "L8_WRONG_ELEMENT_ADJACENT",
+    "L12_ANCHOR",
+    "CRIMINAL_ACCESSORY_AFTER_FACT_GOLD_KEY",
+    "ANSWER_ARRAY_MENTAL_STATE_FIGHT_PAIR"
+  ],
+  "crossovers": [
+    {
+      "area": "Accomplice liability",
+      "connection": "Before/during aid differs from after-completion aid."
+    },
+    {
+      "area": "Obstruction / witness tampering",
+      "connection": "Witness unavailability supplies the purpose-to-hinder signal."
+    },
+    {
+      "area": "Criminal procedure posture",
+      "connection": "Indictment and conviction are procedural events but not the accessory-after-the-fact elements."
+    },
+    {
+      "area": "Evidence",
+      "connection": "The missing testimony fact is used for purpose inference, not for an evidentiary rule."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-ACCESSORY-AFTER-FACT-01",
+      "statement": "Accessory after the fact is a separate post-crime offense: after the crime is complete, knowingly assist the offender with the purpose of hindering apprehension, trial, conviction, or punishment. The principal need not already be indicted or convicted.",
+      "type": "rule",
+      "unlocks": "Cuts the conviction-required and indictment-knowledge traps; selects the purpose-to-hinder instruction.",
+      "trigger": "Call charges accessory after the fact and facts show flight, concealment, missing witness, or avoided prosecution.",
+      "tested_choice": "C",
+      "authority": "lawyer_confirmation_only: 18 U.S.C. § 3; Ninth Circuit Model Criminal Jury Instruction 5.2; Cornell Wex accessory-after-the-fact",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-AFTER-FACT-TIMING-01",
+      "statement": "When the call says accessory after the fact, do not cut the case because the aid came after the crime. After-completion timing points into the rule; then pick the answer that names the helper's purpose.",
+      "type": "answer_array",
+      "navigates": "Prevents the B timing reversal and focuses C/D on mental state.",
+      "trigger": "A charge label containing 'after the fact' plus an answer saying the aid came after the crime.",
+      "tested_choice": "B",
+      "outline_code": "72050300",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > Other Crimes > Accessory after the fact",
+    "this_item_teaches": "Separate formal prosecution status from post-crime purpose-to-hinder liability.",
+    "fills": [
+      "principal conviction not required",
+      "indictment knowledge not required",
+      "aid after completion is required timing",
+      "purpose to hinder is the key mental state"
+    ],
+    "adjacent_to_master": [
+      "accomplice liability",
+      "misprision",
+      "obstruction",
+      "witness tampering",
+      "principal/accessory distinction"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/uscode/text/18/3?utm_source=chatgpt.com "18 U.S. Code § 3 - Accessory after the fact | U.S. Code | US Law | LII / Legal Information Institute"
+[2]: https://www.ce9.uscourts.gov/jury-instructions/node/368?utm_source=chatgpt.com "5.2 Accessory After The Fact | Model Jury Instructions"
+[3]: https://www.law.cornell.edu/index.php/wex/accessory_after_the_fact?utm_source=chatgpt.com "accessory after the fact | Wex | US Law | LII / Legal Information Institute"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14730_potluck_flight"
+  question_id: "14730_potluck_flight"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Other Crimes"
+  outline_code: "72050300"
+  official_key: "D"
+transform_provenance:
+  transformed_from: "14730"
+  variant_slug: "potluck_flight"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "D"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "D"
+distilled_core_question: "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction."
+review_truth: "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14730_potluck_flight; source 14730.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Criminal Law; subtopic Other Crimes.
+4. **distilled_core_question:** After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.
+5. **call_and_prediction:** Credited answer: D.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 72050300.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** D
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 72050300.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14730_potluck_flight",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "72050300",
+  "distilled_core_question": "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.",
+  "review_truth": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14730; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14730_potluck_flight",
+  "subject": "CRIMINAL",
+  "outline_code": "72050300",
+  "distilled_core_question": "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.",
+  "review_truth": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14730",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14730_potluck_flight",
+  "subject": "CRIMINAL",
+  "outline_code": "72050300",
+  "distilled_core_question": "After Paul committed felony child abuse, Mary helped him leave the state with the child witness, causing the prosecution to lose the witness. Is Mary's accessory-after-the-fact case for the jury? Yes, if her purpose was to prevent Paul's conviction.",
+  "review_truth": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72050300",
+    "this_item_teaches": "Accessory after the fact is post-crime help given to hinder the offender's apprehension, trial, conviction, or punishment; a prior conviction or indictment is not required.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,21 @@
+agent_id,display_name,primary_model,soul_text,enabled,notes
+adam,OCQ Adam,openai/gpt-5.3-codex-spark,,true,Bible-name agent. SOUL.md pending from Boss.
+noah,OCQ Noah,openai/gpt-5.5,,true,Bible-name agent. SOUL.md pending from Boss.
+abraham,OCQ Abraham,openai/gpt-5.4,,true,Bible-name agent. SOUL.md pending from Boss.
+isaac,OCQ Isaac,openai/gpt-5.4-mini,,true,Bible-name agent. SOUL.md pending from Boss.
+jacob,OCQ Jacob,minimax/MiniMax-M3,,true,Bible-name agent. SOUL.md pending from Boss.
+joseph,OCQ Joseph,minimax/MiniMax-M2.7,,true,Bible-name agent. SOUL.md pending from Boss.
+moses,OCQ Moses,openrouter/owl-alpha,,true,Bible-name agent. SOUL.md pending from Boss.
+aaron,OCQ Aaron,openrouter/cohere/north-mini-code:free,,true,Bible-name agent. SOUL.md pending from Boss.
+joshua,OCQ Joshua,openrouter/poolside/laguna-m.1:free,,true,Bible-name agent. SOUL.md pending from Boss.
+samuel,OCQ Samuel,openrouter/liquid/lfm-2.5-1.2b-thinking:free,,true,Bible-name agent. SOUL.md pending from Boss.
+david,OCQ David,google/gemini-3-flash-preview,,true,Bible-name agent. SOUL.md pending from Boss.
+solomon,OCQ Solomon,google/gemini-3.5-flash,,true,Bible-name agent. SOUL.md pending from Boss.
+mary,OCQ Mary,nv-glm-5-1/z-ai/glm-5.1,,true,Bible-name agent. SOUL.md pending from Boss.
+martha,OCQ Martha,nv-kimi-2-6/moonshotai/kimi-k2.6,,true,Bible-name agent. SOUL.md pending from Boss.
+ruth,OCQ Ruth,nv-meta33inst/meta/llama-3.3-70b-instruct,,true,Bible-name agent. SOUL.md pending from Boss.
+esther,OCQ Esther,nv-minimax-m3/minimaxai/minimax-m3,,true,Bible-name agent. SOUL.md pending from Boss.
+sarah,OCQ Sarah,nv-nemo3ultra/nvidia/nemotron-3-ultra-550b-a55b,,true,Bible-name agent. SOUL.md pending from Boss.
+rebecca,OCQ Rebecca,nv-step-3-7-flash/stepfun-ai/step-3.7-flash,,true,Bible-name agent. SOUL.md pending from Boss.
+rachel,OCQ Rachel,nvgptoss120/openai/gpt-oss-120b,,true,Bible-name agent. SOUL.md pending from Boss.
+leah,OCQ Leah,qwen35-397/qwen/qwen3.5-397b-a17b,,true,Bible-name agent. SOUL.md pending from Boss.

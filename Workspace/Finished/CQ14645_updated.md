@@ -1,0 +1,929 @@
+---
+qid: "14645_advent_sidewalk"
+transformed_from: "14645"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "General Principles"
+outline_code: "72060101"
+key: "B"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "A public-place crime needs a voluntary public-place act; police-created public presence does not count."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+*Source row: BARMATRIX Q#14645, Criminal Law / General Principles, official key B, 80% correct; original wrong-answer pull A 8%, C 2%, D 10%.*  *Reasoning posture reviewed: preserve the ambitious transform while keeping legal candor and guarding against motivated drift.* 
+
+### 1. Final question — revised stem + call
+
+A city ordinance provides:
+
+> “Any person who, while intoxicated, appears in any public place and manifests a drunken condition by obstreperous or indecent conduct is guilty of a misdemeanor.”
+
+Peter hosted a private Advent supper in his apartment. After the supper, Peter was intoxicated. Police officers entered Peter’s apartment and arrested him pursuant to a valid warrant. It was a freezing night, and the officers hurried Peter out to the public sidewalk without allowing him to get his coat. Peter became angry and loud when the officers refused to let him return for the coat. They kept him handcuffed on the sidewalk while waiting for a transport van. The warrant was later vacated.
+
+Can Peter properly be convicted of violating the ordinance?
+
+### 2. Distilled Core Question
+
+Police take an intoxicated person from his home to a public sidewalk, where he becomes loud. The ordinance punishes intoxicated appearance in a public place plus obstreperous conduct. Can he be convicted?
+
+### 3. Final answer choices
+
+A. No, because Peter’s claim that the officers mistreated him is valid.
+B. No, because the ordinance requires proof that Peter voluntarily appeared in a public place.
+C. Yes, because Peter voluntarily became intoxicated.
+D. Yes, because Peter voluntarily acted in an obstreperous manner.
+
+### 4. Possible replacement answer choices
+
+None adopted. The original geometry is strong: each wrong answer targets a different tempting non-dispositive fact.
+
+| Original choice | Original pick % | Replacement candidate                                                         | Mold          | Filter         | Status                                                                        |
+| --------------- | --------------: | ----------------------------------------------------------------------------- | ------------- | -------------- | ----------------------------------------------------------------------------- |
+| A               |              8% | “No, because the warrant was later vacated.”                                  | misfit        | NOT_RESPONSIVE | Not adopted. Too much warrant-focused clutter.                                |
+| C               |              2% | “Yes, because the officers had a valid warrant when they took Peter outside.” | wrong_element | NOT_RESPONSIVE | Not adopted. Stronger than C, but it shifts the trap toward warrant validity. |
+| D               |             10% | No replacement.                                                               | wrong_element | NOT_RESPONSIVE | Dominant wrong answer preserved.                                              |
+
+### 5. Correct answer
+
+B.
+
+### 6. Full right-answer explanation
+
+B is correct.
+
+**Gold Key:** Criminal liability requires a voluntary act for the charged conduct element. If the public-place element exists only because officers physically took Peter from his apartment to the sidewalk, his public appearance is not voluntary.
+
+**Silver Key:** Match the answer to the attacked statutory word. The facts attack “appears in any public place,” not intoxication and not loud conduct.
+
+Peter may have voluntarily become intoxicated. He may also have voluntarily become loud. But the ordinance requires an appearance in a public place. The facts make that appearance police-created, not Peter-created. So he cannot properly be convicted under this ordinance.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** It answers through police mistreatment. That may feel morally important, but it does not target the statutory element that fails. The issue is not whether Peter was treated badly. The issue is whether he voluntarily appeared in public.
+
+**C is wrong.** It proves the intoxication element. That element is not the problem. **Gold Key:** voluntary intoxication does not replace the missing voluntary public appearance.
+
+**D is wrong.** This is the dominant trap. It proves the conduct element. Peter did act loudly after being placed outside. But **Silver Key:** in an element array, proving a satisfied element does not fix the missing element. The missing element is voluntary appearance in a public place.
+
+### 8. Black-letter-law verification and legal reasoning
+
+The tested rule is unchanged: a person is not guilty of a crime unless the charged conduct includes a voluntary act. The direct black-letter analogue is *Martin v. State*, where the court reversed a public-drunkenness conviction because the defendant had been taken from his home into public by officers; the public appearance was not voluntary. The Model Penal Code states the same baseline principle: liability must be based on conduct that includes a voluntary act. ([Justia Law][1])
+
+This verifies the original key. Peter’s voluntary intoxication and voluntary loudness do not satisfy the public-appearance actus reus. The transformed answer remains B.
+
+### 9. Rigor / difficulty preservation
+
+The variation preserves the exact trap geometry. Choices C and D still offer true facts about voluntary conduct, but not the charged conduct element. D remains the dominant trap because “he voluntarily acted obstreperously” sounds like the conduct the ordinance punishes. The Christian setting adds memory value without adding First Amendment, church-property, competency, or internal-church issues.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Not responsive. It answers mistreatment/remedy, not the charged conduct element.
+**CUT C:** Wrong element. It proves intoxication, not public appearance.
+**CUT D:** Wrong element. It proves obstreperous conduct, not public appearance.
+**Residual:** B.
+**CALL / Gold Key:** Public appearance must be voluntary.
+
+### 11. Review Truth
+
+A public-place crime needs a voluntary public-place act; police-created public presence does not count.
+
+### 12. The 5 variations considered
+
+|  # | Title                                      | Setting / cast                                                                   | Preserved issue              | Why memorable                                                               | Legal risks                                          | Decision                  |
+| -: | ------------------------------------------ | -------------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------- |
+|  1 | **Peter on the Advent Sidewalk**           | Peter hosts private Advent supper; officers take him outside.                    | Voluntary public appearance. | Cold sidewalk + missing coat makes the involuntary public-place fact vivid. | Low. No church-property or speech issue.             | **Recommended / locked.** |
+|  2 | Paul’s Bible-Study Apartment               | Paul leaves a private Bible-study dinner only because officers drag him outside. | Same.                        | Strong Christian name + private apartment.                                  | Similar to #1, slightly less vivid.                  | Not chosen.               |
+|  3 | Lydia’s Choir-Dinner Townhouse             | Lydia is taken from her townhouse after a private choir dinner.                  | Same.                        | Memorable cast.                                                             | “Choir” might imply church institution if overdone.  | Not chosen.               |
+|  4 | Stephen at the Law-School Fellowship Night | Stephen is arrested from his apartment after a law-school fellowship potluck.    | Same.                        | Law-school + Christian flavor.                                              | Law-school detail adds mild clutter.                 | Not chosen.               |
+|  5 | Ruth after the Prayer Breakfast            | Ruth is taken from her private apartment to the public street.                   | Same.                        | Strong contrast between private room and public street.                     | “Prayer breakfast” could over-signal church context. | Not chosen.               |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14645_advent_sidewalk"
+  transformed_from: "14645"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "General Principles"
+  original_focus_group_correct_pct: 80
+  selection_percentages:
+    A:
+      pct: 8
+      provenance: "inherited_from_original_distractor"
+    B:
+      pct: 80
+      provenance: "inherited_from_original_credited_answer"
+    C:
+      pct: 2
+      provenance: "inherited_from_original_distractor"
+    D:
+      pct: 10
+      provenance: "inherited_from_original_distractor_dominant_wrong"
+  official_key: "B"
+  call: "Can Peter properly be convicted of violating the ordinance?"
+  stem: >-
+    A city ordinance provides: “Any person who, while intoxicated, appears in any public place and manifests a drunken condition by obstreperous or indecent conduct is guilty of a misdemeanor.” Peter hosted a private Advent supper in his apartment. After the supper, Peter was intoxicated. Police officers entered Peter’s apartment and arrested him pursuant to a valid warrant. It was a freezing night, and the officers hurried Peter out to the public sidewalk without allowing him to get his coat. Peter became angry and loud when the officers refused to let him return for the coat. They kept him handcuffed on the sidewalk while waiting for a transport van. The warrant was later vacated.
+  choices:
+    A: "No, because Peter’s claim that the officers mistreated him is valid."
+    B: "No, because the ordinance requires proof that Peter voluntarily appeared in a public place."
+    C: "Yes, because Peter voluntarily became intoxicated."
+    D: "Yes, because Peter voluntarily acted in an obstreperous manner."
+
+source_stack:
+  - priority: 1
+    source: "BARMATRIX row 14645 and official explanations"
+    use: "Primary source for QID, answer array, percentages, official key, and tested rule."
+  - priority: 2
+    source: "Existing C3 / KFP hypotheses"
+    use: "Treated as hypotheses only; no hard-structural claim used unless it passes the student-access test."
+  - priority: 3
+    source: "C3 lessons and controlled vocabulary"
+    use: "Molds, filters, method_class, verdicts, Gold Key / Silver Key routing."
+  - priority: 4
+    source: "Lawyer-confirmation authority"
+    use: "MPC 2.01 and Martin v. State only in lawyer_confirmation."
+
+student_access_contract:
+  allowed_c3_lessons:
+    - "L1 TRUE and RESPONSIVE"
+    - "L2 Ear vs Issue-Sense; Cut → Clash → Call"
+    - "L7 Predict before you peek"
+    - "L8 Not-responsive molds: misfit and wrong_element"
+    - "L14 Integration and read-check"
+  taught_gold_keys:
+    - id: "GK-CRIMINAL-VOLUNTARY-ACT-01"
+      status: "new_tiny_anchor"
+  taught_silver_keys:
+    - id: "SK-CRIMINAL-ELEMENT-TRIAGE-01"
+      status: "new_navigation_key"
+  controlling_test: >-
+    A student may cut answers that fail the call/fact relation, but the credited rule that public appearance must be voluntary requires the Gold Key. Do not pretend the voluntary-act requirement is pure grammar.
+
+stem_parse:
+  statutory_elements:
+    - "intoxicated"
+    - "appears in any public place"
+    - "manifests drunken condition by obstreperous or indecent conduct"
+  call_type: "proper conviction"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Were the officers wrong to leave Peter outside?"
+    - "Was the warrant valid?"
+    - "Did Peter voluntarily get drunk?"
+    - "Did Peter voluntarily act loudly?"
+  predicted_answer_before_choices: >-
+    No conviction if the charged public-place appearance was police-created rather than voluntary.
+
+trigger_facts:
+  - fact: "Peter was intoxicated."
+    access_label: "stem_visible"
+    legal_role: "satisfies intoxication element; bait for C"
+  - fact: "Police hurried Peter from his apartment to a public sidewalk."
+    access_label: "stem_visible"
+    legal_role: "attacks voluntary public appearance"
+  - fact: "Peter became angry and loud on the sidewalk."
+    access_label: "stem_visible"
+    legal_role: "satisfies obstreperous-conduct element; bait for D"
+  - fact: "The warrant was later vacated."
+    access_label: "stem_visible"
+    legal_role: "adjacent-call trap; not the element that decides conviction"
+  - fact: "Voluntary act requirement"
+    access_label: "gold_key_required"
+    legal_role: "doctrinal unlock"
+
+c3_routing:
+  subject_fit: "Criminal Law = actus reus / mens rea / defenses; here, actus reus voluntariness controls."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "which statutory conduct element must be voluntary"
+
+answer_array:
+  geometry: "element-triage array"
+  silver_key_shape: "One answer targets the failing element; two wrong answers prove satisfied elements; one wrong answer answers police-mistreatment/remedy."
+  dominant_trap:
+    choice: "D"
+    inherited_pick_pct: 10
+    why_dominant: "It proves Peter voluntarily performed the noisy conduct, which feels close to the statute but misses the public-appearance element."
+  layer_positions:
+    A: "Layer 0 / adjacent-call nonresponsive"
+    B: "Layer 2 / Gold-Key element answer"
+    C: "Layer 1 / satisfied-element trap"
+    D: "Layer 1 / satisfied-element trap"
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "moral_common_sense_answer"
+      - "answer_to_different_question"
+      - "wrong_remedy"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "Police-mistreatment answer; not the statutory element."
+    c3_signal: "The call is conviction under the ordinance; A answers whether mistreatment was valid."
+    lawyer_confirmation: "Even if mistreatment occurred, the decisive criminal-law issue is voluntary appearance in public, not the validity of the mistreatment claim."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Credited residual; Gold Key answer."
+    c3_signal: "B targets the attacked statutory word: appeared in a public place."
+    lawyer_confirmation: "A voluntary act is required for criminal liability; involuntary police-created public appearance defeats the public-place offense."
+  C:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "answer_to_different_question"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Voluntary intoxication proves the wrong element."
+    c3_signal: "The stem already gives intoxication; the fight is public appearance."
+    lawyer_confirmation: "Voluntary intoxication does not supply the missing voluntary public-place act."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "half_right_answer"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Dominant wrong-element trap."
+    c3_signal: "D proves loud conduct, but not voluntary public appearance."
+    lawyer_confirmation: "Voluntary obstreperous behavior does not cure the involuntary appearance in the public place."
+
+residual_answer:
+  choice: "B"
+  reason: "Only B addresses the conduct element made nonvoluntary by the facts."
+  official_key_match: true
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A is not responsive to the conviction call."
+      status: "passes"
+    - claim: "C and D address elements other than the attacked appearance element."
+      status: "passes after Silver Key; legal consequence requires Gold Key"
+    - claim: "B is legally correct because voluntary appearance is required."
+      status: "Gold Key only"
+  quarantined_doctrine:
+    - "MPC 2.01"
+    - "Martin v. State"
+  drift_audit: "No distractor is called false on lawyer-only grounds. Voluntary-act doctrine is labeled anchor_assisted."
+
+gold_keys:
+  - id: "GK-CRIMINAL-VOLUNTARY-ACT-01"
+    statement: "A criminal conviction requires a voluntary act for the charged conduct element. Police-created appearance in public does not satisfy a public-place offense."
+    type: "rule"
+    unlocks: "The D trap: voluntary loud conduct does not replace voluntary public appearance."
+    trigger: "The public-place fact exists only because officers moved the defendant there."
+    tested_choice: "D"
+    authority: "MPC 2.01; Martin v. State"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-ELEMENT-TRIAGE-01"
+    statement: "When the statute has several elements, ask which statutory word the facts attack. Choices proving satisfied elements are wrong-element traps."
+    type: "answer_array"
+    navigates: "intoxication/conduct traps versus public-appearance element"
+    trigger: "Answer choices each point to a different statutory element."
+    tested_choice: "D"
+    outline_code: "72060101"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIMINAL-VOLUNTARY-PUBLIC-APPEARANCE-01"
+  title: "Do not let voluntary adjacent acts replace the charged voluntary act."
+  signal: "Police physically create one statutory element."
+  student_move: "Name the charged conduct element and ask whether that element was voluntary."
+  tiny_rule: "Voluntary intoxication or voluntary loudness does not supply voluntary public appearance."
+  trap: "Picking D because the defendant did choose to be loud."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?"
+review_truth: "A public-place crime needs a voluntary public-place act; police-created public presence does not count."
+
+case_study_output:
+  final_student_script: "No. The statute is about appearing in public. Police made that appearance happen. B."
+  verdict_line: "ANCHOR_SOLVE / PASS"
+  key_teaching_point: "Wrong-element traps can be true and still lose."
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  no_clutter_doctrine_added: true
+  christian_first_popular_names_only: true
+  no_antagonist_names_used: true
+  answer_array_geometry_preserved: true
+  exactly_three_single_filter_distractors: true
+  c3_residual_matches_key: true
+  pass_available: true
+  citations_quarantined_to_lawyer_confirmation: true
+
+analytics_hooks:
+  primary_mold: "wrong_element"
+  secondary_mold: "misfit"
+  dominant_wrong_choice: "D"
+  dominant_wrong_pct_inherited: 10
+  gold_key_id: "GK-CRIMINAL-VOLUNTARY-ACT-01"
+  silver_key_id: "SK-CRIMINAL-ELEMENT-TRIAGE-01"
+  drill_family:
+    - "criminal_actus_reus_voluntariness"
+    - "statutory_element_triage"
+    - "wrong_element_issue_sense"
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Criminal Law general-principles item. The surface topic is public intoxication. The real issue is actus reus: which act must be voluntary.
+
+The answer array is not four separate legal rules. It is an element-triage machine.
+
+## student_access_test
+
+The student can see the statute has three moving pieces:
+
+1. intoxicated;
+2. appears in public;
+3. obstreperous conduct.
+
+The student can also see that the facts attack only the “appears in public” piece. But the student needs a Gold Key to know that criminal law requires a voluntary act for the charged conduct element.
+
+Result: `anchor_assisted`.
+
+## question_data
+
+**Question ID:** 14645_advent_sidewalk
+**Transformed from:** 14645
+**Subject:** CRIMINAL
+**Topic:** Criminal Law
+**Subtopic:** General Principles
+**Official key:** B
+**Inherited pick rates:** A 8%, B 80%, C 2%, D 10%
+
+## distilled_core_question
+
+Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?
+
+## call_and_prediction
+
+**Call:** Can Peter properly be convicted?
+
+**Prediction:** No, if the public appearance was police-created. The public-place element is the attacked element.
+
+## trigger_facts
+
+| Fact                                         | Why it matters                                             |
+| -------------------------------------------- | ---------------------------------------------------------- |
+| Peter was intoxicated.                       | Satisfies one element; bait for C.                         |
+| Police moved him from apartment to sidewalk. | Attacks voluntary public appearance.                       |
+| Peter became loud outside.                   | Satisfies conduct element; bait for D.                     |
+| Warrant later vacated.                       | Adjacent-call bait.                                        |
+| Cold night / no coat.                        | Makes mistreatment tempting, but not the statutory answer. |
+
+## governing_c3_lane
+
+**Lane:** Criminal actus reus / voluntary act.
+**FIT:** Criminal Law = actus reus plus mental state plus defenses.
+**Move:** Element triage → Gold Key.
+**Deciding phase:** CUT, with anchor-assisted cuts.
+
+## choice_by_choice_walkthrough
+
+### Choice A
+
+**(1) Student-accessible C3 signal:** A talks about mistreatment. The call asks about conviction under the ordinance.
+
+**(2) Student label:** Misfit / adjacent-call answer.
+
+**(3) What a true/responsive version would look like:** “No, because the police-created public appearance was not voluntary.”
+
+**(4) Lawyer confirmation:** Police mistreatment is not the reason this ordinance fails. The reason is the missing voluntary public appearance.
+
+### Choice B
+
+**(1) Student-accessible C3 signal:** B targets the attacked statutory phrase: “appears in any public place.”
+
+**(2) Student label:** Residual; Gold Key answer.
+
+**(3) What a true/responsive version would look like:** This is already true and responsive.
+
+**(4) Lawyer confirmation:** A voluntary act is required for criminal liability. When officers take the defendant from home to public, the public appearance is not voluntary.
+
+### Choice C
+
+**(1) Student-accessible C3 signal:** C proves intoxication. The stem does not contest intoxication.
+
+**(2) Student label:** Wrong element.
+
+**(3) What a true/responsive version would look like:** “Yes, because Peter voluntarily appeared in a public place while intoxicated and then acted obstreperously.” The facts do not support that.
+
+**(4) Lawyer confirmation:** Voluntary intoxication does not satisfy the voluntary public-appearance element.
+
+### Choice D
+
+**(1) Student-accessible C3 signal:** D proves loud conduct. That is not the element the facts attack.
+
+**(2) Student label:** Dominant wrong-element trap.
+
+**(3) What a true/responsive version would look like:** “Yes, because Peter voluntarily went onto the public sidewalk and acted obstreperously there.” The facts say officers put him there.
+
+**(4) Lawyer confirmation:** Voluntary obstreperous behavior is not enough when the public appearance itself was involuntary.
+
+## residual_answer
+
+B remains. It is the only answer that addresses the failing statutory element.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* A is not responsive to the conviction call.
+* C and D prove elements that are not contested.
+* B is the answer that matches the attacked element.
+
+Gold-Key-only:
+
+* Criminal liability requires a voluntary act.
+* Public appearance must be voluntary for this public-place offense.
+
+Drift audit: The walkthrough does not call C or D false on lawyer-only grounds. It labels them wrong-element traps and quarantines the voluntary-act doctrine under the Gold Key and lawyer confirmation.
+
+## final_student_script
+
+“The statute punishes appearing in public while intoxicated and loud. Peter did not put himself in public. Police put him there. C proves drunk. D proves loud. B proves the missing piece. Pick B.”
+
+## remediation_card
+
+**REM-CRIMINAL-VOLUNTARY-PUBLIC-APPEARANCE-01 — Voluntary adjacent acts do not count**
+
+* **Signal:** One statutory element is created by police movement.
+* **Move:** Ask which element was involuntary.
+* **Tiny rule:** The voluntary act must attach to the charged conduct element.
+* **Trap:** Picking D because the defendant voluntarily got loud.
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-VOLUNTARY-ACT-01**
+
+A criminal conviction requires a voluntary act for the charged conduct element. Police-created appearance in public does not satisfy a public-place offense.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-ELEMENT-TRIAGE-01**
+
+When a statute has several elements, ask which statutory word the facts attack. Choices proving satisfied elements are wrong-element traps.
+
+## qa_checklist
+
+| Check                                                       | Result |
+| ----------------------------------------------------------- | ------ |
+| Rule unchanged                                              | Pass   |
+| Correct answer unchanged                                    | Pass   |
+| Dominant trap preserved                                     | Pass   |
+| No church-property / First Amendment clutter                | Pass   |
+| Three wrong answers, one filter each                        | Pass   |
+| Gold Key included because anchor-dependent                  | Pass   |
+| Silver Key included because answer-array navigation matters | Pass   |
+| C3 residual matches official key                            | Pass   |
+| Bank verdict                                                | PASS   |
+
+## wrong_answer_recovery_paths
+
+**A path:** Student follows moral mistreatment. Recovery: return to the call. The call is conviction, not police discipline.
+
+**C path:** Student sees voluntary intoxication. Recovery: mark it as a satisfied element, not the attacked element.
+
+**D path:** Student sees voluntary loudness. Recovery: ask whether the public-place element was voluntary.
+
+## outline_mastery_map
+
+**Placement:** Criminal Law → General Principles → Actus Reus → Voluntary Act.
+**This item teaches:** Voluntariness attaches to the charged conduct element.
+**Adjacent to:** intoxication, strict liability, actus reus, police-created circumstances.
+
+## crossover_intersection_map
+
+| Crossover                            | Why it matters                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------ |
+| Criminal Law × C3 wrong-element      | C and D are true facts but wrong elements.                               |
+| Criminal Law × remedy/violation bait | A turns police mistreatment into the answer.                             |
+| Criminal Law × KFP layer reading     | D is a Layer 1 satisfied-element trap; B is the Gold-Key element answer. |
+
+## review_truth
+
+A public-place crime needs a voluntary public-place act; police-created public presence does not count.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "14645_advent_sidewalk",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060101",
+  "distilled_core_question": "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?",
+  "review_truth": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "which statutory conduct element must be voluntary",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "SK-CRIMINAL-ELEMENT-TRIAGE-01",
+        "explanation": "Mistreatment answers an adjacent police-conduct question, not the conviction element."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-VOLUNTARY-ACT-01",
+        "explanation": "Voluntary intoxication proves a satisfied element, not voluntary public appearance."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-VOLUNTARY-ACT-01",
+        "explanation": "Voluntary loud conduct proves a satisfied element, not voluntary public appearance."
+      }
+    ],
+    "analyzer_notes": "drift_audit: voluntary-act doctrine is treated as Gold Key / lawyer confirmation, not fake pure structure; transformed_from: 14645; dominant trap D preserved; net-new Christian variation with inherited pick-rate provenance only.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-VOLUNTARY-ACT-01",
+        "statement": "A criminal conviction requires a voluntary act for the charged conduct element. Police-created appearance in public does not satisfy a public-place offense.",
+        "type": "rule",
+        "unlocks": "voluntary-intoxication and voluntary-obstreperous-conduct traps",
+        "trigger": "police move defendant from private place to public place",
+        "tested_choice": "D",
+        "authority": "MPC 2.01; Martin v. State",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-ELEMENT-TRIAGE-01",
+        "statement": "When the statute has several elements, ask which statutory word the facts attack. Choices proving satisfied elements are wrong-element traps.",
+        "type": "answer_array",
+        "navigates": "wrong-element traps C and D",
+        "trigger": "answer choices each point to a different statutory element",
+        "tested_choice": "D",
+        "outline_code": "72060101",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "14645_advent_sidewalk",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?",
+  "review_truth": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+  "tension": {
+    "axis": "voluntary public appearance vs voluntary adjacent acts",
+    "resolver": "police created the public-place appearance"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "misfit",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "Police treatment feels unfair and factually vivid.",
+      "focus_group_pct": 8
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The defendant did voluntarily become intoxicated.",
+      "focus_group_pct": 2
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The defendant did voluntarily act obstreperously; this is the dominant wrong-element trap.",
+      "focus_group_pct": 10
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIMINAL-VOLUNTARY-PUBLIC-APPEARANCE-01",
+    "title": "Voluntary adjacent acts do not count",
+    "signal": "Police physically create the public-place element.",
+    "student_move": "Name the charged conduct element and ask whether that element was voluntary.",
+    "tiny_rule": "Voluntary intoxication or voluntary loudness does not supply voluntary public appearance.",
+    "trap": "Picking D because the defendant chose to be loud.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "wrong_element_true_fact",
+    "police_mistreatment_moral_pull",
+    "voluntary_intoxication_bait",
+    "voluntary_conduct_bait",
+    "warrant_validity_adjacent_call"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "14645_advent_sidewalk",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?",
+  "review_truth": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The officers' conduct feels unfair, especially the cold night and no coat.",
+      "skipped_move": "Lock the call: conviction under the ordinance.",
+      "recovery_step": "Ask which statutory element fails."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student thinks any voluntary bad act is enough.",
+      "skipped_move": "Match voluntariness to the charged conduct element.",
+      "recovery_step": "Circle the statutory words and mark intoxication as already satisfied."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "This tracks the ordinance's obstreperous-conduct language and feels close.",
+      "skipped_move": "Notice that conduct is not the attacked element.",
+      "recovery_step": "Return to the public-place appearance fact: who put him there?"
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "element_triage",
+      "target_skill": "wrong_element_detection",
+      "prompt": "A statute has elements X, Y, and Z. The facts attack Y. Which answers are traps?",
+      "answer": "Answers proving X or Z are wrong-element traps."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "voluntary_act_requirement",
+      "prompt": "Police move an intoxicated defendant from home to a public street. Does voluntary intoxication satisfy a public-place offense?",
+      "answer": "No. The public appearance must be voluntary."
+    },
+    {
+      "drill_type": "dominant_trap_recovery",
+      "target_skill": "voluntary_adjacent_act_vs_charged_act",
+      "prompt": "The defendant voluntarily becomes loud only after police place him in public. Conviction under a public-appearance statute?",
+      "answer": "No. Voluntary loudness does not supply voluntary appearance."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "element_triad",
+      "wrong_element",
+      "anchor_assisted_cut",
+      "dominant_distractor_D",
+      "police_created_element"
+    ],
+    "misconception_tags": [
+      "any_voluntary_bad_act_is_enough",
+      "mistreatment_equals_no_conviction",
+      "valid_warrant_controls_public_place_offense",
+      "conduct_element_overfocus"
+    ]
+  },
+  "component_routing": [
+    "L1_TRUE_AND_RESPONSIVE",
+    "L2_CUT_CLASH_CALL",
+    "L8_WRONG_ELEMENT",
+    "L12_ANCHORS",
+    "L14_INTEGRATION",
+    "GK_CRIMINAL_VOLUNTARY_ACT",
+    "SK_CRIMINAL_ELEMENT_TRIAGE"
+  ],
+  "crossovers": [
+    {
+      "subject": "CRIMINAL",
+      "pattern": "actus_reus_voluntariness"
+    },
+    {
+      "subject": "C3_UNIVERSAL",
+      "pattern": "wrong_element_true_but_not_responsive"
+    },
+    {
+      "subject": "KFP",
+      "pattern": "Layer 1 satisfied-element trap vs Gold-Key element answer"
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-VOLUNTARY-ACT-01",
+      "statement": "A criminal conviction requires a voluntary act for the charged conduct element. Police-created appearance in public does not satisfy a public-place offense.",
+      "type": "rule",
+      "unlocks": "voluntary-intoxication and voluntary-obstreperous-conduct traps",
+      "trigger": "police move defendant from private place to public place",
+      "tested_choice": "D",
+      "authority": "MPC 2.01; Martin v. State",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-ELEMENT-TRIAGE-01",
+      "statement": "When the statute has several elements, ask which statutory word the facts attack. Choices proving satisfied elements are wrong-element traps.",
+      "type": "answer_array",
+      "navigates": "wrong-element traps C and D",
+      "trigger": "answer choices each point to a different statutory element",
+      "tested_choice": "D",
+      "outline_code": "72060101",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > General Principles > Actus Reus > Voluntary Act",
+    "this_item_teaches": "Voluntariness must attach to the charged public-appearance element.",
+    "fills": [
+      "voluntary act requirement",
+      "actus reus element matching",
+      "wrong-element trap recovery"
+    ],
+    "adjacent_to_master": [
+      "intoxication",
+      "strict liability",
+      "police-created circumstances",
+      "mens rea vs actus reus"
+    ]
+  }
+}
+```
+
+[1]: https://law.justia.com/cases/alabama/court-of-appeals-criminal/1944/31-ala-app-334-17-so-2d-427.html?utm_source=chatgpt.com "Martin v. State :: 1944 - Alabama Case Law"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14645_advent_sidewalk",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060101",
+  "distilled_core_question": "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?",
+  "review_truth": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14645; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14645_advent_sidewalk",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?",
+  "review_truth": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14645",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14645_advent_sidewalk",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "Police take an intoxicated person from home to a public sidewalk, where he gets loud. Can he be convicted under a public-intoxication ordinance?",
+  "review_truth": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72060101",
+    "this_item_teaches": "A public-place crime needs a voluntary public-place act; police-created public presence does not count.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

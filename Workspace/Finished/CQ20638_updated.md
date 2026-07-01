@@ -1,0 +1,793 @@
+---
+qid: "20638_advent_rescue_beacons"
+transformed_from: "20638"
+subject: "CONSTITUTIONAL_LAW"
+topic: "Relations Between Federal and State Governments"
+subtopic: "Supremacy Clause"
+outline_code: "41030300"
+key: "C"
+original_key: "B"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+Source row: QID 20638, Constitutional Law, official key B. 
+
+Under authority granted by Congress, the United States Department of Defense hired Barnabas Metalworks, a private Advent-themed shop owned by Lydia, to manufacture rugged rescue-beacon casings for military search teams. The contract required all casting and polishing to occur at Barnabas’s old rail-depot workshop beside Mercy Brook, and it allowed the shop to release no more than four ounces per day of a polishing solvent into the brook from that production.
+
+While producing the beacon casings under the contract, Barnabas routinely released between three and four ounces per day of the solvent into Mercy Brook. The state later prosecuted Barnabas under a state clean-water statute that prohibits any person or business entity from releasing more than three ounces per day of that solvent into any creek located in the state.
+
+Barnabas defended on the ground that, as a federal contractor, it was immune from state regulation. Which one of the following additional facts or inferences, if it were the only one true, would most effectively support the state’s argument?
+
+### 2. Distilled Core Question
+
+A federal contractor complies with a federal contract’s discharge limit but violates a stricter state discharge limit. Which fact best supports the state: that the stricter state limit does not interfere with the federal contract’s cost or performance.
+
+### 3. Final answer choices
+
+A. Congress has not expressly exempted Barnabas from complying with state clean-water statutes.
+
+B. Mercy Brook is not navigable.
+
+C. Keeping the releases at three ounces or less per day would not increase the cost of producing the rescue-beacon casings required by the contract.
+
+D. Mercy Brook is located entirely within the state.
+
+### 5. Correct answer
+
+**C**. Original key letter: **B**.
+
+### 6. Letter Map
+
+| original → new | mechanic                    | substance | pick rate                                           |
+| -------------- | --------------------------- | --------- | --------------------------------------------------- |
+| A → D          | intrastate-geography misfit | kept      | null, predicted; supplied row gave no measured rate |
+| B → C          | correct_answer              | kept      | null, predicted; supplied row gave no measured rate |
+| C → A          | express-exemption formalism | kept      | null, predicted; supplied row gave no measured rate |
+| D → B          | navigability misfit         | kept      | null, predicted; supplied row gave no measured rate |
+
+### 7. Full right-answer explanation
+
+**C** is the best support for the state. The state’s problem is federal-contractor immunity. The most useful fact is the one that attacks immunity at its pressure point: whether the state rule interferes with the federal project. If the stricter state solvent limit would not increase the cost of producing the federal rescue-beacon casings, the state has a strong argument that its law does not obstruct the federal contract.
+
+**Gold Key:** A state may regulate a federal contractor unless applying the state rule would interfere with federal purposes or policies.
+
+**Silver Key:** In this array, pick the answer that talks about practical effect on the federal contract, not geography, navigability, or express wording.
+
+### 8. Full wrong-answer explanations
+
+**A.** The attraction is the formal word “expressly.” A student may think the state wins unless Congress wrote a specific exemption. The breaker is that the immunity fight is not limited to express words; the practical interference question still matters.
+
+**B.** The attraction is the legal-sounding word “navigable.” It feels jurisdictional and official. The breaker is that navigability answers a different doctrine-home question; it does not show whether the state rule interferes with the federal contract.
+
+**D.** The attraction is the intrastate geography fact. A student may think a creek wholly inside one state belongs only to state law. The breaker is that the stem already gives federal authority; the state needs a fact showing no interference with the federal project.
+
+### 9. Black-letter-law verification and right-answer legal reasoning
+
+The tested rule and credited outcome are unchanged from the source row: state regulation of a federal contractor is not automatically invalid; the key question is whether the regulation interferes with federal purposes or policies. The Supremacy Clause makes valid federal law supreme over conflicting state law. In *Leslie Miller*, the Supreme Court invalidated Arkansas licensing as applied to a federal contractor because the state licensing process conflicted with federal contractor-selection policy; in *Goodyear Atomic*, the Court held the Supremacy Clause did not bar application of a state workers’ compensation provision to a private contractor operating a federal facility where Congress authorized the state scheme. ([Legal Information Institute][1])
+
+The variant preserves the same legal issue: federal contractor vs state environmental regulation. The “no cost increase” fact most directly supports the state because it negates practical interference with the federal contract.
+
+### 10. Rigor/difficulty preservation
+
+The federal contract, stricter state limit, immunity defense, express-exemption trap, geography trap, and navigability trap all remain. Only the surface story changed.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT D:** geography answers a source-of-power question, not the contractor-immunity question.
+
+**CUT B:** navigability answers another jurisdictional frame, not interference with the federal project.
+
+**CLASH A vs C:** formal express exemption vs practical interference.
+
+**CALL with Gold Key:** practical interference controls. C wins.
+
+### 12. Divergence Audit
+
+* Asset/subject matter: bombsights → rescue-beacon casings.
+* Transaction frame: federal production contract preserved; changing away from a federal contract would weaken the tested issue.
+* Specific facts: pollutant units → polishing solvent ounces; river → creek; factory → rail-depot workshop.
+* Numbers: three/two units → four/three ounces; same legal relationship preserved.
+* Fact rhythm: federal contract and state prosecution facts reordered and retextured.
+* Cast size/roles: added Lydia and Barnabas Metalworks.
+* Choice ordering: shuffled.
+* Choice phrasing: paraphrased without changing legal substance.
+* Setting/texture: defense factory on river → private Advent-themed metal shop beside creek.
+* Call wording: mostly preserved to maintain MBE function.
+
+Original stem summary: A defense contractor making bombsights near a river claims immunity from a stricter state pollution law.
+
+Variant stem summary: A private Advent-themed metal shop making rescue-beacon casings near a creek claims immunity from a stricter state solvent law.
+
+### 13. Review Truth
+
+For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project.
+
+### 14. Five variations considered
+
+1. **Recommended — Advent Rescue Beacons.** Rail-depot shop, Lydia, Barnabas Metalworks, Mercy Brook. Score 9/10: changes asset, numbers, setting, texture, fact rhythm, cast, and answer order.
+2. **Timothy’s Field-Radio Casings.** Private workshop making radio housings near a drainage canal. Score 8/10; slight radio/defense similarity.
+3. **Ruth’s Shepherd-Hook Alloy Clips.** DOD climbing clips for rescue kits beside a quarry stream. Score 8/10; strong surface divergence but odd asset.
+4. **Daniel’s Lantern Brackets.** Federal emergency lantern brackets at a desert wash. Score 7/10; water-law wording less natural.
+5. **Martha’s Compass-Lens Polishing.** Lens polishing near a millrace. Score 7/10; closer to original factory rhythm.
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20638_advent_rescue_beacons"
+  subject: "CONSTITUTIONAL_LAW"
+  topic: "Relations Between Federal and State Governments"
+  subtopic: "Supremacy Clause"
+  outline_code: "41030300"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "source row supplied no measured pick rate"
+    B:
+      value: null
+      provenance: "predicted"
+      note: "source row supplied no measured pick rate"
+    C:
+      value: null
+      provenance: "predicted"
+      note: "source row supplied no measured pick rate"
+    D:
+      value: null
+      provenance: "predicted"
+      note: "source row supplied no measured pick rate"
+  official_key: "C"
+  call: "Which additional fact or inference, if it were the only one true, would most effectively support the state's argument?"
+  choices:
+    A: "Congress has not expressly exempted Barnabas from complying with state clean-water statutes."
+    B: "Mercy Brook is not navigable."
+    C: "Keeping the releases at three ounces or less per day would not increase the cost of producing the rescue-beacon casings required by the contract."
+    D: "Mercy Brook is located entirely within the state."
+
+transform_provenance:
+  transformed_from: "20638"
+  variant_slug: "advent_rescue_beacons"
+  original_key_letter: "B"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "intrastate-geography misfit"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "express-exemption formalism"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "navigability misfit"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A defense contractor making bombsights near a river claims immunity from a stricter state pollution law."
+    variant_stem_one_sentence: "A private Advent-themed metal shop making rescue-beacon casings near a creek claims immunity from a stricter state solvent law."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific facts"
+      - "numbers"
+      - "fact ordering"
+      - "cast/roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/texture"
+    dimensions_skipped_with_reason:
+      - "transaction frame kept as federal contract because contractor immunity requires a federal-contract setting"
+      - "call function kept because the additional-fact strengthening call is legally load-bearing"
+
+source_stack:
+  primary_row: "uploaded 20638.md source row"
+  c3_sources:
+    - "controlled_vocabularies.md"
+    - "C3 universal lessons"
+    - "Constitutional Law overlay"
+  lawyer_confirmation:
+    - "U.S. Constitution Article VI, Supremacy Clause"
+    - "Leslie Miller, Inc. v. Arkansas"
+    - "Goodyear Atomic Corp. v. Miller"
+
+student_access_contract:
+  allowed_moves:
+    - "TRUE and RESPONSIVE filter"
+    - "Issue-Sense: answer-to-different-question"
+    - "Constitutional Law: claim home first"
+    - "CLASH: name the single axis"
+    - "Gold Key: federal contractor interference axis"
+    - "Silver Key: practical-effect answer beats geography/formality"
+  prohibited_moves:
+    - "do not rely on cases in the student-first path"
+    - "do not label anchor-only doctrine as hard structure"
+
+stem_parse:
+  actor: "Barnabas Metalworks, federal contractor"
+  federal_role: "Department of Defense production contract under congressional authority"
+  state_action: "state prosecution under stricter clean-water statute"
+  defense: "federal-contractor immunity from state regulation"
+  call_type: "best support for state"
+  adjacent_call_trap: "source of federal power over the creek"
+  negative_stem_inversion: false
+
+trigger_facts:
+  - fact: "federal contract allows up to four ounces per day"
+    access_label: "stem"
+  - fact: "state statute allows only up to three ounces per day"
+    access_label: "stem"
+  - fact: "contractor claims federal-contractor immunity"
+    access_label: "stem"
+  - fact: "choice C says compliance would not increase federal production cost"
+    access_label: "choice"
+  - fact: "choices B and D speak to creek geography/jurisdiction"
+    access_label: "choice"
+  - fact: "choice A speaks only to express exemption"
+    access_label: "choice"
+
+c3_routing:
+  subject_fit: "Constitutional Law = claim categorization + tier/burden consistency"
+  governing_law_type: "STANDARD"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard"
+
+answer_array:
+  geometry: "3-vs-1 with geography pair"
+  split:
+    practical_effect: "C"
+    express_formality: "A"
+    geography_or_jurisdiction: ["B", "D"]
+  silver_key: "Pick the answer that talks about practical effect on the federal contract."
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "exception_omitted"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "express-only trap"
+    c3_signal: "It talks about express wording, not practical effect on the federal project."
+    lawyer_confirmation: "Express exemption is not required if federal purpose would otherwise be impaired; absence of express exemption is not conclusive."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "wrong_jurisdiction"
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "heuristic_structural"
+    student_label: "navigability outlier"
+    c3_signal: "Navigability belongs to a different jurisdictional frame."
+    lawyer_confirmation: "Navigability does not decide whether state regulation interferes with a federal contractor's federal work."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "federal-purpose effect"
+    c3_signal: "It is the only answer that speaks to the practical effect on the federal contract."
+    lawyer_confirmation: "No increased production cost supports the conclusion that the state limit does not interfere with federal purposes."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "wrong_jurisdiction"
+      - "answer_to_different_question"
+      - "fact_not_in_evidence"
+      - "bar_exam_bait"
+    method_class: "heuristic_structural"
+    student_label: "intrastate-geography trap"
+    c3_signal: "The stem already gives federal authority; creek location does not answer immunity."
+    lawyer_confirmation: "Federal authority may rest on powers other than Commerce Clause navigation; intrastate location is not decisive."
+
+residual_answer:
+  credited_choice: "C"
+  why_residual: "After geography/formality traps are cut, C is the answer that matches the interference axis."
+
+legal_leak_audit:
+  visible_to_student:
+    - "B and D answer geography/jurisdiction, not the immunity support call."
+    - "A answers formal express wording, not practical project effect."
+    - "C is fact-engaged with federal contract production."
+  anchor_required:
+    - "state regulation of federal contractors depends on interference with federal purposes or policies"
+  lawyer_only:
+    - "Supremacy Clause doctrine"
+    - "Leslie Miller"
+    - "Goodyear Atomic"
+  audit_result: "No lawyer-only authority used as the first-pass student reason."
+
+gold_keys:
+  - id: "GK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01"
+    statement: "A state may regulate a federal contractor unless applying the state rule would interfere with federal purposes or policies."
+    type: "constitutional_principle"
+    unlocks: "express-exemption and geography traps"
+    trigger: "state prosecutes or regulates a private contractor performing a federal contract"
+    tested_choice: "A"
+    authority: "Supremacy Clause; Leslie Miller; Goodyear Atomic"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01"
+    statement: "When the call asks which fact best supports the state against federal-contractor immunity, look for the fact about practical effect on the federal job."
+    type: "answer_array"
+    navigates: "geography/formality vs federal-project-effect array"
+    trigger: "choices split between location facts, express wording, and contract-performance cost"
+    tested_choice: "C"
+    outline_code: "41030300"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CONLAW-FED-CONTRACTOR-INTERFERENCE"
+  title: "Federal contractor: practical interference axis"
+  signal: "state regulation of a private federal contractor"
+  student_move: "Ask whether the state rule burdens the federal job."
+  tiny_rule: "No interference, no immunity win."
+  trap: "geography or express-exemption formalism"
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A federal contractor violates a stricter state discharge limit. Which fact best supports the state? The stricter limit does not increase federal production cost."
+review_truth: "For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project."
+
+case_study_output:
+  final_student_script: "Cut geography. Cut navigability. Do not stop at express wording. Pick the answer about practical effect on the federal contract."
+  residual: "C"
+
+quality_control:
+  pass_requirements:
+    true_responsive_residual: true
+    three_single_filter_distractors: true
+    agrees_with_key: true
+  divergence:
+    christian_skin_ok: true
+    no_establishment_issue_added: true
+    no_recognition_failure: true
+  controlled_vocab_ok: true
+
+analytics_hooks:
+  forensic_tags:
+    - "federal_contractor_immunity"
+    - "supremacy_clause"
+    - "wrong_frame"
+    - "practical_interference_axis"
+  component_routing:
+    - "Issue-Sense"
+    - "Constitutional Law overlay"
+    - "Gold Key"
+    - "Silver Key"
+```
+
+### 2. Student case study
+
+## program_frame
+
+This is a Constitutional Law contractor-immunity item. The student task is not to write a Supremacy Clause outline. The task is to find which additional fact most helps the state.
+
+## student_access_test
+
+Student-accessible: choices about geography and navigability do not match the call. Anchor-assisted: the legal rule that federal-contractor immunity turns on interference with federal purposes.
+
+## question_data
+
+Credited answer: **C**.
+Subject: **CONSTITUTIONAL_LAW**.
+Outline code: **41030300**.
+
+## distilled_core_question
+
+A federal contractor violates a stricter state discharge limit. Which fact best supports the state? The stricter limit does not increase federal production cost.
+
+## call_and_prediction
+
+Call: best support for the state.
+Prediction: the state needs a fact showing its rule does not burden the federal work.
+
+## trigger_facts
+
+* Federal contract.
+* State law stricter than contract.
+* Contractor claims immunity.
+* One choice speaks to cost of federal production.
+
+## governing_c3_lane
+
+Lane: CLASH with Gold Key.
+Axis: practical interference with federal project vs formal/geographic distractions.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. Student-accessible C3 signal: The word “expressly” is formal, but the call asks what best supports the state against immunity.
+2. Student label: express-only trap.
+3. True/responsive version: Congress clearly authorized state enforcement or the state rule did not interfere with federal work.
+4. Lawyer confirmation: An express exemption is not required for federal immunity; implied conflict can matter.
+
+### B
+
+1. Student-accessible C3 signal: Navigability belongs to a different jurisdictional frame.
+2. Student label: navigability outlier.
+3. True/responsive version: the fact would need to address interference with federal production.
+4. Lawyer confirmation: navigability does not resolve federal-contractor immunity.
+
+### C
+
+1. Student-accessible C3 signal: This answer talks about the federal contract’s practical cost.
+2. Student label: federal-purpose effect.
+3. True/responsive version: this is the responsive version.
+4. Lawyer confirmation: no added cost supports no interference with federal purposes.
+
+### D
+
+1. Student-accessible C3 signal: The creek’s intrastate location answers a different source-of-power question.
+2. Student label: intrastate-geography trap.
+3. True/responsive version: the fact would show the state limit does not burden the federal project.
+4. Lawyer confirmation: federal power can rest on sources other than navigability or interstate water location.
+
+## residual_answer
+
+**C** survives.
+
+## legal_leak_audit
+
+Student path used answer-array structure: practical effect beats geography/formality.
+Gold Key supplies the doctrine.
+Drift audit: no case authority was used as the first-pass student reason.
+
+## final_student_script
+
+“State wants to beat federal-contractor immunity. Geography is not the fight. Navigability is not the fight. Express-only is not enough. The best fact is no cost increase to the federal job. Pick C.”
+
+## remediation_card
+
+Card: **Federal contractor — practical interference axis**.
+Signal: private contractor invokes federal immunity.
+Move: ask whether the state rule burdens federal cost, timing, or performance.
+Tiny rule: no interference, no immunity win.
+
+## Gold Key(s)
+
+**GK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01:** A state may regulate a federal contractor unless applying the state rule would interfere with federal purposes or policies.
+
+## Silver Key(s)
+
+**SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01:** In this answer array, choose the practical-effect fact over geography or formal wording.
+
+## qa_checklist
+
+* Credited answer matches official outcome.
+* Three distractors each break one filter.
+* No swapped distractor.
+* No church, establishment, charity, or immunity clutter added.
+* Choice letters are post-shuffle.
+
+## wrong_answer_recovery_paths
+
+A: stop treating “expressly” as magic.
+B: stop treating navigability as the call.
+D: stop treating intrastate geography as dispositive after federal authority is given.
+
+## outline_mastery_map
+
+Placement: Constitutional Law > Federal-State Relationship > Supremacy Clause.
+This item teaches federal-contractor interference, not dormant commerce or admiralty.
+
+## crossover_intersection_map
+
+* Con Law: Supremacy Clause.
+* C3: wrong-frame bait.
+* C3: practical-effect answer-array read.
+
+## review_truth
+
+For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project.
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20638_advent_rescue_beacons",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "41030300",
+  "distilled_core_question": "A federal contractor violates a stricter state discharge limit. Which fact best supports the state? The stricter limit does not increase federal production cost.",
+  "review_truth": "For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "STANDARD",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "practical interference with federal project vs geography/formality",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium-hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+        "explanation": "The choice focuses on express exemption instead of the interference axis."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+        "explanation": "The choice shifts to navigability, a different jurisdictional frame."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+        "explanation": "The choice shifts to intrastate geography after federal authority is already given."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "All legal substance preserved; surface story changed from bombsights/Winding River to rescue beacons/Mercy Brook; no establishment or church-law issue added.",
+      "transformed_from": "20638",
+      "letter_map": "A→D; B→C; C→A; D→B"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+        "statement": "A state may regulate a federal contractor unless applying the state rule would interfere with federal purposes or policies.",
+        "type": "constitutional_principle",
+        "unlocks": "express-exemption and geography traps",
+        "trigger": "state regulates a private contractor performing a federal contract",
+        "tested_choice": "A",
+        "authority": "Supremacy Clause; Leslie Miller; Goodyear Atomic",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+        "statement": "When the call asks which fact best supports the state against federal-contractor immunity, look for practical effect on the federal job.",
+        "type": "answer_array",
+        "navigates": "geography/formality vs practical-effect array",
+        "trigger": "choices split between cost, express wording, location, and navigability",
+        "tested_choice": "C",
+        "outline_code": "41030300",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20638_advent_rescue_beacons",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "41030300",
+  "distilled_core_question": "A federal contractor violates a stricter state discharge limit. Which fact best supports the state? The stricter limit does not increase federal production cost.",
+  "review_truth": "For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project.",
+  "tension": {
+    "axis": "practical interference vs geography/formality",
+    "winner": "practical interference"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice sells the formal idea that express congressional wording controls. The breaker is that express wording does not answer practical interference.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice sells navigability as a legal-sounding jurisdiction fact. The breaker is that navigability is not the federal-contractor immunity axis.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice sells the creek’s intrastate location as state-control proof. The breaker is that federal authority is already supplied by the stem.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CONLAW-FED-CONTRACTOR-INTERFERENCE",
+    "title": "Federal contractor practical interference",
+    "signal": "state regulates a private federal contractor",
+    "student_move": "Find whether the state law burdens federal cost, timing, or performance.",
+    "tiny_rule": "No interference means the state has its best argument.",
+    "trap": "geography and express-exemption formalism",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "federal contractor immunity",
+    "Supremacy Clause conflict",
+    "express vs implied immunity",
+    "geography misfit"
+  ]
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20638_advent_rescue_beacons",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "41030300",
+  "distilled_core_question": "A federal contractor violates a stricter state discharge limit. Which fact best supports the state? The stricter limit does not increase federal production cost.",
+  "review_truth": "For a federal contractor, the state’s best fact is the one showing the state rule does not interfere with the federal project.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student overvalues the word expressly.",
+      "skipped_move": "CLASH axis",
+      "recovery_step": "Ask whether the fact addresses practical burden on federal work."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student sees navigability and treats it as jurisdictional magic.",
+      "skipped_move": "call lock",
+      "recovery_step": "Return to the immunity call, not admiralty or river power."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student treats intrastate location as state victory.",
+      "skipped_move": "stem fact acceptance",
+      "recovery_step": "Accept the stem’s federal-authority premise and look for interference."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "clash_axis",
+      "target_skill": "name the immunity axis",
+      "prompt": "State regulation of a federal contractor: express exemption or no project burden?",
+      "answer": "No project burden is the stronger state-support fact."
+    },
+    {
+      "drill_type": "wrong_frame_cut",
+      "target_skill": "cut geography bait",
+      "prompt": "Federal contractor claims immunity; choice says the creek is wholly intrastate.",
+      "answer": "Cut as not responsive after federal authority is given."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "federal-contractor anchor",
+      "prompt": "What makes state regulation of a federal contractor vulnerable?",
+      "answer": "Interference with federal purposes or policies."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "wrong_frame",
+      "answer_to_different_question",
+      "practical_effect_axis"
+    ],
+    "misconception_tags": [
+      "express exemption required",
+      "intrastate means state wins",
+      "navigability controls federal power"
+    ]
+  },
+  "component_routing": [
+    "Issue-Sense",
+    "CLASH",
+    "Gold Key",
+    "Silver Key",
+    "Constitutional Law overlay"
+  ],
+  "crossovers": [
+    "Supremacy Clause vs Commerce Clause",
+    "federal contractor immunity vs general jurisdiction",
+    "formal wording vs practical interference"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+      "statement": "A state may regulate a federal contractor unless applying the state rule would interfere with federal purposes or policies.",
+      "type": "constitutional_principle",
+      "unlocks": "express-exemption and geography traps",
+      "trigger": "state regulates a private contractor performing a federal contract",
+      "tested_choice": "A",
+      "authority": "Supremacy Clause; Leslie Miller; Goodyear Atomic",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01",
+      "statement": "When the call asks which fact best supports the state against federal-contractor immunity, look for practical effect on the federal job.",
+      "type": "answer_array",
+      "navigates": "geography/formality vs practical-effect array",
+      "trigger": "choices split between cost, express wording, location, and navigability",
+      "tested_choice": "C",
+      "outline_code": "41030300",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Constitutional Law > Federal-State Relationship > Supremacy Clause",
+    "this_item_teaches": "State regulation of federal contractors turns on interference with federal purposes.",
+    "fills": [
+      "Supremacy Clause conflict/preemption",
+      "federal contractor immunity",
+      "wrong-frame geography traps"
+    ],
+    "adjacent_to_master": [
+      "Dormant Commerce Clause",
+      "intergovernmental immunity",
+      "federal procurement preemption"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/constitution/articlevi?utm_source=chatgpt.com "Article VI | U.S. Constitution | US Law | LII / Legal Information Institute"

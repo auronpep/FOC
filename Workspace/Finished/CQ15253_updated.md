@@ -1,0 +1,1010 @@
+---
+qid: "15253_barnabas_quarry_safety_audit"
+transformed_from: "15253"
+subject: "TORTS"
+topic: "Torts"
+subtopic: "Strict Liability and Products Liability"
+outline_code: "00000000"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "measured: false"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source row reviewed: BARMATRIX Q# 15253, Torts, Strict Liability and Products Liability, official key C.  
+Reasoning posture file reviewed. 
+
+### 1. Final question — revised Christian variation
+
+Barnabas Quarry, a private company that sold decorative stone tablets engraved with Bible verses, operated a limestone quarry in a remote location. The company kept dynamite in a storage building at the quarry. The storage building was designed and operated in conformity with state-of-the-art safety standards.
+
+In the jurisdiction, the storage of dynamite is deemed an abnormally dangerous activity. Dynamite stored in Barnabas Quarry’s storage building, and manufactured by an explosives manufacturer, exploded from an unknown cause. The explosion injured Daniel, a state employee who was at the quarry performing a safety audit.
+
+Daniel brought an action in strict liability against Barnabas Quarry.
+
+**What is Barnabas Quarry’s best defense?**
+
+### 2. Distilled Core Question
+
+A company stores dynamite in a jurisdiction where dynamite storage is deemed abnormally dangerous. A safety auditor is injured by an explosion and sues the storage operator in strict liability. What is the operator’s best defense?
+
+### 3. Final answer choices
+
+A. The quarry was in a remote location.
+B. Barnabas Quarry did not manufacture the dynamite.
+C. Daniel assumed the risk of injury inherent in the safety-audit job.
+D. The storage building conformed to state-of-the-art safety standards.
+
+### 4. Possible replacement answer choices
+
+No replacement adopted. The source row provides no pick-rate percentages, so no distractor is honestly identifiable as a measured weak `<21%` distractor.
+
+| Candidate                                                                                          | Would replace | Mold            | Filter           | Adopted? | Reason                                                                                                          |
+| -------------------------------------------------------------------------------------------------- | ------------: | --------------- | ---------------- | -------- | --------------------------------------------------------------------------------------------------------------- |
+| The quarry was located far from any homes or public roads.                                         |             A | `wrong_element` | `NOT_RESPONSIVE` | No       | Same front-end classification trap; current A is cleaner.                                                       |
+| The explosives manufacturer, not Barnabas Quarry, placed the dynamite into the stream of commerce. |             B | `bait_doctrine` | `NOT_RESPONSIVE` | No       | Stronger product-liability wording, but adds unnecessary product-distribution flavor.                           |
+| Barnabas Quarry exercised the utmost care in storing the dynamite.                                 |             D | `bait_doctrine` | `NOT_RESPONSIVE` | No       | Very strong due-care trap, but the current safety-standard wording already preserves the negligence-frame bait. |
+
+### 5. Correct answer
+
+**C. Daniel assumed the risk of injury inherent in the safety-audit job.**
+
+### 6. Full right-answer explanation
+
+**C is correct.** The claim is strict liability for an abnormally dangerous activity. The stem already locks the activity as abnormally dangerous. So the best defense is not “we were careful,” “we were remote,” or “we were not the manufacturer.” Those answers fight the wrong battle.
+
+**Gold Key:** In abnormally dangerous activity strict liability, due care does not defeat liability, but assumption of the risk can defeat recovery when the plaintiff knowingly takes on the inherent risk.
+
+**Silver Key:** In a “best defense” call, pick the answer that actually defeats the claim. Do not pick facts that reopen the activity classification or facts that belong to a neighboring products/negligence frame.
+
+### 7. Full wrong-answer explanations
+
+**A is wrong.** Remote location can matter when deciding whether an activity is abnormally dangerous. But this stem already says the jurisdiction deems dynamite storage abnormally dangerous. A tries to reopen a locked issue.
+
+**B is wrong.** Not manufacturing the dynamite sounds attractive because the facts mention the explosives manufacturer. But Daniel sued Barnabas Quarry for storing dynamite as an abnormally dangerous activity, not for manufacturing a defective product. B answers a products-liability-style question, not this activity-liability question.
+
+**D is wrong.** This is the likely trap. It sounds strong because the facility was state-of-the-art. But that is a negligence-frame answer. **Gold Key:** in abnormally dangerous activity strict liability, even utmost care does not defeat liability. The Restatement formulation imposes liability for abnormally dangerous activities even when the actor used “utmost care.” ([Open Casebook][1])
+
+### 8. Black-letter verification and right-answer legal reasoning
+
+The variation preserves the original tested rule and outcome. The original row tested strict liability for an abnormally dangerous activity, with assumption of risk as the best defense; the official key was C. 
+
+The legal baseline is Restatement-style strict liability for abnormally dangerous activities. Restatement (Second) of Torts § 519 states that one who carries on an abnormally dangerous activity is liable for resulting harm even if the actor exercised the utmost care, and § 520 lists the factors used to classify an activity as abnormally dangerous. ([Open Casebook][1]) Cornell’s Wex summary similarly states that an abnormally dangerous activity creates a significant risk even when reasonable care is used and subjects the actor to strict liability for resulting physical harm. ([Legal Information Institute][2])
+
+The best defense in the row is assumption of risk. In *Pullen v. West*, the Kansas Supreme Court quoted Restatement (Second) of Torts § 523: “The plaintiff’s assumption of the risk of harm from an abnormally dangerous activity bars his recovery for the harm.” The same passage quotes comment d, which treats participation in the dangerous activity with knowledge of the danger as assumption of the risk. ([Justia Law][3])
+
+Attorney-review note: some jurisdictions modify assumption-of-risk consequences under comparative-fault systems. The source row, however, asks for the best defense and follows the bar-exam Restatement rule.
+
+### 9. Why the variation preserves rigor and difficulty
+
+The variation keeps the same legal structure:
+
+* defendant = operator/storer, not manufacturer;
+* activity = dynamite storage, stipulated abnormally dangerous;
+* plaintiff = safety auditor;
+* injury = explosion from unknown cause;
+* claim = strict liability;
+* trap = due care/state-of-the-art safety standards;
+* credited defense = assumption of risk.
+
+The Christian flavor is only surface: Bible-verse stone tablets and Bible names. It adds no church-autonomy, First Amendment, employment, contract, or property issue.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Remote location is a classification fact. The stem already locks the classification. `NOT_RESPONSIVE / wrong_element`.
+
+**CUT B:** “Did not manufacture” belongs to a products-liability frame. The claim is against the operator for storing dynamite. `NOT_RESPONSIVE / bait_doctrine`.
+
+**CUT D:** Safety compliance belongs to negligence. The call is strict liability. This cut needs the Gold Key. `NOT_RESPONSIVE / bait_doctrine`.
+
+**Residual:** C is the only answer that states a defense that can defeat the strict-liability claim.
+
+**CLASH:** No two-answer clash remains after the cuts.
+
+**CALL:** No fallback call needed. The residual is C.
+
+### 11. Review Truth
+
+When the stem stipulates abnormally dangerous strict liability, care and manufacturer status do not defend; knowing assumption of the activity’s inherent risk is the defense.
+
+### 12. Five variations considered
+
+|  # | Title                                 | Setting                                          | Cast                    | Preserved issue                                                   | Why memorable                    | Legal risk                                  | Recommendation |
+| -: | ------------------------------------- | ------------------------------------------------ | ----------------------- | ----------------------------------------------------------------- | -------------------------------- | ------------------------------------------- | -------------- |
+|  1 | **Barnabas Quarry Safety Audit**      | Private quarry selling Bible-verse stone tablets | Barnabas Quarry, Daniel | Strict liability for dynamite storage; assumption of risk defense | Christian but legally clean      | Low                                         | **Chosen**     |
+|  2 | Peter’s Psalm Trail Tunnel            | Private trail-blasting project                   | Peter, Ruth             | Same                                                              | Strong image of blasting a trail | Could imply public recreational use clutter | Not chosen     |
+|  3 | Lydia’s Stone Workshop                | Private decorative-stone business                | Lydia, Stephen          | Same                                                              | Clean private business           | Less vivid than quarry                      | Not chosen     |
+|  4 | Timothy’s Mountain Supply Depot       | Remote private supply depot                      | Timothy, Mary           | Same                                                              | Simple and compact               | Less Christian flavor beyond names          | Not chosen     |
+|  5 | Paul’s Law-School Torts Demonstration | Law-school quarry simulation                     | Paul, Martha            | Same                                                              | Meta law-school flavor           | Artificial facts could distract             | Not chosen     |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+## B) PASS-2 FIVE BLOCKS
+
+```yaml
+barmatrix_row:
+  qid: "15253_barnabas_quarry_safety_audit"
+  transformed_from: "15253"
+  subject: TORTS
+  topic: "Torts"
+  subtopic: "Strict Liability and Products Liability"
+  outline_code: "00000000"
+  selection_percentages:
+    correct: null
+    A: null
+    B: null
+    C: null
+    D: null
+    provenance: "not provided in source row"
+  official_key: "C"
+  original_official_key: "C"
+  call: "What is Barnabas Quarry's best defense?"
+  stem: "Barnabas Quarry, a private company that sold decorative stone tablets engraved with Bible verses, operated a limestone quarry in a remote location. The company kept dynamite in a storage building at the quarry. The storage building was designed and operated in conformity with state-of-the-art safety standards. In the jurisdiction, the storage of dynamite is deemed an abnormally dangerous activity. Dynamite stored in Barnabas Quarry's storage building, and manufactured by an explosives manufacturer, exploded from an unknown cause. The explosion injured Daniel, a state employee who was at the quarry performing a safety audit. Daniel brought an action in strict liability against Barnabas Quarry."
+  choices:
+    A: "The quarry was in a remote location."
+    B: "Barnabas Quarry did not manufacture the dynamite."
+    C: "Daniel assumed the risk of injury inherent in the safety-audit job."
+    D: "The storage building conformed to state-of-the-art safety standards."
+
+source_stack:
+  priority_1_barmatrix_row:
+    qid: "15253"
+    status: "used as controlling source"
+    notes: "Rule, answer key, trap architecture, and wrong-answer explanations preserved."
+  priority_2_existing_c3_tags:
+    status: "none supplied for this item"
+  priority_3_c3_method:
+    universal_lessons:
+      - "TRUE + RESPONSIVE frame"
+      - "Issue-Sense: wrong frame / bait doctrine / wrong element"
+      - "Bait architecture: wrong frame"
+      - "Anchors: strict liability tiny rule"
+    subject_overlay: "Torts strict-liability frame"
+  priority_4_lawyer_confirmation:
+    authorities:
+      - "Restatement (Second) of Torts §§ 519, 520, 523"
+      - "Pullen v. West quotation of Restatement § 523"
+      - "Cornell Wex summary of abnormally dangerous activity"
+
+student_access_contract:
+  allowed:
+    - "C3 TRUE + RESPONSIVE filter"
+    - "CUT -> CLASH -> CALL"
+    - "Issue-Sense: do not answer the question next door"
+    - "Bait-doctrine / wrong-frame recognition"
+    - "Gold Key: strict liability for abnormally dangerous activities rejects due-care defenses but allows assumption-of-risk defense"
+    - "Silver Key: in a best-defense call, pick the answer that defeats the claim"
+  not_allowed:
+    - "turning products liability doctrine into fake structure"
+    - "calling D false without the strict-liability Gold Key"
+    - "using lawyer-only comparative-fault nuance in the student path"
+  controlling_test_result: "ANCHOR_SOLVE: A and B are student-accessible wrong-frame cuts; D and C require the strict-liability Gold Key."
+
+stem_parse:
+  actors:
+    defendant: "Barnabas Quarry"
+    plaintiff: "Daniel"
+    third_party: "explosives manufacturer"
+  claim: "strict liability against Barnabas Quarry"
+  activity: "storage of dynamite"
+  legal_status_given: "storage of dynamite is deemed an abnormally dangerous activity"
+  injury_event: "dynamite exploded from unknown cause"
+  plaintiff_role: "state employee performing safety audit"
+  call_type: "best defense"
+  negative_stem: false
+  adjacent_call_traps:
+    - "whether the activity should be classified as abnormally dangerous"
+    - "whether the defendant manufactured a defective product"
+    - "whether the defendant used reasonable care"
+
+trigger_facts:
+  - fact: "The jurisdiction deems storage of dynamite an abnormally dangerous activity."
+    access_label: "stem_explicit"
+    c3_use: "locks the strict-liability activity lane; cuts A's attempt to relitigate classification"
+  - fact: "Daniel sues Barnabas Quarry, the storage operator."
+    access_label: "stem_explicit"
+    c3_use: "cuts B's product-manufacturer frame"
+  - fact: "The storage building complied with state-of-the-art safety standards."
+    access_label: "stem_explicit"
+    c3_use: "sets the due-care trap; Gold Key cuts D"
+  - fact: "Daniel was performing a safety audit at the quarry."
+    access_label: "stem_explicit"
+    c3_use: "supports C as the assumption-of-risk defense under the official row's rule"
+  - fact: "Explosion came from stored dynamite."
+    access_label: "stem_explicit"
+    c3_use: "keeps the harm within the danger that makes the activity strict-liability relevant"
+
+c3_routing:
+  subject_fit: "Torts = liability theory plus defense-frame discipline"
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  call_heuristic: null
+
+answer_array:
+  geometry: "one true defense surrounded by three wrong-frame/no-defense answers"
+  array_type: "3-vs-1 defense frame"
+  silver_key_surface: "classification fact / product-manufacturer fact / negligence-care fact / actual strict-liability defense"
+  layers:
+    A: "front-end activity-classification fact after the stem has already locked classification"
+    B: "neighboring products-liability/manufacturer frame"
+    C: "actual defense to strict liability"
+    D: "negligence due-care frame"
+  dominant_trap:
+    measured: false
+    likely_choice: "D"
+    reason: "state-of-the-art safety standards sounds like a strong defense unless the student locks strict liability"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - wrong_timing
+      - answer_to_different_question
+      - half_right_answer
+    method_class: hard_structural
+    student_label: "reopens a settled classification"
+    c3_signal: "The stem already says the activity is deemed abnormally dangerous. Remote location does not answer the best-defense call."
+    true_responsive_version: "This would matter if the call asked whether the storage was abnormally dangerous."
+    lawyer_confirmation: "Remoteness can be relevant to classifying an activity under abnormally dangerous activity factors, but the classification is stipulated in the stem."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - wrong_party
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "products-liability frame"
+    c3_signal: "The claim targets Barnabas Quarry as the operator/storer, not as product manufacturer."
+    true_responsive_version: "This would matter in a products-liability claim against a seller/manufacturer for a defective product."
+    lawyer_confirmation: "The row tests activity strict liability, not product defect liability."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "actual strict-liability defense"
+    c3_signal: "This is the only answer that purports to defeat the strict-liability claim rather than relabel the activity, party, or care."
+    true_responsive_version: "Already true and responsive."
+    lawyer_confirmation: "Assumption of risk is the Restatement/bar-exam defense to strict liability for abnormally dangerous activities when the plaintiff knowingly encounters the inherent risk."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - wrong_standard
+      - answer_to_different_question
+      - attractive_wrong_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "negligence-care frame"
+    c3_signal: "Safety compliance answers negligence. The call is strict liability."
+    true_responsive_version: "This would matter more if Daniel sued for negligence."
+    lawyer_confirmation: "For abnormally dangerous activities, liability may exist despite utmost care; due care is not the defense."
+
+residual_answer:
+  choice: "C"
+  explanation: "After cutting classification, product-manufacturer, and due-care frames, C is the remaining answer that can defeat the strict-liability claim."
+
+legal_leak_audit:
+  student_accessible:
+    - "A is not responsive because the stem already gives the activity label."
+    - "B is not responsive because the claim is against the storage operator, not the manufacturer."
+    - "D is not cut as false on structure alone; it is cut only after the strict-liability Gold Key."
+    - "C is credited only after the assumption-of-risk Gold Key."
+  quarantined_to_lawyer_confirmation:
+    - "Restatement section numbers"
+    - "jurisdiction-specific comparative-fault treatment"
+    - "scope of assumption of risk outside bar-exam rule"
+  drift_risk: "Do not convert the D cut into a fake hard-structural move."
+
+gold_keys:
+  - id: "GK-TORTS-ABD-AOR-01"
+    statement: "For abnormally dangerous activity strict liability, due care does not defeat liability; knowing assumption of the inherent risk can defeat recovery."
+    type: "exception"
+    unlocks: "why C is a defense and D is a trap"
+    trigger: "strict liability + abnormally dangerous activity + plaintiff exposed through the dangerous task"
+    tested_choice: "D"
+    authority:
+      - "Restatement (Second) of Torts §519"
+      - "Restatement (Second) of Torts §523"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-STRICT-BEST-DEFENSE-01"
+    statement: "In a best-defense strict-liability question, reject answers that relitigate classification, switch to products liability, or argue carefulness; look for the answer that actually defeats strict liability."
+    type: "answer_array"
+    navigates: "3-vs-1 defense-frame array"
+    trigger: "best defense call with strict liability and three neighboring-frame answers"
+    tested_choice: "A/B/D"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-TORTS-STRICT-DEFENSE-FRAME-01"
+  title: "Strict Liability Defense Frame"
+  signal: "Strict liability + abnormally dangerous activity + best defense"
+  student_move: "Do not argue due care. Do not switch to products. Ask what actually bars the strict-liability claim."
+  tiny_rule: "Assumption of risk can defeat strict liability; due care does not."
+  trap: "state-of-the-art safety standards"
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?"
+
+review_truth: "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does."
+
+case_study_output:
+  final_student_script: "Strict liability. Best defense. A reopens classification. B switches to products. D argues care. Gold Key says care is no defense; assumption of risk can be. Pick C."
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  rule_unchanged: true
+  issue_unchanged: true
+  outcome_unchanged: true
+  christian_names_only: true
+  no_antagonist_names: true
+  no_clutter_doctrine_added: true
+  no_pick_rates_fabricated: true
+  exact_three_distractors_single_filter: true
+  residual_equals_key: true
+  pass_available: true
+  drift_audit: "D is anchor-assisted; do not call it hard structural."
+
+analytics_hooks:
+  item_family: "Torts strict liability defenses"
+  trap_family:
+    - "negligence-care frame"
+    - "product-liability frame"
+    - "classification-reopening frame"
+  likely_miss_path: "student picks D because safety compliance feels like the best defense"
+  recommended_drills:
+    - "strict liability vs negligence defense sorting"
+    - "activity strict liability vs products liability frame sorting"
+    - "classification factor vs defense sorting"
+```
+
+## program_frame
+
+This is a Torts strict-liability defense item. The task is not to decide whether dynamite storage is dangerous. The stem already decides that. The task is to find the best defense to strict liability.
+
+## student_access_test
+
+A student may use:
+
+* the call: **best defense**;
+* the given claim: **strict liability**;
+* the given label: **abnormally dangerous activity**;
+* the Gold Key: due care is not a defense; assumption of risk can be;
+* the Silver Key: reject neighboring frames.
+
+A student may not use:
+
+* full products-liability doctrine;
+* comparative-fault nuance;
+* Restatement section numbers;
+* jurisdiction-specific assumption-of-risk modifications.
+
+## question_data
+
+**Question ID:** 15253_barnabas_quarry_safety_audit
+**Transformed from:** 15253
+**Subject:** TORTS
+**Topic:** Strict Liability and Products Liability
+**Call:** What is Barnabas Quarry’s best defense?
+**Correct answer:** C
+**Pick-rate data:** not provided.
+
+## distilled_core_question
+
+A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator’s best defense?
+
+## call_and_prediction
+
+**Call:** best defense.
+
+**Prediction:** The correct answer must defeat strict liability. It should not merely show careful conduct. It should not point to a different defendant. It should not reopen whether the activity is abnormally dangerous.
+
+**Expected answer shape:** assumption of risk.
+
+## trigger_facts
+
+| Fact                                                | Why it matters                                              |
+| --------------------------------------------------- | ----------------------------------------------------------- |
+| Storage of dynamite is deemed abnormally dangerous. | The strict-liability lane is locked.                        |
+| Barnabas Quarry stored the dynamite.                | The defendant is the activity operator.                     |
+| Daniel was performing a safety audit.               | Supports assumption-of-risk defense under the official row. |
+| Facility was state-of-the-art.                      | Sets the negligence-frame trap.                             |
+| Dynamite was made by a manufacturer.                | Sets the products-liability-frame trap.                     |
+| Quarry was remote.                                  | Sets the classification-factor trap.                        |
+
+## governing_c3_lane
+
+**Lane:** Torts strict liability.
+
+**FIT:** Torts = liability theory plus defense-frame discipline.
+
+**C3 route:** CUT. The three wrong answers each answer the wrong defense frame.
+
+**Gold Key governs:** yes.
+
+**Silver Key governs:** yes.
+
+## choice_by_choice_walkthrough
+
+### Choice A — The quarry was in a remote location.
+
+1. **Student-accessible C3 signal:** The stem already says dynamite storage is deemed abnormally dangerous. Remote location tries to reopen a settled label.
+
+2. **Student label:** classification-factor answer, not a defense.
+
+3. **What a true/responsive version would look like:** “The activity was not abnormally dangerous because it was carried on in a remote location” could matter if the call asked whether the activity was abnormally dangerous.
+
+4. **Lawyer confirmation:** Remoteness can matter under abnormally dangerous activity factors, but the stem stipulates the classification. Restatement § 520 includes location/inappropriateness as a classification factor; once classification is given, A does not answer the defense call. ([Open Casebook][1])
+
+### Choice B — Barnabas Quarry did not manufacture the dynamite.
+
+1. **Student-accessible C3 signal:** The lawsuit is against Barnabas Quarry as the storage operator. Manufacturing points to the wrong legal neighborhood.
+
+2. **Student label:** products-liability frame.
+
+3. **What a true/responsive version would look like:** This would matter in a product-defect claim asking whether Barnabas Quarry was a manufacturer, seller, or distributor.
+
+4. **Lawyer confirmation:** The row tests abnormally dangerous activity liability, not strict products liability. The operator’s nonmanufacture does not defeat liability for carrying on the dangerous activity.
+
+### Choice C — Daniel assumed the risk of injury inherent in the safety-audit job.
+
+1. **Student-accessible C3 signal:** This is the only answer that actually purports to defeat strict liability rather than fight the activity label, party frame, or care standard.
+
+2. **Student label:** actual strict-liability defense.
+
+3. **What a true/responsive version would look like:** Already true and responsive.
+
+4. **Lawyer confirmation:** Restatement § 523, quoted in *Pullen v. West*, states that assumption of the risk of harm from an abnormally dangerous activity bars recovery. Comment d, quoted in the same passage, treats knowingly taking part in the dangerous activity as a common assumption-of-risk setting. ([Justia Law][3])
+
+### Choice D — The storage building conformed to state-of-the-art safety standards.
+
+1. **Student-accessible C3 signal:** This argues carefulness. But the claim is strict liability.
+
+2. **Student label:** negligence-care frame.
+
+3. **What a true/responsive version would look like:** This would matter in a negligence claim about breach of the duty of care.
+
+4. **Lawyer confirmation:** Restatement § 519 imposes strict liability for abnormally dangerous activities even when the actor exercised utmost care. ([Open Casebook][1])
+
+## residual_answer
+
+After A, B, and D are cut as wrong-frame answers, C remains. C is the residual and matches the official key.
+
+## legal_leak_audit
+
+A is student-accessible because the stem itself locks the activity classification.
+B is student-accessible because the answer points to manufacturing while the claim targets storage.
+D is not a pure structural cut. It requires the Gold Key that due care does not defeat strict liability.
+C is not derived from grammar alone. It requires the Gold Key that assumption of risk can defeat strict liability.
+
+Drift audit: D is anchor-assisted, not a fake hard-structural cut; A and B are student-accessible wrong-frame cuts.
+
+## final_student_script
+
+Strict liability. Best defense. The activity is already deemed abnormally dangerous. A tries to reopen that. B switches to products liability. D argues carefulness, but strict liability does not care about carefulness. Assumption of risk is the defense. Pick C.
+
+## remediation_card
+
+**Card:** REM-TORTS-STRICT-DEFENSE-FRAME-01
+**Title:** Strict Liability Defense Frame
+**Signal:** strict liability + abnormally dangerous activity + best defense
+**Move:** eliminate carefulness and product-frame answers; look for a defense that actually bars strict liability.
+**Tiny rule:** assumption of risk can defeat strict liability; due care does not.
+**Trap:** state-of-the-art safety standards.
+**Confidence:** anchor-assisted.
+
+## Gold Key(s)
+
+**GK-TORTS-ABD-AOR-01**
+For abnormally dangerous activity strict liability, due care does not defeat liability; knowing assumption of the inherent risk can defeat recovery.
+**Type:** exception.
+**Trigger:** strict liability + abnormally dangerous activity + plaintiff exposed through the dangerous task.
+**Unlocks:** C over D.
+
+## Silver Key(s)
+
+**SK-TORTS-STRICT-BEST-DEFENSE-01**
+In a best-defense strict-liability question, reject answers that relitigate classification, switch to products liability, or argue carefulness; look for the answer that actually defeats strict liability.
+**Type:** answer_array.
+**Trigger:** one true-defense answer surrounded by three neighboring-frame answers.
+
+## qa_checklist
+
+* Rule unchanged: yes.
+* Correct answer unchanged: yes.
+* Christian variation added without clutter: yes.
+* Popular Bible names only: yes.
+* No antagonist names: yes.
+* No First Amendment, church-autonomy, contract, employment, or property clutter: yes.
+* Each distractor breaks one filter: yes.
+* C3 residual agrees with key: yes.
+* Gold Key included because item is anchor-dependent: yes.
+* Silver Key included because the answer array navigation is teachable: yes.
+* Pick-rate provenance honest: yes; none provided.
+
+## wrong_answer_recovery_paths
+
+| Choice | Student mistake                                 | Skipped move                    | Recovery                                                                 |
+| ------ | ----------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------ |
+| A      | Thinks remote location defeats strict liability | Missed locked classification    | Mark “deemed abnormally dangerous” and stop relitigating classification. |
+| B      | Switches to products liability                  | Missed defendant/activity frame | Ask: “What is the defendant being sued for doing?”                       |
+| D      | Treats safety compliance as a defense           | Missed strict-liability anchor  | Recite Gold Key: due care does not defeat strict liability.              |
+
+## outline_mastery_map
+
+**Placement:** Torts → strict liability → abnormally dangerous activities → defenses.
+**This item teaches:** defense-frame discipline.
+**Fills:** assumption of risk as strict-liability defense.
+**Adjacent to master:** negligence due care, products liability manufacturer/seller frame, abnormally dangerous activity factors.
+
+## crossover_intersection_map
+
+* **Strict liability vs negligence:** D is the negligence-care trap.
+* **Activity strict liability vs products liability:** B is the product-manufacturer trap.
+* **Classification factor vs defense:** A is the front-end classification trap.
+* **Assumption of risk vs comparative fault:** C is the bar-exam defense; comparative nuance stays in lawyer review.
+
+## review_truth
+
+When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.
+
+```json
+{
+  "question_id": "15253_barnabas_quarry_safety_audit",
+  "subject": "TORTS",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?",
+  "review_truth": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-TORTS-STRICT-BEST-DEFENSE-01",
+        "explanation": "Remote location is a classification factor, but the stem already states that dynamite storage is deemed abnormally dangerous."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-TORTS-STRICT-BEST-DEFENSE-01",
+        "explanation": "Nonmanufacture belongs to a products-liability frame; the claim is against the storage operator for carrying on the activity."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-ABD-AOR-01",
+        "explanation": "Safety compliance belongs to negligence. In abnormally dangerous activity strict liability, due care is not the defense."
+      }
+    ],
+    "analyzer_notes": "drift_audit: A and B are student-accessible wrong-frame cuts; D is anchor-assisted because due care's irrelevance in strict liability is a taught Gold Key, not pure grammar. transformed_from: 15253",
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-ABD-AOR-01",
+        "statement": "For abnormally dangerous activity strict liability, due care does not defeat liability; knowing assumption of the inherent risk can defeat recovery.",
+        "type": "exception",
+        "unlocks": "C over D",
+        "trigger": "strict liability + abnormally dangerous activity + plaintiff exposed through the dangerous task",
+        "tested_choice": "D",
+        "authority": [
+          "Restatement (Second) of Torts §519",
+          "Restatement (Second) of Torts §523"
+        ],
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-STRICT-BEST-DEFENSE-01",
+        "statement": "In a best-defense strict-liability question, reject answers that relitigate classification, switch to products liability, or argue carefulness; look for the answer that actually defeats strict liability.",
+        "type": "answer_array",
+        "navigates": "3-vs-1 defense-frame array",
+        "trigger": "best defense call with strict liability and three neighboring-frame answers",
+        "tested_choice": "A/B/D",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "15253_barnabas_quarry_safety_audit",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?",
+  "review_truth": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+  "tension": {
+    "axis": "actual strict-liability defense vs neighboring frames",
+    "resolver": "strict-liability best-defense call"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Remote location sounds relevant because it can matter in deciding whether an activity is abnormally dangerous.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The stem mentions a manufacturer, inviting a products-liability detour.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "State-of-the-art safety standards sound like the strongest defense unless the student locks strict liability.",
+      "focus_group_pct": null
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-TORTS-STRICT-DEFENSE-FRAME-01",
+    "title": "Strict Liability Defense Frame",
+    "signal": "Strict liability + abnormally dangerous activity + best defense",
+    "student_move": "Do not argue due care. Do not switch to products. Ask what actually bars the strict-liability claim.",
+    "tiny_rule": "Assumption of risk can defeat strict liability; due care does not.",
+    "trap": "state-of-the-art safety standards",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "strict liability vs negligence",
+    "activity liability vs products liability",
+    "classification factor vs defense",
+    "best defense call discipline",
+    "anchor-assisted due-care cut"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "15253_barnabas_quarry_safety_audit",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?",
+  "review_truth": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student remembers location matters for abnormally dangerous activities.",
+      "skipped_move": "The student did not notice that the stem already deemed the activity abnormally dangerous.",
+      "recovery_step": "Circle the stipulated label before reading defenses."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees 'manufactured by an explosives manufacturer' and moves to products liability.",
+      "skipped_move": "The student did not lock the defendant's role as storage operator.",
+      "recovery_step": "Ask what act the defendant is sued for: storing, not manufacturing."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student treats state-of-the-art care as the best defense.",
+      "skipped_move": "The student did not apply the strict-liability Gold Key.",
+      "recovery_step": "Recite: due care does not defeat abnormally dangerous activity strict liability."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "frame_sort",
+      "target_skill": "strict liability vs negligence",
+      "prompt": "A defendant in an abnormally dangerous activity case proves state-of-the-art safety compliance. Defense or trap?",
+      "answer": "Trap. Due care is not the defense to strict liability."
+    },
+    {
+      "drill_type": "wrong_frame_cut",
+      "target_skill": "activity liability vs products liability",
+      "prompt": "The defendant stored dynamite but did not manufacture it. The plaintiff sues for abnormally dangerous storage. Defense or trap?",
+      "answer": "Trap. Nonmanufacture belongs to products liability, not activity strict liability."
+    },
+    {
+      "drill_type": "classification_lock",
+      "target_skill": "classification factor vs defense",
+      "prompt": "The stem says the activity is deemed abnormally dangerous. A choice says the activity was remote. Cut or keep?",
+      "answer": "Cut. It relitigates a locked classification."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "strict-liability defense",
+      "prompt": "Name the best defense in an abnormally dangerous activity strict-liability claim when the plaintiff knowingly takes on the inherent risk.",
+      "answer": "Assumption of risk."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "wrong_frame",
+      "best_defense_call",
+      "3_vs_1_defense_array",
+      "strict_liability_anchor",
+      "state_of_art_care_trap"
+    ],
+    "misconception_tags": [
+      "care_defeats_strict_liability",
+      "manufacturer_status_controls_activity_claim",
+      "classification_factors_are_defenses",
+      "strict_liability_equals_no_defenses"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE + RESPONSIVE",
+    "Lesson 8 not-responsive molds",
+    "Lesson 11 bait architecture",
+    "Lesson 12 anchors",
+    "Torts strict-liability micro-anchor"
+  ],
+  "crossovers": [
+    {
+      "name": "Strict liability vs negligence",
+      "teaches": "Care evidence is a negligence answer unless a strict-liability defense actually uses it."
+    },
+    {
+      "name": "Activity liability vs products liability",
+      "teaches": "The defendant's role matters: storing dynamite is not manufacturing a defective product."
+    },
+    {
+      "name": "Classification factor vs defense",
+      "teaches": "Once the stem gives the classification, classification facts usually stop being responsive."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-ABD-AOR-01",
+      "statement": "For abnormally dangerous activity strict liability, due care does not defeat liability; knowing assumption of the inherent risk can defeat recovery.",
+      "type": "exception",
+      "unlocks": "C over D",
+      "trigger": "strict liability + abnormally dangerous activity + plaintiff exposed through the dangerous task",
+      "tested_choice": "D",
+      "authority": [
+        "Restatement (Second) of Torts §519",
+        "Restatement (Second) of Torts §523"
+      ],
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-STRICT-BEST-DEFENSE-01",
+      "statement": "In a best-defense strict-liability question, reject answers that relitigate classification, switch to products liability, or argue carefulness; look for the answer that actually defeats strict liability.",
+      "type": "answer_array",
+      "navigates": "3-vs-1 defense-frame array",
+      "trigger": "best defense call with strict liability and three neighboring-frame answers",
+      "tested_choice": "A/B/D",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Torts / Strict Liability / Abnormally Dangerous Activities / Defenses",
+    "this_item_teaches": "Strict-liability defense frame discipline",
+    "fills": [
+      "assumption of risk as strict-liability defense",
+      "due care is not a strict-liability defense",
+      "products-liability frame is not activity-liability frame"
+    ],
+    "adjacent_to_master": [
+      "abnormally dangerous activity classification",
+      "strict products liability",
+      "negligence standard of care",
+      "assumption of risk"
+    ]
+  }
+}
+```
+
+[1]: https://opencasebook.org/casebooks/9486-torts-basic-fluency-in-a-fundamental-legal-language-revised/as-printable-html/3/ "Torts: Basic Fluency in a Fundamental Legal Language (Revised): Strict Liability (For Animals and Abnormally Dangerous Activities) "
+[2]: https://www.law.cornell.edu/wex/abnormally_dangerous_activity "abnormally dangerous activity | Wex | US Law | LII / Legal Information Institute"
+[3]: https://law.justia.com/cases/kansas/supreme-court/2004/90511.html "                Pullen v. West :: 2004 :: Kansas Supreme Court Decisions :: Kansas Case Law :: Kansas Law :: U.S. Law :: Justia    "
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "15253_barnabas_quarry_safety_audit"
+  question_id: "15253_barnabas_quarry_safety_audit"
+  subject: "TORTS"
+  topic: "Torts"
+  subtopic: "Strict Liability and Products Liability"
+  outline_code: "00000000"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "15253"
+  variant_slug: "barnabas_quarry_safety_audit"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "C"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?"
+review_truth: "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 15253_barnabas_quarry_safety_audit; source 15253.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject TORTS; topic Torts; subtopic Strict Liability and Products Liability.
+4. **distilled_core_question:** A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 00000000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 00000000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "15253_barnabas_quarry_safety_audit",
+  "subject": "TORTS",
+  "credited_answer": "C",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?",
+  "review_truth": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 15253; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "15253_barnabas_quarry_safety_audit",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?",
+  "review_truth": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-15253",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "15253_barnabas_quarry_safety_audit",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores dynamite in a jurisdiction where storage is deemed abnormally dangerous. A safety auditor is injured and sues the storage operator in strict liability. What is the operator's best defense?",
+  "review_truth": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "When strict liability for an abnormally dangerous activity is locked, care and manufacturer status do not defend; assumption of the inherent risk does.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

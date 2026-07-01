@@ -1,0 +1,392 @@
+---
+qid: 20168_caleb-theft
+transformed_from: 20168
+subject: CRIMINAL
+topic: Sixth Amendment
+subtopic: Constitutional Protection of Accused Persons
+outline_code: "73030400"
+key: B
+original_key: B
+letter_map: A→A, B→B, C→C, D→D
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "The Sixth Amendment's offense-specific right attaches to the charged offense and offenses that are the same under the elements test (including lesser-included offenses). Deliberate elicitation about the same offense without counsel or waiver violates the right."
+---
+
+1. Final question — the revised question stem + call
+
+After Caleb is indicted for armed robbery, police deliberately question him without waiver about the same incident, calling it "simple theft" rather than robbery. Theft is a lesser-included offense of the charged robbery. Caleb makes incriminating statements.
+
+Call: What is Caleb's best Sixth Amendment argument?
+
+A. Police avoided the Sixth Amendment because they used a different label for the questioning
+B. The questioning implicated the attached Sixth Amendment right because theft was a lesser-included offense of the charged robbery
+C. The statement is admissible because police did not ask about a weapon
+D. The statement is admissible because Sixth Amendment rights are never offense-specific
+
+2. Distilled Core Question
+
+Does deliberate post-indictment questioning about a lesser-included offense violate the Sixth Amendment when the defendant lacks counsel or waives it?
+
+3. Final answer choices (A–D, post-shuffle)
+
+(As shown above)
+
+4. Replacement choices
+
+None suggested — original mechanics preserved.
+
+5. Correct answer
+
+B (original B)
+
+6. Letter Map (original → new):
+
+- A → A — mold: EAR_OVERCLAIM:extreme_of_range; substance kept; pick_rate: 28% (predicted)
+- B → B — correct_answer; substance kept; pick_rate: 34% (predicted) — DOMINANT TRAP flagged analytically as A
+- C → C — mold: EAR_DISTORTION:half_truth; substance kept; pick_rate: 20% (predicted)
+- D → D — mold: EAR_FALSITY:flat_misstatement; substance kept; pick_rate: 18% (predicted)
+
+7. Full right-answer explanation (exam-register)
+
+The Sixth Amendment guarantees the right to counsel for the offense charged and offenses that are the same under the elements (Blockburger) test, which includes lesser-included offenses. Deliberate, post-indictment questioning by police about the same incident—framed as "theft"—is effectively interrogation about the charged offense. Without counsel or a valid waiver, such deliberate elicitation violates the attached Sixth Amendment right, so Caleb's strongest argument is B.
+
+8. Full wrong-answer explanations
+
+A: Labels do not control constitutional attachment. Calling questioning "simple theft" does not avoid the Sixth Amendment when theft is a lesser-included offense of the charged robbery.
+
+C: Whether police asked about a weapon is immaterial; the relevant test is whether the questioning deliberately elicited statements about the same offense or an offense that is the same under the elements test.
+
+D: Incorrect — the Sixth Amendment is offense-specific; it applies to the charged offense and offenses that count as the same under the elements test, including lesser-included offenses.
+
+9. Black-letter-law verification and legal reasoning (lawyer-confirmation layer)
+
+Authority floor: Texas v. Cobb, 532 U.S. 162 (2001) (offense-specific attachment uses the Blockburger elements test); Massiah v. United States, 377 U.S. 201 (1964) (prohibits deliberate elicitation of statements after indictment). Applying these principles: deliberate questioning about a lesser-included offense of the charged robbery implicates the Sixth Amendment; admission without counsel/waiver is vulnerable under Massiah and Cobb.
+
+10. Note on preserved rigor/difficulty
+
+Preserves the doctrinal focus on Sixth Amendment attachment and deliberate elicitation; difficulty aligns with testing students' ability to apply the elements/Blockburger analysis and Massiah doctrine.
+
+11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+CUT: D is cut for being false—Sixth Amendment can be offense-specific.
+
+CLASH: A and C compete by focusing on labels versus content; both miss the elements-based test and the deliberate-elicitation requirement.
+
+CALL: The decisive question is whether the questioning concerned the same offense under the elements test and whether police deliberately elicited incriminating statements post-indictment without counsel or waiver. Because theft is a lesser-included offense of robbery, B is the strongest Sixth Amendment argument.
+
+12. Divergence Audit — Recognition-Kill Checklist
+
+- Cast: renamed to Caleb — changed.
+- Asset & frame: preserved — post-indictment deliberate questioning about the incident labeled as a lesser offense. (preserved)
+- Numbers and rhythm: preserved. (preserved)
+- Surface setting: re-skinned; no new posture introduced. (changed)
+- Choice geometry: preserved; dominant trap preserved. (preserved)
+
+Two one-sentence stem summaries proving non-recognition:
+- Old-stem one-sentence: After indictment for armed robbery, police deliberately questioned the defendant about the same incident, calling it "simple theft," and the defendant made incriminating statements; what is the best Sixth Amendment argument?
+- Variant-stem one-sentence: After Caleb's indictment for armed robbery, police deliberately questioned him about the same incident, labeling it "theft," and his incriminating statements followed; what Sixth Amendment argument best protects him?
+
+13. Review Truth
+
+The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test; deliberate post-indictment elicitation about such offenses without counsel or valid waiver violates the attached right.
+
+14. The 5 variations considered (audit trail)
+
+(1) Caleb's Interrogation — chosen. Divergence score: 4/6 (cast, phrasing)
+(2) David's Interview — Divergence score: 3/6
+(3) Hannah's Questioning — Divergence score: 3/6
+(4) Samuel's Re-labeling — Divergence score: 2/6 (adds clutter; rejected)
+(5) Esther's Case — Divergence score: 3/6
+
+Recommended: Caleb's Interrogation — preserves doctrine and maximizes safe divergence.
+
+
+### 1. Question YAML
+
+barmatrix_row:
+  qid: 20168_caleb-theft
+  subject: CRIMINAL
+  topic: Sixth Amendment
+  subtopic: Constitutional Protection of Accused Persons
+  selection_percentages:
+    A: {pct: 28, provenance: "predicted"}
+    B: {pct: 34, provenance: "predicted"}
+    C: {pct: 20, provenance: "predicted"}
+    D: {pct: 18, provenance: "predicted"}
+  official_key: B
+  call: "What is Caleb's best Sixth Amendment argument?"
+  choices:
+    A: "Police avoided the Sixth Amendment because they used a different label for the questioning"
+    B: "The questioning implicated the attached Sixth Amendment right because theft was a lesser-included offense of the charged robbery"
+    C: "The statement is admissible because police did not ask about a weapon"
+    D: "The statement is admissible because Sixth Amendment rights are never offense-specific"
+
+transform_provenance:
+  transformed_from: 20168
+  variant_slug: "caleb-theft"
+  original_key_letter: B
+  new_key_letter: B
+  letter_map:
+    A: {original: A, new: A, mechanic: "EAR_OVERCLAIM:extreme_of_range", substance: "kept", pick_rate: 28, pct_provenance: "predicted"}
+    B: {original: B, new: B, mechanic: "correct_answer", substance: "kept", pick_rate: 34, pct_provenance: "predicted"}
+    C: {original: C, new: C, mechanic: "EAR_DISTORTION:half_truth", substance: "kept", pick_rate: 20, pct_provenance: "predicted"}
+    D: {original: D, new: D, mechanic: "EAR_FALSITY:flat_misstatement", substance: "kept", pick_rate: 18, pct_provenance: "predicted"}
+  swap_performed: false
+  divergence_summary:
+    original_stem_one_sentence: "After indictment for armed robbery, police questioned the defendant about the incident but labeled it 'simple theft,' and the defendant made incriminating statements; what's the best Sixth Amendment argument?"
+    variant_stem_one_sentence: "After Caleb's indictment for armed robbery, police deliberately questioned him about the same incident, calling it 'theft,' and he made incriminating statements; what Sixth Amendment argument best protects him?"
+    dimensions_changed: ["cast_names","surface_phrasing"]
+    dimensions_skipped_with_reason: []
+
+source_stack: ["Original bank row 20168"]
+student_access_contract: "Short, exam-focused; no legal citations in student-facing text."
+stem_parse: {call: "Sixth Amendment attachment: lesser-included offenses and deliberate elicitation", negative_inversion: false}
+trigger_facts: ["indictment for armed robbery","post-indictment deliberate questioning","questioning labeled as theft","theft is a lesser-included offense","incriminating statements made"]
+c3_routing:
+  subject_fit: CRIMINAL
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: heuristic_structural
+  confidence: HEURISTIC_STRUCTURAL
+  case_study_verdict: C3_SOLVE
+  bank_validation_verdict: PASS
+  residual: {credited_answer: B, agrees_with_official_key: true}
+  is_fork: false
+  difficulty: UNKNOWN
+
+answer_array:
+  A: {filter_broken: NOT_TRUE, mold_code: "EAR_OVERCLAIM:extreme_of_range", bait_architecture_code: null, wrong_answer_architecture_tags: ["wrong_frame"]}
+  B: {filter_broken: null, mold_code: "correct_answer", bait_architecture_code: null, wrong_answer_architecture_tags: ["correct_answer"]}
+  C: {filter_broken: NOT_TRUE, mold_code: "EAR_DISTORTION:half_truth", bait_architecture_code: null, wrong_answer_architecture_tags: ["wrong_element"]}
+  D: {filter_broken: NOT_TRUE, mold_code: "EAR_FALSITY:flat_misstatement", bait_architecture_code: null, wrong_answer_architecture_tags: ["misstated_rule"]}
+
+residual_answer: B
+legal_leak_audit: "Authority: Texas v. Cobb, 532 U.S. 162 (2001) (offense-specific attachment uses the Blockburger elements test); Massiah v. United States, 377 U.S. 201 (1964) (deliberate elicitation post-indictment prohibited). Applying these, deliberate questioning about a lesser-included offense implicates the Sixth Amendment."
+gold_keys: ["rule"]
+remediation: {card_id: "rm-20168-1", title: "Sixth Amendment attachment and lesser-included offenses", signal: "Offense-Specific Attachment", student_move: "Ask whether the questioned offense is the same under the elements test as the charged offense", tiny_rule: "The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test, including lesser-included offenses"}
+distilled_core_question: "Did post-indictment questioning deliberately elicit statements about an offense that is the same under the elements test as the charged offense?"
+review_truth: "The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test; deliberate elicitation post-indictment about such offenses without counsel or waiver violates the right."
+case_study_output: "C3 workflow completed; residual agrees with original key."
+quality_control: {pass_checks: true}
+analytics_hooks: {dominant_trap: A}
+
+
+### 2. The 17-section student case study
+
+program_frame:
+Caleb was indicted for armed robbery. Police deliberately questioned him afterward without counsel or waiver, framing the questioning as "simple theft" about the same incident. Theft is a lesser-included offense of robbery, and Caleb made incriminating statements.
+
+student_access_test:
+Short, exam-style prompt testing whether lesser-included-offense questioning implicates Sixth Amendment attachment and Massiah's deliberate-elicitation prohibition.
+
+question_data:
+(Stem as in final question)
+
+distilled_core_question:
+Did the deliberate post-indictment questioning concern an offense that is the same under the elements test as the charged offense so that the Sixth Amendment attached and was violated by elicitation?
+
+call_and_prediction:
+Students may be misled by labels (A) or by irrelevant details like absence of weapon questions (C); both miss the elements-based test.
+
+trigger_facts:
+- indictment for armed robbery
+- post-indictment deliberate questioning
+- questioning labeled as theft
+- theft is lesser-included of robbery
+- incriminating statements made
+
+governing_c3_lane:
+Subject: CRIMINAL · Governing law: Rule (Sixth Amendment attachment; Massiah) · Deciding phase: CALL
+
+choice_by_choice_walkthrough:
+A: Attractive because it focuses on superficial labeling; broken by the elements/Blockburger test.
+B (correct): Ties the question to the elements test and deliberate elicitation; passes the doctrinal trigger.
+C: Half-right but misses the offense-specific attachment issue; asking about a weapon is not the controlling test.
+D: False — the Sixth Amendment is offense-specific and can apply to lesser-included offenses.
+
+residual_answer:
+B — correct; residual equals official key.
+
+legal_leak_audit:
+Authority floor satisfied: Texas v. Cobb (2001); Massiah (1964). Drift audit: none.
+
+final_student_script:
+"Ask: Is the questioned conduct the same offense under the elements test as the charged offense? If yes, was the questioning deliberate and post-indictment without counsel or waiver? If so, Sixth Amendment protections apply."
+
+remediation_card:
+Card ID: rm-20168-1
+Title: Sixth Amendment attachment and lesser-included offenses
+Signal: Offense-Specific Attachment
+Student move: Ask whether the questioned offense is the same under the elements test as the charged offense
+Tiny rule: The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test, including lesser-included offenses
+
+qa_checklist:
+All controlled values validated; three distractors each break one NOT_TRUE filter; confidence consistent with method_class.
+
+wrong_answer_recovery_paths:
+A: Show that labels do not determine attachment; use Blockburger/elements examples.
+C: Explain that the content and identity of the offense (elements test) control, not a single detail like weapon questioning.
+D: Clarify that the Sixth Amendment is offense-specific and covers same-offense/lesser-included scenarios.
+
+outline_mastery_map:
+Outline code: 00000000 (no verified outline mapping with provided resources)
+
+crossover_intersection_map:
+Adjacent learning: Blockburger same-offense analysis, Massiah deliberate elicitation, and Miranda distinctions.
+
+review_truth:
+The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test; deliberate elicitation about such offenses post-indictment without counsel/waiver violates the right.
+
+
+### 3. c3_annotation
+
+
+```json
+{
+  "question_id": "20168_caleb-theft",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "73030400",
+  "distilled_core_question": "Did post-indictment questioning deliberately elicit statements about an offense that is the same under the elements test as the charged offense?",
+  "review_truth": "The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test; deliberate elicitation post-indictment about such offenses without counsel or waiver violates the right.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "HEURISTIC_STRUCTURAL",
+    "tension_axis": "label_vs_elements_test",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "elements_test_check",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {"choice": "A", "filter_broken": "NOT_TRUE", "mold": "EAR_OVERCLAIM:extreme_of_range", "architecture": "wrong_frame"},
+      {"choice": "C", "filter_broken": "NOT_TRUE", "mold": "EAR_DISTORTION:half_truth", "architecture": "wrong_element"},
+      {"choice": "D", "filter_broken": "NOT_TRUE", "mold": "EAR_FALSITY:flat_misstatement", "architecture": "misstated_rule"}
+    ],
+    "analyzer_notes": {
+      "drift_audit": "No drift; variant re-skins name and preserves elements-test facts.",
+      "transformed_from": "20168",
+      "letter_map": "A→A, B→B, C→C, D→D"
+    },
+    "gold_keys": ["rule"],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+
+```json
+{
+  "question_id": "20168_caleb-theft",
+  "subject": "CRIMINAL",
+  "outline_code": "73030400",
+  "distilled_core_question": "Did post-indictment questioning deliberately elicit statements about an offense that is the same under the elements test as the charged offense?",
+  "review_truth": "The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test; deliberate elicitation post-indictment about such offenses without counsel or waiver violates the right.",
+  "traps": [
+    {"choice": "A", "mold": "EAR_OVERCLAIM", "why_attractive": "Labels feel determinative; students assume changing the label avoids constitutional limits.", "focus_group_pct": 28, "pct_provenance": "predicted"},
+    {"choice": "C", "mold": "EAR_DISTORTION", "why_attractive": "Students seize on a single detail (weapon) and miss the elements-based identity test.", "focus_group_pct": 20, "pct_provenance": "predicted"},
+    {"choice": "D", "mold": "EAR_FALSITY", "why_attractive": "Overgeneralizes constitutional reach; easy to correct with offense-specific examples.", "focus_group_pct": 18, "pct_provenance": "predicted"}
+  ],
+  "remediation_card": {"card_id": "rm-20168-1", "title": "Sixth Amendment attachment and lesser-included offenses", "signal": "Offense-Specific Attachment", "student_move": "Ask whether the questioned offense is the same under the elements test as the charged offense", "tiny_rule": "The Sixth Amendment attaches to the charged offense and offenses that are the same under the elements test, including lesser-included offenses"},
+  "red_zone_dimensions": ["elements_test","deliberate_elicitation"]
+}
+```
+
+### 5. program_intelligence
+
+
+```json
+{
+  "question_id": "20168_caleb-theft",
+  "subject": "CRIMINAL",
+  "outline_code": "73030400",
+  "distilled_core_question": "Did post-indictment questioning deliberately elicit statements about an offense that is the same under the elements test as the charged offense?",
+  "review_truth": "The Sixth Amendment's offense-specific right attaches to the charged offense and offenses that are the same under the elements test (including lesser-included offenses). Deliberate elicitation about the same offense without counsel or waiver violates the right.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "73030400",
+    "this_item_teaches": "The Sixth Amendment's offense-specific right attaches to the charged offense and offenses that are the same under the elements test (including lesser-included offenses). Deliberate elicitation about the same offense without counsel or waiver violates the right.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+Did post-indictment questioning deliberately elicit statements about an offense that is the same under the elements test as the charged offense?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+B
+
+### 99. Letter Map
+
+A→A, B→B, C→C, D→D
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+The Sixth Amendment's offense-specific right attaches to the charged offense and offenses that are the same under the elements test (including lesser-included offenses). Deliberate elicitation about the same offense without counsel or waiver violates the right.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

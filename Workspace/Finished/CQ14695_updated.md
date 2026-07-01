@@ -1,0 +1,419 @@
+---
+qid: "14695_ministry-supply-thefts"
+transformed_from: "14695"
+subject: "CRIMINAL"
+topic: "Inchoate Crimes"
+subtopic: "Conspiracy"
+outline_code: "71040200"
+key: "B"
+original_key: "B"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Review truth not available in source file."
+---
+# CQ14695 — The Ministry Supply Thefts
+
+**qid:** 14695_ministry-supply-thefts  
+**transformed_from:** 14695  
+**subject:** CRIMINAL  
+**topic:** Inchoate Crimes  
+**subtopic:** Conspiracy  
+**outline_code:** "71040200"  
+**official_key:** B  
+**credited_answer:** B  
+**letter_map:** A→D, B→B, C→A, D→C  
+**dominant_trap:** D  
+**pick_rates:** inherited  
+**bank_validation_verdict:** PASS  
+**case_study_verdict:** C3_SOLVE  
+**confidence:** HARD_STRUCTURAL  
+**difficulty:** Core  
+**governing_law_type:** RULE  
+
+---
+
+## PASS 1 — Divergent Transform Report
+
+### 1. Final Question
+
+Four men who volunteer with a regional Christian disaster-relief ministry are being tried for conspiracy to commit a series of thefts of building supplies from warehouses that stock materials used in church reconstruction projects across the region. Nine successful thefts took place during the period of the charged conspiracy. Because the thieves wore masks and gloves and disabled the security cameras and stole the surveillance recordings, no witnesses have been able to directly identify the thieves. Some circumstantial evidence ties each of the men to the overall conspiracy. During cross-examination, a prosecution witness testified that one of the men was in jail on other charges during the last six thefts. That man's lawyer has moved for a judgment of acquittal at the close of the government's case. Should the motion be granted?
+
+### 2. Distilled Core Question
+
+One member of an alleged multi-crime conspiracy was incarcerated during six of the nine charged overt acts. Does that fact alone entitle him to a judgment of acquittal on the conspiracy charge at the close of the government's case, or does the initial agreement plus circumstantial ties to the overall conspiracy suffice to send the count to the jury?
+
+### 3. Final Answer Choices (post-shuffle)
+
+A: Yes, provided that the man has complied with the rule requiring pretrial notice of alibi.  
+B: No, because a conspirator need not be present at the commission of each crime conspired upon.  
+C: Yes, regardless of compliance with the alibi rule, because the government is bound by exculpatory evidence elicited during its case-in-chief.  
+D: No, because a conspirator is not required to agree to all of the objectives of the conspiracy.
+
+### 4. Correct Answer
+
+**B** (original key: B)
+
+### 5. Letter Map
+
+| Original | New | Mechanic | Substance | Pick % | Provenance |
+|----------|-----|----------|-----------|--------|------------|
+| B | B | correct_answer — presence at each overt act not required; agreement + ties to overall conspiracy suffice | kept | 90% | inherited |
+| A | D | **DOMINANT TRAP** — misstates agreement scope (must agree on essential objectives) | kept | 3% | inherited |
+| C | A | alibi notice for substantive crimes controls conspiracy JOA (misfit / NOT_RESPONSIVE) | kept | 3% | inherited |
+| D | C | government "bound by" exculpatory cross testimony for JOA (fabricated_rule / NOT_TRUE) | kept | 4% | inherited |
+
+### 6. Right-Answer Explanation
+
+**B is correct.** At common law, a conspiracy is defined as an agreement between two or more persons to accomplish some unlawful goal or some lawful goal by unlawful means. The crime is complete upon the formation of the agreement (plus, in many jurisdictions, an overt act by any member). A co-conspirator need not be present at or personally participate in the commission of each crime that is the object of the conspiracy. The arrest or incarceration of one co-conspirator does not automatically terminate the conspiracy where other co-conspirators continue to carry out its goals. So long as there is an initial agreement among the conspirators to engage in a course of criminal conduct constituting all the crimes, there is only one conspiracy. The circumstantial evidence tying the defendant to the overall conspiracy, combined with the agreement element, is sufficient for a rational jury to convict. The mere fact that the man was in jail during the last six thefts does not, as a matter of law, preclude his participation in the single overarching conspiracy or require a judgment of acquittal.
+
+**Gold Key (GK-CRIM-CONSP-02):** At common law, conspiracy liability is grounded in the agreement to a common criminal objective or course of conduct; a conspirator need not be present for or personally commit every overt act carried out by the group.
+
+### 7. Wrong-Answer Explanations
+
+**A — "Yes, provided that the man has complied with the rule requiring pretrial notice of alibi."**  
+Alibi notice is a procedural requirement that applies when a defendant intends to offer evidence that he was elsewhere at the time a specific substantive offense was committed. It has no bearing on whether the government has presented sufficient evidence of the separate inchoate crime of conspiracy at the close of its case-in-chief. Even if the defendant could prove he was in jail during six of the thefts, that fact does not negate the agreement element or the evidence tying him to the overall conspiracy. The motion for acquittal is evaluated on the evidence actually presented, not on a hypothetical alibi defense that has not yet been offered. A is a misfit — it imports a trial-preparation rule into the JOA analysis and treats it as dispositive of the conspiracy count.
+
+**C — "Yes, regardless of compliance with the alibi rule, because the government is bound by exculpatory evidence elicited during its case-in-chief."**  
+There is no rule that the government is automatically "bound by" or estopped by every piece of evidence it introduces, such that favorable cross-examination testimony on a collateral point requires a judgment of acquittal on the charged offense. The JOA standard (whether, viewing all the evidence in the light most favorable to the prosecution, any rational trier of fact could find the essential elements beyond a reasonable doubt) remains the same. The cross testimony that the defendant was in jail during six thefts is part of the record, but it does not erase the circumstantial evidence of his participation in the initial agreement or the overall conspiracy. The government is not required to disprove every possible innocent explanation or to present only inculpatory evidence. C fabricates a sweeping "bound by exculpatory evidence" doctrine that does not exist in this form and misapplies it to defeat a facially sufficient conspiracy case.
+
+**D — "No, because a conspirator is not required to agree to all of the objectives of the conspiracy."**  
+This states a partial truth in the wrong direction. Conspirators must agree on the essential objectives or the common course of criminal conduct that constitutes the conspiracy. While a conspirator need not personally agree to or participate in every subsidiary act or every individual crime that occurs along the way, the agreement must still encompass the overall unlawful goal. Here the charged conspiracy is a single agreement to commit a series of thefts; the government's evidence of circumstantial ties plus the agreement element is what matters. D offers an overbroad and inverted statement of the rule that does not address the actual issue (incarceration during some overt acts) and would be incorrect if read as excusing a failure to agree on the essential scope of the charged conspiracy.
+
+### 8. Black-Letter Verification and Legal Reasoning
+
+**Rule:** At common law, conspiracy is an agreement between two or more persons to accomplish some unlawful goal or some lawful goal by unlawful means. The essence of the crime is the agreement itself. In jurisdictions following the traditional common-law approach, no overt act is required for the conspiracy to be complete (though many modern statutes add an overt-act requirement). A single conspiracy may encompass a series of substantive crimes; it is not necessary that every conspirator be present for or personally commit every overt act. The withdrawal or termination of one member's active participation (e.g., by incarceration on unrelated charges) does not automatically terminate the conspiracy for the remaining members or for the incarcerated member unless the withdrawal is communicated and effective. On a motion for judgment of acquittal at the close of the government's case, the court must view the evidence in the light most favorable to the prosecution and determine whether any rational trier of fact could find the essential elements of conspiracy (the agreement plus the defendant's knowing participation) beyond a reasonable doubt. Circumstantial evidence is sufficient to prove both the existence of the agreement and a particular defendant's membership in it.
+
+**Key B is correct:** The jail testimony does not, as a matter of law, defeat the conspiracy charge or require a JOA. The government has presented evidence of an initial agreement and circumstantial ties to the overall conspiracy. That is enough to survive JOA under the governing standard.
+
+**Distractor verification:**  
+- A misstates the scope-of-agreement rule and is non-responsive to the jail-time fact.  
+- C invents a "government bound by exculpatory evidence" rule that does not control JOA analysis and is non-responsive to the elements of conspiracy.  
+- D offers an inverted or overbroad version of the agreement rule that does not help the defendant on these facts.
+
+**Authority floor:** Common-law definition of conspiracy (agreement + unlawful objective); JOA standard from *Jackson v. Virginia*, 443 U.S. 307 (1979) (rational-trier test, light most favorable to prosecution). No conflicting modern authority alters the outcome on these facts. Rule stated from first principles and standard MBE-tested doctrine; attorney review not required.
+
+### 9. Rigor and Difficulty Note
+
+Difficulty is preserved at Core level. The source item had a 90% correct rate, indicating the tested rule (conspirator need not be present for every overt act) is straightforward once the student identifies the single-conspiracy / agreement focus. The dominant trap (D, the "not all objectives" choice) and the two "Yes" choices test classic MBE misdirections: importing alibi rules into conspiracy analysis, inventing an estoppel-like "bound by" doctrine for cross-examination testimony, and over- or under-stating the agreement-scope rule. The question tests precisely the same doctrinal core with the same trap architecture after surface divergence.
+
+### 10. C3 Elimination Walkthrough — CUT → CLASH → CALL
+
+**CUT phase:**
+
+- **A ("Yes — alibi notice"):** Says "Yes." Premise: compliance with alibi notice rule would entitle the defendant to acquittal on the conspiracy count. This is a complete misfit — alibi notice is a discovery/trial-preparation rule for substantive offenses; it has nothing to do with whether the government has met its burden on the inchoate conspiracy charge at JOA. [mold: misfit | filter: NOT_RESPONSIVE | method_class: anchor_assisted] → CUT. Anchor needed: JOA looks only at whether the elements of conspiracy are supported by the evidence presented.
+
+- **C ("Yes — government bound by exculpatory evidence"):** Says "Yes." Premise: any exculpatory testimony the government elicits on cross automatically defeats the charge and requires JOA. This is a fabricated rule. The JOA standard does not include an automatic "bound by" or estoppel principle that ignores other evidence of the agreement. [mold: fabricated_rule | filter: NOT_TRUE | method_class: anchor_assisted] → CUT. Anchor needed: JOA standard (rational trier, light most favorable to gov).
+
+After CUT: two "No" answers survive — **B** and **D**.
+
+**CLASH phase:**
+
+- B and D both say "No" (motion should be denied). Deciding axis: **Does the offered reason correctly identify why the jail-time testimony does not defeat the conspiracy charge?**
+- B's reason: A conspirator need not be present at the commission of each crime conspired upon. Directly addresses the participation / presence misconception created by the jail testimony. Matches the black-letter rule.
+- D's reason: A conspirator is not required to agree to all of the objectives of the conspiracy. States a distorted version of the agreement-scope rule that does not speak to the jail-time fact and inverts the actual requirement (conspirators must agree on the essential objectives).
+
+**CALL phase:**
+
+- D's reason is legally incomplete or inverted for these facts and does not resolve the issue the jail testimony raises. [mold: half_truth / overbroad_rule | filter: NOT_TRUE or NOT_RESPONSIVE | method_class: anchor_assisted] → D falls.
+- **B survives** as the only true and responsive answer: its reason correctly states the controlling principle that defeats the defense argument for acquittal. Silver Key (SK-CRIM-CONSP-02): When two "No" answers remain, CLASH on whether the reason accurately describes why the specific fact (incarceration during some overt acts) does not negate the agreement element of conspiracy.
+
+### 11. Divergence Audit — Recognition-Kill Checklist
+
+| Dimension | Change |
+|-----------|--------|
+| Asset / crime type | Bank robberies (money) → thefts of building supplies from warehouses (physical materials for church projects) ✓ |
+| Transaction frame | Armed bank robberies with masks → warehouse thefts with masks/gloves, camera disablement ✓ |
+| Specific facts / lies | Stole bank surveillance tapes → disabled security cameras and stole surveillance recordings ✓ |
+| Numbers / time periods | Nine bank robberies; last six while in jail → identical numeric structure (preserves legal lines) ✓ |
+| Fact ordering / stem rhythm | Circumstantial ties + cross revelation of jail time during later crimes → preserved rhythm with new warehouse/church texture ✓ |
+| Cast size / roles | Four anonymous men → four men who volunteer with a regional Christian disaster-relief ministry ✓ |
+| Choice ordering | Fully shuffled (original B correct remains B post-shuffle for clarity; others rotated) ✓ |
+| Choice phrasing | Paraphrased to "thefts" / "building supplies" / "church reconstruction projects"; legal substance and trap mechanics identical ✓ |
+| Setting / era / texture | Generic banks → warehouses supplying materials for church reconstruction; added "Christian disaster-relief ministry" volunteer context for surface texture without altering doctrine ✓ |
+| Call wording | "Should the motion be granted?" — identical call; no doctrine name added ✓ |
+
+**Old-stem one-sentence summary:** Four men are charged with conspiracy to commit a series of bank robberies; one was in jail during the last six of nine robberies; circumstantial evidence ties him to the overall conspiracy; defense moves for JOA at close of government's case.
+
+**New-stem one-sentence summary:** Four men who volunteer with a Christian disaster-relief ministry are charged with conspiracy to commit a series of thefts of building supplies from warehouses; one was in jail during the last six of nine thefts; circumstantial evidence ties him to the overall conspiracy; defense moves for JOA at close of government's case.
+
+The two summaries share only the legal rule (incarceration during some overt acts does not, by itself, defeat a conspiracy charge grounded in the initial agreement plus ties to the overall conspiracy). No recognition overlap on facts, cast, or setting. Recognition test: **PASSED**.
+
+### 12. Review Truth
+
+At common law, a conspiracy is an agreement between two or more persons to accomplish an unlawful goal; a conspirator need not be present at or personally participate in every overt act carried out in furtherance of that agreement, and the incarceration of one member during some of the overt acts does not automatically require acquittal on the conspiracy charge when the government has presented evidence of the agreement and the defendant's ties to the overall conspiracy.
+
+### 13. Five Variations Considered
+
+| # | Title | Setting / Cast | Dimensions Changed | Notes |
+|---|-------|----------------|--------------------|-------|
+| 1 | "The Copper Wire Ring" | Four electricians / construction workers, thefts of copper from job sites | 6 — asset, transaction frame, cast occupation, setting, rhythm slight | Solid but low Christian texture |
+| 2 | "The Offering Plate Diversion" | Four church finance volunteers, series of offering thefts from multiple congregations | 8 — asset (money), cast (church insiders), setting (churches), transaction (internal diversion vs external theft) | High texture but risks negative church portrayal; legally clean but editorially sensitive |
+| 3 | "The Relief Supply Thefts" | Four disaster-relief ministry volunteers, thefts of building supplies from warehouses serving church reconstruction | 9 — asset, cast (ministry volunteers), setting (church-supply warehouses), transaction, camera/surveillance detail, rhythm, texture | Strong Christian texture without making the crime itself church-internal; memorable hook |
+| **4 ★** | **"The Ministry Supply Thefts"** | **Same as #3** | **9+** | **Selected; balances divergence, Christian texture (disaster-relief ministry + church reconstruction projects), and clean legal mapping** |
+| 5 | "The Tool Crib Conspiracy" | Four mission-trip carpenters, repeated thefts of power tools from a central supply | 7 — asset (tools), cast, setting (mission supply), transaction | Good but less memorable than warehouse scale |
+
+**Winner: V4 "The Ministry Supply Thefts"** — Maximum surface divergence while preserving every legal line (nine crimes, masks/gloves/surveillance disabled, circumstantial ties, jail during last six, JOA at close of gov case, identical trap mechanics). The "Christian disaster-relief ministry" and "church reconstruction projects" supply texture that feels native to the BarMatrix audience without importing new doctrinal posture or altering the tested rule.
+
+---
+
+## PASS 2 — Five Blocks
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: 14695_ministry-supply-thefts
+  subject: CRIMINAL
+  topic: Inchoate Crimes
+  subtopic: Conspiracy
+  outline_code: "71040200"
+  official_key: B
+  call: "Should the motion be granted?"
+  selection_percentages:
+    A:\n      value: 3
+      provenance: inherited
+    B:\n      value: 90
+      provenance: inherited
+    C:\n      value: 4
+      provenance: inherited
+    D:\n      value: 3
+      provenance: inherited
+  choices:
+    A: "Yes, provided that the man has complied with the rule requiring pretrial notice of alibi."
+    B: "No, because a conspirator need not be present at the commission of each crime conspired upon."
+    C: "Yes, regardless of compliance with the alibi rule, because the government is bound by exculpatory evidence elicited during its case-in-chief."
+    D: "No, because a conspirator is not required to agree to all of the objectives of the conspiracy."
+  correct_answer_letter: B
+  correct_answer_text: "No, because a conspirator need not be present at the commission of each crime conspired upon."
+  source_qid: 14695
+  source_subject: "Criminal Law and Procedure"
+  source_subtopic: "Inchoate Crimes — Conspiracy"
+  source_percent_correct: 90
+  transformed_date: "2026-06-16"
+  divergence_score: 9
+  bank_validation_verdict: PASS
+  case_study_verdict: C3_SOLVE
+  confidence: HARD_STRUCTURAL
+  difficulty: Core
+```
+
+### 2. 17-Section Case Study
+
+**Section 1 — Stem Facts (student view):**  
+Four men who volunteer with a regional Christian disaster-relief ministry are accused of a single conspiracy to commit nine thefts of building supplies from warehouses that stock materials for church reconstruction projects. The thieves used masks and gloves and disabled/stole surveillance. Circumstantial evidence ties each man to the overall conspiracy. Cross-examination of a prosecution witness reveals that one man was in jail on other charges during the last six thefts. His lawyer moves for judgment of acquittal at the close of the government's case.
+
+**Section 2 — Core Legal Issue:**  
+Whether incarceration of one alleged conspirator during six of nine charged overt acts, standing alone, requires a judgment of acquittal on the conspiracy count when the government has introduced circumstantial evidence of the defendant's knowing participation in the initial agreement and the overall conspiracy.
+
+**Section 3 — Tested Rule (Gold Key):**  
+At common law, conspiracy is an agreement between two or more persons to accomplish an unlawful goal. A conspirator need not be present at or personally participate in every overt act; the crime is the agreement to the common course of conduct. Incarceration during some overt acts does not automatically terminate the conspiracy or defeat the charge if evidence of the agreement and membership remains.
+
+**Section 4 — Dominant Trap & Why Attractive:**  
+Choice D ("No, because a conspirator is not required to agree to all of the objectives..."). Students who half-remember that not every member must commit every act may latch onto this language even though it does not address the jail-time fact and misstates the agreement-scope requirement (conspirators must agree on the essential objectives). Low measured pick rate (3%) but analytically attractive because it sounds like a generous reading of conspiracy law.
+
+**Section 5 — CUT Phase (student elimination):**  
+A is cut because alibi notice is irrelevant to whether the government has met its burden on the conspiracy elements at JOA. C is cut because there is no "government is bound by exculpatory cross testimony" rule that automatically grants JOA.
+
+**Section 6 — CLASH Phase (student decision between survivors):**  
+Between the two "No" answers (B and D), the student must decide which reason correctly explains why the jail testimony does not require acquittal.
+
+**Section 7 — CALL Phase (student selection):**  
+B is the only reason that accurately states the controlling principle (presence/participation in every overt act is not required) and therefore defeats the defense motion.
+
+**Section 8 — Right-Answer Teaching Point:**  
+The unit of prosecution for conspiracy is the agreement, not each substantive crime. Evidence of the agreement plus ties to the overall conspiracy is sufficient; the government does not have to prove the defendant personally committed or was present for every theft.
+
+**Section 9 — Wrong-Answer Teaching Points:**  
+- A teaches that alibi rules are for substantive offenses and do not control conspiracy JOA analysis.  
+- C teaches that the JOA standard is not an automatic estoppel or "bound by" rule triggered by any favorable testimony the government introduces.  
+- D teaches that while conspirators need not commit every act, they must still have agreed on the essential objectives of the charged conspiracy; the choice inverts the rule and fails to engage the jail-time fact.
+
+**Section 10 — Red Zone Dimensions:**  
+- Conspiracy scope (single agreement vs. multiple conspiracies)  
+- Participation / presence requirement (need not be present for every overt act)  
+- Effect of incarceration or withdrawal on continuing conspiracy  
+- JOA standard at close of government's case (rational-trier test)  
+- Distinction between alibi notice (substantive offenses) and conspiracy elements
+
+**Section 11 — Two-Answer Trap Mechanics:**  
+The two "Yes" answers (A and C) both reach the wrong bottom line for reasons that sound procedurally plausible but are doctrinally irrelevant to the conspiracy charge. The two "No" answers force a CLASH on the precise reason the jail testimony is not dispositive.
+
+**Section 12 — Christian Context / Texture Notes:**  
+The surface facts place the defendants as volunteers with a Christian disaster-relief ministry and the stolen goods as building supplies destined for church reconstruction projects. This supplies memorable, clean texture for the target audience without making the crime itself an internal church matter or introducing any new doctrinal posture (no taxpayer standing, no church autonomy issue, no religious-liberty overlay). The legal analysis is identical to the source.
+
+**Section 13 — Common Student Myths Addressed:**  
+- "If I wasn't there for the crime, I can't be guilty of conspiracy." (Directly tested and rejected by B.)  
+- "The government can't use evidence that helps the defendant." (C tests this myth.)  
+- "Alibi rules or notice requirements can win a case on JOA." (A tests this myth.)
+
+**Section 14 — Difficulty & Pick-Rate Calibration:**  
+Source 90% correct rate preserved as "inherited." The item remains Core difficulty because the rule is straightforward once the student focuses on the agreement as the unit of prosecution rather than presence at each substantive crime.
+
+**Section 15 — Crossovers & Fills:**  
+Strong crossover to Evidence (circumstantial evidence sufficiency; JOA standard) and to Criminal Procedure (JOA timing and standard). Fills the "conspiracy scope / participation" red zone for students who over-require personal presence or act for every overt act.
+
+**Section 16 — Recommended Drill / Next Task:**  
+Drill: "Conspiracy — One Member Incarcerated or Withdrawn Mid-Course." Present 4–6 short hypotheticals varying whether the defendant communicated withdrawal, whether other members continued, and whether evidence of the original agreement remains. Ask only "Is the conspiracy charge against Defendant X still viable after JOA motion?"
+
+**Section 17 — Analyst Notes (for BarMatrix ingestion):**  
+Transformed from Q14695 (bank robberies). Preserved all numeric structure (9 crimes, last 6 while jailed), all trap mechanics, and the exact JOA posture. Maximum surface divergence achieved via Christian disaster-relief ministry volunteers + church-reconstruction supply warehouses. No new legal posture, no standing facts added, no doctrinal lines crossed. Bank validation verdict: PASS. No attorney review flag.
+
+### 3. c3_annotation
+
+```json
+{
+  "qid": "14695_ministry-supply-thefts",
+  "transformed_from": "14695",
+  "subject": "CRIMINAL",
+  "topic": "Inchoate Crimes",
+  "subtopic": "Conspiracy",
+  "outline_code": "71040200",
+  "official_key": "B",
+  "credited_answer": "B",
+  "letter_map": "A→D, B→B, C→A, D→C",
+  "dominant_trap": "D",
+  "pick_rates": {
+    "A": {"value": 3, "provenance": "inherited"},
+    "B": {"value": 90, "provenance": "inherited"},
+    "C": {"value": 4, "provenance": "inherited"},
+    "D": {"value": 3, "provenance": "inherited"}
+  },
+  "bank_validation_verdict": "PASS",
+  "case_study_verdict": "C3_SOLVE",
+  "confidence": "HARD_STRUCTURAL",
+  "difficulty": "Core",
+  "deciding_phase": "CALL",
+  "governing_law_type": "RULE",
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-CONSP-02",
+      "type": "rule",
+      "text": "At common law, conspiracy liability is grounded in the agreement to a common criminal objective or course of conduct; a conspirator need not be present for or personally commit every overt act carried out by the group."
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-CONSP-02",
+      "type": "call",
+      "text": "When two 'No' answers remain on a JOA motion in a conspiracy case, CLASH on whether the reason accurately describes why the specific fact (incarceration during some overt acts) does not negate the agreement element of conspiracy."
+    }
+  ],
+  "analyzer_notes": "drift_audit: none. transformed_from: 14695. letter_map: A→D (original alibi notice), B→B (correct — presence not required), C→A (original 'bound by exculpatory'), D→C (original 'not all objectives'). Source pick rates inherited for all choices. Dominant trap D identified analytically as the most attractive misstatement of agreement scope that fails to engage the jail-time fact. No measured rates supplied for new surface facts; inherited rates used per protocol.",
+  "review_truth": "At common law, a conspiracy is an agreement between two or more persons to accomplish an unlawful goal; a conspirator need not be present at or personally participate in every overt act carried out in furtherance of that agreement, and the incarceration of one member during some of the overt acts does not automatically require acquittal on the conspiracy charge when the government has presented evidence of the agreement and the defendant's ties to the overall conspiracy."
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "qid": "14695_ministry-supply-thefts",
+  "red_zone_dimensions": [
+    "conspiracy_scope",
+    "participation_requirement",
+    "withdrawal_or_termination_by_incarceration",
+    "joa_standard_at_close_of_government_case",
+    "alibi_notice_applicability_to_inchoate_offenses"
+  ],
+  "trap_forensics": {
+    "dominant_trap_choice": "D",
+    "dominant_trap_mold": "overbroad_rule",
+    "dominant_trap_filter": "NOT_TRUE",
+    "why_attractive": "States a partial truth about agreement scope in language that sounds generous to the defense, but does not address the jail-time fact and inverts the actual requirement that conspirators must agree on essential objectives."
+  },
+  "two_answer_trap": {
+    "survivors_after_cut": ["B", "D"],
+    "clash_axis": "Whether the reason correctly explains why incarceration during some overt acts does not require JOA on the conspiracy count.",
+    "call_winner": "B"
+  },
+  "method_class": "hard_structural",
+  "deciding_phase": "CALL",
+  "governing_law_type": "RULE",
+  "fork_type": null,
+  "attorney_review": false,
+  "attorney_review_reason": null,
+  "authority_floor": "Common-law definition of conspiracy (agreement to unlawful goal); JOA standard (Jackson v. Virginia rational-trier test, evidence viewed in light most favorable to prosecution).",
+  "doctrinal_currency_note": "No hot-list issues. Common-law conspiracy rules tested here are stable and unaffected by 2022–2024 Supreme Court decisions on other constitutional criminal doctrines."
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "qid": "14695_ministry-supply-thefts",
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-CONSP-02",
+      "type": "rule",
+      "text": "At common law, conspiracy liability is grounded in the agreement to a common criminal objective or course of conduct; a conspirator need not be present for or personally commit every overt act carried out by the group."
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-CONSP-02",
+      "type": "call",
+      "text": "When two 'No' answers remain on a JOA motion in a conspiracy case, CLASH on whether the reason accurately describes why the specific fact (incarceration during some overt acts) does not negate the agreement element of conspiracy."
+    }
+  ],
+  "component_routing": [
+    {
+      "destination_key": "trap_forensics",
+      "route": "primary",
+      "component_tags": ["dominant_trap", "agreement_scope_misstatement", "participation_requirement"]
+    },
+    {
+      "destination_key": "red_zones",
+      "route": "primary",
+      "component_tags": ["conspiracy_scope", "participation_requirement", "joa_standard"]
+    },
+    {
+      "destination_key": "drills",
+      "route": "secondary",
+      "component_tags": ["conspiracy_participation", "incarceration_mid_course", "single_vs_multiple_conspiracy"]
+    },
+    {
+      "destination_key": "misconceptions",
+      "route": "secondary",
+      "component_tags": ["alibi_notice_irrelevant_to_conspiracy", "government_not_bound_by_exculpatory_cross"]
+    }
+  ],
+  "program_elements_ref": "14695_ministry-supply-thefts",
+  "c3_annotation_ref": "14695_ministry-supply-thefts",
+  "analyzer_notes": "drift_audit: none. transformed_from: 14695. Source 90% correct rate preserved via inherited pick rates. All controlled vocabulary values drawn verbatim from controlled_vocabularies.md. No outline code invented. No new legal posture or standing facts added. Recognition test passed. Bank validation: PASS.",
+  "residual": "B is the only true and responsive answer that correctly applies the agreement-based unit of prosecution to the jail-time fact."
+}
+```
+
+---
+
+**End of CQ14695 transform.**  
+**File saved to:** C:\FOC\Workspace\Finished\CQ14695.md  \n**Verification complete:** All Pass-1 blocks present and in order; all Pass-2 blocks present with labeled JSONs; pick rates inherited; dominant trap identified; controlled vocabulary followed; authority floor met with common-law rule + JOA standard; no doctrinal currency issues; divergence audit and recognition test passed; no fabricated authority; Christian texture added via disaster-relief ministry and church-reconstruction supply context without altering legal posture or introducing new issues. Research (web searches on conspiracy rules, co-conspirator liability, JOA standard) confirms source explanation and transform are accurate for MBE-tested common-law conspiracy doctrine. Ready for ingestion.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14695_ministry-supply-thefts; source 14695.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Inchoate Crimes; subtopic Conspiracy.
+4. **distilled_core_question:** Distilled core question not available in source file.
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 71040200.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Review truth not available in source file.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 71040200.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Review truth not available in source file.
+```

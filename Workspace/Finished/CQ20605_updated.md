@@ -1,0 +1,1058 @@
+---
+qid: "20605_scripture_quiz_whisper"
+transformed_from: "20605"
+subject: "TORTS"
+topic: "Privacy"
+subtopic: "False light"
+outline_code: "62050402"
+key: "B"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "False light needs public-style publicity; a private one-listener accusation does not create false-light liability."
+---
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+Daniel first learned of Martha’s accusation when Martha later apologized to him. At a privately run Bible-character board-game tournament, Martha had pulled Lydia behind the prize table and falsely whispered, “Daniel is secretly swapping the Scripture-quiz answer cards.” Lydia kept the accusation to herself. Daniel sued Martha for false light.
+
+**Is Daniel likely to prevail on false light?**
+
+## 2. Distilled Core Question
+
+A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?
+
+## 3. Final answer choices, post-shuffle
+
+A. No, because false light requires commercial use of Daniel’s identity.
+B. No, because the accusation was not publicized to a broad enough audience.
+C. Yes, because the accusation cast Daniel in a false light.
+D. Yes, because false light and defamation are the same tort.
+
+## 5. Correct answer
+
+**B** — original key **C**.
+
+## 6. Letter Map
+
+| Original letter | New letter | Mechanic                                                                    | Substance | Pick rate                                       |
+| --------------- | ---------: | --------------------------------------------------------------------------- | --------- | ----------------------------------------------- |
+| A               |          C | wrong_element — false-impression-only                                       | kept      | null, predicted; no measured pick-rate supplied |
+| B               |          D | flat_misstatement — false light equals defamation                           | kept      | null, predicted; no measured pick-rate supplied |
+| C               |          B | correct_answer                                                              | kept      | null, predicted; no measured pick-rate supplied |
+| D               |          A | bait_doctrine — appropriation/commercial-use rule imported into false light | kept      | null, predicted; no measured pick-rate supplied |
+
+## 7. Full right-answer explanation
+
+**B is correct.** Martha made the accusation only to Lydia, in a private aside, and Lydia kept it to herself. Daniel has a false-light theory only if the false light was publicized to the public or to a broad enough audience. That publicity threshold is missing.
+
+**Gold Key:** False light needs public-style publicity. A private one-listener accusation is not enough, even if the statement is false and offensive.
+
+**Silver Key:** In a No/No pair, keep the No reason that tracks the decisive fact in the stem. Here the repeated fact is the private one-person communication, not commercial use.
+
+## 8. Full wrong-answer explanations
+
+**A.** The pull is that “commercial use of identity” sounds like a privacy-tort rule and gives a clean No answer. The breaker is the wrong privacy-tort home: commercial identity use points to appropriation, while this call asks false light.
+
+**C.** The pull is that the accusation really did make Daniel look dishonest. The breaker is the missing public-audience element; **Gold Key:** false light requires publicity, so “false impression” alone does not carry the claim.
+
+**D.** The pull is that false light and defamation often sit near each other because both can involve false statements. The breaker is the word “same”: false light has its own publicity and offensiveness structure, so treating it as identical to defamation imports the wrong rule.
+
+## 9. Full black-letter-law verification and legal reasoning
+
+The source row identifies QID 20605 as a Torts / Privacy / False light item with original key C, and its supplied rule reference states that false light requires widespread publicity; a private one-to-one false statement is insufficient. 
+
+The legal rule is unchanged. Restatement-style false light liability requires giving publicity to a matter concerning the plaintiff that places the plaintiff before the public in a false light, with offensiveness and knowledge/reckless-disregard components. ([Berkman Klein Center][1]) Cornell’s Wex summary likewise states that false light typically requires an intentionally or recklessly false statement made publicly, and distinguishes false light from defamation even though the two overlap. ([Legal Information Institute][2]) Publicity is not the same as mere publication to one third person; Restatement commentary distinguishes public communication from a communication to a single person or small group. ([Berkman Klein Center][3]) Choice A’s commercial-use theory belongs to the separate privacy tort of appropriation of name or likeness, not false light. ([Berkman Klein Center][1])
+
+Because the variation keeps the one-listener/private-communication fact and keeps the claim as false light, the credited outcome remains unchanged: Daniel does not prevail.
+
+## 10. Why the variation preserves rigor/difficulty
+
+The new stem keeps the tested element gate: false light fails for lack of publicity. It raises surface difficulty by placing the private whisper inside a public-feeling Christian game event, which tempts students to confuse “public setting” with legal publicity.
+
+## 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A.** Wrong-frame / bait-doctrine. It gives the right kind of No outcome but uses the wrong privacy tort. Commercial use belongs to appropriation, not false light.
+
+**CUT C.** Wrong-element. It proves only the false-impression piece. It does not answer the publicity threshold.
+
+**CUT D.** Flat misstatement. “Same tort” collapses two neighboring doctrines into one.
+
+**Residual B.** It is true and responsive once the Gold Key is applied. The stem gives one listener and no repeat.
+
+**CLASH.** Not needed after the anchor-assisted Cut.
+
+**CALL.** Not needed.
+
+## 12. Divergence Audit
+
+| Recognition-Kill dimension   | Change made / logged skip                                                                                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter       | Office work sabotage → Scripture-quiz answer cards at a Bible-character board-game tournament.                                                                 |
+| Transaction / activity frame | Workplace hierarchy → private game-event accusation. No transaction-law effect added.                                                                          |
+| Specific lie / fact          | “Coworker sabotaging your work” → “Daniel is swapping Scripture-quiz answer cards.” Same legal character: false accusation placing plaintiff in a false light. |
+| Numbers                      | No legal numbers in original; none added.                                                                                                                      |
+| Fact ordering and rhythm     | Variant starts with Daniel learning from the apology, then reveals the private whisper. Original began with the private statement.                             |
+| Cast size / roles            | Office Manager / Employee / Alex → Martha / Lydia / Daniel. Popular Bible names only.                                                                          |
+| Choice ordering              | Shuffled: original C moved to B.                                                                                                                               |
+| Choice phrasing              | Paraphrased while keeping legal substance.                                                                                                                     |
+| Setting / era / texture      | Office meeting → privately run Christian-themed board-game tournament.                                                                                         |
+| Call wording                 | Kept “likely to prevail on false light” because changing it would not improve divergence and could weaken MBE rigor.                                           |
+| Christian skin rules         | Christian-first texture used without church property, donation, tithe, First Amendment, or internal church governance facts.                                   |
+| Over-signal check            | Kept the necessary “Lydia kept it to herself” fact; did not write “there was no broad publicity.”                                                              |
+
+**Original one-sentence stem summary:** A manager privately accused Alex of workplace sabotage to one employee, who did not repeat it.
+**Variant one-sentence stem summary:** At a Bible-character board-game tournament, Martha privately accused Daniel of cheating with Scripture-quiz cards to Lydia, who kept it to herself.
+
+The summaries share the rule only: a false-light claim after a private one-person accusation.
+
+## 13. Review Truth
+
+False light needs public-style publicity; a private one-listener accusation does not create false-light liability.
+
+## 14. The 5 variations considered, with six-step transform trace
+
+### Step (1): Black-letter rule tested
+
+False light requires widespread publicity placing the plaintiff in a false or misleading light. A private one-to-one statement is not enough.
+
+### Step (2): Invariant layer
+
+* Rule: false light publicity threshold.
+* Issue: whether the plaintiff can prevail on false light after one private accusation.
+* Credited outcome: No.
+* Correct answer substance: no broad publicity.
+* Distractor mechanics:
+
+  * False impression only.
+  * False light identical to defamation.
+  * Commercial-use / appropriation wrong-frame.
+* Array geometry: 2 Yes / 2 No; one correct No, one wrong No, two wrong Yes.
+* Call function: plaintiff likely to prevail.
+
+### Step (3): Five Christian variations
+
+| Candidate                                 | Setting / cast                                                       | Exact preserved issue                                    | Why memorable                                                            | Legal risks                                                                                | Divergence score                                                                   |
+| ----------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Recommended: Scripture Quiz Card Swap** | Private Bible-character board-game tournament; Martha, Lydia, Daniel | False-light publicity after one private false accusation | Scripture-quiz cheating accusation is vivid and far from office sabotage | Public-feeling event could tempt publicity confusion, but private aside/no repeat controls | **9/10** — kills asset, roles, setting, fact rhythm, lie content, and choice order |
+| Proverbs Bake-Off Honey Rumor             | Private Proverbs-themed bake-off; Naomi, Mary, Ruth                  | One private false accusation not repeated                | Recipe sabotage / watered honey is concrete                              | Food-sale facts could distract if not kept as a hobby event                                | 8/10                                                                               |
+| Armor of God Costume Closet               | Private Christian costume contest; Esther, John, Paul                | One private false accusation not repeated                | Costume-piece theft accusation is visual                                 | Theft wording may pull toward defamation too strongly                                      | 8/10                                                                               |
+| Hymn Lyric Binder Whisper                 | Private hymn-history club; Stephen, Ruth, Hannah                     | One private false accusation not repeated                | Hidden hymn-binder rumor is memorable                                    | Choir/church flavor must be kept private, not church-internal                              | 7/10                                                                               |
+| Fishers of Men Kayak Rope Rumor           | Private Christian camp activity; Barnabas, Timothy, Peter            | One private false accusation not repeated                | Cut kayak ropes is dramatic                                              | Camp / safety facts may add negligence clutter                                             | 7/10                                                                               |
+
+### Step (4): Distractor policy audit
+
+No measured selection percentages were supplied. No weak-distractor swap was performed. All original mechanics were preserved.
+
+### Step (5): Final recommendation
+
+The Scripture Quiz Card Swap version won because it changes the setting, roles, object, lie, rhythm, and texture while keeping the identical false-light publicity issue.
+
+### Step (6): Shuffle + lock
+
+Original C moved to new B. The post-shuffle key is **B** across all blocks.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+## Block 1 — Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20605_scripture_quiz_whisper"
+  transformed_from: "20605"
+  internal_id: "TR-317"
+  subject: "TORTS"
+  subject_display: "Torts"
+  topic: "Privacy"
+  subtopic: "False light"
+  outline_code: "62050402"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for original mechanic."
+    B:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for original mechanic."
+    C:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for original mechanic."
+    D:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for original mechanic."
+  official_key: "B"
+  original_official_key: "C"
+  call: "Is Daniel likely to prevail on false light?"
+  choices:
+    A: "No, because false light requires commercial use of Daniel's identity."
+    B: "No, because the accusation was not publicized to a broad enough audience."
+    C: "Yes, because the accusation cast Daniel in a false light."
+    D: "Yes, because false light and defamation are the same tort."
+
+transform_provenance:
+  transformed_from: "20605"
+  variant_slug: "scripture_quiz_whisper"
+  original_key_letter: "C"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "flat_misstatement"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "A"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A manager privately accused Alex of workplace sabotage to one employee, who did not repeat it."
+    variant_stem_one_sentence: "At a Bible-character board-game tournament, Martha privately accused Daniel of cheating with Scripture-quiz cards to Lydia, who kept it to herself."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "activity_frame"
+      - "specific_lie"
+      - "fact_ordering"
+      - "cast_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "numbers"
+        reason: "No legal numbers existed in the original."
+      - dimension: "call_wording"
+        reason: "Kept likely-to-prevail call to preserve MBE rigor."
+
+source_stack:
+  - "BarMatrix row 20605: QID, subject, topic, subtopic, stem, call, choices, original key, explanations, rule reference."
+  - "Controlled vocabularies from controlled_vocabularies.md."
+  - "Universal C3 lessons: TRUE/RESPONSIVE, CUT/CLASH/CALL, Issue-Sense, anchor deck, calibration."
+  - "Lawyer-confirmation authority: Restatement false light and publicity doctrine."
+
+student_access_contract:
+  controlling_test: "Could a student with only C3 lessons and taught Gold Keys identify the problem without outside doctrine?"
+  allowed_universal_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 Cut -> Clash -> Call"
+    - "Lesson 7 Predict before you peek"
+    - "Lesson 8 Not-responsive molds"
+    - "Lesson 11 Bait architecture"
+    - "Lesson 12 Anchor deck"
+    - "Lesson 13 Calibration"
+  taught_gold_keys:
+    - "GK-TORTS-FALSE-LIGHT-PUBLICITY-01"
+    - "GK-TORTS-PRIVACY-TORT-HOMES-02"
+  taught_silver_keys:
+    - "SK-TORTS-FALSE-LIGHT-NO-PAIR-01"
+  access_limit: "No untaught tort outline may be used in the student-facing path."
+
+stem_parse:
+  parties:
+    plaintiff: "Daniel"
+    defendant: "Martha"
+    listener: "Lydia"
+  claim: "false light"
+  procedural_posture: "likely-to-prevail civil tort call"
+  facts:
+    - "Martha falsely accused Daniel of swapping Scripture-quiz answer cards."
+    - "The accusation was whispered privately to Lydia."
+    - "Lydia kept the accusation to herself."
+    - "Daniel learned when Martha later apologized."
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Defamation overlap"
+    - "Appropriation/commercial-use privacy tort"
+
+trigger_facts:
+  - fact: "private whisper to one listener"
+    access_label: "stem_visible"
+    c3_use: "points to the publicity threshold"
+  - fact: "listener kept it to herself"
+    access_label: "stem_visible"
+    c3_use: "blocks broad-audience publicity"
+  - fact: "false cheating accusation"
+    access_label: "stem_visible"
+    c3_use: "makes false-impression distractor attractive but not sufficient"
+  - fact: "false light claim"
+    access_label: "call_visible"
+    c3_use: "keeps the analysis in the false-light lane, not defamation or appropriation"
+
+c3_routing:
+  subject_fit: "Torts privacy = privacy-tort element gate + neighboring-tort wrong-frame check."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-high"
+  tension_axis: "publicity threshold vs false-impression-only / wrong privacy-tort frames"
+  call_heuristic: null
+
+answer_array:
+  geometry: "2 Yes / 2 No; one correct No, one wrong No, two wrong Yes"
+  key: "B"
+  array_notes:
+    - "A and B are a No/No pair; only B gives the false-light reason tied to the stem fact."
+    - "C and D are Yes distractors that over-credit falsity or doctrine overlap."
+
+choice_walkthroughs:
+  A:
+    answer_text: "No, because false light requires commercial use of Daniel's identity."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "answer_to_different_question"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "wrong privacy-tort home"
+    c3_signal: "The choice says No but gives an appropriation-style reason, not a false-light publicity reason."
+    lawyer_confirmation: "Commercial identity use is an appropriation/right-of-publicity concept; false light turns on publicity placing the plaintiff in a false light."
+  B:
+    answer_text: "No, because the accusation was not publicized to a broad enough audience."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "true and responsive residual"
+    c3_signal: "This choice uses the exact stem facts: one private listener and no repeat."
+    lawyer_confirmation: "False light requires publicity; a private one-listener accusation is insufficient."
+  C:
+    answer_text: "Yes, because the accusation cast Daniel in a false light."
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "attractive_wrong_answer"
+      - "exception_omitted"
+    method_class: "anchor_assisted"
+    student_label: "false-impression-only"
+    c3_signal: "The choice proves the tempting element but skips the audience gate."
+    lawyer_confirmation: "A false or misleading impression is not enough without false-light publicity."
+  D:
+    answer_text: "Yes, because false light and defamation are the same tort."
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "common_student_myth"
+      - "misstated_rule"
+      - "sounds_lawyerly"
+    method_class: "anchor_assisted"
+    student_label: "neighboring tort collapse"
+    c3_signal: "The word same is the danger word; the Gold Key keeps false light separate from defamation."
+    lawyer_confirmation: "False light overlaps with defamation but has distinct elements, including publicity and offensiveness."
+
+residual_answer:
+  choice: "B"
+  answer_text: "No, because the accusation was not publicized to a broad enough audience."
+  why_true: "The Gold Key supplies the publicity threshold."
+  why_responsive: "It answers whether Daniel prevails on false light using the private one-listener facts."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "One listener plus no repeat is the decisive fact."
+      source: "stem_visible"
+      status: "allowed"
+    - claim: "Choice A is a wrong privacy-tort home."
+      source: "Gold Key"
+      status: "allowed"
+    - claim: "Choice C gives only a partial element."
+      source: "Gold Key + stem facts"
+      status: "allowed"
+    - claim: "Choice D collapses false light and defamation."
+      source: "Gold Key"
+      status: "allowed"
+  quarantined_lawyer_claims:
+    - "Restatement (Second) of Torts §652E"
+    - "Restatement publicity distinction between public communication and single-person publication"
+    - "Appropriation as a separate privacy tort"
+  drift_audit: "No lawyer-only rule is presented as pure structure."
+
+gold_keys:
+  - id: "GK-TORTS-FALSE-LIGHT-PUBLICITY-01"
+    statement: "False light needs publicity to the public or a broad audience. A private one-listener accusation is not enough, even if it is false."
+    type: "threshold"
+    unlocks: "private-whisper false-light trap"
+    trigger: "false light claim + one private listener + no repeat"
+    tested_choice: "C"
+    authority: "Restatement (Second) of Torts §652E; Restatement publicity commentary."
+    last_minute_review: true
+  - id: "GK-TORTS-PRIVACY-TORT-HOMES-02"
+    statement: "Commercial use of a person's identity is appropriation, not false light. Do not borrow the neighboring privacy tort's element."
+    type: "distinction"
+    unlocks: "commercial-use wrong-frame trap"
+    trigger: "false light choice using identity, likeness, or commercial use"
+    tested_choice: "A"
+    authority: "Restatement (Second) of Torts §652C and §652E."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-FALSE-LIGHT-NO-PAIR-01"
+    statement: "When two answers say No, keep the No reason that matches the stem's decisive fact. Here, private audience beats commercial-use vocabulary."
+    type: "trap_spotting"
+    navigates: "No/No pair between false-light publicity and appropriation wrong-frame"
+    trigger: "two No choices in a privacy-tort element question"
+    tested_choice: "A"
+    outline_code: "62050402"
+    last_minute_review: true
+
+remediation:
+  card_id: "TOR-ANCHOR-FALSE-LIGHT-PUBLICITY"
+  title: "False light publicity gate"
+  signal: "False-light claim after a private accusation."
+  student_move: "Ask whether the matter reached the public or a broad audience."
+  tiny_rule: "One private listener is not false-light publicity."
+  trap: "Treating falsity or defamation overlap as enough."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?"
+review_truth: "False light needs public-style publicity; a private one-listener accusation does not create false-light liability."
+
+case_study_output:
+  final_student_script: "False light. Private whisper to one person. Gold Key: false light needs publicity. Cut commercial-use as the wrong privacy tort, cut false-impression-only as missing publicity, cut defamation-same as a false collapse. B survives."
+  case_study_verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  rule_substance_unchanged: true
+  credited_outcome_unmoved: true
+  answer_array_geometry_preserved: true
+  no_clutter_doctrine_added: true
+  choices_shuffled: true
+  post_shuffle_key_consistent: true
+  controlled_vocab_checked: true
+  pick_rate_honesty: "No measured pick rates supplied; all rates emitted as null/predicted."
+  bank_validation_verdict: "PASS"
+
+analytics_hooks:
+  transformed_from: "20605"
+  letter_map: "A->C; B->D; C->B; D->A"
+  drift_audit: "Anchor-dependent false-light element is taught as Gold Key, not pure structure."
+  outline_code: "62050402"
+  component_routing:
+    - "Gold Key drill: false light publicity"
+    - "Issue-Sense drill: wrong privacy-tort home"
+    - "Calibration drill: anchor-assisted Cut"
+```
+
+## Block 2 — 17-section student case study
+
+### program_frame
+
+Subject: Torts. Topic: Privacy. Subtopic: False light.
+This is not a full torts outline. It is an element-gate item with a privacy-tort wrong-frame trap.
+
+### student_access_test
+
+The student cannot derive the false-light publicity threshold from grammar alone. The item therefore uses Gold Keys. Once those Gold Keys are taught, the choices become clean.
+
+Allowed path:
+
+* Use the stem facts: one private listener, no repeat.
+* Use the Gold Key: false light needs broad publicity.
+* Use the wrong-frame Gold Key: commercial identity use belongs to appropriation, not false light.
+* Do not import a full privacy outline.
+
+### question_data
+
+**Stem:** Daniel first learned of Martha’s accusation when Martha later apologized to him. At a privately run Bible-character board-game tournament, Martha had pulled Lydia behind the prize table and falsely whispered, “Daniel is secretly swapping the Scripture-quiz answer cards.” Lydia kept the accusation to herself. Daniel sued Martha for false light.
+
+**Call:** Is Daniel likely to prevail on false light?
+
+**Choices:**
+
+A. No, because false light requires commercial use of Daniel’s identity.
+B. No, because the accusation was not publicized to a broad enough audience.
+C. Yes, because the accusation cast Daniel in a false light.
+D. Yes, because false light and defamation are the same tort.
+
+### distilled_core_question
+
+A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?
+
+### call_and_prediction
+
+Call: Will the plaintiff win false light?
+
+Prediction after Gold Key: No. The accusation was false, but it was not publicized to a broad audience.
+
+Adjacent-call traps:
+
+* Defamation.
+* Appropriation / commercial use.
+* General “false impression” intuition.
+
+### trigger_facts
+
+| Fact                           | Why it matters                                                    |
+| ------------------------------ | ----------------------------------------------------------------- |
+| Martha whispered only to Lydia | One listener.                                                     |
+| Lydia kept it to herself       | No broad spread.                                                  |
+| Daniel learned through apology | Confirms no public path in the stem.                              |
+| The claim is false light       | Keeps the answer in false light, not defamation or appropriation. |
+
+### governing_c3_lane
+
+**Lane:** Anchor-assisted CUT.
+
+The structure points toward the private-audience fact. The rule that makes the fact decisive is a Gold Key, not pure structure.
+
+### choice_by_choice_walkthrough
+
+#### A. No, because false light requires commercial use of Daniel’s identity.
+
+1. **Student-accessible C3 signal:** This answer says No, but its reason is not tied to the private-audience facts. It uses commercial identity vocabulary.
+2. **Student label:** Wrong privacy-tort home; `bait_doctrine`.
+3. **What a true/responsive version would look like:** “No, because the accusation was not publicized to the public or a broad audience.”
+4. **Lawyer confirmation:** Commercial identity use belongs to appropriation / right-of-publicity reasoning, not the false-light publicity element.
+
+#### B. No, because the accusation was not publicized to a broad enough audience.
+
+1. **Student-accessible C3 signal:** This answer uses the exact fact the stem gives: private whisper to one person, no repeat.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** False light requires publicity; the private one-listener communication fails that element.
+
+#### C. Yes, because the accusation cast Daniel in a false light.
+
+1. **Student-accessible C3 signal:** This answer grabs the attractive false-impression fact but skips the public-audience gate.
+2. **Student label:** False-impression-only; `wrong_element`.
+3. **What a true/responsive version would look like:** “Yes, if the accusation had been publicized broadly enough and the other false-light elements were met.”
+4. **Lawyer confirmation:** False impression is not enough without publicity.
+
+#### D. Yes, because false light and defamation are the same tort.
+
+1. **Student-accessible C3 signal:** “Same” is the danger word. The choice collapses neighboring torts.
+2. **Student label:** Neighboring-tort collapse; `flat_misstatement`.
+3. **What a true/responsive version would look like:** “False light overlaps with defamation, but it has its own publicity requirement.”
+4. **Lawyer confirmation:** False light and defamation overlap but are not identical; false light has distinct publicity/offensiveness elements.
+
+### residual_answer
+
+**B** survives. It is the only answer that gives the correct No result for the fact that matters: no broad publicity.
+
+### legal_leak_audit
+
+Student-accessible:
+
+* One listener is visible in the stem.
+* No repeat is visible in the stem.
+* “Commercial use” is a wrong-frame signal once the privacy-tort Gold Key is taught.
+* “False impression” is only a partial element once the publicity Gold Key is taught.
+
+Quarantined:
+
+* Restatement section numbers.
+* Jurisdictional recognition of false light.
+* Detailed differences between defamation and false light.
+
+Drift audit: All doctrine that is not visible from the stem or answer structure is routed through Gold Key or lawyer confirmation.
+
+### final_student_script
+
+False light. The accusation was private: Martha told Lydia only, and Lydia kept it to herself. Gold Key: false light needs broad publicity. A is the wrong privacy tort. C proves only false impression. D wrongly says false light and defamation are the same. B survives.
+
+### remediation_card
+
+**Card:** TOR-ANCHOR-FALSE-LIGHT-PUBLICITY
+**Signal:** False-light claim after one private accusation.
+**Student move:** Ask, “Did this reach the public or a broad audience?”
+**Tiny rule:** One private listener is not enough.
+**Trap:** Treating falsity as enough.
+
+### Gold Key(s)
+
+**GK-TORTS-FALSE-LIGHT-PUBLICITY-01**
+False light needs publicity to the public or a broad audience. A private one-listener accusation is not enough, even if it is false.
+
+**GK-TORTS-PRIVACY-TORT-HOMES-02**
+Commercial use of a person’s identity is appropriation, not false light. Do not borrow the neighboring privacy tort’s element.
+
+### Silver Key(s)
+
+**SK-TORTS-FALSE-LIGHT-NO-PAIR-01**
+When two answers say No, keep the No reason that matches the stem’s decisive fact. Here, private audience beats commercial-use vocabulary.
+
+### qa_checklist
+
+* Key letter is B in every block.
+* Original key C mapped to new B.
+* No original letters used outside provenance.
+* No measured pick rates invented.
+* Three distractors each break exactly one filter.
+* Gold Keys used because the item is anchor-dependent.
+* Bank verdict: PASS.
+
+### wrong_answer_recovery_paths
+
+| Choice | Student error                                     | Recovery                                                        |
+| ------ | ------------------------------------------------- | --------------------------------------------------------------- |
+| A      | Picks the No answer with a privacy-sounding term. | Separate privacy tort homes before choosing between No answers. |
+| C      | Treats falsity as enough.                         | Run the Gold Key: false light needs publicity.                  |
+| D      | Treats false light as defamation.                 | Watch absolute merger words like “same” or “identical.”         |
+
+### outline_mastery_map
+
+Placement: **62050402 — Torts > Other Torts > Defamation, Privacy, and Reputation Torts > Invasion of privacy.**
+
+This item teaches the false-light publicity threshold. It sits next to defamation and appropriation but should not collapse into either.
+
+### crossover_intersection_map
+
+* **Torts / Defamation:** overlap trap; not identical.
+* **Torts / Appropriation:** commercial-use wrong-frame trap.
+* **C3 Lesson 8:** bait-doctrine and wrong-element.
+* **C3 Lesson 12:** anchor escalation.
+* **C3 Lesson 13:** anchor-assisted confidence.
+
+### review_truth
+
+False light needs public-style publicity; a private one-listener accusation does not create false-light liability.
+
+## Block 3 — `c3_annotation`
+
+```json
+{
+  "question_id": "20605_scripture_quiz_whisper",
+  "subject": "TORTS",
+  "credited_answer": "B",
+  "outline_code": "62050402",
+  "distilled_core_question": "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?",
+  "review_truth": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "publicity threshold vs false-impression-only and wrong privacy-tort frames",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium-high",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-PRIVACY-TORT-HOMES-02",
+        "explanation": "This choice imports the commercial-use element from appropriation rather than answering the false-light publicity call."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-TORTS-FALSE-LIGHT-PUBLICITY-01",
+        "explanation": "This choice proves only the false-impression element and skips the publicity gate."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-FALSE-LIGHT-PUBLICITY-01",
+        "explanation": "This choice collapses false light and defamation into the same tort."
+      }
+    ],
+    "analyzer_notes": "drift_audit: anchor-dependent false-light publicity rule taught as Gold Key, not pure structure; transformed_from: 20605; letter_map: A->C, B->D, C->B, D->A; pick_rates: no measured source percentages supplied, all null/predicted; bank_validation_verdict: PASS",
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-FALSE-LIGHT-PUBLICITY-01",
+        "type": "threshold",
+        "statement": "False light needs publicity to the public or a broad audience. A private one-listener accusation is not enough, even if it is false.",
+        "tested_choice": "C"
+      },
+      {
+        "id": "GK-TORTS-PRIVACY-TORT-HOMES-02",
+        "type": "distinction",
+        "statement": "Commercial use of a person's identity is appropriation, not false light. Do not borrow the neighboring privacy tort's element.",
+        "tested_choice": "A"
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-FALSE-LIGHT-NO-PAIR-01",
+        "type": "trap_spotting",
+        "statement": "When two answers say No, keep the No reason that matches the stem's decisive fact. Here, private audience beats commercial-use vocabulary.",
+        "tested_choice": "A"
+      }
+    ]
+  }
+}
+```
+
+## Block 4 — `program_elements`
+
+```json
+{
+  "question_id": "20605_scripture_quiz_whisper",
+  "subject": "TORTS",
+  "outline_code": "62050402",
+  "distilled_core_question": "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?",
+  "review_truth": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+  "tension": {
+    "axis": "false-light publicity vs neighboring privacy/defamation frames",
+    "resolving_fact": "Martha whispered only to Lydia, and Lydia kept it to herself."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice is attractive because it says No and uses a real privacy-sounding commercial-use concept. The breaker is that commercial identity use belongs to appropriation, not the false-light publicity call.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The choice is attractive because the accusation really did make Daniel look dishonest. The breaker is that false impression alone skips the broad-publicity threshold.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "flat_misstatement",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice is attractive because false light and defamation both involve false statements and often appear together. The breaker is that they are not identical, and false light has its own publicity gate.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "TOR-ANCHOR-FALSE-LIGHT-PUBLICITY",
+    "title": "False light publicity gate",
+    "signal": "False-light claim after a private accusation.",
+    "student_move": "Ask whether the matter reached the public or a broad audience.",
+    "tiny_rule": "One private listener is not false-light publicity.",
+    "trap": "Treating falsity or defamation overlap as enough.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "privacy-tort neighbor confusion",
+    "false-impression-only answer",
+    "No/No pair with one wrong reason",
+    "defamation overlap"
+  ]
+}
+```
+
+## Block 5 — `program_intelligence`
+
+```json
+{
+  "question_id": "20605_scripture_quiz_whisper",
+  "subject": "TORTS",
+  "outline_code": "62050402",
+  "distilled_core_question": "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?",
+  "review_truth": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees a No answer and a real privacy-law phrase, then stops comparing the reason to the call.",
+      "skipped_move": "wrong-frame check",
+      "recovery_step": "Ask whether the reason belongs to false light or to a neighboring privacy tort."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student locks onto the false accusation and treats false impression as the whole claim.",
+      "skipped_move": "element gate check",
+      "recovery_step": "Run the Gold Key: false light needs broad publicity."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student remembers overlap between false light and defamation and accepts the merger word.",
+      "skipped_move": "absolute identity check",
+      "recovery_step": "Treat 'same' and 'identical' as danger words when two neighboring torts are being collapsed."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "false-light publicity threshold",
+      "prompt": "A false accusation is made privately to one person and not repeated. False light?",
+      "answer": "No; no public-style publicity."
+    },
+    {
+      "drill_type": "Wrong-frame sort",
+      "target_skill": "privacy tort homes",
+      "prompt": "Commercial use of name or likeness belongs to which privacy tort home?",
+      "answer": "Appropriation, not false light."
+    },
+    {
+      "drill_type": "Wrong-element cut",
+      "target_skill": "false-impression-only trap",
+      "prompt": "Choice says yes because the statement created a false impression. What element is missing?",
+      "answer": "Publicity to the public or a broad audience."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "false_light_publicity",
+      "privacy_tort_wrong_frame",
+      "false_impression_only",
+      "defamation_overlap"
+    ],
+    "misconception_tags": [
+      "falsity_is_enough",
+      "false_light_equals_defamation",
+      "commercial_use_required_for_all_privacy_torts"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 8 Not-responsive molds",
+    "Lesson 11 Bait architecture",
+    "Lesson 12 Anchor deck",
+    "Lesson 13 Calibration"
+  ],
+  "crossovers": [
+    {
+      "subject_area": "Torts / Defamation",
+      "intersection": "False statements overlap, but false light is not identical to defamation."
+    },
+    {
+      "subject_area": "Torts / Appropriation",
+      "intersection": "Commercial identity use belongs to appropriation, not false light."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-FALSE-LIGHT-PUBLICITY-01",
+      "type": "threshold",
+      "statement": "False light needs publicity to the public or a broad audience. A private one-listener accusation is not enough, even if it is false.",
+      "unlocks": "private-whisper false-light trap",
+      "trigger": "false light claim + one private listener + no repeat",
+      "tested_choice": "C",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-TORTS-PRIVACY-TORT-HOMES-02",
+      "type": "distinction",
+      "statement": "Commercial use of a person's identity is appropriation, not false light. Do not borrow the neighboring privacy tort's element.",
+      "unlocks": "commercial-use wrong-frame trap",
+      "trigger": "false light choice using identity, likeness, or commercial use",
+      "tested_choice": "A",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-FALSE-LIGHT-NO-PAIR-01",
+      "type": "trap_spotting",
+      "statement": "When two answers say No, keep the No reason that matches the stem's decisive fact. Here, private audience beats commercial-use vocabulary.",
+      "navigates": "No/No pair between false-light publicity and appropriation wrong-frame",
+      "trigger": "two No choices in a privacy-tort element question",
+      "tested_choice": "A",
+      "outline_code": "62050402",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "62050402 — Torts > Other Torts > Defamation, Privacy, and Reputation Torts > Invasion of privacy",
+    "this_item_teaches": "False-light publicity threshold and privacy-tort wrong-frame discrimination.",
+    "fills": [
+      "False light is not satisfied by a private accusation to one listener.",
+      "Appropriation/commercial-use reasoning does not answer a false-light call."
+    ],
+    "adjacent_to_master": [
+      "Defamation",
+      "Appropriation of name or likeness",
+      "Public disclosure of private facts"
+    ]
+  }
+}
+```
+
+[1]: https://cyber.harvard.edu/wseltzer/False_Light_and_Publicity?utm_source=chatgpt.com "False Light and Publicity - SeltzerWiki"
+[2]: https://www.law.cornell.edu/wex/false_light?utm_source=chatgpt.com "false light | Wex | US Law | LII / Legal Information Institute"
+[3]: https://cyber.harvard.edu/privacy/Privacy_R2d_Torts_Sections.htm?utm_source=chatgpt.com "Restatement of the Law, Second, Torts, § 652"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20605_scripture_quiz_whisper"
+  question_id: "20605_scripture_quiz_whisper"
+  subject: "TORTS"
+  topic: "Privacy"
+  subtopic: "False light"
+  outline_code: "62050402"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "20605"
+  variant_slug: "scripture_quiz_whisper"
+  original_key_letter: "C"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?"
+review_truth: "False light needs public-style publicity; a private one-listener accusation does not create false-light liability."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20605_scripture_quiz_whisper; source 20605.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject TORTS; topic Privacy; subtopic False light.
+4. **distilled_core_question:** A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 62050402.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** False light needs public-style publicity; a private one-listener accusation does not create false-light liability.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 62050402.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** False light needs public-style publicity; a private one-listener accusation does not create false-light liability.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20605_scripture_quiz_whisper",
+  "subject": "TORTS",
+  "credited_answer": "B",
+  "outline_code": "62050402",
+  "distilled_core_question": "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?",
+  "review_truth": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20605; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20605_scripture_quiz_whisper",
+  "subject": "TORTS",
+  "outline_code": "62050402",
+  "distilled_core_question": "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?",
+  "review_truth": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20605",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20605_scripture_quiz_whisper",
+  "subject": "TORTS",
+  "outline_code": "62050402",
+  "distilled_core_question": "A defendant falsely accused the plaintiff to one person in private; that person did not repeat it. Can the plaintiff win false light?",
+  "review_truth": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "62050402",
+    "this_item_teaches": "False light needs public-style publicity; a private one-listener accusation does not create false-light liability.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```
