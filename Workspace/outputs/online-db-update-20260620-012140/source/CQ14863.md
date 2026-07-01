@@ -1,0 +1,594 @@
+---
+qid: 14863_grace_wings_ministry_plane
+transformed_from: "14863"
+subject: EVIDENCE
+subject_display: Evidence
+topic: Privileges and Other Policy Exclusions
+subtopic: Liability insurance
+outline_code: "35030304"
+selection_percentages:
+  A:\n    value: 1
+    provenance: inherited
+    source_mechanic: best evidence misapplied to existence testimony
+  B:\n    value: 2
+    provenance: inherited
+    source_mechanic: wrong purpose motivation trap
+  C:\n    value: 3
+    provenance: inherited
+    source_mechanic: blanket ban overbreadth on insurance evidence
+  D:\n    value: 94
+    provenance: inherited
+    source_mechanic: correct_answer
+percent_correct: 94
+official_key: D
+original_key_letter: D
+call: The testimony of the witness is
+choices:
+  A: inadmissible, because the policy itself is required under the original document rule.
+  B: admissible to show that Barnabas had little motivation to invest money in maintenance of the airplane.
+  C: inadmissible, because of the rule against proof of insurance where insurance is not itself at issue.
+  D: admissible as some evidence of Barnabas's ownership of or responsibility for the airplane.
+
+transform_provenance:
+  variant_slug: grace_wings_ministry_plane
+  transformed_from: "14863"
+  original_key_letter: D
+  new_key_letter: D
+  letter_map:
+    - original_letter: A
+      new_letter: A
+      mechanic: "ear_falsity: best evidence misapplied to existence of policy"
+      substance: kept
+      pick_rate:
+        value: 1
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: B
+      new_letter: C
+      mechanic: "ear_distortion: blanket ban overbreadth on insurance evidence"
+      substance: kept
+      pick_rate:
+        value: 3
+        provenance: inherited
+      dominant_trap: true
+    - original_letter: C
+      new_letter: B
+      mechanic: "wrong_element: motivation instead of ownership"
+      substance: kept
+      pick_rate:
+        value: 2
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: D
+      new_letter: D
+      mechanic: correct_answer
+      substance: kept
+      pick_rate:
+        value: 94
+        provenance: inherited
+      dominant_trap: false
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: A passenger sued the alleged owner of a small airplane for negligent maintenance after a crash; the defendant denied ownership, and a witness testified to having sold the defendant a liability insurance policy on the plane.
+    variant_stem_one_sentence: Hannah sued Barnabas of Grace Wings Christian air ministry after a crash on a Scripture airlift flight; Barnabas denied ownership or responsibility for the ministry plane, and a witness testified to having sold Barnabas a liability insurance policy on the plane.
+    dimensions_changed:
+      - asset/subject matter (commercial passenger flight → Christian mission aviation Scripture airlift)
+      - transaction frame (private plane ownership suit → nonprofit ministry plane responsibility denial)
+      - cast size/roles (generic defendant → Barnabas, director of Grace Wings)
+      - setting/era/texture (generic small airplane → Grace Wings Christian nonprofit using plane for remote village medical/Bible deliveries)
+      - specific facts (no ministry context → explicit Christian mission flight purpose as background)
+      - choice phrasing (defendant → Barnabas; plane → the ministry plane)
+    dimensions_skipped_with_reason:
+      - numbers: source stem had no load-bearing numbers
+      - call wording: kept legally equivalent admissibility call to preserve MBE rigor and high 94% accuracy signal
+      - core legal mechanics: preserved exact FRE 411 permitted-purpose structure and all three wrong-answer mechanics
+
+source_stack:
+  - rank: 1
+    source: BarMatrix row 14863
+    use: binding source for issue, key, measured pick rates, official explanation, and trap geometry (FRE 411 policy exclusion)
+  - rank: 2
+    source: Federal Rules of Evidence 411 (current text)
+    use: lawyer-confirmation authority floor for black-letter verification
+  - rank: 3
+    source: Existing C3 tags and controlled_vocabularies.md
+    use: mold codes, filters, destination_keys, gold/silver key taxonomy, red_zone_dimensions
+
+bank_validation_verdict: PASS
+review_truth: "Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully."
+---
+
+# A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question
+
+At a federal trial, Hannah is suing Barnabas, director of Grace Wings, a Christian nonprofit that uses small aircraft for short-term mission trips and medical supply deliveries to remote villages. Hannah alleges that Barnabas owned or was responsible for a small plane that crashed, injuring her during a Scripture airlift flight, because he negligently failed to have it properly maintained. Barnabas has asserted in defense that he never owned the plane or had any responsibility to maintain it. At trial, Hannah calls a witness to testify that the witness had sold to Barnabas a liability insurance policy on the plane. The testimony of the witness is
+
+A. inadmissible, because the policy itself is required under the original document rule.
+
+B. admissible to show that Barnabas had little motivation to invest money in maintenance of the airplane.
+
+C. inadmissible, because of the rule against proof of insurance where insurance is not itself at issue.
+
+D. admissible as some evidence of Barnabas's ownership of or responsibility for the airplane.
+
+### 2. Distilled Core Question
+
+Testimony that a defendant purchased a liability insurance policy on a plane is offered to prove the defendant's ownership or responsibility for the plane after the defendant denied it. Is the testimony admissible?
+
+### 3. Final answer choices
+
+A. inadmissible, because the policy itself is required under the original document rule.
+
+B. admissible to show that Barnabas had little motivation to invest money in maintenance of the airplane.
+
+C. inadmissible, because of the rule against proof of insurance where insurance is not itself at issue.
+
+D. admissible as some evidence of Barnabas's ownership of or responsibility for the airplane.
+
+### 4. Correct answer
+
+**D**. Original key: **D**.
+
+### 5. Letter Map
+
+| Source letter | New letter | Mechanic                                      | Substance | Pick rate | Provenance | Dominant trap |
+|---------------|------------|-----------------------------------------------|-----------|-----------|------------|---------------|
+| A             | A          | best evidence misapplied to existence         | kept      | 1%        | inherited  | no            |
+| B             | C          | blanket ban overbreadth on insurance evidence | kept      | 3%        | inherited  | **yes**       |
+| C             | B          | wrong purpose (motivation instead of ownership)| kept     | 2%        | inherited  | no            |
+| D             | D          | correct_answer                                | kept      | 94%       | inherited  | no            |
+
+Pick-rate note: Measured source-row rates are inherited by preserved mechanic through the Letter Map. The 94% correct rate is preserved as a strong signal that students who correctly apply the permitted-purpose clause of FRE 411 do very well on this item.
+
+### 6. Full right-answer explanation
+
+**D is correct.**
+
+**Gold Key:** FRE 411 prohibits evidence of liability insurance to prove that a person acted negligently or otherwise wrongfully. The rule expressly permits the same evidence when offered for another purpose, such as proving ownership, agency, or control.
+
+**Gold Key:** The witness is testifying only to the fact that he sold the policy to Barnabas (existence and purchaser). He is not testifying to the contents or terms of the policy, so the original document rule is not triggered.
+
+**Silver Key:** The defendant's denial of ownership makes the existence of the policy relevant as circumstantial evidence of ownership or responsibility. The proponent is not using the evidence to show Barnabas was careless.
+
+The testimony is admissible as some evidence that Barnabas owned or was responsible for the plane. FRE 411 carves out an explicit exception for proof of ownership or control. The high 94% correct rate on the source item reflects that once students identify the permitted purpose, the answer is straightforward.
+
+### 7. Full wrong-answer explanations
+
+**A.** This choice attracts students who remember there is a "best evidence" or "original document" rule but apply it to the wrong fact. The witness is not offering the policy to prove its terms or coverage limits; the witness is offering the fact of the sale transaction itself. FRE 1002 requires the original only when a party seeks to prove the contents of a writing. Testimony about the existence of the insurance contract and to whom it was sold does not require production of the policy document.
+
+**B.** This is a wrong-purpose trap. While insurance can sometimes be relevant to motive or incentive, that is not the purpose for which the evidence is offered here. The defendant has denied ownership and responsibility altogether. The permitted inference under FRE 411 is ownership/control from the act of insuring the specific plane, not "he had insurance so he was less careful." The call and the defense denial frame the issue as ownership, not maintenance incentive.
+
+**C.** This is the dominant trap (highest wrong-answer selection on source data at 3%). It overreads FRE 411 as a blanket ban on any mention of liability insurance unless "insurance is itself at issue." The rule is purpose-specific: insurance evidence is inadmissible only when offered to prove negligence or wrongful conduct. When offered for any other relevant purpose—including ownership, control, or agency—it is admissible. The defendant's flat denial of ownership makes the evidence responsive to the actual dispute.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The source row supplies QID 14863, Evidence / Privileges and Other Policy Exclusions (Liability insurance), measured pick rates (D 94%, A 1%, B 3%, C 2%), official key D, and the official reasoning that the testimony is admissible to show ownership or responsibility.
+
+Federal Rule of Evidence 411 provides:
+
+"Evidence that a person was or was not insured against liability is not admissible to prove whether the person acted negligently or otherwise wrongfully. But the court may admit this evidence for another purpose, such as proving a witness's bias or prejudice or proving agency, ownership, or control."
+
+The witness's testimony that he sold a liability insurance policy on the plane to Barnabas is offered after Barnabas denied ownership or responsibility. This is a non-negligence purpose expressly listed in the rule (ownership or control). The evidence is therefore admissible for that limited purpose. (Authority: FRE 411.)
+
+The original document rule (FRE 1002) requires the original writing when a party seeks to prove the contents of the writing. Here the witness testifies only to the fact of the sale and the identity of the purchaser. No party is attempting to prove the terms, limits, or conditions of the policy. Therefore FRE 1002 is not implicated. (Authority: FRE 1002.)
+
+No hearsay issue exists. The witness is testifying live to a transaction the witness personally conducted. There is no out-of-court statement being offered for its truth.
+
+Doctrinal-currency hotlist check: This item does not touch any of the listed hot topics (Establishment Clause, expert testimony FRE 702 amendment, rule of completeness FRE 106, Confrontation, Second Amendment, substantive due process, personal jurisdiction, takings, unanimous jury, or true threats). FRE 411 text and purpose-specific structure remain stable.
+
+Attorney-review floor satisfied: The cited authority is a current rule of evidence (FRE 411) with an explicit textual exception for ownership/control proof. No case citation is required for this straightforward application; the rule itself supplies the black-letter authority.
+
+### 9. Rigor/difficulty preservation
+
+The variant preserves the original trap structure exactly: (1) best-evidence distraction on existence testimony, (2) wrong-purpose motivation inference, (3) overbroad blanket-ban reading of FRE 411 (dominant trap), and (4) the correct permitted-purpose ownership inference. Surface facts are fully Christian-divergent (mission aviation nonprofit, Scripture airlift, Barnabas/Hannah/Paul cast, remote-village ministry context) while the legal work, call, and answer array geometry remain identical. The 94% correct rate is a strong signal that the item rewards precise identification of the "other purpose" clause rather than rote recall of a ban.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A.** The witness is testifying to the fact of selling the policy and to whom, not to any term or condition inside the policy. The original document rule does not apply to proof of a transaction's existence. Cut as `ear_falsity` (fabricated requirement) plus `wrong_element`.
+
+**CUT B.** Insurance can be relevant to incentive in some cases, but that is not the purpose for which the evidence is offered and not responsive to the defendant's denial of ownership. The call frames the dispute as ownership/responsibility. Cut as `wrong_element` (proves a non-dispositive element) plus `purpose_of_offer_confusion`.
+
+**CUT C.** FRE 411 is a purpose-specific rule, not a blanket prohibition. The defendant's denial of ownership makes the evidence responsive under the explicit ownership/control exception. This is the dominant trap because it feels "safe" to students who remember there is an insurance exclusion but stop reading before the "but the court may admit... for another purpose" clause. Cut as `flat_misstatement` / `overbroad_rule`.
+
+**Residual D.** D correctly applies the permitted-purpose clause of FRE 411 to the ownership issue created by the defendant's denial. No remaining clash.
+
+### 11. Divergence Audit
+
+| Recognition-Kill dimension    | Result                                                                 |
+|-------------------------------|------------------------------------------------------------------------|
+| Asset/subject matter          | Changed from generic small-airplane ownership dispute to Christian nonprofit mission-aviation plane used for Scripture airlift and medical deliveries. |
+| Transaction frame             | Changed from private commercial plane to Grace Wings Christian air ministry plane operated for remote-village Gospel and aid work. |
+| Specific lies/facts           | No lies in either; added explicit ministry flight purpose and nonprofit setting as background only. |
+| Numbers                       | Source had none; none added.                                           |
+| Fact ordering and stem rhythm | Reordered around mission-aviation nonprofit, Barnabas's denial, and the insurance sale for ownership inference. |
+| Cast size/roles               | Changed to Hannah (plaintiff passenger), Barnabas (ministry director defendant), Paul (witness who sold policy). |
+| Choice ordering               | Wrongs reordered (A=best evidence kept at A; dominant blanket ban moved to C; motivation to B); correct remains D. |
+| Choice phrasing               | Adapted to Barnabas / Grace Wings / the plane (ministry context) while preserving exact legal substance and length balance. |
+| Setting/era/texture           | Changed to private Christian nonprofit "Grace Wings" using small planes for short-term mission trips and remote-village Scripture/medical airlifts. |
+| Call wording                  | Kept legally equivalent: "The testimony of the witness is" followed by the four purpose/vehicle choices. |
+
+Old-stem summary: Passenger sued alleged owner of small airplane for injuries in crash alleging negligent maintenance; defendant denied ownership; witness testified to selling defendant liability insurance on the plane.
+
+Variant-stem summary: Hannah sued Barnabas of Grace Wings Christian air ministry for injuries in crash on a Scripture airlift flight alleging negligent maintenance; Barnabas denied ownership/responsibility for the ministry plane; witness testified to selling Barnabas a liability insurance policy on the plane.
+
+Recognition test: passed. Shared structure is the precise FRE 411 permitted-purpose mechanics and the three distinct wrong-answer attractors. The Christian mission-aviation surface kills recognition while adding zero new legal issues (no government actor, no Establishment claim, no internal church governance, no privilege overlay).
+
+### 12. Review Truth
+
+Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully.
+
+### 13. The 5 variations considered
+
+| # | Title                              | Setting                                      | Cast                  | Preserved issue                                      | Why memorable                              | Legal risks                                      | Divergence score |
+|---|------------------------------------|----------------------------------------------|-----------------------|------------------------------------------------------|--------------------------------------------|--------------------------------------------------|------------------|
+| 1 | **Grace Wings Ministry Plane**     | Christian nonprofit air ministry (Grace Wings) | Hannah, Barnabas, Paul | FRE 411 ownership inference from liability policy sale | Scripture airlift to remote villages       | Low. Private nonprofit; no gov/church-autonomy clutter. | **9/10. Chosen.** Kills asset, frame, cast, texture, and choice rhythm while preserving 94% accuracy signal. |
+| 2 | **Harvest Fields Bible Flight**    | Church missions committee small-plane ministry | Ruth, Timothy, Silas  | Same FRE 411 permitted purpose                       | Bible translators and vaccine deliveries   | Low-moderate. Still clean private use.           | 8/10. Strong but slightly closer to "aid org" echo. |
+| 3 | **Jordan River Floatplane Ministry** | River-access Christian floatplane outreach  | John, Peter, Andrew   | Insurance sale to prove control/ownership            | Remote river-village Scripture camps       | Low. Fun texture but geography-specific.         | 7/10. Good divergence but less universal. |
+| 4 | **Lydia's Loom & Airlift**         | Christian textile co-op with air support     | Lydia, Paul, Priscilla| Ownership inference via insurance                    | Fabric and Bible deliveries by air         | Moderate. Business co-op layer risks dilution.   | 6/10. Texture good but introduces extra commercial flavor. |
+| 5 | **Esther's Village Air Drop**      | Women's ministry disaster-relief flights     | Esther, Deborah, Naomi| Liability policy as ownership evidence               | Post-storm Bible and supply drops          | Low. Strong female-led ministry texture.         | 8/10. Excellent surface but slightly narrower appeal than Grace Wings. |
+
+Pass-1 step audit: rule identified (FRE 411 permitted-purpose exception for ownership/control); invariant layer (existence testimony offered for ownership after denial) preserved; five Christian variations generated with three+ surface elements each; distractor mechanics inherited exactly; dominant trap (overbroad ban) preserved and flagged; final version selected for maximum safe divergence (mission aviation nonprofit + Scripture airlift + Barnabas/Hannah/Paul cast); choices reordered for additional recognition kill; divergence audit and Review Truth completed.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: 14863_grace_wings_ministry_plane
+  transformed_from: "14863"
+  subject: EVIDENCE
+  subject_display: Evidence
+  topic: Privileges and Other Policy Exclusions
+  subtopic: Liability insurance
+  outline_code: "35030304"
+  selection_percentages:
+    A:\n      value: 1
+      provenance: inherited
+      source_mechanic: best evidence misapplied to existence testimony
+    B:\n      value: 2
+      provenance: inherited
+      source_mechanic: wrong purpose motivation trap
+    C:\n      value: 3
+      provenance: inherited
+      source_mechanic: blanket ban overbreadth on insurance evidence
+    D:\n      value: 94
+      provenance: inherited
+      source_mechanic: correct_answer
+  percent_correct: 94
+  official_key: D
+  original_key_letter: D
+  call: The testimony of the witness is
+  choices:
+    A: inadmissible, because the policy itself is required under the original document rule.
+    B: admissible to show that Barnabas had little motivation to invest money in maintenance of the airplane.
+    C: inadmissible, because of the rule against proof of insurance where insurance is not itself at issue.
+    D: admissible as some evidence of Barnabas's ownership of or responsibility for the airplane.
+
+transform_provenance:
+  variant_slug: grace_wings_ministry_plane
+  transformed_from: "14863"
+  original_key_letter: D
+  new_key_letter: D
+  letter_map:
+    - original_letter: A
+      new_letter: A
+      mechanic: "ear_falsity: best evidence misapplied to existence of policy"
+      substance: kept
+      pick_rate:
+        value: 1
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: B
+      new_letter: C
+      mechanic: "ear_distortion: blanket ban overbreadth on insurance evidence"
+      substance: kept
+      pick_rate:
+        value: 3
+        provenance: inherited
+      dominant_trap: true
+    - original_letter: C
+      new_letter: B
+      mechanic: "wrong_element: motivation instead of ownership"
+      substance: kept
+      pick_rate:
+        value: 2
+        provenance: inherited
+      dominant_trap: false
+    - original_letter: D
+      new_letter: D
+      mechanic: correct_answer
+      substance: kept
+      pick_rate:
+        value: 94
+        provenance: inherited
+      dominant_trap: false
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: A passenger sued the alleged owner of a small airplane for negligent maintenance after a crash; the defendant denied ownership, and a witness testified to having sold the defendant a liability insurance policy on the plane.
+    variant_stem_one_sentence: Hannah sued Barnabas of Grace Wings Christian air ministry after a crash on a Scripture airlift flight; Barnabas denied ownership or responsibility for the ministry plane, and a witness testified to having sold Barnabas a liability insurance policy on the plane.
+    dimensions_changed:
+      - asset/subject matter
+      - transaction frame
+      - cast size/roles
+      - setting/era/texture
+      - specific facts
+      - choice phrasing
+    dimensions_skipped_with_reason:
+      - "numbers: the source stem had no load-bearing numbers to change"
+      - "call wording: kept legally equivalent admissibility wording to preserve MBE rigor"
+
+source_stack:
+  - rank: 1
+    source: BarMatrix row 14863
+    use: binding source for issue, key, measured pick rates, official explanation, and trap geometry
+  - rank: 2
+    source: FRE 411 (current text)
+    use: lawyer-confirmation authority floor
+  - rank: 3
+    source: controlled_vocabularies.md and OUTLINE_CODES_COMPLETE.md
+    use: mold/filter/destination_key discipline and outline_code 35030304 validation
+```
+
+### 2. The 17-section Christian study-group case study
+
+**Section 1 — Setting the scene (Christian study-group frame)**  
+Tuesday night at Grace Fellowship, the bar-prep small group met in the fellowship hall after the missions committee meeting. The coffee was still hot from the post-service fellowship meal. Hannah, a first-year law student who had just returned from a short-term trip, opened her laptop and read the question out loud: a passenger injured on a "Scripture airlift" flight suing Barnabas, the director of Grace Wings, the church-supported Christian air ministry that flew medical kits and children's Bibles into remote villages. Barnabas denied owning or being responsible for the crashed plane. The passenger's witness said he had sold Barnabas a liability insurance policy on that exact plane.
+
+**Section 2 — The group's first read**  
+"Wait," said Paul, the insurance-agent brother who had joined the group for the Evidence unit. "If the witness is just saying he sold the policy to Barnabas, that's not hearsay at all. That's live testimony about a transaction he did himself."
+
+**Section 3 — Distilled core question (student voice)**  
+The group whiteboarded the distilled core: Testimony that a defendant bought liability insurance on a specific plane is offered to show he owned or controlled that plane after he denied it. Is it admissible?
+
+**Section 4 — CUT the choices (C3 elimination live)**  
+They worked the choices one by one with the CUT lens.
+
+**CUT A** — "Original document rule." Sarah cut it fast: "The witness isn't reading the policy or proving its limits. He's just saying he sold it to Barnabas. That's the fact of the sale, not the contents. Wrong element."
+
+**CUT B** — "Little motivation to maintain." Mark shook his head. "That's a motive story, but the defense is 'I didn't own it at all.' The purpose here is ownership inference from the act of insuring it, not 'he was careless because he had coverage.' Not responsive to the denial."
+
+**CUT C** — "Rule against proof of insurance where insurance is not at issue." This one took longer. Everyone remembered there is a rule that keeps insurance out. But then they read the actual language the professor had projected earlier: "not admissible to prove whether the person acted negligently... But the court may admit this evidence for another purpose, such as proving... ownership, or control." The blanket ban was the over-read. Dominant trap identified.
+
+**Residual D** — "Admissible as some evidence of ownership or responsibility." The group landed here. Barnabas denied ownership. The fact that he bought the policy on that plane is circumstantial evidence he owned or controlled it. FRE 411 expressly allows it for that purpose.
+
+**Section 5 — CLASH check**  
+No two-choice clash survived the cuts. The three wrong answers each broke a different filter (wrong element, wrong purpose, flat mis-statement of the rule's scope).
+
+**Section 6 — CALL**  
+No further CALL needed. The question is a clean permitted-purpose application.
+
+**Section 7 — Review Truth (memorized together)**  
+"Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully."
+
+They repeated it twice. Paul added the memory hook: "Insurance proves who was 'covering' the plane for the ministry — but never use it to say they were careless."
+
+**Section 8 — Gold Keys (group drill)**  
+Gold Key 1: FRE 411 is purpose-specific. The ban is only for proving negligence/wrongful act. Ownership/control is an enumerated safe harbor.  
+Gold Key 2: Testimony about the fact of purchasing the policy is not "proving the contents" of the policy. Best evidence does not apply.  
+Silver Key: The defendant's denial of ownership is what makes the evidence relevant and responsive.
+
+**Section 9 — Red-zone map (what the program will flag)**  
+- Red zone: Purpose-of-offer confusion (using insurance evidence for the forbidden negligence inference).  
+- Red zone: Overbroad reading of policy exclusions as total bans.  
+- Red zone: Best-evidence over-application to existence rather than content.
+
+**Section 10 — Trap forensics (why each wrong answer feels good)**  
+- A feels good because "insurance = document" is a common over-generalization.  
+- B feels good because motive/incentive stories are intuitive and sometimes relevant in other contexts.  
+- C is the strongest trap because the rule really does keep insurance out most of the time; students stop reading before the "but... other purpose" clause.
+
+**Section 11 — BarMatrix takeaway**  
+When you see liability insurance mentioned, the first question is always "For what purpose is it being offered?" If the purpose is ownership, agency, control, or bias — and not negligence — it is admissible under FRE 411. The 94% correct rate on this item tells you the test rewards precision on the exception, not fear of the rule.
+
+**Section 12 — Next-item routing seeds**  
+If correct on this item → next item should drill another FRE 411 or 407/408/409 policy exclusion with a different permitted purpose (e.g., bias or subsequent remedial measures).  
+If wrong on C (dominant trap) → red-zone drill on overbroad policy-exclusion readings.  
+If wrong on A → best-evidence / original-document quick repair set.  
+If wrong on B → purpose-of-offer vs. motive distinction drill.
+
+**Section 13 — Christian surface notes (for the group)**  
+The surface is intentionally warm and memorable (Grace Wings, Scripture airlift, Barnabas directing a ministry that flies Bibles and medicine) but adds zero legal issues. No government actor, no church-discipline fight, no donor dispute, no Establishment claim. The legal work is pure FRE 411 application on private-party facts.
+
+**Section 14 — Prayer and close**  
+The group closed by thanking God for clear rules that let lawyers serve clients without games, and for the chance to study together. They prayed for the missions pilots who fly those small planes into hard places.
+
+**Section 15 — Analyst notes (internal)**  
+drift_audit: All three wrong-answer mechanics preserved exactly. Measured 94/1/3/2 pick rates inherited. No new legal posture or constitutional clutter introduced. Outline code 35030304 verified against OUTLINE_CODES_COMPLETE.md. FRE 411 text confirmed current.  
+transformed_from: 14863  
+letter_map: A→A, B→C, C→B, D→D (correct remains D; dominant trap moved to C for additional recognition kill).
+
+**Section 16 — Program frame**  
+Christian study group diagnostic: When a policy exclusion appears, name the exact forbidden purpose and the exact permitted purpose before choosing. Insurance evidence is not radioactive — it is purpose-gated.
+
+**Section 17 — Student learning layer (embedded)**  
+program_frame: Christian study group diagnostic: read the purpose before you apply the ban.  
+distilled_core_question: Testimony that a defendant bought liability insurance on a plane is offered to prove ownership after denial. Admissible?  
+review_truth: Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully.  
+bar_matrix_takeaway: FRE 411 is a purpose-specific rule with explicit safe harbors for ownership, control, agency, and bias. High accuracy (94%) rewards spotting the permitted purpose.
+
+### 3. c3_annotation
+
+```json
+{
+  "qid": "14863_grace_wings_ministry_plane",
+  "transformed_from": "14863",
+  "subject": "EVIDENCE",
+  "outline_code": "35030304",
+  "official_key": "D",
+  "original_key_letter": "D",
+  "letter_map": "A→A, B→C, C→B, D→D",
+  "dominant_trap": "C",
+  "pick_rates": {
+    "A": {"value": 1, "provenance": "inherited"},
+    "B": {"value": 2, "provenance": "inherited"},
+    "C": {"value": 3, "provenance": "inherited"},
+    "D": {"value": 94, "provenance": "inherited"}
+  },
+  "percent_correct": 94,
+  "bank_validation_verdict": "PASS",
+  "review_truth": "Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully.",
+  "deciding_phase": "CALL",
+  "governing_law_type": "RULE",
+  "case_study_verdict": "C3_SOLVE",
+  "confidence": "HARD_STRUCTURAL",
+  "analyzer_notes": {
+    "drift_audit": "All three wrong-answer mechanics preserved exactly. Measured 94/1/3/2 pick rates inherited by mechanic. No new legal posture, no constitutional clutter, no hearsay overlay added. Christian surface (Grace Wings nonprofit, Scripture airlift, Barnabas/Hannah/Paul cast) kills recognition while adding zero legal issues.",
+    "transformed_from": "14863",
+    "letter_map": "A→A, B→C, C→B, D→D",
+    "source_accuracy_signal": "94% correct rate preserved as strong indicator that precise application of the FRE 411 'other purpose' clause is the tested skill."
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "qid": "14863_grace_wings_ministry_plane",
+  "subject": "EVIDENCE",
+  "outline_code": "35030304",
+  "red_zone_dimensions": [
+    "policy_exclusion_fre411",
+    "ownership_proof_circumstantial",
+    "permitted_purpose_vs_forbidden_purpose",
+    "overbroad_policy_ban",
+    "best_evidence_existence_vs_content"
+  ],
+  "gold_keys": [
+    {
+      "type": "rule",
+      "text": "FRE 411 prohibits liability insurance evidence to prove negligence or wrongful conduct but expressly permits it for other purposes including proving ownership, agency, or control."
+    },
+    {
+      "type": "rule",
+      "text": "Testimony about the existence of an insurance policy and the identity of the purchaser does not trigger the original document rule (FRE 1002), which applies only when a party seeks to prove the contents of a writing."
+    }
+  ],
+  "silver_keys": [
+    {
+      "type": "cut",
+      "text": "Best evidence does not bar testimony to the fact of a transaction."
+    },
+    {
+      "type": "clash",
+      "text": "Purpose-of-offer confusion is the central diagnostic."
+    },
+    {
+      "type": "call",
+      "text": "After a denial of ownership, evidence of who insured the specific asset is responsive under the ownership safe harbor."
+    }
+  ],
+  "difficulty": "Core",
+  "difficulty_source": "source_percent_correct_94",
+  "christian_surface_intensity": "high",
+  "christian_surface_elements": [
+    "setting: Grace Wings Christian nonprofit air ministry",
+    "activity: Scripture airlift flight delivering medical kits and children's Bibles to remote villages",
+    "cast: Barnabas (ministry director), Hannah (plaintiff passenger), Paul (witness insurance agent)"
+  ],
+  "clutter_risk": "low"
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "qid": "14863_grace_wings_ministry_plane",
+  "transformed_from": "14863",
+  "component_routing": [
+    {
+      "destination_key": "red_zones",
+      "route": "primary",
+      "component_tags": ["policy_exclusion_fre411", "permitted_purpose_vs_forbidden_purpose"]
+    },
+    {
+      "destination_key": "trap_forensics",
+      "route": "primary",
+      "component_tags": ["overbroad_policy_ban", "dominant_trap_C"]
+    },
+    {
+      "destination_key": "drills",
+      "route": "secondary",
+      "component_tags": ["fre411_permitted_purpose", "best_evidence_existence"]
+    }
+  ],
+  "gold_keys": [
+    {
+      "type": "rule",
+      "text": "FRE 411 prohibits liability insurance evidence to prove negligence or wrongful conduct but expressly permits it for other purposes including proving ownership, agency, or control."
+    },
+    {
+      "type": "rule",
+      "text": "Testimony about the existence of an insurance policy and the identity of the purchaser does not trigger the original document rule (FRE 1002), which applies only when a party seeks to prove the contents of a writing."
+    }
+  ],
+  "silver_keys": [
+    {
+      "type": "cut",
+      "text": "Best evidence does not bar testimony to the fact of a transaction."
+    },
+    {
+      "type": "clash",
+      "text": "Purpose-of-offer confusion is the central diagnostic."
+    },
+    {
+      "type": "call",
+      "text": "After a denial of ownership, evidence of who insured the specific asset is responsive under the ownership safe harbor."
+    }
+  ],
+  "program_elements_ref": "14863_grace_wings_ministry_plane",
+  "c3_annotation_ref": "14863_grace_wings_ministry_plane",
+  "review_truth": "Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully.",
+  "bank_validation_verdict": "PASS",
+  "confidence": "HARD_STRUCTURAL"
+}
+```
+
+---
+
+**Verification steps performed (internal):**
+- Source QBank/14863.md read in full.
+- Outline code 35030304 confirmed valid in OUTLINE_CODES_COMPLETE.md under AB=35 Privileges and Other Policy Exclusions > Liability insurance (FRE 411).
+- FRE 411 current text retrieved and matched to source explanation (permitted purpose for ownership/control).
+- No hearsay, no Confrontation, no hotlist doctrinal currency issues.
+- Controlled vocabulary: mold codes, filters, destination_keys used only from controlled_vocabularies.md.
+- Christian surface: three+ elements (Grace Wings setting, Scripture airlift activity, Barnabas/Hannah/Paul cast); zero legal clutter added.
+- All JSON blocks above are valid (no trailing commas; round-tripped mentally and via syntax check).
+- Pass-1 completeness: every required subsection present and in order.
+- Pick rates: inherited from measured source (94/1/3/2); dominant trap C explicitly named.
+- File saved to C:\FOC\Workspace\Finished\CQ14863.md with full content.\n\n**Bank validation verdict: PASS** (after full gate). Ready for any downstream ingestion or small-group use. No human legal review flag required on the authority floor (rule text itself is the authority). 
+
+This completes the requested CQ14863 transform.
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14863_grace_wings_ministry_plane; source 14863.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject EVIDENCE; topic Privileges and Other Policy Exclusions; subtopic Liability insurance.
+4. **distilled_core_question:** Testimony that a defendant bought liability insurance on a plane is offered to prove ownership after denial. Admissible?
+5. **call_and_prediction:** Credited answer: D.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 35030304.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** D
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 35030304.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Evidence that a person purchased liability insurance on property is admissible to prove that person's ownership or responsibility for the property, but the same evidence is inadmissible to prove that the person acted negligently or wrongfully.
+```

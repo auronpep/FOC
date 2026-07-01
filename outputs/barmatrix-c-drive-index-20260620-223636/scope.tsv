@@ -1,0 +1,21 @@
+root	reason	exists
+C:\_bmo_backups	BMO backup folder	True
+C:\ABM	Known BarMatrix launch workspace	True
+C:\ABM-deploy-site-audit-20260612	ABM deploy/site audit folder	True
+C:\AG-BM-app	BM app workspace	True
+C:\BARMATRIX	Exact BarMatrix root	True
+C:\BarMatrix_Content	Exact BarMatrix content root	True
+C:\BarMatrix_Other_Review	Exact BarMatrix review root	True
+C:\barmatrix-api	BarMatrix API repo	True
+C:\barmatrix-app	BarMatrix app repo	True
+C:\barmatrix-app-atlas-answer-bridge	BarMatrix app worktree	True
+C:\barmatrix-canon	BarMatrix canon folder	True
+C:\barmatrix-site	BarMatrix site repo	True
+C:\BMO	Known BarMatrix ops hub	True
+C:\BMO-landing_pages	BMO landing pages folder	True
+C:\bmo-tmp	BMO temporary workspace	True
+C:\BMP	Known BarMatrix planning/review hub	True
+C:\BMSite	BM site folder	True
+C:\CCG	Known BarMatrix CQ source folder	True
+C:\CG	Known BarMatrix CodeGraph/setup folder	True
+C:\FOC	Current BarMatrix/FoC workspace	True

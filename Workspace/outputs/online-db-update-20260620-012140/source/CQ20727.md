@@ -1,0 +1,1010 @@
+---
+qid: "20727"
+transformed_from: "20727"
+subject: "TORTS"
+topic: "Strict liability"
+subtopic: "Abnormally dangerous activities - harms outside abnormal risk"
+outline_code: "63040100"
+key: "A"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+Source row used: BarMatrix Q# 20727, Torts, strict liability, abnormally dangerous activities, with credited answer C and the rule that strict liability does not extend to harms outside the activity’s abnormal risk.  Controlled fields use the attached taxonomy values. 
+
+**Final variation — `20727_easter_garden_blast_hose`**
+
+Esther owned a private hillside garden where she planned to stage a Bible-themed outdoor drama. She hired Daniel’s blasting company to use explosives to carve a stone backdrop for the “empty tomb” scene. While the crew was checking the perimeter and before any explosive charge had been set, Lydia arrived to drop off palm-branch props. Near the refreshment tent, an ordinary folding costume rack tipped over and fractured Lydia’s ankle.
+
+Lydia sues Daniel’s company for strict liability based on the blasting. Is the company strictly liable?
+
+### 2. Distilled Core Question
+
+A plaintiff is hurt by an ordinary site hazard while an abnormally dangerous blasting project is being prepared. The injury does not come from the special danger of blasting. Is the blaster strictly liable?
+
+### 3. Final answer choices
+
+A. No, because the injury did not result from an explosion, flying rock, ground shock, or other special risk of the blasting.
+B. No, because strict liability never applies before blasting begins.
+C. Yes, because the injury occurred at the blasting site.
+D. Yes, because blasting with explosives is abnormally dangerous.
+
+### 4. Correct answer
+
+**A** — original key letter: **C**.
+
+### 5. Letter Map
+
+| Original letter | New letter | Mechanic                                                            | Substance | Pick rate                            |
+| --------------- | ---------: | ------------------------------------------------------------------- | --------- | ------------------------------------ |
+| A               |          D | `wrong_element` — proves dangerous-activity label only              | kept      | not supplied; `predicted` provenance |
+| B               |          C | `wrong_element` — proves site connection only                       | kept      | not supplied; `predicted` provenance |
+| C               |          A | `correct_answer`                                                    | kept      | not supplied; `predicted` provenance |
+| D               |          B | `tiered_absolute` — converts timing into a categorical “never” rule | kept      | not supplied; `predicted` provenance |
+
+### 6. Full right-answer explanation
+
+**A is correct.** The answer does not stop at the dangerous label. It links the injury to the risk that makes blasting abnormal. **Gold Key:** Strict liability for an abnormally dangerous activity follows the special danger, not every accident near the activity. **Silver Key:** In a 2-yes / 2-no array, do not pick the outcome first; pick the reason that matches the injury source.
+
+### 7. Full wrong-answer explanations
+
+**B.** This answer is attractive because the stem says the explosive charge had not yet been set, so timing feels like the clean reason. The breaker is the word **never**: timing is not the whole rule, and the better answer asks whether the injury came from the blasting risk.
+
+**C.** This answer sells the site shortcut. The breaker is that a location connection is not enough; the folding costume rack was an ordinary site hazard, not the special risk of blasting.
+
+**D.** This answer sells the dangerous-activity shortcut. **Gold Key:** Even if the activity is abnormally dangerous, the injury still must come from the special danger that makes it abnormal. **Silver Key:** The activity label is only one half of the array; the credited answer adds the missing injury-source link.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+Restatement (Second) of Torts § 519(1) imposes strict liability for harm resulting from an abnormally dangerous activity even if utmost care was used, but § 519(2) limits that strict liability to the kind of harm whose possibility makes the activity abnormally dangerous. The variation preserves that same legal issue and credited outcome: even assuming blasting is abnormally dangerous, Lydia’s injury came from an ordinary falling costume rack, not from explosion, debris, shock, or another blasting danger. The tested rule, legal issue, and answer substance remain unchanged from the source row. ([Open Casebook][1])
+
+### 9. Why the variation preserves rigor and difficulty
+
+The variation keeps the same trap array: dangerous-activity label, site connection, special-risk answer, and timing shortcut. It raises surface divergence by changing the activity, setting, object, plaintiff role, injury mechanics, fact rhythm, and answer order.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT D:** It proves only that blasting is dangerous. It does not answer the injury-source question.
+**CUT C:** It proves only site connection. The call asks strict liability based on blasting, not liability for every site accident.
+**CUT B:** “Never” is a visible absolute. Timing alone is not the rule.
+**RESIDUAL A:** It matches the call and the trigger fact: the injury did not come from the special blasting risk.
+**CLASH:** Not needed after the Cut.
+**CALL:** Not needed.
+
+### 11. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                         |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Warehouse fumigation changed to private hillside Bible-drama blasting project.                                 |
+| Transaction frame          | Company fumigation changed to hired blasting contractor for a private pageant backdrop.                        |
+| Specific facts             | Toxic gas and wet ladder changed to explosives, perimeter check, palm props, and falling costume rack.         |
+| Numbers                    | No legally material numbers in source; none added.                                                             |
+| Fact ordering / rhythm     | New stem begins with private setting and project purpose, then hired blasting, then ordinary injury.           |
+| Cast size / roles          | Company / delivery driver changed to Esther, Daniel’s company, and Lydia.                                      |
+| Choice ordering            | Credited answer moved to A.                                                                                    |
+| Choice phrasing            | Rewritten to match blasting while preserving legal substance.                                                  |
+| Setting / era / texture    | Commercial warehouse changed to private Christian outdoor-drama garden.                                        |
+| Call wording               | Preserved functional call: strict liability based on abnormally dangerous activity.                            |
+| Skipped dimensions         | None skipped. No church-internal dispute, tithe, donation, religious immunity, or First Amendment facts added. |
+
+**Original one-sentence summary:** A delivery driver at a warehouse fumigation slips on a wet ladder before toxic gas is released and sues for strict liability.
+**Variant one-sentence summary:** A prop deliverer at a private Easter-garden blasting project is hurt by a falling costume rack before explosive charges are set and sues for strict liability.
+
+### 12. Review Truth
+
+Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.
+
+### 13. The 5 variations considered
+
+| Candidate                                                 | Setting / cast                                                                                        | Preserved issue                        | Why memorable                              | Legal risks                                                                    | Divergence score                                                                                         |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Recommended: Easter Garden Blast and the Costume Rack** | Esther’s private hillside garden; Daniel’s blasting company; Lydia delivering palm props              | Ordinary injury outside blasting risk  | Empty-tomb backdrop + falling costume rack | Low; private property and generic tort suit                                    | **9/10** — kills asset, activity, object, role, rhythm, setting, texture, choice order, injury mechanism |
+| Pentecost Fireworks and the Lemonade Barrel               | Paul’s private field pageant; Martha hurt by a rolling lemonade barrel before fireworks are armed     | Ordinary injury outside fireworks risk | Pageant fireworks + lemonade barrel        | Fireworks can be treated as abnormally dangerous, but less clean than blasting | 8/10                                                                                                     |
+| Stained-Glass Radiation Test and the Folding Chair        | Ruth’s private art studio; Timothy hurt by a folding chair before isotope testing                     | Ordinary injury outside radiation risk | Glowing stained-glass test                 | Too exotic; may distract into regulatory facts                                 | 7/10                                                                                                     |
+| Jericho Wall Demolition and the Picnic Table              | Barnabas hires blasting crew for a private Bible museum display; Mary hurt by collapsing picnic table | Ordinary injury outside blasting risk  | “Jericho wall” image                       | “Bible museum” could hint institution; less clean                              | 8/10                                                                                                     |
+| Manna Silo Gas Purge and the Prop Crate                   | Naomi’s private farm drama; Stephen hurt by falling prop crate before pesticide gas release           | Ordinary injury outside gas risk       | Manna silo                                 | Too close to original fumigation/gas                                           | 6/10                                                                                                     |
+
+**Pass-1 six-step lock:** rule identified; invariant layer preserved; five Christian variations generated; no distractor swap; final version selected for maximum divergence with clean legality; choices shuffled and audited.
+
+---
+
+## B1) PASS-2 QUESTION YAML
+
+```yaml
+question_id: "20727_easter_garden_blast_hose"
+
+barmatrix_row:
+  qid: 20727
+  internal_id: "TR-434"
+  subject: "TORTS"
+  subject_display: "Torts"
+  topic: "Strict liability"
+  subtopic: "Abnormally dangerous activities - harms outside abnormal risk"
+  outline_code: "63040100"
+  official_key: "A"
+  original_key_letter: "C"
+  call: "Lydia sues Daniel's company for strict liability based on the blasting. Is the company strictly liable?"
+  stem: "Esther owned a private hillside garden where she planned to stage a Bible-themed outdoor drama. She hired Daniel’s blasting company to use explosives to carve a stone backdrop for the 'empty tomb' scene. While the crew was checking the perimeter and before any explosive charge had been set, Lydia arrived to drop off palm-branch props. Near the refreshment tent, an ordinary folding costume rack tipped over and fractured Lydia’s ankle."
+  choices:
+    A: "No, because the injury did not result from an explosion, flying rock, ground shock, or other special risk of the blasting."
+    B: "No, because strict liability never applies before blasting begins."
+    C: "Yes, because the injury occurred at the blasting site."
+    D: "Yes, because blasting with explosives is abnormally dangerous."
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for source row."
+    B:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for source row."
+    C:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for source row."
+    D:
+      value: null
+      provenance: "predicted"
+      note: "No measured pick rate supplied for source row."
+
+transform_provenance:
+  transformed_from: 20727
+  variant_slug: "easter_garden_blast_hose"
+  original_key_letter: "C"
+  new_key_letter: "A"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No original focus-group rate supplied."
+    - original_letter: "B"
+      new_letter: "C"
+      mechanic: "wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No original focus-group rate supplied."
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No original focus-group rate supplied."
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "tiered_absolute"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "No original focus-group rate supplied."
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A delivery driver at a warehouse fumigation slips on a wet ladder before toxic gas is released and sues for strict liability."
+    variant_stem_one_sentence: "A prop deliverer at a private Easter-garden blasting project is hurt by a falling costume rack before explosive charges are set and sues for strict liability."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "transaction_frame"
+      - "specific_facts"
+      - "fact_ordering_and_stem_rhythm"
+      - "cast_size_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_era_texture"
+      - "call_wording_function_preserved"
+    dimensions_skipped_with_reason:
+      - dimension: "numbers"
+        reason: "No legally material numbers appeared in the source row."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row 20727 as supplied"
+    use: "Rule, issue, call, answer geometry, key, official explanations."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "None supplied for this row."
+  - priority: 3
+    source: "C3 lessons and controlled vocabularies"
+    use: "Filter, mold, method, confidence, verdict, key-type values."
+  - priority: 4
+    source: "Restatement authority"
+    use: "Lawyer-confirmation only."
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old using C3 lessons and taught keys identify the answer problem without extra doctrine?"
+  allowed_c3_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 CUT → CLASH → CALL"
+    - "Lesson 4 overclaim"
+    - "Lesson 7 predict before you peek"
+    - "Lesson 8 wrong-element"
+    - "Lesson 12 anchor deck"
+    - "Lesson 13 calibration"
+    - "Lesson 14 full workflow"
+  allowed_tiny_anchors:
+    - "TOR-04 strict liability follows the dangerous propensity / abnormal risk"
+    - "GK-TORTS-SPECIAL-RISK-01"
+    - "SK-TORTS-RISK-LINK-01"
+  doctrine_quarantine: "Restatement authority appears only under lawyer_confirmation."
+
+stem_parse:
+  parties:
+    plaintiff: "Lydia"
+    defendant: "Daniel's blasting company"
+    nonparties:
+      - "Esther"
+  action: "strict liability based on blasting"
+  posture: "plaintiff sues"
+  negative_stem: false
+  adjacent_call_trap: "The question is not whether blasting is dangerous or whether the injury happened at the site; it is whether this injury falls within the blasting risk."
+  predicted_answer: "No strict liability, because the injury came from an ordinary costume-rack accident, not the special risk of blasting."
+
+trigger_facts:
+  - fact: "Blasting with explosives was planned."
+    access_label: "anchor_assisted"
+    role: "Supplies the abnormally dangerous activity label."
+  - fact: "No explosive charge had been set."
+    access_label: "hard_structural"
+    role: "Makes timing trap attractive but not decisive."
+  - fact: "A folding costume rack tipped over."
+    access_label: "hard_structural"
+    role: "Shows ordinary site hazard."
+  - fact: "The injury was a fractured ankle from the rack."
+    access_label: "anchor_assisted"
+    role: "Splits ordinary harm from special blasting risk."
+
+c3_routing:
+  subject_fit: "Torts = injury theory + risk-scope match."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium_high"
+  tension_axis: "special-risk injury link vs activity/site/timing shortcut"
+  call_heuristic: null
+
+answer_array:
+  geometry: "2x2 liability-outcome array with three shortcut reasons and one special-risk reason"
+  yes_answers:
+    - "C"
+    - "D"
+  no_answers:
+    - "A"
+    - "B"
+  credited_answer: "A"
+  silver_key: "SK-TORTS-RISK-LINK-01"
+  array_read: "Do not pick yes/no first. Test the reason: does it connect the injury to the special risk?"
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "true and responsive residual"
+    c3_signal: "This answer engages both the call and the injury-source fact."
+    lawyer_confirmation: "Restatement (Second) of Torts §519(2) limits strict liability to the kind of harm whose possibility makes the activity abnormally dangerous."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "wrong_timing"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "timing absolute"
+    c3_signal: "The word 'never' turns one fact into a total rule."
+    lawyer_confirmation: "Timing is not the decisive limitation; special-risk causation is."
+  C:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "site shortcut"
+    c3_signal: "This answer proves location, not injury source."
+    lawyer_confirmation: "Strict liability does not attach merely because an ordinary injury occurs at the site of an abnormally dangerous activity."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "legally_true_but_irrelevant"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "activity-label shortcut"
+    c3_signal: "This answer proves the activity label, not the injury-risk link."
+    lawyer_confirmation: "Even when the activity is abnormally dangerous, liability is limited to harms within the abnormal risk."
+
+residual_answer:
+  choice: "A"
+  reason: "Only A answers the strict-liability call through the injury-source fact."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "B is cut by visible overclaim language: 'never.'"
+    - "C and D are cut as wrong-element answers only with the Gold Key."
+    - "A survives because it links the injury to the special-risk words."
+  anchor_assisted_claims:
+    - "Strict liability must track the abnormal risk."
+  lawyer_only_claims:
+    - "Restatement (Second) of Torts §519(2)."
+  drift_audit: "No lawyer-only rule is converted into fake structure; the special-risk rule is promoted as a Gold Key."
+
+gold_keys:
+  - id: "GK-TORTS-SPECIAL-RISK-01"
+    statement: "Strict liability for an abnormally dangerous activity follows the special danger, not every accident near the activity. The injury must be the kind of harm that made the activity abnormal."
+    type: "distinction"
+    unlocks: "activity-label and site-connection traps"
+    trigger: "The stem gives an abnormally dangerous activity plus an ordinary injury mechanism."
+    tested_choice: "D"
+    authority: "Restatement (Second) of Torts §519(2)"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-RISK-LINK-01"
+    statement: "In a 2-yes / 2-no strict-liability array, do not pick the outcome first. Pick the reason that links this injury to the risk named in the answer."
+    type: "answer_array"
+    navigates: "yes/no shortcut array"
+    trigger: "Two answers say yes, two say no, and only one answer talks about the injury source."
+    tested_choice: "D"
+    outline_code: "63040100"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-TORTS-SPECIAL-RISK-LINK"
+  title: "Strict Liability Needs the Risk Link"
+  signal: "Dangerous activity plus ordinary injury."
+  student_move: "Ask what hurt the plaintiff before choosing a strict-liability answer."
+  tiny_rule: "Activity label is not enough; injury must flow from the abnormal risk."
+  trap: "Picking the dangerous-activity label."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?"
+review_truth: "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal."
+
+case_study_output:
+  final_student_script: "Blasting is dangerous, but that is not the whole question. Ask what hurt Lydia. A costume rack, not an explosion, flying rock, or ground shock. Pick A."
+  recovery_path: "When a wrong answer proves only activity, site, or timing, ask for the injury-risk link."
+  calibration: "Anchor solve; commit after a read-check."
+
+quality_control:
+  pass_available: true
+  credited_answer_breaks_no_filter: true
+  distractors_each_break_one_filter: true
+  official_key_preserved: true
+  no_swap: true
+  recognition_test_passed: true
+  controlled_values_checked: true
+  attorney_status_stamp_required: false
+
+analytics_hooks:
+  trap_family: "strict_liability_scope"
+  component_routing:
+    - "Lesson 8 wrong_element"
+    - "Lesson 12 anchor deck"
+    - "Lesson 14 full workflow"
+  red_zone_dimensions:
+    - "activity-label shortcut"
+    - "site-connection shortcut"
+    - "timing absolute"
+  drill_seed: "Dangerous activity + ordinary site injury = no strict liability unless special risk caused harm."
+```
+
+## B2) 17-SECTION STUDENT CASE STUDY
+
+## program_frame
+
+This is a Torts strict-liability item. The array is built to punish a shortcut: “dangerous activity” is not enough. The answer must connect the injury to the danger that made the activity abnormal.
+
+## student_access_test
+
+The clean structural move cuts **B** because “never” is a visible absolute. The other cuts require the taught Gold Key. That makes the item **ANCHOR_SOLVE**, not pure hard structure.
+
+## question_data
+
+**Stem:** Esther owned a private hillside garden where she planned to stage a Bible-themed outdoor drama. She hired Daniel’s blasting company to use explosives to carve a stone backdrop for the “empty tomb” scene. While the crew was checking the perimeter and before any explosive charge had been set, Lydia arrived to drop off palm-branch props. Near the refreshment tent, an ordinary folding costume rack tipped over and fractured Lydia’s ankle.
+
+**Call:** Lydia sues Daniel’s company for strict liability based on the blasting. Is the company strictly liable?
+
+**Choices:**
+A. No, because the injury did not result from an explosion, flying rock, ground shock, or other special risk of the blasting.
+B. No, because strict liability never applies before blasting begins.
+C. Yes, because the injury occurred at the blasting site.
+D. Yes, because blasting with explosives is abnormally dangerous.
+
+## distilled_core_question
+
+A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?
+
+## call_and_prediction
+
+The call is not “was blasting dangerous?” It is not “was Lydia at the site?” It asks whether the company is strictly liable **based on the blasting**.
+
+Prediction: **No**, because the injury came from the falling costume rack, not the blasting risk.
+
+## trigger_facts
+
+| Trigger fact                     | What it does                     |
+| -------------------------------- | -------------------------------- |
+| Blasting project                 | Makes strict liability tempting. |
+| No charge set yet                | Makes timing shortcut tempting.  |
+| Folding costume rack tipped over | Shows ordinary site hazard.      |
+| Fractured ankle from rack        | Shows injury source.             |
+
+## governing_c3_lane
+
+**Lane:** Anchor-assisted CUT.
+**Gold Key:** Strict liability follows the special danger.
+**Silver Key:** Read the answer array by reason, not just yes/no result.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** This answer talks about the exact injury source.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is already the true/responsive version. It says no strict liability because the injury did not come from blasting’s special risks.
+4. **Lawyer confirmation:** Restatement §519(2) limits strict liability to the kind of harm whose possibility makes the activity abnormally dangerous.
+
+### B
+
+1. **Student-accessible C3 signal:** The word **never** is the Ear signal.
+2. **Student label:** Timing absolute.
+3. **What a true/responsive version would look like:** “No, because this injury was outside the blasting risk.”
+4. **Lawyer confirmation:** Timing is not the decisive rule. A preparation-stage injury could still matter if it came from the special danger; this injury did not.
+
+### C
+
+1. **Student-accessible C3 signal:** This answer proves only location.
+2. **Student label:** Site shortcut.
+3. **What a true/responsive version would look like:** “Yes, if the injury resulted from the special risk of blasting.”
+4. **Lawyer confirmation:** Being at the site is not enough for strict liability; the harm must fall within the abnormal-risk scope.
+
+### D
+
+1. **Student-accessible C3 signal:** This answer proves only the activity label.
+2. **Student label:** Activity-label shortcut.
+3. **What a true/responsive version would look like:** “Yes, because blasting was abnormally dangerous and the injury resulted from the danger that made it abnormal.”
+4. **Lawyer confirmation:** Blasting may satisfy the activity label, but §519(2) still requires the injury to be the kind of harm that made blasting abnormally dangerous.
+
+## residual_answer
+
+**A** survives. It is the only answer that connects the injury to the special-risk limitation.
+
+## legal_leak_audit
+
+The student path does not pretend the special-risk rule is visible from grammar alone. It uses a Gold Key. The only pure structural cut is B’s “never” overclaim.
+
+**Drift audit:** No lawyer-only doctrine is smuggled into the structural path; Restatement authority stays in lawyer confirmation.
+
+## final_student_script
+
+Blasting is dangerous. But ask what hurt Lydia. A folding costume rack hurt her, not an explosion, flying rock, or ground shock. The strict-liability answer must follow the special risk. Pick **A**.
+
+## remediation_card
+
+**REM-TORTS-SPECIAL-RISK-LINK — Strict Liability Needs the Risk Link**
+**Signal:** Dangerous activity plus ordinary injury.
+**Student move:** Ask “what hurt the plaintiff?” before choosing the strict-liability answer.
+**Tiny rule:** The activity label is not enough. The injury must come from the abnormal risk.
+**Trap:** Picking the answer that says only “the activity was dangerous.”
+**Confidence:** Anchor-assisted.
+
+## Gold Key(s)
+
+**GK-TORTS-SPECIAL-RISK-01**
+Strict liability for an abnormally dangerous activity follows the special danger, not every accident near the activity. The injury must be the kind of harm that made the activity abnormal.
+
+## Silver Key(s)
+
+**SK-TORTS-RISK-LINK-01**
+In a 2-yes / 2-no strict-liability array, do not pick the outcome first. Pick the reason that links this injury to the risk named in the answer.
+
+## qa_checklist
+
+| Check                                        | Result |
+| -------------------------------------------- | ------ |
+| Rule unchanged                               | Pass   |
+| Credited outcome unchanged                   | Pass   |
+| Three distractors, one filter each           | Pass   |
+| Correct answer breaks no filter              | Pass   |
+| Gold Key used only where needed              | Pass   |
+| No First Amendment / church-property clutter | Pass   |
+| Choice order shuffled                        | Pass   |
+| Recognition test passed                      | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why a student picks it               | Skipped move                    | Recovery                                                             |
+| ------ | ------------------------------------ | ------------------------------- | -------------------------------------------------------------------- |
+| B      | The timing fact is vivid.            | Heard “before” and stopped.     | Hear “never,” then return to injury source.                          |
+| C      | The injury happened at the worksite. | Treated location as causation.  | Ask whether the site fact explains what made the activity dangerous. |
+| D      | Blasting is obviously dangerous.     | Proved only the activity label. | Add the risk-link check: what hurt the plaintiff?                    |
+
+## outline_mastery_map
+
+**Outline code:** `63040100`
+**Placement:** Torts → Strict Liability → Abnormally Dangerous Activities.
+**This item teaches:** scope of strict liability, not activity classification.
+**Fills:** special-risk limitation.
+**Adjacent to master:** strict products liability defect-causation; proximate cause scope-of-risk; wild-animal dangerous propensity.
+
+## crossover_intersection_map
+
+| Crossover                  | Shared move                                                     |
+| -------------------------- | --------------------------------------------------------------- |
+| Products liability         | Defect label is not enough; defect must cause injury.           |
+| Negligence proximate cause | Liability follows the risk that made the conduct wrongful.      |
+| Premises liability         | Ordinary site hazards are not automatically special-risk harms. |
+| Evidence purpose questions | Match the answer to the purpose/source, not the broad label.    |
+
+## review_truth
+
+Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.
+
+```json
+{
+  "c3_annotation": {
+    "question_id": "20727_easter_garden_blast_hose",
+    "subject": "TORTS",
+    "credited_answer": "A",
+    "outline_code": "63040100",
+    "distilled_core_question": "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?",
+    "review_truth": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+    "c3": {
+      "verdict": "ANCHOR_SOLVE",
+      "residual": "A",
+      "agrees_with_key": true,
+      "governing_law_type": "RULE",
+      "deciding_phase": "CUT",
+      "confidence": "ANCHOR_ASSISTED",
+      "tension_axis": "special-risk injury link vs activity/site/timing shortcut",
+      "is_fork": false,
+      "fork_type": null,
+      "call_heuristic": null,
+      "difficulty": "medium_high",
+      "distractors": [
+        {
+          "choice": "B",
+          "filter_broken": "NOT_TRUE",
+          "mold": "tiered_absolute",
+          "architecture": null,
+          "card_ref": "C3-Lesson-04-overclaim",
+          "explanation": "The word 'never' makes timing an absolute rule. The item turns on special-risk causation, not timing alone."
+        },
+        {
+          "choice": "C",
+          "filter_broken": "NOT_RESPONSIVE",
+          "mold": "wrong_element",
+          "architecture": "wrong_frame",
+          "card_ref": "GK-TORTS-SPECIAL-RISK-01",
+          "explanation": "The site fact is true but not enough. It does not connect Lydia's injury to the special danger of blasting."
+        },
+        {
+          "choice": "D",
+          "filter_broken": "NOT_RESPONSIVE",
+          "mold": "wrong_element",
+          "architecture": "wrong_frame",
+          "card_ref": "GK-TORTS-SPECIAL-RISK-01",
+          "explanation": "The dangerous-activity label is true but incomplete. It omits the injury-source link."
+        }
+      ],
+      "analyzer_notes": {
+        "drift_audit": "Rule, issue, outcome, trap structure, and answer geometry preserved; surface story maximally changed.",
+        "transformed_from": "20727",
+        "letter_map": {
+          "A": "D",
+          "B": "C",
+          "C": "A",
+          "D": "B"
+        },
+        "pick_rate_note": "No measured focus-group percentages supplied; all rate fields are null with predicted provenance.",
+        "recognition_summaries": {
+          "source": "A delivery driver at a warehouse fumigation slips on a wet ladder before toxic gas is released and sues for strict liability.",
+          "variant": "A prop deliverer at a private Easter-garden blasting project is hurt by a falling costume rack before explosive charges are set and sues for strict liability."
+        }
+      },
+      "gold_keys": [
+        {
+          "id": "GK-TORTS-SPECIAL-RISK-01",
+          "statement": "Strict liability for an abnormally dangerous activity follows the special danger, not every accident near the activity. The injury must be the kind of harm that made the activity abnormal.",
+          "type": "distinction",
+          "unlocks": "activity-label and site-connection traps",
+          "trigger": "The stem gives an abnormally dangerous activity plus an ordinary injury mechanism.",
+          "tested_choice": "D",
+          "authority": "Restatement (Second) of Torts §519(2)",
+          "last_minute_review": true
+        }
+      ],
+      "silver_keys": [
+        {
+          "id": "SK-TORTS-RISK-LINK-01",
+          "statement": "In a 2-yes / 2-no strict-liability array, do not pick the outcome first. Pick the reason that links this injury to the risk named in the answer.",
+          "type": "answer_array",
+          "navigates": "yes/no shortcut array",
+          "trigger": "Two answers say yes, two say no, and only one answer talks about the injury source.",
+          "tested_choice": "D",
+          "outline_code": "63040100",
+          "last_minute_review": true
+        }
+      ]
+    }
+  }
+}
+```
+
+```json
+{
+  "program_elements": {
+    "question_id": "20727_easter_garden_blast_hose",
+    "subject": "TORTS",
+    "outline_code": "63040100",
+    "distilled_core_question": "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?",
+    "review_truth": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+    "tension": {
+      "axis": "special-risk injury link vs shortcut reason",
+      "splitting_fact": "The injury came from a folding costume rack, not blasting danger."
+    },
+    "traps": [
+      {
+        "choice": "B",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "why_attractive": "The stem gives a timing fact, so this answer feels like a clean no-liability rule. The breaker is the absolute word 'never,' which overstates timing and ignores the injury-source rule.",
+        "focus_group_pct": null,
+        "pct_provenance": "predicted"
+      },
+      {
+        "choice": "C",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "why_attractive": "The injury did occur at the blasting site, so the answer uses a true fact. The breaker is that location does not prove the injury came from the special blasting risk.",
+        "focus_group_pct": null,
+        "pct_provenance": "predicted"
+      },
+      {
+        "choice": "D",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "why_attractive": "Blasting with explosives sounds like the whole strict-liability trigger. The breaker is that the activity label omits the required link between the abnormal risk and this injury.",
+        "focus_group_pct": null,
+        "pct_provenance": "predicted"
+      }
+    ],
+    "remediation_card": {
+      "card_id": "REM-TORTS-SPECIAL-RISK-LINK",
+      "title": "Strict Liability Needs the Risk Link",
+      "signal": "Dangerous activity plus ordinary injury.",
+      "student_move": "Ask what hurt the plaintiff before choosing a strict-liability answer.",
+      "tiny_rule": "Activity label is not enough; injury must flow from the abnormal risk.",
+      "trap": "Picking the dangerous-activity label or site connection.",
+      "confidence": "ANCHOR_ASSISTED"
+    },
+    "red_zone_dimensions": [
+      "activity-label shortcut",
+      "site-connection shortcut",
+      "timing absolute",
+      "ordinary injury near dangerous activity"
+    ]
+  }
+}
+```
+
+```json
+{
+  "program_intelligence": {
+    "question_id": "20727_easter_garden_blast_hose",
+    "subject": "TORTS",
+    "outline_code": "63040100",
+    "distilled_core_question": "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?",
+    "review_truth": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+    "wrong_answer_paths": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "why_a_student_picks_this": "The student locks onto the before-blasting timing fact.",
+        "skipped_move": "Overclaim flinch at 'never.'",
+        "recovery_step": "Cut the absolute and ask whether the harm fell inside or outside the special risk."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "why_a_student_picks_this": "The student treats site connection as enough for strict liability.",
+        "skipped_move": "Risk-link check.",
+        "recovery_step": "Separate location from injury source."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "why_a_student_picks_this": "The student stops at the abnormally dangerous activity label.",
+        "skipped_move": "Gold Key: special danger limits strict liability.",
+        "recovery_step": "Ask what made the activity abnormal and whether that danger caused this injury."
+      }
+    ],
+    "drill_seeds": [
+      {
+        "drill_type": "CUT",
+        "target_skill": "wrong_element",
+        "prompt": "A fireworks company is preparing a show. Before any fireworks are armed, a visitor is hurt by a collapsing picnic table. Strict liability?",
+        "answer": "No, unless the injury came from the special fireworks risk."
+      },
+      {
+        "drill_type": "EAR",
+        "target_skill": "tiered_absolute",
+        "prompt": "Strict liability never applies before the dangerous activity begins.",
+        "answer": "Cut the absolute; timing alone is not the scope rule."
+      },
+      {
+        "drill_type": "answer_array",
+        "target_skill": "2-yes / 2-no reason read",
+        "prompt": "Two answers say yes, two say no. One yes proves activity danger; one no proves no special-risk injury. Which reason controls?",
+        "answer": "The injury-source reason controls."
+      },
+      {
+        "drill_type": "Gold Key recall",
+        "target_skill": "special-risk limitation",
+        "prompt": "State the tiny rule for abnormally dangerous activity strict liability.",
+        "answer": "Liability covers only the kind of harm that makes the activity abnormally dangerous."
+      }
+    ],
+    "trap_tags": {
+      "forensic_tags": [
+        "strict_liability_scope",
+        "ordinary_site_injury",
+        "special_risk_link",
+        "2x2_yes_no_array"
+      ],
+      "misconception_tags": [
+        "dangerous_activity_equals_liability",
+        "site_connection_equals_liability",
+        "timing_fact_controls_all"
+      ]
+    },
+    "component_routing": [
+      "Lesson 1 TRUE and RESPONSIVE",
+      "Lesson 2 CUT → CLASH → CALL",
+      "Lesson 4 overclaim",
+      "Lesson 8 wrong_element",
+      "Lesson 12 anchor deck",
+      "Lesson 14 full workflow"
+    ],
+    "crossovers": [
+      {
+        "area": "Products liability",
+        "intersection": "Defect label alone is not enough; defect must cause the injury."
+      },
+      {
+        "area": "Negligence proximate cause",
+        "intersection": "Liability follows the risk that made the conduct wrongful."
+      },
+      {
+        "area": "Premises liability",
+        "intersection": "Ordinary site hazards do not become special-risk harms by location alone."
+      },
+      {
+        "area": "Evidence purpose",
+        "intersection": "Match the answer to the operative source/purpose, not the broad label."
+      }
+    ],
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-SPECIAL-RISK-01",
+        "statement": "Strict liability for an abnormally dangerous activity follows the special danger, not every accident near the activity. The injury must be the kind of harm that made the activity abnormal.",
+        "type": "distinction",
+        "unlocks": "activity-label and site-connection traps",
+        "trigger": "The stem gives an abnormally dangerous activity plus an ordinary injury mechanism.",
+        "tested_choice": "D",
+        "authority": "Restatement (Second) of Torts §519(2)",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-RISK-LINK-01",
+        "statement": "In a 2-yes / 2-no strict-liability array, do not pick the outcome first. Pick the reason that links this injury to the risk named in the answer.",
+        "type": "answer_array",
+        "navigates": "yes/no shortcut array",
+        "trigger": "Two answers say yes, two say no, and only one answer talks about the injury source.",
+        "tested_choice": "D",
+        "outline_code": "63040100",
+        "last_minute_review": true
+      }
+    ],
+    "outline_mastery": {
+      "placement": "Torts > Strict Liability and Products Liability > Strict Liability > Abnormally Dangerous Activities",
+      "this_item_teaches": "The scope limit on strict liability for abnormally dangerous activities.",
+      "fills": [
+        "special-risk limitation",
+        "ordinary accident outside abnormal risk",
+        "wrong-element distractor discipline"
+      ],
+      "adjacent_to_master": [
+        "wild animal dangerous-propensity harms",
+        "strict products liability defect causation",
+        "negligence scope of risk"
+      ]
+    }
+  }
+}
+```
+
+[1]: https://opencasebook.org/casebooks/4643-tobia-torts-2022/resources/9.2.2-restatement-2d-519-general-principle/?utm_source=chatgpt.com "Tobia Torts 2022 : Restatement (2d.) § 519: General Principle | H2O"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20727"
+  question_id: "20727"
+  subject: "TORTS"
+  topic: "Strict liability"
+  subtopic: "Abnormally dangerous activities - harms outside abnormal risk"
+  outline_code: "63040100"
+  official_key: "A"
+transform_provenance:
+  transformed_from: "20727"
+  variant_slug: "20727"
+  original_key_letter: "C"
+  new_key_letter: "A"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "A"
+distilled_core_question: "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?"
+review_truth: "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20727; source 20727.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject TORTS; topic Strict liability; subtopic Abnormally dangerous activities - harms outside abnormal risk.
+4. **distilled_core_question:** A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?
+5. **call_and_prediction:** Credited answer: A.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 63040100.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** A
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 63040100.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20727",
+  "subject": "TORTS",
+  "credited_answer": "A",
+  "outline_code": "63040100",
+  "distilled_core_question": "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?",
+  "review_truth": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20727; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20727",
+  "subject": "TORTS",
+  "outline_code": "63040100",
+  "distilled_core_question": "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?",
+  "review_truth": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20727",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20727",
+  "subject": "TORTS",
+  "outline_code": "63040100",
+  "distilled_core_question": "A plaintiff is hurt by an ordinary site hazard during preparation for blasting. The injury does not come from blasting danger. Is the blaster strictly liable?",
+  "review_truth": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "63040100",
+    "this_item_teaches": "Strict liability for an abnormally dangerous activity covers only injuries caused by the special danger that makes the activity abnormal.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,971 @@
+---
+qid: "20516_manna_games_duress"
+transformed_from: "20516"
+subject: "CRIMINAL"
+topic: "Defenses"
+subtopic: "General Principles"
+outline_code: "72060206"
+key: "B"
+original_key: "UNKNOWN"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative."
+---
+Source row reviewed: BARMATRIX Q#20516. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question
+
+Timothy works the evening shift in the shipping room at **Manna Games**, a private company that sells Bible-themed board games and collector study-Bible sets. On Monday night, Barnabas, a collector with a reputation for using hired muscle, sends Timothy a video message from a retreat center three states away:
+
+> “Before the warehouse closes on Friday, take the locked case of gold-edition study Bibles worth $18,000 and leave it behind the Noah’s Ark mini-golf sign, or after next Sunday’s hymn-sing I will have your sister Hannah badly hurt.”
+
+Timothy believes Barnabas is serious and is terrified for Hannah. On Thursday, Timothy takes the case. Charged with theft, Timothy asserts duress.
+
+**Should the court accept Timothy’s duress defense?**
+
+## 2. Distilled Core Question
+
+A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?
+
+## 3. Final answer choices
+
+**A.** Yes, because the threat was directed at Timothy’s sister, a close family member, which is sufficient.
+**B.** No, because the threat was not imminent — the threatened harm was scheduled for a future time and Barnabas was physically absent.
+**C.** No, because duress is available only as a defense to violent crimes.
+**D.** Yes, because Timothy had a genuine and reasonable fear that Barnabas would hurt Hannah.
+
+## 4. Correct answer
+
+**B**. The original key was **C**.
+
+## 5. Letter Map
+
+| Original letter | New letter | Mechanic                                      | Substance | Pick rate                                       |
+| --------------- | ---------: | --------------------------------------------- | --------- | ----------------------------------------------- |
+| A               |          D | genuine/reasonable fear but missing imminence | kept      | 24% predicted; no measured source rate supplied |
+| B               |          A | close-family threat but missing imminence     | kept      | 16% predicted; no measured source rate supplied |
+| C               |          B | correct_answer                                | kept      | 53% predicted; no measured source rate supplied |
+| D               |          C | categorical violent-crime-only misconception  | kept      | 7% predicted; no measured source rate supplied  |
+
+## 6. Full right-answer explanation
+
+**B is correct.**
+
+**Gold Key:** Common-law duress is not a “real fear” defense. It needs an imminent human threat of death or serious bodily harm, directed at the defendant or a close family member, with no reasonable legal alternative. Here, the threat was for a future time, and Barnabas was physically absent. Timothy had time to seek help or protect Hannah without stealing.
+
+**Silver Key:** Read the answer array as an element-completion test. Two “Yes” answers name sympathetic facts. The credited “No” answer names the missing threshold.
+
+## 7. Full wrong-answer explanations
+
+**A.** The choice is attractive because it uses a real duress ingredient: the threat was aimed at a close family member. The breaker is the word **“sufficient”**. A family threat helps only if the other threshold facts are also present, especially imminence and no reasonable escape.
+
+**C.** The choice is attractive because it reaches the right result — no duress — and remembers that duress has limits. The breaker is the categorical scope claim. The defense is not limited to violent crimes. Theft is not excluded if the actual duress elements are met.
+
+**D.** The choice is attractive because Timothy’s fear is believable and reasonable on the facts. The breaker is that fear alone does not answer the defense. The missing fact is imminence: future harm from an absent threatener leaves room to seek protection.
+
+## 8. Full black-letter-law verification and legal reasoning for the right answer
+
+The legal issue and credited outcome are unchanged from the original: common-law duress fails because the threat is not imminent and leaves a reasonable opportunity to avoid the harm without committing the crime. Cornell’s Wex entry describes criminal duress as an affirmative defense requiring a reasonable threat of imminent death or serious bodily injury, and notes that a reasonable chance to escape defeats the defense. ([Legal Information Institute][1])
+
+The common-law lawyer-confirmation layer is especially strong on this point. The Department of Justice’s merits brief in *Dixon v. United States* summarizes common-law duress as requiring an imminent and impending danger, no reasonable legal alternative, and no reasonable opportunity to avoid the threatened harm; it also states that fear of future bodily harm does not excuse an offense. ([Department of Justice][2])
+
+The credited answer is therefore legally unchanged. In the original, the threatener was remote and the threatened harm was set for next week. In the variation, Barnabas is physically absent and the threatened harm is scheduled after a later event. Both fact patterns fail the same imminence threshold.
+
+The wrong scope answer is also unchanged. Duress is not a violent-crime-only defense. Modern formulations commonly frame it as a defense to “a crime,” with separate limits for homicide-type offenses rather than a blanket bar on nonviolent crimes. ([Legal Information Institute][1])
+
+## 9. Why the variation preserves rigor and difficulty
+
+The item remains anchor-dependent. It still tests the same narrow defense threshold: imminence plus no reasonable legal alternative. The attractive “Yes” choices still sell real but incomplete facts. The false “No” choice still offers the right outcome for the wrong categorical reason. The answer-array geometry remains a 2×2 result/rationale array: two “Yes” element traps, one correct “No” threshold answer, one wrong “No” scope answer.
+
+## 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**Access limit:** without the Gold Key, C3 cannot know which duress element controls. With the Gold Key, this is an **ANCHOR_SOLVE**.
+
+**CUT.**
+
+**A** cuts as **NOT_RESPONSIVE / wrong_element**. It names a true element — close family — but does not answer the missing threshold: imminence.
+
+**C** cuts as **NOT_TRUE / tiered_absolute**. The word “only” creates a categorical violent-crime-only rule that the Gold Key rejects.
+
+**D** cuts as **NOT_RESPONSIVE / wrong_element**. It names genuine, reasonable fear, but the call asks whether the full defense succeeds.
+
+**B** survives. It is true and responsive because it names the missing threshold and ties it to the facts.
+
+**CLASH.** Not needed after the anchor-assisted Cut.
+
+**CALL.** Not needed.
+
+## 11. Divergence Audit
+
+| Recognition-Kill dimension    | Result                                                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Asset/subject matter          | Bank cash became a locked case of gold-edition study Bibles in a private game-company warehouse.                               |
+| Transaction frame             | Bank-employee cash theft became warehouse inventory theft from a private Christian-themed retailer.                            |
+| Specific facts                | Phone call from a criminal boss became a video message from a remote collector with hired-muscle reputation.                   |
+| Numbers                       | $50,000 became $18,000; timing remains legally safe because the threat is still future/non-imminent.                           |
+| Fact ordering and stem rhythm | New stem opens with workplace texture, then threat format, then family fear, then theft.                                       |
+| Cast size/roles               | Quinn/Dante became Timothy/Barnabas/Hannah with a non-legal Christian setting.                                                 |
+| Choice ordering               | Shuffled. Key moved to B.                                                                                                      |
+| Choice phrasing               | Re-skinned to Timothy, Hannah, Barnabas; black-letter terms preserved where needed.                                            |
+| Setting/era/texture           | Bank/criminal-boss frame became private Christian board-game warehouse, collector study-Bible sets, Noah’s Ark mini-golf sign. |
+| Call wording                  | “Likely to succeed” became “Should the court accept,” same legal function.                                                     |
+
+**Original stem summary:** A bank employee steals money after a distant criminal boss threatens future harm to his family.
+**New stem summary:** A warehouse worker steals collector study Bibles after a remote collector threatens to hurt his sister after a later hymn-sing.
+
+The summaries share only the legal rule: future remote threat plus theft plus duress.
+
+## 12. Review Truth
+
+Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.
+
+## 13. The 5 variations considered
+
+| Variation                                 | Setting / cast                                                                           | Preserved issue                               | Why memorable                                             | Legal risks                                                  | Divergence score                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| **Recommended: Manna Games Warehouse**    | Timothy, Barnabas, Hannah; Bible-game warehouse and gold-edition study Bibles            | Future remote threat defeats duress for theft | Noah’s Ark mini-golf drop site is vivid but legally clean | Low; private property, no church/government issue            | 10/10; kills asset, workplace, texture, names, numbers, rhythm, call wording |
+| Psalms Coffee Roaster Cash Bag            | Ruth threatened by Paul to take a cash bag from a private Christian coffee roaster       | Same duress threshold                         | “Psalm 23 Latte Night” texture                            | Slightly closer to original because cash remains the asset   | 8/10; kills setting and cast but keeps money theft                           |
+| Armor-of-God Costume Vault                | Stephen threatened by John to take costume gems from a private theater supplier          | Same duress threshold                         | Vivid prop-room theft                                     | Risk of sounding like burglary if not kept as employee theft | 9/10                                                                         |
+| Lydia’s Fish-and-Loaves Food Truck Ledger | Lydia threatened by Peter to falsify a private food-truck till                           | Same duress threshold                         | Fun commercial Christian texture                          | Fraud/theft wording could shift offense mechanics            | 7/10                                                                         |
+| Daniel’s Scripture-Quiz Prize Safe        | Daniel threatened by Martha to take prize electronics from a private quiz-league company | Same duress threshold                         | Memorable quiz-prize setting                              | Prize/contest facts add clutter                              | 8/10                                                                         |
+
+```yaml
+question_id: "20516_manna_games_duress"
+barmatrix_row:
+  original_qid: "20516"
+  internal_id: "CR-100"
+  subject: "CRIMINAL"
+  subject_display: "Criminal Law and Procedure"
+  topic: "Defenses"
+  subtopic: "General Principles"
+  outline_code: "72060206"
+  transformed_stem: "Timothy works the evening shift in the shipping room at Manna Games, a private company that sells Bible-themed board games and collector study-Bible sets. On Monday night, Barnabas, a collector with a reputation for using hired muscle, sends Timothy a video message from a retreat center three states away: 'Before the warehouse closes on Friday, take the locked case of gold-edition study Bibles worth $18,000 and leave it behind the Noah’s Ark mini-golf sign, or after next Sunday’s hymn-sing I will have your sister Hannah badly hurt.' Timothy believes Barnabas is serious and is terrified for Hannah. On Thursday, Timothy takes the case. Charged with theft, Timothy asserts duress."
+  call: "Should the court accept Timothy’s duress defense?"
+  official_key: "B"
+  choices:
+    A: "Yes, because the threat was directed at Timothy’s sister, a close family member, which is sufficient."
+    B: "No, because the threat was not imminent — the threatened harm was scheduled for a future time and Barnabas was physically absent."
+    C: "No, because duress is available only as a defense to violent crimes."
+    D: "Yes, because Timothy had a genuine and reasonable fear that Barnabas would hurt Hannah."
+  selection_percentages:
+    A:
+      pct: 16
+      provenance: "predicted"
+      note: "No measured source pick rate supplied."
+    B:
+      pct: 53
+      provenance: "predicted"
+      note: "No measured source pick rate supplied."
+    C:
+      pct: 7
+      provenance: "predicted"
+      note: "No measured source pick rate supplied."
+    D:
+      pct: 24
+      provenance: "predicted"
+      note: "No measured source pick rate supplied."
+source_stack:
+  - "Pasted BarMatrix row QID 20516."
+  - "C3 controlled vocabularies."
+  - "C3 lessons: True/Responsive, Cut-Clash-Call, wrong-element, overclaim, calibration."
+  - "Official explanation used only for lawyer_confirmation."
+transform_provenance:
+  transformed_from: "20516"
+  variant_slug: "manna_games_duress"
+  christian_skin: true
+  recognition_test_passed: true
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "genuine/reasonable fear but missing imminence"
+      substance: "kept"
+      pick_rate:
+        pct: 24
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "close-family threat but missing imminence"
+      substance: "kept"
+      pick_rate:
+        pct: 16
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        pct: 53
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "categorical violent-crime-only misconception"
+      substance: "kept"
+      pick_rate:
+        pct: 7
+        provenance: "predicted"
+student_access_contract:
+  controlling_test: "A student cannot solve this from pure C3 structure alone; the duress threshold must be supplied by a Gold Key."
+  allowed_c3_moves:
+    - "TRUE and RESPONSIVE"
+    - "CUT -> CLASH -> CALL"
+    - "wrong_element"
+    - "tiered_absolute"
+    - "answer-array read"
+  required_gold_keys:
+    - "GK-CRIMINAL-DURESS-IMMINENCE-01"
+    - "GK-CRIMINAL-DURESS-SCOPE-02"
+  required_silver_keys:
+    - "SK-CRIMINAL-DURESS-ARRAY-01"
+  access_verdict: "ANCHOR_SOLVE"
+stem_parse:
+  call_type: "defense-success"
+  role: "court"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Do not ask only whether Timothy's fear was real or whether Hannah counts as family."
+  predicted_answer: "No; the defense fails because the threat is future and remote, not imminent."
+trigger_facts:
+  - fact: "Barnabas is three states away."
+    access_label: "student_visible"
+    legal_role: "physical absence undermines imminence"
+  - fact: "Threatened harm is after next Sunday’s hymn-sing."
+    access_label: "student_visible"
+    legal_role: "future threatened harm"
+  - fact: "Message is sent Monday and theft deadline is Friday."
+    access_label: "student_visible"
+    legal_role: "time to seek help"
+  - fact: "Threat targets Hannah, Timothy’s sister."
+    access_label: "student_visible"
+    legal_role: "real but incomplete duress element"
+  - fact: "Timothy believes the threat is serious."
+    access_label: "student_visible"
+    legal_role: "real but incomplete duress element"
+c3_routing:
+  subject_fit: "Criminal defenses = threshold element check before sympathy facts."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium_high"
+  tension_axis: "imminent threshold vs real-but-incomplete fear/family facts"
+answer_array:
+  geometry: "2 Yes element traps / 2 No answers; correct No uses missing threshold; wrong No uses false crime-scope rule."
+  silver_key: "SK-CRIMINAL-DURESS-ARRAY-01"
+  dominant_trap:
+    choice: "D"
+    basis: "predicted; no measured source rate supplied"
+choice_walkthroughs:
+  A:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "half_right_answer"
+      - "exception_omitted"
+      - "answer_to_different_question"
+    method_class: "anchor_assisted"
+    student_label: "real element, not enough"
+    c3_signal: "The choice names close family, but the defense-success call needs the full threshold."
+    lawyer_confirmation: "A threat to a close family member may count, but it does not replace imminence and no reasonable legal alternative."
+  B:
+    credited: true
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "threshold failure"
+    c3_signal: "This is the only answer that matches the missing threshold fact: future harm from an absent threatener."
+    lawyer_confirmation: "Common-law duress fails without an imminent threat and no reasonable escape."
+  C:
+    credited: false
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "misstated_rule"
+      - "common_student_myth"
+    method_class: "anchor_assisted"
+    student_label: "right result, wrong rule"
+    c3_signal: "The word only creates a categorical rule that the Gold Key rejects."
+    lawyer_confirmation: "Duress is not limited to violent crimes; the common limitation concerns homicide-type offenses, not theft."
+  D:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "half_right_answer"
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+    method_class: "anchor_assisted"
+    student_label: "fear-only trap"
+    c3_signal: "The choice answers whether the fear was believable, not whether the defense threshold is satisfied."
+    lawyer_confirmation: "A genuine and reasonable fear is necessary but not sufficient when the threat is non-imminent."
+residual_answer:
+  choice: "B"
+  result: "No duress defense."
+  why_residual_survives: "It is the only true and responsive answer after the Gold Key supplies the governing threshold."
+legal_leak_audit:
+  student_accessible_claims:
+    - "A and D each name a real fact but do not answer the whole defense-success call."
+    - "C uses an absolute 'only' scope statement."
+    - "B tracks the future/absent threat facts."
+  quarantined_lawyer_claims:
+    - "Common-law duress requires imminence."
+    - "Duress is generally available for theft if elements are met."
+    - "The homicide limitation is not a violent-crimes-only limitation."
+  drift_audit: "No doctrine is presented as pure structure; the duress rule is handled as Gold Key authority."
+gold_keys:
+  - id: "GK-CRIMINAL-DURESS-IMMINENCE-01"
+    statement: "Common-law duress needs an imminent human threat of death or serious bodily harm, directed at the defendant or a close family member, with no reasonable legal alternative."
+    type: "threshold"
+    unlocks: "Fear/family traps that omit imminence."
+    trigger: "Threat scheduled for later, threatener absent, time to seek help."
+    tested_choice: "D"
+    authority: "Common-law duress; United States v. Bailey and federal duress formulations."
+    last_minute_review: true
+  - id: "GK-CRIMINAL-DURESS-SCOPE-02"
+    statement: "Duress is not a violent-crime-only defense; theft is not excluded if the duress elements are met."
+    type: "exception"
+    unlocks: "Wrong-result/wrong-reason scope trap."
+    trigger: "Answer says duress is only for violent crimes."
+    tested_choice: "C"
+    authority: "Common-law duress scope; homicide limitation."
+    last_minute_review: true
+silver_keys:
+  - id: "SK-CRIMINAL-DURESS-ARRAY-01"
+    statement: "When two Yes answers each name one sympathetic fact and a No answer names a missing threshold, treat the array as an element-completion test."
+    type: "answer_array"
+    navigates: "Yes/family and Yes/fear traps."
+    trigger: "Defense-success call with multiple partial-element answers."
+    tested_choice: "A"
+    outline_code: "72060206"
+    last_minute_review: true
+remediation:
+  card_id: "REM-CRIM-DURESS-IMMINENCE"
+  title: "Duress requires now-pressure."
+  signal: "Future threat, remote threatener, time to seek help."
+  student_move: "Cut fear-only and family-only answers; keep the answer that checks imminence."
+  tiny_rule: "Duress is immediate-threat plus no reasonable escape, not fear alone."
+  trap: "Sympathy for a believable family threat."
+  confidence: "ANCHOR_ASSISTED"
+distilled_core_question: "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?"
+review_truth: "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative."
+case_study_output:
+  final_student_script: "No. I need imminent threat, not just real fear. Barnabas was away and threatened harm later. B."
+  verdict: "ANCHOR_SOLVE"
+quality_control:
+  pass_requires_three_single_filter_distractors: true
+  distractor_count: 3
+  all_distractors_single_filter: true
+  credited_answer_breaks_no_filter: true
+  post_shuffle_key_consistent: true
+  no_unapproved_controlled_values: true
+analytics_hooks:
+  trap_tags:
+    - "family-threat sympathy"
+    - "fear-only duress"
+    - "right-result wrong-reason"
+  component_routing:
+    - "Gold Key: duress imminence"
+    - "Lesson 8: wrong_element"
+    - "Lesson 4: tiered_absolute"
+    - "Silver Key: answer_array"
+```
+
+# B) PASS-2 STUDENT CASE STUDY
+
+## program_frame
+
+This is a **Criminal Law defense** question. It is not a pure C3 structure solve. It needs a small Gold Key: duress requires an imminent threat and no reasonable legal alternative.
+
+## student_access_test
+
+A smart student can see that A and D are sympathy answers, and C is an “only” answer. But the student cannot know which legal ingredient controls duress without the Gold Key.
+
+Access result: **ANCHOR_SOLVE**.
+
+## question_data
+
+**Question ID:** 20516_manna_games_duress
+**Subject:** CRIMINAL
+**Outline code:** 72060206
+**Call:** Should the court accept Timothy’s duress defense?
+**Credited answer:** B
+
+## distilled_core_question
+
+A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?
+
+## call_and_prediction
+
+The call asks whether the **duress defense succeeds**.
+
+Prediction: **No.** The threat is future and remote. The missing piece is imminence.
+
+## trigger_facts
+
+| Fact                                        | What it does                        |
+| ------------------------------------------- | ----------------------------------- |
+| Barnabas is three states away               | Makes the threat remote.            |
+| Harm is after next Sunday’s hymn-sing       | Makes the threat future.            |
+| Message is Monday; theft deadline is Friday | Gives time to seek help.            |
+| Hannah is Timothy’s sister                  | Real but incomplete duress element. |
+| Timothy believes the threat                 | Real but incomplete duress element. |
+
+## governing_c3_lane
+
+Lane: **anchor-assisted CUT**.
+
+The student move is not “pick the sympathetic answer.” The move is: check whether the answer completes the defense threshold.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The choice names one favorable fact and calls it “sufficient.” That is an element-completion warning.
+2. **Student label:** Real element, not enough.
+3. **True/responsive version:** “Yes, because the close-family threat was imminent and left Timothy no reasonable legal alternative.”
+4. **Lawyer confirmation:** A close-family threat can support duress, but it does not replace imminence and lack of escape.
+
+### B
+
+1. **Student-accessible C3 signal:** This choice points to the exact fact that defeats the defense: future harm and absent threatener.
+2. **Student label:** Threshold failure.
+3. **True/responsive version:** This is already true and responsive.
+4. **Lawyer confirmation:** Common-law duress requires an imminent threat and no reasonable legal alternative. Future harm with time to seek help fails. ([Legal Information Institute][1])
+
+### C
+
+1. **Student-accessible C3 signal:** “Only” is an absolute scope word. It needs anchor checking.
+2. **Student label:** Right result, wrong rule.
+3. **True/responsive version:** “No, because the threat was not imminent.”
+4. **Lawyer confirmation:** Duress is not limited to violent crimes. The familiar categorical limitation is around homicide-type offenses, not theft. ([Legal Information Institute][1])
+
+### D
+
+1. **Student-accessible C3 signal:** The choice proves fear, but the call asks whether the whole defense succeeds.
+2. **Student label:** Fear-only trap.
+3. **True/responsive version:** “Yes, because Timothy reasonably feared an imminent threat and had no reasonable way to avoid it except by stealing.”
+4. **Lawyer confirmation:** Genuine fear is not enough when the threat is non-imminent and avoidable through lawful alternatives.
+
+## residual_answer
+
+**B** survives. It is the only choice that answers the defense-success call through the missing threshold.
+
+## legal_leak_audit
+
+The C3-visible part is answer-shape: A and D are partial-element answers, C is an absolute scope answer, and B is fact-engaged on the future/absence facts.
+
+The doctrine is quarantined as a Gold Key: duress requires imminence and no reasonable legal alternative.
+
+**Drift audit:** No choice is called false on lawyer-only grounds without labeling the required anchor.
+
+## final_student_script
+
+“Duress is not just fear. I need an imminent threat and no reasonable escape. Barnabas was away, and the threat was for later. A and D are partial-element traps. C is the wrong scope rule. B.”
+
+## remediation_card
+
+**Card ID:** REM-CRIM-DURESS-IMMINENCE
+**Title:** Duress requires now-pressure.
+**Signal:** Future threat, remote threatener, time to seek help.
+**Student move:** Cut fear-only and family-only answers. Keep the answer that checks imminence.
+**Tiny rule:** Duress is immediate-threat plus no reasonable escape, not fear alone.
+**Trap:** Sympathy for a believable family threat.
+**Confidence:** ANCHOR_ASSISTED
+
+## Gold Key(s)
+
+**GK-CRIMINAL-DURESS-IMMINENCE-01**
+Common-law duress needs an imminent human threat of death or serious bodily harm, directed at the defendant or a close family member, with no reasonable legal alternative.
+
+**GK-CRIMINAL-DURESS-SCOPE-02**
+Duress is not a violent-crime-only defense; theft is not excluded if the duress elements are met.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-DURESS-ARRAY-01**
+When two “Yes” answers each name one sympathetic fact and a “No” answer names a missing threshold, treat the array as an element-completion test.
+
+## qa_checklist
+
+| Check                     | Result |
+| ------------------------- | ------ |
+| Key matches residual      | Yes, B |
+| Three distractors         | Yes    |
+| One filter per distractor | Yes    |
+| Anchor needed             | Yes    |
+| Gold Key supplied         | Yes    |
+| Fork                      | No     |
+| Drift risk controlled     | Yes    |
+
+## wrong_answer_recovery_paths
+
+| Choice | What happened                                 | Recovery move                                    |
+| ------ | --------------------------------------------- | ------------------------------------------------ |
+| A      | Student stopped at “family member.”           | Ask whether the defense threshold is complete.   |
+| C      | Student picked right result for wrong reason. | Check absolute scope words against the Gold Key. |
+| D      | Student stopped at “reasonable fear.”         | Ask what fact makes the threat immediate.        |
+
+## outline_mastery_map
+
+**Placement:** 72060206 — Criminal Law and Procedure > General Principles > Defenses > Duress.
+**This item teaches:** duress threshold failure.
+**Not taught as an outline:** no full defense chart; just the trigger and trap.
+
+## crossover_intersection_map
+
+| Crossover           | Caution                                                                |
+| ------------------- | ---------------------------------------------------------------------- |
+| Contracts duress    | Do not import civil voidability framing into criminal excuse.          |
+| Necessity           | Do not switch to natural-force necessity; this is human threat duress. |
+| Homicide limitation | Do not turn a homicide limitation into a violent-crime-only rule.      |
+
+## review_truth
+
+Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.
+
+```json
+{
+  "question_id": "20516_manna_games_duress",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060206",
+  "distilled_core_question": "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?",
+  "review_truth": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "imminent threshold vs real-but-incomplete fear/family facts",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium_high",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-DURESS-IMMINENCE-01",
+        "explanation": "The choice names the close-family fact but does not answer the missing imminence threshold."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-DURESS-SCOPE-02",
+        "explanation": "The choice uses an absolute violent-crime-only rule that is not the duress scope rule."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-DURESS-IMMINENCE-01",
+        "explanation": "The choice proves fear but not imminence or lack of reasonable legal alternative."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Doctrine is not presented as hard structure; duress elements are quarantined as Gold Keys.",
+      "transformed_from": "20516",
+      "letter_map": "A->D, B->A, C->B, D->C",
+      "pick_rate_note": "No measured source pick rates supplied; all percentages are predicted."
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-DURESS-IMMINENCE-01",
+        "statement": "Common-law duress needs an imminent human threat of death or serious bodily harm, directed at the defendant or a close family member, with no reasonable legal alternative.",
+        "type": "threshold",
+        "unlocks": "Fear/family traps that omit imminence.",
+        "trigger": "Threat scheduled for later, threatener absent, time to seek help.",
+        "tested_choice": "D",
+        "authority": "Common-law duress; United States v. Bailey and federal duress formulations.",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIMINAL-DURESS-SCOPE-02",
+        "statement": "Duress is not a violent-crime-only defense; theft is not excluded if the duress elements are met.",
+        "type": "exception",
+        "unlocks": "Wrong-result/wrong-reason scope trap.",
+        "trigger": "Answer says duress is only for violent crimes.",
+        "tested_choice": "C",
+        "authority": "Common-law duress scope; homicide limitation.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-DURESS-ARRAY-01",
+        "statement": "When two Yes answers each name one sympathetic fact and a No answer names a missing threshold, treat the array as an element-completion test.",
+        "type": "answer_array",
+        "navigates": "Yes/family and Yes/fear traps.",
+        "trigger": "Defense-success call with multiple partial-element answers.",
+        "tested_choice": "A",
+        "outline_code": "72060206",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "20516_manna_games_duress",
+  "subject": "CRIMINAL",
+  "outline_code": "72060206",
+  "distilled_core_question": "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?",
+  "review_truth": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+  "tension": {
+    "axis": "imminence threshold vs real-but-incomplete fear/family facts",
+    "resolved_by": "future timing and physical absence"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student sees a close-family threat and recognizes a real duress element. The breaker is that one real element does not answer the threshold failure: no imminent threat.",
+      "focus_group_pct": 16,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The student reaches a no-defense result and remembers that duress has crime-scope limits. The breaker is that the limit is not a violent-crime-only rule; theft is not excluded if the other elements are met.",
+      "focus_group_pct": 7,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student credits Timothy's fear because the stem makes it believable and reasonable. The breaker is that genuine fear still does not supply immediacy or eliminate legal alternatives.",
+      "focus_group_pct": 24,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-DURESS-IMMINENCE",
+    "title": "Duress requires now-pressure.",
+    "signal": "Future threat, remote threatener, time to seek help.",
+    "student_move": "Cut fear-only and family-only answers; keep the answer that checks imminence.",
+    "tiny_rule": "Duress is immediate-threat plus no reasonable escape, not fear alone.",
+    "trap": "Sympathy for a believable family threat.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "family-threat sympathy",
+    "genuine fear without imminence",
+    "right result wrong reason",
+    "violent-crime-only myth",
+    "remote threatener plus future harm"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "20516_manna_games_duress",
+  "subject": "CRIMINAL",
+  "outline_code": "72060206",
+  "distilled_core_question": "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?",
+  "review_truth": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The threat is aimed at a close family member, which feels like the exact reason duress exists.",
+      "skipped_move": "Element-completion check.",
+      "recovery_step": "Ask whether the answer also proves imminence and no reasonable legal alternative."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The choice reaches the correct no-defense outcome and sounds categorical.",
+      "skipped_move": "Scope-anchor check.",
+      "recovery_step": "Treat 'only' as a red flag and recall that theft is not excluded from duress."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The facts make Timothy's fear seem genuine and reasonable.",
+      "skipped_move": "Threshold check.",
+      "recovery_step": "Separate believable fear from immediate compulsion."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "duress threshold",
+      "prompt": "A defendant steals after a threatener far away promises to hurt a sibling next week. Does duress succeed?",
+      "answer": "No. The threat is future and remote, so imminence is missing."
+    },
+    {
+      "drill_type": "wrong_element cut",
+      "target_skill": "partial defense elements",
+      "prompt": "Choice says: 'Yes, because the threat was to a close family member.' Cut or keep?",
+      "answer": "Cut as NOT_RESPONSIVE / wrong_element unless imminence and no escape are also satisfied."
+    },
+    {
+      "drill_type": "tiered_absolute cut",
+      "target_skill": "scope overclaim",
+      "prompt": "Choice says: 'No, because duress is only for violent crimes.' Cut or keep?",
+      "answer": "Cut as NOT_TRUE / tiered_absolute."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "wrong_element",
+      "tiered_absolute",
+      "anchor_assisted",
+      "answer_array"
+    ],
+    "misconception_tags": [
+      "family threat is automatically sufficient",
+      "reasonable fear is automatically sufficient",
+      "duress is only for violent crimes"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 4 tiered_absolute",
+    "Lesson 8 wrong_element",
+    "Lesson 13 calibration",
+    "Gold Key: duress imminence",
+    "Silver Key: answer array"
+  ],
+  "crossovers": [
+    {
+      "area": "Contracts",
+      "note": "Do not import civil duress voidability; this is criminal excuse."
+    },
+    {
+      "area": "Criminal necessity",
+      "note": "Do not switch to necessity; the coercion comes from a person."
+    },
+    {
+      "area": "Homicide limitation",
+      "note": "Do not convert the homicide limitation into a violent-crime-only rule."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-DURESS-IMMINENCE-01",
+      "statement": "Common-law duress needs an imminent human threat of death or serious bodily harm, directed at the defendant or a close family member, with no reasonable legal alternative.",
+      "type": "threshold",
+      "unlocks": "Fear/family traps that omit imminence.",
+      "trigger": "Threat scheduled for later, threatener absent, time to seek help.",
+      "tested_choice": "D",
+      "authority": "Common-law duress; United States v. Bailey and federal duress formulations.",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIMINAL-DURESS-SCOPE-02",
+      "statement": "Duress is not a violent-crime-only defense; theft is not excluded if the duress elements are met.",
+      "type": "exception",
+      "unlocks": "Wrong-result/wrong-reason scope trap.",
+      "trigger": "Answer says duress is only for violent crimes.",
+      "tested_choice": "C",
+      "authority": "Common-law duress scope; homicide limitation.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-DURESS-ARRAY-01",
+      "statement": "When two Yes answers each name one sympathetic fact and a No answer names a missing threshold, treat the array as an element-completion test.",
+      "type": "answer_array",
+      "navigates": "Yes/family and Yes/fear traps.",
+      "trigger": "Defense-success call with multiple partial-element answers.",
+      "tested_choice": "A",
+      "outline_code": "72060206",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "72060206 Criminal Law and Procedure > General Principles > Defenses > Duress",
+    "this_item_teaches": "Future remote threats fail the duress imminence threshold.",
+    "fills": [
+      "duress threshold",
+      "partial-element trap",
+      "wrong-result/wrong-reason scope trap"
+    ],
+    "adjacent_to_master": [
+      "necessity vs duress",
+      "homicide limitation",
+      "affirmative defense element completion"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/wex/duress?utm_source=chatgpt.com "duress | Wex | US Law | LII / Legal Information Institute"
+[2]: https://www.justice.gov/osg/brief/dixon-v-united-states-brief-merits?utm_source=chatgpt.com "Office of the Solicitor General | Dixon v. United States - Brief (Merits) | United States Department of Justice"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20516_manna_games_duress"
+  question_id: "20516_manna_games_duress"
+  subject: "CRIMINAL"
+  topic: "Defenses"
+  subtopic: "General Principles"
+  outline_code: "72060206"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "20516"
+  variant_slug: "manna_games_duress"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?"
+review_truth: "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20516_manna_games_duress; source 20516.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Defenses; subtopic General Principles.
+4. **distilled_core_question:** A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 72060206.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 72060206.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20516_manna_games_duress",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060206",
+  "distilled_core_question": "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?",
+  "review_truth": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20516; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20516_manna_games_duress",
+  "subject": "CRIMINAL",
+  "outline_code": "72060206",
+  "distilled_core_question": "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?",
+  "review_truth": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20516",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20516_manna_games_duress",
+  "subject": "CRIMINAL",
+  "outline_code": "72060206",
+  "distilled_core_question": "A worker commits theft after a remote person threatens to hurt his sister at a future time. Does duress succeed?",
+  "review_truth": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72060206",
+    "this_item_teaches": "Duress is not fear alone; it requires an imminent human threat and no reasonable legal alternative.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

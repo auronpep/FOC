@@ -7,6 +7,7 @@ node_modules/
 .openclaw/completions/
 .openclaw/credentials/
 .openclaw/devices/
+.openclaw/.env
 .openclaw/identity/
 .openclaw/locks/
 .openclaw/logs/

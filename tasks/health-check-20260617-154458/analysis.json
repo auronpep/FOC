@@ -1,0 +1,645 @@
+{
+  "OutputDirectory": "C:\\FOC\\tasks\\health-check-20260617-154458",
+  "CpuAvgPercent": 13.7,
+  "AvailableMemoryAvgMB": 8284.0,
+  "CommitPercent": 56.1,
+  "Disks": [
+    {
+      "DeviceID": "C:",
+      "VolumeName": "",
+      "FileSystem": "NTFS",
+      "SizeGB": "475.98",
+      "FreeGB": "26.36",
+      "UsedPercent": "94.5"
+    },
+    {
+      "DeviceID": "F:",
+      "VolumeName": "easystore",
+      "FileSystem": "NTFS",
+      "SizeGB": "1862.98",
+      "FreeGB": "385.14",
+      "UsedPercent": "79.3"
+    }
+  ],
+  "PageFiles": {
+    "Name": "C:\\pagefile.sys",
+    "AllocatedBaseSize": "23552",
+    "CurrentUsage": "137",
+    "PeakUsage": "137"
+  },
+  "TopProcessGroups": [
+    {
+      "Name": "node",
+      "Count": 56,
+      "WorkingSetMB": 7414.4,
+      "PrivateMemoryMB": 6578.9
+    },
+    {
+      "Name": "chrome",
+      "Count": 36,
+      "WorkingSetMB": 7251.1,
+      "PrivateMemoryMB": 7280.1
+    },
+    {
+      "Name": "claude",
+      "Count": 15,
+      "WorkingSetMB": 3379.9,
+      "PrivateMemoryMB": 4578.5
+    },
+    {
+      "Name": "Code",
+      "Count": 12,
+      "WorkingSetMB": 1992.9,
+      "PrivateMemoryMB": 1529.0
+    },
+    {
+      "Name": "svchost",
+      "Count": 86,
+      "WorkingSetMB": 1360.9,
+      "PrivateMemoryMB": 452.9
+    },
+    {
+      "Name": "Codex",
+      "Count": 10,
+      "WorkingSetMB": 1263.0,
+      "PrivateMemoryMB": 1034.4
+    },
+    {
+      "Name": "Memory Compression",
+      "Count": 1,
+      "WorkingSetMB": 785.1,
+      "PrivateMemoryMB": 1.9
+    },
+    {
+      "Name": "msedgewebview2",
+      "Count": 18,
+      "WorkingSetMB": 653.9,
+      "PrivateMemoryMB": 833.5
+    },
+    {
+      "Name": "MsMpEng",
+      "Count": 1,
+      "WorkingSetMB": 512.3,
+      "PrivateMemoryMB": 549.7
+    },
+    {
+      "Name": "explorer",
+      "Count": 1,
+      "WorkingSetMB": 493.5,
+      "PrivateMemoryMB": 459.7
+    },
+    {
+      "Name": "EXCEL",
+      "Count": 1,
+      "WorkingSetMB": 402.2,
+      "PrivateMemoryMB": 337.6
+    },
+    {
+      "Name": "pwsh",
+      "Count": 4,
+      "WorkingSetMB": 337.1,
+      "PrivateMemoryMB": 154.9
+    },
+    {
+      "Name": "conhost",
+      "Count": 44,
+      "WorkingSetMB": 335.1,
+      "PrivateMemoryMB": 61.5
+    },
+    {
+      "Name": "cmd",
+      "Count": 33,
+      "WorkingSetMB": 253.9,
+      "PrivateMemoryMB": 137.2
+    },
+    {
+      "Name": "dwm",
+      "Count": 1,
+      "WorkingSetMB": 194.5,
+      "PrivateMemoryMB": 260.4
+    },
+    {
+      "Name": "powershell",
+      "Count": 2,
+      "WorkingSetMB": 156.0,
+      "PrivateMemoryMB": 125.9
+    },
+    {
+      "Name": "StartMenuExperienceHost",
+      "Count": 1,
+      "WorkingSetMB": 135.3,
+      "PrivateMemoryMB": 106.7
+    },
+    {
+      "Name": "RuntimeBroker",
+      "Count": 4,
+      "WorkingSetMB": 135.0,
+      "PrivateMemoryMB": 28.3
+    },
+    {
+      "Name": "PhoneExperienceHost",
+      "Count": 1,
+      "WorkingSetMB": 130.6,
+      "PrivateMemoryMB": 72.6
+    },
+    {
+      "Name": "WmiPrvSE",
+      "Count": 3,
+      "WorkingSetMB": 126.9,
+      "PrivateMemoryMB": 95.6
+    }
+  ],
+  "StartupBySource": [
+    {
+      "Name": "RegistryRun",
+      "Count": 7
+    },
+    {
+      "Name": "ScheduledTask",
+      "Count": 46
+    },
+    {
+      "Name": "StartupFolder",
+      "Count": 2
+    }
+  ],
+  "StartupEntries": [
+    {
+      "Source": "RegistryRun",
+      "Name": "Adobe Acrobat Synchronizer",
+      "State": "Present",
+      "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "RegistryRun",
+      "Name": "com.todesktop.25020447d4kq915",
+      "State": "Present",
+      "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "RegistryRun",
+      "Name": "Discord",
+      "State": "Present",
+      "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "RegistryRun",
+      "Name": "Docker Desktop",
+      "State": "Present",
+      "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "RegistryRun",
+      "Name": "MicrosoftEdgeAutoLaunch_10662B82B7D1C71D808266F79CC95960",
+      "State": "Present",
+      "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "RegistryRun",
+      "Name": "RaiDrive",
+      "State": "Present",
+      "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "RegistryRun",
+      "Name": "SecurityHealth",
+      "State": "Present",
+      "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "AD RMS Rights Policy Template Management (Automated)",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Active Directory Rights Management Services Client\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "AD RMS Rights Policy Template Management (Manual)",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Active Directory Rights Management Services Client\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Adobe Acrobat Update Task",
+      "State": "Disabled",
+      "Location": "\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Automatic-Device-Join",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Workplace Join\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "AutomaticOfflineMemoryDiagnostic",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\MemoryDiagnostic\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "CacheTask",
+      "State": "Running",
+      "Location": "\\Microsoft\\Windows\\Wininet\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Calibration Loader",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\WindowsColorSystem\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Data Integrity Check And Scan",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Data Integrity Scan\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Device Install Reboot Required",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Plug and Play\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Device User",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Device Information\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "DirectXDatabaseUpdater",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\DirectX\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Driver Recovery on Reboot",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Device Setup\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "DXGIAdapterCache",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\DirectX\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "ExploitGuard MDM policy Refresh",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\ExploitGuard\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Installation",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\LanguageComponentsInstaller\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Logon",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Management\\Provisioning\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "MdmDiagnosticsCleanup",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Management\\Provisioning\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Microsoft-Windows-DiskDiagnosticResolver",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\DiskDiagnostic\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Monitoring",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Hotpatch\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "MsCtfMonitor",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\TextServicesFramework\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "NcsiIdentifyUserProxies",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Network Connectivity Status Indicator\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Office Actions Server",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Office\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Office Automatic Updates 2.0",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Office\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Office Background Push Maintenance",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Office\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Office Feature Updates Logon",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Office\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Office Startup Maintenance",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Office\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "OpenClaw Gateway",
+      "State": "Running",
+      "Location": "\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "PITRTask",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Setup\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Pre-staged app cleanup",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\AppxDeploymentClient\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Proxy",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Autochk\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "QueueReporting",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Windows Error Reporting\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "RecommendedTroubleshootingScanner",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Diagnosis\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "ReconcileLanguageResources",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\LanguageComponentsInstaller\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Recovery-Check",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Workplace Join\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "RemediateHardwareChange",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Management\\Autopilot\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Retry",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Management\\Provisioning\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "RunOnReboot",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\Management\\Provisioning\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "SpaceAgentTask",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\SpacePort\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "SpaceManagerTask",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\SpacePort\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "SvcRestartTaskLogon",
+      "State": "Disabled",
+      "Location": "\\Microsoft\\Windows\\SoftwareProtectionPlatform\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Synchronize Language Settings",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\International\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "SystemSoundsService",
+      "State": "Running",
+      "Location": "\\Microsoft\\Windows\\Multimedia\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "UserTask",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\CertificateServicesClient\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "VerifiedPublisherCertStoreCheck",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\AppID\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Work Folders Logon Synchronization",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Work Folders\\"
+    },
+    {
+      "Source": "ScheduledTask",
+      "Name": "Work Folders Maintenance Work",
+      "State": "Ready",
+      "Location": "\\Microsoft\\Windows\\Work Folders\\"
+    },
+    {
+      "Source": "StartupFolder",
+      "Name": "desktop.ini",
+      "State": "Present",
+      "Location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+    },
+    {
+      "Source": "StartupFolder",
+      "Name": "desktop.ini",
+      "State": "Present",
+      "Location": "C:\\Users\\JesusLovesMe\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+    }
+  ],
+  "ServiceByState": [
+    {
+      "Name": "Running",
+      "Count": 112
+    },
+    {
+      "Name": "Stopped",
+      "Count": 190
+    }
+  ],
+  "RunningServiceStartModes": [
+    {
+      "Name": "Auto",
+      "Count": 72
+    },
+    {
+      "Name": "Manual",
+      "Count": 39
+    },
+    {
+      "Name": "Unknown",
+      "Count": 1
+    }
+  ],
+  "InterestingRunningServices": [
+    {
+      "Name": "LSM",
+      "DisplayName": "LSM",
+      "StartMode": "Unknown",
+      "StartName": "",
+      "ProcessId": "1948",
+      "PathName": ""
+    },
+    {
+      "Name": "postgresql-x64-17",
+      "DisplayName": "postgresql-x64-17 - PostgreSQL Server 17",
+      "StartMode": "Auto",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": "4312",
+      "PathName": "\"C:\\Program Files\\PostgreSQL\\17\\bin\\pg_ctl.exe\" runservice -N \"postgresql-x64-17\" -D \"C:\\Program Files\\PostgreSQL\\17\\data\" -w"
+    },
+    {
+      "Name": "RaiDrive.Service",
+      "DisplayName": "RaiDrive Filesystem Service",
+      "StartMode": "Auto",
+      "StartName": "LocalSystem",
+      "ProcessId": "4200",
+      "PathName": "\"C:\\Program Files\\OpenBoxLab\\RaiDrive\\RaiDrive.Service.x64.exe\""
+    },
+    {
+      "Name": "WinFsp.Launcher",
+      "DisplayName": "WinFsp.Launcher",
+      "StartMode": "Auto",
+      "StartName": "LocalSystem",
+      "ProcessId": "4180",
+      "PathName": "\"C:\\Program Files (x86)\\WinFsp\\SxS\\sxs.20260320T164711Z\\bin\\launcher-x64.exe\""
+    },
+    {
+      "Name": "WSLService",
+      "DisplayName": "WSL Service",
+      "StartMode": "Auto",
+      "StartName": "LocalSystem",
+      "ProcessId": "4300",
+      "PathName": "\"C:\\Program Files\\WSL\\wslservice.exe\""
+    }
+  ],
+  "TcpListenersByProcess": [
+    {
+      "Name": "svchost",
+      "Count": 7
+    },
+    {
+      "Name": "System",
+      "Count": 5
+    },
+    {
+      "Name": "node",
+      "Count": 4
+    },
+    {
+      "Name": "Code",
+      "Count": 2
+    },
+    {
+      "Name": "lsass",
+      "Count": 2
+    },
+    {
+      "Name": "postgres",
+      "Count": 2
+    },
+    {
+      "Name": "services",
+      "Count": 2
+    },
+    {
+      "Name": "spoolsv",
+      "Count": 2
+    },
+    {
+      "Name": "wininit",
+      "Count": 2
+    },
+    {
+      "Name": "jhi_service",
+      "Count": 1
+    }
+  ],
+  "TcpEstablishedByProcess": [
+    {
+      "Name": "chrome",
+      "Count": 72
+    },
+    {
+      "Name": "claude",
+      "Count": 12
+    },
+    {
+      "Name": "codex",
+      "Count": 11
+    },
+    {
+      "Name": "System",
+      "Count": 7
+    },
+    {
+      "Name": "node",
+      "Count": 6
+    },
+    {
+      "Name": "StartMenuExperienceHost",
+      "Count": 2
+    },
+    {
+      "Name": "EXCEL",
+      "Count": 1
+    },
+    {
+      "Name": "svchost",
+      "Count": 1
+    }
+  ],
+  "WslRunning": [
+    "T\u0000h\u0000e\u0000r\u0000e\u0000 \u0000a\u0000r\u0000e\u0000 \u0000n\u0000o\u0000 \u0000r\u0000u\u0000n\u0000n\u0000i\u0000n\u0000g\u0000 \u0000d\u0000i\u0000s\u0000t\u0000r\u0000i\u0000b\u0000u\u0000t\u0000i\u0000o\u0000n\u0000s\u0000.\u0000",
+    "\u0000",
+    "\u0000"
+  ]
+}

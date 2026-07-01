@@ -1,0 +1,979 @@
+---
+qid: "21848_manna_house_family_integrity"
+transformed_from: "21848"
+subject: "CONSTITUTIONAL_LAW"
+topic: "Due Process"
+subtopic: "Family Liberty"
+outline_code: "44040202"
+key: "C"
+original_key: "B"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source row used: BARMATRIX Q# 21848, Constitutional Law, Due Process, Family Liberty. The supplied row gives the original stem, four answer choices, official key B, and the rule reference for substantive due process family-integrity protection. 
+
+### 1. Final question — revised stem + call
+
+In the city of New Capernaum, the “One Hearth” residential code permits a one-unit rowhouse to be occupied by a parent and that parent’s children, but it does not allow an adult aunt to live in that same rowhouse with her niece and the niece’s children. Naomi, Lydia, Timothy, and Ruth share a privately owned rowhouse they call Manna House. The city orders Naomi to move out under the code. The household challenges the code as a direct interference with their family living arrangement.
+
+**What is the best constitutional route?**
+
+### 2. Distilled Core Question
+
+A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?
+
+### 3. Final answer choices — post-shuffle
+
+A. Resolve the case only under the Dormant Commerce Clause.
+B. Uphold the code automatically because aunts are never family for constitutional purposes.
+C. Analyze the code as a substantive due process burden on family integrity.
+D. Treat the code as ordinary residential zoning subject only to rational basis, with no family-liberty concern.
+
+### 4. Correct answer
+
+**C**. Original key letter: **B**.
+
+### 5. Letter Map
+
+| Original letter | New letter | Mechanic                       | Substance | Pick rate                                         |
+| --------------- | ---------: | ------------------------------ | --------- | ------------------------------------------------- |
+| A               |          D | bait_doctrine / NOT_RESPONSIVE | kept      | null, predicted; original percentage not supplied |
+| B               |          C | correct_answer                 | kept      | null, predicted; original percentage not supplied |
+| C               |          B | tiered_absolute / NOT_TRUE     | kept      | null, predicted; original percentage not supplied |
+| D               |          A | misfit / NOT_RESPONSIVE        | kept      | null, predicted; original percentage not supplied |
+
+### 6. Full right-answer explanation
+
+**C is correct. Gold Key:** when a residential law directly slices into a close-family household, the route is substantive due process family integrity, not ordinary economic zoning. **Silver Key:** on a “best constitutional route” call, pick the doctrine home first; do not start by debating the strength of the city’s policy.
+
+The code is not merely deciding how many unrelated roommates may occupy a dwelling. It is selecting which close relatives may live together and excluding another close relative from the household. That makes family living arrangement the trigger and due process the route.
+
+### 7. Full wrong-answer explanations
+
+**A.** The Commerce Clause route is attractive because many constitutional-law arrays include a familiar clause-name distractor. The breaker is the topic: the facts concern a local family household, not interstate commerce.
+
+**B.** The “never family” language is attractive because it gives a clean, categorical answer and tries to end the case fast. **Gold Key:** close-family household protection is not limited to parents and minor children, so the absolute “never” overclaims the family category.
+
+**D.** The ordinary-zoning frame is the dominant trap. It borrows a real zoning idea, but **Silver Key:** a route call asks which constitutional home owns the facts; a direct family-household exclusion is not just generic zoning.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The governing authority confirms the supplied key. In **Moore v. City of East Cleveland**, the Supreme Court reversed a conviction under an ordinance that defined family so narrowly that it excluded a grandmother’s household arrangement, and Justice Powell’s plurality concluded that the ordinance deprived the appellant of liberty under the Fourteenth Amendment Due Process Clause. The opinion distinguishes ordinary zoning of unrelated occupants from laws that “slice deeply into the family itself,” and it states that constitutional protection for family choices is not confined to the nuclear family. ([Justia Law][1])
+
+**Village of Belle Terre v. Boraas** is the adjacent zoning contrast: it upheld a one-family zoning ordinance as applied to unrelated student occupants under rational-basis review. That makes D attractive but not controlling here, because the transformed item, like the original row, involves close relatives living together rather than unrelated occupants. ([Justia Law][2])
+
+The tested rule, legal issue, and credited outcome are unchanged from the original row: a direct restriction on close family living arrangements routes to substantive due process family integrity.
+
+### 9. Why the variation preserves original rigor/difficulty
+
+The variation preserves the same doctrine-home trap. It keeps the generic zoning/rational-basis distractor, the categorical “extended relatives never count” distractor, and the Dormant Commerce Clause misfit. It raises surface divergence by changing the relationship, setting, home texture, fact rhythm, names, and choice order.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** no commerce signal. Wrong constitutional home.
+**CUT B:** “never family” is an absolute; the Gold Key defeats it.
+**CUT D:** ordinary zoning is a neighboring frame; the Gold Key routes direct family-household exclusions to substantive due process.
+**Residual:** C.
+**CLASH:** not needed.
+**CALL:** not needed after the Gold Key-assisted cut.
+
+### 11. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Changed from a generic single-family home to a named one-unit rowhouse, “Manna House.”                          |
+| Transaction frame          | Skipped: no transaction existed in the original; adding one would create clutter.                               |
+| Specific facts             | Changed grandmother/grandchildren to aunt/niece/niece’s children. Same legal character: close family household. |
+| Numbers                    | Skipped: no legally operative numbers in original.                                                              |
+| Fact ordering and rhythm   | Changed. The new stem starts with the code, then the household, then the enforcement order.                     |
+| Cast size / roles          | Changed. Four named Christian characters replace an unnamed grandmother/family.                                 |
+| Choice ordering            | Shuffled. New key is C.                                                                                         |
+| Choice phrasing            | Paraphrased while preserving legal substance and trap pull.                                                     |
+| Setting / texture          | Changed to New Capernaum and Manna House. No church-property or First Amendment facts added.                    |
+| Call wording               | Kept functionally identical: “best constitutional route.” This preserves rigor.                                 |
+
+**Original stem summary:** A city zoning rule lets parents and children live together but excludes a grandmother from living with grandchildren.
+**Variant stem summary:** New Capernaum’s rowhouse code ejects Aunt Naomi from Manna House because she lives with Lydia and Lydia’s children.
+
+### 12. Review Truth
+
+Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.
+
+### 13. The 5 variations considered
+
+|  # | Title                                          | Setting / cast                                                  | Preserved issue                                          | Why memorable                                                  | Legal risks                                          | Divergence score                                                                   |
+| -: | ---------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------- |
+|  1 | **Manna House in New Capernaum** — recommended | Aunt Naomi, Lydia, Timothy, Ruth in a one-unit rowhouse         | Close-family household excluded by city residential code | Christian city name; “One Hearth” code; named family household | Low; close relatives remain central                  | 8/10: changes asset, relationship, rhythm, cast, setting, phrasing, order, texture |
+|  2 | Psalm 23 Farmhouse                             | Uncle Barnabas, niece Esther, child John on a private farmhouse | Extended family co-residence                             | Rural devotional texture                                       | Slightly more property texture; still safe           | 7/10                                                                               |
+|  3 | Loaves-and-Fishes Cottage                      | Aunt Martha with nephew Peter and niece Hannah                  | Extended family co-residence                             | Cottage and meal imagery                                       | Could feel too close to ordinary home                | 6/10                                                                               |
+|  4 | Timothy’s Workshop Loft                        | Grand-aunt Ruth with Timothy and Mary in a residential loft     | Extended family co-residence                             | Urban loft, craft setting                                      | Mixed-use risk if workshop overemphasized            | 7/10                                                                               |
+|  5 | The Lydia Rowhouse Rule                        | Cousins Lydia and Stephen with children                         | Extended kinship household                               | Different kinship axis                                         | Cousin-only household may be a weaker Moore analogue | 6/10                                                                               |
+
+Recommended version: **Manna House in New Capernaum**. It has the highest safe divergence without adding church-law, First Amendment, charitable-immunity, or property-title clutter.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "21848_manna_house_family_integrity"
+  internal_id: "CL-437"
+  subject: "CONSTITUTIONAL_LAW"
+  subject_display: "Constitutional Law"
+  topic: "Due Process"
+  subtopic: "Family Liberty"
+  outline_code: "44040202"
+  selection_percentages:
+    A:
+      value: null
+      provenance: "predicted"
+      note: "Original pick rate not supplied; transformed item has no measured pick rate."
+    B:
+      value: null
+      provenance: "predicted"
+      note: "Original pick rate not supplied; transformed item has no measured pick rate."
+    C:
+      value: null
+      provenance: "predicted"
+      note: "Original pick rate not supplied; transformed item has no measured pick rate."
+    D:
+      value: null
+      provenance: "predicted"
+      note: "Original pick rate not supplied; transformed item has no measured pick rate."
+  official_key: "C"
+  original_key_letter: "B"
+  call: "What is the best constitutional route?"
+  stem: "In the city of New Capernaum, the One Hearth residential code permits a one-unit rowhouse to be occupied by a parent and that parent’s children, but it does not allow an adult aunt to live in that same rowhouse with her niece and the niece’s children. Naomi, Lydia, Timothy, and Ruth share a privately owned rowhouse they call Manna House. The city orders Naomi to move out under the code. The household challenges the code as a direct interference with their family living arrangement."
+  choices:
+    A: "Resolve the case only under the Dormant Commerce Clause."
+    B: "Uphold the code automatically because aunts are never family for constitutional purposes."
+    C: "Analyze the code as a substantive due process burden on family integrity."
+    D: "Treat the code as ordinary residential zoning subject only to rational basis, with no family-liberty concern."
+
+transform_provenance:
+  transformed_from: "21848"
+  variant_slug: "manna_house_family_integrity"
+  original_key_letter: "B"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "bait_doctrine / NOT_RESPONSIVE"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "Original percentage not supplied."
+    - original_letter: "B"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "Original percentage not supplied."
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "tiered_absolute / NOT_TRUE"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "Original percentage not supplied."
+    - original_letter: "D"
+      new_letter: "A"
+      mechanic: "misfit / NOT_RESPONSIVE"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: "predicted"
+        note: "Original percentage not supplied."
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A city zoning rule lets parents and children live together but excludes a grandmother from living with grandchildren."
+    variant_stem_one_sentence: "New Capernaum’s rowhouse code ejects Aunt Naomi from Manna House because she lives with Lydia and Lydia’s children."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific family relationship facts"
+      - "fact ordering and stem rhythm"
+      - "cast size/roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/era/texture"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "No transaction existed in the original; adding one would create clutter."
+      - dimension: "numbers"
+        reason: "No legally operative numbers existed in the original."
+      - dimension: "call wording"
+        reason: "The route-call function was preserved to avoid weakening MBE rigor."
+
+source_stack:
+  - rank: 1
+    source: "Pasted BarMatrix row 21848."
+    use: "Primary source for rule, issue, official key, and distractor mechanics."
+  - rank: 2
+    source: "C3 controlled vocabularies."
+    use: "Controlled fields only."
+  - rank: 3
+    source: "Constitutional Law overlay."
+    use: "Claim-home first; burden follows tier; threshold beats merits."
+  - rank: 4
+    source: "C3 universal lessons."
+    use: "True/responsive, Cut-Clash-Call, overclaim, misfit, bait-doctrine, calibration."
+  - rank: 5
+    source: "Moore v. City of East Cleveland and Village of Belle Terre."
+    use: "Lawyer-confirmation only."
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old who completed only C3 lessons, overlays, and this Gold Key identify the choice problem without outside doctrine?"
+  allowed_lessons:
+    - "Lesson 1: True and Responsive"
+    - "Lesson 2: Cut → Clash → Call"
+    - "Lesson 4: Overclaim"
+    - "Lesson 7: Predict before you peek"
+    - "Lesson 8: Misfit / bait-doctrine / wrong-element"
+    - "Lesson 11: Wrong-frame architecture"
+    - "Lesson 13: Calibration"
+    - "Lesson 14: Full workflow"
+  allowed_overlay: "Constitutional Law = claim categorization + tier/burden consistency."
+  gold_key_required: true
+  silver_key_required: true
+  access_limit: "The family-integrity route is anchor-dependent. Student path may use the Gold Key, but not unprovided doctrine."
+
+stem_parse:
+  subject_fit: "Constitutional Law = claim categorization + tier/burden consistency."
+  call_type: "best constitutional route"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "ordinary residential zoning"
+    - "Dormant Commerce Clause"
+    - "automatic nonfamily category"
+  role: "court-route selector"
+  predicted_answer: "Family living arrangement route; substantive due process family integrity."
+
+trigger_facts:
+  - fact: "Municipal residential code regulates who may live in one rowhouse."
+    access_label: "student_visible"
+    function: "Shows state action and residential regulation."
+  - fact: "The code permits parent-child households but excludes an adult aunt from a close-family household."
+    access_label: "gold_key_trigger"
+    function: "Triggers family-integrity due process route."
+  - fact: "The household challenges the code as direct interference with family living arrangement."
+    access_label: "student_visible"
+    function: "Locks the call and defeats commerce."
+
+c3_routing:
+  subject_fit: "Constitutional Law = claim categorization + tier/burden consistency."
+  governing_law_type: "STANDARD"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "hard"
+  call_heuristic: "claim-home first"
+  tension_axis: "family-integrity route vs ordinary zoning route"
+
+answer_array:
+  geometry: "doctrine-home array with one dominant neighboring-frame trap"
+  array_type: "four route homes"
+  correct_residual: "C"
+  dominant_trap:
+    choice: "D"
+    mechanic: "ordinary zoning / rational basis frame applied to direct family interference"
+  choices:
+    A:
+      home: "Dormant Commerce Clause"
+      route_status: "wrong constitutional home"
+    B:
+      home: "automatic nonfamily category"
+      route_status: "absolute overclaim"
+    C:
+      home: "substantive due process family integrity"
+      route_status: "true and responsive"
+    D:
+      home: "ordinary zoning rational basis"
+      route_status: "neighboring frame"
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "misfit"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "answer_to_different_question"
+      - "wrong_jurisdiction"
+      - "bar_exam_bait"
+    method_class: "hard_structural"
+    student_label: "Wrong constitutional home."
+    c3_signal: "No commerce fact appears. The call is family living arrangement, not interstate commerce."
+    lawyer_confirmation: "Dormant Commerce Clause analysis concerns burdens or discrimination affecting interstate commerce. The rowhouse occupancy rule targets family composition, not commerce."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "misstated_rule"
+      - "common_student_myth"
+      - "sounds_lawyerly"
+    method_class: "anchor_assisted"
+    student_label: "Absolute family-category overclaim."
+    c3_signal: "The word 'never' is the tell. The Gold Key says close-family households can trigger family-integrity protection."
+    lawyer_confirmation: "Moore rejected a narrow nuclear-family boundary for constitutional family protection."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "True and responsive residual."
+    c3_signal: "It answers the route call and uses the family-household trigger."
+    lawyer_confirmation: "A direct ordinance excluding close relatives from living together is analyzed as a substantive due process family-integrity burden."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "wrong_standard"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Neighboring zoning frame."
+    c3_signal: "Generic zoning is a real frame, but the Gold Key says this family-household fact changes the route."
+    lawyer_confirmation: "Belle Terre supports rational-basis treatment for unrelated occupants; Moore distinguishes direct regulation of related-family households."
+
+residual_answer:
+  choice: "C"
+  text: "Analyze the code as a substantive due process burden on family integrity."
+  why_residual: "It is the only choice that is both true and responsive to the route call."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A has no commerce fact."
+      access_basis: "Visible from stem and answer text."
+      status: "passes"
+    - claim: "B uses an absolute 'never.'"
+      access_basis: "Visible overclaim plus Gold Key."
+      status: "passes"
+    - claim: "D is a neighboring frame."
+      access_basis: "Call asks route; Gold Key routes close-family household to due process."
+      status: "passes"
+  quarantined_lawyer_claims:
+    - "Moore v. City of East Cleveland confirms the due process route."
+    - "Village of Belle Terre is the unrelated-occupant zoning contrast."
+  drift_audit: "No doctrine outside C3 and the Gold Key is used as first-pass student reasoning."
+
+gold_keys:
+  - id: "GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01"
+    statement: "When a government housing rule directly excludes close relatives from living together as a household, route the claim to substantive due process family integrity, not ordinary zoning."
+    type: "constitutional_principle"
+    unlocks: "Ordinary zoning / rational-basis trap and categorical nonfamily trap."
+    trigger: "A residential rule slices a close relative out of a family household."
+    tested_choice: "D"
+    authority: "Moore v. City of East Cleveland, 431 U.S. 494 (1977)."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CONSTITUTIONAL_LAW-ROUTE-CALL-01"
+    statement: "On a route call, pick the constitutional home before grading policy strength. First cut homes that have no facts in the stem."
+    type: "call_focus"
+    navigates: "Doctrine-home array with Commerce, zoning, and due process routes."
+    trigger: "The call asks for the best constitutional route and the choices name different constitutional homes."
+    tested_choice: "A"
+    outline_code: "44040202"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CONLAW-FAMILY-HOME-01"
+  title: "Close-family household ≠ ordinary zoning"
+  signal: "A city rule excludes one close relative from a shared household."
+  student_move: "Treat it as family-integrity due process after cutting wrong constitutional homes."
+  tiny_rule: "Family household first; zoning only after the family trigger is absent."
+  trap: "Treating every occupancy ordinance as ordinary rational-basis zoning."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?"
+review_truth: "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce."
+
+case_study_output:
+  final_student_script: "Route call. Cut Commerce: no commerce facts. Cut 'never family': absolute killed by the Gold Key. Cut ordinary zoning: neighboring frame. Residual C."
+  short_answer_key: "C"
+  student_verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  pass_available: true
+  reason: "Credited residual equals official transformed key, and each distractor breaks exactly one filter."
+  key_consistency:
+    original_key: "B"
+    new_key: "C"
+    agrees: true
+  recognition_test_passed: true
+  no_added_clutter_doctrine: true
+  authority_quarantined: true
+  controlled_values_checked: true
+
+analytics_hooks:
+  likely_trap_choice: "D"
+  likely_miss_reason: "Student treats family-household exclusion as ordinary zoning."
+  drill_recommendation: "Doctrine-home route-call drill: family integrity vs zoning vs commerce."
+  mastery_node: "Constitutional Law > Individual Rights > Due Process Clause > Substantive due process"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a **route-call** Constitutional Law item. The job is not to decide whether the city’s policy is wise. The job is to pick the constitutional home.
+
+## student_access_test
+
+A student can cut the Commerce answer from the facts alone. The family-integrity route needs a Gold Key. The ordinary-zoning trap is anchor-assisted because ordinary zoning is a real frame in the neighboring context.
+
+## question_data
+
+**Stem:** New Capernaum allows a parent-child household in a one-unit rowhouse but bars Aunt Naomi from living with Lydia and Lydia’s children. The city orders Naomi out. The family challenges the code as direct interference with family living arrangements.
+
+**Call:** What is the best constitutional route?
+
+**Choices:** A, B, C, D as listed above.
+
+## distilled_core_question
+
+A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?
+
+## call_and_prediction
+
+**Call lock:** best constitutional route.
+**Prediction:** family living arrangement → due process family integrity.
+**Adjacent-call traps:** generic zoning, Commerce Clause, categorical nonfamily claim.
+
+## trigger_facts
+
+| Trigger fact                                                    | Student use                                           |
+| --------------------------------------------------------------- | ----------------------------------------------------- |
+| City residential code                                           | State action / constitutional route is available.     |
+| Close relative excluded from household                          | Gold Key trigger.                                     |
+| Challenge is direct interference with family living arrangement | Cuts commerce and generic zoning as first-pass traps. |
+
+## governing_c3_lane
+
+**Subject FIT:** Constitutional Law = claim categorization + tier/burden consistency.
+**Lane:** claim home first.
+**Deciding phase:** CUT.
+**Method class:** anchor_assisted.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** No commerce facts. The stem is about a household composition rule.
+2. **Student label:** Wrong constitutional home.
+3. **What a true/responsive version would look like:** It would need facts about interstate commerce or state discrimination against out-of-state commerce.
+4. **Lawyer confirmation:** Dormant Commerce Clause doctrine does not own a local family-household exclusion.
+
+### B
+
+1. **Student-accessible C3 signal:** “Never” is the overclaim word. The Gold Key defeats it.
+2. **Student label:** Absolute family-category overclaim.
+3. **What a true/responsive version would look like:** A narrower answer would say some household regulations of unrelated occupants are treated as ordinary zoning.
+4. **Lawyer confirmation:** Close-family household protection can extend beyond the nuclear family.
+
+### C
+
+1. **Student-accessible C3 signal:** It matches the family-household trigger and answers the route call.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** Moore supports substantive due process analysis for direct interference with close-family living arrangements.
+
+### D
+
+1. **Student-accessible C3 signal:** Zoning is real, but it is the wrong context after the family trigger appears.
+2. **Student label:** Neighboring zoning frame.
+3. **What a true/responsive version would look like:** It would fit a rule regulating unrelated occupants or ordinary land-use matters without direct family-household exclusion.
+4. **Lawyer confirmation:** Belle Terre is the ordinary zoning contrast; Moore controls the direct family-household interference route.
+
+## residual_answer
+
+**C** remains. It is true and responsive.
+
+## legal_leak_audit
+
+Student path uses only:
+
+* route-call discipline;
+* no-commerce fact check;
+* absolute-word overclaim check;
+* Gold Key for family integrity.
+
+Authority stays in lawyer confirmation.
+
+**Drift audit:** No uncited doctrine is used as student-accessible structure; Moore and Belle Terre remain lawyer-confirmation authority only.
+
+## final_student_script
+
+Route call. Pick the constitutional home.
+A is out: no commerce.
+B is out: “never family” is an absolute, and the Gold Key kills it.
+D is out: ordinary zoning is the neighboring frame.
+C is the residual.
+
+## remediation_card
+
+**REM-CONLAW-FAMILY-HOME-01 — Close-family household ≠ ordinary zoning**
+Signal: city rule excludes a close relative from a shared household.
+Student move: cut wrong constitutional homes first, then apply the family-integrity Gold Key.
+Tiny rule: close-family household exclusion routes to substantive due process.
+Trap: treating every residential code as rational-basis zoning.
+Confidence: ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01**
+When a government housing rule directly excludes close relatives from living together as a household, route the claim to substantive due process family integrity, not ordinary zoning.
+Type: constitutional_principle.
+Trigger: a residential rule slices a close relative out of a family household.
+Last-minute review: true.
+
+## Silver Key(s)
+
+**SK-CONSTITUTIONAL_LAW-ROUTE-CALL-01**
+On a route call, pick the constitutional home before grading policy strength. First cut homes that have no facts in the stem.
+Type: call_focus.
+Trigger: the choices name different constitutional homes.
+Last-minute review: true.
+
+## qa_checklist
+
+| Check                                   | Result |
+| --------------------------------------- | ------ |
+| Rule unchanged                          | Pass   |
+| Credited outcome unchanged              | Pass   |
+| Choices shuffled                        | Pass   |
+| Dominant trap preserved                 | Pass   |
+| Three distractors each break one filter | Pass   |
+| Key agrees with official after mapping  | Pass   |
+| Gold Key included                       | Pass   |
+| Silver Key included                     | Pass   |
+| Authority quarantined                   | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why a student picks it              | Recovery move                                           |
+| ------ | ----------------------------------- | ------------------------------------------------------- |
+| A      | Familiar constitutional clause name | Ask whether the stem has commerce facts.                |
+| B      | Categorical answer feels clean      | Flinch at “never”; apply Gold Key.                      |
+| D      | Ordinary zoning is a real doctrine  | Route-call discipline: family trigger changes the home. |
+
+## outline_mastery_map
+
+**Placement:** 44040202 — Constitutional Law > Individual Rights > Due Process Clause > Substantive due process.
+**This item teaches:** family-integrity route selection.
+**Fills:** doctrine-home recognition, family liberty anchor, zoning adjacent-call trap.
+**Adjacent to master:** rational-basis zoning, privacy/family autonomy, claim-home arrays.
+
+## crossover_intersection_map
+
+| Crossover                   | Use                                               |
+| --------------------------- | ------------------------------------------------- |
+| Con Law doctrine-home array | Pick the constitutional route first.              |
+| Overclaim                   | “Never family” is an absolute.                    |
+| Misfit                      | Dormant Commerce Clause has no facts.             |
+| Bait-doctrine               | Ordinary zoning is real but wrong context.        |
+| Calibration                 | Anchor-assisted solve, not hard-structural solve. |
+
+## review_truth
+
+Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "21848_manna_house_family_integrity",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "44040202",
+  "distilled_core_question": "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?",
+  "review_truth": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "STANDARD",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "family-integrity route vs ordinary zoning route",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "claim-home first",
+    "difficulty": "hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "misfit",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CONSTITUTIONAL_LAW-ROUTE-CALL-01",
+        "explanation": "No commerce facts appear; the answer routes to a constitutional home outside the stem."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01",
+        "explanation": "The absolute 'never' overclaims the family category; the Gold Key supplies the close-family household anchor."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01",
+        "explanation": "Ordinary zoning is a real neighboring frame, but the family-household trigger routes the item to substantive due process."
+      }
+    ],
+    "analyzer_notes": "drift_audit: no drift; tested rule, issue, credited outcome, and distractor mechanics preserved; authority quarantined. transformed_from: 21848. letter_map: A->D, B->C, C->B, D->A.",
+    "gold_keys": [
+      {
+        "id": "GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01",
+        "statement": "When a government housing rule directly excludes close relatives from living together as a household, route the claim to substantive due process family integrity, not ordinary zoning.",
+        "type": "constitutional_principle",
+        "unlocks": "Ordinary zoning / rational-basis trap and categorical nonfamily trap.",
+        "trigger": "A residential rule slices a close relative out of a family household.",
+        "tested_choice": "D",
+        "authority": "Moore v. City of East Cleveland, 431 U.S. 494 (1977).",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONSTITUTIONAL_LAW-ROUTE-CALL-01",
+        "statement": "On a route call, pick the constitutional home before grading policy strength. First cut homes that have no facts in the stem.",
+        "type": "call_focus",
+        "navigates": "Doctrine-home array with Commerce, zoning, and due process routes.",
+        "trigger": "The call asks for the best constitutional route and the choices name different constitutional homes.",
+        "tested_choice": "A",
+        "outline_code": "44040202",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "21848_manna_house_family_integrity",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040202",
+  "distilled_core_question": "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?",
+  "review_truth": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+  "tension": {
+    "axis": "family-integrity route vs ordinary zoning route",
+    "resolving_fact": "The code directly excludes a close relative from a family household.",
+    "resolution": "C"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "misfit",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice offers a familiar constitutional clause, which can feel safe on a route question. The breaker is that the stem has no commerce facts.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The choice gives a clean categorical cutoff and avoids hard family-liberty analysis. The breaker is the absolute word 'never,' defeated by the family-integrity Gold Key.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The choice borrows the real ordinary-zoning frame and pairs it with rational basis. The breaker is that a direct close-family household exclusion changes the constitutional route.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CONLAW-FAMILY-HOME-01",
+    "title": "Close-family household is not ordinary zoning",
+    "signal": "A residential rule excludes one close relative from a shared household.",
+    "student_move": "Cut wrong constitutional homes first, then apply the family-integrity Gold Key.",
+    "tiny_rule": "Family household first; zoning only after the family trigger is absent.",
+    "trap": "Treating every occupancy ordinance as ordinary rational-basis zoning.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "Doctrine-home arrays",
+    "Ordinary zoning adjacent-call trap",
+    "Absolute family-category language",
+    "Anchor-assisted substantive due process"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "21848_manna_house_family_integrity",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040202",
+  "distilled_core_question": "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?",
+  "review_truth": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "misfit",
+      "why_a_student_picks_this": "The student recognizes a constitutional clause and treats route-picking as clause-shopping.",
+      "skipped_move": "Call-home check.",
+      "recovery_step": "Ask whether the stem contains commerce facts."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student likes the certainty of 'never' and has not recalled the family-integrity anchor.",
+      "skipped_move": "Overclaim flinch plus Gold Key recall.",
+      "recovery_step": "Mark 'never' and trigger the close-family household Gold Key."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student remembers ordinary zoning rational-basis review and stops there.",
+      "skipped_move": "Neighboring-context check.",
+      "recovery_step": "Ask whether the ordinance regulates unrelated occupants or directly excludes close relatives."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "route-call cut",
+      "target_skill": "claim-home first",
+      "prompt": "A city occupancy rule excludes an aunt from living with her niece and the niece's children. Which route: commerce, ordinary zoning, or family-integrity due process?",
+      "answer": "Family-integrity due process."
+    },
+    {
+      "drill_type": "overclaim detector",
+      "target_skill": "tiered_absolute",
+      "prompt": "Classify: 'Aunts are never family for constitutional purposes.'",
+      "answer": "tiered_absolute; use the family-integrity Gold Key."
+    },
+    {
+      "drill_type": "misfit detector",
+      "target_skill": "wrong constitutional home",
+      "prompt": "A local family-household ordinance is challenged. The answer says Dormant Commerce Clause only. Cut or keep?",
+      "answer": "Cut as misfit / NOT_RESPONSIVE."
+    },
+    {
+      "drill_type": "bait-doctrine detector",
+      "target_skill": "neighboring context",
+      "prompt": "A residential code excludes a close relative from a household. The answer treats it as ordinary zoning rational basis with no family liberty concern. What is the breaker?",
+      "answer": "Neighboring zoning frame; direct family exclusion triggers the Gold Key."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "doctrine_home_array",
+      "wrong_frame",
+      "anchor_assisted_cut",
+      "ordinary_zoning_bait"
+    ],
+    "misconception_tags": [
+      "all_zoning_is_rational_basis",
+      "extended_family_not_protected",
+      "clause_name_shopping"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1: True and Responsive",
+    "Lesson 4: Overclaim",
+    "Lesson 7: Predict before you peek",
+    "Lesson 8: Misfit and bait-doctrine",
+    "Lesson 11: Wrong-frame architecture",
+    "Lesson 13: Calibration",
+    "Constitutional Law overlay: claim home first"
+  ],
+  "crossovers": [
+    {
+      "component": "C3 overclaim",
+      "application": "B uses categorical 'never.'"
+    },
+    {
+      "component": "C3 misfit",
+      "application": "A routes to commerce without commerce facts."
+    },
+    {
+      "component": "C3 bait-doctrine",
+      "application": "D applies ordinary zoning to a family-integrity trigger."
+    },
+    {
+      "component": "Con Law overlay",
+      "application": "Claim home first."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01",
+      "statement": "When a government housing rule directly excludes close relatives from living together as a household, route the claim to substantive due process family integrity, not ordinary zoning.",
+      "type": "constitutional_principle",
+      "unlocks": "Ordinary zoning / rational-basis trap and categorical nonfamily trap.",
+      "trigger": "A residential rule slices a close relative out of a family household.",
+      "tested_choice": "D",
+      "authority": "Moore v. City of East Cleveland, 431 U.S. 494 (1977).",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONSTITUTIONAL_LAW-ROUTE-CALL-01",
+      "statement": "On a route call, pick the constitutional home before grading policy strength. First cut homes that have no facts in the stem.",
+      "type": "call_focus",
+      "navigates": "Doctrine-home array with Commerce, zoning, and due process routes.",
+      "trigger": "The call asks for the best constitutional route and the choices name different constitutional homes.",
+      "tested_choice": "A",
+      "outline_code": "44040202",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Constitutional Law > Individual Rights > Due Process Clause > Substantive due process",
+    "this_item_teaches": "Family-integrity route selection for close-family household exclusions.",
+    "fills": [
+      "family liberty anchor",
+      "doctrine-home route call",
+      "ordinary zoning contrast"
+    ],
+    "adjacent_to_master": [
+      "rational-basis zoning",
+      "fundamental rights",
+      "substantive due process",
+      "Dormant Commerce Clause misfit"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/431/494/?utm_source=chatgpt.com " Moore v. City of East Cleveland | 431 U.S. 494 (1977) | Justia U.S. Supreme Court Center"
+[2]: https://supreme.justia.com/cases/federal/us/416/1/?utm_source=chatgpt.com "Village of Belle Terre v. Boraas | 416 U.S. 1 (1974) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "21848_manna_house_family_integrity",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "44040202",
+  "distilled_core_question": "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?",
+  "review_truth": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 21848; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "21848_manna_house_family_integrity",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040202",
+  "distilled_core_question": "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?",
+  "review_truth": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-21848",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "21848_manna_house_family_integrity",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "44040202",
+  "distilled_core_question": "A city directly excludes a close relative from living with family in one home. What constitutional route should the family use?",
+  "review_truth": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "44040202",
+    "this_item_teaches": "Direct government exclusion of close relatives from a shared household routes to substantive due process family integrity, not generic zoning or commerce.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

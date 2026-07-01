@@ -1,0 +1,924 @@
+---
+qid: "19982_manna_warehouse"
+transformed_from: "19982"
+subject: "CONSTITUTIONAL_LAW"
+topic: "Federal Powers"
+subtopic: "Spending conditions"
+outline_code: "42010101"
+key: "C"
+original_key: "A"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"B"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap."
+---
+Source row used: BARMATRIX Q# 19982, Constitutional Law, Federal Powers, Spending conditions, official key A. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question
+
+After Lydia, a state emergency-services director, signed up for a federal **Good Samaritan pantry-vans** grant program, the federal relief agency announced a new requirement: every participating state must build refrigerated **“manna warehouses”** beside the vans.
+
+The statute authorizing the grant had said only that a state receiving the money must obey **“whatever later requirements the agency finds fitting.”** The warehouse requirement was not listed in the statute when the state took the money.
+
+**What is the state’s strongest Spending Clause objection?**
+
+## 2. Distilled Core Question
+
+A state accepts federal grant money under a statute that only reserves unspecified future agency conditions. After acceptance, the agency adds a costly condition not listed in the statute. What is the state’s strongest Spending Clause objection?
+
+## 3. Final answer choices
+
+A. Clear-notice requirements apply only to criminal statutes.
+B. Congress may impose any undisclosed grant condition after a state has accepted the funds.
+C. Spending conditions must give states clear notice so they can accept federal funds knowingly.
+D. Spending conditions are valid only if the participating states draft them.
+
+## 4. Correct answer
+
+**C**. Original key letter: **A**.
+
+## 5. Letter Map
+
+| Original letter | New letter | Mechanic                              | Substance | Pick-rate provenance |
+| --------------- | ---------: | ------------------------------------- | --------- | -------------------- |
+| A               |          C | correct_answer                        | kept      | 50% predicted        |
+| B               |          B | backwards hidden-condition rule       | kept      | 28% predicted        |
+| C               |          D | fabricated state-drafting requirement | kept      | 10% predicted        |
+| D               |          A | clear-notice-only-criminal overclaim  | kept      | 12% predicted        |
+
+No swap performed. Original pick rates were not supplied, so all percentages are predicted, not measured.
+
+## 6. Full right-answer explanation
+
+**C** is the best answer. The grant statute did not tell states what concrete duties would follow. It only reserved whatever later requirements the agency might choose. That is the defect.
+
+**Gold Key:** Spending Clause conditions must be stated clearly enough that a state can decide whether to take the money with the attached obligations. A blank-check future-condition clause does not give that clear notice.
+
+**Silver Key:** Lock the call to the state’s **Spending Clause objection**. The answer should attack the hidden, post-acceptance condition, not make a generic claim about all federal power or criminal-law notice.
+
+## 7. Full wrong-answer explanations
+
+**A.** This choice sells a familiar “clear notice” memory from criminal law. The breaker is the word **only**: the item is about conditional federal grants to states, and the Gold Key tells you clear notice also matters there.
+
+**B.** This choice sells the idea that federal money gives Congress a blank check. The breaker is the post-acceptance move: the Gold Key says a state must be able to accept the condition knowingly before the obligation is imposed.
+
+**D.** This choice sells state sovereignty by making the state the drafter. The breaker is that it invents a requirement: Spending Clause doctrine asks whether Congress stated the condition clearly, not whether the state wrote it.
+
+## 8. Full black-letter-law verification and legal reasoning
+
+The legal rule is unchanged: when Congress uses Spending Clause funds to impose conditions on states, those conditions must be stated unambiguously so states can accept the funds knowingly. *South Dakota v. Dole* states the unambiguous-condition requirement; *Pennhurst* supplies the knowing-acceptance principle; *Arlington Central* applies that principle by asking whether the statutory text gave clear notice to the state official deciding whether to accept the funds. ([Legal Information Institute][1])
+
+The transformed facts preserve the same issue. The state took federal funds under an open-ended clause reserving future agency requirements. The later manna-warehouse mandate was not in the statute when the state accepted the funds. The state’s strongest objection is lack of clear notice, so the credited outcome remains **C**. The Cornell Constitution Annotated summary also states that a funds recipient cannot knowingly accept a condition if it is unaware of it or cannot determine its obligations, which directly tracks this item’s hidden future condition. ([Legal Information Institute][2])
+
+## 9. Why the variation preserves rigor/difficulty
+
+The legal mechanism is identical: federal funds, state acceptance, an open-ended future-condition clause, and a costly post-acceptance mandate. The dominant trap remains the same: students who overread federal spending power choose the hidden-condition answer. Surface story, asset, rhythm, and setting are substantially changed.
+
+## 10. C3 elimination walkthrough
+
+**CUT A:** The word **only** overclaims. It tries to fence clear notice into criminal statutes. The Gold Key expands the frame: Spending Clause conditions also require clear notice.
+
+**CUT B:** The answer points the rule backward. It allows undisclosed conditions after acceptance. The Gold Key says acceptance must be knowing.
+
+**CUT D:** The answer fabricates a state-drafting requirement. The question is whether the condition was clearly stated, not who drafted it.
+
+**Residual:** C. No CLASH needed. No CALL needed.
+
+## 11. Divergence Audit
+
+* **Asset / subject matter:** changed from state education grants and school construction to emergency pantry vans and refrigerated manna warehouses.
+* **Transaction frame:** preserved federal conditional grant to states. Skipped because changing it would alter the Spending Clause issue.
+* **Specific facts:** changed “future conditions later appropriate” into “whatever later requirements the agency finds fitting,” with a new warehouse mandate.
+* **Numbers:** no legally operative numbers in the source; no new legal thresholds added.
+* **Fact ordering / stem rhythm:** changed. The variant starts with state acceptance and later mandate, then reveals the statute.
+* **Cast size / roles:** added Lydia as state emergency-services director and a federal relief agency.
+* **Choice ordering:** shuffled. Correct answer moved to C.
+* **Choice phrasing:** paraphrased while preserving legal substance and trap pull.
+* **Setting / texture:** changed from education/school construction to emergency food logistics with Christian allusions.
+* **Call wording:** preserved. “Strongest Spending Clause objection” is legally precise and should not be softened.
+
+**Original stem summary:** Congress gave state education grants under a blank-check future-condition clause and an agency later added a costly school-construction mandate.
+**Variant stem summary:** A state accepted Good Samaritan pantry-van funds under an open-ended later-requirements clause and an agency later demanded manna warehouses.
+
+Recognition test passes. The overlap is the rule only.
+
+## 12. Review Truth
+
+Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.
+
+## 13. The 5 variations considered
+
+1. **Chosen — “Manna Warehouse Mandate.”** Setting: state disaster-food logistics. Cast: Lydia and a federal relief agency. Preserved issue: hidden post-acceptance Spending Clause condition. Memorable because “manna warehouses” make the late mandate concrete. Legal risk: low; no church property or religious-rights issue. Divergence score: 9/10; kills asset, setting, cast, rhythm, and mandate.
+2. **“Noah Flood-Rescue Boat Sheds.”** Setting: flood-rescue boats for state emergency teams. Cast: Noah and Ruth. Preserved issue: later boat-shed construction mandate. Memorable because of Ark imagery. Legal risk: low, but “Noah” imagery could distract from the state-funding issue. Divergence score: 8/10.
+3. **“Lydia’s Purple Thread Apprenticeship Grant.”** Setting: state vocational textile programs. Cast: Lydia and Barnabas. Preserved issue: later dormitory requirement. Memorable because of purple-fabric texture. Legal risk: moderate; vocational education echoes original education grants too closely. Divergence score: 7/10.
+4. **“Good Samaritan Roadside-Rescue Tablets.”** Setting: state roadside-aid volunteer training. Cast: Peter and Martha. Preserved issue: later expensive software mandate. Memorable because of “Good Samaritan” framing. Legal risk: low, but “training” has a mild education echo. Divergence score: 7/10.
+5. **“Psalm 150 Public-Choir Acoustics Grant.”** Setting: state arts venues. Cast: Esther and Timothy. Preserved issue: later acoustic-renovation mandate. Memorable because of music imagery. Legal risk: higher; public religious allusion could invite unwanted First Amendment thoughts. Divergence score: 6/10.
+
+Step audit: rule identified; invariant layer preserved; five Christian variations generated; distractor mechanics kept; Manna Warehouse selected for maximum safe divergence; choices shuffled and letter map locked.
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+## 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "19982_manna_warehouse"
+  internal_id: "CL-374"
+  subject: CONSTITUTIONAL_LAW
+  subject_display: "Constitutional Law"
+  topic: "Federal Powers"
+  subtopic: "Spending conditions"
+  official_key: "C"
+  original_key_letter: "A"
+  call: "What is the state's strongest Spending Clause objection?"
+  stem: "After Lydia, a state emergency-services director, signed up for a federal Good Samaritan pantry-vans grant program, the federal relief agency announced a new requirement: every participating state must build refrigerated 'manna warehouses' beside the vans. The statute authorizing the grant had said only that a state receiving the money must obey 'whatever later requirements the agency finds fitting.' The warehouse requirement was not listed in the statute when the state took the money."
+  choices:
+    A: "Clear-notice requirements apply only to criminal statutes."
+    B: "Congress may impose any undisclosed grant condition after a state has accepted the funds."
+    C: "Spending conditions must give states clear notice so they can accept federal funds knowingly."
+    D: "Spending conditions are valid only if the participating states draft them."
+  selection_percentages:
+    A:
+      value: 12
+      provenance: "predicted"
+    B:
+      value: 28
+      provenance: "predicted"
+    C:
+      value: 50
+      provenance: "predicted"
+    D:
+      value: 10
+      provenance: "predicted"
+
+transform_provenance:
+  transformed_from: "19982"
+  variant_slug: "manna_warehouse"
+  original_key_letter: "A"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 50
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "B"
+      mechanic: "backwards hidden-condition rule"
+      substance: "kept"
+      pick_rate:
+        value: 28
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "fabricated state-drafting requirement"
+      substance: "kept"
+      pick_rate:
+        value: 10
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "A"
+      mechanic: "clear-notice-only-criminal overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 12
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "Congress gave state education grants under a blank-check future-condition clause and an agency later added a costly school-construction mandate."
+    variant_stem_one_sentence: "A state accepted Good Samaritan pantry-van funds under an open-ended later-requirements clause and an agency later demanded manna warehouses."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific facts"
+      - "fact ordering and rhythm"
+      - "cast size/roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/era/texture"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "Federal conditional grant to a state is the Spending Clause invariant."
+      - dimension: "call wording"
+        reason: "The phrase strongest Spending Clause objection preserves MBE rigor."
+      - dimension: "numbers"
+        reason: "No operative numbers were supplied; no threshold should be added."
+
+source_stack:
+  - "Pasted BarMatrix row for QID 19982."
+  - "Controlled vocabularies from controlled_vocabularies.md."
+  - "Universal C3 lessons: True and Responsive; Ear; Issue-Sense; CUT -> CLASH -> CALL; calibration."
+  - "Constitutional-law overlay and anchor escalation."
+  - "Official legal explanation quarantined to lawyer_confirmation."
+  - "Legal authority quarantined to lawyer_confirmation: Pennhurst, South Dakota v. Dole, Arlington Central."
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old using only C3 lessons and the Gold Key identify the problem?"
+  allowed_lessons:
+    - "TRUE and RESPONSIVE"
+    - "Ear I: overclaim"
+    - "Ear II: falsity"
+    - "Predict before you peek"
+    - "Cut -> Clash -> Call"
+    - "Anchor Deck"
+  allowed_gold_keys:
+    - "GK-CONLAW-SPENDING-CLEAR-NOTICE-01"
+  allowed_silver_keys:
+    - "SK-CONLAW-MANNA-WAREHOUSE-01"
+  access_limit: "The clear-notice rule is not derived from pure structure; it is a Gold Key anchor."
+
+stem_parse:
+  call_type: "strongest objection"
+  legal_role: "state objecting to a federal funding condition"
+  negative_stem_inversion: false
+  adjacent_call_trap: "generic federal spending power, state sovereignty, or criminal clear notice"
+  precise_call: "Which answer attacks the hidden post-acceptance Spending Clause condition?"
+
+trigger_facts:
+  - fact: "A state accepted federal grant funds."
+    access_label: "C3-visible"
+    legal_function: "sets Spending Clause grant frame"
+  - fact: "The statute reserved whatever later requirements the agency finds fitting."
+    access_label: "Gold-Key-trigger"
+    legal_function: "signals lack of clear notice"
+  - fact: "The agency added a costly warehouse requirement after acceptance."
+    access_label: "Gold-Key-trigger"
+    legal_function: "post-acceptance hidden condition"
+  - fact: "The warehouse requirement was not listed in the statute."
+    access_label: "Gold-Key-trigger"
+    legal_function: "condition not knowingly accepted"
+
+c3_routing:
+  subject_fit: "Constitutional Law = federal power category + constitutional limit trigger."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: pure_anchor
+  confidence: PURE_ANCHOR
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium_anchor"
+
+answer_array:
+  geometry: "3-vs-1 anchor array"
+  array_note: "Three choices deny, misdirect, or invent the clear-notice rule; one states it."
+  dominant_trap:
+    choice: "B"
+    basis: "predicted"
+    reason: "Students may overread federal spending power as permission to add undisclosed conditions."
+  silver_key_id: "SK-CONLAW-MANNA-WAREHOUSE-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - overbroad_rule
+      - answer_to_different_question
+      - common_student_myth
+    method_class: anchor_assisted
+    student_label: "criminal-notice-only overclaim"
+    c3_signal: "The word only tries to fence clear notice into one legal neighborhood."
+    lawyer_confirmation: "Spending Clause doctrine also uses clear-notice principles."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: backwards
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - misstated_rule
+      - overbroad_rule
+      - bar_exam_bait
+      - common_student_myth
+    method_class: anchor_assisted
+    student_label: "hidden-condition backwards rule"
+    c3_signal: "The answer points the Gold Key backward: it permits undisclosed conditions after acceptance."
+    lawyer_confirmation: "States must accept funding conditions voluntarily and knowingly; undisclosed post-acceptance obligations fail clear notice."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: pure_anchor
+    student_label: "clear-notice residual"
+    c3_signal: "It matches the trigger facts: state accepts money, condition hidden, mandate imposed later."
+    lawyer_confirmation: "This states the Spending Clause clear-notice rule."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: fabricated_rule
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - sounds_lawyerly
+      - misstated_rule
+      - common_student_myth
+    method_class: anchor_assisted
+    student_label: "state-drafting invented rule"
+    c3_signal: "The answer invents an actor requirement the call never asked for."
+    lawyer_confirmation: "Congress may set funding conditions if constitutional limits are met; the states need not draft them."
+
+residual_answer:
+  choice: "C"
+  text: "Spending conditions must give states clear notice so they can accept federal funds knowingly."
+  why_residual: "It is the only answer that is both true under the Gold Key and responsive to the hidden-condition trigger."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "B reverses the Gold Key."
+      status: "passes"
+    - claim: "A overclaims with only."
+      status: "passes"
+    - claim: "D fabricates a state-drafting requirement."
+      status: "passes with Gold Key"
+  quarantined_claims:
+    - "Pennhurst, Dole, and Arlington authority."
+    - "Precise constitutional status of Spending Clause conditions."
+  drift_audit: "No lawyer-only doctrine is used as pure structure; the deciding rule is explicitly promoted as a Gold Key."
+
+gold_keys:
+  - id: "GK-CONLAW-SPENDING-CLEAR-NOTICE-01"
+    statement: "Spending Clause conditions must be stated clearly enough that a state can knowingly decide whether to accept the money and the obligations. A blank-check future-condition clause is the red flag."
+    type: "constitutional_principle"
+    unlocks: "hidden or post-acceptance grant conditions"
+    trigger: "state accepts federal money before the concrete condition appears"
+    tested_choice: "B"
+    authority: "Pennhurst State School & Hospital v. Halderman; South Dakota v. Dole; Arlington Central School District Board of Education v. Murphy."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CONLAW-MANNA-WAREHOUSE-01"
+    statement: "When the call asks for the state’s Spending Clause objection, hunt for the answer that attacks the condition’s clarity at the time of acceptance."
+    type: "trap_spotting"
+    navigates: "generic federal power and criminal-notice distractors"
+    trigger: "state took grant money before the costly condition was listed"
+    tested_choice: "A"
+    outline_code: "42010101"
+    last_minute_review: true
+
+remediation:
+  card_id: "REMED-CONLAW-SPENDING-CLEAR-NOTICE"
+  title: "Hidden grant terms"
+  signal: "Federal money plus states plus later undisclosed condition."
+  student_move: "Ask whether the state could know the condition before accepting."
+  tiny_rule: "No clear notice, no knowing acceptance."
+  trap: "Treating federal spending as a blank check."
+  confidence: "PURE_ANCHOR"
+
+distilled_core_question: "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?"
+review_truth: "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap."
+
+case_study_output:
+  final_student_script: "State grant. Later hidden condition. Gold Key: Spending conditions need clear notice before knowing acceptance. Pick C."
+  residual: "C"
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  credited_answer_breaks_filter: false
+  three_distractors_single_filter: true
+  key_agreement: true
+  no_fork: true
+  no_swap: true
+  controlled_values_checked: true
+  original_letters_outside_provenance: false
+
+analytics_hooks:
+  outline_code: "42010101"
+  trap_family: "clear_notice_anchor"
+  target_lesson: "Anchor Deck"
+  target_gold_key: "GK-CONLAW-SPENDING-CLEAR-NOTICE-01"
+  target_silver_key: "SK-CONLAW-MANNA-WAREHOUSE-01"
+```
+
+## 2. 17-section student case study
+
+## program_frame
+
+This is a Constitutional Law federal-power item. It is not a full Spending Clause outline. The exam move is narrower: state takes federal money; later condition appears; ask whether the state had clear notice before acceptance.
+
+## student_access_test
+
+This item is **anchor-dependent**. A student cannot derive the Spending Clause clear-notice rule from grammar alone. The C3-accessible path is valid only after promoting the Gold Key.
+
+## question_data
+
+**Stem:** A state accepted federal Good Samaritan pantry-van funds. The statute required compliance with whatever later agency requirements the agency found fitting. After acceptance, the agency required costly manna warehouses not listed in the statute.
+
+**Call:** What is the state’s strongest Spending Clause objection?
+
+**Choices:** A through D as listed above. Correct answer: **C**.
+
+## distilled_core_question
+
+A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?
+
+## call_and_prediction
+
+Call: strongest state objection under the Spending Clause.
+
+Prediction: the state attacks the hidden post-acceptance condition. The answer should say the condition was not clearly stated before the state accepted the money.
+
+## trigger_facts
+
+* State accepted federal funds.
+* Statute gave only an open-ended later-requirements clause.
+* Agency added a costly mandate after acceptance.
+* Mandate was not in the statute.
+
+## governing_c3_lane
+
+Lane: **ANCHOR_SOLVE**.
+
+Method: CUT with a Gold Key. No CLASH. No CALL.
+
+Gold Key lane: Spending Clause conditions must be clear enough for knowing acceptance.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** The word **only** is the tell. It overlimits clear notice to criminal statutes.
+2. **Student label:** Criminal-notice-only overclaim.
+3. **True/responsive version:** “Clear notice is also required for Spending Clause conditions imposed on states.”
+4. **Lawyer confirmation:** Spending Clause doctrine has a clear-notice requirement.
+
+### B
+
+1. **Student-accessible C3 signal:** This answer points the anchor backward. It says undisclosed conditions can be added after acceptance.
+2. **Student label:** Hidden-condition backwards rule.
+3. **True/responsive version:** “Congress must state grant conditions clearly before the state accepts funds.”
+4. **Lawyer confirmation:** Hidden or unascertainable conditions do not support knowing acceptance.
+
+### C
+
+1. **Student-accessible C3 signal:** This answer matches the trigger facts: condition, state acceptance, clear notice.
+2. **Student label:** Clear-notice residual.
+3. **True/responsive version:** This is already true and responsive.
+4. **Lawyer confirmation:** This is the Spending Clause clear-notice rule.
+
+### D
+
+1. **Student-accessible C3 signal:** This invents a drafting requirement. The call asks whether the condition was clear, not whether states wrote it.
+2. **Student label:** State-drafting fabricated rule.
+3. **True/responsive version:** “Congress may set grant conditions, but it must state them clearly.”
+4. **Lawyer confirmation:** No state-drafting requirement exists.
+
+## residual_answer
+
+C survives. It is the only answer that fits the state’s objection and the Gold Key.
+
+## legal_leak_audit
+
+Student path: identify the hidden-condition trigger; use the Gold Key; cut the three answers that deny, reverse, or misplace clear notice.
+
+Quarantined lawyer layer: case names and constitutional authority.
+
+Drift audit: The walkthrough does not pretend the Spending Clause rule is pure structure; it labels the item anchor-dependent.
+
+## final_student_script
+
+State took the grant first. Agency added the real condition later. Gold Key: Spending Clause conditions need clear notice so the state can knowingly accept. B is backwards, A overlimits clear notice, D invents state drafting. Answer C.
+
+## remediation_card
+
+**Card:** Hidden Grant Terms
+**Signal:** Federal funds to states plus later undisclosed condition.
+**Student move:** Ask whether the state could know the condition before accepting.
+**Tiny rule:** No clear notice, no knowing acceptance.
+**Trap:** Treating federal money as a blank check.
+
+## Gold Key(s)
+
+**GK-CONLAW-SPENDING-CLEAR-NOTICE-01**
+Spending Clause conditions must be stated clearly enough that a state can knowingly decide whether to accept the money and the obligations. A blank-check future-condition clause is the red flag.
+
+## Silver Key(s)
+
+**SK-CONLAW-MANNA-WAREHOUSE-01**
+When the call asks for the state’s Spending Clause objection, hunt for the answer that attacks the condition’s clarity at the time of acceptance.
+
+## qa_checklist
+
+* Rule unchanged: yes.
+* Credited outcome unchanged: yes.
+* Christian variation safe: yes.
+* No First Amendment issue added: yes.
+* Choices shuffled: yes.
+* Post-shuffle key consistent: yes.
+* PASS available: yes.
+* Exactly three distractors each break one filter: yes.
+* Anchor labeled: yes.
+
+## wrong_answer_recovery_paths
+
+**A:** Student overuses criminal-law clear notice. Recovery: expand clear notice through the Gold Key.
+**B:** Student overreads federal spending power. Recovery: ask whether the state accepted the condition knowingly.
+**D:** Student reaches for state sovereignty. Recovery: reject invented actor requirements.
+
+## outline_mastery_map
+
+Outline code: **42010101**.
+Placement: Constitutional Law > Separation of Powers > Legislative Branch > Taxing and spending power.
+This item teaches: Spending Clause clear notice.
+Adjacent mastery: coercion, germaneness, independent constitutional bar.
+
+## crossover_intersection_map
+
+Contracts analogy: clear terms before assent.
+Federalism crossover: Congress may encourage through funds but must state the deal clearly.
+C3 crossover: overclaim and backwards-rule traps remain useful, but the deciding rule is a Gold Key.
+
+## review_truth
+
+Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.
+
+## 3. `c3_annotation`
+
+```json
+{
+  "question_id": "19982_manna_warehouse",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "42010101",
+  "distilled_core_question": "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?",
+  "review_truth": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium_anchor",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CONLAW-SPENDING-CLEAR-NOTICE-01",
+        "explanation": "The choice overlimits clear notice to criminal statutes and misses the Spending Clause clear-notice rule."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": null,
+        "card_ref": "GK-CONLAW-SPENDING-CLEAR-NOTICE-01",
+        "explanation": "The choice reverses the rule by permitting undisclosed post-acceptance grant conditions."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": null,
+        "card_ref": "GK-CONLAW-SPENDING-CLEAR-NOTICE-01",
+        "explanation": "The choice invents a requirement that states draft Spending Clause conditions."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Anchor-dependent; no Spending Clause doctrine is treated as pure structure. transformed_from: 19982. letter_map: A->C, B->B, C->D, D->A.",
+      "transformed_from": "19982",
+      "letter_map": "A->C, B->B, C->D, D->A"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CONLAW-SPENDING-CLEAR-NOTICE-01",
+        "statement": "Spending Clause conditions must be stated clearly enough that a state can knowingly decide whether to accept the money and the obligations. A blank-check future-condition clause is the red flag.",
+        "type": "constitutional_principle",
+        "unlocks": "hidden or post-acceptance grant conditions",
+        "trigger": "state accepts federal money before the concrete condition appears",
+        "tested_choice": "B",
+        "authority": "Pennhurst State School & Hospital v. Halderman; South Dakota v. Dole; Arlington Central School District Board of Education v. Murphy.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONLAW-MANNA-WAREHOUSE-01",
+        "statement": "When the call asks for the state’s Spending Clause objection, hunt for the answer that attacks the condition’s clarity at the time of acceptance.",
+        "type": "trap_spotting",
+        "navigates": "generic federal power and criminal-notice distractors",
+        "trigger": "state took grant money before the costly condition was listed",
+        "tested_choice": "A",
+        "outline_code": "42010101",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## 4. `program_elements`
+
+```json
+{
+  "question_id": "19982_manna_warehouse",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "42010101",
+  "distilled_core_question": "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?",
+  "review_truth": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+  "tension": null,
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The student remembers clear notice from criminal-law contexts. The breaker is that the Gold Key places clear notice in Spending Clause grants too.",
+      "focus_group_pct": 12,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "backwards",
+      "architecture": null,
+      "why_attractive": "The student treats federal money as permission for broad federal control. The breaker is that the state must know the condition before accepting the money.",
+      "focus_group_pct": 28,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "fabricated_rule",
+      "architecture": null,
+      "why_attractive": "The student reaches for state sovereignty and gives states control over drafting. The breaker is that the actual requirement is clear congressional notice, not state authorship.",
+      "focus_group_pct": 10,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REMED-CONLAW-SPENDING-CLEAR-NOTICE",
+    "title": "Hidden Grant Terms",
+    "signal": "Federal money plus states plus later undisclosed condition.",
+    "student_move": "Ask whether the state could know the condition before accepting.",
+    "tiny_rule": "No clear notice, no knowing acceptance.",
+    "trap": "Treating federal spending as a blank check.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": [
+    "open_ended_future_conditions",
+    "agency_added_post_acceptance_mandate",
+    "clear_notice_vs_generic_spending_power",
+    "criminal_notice_misplacement",
+    "state_drafting_fabrication"
+  ]
+}
+```
+
+## 5. `program_intelligence`
+
+```json
+{
+  "question_id": "19982_manna_warehouse",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "42010101",
+  "distilled_core_question": "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?",
+  "review_truth": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student remembers clear notice in criminal law and assumes it lives only there.",
+      "skipped_move": "Gold Key recall",
+      "recovery_step": "Treat clear notice as a Spending Clause grant condition when states accept federal funds."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student overweights federal spending power and underweights knowing acceptance.",
+      "skipped_move": "direction check",
+      "recovery_step": "Ask whether the state knew this condition before taking the funds."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student tries to protect state sovereignty by requiring state authorship.",
+      "skipped_move": "fabricated-rule check",
+      "recovery_step": "Reject actor requirements that the Gold Key does not contain."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "anchor_recall",
+      "target_skill": "Spending Clause clear notice",
+      "prompt": "A state accepts grant money before a concrete condition is stated. What objection should fire?",
+      "answer": "No clear notice for knowing acceptance."
+    },
+    {
+      "drill_type": "ear_falsity",
+      "target_skill": "backwards rule",
+      "prompt": "Classify: Congress may add any undisclosed condition after a state accepts federal funds.",
+      "answer": "NOT_TRUE; backwards."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "call lock",
+      "prompt": "The call asks for a Spending Clause objection. Which facts matter most?",
+      "answer": "State acceptance, unclear condition, later costly mandate."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "anchor_dependent",
+      "clear_notice",
+      "post_acceptance_condition",
+      "spending_clause",
+      "hidden_condition"
+    ],
+    "misconception_tags": [
+      "federal_money_blank_check",
+      "clear_notice_only_criminal",
+      "states_must_draft_conditions"
+    ]
+  },
+  "component_routing": [
+    "lesson_01_true_responsive",
+    "lesson_04_overclaim",
+    "lesson_05_falsity",
+    "lesson_12_anchor_deck",
+    "lesson_13_calibration"
+  ],
+  "crossovers": [
+    "contracts_offer_acceptance_clear_terms",
+    "federalism_state_accountability",
+    "constitutional_limits_on_federal_inducement"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONLAW-SPENDING-CLEAR-NOTICE-01",
+      "statement": "Spending Clause conditions must be stated clearly enough that a state can knowingly decide whether to accept the money and the obligations. A blank-check future-condition clause is the red flag.",
+      "type": "constitutional_principle",
+      "unlocks": "hidden or post-acceptance grant conditions",
+      "trigger": "state accepts federal money before the concrete condition appears",
+      "tested_choice": "B",
+      "authority": "Pennhurst State School & Hospital v. Halderman; South Dakota v. Dole; Arlington Central School District Board of Education v. Murphy.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONLAW-MANNA-WAREHOUSE-01",
+      "statement": "When the call asks for the state’s Spending Clause objection, hunt for the answer that attacks the condition’s clarity at the time of acceptance.",
+      "type": "trap_spotting",
+      "navigates": "generic federal power and criminal-notice distractors",
+      "trigger": "state took grant money before the costly condition was listed",
+      "tested_choice": "A",
+      "outline_code": "42010101",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Constitutional Law > Separation of Powers > Legislative Branch > Taxing and spending power",
+    "this_item_teaches": "Spending Clause clear-notice requirement for federal grant conditions.",
+    "fills": [
+      "clear_notice",
+      "knowing_acceptance",
+      "conditional_spending_limits"
+    ],
+    "adjacent_to_master": [
+      "general_welfare",
+      "germaneness",
+      "coercion",
+      "independent_constitutional_bar"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/supremecourt/text/483/203?utm_source=chatgpt.com "SOUTH DAKOTA, Petitioner, v. Elizabeth H. DOLE, Secretary, United States Department of Transportation. | Supreme Court | US Law | LII / Legal Information Institute"
+[2]: https://www.law.cornell.edu/constitution-conan/article-1/section-8/clause-1/clear-notice-requirement-and-the-spending-clause?utm_source=chatgpt.com "Clear
+                                        Notice Requirement and the Spending Clause | U.S. Constitution Annotated | US Law | LII / Legal Information Institute"
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 19982_manna_warehouse; source 19982.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CONSTITUTIONAL_LAW; topic Federal Powers; subtopic Spending conditions.
+4. **distilled_core_question:** A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 42010101.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 42010101.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "19982_manna_warehouse",
+  "subject": "CONSTITUTIONAL_LAW",
+  "credited_answer": "C",
+  "outline_code": "42010101",
+  "distilled_core_question": "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?",
+  "review_truth": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 19982; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "19982_manna_warehouse",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "42010101",
+  "distilled_core_question": "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?",
+  "review_truth": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-19982",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+    "trap": "See preserved traps when present.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "19982_manna_warehouse",
+  "subject": "CONSTITUTIONAL_LAW",
+  "outline_code": "42010101",
+  "distilled_core_question": "A state accepts federal grant money under a statute reserving unspecified future agency conditions, and the agency later adds a costly condition. What is the Spending Clause objection?",
+  "review_truth": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "42010101",
+    "this_item_teaches": "Spending Clause grants need clear terms before the state accepts; hidden future conditions are the trap.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,967 @@
+---
+qid: "20476_road_to_bethlehem_sash"
+transformed_from: "20476"
+subject: "CRIMINAL"
+topic: "Fourth Amendment"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "75070202"
+key: "A"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search."
+---
+# A) PASS-1 TRANSFORM REPORT
+
+Source row and taxonomy: Q20476 supplies the Terry/plain-feel fact pattern, key, official explanation, and distractor explanations; controlled-field values came from the project taxonomy.  
+
+## 1. Final question — revised stem + call
+
+After a city Christmas pageant called **Road to Bethlehem**, Officer Hannah lawfully stopped Peter on a public plaza near vendor tents where officers had recently seen illegal pill sales. Peter was still wearing his shepherd costume, including a robe with a small sash pocket. During a pat-down of Peter’s outer clothing for weapons, Hannah felt a pea-sized hard tablet in the sash pocket. She knew it was not a weapon. Curious, Hannah rolled and rubbed the tablet through the fabric for a few moments until she decided it felt like an illegal opioid pill. She then reached into the pocket and seized it. Peter moves to suppress.
+
+**Was the officer’s warrantless seizure of the pill valid under the plain-feel doctrine?**
+
+## 2. Distilled Core Question
+
+During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?
+
+## 3. Final answer choices
+
+**A.** No, because the officer’s continued rolling and rubbing of the tablet through the robe fabric to identify it as contraband exceeded the lawful scope of the frisk; its incriminating character was not immediately apparent.
+
+**B.** Yes, because the officer had reasonable suspicion that Peter was involved in illegal-pill activity, justifying a search for drugs.
+
+**C.** No, because the officer needed a warrant before reaching into the sash pocket once she realized the object was not a weapon.
+
+**D.** Yes, because the officer was conducting a lawful Terry frisk and any item discovered during the frisk may be seized.
+
+## 5. Correct answer
+
+**A** *(original key letter: C)*
+
+## 6. Letter Map
+
+| Original letter | New letter | Mechanic                                                                                | Substance |     Pick rate |
+| --------------- | ---------: | --------------------------------------------------------------------------------------- | --------- | ------------: |
+| A               |          D | `tiered_absolute` / overbroad Terry-frisk permission                                    | kept      | 24% predicted |
+| B               |          B | `bait_doctrine` / reasonable suspicion for drug activity answers the wrong search scope | kept      | 18% predicted |
+| C               |          A | `correct_answer`                                                                        | kept      | 46% predicted |
+| D               |          C | `wrong_element` / right result, wrong defect                                            | kept      | 12% predicted |
+
+No measured original selection percentages were supplied. All rates above are training predictions only, not inherited data.
+
+## 7. Full right-answer explanation
+
+**A is correct.** The frisk began lawfully, but the plain-feel path works only if the contraband character is apparent during the lawful weapons pat-down itself. Here, Hannah knew the object was not a weapon and then rolled and rubbed it through the fabric to figure out what it was. That extra tactile exploration is the defect.
+
+**Gold Key:** Plain feel requires immediate apparentness. If the officer must manipulate a nonweapon item to identify it as contraband, the frisk has become an additional search.
+
+**Silver Key:** In the two “No” answers, do not stop at the shared result. Compare the defect each answer names. The winning defect is the extra manipulation before identification, not the mere absence of a warrant after pocket entry.
+
+## 8. Full wrong-answer explanations
+
+**B.** This choice sells the drug-context fact: Peter was stopped near vendor tents associated with illegal pill sales, so “drug suspicion” feels like enough. The breaker is frame: reasonable suspicion supports the stop and possibly a weapons frisk, but this call asks whether the pill seizure fits plain feel.
+
+**C.** This choice is attractive because it reaches the same bottom-line result as the credited answer: suppression. The breaker is timing: the legal problem happened when Hannah manipulated the nonweapon item to identify it, and **Gold Key:** no warrant would be needed if contraband were immediately apparent during a lawful frisk.
+
+**D.** This choice is attractive because the first part is true: the Terry frisk was lawful. The breaker is the absolute phrase “any item”; a lawful weapons frisk does not make every discovered object seizable.
+
+## 9. Full black-letter-law verification and legal reasoning
+
+The tested rule and credited outcome are unchanged. *Minnesota v. Dickerson* recognized a plain-feel analogue to plain view: during a lawful Terry frisk, an officer may seize contraband by touch only when its incriminating character is immediately apparent; the Court held that further manipulation after the officer knew the item was not a weapon exceeded the lawful frisk and made the resulting seizure unconstitutional. *Terry v. Ohio* supplies the limited weapons-frisk frame: the protective pat-down is not a general evidence search. ([Justia Law][1])
+
+## 10. Why the variation preserves rigor/difficulty
+
+The legal engine is unchanged: lawful stop, lawful weapons frisk, nonweapon object, extra manipulation, later identification as contraband, suppression motion. The hard trap remains the same: students must distinguish a lawful frisk from an open-ended tactile search and must choose the correct “No” rationale.
+
+## 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT D.** “Any item discovered” is a visible overclaim. A frisk is a limited frame, and “any item” says too much.
+
+**CUT B.** Drug suspicion answers the wrong frame. The call is not “was there a basis to investigate Peter?” It is “was the pill seizure valid under plain feel?”
+
+**CLASH A vs C.** Both say “No.” The axis is the legal defect: extra manipulation before identification vs no warrant before pocket entry. The splitting fact is that Hannah rolled and rubbed the tablet before deciding it was contraband.
+
+**CALL.** No separate Call needed. Gold Key resolves the C/A clash.
+
+## 12. Divergence Audit
+
+| Recognition-Kill dimension | Audit result                                                                                                                                                                        |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset/subject matter       | Changed from crack cocaine in a jacket pocket to an illegal opioid tablet in a shepherd-costume sash pocket.                                                                        |
+| Transaction frame          | Preserved criminal-search frame; skipped broader transaction change because the Fourth Amendment search/seizure frame is invariant.                                                 |
+| Specific facts             | Changed drug corner to Christmas pageant plaza/vendor tents; changed small lump to pea-sized tablet; changed jacket to robe/sash; kept manipulation because it is the rule trigger. |
+| Numbers                    | Changed “several seconds” to “a few moments”; kept enough duration to show extra manipulation.                                                                                      |
+| Fact ordering and rhythm   | Reordered setting-first/pageant-first narrative before the search mechanics.                                                                                                        |
+| Cast size/roles            | Added Officer Hannah and Peter with Christian setting texture.                                                                                                                      |
+| Choice ordering            | Shuffled. New key is A.                                                                                                                                                             |
+| Choice phrasing            | Rephrased all choices while preserving legal mechanics.                                                                                                                             |
+| Setting/era/texture        | Changed street drug corner to public Christmas pageant plaza with vendor tents and shepherd costume.                                                                                |
+| Call wording               | Slightly rephrased to “valid under the plain-feel doctrine”; retained black-letter phrase because precision matters.                                                                |
+
+**Original one-sentence summary:** During a lawful Terry frisk near a drug corner, an officer manipulated a nonweapon jacket-pocket lump until identifying crack and seized it.
+
+**Variant one-sentence summary:** After a Christmas pageant, an officer rubbed a hard tablet in a shepherd-costume sash until deciding it was an illegal opioid pill and seized it.
+
+## 13. Review Truth
+
+Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.
+
+## 14. The 5 variations considered
+
+| Candidate                                  | Setting / cast                                                   | Preserved issue                     | Why memorable                                                    | Legal risks                                                                            | Divergence score                                                                                |
+| ------------------------------------------ | ---------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Road to Bethlehem Sash** **RECOMMENDED** | Public Christmas pageant; Officer Hannah; Peter in shepherd robe | Plain feel after extra manipulation | Shepherd costume sash pocket makes the tactile-search fact vivid | Low; no church-property or First Amendment issue because the stop is in a public plaza | 9/10; kills asset, clothing, setting, rhythm, cast, contraband, texture, choice order, phrasing |
+| Galilee Fish Fry Apron                     | Christian charity fish fry; Mary wearing a volunteer apron       | Plain feel after extra manipulation | Apron pocket at a fish fry is high-recall                        | Medium; charity/church-adjacent setting might add clutter                              | 8/10; strong asset and setting shift                                                            |
+| Esther’s Costume Market                    | Bible-costume market; Daniel in a cloak with hidden seam pocket  | Plain feel after extra manipulation | Costume cloak and hidden seam are vivid                          | Medium; seam/container could imply container-search issue                              | 7/10                                                                                            |
+| Ruth’s Harvest 5K Belt                     | Christian 5K race; Timothy wearing a runner belt                 | Plain feel after extra manipulation | Runner belt changes the tactile setting                          | Medium-high; belt pouch might add container issue                                      | 7/10                                                                                            |
+| Lydia’s Scripture Bowl Jacket              | Bible quiz tournament; Lydia in team jacket                      | Plain feel after extra manipulation | Scripture-bowl setting is Christian and distinct                 | Low, but jacket pocket too close to original                                           | 6/10                                                                                            |
+
+---
+
+# B) PASS-2 FIVE BLOCKS
+
+## 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20476_road_to_bethlehem_sash"
+  subject: CRIMINAL
+  subject_display: "Criminal Procedure"
+  topic: "Fourth Amendment"
+  subtopic: "Constitutional Protection of Accused Persons"
+  outline_code: "75070202"
+  selection_percentages:
+    A:
+      value: 46
+      provenance: predicted
+    B:
+      value: 18
+      provenance: predicted
+    C:
+      value: 12
+      provenance: predicted
+    D:
+      value: 24
+      provenance: predicted
+  official_key: A
+  call: "Was the officer’s warrantless seizure of the pill valid under the plain-feel doctrine?"
+  stem: "After a city Christmas pageant called Road to Bethlehem, Officer Hannah lawfully stopped Peter on a public plaza near vendor tents where officers had recently seen illegal pill sales. Peter was still wearing his shepherd costume, including a robe with a small sash pocket. During a pat-down of Peter’s outer clothing for weapons, Hannah felt a pea-sized hard tablet in the sash pocket. She knew it was not a weapon. Curious, Hannah rolled and rubbed the tablet through the fabric for a few moments until she decided it felt like an illegal opioid pill. She then reached into the pocket and seized it. Peter moves to suppress."
+  choices:
+    A: "No, because the officer’s continued rolling and rubbing of the tablet through the robe fabric to identify it as contraband exceeded the lawful scope of the frisk; its incriminating character was not immediately apparent."
+    B: "Yes, because the officer had reasonable suspicion that Peter was involved in illegal-pill activity, justifying a search for drugs."
+    C: "No, because the officer needed a warrant before reaching into the sash pocket once she realized the object was not a weapon."
+    D: "Yes, because the officer was conducting a lawful Terry frisk and any item discovered during the frisk may be seized."
+
+transform_provenance:
+  transformed_from: "20476"
+  variant_slug: "road_to_bethlehem_sash"
+  original_key_letter: "C"
+  new_key_letter: "A"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "D"
+      mechanic: "tiered_absolute"
+      substance: kept
+      pick_rate:
+        value: 24
+        provenance: predicted
+    - original_letter: "B"
+      new_letter: "B"
+      mechanic: "bait_doctrine"
+      substance: kept
+      pick_rate:
+        value: 18
+        provenance: predicted
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "correct_answer"
+      substance: kept
+      pick_rate:
+        value: 46
+        provenance: predicted
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "wrong_element"
+      substance: kept
+      pick_rate:
+        value: 12
+        provenance: predicted
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "During a lawful Terry frisk near a drug corner, an officer manipulated a nonweapon jacket-pocket lump until identifying crack and seized it."
+    variant_stem_one_sentence: "After a Christmas pageant, an officer rubbed a hard tablet in a shepherd-costume sash until deciding it was an illegal opioid pill and seized it."
+    dimensions_changed:
+      - asset_subject_matter
+      - specific_facts
+      - numbers
+      - fact_ordering_and_stem_rhythm
+      - cast_size_roles
+      - choice_ordering
+      - choice_phrasing
+      - setting_era_texture
+      - call_wording
+    dimensions_skipped_with_reason:
+      - dimension: transaction_frame
+        reason: "Fourth Amendment search/seizure frame is the legal issue and could not be changed without altering the item."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row supplied in prompt"
+    use: "QID, subject, stem, call, choices, official key, official explanation, wrong-answer explanations"
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "No row-specific tags supplied; no inherited C3 hypothesis used"
+  - priority: 3
+    source: "C3 controlled vocabularies"
+    use: "Controlled fields for subject, filters, molds, method_class, verdicts, confidence, key types"
+  - priority: 4
+    source: "C3 lessons and master deck"
+    use: "True/responsive frame, overclaim, bait-doctrine, wrong-element, Clash, calibration, Fourth Amendment anchor"
+  - priority: 5
+    source: "Official legal explanation and Minnesota v. Dickerson"
+    use: "Lawyer-confirmation layer only"
+
+student_access_contract:
+  allowed_c3_lessons:
+    - "Lesson 1: TRUE and RESPONSIVE"
+    - "Lesson 2: CUT → CLASH → CALL"
+    - "Lesson 4: Overclaim"
+    - "Lesson 7: Predict before you peek"
+    - "Lesson 8: Not-responsive molds"
+    - "Lesson 9: Tension points and Clash"
+    - "Lesson 12: Anchor deck"
+    - "Lesson 13: Calibration"
+    - "Lesson 14: Full workflow"
+  allowed_anchors:
+    - "Fourth Amendment Terry frisk scope"
+    - "Plain feel immediate-apparentness"
+  gold_key_ids:
+    - "GK-CRIMINAL-PLAIN-FEEL-01"
+  silver_key_ids:
+    - "SK-CRIMINAL-PLAIN-FEEL-01"
+  controlling_test_summary: "The final selection is anchor-assisted. A student can see the overclaim and wrong-frame traps structurally, but the exact A/C split requires the plain-feel Gold Key."
+
+stem_parse:
+  call_type: "search-and-seizure validity"
+  negative_stem: false
+  adjacent_call_traps:
+    - "Was the initial stop lawful?"
+    - "Was a weapons frisk allowed?"
+    - "Was there drug reasonable suspicion?"
+    - "Was a warrant needed after pocket entry?"
+  operative_question: "Was the pill seizure valid under plain feel?"
+  parties:
+    officer: "Hannah"
+    suspect: "Peter"
+  object_seized: "illegal opioid pill"
+  motion: "suppression"
+
+trigger_facts:
+  - fact: "The stop was lawful."
+    access_label: "given fact"
+    c3_use: "Do not fight the stop."
+  - fact: "The pat-down was for weapons."
+    access_label: "given fact"
+    c3_use: "Locks the limited search frame."
+  - fact: "The object was a pea-sized hard tablet."
+    access_label: "given fact"
+    c3_use: "Nonweapon object."
+  - fact: "The officer knew it was not a weapon."
+    access_label: "given fact"
+    c3_use: "The weapons-frisk justification ended."
+  - fact: "The officer rolled and rubbed the object before identifying it."
+    access_label: "decisive fact"
+    c3_use: "Splitting fact for plain feel."
+  - fact: "The officer identified contraband only after manipulation."
+    access_label: "decisive fact"
+    c3_use: "Not immediately apparent."
+
+c3_routing:
+  subject_fit: "Criminal Procedure = search/seizure chain + scope/justification match."
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: A
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "hard"
+  tension_axis: "extra manipulation/immediate apparentness vs no-warrant-after-pocket-entry"
+
+answer_array:
+  geometry: "two Yes over-permission answers; two No answers with competing defect rationales"
+  post_shuffle_key: A
+  dominant_trap:
+    choice: D
+    basis: "predicted, not measured"
+    mechanic: "tiered_absolute"
+  final_pair:
+    choices:
+      - A
+      - C
+    axis: "which defect matters under plain feel"
+    splitting_fact: "the officer manipulated the nonweapon item before identifying contraband"
+  silver_key:
+    id: "SK-CRIMINAL-PLAIN-FEEL-01"
+    type: clash
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Residual after Gold-Key Clash"
+    c3_signal: "This answer names the same fact the stem makes decisive: extra manipulation before contraband identity became apparent."
+    lawyer_confirmation: "Matches Minnesota v. Dickerson: plain feel allows seizure only when incriminating character is immediately apparent during the lawful frisk."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - answer_to_different_question
+      - wrong_standard
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Wrong-frame drug-suspicion answer"
+    c3_signal: "It answers whether drug suspicion justified a search for drugs, not whether this seizure fit plain feel."
+    lawyer_confirmation: "Reasonable suspicion may justify a Terry stop and a limited weapons frisk, but not a full search for drugs."
+  C:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - wrong_timing
+      - wrong_remedy
+      - attractive_wrong_answer
+    method_class: anchor_assisted
+    student_label: "Right result, wrong defect"
+    c3_signal: "It picks the correct side but points to the wrong moment. The stem’s decisive moment is manipulation before identification."
+    lawyer_confirmation: "If contraband identity had been immediately apparent by touch, pocket entry to seize it could be valid without a warrant."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - overbroad_rule
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Overbroad Terry-frisk permission"
+    c3_signal: "The word 'any' is the tell. A limited weapons frisk is being inflated into a permission to seize everything found."
+    lawyer_confirmation: "Terry and Dickerson limit frisk scope; plain feel is not an open-ended evidence search."
+
+residual_answer:
+  choice: A
+  result: "Seizure invalid; suppression follows."
+  c3_path:
+    - "CUT D for overclaim."
+    - "CUT B for wrong frame."
+    - "CLASH A/C on the defect."
+    - "Gold Key resolves the Clash: manipulation before immediate apparentness defeats plain feel."
+
+legal_leak_audit:
+  student_access_clean: true
+  lawyer_only_rules_quarantined:
+    - "Minnesota v. Dickerson authority"
+    - "Suppression consequence"
+    - "Terry scope details beyond the Gold Key"
+  risk_notes:
+    - "Do not tell students C is false merely because no warrant was always required; the student-accessible defect is that C points to the wrong moment."
+
+gold_keys:
+  - id: "GK-CRIMINAL-PLAIN-FEEL-01"
+    statement: "Plain feel works only when the contraband identity is immediately apparent during the lawful weapons frisk. If the officer must squeeze, roll, rub, or otherwise manipulate a nonweapon item to identify it, the frisk has become a new search."
+    type: distinction
+    unlocks: "The A/C high-overlap pair and the D overbroad-frisk trap"
+    trigger: "Lawful frisk + nonweapon object + extra manipulation before identification"
+    tested_choice: "C"
+    authority: "Minnesota v. Dickerson, 508 U.S. 366 (1993); Terry v. Ohio, 392 U.S. 1 (1968)"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-PLAIN-FEEL-01"
+    statement: "When two choices both say the seizure is invalid, ask which one names the first unlawful move. Here, the first unlawful move is the extra manipulation, not the later hand-in-pocket act."
+    type: clash
+    navigates: "The A/C same-result pair"
+    trigger: "Two 'No' answers with different defect rationales"
+    tested_choice: "C"
+    outline_code: "75070202"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIMINAL-PLAIN-FEEL-01"
+  title: "Plain feel: immediate apparentness, not tactile investigation"
+  signal: "Lawful frisk; nonweapon object; officer keeps feeling it to identify it."
+  student_move: "Stop the frisk at the moment the officer knows the item is not a weapon unless contraband is already immediately apparent."
+  tiny_rule: "Manipulation to identify contraband breaks plain feel."
+  trap: "Treating Terry frisk as permission to search for drugs."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?"
+review_truth: "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search."
+
+case_study_output:
+  final_student_script: "Plain feel is narrow. The frisk was lawful, but the object was not a weapon. The officer rubbed it to learn what it was. That is extra search, so choose A."
+  residual: A
+  verdict: ANCHOR_SOLVE
+
+quality_control:
+  pass_requires_three_single_filter_distractors: true
+  true_and_responsive_residual_equals_key: true
+  key_consistency_across_blocks: true
+  no_original_letters_outside_provenance: true
+  controlled_vocab_values_checked: true
+  recognition_test_passed: true
+
+analytics_hooks:
+  component_routing:
+    - "Ear: overclaim"
+    - "Issue-Sense: wrong frame"
+    - "Clash: same-result defect pair"
+    - "Gold Key: plain feel immediate apparentness"
+  trap_tags:
+    - "plain_feel"
+    - "terry_scope"
+    - "reasonable_suspicion_overreach"
+    - "right_result_wrong_reason"
+  drill_seed: "Lawful frisk; officer feels nonweapon object and manipulates it before identifying contraband."
+```
+
+## 2. Student case study
+
+## program_frame
+
+This is a **Criminal Procedure / Fourth Amendment** search-scope question. The answer array tests whether the student can keep a lawful Terry frisk from turning into a general search.
+
+## student_access_test
+
+The student can cut the broad “any item” answer by overclaim. The student can cut the drug-suspicion answer by wrong frame. The final A/C split needs the Gold Key because plain feel’s “immediately apparent” requirement is a narrow anchor.
+
+## question_data
+
+**Call:** Was the officer’s warrantless seizure of the pill valid under the plain-feel doctrine?
+
+**Predicted answer:** No. The seizure is invalid because Hannah identified the pill only after extra manipulation.
+
+**Credited answer:** A.
+
+## distilled_core_question
+
+During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?
+
+## call_and_prediction
+
+Lock the call: **plain feel seizure validity.**
+Do not answer whether the stop was lawful.
+Do not answer whether a frisk for weapons was allowed.
+Do not answer whether Peter was suspicious for drug activity.
+
+Prediction: the extra rolling and rubbing breaks plain feel.
+
+## trigger_facts
+
+| Fact                                          | C3 use                       |
+| --------------------------------------------- | ---------------------------- |
+| Lawful stop                                   | Do not attack the stop.      |
+| Pat-down for weapons                          | Locks a limited frisk frame. |
+| Pea-sized tablet                              | Nonweapon object.            |
+| Officer knew it was not a weapon              | Weapon justification ended.  |
+| Officer rolled and rubbed it                  | Decisive manipulation fact.  |
+| Officer identified it only after manipulation | Not immediately apparent.    |
+
+## governing_c3_lane
+
+**Lane:** CUT → CLASH → Gold Key.
+**Subject FIT:** Criminal Procedure = search/seizure chain + scope/justification match.
+**Governing law type:** RULE.
+**Deciding phase:** CLASH.
+**Method class:** anchor_assisted.
+
+## choice_by_choice_walkthrough
+
+### Choice A
+
+1. **Student-accessible C3 signal:** This answer names the exact fact the stem emphasizes: rolling and rubbing before identification.
+2. **Student label:** Residual after Gold-Key Clash.
+3. **What a true/responsive version would look like:** This is the true/responsive version.
+4. **Lawyer confirmation:** Plain feel requires immediate apparentness; manipulation to identify the object exceeds the lawful Terry frisk.
+
+### Choice B
+
+1. **Student-accessible C3 signal:** It talks about drug suspicion, not plain feel.
+2. **Student label:** `NOT_RESPONSIVE` / `bait_doctrine`.
+3. **What a true/responsive version would look like:** “Yes, because the pill’s contraband character was immediately apparent during the lawful pat-down.”
+4. **Lawyer confirmation:** Reasonable suspicion of drug activity does not authorize a drug search under Terry.
+
+### Choice C
+
+1. **Student-accessible C3 signal:** It says “No,” but it points to the wrong defect.
+2. **Student label:** `NOT_RESPONSIVE` / `wrong_element`.
+3. **What a true/responsive version would look like:** “No, because the officer manipulated the object after knowing it was not a weapon and before its contraband identity was immediately apparent.”
+4. **Lawyer confirmation:** If the object’s contraband identity had been immediately apparent by touch, the seizure could be valid without a warrant. The problem is the extra manipulation.
+
+### Choice D
+
+1. **Student-accessible C3 signal:** “Any item” is the overclaim.
+2. **Student label:** `NOT_TRUE` / `tiered_absolute`.
+3. **What a true/responsive version would look like:** “Yes, if the item’s contraband character was immediately apparent during the lawful frisk.”
+4. **Lawyer confirmation:** Terry authorizes a limited weapons frisk; Dickerson limits plain feel to immediately apparent contraband.
+
+## residual_answer
+
+A survives. It answers the call and uses the dispositive fact.
+
+## legal_leak_audit
+
+The student path does not depend on case names. The case names stay in lawyer confirmation. The student uses: call lock, overclaim cut, wrong-frame cut, same-result Clash, Gold Key.
+
+Drift audit: no doctrine was converted into fake structure; the final legal rule was promoted as a Gold Key.
+
+## final_student_script
+
+“Plain feel is narrow. Stop and frisk are given as lawful, so I do not fight them. B answers drug suspicion. D says ‘any item,’ too broad. A and C both say no, so I compare the defect. The first unlawful move was rolling and rubbing the nonweapon tablet to identify it. Pick A.”
+
+## remediation_card
+
+**REM-CRIMINAL-PLAIN-FEEL-01 — Plain feel is not tactile investigation**
+
+**Signal:** Lawful frisk + nonweapon object + extra touching to identify contraband.
+**Student move:** Find the moment the frisk stopped being about weapons.
+**Tiny rule:** Immediate apparentness only. No manipulation to figure it out.
+**Trap:** Treating Terry frisk as permission to search for drugs.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-PLAIN-FEEL-01**
+Plain feel works only when the contraband identity is immediately apparent during the lawful weapons frisk. If the officer must squeeze, roll, rub, or otherwise manipulate a nonweapon item to identify it, the frisk has become a new search.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-PLAIN-FEEL-01**
+When two choices both say the seizure is invalid, ask which one names the first unlawful move. Here, the first unlawful move is the extra manipulation, not the later hand-in-pocket act.
+
+## qa_checklist
+
+| Check                                             | Result |
+| ------------------------------------------------- | ------ |
+| True/responsive residual equals key               | Pass   |
+| Three distractors each break exactly one filter   | Pass   |
+| Original outcome unchanged                        | Pass   |
+| Gold Key used only for anchor layer               | Pass   |
+| Silver Key contains no authority                  | Pass   |
+| No church-property or First Amendment issue added | Pass   |
+| Choice letters post-shuffle only                  | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                                | Recovery move                                              |
+| ------ | ----------------------------------------------------- | ---------------------------------------------------------- |
+| B      | Drug-sale setting makes drug suspicion feel decisive. | Lock the call: plain feel seizure, not drug investigation. |
+| C      | Same bottom-line result as A.                         | Compare the defect, not the result.                        |
+| D      | Lawful Terry frisk feels like a permission slip.      | Flinch at “any item.”                                      |
+
+## outline_mastery_map
+
+**Outline code:** 75070202
+**Placement:** Criminal Procedure → Fourth Amendment → Searches and Seizures → Exceptions to warrant requirement.
+**This item teaches:** Terry frisk scope and plain-feel immediate apparentness.
+**Adjacent mastery:** plain view, search incident to arrest, automobile exception, consent, good-faith exception.
+
+## crossover_intersection_map
+
+| Crossover                       | Lesson                                                                                              |
+| ------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Evidence offered-purpose logic  | Same object can be in/out depending on purpose; same frisk can be valid/invalid depending on scope. |
+| Civil Procedure threshold logic | Stop/frisk validity is a gate before seizure validity.                                              |
+| C3 overclaim                    | “Any item” is structurally too broad.                                                               |
+| C3 same-result pair             | A and C share outcome but fight over the operative defect.                                          |
+
+## review_truth
+
+Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.
+
+## 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20476_road_to_bethlehem_sash",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "75070202",
+  "distilled_core_question": "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?",
+  "review_truth": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "extra manipulation/immediate apparentness vs no-warrant-after-pocket-entry",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "hard",
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-PLAIN-FEEL-01",
+        "explanation": "The answer uses drug reasonable suspicion to answer the wrong frame. The call is plain-feel seizure validity."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CRIMINAL-PLAIN-FEEL-01",
+        "explanation": "The answer reaches the right result but names the wrong defect. The defect is manipulation before identification, not simply lack of a warrant before pocket entry."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-CRIMINAL-PLAIN-FEEL-01",
+        "explanation": "The phrase 'any item' overstates a lawful Terry frisk. Plain feel does not authorize seizing everything discovered."
+      }
+    ],
+    "analyzer_notes": "drift_audit: asset changed to illegal opioid pill in shepherd-costume sash; setting changed to Road to Bethlehem pageant plaza; rhythm and cast changed; manipulation fact preserved because invariant. transformed_from: 20476. letter_map: original A→new D; original B→new B; original C→new A; original D→new C. No measured pick rates supplied; all rates predicted.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-PLAIN-FEEL-01",
+        "statement": "Plain feel works only when the contraband identity is immediately apparent during the lawful weapons frisk. If the officer must squeeze, roll, rub, or otherwise manipulate a nonweapon item to identify it, the frisk has become a new search.",
+        "type": "distinction",
+        "unlocks": "The A/C high-overlap pair and the D overbroad-frisk trap",
+        "trigger": "Lawful frisk + nonweapon object + extra manipulation before identification",
+        "tested_choice": "C",
+        "authority": "Minnesota v. Dickerson, 508 U.S. 366 (1993); Terry v. Ohio, 392 U.S. 1 (1968)",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-PLAIN-FEEL-01",
+        "statement": "When two choices both say the seizure is invalid, ask which one names the first unlawful move. Here, the first unlawful move is the extra manipulation, not the later hand-in-pocket act.",
+        "type": "clash",
+        "navigates": "The A/C same-result pair",
+        "trigger": "Two 'No' answers with different defect rationales",
+        "tested_choice": "C",
+        "outline_code": "75070202",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## 4. `program_elements`
+
+```json
+{
+  "question_id": "20476_road_to_bethlehem_sash",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?",
+  "review_truth": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+  "tension": {
+    "axis": "extra manipulation/immediate apparentness vs no-warrant-after-pocket-entry",
+    "splitting_fact": "The officer rolled and rubbed the tablet before deciding it was contraband."
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The illegal-pill setting makes drug suspicion feel like the central fact. The breaker is that reasonable suspicion answers the wrong question; the call is plain-feel seizure validity.",
+      "focus_group_pct": 18,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The answer gets the suppression outcome and therefore feels safer than the technical answer. The breaker is that it names the wrong defect; the first unlawful move was the manipulation before identification.",
+      "focus_group_pct": 12,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "The lawful Terry frisk makes the broad permission sound legitimate. The breaker is the absolute 'any item,' which inflates a limited weapons frisk into a general search.",
+      "focus_group_pct": 24,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIMINAL-PLAIN-FEEL-01",
+    "title": "Plain feel: immediate apparentness, not tactile investigation",
+    "signal": "Lawful frisk; nonweapon object; officer keeps feeling it to identify it.",
+    "student_move": "Stop the frisk at the moment the officer knows the item is not a weapon unless contraband is already immediately apparent.",
+    "tiny_rule": "Manipulation to identify contraband breaks plain feel.",
+    "trap": "Treating Terry frisk as permission to search for drugs.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "lawful stop distractor",
+    "lawful frisk over-extension",
+    "drug suspicion wrong frame",
+    "same-result wrong rationale",
+    "immediate-apparentness anchor"
+  ]
+}
+```
+
+## 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20476_road_to_bethlehem_sash",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?",
+  "review_truth": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student treats drug reasonable suspicion as permission to search for drugs.",
+      "skipped_move": "Call lock",
+      "recovery_step": "Ask whether the choice answers plain-feel seizure validity."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student sees the correct bottom-line result and stops before checking the reason.",
+      "skipped_move": "Clash axis",
+      "recovery_step": "Compare the two No answers by the first unlawful move."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student over-expands a lawful Terry frisk into permission to seize anything found.",
+      "skipped_move": "Overclaim flinch",
+      "recovery_step": "Mark 'any item' and apply the plain-feel Gold Key."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "CUT",
+      "target_skill": "overclaim",
+      "prompt": "During a lawful frisk, the answer says any item found may be seized. Name the mold.",
+      "answer": "tiered_absolute"
+    },
+    {
+      "drill_type": "CLASH",
+      "target_skill": "same-result pair",
+      "prompt": "Two answers both say suppression. One names manipulation before identification; one names lack of warrant before pocket entry. Which fact resolves it?",
+      "answer": "The officer manipulated the nonweapon object before identifying contraband."
+    },
+    {
+      "drill_type": "ANCHOR",
+      "target_skill": "plain feel immediate apparentness",
+      "prompt": "What must be true before an officer may seize contraband felt during a lawful frisk?",
+      "answer": "Its contraband character must be immediately apparent by touch."
+    },
+    {
+      "drill_type": "CALL",
+      "target_skill": "call focus",
+      "prompt": "A choice justifies a drug search because the area was known for drug sales. Why is it off-call?",
+      "answer": "The call asks about plain-feel seizure validity, not drug-investigation suspicion."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "plain_feel",
+      "terry_frisk_scope",
+      "immediate_apparentness",
+      "extra_manipulation",
+      "same_result_pair"
+    ],
+    "misconception_tags": [
+      "lawful_stop_means_lawful_search",
+      "reasonable_suspicion_for_drugs_authorizes_drug_search",
+      "suppression_result_enough_without_correct_reason",
+      "terry_frisk_seizes_anything"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1: TRUE and RESPONSIVE",
+    "Lesson 4: Overclaim",
+    "Lesson 8: Bait-doctrine and wrong-element",
+    "Lesson 9: Clash axis",
+    "Lesson 12: Anchor deck",
+    "Lesson 13: Calibration"
+  ],
+  "crossovers": [
+    {
+      "area": "Evidence",
+      "connection": "Purpose controls admissibility; here scope controls seizure."
+    },
+    {
+      "area": "Civil Procedure",
+      "connection": "Threshold framing prevents answering an adjacent call."
+    },
+    {
+      "area": "Constitutional Law",
+      "connection": "Government-action validity depends on matching the right level of authority to the right act."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-PLAIN-FEEL-01",
+      "statement": "Plain feel works only when the contraband identity is immediately apparent during the lawful weapons frisk. If the officer must squeeze, roll, rub, or otherwise manipulate a nonweapon item to identify it, the frisk has become a new search.",
+      "type": "distinction",
+      "unlocks": "The A/C high-overlap pair and the D overbroad-frisk trap",
+      "trigger": "Lawful frisk + nonweapon object + extra manipulation before identification",
+      "tested_choice": "C",
+      "authority": "Minnesota v. Dickerson, 508 U.S. 366 (1993); Terry v. Ohio, 392 U.S. 1 (1968)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-PLAIN-FEEL-01",
+      "statement": "When two choices both say the seizure is invalid, ask which one names the first unlawful move. Here, the first unlawful move is the extra manipulation, not the later hand-in-pocket act.",
+      "type": "clash",
+      "navigates": "The A/C same-result pair",
+      "trigger": "Two 'No' answers with different defect rationales",
+      "tested_choice": "C",
+      "outline_code": "75070202",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Procedure > Fourth Amendment > Searches and Seizures > Exceptions to warrant requirement",
+    "this_item_teaches": "Plain feel is a narrow exception tied to immediate apparentness during a lawful frisk.",
+    "fills": [
+      "Terry frisk scope",
+      "plain feel",
+      "immediate apparentness",
+      "suppression after scope violation"
+    ],
+    "adjacent_to_master": [
+      "plain view",
+      "search incident to arrest",
+      "automobile exception",
+      "consent search",
+      "good-faith exception"
+    ]
+  }
+}
+```
+
+[1]: https://supreme.justia.com/cases/federal/us/508/366/?utm_source=chatgpt.com "Minnesota v. Dickerson | 508 U.S. 366 (1993) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20476_road_to_bethlehem_sash",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "75070202",
+  "distilled_core_question": "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?",
+  "review_truth": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20476; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20476_road_to_bethlehem_sash",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?",
+  "review_truth": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20476",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20476_road_to_bethlehem_sash",
+  "subject": "CRIMINAL",
+  "outline_code": "75070202",
+  "distilled_core_question": "During a lawful weapons frisk, an officer feels a nonweapon object, manipulates it to identify contraband, then seizes it. Is the seizure valid under plain feel?",
+  "review_truth": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75070202",
+    "this_item_teaches": "Plain feel allows seizure only when contraband is immediately apparent during the lawful frisk; extra manipulation of a nonweapon item breaks the search.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

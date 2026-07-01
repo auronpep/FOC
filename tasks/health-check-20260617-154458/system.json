@@ -1,0 +1,22 @@
+{
+  "Timestamp": "2026-06-17T15:45:01.0700354-07:00",
+  "ComputerName": "PRAISEJESUS",
+  "UserName": "JesusLovesMe",
+  "Manufacturer": "Micro Computer(HK) Tech Limited",
+  "Model": "Venus series",
+  "OS": "Microsoft Windows 11 Home",
+  "OSVersion": "10.0.26200",
+  "BuildNumber": "26200",
+  "LastBoot": "2026-06-17T12:35:42.5000000-07:00",
+  "UptimeDays": 0.13,
+  "CpuName": "12th Gen Intel(R) Core(TM) i9-12900HK",
+  "PhysicalCores": 14.0,
+  "LogicalCores": 20,
+  "Memory": {
+    "TotalGB": 31.78,
+    "UsedGB": 23.77,
+    "FreeGB": 8.02,
+    "UsedPercent": 74.8,
+    "FreePercent": 25.2
+  }
+}

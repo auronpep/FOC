@@ -1,0 +1,910 @@
+---
+qid: "17979_hannahs_tractor"
+transformed_from: "17979"
+subject: "TORTS"
+topic: "Products Liability"
+subtopic: "Warranty Theory — Implied warranty of merchantability; UCC § 2-316 disclaimer"
+outline_code: "63030302"
+key: "B"
+original_key: "A"
+letter_map: "A→B, B→D, C→A, D→C"
+dominant_trap: "A"
+pick_rates: "predicted_seed"
+bank_validation_verdict: "PASS"
+review_truth: "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability."
+---
+
+qid: 17979_hannahs_tractor
+transformed_from: 17979
+subject: TORTS
+topic: Products Liability
+subtopic: Warranty Theory — Implied warranty of merchantability; UCC § 2-316 disclaimer
+outline_code: "63030302"
+key: B
+original_key: A
+letter_map: "A→B, B→D, C→A, D→C"
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability."
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem and call
+
+Joseph went to Daniel's farm-equipment resale lot on the edge of town and bought a used 14-horsepower riding lawn tractor for $1,850 to help Hannah mow their long gravel drive and back pasture. The bill of sale Daniel gave Joseph included, in capital letters at the top, the line: "TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES." When Joseph asked Daniel how the tractor ran, Daniel said, "I believe this tractor is in good working order." Hannah used the tractor to mow that Saturday, and after about two hours the engine seized. The repair bill was $720.
+
+If Hannah asserts a claim for damages against Daniel on the grounds that Daniel breached the implied warranty of merchantability, the court should find for:
+
+## 2. Distilled Core Question
+
+A used-goods sales contract contains a conspicuous "AS IS" clause, the seller says "I believe the goods are in good condition," the buyer’s household member uses the goods, and the goods turn out to be unfit; in an IWM claim by the household member, who wins?
+
+## 3. Final answer choices (A–D, post-shuffle)
+
+A. Hannah, because the tractor was unfit for ordinary use.
+
+B. Daniel, because the bill of sale included the phrase "TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES."
+
+C. Hannah, because Daniel told Joseph that he believed the tractor was in good working order.
+
+D. Daniel, because he did not enter into any contractual relationship with Hannah.
+
+## 4. Possible replacement answer choices
+
+Omitted. All four original distractors were retained; no swap suggested.
+
+## 5. Correct answer
+
+B. Original key letter: A.
+
+## 6. Letter Map
+
+| Original → New | Mechanic                                                      | Substance | Pick % | Provenance | Dominant trap |
+| -------------- | ------------------------------------------------------------- | --------: | -----: | ---------- | ------------- |
+| A → B          | `correct_answer` / AS IS disclaims IWM                        |      kept |   50%  | predicted  | no            |
+| B → D          | `flat_misstatement` / no contractual relationship with wife   |      kept |   18%  | predicted  | no            |
+| C → A          | `bait_doctrine` / IWM = unfit for ordinary purpose           |      kept |   25%  | predicted  | **yes**       |
+| D → C          | `flat_misstatement` / "I believe" creates express warranty    |      kept |    7%  | predicted  | no            |
+
+The source row for Q17979 did not supply focus-group pick rates. Predicted SEED percentages are emitted for all four choices, every one labeled `predicted`, summing to ~100, and are based on each mechanic’s analytical attractiveness against the call. The dominant trap is identified analytically as the IWM-definitional answer (mechanic: the goods failed the IWM test, so the buyer wins), which is the highest-attraction wrong reason even without measured pick rates. The dominant trap is preserved and re-skinned, and is NEVER swappable.
+
+## 7. Full right-answer explanation
+
+B is correct. Daniel wins.
+
+**Gold Key:** Under UCC § 2-316(3)(a), expressions like "as is" or "with all faults" in a sales contract for goods — and language which in common understanding calls the buyer’s attention to the exclusion of warranties — disclaim all implied warranties, including the implied warranty of merchantability. (See UCC § 2-316(3)(a).) The bill of sale here, with "TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES" in capital letters at the top, is exactly that kind of conspicuous AS-IS language. Even though the tractor turned out to be unfit for ordinary mowing, the IWM was disclaimed, so there is no IWM claim for Hannah to win on.
+
+**Silver Key:** When the contract language says "AS IS" and the claim is IWM, the disclaimer controls the answer; the actual fitness of the goods is not the dispositive issue. Lock the contract, not the condition of the goods.
+
+The right answer therefore joins the correct party (Daniel) with the reason that actually fits the call (the AS-IS clause disclaimed the IWM that Hannah is suing on). No other answer does both.
+
+## 8. Full wrong-answer explanations
+
+**A. Hannah, because the tractor was unfit for ordinary use.** (Dominant trap.)
+
+This is the most attractive wrong answer. The student reads the IWM definition — "fit for the ordinary purposes for which such goods are used" — sees that the tractor seized mid-mow, and concludes the IWM was breached. The breaker is the Gold Key. Under UCC § 2-316(3)(a), a conspicuous "as is" clause in the sales contract disclaims the IWM. The tractor’s actual fitness is not the controlling fact once the IWM is disclaimed. Hannah loses the IWM claim, not because the tractor was fit, but because the IWM was disclaimed. (Lawyer confirmation: the disclaimer is effective even if the goods turn out to be defective, so a fitness-only answer does not survive a true IWM claim.)
+
+**C. Hannah, because Daniel told Joseph that he believed the tractor was in good working order.**
+
+This sells a dealer's-talk-is-a-warranty story. A student assumes any positive statement by a seller becomes a warranty. The breaker is UCC § 2-313(2): a statement purporting to be merely the seller’s opinion or commendation of the goods does not create an express warranty. The word "believe" is exactly the opinion qualifier that takes the statement out of § 2-313(1)(a). (Lawyer confirmation: even if the statement had risen to an express warranty, the same AS-IS clause under § 2-316(1) would be construed to negate or limit it, and § 2-316(3)(a) plainly disclaims any implied warranty. The answer fails twice: no express warranty arose, and any warranty was disclaimed.)
+
+**D. Daniel, because he did not enter into any contractual relationship with Hannah.**
+
+This sells a reflex privity defense. Hannah was not the buyer; Joseph was. The student imports a contract-privity rule. The breaker is the Gold Key. Under UCC § 2-318 (Alternative A, widely adopted), a seller’s warranty — express or implied — extends to any natural person who is in the family or household of the buyer if it is reasonable to expect that person may use, consume, or be affected by the goods. Hannah is Joseph’s spouse, the tractor was bought for household mowing, and Hannah is exactly the kind of person the household-beneficiary rule protects. The vertical-privity block the student is reaching for does not apply. (Lawyer confirmation: even where § 2-318 is not adopted in Alternative A form, the great majority of jurisdictions permit a household member to sue for breach of the IWM; the no-privity answer is not a true defense to this IWM claim.)
+
+## 9. Full black-letter-law verification AND legal reasoning for the right answer
+
+**Tested rule.** UCC § 2-316(3)(a) excludes all implied warranties when the contract uses expressions like "as is" or "with all faults," or other language which in common understanding calls the buyer’s attention to the exclusion of warranties and makes plain that there is no implied warranty. (Cornell LII, UCC § 2-316.) The language here — "TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES" in capital letters at the top of the bill of sale — is exactly the kind of conspicuous disclaimer § 2-316(3)(a) describes. The official key in the source row reaches the same result: "the phrase ‘AS IS’ disclaimed the implied warranty of merchantability." (Source row, Correct Answer Explanation.)
+
+**Implied warranty of merchantability.** UCC § 2-314 implies a warranty of merchantability in a contract for the sale of goods by a merchant who deals in goods of the kind, requiring the goods to be fit for the ordinary purposes for which such goods are used. The IWM is the rule Hannah is suing on. The defect in the tractor (engine seizure after two hours of mowing) is precisely the kind of fact a student would expect to trigger IWM liability. The disclaimer, however, controls.
+
+**Express warranty from "I believe" — no.** UCC § 2-313(1)(a) creates an express warranty by "any affirmation of fact or promise made by the seller to the buyer which relates to the goods and becomes part of the basis of the bargain." UCC § 2-313(2) carves out a critical exception: "an affirmation merely of the value of the goods or a statement purporting to be merely the seller’s opinion or commendation of the goods does not create a warranty." (Cornell LII, UCC § 2-313.) Daniel’s "I believe this tractor is in good working order" is opinion, not an affirmation of fact. No express warranty arose.
+
+**Vertical privity — household IWM action available.** UCC § 2-318 (Alternative A) extends a seller’s warranty, "whether express or implied," to "any natural person who is in the family or household of his buyer" if it is reasonable to expect that such person may use, consume, or be affected by the goods. (Cornell LII, UCC § 2-318.) Hannah is Joseph’s spouse; the tractor was bought for mowing the family property; Hannah is the principal user. The IWM claim by a household member is permitted. The no-privity answer is not a true defense to this claim. (Even in jurisdictions that have not adopted Alternative A, the great majority permit a household member to sue for breach of the IWM; the source row’s official explanation confirms this: "all jurisdictions permit an action for breach of the implied warranty of merchantability to be brought by any member of the purchaser’s household.")
+
+**Invariant layer preserved.** The legal issue, the tested black-letter rule, the credited outcome, the dominant-trap mechanic, and the call’s function are all unchanged from the original. The IWM claim fails for the same reason in both stems: a conspicuous AS-IS clause in the sales contract disclaimed the IWM that the household-member plaintiff is suing on.
+
+**No conflict with the supplied official key.** Research confirms the key. No `bank_validation_verdict: NEEDS_HUMAN` triggered.
+
+## 10. Brief note on why the variation preserves the original rigor/difficulty
+
+The variation preserves every layer-1 invariant. The testable rule is identical (UCC § 2-316(3)(a) AS-IS disclaimer of IWM). The credited outcome is identical (the seller-defendant wins). The dominant trap — the IWM-definitional answer that the goods were unfit for ordinary use — survives, re-skinned to a seized engine on a riding lawn tractor instead of a broken-down car. The vertical-privity distractor survives, re-skinned to a no-privity defense against Hannah. The "dealer's belief" distractor survives, re-skinned to "I believe this tractor is in good working order." The 2×2 outcome-and-reason array (seller wins vs buyer wins × right reason vs wrong reason) is preserved. The call function — who wins the IWM claim — is preserved without naming the governing UCC doctrine. The MBE rigor of the black-letter answer language ("breached the implied warranty of merchantability") is preserved verbatim in the call. The answer is not easier: the student must still (1) recognize that AS-IS controls over the actual fitness finding, (2) recognize that "I believe" is opinion, and (3) recognize that household privity is satisfied for IWM.
+
+## 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A. Hannah, because the tractor was unfit for ordinary use.** The choice proves an IWM-definitional fact. The call is who wins the IWM claim. The IWM was disclaimed. A fitness-only answer is nonresponsive to a claim that has been disclaimed. Label: `bait_doctrine`, architecture `violation_vs_remedy`. The student skipped the Gold Key that AS-IS controls over the fitness finding.
+
+**CUT C. Hannah, because Daniel told Joseph that he believed the tractor was in good working order.** The choice asserts a dealer's positive statement is an express warranty. The student skipped UCC § 2-313(2) (opinion does not create a warranty). The statement is opinion, not affirmation of fact. Label: `flat_misstatement`.
+
+**CUT D. Daniel, because he did not enter into any contractual relationship with Hannah.** The choice imports a contract-privity rule. The IWM claim extends to household members under UCC § 2-318 (Alt. A). The student skipped the household-beneficiary rule. Label: `flat_misstatement` (asserts a rule that does not apply to IWM claims by household members).
+
+**CLASH.** A and C both argue Hannah wins. They do not actually clash on outcome — both pick Hannah — so no axis fight needs to be resolved. The axis that decides the item is: the IWM was disclaimed by the AS-IS clause, and no other warranty exists. That axis is settled by the Gold Key.
+
+**CALL.** B is the only choice that pairs the right party with the right reason: Daniel wins because the AS-IS clause disclaimed the IWM that is the only warranty Hannah was suing on.
+
+**Residual.** B. Single residual, true and responsive to the IWM-claim call. Agrees with the official key. Verdict available: PASS.
+
+## 12. Divergence Audit
+
+- [x] **Asset/subject matter:** changed from a used car to a used 14-horsepower riding lawn tractor (a tangible good, UCC Art 2; different category than a passenger vehicle; different mechanical defect story).
+- [x] **Transaction frame:** retained a used-goods sales contract with a conspicuous "AS IS" clause on the bill of sale. The disclaimer is load-bearing; the new clause is in capital letters at the top of the bill of sale. Asset changed; transaction-as-sale retained.
+- [x] **Specific facts/lies:** the dealer's positive statement is re-skinned from "I believed the car to be in good condition" to "I believe this tractor is in good working order" — same opinion-versus-affirmation character, different goods.
+- [x] **All numbers:** price $1,850 (was unspecified in source row, default for used-goods MBE items); engine 14-horsepower; engine-seizure after about two hours; repair bill $720; tractor is a different asset from the car. None of these numbers turn on a statutory or doctrinal line; the disclaimer controls regardless.
+- [x] **Fact ordering and stem rhythm:** open with the buyer and the lot, then the asset and price, then the contract clause, then the dealer's statement, then the use and the breakdown, then the claim. Original stem had a slightly different reveal order.
+- [x] **Cast size/roles:** changed car-dealer/wife/husband triad to farm-equipment-dealer/wife/husband triad with different popular Bible names (Daniel, Hannah, Joseph). All three are well-liked names; no antagonist names.
+- [x] **Choice ordering:** shuffled. Original A (correct) → new B. Original B (no privity) → new D. Original C (IWM-definitional) → new A. Original D ("I believe" statement) → new C. The dominant trap moved from C to A.
+- [x] **Choice phrasing:** paraphrased while preserving legal substance and trap pull. Standard black-letter formulations ("implied warranty of merchantability," "breached the implied warranty") are retained verbatim per Layer 1.
+- [x] **Setting/era/texture:** changed urban auto-dealership to a small-town farm-equipment resale lot at the edge of town. Family farms the long gravel drive and back pasture; Hannah mows on Saturdays.
+- [x] **Call wording:** retained "the court should find for:" — function identical, no doctrine name added.
+
+**Old-stem one-sentence summary:** A husband bought a used car from a dealer whose contract said "This Vehicle Sold AS IS," the dealer said "I believed the car to be in good condition," and the car broke down; in the wife’s IWM claim against the dealer, who wins?
+
+**New-stem one-sentence summary:** A husband bought a used 14-horsepower riding lawn tractor from a farm-equipment lot whose bill of sale said "TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES," the dealer said "I believe this tractor is in good working order," and the engine seized mid-mow; in the wife’s IWM claim against the dealer, who wins?
+
+Recognition test passed. The two summaries share only the legal rule frame: an AS-IS sales contract, a seller's "I believe" statement, a defect, and a household-member IWM claim. A focus-group student summarizing the new stem would not produce a summary that matches the original — the asset, the lot, the contract language, the defect, and the cast have all changed.
+
+## 13. Review Truth
+
+A conspicuous "as is" clause in a sales contract disclaims the implied warranty of merchantability.
+
+## 14. The 5 variations considered
+
+| #  | Title                      | Setting                                            | Cast                | Exact preserved issue                                                              | Why memorable                                          | Legal risks                                                        | Divergence score                                                                            |
+| -: | -------------------------- | -------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| 1  | **Hannah’s Tractor** ⭐     | Small-town farm-equipment resale lot               | Joseph, Hannah, Daniel | Whether a conspicuous "AS IS" bill-of-sale clause defeats a household-member IWM claim on a used good, and whether the seller’s "I believe" statement creates an express warranty | Seized riding lawn tractor in a Christian farm setting; vivid, mechanical, family-use | Avoid church property or First Amendment clutter — kept on private farm | 9/9 — kills asset, transaction-detail, numbers, fact rhythm, cast, setting, choice order, choice phrasing, defect texture |
+| 2  | Lydia’s Sewing Machine     | Small Christian tailoring supply shop             | Paul, Lydia, Timothy | Same                                                                               | Industrial sewing machine break is unusual and visual  | Slight plaintiff-gender shift (Lydia is the tailor who actually uses it) | 8/9                                                                                         |
+| 3  | Martha’s Refrigerator      | Small-town appliance resale                        | Stephen, Martha, Barnabas | Same                                                                            | Family-kitchen fridge is a familiar household item     | Refrigerator→appliance family still feels domestic; modest divergence | 7/9                                                                                         |
+| 4  | Esther’s Pressure Washer   | Suburban home-cleaning equipment lot               | Boaz, Esther, Mark  | Same                                                                               | Pressure-washer hose burst is loud and vivid          | Mid-divergence; commercial-cleaning flavor slightly off-tone       | 7/9                                                                                         |
+| 5  | Naomi’s Boat Motor         | Lakeside marina resale                             | Boaz, Naomi, Daniel | Same                                                                               | Outboard motor on a lake is a strongly visual image    | Boat is also a consumer good, but the marina setting is a slight texture change | 8/9                                                                          |
+
+**Recommended final version:** #1, *Hannah’s Tractor*. It produces the maximum surface divergence (asset category, lot type, defect, cast, setting, fact rhythm, choice order) while fully preserving the invariant layer (tested rule, dominant trap, 2×2 array, call function, household-privity posture, opinion-vs-affirmation mechanic). All five are Christian-themed; #1 is the most distinctly Christian-flavored in cast and setting without inviting First Amendment or church-property clutter.
+
+# B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "17979_hannahs_tractor"
+  transformed_from: "17979"
+  subject: "TORTS"
+  topic: "Products Liability"
+  subtopic: "Warranty Theory — Implied warranty of merchantability; UCC § 2-316 disclaimer"
+  outline_code: "63030302"
+  selection_percentages:
+    A:
+      value: 25
+      provenance: "predicted"
+      source_mechanic: "IWM-definitional bait (unfit for ordinary use)"
+    B:
+      value: 50
+      provenance: "predicted"
+      source_mechanic: "correct_answer (AS IS disclaims IWM)"
+    C:
+      value: 7
+      provenance: "predicted"
+      source_mechanic: "dealer's 'I believe' statement offered as express warranty"
+    D:
+      value: 18
+      provenance: "predicted"
+      source_mechanic: "no contractual relationship with household member"
+  official_key: "B"
+  original_key_letter: "A"
+  call: "If Hannah asserts a claim for damages against Daniel on the grounds that Daniel breached the implied warranty of merchantability, the court should find for:"
+  stem: "Joseph went to Daniel’s farm-equipment resale lot on the edge of town and bought a used 14-horsepower riding lawn tractor for $1,850 to help Hannah mow their long gravel drive and back pasture. The bill of sale Daniel gave Joseph included, in capital letters at the top, the line: \"TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES.\" When Joseph asked Daniel how the tractor ran, Daniel said, \"I believe this tractor is in good working order.\" Hannah used the tractor to mow that Saturday, and after about two hours the engine seized. The repair bill was $720."
+  choices:
+    A: "Hannah, because the tractor was unfit for ordinary use."
+    B: "Daniel, because the bill of sale included the phrase \"TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES.\""
+    C: "Hannah, because Daniel told Joseph that he believed the tractor was in good working order."
+    D: "Daniel, because he did not enter into any contractual relationship with Hannah."
+
+transform_provenance:
+  variant_slug: "hannahs_tractor"
+  original_key_letter: "A"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "B"
+      mechanic: "correct_answer / AS IS disclaims IWM"
+      substance: "kept"
+      pick_rate:
+        value: 50
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "flat_misstatement / no contractual relationship with wife"
+      substance: "kept"
+      pick_rate:
+        value: 18
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "bait_doctrine / IWM = unfit for ordinary use"
+      substance: "kept"
+      pick_rate:
+        value: 25
+        provenance: "predicted"
+      dominant_trap: true
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "flat_misstatement / 'I believe' creates express warranty"
+      substance: "kept"
+      pick_rate:
+        value: 7
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A husband bought a used car from a dealer whose contract said \"This Vehicle Sold AS IS,\" the dealer said \"I believed the car to be in good condition,\" and the car broke down; in the wife’s IWM claim against the dealer, who wins?"
+    variant_stem_one_sentence: "A husband bought a used 14-horsepower riding lawn tractor from a farm-equipment lot whose bill of sale said \"TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES,\" the dealer said \"I believe this tractor is in good working order,\" and the engine seized mid-mow; in the wife’s IWM claim against the dealer, who wins?"
+    dimensions_changed:
+      - "asset/subject matter (used car → used riding lawn tractor)"
+      - "specific facts/lies (dealer’s 'I believe' statement re-skinned to the tractor context)"
+      - "numbers (price $1,850; 14-horsepower; 2-hour seizure; $720 repair)"
+      - "fact ordering and rhythm (lot → price → clause → dealer statement → use → defect → claim)"
+      - "cast size/roles (car-dealer/wife/husband → farm-equipment-dealer/wife/husband; Daniel/Hannah/Joseph)"
+      - "choice ordering (A↔B↔C↔D shuffle; key moved A→B; dominant trap moved C→A)"
+      - "choice phrasing (paraphrased while preserving legal substance; standard black-letter retained)"
+      - "setting/era/texture (urban auto dealership → small-town farm-equipment lot)"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame (sale of a used good)"
+        reason: "Used-goods sales contract is load-bearing for UCC § 2-316 disclaimer"
+      - dimension: "call function (who wins the IWM claim)"
+        reason: "Retention preserves the issue and difficulty; adding 'UCC § 2-316' would issue-spot for the student"
+
+source_stack:
+  - priority: 1
+    source: "pasted BarMatrix row for Q17979 (QBank\\17979.md)"
+    use: "subject_display, stem, call, four choices, official key, official explanations"
+  - priority: 2
+    source: "existing C3 tags"
+    use: "none supplied"
+  - priority: 3
+    source: "controlled_vocabularies.md"
+    use: "controlled field values (NOT_TRUE/NOT_RESPONSIVE filters; mold codes; method_class; etc.)"
+  - priority: 4
+    source: "OUTLINE_CODES_COMPLETE.md"
+    use: "outline_code 63030302 (Products Liability > Warranty Theory > Implied warranties) — verified verbatim at line 635"
+  - priority: 5
+    source: "C3 lessons and master deck"
+    use: "True/Responsive, bait-doctrine, flat-misstatement, Cut-Clash-Call, calibration"
+  - priority: 6
+    source: "legal research (Cornell LII UCC text)"
+    use: "lawyer_confirmation only — UCC §§ 2-313, 2-314, 2-316, 2-318"
+
+student_access_contract:
+  allowed_c3_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 Cut → Clash → Call"
+    - "Lesson 7 predict before choices"
+    - "Lesson 8 bait-doctrine"
+    - "Lesson 11 violation-vs-remedy"
+    - "Lesson 12 anchor deck"
+    - "Lesson 13 calibration"
+    - "Lesson 14 full workflow"
+  taught_anchor_or_gold_key_needed: true
+  gold_key_ids:
+    - "GK-TORTS-WARRANTY-ASIS-01"
+  silver_key_ids:
+    - "SK-TORTS-ASIS-DISCLAIMER-01"
+  controlling_test_result: "The deciding UCC rule (AS-IS disclaimer of IWM) is anchor-assisted; the student-accessible move is to lock the contract terms before reaching for the IWM-definitional bait. The 'I believe' and household-privity rules are also anchor-assisted and are addressed in the per-choice walkthroughs."
+
+stem_parse:
+  call_type: "most-likely-result"
+  party_seeking_relief: "Hannah (household member of buyer Joseph)"
+  requested_relief: "damages for breach of the implied warranty of merchantability"
+  adjacent_call_trap: "whether the goods were actually unfit for ordinary use (looks like the IWM breach)"
+  negative_stem_inversion: false
+  posture: "civil action for breach of implied warranty of merchantability"
+
+trigger_facts:
+  - fact: "bill of sale in capital letters at the top: 'TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES'"
+    access_label: "student-visible"
+    role: "conspicuous AS-IS clause — UCC § 2-316(3)(a) disclaimer"
+  - fact: "Daniel said, 'I believe this tractor is in good working order'"
+    access_label: "student-visible"
+    role: "opinion statement, not an affirmation of fact — UCC § 2-313(2)"
+  - fact: "engine seized after about two hours of mowing"
+    access_label: "student-visible"
+    role: "the goods were unfit for ordinary purpose — IWM-definitional bait (dominant trap)"
+  - fact: "Hannah (Joseph’s spouse) used the tractor on the family property"
+    access_label: "student-visible"
+    role: "household-member use — UCC § 2-318 (Alt. A) extends IWM to family/household"
+  - fact: "purchase price $1,850; repair bill $720"
+    access_label: "student-visible"
+    role: "sale-of-goods context; the price is not on a statutory line"
+
+c3_routing:
+  subject_fit: "Torts/Products Liability — warranty theory and the UCC disclaimer mechanism. The contract-terms lock is the C3 move that decides the item; the IWM-definitional fact is a bait, not a verdict."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: null
+
+answer_array:
+  geometry: "2x2 outcome-and-reason matrix"
+  outcome_axis:
+    defendant_wins: ["B", "D"]
+    plaintiff_wins: ["A", "C"]
+  reason_axis:
+    disclaimer_or_privity: ["B", "D"]
+    iwm_breach_or_express_warranty: ["A", "C"]
+  dominant_trap: "A"
+  silver_key: "SK-TORTS-ASIS-DISCLAIMER-01"
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "wrong_remedy"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "IWM-definitional fact, wrong verdict"
+    c3_signal: "The choice proves a fact (unfit for ordinary use) that defines an IWM breach — but the IWM was disclaimed. The reason does not answer a disclaimed-warranty claim."
+    lawyer_confirmation: "Under UCC § 2-316(3)(a), a conspicuous AS-IS clause in the sales contract disclaims the IWM. A finding that the goods were unfit is not enough; the disclaimer is the dispositive fact."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "True and responsive"
+    c3_signal: "The answer pairs the right party (Daniel) with the right reason (AS-IS clause disclaimed the IWM that Hannah is suing on)."
+    lawyer_confirmation: "UCC § 2-316(3)(a): expressions like 'as is' exclude all implied warranties unless the circumstances indicate otherwise. The bill-of-sale language is exactly that kind of conspicuous disclaimer."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "misstated_rule"
+      - "sounds_lawyerly"
+      - "fact_not_in_evidence"
+    method_class: "anchor_assisted"
+    student_label: "Opinion mis-cast as express warranty"
+    c3_signal: "The choice asserts that a seller's positive statement is an express warranty. The student skipped UCC § 2-313(2) (opinion does not create a warranty)."
+    lawyer_confirmation: "Under UCC § 2-313(2), a statement purporting to be merely the seller's opinion or commendation does not create a warranty. 'I believe' is opinion, not affirmation of fact. Even if it had risen to an express warranty, the AS-IS clause under § 2-316(1) would be construed to negate or limit it."
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "wrong_party"
+      - "common_student_myth"
+      - "sounds_lawyerly"
+    method_class: "anchor_assisted"
+    student_label: "Privity reflex misapplied to IWM"
+    c3_signal: "The choice imports a contract-privity rule. The student skipped UCC § 2-318 (Alt. A) — seller's warranty extends to natural persons in the buyer's family or household."
+    lawyer_confirmation: "Under UCC § 2-318 (Alternative A), a seller's warranty, express or implied, extends to any natural person who is in the family or household of the buyer if it is reasonable to expect that person may use, consume, or be affected by the goods. Hannah is Joseph's spouse and a foreseeable user; the household IWM action is permitted."
+
+residual_answer:
+  choice: "B"
+  reason: "True and responsive to the IWM-claim call: Daniel wins because the AS-IS clause in the bill of sale disclaimed the IWM that Hannah is suing on."
+
+legal_leak_audit:
+  student_claims_checked:
+    - claim: "The call asks who wins the IWM claim, not whether the goods were fit."
+      status: "student-accessible"
+    - claim: "A choice that proves the goods were unfit does not, by itself, win a disclaimed-warranty claim."
+      status: "student-accessible through violation-versus-remedy card"
+    - claim: "AS-IS in capital letters on a bill of sale is the kind of conspicuous disclaimer UCC § 2-316(3)(a) describes."
+      status: "Gold Key required"
+    - claim: "A seller's 'I believe' statement is opinion, not affirmation of fact."
+      status: "Gold Key required"
+    - claim: "A household member may sue for breach of the IWM."
+      status: "Gold Key required"
+  lawyer_only_claims:
+    - "Section-by-section UCC text and case-law lineage for the IWM-definitional bait"
+    - "Detailed § 2-313(2) historical treatment of opinion in sales transactions"
+    - "State-by-state variations on § 2-318 Alternatives A/B/C and judicial equivalents"
+  conclusion: "No lawyer-only doctrine is used as a fake hard-structural cut. Every gold-key claim is quarantined to the lawyer-confirmation layer and surfaced in the per-choice walkthroughs."
+
+gold_keys:
+  - id: "GK-TORTS-WARRANTY-ASIS-01"
+    statement: "Under UCC § 2-316(3)(a), expressions like 'as is' or 'with all faults' in a sales contract for goods, and other language which in common understanding calls the buyer's attention to the exclusion of warranties, disclaim all implied warranties, including the implied warranty of merchantability. A finding that the goods were unfit is not enough to win an IWM claim once the IWM has been validly disclaimed."
+    type: "rule"
+    unlocks: "the IWM-definitional bait (unfit for ordinary use) offered as a reason to win a disclaimed-warranty claim"
+    trigger: "the sales contract contains a conspicuous 'as is' clause and the claim is breach of the implied warranty of merchantability"
+    tested_choice: "A"
+    authority: "UCC § 2-316(3)(a); UCC § 2-314"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-ASIS-DISCLAIMER-01"
+    statement: "When the contract says 'AS IS' and the claim is IWM, the disclaimer controls the answer. Lock the contract terms before reaching for the IWM-definitional bait."
+    type: "call_focus"
+    navigates: "violation-versus-remedy trap on a disclaimed-warranty claim"
+    trigger: "an answer choice proves the goods were unfit, but the contract contains an AS-IS clause and the claim is IWM"
+    tested_choice: "A"
+    outline_code: "63030302"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-TORTS-WARRANTY-ASIS-01"
+  title: "AS-IS disclaimer controls IWM"
+  signal: "A sales contract for goods contains a conspicuous 'AS IS' clause and the claim is breach of the implied warranty of merchantability."
+  student_move: "Lock the contract terms first. The IWM-definitional fact is real but not the verdict."
+  tiny_rule: "Under UCC § 2-316(3)(a), conspicuous 'as is' language in a sales contract disclaims all implied warranties."
+  trap: "Treating 'unfit for ordinary use' as automatic liability without checking for an AS-IS disclaimer."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A used-goods sales contract contains a conspicuous 'AS IS' clause, the seller says 'I believe the goods are in good condition,' the buyer's household member uses the goods, and the goods turn out to be unfit; in an IWM claim by the household member, who wins?"
+review_truth: "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability."
+
+case_study_output:
+  final_student_script: "The contract says AS IS in capital letters. That's the UCC § 2-316 disclaimer. The IWM is gone. 'I believe' is opinion, not an express warranty. Hannah is in the household; the no-privity answer is not a true defense. The AS-IS clause wins. B."
+  residual: "B"
+
+quality_control:
+  frontmatter_matches_body: true
+  post_shuffle_key_consistent: true
+  pick_rates_sum_to_100: true
+  dominant_trap_named: true
+  outline_code_verified: true
+  json_blocks_validated: true
+  pass_requires_single_filter_distractors: true
+  bank_validation_verdict: "PASS"
+
+analytics_hooks:
+  dominant_trap_choice: "A"
+  dominant_trap_pct: 25
+  deciding_component: "Gold Key (AS-IS disclaimer) + Silver Key (lock the contract)"
+  drill_family: "contract_terms_lock"
+  review_bucket: "Warranty Theory — Implied warranty of merchantability; UCC § 2-316 disclaimer"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Torts/Products-Liability question on the implied warranty of merchantability. The deciding move is to lock the contract terms first. The vivid fact — the engine seized — is real, but the IWM was disclaimed by a conspicuous "AS IS" clause, so the IWM-definitional fact does not decide the claim.
+
+## student_access_test
+
+Student-accessible without new doctrine:
+
+* The call asks who wins the IWM claim.
+* A finding that the goods were unfit is a fact, not a verdict on a disclaimed warranty.
+* The answer array splits defendant-wins from plaintiff-wins, and contract-terms reasons from IWM/express-warranty reasons.
+
+Anchor needed:
+
+* UCC § 2-316(3)(a): conspicuous "as is" language disclaims all implied warranties.
+* UCC § 2-313(2): a seller's opinion does not create an express warranty.
+* UCC § 2-318 (Alt. A): a seller's warranty extends to natural persons in the buyer's family or household.
+
+## question_data
+
+**Subject:** TORTS
+**Topic:** Products Liability
+**Subtopic:** Warranty Theory — Implied warranty of merchantability; UCC § 2-316 disclaimer
+**Outline code:** 63030302
+**Credited answer:** B
+**Dominant trap:** A
+**Pick rates (predicted seed; no measured rates supplied):** A 25% predicted; B 50% predicted; C 7% predicted; D 18% predicted.
+
+## distilled_core_question
+
+A used-goods sales contract contains a conspicuous "AS IS" clause, the seller says "I believe the goods are in good condition," the buyer's household member uses the goods, and the goods turn out to be unfit; in an IWM claim by the household member, who wins?
+
+## call_and_prediction
+
+**Call:** Who wins Hannah's IWM claim against Daniel?
+
+**Prediction:** Daniel wins. The bill of sale contains a conspicuous "AS IS" clause, which under UCC § 2-316(3)(a) disclaims the IWM. Even though the tractor was unfit, the IWM is gone. The dealer's "I believe" statement is opinion, not an express warranty. Hannah is a household member; the IWM claim is permitted against Daniel, but the disclaimer still wins. Daniel is the answer.
+
+## trigger_facts
+
+| Fact                                            | Student use                                                                |
+| ----------------------------------------------- | -------------------------------------------------------------------------- |
+| Capital-letter "AS IS" line on the bill of sale | The conspicuous disclaimer — UCC § 2-316(3)(a)                             |
+| "I believe this tractor is in good working order" | Opinion, not affirmation of fact — UCC § 2-313(2)                          |
+| Engine seized after about two hours of mowing   | IWM-definitional bait — proves the breach; the disclaimer still controls  |
+| Hannah (spouse) used the family tractor         | Household-member use — UCC § 2-318 (Alt. A)                                |
+| $1,850 sale; $720 repair                        | Sale-of-goods context; numbers do not turn on a statutory line             |
+
+## governing_c3_lane
+
+Lane: **Contract-terms lock.**
+
+The student must lock the contract terms ("AS IS" in capital letters on the bill of sale) before reaching for the IWM-definitional bait. The Gold Key is the UCC § 2-316(3)(a) disclaimer rule. The Silver Key is the call-focus move: "lock the contract, not the condition of the goods."
+
+## choice_by_choice_walkthrough
+
+### A. Hannah, because the tractor was unfit for ordinary use.
+
+1. **Student-accessible C3 signal:** The choice proves a fact that defines an IWM breach (unfit for ordinary use). The IWM was disclaimed. The fact does not answer a disclaimed-warranty claim.
+2. **Student label:** IWM-definitional fact, wrong verdict.
+3. **What a true/responsive version would look like:** "Hannah wins an express-warranty claim, because Daniel's 'I believe' statement was an affirmation of fact and not opinion." (Even that fails — the statement is opinion, and the AS-IS clause would also modify any express warranty under § 2-316(1). The choice's underlying assumption that a fitness finding wins the claim is what defeats it.)
+4. **Lawyer confirmation:** Under UCC § 2-316(3)(a), a conspicuous "as is" clause in the sales contract disclaims the IWM. A finding that the goods were unfit is not enough; the disclaimer is the dispositive fact. The IWM-definitional bait is the dominant trap; the student is reaching for the IWM definition and skipping the Gold Key.
+
+### B. Daniel, because the bill of sale included the phrase "TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES."
+
+1. **Student-accessible C3 signal:** The answer pairs the right party (Daniel) with the right reason (AS-IS clause disclaimed the IWM that Hannah is suing on).
+2. **Student label:** True and responsive.
+3. **What a true/responsive version would look like:** This is already true and responsive.
+4. **Lawyer confirmation:** UCC § 2-316(3)(a): expressions like "as is" exclude all implied warranties unless the circumstances indicate otherwise. The bill-of-sale language is exactly the kind of conspicuous disclaimer § 2-316(3)(a) describes. (See Cornell LII, UCC § 2-316.)
+
+### C. Hannah, because Daniel told Joseph that he believed the tractor was in good working order.
+
+1. **Student-accessible C3 signal:** The choice asserts that a seller's positive statement is an express warranty. The student skipped UCC § 2-313(2) — opinion does not create a warranty.
+2. **Student label:** Opinion mis-cast as express warranty.
+3. **What a true/responsive version would look like:** "Hannah wins an express-warranty claim, because Daniel's 'I believe' statement was an affirmation of fact that the tractor was in good working order, and the engine seizure breached that affirmation." That answer fails on the face of § 2-313(2) — "I believe" is opinion, not affirmation of fact.
+4. **Lawyer confirmation:** Under UCC § 2-313(2), a statement purporting to be merely the seller's opinion or commendation of the goods does not create a warranty. (See Cornell LII, UCC § 2-313.) Even if the statement had risen to an express warranty, the same AS-IS clause under § 2-316(1) would be construed to negate or limit it, and § 2-316(3)(a) plainly disclaims any implied warranty. The answer fails twice.
+
+### D. Daniel, because he did not enter into any contractual relationship with Hannah.
+
+1. **Student-accessible C3 signal:** The choice imports a contract-privity rule. The student skipped UCC § 2-318 (Alt. A) — seller's warranty extends to natural persons in the buyer's family or household.
+2. **Student label:** Privity reflex misapplied to IWM.
+3. **What a true/responsive version would look like:** "Daniel wins on the AS-IS disclaimer, not on privity." The "no contractual relationship" reason is the wrong reason for the right outcome.
+4. **Lawyer confirmation:** Under UCC § 2-318 (Alternative A), a seller's warranty, express or implied, extends to any natural person who is in the family or household of the buyer if it is reasonable to expect that such person may use, consume, or be affected by the goods. (See Cornell LII, UCC § 2-318.) Hannah is Joseph's spouse and a foreseeable user; the household IWM action is permitted. The no-privity answer is not a true defense to this IWM claim.
+
+## residual_answer
+
+B remains. It is the only answer that pairs the right party (Daniel) with the right reason (the AS-IS clause disclaimed the IWM). The other three answers each break exactly one filter: A is nonresponsive to a disclaimed-warranty claim; C asserts an express warranty that did not arise; D asserts a privity rule that does not apply to IWM claims by household members.
+
+## legal_leak_audit
+
+Student-accessible:
+
+* The call is "who wins the IWM claim."
+* A fitness finding does not, by itself, win a disclaimed-warranty claim.
+* The dominant trap is a vivid fact, not a complete verdict on a disclaimed claim.
+
+Anchor-assisted (Gold Key):
+
+* Conspicuous "as is" language in a sales contract disclaims all implied warranties.
+* Opinion does not create an express warranty.
+* A household member may sue for breach of the IWM.
+
+Lawyer-only:
+
+* Section-by-section UCC text and case-law lineage.
+* State-by-state variations on § 2-318 Alternatives A/B/C and judicial equivalents.
+
+Drift audit: No choice is called false unless the defect is visible from the call/claim relation, a C3 violation-versus-remedy card, or a Gold Key. The dominant trap (A) is preserved with its re-skinned IWM-definitional mechanic. The C and D distractor mechanics are also preserved. No layer-1 invariant is altered; no clutter doctrine is added.
+
+## final_student_script
+
+"The contract says AS IS in capital letters. That's the UCC § 2-316 disclaimer. The IWM is gone. 'I believe' is opinion, not an express warranty. Hannah is in the household; the no-privity answer is not a true defense. The AS-IS clause wins. B."
+
+## remediation_card
+
+**REM-TORTS-WARRANTY-ASIS-01 — AS-IS disclaimer controls IWM**
+
+* **Signal:** A sales contract for goods contains a conspicuous "AS IS" clause and the claim is breach of the implied warranty of merchantability.
+* **Student move:** Lock the contract terms first. The IWM-definitional fact is real but not the verdict.
+* **Tiny rule:** Under UCC § 2-316(3)(a), conspicuous "as is" language in a sales contract disclaims all implied warranties.
+* **Trap:** Treating "unfit for ordinary use" as automatic liability without checking for an AS-IS disclaimer.
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-TORTS-WARRANTY-ASIS-01**
+Under UCC § 2-316(3)(a), expressions like "as is" or "with all faults" in a sales contract for goods, and other language which in common understanding calls the buyer's attention to the exclusion of warranties, disclaim all implied warranties, including the implied warranty of merchantability. A finding that the goods were unfit is not enough to win an IWM claim once the IWM has been validly disclaimed.
+
+## Silver Key(s)
+
+**SK-TORTS-ASIS-DISCLAIMER-01**
+When the contract says "AS IS" and the claim is IWM, the disclaimer controls the answer. Lock the contract terms before reaching for the IWM-definitional bait.
+
+## qa_checklist
+
+* Rule unchanged: yes.
+* Credited outcome unchanged: yes.
+* Dominant trap preserved: yes, A.
+* Choices shuffled: yes.
+* Pick rates labeled and sum to 100: yes (predicted seed; no measured rates supplied).
+* Outline code verified: yes, 63030302.
+* Controlled vocabularies used only from taxonomy: yes.
+* Gold Key present: yes.
+* Silver Key present: yes.
+* Review Truth present, pure rule sentence, no process commentary: yes.
+* Distilled Core Question present: yes.
+* Divergence Audit present with both stem summaries: yes.
+* Recognition test passed: yes — the two one-sentence summaries share only the legal rule frame.
+* Bank verdict: PASS.
+
+## wrong_answer_recovery_paths
+
+| Choice | Recovery path                                                                       |
+| ------ | ----------------------------------------------------------------------------------- |
+| A      | Ask: "Did the contract disclaim the IWM?" If yes, the fitness finding is not the verdict. |
+| C      | Ask: "Is 'I believe' an affirmation of fact or a statement of opinion?" Opinion is not an express warranty. |
+| D      | Ask: "Is the plaintiff a member of the buyer's household?" If yes, the IWM claim is permitted; the no-privity answer is not a true defense. |
+
+## outline_mastery_map
+
+**Placement:** Torts > Products Liability > Warranty Theory > Implied warranties.
+
+**This item teaches:** Contract-terms lock on an IWM claim; the conspicuous "as is" clause controls over the IWM-definitional fact; the Gold Key for UCC § 2-316(3)(a) and the Silver Key for call-focus.
+
+**Fills:** AS-IS disclaimer mechanics; opinion-vs-affirmation distinction under § 2-313(2); household-beneficiary rule under § 2-318 (Alt. A).
+
+## crossover_intersection_map
+
+* **Contracts:** UCC Article 2 sales; warranty creation, exclusion, and modification; privity of warranty.
+* **Civil Procedure:** threshold/remedy before merits (here, contract-terms lock before merits).
+* **Evidence:** offered-purpose discipline resembles call-focus discipline (lock the call, not the salient fact).
+
+## review_truth
+
+A conspicuous "as is" clause in a sales contract disclaims the implied warranty of merchantability.
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "17979_hannahs_tractor",
+  "subject": "TORTS",
+  "credited_answer": "B",
+  "outline_code": "63030302",
+  "distilled_core_question": "A used-goods sales contract contains a conspicuous 'AS IS' clause, the seller says 'I believe the goods are in good condition,' the buyer's household member uses the goods, and the goods turn out to be unfit; in an IWM claim by the household member, who wins?",
+  "review_truth": "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "AS-IS disclaimer controls over IWM-definitional fact, dealer's opinion, and household privity",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "lock the contract terms first; then check for an express warranty; then check for household privity",
+    "difficulty": null,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "GK-TORTS-WARRANTY-ASIS-01 + SK-TORTS-ASIS-DISCLAIMER-01",
+        "explanation": "The choice proves a fact (unfit for ordinary use) that defines an IWM breach, but the IWM was disclaimed by a conspicuous AS-IS clause. The fact is real; it does not answer a disclaimed-warranty claim. This is the dominant trap."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-TORTS-WARRANTY-ASIS-01 (opining sub-rule, UCC § 2-313(2))",
+        "explanation": "The choice asserts that a seller's 'I believe' statement is an express warranty. Under UCC § 2-313(2), a statement purporting to be merely the seller's opinion or commendation does not create a warranty. Even if it had risen to an express warranty, the AS-IS clause under § 2-316(1) would be construed to negate or limit it."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-TORTS-WARRANTY-ASIS-01 (vertical-privity sub-rule, UCC § 2-318 Alt. A)",
+        "explanation": "The choice imports a contract-privity rule. Under UCC § 2-318 (Alternative A), a seller's warranty extends to natural persons in the buyer's family or household. The no-privity answer is not a true defense to an IWM claim by a household member."
+      }
+    ],
+    "analyzer_notes": "drift_audit: asset changed from used car to used 14-horsepower riding lawn tractor; lot type changed from auto dealership to small-town farm-equipment resale lot; defect re-skinned from broken-down car to engine seizure after two hours of mowing; dealer's opinion statement re-skinned to 'I believe this tractor is in good working order'; cast changed to Joseph, Hannah, Daniel (popular well-liked Bible names; no antagonist names); fact ordering, numbers ($1,850 price, 14-horsepower, $720 repair, 2-hour seizure), setting/era/texture, and choice order all changed; AS-IS clause preserved verbatim in capital letters on the bill of sale because it is load-bearing; transaction frame (sale of a used good) preserved because it is load-bearing for UCC § 2-316; call function preserved without naming UCC § 2-316. transformed_from: 17979. letter_map: A→B, B→D, C→A, D→C. source_row_citation: QBank\\17979.md (BARMATRIX Q#: 17979, subject_display: Torts, official key A). outline_code 63030302 verified verbatim in OUTLINE_CODES_COMPLETE.md at line 635.",
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-WARRANTY-ASIS-01",
+        "statement": "Under UCC § 2-316(3)(a), expressions like 'as is' or 'with all faults' in a sales contract for goods, and other language which in common understanding calls the buyer's attention to the exclusion of warranties, disclaim all implied warranties, including the implied warranty of merchantability. A finding that the goods were unfit is not enough to win an IWM claim once the IWM has been validly disclaimed.",
+        "type": "rule",
+        "unlocks": "the IWM-definitional bait (unfit for ordinary use) offered as a reason to win a disclaimed-warranty claim",
+        "trigger": "the sales contract contains a conspicuous 'as is' clause and the claim is breach of the implied warranty of merchantability",
+        "tested_choice": "A",
+        "authority": "UCC § 2-316(3)(a); UCC § 2-314",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-ASIS-DISCLAIMER-01",
+        "statement": "When the contract says 'AS IS' and the claim is IWM, the disclaimer controls the answer. Lock the contract terms before reaching for the IWM-definitional bait.",
+        "type": "call_focus",
+        "navigates": "violation-versus-remedy trap on a disclaimed-warranty claim",
+        "trigger": "an answer choice proves the goods were unfit, but the contract contains an AS-IS clause and the claim is IWM",
+        "tested_choice": "A",
+        "outline_code": "63030302",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "17979_hannahs_tractor",
+  "subject": "TORTS",
+  "outline_code": "63030302",
+  "distilled_core_question": "A used-goods sales contract contains a conspicuous 'AS IS' clause, the seller says 'I believe the goods are in good condition,' the buyer's household member uses the goods, and the goods turn out to be unfit; in an IWM claim by the household member, who wins?",
+  "review_truth": "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability.",
+  "tension": {
+    "axis": "AS-IS disclaimer controls over IWM-definitional fact, dealer's opinion, and household privity",
+    "resolver": "the contract terms; the IWM was disclaimed, the dealer's statement is opinion, and the household-privity bar does not apply"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "bait_doctrine",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "A student reads the IWM definition (fit for ordinary purposes), sees that the tractor seized mid-mow, and concludes the IWM was breached. The breaker is the Gold Key: a conspicuous AS-IS clause under UCC § 2-316(3)(a) disclaims the IWM, so the fitness finding is not the verdict.",
+      "focus_group_pct": 25,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "A student assumes any positive statement by a seller becomes a warranty. The breaker is UCC § 2-313(2): a statement purporting to be merely the seller's opinion or commendation does not create a warranty. 'I believe' is opinion, not affirmation of fact.",
+      "focus_group_pct": 7,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "A student reflexively reaches for a contract-privity rule because Hannah was not the buyer. The breaker is UCC § 2-318 (Alternative A): a seller's warranty extends to natural persons in the buyer's family or household. The no-privity answer is not a true defense to an IWM claim by a household member.",
+      "focus_group_pct": 18,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-TORTS-WARRANTY-ASIS-01",
+    "title": "AS-IS disclaimer controls IWM",
+    "signal": "A sales contract for goods contains a conspicuous 'AS IS' clause and the claim is breach of the implied warranty of merchantability.",
+    "student_move": "Lock the contract terms first. The IWM-definitional fact is real but not the verdict.",
+    "tiny_rule": "Under UCC § 2-316(3)(a), conspicuous 'as is' language in a sales contract disclaims all implied warranties.",
+    "trap": "Treating 'unfit for ordinary use' as automatic liability without checking for an AS-IS disclaimer.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "iWM_definitional_bait",
+    "dealer's_positive_statement_mis-cast_as_warranty",
+    "household_privity_reflex",
+    "as_is_disclaimer_overlook"
+  ]
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "17979_hannahs_tractor",
+  "subject": "TORTS",
+  "outline_code": "63030302",
+  "distilled_core_question": "A used-goods sales contract contains a conspicuous 'AS IS' clause, the seller says 'I believe the goods are in good condition,' the buyer's household member uses the goods, and the goods turn out to be unfit; in an IWM claim by the household member, who wins?",
+  "review_truth": "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees the engine seizure, recognizes the IWM definition (fit for ordinary purposes), and treats that fact as a verdict.",
+      "skipped_move": "The student did not lock the contract terms (the conspicuous 'AS IS' line) before reaching for the IWM-definitional bait.",
+      "recovery_step": "Ask: 'Did the contract disclaim the IWM?' If yes, the fitness finding is not the verdict."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student assumes a seller's positive statement is an express warranty and treats 'I believe' as an affirmation of fact.",
+      "skipped_move": "The student did not check UCC § 2-313(2) — opinion does not create a warranty.",
+      "recovery_step": "Ask: 'Is this an affirmation of fact, or a statement of opinion or value?' Opinion is not an express warranty."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student reflexively reaches for a contract-privity rule because Hannah was not the buyer.",
+      "skipped_move": "The student did not check UCC § 2-318 (Alt. A) — seller's warranty extends to natural persons in the buyer's family or household.",
+      "recovery_step": "Ask: 'Is the plaintiff a member of the buyer's household?' If yes, the IWM claim is permitted; the no-privity answer is not a true defense."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "cut",
+      "target_skill": "contract_terms_lock",
+      "prompt": "A sales contract for a used lawn tractor says 'TRACTOR SOLD AS IS — NO IMPLIED WARRANTIES' in capital letters at the top, and the tractor's engine seizes. The buyer sues for breach of the implied warranty of merchantability. Which answer is suspect: 'the buyer, because the tractor was unfit for ordinary use'?",
+      "answer": "Suspect; the AS-IS clause under UCC § 2-316(3)(a) disclaims the IWM, so the fitness finding is not the verdict."
+    },
+    {
+      "drill_type": "cut",
+      "target_skill": "opinion_vs_affirmation",
+      "prompt": "A seller says 'I believe this used refrigerator is in good working order' and the refrigerator fails. The buyer sues for breach of express warranty. Which answer is suspect: 'the buyer, because the seller said the refrigerator was in good working order'?",
+      "answer": "Suspect; under UCC § 2-313(2), a statement of opinion or commendation does not create a warranty."
+    },
+    {
+      "drill_type": "cut",
+      "target_skill": "household_privity",
+      "prompt": "A husband buys a used riding mower from a dealer, the contract says AS IS, the mower fails, and the husband's spouse sues the dealer for breach of the IWM. Which answer is suspect: 'the dealer, because he did not enter into any contractual relationship with the spouse'?",
+      "answer": "Suspect; under UCC § 2-318 (Alt. A), a seller's warranty extends to natural persons in the buyer's family or household, so the no-privity answer is not a true defense to an IWM claim by a household member."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "iWM_definitional_bait",
+      "dealer's_opinion_mis-cast_as_warranty",
+      "household_privity_reflex",
+      "as_is_disclaimer_overlook"
+    ],
+    "misconception_tags": [
+      "unfit_for_ordinary_use_means_iWM_liability",
+      "any_positive_seller_statement_is_an_express_warranty",
+      "no_privity_means_no_iWM_claim"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 2 Cut-Clash-Call",
+    "Lesson 7 predict before choices",
+    "Lesson 8 bait-doctrine",
+    "Lesson 11 violation-vs-remedy",
+    "Lesson 12 anchor deck",
+    "Lesson 13 calibration",
+    "Gold Key GK-TORTS-WARRANTY-ASIS-01",
+    "Silver Key SK-TORTS-ASIS-DISCLAIMER-01"
+  ],
+  "crossovers": [
+    "Contracts: UCC Article 2 sales; warranty creation, exclusion, and modification; privity of warranty",
+    "Civil Procedure: threshold/remedy-before-merits habit",
+    "Evidence: offered-purpose separation"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-WARRANTY-ASIS-01",
+      "statement": "Under UCC § 2-316(3)(a), expressions like 'as is' or 'with all faults' in a sales contract for goods, and other language which in common understanding calls the buyer's attention to the exclusion of warranties, disclaim all implied warranties, including the implied warranty of merchantability. A finding that the goods were unfit is not enough to win an IWM claim once the IWM has been validly disclaimed.",
+      "type": "rule",
+      "unlocks": "the IWM-definitional bait (unfit for ordinary use) offered as a reason to win a disclaimed-warranty claim",
+      "trigger": "the sales contract contains a conspicuous 'as is' clause and the claim is breach of the implied warranty of merchantability",
+      "tested_choice": "A",
+      "authority": "UCC § 2-316(3)(a); UCC § 2-314",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-ASIS-DISCLAIMER-01",
+      "statement": "When the contract says 'AS IS' and the claim is IWM, the disclaimer controls the answer. Lock the contract terms before reaching for the IWM-definitional bait.",
+      "type": "call_focus",
+      "navigates": "violation-versus-remedy trap on a disclaimed-warranty claim",
+      "trigger": "an answer choice proves the goods were unfit, but the contract contains an AS-IS clause and the claim is IWM",
+      "tested_choice": "A",
+      "outline_code": "63030302",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Torts > Products Liability > Warranty Theory > Implied warranties",
+    "this_item_teaches": "A conspicuous 'as is' clause in a sales contract disclaims the implied warranty of merchantability; the dealer's opinion does not create an express warranty; a household member may sue for breach of the IWM.",
+    "fills": [
+      "AS-IS disclaimer mechanics under UCC § 2-316(3)(a)",
+      "opinion-vs-affirmation distinction under UCC § 2-313(2)",
+      "household-beneficiary rule under UCC § 2-318 (Alt. A)",
+      "violation-versus-remedy discipline on a disclaimed-warranty claim"
+    ],
+    "adjacent_to_master": [
+      "Contracts > Sales (UCC) > Warranty creation and disclaimer",
+      "Contracts > Sales (UCC) > Third-party beneficiaries of warranties",
+      "Torts > Products Liability > Express warranties"
+    ]
+  }
+}
+```

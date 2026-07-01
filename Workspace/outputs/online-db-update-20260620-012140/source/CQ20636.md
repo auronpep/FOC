@@ -1,0 +1,879 @@
+---
+qid: "15010"
+transformed_from: "20636"
+subject: "REAL_PROPERTY"
+topic: "Rights in Land"
+subtopic: "Equitable Servitudes / Restrictive Covenants"
+outline_code: "81020502"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "B/D tie"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "An equitable servitude may bind a successor with actual notice of a land-use restriction intended to run with the land."
+---
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "15010"
+  internal_id: null
+  subject: "REAL_PROPERTY"
+  subject_display: "Real Property"
+  topic: "Rights in Land"
+  subtopic: "Equitable Servitudes / Restrictive Covenants"
+  outline_code: "81020502"
+  selection_percentages:
+    correct:
+      value: 87
+      provenance: "inherited"
+    A:
+      value: 87
+      provenance: "inherited"
+    B:
+      value: 6
+      provenance: "inherited"
+    C:
+      value: 1
+      provenance: "inherited"
+    D:
+      value: 6
+      provenance: "inherited"
+  most_popular_wrong_answer: "B/D tie"
+  official_key: "A"
+  stem: "A businessman who owned Blackacre and Whiteacre, two adjoining parcels, conveyed Whiteacre to a gas company owner and covenanted in the deed to the gas company owner that when he, the businessman, sold Blackacre he would impose restrictive covenants to prohibit uses that would compete with the filling station that the gas company owner intended to construct and operate on Whiteacre. The deed was not recorded. The gas company owner constructed and operated a filling station on Whiteacre and then conveyed Whiteacre to his nephew, who continued the filling station use. The deed did not refer to the restrictive covenant and was promptly and properly recorded. The businessman then conveyed Blackacre to a man, who knew about the businessman's covenant prohibiting the filling station use but nonetheless completed the transaction when he noted that no such covenant was contained in the businessman's deed to him. The man began to construct a filling station on Blackacre. The nephew brought an appropriate action to enjoin the man from using Blackacre for filling station purposes. If the nephew prevails, it will be because"
+  call: "If the nephew prevails, it will be because"
+  choices:
+    A: "the man had actual knowledge of the covenant to impose restrictions."
+    B: "the man is bound by the covenant because of the doctrine of negative reciprocal covenants."
+    C: "business-related restrictive covenants are favored in the law."
+    D: "the man has constructive notice of the possibility of the covenant resulting from circumstances."
+  correct_answer_explanation: "A is correct. This question deals with an equitable servitude. There are three elements that must be met for an equitable servitude to run with the land, including intent for it to run with the land, actual, inquiry, or record notice, and the covenant touching and concerning the land. A covenant not to compete can touch and concern the land. The man had actual knowledge of the covenant to impose restrictions."
+  wrong_answer_explanations:
+    B: "The doctrine of negative reciprocal covenants applies in common-scheme cases, such as housing developments, where a developer omitted an express covenant. This stem uses an express covenant plus actual knowledge, not an implied common-plan theory."
+    C: "This is not the governing reason. Restrictive covenants are not enforced because business-related restrictions are generally favored."
+    D: "The winning reason is not constructive notice of a possible implied covenant from circumstances. The stem gives actual knowledge of the covenant."
+  additional_info: null
+  lb_rule_reference: null
+  lb_student_diagnostic: null
+
+source_stack:
+  - "MBE.xlsx row 15010"
+  - "2026_BM_PREP_C3_TAGGED_v2_manual_cards.xlsx row 15010"
+  - "Existing C3 tag hypothesis: NEEDS MANUAL C3 PASS / UNCLASSIFIED"
+  - "controlled_vocabularies.md"
+  - "OUTLINE_CODES_COMPLETE.md"
+  - "C3 Lessons 1, 2, 7, 8, 9, 11, 12, 13, 14"
+  - "C3 Master Deck RP-06 Covenants vs equitable servitudes"
+  - "Legal verification: equitable servitude / restrictive covenant running with land"
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old with only C3 lessons, overlays, and taught tiny anchors identify the choice's problem without outside legal doctrine?"
+  allowed_moves:
+    - "TRUE and RESPONSIVE"
+    - "CUT before CLASH before CALL"
+    - "Issue-Sense: bait_doctrine"
+    - "Issue-Sense: wrong_element"
+    - "Ear: flat_misstatement"
+    - "Gold Key: injunction points to equitable servitude"
+    - "Gold Key: equitable servitude burden can bind a successor with notice"
+    - "Silver Key: prefer the given actual-knowledge fact over a weaker possible-notice theory"
+  forbidden_moves:
+    - "Do not teach a full servitudes outline."
+    - "Do not call B false merely because negative reciprocal covenants are unfamiliar; it is a real doctrine in the wrong context."
+    - "Do not call D false merely because constructive notice can never matter; constructive or inquiry notice can matter in the right case."
+    - "Keep full doctrine under lawyer_confirmation."
+
+stem_parse:
+  parcels:
+    benefited_land: "Whiteacre"
+    burdened_land: "Blackacre"
+  original_owner: "businessman"
+  first_grantee: "gas company owner"
+  benefited_successor: "nephew"
+  burdened_successor: "man"
+  covenant_text_function: "when the businessman sold Blackacre, he would impose restrictive covenants prohibiting uses that would compete with the Whiteacre filling station"
+  recording_status:
+    original_deed_to_gas_company_owner: "not recorded"
+    deed_to_nephew: "did not refer to covenant; promptly and properly recorded"
+    deed_to_man: "did not contain the covenant"
+  remedy_requested: "injunction against filling-station use on Blackacre"
+  decisive_notice_fact: "the man knew about the businessman's covenant prohibiting the filling-station use"
+  precise_call: "Why does the nephew prevail in the injunction action?"
+  adjacent_call_trap: "Whether the restriction is implied from a common scheme or merely possible from surrounding circumstances."
+  negative_stem_inversion: false
+  role: "court explaining why an injunction is proper"
+
+trigger_facts:
+  - fact: "The nephew seeks to enjoin a land use."
+    access_label: "student_visible"
+    role: "routes to equitable servitude rather than damages/real-covenant first"
+  - fact: "The covenant restricts use of Blackacre to protect the filling-station use on Whiteacre."
+    access_label: "student_visible"
+    role: "touch-and-concern / land-use restriction signal"
+  - fact: "The man actually knew about the covenant before completing the purchase."
+    access_label: "student_visible"
+    role: "dispositive notice fact"
+  - fact: "The covenant was not in the man's deed."
+    access_label: "student_visible"
+    role: "makes the actual-knowledge answer look surprising"
+  - fact: "There is no subdivision, common plan, or omitted uniform lot restriction."
+    access_label: "student_visible"
+    role: "cuts negative reciprocal covenant bait"
+
+c3_routing:
+  subject_fit: "Real Property = land-status routing + notice/privity/covenant layer discipline."
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: null
+
+answer_array:
+  architecture: "One direct notice answer, one neighboring implied-servitude doctrine answer, one policy gloss, and one weaker possible-notice theory."
+  dominant_trap: "B/D tie"
+  dominant_trap_pct: 6
+  tension_axis: "actual knowledge of an express covenant versus implied/common-scheme or possible constructive-notice routes"
+  residual_logic: "Once the injunction call routes to equitable servitude and the actual-knowledge fact is used, A directly answers the call. B and D answer neighboring routes; C gives a policy statement rather than an element."
+
+choice_walkthroughs:
+  A:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "actual-knowledge survivor"
+    c3_signal: "A uses the exact fact the stem gives: the man knew about the covenant before buying Blackacre."
+    lawyer_confirmation: "For an equitable servitude enforced by injunction, the successor to the burdened land may be bound when the servitude touches and concerns land, was intended to run, and the successor had notice. Actual knowledge satisfies the notice requirement."
+  B:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+      - "wrong_standard"
+    method_class: "anchor_assisted"
+    student_label: "negative-reciprocal-covenant bait"
+    c3_signal: "B names a real nearby doctrine, but the stem is not a common-scheme subdivision or omitted-uniform-restriction case."
+    lawyer_confirmation: "Negative reciprocal covenant doctrine is associated with restrictions implied from a common plan or scheme. This case rests on an express covenant and the man's actual knowledge."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "misstated_rule"
+      - "sounds_lawyerly"
+      - "moral_common_sense_answer"
+    method_class: "anchor_assisted"
+    student_label: "policy-gloss bait"
+    c3_signal: "C does not give an element-based reason. It says the law favors this kind of covenant, which is not the servitude rule."
+    lawyer_confirmation: "Restrictive covenants are enforced when the required elements are met; the enforcement reason is not a general preference for business-related restrictions."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "half_right_answer"
+      - "fact_not_in_evidence"
+      - "wrong_standard"
+      - "answer_to_different_question"
+    method_class: "anchor_assisted"
+    student_label: "possible-notice wrong element"
+    c3_signal: "D uses a weaker and different notice story: constructive notice of a possible covenant from circumstances. The stem gives actual knowledge of the covenant."
+    lawyer_confirmation: "Inquiry or constructive notice can matter in some servitude cases, but the credited route here is actual notice of the express covenant."
+
+residual_answer:
+  answer: "A"
+  why_survives: "A is the only choice that uses the actual dispositive fact and the correct injunction/equitable-servitude route."
+  confidence_band: "anchor-assisted clean cut"
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "The injunction call points to equitable-servitude reasoning."
+      status: "passes via Gold Key"
+    - claim: "The man had actual knowledge of the covenant."
+      status: "passes via stem fact"
+    - claim: "B is wrong-context common-scheme bait."
+      status: "passes via Gold Key and absent common-scheme facts"
+    - claim: "D uses the wrong notice theory because the stem gives actual knowledge."
+      status: "passes via call/fact relation"
+  lawyer_only_claims:
+    - claim: "Full real covenant versus equitable servitude element map."
+      quarantine: "lawyer_confirmation only"
+    - claim: "Common-law and Restatement evolution of servitude doctrine."
+      quarantine: "lawyer_confirmation only"
+  drift_audit: "The student path does not require a mini-outline. It uses the remedy, the actual-knowledge fact, and two tiny anchors."
+
+gold_keys:
+  - id: "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-NOTICE-01"
+    statement: "When the plaintiff seeks an injunction enforcing a land-use restriction, think equitable servitude. The burden can bind a successor if the restriction concerns land use, was meant to run, and the successor had notice; actual knowledge is enough."
+    type: "rule"
+    unlocks: "the deed-omission and recording-status trap"
+    trigger: "injunction to stop a successor's land use, plus actual knowledge of the covenant"
+    tested_choice: "A"
+    authority: "Equitable servitude / covenant running with land doctrine"
+    last_minute_review: true
+  - id: "GK-REAL_PROPERTY-NEGATIVE-RECIPROCAL-COVENANT-01"
+    statement: "Negative reciprocal covenant doctrine is the common-plan / omitted-lot-restriction route. Do not use it when the stem gives an express covenant and actual knowledge instead."
+    type: "distinction"
+    unlocks: "the negative reciprocal covenant distractor"
+    trigger: "answer invokes negative reciprocal covenants without subdivision or common-scheme facts"
+    tested_choice: "B"
+    authority: "Common-scheme equitable servitude doctrine"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-REAL_PROPERTY-INJUNCTION-ROUTE-01"
+    statement: "Read the remedy first. Injunction means equitable-servitude lane; damages would push toward real-covenant lane."
+    type: "call_focus"
+    navigates: "real covenant versus equitable servitude routing"
+    trigger: "the call asks for an injunction enforcing a land-use restriction"
+    tested_choice: "A"
+    outline_code: "81020502"
+    last_minute_review: true
+  - id: "SK-REAL_PROPERTY-ACTUAL-NOTICE-FACT-01"
+    statement: "When the stem gives actual knowledge, do not trade it for a weaker possible-notice theory unless the answer must use that weaker route."
+    type: "trap_spotting"
+    navigates: "actual knowledge answer versus constructive-possibility answer"
+    trigger: "one choice says actual knowledge and another says constructive notice of a possibility"
+    tested_choice: "D"
+    outline_code: "81020502"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-RP-EQUITABLE-SERVITUDE-NOTICE-15010"
+  title: "Injunction + Land-Use Restriction = Equitable Servitude"
+  signal: "Successor tries to use land contrary to a restriction; plaintiff seeks an injunction."
+  student_move: "Route by remedy first, then look for notice."
+  tiny_rule: "Actual knowledge satisfies the successor-notice requirement."
+  trap: "Do not switch to common-scheme or constructive-possibility theories when the stem gives actual knowledge."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A successor buys burdened land knowing of an unrecorded land-use covenant and then violates it. Can the benefited successor enjoin the use?"
+review_truth: "An equitable servitude may bind a successor with actual notice of a land-use restriction intended to run with the land."
+
+case_study_output:
+  final_student_script: "Read the remedy first: the nephew wants an injunction, so use equitable-servitude logic. Then find notice. The man actually knew about the covenant before buying. That is the winning reason. Pick A."
+  residual: "A"
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  qid_consistent: true
+  official_key_matched: true
+  outline_code_verified: true
+  controlled_vocab_checked: true
+  pass_requirements_met: true
+  exactly_three_distractors: true
+  one_filter_per_distractor: true
+  legal_leak_audit_complete: true
+
+analytics_hooks:
+  dominant_trap_choice: "B/D tie"
+  dominant_trap_pct: 6
+  pick_rate_mode: "inherited"
+  primary_component: "Equitable servitude notice"
+  drill_family: "Injunction remedy and actual notice"
+  review_queue: false
+```
+
+### 2. The 15-section student case study
+
+## program_frame
+
+This is a Real Property servitudes question. The question is not mainly about recording. It is not mainly about whether Blackacre’s deed omitted the restriction. The call asks why the nephew can get an injunction against the man’s filling-station use.
+
+The tested route is:
+
+**injunction → equitable servitude → successor notice → actual knowledge.**
+
+## student_access_test
+
+This is **anchor-assisted**.
+
+A student needs the small anchor that an equitable servitude is the injunction route for enforcing a land-use restriction against a successor. The student also needs the tiny notice anchor: actual knowledge satisfies notice.
+
+Without those anchors, the student may overfocus on the unrecorded deed or the missing restriction in the man’s deed.
+
+## question_data
+
+**QID:** 15010
+**Subject:** REAL_PROPERTY
+**Topic:** Rights in Land
+**Subtopic:** Equitable Servitudes / Restrictive Covenants
+**Outline code:** 81020502
+**Official key:** A
+**Pick data:** A 87%, B 6%, C 1%, D 6%
+**Dominant trap:** B/D tie
+
+**Question:** A businessman who owned Blackacre and Whiteacre conveyed Whiteacre to a gas company owner and covenanted in the deed that when he sold Blackacre, he would impose restrictive covenants prohibiting uses that would compete with the filling station planned for Whiteacre. The deed was not recorded. The gas company owner built and operated a filling station on Whiteacre, then conveyed Whiteacre to his nephew. That deed did not mention the covenant and was recorded. The businessman later conveyed Blackacre to a man who knew about the covenant but completed the transaction because his deed did not contain it. The man began constructing a filling station on Blackacre. The nephew sued to enjoin that use. If the nephew prevails, why?
+
+**Choices:**
+
+A. the man had actual knowledge of the covenant to impose restrictions.
+B. the man is bound by the covenant because of the doctrine of negative reciprocal covenants.
+C. business-related restrictive covenants are favored in the law.
+D. the man has constructive notice of the possibility of the covenant resulting from circumstances.
+
+## call_and_prediction
+
+**Call:** If the nephew prevails, what is the reason?
+
+**Prediction:** The nephew prevails because the man had actual notice of the restrictive covenant before buying Blackacre.
+
+**Adjacent-call trap:** Do not answer “was the covenant in the deed?” or “was the deed recorded?” The question asks why the restriction can be enforced in equity against this successor.
+
+## trigger_facts
+
+| Fact                                               | C3 use                                   |
+| -------------------------------------------------- | ---------------------------------------- |
+| Nephew seeks an injunction                         | Routes to equitable servitude            |
+| Restriction concerns competing filling-station use | Land-use restriction; touches land use   |
+| Man knew about the covenant before buying          | Dispositive notice fact                  |
+| Covenant was not in the man’s deed                 | Makes the wrong answers tempting         |
+| No subdivision or common plan appears              | Cuts negative reciprocal covenant theory |
+
+## governing_c3_lane
+
+**Lane:** Real Property — servitudes / restrictive covenants.
+
+**FIT:** Real Property asks you to track land status, successor status, notice, and remedy.
+
+**Gold Key:** When a plaintiff seeks an injunction enforcing a land-use restriction, think equitable servitude. The burden can bind a successor if the restriction concerns land use, was intended to run, and the successor had notice.
+
+**Silver Key:** Read the remedy first. Injunction sends you to equitable servitude. Then look for notice.
+
+Equitable servitudes are commonly enforced by injunction, and classical formulations require intent, touch-and-concern, and notice to the burdened successor; actual notice is enough. ([Lexplug][1])
+
+## choice_by_choice_walkthrough
+
+### A. the man had actual knowledge of the covenant to impose restrictions.
+
+1. **Student-accessible C3 signal:** A uses the exact fact the stem gives. The man knew about the covenant before he bought Blackacre.
+2. **Student label:** actual-knowledge survivor.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** The nephew seeks an injunction, so the equitable-servitude path is available. A successor to burdened land can be bound when the restriction concerns land use, was intended to run, and the successor had notice. Actual knowledge satisfies notice. Cornell’s Wex summary of running covenants lists intent, notice, and touch-and-concern among traditional elements, and equitable-servitude sources identify injunctive enforcement and notice as the equity route. ([Legal Information Institute][2])
+
+**Residual:** A survives.
+
+### B. the man is bound by the covenant because of the doctrine of negative reciprocal covenants.
+
+1. **Student-accessible C3 signal:** B names a real nearby doctrine, but the stem is not a common-scheme subdivision case.
+2. **Student label:** negative-reciprocal-covenant bait.
+3. **What a true/responsive version would look like:** “The man is bound because he bought Blackacre with actual knowledge of an express restrictive covenant intended to benefit Whiteacre.”
+4. **Lawyer confirmation:** Negative reciprocal covenant doctrine is the common-plan route, often used where a common grantor sells lots under a general scheme and omits the restriction from one deed. This stem does not use that path. It gives an express covenant and actual knowledge instead. ([Lexplug][1])
+
+**Cut:** NOT_RESPONSIVE — `bait_doctrine`.
+
+### C. business-related restrictive covenants are favored in the law.
+
+1. **Student-accessible C3 signal:** C gives a broad policy gloss. It does not name notice, remedy, intent, or land-use burden.
+2. **Student label:** policy-gloss bait.
+3. **What a true/responsive version would look like:** “The covenant is enforceable because the man had actual notice of a land-use restriction intended to run with Blackacre.”
+4. **Lawyer confirmation:** Restrictive covenants are not enforced because “business-related” restrictions are generally favored. They are enforced when the servitude requirements are satisfied.
+
+**Cut:** NOT_TRUE — `flat_misstatement`.
+
+### D. the man has constructive notice of the possibility of the covenant resulting from circumstances.
+
+1. **Student-accessible C3 signal:** D uses a weaker and different notice story. The stem gives actual knowledge of the covenant, not merely constructive notice of a possible covenant.
+2. **Student label:** possible-notice wrong element.
+3. **What a true/responsive version would look like:** “The man had actual knowledge of the covenant before buying Blackacre.”
+4. **Lawyer confirmation:** Inquiry or constructive notice can matter in servitude cases, but this answer does not track the stem’s dispositive fact. The stated reason is actual knowledge.
+
+**Cut:** NOT_RESPONSIVE — `wrong_element`.
+
+## residual_answer
+
+**Residual answer:** A.
+
+A alone matches both the remedy route and the decisive fact. The remedy is an injunction. The theory is equitable servitude. The decisive fact is actual knowledge.
+
+## legal_leak_audit
+
+Student-facing path may say:
+
+* Injunction points to equitable servitude.
+* The man actually knew about the covenant.
+* Actual knowledge is enough notice.
+* Negative reciprocal covenants require a different common-scheme setup.
+* Constructive notice of a possible covenant is not the stem’s winning reason.
+
+Student-facing path may not require:
+
+* A complete real covenant versus equitable servitude chart.
+* Horizontal and vertical privity doctrine.
+* Restatement modernization of servitudes.
+* Full common-interest-community doctrine.
+
+**Drift audit:** The C3 solution uses two Gold Keys and one fact. It does not become a Real Property outline.
+
+## final_student_script
+
+Read the remedy first. The nephew wants an injunction, so think equitable servitude. Then find notice. The man actually knew about the covenant before buying Blackacre. That is the reason the restriction can bind him. Pick **A**.
+
+## remediation_card
+
+**Card:** REM-RP-EQUITABLE-SERVITUDE-NOTICE-15010
+**Title:** Injunction + Land-Use Restriction = Equitable Servitude
+**Signal:** Successor tries to use land contrary to a restriction; plaintiff seeks an injunction.
+**Student move:** Route by remedy first, then look for notice.
+**Tiny rule:** Actual knowledge satisfies the successor-notice requirement.
+**Trap:** Do not switch to common-scheme or constructive-possibility theories when the stem gives actual knowledge.
+**Confidence:** ANCHOR_ASSISTED
+
+**Gold Keys**
+
+1. **GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-NOTICE-01:** When the plaintiff seeks an injunction enforcing a land-use restriction, think equitable servitude. The burden can bind a successor if the restriction concerns land use, was meant to run, and the successor had notice; actual knowledge is enough.
+2. **GK-REAL_PROPERTY-NEGATIVE-RECIPROCAL-COVENANT-01:** Negative reciprocal covenant doctrine is the common-plan / omitted-lot-restriction route. Do not use it when the stem gives an express covenant and actual knowledge instead.
+
+**Silver Keys**
+
+1. **SK-REAL_PROPERTY-INJUNCTION-ROUTE-01:** Read the remedy first. Injunction means equitable-servitude lane; damages would push toward real-covenant lane.
+2. **SK-REAL_PROPERTY-ACTUAL-NOTICE-FACT-01:** When the stem gives actual knowledge, do not trade it for a weaker possible-notice theory unless the answer must use that weaker route.
+
+## qa_checklist
+
+| Check                                       | Result          |
+| ------------------------------------------- | --------------- |
+| Credited answer equals C3 residual          | Pass            |
+| Three distractors each break one filter     | Pass            |
+| Dominant trap identified                    | Pass — B/D tie  |
+| No full doctrine outline substituted for C3 | Pass            |
+| Outline code verified                       | Pass — 81020502 |
+| Official key agrees with C3 residual        | Pass            |
+
+## wrong_answer_recovery_paths
+
+**B recovery:** Ask whether this is a common-scheme omission case. It is not. The stem gives an express covenant and actual knowledge.
+
+**C recovery:** Do not accept policy words as an element. “Favored in law” is not a servitude requirement.
+
+**D recovery:** Use the strongest given fact. The stem says actual knowledge. Do not downgrade to constructive notice of a possibility.
+
+## outline_mastery_map
+
+**Placement:** 81020502 — Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Running with the land.
+
+**This item teaches:** actual notice can bind a successor to a restrictive covenant enforceable by injunction.
+
+**Fills:**
+
+* Equitable servitude remedy route.
+* Successor notice.
+* Express covenant versus implied/common-scheme covenant.
+* Land-use restriction touching and concerning land.
+
+**Adjacent codes:**
+
+* 81020401 — Real Covenants > Running with the land.
+* 81020501 — Equitable Servitudes / Restrictive Covenants > Implied from common scheme.
+* 84040300 — Titles, Deeds, and Conveyancing > Recording Acts.
+
+## crossover_intersection_map
+
+**Contracts:** The original covenant is a promise, but the tested issue is not contract formation. It is whether the land-use promise binds successors.
+
+**Civil Procedure / Remedies:** The requested remedy matters. Injunction routes to equitable servitude.
+
+**Real Property recording acts:** Recording facts are present, but the man’s actual knowledge prevents the deed omission from controlling the result.
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "15010",
+  "subject": "REAL_PROPERTY",
+  "credited_answer": "A",
+  "outline_code": "81020502",
+  "distilled_core_question": "A successor buys burdened land knowing of an unrecorded land-use covenant and then violates it. Can the benefited successor enjoin the use?",
+  "review_truth": "An equitable servitude may bind a successor with actual notice of a land-use restriction intended to run with the land.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "actual knowledge of an express covenant versus implied/common-scheme or possible constructive-notice routes",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "remedy route: injunction points to equitable servitude",
+    "difficulty": null,
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-REAL_PROPERTY-NEGATIVE-RECIPROCAL-COVENANT-01",
+        "explanation": "This invokes a real common-scheme doctrine, but the stem gives an express covenant and actual knowledge rather than a subdivision/common-plan omission."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-NOTICE-01",
+        "explanation": "This policy statement is not the rule for enforcing a restrictive covenant against a successor."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-REAL_PROPERTY-ACTUAL-NOTICE-FACT-01",
+        "explanation": "This substitutes constructive notice of a possible covenant for the actual knowledge fact the stem gives."
+      }
+    ],
+    "analyzer_notes": "drift_audit: student-facing path uses remedy routing plus actual-notice fact; full servitude doctrine is quarantined. transformed_from: none. letter_map: original A→A, original B→B, original C→C, original D→D.",
+    "gold_keys": [
+      {
+        "id": "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-NOTICE-01",
+        "statement": "When the plaintiff seeks an injunction enforcing a land-use restriction, think equitable servitude. The burden can bind a successor if the restriction concerns land use, was meant to run, and the successor had notice; actual knowledge is enough.",
+        "type": "rule",
+        "unlocks": "the deed-omission and recording-status trap",
+        "trigger": "injunction to stop a successor's land use, plus actual knowledge of the covenant",
+        "tested_choice": "A",
+        "authority": "Equitable servitude / covenant running with land doctrine",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-REAL_PROPERTY-NEGATIVE-RECIPROCAL-COVENANT-01",
+        "statement": "Negative reciprocal covenant doctrine is the common-plan / omitted-lot-restriction route. Do not use it when the stem gives an express covenant and actual knowledge instead.",
+        "type": "distinction",
+        "unlocks": "the negative reciprocal covenant distractor",
+        "trigger": "answer invokes negative reciprocal covenants without subdivision or common-scheme facts",
+        "tested_choice": "B",
+        "authority": "Common-scheme equitable servitude doctrine",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-REAL_PROPERTY-INJUNCTION-ROUTE-01",
+        "statement": "Read the remedy first. Injunction means equitable-servitude lane; damages would push toward real-covenant lane.",
+        "type": "call_focus",
+        "navigates": "real covenant versus equitable servitude routing",
+        "trigger": "the call asks for an injunction enforcing a land-use restriction",
+        "tested_choice": "A",
+        "outline_code": "81020502",
+        "last_minute_review": true
+      },
+      {
+        "id": "SK-REAL_PROPERTY-ACTUAL-NOTICE-FACT-01",
+        "statement": "When the stem gives actual knowledge, do not trade it for a weaker possible-notice theory unless the answer must use that weaker route.",
+        "type": "trap_spotting",
+        "navigates": "actual knowledge answer versus constructive-possibility answer",
+        "trigger": "one choice says actual knowledge and another says constructive notice of a possibility",
+        "tested_choice": "D",
+        "outline_code": "81020502",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "15010",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020502",
+  "distilled_core_question": "A successor buys burdened land knowing of an unrecorded land-use covenant and then violates it. Can the benefited successor enjoin the use?",
+  "review_truth": "An equitable servitude may bind a successor with actual notice of a land-use restriction intended to run with the land.",
+  "tension": {
+    "axis": "actual knowledge of an express covenant versus implied/common-scheme or possible constructive-notice routes",
+    "resolving_fact": "The man knew about the covenant prohibiting filling-station use before completing the purchase of Blackacre."
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "It names a real property doctrine that sounds tailored to omitted restrictions. The breaker is that no common scheme or subdivision pattern appears.",
+      "focus_group_pct": 6,
+      "pct_provenance": "inherited",
+      "dominant_trap": true
+    },
+    {
+      "choice": "C",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "It sounds like a policy reason for enforcing a commercial restriction. The breaker is that enforcement depends on servitude elements, not a general policy favoring business restrictions.",
+      "focus_group_pct": 1,
+      "pct_provenance": "inherited",
+      "dominant_trap": false
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "It stays in the notice neighborhood and sounds plausible because recording and circumstances are heavily featured. The breaker is that the stem gives actual knowledge, not merely constructive notice of a possible covenant.",
+      "focus_group_pct": 6,
+      "pct_provenance": "inherited",
+      "dominant_trap": true
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-RP-EQUITABLE-SERVITUDE-NOTICE-15010",
+    "title": "Injunction + Land-Use Restriction = Equitable Servitude",
+    "signal": "Successor tries to use land contrary to a restriction; plaintiff seeks an injunction.",
+    "student_move": "Route by remedy first, then look for notice.",
+    "tiny_rule": "Actual knowledge satisfies the successor-notice requirement.",
+    "trap": "Do not switch to common-scheme or constructive-possibility theories when the stem gives actual knowledge.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "equitable servitude versus real covenant",
+    "actual notice versus record notice",
+    "negative reciprocal covenant bait",
+    "policy gloss instead of element analysis",
+    "deed omission does not defeat actual notice"
+  ]
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "15010",
+  "subject": "REAL_PROPERTY",
+  "outline_code": "81020502",
+  "distilled_core_question": "A successor buys burdened land knowing of an unrecorded land-use covenant and then violates it. Can the benefited successor enjoin the use?",
+  "review_truth": "An equitable servitude may bind a successor with actual notice of a land-use restriction intended to run with the land.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student sees an omitted restriction and reaches for negative reciprocal covenant doctrine.",
+      "skipped_move": "Check for common scheme or subdivision facts.",
+      "recovery_step": "Use the express covenant and actual-knowledge route instead."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student treats a broad policy phrase as a legal reason.",
+      "skipped_move": "Demand an element-based servitude reason.",
+      "recovery_step": "Cut policy glosses that do not mention remedy, notice, intent, or land-use burden."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student notices recording and surrounding circumstances and downgrades actual knowledge to inquiry-style notice.",
+      "skipped_move": "Use the strongest notice fact actually stated.",
+      "recovery_step": "When one choice says actual knowledge and the stem gives actual knowledge, do not choose a possible-notice theory."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "equitable servitude notice",
+      "prompt": "A buyer's deed omits a land-use restriction, but before buying the buyer actually knows about it. The plaintiff seeks an injunction. What is the key notice fact?",
+      "answer": "Actual knowledge of the covenant."
+    },
+    {
+      "drill_type": "cut",
+      "target_skill": "negative reciprocal covenant bait",
+      "prompt": "Cut the answer: 'The buyer is bound under negative reciprocal covenant doctrine,' when the stem has no subdivision or common scheme.",
+      "answer": "Cut as bait_doctrine: real doctrine, wrong context."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "actual notice versus constructive possibility",
+      "prompt": "One answer says actual knowledge. Another says constructive notice of a possible covenant. The stem says the buyer knew of the covenant. Which answer is safer?",
+      "answer": "The actual-knowledge answer."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "dominant_trap_B_D_tie",
+      "equitable_servitude_notice",
+      "negative_reciprocal_covenant_bait",
+      "actual_notice_beats_deed_omission",
+      "policy_gloss_false_reason"
+    ],
+    "misconception_tags": [
+      "unrecorded means unenforceable",
+      "if covenant omitted from deed successor is free",
+      "negative reciprocal covenant applies to any omitted restriction",
+      "constructive notice is always the right notice answer",
+      "business covenants are favored"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "Gold Key",
+      "target": "equitable servitude successor notice"
+    },
+    {
+      "component": "Gold Key",
+      "target": "negative reciprocal covenant common-scheme distinction"
+    },
+    {
+      "component": "Silver Key",
+      "target": "route by remedy: injunction"
+    },
+    {
+      "component": "Issue-Sense",
+      "target": "cut wrong-context servitude doctrines"
+    },
+    {
+      "component": "Calibration",
+      "target": "anchor-assisted clean cut"
+    }
+  ],
+  "crossovers": [
+    {
+      "source": "Contracts",
+      "connection": "The covenant starts as a promise, but the tested issue is whether the promise runs with land and binds successors."
+    },
+    {
+      "source": "Civil Procedure / Remedies",
+      "connection": "The remedy matters. Injunction routes to equitable-servitude analysis."
+    },
+    {
+      "source": "Recording Acts",
+      "connection": "Recording facts are present, but actual knowledge prevents the deed omission from becoming the winning reason."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-NOTICE-01",
+      "statement": "When the plaintiff seeks an injunction enforcing a land-use restriction, think equitable servitude. The burden can bind a successor if the restriction concerns land use, was meant to run, and the successor had notice; actual knowledge is enough.",
+      "type": "rule",
+      "unlocks": "the deed-omission and recording-status trap",
+      "trigger": "injunction to stop a successor's land use, plus actual knowledge of the covenant",
+      "tested_choice": "A",
+      "authority": "Equitable servitude / covenant running with land doctrine",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-REAL_PROPERTY-NEGATIVE-RECIPROCAL-COVENANT-01",
+      "statement": "Negative reciprocal covenant doctrine is the common-plan / omitted-lot-restriction route. Do not use it when the stem gives an express covenant and actual knowledge instead.",
+      "type": "distinction",
+      "unlocks": "the negative reciprocal covenant distractor",
+      "trigger": "answer invokes negative reciprocal covenants without subdivision or common-scheme facts",
+      "tested_choice": "B",
+      "authority": "Common-scheme equitable servitude doctrine",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-REAL_PROPERTY-INJUNCTION-ROUTE-01",
+      "statement": "Read the remedy first. Injunction means equitable-servitude lane; damages would push toward real-covenant lane.",
+      "type": "call_focus",
+      "navigates": "real covenant versus equitable servitude routing",
+      "trigger": "the call asks for an injunction enforcing a land-use restriction",
+      "tested_choice": "A",
+      "outline_code": "81020502",
+      "last_minute_review": true
+    },
+    {
+      "id": "SK-REAL_PROPERTY-ACTUAL-NOTICE-FACT-01",
+      "statement": "When the stem gives actual knowledge, do not trade it for a weaker possible-notice theory unless the answer must use that weaker route.",
+      "type": "trap_spotting",
+      "navigates": "actual knowledge answer versus constructive-possibility answer",
+      "trigger": "one choice says actual knowledge and another says constructive notice of a possibility",
+      "tested_choice": "D",
+      "outline_code": "81020502",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "81020502 Non-Possessory Rights and Interests in Land > Equitable Servitudes / Restrictive Covenants > Running with the land",
+    "this_item_teaches": "A successor with actual notice can be enjoined from violating a land-use restriction that runs as an equitable servitude.",
+    "fills": [
+      "equitable servitude remedy routing",
+      "successor notice",
+      "actual notice despite deed omission",
+      "negative reciprocal covenant distinction"
+    ],
+    "adjacent_to_master": [
+      "81020401 Real Covenants > Running with the land",
+      "81020501 Equitable Servitudes / Restrictive Covenants > Implied from common scheme",
+      "84040300 Titles, Deeds, and Conveyancing > Recording Acts"
+    ]
+  }
+}
+```
+
+[1]: https://www.lexplug.com/topics/property-law/easements-covenants-servitudes/covenants-servitudes?utm_source=chatgpt.com "Lexplug | Real Covenants vs. Equitable Servitudes Legal Topic"
+[2]: https://www.law.cornell.edu/wex/covenant_that_runs_with_the_land?utm_source=chatgpt.com "covenant that runs with the land | Wex | US Law | LII / Legal Information Institute"
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+A successor buys burdened land knowing of an unrecorded land-use covenant and then violates it. Can the benefited successor enjoin the use?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+A
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+An equitable servitude may bind a successor with actual notice of a land-use restriction intended to run with the land.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

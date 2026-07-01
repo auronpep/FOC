@@ -1,3 +1,29 @@
+## Finished Questions Spreadsheet Refresh - 2026-06-20
+
+- [x] Confirm the active source folder and current `Finished\CQ*.md` count.
+- [x] Rebuild one master workbook from all current `Finished\CQ*.md` files.
+- [x] Put the key review fields up front: subject, subtopic, category/topic, outline code, question, and answer choices.
+- [x] Verify workbook row counts, representative old/new files, parse-audit tabs, and visual readability.
+- [x] Record output path and review evidence here.
+
+### Working Notes
+
+- Active source folder: `C:\FOC\Workspace\Finished`.
+- Current source count: 1,990 `CQ*.md` files, including updated/suffix variants.
+- Reuse the existing finished-questions exporter shape if it still validates, because it already preserves the full C3 captured-data surface across multiple sheets.
+
+### Review Results
+
+- Output written to `C:\FOC\Workspace\outputs\finished-questions-master\finished_questions_master.xlsx`.
+- Workbook has 14 sheets: `Summary`, `Frontmatter`, `QuestionQA`, `QuestionYAML`, `C3Annotation`, `ProgramElements`, `ProgramTraps`, `ProgramIntelligence`, `WrongAnswerPaths`, `DrillSeeds`, `Routing`, `Keys`, `NeedsUpdatedInfo`, and `ParseIssues`.
+- `QuestionQA` has 1,990 rows and now starts with `subject`, `subtopic`, `category`, `outlineCode`, `finalQuestion`, `choiceA`, `choiceB`, `choiceC`, `choiceD`, and `correctAnswer`.
+- Source coverage: 1,718 exact `CQ<number>.md` files and 272 suffix/update variants, representing 1,721 unique original QIDs.
+- Structured parse coverage: 1,761 `QuestionYAML` rows, 1,729 `C3Annotation` rows, 1,734 `ProgramElements` rows, 1,734 `ProgramIntelligence` rows, 4,469 program-trap rows, 4,431 wrong-answer-path rows, 4,132 drill-seed rows, 6,342 routing rows, and 5,977 key rows.
+- Audit sheets retained: `NeedsUpdatedInfo` has 1,018 rows and `ParseIssues` has 1,548 rows.
+- Long narrative/raw block preview sheets were omitted because `artifact-tool` could not export the all-text workbook at this corpus size; `Frontmatter.path` points to each full source Markdown file.
+- Direct workbook verification passed by importing the saved `.xlsx` with `artifact-tool`: 14 sheets, `QuestionQA!A1:V1991`, representative rows present for `CQ14032.md`, `CQ22294.md`, and `CQ22729_updated.md`.
+- Visual previews checked for `Summary` and `QuestionQA`; headers and first rows are legible.
+
 ## Online Question Database Updated-Copy Integration - 2026-06-20
 
 - [x] Confirm the active online question database integration path and whether the target is production.

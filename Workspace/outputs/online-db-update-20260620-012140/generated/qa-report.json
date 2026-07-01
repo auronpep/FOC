@@ -1,0 +1,4437 @@
+{
+  "generated_at_source": "run `git log -1` in barmatrix-api for the generation commit",
+  "source_count": 266,
+  "pass_count": 171,
+  "quarantine_count": 95,
+  "subjects": {
+    "CIVIL_PROCEDURE": 17,
+    "CONSTITUTIONAL_LAW": 17,
+    "CONTRACTS": 20,
+    "CRIMINAL_LAW": 59,
+    "EVIDENCE": 12,
+    "REAL_PROPERTY": 10,
+    "TORTS": 36
+  },
+  "quarantined": [
+    {
+      "source_file": "CQ14411.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ14507.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ14554.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ14557.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ14578.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ14587.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ14595.md",
+      "reasons": [
+        "B1 YAML failed to parse: Nested mappings are not allowed in compact mappings at line 79, column 26:"
+      ]
+    },
+    {
+      "source_file": "CQ14618.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ14621.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ14625.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ14685.md",
+      "reasons": [
+        "unknown subject: CRIMINAL_LAW_AND_PROCEDURE",
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ14695.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ14701.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ14728.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ14730.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ14819.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ14820.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ14828.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ14831.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ14863.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ14908.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ14931.md",
+      "reasons": [
+        "missing residual_answer.explanation for correct choice"
+      ]
+    },
+    {
+      "source_file": "CQ14975.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ14992.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ15014.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "choice C: missing why_attractive (B4)",
+        "choice C: missing distractor explanation (B3)",
+        "missing residual_answer.explanation for correct choice"
+      ]
+    },
+    {
+      "source_file": "CQ15031.md",
+      "reasons": [
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "choice C: missing why_attractive (B4)",
+        "choice C: missing distractor explanation (B3)",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ15054.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ15100.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ15256.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ16019.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ16040.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16042.md",
+      "reasons": [
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16052.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16060.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16070.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ16135.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16152.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ16158.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ16163.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16169.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ16184.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ16187.md",
+      "reasons": [
+        "B1 YAML failed to parse: Nested mappings are not allowed in compact mappings at line 9, column 22:"
+      ]
+    },
+    {
+      "source_file": "CQ17015.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ17034.md",
+      "reasons": [
+        "B1 YAML failed to parse: Source contains multiple documents; please use YAML.parseAllDocuments() at line 15, column 1:"
+      ]
+    },
+    {
+      "source_file": "CQ17091.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ17200.md",
+      "reasons": [
+        "B1 YAML failed to parse: All mapping items must start at the same column at line 155, column 1:"
+      ]
+    },
+    {
+      "source_file": "CQ17345.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "choice C: missing why_attractive (B4)",
+        "choice C: missing distractor explanation (B3)",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ17405.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ17419.md",
+      "reasons": [
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ17420.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ17564.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ17712.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ17776.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ17785.md",
+      "reasons": [
+        "B1 YAML failed to parse: Source contains multiple documents; please use YAML.parseAllDocuments() at line 97, column 1:"
+      ]
+    },
+    {
+      "source_file": "CQ17930.md",
+      "reasons": [
+        "unknown subject: UNKNOWN",
+        "missing or implausibly short stem",
+        "missing call",
+        "official_key is not A-D",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ18217.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ18252.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ18342.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ18385.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ18442.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ18550.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ18861.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ19064.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ19099.md",
+      "reasons": [
+        "missing residual_answer.explanation for correct choice",
+        "choice B: missing distractor explanation (B3)",
+        "choice C: missing distractor explanation (B3)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ19143.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ19305.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ19501.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ19692.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "missing residual_answer.explanation for correct choice",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ19762.md",
+      "reasons": [
+        "unknown subject: CRIMINAL_LAW_AND_PROCEDURE",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ20014.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ20031.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ20055.md",
+      "reasons": [
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ20125.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "choice C: missing why_attractive (B4)",
+        "choice C: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ20168.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ20470.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ20575.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ20595.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ20708.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ20903.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ21105.md",
+      "reasons": [
+        "missing call"
+      ]
+    },
+    {
+      "source_file": "CQ21131.md",
+      "reasons": [
+        "choice A: missing why_attractive (B4)",
+        "choice A: missing distractor explanation (B3)",
+        "missing residual_answer.explanation for correct choice",
+        "choice C: missing why_attractive (B4)",
+        "choice C: missing distractor explanation (B3)",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ21244.md",
+      "reasons": [
+        "choice A: missing distractor explanation (B3)",
+        "choice B: missing distractor explanation (B3)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ21410.md",
+      "reasons": [
+        "missing residual_answer.explanation for correct choice",
+        "choice B: missing distractor explanation (B3)",
+        "choice C: missing distractor explanation (B3)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ21449.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ21599.md",
+      "reasons": [
+        "B1 YAML missing barmatrix_row"
+      ]
+    },
+    {
+      "source_file": "CQ21650.md",
+      "reasons": [
+        "B1 YAML failed to parse: Source contains multiple documents; please use YAML.parseAllDocuments() at line 15, column 1:"
+      ]
+    },
+    {
+      "source_file": "CQ21707.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ21770.md",
+      "reasons": [
+        "missing B1 question YAML block"
+      ]
+    },
+    {
+      "source_file": "CQ21845.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ22139.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    },
+    {
+      "source_file": "CQ22161.md",
+      "reasons": [
+        "missing/unparseable B3 c3_annotation JSON block",
+        "missing/unparseable B4 program_elements JSON block",
+        "missing/unparseable B5 program_intelligence JSON block"
+      ]
+    },
+    {
+      "source_file": "CQ22266.md",
+      "reasons": [
+        "missing or implausibly short stem",
+        "missing call",
+        "missing choice A",
+        "missing choice B",
+        "missing choice C",
+        "missing choice D"
+      ]
+    },
+    {
+      "source_file": "CQ22408.md",
+      "reasons": [
+        "missing residual_answer.explanation for correct choice",
+        "choice B: missing why_attractive (B4)",
+        "choice B: missing distractor explanation (B3)",
+        "choice C: missing why_attractive (B4)",
+        "choice C: missing distractor explanation (B3)",
+        "choice D: missing why_attractive (B4)",
+        "choice D: missing distractor explanation (B3)"
+      ]
+    },
+    {
+      "source_file": "CQ22409.md",
+      "reasons": [
+        "missing residual_answer.explanation for correct choice"
+      ]
+    },
+    {
+      "source_file": "CQ22729.md",
+      "reasons": [
+        "missing or implausibly short stem"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source_file": "CQ14141.md",
+      "qid": "14141_dovesound_review",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14215.md",
+      "qid": "14215_daniel_cedar_bookcases",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ14228.md",
+      "qid": "14228_road_to_emmaus_shuttle",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14619.md",
+      "qid": "14619",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ14629.md",
+      "qid": "14629_parent_room_confession",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14634.md",
+      "qid": "14634_chapel_bookstore_grab",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14638.md",
+      "qid": "14638_galilee_garments",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14639.md",
+      "qid": "14639_prayer_walk_self_defense",
+      "warnings": [
+        "dominant trap not named",
+        "selection_percentages.A claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.B claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.C claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.D claims a non-predicted measured rate — review before any focus-group load"
+      ]
+    },
+    {
+      "source_file": "CQ14640.md",
+      "qid": "14640_church_preschool_custody",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14643.md",
+      "qid": "14643",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ14656.md",
+      "qid": "14656_fellowship_flag_football",
+      "warnings": [
+        "selection_percentages.A claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.B claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.D claims a non-predicted measured rate — review before any focus-group load"
+      ]
+    },
+    {
+      "source_file": "CQ14658.md",
+      "qid": "14658_christian_publishing",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14659.md",
+      "qid": "14659_bible_study_ambush",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14664.md",
+      "qid": "14664_bible_study_gas_station",
+      "warnings": [
+        "dominant trap not named",
+        "selection_percentages.A claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.B claims a non-predicted measured rate — review before any focus-group load",
+        "selection_percentages.C claims a non-predicted measured rate — review before any focus-group load"
+      ]
+    },
+    {
+      "source_file": "CQ14668.md",
+      "qid": "14668_laxative-lies",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ14678.md",
+      "qid": "14678_galilee_grill",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14679.md",
+      "qid": "14679_fellowship_cup",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14680.md",
+      "qid": "14680_christian_bookstore_ricochet",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ14736.md",
+      "qid": "14736_camp_van_crossing",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ14859.md",
+      "qid": "14859_lakeside-bible-study",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ14904.md",
+      "qid": "14904_best_evidence_refresh",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ15222.md",
+      "qid": "15222_mannafuel_lydia_racecar",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ15223.md",
+      "qid": "15223_lydias_loaves",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ15224.md",
+      "qid": "15224_bible_workbook_press",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ15253.md",
+      "qid": "15253_barnabas_quarry_safety_audit",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ15255.md",
+      "qid": "15255",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ15258.md",
+      "qid": "15258_good_shepherd_dental",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ15262.md",
+      "qid": "15262_fiery_furnace_panels",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ17026.md",
+      "qid": "17026_manger_prop_bundles",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ17045.md",
+      "qid": "17045_scripture_banner_cloth",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ17084.md",
+      "qid": "17084_five_loaves_bank_records",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ17110.md",
+      "qid": "17110_sticker_press_guaranty",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ17157.md",
+      "qid": "17157_vocational-rehab",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ17685.md",
+      "qid": "17685_church_basement_dispute",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ18090.md",
+      "qid": "18090_prayer_journals_price_line",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ18456.md",
+      "qid": "18456_stephens_chainsaw",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ19177.md",
+      "qid": "19177_manna_wagon_disposal",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19213.md",
+      "qid": "19213_road_to_emmaus_breezeway",
+      "warnings": [
+        "B1 YAML required sanitization (unquoted ': ' scalars)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19263.md",
+      "qid": "19263_chapel_handbells",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19266.md",
+      "qid": "19266_carol_banquet_jmol",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19286.md",
+      "qid": "19286_five_loaves_press",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19430.md",
+      "qid": "19430_harp_instructor_olive_grove",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19434.md",
+      "qid": "19434_hymn_hands_stimulator",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ19448.md",
+      "qid": "19448_praise_night_tshirt_cannon",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19499.md",
+      "qid": "19499_jericho_chariot_night",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ19502.md",
+      "qid": "19502_manna_festival_finals_tax",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19607.md",
+      "qid": "19607_cana_hills_bethany_flats",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ19721.md",
+      "qid": "19721_jonah_whale_float",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ19793.md",
+      "qid": "19793_dove_candle_ledgers",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20004.md",
+      "qid": "20004_dove_tokens_manna_game",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20024.md",
+      "qid": "20024_loaves_fishes_crate_count",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20100.md",
+      "qid": "20100_fish_and_loaves_keychains",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20123.md",
+      "qid": "20123_prayer_card_threat_writers",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20153.md",
+      "qid": "20153_lampstand_labs",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20213.md",
+      "qid": "20213_mercy_pool_reliction",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20231.md",
+      "qid": "20231_crown_above_caesars",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20258.md",
+      "qid": "20258_psalter_pressure",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20271.md",
+      "qid": "20271_lantern_handbell_evening",
+      "warnings": [
+        "B2 student case study header not found",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20291.md",
+      "qid": "20291_nativity_prop_rental_freeze",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20307.md",
+      "qid": "20307_bethany_banners_transcript",
+      "warnings": [
+        "B2 student case study header not found",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ20312.md",
+      "qid": "20312_loaves_fishes_retreat",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20313.md",
+      "qid": "20313_bethlehem_olivewood_crosses",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20351.md",
+      "qid": "20351_red_sea_mini_golf",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20353.md",
+      "qid": "20353_baptism_tank_burst",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20370.md",
+      "qid": "20370_dove_mug_notice",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20404.md",
+      "qid": "20404_acts_axes_cash_loads",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20423.md",
+      "qid": "20423_galilee_props_bias",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20439.md",
+      "qid": "20439_floating_star_driveway",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20476.md",
+      "qid": "20476_road_to_bethlehem_sash",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20493.md",
+      "qid": "20493_fish_mark_picnic_lot",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20496.md",
+      "qid": "20496_loaves_prop_cart",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ20523.md",
+      "qid": "20523_easter_stage_guaranty",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20546.md",
+      "qid": "20546_jericho_wall_studio",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20565.md",
+      "qid": "20565_purple_gear_hymnbook_tote",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20594.md",
+      "qid": "20594_daniels_whale_float",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20597.md",
+      "qid": "20597_olivewood_nativity_craft_swap",
+      "warnings": [
+        "B2 student case study header not found",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20598.md",
+      "qid": "20598_write_it_on_your_heart",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ20603.md",
+      "qid": "20603_road_to_emmaus_escape_room",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20605.md",
+      "qid": "20605_scripture_quiz_whisper",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20606.md",
+      "qid": "20606_lydia_festival_venue",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20627.md",
+      "qid": "20627_ruth_hymn_poster_contract",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20636.md",
+      "qid": "15010",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20638.md",
+      "qid": "20638_advent_rescue_beacons",
+      "warnings": [
+        "B2 student case study header not found",
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20654.md",
+      "qid": "20654_nativity_ornaments_volition",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ20690.md",
+      "qid": "20690_bethlehem_star_drone",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20717.md",
+      "qid": "20717_ruths_hymn_recording_procedure",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20725.md",
+      "qid": "20725_emmaus_laser_cutter",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20727.md",
+      "qid": "20727_easter_garden_blast_hose",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20728.md",
+      "qid": "20728_star_stable_stall",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20729.md",
+      "qid": "20729_courtyard_stormwater",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20730.md",
+      "qid": "20730_shepherd_sling_fair",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20733.md",
+      "qid": "20733_galilee_trails_death_notice",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20735.md",
+      "qid": "20735_bethlehem_donkey_blower",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20737.md",
+      "qid": "20737_jonahs_whale_lyre",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20744.md",
+      "qid": "20744_bethlehem_loading_lane",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20760.md",
+      "qid": "20760_rubber_stamp_mail_fraud",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ20805.md",
+      "qid": "20805_psalm_lanterns_confirmation",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ20808.md",
+      "qid": "20808_jericho_press",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)"
+      ]
+    },
+    {
+      "source_file": "CQ20811.md",
+      "qid": "20811_illuminated_psalms_solvent",
+      "warnings": [
+        "stem recovered from Pass-1 markdown (absent in B1 YAML)",
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ21752.md",
+      "qid": "21752_olive_oil_ramp",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ21867.md",
+      "qid": "21867_psalm_puzzle_booth",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ21869.md",
+      "qid": "21869_tiny_house_hymn_sheet",
+      "warnings": [
+        "dominant trap not named"
+      ]
+    },
+    {
+      "source_file": "CQ21872.md",
+      "qid": "21872_scripturequest_price_gate",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ21879.md",
+      "qid": "21879_noahs_ark_puppet_set",
+      "warnings": [
+        "B2 student case study header not found"
+      ]
+    },
+    {
+      "source_file": "CQ22410.md",
+      "qid": "22410",
+      "warnings": [
+        "Pass-1 transform report header not found (older header wording)",
+        "B2 student case study header not found"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "source_file": "CQ14680.md",
+      "qid": "14680_christian_bookstore_ricochet",
+      "notes": [
+        "selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data"
+      ]
+    },
+    {
+      "source_file": "CQ14736.md",
+      "qid": "14736_camp_van_crossing",
+      "notes": [
+        "selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data"
+      ]
+    },
+    {
+      "source_file": "CQ14859.md",
+      "qid": "14859_lakeside-bible-study",
+      "notes": [
+        "selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data"
+      ]
+    },
+    {
+      "source_file": "CQ14904.md",
+      "qid": "14904_best_evidence_refresh",
+      "notes": [
+        "selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data"
+      ]
+    },
+    {
+      "source_file": "CQ20636.md",
+      "qid": "15010",
+      "notes": [
+        "selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data",
+        "selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data"
+      ]
+    }
+  ],
+  "passed": [
+    {
+      "source_file": "CQ14141.md",
+      "qid": "14141_dovesound_review",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-SUMMARY-JUDGMENT-BURDEN-01",
+        "GK-CIVIL_PROCEDURE-RULE56-AFFIDAVIT-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-SUMMARY-JUDGMENT-BURDEN-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14215.md",
+      "qid": "14215_daniel_cedar_bookcases",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "default-cap lane vs trial-proof lane",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CIV-JUDGMENT-LANE-01",
+        "GK-CIV-REPLY-ANSWER-01"
+      ],
+      "silver_keys": [
+        "SK-CIV-JUDGMENT-LANE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14228.md",
+      "qid": "14228_road_to_emmaus_shuttle",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "protected-interest threshold vs hearing-procedure merits",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-PROPERTY-INTEREST-SCOPE-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-THRESHOLD-BEFORE-HEARING-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14238.md",
+      "qid": "14238_lydias_barnabas_brief",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "doctrine-home: property/P&I/religion/press",
+      "dominant_trap": "D: publication/press vocabulary tempts a prior-restraint frame.",
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-RELIGIOUS-PUBLICATION-TAX-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-DOCTRINE-HOME-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14555.md",
+      "qid": "14555_private_bookstore_plea",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "plea-waiver defect vs neighboring pretrial/merits/discovery defect",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIMINAL-GUILTY-PLEA-WAIVER-01",
+        "GK-CRIMINAL-GUILTY-PLEA-WAIVER-02"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-PLEA-CALL-FOCUS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14610.md",
+      "qid": "14610_timothy_grand_jury",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "constitutional-sounding defect vs indictment-invalidating defect",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-GRAND-JURY-COUNSEL-01",
+        "GK-CRIMINAL-GRAND-JURY-EXCLUSION-02"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-GRAND-JURY-REMEDY-01",
+        "SK-CRIMINAL-BECAUSE-BOTH-DEFECTS-02"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14616.md",
+      "qid": "14616_good_shepherd_cyber_watch",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "private first search vs government-induced second search",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-PRIVATE-GOVT-AGENT-01",
+        "GK-CRIM-STATUTE-REMEDY-02"
+      ],
+      "silver_keys": [
+        "SK-CRIM-TWO-SEARCH-SPLIT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14619.md",
+      "qid": "14619",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "3",
+      "tension_axis": "Element burden vs affirmative-defense burden",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIMINAL-ELEMENT-DEFENSE-BURDEN-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-TWO-BURDEN-MATRIX-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14620.md",
+      "qid": "14620",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "preliminary-hearing dismissal vs trial-stage jeopardy attachment",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-DJ-ATTACHES-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-DJ-SAME-RESULT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14626.md",
+      "qid": "14626_lydias_sentencing_plan",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "3",
+      "tension_axis": "lawyer-representative privilege vs ordinary grand-jury evidence-rule laxity",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-PRIVILEGE-AGENT-01",
+        "GK-CRIMINAL-GRAND-JURY-PRIVILEGE-02",
+        "GK-CRIMINAL-GRAND-JURY-THRESHOLD-03"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-PRIVILEGE-LAYER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14627.md",
+      "qid": "14627_galilee_honey_farm",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "Does the answer explain admissibility of the admission, or does it explain another police action?",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CRIM-MIRANDA-CUSTODIAL-01",
+        "GK-CRIM-PUBLIC-SAFETY-02"
+      ],
+      "silver_keys": [
+        "SK-CRIM-CONFESSION-LAYER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14629.md",
+      "qid": "14629_parent_room_confession",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "3",
+      "tension_axis": "Custody/lawyer/privacy fragments vs police-arranged elicitation",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-EDWARDS-ELICITATION-01",
+        "GK-CRIMINAL-CUSTODY-PLUS-INTERROGATION-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-POLICE-CAUSED-STATEMENT-01"
+      ],
+      "drill_seed_count": 5
+    },
+    {
+      "source_file": "CQ14630.md",
+      "qid": "14630_fellowship_hall_white_powder",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "3",
+      "tension_axis": "actor-specific attempt intent; fake-substance factual impossibility",
+      "dominant_trap": "B: neither guilty because powder was not cocaine",
+      "gold_keys": [
+        "GK-CRIM-ATTEMPT-IMPOSSIBILITY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-ACTOR-MATRIX-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14631.md",
+      "qid": "14631_manna_mart",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "strict liability for direct seller vs vicarious liability for owner",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIMINAL-STRICT-VICARIOUS-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-ACTOR-MAP-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14633.md",
+      "qid": "14633_galilee_cafe",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "Retreat required before defensive force vs no retreat before nondeadly defensive force",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-NONDEADLY-RETREAT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-RETREAT-FORCE-TYPE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14634.md",
+      "qid": "14634_chapel_bookstore_grab",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "mistake negates required mens rea/unlawfulness vs mistake only affects strict-liability or legal-advice trap",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-MISTAKE-GATE-01",
+        "GK-CRIM-MISTAKE-LAW-02"
+      ],
+      "silver_keys": [
+        "SK-CRIM-MISTAKE-QUARTET-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14635.md",
+      "qid": "14635_barnabas_aspirin_capsule",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "drug effect vs involuntary ingestion",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-INTOXICATION-GENERAL-INTENT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-INTOXICATION-AXIS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14636.md",
+      "qid": "14636_bible_cafe_basement",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "does the higher label survive defense and mens rea checks?",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIM-SELF-DEFENSE-01",
+        "GK-CRIM-BURGLARY-INTENT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-MOST-SERIOUS-RESIDUAL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14637.md",
+      "qid": "14637",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "borrowed intent / felony status vs required mental state for the charged property-damage count",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIM-MENS-STATE-TARGET-01",
+        "GK-CRIM-SEPARATE-COUNTS-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-INSTRUCTION-SHORTCUT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14638.md",
+      "qid": "14638_galilee_garments",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "Personal culpability / personal act vs responsible corporate officer control position.",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-RCO-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-RCO-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14639.md",
+      "qid": "14639_prayer_walk_self_defense",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "1",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-SELF-DEFENSE-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-SELF-DEFENSE-01",
+        "SK-CRIM-BECAUSE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14640.md",
+      "qid": "14640_church_preschool_custody",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "freestanding advice-of-counsel defense vs belief negating statutory knowledge",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-MENS-REA-COUNSEL-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-STATUTE-WORD-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14641.md",
+      "qid": "14641",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "3",
+      "tension_axis": "completed strict-liability statutory rape vs attempted statutory rape requiring age intent under supplied exam rule",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIMINAL-ATTEMPT-STRICT-LIABILITY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-ATTEMPT-CALL-01",
+        "SK-CRIMINAL-ANSWER-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14643.md",
+      "qid": "14643",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "retreat/open-door bait vs home self-defense",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-SELFDEF-HOME-01",
+        "GK-CRIMINAL-MALICE-NO-INTENT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-HOME-KNIFE-01",
+        "SK-CRIMINAL-WRONG-REASON-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14644.md",
+      "qid": "14644",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "age/status fact vs regulation/legal-classification knowledge",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIM-MISTAKE-TARGET-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-UNSEEN-ID-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14645.md",
+      "qid": "14645_advent_sidewalk",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "which statutory conduct element must be voluntary",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-VOLUNTARY-ACT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-ELEMENT-TRIAGE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14649.md",
+      "qid": "14649",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "legal_impossibility_vs_factual_impossibility",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CRIM-LEGAL-IMPOSSIBILITY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-DEFINITION-FIRST-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14650.md",
+      "qid": "14650_fellowship_picnic",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "3",
+      "tension_axis": "specific-intent charge vs general-intent charge",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-INTOX-SPECIFIC-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-SCOPE-QUARTET-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14654.md",
+      "qid": "14654_fellowship_trail",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "cognitive_wrongfulness_vs_volitional_conformity",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIM-INSANITY-VOLITION-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-INSANITY-TEST-NAME-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14655.md",
+      "qid": "14655_study_bible_case",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "specific-intent-to-steal vs voluntary-intoxication/no-mistake bait",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-ROBBERY-MISTAKE-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-ROBBERY-MISTAKE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14656.md",
+      "qid": "14656_fellowship_flag_football",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "3",
+      "tension_axis": "deny acquittal only vs deny acquittal and give manslaughter instruction",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIM-CAUSATION-REFUSAL-01",
+        "GK-CRIM-MANSLAUGHTER-INSTRUCTION-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-TWO-MOTION-CALL-01",
+        "SK-CRIM-WORDS-VS-SLAP-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14657.md",
+      "qid": "14657_lampstand_window_volley",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "3",
+      "tension_axis": "Second-degree implied-malice common-law murder vs third-degree felony murder.",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-DEPRAVED-HEART-MOST-SERIOUS-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-HOMICIDE-LADDER-01",
+        "SK-CRIMINAL-ACT-VS-KILL-02"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14658.md",
+      "qid": "14658_christian_publishing",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "3",
+      "tension_axis": "created foreseeable deadly chain vs personal-shooter/intent/transfer requirement",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-DEPRAVED-CAUSATION-01",
+        "GK-CRIM-TRANSFERRED-INTENT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-BASIS-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14659.md",
+      "qid": "14659_bible_study_ambush",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "Top homicide offense vs mitigation/justification downgrade",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-PLANNED-PROVOCATION-01",
+        "GK-CRIMINAL-WILLFUL-PREMED-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-HOMICIDE-LADDER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14663.md",
+      "qid": "14663_lydias_bookstore_warehouse",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "murder mental-state rung vs involuntary-manslaughter lesser rung",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-DEPRAVED-HEART-01",
+        "GK-CRIM-VOL-MANSLAUGHTER-PROVOCATION-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-LADDER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14664.md",
+      "qid": "14664_bible_study_gas_station",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "offense_bundle: homicide level x arson status",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-FIRE-DEATH-01",
+        "GK-CRIM-MALIGNANT-RISK-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-OFFENSE-BUNDLE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14665.md",
+      "qid": "14665_bible_study_stop_sign",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "actual_danger_vs_reasonable_apprehension",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-RECKLESS-INTOXICATION-01",
+        "GK-CRIM-SELFDEFENSE-REASONABLE-APPREHENSION-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-ACTUAL-DANGER-VS-REASONABLE-APPREHENSION-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14668.md",
+      "qid": "14668_laxative-lies",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "core",
+      "tension_axis": null,
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CRIM-HOMICIDE-01",
+        "GK-CRIM-HOMICIDE-02"
+      ],
+      "silver_keys": [],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14669.md",
+      "qid": "14669",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "murder_by_extreme_recklessness_vs_involuntary_manslaughter",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-SUFFICIENCY-MOST-FAVORABLE-01",
+        "GK-CRIM-EXTREME-RECKLESSNESS-MURDER-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-DEGREE-LADDER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14678.md",
+      "qid": "14678_galilee_grill",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "deliberation/cool reflection vs knowing killing",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-INTOX-COOL-REFLECTION-01",
+        "GK-CRIM-WORDS-NO-MANSLAUGHTER-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-INSTANT-VS-COOL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14679.md",
+      "qid": "14679_fellowship_cup",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "Two-victim charge matrix: intended target attempt branch + unintended victim homicide branch.",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-POISON-ATTEMPT-01",
+        "GK-CRIM-UNINTENDED-POISON-DEATH-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-TWO-VICTIM-CHECKLIST-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14680.md",
+      "qid": "14680_christian_bookstore_ricochet",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "unknown",
+      "tension_axis": null,
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CRIM-IMPL-MALICE-ACCOMPLICE-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-ANSWER-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14684.md",
+      "qid": "14684_peters_third_shot",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "single-degree-only vs inclusive murder/manslaughter range",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CRIM-FATAL-SHOT-TIMING-01",
+        "GK-CRIM-HEAT-PASSION-RANGE-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-FATAL-ACT-01",
+        "SK-CRIM-HOMICIDE-RANGE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ14690.md",
+      "qid": "14690_bible_study_protected_victim",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "3",
+      "tension_axis": "protected victim as non-conspirator vs agreement-only / Wharton / minor-incapacity routes",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-PROTECTED-VICTIM-CONSPIRACY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-REASON-SORT-CONSPIRACY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ14736.md",
+      "qid": "14736_camp_van_crossing",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "unknown",
+      "tension_axis": null,
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIMINAL-KIDNAPPING-MPC-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-KIDNAPPING-MPC-01"
+      ],
+      "drill_seed_count": 2
+    },
+    {
+      "source_file": "CQ14859.md",
+      "qid": "14859_lakeside-bible-study",
+      "subject": "EVIDENCE",
+      "correct": "D",
+      "difficulty_band": "core",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-EVIDENCE-FRE409-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-POLICY-EXCLUSION-01"
+      ],
+      "drill_seed_count": 2
+    },
+    {
+      "source_file": "CQ14904.md",
+      "qid": "14904_best_evidence_refresh",
+      "subject": "EVIDENCE",
+      "correct": "C",
+      "difficulty_band": "core",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [],
+      "silver_keys": [
+        "SK-EVIDENCE-BEST-EVIDENCE-REFRESH-001"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ15222.md",
+      "qid": "15222_mannafuel_lydia_racecar",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "identity indicia vs literal name/face",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-PUBLICITY-IDENTITY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-IDENTITY-CLUSTER-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ15223.md",
+      "qid": "15223_lydias_loaves",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "inside-party-to-contract vs outside-interferer",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-TORTS-TI-OUTSIDER-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-TI-DEFENDANT-LINE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ15224.md",
+      "qid": "15224_bible_workbook_press",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "ordinary-community substantial interference vs plaintiff-specific sensitivity",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-NUISANCE-SENSITIVITY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-NUISANCE-INTERFERENCE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ15253.md",
+      "qid": "15253_barnabas_quarry_safety_audit",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "actual strict-liability defense vs neighboring frames",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-ABD-AOR-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-STRICT-BEST-DEFENSE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ15254.md",
+      "qid": "15254_lydia_selah_blue_dye",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "Products liability defect theory vs abnormally-dangerous-activity escape theory.",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-TORTS-ACTIVITY-VS-PRODUCT-01",
+        "GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-ESCAPE-NOT-PRODUCT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ15255.md",
+      "qid": "15255",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "FTCA negligence gate vs strict-liability / causation-side-path",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-FTCA-NEGLIGENCE-GATE-01",
+        "GK-TORTS-RES-IPSA-NEGLIGENCE-SHORTCUT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-FTCA-GATE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ15257.md",
+      "qid": "15257_peter_on_the_ledge",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "rescuer foreseeability vs adjacent inspection/reliance/user-conduct frames",
+      "dominant_trap": "A or B, depending on whether the student defaults to retailer-care or reliance/privity.",
+      "gold_keys": [
+        "GK-TORTS-DEFECTIVE-PRODUCT-RESCUER-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-RESCUER-CALL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ15258.md",
+      "qid": "15258_good_shepherd_dental",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "strict-products-liability switch + malpractice switch",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-SERVICE-PROVIDER-01",
+        "GK-TORTS-MALPRACTICE-DUE-CARE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-DUAL-THEORY-MATRIX-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ15259.md",
+      "qid": "15259",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "3",
+      "tension_axis": "Warning-causation threshold vs comparative-fault/damages allocation",
+      "dominant_trap": "C, because comparative fault language is expressly planted in the stem.",
+      "gold_keys": [
+        "GK-TORTS-WARNING-CAUSATION-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-WARNING-THRESHOLD-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ15262.md",
+      "qid": "15262_fiery_furnace_panels",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "General strict-liability harm vs bodily-harm-linked emotional-distress damages.",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-PHYSICAL-HARM-ED-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-DAMAGES-CALL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ15263.md",
+      "qid": "15263_galilee_gt",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "foreseeable high-speed use / warning defect vs complete misuse or negligence bar",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-TORTS-FORESEEABLE-MISUSE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-MISUSE-VS-WARNING-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ15264.md",
+      "qid": "15264_emmaus_roadster",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "3",
+      "tension_axis": "Does the answer stay on engine-defect causation, or switch to crashworthiness / superseding cause / normal sensitivity?",
+      "dominant_trap": "Unknown because pick rates were blank; most structurally dangerous trap is B because it is a true products-liability neighbor.",
+      "gold_keys": [
+        "GK-TORTS-DESIGN-DEFECT-01",
+        "GK-TORTS-FORESEEABLE-INTERVENING-01",
+        "GK-TORTS-NORMAL-SENSITIVITY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-DEFECT-CHAIN-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ16001.md",
+      "qid": "16001_seminary_baggage_claim",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "medium_high",
+      "tension_axis": "Which No answer gives the operative suppression reason: generic arrest authority or probable cause tied to the suitcase?",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CRIM-DOG-SNIFF-LUGGAGE-01",
+        "GK-CRIM-SIA-IMMEDIATE-CONTROL-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-SUPPRESSION-REASON-01",
+        "SK-CRIM-WRONG-PURPOSE-SECURITY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ17026.md",
+      "qid": "17026_manger_prop_bundles",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": "UCC agreement-source hierarchy: private course of dealing versus general trade usage versus default gap-fillers.",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-MANGER-BUNDLES-01",
+        "GK-CONTRACTS-MANGER-BUNDLES-02"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-MANGER-BUNDLES-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ17045.md",
+      "qid": "17045_scripture_banner_cloth",
+      "subject": "EVIDENCE",
+      "correct": "B",
+      "difficulty_band": "medium-hard",
+      "tension_axis": null,
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-EVIDENCE-TRADE-TERMS-01",
+        "GK-EVIDENCE-OPINION-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-PURPOSE-LABEL-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ17058.md",
+      "qid": "17058_advent_honey_parcel",
+      "subject": "REAL_PROPERTY",
+      "correct": "B",
+      "difficulty_band": "discriminator",
+      "tension_axis": "deed validity at delivery vs downstream recording/consideration/custody facts",
+      "dominant_trap": "unknown_no_pick_rates_supplied",
+      "gold_keys": [
+        "GK-REAL_PROPERTY-BLANK-GRANTEE-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-DEED-GATE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ17084.md",
+      "qid": "17084_five_loaves_bank_records",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium-hard anchor",
+      "tension_axis": "Fourth Amendment protected interest in bank records vs no protected interest under third-party doctrine",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-BANK-THIRD-PARTY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-SUPPRESSION-THRESHOLD-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ17110.md",
+      "qid": "17110_sticker_press_guaranty",
+      "subject": "CONTRACTS",
+      "correct": "D",
+      "difficulty_band": "core",
+      "tension_axis": "performance before death vs notice/death trap",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-PERFORMANCE-GUARANTY-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-STICKER-PRESS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ17151.md",
+      "qid": "17151_carol_program",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "general intent vs specific intent defense scope",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ17157.md",
+      "qid": "17157_vocational-rehab",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "core",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONLAW-EP-01"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-EP-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ17167.md",
+      "qid": "17167_manger_lights_portal",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "A",
+      "difficulty_band": "medium-hard",
+      "tension_axis": null,
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CONLAW-MANGER-LIGHTS-01",
+        "GK-CONLAW-MANGER-LIGHTS-02"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-MANGER-LIGHTS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ17173.md",
+      "qid": "17173_road_to_emmaus_puzzle_quest",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": null,
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONTRACTS-BARGAIN-PRICE-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-REMEDY-MENU-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ17685.md",
+      "qid": "17685_church_basement_dispute",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "core",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVPRO-SMJ-NONWAIV-01"
+      ],
+      "silver_keys": [
+        "SK-CIVPRO-SMJ-CUT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ17979.md",
+      "qid": "17979_hannahs_tractor",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "medium",
+      "tension_axis": "AS-IS disclaimer controls over IWM-definitional fact, dealer's opinion, and household privity",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-TORTS-WARRANTY-ASIS-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-ASIS-DISCLAIMER-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ18090.md",
+      "qid": "18090_prayer_journals_price_line",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "unknown",
+      "tension_axis": null,
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONTRACTS-REFORMATION-PRICE-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-PRICE-OMISSION-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ18456.md",
+      "qid": "18456_stephens_chainsaw",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "core",
+      "tension_axis": null,
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-LARCENY_BY_TRICK-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-LARCENY_BY_TRICK-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19177.md",
+      "qid": "19177_manna_wagon_disposal",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium-hard anchor",
+      "tension_axis": "specific Property Clause source vs wrong constitutional labels",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONLAW-PROPERTY-DISPOSE-01",
+        "GK-CONLAW-ATTAINDER-PUNISHMENT-02",
+        "GK-CONLAW-FOURTEENTH-STATE-03",
+        "GK-CONLAW-NO-GENERAL-POLICE-04"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-MANNA-WAGONS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19194.md",
+      "qid": "19194_loaves_pages",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "D",
+      "difficulty_band": "hard",
+      "tension_axis": "Equal-protection classification purpose vs benefit-entitlement frame",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONLAW-WINDSOR-DOMA-01",
+        "GK-CONLAW-WINDSOR-SCRUTINY-02"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-BENEFIT-FRAME-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19213.md",
+      "qid": "19213_road_to_emmaus_breezeway",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium_high",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-THIRD-PARTY-SECURITY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-SECURITY-CALL-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19228.md",
+      "qid": "19228_prayer_card_study_bible",
+      "subject": "EVIDENCE",
+      "correct": "C",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": "communication substance and confidentiality vs medium/refusal traps",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-EVIDENCE-MARITAL-WRITTEN-COMMUNICATION-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-PRAYER-CARD-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19250.md",
+      "qid": "19250_scripture_card_printer",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "trap repair",
+      "tension_axis": "objective commercial performance vs subjective personal dislike",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONTRACTS-SATISFACTION-COMMERCIAL-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-SATISFACTION-COMMERCIAL-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19263.md",
+      "qid": "19263_chapel_handbells",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "hard anchor-assisted taxonomy",
+      "tension_axis": "What passed because of the deception: ownership/title, possession only, or lawful custody?",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-TITLE-PRESENT-FACT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-TITLE-AXIS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19266.md",
+      "qid": "19266_carol_banquet_jmol",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "medium",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-JMOL-STANDARD-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-JMOL-PROCEDURAL-LENS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19286.md",
+      "qid": "19286_five_loaves_press",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "medium_high",
+      "tension_axis": "prejudice-only curative measures vs intent-based severe sanctions",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-LOST-ESI-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-LOST-ESI-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19336.md",
+      "qid": "19336_nativity_warehouse_rescue",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium_high_anchor_dependent",
+      "tension_axis": "majority reasonable appearance versus alter-ego actual rights",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIM-DEFENSE-OTHERS-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-DEFENSE-OTHERS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19379.md",
+      "qid": "19379_hymn_candle_invoice_van",
+      "subject": "EVIDENCE",
+      "correct": "B",
+      "difficulty_band": "discriminator",
+      "tension_axis": "adverse spousal testimonial privilege vs confidential marital communications privilege",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-EVIDENCE-SPOUSAL-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-SPOUSAL-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19381.md",
+      "qid": "19381_shepherd_olive_press_deed",
+      "subject": "REAL_PROPERTY",
+      "correct": "C",
+      "difficulty_band": "calibration",
+      "tension_axis": "recording as validity condition vs recording as notice/priority protection",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-REAL_PROPERTY-RECORDING-VALIDITY-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-RECORDING-VALIDITY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19386.md",
+      "qid": "19386_scripture_audio_cap",
+      "subject": "CONTRACTS",
+      "correct": "A",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": "same-contract cap travels with intended-beneficiary right vs nonparty escape from the cap",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONTRACTS-TPB-CAP-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-TPB-CAP-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19430.md",
+      "qid": "19430_harp_instructor_olive_grove",
+      "subject": "REAL_PROPERTY",
+      "correct": "A",
+      "difficulty_band": "calibration",
+      "tension_axis": "ascertainable role-holder vs formalities/entity traps",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-REAL_PROPERTY-ASCERTAINABLE-GRANTEE-01",
+        "GK-REAL_PROPERTY-GRANTEE-SIGNATURE-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-ROLE-GRANTEE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19434.md",
+      "qid": "19434_hymn_hands_stimulator",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "medium_high_anchor",
+      "tension_axis": null,
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-TORTS-LEARNED-INTERMEDIARY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-WARNED-RISK-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19448.md",
+      "qid": "19448_praise_night_tshirt_cannon",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "control/supply versus formal ownership",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-NEGLIGENT-ENTRUSTMENT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-NEGLIGENT-ENTRUSTMENT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19499.md",
+      "qid": "19499_jericho_chariot_night",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "medium-high",
+      "tension_axis": "minimum required participants vs extra participants",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-WHARTON-EXTRA-PARTY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-WHARTON-COUNT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19502.md",
+      "qid": "19502_manna_festival_finals_tax",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "taxing power revenue frame vs imported constitutional defect frames",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONLAW-TAX-REVENUE-01",
+        "GK-CONLAW-TAX-CLASS-02"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-TAX-ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19607.md",
+      "qid": "19607_cana_hills_bethany_flats",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "D",
+      "difficulty_band": "medium-hard anchor",
+      "tension_axis": "heightened-review trigger vs default rational basis",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONLAW-SCHOOL-FUNDING-01",
+        "GK-CONLAW-DISPARATE-IMPACT-01"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-SCHOOL-FUNDING-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19721.md",
+      "qid": "19721_jonah_whale_float",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "claim sufficiency vs amount-in-controversy / notice pleading distractions",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-JONAH-WHALE-FLOAT-01",
+        "GK-CIVIL_PROCEDURE-JONAH-WHALE-FLOAT-02"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-JONAH-WHALE-FLOAT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19793.md",
+      "qid": "19793_dove_candle_ledgers",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "B",
+      "difficulty_band": "medium",
+      "tension_axis": "review now vs review after final judgment",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-COLLATERAL-ORDER-NARROWNESS-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-DOVE-CANDLE-LEDGERS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19840.md",
+      "qid": "19840_red_sea_bridge_bolts",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "D",
+      "difficulty_band": "medium",
+      "tension_axis": "fact itself vs communication about the fact",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-UNDERLYING-FACTS-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-FACT-NOT-CHAT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ19904.md",
+      "qid": "19904_psalm_orchard_foreclosure_notice",
+      "subject": "REAL_PROPERTY",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "process threshold versus sale-scope merits",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-REAL_PROPERTY-FORECLOSURE-NOTICE-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-FORECLOSURE-NOTICE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ19982.md",
+      "qid": "19982_manna_warehouse",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "medium_anchor",
+      "tension_axis": null,
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONLAW-SPENDING-CLEAR-NOTICE-01"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-MANNA-WAREHOUSE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20004.md",
+      "qid": "20004_dove_tokens_manna_game",
+      "subject": "CONTRACTS",
+      "correct": "D",
+      "difficulty_band": "trap repair",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-REQUIREMENTS-SHUTDOWN-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-REQUIREMENTS-LANE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20024.md",
+      "qid": "20024_loaves_fishes_crate_count",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "hard",
+      "tension_axis": "open-ended foreseeability vs known/limited class for a specific transaction",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-LIMITED-CLASS-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-TARGETED-USE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20100.md",
+      "qid": "20100_fish_and_loaves_keychains",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "discriminator",
+      "tension_axis": "alleged quantity versus admitted quantity",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-FISH-KEYCHAINS-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-FISH-KEYCHAINS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20123.md",
+      "qid": "20123_prayer_card_threat_writers",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium-high",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-PUBLIC-FALSE-LIGHT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-PRAYER-CARD-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20127.md",
+      "qid": "20127_jericho_trumpet",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "hard",
+      "tension_axis": "violation layer vs remedy layer; statement evidence vs physical evidence",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CRIM-MIRANDA-FRUIT-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-MIRANDA-REMEDY-LAYER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20153.md",
+      "qid": "20153_lampstand_labs",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium-hard anchor item",
+      "tension_axis": "automatic invalidity of aid to religious schools vs neutral secular-use aid",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONLAW-LAMPSTAND-01",
+        "GK-CONLAW-LAMPSTAND-02",
+        "GK-CONLAW-LAMPSTAND-03"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-LAMPSTAND-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20186.md",
+      "qid": "20186_road_to_emmaus_royalty_ledgers",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "D",
+      "difficulty_band": "high",
+      "tension_axis": "automatic outcome vs calibrated review",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-MAZARS-PRESIDENTIAL-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-AUTOMATIC-EXTREMES-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20213.md",
+      "qid": "20213_mercy_pool_reliction",
+      "subject": "REAL_PROPERTY",
+      "correct": "B",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": "adjoining owner vs public/far-side/no-private owner",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-REAL_PROPERTY-RELICTION-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-RELICTION-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20231.md",
+      "qid": "20231_crown_above_caesars",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "moderate-anchor",
+      "tension_axis": "belief-as-such punishment vs conduct regulation",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONLAW-BELIEF-CONDUCT-01"
+      ],
+      "silver_keys": [
+        "SK-CONLAW-BELIEF-CONDUCT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20247.md",
+      "qid": "20247_bible_memory_kit",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "B",
+      "difficulty_band": "medium-high",
+      "tension_axis": "Partial dismissal alone vs Rule 54(b) certification gate.",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-RULE54B-CERT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20258.md",
+      "qid": "20258_psalter_pressure",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium-hard",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-PSALTER-PRESSURE-01",
+        "GK-CRIMINAL-MIRANDA-SEPARATE-02"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-PSALTER-PRESSURE-01",
+        "SK-CRIMINAL-PSALTER-PRESSURE-02"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20271.md",
+      "qid": "20271_lantern_handbell_evening",
+      "subject": "CONTRACTS",
+      "correct": "A",
+      "difficulty_band": "calibration",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-COSTS-SAVED-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-PROFIT-MATH-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20291.md",
+      "qid": "20291_nativity_prop_rental_freeze",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "caption label vs practical command",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20307.md",
+      "qid": "20307_bethany_banners_transcript",
+      "subject": "EVIDENCE",
+      "correct": "A",
+      "difficulty_band": "hard",
+      "tension_axis": null,
+      "dominant_trap": "No measured dominant trap supplied; former-testimony answer is treated as the highest-risk trap by structure.",
+      "gold_keys": [
+        "GK-EVIDENCE-DOUBLE-HEARSAY-01",
+        "GK-EVIDENCE-FORMER-TESTIMONY-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-TRANSCRIPT-LAYERS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20310.md",
+      "qid": "20310_psalms_wax_lamp",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "medium-high",
+      "tension_axis": "later-installation use: breach proof vs limited feasibility use",
+      "dominant_trap": "later fix equals conclusive prior negligence",
+      "gold_keys": [
+        "GK-TORTS-LATER-REPAIR-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-LATER-REPAIR-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20312.md",
+      "qid": "20312_loaves_fishes_retreat",
+      "subject": "REAL_PROPERTY",
+      "correct": "C",
+      "difficulty_band": "medium_high",
+      "tension_axis": "interest/current-use burden vs principal/future-equity burden",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-REAL_PROPERTY-LIFE-ENCUMBRANCE-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-LIFE-ENCUMBRANCE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20313.md",
+      "qid": "20313_bethlehem_olivewood_crosses",
+      "subject": "EVIDENCE",
+      "correct": "C",
+      "difficulty_band": "discriminator",
+      "tension_axis": "compliance advice versus furthering fraud",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-EVIDENCE-CRIME-FRAUD-01",
+        "GK-EVIDENCE-WORKPRODUCT-DISTINCTION-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-CRIME-FRAUD-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20328.md",
+      "qid": "20328_bethlehem_star_drop",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "precise defect proof required vs res ipsa inference without direct defect proof",
+      "dominant_trap": "precise-defect requirement",
+      "gold_keys": [
+        "GK-TORTS-RES-IPSA-INFERENCE-01",
+        "GK-TORTS-RES-IPSA-CONTROL-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-RES-IPSA-ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20351.md",
+      "qid": "20351_red_sea_mini_golf",
+      "subject": "CONTRACTS",
+      "correct": "D",
+      "difficulty_band": "trap repair",
+      "tension_axis": "mutual-mistake fact vs contractual risk allocation",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CONTRACTS-AS-IS-MISTAKE-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-AS-IS-MISTAKE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20353.md",
+      "qid": "20353_baptism_tank_burst",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "D",
+      "difficulty_band": "medium_hard",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-DEFENDANT_COUNTERCLAIM-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-SUPP_COUNTERCLAIM_ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20370.md",
+      "qid": "20370_dove_mug_notice",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "notice-after-acceptance vs defect-alone defense",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-DOVE-NOTICE-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-DOVE-ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20387.md",
+      "qid": "20387_psalms_chess_indictment",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "hard",
+      "tension_axis": "violation versus remedy",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-ARREST-REMEDY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-ARREST-REMEDY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20404.md",
+      "qid": "20404_acts_axes_cash_loads",
+      "subject": "EVIDENCE",
+      "correct": "B",
+      "difficulty_band": "trap repair",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-EVIDENCE-ANY-TENDENCY-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-RELEVANCE-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20423.md",
+      "qid": "20423_galilee_props_bias",
+      "subject": "EVIDENCE",
+      "correct": "A",
+      "difficulty_band": "trap",
+      "tension_axis": "religious-belief truthfulness use versus organizational-affiliation bias use",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-EVIDENCE-RELIGION-BIAS-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-PURPOSE-AXIS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20439.md",
+      "qid": "20439_floating_star_driveway",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "moderate-hard",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-USER-SUPPLIER-01",
+        "GK-TORTS-FAULT-BASIS-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-BEST-ARGUMENT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20461.md",
+      "qid": "20461_lydia_beeswax_requirements",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "trap",
+      "tension_axis": null,
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONTRACTS-REQUIREMENTS-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-REQUIREMENTS-ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20476.md",
+      "qid": "20476_road_to_bethlehem_sash",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "hard",
+      "tension_axis": "extra manipulation/immediate apparentness vs no-warrant-after-pocket-entry",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-PLAIN-FEEL-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-PLAIN-FEEL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20493.md",
+      "qid": "20493_fish_mark_picnic_lot",
+      "subject": "REAL_PROPERTY",
+      "correct": "B",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-REAL_PROPERTY-MINIMAL-DEED-FORMALITIES-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-EXTRA-GATE-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20496.md",
+      "qid": "20496_loaves_prop_cart",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium_hard",
+      "tension_axis": "Who paid?",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-TORTS-COLLATERAL-SOURCE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-COLLATERAL-SOURCE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20516.md",
+      "qid": "20516_manna_games_duress",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium_high",
+      "tension_axis": "imminent threshold vs real-but-incomplete fear/family facts",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-DURESS-IMMINENCE-01",
+        "GK-CRIMINAL-DURESS-SCOPE-02"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-DURESS-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20523.md",
+      "qid": "20523_easter_stage_guaranty",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "trap repair",
+      "tension_axis": "extra formalities versus party-to-be-charged memorandum",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-SURETY-MEMO-THIRD-PERSON-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-SURETY-MEMO-ARRAY-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20542.md",
+      "qid": "20542_praise_festival_cashbox",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "hard",
+      "tension_axis": "same-offense substance versus different label",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CRIMINAL-MASSIAH-SAME-OFFENSE-01",
+        "GK-CRIMINAL-MASSIAH-CUSTODY-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-LABEL-VS-SUBSTANCE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20546.md",
+      "qid": "20546_jericho_wall_studio",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "medium_high",
+      "tension_axis": "named-defendant premises breach vs adjacent product/contractor/status facts",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-JERICHO-WALL-01",
+        "GK-TORTS-PRODUCT-SELLER-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-JERICHO-WALL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20556.md",
+      "qid": "20556_mustard_seed_puppet_caravan",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "hard",
+      "tension_axis": "later readiness / label-only answer vs reliance before cure",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONTRACTS-PROSPECTIVE-INABILITY-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-RELIANCE-TIMING-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20565.md",
+      "qid": "20565_purple_gear_hymnbook_tote",
+      "subject": "EVIDENCE",
+      "correct": "B",
+      "difficulty_band": "core",
+      "tension_axis": "foundation gate vs jury weight",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-EVIDENCE-FOUNDATION-GATE-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-FOUNDATION-GATE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20567.md",
+      "qid": "20567_psalm_panels_venue",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "valid federal statute directly controls vs Erie/state-law-policy bait",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-FED-STATUTE-VENUE-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-RULE-SOURCE-CALL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20569.md",
+      "qid": "20569_ark_float",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "core diagnostic",
+      "tension_axis": "exact stated terminating event vs neighboring contract doctrines",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CONTRACTS-ARK-FLOAT-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-ARK-FLOAT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20586.md",
+      "qid": "20586_psalms_hormone_use",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "medium_high",
+      "tension_axis": null,
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-MEDICAL-USE-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-PSALMS-HORMONE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20594.md",
+      "qid": "20594_daniels_whale_float",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "foreseeable rescue versus actual awareness",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-DANGER-INVITES-RESCUE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-BECAUSE-CLAUSE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20597.md",
+      "qid": "20597_olivewood_nativity_craft_swap",
+      "subject": "CRIMINAL_LAW",
+      "correct": "C",
+      "difficulty_band": "medium-high anchor-dependent",
+      "tension_axis": "fact mistake versus law mistake",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIMINAL-MISTAKE-FACT-LAW-01",
+        "GK-CRIMINAL-MISTAKE-FACT-LAW-02"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-FACT-LAW-MATRIX-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20598.md",
+      "qid": "20598_write_it_on_your_heart",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "identity-use/commercial-consent answer vs extra-condition traps",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-TORTS-APPROPRIATION-IDENTITY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-APPROPRIATION-IDENTITY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20599.md",
+      "qid": "20599_advent_handbell_integration",
+      "subject": "CONTRACTS",
+      "correct": "A",
+      "difficulty_band": "trap repair",
+      "tension_axis": "complete-and-exclusive integration vs mere non-contradiction",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONTRACTS-COMPLETE-INTEGRATION-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-INTEGRATION-CLASH-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20602.md",
+      "qid": "20602_davids_harp_projector",
+      "subject": "EVIDENCE",
+      "correct": "B",
+      "difficulty_band": "trap repair",
+      "tension_axis": "Barred defect/warning purpose versus general relevance/feasibility/negligence-only drift.",
+      "dominant_trap": "No measured pick rates supplied; likely diagnostic trap is negligence-only Rule 407 scope.",
+      "gold_keys": [
+        "GK-EVIDENCE-RULE407-PURPOSE-01"
+      ],
+      "silver_keys": [
+        "SK-EVIDENCE-RULE407-PURPOSE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20603.md",
+      "qid": "20603_road_to_emmaus_escape_room",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "2",
+      "tension_axis": "Daniel's negligent creation of peril vs Ruth-centered rescue facts",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-TORTS-RESCUE-NEGLIGENT-PERIL-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-TARGET-ACTOR-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20605.md",
+      "qid": "20605_scripture_quiz_whisper",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "medium-high",
+      "tension_axis": "publicity threshold vs false-impression-only / wrong privacy-tort frames",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-FALSE-LIGHT-PUBLICITY-01",
+        "GK-TORTS-PRIVACY-TORT-HOMES-02"
+      ],
+      "silver_keys": [
+        "SK-TORTS-FALSE-LIGHT-NO-PAIR-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20606.md",
+      "qid": "20606_lydia_festival_venue",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "complete venue buckets vs incomplete/poisoned venue list",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-VENUE-BUCKETS-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-VENUE-BUCKETS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20627.md",
+      "qid": "20627_ruth_hymn_poster_contract",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "C",
+      "difficulty_band": "2",
+      "tension_axis": "filing-day citizenship snapshot vs later domicile facts",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-DIVERSITY-FILING-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-DIVERSITY-SNAPSHOT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20636.md",
+      "qid": "15010",
+      "subject": "REAL_PROPERTY",
+      "correct": "A",
+      "difficulty_band": "medium",
+      "tension_axis": "actual knowledge of an express covenant versus implied/common-scheme or possible constructive-notice routes",
+      "dominant_trap": "B/D tie",
+      "gold_keys": [
+        "GK-REAL_PROPERTY-EQUITABLE-SERVITUDE-NOTICE-01",
+        "GK-REAL_PROPERTY-NEGATIVE-RECIPROCAL-COVENANT-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-INJUNCTION-ROUTE-01",
+        "SK-REAL_PROPERTY-ACTUAL-NOTICE-FACT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20638.md",
+      "qid": "20638_advent_rescue_beacons",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "practical interference vs geography/formality",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-FEDERAL-CONTRACTOR-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20649.md",
+      "qid": "20649_christmas_pageant_platform",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "defendant no-breach/foreseeability vs plaintiff avoidability vs other-cause blame",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-TORTS-FORESEEABLE-RISK-01",
+        "GK-TORTS-CONTRIB-AVOIDABILITY-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-PAGEANT-ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20654.md",
+      "qid": "20654_nativity_ornaments_volition",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium_hard",
+      "tension_axis": "cognition vs volition",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-IRRESISTIBLE-IMPULSE-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-IRRESISTIBLE-IMPULSE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20690.md",
+      "qid": "20690_bethlehem_star_drone",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "B",
+      "difficulty_band": "medium-hard",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-R12-PJ-WAIVER-01",
+        "GK-CIVIL_PROCEDURE-AMENDED-COMPLAINT-NO-REVIVAL-02"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-JURISDICTION-WORD-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20714.md",
+      "qid": "20714_prayer_robotics_kits",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "D",
+      "difficulty_band": "3",
+      "tension_axis": "Is this a general taxpayer grievance, or the narrow spending-power/Establishment-Clause exception?",
+      "dominant_trap": "B",
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-FLAST_SPENDING-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-PRAYER_ROBOTICS_KITS-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20717.md",
+      "qid": "20717_ruths_hymn_recording_procedure",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "2",
+      "tension_axis": "breach evidence vs breach-caused-injury evidence",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-MEDMAL-CAUSATION-01",
+        "GK-TORTS-LIFE-SUPPORT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-CAUSATION-LINK-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20725.md",
+      "qid": "20725_emmaus_laser_cutter",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "moderate-hard",
+      "tension_axis": "known-recipient duty boundary: no contract vs every foreseeable reader vs named recipient",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-KNOWN-RECIPIENT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-BRACKET-CLASS-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20727.md",
+      "qid": "20727_easter_garden_blast_hose",
+      "subject": "TORTS",
+      "correct": "A",
+      "difficulty_band": "medium_high",
+      "tension_axis": "special-risk injury link vs activity/site/timing shortcut",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-SPECIAL-RISK-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-RISK-LINK-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20728.md",
+      "qid": "20728_star_stable_stall",
+      "subject": "REAL_PROPERTY",
+      "correct": "B",
+      "difficulty_band": "medium-high",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-REAL_PROPERTY-STALL-WAIVER-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-STALL-WAIVER-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20729.md",
+      "qid": "20729_courtyard_stormwater",
+      "subject": "REAL_PROPERTY",
+      "correct": "C",
+      "difficulty_band": "medium-hard anchor array",
+      "tension_axis": "one-consequence answer versus combined-consequence answer",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-REAL_PROPERTY-WHOLE-TAKING-01"
+      ],
+      "silver_keys": [
+        "SK-REAL_PROPERTY-COMPONENT-PACKAGE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20730.md",
+      "qid": "20730_shepherd_sling_fair",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "2",
+      "tension_axis": "contact intent vs injury/risk/motive mental-state distractors",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-BATTERY-CONTACT-INTENT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-BATTERY-ANSWER-ARRAY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20733.md",
+      "qid": "20733_galilee_trails_death_notice",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium_high",
+      "tension_axis": "special erroneous-death-notice category vs ordinary NIED physical-danger default",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-ERRONEOUS-DEATH-NOTICE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-SPECIAL-CATEGORY-CUT-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20735.md",
+      "qid": "20735_bethlehem_donkey_blower",
+      "subject": "TORTS",
+      "correct": "D",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "all-or-nothing remedies versus tailored abatement and avoidable damages",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-NUISANCE-ABATEMENT-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-BETHLEHEM-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20737.md",
+      "qid": "20737_jonahs_whale_lyre",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "medium-high",
+      "tension_axis": "Which fact triggers specific performance?",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CONTRACTS-UNIQUE-GOODS-SP-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-JONAH-LYRE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20744.md",
+      "qid": "20744_bethlehem_loading_lane",
+      "subject": "TORTS",
+      "correct": "B",
+      "difficulty_band": "hard",
+      "tension_axis": "foreseeability target: plaintiff/risk in the lane versus set-stage cause, exact chain, or defendant's own breach",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-FORESEEABILITY-TARGET-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-BETHLEHEM-LANE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20760.md",
+      "qid": "20760_rubber_stamp_mail_fraud",
+      "subject": "EVIDENCE",
+      "correct": "D",
+      "difficulty_band": "trap",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [],
+      "silver_keys": [
+        "SK-EVIDENCE-RUBBER-STAMP-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ20805.md",
+      "qid": "20805_psalm_lanterns_confirmation",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "trap repair",
+      "tension_axis": "timely oral objection versus required written objection",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONTRACTS-MERCHANT-CONFIRMATION-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-TIMING-VS-FORM-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20808.md",
+      "qid": "20808_jericho_press",
+      "subject": "CONTRACTS",
+      "correct": "B",
+      "difficulty_band": "high",
+      "tension_axis": "new legal detriment vs preexisting duty",
+      "dominant_trap": "A",
+      "gold_keys": [
+        "GK-CONTRACTS-PRESS-DUTY-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-PRESS-DUTY-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ20811.md",
+      "qid": "20811_illuminated_psalms_solvent",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "D",
+      "difficulty_band": "hard",
+      "tension_axis": "defendant-created contacts vs plaintiff-side fairness/effects",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-CONTACTS_BEFORE_FAIRNESS-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-ILLUMINATED_PSALMS_SOLVENT-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ21711.md",
+      "qid": "21711_foam_whale_nativity_attachment",
+      "subject": "CIVIL_PROCEDURE",
+      "correct": "B",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "court power over defendant vs plaintiff/property/collection lures",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CIVIL_PROCEDURE-QIR-01"
+      ],
+      "silver_keys": [
+        "SK-CIVIL_PROCEDURE-JURISDICTION-ASSET-VALUE-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ21752.md",
+      "qid": "21752_olive_oil_ramp",
+      "subject": "TORTS",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "independent-contractor default vs nondelegable-duty exception",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-TORTS-NONDELEGABLE-01"
+      ],
+      "silver_keys": [
+        "SK-TORTS-NONDELEGABLE-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ21848.md",
+      "qid": "21848_manna_house_family_integrity",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "hard",
+      "tension_axis": "family-integrity route vs ordinary zoning route",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-FAMILY-INTEGRITY-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-ROUTE-CALL-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ21867.md",
+      "qid": "21867_psalm_puzzle_booth",
+      "subject": "CRIMINAL_LAW",
+      "correct": "A",
+      "difficulty_band": "moderate",
+      "tension_axis": "misdemeanor label vs cause link",
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-MISDEMEANOR-MANSLAUGHTER-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-MISDEMEANOR-MANSLAUGHTER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ21869.md",
+      "qid": "21869_tiny_house_hymn_sheet",
+      "subject": "CRIMINAL_LAW",
+      "correct": "D",
+      "difficulty_band": "medium-hard",
+      "tension_axis": null,
+      "dominant_trap": null,
+      "gold_keys": [
+        "GK-CRIM-THIRD-PARTY-HOME-01"
+      ],
+      "silver_keys": [
+        "SK-CRIM-ENTRY-FIRST-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ21872.md",
+      "qid": "21872_scripturequest_price_gate",
+      "subject": "CONSTITUTIONAL_LAW",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "in-state sales condition vs out-of-state price control",
+      "dominant_trap": "D",
+      "gold_keys": [
+        "GK-CONSTITUTIONAL_LAW-PRICE-AFFIRMATION-01"
+      ],
+      "silver_keys": [
+        "SK-CONSTITUTIONAL_LAW-PRICE-LEVER-01"
+      ],
+      "drill_seed_count": 4
+    },
+    {
+      "source_file": "CQ21879.md",
+      "qid": "21879_noahs_ark_puppet_set",
+      "subject": "CONTRACTS",
+      "correct": "C",
+      "difficulty_band": "medium-hard",
+      "tension_axis": "offer vs acceptance by required performance",
+      "dominant_trap": "acceptance-family trap; measured rates unavailable",
+      "gold_keys": [
+        "GK-CONTRACTS-MODE-ACCEPTANCE-01"
+      ],
+      "silver_keys": [
+        "SK-CONTRACTS-NOAHS-ARK-01"
+      ],
+      "drill_seed_count": 3
+    },
+    {
+      "source_file": "CQ22410.md",
+      "qid": "22410",
+      "subject": "CRIMINAL_LAW",
+      "correct": "B",
+      "difficulty_band": "medium",
+      "tension_axis": "private search/state action versus privacy-in-container analysis",
+      "dominant_trap": "C",
+      "gold_keys": [
+        "GK-CRIMINAL-PRIVATE-SEARCH-01"
+      ],
+      "silver_keys": [
+        "SK-CRIMINAL-ACTOR-BEFORE-PRIVACY-01"
+      ],
+      "drill_seed_count": 3
+    }
+  ]
+}

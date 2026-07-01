@@ -1,0 +1,503 @@
+---
+qid: 14595_daniel_riverside_cabin
+transformed_from: 14595
+subject: Criminal Law and Procedure
+topic: Constitutional Protection of Accused Persons (Criminal Procedure)
+subtopic: Searches and Seizures
+outline_code: 75070200
+key: C
+original_key: A
+letter_map: A→C, B→D, C→B, D→A
+dominant_trap: D
+pick_rates: inherited
+bank_validation_verdict: PASS
+review_truth: "A voluntarily-made preexisting writing found during a voluntary consent search is admissible; consent need not rest on actual recall of the item if the consent itself was voluntary under the totality of circumstances."
+---
+
+1) Final question — revised stem + call
+
+Daniel, who attends a small riverside congregation, suffers from a neurological condition that prevents him from remembering any event for longer than 48 hours. One week after his neighbor, Peter, disappeared, police arrested Daniel on suspicion of murder. After charges were filed, officers visited Daniel at his riverside cabin and asked if they might search the cabin for evidence. Daniel consented. During the search, officers found a leather-bound journal with an entry dated the day Peter disappeared: "Unimaginable peace. How could I not know that taking a life would bring such calm to the hand of the Lord?" Daniel was charged with murder. His attorney moved to exclude the journal entry on two grounds: (1) admission would violate Daniel's privilege against self-incrimination, and (2) Daniel's neurological condition prevented him from giving informed consent because, by the time he consented, more than 48 hours had passed and he could not remember making the entry. There is no evidence the officers who obtained consent were aware of Daniel's memory impairment. With regard to the journal entry, the court should
+
+Call: Decide which evidentiary ruling the court should make.
+
+
+2) Distilled Core Question
+
+Is a voluntarily-made preexisting journal entry admissible when found in a defendant's home during a consent search where the defendant, who has a 48-hour memory impairment and could not recall making the entry at the time he consented, nevertheless voluntarily consented and the officers were unaware of his impairment?
+
+
+3) Final answer choices (post-shuffle)
+
+A. Exclude the journal entry, because its use would violate the defendant's privilege against self-incrimination.
+
+B. Exclude the journal entry, because the defendant was not competent to consent to the search.
+
+C. Admit the journal entry, because the defendant's consent was not obtained by intentional police misconduct and the defendant was not compelled to make the journal entry.
+
+D. Admit the journal entry, pursuant to the good-faith exception to the exclusionary rule.
+
+
+4) Correct answer — C (original key: A)
+
+
+5) Letter Map (original → new)
+
+- Original A → C : correct_answer, substance kept, 73% (inherited)  
+- Original B → D : mold_family kept (good-faith exception distractor), rewritten phrasing, 16% (inherited) — DOMINANT TRAP  
+- Original C → B : mold_family kept (incapacity/competency distractor), rewritten phrasing, 5% (inherited)  
+- Original D → A : mold_family kept (Fifth Amendment privilege distractor), rewritten phrasing, 6% (inherited)
+
+
+6) Full right-answer explanation (exam-register)
+
+The consent to search was voluntary under the Fourth Amendment, evaluated by the totality of the circumstances; courts do not require that a person actually recall a particular document in order to give valid consent. The journal entry was a preexisting, voluntarily-made written statement, not the product of police compulsion, and thus is admissible against the defendant. In short: (1) the search was valid because consent was voluntary (no coercion or misconduct); and (2) the writing itself was not compelled testimony and was admissible. (See Gold Key below.)
+
+
+7) Full wrong-answer explanations — one per distractor
+
+A (post-shuffle A — original D) — "privilege against self-incrimination" distractor (why attractive): This answer appeals because the journal passage is clearly incriminating and the Fifth Amendment protects defendants from being forced to incriminate themselves. (why it fails): The privilege shields compelled testimonial communications, not voluntarily-made preexisting writings found in a lawful search. The journal was created before police contact and was not the product of compulsion or police interrogation; admitting it does not violate the privilege.
+
+B (post-shuffle B — original C) — "incapacity/competency to consent" distractor (why attractive): This option sells the idea that a severe memory deficit (no recollection after 48 hours) makes any consent involuntary or incompetent, so the consent cannot validate the search. (why it fails): Voluntariness of consent under the Fourth Amendment is assessed from the totality of the circumstances; lack of actual memory of a particular item does not automatically render consent involuntary absent coercion or police misconduct. There is no evidence officers knew of the impairment or used coercion that would vitiate consent.
+
+D (post-shuffle D — original B) — "good-faith exception" distractor (why attractive): This answer tempts by offering a police-centered rescue: even if there were a problem, the good-faith exception saves the evidence. (why it fails): The good-faith exception applies to officers' reasonable reliance on a warrant or on judicial errors, not to consent searches. Here there is no warrant at issue, so the good-faith exception is not the correct legal hook.
+
+
+8) Full black-letter-law verification & legal reasoning (lawyer-confirmation layer)
+
+- Governing principles: Schneckloth v. Bustamonte, 412 U.S. 218 (1973): voluntariness of consent to search is judged under the totality of the circumstances and does not require that a suspect know of the right to refuse; the prosecution bears the burden of proving voluntariness.  
+- On preexisting writings and the Fifth Amendment: The privilege against self-incrimination protects compelled testimonial communications; voluntarily-made writings created before any police compulsion are generally admissible. See Schmerber v. California, 384 U.S. 757 (1966) (distinguishing compelled testimonial evidence from physical evidence) and Fisher v. United States, 425 U.S. 391 (1976) (documents themselves are not testimonial in the same way compelled oral statements are; act-of-production concerns arise when the government compels production). Here the diary was discovered during a consensual search and was not compelled or produced under compulsion.  
+- Application: Under Schneckloth, courts examine the totality of the circumstances to determine whether consent was voluntary; there is no per se rule that a memory impairment that prevents recall of a prior writing renders consent involuntary. Absent evidence officers knew of the impairment or engaged in coercion, consent stands and the preexisting journal entry is admissible.
+
+Sources:  
+- Schneckloth v. Bustamonte, 412 U.S. 218 (1973).  
+- Schmerber v. California, 384 U.S. 757 (1966).  
+- Fisher v. United States, 425 U.S. 391 (1976).
+
+
+9) Brief note on why the variation preserves original rigor/difficulty
+
+The transformed stem preserves the exact legal issue and trap geometry: whether consent was voluntary (Fourth Amendment) and whether a preexisting writing is protected by the Fifth Amendment. The distractors preserve the same mechanics (privilege vs incapacity vs policing-technical rescue) and the dominant trap (good-faith/technical excuse) remains the analytically strongest wrong answer. The Christian skin and riverside-cabin setting change surface recognition without altering doctrine or trap pull.
+
+
+10) C3 elimination walkthrough — CUT → CLASH → CALL
+
+CUT: Remove choices with visible structural failures.  
+- A (post-shuffle A — privilege): Not eliminated by grammar — responsive but fails on deeper doctrine (requires legal-leak audit).  
+- B (incapacity): Responsive but needs anchor; not cut purely by surface grammar.  
+- C (correct): Passes CUT — responsive and true.  
+- D (good-faith): Responsive but mismatched doctrine — passes CUT.
+
+CLASH: The real clash is between C and A/B on two axes: (1) whether the writing is "compelled testimonial" (Fifth Amendment axis: compelled vs voluntary); (2) whether the consent is voluntary given the defendant's memory impairment (Fourth Amendment axis: totality-of-circumstances). The single axis that decides is the Fourth Amendment voluntariness standard: were officers' actions and the circumstances such that consent was voluntary? Here, yes — officers did not coerce and did not know of impairment. Once voluntariness is established, the writing is admissible because it was not compelled. That defeats A and B. D loses because good-faith exception is inapplicable to consent searches.
+
+CALL: Apply the taught tiny anchor (Gold Key) that Schneckloth provides: "Voluntariness of consent is a totality question; knowledge of the right to refuse is not required." That anchor kills the incapacity and privilege-led objections here.
+
+
+11) Divergence Audit — Recognition-Kill Checklist (one line per item)
+
+- Asset/subject matter: Changed from "home" to "riverside cabin" (diverged).  
+- Transaction frame: Still a consent search of a dwelling — preserved.  
+- Specific lies/facts: Reworded incriminating entry to Christian-flavored language (diverged).  
+- Numbers/time: Kept 48-hour memory detail (preserved because doctrine depends on the short-memory fact).  
+- Fact ordering and stem rhythm: Reordered the reveal (diverged).  
+- Cast size/roles: Cast renamed Daniel/Peter and added church flavor (diverged).  
+- Choice ordering: Shuffled (diverged; letter map present).  
+- Choice phrasing: Paraphrased where possible, preserved legal meaning (diverged/kept per precedence).  
+- Setting/era/texture: Changed to riverside/cabin and church-adjacent flavor (diverged).  
+- Call wording: Kept equivalent legal call function (preserved).  
+
+Recognition test:  
+- Original-stem one-sentence summary: "Defendant with 48-hour memory impairment consented to police search of his home; police found diary entry that appears incriminating; counsel argues consent invalid because defendant could not remember the entry and admission violates privilege."  
+- Variant-stem one-sentence summary: "Daniel, with a 48-hour memory impairment, consented to a cabin search after charge; police found a preexisting journal entry suggesting he killed a neighbor; counsel argues consent and privilege bar admission."  
+- The two summaries overlap only on the legal fact-pattern (memory impairment, consent search, preexisting diary entry); they differ in surface details (names, setting, Christian flavor) meeting the recognition-kill goal.
+
+
+12) Review Truth (student-facing rule)
+
+A voluntary consent to a search makes evidence found in the search admissible; a preexisting voluntary writing is not protected by the Fifth Amendment's privilege as compelled testimony.
+
+
+13) The five variations considered (audit trail)
+
+Variation 1 — "Daniel and the Riverside Cabin" (chosen) — divergence score: 8/10 (changed asset, cast, facts, setting, phrasing, ordering, choice order, flavor). Why: Max surface divergence while preserving legal invariants.
+
+Variation 2 — "Mary's Fishing Skiff" — divergence score: 7/10 (boat instead of house; preserved voluntariness issue; skipped church-flavor for boat texture). Why: Very divergent, but boat introduces mooring/third-party authority edge — skipped to avoid new standing/doctrine risk.
+
+Variation 3 — "Paul's Church Basement" — divergence score: 6/10 (church-linked setting, but limited because church-related facts could add prohibited doctrinal clutter). Why not chosen: risk of adding church-internal legal issues.
+
+Variation 4 — "Esther's Farmhouse" — divergence score: 6/10 (rural asset, different cast). Reason: Less flavorful than riverside; plausible but less memorable.
+
+Variation 5 — "Timothy and the Rental Van" — divergence score: 5/10 (vehicle search variant); skipped because vehicle-search doctrine differs materially.
+
+Recommended/Chosen: Variation 1 — "Daniel and the Riverside Cabin" — highest divergence while preserving the exact legal issue and avoiding doctrinal clutter.
+
+
+---
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+Is evidence found in a search based on allegedly-impaired consent admissible when consent was voluntary under totality and the writing preexisted police contact?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+C
+
+### 99. Letter Map
+
+A→C, B→D, C→B, D→A
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+A voluntarily-made preexisting writing found during a voluntary consent search is admissible; consent need not rest on actual recall of the item if the consent itself was voluntary under the totality of circumstances.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+### PASS-2: FIVE BLOCKS (POST-SHUFFLE letters)
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: 14595_daniel_riverside_cabin
+  subject: Criminal Law and Procedure
+  topic: Constitutional Protection of Accused Persons (Criminal Procedure)
+  subtopic: Searches and Seizures
+  selection_percentages:
+    A: {value: 6, provenance: inherited}
+    B: {value: 5, provenance: inherited}
+    C: {value: 73, provenance: inherited}
+    D: {value: 16, provenance: inherited}
+  official_key: C
+  call: "Decide which evidentiary ruling the court should make."
+  choices:
+    A: "Exclude the journal entry, because its use would violate the defendant's privilege against self-incrimination."
+    B: "Exclude the journal entry, because the defendant was not competent to consent to the search."
+    C: "Admit the journal entry, because the defendant's consent was not obtained by intentional police misconduct and the defendant was not compelled to make the journal entry."
+    D: "Admit the journal entry, pursuant to the good-faith exception to the exclusionary rule."
+
+transform_provenance:
+  transformed_from: 14595
+  variant_slug: daniel_riverside_cabin
+  original_key_letter: A
+  new_key_letter: C
+  letter_map:
+    A: {original_letter: A, new_letter: C, mechanic: correct_answer, substance: kept, pick_rate: 73, provenance: inherited}
+    B: {original_letter: B, new_letter: D, mechanic: good_faith_exception_distractor, substance: rewritten, pick_rate: 16, provenance: inherited}
+    C: {original_letter: C, new_letter: B, mechanic: incompetence_to_consent_distractor, substance: rewritten, pick_rate: 5, provenance: inherited}
+    D: {original_letter: D, new_letter: A, mechanic: fifth_amendment_privilege_distractor, substance: rewritten, pick_rate: 6, provenance: inherited}
+  swap: {performed: false, replaced_original_letter: null, reason: null}
+  divergence_summary:
+    original_stem_one_sentence: "Defendant with 48-hour memory impairment consented to police search of his home; police found diary entry that appears incriminating; counsel argues consent invalid because defendant could not remember the entry and admission violates privilege."
+    variant_stem_one_sentence: "Daniel, with a 48-hour memory impairment, consented to a cabin search after charge; police found a preexisting journal entry suggesting he killed a neighbor; counsel argues consent and privilege bar admission."
+    dimensions_changed: ["asset","cast","setting","fact_order","phrasing","choice_order"]
+    dimensions_skipped_with_reason: []
+
+source_stack:
+  - QBank/14595.md (original source row)
+  - Schneckloth v. Bustamonte, 412 U.S. 218 (1973)
+  - Fisher v. United States, 425 U.S. 391 (1976)
+  - Schmerber v. California, 384 U.S. 757 (1966)
+
+student_access_contract: "Student may rely only on taught anchors (totality-of-circumstances test for consent) and the distinction between compelled testimonial communications and voluntary preexisting writings."
+
+stem_parse:
+  negative_stem: false
+  call_type: choose_correct_evidentiary_ruling
+  key_facts:
+    - charged_with_murder: true
+    - 48_hour_memory_impairment: true
+    - consent_search_after_charge: true
+    - officers_unaware_of_impairment: true
+    - preexisting_journal_entry: true
+
+trigger_facts:
+  - consent_was_given (student_access_label: visible)
+  - consent_was_given_after_charge (visible)
+  - officer_awareness_of_impairment: false (visible)
+  - journal_entry_preexisted_contact (visible)
+
+c3_routing:
+  subject_fit: Criminal Procedure - Search & Seizure
+  governing_law_type: Fourth Amendment voluntariness; Fifth Amendment testimonial privilege
+  deciding_phase: pretrial_evidence_motion
+  method_class: structural_cut_and_anchor
+  confidence: high
+  case_study_verdict: PASS
+  bank_validation_verdict: PASS
+  residual: C
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: Core
+
+answer_array:
+  geometry: 3v1_with_pairwise_axes
+  axis_named: ["Fifth-Amendment testimonial vs voluntary writing","Fourth-Amendment voluntariness of consent"]
+
+choice_walkthroughs:
+  A:\n    filter_broken: NOT_TRUE
+    mold_code: MOLD_FIFTH_PRIVILEGE
+    mold_family: PRIVILEGE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags: ["emotional_incrimination","privilege_overread"]
+    method_class: anchor_assisted
+    student_label: "Fifth-Amendment refuge"
+    c3_signal: "incriminating text => privilege applies"
+    lawyer_confirmation: "Privilege protects compelled testimonial communications, not voluntary preexisting documents; see Schmerber and Fisher."
+  B:\n    filter_broken: NOT_RESPONSIVE
+    mold_code: MOLD_INCAPACITY_TO_CONSENT
+    mold_family: COMPETENCY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags: ["medical_impairment_excuse"]
+    method_class: anchor_assisted
+    student_label: "Incompetent consent"
+    c3_signal: "memory defect => no consent"
+    lawyer_confirmation: "Voluntariness judged by totality; lack of recollection does not per se vitiate consent absent coercion or officer knowledge."
+  C:\n    filter_broken: NONE
+    mold_code: CORRECT_ANSWER
+    mold_family: CORRECT
+    bait_architecture_code: null
+    wrong_answer_architecture_tags: []
+    method_class: true_and_responsive
+    student_label: "consent valid; voluntary writing admissible"
+    c3_signal: "no officer misconduct; writing preexisting"
+    lawyer_confirmation: "Schneckloth governs consent; Fisher/Schmerber govern writings vs testimonial privilege."
+  D:\n    filter_broken: NOT_RESPONSIVE
+    mold_code: MOLD_GOOD_FAITH_EXCEPTION
+    mold_family: REMEDIAL_POLICE_EXCEPTION
+    bait_architecture_code: null
+    wrong_answer_architecture_tags: ["police_technical_fix"]
+    method_class: pure_anchor
+    student_label: "good-faith rescue"
+    c3_signal: "evidence saved by police good faith"
+    lawyer_confirmation: "Good-faith exception applies to warrant errors, not to voluntary consent searches."
+
+residual_answer: C
+
+legal_leak_audit:
+  summary: "All distractors pass the student-accessible controlling test; none invent outside-lawyer knowledge. The item uses taught anchors (totality test and testimonial vs physical evidence) to resolve."
+
+gold_keys:
+  - id: GK-CRIM-14595-01
+    statement: "Under Schneckloth, voluntariness of consent is determined by the totality of the circumstances; the prosecution must prove voluntariness, and awareness of the right to refuse is not required."
+    type: doctrinal_tiny_anchor
+    unlocks: "Whether a memory impairment that prevents recall of a prior writing automatically vitiates consent."
+    trigger: "Officer did not coerce consent and no evidence officers knew of the impairment."
+    authority: "Schneckloth v. Bustamonte, 412 U.S. 218 (1973)"
+    last_minute_review: "If officers did not coerce and had no knowledge of impairment, consent is likely voluntary."
+
+remediation:
+  card_id: RC-CRIM-14595-01
+  title: "Consent voluntariness vs memory defects"
+  signal: "You see consent + claim defendant forgot prior writing"
+  student_move: "Apply Schneckloth totality test; ask whether officers coerced or knew of impairment"
+  tiny_rule: "Memory loss alone doesn't void consent absent coercion or officer knowledge."
+  trap: "Assuming incapacity without coercion evidence"
+  confidence: high
+
+distilled_core_question: "Is evidence found in a search based on allegedly-impaired consent admissible when consent was voluntary under totality and the writing preexisted police contact?"
+
+review_truth: "A voluntary consent search validates evidence found there; a preexisting voluntary writing is not privileged testimonial compulsion."
+
+case_study_output: {verdict: PASS, post_shuffle_key: C}
+
+quality_control: {json_blocks_valid: true}
+
+analytics_hooks: {component_routing: [{destination_key: search_and_seizure_module, component_tags: ["consent","memory_impairment"]}]}
+```
+
+
+### 2. The 17-section student case study
+
+(program_frame)
+This item tests consent voluntariness (Fourth Amendment) and the testimonial vs voluntary-writing line (Fifth Amendment) under an evidence-exclusion motion.
+
+(student_access_test)
+Student limit: rely on taught anchors only — totality-of-circumstances test for consent and the concept that the Fifth Amendment protects compelled testimonial communications, not preexisting voluntary writings.
+
+(question_data)
+Defendant: Daniel (48-hour memory impairment). Charged with murder. Officers obtain consent to search cabin after charge; officers unaware of impairment. Journal entry dated the disappearance is incriminating.
+
+(distilled_core_question)
+Is the journal entry admissible when found during a consent search given the defendant's memory impairment?
+
+(call_and_prediction)
+Call: Decide evidentiary ruling. Prediction: Admit — answer C.
+
+(trigger_facts)
+1) Voluntary consent given. 2) Consent occurred post-charge. 3) Officers unaware of impairment. 4) Journal preexisted police contact.
+
+(governing_c3_lane)
+Primary lane: Search & Seizure — voluntariness-of-consent anchor (Schneckloth). Secondary lane: Fifth Amendment testimonial privilege (Schmerber/Fisher distinctions).
+
+(choice_by_choice_walkthrough)
+A — Fifth-privilege: Student signal: "incriminating writing => privilege". Student label: "Fifth refuge". True/responsive version would cite compelled production; here none occurred. Lawyer confirm: privilege protects compelled testimonial communications.
+
+B — Incompetence: Signal: "memory defect => no consent". Student label: "incompetent consent". True/responsive version would show officer coercion or known incapacity. Lawyer confirm: voluntariness is totality-based; mere lack of recall doesn't per se vitiate consent.
+
+C — Correct: Signal: "no officer misconduct; entry preexisting". Student label: "admit". Lawyer confirm: consent voluntary; writing voluntary — admissible.
+
+D — Good-faith: Signal: "police rescue". Student label: "warrant-rescue". True/responsive version would involve a defective warrant; here inapplicable.
+
+(residual_answer)
+C.
+
+(legal_leak_audit)
+Each choice's claim is student-resolvable with taught anchors. No distractor depends on hidden case law beyond Schneckloth and the testimonial distinction.
+Drift audit: no drift found.
+
+(final_student_script)
+1) Ask: Was consent voluntary under totality? 2) Was there officer knowledge or coercion? 3) If consent voluntary, is the journal a compelled testimonial communication? If no, admit.
+
+(remediation_card)
+See remediation card RC-CRIM-14595-01 above.
+
+## Gold Key(s)
+GK-CRIM-14595-01 (see above).
+
+## Silver Key(s)
+SK-CRIM-14595-01: "Name the single axis: voluntariness of consent; if officers were not coercive and unaware of impairment, cut incapacity-first." (type: navigational_telling)
+last_minute_review: true
+
+(qa_checklist)
+- Does consent appear voluntary? Yes. - Officer knowledge of impairment? No. - Writing preexisted? Yes. - Good-faith exception relevant? No.
+
+(wrong_answer_recovery_paths)
+If you picked A: re-check whether writing was compelled. If you picked B: re-check whether officer conduct or knowledge indicated incapacity. If you picked D: re-check whether a warrant or judicial error exists.
+
+(outline_mastery_map)
+outline_code: 75070200 — Searches and Seizures — voluntariness of consent; admissibility of evidence found in consent searches.
+
+(crossover_intersection_map)
+Touches evidence (Fifth Amendment) and procedure (Fourth Amendment). Keep doctrines separate: voluntariness first, then testimonial nature.
+
+(review_truth)
+A voluntary consent search validates evidence found; preexisting voluntary writings are not protected testimonial compulsion.
+
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14595_daniel_riverside_cabin",
+  "subject": "Criminal Law and Procedure",
+  "credited_answer": "C",
+  "outline_code": "75070200",
+  "distilled_core_question": "Is evidence found in a search based on allegedly-impaired consent admissible when consent was voluntary under totality and the writing preexisted police contact?",
+  "review_truth": "A voluntary consent to a search makes evidence found in the search admissible; a preexisting voluntary writing is not privileged testimonial compulsion.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "Fourth Amendment voluntariness; Fifth Amendment testimonial privilege",
+    "deciding_phase": "pretrial_evidence_motion",
+    "confidence": "high",
+    "tension_axis": "Fifth testimonial vs Fourth voluntariness",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Apply Schneckloth totality test first; then testimonial vs preexisting writing distinction",
+    "difficulty": "Core",
+    "distractors": [
+      {"choice": "A", "filter_broken": "NOT_TRUE", "mold": "MOLD_FIFTH_PRIVILEGE", "architecture": "privilege_overread", "explanation": "Voluntary preexisting writings are not compelled testimonial statements."},
+      {"choice": "B", "filter_broken": "NOT_RESPONSIVE", "mold": "MOLD_INCAPACITY_TO_CONSENT", "architecture": "competency_excuse", "explanation": "Memory impairment alone doesn't void consent absent coercion or officer knowledge."},
+      {"choice": "D", "filter_broken": "NOT_RESPONSIVE", "mold": "MOLD_GOOD_FAITH_EXCEPTION", "architecture": "police_rescue", "explanation": "Good-faith exception targets warrant reliance, not consent searches."}
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Variant changes surface elements only; invariant legal issues preserved.",
+      "transformed_from": "14595",
+      "letter_map": "A→C, B→D, C→B, D→A"
+    },
+    "gold_keys": ["GK-CRIM-14595-01"],
+    "silver_keys": ["SK-CRIM-14595-01"]
+  }
+}
+```
+
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14595_daniel_riverside_cabin",
+  "subject": "Criminal Law and Procedure",
+  "outline_code": "75070200",
+  "distilled_core_question": "Is a preexisting journal entry admissible when found during a consent search by a defendant with a 48-hour memory impairment who voluntarily consented?",
+  "review_truth": "A voluntary consent search validates evidence found there; a preexisting voluntary writing is not privileged testimonial compulsion.",
+  "tension": true,
+  "traps": [
+    {"choice": "A", "mold": "MOLD_FIFTH_PRIVILEGE", "architecture": "privilege_overread", "why_attractive": "The entry is obviously incriminating, making students reach for privilege protection.", "focus_group_pct": 6, "pct_provenance": "inherited"},
+    {"choice": "B", "mold": "MOLD_INCAPACITY_TO_CONSENT", "architecture": "competency_excuse", "why_attractive": "Medical impairment sounds like a categorical inability to consent.", "focus_group_pct": 5, "pct_provenance": "inherited"},
+    {"choice": "D", "mold": "MOLD_GOOD_FAITH_EXCEPTION", "architecture": "police_technical_fix", "why_attractive": "Students seek a policing-based saving doctrine.", "focus_group_pct": 16, "pct_provenance": "inherited"}
+  ],
+  "remediation_card": {"card_id": "RC-CRIM-14595-01", "title": "Consent voluntariness vs memory defects", "signal": "consent + claimed lack of recall", "student_move": "Apply Schneckloth totality test"},
+  "red_zone_dimensions": ["consent_voluntariness","testimonial_vs_writing"]
+}
+```
+
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14595_daniel_riverside_cabin",
+  "subject": "Criminal Law and Procedure",
+  "outline_code": "75070200",
+  "distilled_core_question": "Is evidence found in a search based on allegedly-impaired consent admissible when consent was voluntary under totality and the writing preexisted police contact?",
+  "review_truth": "A voluntary consent search validates evidence found; preexisting voluntary writings are not compelled testimonial communications.",
+  "wrong_answer_paths": [
+    {"choice": "A", "filter_broken": "NOT_TRUE", "mold": "MOLD_FIFTH_PRIVILEGE", "why_a_student_picks_this": "Incriminating text triggers Fifth Amendment reflex.", "skipped_move": "Check whether writing was compelled or produced under duress.", "recovery_step": "Ask whether the writing preexisted police contact or was produced under compulsion."},
+    {"choice": "B", "filter_broken": "NOT_RESPONSIVE", "mold": "MOLD_INCAPACITY_TO_CONSENT", "why_a_student_picks_this": "Memory defect seems to weaken the voluntariness predicate.", "skipped_move": "Evaluate officer conduct and knowledge of impairment.", "recovery_step": "Apply totality-of-circumstances and look for coercion or officer knowledge."},
+    {"choice": "D", "filter_broken": "NOT_RESPONSIVE", "mold": "MOLD_GOOD_FAITH_EXCEPTION", "why_a_student_picks_this": "Students default to police-centered doctrines to rescue evidence.", "skipped_move": "Check whether a warrant or judicial error exists.", "recovery_step": "Recognize good-faith exception applies to warrant errors, not consent searches."}
+  ],
+  "drill_seeds": [
+    {"drill_type": "mini", "target_skill": "identify_voluntariness_axis", "prompt": "Officer asks to search dwelling; suspect has memory impairment but consents. What is your first question?", "answer": "Was the consent voluntary under the totality of the circumstances?"}
+  ],
+  "trap_tags": {"forensic_tags": ["consent","memory_impairment"], "misconception_tags": ["privilege_overread","incapacity_assumes_involuntariness"]},
+  "component_routing": [{"destination_key": "search_and_seizure_module", "component_tags": ["consent","memory_impairment"]}],
+  "gold_keys": ["GK-CRIM-14595-01"],
+  "silver_keys": ["SK-CRIM-14595-01"],
+  "outline_mastery": {"placement": "Searches and Seizures", "this_item_teaches": ["consent_voluntariness","testimonial_vs_writing"], "fills": [], "adjacent_to_master": []}
+}
+```
+
+
+---
+
+End of file.

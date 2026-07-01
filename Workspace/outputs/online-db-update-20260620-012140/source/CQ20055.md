@@ -1,0 +1,514 @@
+---
+qid: 20055_ezra_tavern_variance
+transformed_from: 20055
+subject: CRIMINAL
+topic: Homicide
+subtopic: First-degree vs. second-degree murder — premeditation
+outline_code: 74020101
+key: B
+original_key: B
+letter_map: A→A, B→B, C→C, D→D
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder."
+---
+
+# PASS-1 TRANSFORM REPORT — Q20055
+
+## 1. Final Question
+
+Ezra and Barnabas were playing a friendly game of cards in a crowded tavern. After a disputed hand, Ezra accused Barnabas of cheating by hiding a card up his sleeve. Barnabas was furious. Without hesitating, Barnabas grabbed a heavy ceramic mug from the table and smashed it into Ezra's temple. Ezra died. There were no facts showing Barnabas had planned or waited for an opportunity to act.
+
+What homicide offense is best supported?
+
+## 2. Distilled Core Question
+
+During a sudden argument, the defendant grabbed an improvised weapon and struck the victim, intending to kill. No prior planning or reflection. What homicide degree is best supported?
+
+## 3. Final Answer Choices
+
+**A:** First-degree murder, because Barnabas intended to kill Ezra.
+
+**B:** Second-degree murder, because Barnabas intentionally killed without proven premeditation or deliberation.
+
+**C:** Voluntary manslaughter, because being accused of cheating in front of others is adequate provocation.
+
+**D:** Involuntary manslaughter, because the mug was an improvised weapon grabbed in the heat of the moment.
+
+## 4. Correct Answer
+
+**B** (originally B).
+
+## 5. Letter Map
+
+| Original | New | Mechanic | Substance | Pick % | Provenance | Flag |
+|----------|-----|----------|-----------|--------|------------|------|
+| A | A | EAR_DISTORTION / half_truth — intent to kill is present but misses premeditation requirement | kept | 34% | predicted | **DOMINANT TRAP** |
+| B | B | correct_answer | kept | 28% | predicted | |
+| C | C | EAR_OVERCLAIM / colloquialism — words alone insufficient provocation | kept | 22% | predicted | |
+| D | D | EAR_FALSITY / flat_misstatement — intent to kill is present | kept | 16% | predicted | |
+
+## 6. Full Right-Answer Explanation
+
+Malice aforethought (intent to kill) is present — Barnabas grabbed a heavy ceramic mug and smashed it into Ezra's temple. That is murder. But first-degree murder requires more than intent: it requires premeditation and deliberation — planning, waiting, or cool reflection. Here, the killing was sudden, provoked by an accusation during a card game, using an improvised weapon from the table. No facts show Barnabas planned or waited. Without premeditation and deliberation, the most serious supported offense is second-degree murder.
+
+**Gold Key:** First-degree murder requires BOTH intent to kill AND premeditation with deliberation. Intent alone = murder. Intent + planning/waiting/reflection = first-degree. Intent without those = second-degree.
+
+## 7. Full Wrong-Answer Explanations
+
+**A (originally A) — DOMINANT TRAP:** Barnabas DID intend to kill — that fact is true. Students equate intent to kill with first-degree murder. But first-degree requires the additional element of premeditation and deliberation. The sudden, improvised nature of the killing negates premeditation. The Gold Key — "intent + premeditation = first-degree; intent alone = second-degree" — kills this trap.
+
+**C (originally C):** Being accused of cheating during a card game might be provocative, but at common law, words alone are generally insufficient provocation to reduce murder to voluntary manslaughter. Adequate provocation requires something more — physical assault, catching a spouse in adultery, etc. Words ≠ adequate provocation at common law.
+
+**D (originally D):** Involuntary manslaughter requires an absence of intent to kill — either criminal negligence or an unlawful act. Here, Barnabas clearly intended to kill (smashing a heavy object into the victim's temple). The fact that the weapon was improvised doesn't negate intent. It affects the degree of murder, not whether it's murder at all.
+
+## 8. Black-Letter-Law Verification
+
+**Governing rule:** First-degree murder requires: (1) intent to kill (malice aforethought) AND (2) premeditation and deliberation. Second-degree murder requires intent to kill without premeditation/deliberation. Voluntary manslaughter requires intent to kill with adequate provocation and no cooling time. Involuntary manslaughter requires no intent to kill. *See* 2 W. LaFave, Substantive Criminal Law § 14.1-14.2; *People v. Anderson*, 70 Cal. 2d 15 (1968); *State v. Bingham*, 46 Wash. 2d 818 (1955) (words alone insufficient provocation).
+
+Application: Intent to kill = present (smashing heavy mug into temple). No premeditation/deliberation = present (sudden argument, improvised weapon, no planning). Words alone = insufficient provocation. Intent present = not involuntary manslaughter. Best supported: second-degree murder.
+
+**Verified:** Tested rule, legal issue, and credited outcome unchanged. Official key B confirmed.
+
+## 9. Rigor/Difficulty Note
+
+All distractor mechanics inherited. Christian skin (Biblical names, tavern setting) adds flavor without legal complexity. The graduated answer array (first-degree → second-degree → voluntary → involuntary manslaughter) is preserved.
+
+## 10. C3 Elimination Walkthrough
+
+**CUT phase:**
+- **D:** CUT. Involuntary manslaughter requires no intent to kill. Barnabas clearly intended to kill. NOT_TRUE. Eliminate.
+- **C:** CUT. Words alone are insufficient provocation at common law. Being accused of cheating ≠ adequate provocation. NOT_TRUE. Eliminate.
+
+**CLASH phase:**
+Two remain: A (first-degree) and B (second-degree).
+
+- **Axis:** Is there premeditation and deliberation?
+- **Splitting fact:** The killing was sudden, during an argument, using an improvised weapon, with no planning or waiting. No premeditation/deliberation.
+- **Resolution:** A is wrong — it has intent but misses the premeditation element. B correctly identifies second-degree murder.
+
+**CALL phase:** B is true-and-responsive. Residual = B. Agrees with official key.
+
+## 11. Divergence Audit
+
+| Dimension | Changed? | Details |
+|-----------|----------|---------|
+| **Setting** | ✅ | Noisy card game (generic) → crowded tavern |
+| **Weapon** | ✅ | Heavy glass bottle → heavy ceramic mug |
+| **Conflict trigger** | ✅ | Accusation of palming a card → accusation of cheating by hiding a card |
+| **Cast** | ✅ | Soren & Malik → Ezra & Barnabas |
+| **Choice ordering** | None | A→A, B→B, C→C, D→D (no shuffle needed — key already at B) |
+
+**Recognition test:**
+- Original: "During a noisy card game, Soren accused Malik of palming a card. Malik immediately grabbed a heavy glass bottle and smashed it into Soren's temple. Soren died."
+- Variant: "Ezra accused Barnabas of cheating by hiding a card. Barnabas grabbed a heavy ceramic mug and smashed it into Ezra's temple. Ezra died."
+
+Different names, different weapon, different phrasing of accusation. Same legal structure. **Recognition test: PASSED.**
+
+## 12. Review Truth
+
+First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.
+
+## 13. Five Variations Considered
+
+1. **Ezra's Tavern** (tavern card game, ceramic mug) — Score 7/10 ⭐ SELECTED
+2. **Daniel's Dice Game** (dice game, stone ashtray) — Score 7/10
+3. **Paul's Poker Night** (poker, brass candleholder) — Score 6/10 — too similar to card game
+4. **Stephen's Scrabble Match** (board game, bookend) — Score 7/10
+5. **Barnabas's Backgammon** (backgammon, wooden board) — Score 6/10
+
+Variation 1 won: tavern setting is vivid, ceramic mug is a natural improvised weapon, Biblical names add Christian flavor, no legal complexity added.
+---
+
+# PASS-2: FIVE BLOCKS
+
+## 14. CASE STUDY — Ezra v. The State
+
+### 14.1 Set the Scene
+
+You are a junior associate in a state prosecutor's office. Your supervising attorney hands you a homicide file and asks you to recommend the highest charge the evidence can support.
+
+### 14.2 Present the Facts
+
+The police report reads:
+
+> Ezra and Barnabas were playing a friendly game of cards in a crowded tavern. After a disputed hand, Ezra accused Barnabas of cheating by hiding a card up his sleeve. Barnabas was furious. Without hesitating, Barnabas grabbed a heavy ceramic mug from the table and smashed it into Ezra's temple. Ezra died.
+
+The report continues:
+
+> Witnesses confirm the argument was sudden and unplanned. Barnabas had no prior confrontation with Ezra before this evening. No weapon was brought to the tavern.
+
+### 14.3 Define the Task
+
+Your supervising attorney asks: "What is the highest homicide offense these facts can sustain?" She wants the most serious charge the evidence will actually support — not the easiest to prove, but the one most faithful to the facts.
+
+### 14.4 First Analysis — Eliminate Weak Choices
+
+Begin by eliminating answers that are factually or legally impossible.
+
+**Choice D (Involuntary manslaughter):** Involuntary manslaughter requires the killing to be unintentional — either through criminal negligence or during an unlawful act that is not a felony. Here, Barnabas grabbed a heavy ceramic mug and smashed it directly into Ezra's temple. That is a purposeful, intentional act aimed at causing death or grievous bodily harm. Intent to kill is present. A crime that requires the *absence* of intent to kill cannot stand. **Eliminate D.**
+
+**Choice C (Voluntary manslaughter):** Voluntary manslaughter reduces murder to a lesser offense when the defendant kills intentionally but under adequate provocation — a sudden heat of passion that would cause a reasonable person to lose self-control, with no time to cool off. At common law, adequate provocation requires something grave: a physical battery, witnessing adultery, an unlawful arrest, or an aggravated assault. Mere words — even offensive or humiliating words — are generally *insufficient provocation* at common law. Being accused of cheating during a card game, while embarrassing, does not rise to the level of legally adequate provocation. **Eliminate C.**
+
+### 14.5 The Clash — A vs. B
+
+Two answers remain:
+
+- **A:** First-degree murder — because Barnabas intended to kill Ezra.
+- **B:** Second-degree murder — because Barnabas intentionally killed without proven premeditation or deliberation.
+
+Both answers agree that Barnabas intended to kill. Both agree it is murder. The dispute is about the *degree*.
+
+### 14.6 Apply the Gold Key
+
+Recall the governing rule from your bar-prep materials:
+
+> **First-degree murder requires BOTH (1) intent to kill AND (2) premeditation with deliberation.**
+> Intent to kill without premeditation or deliberation = second-degree murder.
+> *See* 2 W. LaFave, Substantive Criminal Law §§ 14.1–14.2.
+
+The requirement of premeditation means the defendant must have *reflected upon* the decision to kill — even briefly. Deliberation means the decision was made in a *cool and dispassionate* state, not in the heat of a sudden passion. Planning, lying in wait, or waiting for an opportunity all satisfy premeditation and deliberation.
+
+### 14.7 Identify the Splitting Fact
+
+The single fact that determines the outcome is this: **The killing was sudden, provoked by an immediate argument, using an improvised weapon grabbed from the table.**
+
+Key facts from the file:
+- Barnabas "did not hesitate" — the act was impulsive, not reflective.
+- The weapon was a ceramic mug "from the table" — nothing was brought, nothing was planned.
+- The trigger was a real-time accusation during a card game — no prior grudge, no setup.
+- Witnesses confirmed "no prior confrontation" and "no weapon was brought."
+
+None of these facts show planning, reflection, lying in wait, or cool deliberation. This is the textbook definition of a killing committed in the heat of the moment — intentional, but not premeditated.
+
+### 14.8 Trap Analysis — Why A is the Dominant Trap
+
+**Choice A** is constructed to catch students who know one element (intent to kill) but forget the second (premeditation and deliberation). This is the single most common error on bar exam homicide questions. The distractor states a *true fact* ("Barnabas intended to kill") and draws a *wrong conclusion* from it ("therefore first-degree murder"). Students who associate "intent to kill" with "first-degree" will select A without thinking about premeditation. This is why A is the dominant trap with the highest predicted pick rate (34%).
+
+### 14.9 Resolve the Clash
+
+Apply the splitting fact to the two remaining answers:
+
+- **Choice A** claims first-degree murder because intent to kill is present. But first-degree murder requires intent to kill *AND* premeditation with deliberation. The facts show no premeditation — the killing was sudden and improvised. **A is wrong.**
+
+- **Choice B** claims second-degree murder because Barnabas intentionally killed but without proven premeditation or deliberation. This is exactly what the facts support: intent to kill (smashing a mug into the temple) without premeditation (sudden argument, improvised weapon, no planning). **B is correct.**
+
+### 14.10 Render the Verdict
+
+**Answer B is the correct answer.** The highest homicide offense supported by these facts is second-degree murder.
+
+### 14.11 Prescribe the Remediation
+
+A student who missed this question should review:
+
+> **First-Degree vs. Second-Degree Murder — Premeditation Distinction**
+> Intent to kill + premeditation & deliberation = first-degree murder.
+> Intent to kill alone (without premeditation/deliberation) = second-degree murder.
+> Ask: Did the defendant reflect, plan, wait, or act in a cool and dispassionate state? If no → second-degree at most.
+> *See* Gold Key GK-CRIM-MURDER-DEGREE-01.
+
+### 14.12 Connect Back to Gold Key
+
+This case is a direct, textbook application of the Gold Key:
+
+> *"First-degree murder requires both intent to kill AND premeditation with deliberation. Intent to kill without premeditation/deliberation is second-degree murder. Words alone are generally insufficient provocation at common law."*
+> — GK-CRIM-MURDER-DEGREE-01
+
+Every element of the Gold Key maps onto this hypothetical:
+- Intent to kill = present → murder (not manslaughter).
+- No premeditation/deliberation = sudden, improvised, passionate → second-degree (not first-degree).
+- Words alone = accusation of cheating → insufficient provocation (not voluntary manslaughter).
+
+### 14.13 Clinical Takeaway
+
+On the bar exam, when you see an intentional killing with no evidence of planning, lying in wait, or cool reflection, the answer is almost always **second-degree murder**. The exam tests whether you know that "intent to kill" is necessary but not sufficient for first-degree murder. The extra step — premeditation and deliberation — is the gatekeeper. If the facts don't show it, the charge doesn't reach first-degree.
+
+### 14.14 One-Sentence Summary
+
+Intentional + sudden + improvised + no plan = second-degree murder; never first-degree without premeditation.
+
+---
+
+## 15. DISTRACTOR MECHANICS — FULL ANALYSIS
+
+### 15.1 Choice A — DOMINANT TRAP (originally A)
+
+**Mechanism:** EAR_DISTORTION / half_truth
+
+**The half-truth:** Barnabas DID intend to kill Ezra. This part is factually correct. A heavy ceramic mug smashed into the temple is an act intended to cause death.
+
+**The distortion:** The answer leaps from "intent to kill" to "first-degree murder" without accounting for premeditation and deliberation. It is precisely this leap that makes A the most dangerous trap. Students associate intent to kill with first-degree murder and never think about the additional requirement. This is why A drew the highest predicted pick rate at 34%.
+
+**Why it's tempting:** Students remember "intent to kill = murder" but blur the degree distinction. They see a deliberate, violent killing and assume it must be first-degree. They forget that first-degree requires the defendant thought about it beforehand — even briefly. The question actively hides the distinction by giving a sudden, passionate killing that *feels* serious enough for first-degree.
+
+**Gold Key destruction:** The Gold Key states intent to kill without premeditation/deliberation is second-degree murder. The killing here was sudden — the opposite of premeditated. The Gold Key annihilates this distractor.
+
+### 15.2 Choice B — Correct Answer (originally B)
+
+**Mechanism:** correct_answer
+
+**Why it works:** Second-degree murder is the highest offense the facts can support. Intent to kill is present (malice aforethought). Premeditation and deliberation are absent (sudden argument, improvised weapon, no planning). The answer correctly identifies the degree of murder without over-claiming (first-degree) or under-claiming (manslaughter).
+
+### 15.3 Choice C (originally C)
+
+**Mechanism:** EAR_OVERCLAIM / colloquialism
+
+**The colloquialism:** Being publicly accused of cheating *feels* like it should be enough to make someone snap. Culturally, we understand that public humiliation can provoke violence. The answer exploits the student's instinctive empathy: "If someone called me a cheat in front of everyone, I'd be furious too."
+
+**Why it fails legally:** At common law, words alone are generally insufficient provocation to reduce murder to voluntary manslaughter. Adequate provocation requires something beyond insult — physical battery, witnessing spousal adultery, unlawful arrest, or mutual combat. Being called a cheat during a card game, while embarrassing, does not rise to that level.
+
+**Why it's tempting:** Students who rely on gut instinct rather than black-letter law will choose C because "it makes sense" that someone provoked into a killing spree should get a lesser charge. The Gold Key specifically warns that words alone are insufficient provocation.
+
+### 15.4 Choice D (originally D)
+
+**Mechanism:** EAR_FALSITY / flat_misstatement
+
+**The flat misstatement:** Involuntary manslaughter requires an *absent* intent to kill. Here, Barnabas grabbed a heavy ceramic mug and smashed it into Ezra's temple. That is a paradigmatic intentional killing — the opposite of involuntary. The claim that this is involuntary manslaughter is flatly false.
+
+**The wrinkle:** The answer tries to leverage the "improvised weapon" detail as though grabbing something from the table means the act was accidental or negligent. It wasn't. The choice of weapon (improvised vs. brought) affects the *degree* of murder (premeditation analysis), not whether the killing was intentional.
+
+**Why it's tempting:** Students who don't firmly grasp that involuntary manslaughter requires *no intent to kill* might be lured by the detail about the improvised weapon. They think: "He didn't plan it, so it must be involuntary." But "not planned" and "not intended" are very different things. Unplanned intentional killing is second-degree murder, not involuntary manslaughter.
+
+---
+
+## 16. STATS BLOCK
+
+```json
+{
+  "block": "STATS",
+  "qid": "20055_ezra_tavern_variance",
+  "difficulty": "UNKNOWN",
+  "pick_rates": {
+    "A": 0.34,
+    "B": 0.28,
+    "C": 0.22,
+    "D": 0.16
+  },
+  "method_class": "anchor_assisted",
+  "confidence": "ANCHOR_ASSISTED",
+  "deciding_phase": "CLASH",
+  "case_study_verdict": "ANCHOR_SOLVE",
+  "bank_validation_verdict": "PASS"
+}
+```
+
+---
+
+## 17. DETECTION BLOCK
+
+```json
+{
+  "block": "DETECTION",
+  "qid": "20055_ezra_tavern_variance",
+  "gold_key": {
+    "id": "GK-CRIM-MURDER-DEGREE-01",
+    "statement": "First-degree murder requires both intent to kill AND premeditation with deliberation. Intent to kill without premeditation/deliberation is second-degree murder. Words alone are generally insufficient provocation at common law.",
+    "type": "rule",
+    "authority": "2 W. LaFave, Substantive Criminal Law sections 14.1-14.2; People v. Anderson, 70 Cal. 2d 15 (1968); State v. Bingham, 46 Wash. 2d 818 (1955)"
+  },
+  "remediation_card": {
+    "id": "RC-CRIM-MURDER-DEGREE-01",
+    "title": "First-Degree vs. Second-Degree Murder",
+    "signal": "Intentional killing during sudden argument",
+    "student_move": "Check for premeditation AND deliberation",
+    "tiny_rule": "Intent + premeditation = first-degree. Intent alone = second-degree."
+  },
+  "dominant_trap": {
+    "choice": "A",
+    "mechanism": "EAR_DISTORTION / half_truth",
+    "why_tempting": "Intent to kill is present but misses premeditation requirement",
+    "gold_key_fix": "Intent alone = second-degree; need premeditation AND deliberation for first-degree"
+  },
+  "discrimination_analysis": {
+    "high_performers": "Recognize that no premeditation/deliberation facts exist; select B confidently",
+    "mid_performers": "Eliminate D and C correctly; struggle in A-vs-B clash based on intent-equals-first-degree heuristic",
+    "low_performators": "Choose A (dominant trap) by equating intentional killing with first-degree murder, or C by applying colloquial rather than legal provocation standard"
+  }
+}
+```
+
+---
+
+## 18. REMEDIATION BLOCK
+
+```json
+{
+  "block": "REMEDIATION",
+  "qid": "20055_ezra_tavern_variance",
+  "miss_pattern": {
+    "most_common_miss": "A",
+    "miss_rate": 0.34,
+    "root_cause": "Student equates intent to kill with first-degree murder; forgets premeditation requirement"
+  },
+  "repair_sequence": [
+    {
+      "step": 1,
+      "action": "IDENTIFY the killing type",
+      "prompt": "Is there intent to kill? (Yes — smashing heavy mug into temple = intent to kill. This is murder, not manslaughter.)"
+    },
+    {
+      "step": 2,
+      "action": "CHECK premeditation and deliberation",
+      "prompt": "Did the defendant plan, wait, reflect, or act in a cool state? (No — sudden argument, grabbed mug from table, 'did not hesitate.' No premeditation.)"
+    },
+    {
+      "step": 3,
+      "action": "APPLY Gold Key",
+      "prompt": "Intent + premeditation = first-degree. Intent alone = second-degree. Which fits? (Intent alone → second-degree murder.)"
+    },
+    {
+      "step": 4,
+      "action": "VERIFY provocation isn't adequate",
+      "prompt": "Words alone insufficient provocation at common law. Being accused of cheating ≠ adequate provocation. Voluntary manslaughter is wrong."
+    },
+    {
+      "step": 5,
+      "action": "CONFIRM answer",
+      "prompt": "B is correct: second-degree murder. Intent to kill without premeditation or deliberation."
+    }
+  ],
+  "flashcard": {
+    "front": "Defendant sudden-argument grabs improvised weapon, kills victim intentionally. No planning. What degree of murder?",
+    "back": "Second-degree murder. Intent to kill without premeditation/deliberation = second-degree. First-degree requires BOTH intent AND premeditation with deliberation.",
+    "tags": ["CRIMINAL", "Homicide", "Murder-Degree", "Premeditation"]
+  },
+  "mnemonic": "I + P = 1st. I alone = 2nd. (Intent + Premeditation = First-degree. Intent alone = Second-degree.)"
+}
+```
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20055_ezra_tavern_variance"
+  question_id: "20055_ezra_tavern_variance"
+  subject: "CRIMINAL"
+  topic: "Homicide"
+  subtopic: "First-degree vs. second-degree murder — premeditation"
+  outline_code: "74020101"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "20055"
+  variant_slug: "ezra_tavern_variance"
+  original_key_letter: "B"
+  new_key_letter: "B"
+  letter_map: "A→A, B→B, C→C, D→D"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "UNKNOWN"
+  confidence: "UNKNOWN"
+  residual: "B"
+distilled_core_question: "During a sudden argument, the defendant grabbed an improvised weapon and struck the victim, intending to kill. No prior planning or reflection. What homicide degree is best supported?"
+review_truth: "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20055_ezra_tavern_variance; source 20055.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Homicide; subtopic First-degree vs. second-degree murder — premeditation.
+4. **distilled_core_question:** During a sudden argument, the defendant grabbed an improvised weapon and struck the victim, intending to kill. No prior planning or reflection. What homicide degree is best supported?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 74020101.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 74020101.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20055_ezra_tavern_variance",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "74020101",
+  "distilled_core_question": "During a sudden argument, the defendant grabbed an improvised weapon and struck the victim, intending to kill. No prior planning or reflection. What homicide degree is best supported?",
+  "review_truth": "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.",
+  "c3": {
+    "verdict": "UNKNOWN",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "UNKNOWN",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20055; letter_map: A→A, B→B, C→C, D→D",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20055_ezra_tavern_variance",
+  "subject": "CRIMINAL",
+  "outline_code": "74020101",
+  "distilled_core_question": "During a sudden argument, the defendant grabbed an improvised weapon and struck the victim, intending to kill. No prior planning or reflection. What homicide degree is best supported?",
+  "review_truth": "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20055",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.",
+    "trap": "See preserved traps when present.",
+    "confidence": "UNKNOWN"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20055_ezra_tavern_variance",
+  "subject": "CRIMINAL",
+  "outline_code": "74020101",
+  "distilled_core_question": "During a sudden argument, the defendant grabbed an improvised weapon and struck the victim, intending to kill. No prior planning or reflection. What homicide degree is best supported?",
+  "review_truth": "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "74020101",
+    "this_item_teaches": "First-degree murder requires both intent to kill and premeditation with deliberation; a sudden intentional killing without planning or reflection is second-degree murder.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

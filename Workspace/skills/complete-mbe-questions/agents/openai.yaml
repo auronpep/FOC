@@ -1,0 +1,4 @@
+interface:
+  display_name: "Complete MBE Questions"
+  short_description: "Stepwise MBE answer workflow"
+  default_prompt: "Use $complete-mbe-questions to answer this MBE question with a concise step-by-step choice analysis."

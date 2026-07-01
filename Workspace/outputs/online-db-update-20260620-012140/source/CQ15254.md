@@ -1,0 +1,1072 @@
+---
+qid: "15254_lydia_selah_blue_dye"
+transformed_from: "15254"
+subject: "TORTS"
+topic: "Torts"
+subtopic: "Strict Liability and Products Liability"
+outline_code: "00000000"
+key: "B"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "A"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect."
+---
+Source row: BARMATRIX Q#15254, Torts, Strict Liability and Products Liability, official key **B**. The source row gives the original chemical-leak/cow-death fact pattern and the official explanations for A–D.  The requested output contract requires a PASS-1 transform report followed by PASS-2 YAML, a 17-section case study, and three JSON objects.
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question
+
+**Question ID:** `15254_lydia_selah_blue_dye`
+
+Lydia owned Galilee Dyes, a for-profit company that manufactured a liquid chemical product known as Selah Blue, used in printed Bible-study workbooks. Some Selah Blue leaked from a storage tank on Galilee Dyes’s property, seeped into the groundwater, flowed to Ruth’s adjacent dairy farm, and polluted Ruth’s well. Several of Ruth’s cows drank the polluted well water and died.
+
+If Ruth brings an action against Galilee Dyes to recover the value of the cows that died, Ruth will
+
+## 2. Distilled Core Question
+
+A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?
+
+## 3. Final answer choices
+
+**A.** prevail, because a manufacturer is strictly liable for harm caused by its products.
+**B.** prevail, because Selah Blue escaped from Galilee Dyes’s premises.
+**C.** not prevail, because Ruth is not a foreseeable plaintiff.
+**D.** not prevail, because Galilee Dyes was not engaged in an abnormally dangerous activity.
+
+## 4. Possible replacement answer choices
+
+No replacement is triggered. The original row contains no measured pick-rate data for A, C, or D, so no distractor is identified as a measured `<21%` weak distractor. The three original distractor roles are preserved:
+
+| Choice | Kept? | Reason                                                                                  |
+| ------ | ----: | --------------------------------------------------------------------------------------- |
+| A      |   Yes | Strong trap: product-liability frame when the better route is activity/escape.          |
+| C      |   Yes | Strong trap: denial by plaintiff-status/foreseeability despite adjacent-property facts. |
+| D      |   Yes | Strong trap: denial of the abnormally-dangerous-activity category.                      |
+
+Backup candidates not used:
+
+| Replacement target | Candidate                                                                                               | Mold                        | Why not used                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------- |
+| A                  | “prevail, because any chemical manufacturer is liable for all downstream harm caused by its chemicals.” | tiered_absolute             | Too easy; over-signals with “any/all.”                                        |
+| C                  | “not prevail, because only personal injuries are compensable in strict liability.”                      | fabricated_rule             | Clean, but changes trap away from foreseeability.                             |
+| D                  | “not prevail, because Galilee Dyes used reasonable care in maintaining the tank.”                       | bait_doctrine / wrong_frame | Good negligence trap, but it would add a different wrong-answer architecture. |
+
+## 5. Correct answer
+
+**B.**
+
+## 6. Full right-answer explanation
+
+**B is correct.** Ruth should prevail because the case is built around a dangerous substance escaping from Galilee Dyes’s premises and causing the exact kind of property harm that makes the storage dangerous.
+
+**Gold Key:** Strict liability can attach to an abnormally dangerous **activity**, not only to a defective product. When a stored chemical escapes the defendant’s land and causes harm to neighboring land or chattels, route first to the escape/activity theory.
+
+**Silver Key:** Do not let the word “manufactured” pull you into products liability. The stem spends its energy on **storage → escape → groundwater → neighbor’s cows**, so the answer array is pointing at activity/escape, not product defect.
+
+## 7. Full wrong-answer explanations
+
+**A is incorrect.** It states the product-liability trap too broadly. A manufacturer is not strictly liable merely because a product caused harm. Product strict liability requires a defective or unreasonably dangerous product. Here, the stronger route is not “bad product sold to a user”; it is “dangerous chemical escaped from the defendant’s premises.”
+**Gold Key:** Product strict liability needs a product defect; abnormally dangerous activity liability can come from the dangerous activity itself.
+**Silver Key:** If the stem is about a substance escaping from land, do not pick the answer that merely says “manufacturer + product.”
+
+**C is incorrect.** Ruth is the adjacent landowner whose well was polluted by the escaping chemical. The answer’s “not foreseeable plaintiff” label fights the stem’s own geography: adjacent farm, groundwater flow, polluted well, dead cows.
+
+**D is incorrect.** The storage of Selah Blue is the kind of activity the item treats as abnormally dangerous: a stored chemical escapes, pollutes groundwater, and kills neighboring livestock.
+**Gold Key:** Abnormally dangerous activity liability covers harm to land or chattels caused by the dangerous escape itself, even if the defendant used care.
+
+## 8. Black-letter-law verification and legal reasoning
+
+The tested rule and outcome are unchanged from the source row: the official key is **B**, and the official explanation states that the leak from the chemical company’s premises supports strict liability for the abnormally dangerous activity of storing the chemical, with causation and property damage from the dead cows. 
+
+Lawyer confirmation: Restatement (Second) of Torts § 519 imposes liability on one who carries on an abnormally dangerous activity for harm to the person, land, or chattels of another resulting from the activity, even with utmost care; § 520 lists factors including high risk, likelihood of great harm, inability to eliminate the risk by reasonable care, uncommon usage, and inappropriateness of the place. ([Said Torts 2D][1]) Product strict liability is different: Restatement (Second) of Torts § 402A requires a product sold in a defective condition unreasonably dangerous to the user, consumer, or property. ([Biotech Law][2])
+
+## 9. Why the variation preserves rigor and difficulty
+
+The variation preserves:
+
+* the same subject and subtopic: **TORTS / Strict Liability and Products Liability**
+* the same legal pivot: **abnormally dangerous activity vs. products-liability trap**
+* the same outcome: **plaintiff prevails**
+* the same answer geometry: **two “prevail” answers and two “not prevail” answers**
+* the same dominant trap: **A, product-liability overclaim**
+* the same hard anchor: **dangerous substance escape from premises**
+
+Christian flavor is limited to names and setting. It adds no church-property, donation, First Amendment, religious-entity, or competency issue.
+
+## 10. C3 elimination walkthrough
+
+**CUT A:** product-liability frame is too broad. It says “manufacturer strictly liable for harm caused by its products” without a defect. Cut as `half_truth`, anchor-assisted.
+
+**CUT C:** “not foreseeable plaintiff” collides with the stem’s adjacent-property facts. Ruth’s farm is next door; the well is polluted by the escaped chemical. Cut as `flat_misstatement`.
+
+**CLASH B vs. D:** both focus on the real axis: whether this is an abnormally dangerous activity / escape case.
+
+**CALL / Anchor-assisted CLASH:** apply the Gold Key. Stored chemical escapes from the premises and kills neighboring chattels. That is the activity/escape lane. **B survives.**
+
+## 11. Review Truth
+
+When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think **abnormally dangerous activity**, not products liability unless the answer gives a product defect.
+
+## 12. The 5 variations considered
+
+|  # | Title                            | Setting                                                                           | Cast            | Preserved issue                                       | Why memorable                                                              | Legal risks                                                  | Decision   |
+| -: | -------------------------------- | --------------------------------------------------------------------------------- | --------------- | ----------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------ | ---------- |
+|  1 | **Lydia’s Selah Blue Dye**       | For-profit dye company making liquid dye for Bible-study workbooks                | Lydia, Ruth     | Chemical storage/escape injures neighboring livestock | “Selah Blue” is memorable and Christian-adjacent without adding church law | Low                                                          | **Chosen** |
+|  2 | Barnabas’s Scroll Ink            | Commercial printer stores ink solvent near Peter’s goat farm                      | Barnabas, Peter | Toxic liquid escapes and kills livestock              | Good imagery                                                               | “Ink” may sound too ordinary unless chemical nature is clear | Not chosen |
+|  3 | Martha’s Candle-Scent Solvent    | For-profit candle-supply business stores volatile scent solvent near Mary’s dairy | Martha, Mary    | Chemical escape from premises                         | Memorable                                                                  | Candle supplies may sound common-use, weakening D            | Not chosen |
+|  4 | Daniel’s Vineyard Cleaner        | Winery-supply cleaner stored near Esther’s cattle field                           | Daniel, Esther  | Dangerous liquid escape                               | Strong Christian name set                                                  | Vineyard/wine flavor could distract                          | Not chosen |
+|  5 | Timothy’s Law-School Lab Reagent | Private bar-prep lab stores reagent near Lydia’s small farm                       | Timothy, Lydia  | Chemical escape and property harm                     | Law-school variation                                                       | Lab facts add clutter and make activity too obvious          | Not chosen |
+
+# B) PASS-2 FIVE BLOCKS
+
+```yaml
+barmatrix_row:
+  qid: "15254_lydia_selah_blue_dye"
+  transformed_from: "15254"
+  subject: "TORTS"
+  topic: "Torts"
+  subtopic: "Strict Liability and Products Liability"
+  selection_percentages:
+    percent_correct: null
+    A: null
+    B: null
+    C: null
+    D: null
+    provenance_note: "No measured pick rates supplied in the source row; transformed item is net-new."
+  official_key: "B"
+  call: "If Ruth brings an action against Galilee Dyes to recover the value of the cows that died, Ruth will"
+  stem: "Lydia owned Galilee Dyes, a for-profit company that manufactured a liquid chemical product known as Selah Blue, used in printed Bible-study workbooks. Some Selah Blue leaked from a storage tank on Galilee Dyes’s property, seeped into the groundwater, flowed to Ruth’s adjacent dairy farm, and polluted Ruth’s well. Several of Ruth’s cows drank the polluted well water and died."
+  choices:
+    A: "prevail, because a manufacturer is strictly liable for harm caused by its products."
+    B: "prevail, because Selah Blue escaped from Galilee Dyes’s premises."
+    C: "not prevail, because Ruth is not a foreseeable plaintiff."
+    D: "not prevail, because Galilee Dyes was not engaged in an abnormally dangerous activity."
+
+source_stack:
+  priority_1_row:
+    source: "Uploaded Q15254 row"
+    used_for: "QID, subject, topic, subtopic, original stem, answer choices, key, official explanation."
+  priority_2_existing_c3_tags:
+    source: "Review queue tag"
+    tags_treated_as_hypotheses:
+      prior_reason: "NEEDS MANUAL C3 PASS"
+      prior_phase: "UNCLASSIFIED"
+    note: "Prior tags were not treated as truth."
+  priority_3_c3_method:
+    source: "C3 course and prompt controlled vocabularies"
+    used_for: "CUT/CLASH/CALL, molds, method class, verdicts, Gold Key/Silver Key format."
+  priority_4_lawyer_confirmation:
+    source: "Restatement strict-liability and products-liability authority"
+    quarantine: "Used only for lawyer_confirmation and black-letter verification."
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old who completed the C3 lessons, subject overlays, and taught Gold/Silver Keys identify this choice's problem without outside doctrine?"
+  allowed_student_tools:
+    - "TRUE + RESPONSIVE residual frame"
+    - "CUT: overclaim, half-truth, flat misstatement, misfit"
+    - "CLASH: identify theory-axis between two survivors"
+    - "CALL: use Gold Key only after structure runs out"
+    - "Silver Key: product-word bait vs escape-from-premises navigation"
+  taught_gold_keys:
+    - id: "GK-TORTS-ACTIVITY-VS-PRODUCT-01"
+      statement: "Strict liability can attach to an abnormally dangerous activity, not only to a defective product. Product strict liability needs a product defect; activity strict liability turns on the dangerous activity and the harm caused by its escape."
+      type: "distinction"
+      unlocks: "A/B product-vs-activity trap"
+      trigger: "Manufacturer/product words plus facts focused on a stored substance escaping from premises."
+      tested_choice: "A"
+      authority: "Restatement (Second) of Torts §§ 519–520; Restatement (Second) of Torts § 402A."
+      last_minute_review: true
+    - id: "GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01"
+      statement: "An abnormally dangerous activity can create strict liability for harm to another's land or chattels when the harm results from the very danger that makes the activity abnormal."
+      type: "rule"
+      unlocks: "D denial of abnormally dangerous activity"
+      trigger: "Chemical stored on defendant's premises escapes into groundwater and kills neighboring livestock."
+      tested_choice: "D"
+      authority: "Restatement (Second) of Torts §§ 519–520."
+      last_minute_review: true
+  silver_keys:
+    - id: "SK-TORTS-ESCAPE-NOT-PRODUCT-01"
+      statement: "When the stem spends its facts on storage, leaking, groundwater, and neighboring property damage, read the answer array as an escape/activity question before taking a product-liability answer."
+      type: "answer_array"
+      navigates: "The A/B fight between product liability and abnormally-dangerous-activity escape liability."
+      trigger: "Two prevail answers: one says product; one says escaped from premises."
+      tested_choice: "A"
+      outline_code: "00000000"
+      last_minute_review: true
+  legal_leak_boundary:
+    - "Do not say D is structurally false without the Gold Key."
+    - "Do not teach full strict-liability outline."
+    - "Keep authority in lawyer_confirmation."
+
+stem_parse:
+  actors:
+    defendant: "Galilee Dyes, owned by Lydia"
+    plaintiff: "Ruth"
+    affected_property: "Ruth's cows and well"
+  action_sequence:
+    - "Galilee Dyes manufactured and stored Selah Blue."
+    - "Selah Blue leaked from a storage tank on Galilee Dyes's land."
+    - "The liquid seeped into groundwater."
+    - "The groundwater carried it to Ruth's adjacent farm."
+    - "Ruth's well was polluted."
+    - "Ruth's cows drank the polluted water and died."
+  call_type: "Will plaintiff recover?"
+  adjacent_call_trap: "Do not answer a products-liability defect question merely because the defendant manufactured a product."
+  negative_stem_inversion: false
+  theory_lane: "Strict liability for abnormally dangerous activity / escape from premises."
+
+trigger_facts:
+  - fact: "liquid chemical product"
+    access_label: "anchor_assisted"
+    significance: "Signals dangerous-substance activity; not enough alone."
+  - fact: "leaked from a storage tank on Galilee Dyes's property"
+    access_label: "student_visible"
+    significance: "Escape-from-premises structure."
+  - fact: "seeped into groundwater"
+    access_label: "student_visible"
+    significance: "Movement from defendant's land to plaintiff's land."
+  - fact: "Ruth's adjacent dairy farm"
+    access_label: "student_visible"
+    significance: "Cuts the not-foreseeable-plaintiff answer."
+  - fact: "polluted Ruth's well and killed cows"
+    access_label: "student_visible"
+    significance: "Property/chattel harm from the escape."
+  - fact: "manufactured a product"
+    access_label: "trap_signal"
+    significance: "Attracts products-liability overclaim in A."
+
+c3_routing:
+  subject_fit: "Torts = liability theory selection + scope of harm."
+  governing_law_type: "STANDARD"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "Products liability defect theory vs abnormally-dangerous-activity escape theory."
+  call_heuristic: "activity_escape_over_product_word_bait"
+
+answer_array:
+  geometry: "2 prevail / 2 not prevail; A/B fight on theory; B/D fight on abnormally-dangerous-activity escape."
+  preserved_from_original: true
+  silver_key_id: "SK-TORTS-ESCAPE-NOT-PRODUCT-01"
+  dominant_trap: "A"
+  dominant_trap_provenance: "No measured pick rate supplied; identified by answer-array role."
+  array_notes:
+    - "A and B both say Ruth prevails; they fight on the reason."
+    - "C and D both deny recovery; C denies plaintiff status, D denies activity category."
+    - "B is true and responsive after the Gold Key is applied."
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "overbroad_rule"
+      - "half_right_answer"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Product-liability overclaim / wrong frame."
+    c3_signal: "The answer says manufacturer + product + strict liability, but it never supplies the missing defect idea. The stem is about escape from premises."
+    lawyer_confirmation: "Products liability requires a defective or unreasonably dangerous product; the correct theory here is abnormally dangerous activity, not product defect."
+    true_responsive_version: "Ruth will prevail because the stored chemical escaped from Galilee Dyes's premises and caused property harm within the dangerous activity's risk."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Residual true and responsive answer."
+    c3_signal: "This answer tracks the stem's chain: stored chemical escaped from defendant's premises and caused the property harm."
+    lawyer_confirmation: "Under abnormally dangerous activity strict liability, the actor is liable for harm to another's land or chattels resulting from the dangerous activity."
+    true_responsive_version: "Already true and responsive."
+  C:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "fact_not_in_evidence"
+      - "wrong_party"
+      - "common_student_myth"
+    method_class: "hard_structural"
+    student_label: "Stem-fact mismatch."
+    c3_signal: "The answer says Ruth is not foreseeable, but the stem makes Ruth the adjacent landowner whose well was polluted."
+    lawyer_confirmation: "The neighboring landowner's chattel harm is within the scope of the risk created by the escaping chemical."
+    true_responsive_version: "A denial answer would need facts showing the harm was outside the risk or outside the plaintiff/property scope."
+  D:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "misstated_rule"
+      - "exception_omitted"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Gold-Key denial of the activity category."
+    c3_signal: "D is the final clash answer. It can only be cut after the Gold Key: chemical storage plus escape into neighboring groundwater can be abnormally dangerous activity."
+    lawyer_confirmation: "The official explanation treats storage of XRX/Selah Blue as abnormally dangerous under the tested rule because reasonable care cannot eliminate the risk, the activity is not common usage near farmland, and the harm is the expected escape-type harm."
+    true_responsive_version: "A denial answer would need facts showing ordinary/common activity, no abnormal danger, or harm outside the dangerous escape risk."
+
+residual_answer:
+  choice: "B"
+  explanation: "After A and C are cut, B and D clash on whether the leak is an abnormally-dangerous-activity escape case. The Gold Key resolves that clash in favor of B."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "A is too broad because it says manufacturer strictly liable for product harm without defect."
+      access: "Gold Key / taught product-vs-activity distinction."
+      pass: true
+    - claim: "C conflicts with adjacent-property facts."
+      access: "Stem-visible fact relation."
+      pass: true
+    - claim: "D is wrong because this is abnormally dangerous activity."
+      access: "Gold Key required."
+      pass: true
+    - claim: "B survives because the chemical escaped from the premises and caused property harm."
+      access: "Gold Key plus stem facts."
+      pass: true
+  lawyer_only_quarantined:
+    - "Restatement §519/§520 details."
+    - "Restatement §402A product-defect requirement."
+  drift_audit: "No doctrine is labeled hard-structural unless visible from answer text, stem facts, or taught Gold/Silver Key. D remains anchor_assisted, not hard_structural."
+
+gold_keys:
+  - id: "GK-TORTS-ACTIVITY-VS-PRODUCT-01"
+    statement: "Strict liability can attach to an abnormally dangerous activity, not only to a defective product. Product strict liability needs a product defect; activity strict liability turns on the dangerous activity and the harm caused by its escape."
+    type: "distinction"
+    unlocks: "A/B product-vs-activity trap"
+    trigger: "Manufacturer/product words plus facts focused on a stored substance escaping from premises."
+    tested_choice: "A"
+    authority: "Restatement (Second) of Torts §§ 519–520; Restatement (Second) of Torts § 402A."
+    last_minute_review: true
+  - id: "GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01"
+    statement: "An abnormally dangerous activity can create strict liability for harm to another's land or chattels when the harm results from the very danger that makes the activity abnormal."
+    type: "rule"
+    unlocks: "D denial of abnormally dangerous activity"
+    trigger: "Stored chemical escapes into groundwater and kills neighboring livestock."
+    tested_choice: "D"
+    authority: "Restatement (Second) of Torts §§ 519–520."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-ESCAPE-NOT-PRODUCT-01"
+    statement: "When the stem spends its facts on storage, leaking, groundwater, and neighboring property damage, read the answer array as an escape/activity question before taking a product-liability answer."
+    type: "answer_array"
+    navigates: "Product-word trap vs escape-from-premises route."
+    trigger: "Two prevail answers: one says product; one says escaped from premises."
+    tested_choice: "A"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-TORTS-STRICT-ESCAPE-01"
+  title: "Escape beats product-word bait"
+  signal: "Stored chemical leaks from defendant's premises and harms neighboring land/chattels."
+  student_move: "Route to abnormally dangerous activity before product liability."
+  tiny_rule: "Product liability needs a defect; dangerous-activity liability can arise from the escape of the dangerous substance."
+  trap: "Choosing the manufacturer/product answer because the stem says the company manufactured the liquid."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?"
+
+review_truth: "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect."
+
+case_study_output:
+  final_student_script: "Cut A: product overclaim. Cut C: adjacent neighbor is not a no-foreseeability plaintiff. Clash B/D: is this an abnormally dangerous escape? Gold Key says yes. Pick B."
+  exam_day_lane: "Anchor-assisted CLASH."
+  confidence_band: "High after Gold Key; not hard-structural without the anchor."
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  christian_variation: true
+  popular_bible_names_only: true
+  no_antagonist_names: true
+  no_clutter_doctrine_added: true
+  answer_array_geometry_preserved: true
+  three_distractors_one_filter_each: true
+  credited_answer_breaks_no_filter: true
+  residual_equals_official_key: true
+  pass_available: true
+  pick_rate_provenance_honest: true
+  drift_audit_present: true
+  transformed_from_present: true
+
+analytics_hooks:
+  tested_traps:
+    - "product_liability_overclaim"
+    - "activity_vs_product_frame"
+    - "foreseeability_fact_mismatch"
+    - "abnormally_dangerous_activity_denial"
+  component_routing:
+    - "TORTS_STRICT_LIABILITY"
+    - "PRODUCTS_LIABILITY_DISTINCTION"
+    - "ABNORMALLY_DANGEROUS_ACTIVITY"
+  drill_seed_ids:
+    - "DRILL-TORTS-ESCAPE-01"
+    - "DRILL-TORTS-PRODUCT-TRAP-01"
+    - "DRILL-TORTS-FORESEEABILITY-ADJACENT-01"
+```
+
+## 1. program_frame
+
+This is a Torts strict-liability item. The exam is not asking for a products-liability outline. It is asking which strict-liability lane fits these facts.
+
+The construction move is **CUT → CLASH → Gold-Key CALL inside the CLASH**.
+
+## 2. student_access_test
+
+Student-access limit:
+
+* A student can cut **C** from the stem alone: Ruth is adjacent, the well is polluted, and the cows die.
+* A student needs a taught anchor to cut **A** cleanly: product strict liability needs a defect.
+* A student needs a taught anchor to cut **D** cleanly: stored chemical escape can be abnormally dangerous activity.
+* The credited answer **B** is not hard-structural. It becomes reliable after the Gold Key.
+
+Verdict: **ANCHOR_SOLVE**.
+
+## 3. question_data
+
+**Question ID:** `15254_lydia_selah_blue_dye`
+**Transformed from:** `15254`
+**Subject:** TORTS
+**Topic:** Strict Liability and Products Liability
+**Correct answer:** B
+**Pick-rate data:** not supplied; no measured transformed-item selection percentages.
+
+Final question:
+
+> Lydia owned Galilee Dyes, a for-profit company that manufactured a liquid chemical product known as Selah Blue, used in printed Bible-study workbooks. Some Selah Blue leaked from a storage tank on Galilee Dyes’s property, seeped into the groundwater, flowed to Ruth’s adjacent dairy farm, and polluted Ruth’s well. Several of Ruth’s cows drank the polluted well water and died.
+>
+> If Ruth brings an action against Galilee Dyes to recover the value of the cows that died, Ruth will
+
+## 4. distilled_core_question
+
+A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?
+
+## 5. call_and_prediction
+
+**Call:** Will Ruth recover the value of the cows?
+
+**Prediction before choices:** Ruth likely recovers if the law treats the stored chemical leak as an abnormally dangerous activity escape. The adjacent-property facts make the plaintiff/scope objection weak.
+
+**Adjacent-call trap:** Do not answer “Was the product defective?” The stem gives no product defect. It gives storage, leak, groundwater, neighbor, cows.
+
+## 6. trigger_facts
+
+| Trigger fact                         | Student-access label     | Use                                      |
+| ------------------------------------ | ------------------------ | ---------------------------------------- |
+| Galilee Dyes manufactured Selah Blue | trap signal              | Pulls students toward product liability. |
+| Selah Blue leaked from storage tank  | student-visible + anchor | Escape-from-premises lane.               |
+| Seeped into groundwater              | student-visible          | Shows off-premises movement.             |
+| Ruth’s adjacent dairy farm           | student-visible          | Cuts “not foreseeable plaintiff.”        |
+| Polluted Ruth’s well and killed cows | student-visible + anchor | Property/chattel harm from the escape.   |
+
+## 7. governing_c3_lane
+
+**Torts FIT for this item:** liability theory selection + scope of harm.
+
+**Lane:** strict liability for abnormally dangerous activity.
+
+**Array read:** A and B both say “prevail,” but they fight over **why**. A says product. B says escape. The stem’s fact chain points to escape.
+
+## 8. choice_by_choice_walkthrough
+
+### A
+
+**(1) Student-accessible C3 signal:**
+A uses the manufacturer/product words and gives a broad strict-liability reason. It does not say the product was defective.
+
+**(2) Student label:**
+Product-liability overclaim / wrong frame. `anchor_assisted`.
+
+**(3) What a true/responsive version would look like:**
+“Ruth will prevail because the stored chemical escaped from Galilee Dyes’s premises and caused the type of property harm that makes the activity dangerous.”
+
+**(4) Lawyer confirmation:**
+Product strict liability requires a defective product; it is not enough that a manufacturer made a product that later caused harm. This choice states the right result with the wrong and overbroad theory.
+
+### B
+
+**(1) Student-accessible C3 signal:**
+B follows the stem’s movement chain: chemical stored on defendant’s land → escape → groundwater → neighbor’s well → cows die.
+
+**(2) Student label:**
+True and responsive residual. `anchor_assisted`.
+
+**(3) What a true/responsive version would look like:**
+Already true and responsive.
+
+**(4) Lawyer confirmation:**
+This is the credited answer. The harm is to Ruth’s chattels and results from the dangerous escape of the stored chemical.
+
+### C
+
+**(1) Student-accessible C3 signal:**
+C says Ruth is not foreseeable. The stem says Ruth’s farm is adjacent and her well is polluted by the escaping chemical.
+
+**(2) Student label:**
+Stem-fact mismatch. `hard_structural`.
+
+**(3) What a true/responsive version would look like:**
+“Ruth will not prevail because the harm was outside the scope of the danger created by the activity.”
+
+**(4) Lawyer confirmation:**
+The adjacent landowner’s livestock loss is within the kind of property harm that follows from a toxic chemical escaping into groundwater.
+
+### D
+
+**(1) Student-accessible C3 signal:**
+D denies the activity category. That denial cannot be cut by grammar alone. It needs the Gold Key.
+
+**(2) Student label:**
+Gold-Key category denial. `anchor_assisted`.
+
+**(3) What a true/responsive version would look like:**
+“Ruth will not prevail because the stored material was ordinary, commonly used, and did not create an abnormal risk of serious harm if it escaped.”
+
+**(4) Lawyer confirmation:**
+The source explanation treats storage of XRX/Selah Blue as abnormally dangerous because the chemical’s escape foreseeably causes serious neighboring property harm and the storage is not ordinary common usage near farmland.
+
+## 9. residual_answer
+
+**Residual:** B.
+
+A is the product trap. C contradicts the adjacent-property facts. D loses after the abnormally-dangerous-activity Gold Key. B is left.
+
+## 10. legal_leak_audit
+
+No student-facing claim depends on hidden lawyer doctrine unless labeled with a Gold Key.
+
+* A: anchor-assisted, because “product strict liability needs defect” is a taught anchor.
+* B: anchor-assisted, because abnormally-dangerous-activity liability is a taught anchor.
+* C: hard structural, because the stem itself supplies adjacent-property foreseeability.
+* D: anchor-assisted, because the abnormally-dangerous-activity classification needs the Gold Key.
+
+Drift audit: D is not labeled hard-structural. A is not labeled false merely because the official explanation says so. The doctrine is quarantined under lawyer confirmation.
+
+## 11. final_student_script
+
+“Two answers say Ruth wins. A says product. B says escape. The stem is all escape: tank, groundwater, adjacent farm, well, cows. Cut A as product overclaim. Cut C because adjacent Ruth is not a no-foreseeability plaintiff. D is the final trap. Gold Key: dangerous chemical storage plus escape to neighbor’s property is abnormally-dangerous-activity strict liability. Pick B.”
+
+## 12. remediation_card
+
+**Card ID:** `REM-TORTS-STRICT-ESCAPE-01`
+**Title:** Escape beats product-word bait.
+**Signal:** Chemical stored on defendant’s land escapes and damages neighboring property.
+**Student move:** Route to abnormally dangerous activity before product liability.
+**Tiny rule:** Product liability needs a defect; dangerous-activity liability can arise from the dangerous substance escaping.
+**Trap:** Choosing the answer that says “manufacturer” and “product” just because those words appear in the stem.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-TORTS-ACTIVITY-VS-PRODUCT-01**
+Strict liability can attach to an abnormally dangerous activity, not only to a defective product. Product strict liability needs a product defect; activity strict liability turns on the dangerous activity and the harm caused by its escape.
+
+**GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01**
+An abnormally dangerous activity can create strict liability for harm to another’s land or chattels when the harm results from the very danger that makes the activity abnormal.
+
+## Silver Key(s)
+
+**SK-TORTS-ESCAPE-NOT-PRODUCT-01**
+When the stem spends its facts on storage, leaking, groundwater, and neighboring property damage, read the answer array as an escape/activity question before taking a product-liability answer.
+
+## 13. qa_checklist
+
+| Check                                                | Result |
+| ---------------------------------------------------- | ------ |
+| Rule preserved                                       | Yes    |
+| Correct answer preserved                             | Yes, B |
+| Issue category preserved                             | Yes    |
+| Dominant trap preserved                              | Yes, A |
+| Christian variation                                  | Yes    |
+| No church-law clutter                                | Yes    |
+| Popular Bible names only                             | Yes    |
+| No antagonist names                                  | Yes    |
+| Three distractors each break one filter              | Yes    |
+| Credited answer breaks no filter                     | Yes    |
+| PASS available                                       | Yes    |
+| Gold Keys present because anchor-dependent           | Yes    |
+| Silver Key present because navigation is non-obvious | Yes    |
+| Pick-rate provenance honest                          | Yes    |
+
+## 14. wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                                     | Missed move                       | Recovery                                                           |
+| ------ | ---------------------------------------------------------- | --------------------------------- | ------------------------------------------------------------------ |
+| A      | “Manufacturer + product + harm = strict liability.”        | Missed product-vs-activity frame. | Ask whether the stem gives product defect or escape from premises. |
+| C      | “Maybe the farmer is too remote.”                          | Ignored adjacent-property facts.  | Circle “adjacent,” “groundwater,” “well,” “cows.”                  |
+| D      | “Chemical storage may not always be abnormally dangerous.” | Did not apply Gold Key.           | Use the stored-chemical-escape anchor.                             |
+
+## 15. outline_mastery_map
+
+**Placement:** Torts → Strict Liability → Abnormally Dangerous Activity / Products Liability distinction.
+
+**This item teaches:** theory selection. Same strict-liability umbrella; different lane.
+
+**Fills:**
+
+* product-liability overclaim recognition
+* dangerous-activity escape recognition
+* property/chattel harm scope
+
+**Adjacent to master:**
+
+* products liability defect requirement
+* nuisance escape fact patterns
+* wild animal / abnormally dangerous strict liability
+* negligence “reasonable care” decoys
+
+## 16. crossover_intersection_map
+
+| Crossover                  | Relation                                                                                                |
+| -------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Products liability         | A is the wrong-frame product trap.                                                                      |
+| Property damage / chattels | Dead cows are property harm.                                                                            |
+| Nuisance                   | Groundwater pollution may sound like nuisance, but the answer set is strict-liability theory selection. |
+| Negligence                 | Reasonable care is irrelevant to the strict-liability anchor, but no answer directly raises it.         |
+| Environmental harm         | Flavor only; no regulatory issue added.                                                                 |
+
+## 17. review_truth
+
+When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think **abnormally dangerous activity**, not products liability unless the answer gives a product defect.
+
+```json
+{
+  "question_id": "15254_lydia_selah_blue_dye",
+  "subject": "TORTS",
+  "credited_answer": "B",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?",
+  "review_truth": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "STANDARD",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Products liability defect theory vs abnormally-dangerous-activity escape theory",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "activity_escape_over_product_word_bait",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-ACTIVITY-VS-PRODUCT-01",
+        "explanation": "Manufacturer/product strict liability is too broad without a product defect; the stem points to escape from premises."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "stem_fact_adjacent_property",
+        "explanation": "The stem says Ruth is the adjacent landowner whose well was polluted."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01",
+        "explanation": "The Gold Key classifies stored chemical escape causing neighboring property harm as abnormally-dangerous-activity liability."
+      }
+    ],
+    "analyzer_notes": "drift_audit: A and D are anchor_assisted, not hard_structural. C is hard_structural because the adjacent-property fact is visible. transformed_from: 15254. Net-new Christian variation; no measured pick-rate data.",
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-ACTIVITY-VS-PRODUCT-01",
+        "statement": "Strict liability can attach to an abnormally dangerous activity, not only to a defective product. Product strict liability needs a product defect; activity strict liability turns on the dangerous activity and the harm caused by its escape.",
+        "type": "distinction",
+        "unlocks": "A/B product-vs-activity trap",
+        "trigger": "Manufacturer/product words plus facts focused on a stored substance escaping from premises.",
+        "tested_choice": "A",
+        "authority": "Restatement (Second) of Torts §§ 519–520; Restatement (Second) of Torts § 402A.",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01",
+        "statement": "An abnormally dangerous activity can create strict liability for harm to another's land or chattels when the harm results from the very danger that makes the activity abnormal.",
+        "type": "rule",
+        "unlocks": "D denial of abnormally dangerous activity",
+        "trigger": "Stored chemical escapes into groundwater and kills neighboring livestock.",
+        "tested_choice": "D",
+        "authority": "Restatement (Second) of Torts §§ 519–520.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-ESCAPE-NOT-PRODUCT-01",
+        "statement": "When the stem spends its facts on storage, leaking, groundwater, and neighboring property damage, read the answer array as an escape/activity question before taking a product-liability answer.",
+        "type": "answer_array",
+        "navigates": "Product-word trap vs escape-from-premises route.",
+        "trigger": "Two prevail answers: one says product; one says escaped from premises.",
+        "tested_choice": "A",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "15254_lydia_selah_blue_dye",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?",
+  "review_truth": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+  "tension": {
+    "axis": "Products liability defect theory vs abnormally-dangerous-activity escape theory",
+    "splitting_fact": "The stem focuses on chemical storage and escape from premises into neighboring groundwater, not a defective product sold to a user."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "half_truth",
+      "architecture": "wrong_frame",
+      "why_attractive": "The stem says Galilee Dyes manufactured Selah Blue, so students may grab product liability.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "C",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "Students may think strict liability has a narrow plaintiff class and miss the adjacent-property fact.",
+      "focus_group_pct": null
+    },
+    {
+      "choice": "D",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "Students may hesitate to label chemical storage abnormally dangerous without a taught anchor.",
+      "focus_group_pct": null
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-TORTS-STRICT-ESCAPE-01",
+    "title": "Escape beats product-word bait",
+    "signal": "Stored chemical leaks from defendant's premises and harms neighboring land/chattels.",
+    "student_move": "Route to abnormally dangerous activity before product liability.",
+    "tiny_rule": "Product liability needs a defect; dangerous-activity liability can arise from the dangerous substance escaping.",
+    "trap": "Choosing the manufacturer/product answer because the stem says the company manufactured the liquid.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "wrong strict-liability lane",
+    "product-liability overclaim",
+    "denial of abnormally-dangerous-activity category",
+    "ignoring adjacent-property fact",
+    "using lawyer-only doctrine as fake structure"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "15254_lydia_selah_blue_dye",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?",
+  "review_truth": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "They see 'manufactured' and 'product' and jump to products liability.",
+      "skipped_move": "Skipped the answer-array Silver Key: product words are bait when the facts are about escape.",
+      "recovery_step": "Ask whether the stem gives a product defect. If not, check for escape/activity."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "They overcomplicate plaintiff scope and miss that Ruth is adjacent.",
+      "skipped_move": "Skipped stem-fact check.",
+      "recovery_step": "Circle the plaintiff-location facts before accepting a no-foreseeability answer."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "They do not know whether stored chemical escape counts as abnormally dangerous activity.",
+      "skipped_move": "Skipped Gold Key.",
+      "recovery_step": "Recall the stored-chemical escape anchor and check whether the harm is the danger that made the activity abnormal."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array",
+      "target_skill": "product-vs-activity lane recognition",
+      "prompt": "Two answers say plaintiff prevails. One says product; one says escaped from premises. The stem is storage/leak/groundwater/neighbor. Which lane should you test first?",
+      "answer": "Activity/escape."
+    },
+    {
+      "drill_type": "cut",
+      "target_skill": "foreseeability fact-check",
+      "prompt": "An answer says an adjacent landowner is not foreseeable after a leaked chemical polluted her well. Cut or keep?",
+      "answer": "Cut; the adjacent-property facts defeat the no-foreseeability label."
+    },
+    {
+      "drill_type": "gold_key",
+      "target_skill": "abnormally dangerous activity anchor",
+      "prompt": "A stored chemical escapes into groundwater and kills neighboring livestock. What tiny anchor controls?",
+      "answer": "Abnormally dangerous activity strict liability can cover harm to neighboring land/chattels caused by the dangerous escape."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "product_word_bait",
+      "escape_from_premises",
+      "adjacent_property_scope",
+      "abnormally_dangerous_activity_denial"
+    ],
+    "misconception_tags": [
+      "strict_liability_equals_products_only",
+      "manufacturer_always_strictly_liable",
+      "neighbor_not_foreseeable",
+      "chemical_storage_not_activity"
+    ]
+  },
+  "component_routing": [
+    "C3_L1_TRUE_RESPONSIVE",
+    "C3_L2_EAR_VS_ISSUE_SENSE",
+    "C3_L8_WRONG_FRAME",
+    "C3_L9_CLASH_AXIS",
+    "C3_L12_ANCHOR_CALL",
+    "TORTS_STRICT_LIABILITY",
+    "TORTS_PRODUCTS_LIABILITY"
+  ],
+  "crossovers": [
+    {
+      "area": "Products Liability",
+      "use": "Choice A trap; requires defect."
+    },
+    {
+      "area": "Property/Chattel Harm",
+      "use": "Dead cows are compensable property/chattel harm."
+    },
+    {
+      "area": "Nuisance",
+      "use": "Pollution facts may resemble nuisance, but answer array routes to strict liability."
+    },
+    {
+      "area": "Negligence",
+      "use": "Reasonable care would not defeat abnormally dangerous activity strict liability."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-ACTIVITY-VS-PRODUCT-01",
+      "statement": "Strict liability can attach to an abnormally dangerous activity, not only to a defective product. Product strict liability needs a product defect; activity strict liability turns on the dangerous activity and the harm caused by its escape.",
+      "type": "distinction",
+      "unlocks": "A/B product-vs-activity trap",
+      "trigger": "Manufacturer/product words plus facts focused on a stored substance escaping from premises.",
+      "tested_choice": "A",
+      "authority": "Restatement (Second) of Torts §§ 519–520; Restatement (Second) of Torts § 402A.",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-TORTS-ABNORMALLY-DANGEROUS-ESCAPE-01",
+      "statement": "An abnormally dangerous activity can create strict liability for harm to another's land or chattels when the harm results from the very danger that makes the activity abnormal.",
+      "type": "rule",
+      "unlocks": "D denial of abnormally dangerous activity",
+      "trigger": "Stored chemical escapes into groundwater and kills neighboring livestock.",
+      "tested_choice": "D",
+      "authority": "Restatement (Second) of Torts §§ 519–520.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-ESCAPE-NOT-PRODUCT-01",
+      "statement": "When the stem spends its facts on storage, leaking, groundwater, and neighboring property damage, read the answer array as an escape/activity question before taking a product-liability answer.",
+      "type": "answer_array",
+      "navigates": "Product-word trap vs escape-from-premises route.",
+      "trigger": "Two prevail answers: one says product; one says escaped from premises.",
+      "tested_choice": "A",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Torts > Strict Liability > Abnormally Dangerous Activity / Products Liability Distinction",
+    "this_item_teaches": "Theory selection inside strict liability: product defect vs dangerous activity escape.",
+    "fills": [
+      "product-liability defect requirement",
+      "abnormally dangerous activity escape liability",
+      "scope of harm to land/chattels",
+      "neighboring-property foreseeability"
+    ],
+    "adjacent_to_master": [
+      "Strict products liability",
+      "Wild animals and abnormally dangerous activities",
+      "Private nuisance pollution facts",
+      "Negligence reasonable-care decoys"
+    ]
+  }
+}
+```
+
+[1]: https://saidtorts2d.lawbooks.cali.org/chapter/distinguishing-strict-liability-from-negligence-socratic-script/?utm_source=chatgpt.com "4. Distinguishing Strict Liability from Negligence (Socratic ..."
+[2]: https://biotech.law.lsu.edu/cases/products/402a-b.htm?utm_source=chatgpt.com "Restatement s 402a and 402b"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "15254_lydia_selah_blue_dye"
+  question_id: "15254_lydia_selah_blue_dye"
+  subject: "TORTS"
+  topic: "Torts"
+  subtopic: "Strict Liability and Products Liability"
+  outline_code: "00000000"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "15254"
+  variant_slug: "lydia_selah_blue_dye"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "B"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?"
+review_truth: "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 15254_lydia_selah_blue_dye; source 15254.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject TORTS; topic Torts; subtopic Strict Liability and Products Liability.
+4. **distilled_core_question:** A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 00000000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 00000000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "15254_lydia_selah_blue_dye",
+  "subject": "TORTS",
+  "credited_answer": "B",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?",
+  "review_truth": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 15254; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "15254_lydia_selah_blue_dye",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?",
+  "review_truth": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-15254",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "15254_lydia_selah_blue_dye",
+  "subject": "TORTS",
+  "outline_code": "00000000",
+  "distilled_core_question": "A company stores a liquid chemical. It leaks off the company’s land into a neighbor’s well and kills the neighbor’s cows. Can the neighbor recover the value of the cows?",
+  "review_truth": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "00000000",
+    "this_item_teaches": "When a dangerous chemical escapes from the defendant’s land and harms a neighbor’s property, think abnormally dangerous activity, not products liability unless the answer gives a product defect.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

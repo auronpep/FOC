@@ -1,0 +1,992 @@
+---
+qid: "17151_carol_program"
+transformed_from: "17151"
+subject: "CRIMINAL"
+topic: "Defenses"
+subtopic: "General Principles"
+outline_code: "72060101"
+key: "B"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "choice: \"C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery."
+---
+# A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+**Source row:** BARMATRIX Q# 17151 tests whether voluntary intoxication is a defense to a general-intent battery, with original key C. 
+
+At Lydia’s private Advent carol workshop in a rented community hall, Martha voluntarily drinks several cups of spiked wassail. Later, while the group is stacking hymn sheets, she becomes rowdy. Stephen, the hall coordinator, asks her to leave. Martha angrily swings a rolled-up carol program at Stephen and strikes him in the face.
+
+Battery in the jurisdiction requires intentional offensive contact but no further purpose or objective. Martha argues that she was too drunk to form criminal intent.
+
+**Call:** Is voluntary intoxication a defense to the battery charge?
+
+### 2. Distilled Core Question
+
+A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?
+
+### 3. Final answer choices — post-shuffle
+
+A. No, because this battery is a strict-liability offense.
+B. No, because voluntary intoxication is not a defense to a general-intent battery.
+C. Yes, because intoxication negates any intent formed while drunk.
+D. Yes, but only if Martha can show that she does not remember swinging the program.
+
+### 4. Correct answer
+
+**B** — original key letter: **C**.
+
+### 5. Letter Map
+
+| Original letter | New letter | Mechanic                                                  | Substance |        Pick % |
+| --------------- | ---------: | --------------------------------------------------------- | --------- | ------------: |
+| A               |          C | intoxication-negates-any-intent overclaim                 | kept      | 24% predicted |
+| B               |          D | blackout / no-memory fabricated threshold                 | kept      | 10% predicted |
+| C               |          B | correct_answer                                            | kept      | 58% predicted |
+| D               |          A | same-result wrong-reason / strict-liability contradiction | kept      |  8% predicted |
+
+No measured focus-group percentages were supplied in the row. All percentages here are predicted, not inherited or measured.
+
+### 6. Full right-answer explanation
+
+**B is correct.** Battery is framed in the stem as a general-intent crime: it requires intentional offensive contact and no additional purpose. Martha voluntarily became intoxicated, then swung the rolled-up program and struck Stephen. That defeats the “too drunk to form intent” defense for this charge.
+
+**Gold Key:** Voluntary intoxication may matter for a specific-intent element, but it is not a defense to a general-intent crime. General-intent battery requires intent to make the offensive contact, not a further objective.
+
+**Silver Key:** When two “No” answers appear, do not pick the first one just because the outcome is right. Check whether the reason matches the stem’s offense classification.
+
+### 7. Full wrong-answer explanations
+
+**A.** This choice is attractive because it reaches the correct “No” outcome. The breaker is the reason: the stem says battery requires intentional offensive contact, so calling it strict liability contradicts the stem’s own classification.
+
+**C.** This choice sells the broad intoxication myth: if a person is drunk, no intent can count. **Gold Key:** voluntary intoxication does not wipe out general intent, and the word “any” overclaims the defense.
+
+**D.** This choice gives a concrete proof hook: no memory feels like no intent. The breaker is that later memory is not the same as intent at the moment of contact, and voluntary intoxication still does not excuse a general-intent battery.
+
+### 8. Full black-letter-law verification and legal reasoning
+
+The supplied official explanation states that the original item’s battery is a general-intent crime, voluntary intoxication does not defeat that general intent, and the correct answer is C.  The transformed item preserves that rule, issue, and outcome.
+
+The lawyer-confirmation layer is consistent with modern criminal-law treatment. Cornell Wex describes intoxication as a criminal defense tied to the defendant’s ability to form the required mens rea, and notes that voluntary intoxication is treated narrowly, with some jurisdictions allowing it only for specific-intent crimes rather than general-intent crimes. ([Legal Information Institute][1]) CALCRIM No. 3426 likewise instructs that voluntary intoxication may be considered only for specified intent or mental-state purposes and states that voluntary intoxication is not a defense to listed general-intent offenses. ([Justia][2]) Its bench notes also state that voluntary intoxication may not be considered for general-intent crimes and cite authority including *People v. Hood* for assault-type crimes as general-intent offenses. ([Justia][2])
+
+No researched authority contradicts the supplied key.
+
+### 9. Why the variation preserves rigor and difficulty
+
+The variation preserves the same legal line: voluntary intoxication versus general intent. It also preserves the same answer-array trap: two “Yes” answers overstate intoxication, one “No” answer gives the right result for the wrong offense classification, and the credited “No” answer names the general-intent rule.
+
+### 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Same result, bad reason. The stem says this battery requires intentional offensive contact. “Strict liability” contradicts the stem. Cut.
+
+**CUT C:** “Any intent” is an overclaim. It treats intoxication as a universal intent eraser. Gold Key cuts it.
+
+**CUT D:** No-memory is a fabricated threshold. The call asks whether voluntary intoxication is a defense, not whether Martha later remembers the swing. Gold Key cuts it.
+
+**RESIDUAL B:** True and responsive. It answers the call and fits the offense classification.
+
+**CLASH/CALL:** No residual clash remains after the anchor-assisted Cut.
+
+### 11. Divergence Audit — Recognition-Kill Checklist
+
+| Dimension               | Result                                                                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter  | Changed from bar/bartender/arm swing to Advent carol workshop, hymn sheets, hall coordinator, rolled-up program.                            |
+| Transaction frame       | Skipped. No transaction frame exists in the original criminal-defense item; adding sale/service facts would add clutter.                    |
+| Specific facts          | Changed ordinary drinks and bartender expulsion to spiked wassail at a private Christian event, rowdy cleanup, and a rolled program strike. |
+| Numbers                 | Kept “several” because no numeric legal threshold is tested.                                                                                |
+| Fact ordering / rhythm  | Reordered: setting first, voluntary drinking second, cleanup conflict third, offense definition after contact.                              |
+| Cast size / roles       | Changed Iris/bartender to Martha, Lydia, and Stephen.                                                                                       |
+| Choice ordering         | Shuffled; original C moved to new B.                                                                                                        |
+| Choice phrasing         | Paraphrased while preserving legal substance.                                                                                               |
+| Setting / era / texture | Changed from secular bar setting to private Advent carol workshop in a rented hall.                                                         |
+| Call wording            | Kept materially identical. Precedence rule: changing the call would weaken legal function.                                                  |
+| Christian skin          | Uses popular Bible names and Christian texture without church-property, donation, First Amendment, or internal-church litigation facts.     |
+| Over-signal check       | The stem does not say “specific intent is absent” or “general intent only bars intoxication”; it only states the offense definition.        |
+
+**Original stem summary:** A voluntarily drunk person in a bar strikes a bartender and claims intoxication defeats intent for general-intent battery.
+**Variant stem summary:** A voluntarily drunk participant at an Advent carol workshop strikes a hall coordinator with a rolled program and claims intoxication defeats intent for general-intent battery.
+
+The summaries share only the legal rule.
+
+### 12. Review Truth
+
+Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.
+
+### 13. The 5 variations considered
+
+| Variation                                | Setting / cast                                                              | Preserved issue                                   | Why memorable                             | Legal risks                                         | Divergence score                                                                  |
+| ---------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Recommended: Rolled-Up Carol Program** | Lydia’s Advent carol workshop; Martha strikes Stephen with a rolled program | Voluntary intoxication and general-intent battery | Strong Christian image, no added doctrine | Minimal; private hall avoids church-property issues | **9/10** — kills asset, setting, roles, object, rhythm, texture, and choice order |
+| Fish-Fry Fellowship Cleanup              | Peter drinks spiked cider at a private fish-fry and hits Paul with a tray   | Same                                              | Fish symbol is memorable                  | Tray may imply weapon/aggravation                   | 7/10                                                                              |
+| Ark Craft Night                          | Naomi drinks punch and smacks Daniel with a craft board                     | Same                                              | Ark craft is vivid                        | Craft board may distract into injury severity       | 7/10                                                                              |
+| Psalms Karaoke Rehearsal                 | Timothy drinks wine and swings a microphone stand at John                   | Same                                              | Very different setting                    | Microphone stand suggests aggravated assault        | 6/10                                                                              |
+| Manger-Market Candle Booth               | Ruth drinks mulled wine and swats Barnabas with a candle bundle             | Same                                              | Christmas market texture                  | Candle bundle could imply dangerous instrument      | 7/10                                                                              |
+
+**Pass-1 six-step trace:** rule identified; invariant layer frozen; five Christian variants generated; distractor policy audited with no swap; most divergent safe variant selected; choices shuffled with Letter Map and Divergence Audit completed.
+
+# B) PASS-2 FIVE BLOCKS
+
+```yaml
+barmatrix_row:
+  qid: "17151_carol_program"
+  internal_id: "CR-317"
+  transformed_from: "17151"
+  subject: CRIMINAL
+  subject_display: "Criminal Law and Procedure"
+  topic: "Defenses"
+  subtopic: "General Principles"
+  outline_code: "72060101"
+  selection_percentages:
+    A:
+      value: 8
+      provenance: predicted
+    B:
+      value: 58
+      provenance: predicted
+    C:
+      value: 24
+      provenance: predicted
+    D:
+      value: 10
+      provenance: predicted
+  official_key: "B"
+  original_key_letter: "C"
+  call: "Is voluntary intoxication a defense to the battery charge?"
+  stem: "At Lydia’s private Advent carol workshop in a rented community hall, Martha voluntarily drinks several cups of spiked wassail. Later, while the group is stacking hymn sheets, she becomes rowdy. Stephen, the hall coordinator, asks her to leave. Martha angrily swings a rolled-up carol program at Stephen and strikes him in the face. Battery in the jurisdiction requires intentional offensive contact but no further purpose or objective. Martha argues that she was too drunk to form criminal intent."
+  choices:
+    A: "No, because this battery is a strict-liability offense."
+    B: "No, because voluntary intoxication is not a defense to a general-intent battery."
+    C: "Yes, because intoxication negates any intent formed while drunk."
+    D: "Yes, but only if Martha can show that she does not remember swinging the program."
+
+transform_provenance:
+  variant_slug: "carol_program"
+  transformed_from: "17151"
+  original_key_letter: "C"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "intoxication-negates-any-intent overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 24
+        provenance: predicted
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "blackout/no-memory fabricated threshold"
+      substance: "kept"
+      pick_rate:
+        value: 10
+        provenance: predicted
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 58
+        provenance: predicted
+    - original_letter: "D"
+      new_letter: "A"
+      mechanic: "same-result wrong-reason strict-liability contradiction"
+      substance: "kept"
+      pick_rate:
+        value: 8
+        provenance: predicted
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A voluntarily drunk person in a bar strikes a bartender and claims intoxication defeats intent for general-intent battery."
+    variant_stem_one_sentence: "A voluntarily drunk participant at an Advent carol workshop strikes a hall coordinator with a rolled program and claims intoxication defeats intent for general-intent battery."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific facts"
+      - "fact ordering and rhythm"
+      - "cast size and roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/era/texture"
+      - "Christian surface texture"
+    dimensions_skipped_with_reason:
+      - dimension: "transaction frame"
+        reason: "No transaction frame exists in the criminal-defense item; adding one would create clutter."
+      - dimension: "call wording"
+        reason: "The black-letter defense call must remain legally identical."
+
+source_stack:
+  - rank: 1
+    source: "Supplied BarMatrix row QID 17151"
+    role: "Primary facts, choices, official key, official explanations"
+  - rank: 2
+    source: "Existing C3 method and controlled_vocabularies.md"
+    role: "Controlled values and C3 tagging discipline"
+  - rank: 3
+    source: "C3 universal lessons"
+    role: "CUT/CLASH/CALL, overclaim, falsity, prediction, calibration"
+  - rank: 4
+    source: "Legal research"
+    role: "Lawyer-confirmation layer only"
+
+student_access_contract:
+  allowed_material:
+    - "TRUE and RESPONSIVE frame"
+    - "CUT → CLASH → CALL workflow"
+    - "Overclaim: tiered_absolute"
+    - "Falsity: contradiction"
+    - "Predict call before choices"
+    - "Gold Key GK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+    - "Silver Key SK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+  controlling_test: "Could a smart 10-year-old trained only in C3 and the listed keys identify the break without outside doctrine?"
+  legal_leak_boundary: "The student may use the Gold Key distinction but not authority citations or broader intoxication doctrine."
+
+stem_parse:
+  call_type: "defense availability"
+  role: "court-rule / legal classification"
+  negative_stem_inversion: false
+  adjacent_call_traps:
+    - "Whether battery is strict liability"
+    - "Whether Martha remembers the event later"
+    - "Whether voluntary intoxication can ever matter for a different specific-intent crime"
+  predicted_answer: "No, because the charge is a general-intent battery and voluntary intoxication does not excuse it."
+
+trigger_facts:
+  - fact: "Martha voluntarily drinks several cups of spiked wassail."
+    access_label: "Gold Key trigger"
+    function: "Voluntary intoxication, not involuntary intoxication"
+  - fact: "Martha angrily swings a rolled-up carol program and strikes Stephen in the face."
+    access_label: "C3-visible act fact"
+    function: "Shows intentional contact act for battery"
+  - fact: "Battery requires intentional offensive contact."
+    access_label: "hard_structural"
+    function: "Cuts strict-liability answer"
+  - fact: "Battery requires no further purpose or objective."
+    access_label: "Gold Key trigger"
+    function: "Classifies the offense as general intent"
+
+c3_routing:
+  subject_fit: "Criminal = offense classification + defense availability."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: pure_anchor
+  confidence: PURE_ANCHOR
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard"
+  tension_axis: "general intent vs specific intent defense scope"
+  call_heuristic: null
+
+answer_array:
+  geometry: "2x2 outcome/reason matrix"
+  outcomes:
+    yes_answers:
+      - "C"
+      - "D"
+    no_answers:
+      - "A"
+      - "B"
+  dominant_trap:
+    choice: "C"
+    basis: "Predicted dominant wrong answer; original selection percentages unavailable."
+  silver_key:
+    id: "SK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+    type: answer_array
+    statement: "When two answers say No, check whether the reason matches the stem's offense class before choosing the outcome you like."
+
+choice_walkthroughs:
+  A:
+    text: "No, because this battery is a strict-liability offense."
+    filter_broken: NOT_TRUE
+    mold_code: contradiction
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - misstated_rule
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "same-result wrong-reason contradiction"
+    c3_signal: "The stem says battery requires intentional offensive contact. Strict liability would remove intent, so the reason contradicts the stem."
+    lawyer_confirmation: "Battery as framed requires intentional offensive contact. The intoxication defense fails because the offense is general intent, not because it is strict liability."
+  B:
+    text: "No, because voluntary intoxication is not a defense to a general-intent battery."
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: pure_anchor
+    student_label: "true and responsive residual"
+    c3_signal: "This answer uses the Gold Key and answers the exact defense call."
+    lawyer_confirmation: "Voluntary intoxication does not excuse a general-intent battery. The official key and researched authority align."
+  C:
+    text: "Yes, because intoxication negates any intent formed while drunk."
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - overbroad_rule
+      - common_student_myth
+      - sounds_lawyerly
+    method_class: anchor_assisted
+    student_label: "global-intoxication overclaim"
+    c3_signal: "The word 'any' makes the defense too broad. The Gold Key says voluntary intoxication does not erase general intent."
+    lawyer_confirmation: "Voluntary intoxication may be relevant to a specific-intent element in some jurisdictions, but not to this general-intent battery."
+  D:
+    text: "Yes, but only if Martha can show that she does not remember swinging the program."
+    filter_broken: NOT_TRUE
+    mold_code: fabricated_rule
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - attractive_wrong_answer
+      - wrong_timing
+      - fact_not_in_evidence
+      - common_student_myth
+    method_class: anchor_assisted
+    student_label: "memory-threshold bait"
+    c3_signal: "Later memory is not the call. The call is defense availability for voluntary intoxication and general-intent battery."
+    lawyer_confirmation: "Blackout or lack of memory does not by itself supply a defense to a voluntary-intoxication general-intent charge."
+
+residual_answer:
+  choice: "B"
+  text: "No, because voluntary intoxication is not a defense to a general-intent battery."
+  why_survives: "It is true under the Gold Key and responsive to the call."
+
+legal_leak_audit:
+  student_accessible:
+    - "A contradicts the stem's offense definition."
+    - "C overclaims with 'any intent.'"
+    - "D shifts from intent at the moment to memory afterward."
+    - "B follows the Gold Key distinction."
+  anchor_assisted_claims:
+    - "Voluntary intoxication is not a defense to general-intent crimes."
+    - "Voluntary intoxication may matter for specific-intent crimes."
+  lawyer_confirmation_only:
+    - "Authority citations and jurisdictional support for intoxication doctrine."
+  drift_audit: "No lawyer-only rule is used as fake structure; the deciding doctrine is promoted as a Gold Key."
+
+gold_keys:
+  - id: "GK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+    statement: "Voluntary intoxication may matter for a specific-intent element, but it is not a defense to a general-intent crime. General-intent battery requires intent to make the offensive contact, not a further objective."
+    type: distinction
+    unlocks: "general-intent intoxication trap"
+    trigger: "Stem says the offense requires intentional contact but no further purpose or objective."
+    tested_choice: "C"
+    authority: "Cornell Wex intoxication; CALCRIM No. 3426; People v. Hood / People v. Atkins line of authority"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-GENERAL-INTENT-INTOX-01"
+    statement: "When two answers reach the same outcome, test the reason against the stem before keeping it. A right result with a reason the stem contradicts is still a cut."
+    type: answer_array
+    navigates: "same-result wrong-reason No answer"
+    trigger: "One No answer says strict liability while the stem says intentional contact."
+    tested_choice: "A"
+    outline_code: "72060101"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIM-INTOX-GENERAL-INTENT-01"
+  title: "Voluntary intoxication: specific-intent only"
+  signal: "The stem says no further purpose or objective."
+  student_move: "Classify the offense before applying intoxication."
+  tiny_rule: "Voluntary intoxication does not excuse general intent."
+  trap: "Treating drunkenness, blackout, or no memory as a universal intent defense."
+  confidence: PURE_ANCHOR
+
+distilled_core_question: "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?"
+review_truth: "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery."
+
+case_study_output:
+  final_student_script: "The call is intoxication as a defense. The stem says this battery needs intentional contact and no further purpose. Strict liability contradicts the stem. 'Any intent' overclaims. No memory is the wrong timing. Gold Key: voluntary intoxication is not a defense to general-intent battery. Pick B."
+  residual: "B"
+
+quality_control:
+  pass_available: true
+  true_and_responsive_residual_equals_key: true
+  exactly_three_distractors: true
+  each_distractor_breaks_one_filter: true
+  key_disagreement: false
+  recognition_test_passed: true
+  pick_rate_provenance_honest: true
+  no_original_letters_outside_provenance: true
+
+analytics_hooks:
+  tested_rule: "voluntary intoxication and general intent"
+  trap_family: "general-vs-specific intent defense scope"
+  primary_miss: "treating intoxication as universal intent negation"
+  secondary_miss: "same-result wrong-reason strict-liability answer"
+  drill_targets:
+    - "general intent vs specific intent"
+    - "same-result wrong-reason"
+    - "memory vs intent timing"
+```
+
+## PASS-2 Student Case Study
+
+### program_frame
+
+This is a criminal-defense item. The task is not to decide whether Martha was drunk. The task is whether that kind of intoxication is a defense to this kind of battery.
+
+### student_access_test
+
+A purely structural student can cut A because it contradicts the stem. The same student can be suspicious of C because “any intent” is an overclaim and suspicious of D because memory later is not intent during the act. The final decision needs the Gold Key.
+
+### question_data
+
+**Question ID:** 17151_carol_program
+**Subject:** CRIMINAL
+**Outline code:** 72060101
+**Credited answer:** B
+**Call:** Is voluntary intoxication a defense to the battery charge?
+
+### distilled_core_question
+
+A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?
+
+### call_and_prediction
+
+**Call lock:** defense availability.
+**Prediction:** No. The offense is general intent, and voluntary intoxication does not excuse it.
+**Adjacent trap:** Do not answer whether battery is strict liability. The stem already says it requires intentional contact.
+
+### trigger_facts
+
+| Fact                                              | Function                             |
+| ------------------------------------------------- | ------------------------------------ |
+| Martha voluntarily drinks spiked wassail          | Triggers voluntary-intoxication rule |
+| She swings the rolled program and strikes Stephen | Supplies intentional contact act     |
+| Battery requires intentional offensive contact    | Cuts strict-liability answer         |
+| No further purpose or objective required          | Makes the charge general intent      |
+
+### governing_c3_lane
+
+**Lane:** Criminal = offense classification + defense availability.
+**Law type:** RULE.
+**Decision phase:** CUT with Gold Key.
+**Verdict:** ANCHOR_SOLVE.
+
+### choice_by_choice_walkthrough
+
+#### A. No, because this battery is a strict-liability offense.
+
+1. **Student-accessible C3 signal:** The stem says battery requires intentional offensive contact. Strict liability says no intent is required. Those cannot both be true.
+2. **Student label:** same-result wrong-reason contradiction.
+3. **What a true/responsive version would look like:** “No, because voluntary intoxication is not a defense to this general-intent battery.”
+4. **Lawyer confirmation:** The reason intoxication fails is not strict liability. It fails because this battery is general intent.
+
+#### B. No, because voluntary intoxication is not a defense to a general-intent battery.
+
+1. **Student-accessible C3 signal:** This matches the call and the Gold Key.
+2. **Student label:** true and responsive residual.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** Correct. Voluntary intoxication does not excuse a general-intent battery.
+
+#### C. Yes, because intoxication negates any intent formed while drunk.
+
+1. **Student-accessible C3 signal:** “Any intent” is too big. It turns a narrow intoxication rule into a universal rule.
+2. **Student label:** global-intoxication overclaim.
+3. **What a true/responsive version would look like:** “Voluntary intoxication may be relevant to a specific-intent element.”
+4. **Lawyer confirmation:** Gold Key: voluntary intoxication is not a defense to this general-intent battery.
+
+#### D. Yes, but only if Martha can show that she does not remember swinging the program.
+
+1. **Student-accessible C3 signal:** The answer changes the timing. The issue is intent when she swung, not memory later.
+2. **Student label:** memory-threshold bait.
+3. **What a true/responsive version would look like:** “Yes, only if the charged crime required a specific intent that intoxication prevented.”
+4. **Lawyer confirmation:** No-memory or blackout is not a standalone defense to voluntary-intoxication general-intent battery.
+
+### residual_answer
+
+**B survives.** It is the only answer that says “No” for the correct reason.
+
+### legal_leak_audit
+
+Student-accessible structure cuts A. Gold Key cuts C and D. The official doctrine is used only as an anchor, not disguised as grammar.
+
+Drift audit: no student-facing claim depends on authority citations; the legal rule is promoted as a Gold Key.
+
+### final_student_script
+
+The call is voluntary intoxication as a defense. The stem says the battery requires intentional contact but no extra objective. Strict liability contradicts the stem. “Any intent” is too broad. No memory is the wrong timing. Gold Key: voluntary intoxication is not a defense to general-intent battery. Pick B.
+
+### remediation_card
+
+**REM-CRIM-INTOX-GENERAL-INTENT-01 — Voluntary intoxication and general intent**
+
+Signal: the offense requires intent to do the act, but no further purpose.
+Student move: classify the offense before applying intoxication.
+Tiny rule: voluntary intoxication does not excuse general intent.
+Trap: drunk = no intent.
+
+## Gold Key(s)
+
+**GK-CRIMINAL-GENERAL-INTENT-INTOX-01**
+Voluntary intoxication may matter for a specific-intent element, but it is not a defense to a general-intent crime. General-intent battery requires intent to make the offensive contact, not a further objective.
+
+## Silver Key(s)
+
+**SK-CRIMINAL-GENERAL-INTENT-INTOX-01**
+When two answers reach the same outcome, test the reason against the stem before keeping it. A right result with a contradicted reason is still a cut.
+
+### qa_checklist
+
+| Check                                | Result |
+| ------------------------------------ | ------ |
+| Rule unchanged                       | Pass   |
+| Key outcome unchanged                | Pass   |
+| Three distractors, one filter each   | Pass   |
+| Official key agrees with C3 residual | Pass   |
+| Christian skin adds no legal issue   | Pass   |
+| Pick-rate provenance honest          | Pass   |
+| Gold Key present                     | Pass   |
+| Silver Key present                   | Pass   |
+
+### wrong_answer_recovery_paths
+
+| Choice | Likely miss                                           | Recovery                                                        |
+| ------ | ----------------------------------------------------- | --------------------------------------------------------------- |
+| A      | Picking the right outcome without checking the reason | Compare “strict liability” to the stem’s “intentional contact.” |
+| C      | Treating intoxication as universal intent negation    | Apply Gold Key: specific intent only.                           |
+| D      | Treating no memory as no intent                       | Separate later memory from intent at the moment.                |
+
+### outline_mastery_map
+
+**Placement:** 72060101 — Criminal Law and Procedure > General Principles > Defenses > Excuse Defenses > Responsibility > Intoxication.
+**This item teaches:** voluntary intoxication is not a general-intent defense.
+**Adjacent mastery:** specific intent, general intent, mistake, diminished capacity.
+
+### crossover_intersection_map
+
+| Crossover                      | Why it matters                                               |
+| ------------------------------ | ------------------------------------------------------------ |
+| Criminal intent classification | General versus specific intent decides defense availability. |
+| C3 overclaim                   | “Any intent” is a classic absolute.                          |
+| Same-result wrong-reason       | A reaches “No” but for a contradicted reason.                |
+| Timing discipline              | Later memory is not the same as intent during the act.       |
+
+### review_truth
+
+Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.
+
+```json
+{
+  "question_id": "17151_carol_program",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060101",
+  "distilled_core_question": "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?",
+  "review_truth": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": "general intent vs specific intent defense scope",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": null,
+    "difficulty": "medium-hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "contradiction",
+        "architecture": null,
+        "card_ref": "SK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+        "explanation": "The stem says the offense requires intentional offensive contact, so strict liability contradicts the stem."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+        "explanation": "The answer overclaims by saying intoxication negates any intent formed while drunk."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+        "explanation": "The answer invents a no-memory threshold and shifts away from intent at the moment of contact."
+      }
+    ],
+    "analyzer_notes": "drift_audit: student structure cuts A; Gold Key cuts C and D; authority quarantined to lawyer-confirmation. transformed_from: 17151. letter_map: A→C, B→D, C→B, D→A.",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+        "statement": "Voluntary intoxication may matter for a specific-intent element, but it is not a defense to a general-intent crime. General-intent battery requires intent to make the offensive contact, not a further objective.",
+        "type": "distinction",
+        "unlocks": "general-intent intoxication trap",
+        "trigger": "Stem says intentional contact but no further purpose or objective.",
+        "tested_choice": "C",
+        "authority": "Cornell Wex intoxication; CALCRIM No. 3426; People v. Hood / People v. Atkins line of authority",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+        "statement": "When two answers reach the same outcome, test the reason against the stem before keeping it. A right result with a reason the stem contradicts is still a cut.",
+        "type": "answer_array",
+        "navigates": "same-result wrong-reason No answer",
+        "trigger": "One No answer says strict liability while the stem says intentional contact.",
+        "tested_choice": "A",
+        "outline_code": "72060101",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+```json
+{
+  "question_id": "17151_carol_program",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?",
+  "review_truth": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+  "tension": {
+    "axis": "general intent vs specific intent defense scope",
+    "resolving_fact": "The offense requires intentional contact but no further purpose or objective."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "contradiction",
+      "architecture": null,
+      "why_attractive": "It preserves the correct no outcome, so it feels safe after the student rejects the yes answers. The breaker is that the stem itself says this battery requires intentional contact, so strict liability contradicts the call facts.",
+      "focus_group_pct": 8,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "tiered_absolute",
+      "architecture": "wrong_frame",
+      "why_attractive": "It converts the real intoxication idea into a global rule, which sounds intuitive when a person is drunk. The breaker is the Gold Key distinction: voluntary intoxication does not wipe out general intent.",
+      "focus_group_pct": 24,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "fabricated_rule",
+      "architecture": "wrong_frame",
+      "why_attractive": "It gives the student a concrete proof hook, no memory, which sounds like missing intent. The breaker is that later memory is not the same axis as intent at the moment, and the Gold Key still blocks voluntary intoxication for general-intent battery.",
+      "focus_group_pct": 10,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-INTOX-GENERAL-INTENT-01",
+    "title": "Voluntary intoxication: specific-intent only",
+    "signal": "The stem says the offense requires intentional contact but no further purpose.",
+    "student_move": "Classify the offense before applying intoxication.",
+    "tiny_rule": "Voluntary intoxication does not excuse general intent.",
+    "trap": "Treating drunkenness, blackout, or no memory as a universal intent defense.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": [
+    "general intent vs specific intent",
+    "same-result wrong-reason",
+    "memory after event vs intent during act",
+    "absolute intoxication language"
+  ]
+}
+```
+
+```json
+{
+  "question_id": "17151_carol_program",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?",
+  "review_truth": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "contradiction",
+      "why_a_student_picks_this": "The outcome is correct, so the student stops reading the reason.",
+      "skipped_move": "Reason-check the same-result answer against the stem.",
+      "recovery_step": "Compare strict liability to the stem's intentional-contact requirement."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student believes intoxication erases all criminal intent.",
+      "skipped_move": "Apply the general-intent vs specific-intent Gold Key.",
+      "recovery_step": "Mark 'any intent' as an overclaim and classify the offense."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student treats no memory as proof of no intent.",
+      "skipped_move": "Separate memory after the event from intent during the act.",
+      "recovery_step": "Ask what the call tests: defense availability, not recollection."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "anchor_recall",
+      "target_skill": "general intent vs specific intent",
+      "prompt": "A voluntarily drunk defendant commits a general-intent battery. Is intoxication a defense?",
+      "answer": "No."
+    },
+    {
+      "drill_type": "cut_reason",
+      "target_skill": "same-result wrong-reason",
+      "prompt": "The stem says battery requires intentional contact. A choice says no defense because battery is strict liability. Cut or keep?",
+      "answer": "Cut: contradiction."
+    },
+    {
+      "drill_type": "overclaim_spotting",
+      "target_skill": "tiered_absolute",
+      "prompt": "A choice says intoxication negates any intent formed while drunk. Name the mold.",
+      "answer": "tiered_absolute."
+    },
+    {
+      "drill_type": "timing_axis",
+      "target_skill": "memory vs intent",
+      "prompt": "A choice turns on whether the defendant remembers the event later. What is the better axis?",
+      "answer": "Intent at the moment of contact."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "same_result_wrong_reason",
+      "global_intoxication_overclaim",
+      "memory_threshold_bait",
+      "offense_classification_anchor"
+    ],
+    "misconception_tags": [
+      "drunk_means_no_intent",
+      "no_memory_means_no_intent",
+      "right_outcome_is_enough",
+      "battery_is_strict_liability"
+    ]
+  },
+  "component_routing": [
+    "CUT",
+    "Gold Key",
+    "Silver Key",
+    "Calibration"
+  ],
+  "crossovers": [
+    {
+      "area": "C3 Overclaim",
+      "connection": "Choice C uses 'any' to inflate a limited rule."
+    },
+    {
+      "area": "C3 Falsity",
+      "connection": "Choice A contradicts the stem."
+    },
+    {
+      "area": "Criminal intent taxonomy",
+      "connection": "The defense turns on general intent versus specific intent."
+    },
+    {
+      "area": "Issue-Sense timing",
+      "connection": "Choice D confuses later memory with contemporaneous intent."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+      "statement": "Voluntary intoxication may matter for a specific-intent element, but it is not a defense to a general-intent crime. General-intent battery requires intent to make the offensive contact, not a further objective.",
+      "type": "distinction",
+      "unlocks": "general-intent intoxication trap",
+      "trigger": "Stem says intentional contact but no further purpose or objective.",
+      "tested_choice": "C",
+      "authority": "Cornell Wex intoxication; CALCRIM No. 3426; People v. Hood / People v. Atkins line of authority",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-GENERAL-INTENT-INTOX-01",
+      "statement": "When two answers reach the same outcome, test the reason against the stem before keeping it. A right result with a reason the stem contradicts is still a cut.",
+      "type": "answer_array",
+      "navigates": "same-result wrong-reason No answer",
+      "trigger": "One No answer says strict liability while the stem says intentional contact.",
+      "tested_choice": "A",
+      "outline_code": "72060101",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "72060101 — Criminal Law and Procedure > General Principles > Defenses > Excuse Defenses > Responsibility > Intoxication",
+    "this_item_teaches": "Voluntary intoxication is not a defense to a general-intent battery.",
+    "fills": [
+      "intoxication defense boundary",
+      "general-intent classification",
+      "same-result wrong-reason cut"
+    ],
+    "adjacent_to_master": [
+      "specific intent crimes",
+      "involuntary intoxication",
+      "mistake of fact",
+      "diminished capacity"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/wex/intoxication?utm_source=chatgpt.com "intoxication | Wex | US Law | LII / Legal Information Institute"
+[2]: https://www.justia.com/criminal/docs/calcrim/3400/3426/?utm_source=chatgpt.com "                CALCRIM No. 3426. Voluntary Intoxication (Pen. Code, § 29.4) :: California Criminal Jury Instructions (CALCRIM) (2026) :: Justia    "
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "17151_carol_program"
+  question_id: "17151_carol_program"
+  subject: "CRIMINAL"
+  topic: "Defenses"
+  subtopic: "General Principles"
+  outline_code: "72060101"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "17151"
+  variant_slug: "carol_program"
+  original_key_letter: "C"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "PURE_ANCHOR"
+  residual: "B"
+distilled_core_question: "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?"
+review_truth: "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 17151_carol_program; source 17151.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Defenses; subtopic General Principles.
+4. **distilled_core_question:** A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 72060101.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 72060101.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "17151_carol_program",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "72060101",
+  "distilled_core_question": "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?",
+  "review_truth": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 17151; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "17151_carol_program",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?",
+  "review_truth": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-17151",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+    "trap": "See preserved traps when present.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "17151_carol_program",
+  "subject": "CRIMINAL",
+  "outline_code": "72060101",
+  "distilled_core_question": "A voluntarily intoxicated person intentionally makes offensive contact. The charged battery requires intentional contact only, with no further objective. Is voluntary intoxication a defense?",
+  "review_truth": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "72060101",
+    "this_item_teaches": "Voluntary intoxication can matter for specific intent, but it does not excuse a general-intent battery.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

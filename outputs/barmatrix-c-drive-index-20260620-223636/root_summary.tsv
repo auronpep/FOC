@@ -1,0 +1,21 @@
+root	reason	files	folder_rows	size_bytes	errors	skipped_reparse_or_excluded	seconds
+C:\_bmo_backups	BMO backup folder	2141	843	49914854	0	0	3.26
+C:\ABM	Known BarMatrix launch workspace	9564	1102	198113646	0	0	3.89
+C:\ABM-deploy-site-audit-20260612	ABM deploy/site audit folder	3964	425	78916179	0	0	1.51
+C:\AG-BM-app	BM app workspace	45703	4610	1645770780	0	4	21.78
+C:\BARMATRIX	Exact BarMatrix root	304	143	7578403	0	0	0.33
+C:\BarMatrix_Content	Exact BarMatrix content root	888	14	40326338	0	0	0.19
+C:\BarMatrix_Other_Review	Exact BarMatrix review root	713	8	144090373	0	0	0.15
+C:\barmatrix-api	BarMatrix API repo	16181	1917	172810963	0	0	6.12
+C:\barmatrix-app	BarMatrix app repo	194006	20034	4044599826	0	11	94.88
+C:\barmatrix-app-atlas-answer-bridge	BarMatrix app worktree	46023	4779	690691482	0	2	20.8
+C:\barmatrix-canon	BarMatrix canon folder	424	137	3926658	0	0	0.43
+C:\barmatrix-site	BarMatrix site repo	406	186	7470954	0	0	0.38
+C:\BMO	Known BarMatrix ops hub	150157	5602	11016856182	0	4	45.59
+C:\BMO-landing_pages	BMO landing pages folder	417062	29388	9597753263	0	0	159.41
+C:\bmo-tmp	BMO temporary workspace	54511	5967	1647199393	0	0	26.05
+C:\BMP	Known BarMatrix planning/review hub	11926	1714	304747731	0	0	7.05
+C:\BMSite	BM site folder	32811	5849	672135771	0	0	21.45
+C:\CCG	Known BarMatrix CQ source folder	27131	262	705800839	0	0	7.01
+C:\CG	Known BarMatrix CodeGraph/setup folder	2237	356	149691025	0	0	1.17
+C:\FOC	Current BarMatrix/FoC workspace	91631	8615	6740294882	0	11	43.92

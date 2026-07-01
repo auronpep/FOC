@@ -1,0 +1,868 @@
+---
+qid: 18090_prayer_journals_price_line
+transformed_from: 18090
+subject: CONTRACTS
+topic: Reformation
+subtopic: Remedies
+outline_code: "51060303"
+key: C
+original_key: A
+letter_map: A->C, B->A, C->D, D->B
+dominant_trap: D
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price."
+---
+
+## Final question
+
+Ruth, who makes handbound prayer journals, and Timothy, who runs a Christian bookstore, signed a written contract for Timothy to buy 160 journals for an upcoming discipleship conference. Before signing, they orally agreed that the price would be $38 per journal. During final drafting, the price line was accidentally omitted from the writing, and neither Ruth nor Timothy noticed before signing. Ruth later sued Timothy for breach of the contract.
+
+In deciding the action, the court should
+
+## Distilled Core Question
+
+A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?
+
+## Final answer choices
+
+A. refuse to enforce the contract if it is one that the Statute of Frauds required to be in writing.
+
+B. disregard the writing because it omits an essential term of the bargain.
+
+C. admit oral testimony to establish the price Ruth and Timothy intended.
+
+D. conclude that the contract calls for payment of a reasonable price at the time of delivery.
+
+## Correct answer
+
+C (original key A).
+
+## Letter Map
+
+| Original letter | New letter | Wrong-answer mechanic | Substance | Pick % | Provenance | Dominant trap |
+| --- | --- | --- | --- | ---: | --- | --- |
+| A | C | correct_answer | kept | 45 | predicted | no |
+| B | A | Statute of Frauds overread when a price term is omitted | kept | 18 | predicted | no |
+| C | D | UCC open-price gap filler despite an agreed price | kept | 25 | predicted | yes |
+| D | B | throw-away-the-writing overclaim | kept | 12 | predicted | no |
+
+No measured selection percentages were supplied in the source file available in this workspace, so these are seed estimates. The dominant trap is D analytically because it uses a real UCC price-gap rule and asks students to confuse an omitted written term with a price never settled.
+
+## Full right-answer explanation
+
+**C is correct.** The stem says Ruth and Timothy already agreed on the price. The problem is not that the bargain lacks a price; the problem is that the writing failed to capture one agreed term. **Gold Key:** when a writing omits an agreed term by mutual mistake, reformation lets the court use relevant extrinsic evidence to make the writing reflect the parties' actual agreement. **Silver Key:** when the answer set fights over intended price versus reasonable price, mark whether the stem says the parties agreed on price. Here it does, so the court should admit oral testimony to establish the intended price.
+
+## Full wrong-answer explanations
+
+**A.** This choice is attractive because a sale of 160 journals at $38 each is comfortably inside the goods Statute of Frauds. The breaker is that the Statute of Frauds does not make a quantity-sufficient writing fail merely because an agreed price term is missing; the writing can still support enforcement and the omitted price can be proved.
+
+**B.** This choice sells the missing-essential-term panic. The breaker is that the court is not forced to throw away a written goods contract just because the price line was accidentally omitted; the remedy lane is to make the writing match the agreement when the agreed price can be shown.
+
+**D.** This is the dominant trap because the UCC does supply a reasonable price when the parties intended to contract but left price unsettled. The breaker is the fact the stem gives twice: Ruth and Timothy orally agreed on the price before signing. **Gold Key:** reformation addresses the omitted written expression of an agreed term; it does not replace the agreed price with a gap-filler. **Silver Key:** blank line in the writing does not mean blank agreement.
+
+## Full black-letter-law verification and legal reasoning
+
+The legal issue and credited outcome are unchanged from the source item: the parties made a written goods contract, orally agreed on the price, and accidentally omitted that agreed price from the writing. The court may admit oral evidence to establish the agreed price and reform or apply the writing consistently with the parties' actual agreement.
+
+Restatement (Second) of Contracts section 155 states the reformation rule for a writing that fails to express the parties' agreement because of both parties' mistake as to the writing's contents or effect. The First Circuit's decision in *OneBeacon America Insurance Co. v. Travelers Indemnity Co. of Illinois* quotes that rule and explains that ordinary parol-evidence restrictions do not bar the court from considering extrinsic evidence of intent in a reformation case. [1]
+
+UCC section 2-201 confirms that a goods Statute of Frauds writing is not insufficient merely because it omits or incorrectly states an agreed term, though enforcement under that subsection is limited to the quantity shown in the writing. [2] UCC section 2-305 supplies a reasonable price only when the parties intended to contract but the price was not settled, such as when nothing was said about price or the parties failed to agree later. [3] That is why choice D is wrong here: the price was settled orally. UCC section 2-204 also supports the general Article 2 policy that a contract for sale does not fail for indefiniteness when the parties intended to contract and there is a reasonably certain basis for a remedy. [4]
+
+Research does not contradict the supplied official key. Bank validation verdict: PASS.
+
+## Why the variation preserves the original rigor/difficulty
+
+The variation keeps the same legal rule, the same goods-sale posture, the same omitted-price problem, the same breach-action call, and the same three distractor mechanics. It raises surface divergence by changing the asset, business setting, cast, number, price detail, fact rhythm, and answer order while preserving the dominant UCC open-price trap.
+
+## C3 elimination walkthrough
+
+**CUT A:** The Statute of Frauds frame is tempting but overreads the missing price term. A quantity-sufficient goods writing is not defeated merely because it omits a price term. Filter: NOT_TRUE. Mold: `half_truth`.
+
+**CUT B:** The writing is not disregarded just because a price line is missing. The choice overclaims the consequence of an omitted term. Filter: NOT_TRUE. Mold: `flat_misstatement`.
+
+**CLASH C vs. D:** These two choices fight on one axis: agreed price versus open price. C uses the parties' actual intended price. D uses the reasonable-price gap filler. The splitting fact is that Ruth and Timothy orally agreed to $38 per journal before signing.
+
+**CALL:** Apply the Gold Key. This is an omitted written expression of an agreed price, not an agreement with no settled price. Residual answer: C.
+
+## Divergence Audit
+
+| Recognition-Kill dimension | Change or logged skip |
+| --- | --- |
+| Asset/subject matter | Electric power drills became handbound prayer journals for a Christian bookstore. |
+| Transaction frame | Kept sale of goods because UCC Article 2 and Statute of Frauds traps are load-bearing. |
+| Specific facts | Generic oral price agreement became an agreed $38 per journal accidentally omitted during final drafting. |
+| Numbers | 200 drills became 160 journals; price amount added as $38 per journal while staying above the goods Statute of Frauds threshold. |
+| Fact ordering and stem rhythm | The variant starts with the Christian bookstore and conference need, then gives oral price, omission, and breach action. |
+| Cast size/roles | Generic seller/buyer became Ruth the journal maker and Timothy the Christian bookstore owner. |
+| Choice ordering | Shuffled to A=Statute of Frauds, B=discard writing, C=correct, D=reasonable price. |
+| Choice phrasing | Kept necessary black-letter phrasing but reworded parties and price facts. |
+| Setting/era/texture | Commercial drill sale became Christian bookstore/discipleship conference supply transaction. |
+| Call wording | Kept equivalent court-action call; did not name reformation in the call because that would lower difficulty. |
+
+Old-stem summary: A seller and buyer signed a written contract for 200 electric power drills after orally agreeing on price, but the writing accidentally omitted the price.
+
+Variant-stem summary: A prayer-journal maker and Christian bookstore owner signed a written journal-supply contract for a discipleship conference after agreeing on $38 per journal, but the final writing accidentally left out the price line.
+
+Recognition test passed: the shared content is the legal rule only, not the surface story.
+
+## Review Truth
+
+When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price.
+
+## The 5 variations considered
+
+**Step 1: tested rule.** A court may admit extrinsic evidence and reform a writing when both parties agreed on a term but the writing inadvertently omitted it; Article 2 does not force an open-price gap filler when price was already agreed.
+
+**Step 2: invariant layer.** Preserve the goods-sale contract, written memorial, orally agreed price, inadvertent omission, breach action, correct admission of oral evidence, Statute of Frauds trap, open-price trap, and throw-away-writing overclaim.
+
+**Step 3: variation table.**
+
+| Candidate | Setting | Cast | Exact preserved issue | Why memorable | Legal risks | Divergence score |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Recommended: Prayer Journals Price Line** | Christian bookstore supply order for a discipleship conference | Ruth, Timothy | Agreed price omitted from written goods contract | Handbound prayer journals are vivid but still ordinary goods | None; private goods sale avoids church-law clutter | **9/10: changes asset, number, price detail, cast, setting, rhythm, choice order, and texture while preserving Article 2** |
+| Hymn-Choir Robe Hangers | Choir director buying custom wooden robe hangers from a private craft seller | Lydia, Paul | Same omitted agreed price | Choir-room image is memorable | Custom goods could distract into specially manufactured goods | 7/10 |
+| Scripture Memory Card Boxes | Homeschool co-op buying boxed card sets | Mary, Barnabas | Same omitted agreed price | Strong Christian study texture | Co-op context may invite agency questions if overdeveloped | 8/10 |
+| Baptism-Class Notebooks | Bookstore buying notebooks for a class | Esther, John | Same omitted agreed price | Familiar church-adjacent product | "Baptism class" could feel church-internal if not kept commercial | 7/10 |
+| Psalm Wall Calendars | Retail shop buying calendars from a printer | Hannah, Stephen | Same omitted agreed price | Seasonal calendar supply is concrete | Printing services could blur goods/services if described poorly | 8/10 |
+
+**Step 4: distractor policy.** No swap performed. Each original distractor is sound and diagnostically useful. The analytically dominant trap is the open-price gap filler because it is a real UCC rule and therefore has the strongest pull.
+
+**Step 5: recommended version.** Prayer Journals Price Line wins because it is the most surface-divergent legally clean goods-sale version and it keeps the dominant trap intact.
+
+**Step 6: shuffle and lock.** Final shuffle is recorded in the Letter Map. The post-shuffle key is C.
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "18090_prayer_journals_price_line"
+  subject: "CONTRACTS"
+  topic: "Reformation"
+  subtopic: "Remedies"
+  outline_code: "51060303"
+  selection_percentages:
+    A:
+      value: 18
+      provenance: "predicted"
+    B:
+      value: 12
+      provenance: "predicted"
+    C:
+      value: 45
+      provenance: "predicted"
+    D:
+      value: 25
+      provenance: "predicted"
+  official_key: "C"
+  call: "In deciding the action, the court should"
+  choices:
+    A: "refuse to enforce the contract if it is one that the Statute of Frauds required to be in writing."
+    B: "disregard the writing because it omits an essential term of the bargain."
+    C: "admit oral testimony to establish the price Ruth and Timothy intended."
+    D: "conclude that the contract calls for payment of a reasonable price at the time of delivery."
+transform_provenance:
+  transformed_from: "18090"
+  variant_slug: "prayer_journals_price_line"
+  original_key_letter: "A"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 45
+        provenance: "predicted"
+      dominant_trap: false
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "Statute of Frauds overread when a price term is omitted"
+      substance: "kept"
+      pick_rate:
+        value: 18
+        provenance: "predicted"
+      dominant_trap: false
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "UCC open-price gap filler despite an agreed price"
+      substance: "kept"
+      pick_rate:
+        value: 25
+        provenance: "predicted"
+      dominant_trap: true
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "throw-away-the-writing overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 12
+        provenance: "predicted"
+      dominant_trap: false
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A seller and buyer signed a written contract for 200 electric power drills after orally agreeing on price, but the writing accidentally omitted the price."
+    variant_stem_one_sentence: "A prayer-journal maker and Christian bookstore owner signed a written journal-supply contract for a discipleship conference after agreeing on $38 per journal, but the final writing accidentally left out the price line."
+    dimensions_changed:
+      - "asset"
+      - "specific facts"
+      - "numbers"
+      - "fact rhythm"
+      - "cast and roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting and texture"
+    dimensions_skipped_with_reason:
+      - "transaction frame stayed a sale of goods because Article 2 and the goods Statute of Frauds trap are load-bearing"
+      - "call wording stayed generic because naming reformation would issue-spot the answer"
+source_stack:
+  primary_source: "QBank/18090.md"
+  spreadsheet_note: "MBE.xlsx was not present in the workspace during verification; QBank/18090.md supplied the full source item."
+  outline_source: "OUTLINE_CODES_COMPLETE.md line listing 51060303 Remedies > Equitable Remedies > Reformation"
+  legal_research:
+    - "Restatement (Second) of Contracts section 155, confirmed through OneBeacon America Insurance Co. v. Travelers Indemnity Co. of Illinois"
+    - "UCC section 2-201"
+    - "UCC section 2-305"
+    - "UCC section 2-204"
+student_access_contract:
+  student_can_use:
+    - "The writing contains quantity but not price."
+    - "The stem says the price was orally agreed before signing."
+    - "The omission was accidental and mutual."
+  student_cannot_be_expected_to_derive_without_anchor:
+    - "Reformation permits extrinsic evidence of the agreed term."
+    - "UCC section 2-201 tolerates omitted agreed terms other than quantity."
+    - "UCC section 2-305 applies only when price was not settled."
+stem_parse:
+  parties: "Ruth, seller of handbound prayer journals; Timothy, Christian bookstore owner"
+  transaction: "sale of 160 journals"
+  writing: "signed written contract"
+  omitted_term: "price"
+  agreed_price: "$38 per journal"
+  omission_cause: "accidental drafting omission noticed by neither party before signing"
+  lawsuit_posture: "breach of contract action"
+trigger_facts:
+  - fact: "160 journals"
+    access_label: "visible_quantity"
+    significance: "keeps the goods contract definite and makes the writing quantity-sufficient"
+  - fact: "$38 per journal orally agreed"
+    access_label: "visible_splitting_fact"
+    significance: "separates agreed-price reformation from open-price gap filling"
+  - fact: "price line accidentally omitted from the writing"
+    access_label: "visible_mistaken_expression"
+    significance: "points to reformation rather than contract failure"
+c3_routing:
+  subject_fit: "Contracts goods-sale written-expression problem"
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "UNKNOWN"
+  difficulty_note: "No difficulty value was supplied in QBank/18090.md."
+answer_array:
+  geometry: "correct intended-price evidence versus three writing/price failure traps"
+  axis: "agreed price omitted from writing versus price never settled"
+  dominant_trap: "D"
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "exception_omitted"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Statute of Frauds overread"
+    c3_signal: "This treats the missing price line as if the whole writing fails."
+    lawyer_confirmation: "UCC section 2-201 does not make a writing insufficient merely because it omits an agreed term other than quantity."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "misstated_rule"
+      - "common_student_myth"
+    method_class: "anchor_assisted"
+    student_label: "discard-the-writing overclaim"
+    c3_signal: "This jumps from one omitted line to throwing away the whole contract."
+    lawyer_confirmation: "Reformation can make a mistaken writing conform to the parties' actual agreement."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "true and responsive residual"
+    c3_signal: "This is the only answer that uses the agreed-price fact."
+    lawyer_confirmation: "Restatement section 155 and reformation doctrine allow extrinsic evidence to prove the intended term."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "half_right_answer"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "open-price gap-filler trap"
+    c3_signal: "This answers the question for a price never settled, not a price omitted from the writing."
+    lawyer_confirmation: "UCC section 2-305 supplies a reasonable price only when price was not settled despite an intent to contract."
+residual_answer:
+  letter: "C"
+  reason: "Only C treats the price as agreed but omitted from the writing."
+legal_leak_audit:
+  student_visible_claims:
+    - "The price was orally agreed."
+    - "The price was accidentally left out of the written contract."
+    - "A reasonable-price answer fights the agreed-price fact."
+  lawyer_confirmation_only:
+    - "Restatement section 155 reformation."
+    - "UCC section 2-201 omitted-term sufficiency."
+    - "UCC section 2-305 open-price gap filler."
+  verdict: "No student-facing section relies on uncited lawyer doctrine as if it were visible structure."
+gold_keys:
+  - id: "GK-CONTRACTS-REFORMATION-PRICE-01"
+    statement: "When a writing omits an agreed term by mutual mistake, reformation lets the court use relevant extrinsic evidence to make the writing reflect the parties' actual agreement."
+    type: "rule"
+    unlocks: "the open-price and discard-the-writing traps"
+    trigger: "the stem says the parties orally agreed on price but accidentally omitted it from the writing"
+    tested_choice: "D"
+    authority: "Restatement (Second) of Contracts section 155; OneBeacon America Insurance Co. v. Travelers Indemnity Co. of Illinois; UCC sections 2-201 and 2-305"
+    last_minute_review: true
+silver_keys:
+  - id: "SK-CONTRACTS-PRICE-OMISSION-01"
+    statement: "When two answers fight over intended price versus reasonable price, mark whether the stem says the parties agreed on price; an omitted written term is not the same as no agreement."
+    type: "clash"
+    navigates: "intended-price evidence versus open-price gap filler"
+    trigger: "blank price line plus oral agreement on price"
+    tested_choice: "D"
+    outline_code: "51060303"
+    last_minute_review: true
+remediation:
+  card_id: "RC-CONTRACTS-REFORMATION-PRICE-18090"
+  title: "Blank price line is not always open price"
+  signal: "The stem says the parties agreed on price before the writing."
+  student_move: "Choose the answer that proves the intended price, not the answer that supplies a new reasonable price."
+  tiny_rule: "Agreed-but-omitted price points to reformation evidence."
+  trap: "open-price gap filler"
+  confidence: "ANCHOR_ASSISTED"
+distilled_core_question: "A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?"
+review_truth: "When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price."
+case_study_output:
+  final_student_script: "Use the agreed-price fact. Cut contract-failure answers. Between intended price and reasonable price, choose intended price."
+quality_control:
+  outline_code_verified: true
+  outline_code: "51060303"
+  controlled_vocab_verified: true
+  json_blocks_validated: true
+  predicted_pick_rates_sum: 100
+  bank_validation_verdict: "PASS"
+analytics_hooks:
+  red_zone_dimensions:
+    - "open-price gap filler overuse"
+    - "Statute of Frauds overread"
+    - "reformation anchor gap"
+  component_tags:
+    - "Contracts"
+    - "Reformation"
+    - "UCC price term"
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Contracts remedies item. The work is not to decide whether a price is important. The work is to decide what the court does when the parties agreed on price but the writing accidentally left it out.
+
+## student_access_test
+
+A student can see the decisive split from the stem: Ruth and Timothy orally agreed to $38 per journal before signing. A student needs a taught anchor to know that reformation permits oral evidence of the agreed term and that Article 2 does not automatically defeat the writing.
+
+## question_data
+
+**Subject:** CONTRACTS  
+**Topic:** Reformation  
+**Subtopic:** Remedies  
+**Outline code:** 51060303  
+**Credited answer:** C  
+**Dominant trap:** D  
+**Pick-rate mode:** predicted seed percentages, because no measured rates were supplied.
+
+## distilled_core_question
+
+A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?
+
+## call_and_prediction
+
+The call asks what the court should do in the breach action. Predict a remedy/evidence answer, not a contract-failure answer. The likely surviving tension is intended price versus reasonable price.
+
+## trigger_facts
+
+| Trigger fact | C3 use |
+| --- | --- |
+| Written contract for 160 journals | Goods sale with quantity in the writing. |
+| Oral agreement to $38 per journal | Splitting fact: price was settled. |
+| Price line accidentally omitted | Mistaken written expression. |
+| Neither party noticed | Mutual expression problem, not tactical silence. |
+| Breach action | Court needs the contract price or remedy path. |
+
+## governing_c3_lane
+
+Lane: agreed term omitted from writing. The student path is CLASH-driven: compare the answer that proves the intended price with the answer that supplies a reasonable price. The anchor confirms that the intended-price answer is legally available.
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** This answer treats the missing price line as if the Statute of Frauds wipes out the contract.
+2. **Student label:** Statute of Frauds overread.
+3. **What a true/responsive version would look like:** A Statute of Frauds answer would matter if the writing lacked the required quantity or if no qualifying writing existed.
+4. **Lawyer confirmation:** UCC section 2-201 says a writing is not insufficient merely because it omits or incorrectly states an agreed term, though enforcement is limited to the quantity shown.
+
+### B
+
+1. **Student-accessible C3 signal:** This answer jumps from one missing line to discarding the whole writing.
+2. **Student label:** Discard-the-writing overclaim.
+3. **What a true/responsive version would look like:** A discard-writing answer would need a defect that prevents the court from identifying a contract or any reliable remedy basis.
+4. **Lawyer confirmation:** Reformation is designed for a writing that does not accurately express the parties' agreement because of mistake.
+
+### C
+
+1. **Student-accessible C3 signal:** This answer uses the exact fact the stem spotlighted: Ruth and Timothy agreed on the price.
+2. **Student label:** True and responsive residual.
+3. **What a true/responsive version would look like:** This is the true/responsive version because it lets the court find the intended price.
+4. **Lawyer confirmation:** Restatement section 155 and reformation doctrine allow extrinsic evidence to prove and correct the mistaken written expression.
+
+### D
+
+1. **Student-accessible C3 signal:** This answer acts as if the parties never settled price.
+2. **Student label:** Open-price gap-filler trap.
+3. **What a true/responsive version would look like:** A reasonable-price answer would fit if nothing was said about price or if the parties left price to future agreement and failed to agree.
+4. **Lawyer confirmation:** UCC section 2-305 supplies a reasonable price when price is not settled; it does not override an already agreed price accidentally omitted from the writing.
+
+## residual_answer
+
+C remains. It is the only answer that responds to the agreed-but-omitted price term.
+
+## legal_leak_audit
+
+Student-accessible: agreed price, omitted price line, breach action, and the intended-price/open-price clash.  
+Anchor-assisted: reformation, extrinsic evidence in reformation, and UCC price-term rules.  
+No legal leak: the student script does not pretend UCC section numbers are visible from the answer text.  
+Drift audit: same rule, same breach posture, same goods-sale writing problem, same omitted agreed price, same official outcome, same three distractor mechanics, new surface story.
+
+## final_student_script
+
+They did agree on price. The writing just missed it. Cut the answers that punish the writing. Between intended price and reasonable price, choose intended price. Answer C.
+
+## remediation_card
+
+**Card ID:** RC-CONTRACTS-REFORMATION-PRICE-18090  
+**Signal:** The stem says the parties agreed on price before the writing.  
+**Student move:** Treat "omitted from writing" differently from "never agreed."  
+**Tiny rule:** Agreed-but-omitted price points to reformation evidence.  
+**Trap:** UCC reasonable-price gap filler.
+
+## Gold Key(s)
+
+**GK-CONTRACTS-REFORMATION-PRICE-01:** When a writing omits an agreed term by mutual mistake, reformation lets the court use relevant extrinsic evidence to make the writing reflect the parties' actual agreement.
+
+## Silver Key(s)
+
+**SK-CONTRACTS-PRICE-OMISSION-01:** When two answers fight over intended price versus reasonable price, mark whether the stem says the parties agreed on price; an omitted written term is not the same as no agreement.
+
+## qa_checklist
+
+- Rule unchanged: yes.
+- Credited outcome unchanged: yes.
+- Dominant trap preserved: yes, D.
+- Outline code verified: yes, 51060303 appears verbatim in OUTLINE_CODES_COMPLETE.md.
+- Controlled vocabulary values checked: yes.
+- Pick-rate provenance honest: yes, all predicted.
+- Bank validation verdict: PASS.
+
+## wrong_answer_recovery_paths
+
+| Choice | Why students pick it | Recovery step |
+| --- | --- | --- |
+| A | They see goods, price above $500, and a missing term. | Ask whether the writing has quantity; missing price is not fatal under Article 2. |
+| B | They treat price as always essential in the writing. | Ask whether the court can correct a mistaken written expression. |
+| D | They know the UCC reasonable-price gap filler. | Ask whether price was never settled or merely omitted from the writing. |
+
+## outline_mastery_map
+
+**Placement:** Contracts > Remedies > Equitable Remedies > Reformation > 51060303.  
+**This item teaches:** reformation when a written goods contract omits an agreed price.  
+**Fills:** reformation anchor, UCC price-term trap, Statute of Frauds omitted-term trap.  
+**Adjacent to master:** parol evidence, UCC section 2-201, UCC section 2-305, mutual mistake.
+
+## crossover_intersection_map
+
+This item crosses Contracts remedies with Article 2 formation and the goods Statute of Frauds. It does not require evidence-law hearsay analysis, charitable organization law, agency authority, or church-property doctrine.
+
+## review_truth
+
+When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price.
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "18090_prayer_journals_price_line",
+  "subject": "CONTRACTS",
+  "credited_answer": "C",
+  "outline_code": "51060303",
+  "distilled_core_question": "A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?",
+  "review_truth": "When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "agreed price omitted from writing versus genuinely open price",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "When the writing is blank but the stem says the parties agreed, choose proof of the intended term over a gap filler.",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "half_truth",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CONTRACTS-REFORMATION-PRICE-01",
+        "explanation": "The Statute of Frauds does not make a goods writing insufficient merely because an agreed price term is omitted."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "flat_misstatement",
+        "architecture": null,
+        "card_ref": "GK-CONTRACTS-REFORMATION-PRICE-01",
+        "explanation": "The writing is not disregarded merely because it accidentally omits the price."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-CONTRACTS-PRICE-OMISSION-01",
+        "explanation": "The reasonable-price rule answers a different case, where price was not settled."
+      }
+    ],
+    "analyzer_notes": "drift_audit: same goods-sale contract, same orally agreed price omitted from writing, same breach-action call, same official outcome, same Statute of Frauds/open-price/discard-writing traps. transformed_from: 18090. letter_map: A->C, B->A, C->D, D->B. outline_code_verified: 51060303 appears verbatim in OUTLINE_CODES_COMPLETE.md. no_measured_pick_rates: seed percentages predicted and sum to 100.",
+    "gold_keys": [
+      {
+        "id": "GK-CONTRACTS-REFORMATION-PRICE-01",
+        "statement": "When a writing omits an agreed term by mutual mistake, reformation lets the court use relevant extrinsic evidence to make the writing reflect the parties' actual agreement.",
+        "type": "rule",
+        "unlocks": "the open-price and discard-the-writing traps",
+        "trigger": "the stem says the parties orally agreed on price but accidentally omitted it from the writing",
+        "tested_choice": "D",
+        "authority": "Restatement (Second) of Contracts section 155; OneBeacon America Insurance Co. v. Travelers Indemnity Co. of Illinois; UCC sections 2-201 and 2-305",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CONTRACTS-PRICE-OMISSION-01",
+        "statement": "When two answers fight over intended price versus reasonable price, mark whether the stem says the parties agreed on price; an omitted written term is not the same as no agreement.",
+        "type": "clash",
+        "navigates": "intended-price evidence versus open-price gap filler",
+        "trigger": "blank price line plus oral agreement on price",
+        "tested_choice": "D",
+        "outline_code": "51060303",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "18090_prayer_journals_price_line",
+  "subject": "CONTRACTS",
+  "outline_code": "51060303",
+  "distilled_core_question": "A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?",
+  "review_truth": "When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price.",
+  "tension": "intended price versus reasonable price",
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "half_truth",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student sees a missing price in a goods contract and reaches for the writing requirement. The breaker is that UCC 2-201 does not make a quantity-sufficient writing fail merely because an agreed price is omitted.",
+      "focus_group_pct": 18,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "flat_misstatement",
+      "architecture": null,
+      "why_attractive": "The student treats a missing price line as a missing-contract failure. The breaker is that reformation and Article 2 both resist throwing away a bargain when intent and quantity are clear.",
+      "focus_group_pct": 12,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student remembers the UCC reasonable-price gap filler and sees a blank price line. The breaker is that the stem says the parties had already agreed on a price.",
+      "focus_group_pct": 25,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "RC-CONTRACTS-REFORMATION-PRICE-18090",
+    "title": "Blank price line is not always open price",
+    "signal": "The stem says the parties agreed on price before the writing.",
+    "student_move": "Choose the answer that proves the intended price, not the answer that supplies a new reasonable price.",
+    "tiny_rule": "Agreed-but-omitted price points to reformation evidence.",
+    "trap": "open-price gap filler",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "open-price gap filler overuse",
+    "Statute of Frauds overread",
+    "reformation anchor gap"
+  ]
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "18090_prayer_journals_price_line",
+  "subject": "CONTRACTS",
+  "outline_code": "51060303",
+  "distilled_core_question": "A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?",
+  "review_truth": "When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The student sees a goods sale over $500 and a missing price term, then turns the Statute of Frauds into a contract-killer.",
+      "skipped_move": "checking whether quantity, not price, is the indispensable UCC writing term",
+      "recovery_step": "Ask whether the writing is missing quantity or merely missing another agreed term."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "flat_misstatement",
+      "why_a_student_picks_this": "The student treats price as so essential that a blank line must destroy the writing.",
+      "skipped_move": "separating contract failure from mistaken written expression",
+      "recovery_step": "Look for whether the parties actually agreed on the omitted term."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student knows the UCC can fill an open price and maps that rule onto any blank price line.",
+      "skipped_move": "using the oral-agreement fact as the CLASH splitter",
+      "recovery_step": "Ask whether the price was open or merely omitted from the written expression."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "clash_axis",
+      "target_skill": "distinguish agreed-but-omitted price from open price",
+      "prompt": "The writing omits price, but the stem says both parties orally agreed to $20 each. Open price or reformation evidence?",
+      "answer": "Reformation evidence."
+    },
+    {
+      "drill_type": "cut",
+      "target_skill": "avoid Statute of Frauds overread",
+      "prompt": "A signed goods writing lists quantity but omits price. Is it automatically insufficient under UCC 2-201?",
+      "answer": "No. Omitted agreed terms other than quantity do not automatically make the writing insufficient."
+    },
+    {
+      "drill_type": "gold_key",
+      "target_skill": "recall reformation anchor",
+      "prompt": "What remedy fits when the parties' writing accidentally omits a term both sides agreed to?",
+      "answer": "Reformation, with extrinsic evidence of the intended term."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "blank price line",
+      "open-price bait",
+      "Statute of Frauds overread",
+      "discard-writing overclaim"
+    ],
+    "misconception_tags": [
+      "missing price means no contract",
+      "reasonable price always fills a blank price line",
+      "oral evidence is always barred by a writing"
+    ]
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "route": "contracts/reformation",
+      "component_tags": [
+        "Gold Key",
+        "reformation",
+        "omitted agreed term"
+      ]
+    },
+    {
+      "destination_key": "trap_forensics",
+      "route": "contracts/open-price-trap",
+      "component_tags": [
+        "reasonable price",
+        "UCC 2-305",
+        "dominant trap"
+      ]
+    },
+    {
+      "destination_key": "drills",
+      "route": "contracts/agreed-vs-open-price",
+      "component_tags": [
+        "CLASH",
+        "price term",
+        "Article 2"
+      ]
+    },
+    {
+      "destination_key": "outline_atlas",
+      "route": "contracts/remedies/reformation/51060303",
+      "component_tags": [
+        "51060303",
+        "equitable remedies",
+        "reformation"
+      ]
+    }
+  ],
+  "crossovers": [
+    "UCC Statute of Frauds",
+    "UCC open price term",
+    "parol evidence and extrinsic evidence",
+    "mutual mistake in written expression"
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CONTRACTS-REFORMATION-PRICE-01",
+      "statement": "When a writing omits an agreed term by mutual mistake, reformation lets the court use relevant extrinsic evidence to make the writing reflect the parties' actual agreement.",
+      "type": "rule",
+      "unlocks": "the open-price and discard-the-writing traps",
+      "trigger": "the stem says the parties orally agreed on price but accidentally omitted it from the writing",
+      "tested_choice": "D",
+      "authority": "Restatement (Second) of Contracts section 155; OneBeacon America Insurance Co. v. Travelers Indemnity Co. of Illinois; UCC sections 2-201 and 2-305",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CONTRACTS-PRICE-OMISSION-01",
+      "statement": "When two answers fight over intended price versus reasonable price, mark whether the stem says the parties agreed on price; an omitted written term is not the same as no agreement.",
+      "type": "clash",
+      "navigates": "intended-price evidence versus open-price gap filler",
+      "trigger": "blank price line plus oral agreement on price",
+      "tested_choice": "D",
+      "outline_code": "51060303",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Contracts > Remedies > Equitable Remedies > Reformation > 51060303",
+    "this_item_teaches": "A mistaken written expression can be reformed to include an agreed price.",
+    "fills": [
+      "reformation for omitted agreed term",
+      "UCC price gap-filler boundary",
+      "goods Statute of Frauds omitted-term rule"
+    ],
+    "adjacent_to_master": [
+      "parol evidence",
+      "mutual mistake",
+      "UCC section 2-201",
+      "UCC section 2-305"
+    ]
+  }
+}
+```
+
+[1]: https://law.justia.com/cases/federal/appellate-courts/F3/465/38/544526/
+[2]: https://www.law.cornell.edu/ucc/2/2-201
+[3]: https://www.law.cornell.edu/ucc/2/2-305
+[4]: https://www.law.cornell.edu/ucc/2/2-204
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+A written goods contract states the quantity, the parties orally agreed on price, and the writing accidentally omits the price. In a breach action, may the court hear oral evidence of the agreed price?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+C
+
+### 99. Letter Map
+
+A->C, B->A, C->D, D->B
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+When both parties agreed on a price but accidentally left it out of their written goods contract, the court may use oral evidence to reform the writing to reflect the agreed price.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

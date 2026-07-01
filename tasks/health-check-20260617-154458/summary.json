@@ -1,0 +1,803 @@
+{
+  "OutputDirectory": "C:\\FOC\\tasks\\health-check-20260617-154458",
+  "System": {
+    "Timestamp": "2026-06-17T15:45:01.0700354-07:00",
+    "ComputerName": "PRAISEJESUS",
+    "UserName": "JesusLovesMe",
+    "Manufacturer": "Micro Computer(HK) Tech Limited",
+    "Model": "Venus series",
+    "OS": "Microsoft Windows 11 Home",
+    "OSVersion": "10.0.26200",
+    "BuildNumber": "26200",
+    "LastBoot": "2026-06-17T12:35:42.5000000-07:00",
+    "UptimeDays": 0.13,
+    "CpuName": "12th Gen Intel(R) Core(TM) i9-12900HK",
+    "PhysicalCores": 14.0,
+    "LogicalCores": 20,
+    "Memory": {
+      "TotalGB": 31.78,
+      "UsedGB": 23.77,
+      "FreeGB": 8.02,
+      "UsedPercent": 74.8,
+      "FreePercent": 25.2
+    }
+  },
+  "DiskCount": 2,
+  "LowFreeDisks": 1,
+  "RunningServiceCount": 112,
+  "ServiceCount": 302,
+  "StartupEntryCount": 55,
+  "ProcessCount": 418,
+  "TcpListenerCount": 29,
+  "TcpEstablishedCount": 112,
+  "TopMemory": [
+    {
+      "Name": "node",
+      "Id": 28028,
+      "WorkingSetMB": 3232.1,
+      "PrivateMemoryMB": 3293.1,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "Memory Compression",
+      "Id": 2968,
+      "WorkingSetMB": 785.1,
+      "PrivateMemoryMB": 1.9,
+      "CurrentCpuPercent": null,
+      "Path": null
+    },
+    {
+      "Name": "MsMpEng",
+      "Id": 4400,
+      "WorkingSetMB": 512.3,
+      "PrivateMemoryMB": 549.7,
+      "CurrentCpuPercent": null,
+      "Path": null
+    },
+    {
+      "Name": "explorer",
+      "Id": 8580,
+      "WorkingSetMB": 493.5,
+      "PrivateMemoryMB": 459.7,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\WINDOWS\\Explorer.EXE"
+    },
+    {
+      "Name": "chrome",
+      "Id": 9508,
+      "WorkingSetMB": 434.5,
+      "PrivateMemoryMB": 554.1,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 13864,
+      "WorkingSetMB": 430.8,
+      "PrivateMemoryMB": 767.8,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Users\\JesusLovesMe\\AppData\\Roaming\\Claude\\claude-code\\2.1.177\\claude.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 14444,
+      "WorkingSetMB": 423.8,
+      "PrivateMemoryMB": 416.0,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Program Files\\WindowsApps\\Claude_1.13576.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 10872,
+      "WorkingSetMB": 408.2,
+      "PrivateMemoryMB": 814.3,
+      "CurrentCpuPercent": 0.03,
+      "Path": "C:\\Users\\JesusLovesMe\\AppData\\Roaming\\Claude\\claude-code\\2.1.177\\claude.exe"
+    },
+    {
+      "Name": "EXCEL",
+      "Id": 25064,
+      "WorkingSetMB": 402.2,
+      "PrivateMemoryMB": 337.6,
+      "CurrentCpuPercent": 0.03,
+      "Path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE"
+    },
+    {
+      "Name": "claude",
+      "Id": 12832,
+      "WorkingSetMB": 394.6,
+      "PrivateMemoryMB": 723.7,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Users\\JesusLovesMe\\AppData\\Roaming\\Claude\\claude-code\\2.1.177\\claude.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 19692,
+      "WorkingSetMB": 393.3,
+      "PrivateMemoryMB": 770.5,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Users\\JesusLovesMe\\AppData\\Roaming\\Claude\\claude-code\\2.1.177\\claude.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 17248,
+      "WorkingSetMB": 379.2,
+      "PrivateMemoryMB": 289.9,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 4916,
+      "WorkingSetMB": 370.0,
+      "PrivateMemoryMB": 460.1,
+      "CurrentCpuPercent": 0.05,
+      "Path": "C:\\Program Files\\WindowsApps\\Claude_1.13576.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe"
+    },
+    {
+      "Name": "Code",
+      "Id": 25016,
+      "WorkingSetMB": 363.1,
+      "PrivateMemoryMB": 337.0,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "Name": "Code",
+      "Id": 13088,
+      "WorkingSetMB": 350.7,
+      "PrivateMemoryMB": 307.1,
+      "CurrentCpuPercent": 0.0,
+      "Path": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+    }
+  ],
+  "TopCurrentCpu": [
+    {
+      "Name": "pwsh",
+      "Id": 18280,
+      "CurrentCpuPercent": 2.06,
+      "WorkingSetMB": 109.3,
+      "Path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+    },
+    {
+      "Name": "codex",
+      "Id": 21300,
+      "CurrentCpuPercent": 1.48,
+      "WorkingSetMB": 296.9,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\resources\\codex.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 9160,
+      "CurrentCpuPercent": 0.68,
+      "WorkingSetMB": 217.5,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "Codex",
+      "Id": 19944,
+      "CurrentCpuPercent": 0.18,
+      "WorkingSetMB": 306.3,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\Codex.exe"
+    },
+    {
+      "Name": "Code",
+      "Id": 19848,
+      "CurrentCpuPercent": 0.05,
+      "WorkingSetMB": 277.5,
+      "Path": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 4916,
+      "CurrentCpuPercent": 0.05,
+      "WorkingSetMB": 370.0,
+      "Path": "C:\\Program Files\\WindowsApps\\Claude_1.13576.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe"
+    },
+    {
+      "Name": "Codex",
+      "Id": 3752,
+      "CurrentCpuPercent": 0.05,
+      "WorkingSetMB": 319.2,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\Codex.exe"
+    },
+    {
+      "Name": "EXCEL",
+      "Id": 25064,
+      "CurrentCpuPercent": 0.03,
+      "WorkingSetMB": 402.2,
+      "Path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE"
+    },
+    {
+      "Name": "claude",
+      "Id": 10872,
+      "CurrentCpuPercent": 0.03,
+      "WorkingSetMB": 408.2,
+      "Path": "C:\\Users\\JesusLovesMe\\AppData\\Roaming\\Claude\\claude-code\\2.1.177\\claude.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 8188,
+      "CurrentCpuPercent": 0.0,
+      "WorkingSetMB": 43.2,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 7836,
+      "CurrentCpuPercent": 0.0,
+      "WorkingSetMB": 54.3,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 6032,
+      "CurrentCpuPercent": 0.0,
+      "WorkingSetMB": 58.7,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 3484,
+      "CurrentCpuPercent": 0.0,
+      "WorkingSetMB": 83.9,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 3256,
+      "CurrentCpuPercent": 0.0,
+      "WorkingSetMB": 84.1,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 2976,
+      "CurrentCpuPercent": 0.0,
+      "WorkingSetMB": 59.4,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    }
+  ],
+  "TopTotalCpu": [
+    {
+      "Name": "codex",
+      "Id": 21300,
+      "TotalCpuSeconds": 443.39,
+      "WorkingSetMB": 296.9,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\resources\\codex.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 16592,
+      "TotalCpuSeconds": 324.45,
+      "WorkingSetMB": 131.2,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 4916,
+      "TotalCpuSeconds": 311.42,
+      "WorkingSetMB": 370.0,
+      "Path": "C:\\Program Files\\WindowsApps\\Claude_1.13576.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 14444,
+      "TotalCpuSeconds": 304.3,
+      "WorkingSetMB": 423.8,
+      "Path": "C:\\Program Files\\WindowsApps\\Claude_1.13576.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe"
+    },
+    {
+      "Name": "claude",
+      "Id": 11260,
+      "TotalCpuSeconds": 242.94,
+      "WorkingSetMB": 286.2,
+      "Path": "C:\\Program Files\\WindowsApps\\Claude_1.13576.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe"
+    },
+    {
+      "Name": "Codex",
+      "Id": 3752,
+      "TotalCpuSeconds": 237.75,
+      "WorkingSetMB": 319.2,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\Codex.exe"
+    },
+    {
+      "Name": "Codex",
+      "Id": 19944,
+      "TotalCpuSeconds": 202.88,
+      "WorkingSetMB": 306.3,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\Codex.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 9508,
+      "TotalCpuSeconds": 135.12,
+      "WorkingSetMB": 434.5,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 4436,
+      "TotalCpuSeconds": 129.27,
+      "WorkingSetMB": 286.2,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "Codex",
+      "Id": 20232,
+      "TotalCpuSeconds": 124.67,
+      "WorkingSetMB": 183.9,
+      "Path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\\app\\Codex.exe"
+    },
+    {
+      "Name": "node",
+      "Id": 9160,
+      "TotalCpuSeconds": 121.78,
+      "WorkingSetMB": 217.5,
+      "Path": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 17816,
+      "TotalCpuSeconds": 113.91,
+      "WorkingSetMB": 301.6,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 11420,
+      "TotalCpuSeconds": 111.64,
+      "WorkingSetMB": 233.2,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "chrome",
+      "Id": 6412,
+      "TotalCpuSeconds": 110.06,
+      "WorkingSetMB": 260.2,
+      "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "Name": "explorer",
+      "Id": 8580,
+      "TotalCpuSeconds": 88.38,
+      "WorkingSetMB": 493.5,
+      "Path": "C:\\WINDOWS\\Explorer.EXE"
+    }
+  ],
+  "AutoServicesRunning": [
+    {
+      "Name": "AppXSvc",
+      "DisplayName": "AppX Deployment Service (AppXSVC)",
+      "StartName": "LocalSystem",
+      "ProcessId": 24832
+    },
+    {
+      "Name": "AudioEndpointBuilder",
+      "DisplayName": "Windows Audio Endpoint Builder",
+      "StartName": "LocalSystem",
+      "ProcessId": 2136
+    },
+    {
+      "Name": "Audiosrv",
+      "DisplayName": "Windows Audio",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 3276
+    },
+    {
+      "Name": "BFE",
+      "DisplayName": "Base Filtering Engine",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 3824
+    },
+    {
+      "Name": "BrokerInfrastructure",
+      "DisplayName": "Background Tasks Infrastructure Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 1776
+    },
+    {
+      "Name": "camsvc",
+      "DisplayName": "Capability Access Manager Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 6648
+    },
+    {
+      "Name": "cbdhsvc_9f735",
+      "DisplayName": "Clipboard User Service_9f735",
+      "StartName": null,
+      "ProcessId": 8888
+    },
+    {
+      "Name": "CDPSvc",
+      "DisplayName": "Connected Devices Platform Service",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 6316
+    },
+    {
+      "Name": "CDPUserSvc_9f735",
+      "DisplayName": "Connected Devices Platform User Service_9f735",
+      "StartName": null,
+      "ProcessId": 8024
+    },
+    {
+      "Name": "ClickToRunSvc",
+      "DisplayName": "Microsoft Office Click-to-Run Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4444
+    },
+    {
+      "Name": "CoreMessagingRegistrar",
+      "DisplayName": "CoreMessaging",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 2084
+    },
+    {
+      "Name": "CoworkVMService",
+      "DisplayName": "Claude",
+      "StartName": "LocalSystem",
+      "ProcessId": 6740
+    },
+    {
+      "Name": "cplspcon",
+      "DisplayName": "Intel(R) Content Protection HDCP Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 2340
+    },
+    {
+      "Name": "CryptSvc",
+      "DisplayName": "Cryptographic Services",
+      "StartName": "NT Authority\\NetworkService",
+      "ProcessId": 4128
+    },
+    {
+      "Name": "DcomLaunch",
+      "DisplayName": "DCOM Server Process Launcher",
+      "StartName": "LocalSystem",
+      "ProcessId": 1776
+    },
+    {
+      "Name": "DeviceAssociationService",
+      "DisplayName": "Device Association Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4160
+    },
+    {
+      "Name": "Dhcp",
+      "DisplayName": "DHCP Client",
+      "StartName": "NT Authority\\LocalService",
+      "ProcessId": 3268
+    },
+    {
+      "Name": "DiagTrack",
+      "DisplayName": "Connected User Experiences and Telemetry",
+      "StartName": "LocalSystem",
+      "ProcessId": 4224
+    },
+    {
+      "Name": "DispBrokerDesktopSvc",
+      "DisplayName": "Display Policy Service",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 3768
+    },
+    {
+      "Name": "Dnscache",
+      "DisplayName": "DNS Client",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": 2080
+    },
+    {
+      "Name": "DPS",
+      "DisplayName": "Diagnostic Policy Service",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 4208
+    },
+    {
+      "Name": "DusmSvc",
+      "DisplayName": "Data Usage",
+      "StartName": "NT Authority\\LocalService",
+      "ProcessId": 3452
+    },
+    {
+      "Name": "EventLog",
+      "DisplayName": "Windows Event Log",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 2772
+    },
+    {
+      "Name": "EventSystem",
+      "DisplayName": "COM+ Event System",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 2832
+    },
+    {
+      "Name": "FontCache",
+      "DisplayName": "Windows Font Cache Service",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 2300
+    },
+    {
+      "Name": "gpsvc",
+      "DisplayName": "Group Policy Client",
+      "StartName": "LocalSystem",
+      "ProcessId": 25780
+    },
+    {
+      "Name": "IKEEXT",
+      "DisplayName": "IKE and AuthIP IPsec Keying Modules",
+      "StartName": "LocalSystem",
+      "ProcessId": 4192
+    },
+    {
+      "Name": "InventorySvc",
+      "DisplayName": "Inventory and Compatibility Appraisal service",
+      "StartName": "LocalSystem",
+      "ProcessId": 15108
+    },
+    {
+      "Name": "iphlpsvc",
+      "DisplayName": "IP Helper",
+      "StartName": "LocalSystem",
+      "ProcessId": 4364
+    },
+    {
+      "Name": "jhi_service",
+      "DisplayName": "Intel(R) Dynamic Application Loader Host Interface Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4252
+    },
+    {
+      "Name": "LanmanServer",
+      "DisplayName": "Server",
+      "StartName": "LocalSystem",
+      "ProcessId": 4796
+    },
+    {
+      "Name": "LanmanWorkstation",
+      "DisplayName": "Workstation",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": 3968
+    },
+    {
+      "Name": "MDCoreSvc",
+      "DisplayName": "Microsoft Defender Core Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4288
+    },
+    {
+      "Name": "mpssvc",
+      "DisplayName": "Windows Defender Firewall",
+      "StartName": "NT Authority\\LocalService",
+      "ProcessId": 3824
+    },
+    {
+      "Name": "nsi",
+      "DisplayName": "Network Store Interface Service",
+      "StartName": "NT Authority\\LocalService",
+      "ProcessId": 2456
+    },
+    {
+      "Name": "PcaSvc",
+      "DisplayName": "Program Compatibility Assistant Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 6408
+    },
+    {
+      "Name": "postgresql-x64-17",
+      "DisplayName": "postgresql-x64-17 - PostgreSQL Server 17",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": 4312
+    },
+    {
+      "Name": "Power",
+      "DisplayName": "Power",
+      "StartName": "LocalSystem",
+      "ProcessId": 1776
+    },
+    {
+      "Name": "ProfSvc",
+      "DisplayName": "User Profile Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 2240
+    },
+    {
+      "Name": "RaiDrive.Service",
+      "DisplayName": "RaiDrive Filesystem Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4200
+    },
+    {
+      "Name": "RpcEptMapper",
+      "DisplayName": "RPC Endpoint Mapper",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": 1900
+    },
+    {
+      "Name": "RpcSs",
+      "DisplayName": "Remote Procedure Call (RPC)",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": 1900
+    },
+    {
+      "Name": "SamSs",
+      "DisplayName": "Security Accounts Manager",
+      "StartName": "LocalSystem",
+      "ProcessId": 1636
+    },
+    {
+      "Name": "Schedule",
+      "DisplayName": "Task Scheduler",
+      "StartName": "LocalSystem",
+      "ProcessId": 2168
+    },
+    {
+      "Name": "SENS",
+      "DisplayName": "System Event Notification Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 3012
+    },
+    {
+      "Name": "ShellHWDetection",
+      "DisplayName": "Shell Hardware Detection",
+      "StartName": "LocalSystem",
+      "ProcessId": 3784
+    },
+    {
+      "Name": "Spooler",
+      "DisplayName": "Print Spooler",
+      "StartName": "LocalSystem",
+      "ProcessId": 3900
+    },
+    {
+      "Name": "SQLWriter",
+      "DisplayName": "SQL Server VSS Writer",
+      "StartName": "LocalSystem",
+      "ProcessId": 4264
+    },
+    {
+      "Name": "StateRepository",
+      "DisplayName": "State Repository Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4148
+    },
+    {
+      "Name": "StorSvc",
+      "DisplayName": "Storage Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 14808
+    },
+    {
+      "Name": "SysMain",
+      "DisplayName": "SysMain",
+      "StartName": "LocalSystem",
+      "ProcessId": 2820
+    },
+    {
+      "Name": "SystemEventsBroker",
+      "DisplayName": "System Events Broker",
+      "StartName": "LocalSystem",
+      "ProcessId": 1776
+    },
+    {
+      "Name": "TextInputManagementService",
+      "DisplayName": "Text Input Management Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 3332
+    },
+    {
+      "Name": "Themes",
+      "DisplayName": "Themes",
+      "StartName": "LocalSystem",
+      "ProcessId": 2812
+    },
+    {
+      "Name": "TrkWks",
+      "DisplayName": "Distributed Link Tracking Client",
+      "StartName": "LocalSystem",
+      "ProcessId": 4236
+    },
+    {
+      "Name": "UserManager",
+      "DisplayName": "User Manager",
+      "StartName": "LocalSystem",
+      "ProcessId": 2348
+    },
+    {
+      "Name": "UsoSvc",
+      "DisplayName": "Update Orchestrator Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 15648
+    },
+    {
+      "Name": "Wcmsvc",
+      "DisplayName": "Windows Connection Manager",
+      "StartName": "NT Authority\\LocalService",
+      "ProcessId": 3556
+    },
+    {
+      "Name": "webthreatdefusersvc_9f735",
+      "DisplayName": "Web Threat Defense User Service_9f735",
+      "StartName": null,
+      "ProcessId": 2180
+    },
+    {
+      "Name": "whesvc",
+      "DisplayName": "Windows Health and Optimized Experiences",
+      "StartName": "LocalSystem",
+      "ProcessId": 2472
+    },
+    {
+      "Name": "WinDefend",
+      "DisplayName": "Microsoft Defender Antivirus Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4400
+    },
+    {
+      "Name": "WinFsp.Launcher",
+      "DisplayName": "WinFsp.Launcher",
+      "StartName": "LocalSystem",
+      "ProcessId": 4180
+    },
+    {
+      "Name": "Winmgmt",
+      "DisplayName": "Windows Management Instrumentation",
+      "StartName": "localSystem",
+      "ProcessId": 4280
+    },
+    {
+      "Name": "WinRM",
+      "DisplayName": "Windows Remote Management (WS-Management)",
+      "StartName": "NT AUTHORITY\\NetworkService",
+      "ProcessId": 4244
+    },
+    {
+      "Name": "WlanSvc",
+      "DisplayName": "WLAN AutoConfig",
+      "StartName": "LocalSystem",
+      "ProcessId": 3732
+    },
+    {
+      "Name": "WMIRegistrationService",
+      "DisplayName": "Intel(R) Management Engine WMI Provider Registration",
+      "StartName": "LocalSystem",
+      "ProcessId": 4388
+    },
+    {
+      "Name": "WpnService",
+      "DisplayName": "Windows Push Notifications System Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4356
+    },
+    {
+      "Name": "WpnUserService_9f735",
+      "DisplayName": "Windows Push Notifications User Service_9f735",
+      "StartName": null,
+      "ProcessId": 2372
+    },
+    {
+      "Name": "WSAIFabricSvc",
+      "DisplayName": "WSAIFabricSvc",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 6756
+    },
+    {
+      "Name": "wscsvc",
+      "DisplayName": "Security Center",
+      "StartName": "NT AUTHORITY\\LocalService",
+      "ProcessId": 16200
+    },
+    {
+      "Name": "WSearch",
+      "DisplayName": "Windows Search",
+      "StartName": "LocalSystem",
+      "ProcessId": 13380
+    },
+    {
+      "Name": "WSLService",
+      "DisplayName": "WSL Service",
+      "StartName": "LocalSystem",
+      "ProcessId": 4300
+    }
+  ]
+}

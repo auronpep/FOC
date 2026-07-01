@@ -1,0 +1,898 @@
+---
+qid: "21244"
+transformed_from: "21244"
+subject: "CRIMINAL"
+topic: "Fourth Amendment"
+subtopic: "Exclusionary rule and standing"
+outline_code: "75100000"
+key: "C"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "A"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough."
+---
+```yaml
+barmatrix_row:
+  qid: "21244"
+  internal_id: "CR-550"
+  subject: "CRIMINAL"
+  subject_display: "Criminal Law"
+  topic: "Fourth Amendment"
+  subtopic: "Exclusionary rule and standing"
+  outline_code: "75100000"
+  outline_code_status: "assigned_from_OUTLINE_CODES_COMPLETE_because_source_row_blank"
+  percent_correct:
+    value: 48
+    provenance: "subject_workbook"
+  selection_percentages:
+    A:
+      value: 32
+      provenance: "subject_workbook"
+    B:
+      value: 10
+      provenance: "subject_workbook"
+    C:
+      value: 48
+      provenance: "subject_workbook"
+    D:
+      value: 10
+      provenance: "subject_workbook"
+  dominant_trap: "A"
+  stem: "Marta handed a small packet of pills to her friend Jen and told Jen to hide it in Jen's purse. Police unlawfully searched Jen's purse and found the packet. Marta moves to suppress, arguing that she owned the pills. Does Marta have standing to challenge the purse search?"
+  call: "Does Marta have standing to challenge the purse search?"
+  choices:
+    A: "Yes, because Marta owned the pills found in the purse"
+    B: "Yes, because Jen's Fourth Amendment rights were violated"
+    C: "No, because Marta had no personal privacy interest in Jen's purse"
+    D: "No, because police may always search a purse during any encounter"
+  official_key: "C"
+  correct_answer_explanation: "Marta owned the pills but did not own, possess, or control Jen's purse. She cannot suppress based solely on a violation of Jen's rights."
+  wrong_answer_explanations:
+    A: "Standing asks whether Marta had a protected privacy interest in Jen's purse. Ownership of the pills alone is not enough."
+    B: "Fourth Amendment rights are personal and cannot be vicariously asserted. Marta must show her own privacy interest."
+    D: "The search may be unlawful as to Jen. Marta loses because she lacks standing, not because purse searches are categorically valid."
+  additional_info: "A defendant must show a personal reasonable expectation of privacy in the searched place or item; ownership of evidence alone is insufficient."
+
+source_stack:
+  - "MBE.xlsx BarMatrix row 21244"
+  - "Criminal LAw.xlsx row 21244 for pick rates and dominant trap"
+  - "controlled_vocabularies.md"
+  - "OUTLINE_CODES_COMPLETE.md"
+  - "C3 Lessons 1, 2, 7, 8, 9, 11, 12, 13, 14"
+  - "C3 Master Deck CRIM-06 Fourth Amendment and TP-19 violation vs suppression"
+  - "Official legal explanation and wrong-answer explanations"
+  - "Lawyer-confirmation authority: Rawlings v. Kentucky, Rakas v. Illinois, Fourth Amendment standing doctrine"
+
+student_access_contract:
+  controlling_test: "Could a smart 10-year-old who completed only the C3 lessons, overlays, and taught tiny anchors identify this choice's problem without outside doctrine?"
+  allowed_lessons_and_cards:
+    - "TRUE and RESPONSIVE"
+    - "CUT -> CLASH -> CALL"
+    - "Predict the call before reading choices"
+    - "wrong_element"
+    - "wrong_party"
+    - "tiered_absolute"
+    - "violation_vs_remedy"
+    - "CRIM-06 Fourth Amendment: standing = one's own rights"
+    - "TP-19: bad search does not automatically mean this defendant suppresses"
+  gold_key_required: true
+  silver_key_required: true
+  student_limit: "The student may use the taught anchor that Fourth Amendment suppression requires Marta's own privacy interest in the searched place, not just ownership of the seized evidence."
+  legal_leak_guardrail: "Do not call A false from pure structure alone. It is anchor-assisted because the ownership-versus-privacy distinction is doctrinal."
+
+stem_parse:
+  accused: "Marta"
+  third_party: "Jen"
+  searched_place_or_container: "Jen's purse"
+  seized_item: "small packet of pills"
+  police_action: "unlawful search of Jen's purse"
+  defendant_argument: "Marta owned the pills"
+  procedural_posture: "Marta moves to suppress"
+  precise_call: "Whether Marta has standing to challenge the purse search"
+  adjacent_call_trap: "Whether the search violated Jen's Fourth Amendment rights"
+  negative_stem_inversion: false
+  dispositive_fact: "The searched purse belonged to Jen, and Marta had no personal privacy interest in it."
+
+trigger_facts:
+  - fact: "The purse was Jen's purse."
+    access_label: "student_visible"
+    role: "searched-place fact"
+  - fact: "Marta owned the pills."
+    access_label: "student_visible"
+    role: "dominant trap support"
+  - fact: "Police unlawfully searched Jen's purse."
+    access_label: "student_visible"
+    role: "violation-vs-remedy trap support"
+  - fact: "Marta moved to suppress."
+    access_label: "student_visible"
+    role: "suppression posture"
+  - fact: "Marta argued ownership of the pills."
+    access_label: "student_visible"
+    role: "wrong-element trap support"
+
+c3_routing:
+  subject_fit: "Criminal Procedure Fourth Amendment = personal-right threshold before suppression remedy."
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  official_key_match: true
+  fork_type: null
+  fork_reason: null
+  calibration_band: "anchor-assisted high confidence after one-beat call/fact check"
+
+answer_array:
+  architecture: "standing-threshold array"
+  geometry: "Two yes answers and two no answers; the real fight is A versus C."
+  dominant_trap:
+    choice: "A"
+    mechanic: "ownership of seized evidence mistaken for privacy interest in searched place"
+    pct_selected: 32
+  clash_axis: "seized-item ownership versus personal privacy interest in the searched place"
+  splitting_fact: "The purse belonged to Jen, not Marta."
+  bait_architecture: "violation_vs_remedy"
+
+choice_walkthroughs:
+  A:
+    answer_text: "Yes, because Marta owned the pills found in the purse"
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "common_student_myth"
+      - "half_right_answer"
+      - "bar_exam_bait"
+      - "answer_to_different_question"
+    method_class: "anchor_assisted"
+    student_accessible_signal: "The choice points to ownership of the pills, but the call asks whether Marta can challenge the search of Jen's purse."
+    student_label: "ownership-of-evidence trap"
+    true_responsive_version: "Yes, if Marta had a personal privacy interest in the purse or had control over the searched container."
+    lawyer_confirmation: "Ownership of the seized item is only a fact to consider; it does not by itself create Fourth Amendment standing to challenge a search of someone else's container."
+  B:
+    answer_text: "Yes, because Jen's Fourth Amendment rights were violated"
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "violation_vs_remedy"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "wrong_party"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_accessible_signal: "The choice answers Jen's rights, but the call asks Marta's standing."
+    student_label: "wrong-party rights trap"
+    true_responsive_version: "Yes, if Marta's own Fourth Amendment rights were violated."
+    lawyer_confirmation: "Fourth Amendment rights are personal and may not be asserted vicariously."
+  C:
+    answer_text: "No, because Marta had no personal privacy interest in Jen's purse"
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_accessible_signal: "This choice answers the exact standing threshold: Marta's privacy interest in the searched purse."
+    student_label: "searched-place privacy survivor"
+    true_responsive_version: "This is already true and responsive."
+    lawyer_confirmation: "A defendant must show her own legitimate expectation of privacy in the place searched. Marta did not have that interest in Jen's purse."
+  D:
+    answer_text: "No, because police may always search a purse during any encounter"
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "misstated_rule"
+      - "common_student_myth"
+    method_class: "hard_structural"
+    student_accessible_signal: "The word 'always' is the tell, and it contradicts the stem's statement that the search was unlawful."
+    student_label: "always-search overclaim"
+    true_responsive_version: "No, because Marta lacked standing, even assuming the search was unlawful as to Jen."
+    lawyer_confirmation: "The result does not depend on a categorical power to search purses; it depends on Marta's lack of standing."
+
+residual_answer:
+  answer: "C"
+  why_it_survives: "It alone ties the call to the searched container and Marta's own privacy interest."
+  why_not_A: "A uses the seized item instead of the searched place."
+  why_not_B: "B uses Jen's rights instead of Marta's."
+  why_not_D: "D overclaims and contradicts the unlawful-search premise."
+  confidence_band: "ANCHOR_ASSISTED"
+
+legal_leak_audit:
+  student_accessible:
+    - claim: "The call asks Marta's standing, not Jen's rights."
+      basis: "call/fact relation"
+      status: "passes"
+    - claim: "D overclaims with 'always' and conflicts with the stem's unlawful-search fact."
+      basis: "grammar plus stem fact"
+      status: "passes"
+    - claim: "A fails because ownership of the pills does not equal standing to challenge the purse search."
+      basis: "Gold Key"
+      status: "anchor_assisted"
+    - claim: "C wins because it focuses on Marta's personal privacy interest in Jen's purse."
+      basis: "Gold Key plus stem fact"
+      status: "anchor_assisted"
+  lawyer_only:
+    - claim: "Rawlings v. Kentucky specifically rejects standing based solely on ownership of drugs found in another person's purse."
+      quarantine: "lawyer_confirmation"
+    - claim: "Rakas v. Illinois states that Fourth Amendment rights are personal and not vicariously asserted."
+      quarantine: "lawyer_confirmation"
+  drift_audit: "The student path does not require a full Fourth Amendment outline. It uses the standing anchor, the searched-place fact, and the wrong-party signal."
+
+gold_keys:
+  - id: "GK-CRIMINAL-FOURTH-STANDING-01"
+    statement: "Fourth Amendment standing is personal. To suppress evidence, the defendant must show her own legitimate privacy interest in the place or container searched; ownership of the seized evidence alone is not enough."
+    type: "threshold"
+    unlocks: "the ownership-of-evidence trap in choice A"
+    trigger: "the defendant owns the item found during a search of someone else's purse, bag, car, room, or container"
+    tested_choice: "A"
+    authority: "Rawlings v. Kentucky; Rakas v. Illinois; Fourth Amendment"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-SEARCHED-PLACE-BEFORE-SEIZED-ITEM-01"
+    statement: "On Fourth Amendment standing, identify the searched place before the seized item. If the searched place belongs to someone else, ownership of the evidence is usually the trap."
+    type: "clash"
+    navigates: "A versus C"
+    trigger: "one answer points to ownership of the evidence and another points to privacy in the searched container"
+    tested_choice: "A"
+    outline_code: "75100000"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIM-FOURTH-STANDING-SEARCHED-PLACE-01"
+  title: "Search Place Before Evidence"
+  signal: "Defendant owns the contraband but police searched someone else's container."
+  student_move: "Ask: whose purse, bag, room, or car was searched?"
+  tiny_anchor: "Suppression requires the defendant's own privacy interest in the searched place."
+  trap: "Ownership of the item found feels powerful but is not the threshold."
+  drill_seed: "Create five stems where the defendant owns the item but lacks privacy in the place searched."
+
+case_study_output:
+  final_student_script: "The call asks whether Marta can challenge the purse search. The purse was Jen's. Marta owned the pills, but the standing threshold is Marta's own privacy interest in the searched place. She had none in Jen's purse. Pick C."
+  review_truth: "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough."
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  full_stem_present: true
+  official_key_present: true
+  official_key_matches_residual: true
+  three_distractors_single_filter: true
+  pass_available: true
+  bank_validation_verdict: "PASS"
+  outline_code_verified: true
+  controlled_vocab_verified: true
+  legal_leak_audit_completed: true
+  no_fork_forced: true
+
+analytics_hooks:
+  primary_component: "Fourth Amendment standing"
+  dominant_trap_choice: "A"
+  dominant_trap_pct: 32
+  correct_pct: 48
+  trap_tags:
+    - "ownership_of_evidence"
+    - "wrong_party"
+    - "violation_vs_remedy"
+    - "standing_threshold"
+  review_queue: false
+```
+
+## 1. program_frame
+
+This is a Criminal Procedure / Fourth Amendment standing question. The surface fact is an unlawful search. The exam task is narrower: **can Marta use that unlawful search to suppress evidence?**
+
+The answer turns on a threshold. Marta must point to her own privacy interest in the **searched place**. The searched place was **Jen’s purse**, not Marta’s purse.
+
+## 2. student_access_test
+
+This item is **ANCHOR_SOLVE**.
+
+A student can cut D structurally because “always search a purse during any encounter” is an obvious overclaim and also conflicts with the stem’s “unlawfully searched” premise.
+
+A and B require a taught tiny anchor: Fourth Amendment standing is personal. The student should not need a full Fourth Amendment outline, but the student does need the Gold Key that ownership of the seized item is not enough when the searched container belongs to someone else.
+
+## 3. question_data
+
+**Stem:** Marta handed a small packet of pills to her friend Jen and told Jen to hide it in Jen’s purse. Police unlawfully searched Jen’s purse and found the packet. Marta moves to suppress, arguing that she owned the pills. Does Marta have standing to challenge the purse search?
+
+| Choice | Text                                                              |
+| ------ | ----------------------------------------------------------------- |
+| A      | Yes, because Marta owned the pills found in the purse             |
+| B      | Yes, because Jen’s Fourth Amendment rights were violated          |
+| C      | No, because Marta had no personal privacy interest in Jen’s purse |
+| D      | No, because police may always search a purse during any encounter |
+
+**Official key:** C
+**Dominant trap:** A, selected by 32%.
+
+## 4. call_and_prediction
+
+**Call:** Does Marta have standing to challenge the purse search?
+
+**Prediction:** No. The search was of Jen’s purse. Marta owned the pills, but the question is Marta’s own privacy interest in the purse.
+
+**Adjacent-call trap:** Was the police search unlawful as to Jen? The stem gives that away. The search was unlawful. But the remedy still belongs only to someone whose own Fourth Amendment rights were violated.
+
+## 5. trigger_facts
+
+| Fact                               | Why it matters                                                |
+| ---------------------------------- | ------------------------------------------------------------- |
+| “Jen’s purse”                      | This identifies the searched container.                       |
+| “Marta owned the pills”            | This powers the dominant trap.                                |
+| “Police unlawfully searched”       | This prevents D from being the reason.                        |
+| “Marta moves to suppress”          | This makes standing/remedy the issue.                         |
+| “arguing that she owned the pills” | This tells the student exactly what trap the exam is testing. |
+
+## 6. governing_c3_lane
+
+**Lane:** Criminal Procedure threshold before suppression.
+
+**FIT:** Fourth Amendment suppression questions are not just “was the search illegal?” questions. They often ask whether **this defendant** may invoke the remedy.
+
+**Gold Key:** Fourth Amendment standing is personal. The defendant must show her own legitimate privacy interest in the searched place or container. Ownership of the evidence alone is not enough.
+
+In *Rakas v. Illinois*, the Court framed Fourth Amendment rights as personal rights that may not be asserted vicariously. In *Rawlings v. Kentucky*, the Court held that ownership of drugs found in another person’s purse did not by itself give the defendant a legitimate expectation of privacy in that purse. ([Legal Information Institute][1])
+
+## 7. choice_by_choice_walkthrough
+
+### A. Yes, because Marta owned the pills found in the purse
+
+1. **Student-accessible C3 signal:** This choice points to the seized item, not the searched place. The call is about standing to challenge the purse search.
+2. **Student label:** Ownership-of-evidence trap.
+3. **What a true/responsive version would look like:** “Yes, because Marta had a personal privacy interest in the purse,” if that fact existed.
+4. **Lawyer confirmation:** Ownership of seized property is not enough by itself. *Rawlings* specifically rejects standing based only on ownership of drugs found in another person’s purse. ([Legal Information Institute][2])
+
+### B. Yes, because Jen’s Fourth Amendment rights were violated
+
+1. **Student-accessible C3 signal:** Wrong party. The call asks whether Marta has standing. This answer talks about Jen.
+2. **Student label:** Vicarious-rights trap.
+3. **What a true/responsive version would look like:** “Yes, because Marta’s own Fourth Amendment rights were violated.”
+4. **Lawyer confirmation:** Fourth Amendment rights are personal and cannot be asserted vicariously. *Rakas* is the controlling anchor for that move. ([Legal Information Institute][1])
+
+### C. No, because Marta had no personal privacy interest in Jen’s purse
+
+1. **Student-accessible C3 signal:** This choice answers the exact standing threshold. It names Marta, her own privacy interest, and the searched purse.
+2. **Student label:** Searched-place privacy survivor.
+3. **What a true/responsive version would look like:** Already true and responsive.
+4. **Lawyer confirmation:** The Fourth Amendment standing question asks whether Marta had a legitimate expectation of privacy in the place searched. The searched place was Jen’s purse. Marta lacked that interest. The LII Constitution Annotated summary states the same Rawlings principle: ownership of the seized drugs did not allow challenge to another person’s purse where there was no legitimate expectation of privacy in the purse. ([Legal Information Institute][3])
+
+### D. No, because police may always search a purse during any encounter
+
+1. **Student-accessible C3 signal:** “Always” is the overclaim. It also contradicts the stem, which says the police unlawfully searched the purse.
+2. **Student label:** Always-search overclaim.
+3. **What a true/responsive version would look like:** “No, because Marta lacked standing even though the search was unlawful as to Jen.”
+4. **Lawyer confirmation:** Marta loses because she lacks standing, not because purse searches are categorically valid.
+
+## 8. residual_answer
+
+**Residual answer: C.**
+
+The CUT removes D as a hard overclaim. B is a wrong-party answer. A and C then CLASH on the real axis: **ownership of seized evidence versus privacy interest in searched place**. The splitting fact is that the searched purse belonged to Jen. C wins.
+
+## 9. legal_leak_audit
+
+| Claim                                                                             | Student-access status         |
+| --------------------------------------------------------------------------------- | ----------------------------- |
+| D is overbroad because it says police may “always” search purses.                 | Hard structural.              |
+| B is suspect because it answers Jen’s rights when the call asks Marta’s standing. | C3-visible, anchor-confirmed. |
+| A is wrong because ownership of pills alone does not give standing.               | Anchor-assisted.              |
+| C is right because standing requires Marta’s own privacy interest in Jen’s purse. | Anchor-assisted.              |
+| Rawlings and Rakas are governing lawyer authorities.                              | Lawyer confirmation only.     |
+
+No student-facing step depends on a full Fourth Amendment outline.
+
+## 10. final_student_script
+
+The question asks whether **Marta** can challenge the purse search. The searched container was **Jen’s purse**. Marta owned the pills, but Fourth Amendment standing requires Marta’s own privacy interest in the searched place. She had none in Jen’s purse. Pick **C**.
+
+## 11. remediation_card
+
+**Card:** Search Place Before Evidence
+
+**Signal:** Defendant owns contraband found inside someone else’s purse, bag, room, or car.
+
+**Move:** Identify the searched place first. Then ask whether the defendant had a personal privacy interest there.
+
+**Tiny anchor:** Ownership of evidence alone is not Fourth Amendment standing.
+
+**Trap defeated:** “Yes, because the defendant owned the item found.”
+
+## 12. qa_checklist
+
+| Check                                   | Result              |
+| --------------------------------------- | ------------------- |
+| Full stem available                     | Pass                |
+| Official key present                    | Pass                |
+| C3 residual matches official key        | Pass                |
+| Three distractors each break one filter | Pass                |
+| Credited answer breaks no filter        | Pass                |
+| Dominant trap identified                | Pass                |
+| Outline code verified                   | Pass: 75100000      |
+| Legal-leak audit complete               | Pass                |
+| Verdict                                 | PASS / ANCHOR_SOLVE |
+
+## 13. wrong_answer_recovery_paths
+
+**A recovery path:** Student stopped at property ownership. Repair by asking: “What was searched?” Not “what was found?”
+
+**B recovery path:** Student treated Jen’s violation as Marta’s remedy. Repair with: “Whose right was violated?”
+
+**D recovery path:** Student picked the right outcome for the wrong reason. Repair by separating the reason from the result. A no answer can still be wrong if the because-clause is false.
+
+## 14. outline_mastery_map
+
+| Outline code | Node              | Mastery task                                                                                                                 |
+| ------------ | ----------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 75100000     | Exclusionary Rule | Know that suppression requires a personal Fourth Amendment violation; standing is not based solely on ownership of evidence. |
+
+## 15. crossover_intersection_map
+
+| Crossover                       | Why it matters                                                                                             |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Civil Procedure threshold logic | Standing comes before merits/remedy, like jurisdiction before merits.                                      |
+| Evidence remedy logic           | Suppression is an evidentiary remedy, but the threshold is constitutional standing.                        |
+| Property concept trap           | Ownership matters sometimes, but here the decisive object is the searched place, not the seized item.      |
+| Constitutional Law routing      | This is a defendant’s criminal-process right, so it routes to CRIMINAL / 75xx, not general Con Law / 44xx. |
+
+### c3_annotation
+
+```json
+{
+  "question_id": "21244",
+  "internal_id": "CR-550",
+  "subject": "CRIMINAL",
+  "subject_display": "Criminal Law",
+  "topic": "Fourth Amendment",
+  "subtopic": "Exclusionary rule and standing",
+  "outline_code": "75100000",
+  "official_key": "C",
+  "credited_answer": "C",
+  "percent_correct": 48,
+  "selection_percentages": {
+    "A": 32,
+    "B": 10,
+    "C": 48,
+    "D": 10
+  },
+  "pick_rate_provenance": "subject_workbook",
+  "case_study_verdict": "ANCHOR_SOLVE",
+  "bank_validation_verdict": "PASS",
+  "confidence": "ANCHOR_ASSISTED",
+  "governing_law_type": "RULE",
+  "deciding_phase": "CLASH",
+  "residual": "C",
+  "dominant_trap": {
+    "choice": "A",
+    "pct": 32,
+    "label": "ownership-of-evidence trap"
+  },
+  "answer_array": {
+    "architecture": "standing-threshold array",
+    "geometry": "two yes answers and two no answers; A and C are the main fight",
+    "clash_axis": "seized-item ownership versus personal privacy interest in the searched place",
+    "splitting_fact": "The searched purse belonged to Jen, not Marta."
+  },
+  "choices": {
+    "A": {
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "wrong_element",
+      "mold_family": "ISSUE_SENSE",
+      "bait_architecture_code": "wrong_frame",
+      "wrong_answer_architecture_tags": [
+        "attractive_wrong_answer",
+        "common_student_myth",
+        "half_right_answer",
+        "bar_exam_bait",
+        "answer_to_different_question"
+      ],
+      "method_class": "anchor_assisted",
+      "student_label": "ownership-of-evidence trap"
+    },
+    "B": {
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold_code": "wrong_element",
+      "mold_family": "ISSUE_SENSE",
+      "bait_architecture_code": "violation_vs_remedy",
+      "wrong_answer_architecture_tags": [
+        "legally_true_but_irrelevant",
+        "wrong_party",
+        "answer_to_different_question",
+        "bar_exam_bait"
+      ],
+      "method_class": "anchor_assisted",
+      "student_label": "wrong-party rights trap"
+    },
+    "C": {
+      "filter_broken": null,
+      "mold_code": null,
+      "mold_family": null,
+      "bait_architecture_code": null,
+      "wrong_answer_architecture_tags": [
+        "correct_answer"
+      ],
+      "method_class": "anchor_assisted",
+      "student_label": "searched-place privacy survivor"
+    },
+    "D": {
+      "filter_broken": "NOT_TRUE",
+      "mold_code": "tiered_absolute",
+      "mold_family": "EAR_OVERCLAIM",
+      "bait_architecture_code": null,
+      "wrong_answer_architecture_tags": [
+        "overbroad_rule",
+        "misstated_rule",
+        "common_student_myth"
+      ],
+      "method_class": "hard_structural",
+      "student_label": "always-search overclaim"
+    }
+  },
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-FOURTH-STANDING-01",
+      "statement": "Fourth Amendment standing is personal. To suppress evidence, the defendant must show her own legitimate privacy interest in the place or container searched; ownership of the seized evidence alone is not enough.",
+      "type": "threshold",
+      "unlocks": "the ownership-of-evidence trap in choice A",
+      "trigger": "the defendant owns the item found during a search of someone else's purse, bag, car, room, or container",
+      "tested_choice": "A",
+      "authority": "Rawlings v. Kentucky; Rakas v. Illinois; Fourth Amendment",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-SEARCHED-PLACE-BEFORE-SEIZED-ITEM-01",
+      "statement": "On Fourth Amendment standing, identify the searched place before the seized item. If the searched place belongs to someone else, ownership of the evidence is usually the trap.",
+      "type": "clash",
+      "navigates": "A versus C",
+      "trigger": "one answer points to ownership of the evidence and another points to privacy in the searched container",
+      "tested_choice": "A",
+      "outline_code": "75100000",
+      "last_minute_review": true
+    }
+  ],
+  "analyzer_notes": "drift_audit: no full Fourth Amendment outline used; the student path is searched-place threshold plus wrong-party and overclaim cuts. qid_source: MBE.xlsx row 21244. pick_rates_source: Criminal LAw.xlsx row 21244. outline_code: 75100000 assigned because MBE row outline_code was blank."
+}
+```
+
+### program_elements
+
+```json
+{
+  "question_id": "21244",
+  "traps": [
+    {
+      "choice": "A",
+      "name": "ownership-of-evidence trap",
+      "trap_type": "wrong_element",
+      "why_attractive": "Marta really owned the pills, and ownership feels like a personal stake.",
+      "repair": "Ask what was searched, not what was found."
+    },
+    {
+      "choice": "B",
+      "name": "wrong-party rights trap",
+      "trap_type": "wrong_element",
+      "why_attractive": "The stem says the search was unlawful, so Jen's Fourth Amendment violation feels enough.",
+      "repair": "Suppression requires Marta's own Fourth Amendment violation."
+    },
+    {
+      "choice": "D",
+      "name": "always-search overclaim",
+      "trap_type": "tiered_absolute",
+      "why_attractive": "It reaches the correct no outcome.",
+      "repair": "Check the because-clause. A right result with a false reason is still wrong."
+    }
+  ],
+  "tensions": [
+    {
+      "choices": [
+        "A",
+        "C"
+      ],
+      "axis": "seized-item ownership versus privacy interest in searched place",
+      "resolving_fact": "The searched purse belonged to Jen.",
+      "winner": "C"
+    },
+    {
+      "choices": [
+        "B",
+        "C"
+      ],
+      "axis": "Jen's rights versus Marta's rights",
+      "resolving_fact": "Marta is the defendant moving to suppress.",
+      "winner": "C"
+    }
+  ],
+  "remediation_card": {
+    "id": "REM-CRIM-FOURTH-STANDING-SEARCHED-PLACE-01",
+    "title": "Search Place Before Evidence",
+    "signal": "Defendant owns an item found in someone else's container.",
+    "student_move": "Identify the searched place first.",
+    "tiny_anchor": "Fourth Amendment standing requires the defendant's own privacy interest in the searched place.",
+    "trap": "Ownership of the item found is mistaken for standing."
+  },
+  "red_zones": [
+    "Fourth Amendment standing",
+    "Exclusionary rule threshold",
+    "Violation versus remedy",
+    "Wrong-party constitutional rights",
+    "Ownership of evidence versus privacy in searched place"
+  ]
+}
+```
+
+### program_intelligence
+
+```json
+{
+  "question_id": "21244",
+  "wrong_answer_recovery": {
+    "A": {
+      "diagnosis": "Student treated ownership of seized evidence as the standing threshold.",
+      "repair_prompt": "What was searched: Marta's property or Jen's purse?",
+      "drill": "Give five examples where the defendant owns the item found but lacks privacy in the searched place."
+    },
+    "B": {
+      "diagnosis": "Student asserted Jen's rights for Marta.",
+      "repair_prompt": "Whose Fourth Amendment right must be violated for this defendant to suppress?",
+      "drill": "Separate victim-of-search from defendant-moving-to-suppress."
+    },
+    "D": {
+      "diagnosis": "Student selected the correct no outcome but accepted a false categorical reason.",
+      "repair_prompt": "Is the because-clause true as written?",
+      "drill": "Cut answers with always/never language in search-and-seizure contexts."
+    }
+  },
+  "drill_seeds": [
+    {
+      "id": "DRILL-CRIM-FOURTH-STANDING-01",
+      "prompt": "Police unlawfully search a friend's backpack and find the defendant's contraband. Does ownership of the contraband create standing?",
+      "target": "No; searched-place privacy controls."
+    },
+    {
+      "id": "DRILL-CRIM-FOURTH-STANDING-02",
+      "prompt": "Police unlawfully search a roommate's locked drawer and find the defendant's letter. Can the defendant suppress based only on ownership of the letter?",
+      "target": "No; ownership of evidence alone is insufficient."
+    },
+    {
+      "id": "DRILL-CRIM-FOURTH-STANDING-03",
+      "prompt": "Police unlawfully search the defendant's own backpack and find a friend's contraband. Can the defendant challenge the search?",
+      "target": "Yes, because the defendant had privacy in the searched backpack."
+    }
+  ],
+  "trap_tags": [
+    "ownership_of_evidence",
+    "searched_place_first",
+    "wrong_party",
+    "violation_vs_remedy",
+    "tiered_absolute",
+    "threshold_before_merits"
+  ],
+  "component_routing": {
+    "primary_lessons": [
+      "Lesson 1: TRUE and RESPONSIVE",
+      "Lesson 2: CUT -> CLASH -> CALL",
+      "Lesson 7: Predict before you peek",
+      "Lesson 8: Not-responsive molds",
+      "Lesson 9: Clash axis",
+      "Lesson 11: Violation vs remedy",
+      "Lesson 12: Anchor deck",
+      "Lesson 13: Calibration"
+    ],
+    "cards": [
+      "CRIM-06 Fourth Amendment",
+      "TP-19 Violation vs suppression"
+    ],
+    "gold_key_ids": [
+      "GK-CRIMINAL-FOURTH-STANDING-01"
+    ],
+    "silver_key_ids": [
+      "SK-CRIMINAL-SEARCHED-PLACE-BEFORE-SEIZED-ITEM-01"
+    ]
+  },
+  "crossovers": [
+    {
+      "area": "Civil Procedure",
+      "connection": "Standing as threshold discipline before merits/remedy."
+    },
+    {
+      "area": "Evidence",
+      "connection": "Suppression affects admissibility, but the threshold is personal Fourth Amendment standing."
+    },
+    {
+      "area": "Property concepts",
+      "connection": "Ownership of the pills is tempting but not dispositive."
+    },
+    {
+      "area": "Constitutional Law routing",
+      "connection": "Because this is a criminal defendant asserting a Fourth Amendment suppression remedy, route to CRIMINAL 75xx rather than general Individual Rights."
+    }
+  ],
+  "outline_mastery": [
+    {
+      "outline_code": "75100000",
+      "node": "Exclusionary Rule",
+      "mastery_statement": "A defendant may suppress evidence only if her own Fourth Amendment rights were violated; ownership of seized evidence alone is not enough."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-FOURTH-STANDING-01",
+      "statement": "Fourth Amendment standing is personal. To suppress evidence, the defendant must show her own legitimate privacy interest in the place or container searched; ownership of the seized evidence alone is not enough.",
+      "type": "threshold",
+      "unlocks": "the ownership-of-evidence trap in choice A",
+      "trigger": "the defendant owns the item found during a search of someone else's purse, bag, car, room, or container",
+      "tested_choice": "A",
+      "authority": "Rawlings v. Kentucky; Rakas v. Illinois; Fourth Amendment",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-SEARCHED-PLACE-BEFORE-SEIZED-ITEM-01",
+      "statement": "On Fourth Amendment standing, identify the searched place before the seized item. If the searched place belongs to someone else, ownership of the evidence is usually the trap.",
+      "type": "clash",
+      "navigates": "A versus C",
+      "trigger": "one answer points to ownership of the evidence and another points to privacy in the searched container",
+      "tested_choice": "A",
+      "outline_code": "75100000",
+      "last_minute_review": true
+    }
+  ]
+}
+```
+
+[1]: https://www.law.cornell.edu/supremecourt/text/439/128?utm_source=chatgpt.com "RAKAS et al. v. ILLINOIS. | Supreme Court | US Law | LII / Legal Information Institute"
+[2]: https://www.law.cornell.edu/supremecourt/text/448/98?utm_source=chatgpt.com "-- L.Ed.2d -- RAWLINGS v. KENTUCKY | Supreme Court | US Law | LII / Legal Information Institute"
+[3]: https://www.law.cornell.edu/constitution-conan/amendment-4/standing-and-the-fourth-amendment?utm_source=chatgpt.com "Standing and the Fourth Amendment | U.S. Constitution Annotated | US Law | LII / Legal Information Institute"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "21244"
+  question_id: "21244"
+  subject: "CRIMINAL"
+  topic: "Fourth Amendment"
+  subtopic: "Exclusionary rule and standing"
+  outline_code: "75100000"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "21244"
+  variant_slug: "21244"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "C"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "Distilled core question not available in source file."
+review_truth: "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 21244; source 21244.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Fourth Amendment; subtopic Exclusionary rule and standing.
+4. **distilled_core_question:** Distilled core question not available in source file.
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 75100000.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 75100000.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "21244",
+  "subject": "CRIMINAL",
+  "credited_answer": "C",
+  "outline_code": "75100000",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 21244; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "21244",
+  "subject": "CRIMINAL",
+  "outline_code": "75100000",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-21244",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "21244",
+  "subject": "CRIMINAL",
+  "outline_code": "75100000",
+  "distilled_core_question": "Distilled core question not available in source file.",
+  "review_truth": "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75100000",
+    "this_item_teaches": "Fourth Amendment standing requires the defendant's own privacy interest in the searched place; ownership of seized evidence alone is not enough.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

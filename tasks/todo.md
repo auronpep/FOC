@@ -1,3 +1,39 @@
+# BarMatrix C Drive Folder Index
+
+## Plan
+
+- [x] Confirm read-only scan scope and output location.
+- [x] Find non-empty BarMatrix-related folders on `C:\`.
+- [x] Export folder and file index to `.xlsx`.
+- [x] Verify workbook contents and record scan errors or exclusions.
+
+## Review
+
+- Output workbook: `C:\FOC\outputs\barmatrix-c-drive-index-20260620-223636\barmatrix_c_drive_index_full.xlsx`.
+- Scope: 20 BarMatrix-related C:\ roots, including exact `barmatrix*` folders plus known shorthand hubs such as `C:\BMO`, `C:\BMP`, `C:\ABM`, `C:\CCG`, `C:\CG`, and current `C:\FOC`.
+- Contents indexed: 91,951 folder rows and 1,107,783 file rows split across six `Files ###` sheets.
+- Scan proof: `errors.tsv` has zero data rows; `root_summary.tsv` reports zero enumeration errors and 32 skipped reparse/excluded-output paths.
+- Workbook proof: `verification.json` reports `zip_test: null`, 11 worksheets, and `counts_match: true`.
+
+# BarMatrix Content Scan Outside Finished - 2026-06-20
+
+## Plan
+
+- [x] Define the scan scope and exclusions.
+- [x] Find BarMatrix/CQ-looking content outside `Workspace\Finished`.
+- [x] Group hits into likely source/work outputs vs possible stray content.
+- [x] Record the result and proof.
+
+## Review
+
+- Scope: scanned `C:\FOC` for BarMatrix/C3/CQ/MBE/outline-code content while excluding `Finished`, `.git`, `node_modules`, and binary/archive/image files for text matching. `.openclaw` was checked separately because it is hidden operational state.
+- Main text-hit proof: `8279` non-`Finished` text-hit files. Major buckets were `Workspace\QBank` (`7142` files, all hits), `Workspace\outputs` (`484` hit files), `Workspace\DraftRebuild` (`251` hit files), `Workspace\OpenClawBatchResults` (`139` hit files), `Workspace\agents\hearsay` (`63` hit files), `Workspace\root` (`51` hit files), `Workspace\skills` (`56` hit files), `Workspace\tasks` (`38` hit files), `kimiwork` base/live variants (`35` BarMatrix marketing docs), and root `tasks` (`7` hit files).
+- Finished-style CQ markdown outside `Finished`: `275` files total. Expected/generated groups: `Workspace\outputs\online-db-update-20260620-012140\source` has `268` `CQ*.md`; `Workspace\tasks` has `CQ18407_Pass1.md`, `CQ18407_Pass2.md`, `CQ21852_Pass1.md`, `CQ21852_Pass2.md`; `Workspace\agents\hearsay\packet\legacy_reference\CQ14379.md` is a legacy reference.
+- Stray/reference CQ content outside normal workspace: `_preserved-openclaw-workspaces\OpenClaw-20260613-074134\Main\reference\barmatrix\CQ14555.md` plus `_preserved-openclaw-workspaces\OpenClaw-20260613-074134\Main\agents\CQ_VALIDATOR.md`.
+- Hidden `.openclaw` content: `9` text-hit files, mostly OpenClaw backup JSON. One real outbound CQ markdown exists at `.openclaw\media\outbound\cq17746---67cc2004-783b-4811-8bf6-57b8558d63bc.md`.
+- `MBE.xlsx` check: no `MBE.xlsx` file found outside `Finished` in `C:\FOC` during this scan.
+- Notes: a first grouping attempt used `Cat` as a helper name and collided with PowerShell's `cat` alias; the corrected proof used `Get-AuditCategory`.
+
 # Atlas V2 Detour Jump - 2026-06-20
 
 ## Plan
@@ -2755,3 +2791,18 @@
 - Implementation: changed only `app/atlas/atlas-client.tsx` and the existing source regression in `tests/ambassador-dashboard-entry.test.ts`; no API, database, route, or content change.
 - Verification: the focused source regression first failed against missing `lesson-ready codes`; after the patch, `node --test tests\ambassador-dashboard-entry.test.ts` passed 10/10, `git diff --check` passed with LF/CRLF warnings only, `npm run lint` passed, and `npm run build` passed.
 - Production deploy blocker: `vercel deploy --prod -y --scope sunnylee` failed before this patch with `api-deployments-free-per-day` / `Resource is limited - try again in 24 hours`, so no second deploy retry was attempted. Production remains `https://barmatrix-iho54q9cg-sunnylee.vercel.app` (`dpl_4yTT1J86kPGAmMp6jP1n7LgdCAT1`), so `17dd3bd` is pushed but not live yet.
+# syncbmq PowerShell Function Repair - 2026-06-21
+
+## Plan
+
+- [x] Check prior setup notes for the intended `syncbmq` entrypoint.
+- [x] Inspect the PowerShell 7 profile paths and the shared function file.
+- [x] Restore the smallest missing profile/function wiring.
+- [x] Verify `syncbmq` resolves in a fresh PowerShell 7 process.
+
+## Review
+
+- Root cause: `C:\Users\JesusLovesMe\Documents\PowerShell\BMQ.Commands.ps1` was missing, and the active PowerShell 7 profile no longer dot-sourced the BarMatrix command file.
+- Restored `C:\Users\JesusLovesMe\Documents\PowerShell\BMQ.Commands.ps1` with a `syncbmq` function that runs `C:\FOC\Workspace\Sync-BMQFinished.ps1` through `pwsh -NoProfile -File`.
+- Restored all-host profile loading for PowerShell 7 and Windows PowerShell via `C:\Users\JesusLovesMe\Documents\PowerShell\profile.ps1` and `C:\Users\JesusLovesMe\Documents\WindowsPowerShell\profile.ps1`.
+- Verification: parser checks passed for the function/profile files and the sync script; fresh PowerShell 7 and Windows PowerShell processes both resolve `syncbmq`; `pwsh -Command 'syncbmq -WhatIf'` reached both Finished folders, copied 0 files, and reported 1,721 completion rows without writing the CSV/XLSX.

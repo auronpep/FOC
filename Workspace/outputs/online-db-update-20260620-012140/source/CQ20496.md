@@ -1,0 +1,975 @@
+---
+qid: "20496_loaves_prop_cart"
+transformed_from: "20496"
+subject: "TORTS"
+topic: "Negligence"
+subtopic: "Damages / Collateral Source Rule"
+outline_code: "61020500"
+key: "C"
+original_key: "A"
+letter_map: "- original_letter: \"A"
+dominant_trap: "D"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment."
+---
+Source row: BARMATRIX Q# 20496 tests whether a negligence defendant may reduce a damages award by amounts paid to the plaintiff by the plaintiff’s own insurance carrier; the supplied row credits the answer denying reduction because the insurer was not acting for anyone liable to the plaintiff.  
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+At Esther’s backyard “Loaves and Fishes” game night, Lydia was standing beside a table of Bible-verse prize cards when Daniel negligently lost control of a wheeled prop cart stacked with foam bread baskets. The cart struck Lydia and caused injuries that required emergency treatment. Lydia’s medical bills were substantial, but they were paid in full under a health-insurance policy that Lydia had purchased before the game night.
+
+Lydia sued Daniel for negligence. The jury found for Lydia and awarded her $64,000. Before judgment was entered, Daniel’s lawyer made a proper motion asking the court to reduce the award by the amount Lydia had already received from her health insurer.
+
+The motion to reduce Lydia’s damage award should be:
+
+## 2. Distilled Core Question
+
+The plaintiff’s own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?
+
+## 3. Final answer choices
+
+**A.** Denied, because the payment from Lydia’s insurer was not made after any court decided that Daniel was liable.
+
+**B.** Granted, because Daniel is entitled to partial indemnity.
+
+**C.** Denied, because Lydia’s insurer was not acting for anyone who was liable to Lydia for negligence.
+
+**D.** Granted, because Lydia should not be allowed to recover twice for the same medical expenses.
+
+## 5. Correct answer
+
+**C** — original key letter **A**.
+
+## 6. Letter Map
+
+| Original letter | New letter | Mechanic                                           | Substance | Pick rate                 |
+| --------------- | ---------: | -------------------------------------------------- | --------- | ------------------------- |
+| A               |          C | correct_answer                                     | kept      | not supplied; `predicted` |
+| B               |          A | wrong_element / judicial-determination distraction | kept      | not supplied; `predicted` |
+| C               |          D | colloquialism / double-recovery fairness bait      | kept      | not supplied; `predicted` |
+| D               |          B | bait_doctrine / partial-indemnity wrong-frame      | kept      | not supplied; `predicted` |
+
+No measured focus-group percentages were supplied in the pasted row. I do not infer measured rates.
+
+## 7. Full right-answer explanation
+
+**C is correct.** The motion should be denied. The answer locks onto the source of the payment: Lydia’s own health insurer, not Daniel, not someone acting for Daniel, and not another person liable to Lydia for the same injury.
+
+**Gold Key:** A negligent defendant does not get a credit for payments the injured plaintiff received from the plaintiff’s own insurance or another source independent of the defendant. The defendant gets credit only for payments made by the defendant, someone acting for the defendant, or another person subject to the same tort liability.
+
+**Silver Key:** Do not start with “double recovery.” Start with “who paid, and whose liability was the payer connected to?” That source check points to C.
+
+## 8. Full wrong-answer explanations
+
+**A.** This choice sells the idea that a payment matters only if it follows a judicial determination. That is the wrong switch. The reduction question does not turn on whether a court had already adjudicated liability; it turns on whether the payer was tied to Daniel’s tort liability.
+
+**B.** This choice reaches for a real-sounding tort-allocation word: partial indemnity. The problem is the frame. Partial indemnity belongs in the joint-tortfeasor allocation neighborhood; Lydia’s private insurer was not a tortfeasor sharing Daniel’s liability.
+
+**D.** This is the dominant fairness trap. It feels clean because it says Lydia should not recover twice, but the collateral-source rule deliberately rejects that move when the second payment came from Lydia’s own independent insurance. **Gold Key:** plaintiff-side insurance is collateral; it does not reduce the negligent defendant’s judgment.
+
+## 9. Full black-letter-law verification and legal reasoning
+
+The rule is unchanged from the original. Under the collateral source rule, payments or benefits from sources independent of the tortfeasor are not credited against the tortfeasor’s liability; Restatement (Second) of Torts § 920A distinguishes payments made by a tortfeasor or someone acting for the tortfeasor from payments made by independent sources. Courts quoting § 920A state the same distinction: payments by or for the defendant are credited, but collateral benefits from other sources do not reduce the defendant’s liability. ([Justia][1])
+
+The wrong-frame “partial indemnity” answer also preserves the original doctrine. Apportionment, contribution, and indemnity operate among multiple tortfeasors or parties responsible for a common liability; the American Law Institute describes the Restatement Third apportionment project as governing liability among multiple tortfeasors, and the Uniform Contribution Among Tortfeasors Act language limits contribution to tortfeasors who paid more than their share of common liability. ([American Law Institute][2])
+
+## 10. Why the variation preserves rigor and difficulty
+
+The surface story changed from a motorcycle-car collision and hospital bills to a backyard Christian game-night prop-cart injury and medical bills. The legal engine is identical: a negligence verdict, plaintiff-side insurance, a pre-judgment setoff motion, and a four-choice array testing collateral-source source identity against judicial-determination, double-recovery, and partial-indemnity traps.
+
+## 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A:** Denial is the right result, but the stated reason is the wrong element. Judicial determination is not the source-identity switch.
+
+**CUT B:** Partial indemnity is a wrong-frame doctrine. It belongs to allocation among tortfeasors, not a setoff from the plaintiff’s own insurer.
+
+**CUT D:** “No double recovery” is the common-sense fairness trap. The Gold Key overrides it: collateral payments from plaintiff-side insurance do not reduce the tortfeasor’s judgment.
+
+**CALL / Residual:** C is the only answer that names the operative source relation: the insurer was not acting for anyone liable to Lydia.
+
+## 12. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                                                     |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Changed from motorcycle/car crash to backyard Christian game-night prop cart.                                                                              |
+| Transaction frame          | Tort-litigation frame preserved; no transaction frame added because setoff doctrine needs a negligence verdict.                                            |
+| Specific facts             | Changed vehicle collision to negligent loss of a wheeled prop cart.                                                                                        |
+| Numbers                    | Changed verdict from $50,000 to $64,000; no legal threshold moved.                                                                                         |
+| Fact ordering / rhythm     | Variant opens with setting and prop-cart injury, then insurance, then verdict/motion. Original opened with passenger status and collision.                 |
+| Cast size / roles          | Changed anonymous plaintiff/defendant/friend to Lydia, Daniel, and Esther as setting host.                                                                 |
+| Choice ordering            | Shuffled: original A→C, B→A, C→D, D→B.                                                                                                                     |
+| Choice phrasing            | Paraphrased each answer while preserving legal substance and trap pull.                                                                                    |
+| Setting / era / texture    | Changed roadway accident to Christian-themed backyard game night.                                                                                          |
+| Call wording               | Preserved “motion to reduce damage award should be” because the call function is legally precise.                                                          |
+| Precedence skips           | Did not change the post-verdict motion posture; changing it would alter the setoff issue.                                                                  |
+| Original stem summary      | Passenger injured in motorcycle-car crash wins negligence verdict, then defendant seeks setoff for plaintiff’s own insurance payment.                      |
+| Variant stem summary       | Game-night participant injured by a negligent prop-cart mishap wins negligence verdict, then defendant seeks setoff for plaintiff’s own insurance payment. |
+
+Recognition test passes. The shared core is only the legal rule.
+
+## 13. Review Truth
+
+Plaintiff-side insurance is collateral; it does not reduce the negligent defendant’s damages judgment.
+
+## 14. The 5 variations considered
+
+| Candidate                                    | Setting / cast                                                               | Preserved issue                                       | Why memorable                                              | Legal risks                                                      | Divergence score                                                                                  |
+| -------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Recommended: Loaves and Fishes Prop Cart** | Esther’s backyard Christian game night; Lydia injured by Daniel’s prop cart. | Defendant seeks setoff for plaintiff’s own insurance. | Foam bread baskets and Bible prize cards kill recognition. | Low; no church-property or charitable-immunity issue.            | **9/10** — changes asset, accident type, cast, numbers, setting, rhythm, texture, choices, facts. |
+| Psalm-Sing Soundboard Mishap                 | Lydia injured when Daniel drops a portable speaker at a private hymn night.  | Same.                                                 | Soundboard collapse is vivid.                              | Slight risk of premises/employer clutter if host owns equipment. | 8/10.                                                                                             |
+| Proverbs Potluck Hot-Cider Spill             | Ruth burned by Timothy’s negligent cider urn at a private potluck.           | Same.                                                 | Food injury differs from vehicle crash.                    | Burn facts may invite products/food-service clutter.             | 8/10.                                                                                             |
+| Esther’s Scroll-Press Accident               | Mary injured by Paul’s negligent calligraphy press.                          | Same.                                                 | Scroll-press prop is distinctive.                          | Could distract toward product defect.                            | 7/10.                                                                                             |
+| Daniel’s Fishers Kayak Outing                | Hannah injured when Peter negligently steers a private kayak.                | Same.                                                 | Water setting changes texture.                             | Too close to passenger/vehicle collision geometry.               | 6/10.                                                                                             |
+
+---
+
+# B) PASS-2 BLOCK 1 — Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20496_loaves_prop_cart"
+  subject: TORTS
+  topic: "Negligence"
+  subtopic: "Damages / Collateral Source Rule"
+  outline_code: "61020500"
+  selection_percentages:
+    A:
+      value: null
+      provenance: predicted
+      note: "Measured original pick rate not supplied."
+    B:
+      value: null
+      provenance: predicted
+      note: "Measured original pick rate not supplied."
+    C:
+      value: null
+      provenance: predicted
+      note: "Measured original pick rate not supplied."
+    D:
+      value: null
+      provenance: predicted
+      note: "Measured original pick rate not supplied."
+  official_key: "C"
+  call: "The motion to reduce Lydia's damage award should be:"
+  choices:
+    A: "Denied, because the payment from Lydia's insurer was not made after any court decided that Daniel was liable."
+    B: "Granted, because Daniel is entitled to partial indemnity."
+    C: "Denied, because Lydia's insurer was not acting for anyone who was liable to Lydia for negligence."
+    D: "Granted, because Lydia should not be allowed to recover twice for the same medical expenses."
+
+transform_provenance:
+  transformed_from: "20496"
+  variant_slug: "loaves_prop_cart"
+  original_key_letter: "A"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: predicted
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "wrong_element"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: predicted
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "colloquialism"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: predicted
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "bait_doctrine"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: predicted
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "Passenger injured in motorcycle-car crash wins negligence verdict, then defendant seeks setoff for plaintiff's own insurance payment."
+    variant_stem_one_sentence: "Game-night participant injured by a negligent prop-cart mishap wins negligence verdict, then defendant seeks setoff for plaintiff's own insurance payment."
+    dimensions_changed:
+      - "asset/subject matter"
+      - "specific injury facts"
+      - "numbers"
+      - "fact rhythm"
+      - "cast/roles"
+      - "choice ordering"
+      - "choice phrasing"
+      - "setting/texture"
+    dimensions_skipped_with_reason:
+      - dimension: "call posture"
+        reason: "The pre-judgment motion-to-reduce posture is load-bearing."
+      - dimension: "litigation frame"
+        reason: "The collateral-source setoff issue requires a tort judgment or award."
+
+source_stack:
+  - "Pasted BarMatrix row for QID 20496."
+  - "Controlled vocabularies from controlled_vocabularies.md."
+  - "Universal C3 lessons and C3 master deck."
+  - "Official legal explanation quarantined to lawyer_confirmation."
+  - "Legal research quarantined to lawyer_confirmation."
+
+student_access_contract:
+  allowed_lessons:
+    - "Lesson 1: TRUE and RESPONSIVE"
+    - "Lesson 2: CUT -> CLASH -> CALL"
+    - "Lesson 6: Distortion / colloquialism"
+    - "Lesson 7: predict the call"
+    - "Lesson 8: wrong-element and bait-doctrine"
+    - "Lesson 11: wrong-frame architecture"
+    - "Lesson 12: anchor deck"
+    - "Lesson 13: calibration"
+    - "Lesson 14: full workflow"
+  gold_keys_allowed:
+    - "GK-TORTS-COLLATERAL-SOURCE-01"
+  silver_keys_allowed:
+    - "SK-TORTS-COLLATERAL-SOURCE-01"
+  controlling_test_result: "ANCHOR_ASSISTED: the source-identity move is visible, but collateral-source doctrine is a taught tiny anchor."
+
+stem_parse:
+  subject: TORTS
+  claim: "Negligence"
+  procedural_posture: "Post-verdict, pre-judgment motion to reduce damages."
+  plaintiff: "Lydia"
+  defendant: "Daniel"
+  payer: "Lydia's own health insurer"
+  award: "$64,000"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Whether the payment feels like double recovery rather than whether the payer was linked to Daniel's liability."
+
+trigger_facts:
+  - fact: "Lydia bought the insurance policy before the accident."
+    access_label: "stem_visible"
+    legal_role: "Collateral source signal."
+  - fact: "The insurer paid Lydia's medical bills."
+    access_label: "stem_visible"
+    legal_role: "Payment source."
+  - fact: "Daniel is the negligence defendant."
+    access_label: "stem_visible"
+    legal_role: "Tortfeasor identity."
+  - fact: "The motion asks to reduce the award by the insurance payment."
+    access_label: "stem_visible"
+    legal_role: "Setoff call."
+
+c3_routing:
+  subject_fit: "Torts = injury claim + damages allocation."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium_hard"
+
+answer_array:
+  geometry: "2 denied / 2 granted array; correct result is denial, but only one denial choice gives the source-identity reason."
+  silver_key: "SK-TORTS-COLLATERAL-SOURCE-01"
+  dominant_trap: "D"
+  dominant_trap_basis: "Predicted design pull only; measured pick rates not supplied."
+  outcome_split:
+    denied:
+      - "A"
+      - "C"
+    granted:
+      - "B"
+      - "D"
+  source_identity_axis: "Was the payment made by or for a liable tortfeasor, or by plaintiff-side insurance?"
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: wrong_element
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - legally_true_but_irrelevant
+      - answer_to_different_question
+      - fact_not_in_evidence
+      - half_right_answer
+    method_class: anchor_assisted
+    student_label: "Right result, wrong switch."
+    c3_signal: "The answer talks about court determination; the stem's payment problem is source identity."
+    lawyer_confirmation: "Judicial determination is not required for a credit or setoff analysis; source relation controls."
+  B:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: bait_doctrine
+    mold_family: ISSUE_SENSE
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - sounds_lawyerly
+      - wrong_remedy
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Right neighborhood, wrong payer."
+    c3_signal: "Partial indemnity belongs to allocation among liable actors, not plaintiff-side insurance."
+    lawyer_confirmation: "Indemnity/contribution concepts require a party responsible for common tort liability; Lydia's insurer is not that actor."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Source-identity answer."
+    c3_signal: "This choice names the decisive source relation: the payer was not acting for anyone liable to Lydia."
+    lawyer_confirmation: "Correct under the collateral source rule."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: colloquialism
+    mold_family: EAR_DISTORTION
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - moral_common_sense_answer
+      - common_student_myth
+      - attractive_wrong_answer
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Double-recovery fairness trap."
+    c3_signal: "The answer substitutes a fairness slogan for the source-identity rule."
+    lawyer_confirmation: "The collateral source rule allows the plaintiff to keep the benefit of plaintiff-side insurance even if it overlaps with damages."
+
+residual_answer:
+  letter: "C"
+  text: "Denied, because Lydia's insurer was not acting for anyone who was liable to Lydia for negligence."
+  why_residual: "Only C is true and responsive after applying the Gold Key."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "The call is a motion to reduce damages."
+    - "The stem identifies Lydia's own insurer as the payer."
+    - "A talks about court determination, not source identity."
+    - "B talks about partial indemnity, a neighboring allocation frame."
+    - "D talks in fairness/double-recovery terms."
+  anchor_assisted_claims:
+    - "Plaintiff-side insurance is collateral and does not reduce the judgment."
+    - "Payments by or for a liable tortfeasor may reduce liability."
+  prohibited_as_structure:
+    - "Do not claim C is hard structural without the Gold Key."
+  drift_audit: "No lawyer-only doctrine is used as a student-visible hard cut."
+
+gold_keys:
+  - id: "GK-TORTS-COLLATERAL-SOURCE-01"
+    statement: "Plaintiff-side insurance is collateral. A negligence defendant gets no credit for benefits paid by the plaintiff's own insurer; credit is for payments by the defendant, someone acting for the defendant, or another actor subject to the same tort liability."
+    type: rule
+    unlocks: "Double-recovery trap and wrong-payer setoff trap."
+    trigger: "Defendant asks to reduce a tort award because plaintiff's own insurer already paid."
+    tested_choice: "D"
+    authority: "Restatement (Second) of Torts § 920A."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-TORTS-COLLATERAL-SOURCE-01"
+    statement: "For setoff questions, ask who paid and whose liability the payer was tied to before reacting to double-recovery language."
+    type: trap_spotting
+    navigates: "Source-identity vs fairness-language trap."
+    trigger: "Motion to reduce damages after insurance or settlement payment."
+    tested_choice: "D"
+    outline_code: "61020500"
+    last_minute_review: true
+
+remediation:
+  card_id: "TOR-REM-COLLATERAL-SOURCE-01"
+  title: "Who paid?"
+  signal: "Insurance payment before or after tort verdict."
+  student_move: "Sort the payer: defendant-side, joint-tortfeasor-side, or plaintiff-side."
+  tiny_rule: "Plaintiff-side insurance does not reduce the judgment."
+  trap: "Double recovery feels fair but points the wrong way."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?"
+review_truth: "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment."
+
+case_study_output:
+  final_student_script: "Motion to reduce. Ask who paid. Lydia's own insurer paid; not Daniel and not someone liable with Daniel. Cut double recovery. Cut indemnity. Pick C."
+  verdict: "ANCHOR_SOLVE"
+
+quality_control:
+  pass_available: true
+  exactly_three_distractors: true
+  each_distractor_one_filter: true
+  residual_equals_key: true
+  no_fork: true
+  no_new_legal_issue_added: true
+  christian_skin_compliant: true
+  no_antagonist_names: true
+
+analytics_hooks:
+  trap_tags:
+    - "collateral_source_rule"
+    - "double_recovery_myth"
+    - "wrong_payer_setoff"
+    - "partial_indemnity_wrong_frame"
+  component_routing:
+    - "Gold Key drill"
+    - "Issue-Sense wrong-element"
+    - "Bait-doctrine wrong-frame"
+    - "Distortion colloquialism"
+```
+
+# B) PASS-2 BLOCK 2 — 17-section student case study
+
+## program_frame
+
+This is a Torts damages-allocation item. The question is not “was Daniel negligent?” The verdict already answers that. The question is whether Daniel can reduce the damages because Lydia’s own insurer already paid medical bills.
+
+## student_access_test
+
+A student can see the answer-array structure: two choices deny the reduction, two grant it. A student can also see that the stem highlights **who paid**. The final legal unlock is anchor-assisted: the student needs the collateral-source Gold Key to know what the law does with plaintiff-side insurance.
+
+## question_data
+
+**Question ID:** 20496_loaves_prop_cart
+**Subject:** TORTS
+**Call:** The motion to reduce Lydia’s damage award should be:
+**Credited answer:** C
+**Posture:** Defendant’s post-verdict, pre-judgment motion to reduce damages.
+
+## distilled_core_question
+
+The plaintiff’s own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?
+
+## call_and_prediction
+
+The call asks whether the court should reduce the damage award. Predict the axis before reading the choices: the motion turns on the **source of payment**, not on the amount of the bills, the existence of negligence, or whether “double recovery” sounds unfair.
+
+Prediction: deny the motion if the payment came from Lydia’s own insurer.
+
+## trigger_facts
+
+* Lydia bought the policy before the injury.
+* Her insurer paid the medical bills.
+* Daniel is the negligence defendant.
+* Daniel asks to reduce the verdict by that insurance payment.
+
+## governing_c3_lane
+
+**Lane:** Anchor-assisted CUT.
+**Gold Key:** collateral source.
+**Silver Key:** who paid, and whose liability was the payer tied to?
+
+## choice_by_choice_walkthrough
+
+### A
+
+1. **Student-accessible C3 signal:** A gives the right result, “denied,” but uses a court-determination reason. The stem’s spotlight is payment source.
+2. **Student label:** Right result, wrong switch.
+3. **True/responsive version:** Denied because the payer was Lydia’s own insurer, not someone liable for Daniel’s negligence.
+4. **Lawyer confirmation:** Judicial determination is not the controlling setoff condition.
+
+### B
+
+1. **Student-accessible C3 signal:** B uses a real-sounding allocation word: partial indemnity. That is not the payment-source frame.
+2. **Student label:** Bait-doctrine / wrong frame.
+3. **True/responsive version:** A partial-indemnity answer would need another actor sharing tort liability with Daniel.
+4. **Lawyer confirmation:** Lydia’s insurer is not a joint tortfeasor or party subject to common tort liability.
+
+### C
+
+1. **Student-accessible C3 signal:** C names the source relation. The insurer was not acting for anyone liable to Lydia.
+2. **Student label:** Source-identity answer.
+3. **True/responsive version:** This is already true and responsive.
+4. **Lawyer confirmation:** Correct under the collateral source rule.
+
+### D
+
+1. **Student-accessible C3 signal:** D sounds fair: no double recovery. But it does not ask who paid.
+2. **Student label:** Double-recovery fairness trap.
+3. **True/responsive version:** Granted would fit only if the payment came from Daniel, someone acting for Daniel, or another actor subject to the same tort liability.
+4. **Lawyer confirmation:** Plaintiff-side insurance is collateral and does not reduce Daniel’s judgment.
+
+## residual_answer
+
+C remains. It is the only answer that denies the motion for the correct source-identity reason.
+
+## legal_leak_audit
+
+Student-visible moves: call lock, source-identity spotlight, wrong-result split, wrong-frame detection, fairness-language detection.
+
+Anchor-assisted move: plaintiff-side insurance does not reduce the tortfeasor’s liability.
+
+No hard-structural overclaim: this item cannot be sold as pure structure because the decisive rule is doctrinal.
+
+Drift audit: collateral-source doctrine appears only as a Gold Key / lawyer-confirmation rule, not as fake grammar.
+
+## final_student_script
+
+Motion to reduce. Ask who paid. Lydia’s own insurer paid, not Daniel and not anyone liable with Daniel. “Double recovery” is bait. “Partial indemnity” is the wrong frame. The answer is C.
+
+## remediation_card
+
+**TOR-REM-COLLATERAL-SOURCE-01 — Who paid?**
+
+* **Signal:** Tort defendant asks to reduce damages because someone already paid the plaintiff.
+* **Student move:** Sort the payer before reacting to fairness.
+* **Tiny rule:** Plaintiff-side insurance is collateral.
+* **Trap:** “No double recovery” feels fair and often loses.
+* **Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-TORTS-COLLATERAL-SOURCE-01:** Plaintiff-side insurance is collateral. A negligence defendant gets no credit for benefits paid by the plaintiff’s own insurer; credit is for payments by the defendant, someone acting for the defendant, or another actor subject to the same tort liability.
+
+## Silver Key(s)
+
+**SK-TORTS-COLLATERAL-SOURCE-01:** For setoff questions, ask who paid and whose liability the payer was tied to before reacting to double-recovery language.
+
+## qa_checklist
+
+* Correct answer breaks no filter.
+* Three distractors each break one filter.
+* No fork.
+* Gold Key used because the rule is anchor-dependent.
+* No church, charitable-immunity, First Amendment, or religious-entity issue added.
+* Letter map preserved the original mechanics.
+
+## wrong_answer_recovery_paths
+
+**A:** Student sees the right outcome and stops. Recovery: require the “because” clause to answer the source-payment question.
+
+**B:** Student likes the legal phrase “partial indemnity.” Recovery: check whether the payer is a tortfeasor sharing liability.
+
+**D:** Student follows fairness. Recovery: apply the Gold Key before moral balancing.
+
+## outline_mastery_map
+
+**Placement:** 61020500 — Torts > Negligence > Damages.
+**This item teaches:** collateral-source setoff logic.
+**Adjacent mastery:** contribution / indemnity, joint tortfeasors, damages apportionment.
+
+## crossover_intersection_map
+
+* **Evidence crossover:** insurance-payment evidence may raise admissibility issues in other questions, but this one is damages.
+* **Civil Procedure crossover:** the motion posture matters, but the rule is substantive tort damages.
+* **Contracts crossover:** insurance policy exists, but policy rights are not the litigated issue.
+
+## review_truth
+
+Plaintiff-side insurance is collateral; it does not reduce the negligent defendant’s damages judgment.
+
+# B) PASS-2 BLOCK 3 — c3_annotation
+
+```json
+{
+  "question_id": "20496_loaves_prop_cart",
+  "subject": "TORTS",
+  "credited_answer": "C",
+  "outline_code": "61020500",
+  "distilled_core_question": "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?",
+  "review_truth": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "Source of payment: defendant-side/common-liability payment versus plaintiff-side collateral payment.",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Source identity before fairness language.",
+    "difficulty": "medium_hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": null,
+        "card_ref": "SK-TORTS-COLLATERAL-SOURCE-01",
+        "explanation": "The choice gives the right outcome but rests on judicial determination, not payment source."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-TORTS-COLLATERAL-SOURCE-01",
+        "explanation": "The choice imports partial indemnity from the joint-tortfeasor allocation frame."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "colloquialism",
+        "architecture": null,
+        "card_ref": "GK-TORTS-COLLATERAL-SOURCE-01",
+        "explanation": "The choice uses double-recovery fairness language that the collateral-source rule defeats."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Student path uses source identity and Gold Key only; no lawyer-only doctrine treated as hard structure.",
+      "transformed_from": "20496",
+      "letter_map": "A->C, B->A, C->D, D->B"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-TORTS-COLLATERAL-SOURCE-01",
+        "statement": "Plaintiff-side insurance is collateral. A negligence defendant gets no credit for benefits paid by the plaintiff's own insurer; credit is for payments by the defendant, someone acting for the defendant, or another actor subject to the same tort liability.",
+        "type": "rule",
+        "unlocks": "Double-recovery trap and wrong-payer setoff trap.",
+        "trigger": "Defendant asks to reduce a tort award because plaintiff's own insurer already paid.",
+        "tested_choice": "D",
+        "authority": "Restatement (Second) of Torts § 920A",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-TORTS-COLLATERAL-SOURCE-01",
+        "statement": "For setoff questions, ask who paid and whose liability the payer was tied to before reacting to double-recovery language.",
+        "type": "trap_spotting",
+        "navigates": "Source-identity versus fairness-language trap.",
+        "trigger": "Motion to reduce damages after insurance or settlement payment.",
+        "tested_choice": "D",
+        "outline_code": "61020500",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+# B) PASS-2 BLOCK 4 — program_elements
+
+```json
+{
+  "question_id": "20496_loaves_prop_cart",
+  "subject": "TORTS",
+  "outline_code": "61020500",
+  "distilled_core_question": "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?",
+  "review_truth": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+  "tension": {
+    "axis": "Who paid?",
+    "winner": "Plaintiff-side collateral source means no reduction."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": null,
+      "why_attractive": "The student sees the right result, denial, and accepts the first plausible reason attached to it. The breaker is that judicial determination is not the source-identity switch.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "The student recognizes partial indemnity as a serious tort-allocation phrase. The breaker is that indemnity belongs to common-liability actors, not plaintiff-side insurance.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "colloquialism",
+      "architecture": null,
+      "why_attractive": "The student wants to prevent a double recovery and follows common-sense fairness. The breaker is the collateral-source Gold Key: plaintiff-side insurance does not reduce the tortfeasor's judgment.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "TOR-REM-COLLATERAL-SOURCE-01",
+    "title": "Who paid?",
+    "signal": "Insurance payment before or after tort verdict.",
+    "student_move": "Sort the payer: defendant-side, joint-tortfeasor-side, or plaintiff-side.",
+    "tiny_rule": "Plaintiff-side insurance does not reduce the judgment.",
+    "trap": "Double recovery feels fair but points the wrong way.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "double_recovery_language",
+    "right_result_wrong_reason",
+    "partial_indemnity_wrong_frame",
+    "plaintiff_side_insurance"
+  ]
+}
+```
+
+# B) PASS-2 BLOCK 5 — program_intelligence
+
+```json
+{
+  "question_id": "20496_loaves_prop_cart",
+  "subject": "TORTS",
+  "outline_code": "61020500",
+  "distilled_core_question": "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?",
+  "review_truth": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "It reaches the correct outcome and gives a reason that sounds procedural.",
+      "skipped_move": "Check whether the because-clause answers the source-payment call.",
+      "recovery_step": "Ask: court determination or payment source?"
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "It uses a sophisticated allocation term.",
+      "skipped_move": "Check whether the insurer shared Daniel's tort liability.",
+      "recovery_step": "Reserve indemnity/contribution for common-liability actors."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "colloquialism",
+      "why_a_student_picks_this": "It feels unfair for Lydia to receive both insurance benefits and damages.",
+      "skipped_move": "Apply the collateral-source Gold Key before fairness balancing.",
+      "recovery_step": "Plaintiff-side insurance is collateral."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "Collateral source rule",
+      "prompt": "A plaintiff's own insurer paid medical bills before a tort verdict. Can the defendant reduce the verdict by that amount?",
+      "answer": "No. Plaintiff-side insurance is collateral."
+    },
+    {
+      "drill_type": "Source sorting",
+      "target_skill": "Setoff payer classification",
+      "prompt": "Classify the payer: defendant, joint tortfeasor, plaintiff's own insurer.",
+      "answer": "Only plaintiff's own insurer is collateral."
+    },
+    {
+      "drill_type": "Trap language",
+      "target_skill": "Fairness bait detection",
+      "prompt": "A choice says 'no double recovery.' What question must you ask first?",
+      "answer": "Who paid, and whose liability was the payer tied to?"
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "2_denied_2_granted_array",
+      "right_result_wrong_reason",
+      "fairness_bait",
+      "source_identity_axis"
+    ],
+    "misconception_tags": [
+      "double_recovery_always_barred",
+      "insurance_payments_always_reduce_damages",
+      "partial_indemnity_applies_to_insurers"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE/RESPONSIVE",
+    "Lesson 8 wrong_element and bait_doctrine",
+    "Lesson 11 wrong_frame",
+    "Lesson 12 anchor deck",
+    "Gold Key drill"
+  ],
+  "crossovers": [
+    {
+      "subject": "EVIDENCE",
+      "note": "Insurance can also appear as evidence, but this item is damages setoff."
+    },
+    {
+      "subject": "CIVIL_PROCEDURE",
+      "note": "Motion posture matters only to frame the setoff request."
+    },
+    {
+      "subject": "CONTRACTS",
+      "note": "Insurance policy exists only to identify a collateral source."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-TORTS-COLLATERAL-SOURCE-01",
+      "statement": "Plaintiff-side insurance is collateral. A negligence defendant gets no credit for benefits paid by the plaintiff's own insurer; credit is for payments by the defendant, someone acting for the defendant, or another actor subject to the same tort liability.",
+      "type": "rule",
+      "unlocks": "Double-recovery trap and wrong-payer setoff trap.",
+      "trigger": "Defendant asks to reduce a tort award because plaintiff's own insurer already paid.",
+      "tested_choice": "D",
+      "authority": "Restatement (Second) of Torts § 920A",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-TORTS-COLLATERAL-SOURCE-01",
+      "statement": "For setoff questions, ask who paid and whose liability the payer was tied to before reacting to double-recovery language.",
+      "type": "trap_spotting",
+      "navigates": "Source-identity versus fairness-language trap.",
+      "trigger": "Motion to reduce damages after insurance or settlement payment.",
+      "tested_choice": "D",
+      "outline_code": "61020500",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Torts > Negligence > Damages",
+    "this_item_teaches": "Collateral-source setoff analysis.",
+    "fills": [
+      "When insurance payments do not reduce damages.",
+      "Why double-recovery language can be bait.",
+      "Why partial indemnity requires the right liability frame."
+    ],
+    "adjacent_to_master": [
+      "Joint tortfeasor contribution",
+      "Indemnity",
+      "Apportionment of damages",
+      "Insurance evidence exclusions"
+    ]
+  }
+}
+```
+
+[1]: https://law.justia.com/cases/tennessee/court-of-appeals/2015/w2014-02188-coa-r3-cv.html?utm_source=chatgpt.com "Terry Holliday v. State of Tennessee :: 2015 :: Tennessee Court of Appeals Decisions :: Tennessee Case Law :: Tennessee Law :: U.S. Law :: Justia"
+[2]: https://www.ali.org/publications/restatement-law-third/torts-apportionment-liability?utm_source=chatgpt.com "Torts: Apportionment of Liability | The American Law Institute"
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20496_loaves_prop_cart"
+  question_id: "20496_loaves_prop_cart"
+  subject: "TORTS"
+  topic: "Negligence"
+  subtopic: "Damages / Collateral Source Rule"
+  outline_code: "61020500"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "20496"
+  variant_slug: "loaves_prop_cart"
+  original_key_letter: "A"
+  new_key_letter: "C"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "C"
+distilled_core_question: "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?"
+review_truth: "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 20496_loaves_prop_cart; source 20496.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject TORTS; topic Negligence; subtopic Damages / Collateral Source Rule.
+4. **distilled_core_question:** The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 61020500.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 61020500.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20496_loaves_prop_cart",
+  "subject": "TORTS",
+  "credited_answer": "C",
+  "outline_code": "61020500",
+  "distilled_core_question": "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?",
+  "review_truth": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20496; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20496_loaves_prop_cart",
+  "subject": "TORTS",
+  "outline_code": "61020500",
+  "distilled_core_question": "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?",
+  "review_truth": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20496",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20496_loaves_prop_cart",
+  "subject": "TORTS",
+  "outline_code": "61020500",
+  "distilled_core_question": "The plaintiff's own insurer paid her medical bills before she won a negligence verdict. May the negligent defendant reduce the verdict by that insurance payment?",
+  "review_truth": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "61020500",
+    "this_item_teaches": "Plaintiff-side insurance is collateral; it does not reduce the negligent defendant's damages judgment.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

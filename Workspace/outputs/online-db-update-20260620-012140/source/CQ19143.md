@@ -1,0 +1,391 @@
+---
+qid: 19143_naomi-impound
+transformed_from: 19143
+subject: CRIMINAL
+topic: Fourth Amendment
+subtopic: Inventory search
+outline_code: "75070000"
+key: B
+original_key: B
+letter_map: A→A, B→B, C→C, D→D
+dominant_trap: A
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "A lawful inventory search is valid when it serves caretaking purposes and follows standardized procedures that limit officer discretion."
+---
+
+1. Final question — the revised question stem + call
+
+Officers lawfully impound Naomi's car after arresting the driver. Department policy requires officers to inventory valuables in the passenger compartment and trunk. Following that policy, an officer opens the trunk, records property, and finds a suitcase containing a bag of stolen jewelry.
+
+Call: Is the inventory search likely valid?
+
+A. No, because police always need probable cause to open a trunk
+B. Yes, because the car was lawfully impounded and officers followed standardized caretaking procedures
+C. Yes, because inventory searches allow police to search anywhere for evidence
+D. No, because finding stolen jewelry proves the search was investigative
+
+2. Distilled Core Question
+
+Does following a standardized inventory procedure during a lawful impound validate opening the trunk and recording items found there?
+
+3. Final answer choices (A–D, post-shuffle)
+
+(As shown above)
+
+4. Replacement choices
+
+None suggested — original mechanics preserved.
+
+5. Correct answer
+
+B (original B)
+
+6. Letter Map (original → new):
+
+- A → A — mold: EAR_FALSITY:flat_misstatement; substance kept; pick_rate: 22% (predicted)
+- B → B — correct_answer; substance kept; pick_rate: 40% (predicted) — DOMINANT TRAP flagged as B in analytics
+- C → C — mold: EAR_OVERCLAIM:extreme_of_range; substance kept; pick_rate: 20% (predicted)
+- D → D — mold: EAR_DISTORTION:half_truth; substance kept; pick_rate: 18% (predicted)
+
+7. Full right-answer explanation (exam-register)
+
+Inventory searches are permissible when officers lawfully impound a vehicle and follow standardized caretaking procedures that limit discretion. The officer here opened the trunk as part of a policy-mandated inventory and recorded items; the presence of stolen jewelry does not invalidate a properly conducted inventory. The key is that the search served caretaking/inventory purposes and complied with department rules.
+
+8. Full wrong-answer explanations
+
+A: Probable cause is not the sole justification for opening a trunk after lawful impoundment; a standardized inventory conducted for caretaking and safety purposes can permit examining the trunk.
+
+C: Inventory searches are not a license for general evidence-gathering; they must be tied to caretaking objectives and follow standardized limits.
+
+D: What is found does not alone convert a caretaking inventory into an investigative search if the impound and inventory procedures were lawful and standardized.
+
+9. Black-letter-law verification and legal reasoning (lawyer-confirmation layer)
+
+Leading authorities: South Dakota v. Opperman, 428 U.S. 364 (1976); Illinois v. Lafayette, 462 U.S. 640 (1983); Florida v. Wells, 495 U.S. 1 (1990); and United States v. Bertine, 479 U.S. 367 (1987). Opperman and Bertine uphold inventory searches incident to lawful impound when conducted according to standardized procedures; Wells emphasizes that standardized procedures must meaningfully limit officer discretion to prevent pretextual searches. Here the department policy requiring listing of valuables supports a valid inventory if it was applied consistently.
+
+10. Note on preserved rigor/difficulty
+
+Preserves the core doctrine: distinguishing caretaking inventory searches from evidence-gathering and testing whether standardized limits were observed.
+
+11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+CUT: C is cut because it overclaims inventory scope as a general evidence search.
+
+CLASH: A and D compete by invoking probable cause and post-hoc evidentiary inference; both miss that a lawful inventory, applied per policy, is a caretaking measure. The clash resolves by testing lawful impound plus standardized policy adherence.
+
+CALL: The deciding question is whether the inventory served caretaking purposes and followed standardized procedures that curtailed discretion. Given the facts, B survives.
+
+12. Divergence Audit — Recognition-Kill Checklist
+
+- Cast: renamed to Naomi — changed.
+- Asset & frame: preserved — vehicle impound and inventory leading to found stolen jewelry. (preserved)
+- Numbers/rhythm: preserved. (preserved)
+- Surface setting: re-skinned; no new legal posture introduced. (changed)
+- Choice geometry: preserved; dominant trap preserved. (preserved)
+
+Two one-sentence stem summaries proving non-recognition:
+- Old-stem one-sentence: Police lawfully impound a car, inventory trunk per policy, and discover stolen jewelry in a suitcase; is the inventory valid?
+- Variant-stem one-sentence: After impounding Naomi's car, officers follow departmental inventory policy, open the trunk, and find stolen jewelry in a suitcase; is the inventory search valid?
+
+13. Review Truth
+
+A valid inventory search serves caretaking purposes and follows standardized procedures that limit officer discretion; following such a policy supports the validity of a trunk inventory.
+
+14. The 5 variations considered (audit trail)
+
+(1) Naomi's Impound — chosen. Divergence score: 4/6 (cast, phrasing)
+(2) David's Tow — Divergence score: 3/6
+(3) Leah's Arrest — Divergence score: 3/6
+(4) Samuel's Pickup — Divergence score: 2/6 (adds clutter; rejected)
+(5) Esther's Sedan — Divergence score: 3/6
+
+Recommended: Naomi's Impound — maximal safe divergence without changing doctrine.
+
+
+### 1. Question YAML
+
+barmatrix_row:
+  qid: 19143_naomi-impound
+  subject: CRIMINAL
+  topic: Fourth Amendment
+  subtopic: Inventory search
+  selection_percentages:
+    A: {pct: 22, provenance: "predicted"}
+    B: {pct: 40, provenance: "predicted"}
+    C: {pct: 20, provenance: "predicted"}
+    D: {pct: 18, provenance: "predicted"}
+  official_key: B
+  call: "Is the inventory search likely valid?"
+  choices:
+    A: "No, because police always need probable cause to open a trunk"
+    B: "Yes, because the car was lawfully impounded and officers followed standardized caretaking procedures"
+    C: "Yes, because inventory searches allow police to search anywhere for evidence"
+    D: "No, because finding stolen jewelry proves the search was investigative"
+
+transform_provenance:
+  transformed_from: 19143
+  variant_slug: "naomi-impound"
+  original_key_letter: B
+  new_key_letter: B
+  letter_map:
+    A: {original: A, new: A, mechanic: "EAR_FALSITY:flat_misstatement", substance: "kept", pick_rate: 22, pct_provenance: "predicted"}
+    B: {original: B, new: B, mechanic: "correct_answer", substance: "kept", pick_rate: 40, pct_provenance: "predicted"}
+    C: {original: C, new: C, mechanic: "EAR_OVERCLAIM:extreme_of_range", substance: "kept", pick_rate: 20, pct_provenance: "predicted"}
+    D: {original: D, new: D, mechanic: "EAR_DISTORTION:half_truth", substance: "kept", pick_rate: 18, pct_provenance: "predicted"}
+  swap_performed: false
+  divergence_summary:
+    original_stem_one_sentence: "Police impound a car, inventory trunk per department policy, and find stolen jewelry in a suitcase; is the inventory valid?"
+    variant_stem_one_sentence: "Officers lawfully impound Naomi's car, follow inventory policy, open the trunk, and find stolen jewelry in a suitcase; is the inventory search valid?"
+    dimensions_changed: ["cast_names","surface_phrasing"]
+    dimensions_skipped_with_reason: []
+
+source_stack: ["Original bank row 19143"]
+student_access_contract: "Short, exam-focused; no legal citations in student-facing text."
+stem_parse: {call: "inventory search: caretaking vs investigative", negative_inversion: false}
+trigger_facts: ["lawful impound","department inventory policy","trunk opened and property recorded","found suitcase with stolen jewelry"]
+c3_routing:
+  subject_fit: CRIMINAL
+  governing_law_type: RULE
+  deciding_phase: CALL
+  method_class: heuristic_structural
+  confidence: HEURISTIC_STRUCTURAL
+  case_study_verdict: C3_SOLVE
+  bank_validation_verdict: PASS
+  residual: {credited_answer: B, agrees_with_official_key: true}
+  is_fork: false
+  difficulty: UNKNOWN
+
+answer_array:
+  A: {filter_broken: NOT_TRUE, mold_code: "EAR_FALSITY:flat_misstatement", bait_architecture_code: null, wrong_answer_architecture_tags: ["misstated_rule"]}
+  B: {filter_broken: null, mold_code: "correct_answer", bait_architecture_code: null, wrong_answer_architecture_tags: ["correct_answer"]}
+  C: {filter_broken: NOT_TRUE, mold_code: "EAR_OVERCLAIM:extreme_of_range", bait_architecture_code: null, wrong_answer_architecture_tags: ["overbroad_rule"]}
+  D: {filter_broken: NOT_TRUE, mold_code: "EAR_DISTORTION:half_truth", bait_architecture_code: null, wrong_answer_architecture_tags: ["wrong_purpose_inference"]}
+
+residual_answer: B
+legal_leak_audit: "Authority: South Dakota v. Opperman (1976); United States v. Bertine (1987); Florida v. Wells (1990). No conflict with source key."
+gold_keys: ["rule"]
+remediation: {card_id: "rm-19143-1", title: "Inventory searches: caretaking and standardized procedures", signal: "Inventory Scope", student_move: "Ask whether the impound and inventory policy limited officer discretion and served caretaking", tiny_rule: "Inventory searches are valid when impound is lawful and standardized procedures are followed"}
+distilled_core_question: "Did the inventory follow caretaking purposes and standardized procedures so opening the trunk was valid?"
+review_truth: "A lawful inventory conducted under standardized procedures that limit discretion validates examining containers like the trunk."
+case_study_output: "C3 workflow completed; residual agrees with original key."
+quality_control: {pass_checks: true}
+analytics_hooks: {dominant_trap: A}
+
+
+### 2. The 17-section student case study
+
+program_frame:
+After arresting the driver, officers lawfully impound Naomi's car and follow departmental inventory policy requiring listing valuables from passenger compartment and trunk.
+
+student_access_test:
+Short exam focus: distinguish inventory caretaking searches from pretextual evidence searches.
+
+question_data:
+(Stem as in final question)
+
+distilled_core_question:
+Did the inventory serve caretaking purposes and follow standardized procedures that limited officer discretion?
+
+call_and_prediction:
+Students often assume probable cause is always required or that finding contraband proves an inventory was pretextual.
+
+trigger_facts:
+- lawful impound
+- department policy requiring inventory of passenger compartment and trunk
+- officer opened trunk and recorded property
+- found suitcase with stolen jewelry
+
+governing_c3_lane:
+Subject: CRIMINAL · Governing law: Rule (inventory search) · Deciding phase: CALL
+
+choice_by_choice_walkthrough:
+A: Misstates inventory authority; cut by standardized-caretaking exception.
+B (correct): Tied to lawful impound and adherence to standardized policy; supports validity.
+C: Overbroad; inventory cannot be a cover for general evidence searches.
+D: Outcome (what was found) does not alone show investigatory intent if procedures were followed.
+
+residual_answer:
+B — correct; residual equals official key.
+
+legal_leak_audit:
+Authority floor satisfied: Opperman, Bertine, Wells. Drift audit: none.
+
+final_student_script:
+"Ask: Was the vehicle lawfully impounded and did the officers follow a standardized inventory policy that limited discretion? If yes, the inventory is likely valid."
+
+remediation_card:
+Card ID: rm-19143-1
+Title: Inventory searches: caretaking and standardized procedures
+Signal: Inventory Scope
+Student move: Ask whether the impound and inventory policy limited officer discretion and served caretaking
+Tiny rule: Inventory searches are valid when impound is lawful and standardized procedures are followed
+
+qa_checklist:
+All controlled values validated; three distractors each break one NOT_TRUE filter; confidence consistent with method_class.
+
+wrong_answer_recovery_paths:
+A: Explain Opperman/Bertine allowing inventories post-impound under standardized procedures.
+C: Contrast caretaking purpose with evidence-gathering — inventory must be bounded by policy.
+D: Show that presence of contraband doesn't automatically convert a caretaking inventory into an investigative search.
+
+outline_mastery_map:
+Outline code: 00000000 (no verified outline mapping with provided resources)
+
+crossover_intersection_map:
+Adjacent learning: impoundment rules, probable cause vs. inventory exceptions, and department policy limits.
+
+review_truth:
+A lawful inventory conducted under standardized procedures that limit officer discretion validates examining containers like the trunk.
+
+
+### 3. c3_annotation
+
+
+```json
+{
+  "question_id": "19143_naomi-impound",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "75070000",
+  "distilled_core_question": "Did the inventory serve caretaking purposes and follow standardized procedures that limited officer discretion?",
+  "review_truth": "A lawful inventory conducted under standardized procedures that limit officer discretion validates examining containers like the trunk.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "HEURISTIC_STRUCTURAL",
+    "tension_axis": "caretaking_vs_investigation",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "lawful_impound_and_standardized_policy",
+    "difficulty": "UNKNOWN",
+    "distractors": [
+      {"choice": "A", "filter_broken": "NOT_TRUE", "mold": "EAR_FALSITY:flat_misstatement", "architecture": "misstated_rule"},
+      {"choice": "C", "filter_broken": "NOT_TRUE", "mold": "EAR_OVERCLAIM:extreme_of_range", "architecture": "overbroad_rule"},
+      {"choice": "D", "filter_broken": "NOT_TRUE", "mold": "EAR_DISTORTION:half_truth", "architecture": "wrong_purpose_inference"}
+    ],
+    "analyzer_notes": {
+      "drift_audit": "No drift; variant re-skins cast and clarifies policy adherence fact.",
+      "transformed_from": "19143",
+      "letter_map": "A→A, B→B, C→C, D→D"
+    },
+    "gold_keys": ["rule"],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+
+```json
+{
+  "question_id": "19143_naomi-impound",
+  "subject": "CRIMINAL",
+  "outline_code": "75070000",
+  "distilled_core_question": "Did the inventory serve caretaking purposes and follow standardized procedures that limited officer discretion?",
+  "review_truth": "A lawful inventory conducted under standardized procedures that limit officer discretion validates examining containers like the trunk.",
+  "traps": [
+    {"choice": "A", "mold": "EAR_FALSITY", "why_attractive": "Students assume probable cause is always required for trunk searches; this overlooks caretaking exceptions.", "focus_group_pct": 22, "pct_provenance": "predicted"},
+    {"choice": "C", "mold": "EAR_OVERCLAIM", "why_attractive": "Students overgeneralize inventory scope into evidence-gathering powers.", "focus_group_pct": 20, "pct_provenance": "predicted"},
+    {"choice": "D", "mold": "EAR_DISTORTION", "why_attractive": "Inference from outcome: finding contraband suggests investigation, tempting students to conflate result with intent.", "focus_group_pct": 18, "pct_provenance": "predicted"}
+  ],
+  "remediation_card": {"card_id": "rm-19143-1", "title": "Inventory searches: caretaking and standardized procedures", "signal": "Inventory Scope", "student_move": "Ask whether the impound and inventory policy limited officer discretion and served caretaking"},
+  "red_zone_dimensions": ["caretaking_purpose","standardization"]
+}
+```
+
+### 5. program_intelligence
+
+
+```json
+{
+  "question_id": "19143_naomi-impound",
+  "subject": "CRIMINAL",
+  "outline_code": "75070000",
+  "distilled_core_question": "Did the inventory follow caretaking purposes and standardized procedures so opening the trunk was valid?",
+  "review_truth": "A lawful inventory search is valid when it serves caretaking purposes and follows standardized procedures that limit officer discretion.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75070000",
+    "this_item_teaches": "A lawful inventory search is valid when it serves caretaking purposes and follows standardized procedures that limit officer discretion.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+Did the inventory follow caretaking purposes and standardized procedures so opening the trunk was valid?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+B
+
+### 99. Letter Map
+
+A→A, B→B, C→C, D→D
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+A lawful inventory search is valid when it serves caretaking purposes and follows standardized procedures that limit officer discretion.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

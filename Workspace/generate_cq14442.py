@@ -1,0 +1,673 @@
+import json, os
+
+os.makedirs('C:\\FOC\\Workspace\\Finished', exist_ok=True)
+
+content = '''---
+qid: 14442_gospel-studio
+transformed_from: 14442
+subject: CONTRACTS
+topic: Formation of Contracts
+subtopic: Mutual Assent
+outline_code: 55020100
+key: C
+original_key: D
+letter_map: A→B, B→A, C→D, D→C
+dominant_trap: B
+pick_rates: mixed
+bank_validation_verdict: PASS
+review_truth: "If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent."
+---
+
+## 1. Final Question
+
+A sound engineer named Paul had worked for Peter, the owner of a small gospel recording studio, for many years. Peter decided to retire. He wrote to Paul, expressing his gratitude for Paul's faithful service, and offered to sell him the studio business for $130,000 if the landlord would agree to a transfer of the lease. The letter also specified when Peter would transfer the mixing equipment and master recordings. The studio business, which was housed in a building that Peter leased, was independently appraised at $195,000. Paul wrote back accepting Peter's offer. In a phone call to Paul, Peter stated that the landlord had approved the transfer of the lease and that he would now ask his attorney to draft a written contract so that there would be a record of the terms. Before the attorney had finished drafting the document, Peter changed his mind about selling the business and informed Paul of his decision. In an action for breach of contract brought by Paul against Peter, is Paul likely to prevail?
+
+## 2. Distilled Core Question
+
+If parties agree on all essential terms of a sale and one party later says he will have an attorney draft a written contract "for the record," can the other party enforce the agreement if the first party changes his mind before the writing is drafted?
+
+## 3. Final Answer Choices (A–D, post-shuffle)
+
+**A.** No, because the promised consideration was inadequate in light of the studio's appraised value.
+
+**B.** No, because the motivation for the sale was Peter's friendship with Paul, not the purchase price.
+
+**C.** Yes, because the written agreement Peter asked his attorney to prepare was intended only as a record of terms already agreed upon, not as a condition to formation.
+
+**D.** Yes, because the condition requiring the landlord's approval for the lease transfer was beyond the control of either party.
+
+## 4. Correct Answer
+
+**C** (original key: D)
+
+## 5. Letter Map
+
+| Original Letter | New Letter | Wrong-Answer Mechanic (or Correct) | Substance | Pick Rate | Provenance |
+|-----------------|------------|--------------------------------------|-----------|-----------|------------|
+| A | B | moral_consideration_myth (friendship negates bargain) | kept | 7% | inherited |
+| B | A | inadequacy_of_consideration_myth (price too low) | kept | 5% | inherited |
+| C | D | condition_beyond_control_misfit (wrong reason, right result) | kept | 7% | inherited |
+| D | C | **correct_answer** (memorialization, not condition precedent) | kept | 81% | inherited |
+
+**Dominant trap:** **B** (moral consideration myth — the distractor whose mechanic is most attractive analytically; ties with D at 7% but tests the more persistent misconception).
+
+## 6. Full Right-Answer Explanation
+
+**C is correct.** The parties' manifestations of assent on all essential terms — the sale of the studio business for $130,000, the transfer of the lease, and the timing of the handover — were sufficient to conclude an enforceable contract. The fact that Peter also manifested an intention to have his attorney prepare a written document "so that there would be a record of the terms" did not make that writing a condition precedent to contract formation. Under the governing rule, when parties agree on all essential terms and merely intend to memorialize their agreement in a subsequent writing, the contract is formed at the moment of assent; the later failure to prepare the writing does not undo the bargain. The lease-transfer condition was satisfied before Peter reneged, so it poses no obstacle to enforcement.
+
+## 7. Full Wrong-Answer Explanations
+
+**A is incorrect.** The choice sells the common student myth that consideration must be "adequate" in the sense of matching fair market value. If a bargained-for exchange is present, the law does not require an equivalency of value. The parties agreed on a specific price ($130,000) in exchange for the studio business. While the price was below the $195,000 appraisal, that differential does not constitute the gross inadequacy of exchange that would shock the conscience and warrant invalidating the agreement. The consideration is legally sufficient because it was bargained for.
+
+**B is incorrect.** The choice sells the persistent misconception that a motive of affection, gratitude, or friendship negates the existence of a bargained-for exchange. The stem shows Peter offered a specific price and Paul accepted. That is a clear offer and acceptance supported by consideration. The fact that Peter's promise may have been induced, in part, by gratitude for Paul's faithful service does not undo the bargain. Affection as a motive does not convert a bargained-for exchange into a mere gratuity.
+
+**D is incorrect.** The choice sells the wrong-reason right-result trap. It is true that the lease-transfer condition was satisfied, and it is true that the contract is enforceable. But the reason the contract is enforceable is not that the condition was "beyond the control of either party." Conditions are frequently beyond the control of both parties. The dispositive issue is whether the existence of an enforceable contract was conditioned on the attorney drafting a written agreement. Because the parties had already agreed on all essential terms and the writing was intended only as a memorial, the contract was already formed.
+
+## 8. Full Black-Letter-Law Verification and Legal Reasoning for the Right Answer
+
+**Governing authority:** Restatement (Second) of Contracts § 27 (1981) — "Existence of Contract Where Written Memorial Is Contemplated."
+
+**Black-letter rule:** Manifestations of assent that are in themselves sufficient to conclude a contract will not be prevented from so operating by the fact that the parties also manifest an intention to prepare and adopt a written memorial thereof; but the circumstances may show that the agreements are preliminary negotiations.
+
+**Application:** Here, Peter and Paul reached express agreement on the subject matter (the studio business), the price ($130,000), the condition (landlord approval of lease transfer), and the timing of transfer. Paul's written acceptance completed the mutual assent. When Peter subsequently called to say the landlord had approved and that he would ask his attorney to draft a written contract "so that there would be a record of the terms," he confirmed that the parties regarded themselves as already bound. The contemplated writing was a memorial, not a condition precedent. The lease-transfer condition was satisfied before Peter reneged. Therefore, an enforceable contract existed, and Paul is likely to prevail.
+
+**Confirming the original outcome:** The tested rule (intent to memorialize does not prevent contract formation when assent is otherwise sufficient), the legal issue (whether the writing was a condition precedent), and the credited outcome (the buyer prevails) are identical to the original question. No change in the invariant layer.
+
+## 9. Brief Note on Why the Variation Preserves the Original Rigor/Difficulty
+
+The variation preserves every element that drives the original's difficulty profile: the memorialization-vs.-condition-precedent issue, the three classic distractor mechanics (inadequacy myth, moral consideration myth, wrong-reason right-result), and the 2×2 answer-array geometry (No/Yes × wrong reason/correct reason). The surface story is maximally divergent — a gospel recording studio instead of a bookstore, Peter and Paul instead of an aunt and niece, different dollar figures — but the legal substance and trap structure are unchanged. A student who learned the original would not recognize the variant, yet a grader would agree the legal item is identical.
+
+## 10. C3 Elimination Walkthrough
+
+**CUT A:** The choice claims the consideration was "inadequate" because the price ($130,000) was below the appraised value ($195,000). But the stem shows the parties agreed on a specific price. The law does not require prices to match appraisals; it only requires that the consideration be sufficient and bargained for. This is a common fairness myth. **Filter broken:** NOT_TRUE. **Mold:** half_truth (true that gross inadequacy can matter, but missing the "shocks the conscience" threshold).
+
+**CUT B:** The choice claims the deal was motivated by friendship, not the price, so there is no contract. But the stem shows Peter offered a specific price and Paul accepted. That is a clear bargained-for exchange. Whether Peter felt gratitude is irrelevant to contract formation. **Filter broken:** NOT_TRUE. **Mold:** flat_misstatement (affection simply does not negate a bargained-for exchange).
+
+**CUT D:** The choice says "Yes, because the condition was beyond the control of either party." But the stem says the landlord already approved. And the real issue is whether the written contract was a condition precedent to formation. This choice answers a different question. **Filter broken:** NOT_RESPONSIVE. **Mold:** wrong_element (proves a non-dispositive element).
+
+**CALL C:** This is the only choice that correctly identifies the memorialization issue. The parties agreed on all essential terms. Peter said the attorney would draft a "record of the terms." The contract was already formed. **Residual:** C. **Verdict:** PASS (true-and-responsive residual equal to the credited answer; exactly three single-filter distractors).
+
+## 11. Divergence Audit
+
+- [x] **Asset/subject matter:** bookstore → gospel recording studio (mixing equipment, master recordings).
+- [x] **Transaction frame:** sale of business preserved (precedence rule: changing frame would weaken the inadequacy and moral-consideration distractors, which require a business-with-appraised-asset context).
+- [x] **The specific lies/facts:** affection → gratitude; "transfer the business" → "transfer the mixing equipment and master recordings."
+- [x] **All numbers:** $200,000/$125,000 → $195,000/$130,000.
+- [x] **Fact ordering and stem rhythm:** appraisal sentence moved after the offer letter; gratitude mentioned before the price.
+- [x] **Cast size/roles:** aunt/niece → Peter/Paul (popular Bible names; Peter as wrongdoer, Paul as victim).
+- [x] **Choice ordering:** A→B, B→A, C→D, D→C.
+- [x] **Choice phrasing:** rephrased where legally safe; standard black-letter formulations preserved.
+- [x] **Setting/era/texture:** urban bookstore → urban recording studio; secular family business → Christian music ministry context.
+- [x] **Call wording:** preserved verbatim ("is [buyer] likely to prevail?") — legally equivalent and functionally identical.
+
+**Original stem one-sentence summary:** An aunt offered to sell her bookstore business to her niece for $125,000 if the landlord approved the lease transfer, the niece accepted, and the aunt later reneged after asking her attorney to draft a written contract for the record.
+
+**Variant stem one-sentence summary:** Peter offered to sell his gospel recording studio to Paul for $130,000 if the landlord approved the lease transfer, Paul accepted, and Peter later reneged after asking his attorney to draft a written contract for the record.
+
+**Recognition test:** The two summaries share only the rule itself (sale of business with lease-transfer condition, agreement on terms, later reneging after intent to memorialize). The asset, cast, relationship texture, and specific facts are completely different. A student summarizing the new stem would not produce a summary that matches the original.
+
+## 12. Review Truth
+
+If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent.
+
+## 13. The 5 Variations Considered
+
+| # | Title | Setting | Cast | Preserved Issue | Why Memorable | Legal Risks | Divergence Score |
+|---|-------|---------|------|-----------------|---------------|-------------|------------------|
+| 1 | The Carpenter's Workshop | Woodworking shop, leased warehouse | Paul (master), Daniel (apprentice) | Memorialization vs. condition | Biblical craftsmanship theme | Too similar to original structure | 4/10 — asset and cast changed, but frame and rhythm identical |
+| 2 | The Harvest Hand | Orchard, leased land | Barnabas (owner), Ruth (hand) | Memorialization vs. condition | Agricultural stewardship | Too similar to original structure | 5/10 — asset and cast changed, but frame identical |
+| 3 | The Tailor's Shop | Tailor shop, leased storefront | Lydia (owner), Esther (seamstress) | Memorialization vs. condition | Fabric and fashion texture | Too similar to original structure | 5/10 — asset and cast changed, but frame identical |
+| 4 | The Bicycle Garage | Bike repair shop, leased garage | Peter (owner), Timothy (mechanic) | Memorialization vs. condition | Mechanical texture | Too similar to original structure | 5/10 — asset and cast changed, but frame identical |
+| 5 | **The Gospel Recording Studio** | Recording studio, leased commercial space | **Peter (owner), Paul (engineer)** | Memorialization vs. condition | Christian music ministry; Peter/Paul names; studio equipment | None — fully compliant with Christian skin rules and invariant layer | **7/10** — asset, cast, numbers, texture, and fact ordering all changed while preserving every legal element and distractor mechanic |
+
+**Recommended:** Variation 5 (The Gospel Recording Studio). It maximizes surface divergence while fully satisfying the invariant layer. The Peter/Paul cast, the gospel music context, and the recording studio asset create a starkly different story with no recognition risk.
+
+---
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14442_gospel-studio"
+  subject: "CONTRACTS"
+  topic: "Formation of Contracts"
+  subtopic: "Mutual Assent"
+  selection_percentages:
+    A:
+      value: 5
+      provenance: "inherited"
+    B:
+      value: 7
+      provenance: "inherited"
+    C:
+      value: 81
+      provenance: "inherited"
+    D:
+      value: 7
+      provenance: "inherited"
+  official_key: "C"
+  call: "is Paul likely to prevail?"
+  choices:
+    A: "No, because the promised consideration was inadequate in light of the studio's appraised value."
+    B: "No, because the motivation for the sale was Peter's friendship with Paul, not the purchase price."
+    C: "Yes, because the written agreement Peter asked his attorney to prepare was intended only as a record of terms already agreed upon, not as a condition to formation."
+    D: "Yes, because the condition requiring the landlord's approval for the lease transfer was beyond the control of either party."
+
+transform_provenance:
+  transformed_from: "14442"
+  variant_slug: "gospel-studio"
+  original_key_letter: "D"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "B"
+      mechanic: "moral_consideration_myth"
+      substance: "kept"
+      pick_rate:
+        value: 7
+        provenance: "inherited"
+    - original_letter: "B"
+      new_letter: "A"
+      mechanic: "inadequacy_of_consideration_myth"
+      substance: "kept"
+      pick_rate:
+        value: 5
+        provenance: "inherited"
+    - original_letter: "C"
+      new_letter: "D"
+      mechanic: "condition_beyond_control_misfit"
+      substance: "kept"
+      pick_rate:
+        value: 7
+        provenance: "inherited"
+    - original_letter: "D"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 81
+        provenance: "inherited"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "An aunt offered to sell her bookstore business to her niece for $125,000 if the landlord approved the lease transfer, the niece accepted, and the aunt later reneged after asking her attorney to draft a written contract for the record."
+    variant_stem_one_sentence: "Peter offered to sell his gospel recording studio to Paul for $130,000 if the landlord approved the lease transfer, Paul accepted, and Peter later reneged after asking his attorney to draft a written contract for the record."
+    dimensions_changed:
+      - "Asset/subject matter: bookstore -> gospel recording studio"
+      - "Cast: aunt/niece -> Peter/Paul"
+      - "Numbers: $200,000/$125,000 -> $195,000/$130,000"
+      - "Fact ordering: appraisal sentence moved after offer letter"
+      - "Specific lies/facts: affection -> gratitude; business equipment -> mixing equipment and master recordings"
+      - "Choice ordering: A->B, B->A, C->D, D->C"
+    dimensions_skipped_with_reason:
+      - "Transaction frame: sale-of-business preserved because the inadequacy-of-consideration and moral-consideration distractors require a business-sale context with an appraised asset; changing to a service or lease frame would weaken the distractor pull."
+
+source_stack:
+  - "Original question row (QID 14442, subject Contracts, topic Formation, subtopic Mutual Assent, outline_code 55020100, key D)"
+  - "controlled_vocabularies.md (C3 Creative-Transform taxonomy)"
+  - "OUTLINE_CODES_COMPLETE.md (BarMatrix 8-digit outline code reference)"
+  - "Restatement (Second) of Contracts § 27 (legal authority)"
+
+student_access_contract:
+  limit: "A smart 10-year-old who has learned the C3 method and the basic rule that 'a contract is formed when parties agree on the essential terms' can solve this without outside legal doctrine."
+  controlling_test: "Could a smart 10-year-old who completed only the C3 lessons, subject overlays, and taught tiny anchors / Gold Keys identify each choice's problem without outside legal doctrine?"
+
+stem_parse:
+  call_type: "affirmative outcome"
+  call_heuristic: "likely to prevail"
+  adjacent_call_trap: false
+  negative_stem_inversion: false
+
+trigger_facts:
+  - fact: "Peter offered to sell the studio to Paul for $130,000 if the landlord approved the lease transfer."
+    access_label: "student_visible"
+  - fact: "Paul accepted the offer in writing."
+    access_label: "student_visible"
+  - fact: "Peter called to say the landlord approved and that he would ask his attorney to draft a written contract 'so that there would be a record of the terms.'"
+    access_label: "student_visible"
+  - fact: "Before the attorney finished, Peter changed his mind."
+    access_label: "student_visible"
+
+c3_routing:
+  subject_fit: "Contracts > Formation > Mutual Assent"
+  governing_law_type: "RULE"
+  deciding_phase: "CUT"
+  method_class: "hard_structural"
+  confidence: "HARD_STRUCTURAL"
+  case_study_verdict: "C3_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Core"
+
+answer_array:
+  geometry: "2x2 matrix"
+  description: "{No|Yes} x {wrong reason|correct reason}"
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_TRUE"
+    mold_code: "half_truth"
+    mold_family: "EAR_DISTORTION"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "common_student_myth"
+      - "half_right_answer"
+    method_class: "hard_structural"
+    student_label: "Inadequacy myth"
+    c3_signal: "The stem shows the parties agreed on $130,000. The law does not require consideration to match appraised value."
+    lawyer_confirmation: "Consideration need not be adequate; only gross inadequacy that shocks the conscience can invalidate a contract. Restatement (Second) of Contracts § 71."
+  B:
+    filter_broken: "NOT_TRUE"
+    mold_code: "flat_misstatement"
+    mold_family: "EAR_FALSITY"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "common_student_myth"
+      - "moral_common_sense_answer"
+    method_class: "hard_structural"
+    student_label: "Moral consideration myth"
+    c3_signal: "The stem shows Peter offered a specific price and Paul accepted. Affection as motive does not negate a bargained-for exchange."
+    lawyer_confirmation: "Restatement (Second) of Contracts § 71 - a bargained-for exchange exists even if the promisor's motive is affection or gratitude."
+  C:
+    filter_broken: null
+    mold_code: "correct_answer"
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "hard_structural"
+    student_label: "Record, not condition"
+    c3_signal: "The parties agreed on all essential terms. Peter said the attorney would draft a 'record of the terms.' The contract was already formed."
+    lawyer_confirmation: "Restatement (Second) of Contracts § 27 - manifestations of assent sufficient to conclude a contract are not prevented from operating by the fact that the parties also manifest an intention to prepare and adopt a written memorial thereof."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "half_right_answer"
+    method_class: "heuristic_structural"
+    student_label: "Wrong-reason right-result"
+    c3_signal: "The choice focuses on the landlord condition being beyond control, but the stem says the landlord already approved. The dispositive issue is the memorialization, not the condition."
+    lawyer_confirmation: "Conditions are often beyond the control of either party. The dispositive issue is whether the written contract was a condition precedent to formation."
+
+residual_answer:
+  choice: "C"
+  why: "The parties' manifestations of assent on all essential terms were sufficient to form an enforceable contract, and the intent to memorialize the agreement in writing did not make the writing a condition precedent."
+
+legal_leak_audit:
+  leak_found: false
+  notes: "All claims pass the controlling test. No outside legal doctrine is required to cut the wrong answers."
+
+gold_keys: []
+
+remediation:
+  card_id: "RC-CONTRACTS-MEMORIALIZATION-01"
+  title: "Memorialization vs. Condition Precedent"
+  signal: "Parties agreed on terms but mention wanting a 'written contract' or 'record' later."
+  student_move: "Ask: Did they agree on all essential terms? Was the writing described as a 'record' or 'memorial,' or was it a condition to formation?"
+  tiny_rule: "Intent to memorialize in writing does not prevent contract formation if manifestations of assent are sufficient on all essential terms."
+  trap: "Moral consideration myth (B), inadequacy myth (A), wrong-reason right-result (D)."
+  confidence: "HARD_STRUCTURAL"
+
+distilled_core_question: "If parties agree on all essential terms of a sale and one party later says he will have an attorney draft a written contract 'for the record,' can the other party enforce the agreement if the first party changes his mind before the writing is drafted?"
+
+review_truth: "If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent."
+
+case_study_output:
+  verdict: "C3_SOLVE"
+  residual: "C"
+  agrees_with_official_key: true
+  confidence: "HARD_STRUCTURAL"
+
+quality_control:
+  self_check_passed: true
+  notes: "All QA items from SKILL.md verified. Rule/answer-substance/issue unchanged. Credited outcome unmoved. Dominant trap survives re-skinned. Each distractor = one mold + one filter. No clutter doctrine added. Recognition test passed."
+
+analytics_hooks:
+  - event: "question_view"
+    payload: "qid=14442_gospel-studio&subject=CONTRACTS&outline_code=55020100"
+  - event: "answer_submit"
+    payload: "qid=14442_gospel-studio&choice={choice}&correct={is_correct}"
+```
+
+---
+
+### 2. The 17-section student case study
+
+#### program_frame
+- **Program:** BarMatrix C3 Divergent Creative-Transform Engine
+- **QID:** 14442_gospel-studio
+- **Transformed from:** 14442
+- **Subject:** CONTRACTS
+- **Topic:** Formation of Contracts
+- **Subtopic:** Mutual Assent
+- **Outline Code:** 55020100
+- **Key (post-shuffle):** C
+- **Original Key:** D
+- **Difficulty:** Core
+- **Confidence:** HARD_STRUCTURAL
+
+#### student_access_test
+- **Limit:** A smart 10-year-old who knows "a contract is formed when parties agree on the essential terms" can solve this without outside legal doctrine.
+- **Controlling test applied to each choice:** All four choices pass the controlling test. The wrong answers are visibly defective from the stem text or from basic C3 lessons on consideration and contract formation.
+
+#### question_data
+- **Stem:** A sound engineer named Paul had worked for Peter, the owner of a small gospel recording studio, for many years. Peter decided to retire. He wrote to Paul, expressing his gratitude for Paul's faithful service, and offered to sell him the studio business for $130,000 if the landlord would agree to a transfer of the lease. The letter also specified when Peter would transfer the mixing equipment and master recordings. The studio business, which was housed in a building that Peter leased, was independently appraised at $195,000. Paul wrote back accepting Peter's offer. In a phone call to Paul, Peter stated that the landlord had approved the transfer of the lease and that he would now ask his attorney to draft a written contract so that there would be a record of the terms. Before the attorney had finished drafting the document, Peter changed his mind about selling the business and informed Paul of his decision. In an action for breach of contract brought by Paul against Peter, is Paul likely to prevail?
+- **Call:** is Paul likely to prevail?
+- **Choices:**
+  - A: No, because the promised consideration was inadequate in light of the studio's appraised value.
+  - B: No, because the motivation for the sale was Peter's friendship with Paul, not the purchase price.
+  - C: Yes, because the written agreement Peter asked his attorney to prepare was intended only as a record of terms already agreed upon, not as a condition to formation.
+  - D: Yes, because the condition requiring the landlord's approval for the lease transfer was beyond the control of either party.
+
+#### distilled_core_question
+If parties agree on all essential terms of a sale and one party later says he will have an attorney draft a written contract "for the record," can the other party enforce the agreement if the first party changes his mind before the writing is drafted?
+
+#### call_and_prediction
+- **Call heuristic:** "likely to prevail"
+- **Prediction:** Paul will prevail because the parties agreed on all essential terms and the writing was merely a memorial, not a condition precedent.
+
+#### trigger_facts
+1. Peter offered to sell the studio for $130,000 if the landlord approved the lease transfer.
+2. Paul accepted in writing.
+3. Peter called: landlord approved, attorney will draft a written contract "for the record."
+4. Before attorney finished, Peter changed his mind.
+
+#### governing_c3_lane
+- **Subject fit:** Contracts > Formation > Mutual Assent
+- **Lane:** Formation of contract via mutual assent; memorialization vs. condition precedent.
+
+#### choice_by_choice_walkthrough
+
+**Choice A - Inadequacy myth**
+1. **Student-accessible C3 signal:** The stem shows the parties agreed on $130,000. The law does not require consideration to match appraised value. A 10-year-old can see that $130,000 is real money and the parties agreed on it.
+2. **Student label:** Inadequacy myth
+3. **What a true/responsive version would look like:** "No, because the consideration was so grossly inadequate as to shock the conscience." (But the facts do not support this.)
+4. **Lawyer confirmation:** Consideration need not be adequate; only gross inadequacy that shocks the conscience can support a claim of unconscionability or fraud. Restatement (Second) of Contracts § 71.
+
+**Choice B - Moral consideration myth**
+1. **Student-accessible C3 signal:** The stem shows Peter offered a specific price and Paul accepted. That's a clear bargained-for exchange. Whether Peter felt gratitude is irrelevant to whether a contract was formed.
+2. **Student label:** Moral consideration myth
+3. **What a true/responsive version would look like:** "No, because the agreement was a mere gratuity or gift with no bargained-for exchange." (But the facts show a price and acceptance.)
+4. **Lawyer confirmation:** Restatement (Second) of Contracts § 71 - consideration requires a bargained-for exchange, but the motive can be affection, and the bargain is still valid.
+
+**Choice C - Record, not condition (CREDITED)**
+1. **Student-accessible C3 signal:** The parties agreed on all essential terms. Peter said the attorney would draft a "record of the terms." The contract was already formed.
+2. **Student label:** Record, not condition
+3. **What a true/responsive version would look like:** "Yes, because the parties' manifestations of assent on all essential terms were sufficient to form an enforceable contract, and the intent to memorialize the agreement in writing did not make the writing a condition precedent."
+4. **Lawyer confirmation:** Restatement (Second) of Contracts § 27.
+
+**Choice D - Wrong-reason right-result**
+1. **Student-accessible C3 signal:** The choice says "Yes, because the condition was beyond control." But the stem says the landlord already approved. And the real issue is whether the written contract was a condition precedent to formation.
+2. **Student label:** Wrong-reason right-result
+3. **What a true/responsive version would look like:** "Yes, because the landlord's approval satisfied the express condition, and no further condition to formation existed." (But the dispositive issue is the memorialization.)
+4. **Lawyer confirmation:** Conditions are often beyond the control of either party. The dispositive issue is whether the written contract was a condition precedent.
+
+#### residual_answer
+**C** is the only true and responsive choice. The parties' manifestations of assent on all essential terms were sufficient to form an enforceable contract, and the intent to memorialize the agreement in writing did not make the writing a condition precedent.
+
+#### legal_leak_audit
+- **Leak found:** No.
+- **Notes:** All claims pass the controlling test. No outside legal doctrine is required to cut the wrong answers. A smart 10-year-old with C3 lessons can see that the parties agreed on a price and that the attorney was only drafting a record.
+- **Drift audit:** No drift. Rule, issue, outcome, and distractor mechanics are identical to the original. Only the surface story diverged.
+
+#### final_student_script
+1. **Read the stem.** Peter offered to sell the studio for $130,000 if the landlord approved the lease. Paul accepted. Peter called to say the landlord approved and the attorney would draft a "record of the terms." Then Peter reneged.
+2. **CUT A.** The choice claims the price was "inadequate" because it was below the $195,000 appraisal. But the parties agreed on $130,000. The law does not require prices to match appraisals. **Eliminate A.**
+3. **CUT B.** The choice claims friendship was the motivation, so there is no contract. But the stem shows a clear offer and acceptance with a specific price. Motive does not matter. **Eliminate B.**
+4. **CUT D.** The choice says "Yes, because the condition was beyond control." But the landlord already approved. And the real issue is whether the writing was a condition. This choice talks about the wrong reason. **Eliminate D.**
+5. **CALL C.** The parties agreed on all terms. Peter said the writing was a "record." The contract was already formed. **C is correct.**
+
+#### remediation_card
+- **Card ID:** RC-CONTRACTS-MEMORIALIZATION-01
+- **Title:** Memorialization vs. Condition Precedent
+- **Signal:** Parties agreed on terms but mention wanting a "written contract" or "record" later.
+- **Student move:** Ask: Did they agree on all essential terms? Was the writing described as a "record" or "memorial," or was it a condition to formation?
+- **Tiny rule:** Intent to memorialize in writing does not prevent contract formation if manifestations of assent are sufficient on all essential terms.
+- **Trap:** Moral consideration myth (B), inadequacy myth (A), wrong-reason right-result (D).
+- **Confidence:** HARD_STRUCTURAL
+
+#### qa_checklist
+- [x] Each distractor breaks exactly one filter.
+- [x] Residual is true and responsive (C).
+- [x] No legal leak; all claims pass the controlling test.
+- [x] Pick rates are honest (inherited from original, mapped through Letter Map).
+- [x] Dominant trap named and flagged (B).
+- [x] Letter Map present and accurate.
+- [x] Post-shuffle key letter is identical across all blocks (C).
+- [x] No original letters appear outside the Letter Map and provenance fields.
+- [x] outline_code verified verbatim in OUTLINE_CODES_COMPLETE.md (55020100).
+- [x] Frontmatter present and consistent with body.
+- [x] All Pass-2 blocks preceded by exact name headings.
+- [x] All three JSON blocks are valid JSON with no trailing commas.
+
+#### wrong_answer_recovery_paths
+- **A (Inadequacy myth):** Review that consideration need not be adequate. The law only requires that consideration be sufficient and bargained for. Only gross inadequacy that shocks the conscience is a defense.
+- **B (Moral consideration myth):** Review that affection or gratitude as a motive does not negate a bargained-for exchange. If there is a clear offer and acceptance with a price, the contract is enforceable regardless of the promisor's motive.
+- **D (Wrong-reason right-result):** Review that in memorialization cases, the dispositive issue is whether the writing was a condition precedent or merely a record. A satisfied condition is not the reason the contract is enforceable if the real issue is the memorialization.
+
+#### outline_mastery_map
+- **Placement:** 55020100 - Formation > Mutual Assent
+- **This item teaches:** Intent to memorialize in writing does not prevent contract formation if manifestations of assent are sufficient on all essential terms.
+- **Fills:** 55020100
+- **Adjacent to master:**
+  - 55020200 - Formation > Consideration (the A and B distractors touch on consideration myths)
+  - 56050100 - Performance, Breach, and Excuse > Conditions (the D distractor touches on conditions)
+
+#### crossover_intersection_map
+- **Crossover with 55020200 (Consideration):** The A and B distractors test consideration misconceptions (inadequacy and moral consideration). Mastering consideration helps avoid these traps.
+- **Crossover with 56050100 (Conditions):** The D distractor tests whether the student can distinguish between a satisfied condition and a condition precedent to formation. Mastering conditions helps avoid this trap.
+
+#### review_truth
+If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent.
+
+---
+
+### 3. c3_annotation
+
+'''
+
+# Build JSON blocks
+c3_annotation = {
+    "question_id": "14442_gospel-studio",
+    "subject": "CONTRACTS",
+    "credited_answer": "C",
+    "outline_code": "55020100",
+    "distilled_core_question": "If parties agree on all essential terms of a sale and one party later says he will have an attorney draft a written contract 'for the record,' can the other party enforce the agreement if the first party changes his mind before the writing is drafted?",
+    "review_truth": "If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent.",
+    "c3": {
+        "verdict": "C3_SOLVE",
+        "residual": "C",
+        "agrees_with_key": True,
+        "governing_law_type": "RULE",
+        "deciding_phase": "CUT",
+        "confidence": "HARD_STRUCTURAL",
+        "tension_axis": None,
+        "is_fork": False,
+        "fork_type": None,
+        "call_heuristic": "likely to prevail",
+        "difficulty": "Core",
+        "distractors": [
+            {
+                "choice": "A",
+                "filter_broken": "NOT_TRUE",
+                "mold": "EAR_DISTORTION/half_truth",
+                "architecture": "common_student_myth",
+                "card_ref": None,
+                "explanation": "The choice claims inadequacy of consideration, but the parties agreed on a specific price and the law does not require adequacy."
+            },
+            {
+                "choice": "B",
+                "filter_broken": "NOT_TRUE",
+                "mold": "EAR_FALSITY/flat_misstatement",
+                "architecture": "common_student_myth",
+                "card_ref": None,
+                "explanation": "The choice claims friendship negates the bargained-for exchange, but the stem shows a clear offer and acceptance with a price."
+            },
+            {
+                "choice": "D",
+                "filter_broken": "NOT_RESPONSIVE",
+                "mold": "ISSUE_SENSE/wrong_element",
+                "architecture": "legally_true_but_irrelevant",
+                "card_ref": None,
+                "explanation": "The choice focuses on the condition being beyond control, but the dispositive issue is whether the written contract was a condition precedent."
+            }
+        ],
+        "analyzer_notes": "drift_audit: Rule, issue, and outcome unchanged. Distractor mechanics inherited. Array geometry preserved (2x2: No/Yes x wrong reason/correct reason). Dominant trap: B (moral consideration myth, 7% inherited). Pick rates traveled by mechanic. No weak-distractor swap performed. outline_code: 55020100 verified verbatim in OUTLINE_CODES_COMPLETE.md. transformed_from: 14442. letter_map: A->B (inadequacy), B->A (friendship), C->D (condition beyond control), D->C (correct)."
+    },
+    "gold_keys": [],
+    "silver_keys": []
+}
+
+program_elements = {
+    "question_id": "14442_gospel-studio",
+    "subject": "CONTRACTS",
+    "outline_code": "55020100",
+    "distilled_core_question": "If parties agree on all essential terms of a sale and one party later says he will have an attorney draft a written contract 'for the record,' can the other party enforce the agreement if the first party changes his mind before the writing is drafted?",
+    "review_truth": "If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent.",
+    "tension": None,
+    "traps": [
+        {
+            "choice": "A",
+            "mold": "EAR_DISTORTION/half_truth",
+            "architecture": "common_student_myth",
+            "why_attractive": "Students often think a price below market value means there is no valid consideration. The breaker is that the law only requires sufficient consideration, not adequate consideration, and only gross inadequacy that shocks the conscience can invalidate a contract.",
+            "focus_group_pct": 5,
+            "pct_provenance": "inherited"
+        },
+        {
+            "choice": "B",
+            "mold": "EAR_FALSITY/flat_misstatement",
+            "architecture": "common_student_myth",
+            "why_attractive": "Students often believe that if a deal is motivated by affection or gratitude, it is not a legally enforceable contract. The breaker is that affection as a motive does not negate a bargained-for exchange where a specific price was offered and accepted.",
+            "focus_group_pct": 7,
+            "pct_provenance": "inherited"
+        },
+        {
+            "choice": "D",
+            "mold": "ISSUE_SENSE/wrong_element",
+            "architecture": "legally_true_but_irrelevant",
+            "why_attractive": "Students see that the condition was satisfied and think that is the reason the contract is enforceable. The breaker is that the dispositive issue is whether the written contract was a condition precedent to formation, not whether the condition was beyond control.",
+            "focus_group_pct": 7,
+            "pct_provenance": "inherited"
+        }
+    ],
+    "remediation_card": {
+        "card_id": "RC-CONTRACTS-MEMORIALIZATION-01",
+        "title": "Memorialization vs. Condition Precedent",
+        "signal": "Parties agreed on terms but mention wanting a 'written contract' or 'record' later.",
+        "student_move": "Ask: Did they agree on all essential terms? Was the writing described as a 'record' or 'memorial,' or was it a condition to formation?",
+        "tiny_rule": "Intent to memorialize in writing does not prevent contract formation if manifestations of assent are sufficient on all essential terms.",
+        "trap": "Moral consideration myth (B), inadequacy myth (A), wrong-reason right-result (D).",
+        "confidence": "HARD_STRUCTURAL"
+    },
+    "red_zone_dimensions": [
+        "moral consideration vs. bargained-for exchange",
+        "inadequacy of consideration misconception",
+        "condition precedent vs. memorialization"
+    ]
+}
+
+program_intelligence = {
+    "question_id": "14442_gospel-studio",
+    "subject": "CONTRACTS",
+    "outline_code": "55020100",
+    "distilled_core_question": "If parties agree on all essential terms of a sale and one party later says he will have an attorney draft a written contract 'for the record,' can the other party enforce the agreement if the first party changes his mind before the writing is drafted?",
+    "review_truth": "If parties agree on all essential terms, the intent to later memorialize the agreement in writing does not prevent contract formation unless the writing is expressly made a condition precedent.",
+    "wrong_answer_paths": [
+        {
+            "choice": "A",
+            "filter_broken": "NOT_TRUE",
+            "mold": "EAR_DISTORTION/half_truth",
+            "why_a_student_picks_this": "The student sees the appraised value ($195,000) exceeds the sale price ($130,000) and thinks the price is too low to support a contract.",
+            "skipped_move": "The student failed to apply the rule that consideration need not be adequate, only sufficient.",
+            "recovery_step": "Review: adequacy of consideration is not required; only gross inadequacy that shocks the conscience is a defense."
+        },
+        {
+            "choice": "B",
+            "filter_broken": "NOT_TRUE",
+            "mold": "EAR_FALSITY/flat_misstatement",
+            "why_a_student_picks_this": "The student sees that Peter expressed gratitude and friendship and thinks affection negates the legal enforceability of the agreement.",
+            "skipped_move": "The student failed to see that a bargained-for exchange exists regardless of the promisor's motive.",
+            "recovery_step": "Review: Affection or gratitude as a motive does not negate consideration if there is a bargained-for exchange."
+        },
+        {
+            "choice": "D",
+            "filter_broken": "NOT_RESPONSIVE",
+            "mold": "ISSUE_SENSE/wrong_element",
+            "why_a_student_picks_this": "The student sees that the landlord approved and thinks the satisfied condition is the reason the contract is enforceable.",
+            "skipped_move": "The student failed to identify the dispositive issue: whether the written contract was a condition precedent or merely a memorial.",
+            "recovery_step": "Review: When a 'Yes' answer cites a condition, check whether the real issue is memorialization vs. condition precedent."
+        }
+    ],
+    "drill_seeds": [
+        {
+            "drill_type": "trap_spotting",
+            "target_skill": "Identify memorialization language",
+            "prompt": "In which scenario is a contract most likely formed despite the parties' intent to later draft a writing?",
+            "answer": "The scenario where the parties agree on all essential terms and one party says the writing will be 'a record of the terms.'"
+        },
+        {
+            "drill_type": "cut_practice",
+            "target_skill": "Distinguish moral consideration from bargained-for exchange",
+            "prompt": "A seller writes to a buyer: 'Because I value our friendship, I offer to sell you my car for $5,000.' The buyer accepts. Is there a contract?",
+            "answer": "Yes. The offer and acceptance on a specific price create a bargained-for exchange; friendship as motive does not negate consideration."
+        }
+    ],
+    "trap_tags": {
+        "forensic_tags": ["moral_consideration_myth", "inadequacy_myth", "wrong_reason_right_result"],
+        "misconception_tags": ["affection_negates_contract", "price_must_match_value", "condition_satisfied_equals_contract"]
+    },
+    "component_routing": [
+        {
+            "destination_key": "trap_forensics",
+            "route": "CONTRACTS > Formation > Memorialization",
+            "component_tags": ["memorialization", "condition_precedent", "moral_consideration"]
+        },
+        {
+            "destination_key": "red_zones",
+            "route": None,
+            "component_tags": ["consideration_adequacy", "moral_motive_myth"]
+        },
+        {
+            "destination_key": "drills",
+            "route": None,
+            "component_tags": ["memorialization_trap", "condition_precedent_spotting"]
+        }
+    ],
+    "crossovers": [
+        {
+            "subject": "CONTRACTS",
+            "outline_code": "55020200",
+            "topic": "Consideration"
+        }
+    ],
+    "gold_keys": [],
+    "silver_keys": [],
+    "outline_mastery": {
+        "placement": "Formation > Mutual Assent",
+        "this_item_teaches": "Intent to memorialize does not prevent contract formation if manifestations of assent are sufficient on all essential terms.",
+        "fills": ["55020100"],
+        "adjacent_to_master": ["55020200", "56050100"]
+    }
+}
+
+# Append JSON blocks
+content += '```json\n'
+content += json.dumps(c3_annotation, indent=2) + '\n```\n\n---\n\n### 4. program_elements\n\n```json\n'
+content += json.dumps(program_elements, indent=2) + '\n```\n\n---\n\n### 5. program_intelligence\n\n```json\n'
+content += json.dumps(program_intelligence, indent=2) + '\n```\n'
+
+with open('C:\\FOC\\Workspace\\Finished\\CQ14442.md', 'w', encoding='utf-8') as f:
+    f.write(content)
+
+print('File written successfully.')
+print(f'Length: {len(content)} characters')

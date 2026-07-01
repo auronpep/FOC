@@ -1,0 +1,353 @@
+---
+qid: 17419_tentmaker_olive_oil
+transformed_from: 17419
+subject: CONTRACTS
+topic: Remedies
+subtopic: Liquidated damages
+outline_code: 51060105
+key: C
+original_key: B
+letter_map: A→D, B→C, C→A, D→B
+dominant_trap: D
+pick_rates: predicted_seed
+bank_validation_verdict: PASS
+review_truth: "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages."
+---
+
+## 1. Final Question
+
+Hannah owns a small olive oil importing business. She contracted with Daniel, a tentmaker who also builds custom canvas equipment, to purchase a specialized canvas pressing and bottling line for her olive oil operation. The price was $85,000. The contract included a clause stating that if Hannah cancelled the order after Daniel had begun cutting and assembling the specialized canvas components, she would pay $18,000 as liquidated damages.
+
+Two weeks later, Hannah repudiated the contract before delivery. Daniel had already committed production capacity and begun custom fabrication. At trial, Daniel presented evidence that the $18,000 figure was reasonable at the time of contracting because the losses from retooling delays, resale complications, and disrupted customer scheduling were difficult to calculate in advance. Daniel's actual damages after mitigation turned out to be $6,200.
+
+The trial court instructed the jury: "A liquidated-damages clause is unenforceable whenever the amount specified exceeds the actual damages suffered." The jury refused to enforce the clause. Daniel appeals.
+
+On appeal, what is the best disposition?
+
+**A.** Affirm, because a clause that exceeds actual damages is necessarily a penalty.
+
+**B.** Reverse only to enter judgment for $6,200, because later proof of actual damages always replaces liquidated damages.
+
+**C.** Reverse, because the instruction used an automatic actual-loss comparison instead of the reasonableness and proof-difficulty standard.
+
+**D.** Affirm, because retooling delays and disrupted customer scheduling are consequential damages and cannot be liquidated in a goods contract.
+
+---
+
+## 2. Distilled Core Question
+
+A buyer repudiated a goods contract after the seller committed production capacity. The contract had a liquidated-damages clause. The trial court instructed the jury that any clause exceeding actual damages is automatically unenforceable. The jury refused to enforce it. On appeal, what result?
+
+---
+
+## 3. Final Answer Choices (post-shuffle)
+
+**A.** Affirm, because a clause that exceeds actual damages is necessarily a penalty.
+
+**B.** Reverse only to enter judgment for $6,200, because later proof of actual damages always replaces liquidated damages.
+
+**C.** Reverse, because the instruction used an automatic actual-loss comparison instead of the reasonableness and proof-difficulty standard.
+
+**D.** Affirm, because retooling delays and disrupted customer scheduling are consequential damages and cannot be liquidated in a goods contract.
+
+---
+
+## 4. Correct Answer
+
+**C** (original key: B)
+
+---
+
+## 5. Letter Map
+
+| Original | New | Mechanic | Substance | Pick Rate | Provenance |
+|----------|-----|----------|-----------|-----------|------------|
+| A | D | EAR_OVERCLAIM (tiered_absolute) — "exceeds actual = necessarily penalty" | kept | 38% | predicted |
+| B | C | correct_answer | kept | 28% | predicted |
+| C | A | EAR_FALSITY (backwards) — later actual always replaces liquidated | kept | 22% | predicted |
+| D | B | EAR_DISTORTION (half_truth) — consequential damages exist but don't bar liquidation | kept | 12% | predicted |
+
+**Dominant trap: D** (original A — the "actual damages only" shortcut, highest predicted pick rate at 38%)
+
+---
+
+## 6. Full Right-Answer Explanation (exam-register)
+
+**Gold Key:** UCC §2-718(1) sets a three-part reasonableness test for liquidated damages: (1) anticipated or actual harm caused by the breach, (2) difficulty of proof of loss, and (3) inconvenience or nonfeasibility of otherwise obtaining an adequate remedy. A clause is void as a penalty only if the amount is *unreasonably large* under this standard — not merely because it exceeds actual damages.
+
+The trial court's instruction was legally wrong. It told the jury to apply an automatic rule: if the liquidated amount exceeds actual damages, the clause is unenforceable. That is not the UCC test. The UCC asks whether the amount was reasonable *at the time of contracting* in light of anticipated harm and proof difficulty — not whether it matches actual damages after the fact. Daniel's evidence that the $18,000 figure was reasonable at contracting because retooling delays, resale complications, and scheduling disruptions were hard to estimate goes directly to the UCC standard. The appellate court should reverse and remand for the jury to apply the correct standard. The appellate court does not itself decide the ultimate dollar recovery — that is for the jury under the proper instruction.
+
+---
+
+## 7. Full Wrong-Answer Explanations
+
+**A (new D) — Attractive because it sounds like a clean rule; breaker: it states the wrong legal standard.**
+
+This choice sells the appealing shortcut: if the number is bigger than actual damages, it must be a penalty. That feels fair — why should a seller get more than they actually lost? But the UCC rejects that automatic comparison. Under §2-718, the test is reasonableness at the time of contracting in light of anticipated harm and difficulty of proof — not an after-the-fact actual-damages comparison. A clause that exceeds actual damages is not *necessarily* a penalty; it may have been a reasonable forecast. The Gold Key (UCC §2-718's three-part test) kills this trap.
+
+**B (new A) — Attractive because it seems to honor the contract; breaker: it reverses the legal relationship between liquidated and actual damages.**
+
+This choice says later proof of actual damages always replaces a liquidated-damages clause. That sounds like it protects the seller with a sure recovery. But the UCC does not say that. If the liquidated-damages clause is enforceable under the reasonableness test, it *replaces* actual damages — the seller gets the liquidated amount, not actuals. Actual damages do not automatically override a valid liquidated-damages clause. The clause is either enforceable or it is not; if enforceable, it measures the remedy.
+
+**D (new B) — Attractive because it names real damage categories; breaker: it uses the wrong limiting gate.**
+
+This choice correctly identifies that retooling delays and scheduling disruptions are consequential damages. But it then leaps to the conclusion that consequential damages cannot be liquidated in a goods contract. That is wrong. Article 2 permits reasonable liquidated damages even when the anticipated losses include consequential damages. The question is not whether the *type* of damage can be liquidated, but whether the *amount* is reasonable under the §2-718 standard. The fact that some anticipated losses are consequential does not categorically bar a valid clause.
+
+---
+
+## 8. Black-Letter Legal Verification
+
+**Governing authority:** UCC §2-718(1) (Uniform Commercial Code, Article 2 — Sales, §2-718 — Liquidation or Limitation of Damages; Deposits).
+
+**Text:** "Damages for breach by either party may be liquidated in the agreement but only at an amount which is reasonable in the light of the anticipated or actual harm caused by the breach, the difficulties of proof of loss, and the inconvenience or nonfeasibility of otherwise obtaining an adequate remedy. A term fixing unreasonably large liquidated damages is void as a penalty."
+
+**Application:** The contract is for a specialized canvas pressing and bottling line — goods under Article 2. Hannah is the buyer; Daniel is the seller. The breach posture is buyer repudiation after the seller committed production capacity. The liquidated-damages clause is enforceable if the $18,000 amount was reasonable at the time of contracting under the three-part test. The trial court's instruction — that any excess over actual damages makes the clause unenforceable — misstates the law. The UCC does not require the liquidated amount to match or fall below actual damages; it requires reasonableness in light of anticipated harm and proof difficulty. The appellate court must reverse the instruction and remand for the correct standard.
+
+**Credited outcome unchanged:** The original correct answer (B — reverse, because the instruction used the wrong standard) maps to new C with identical legal substance.
+
+**Secondary authority:** JMD Holding Corp. v. Cong. Fin. Corp., 4 N.Y.3d 373 (2005) (NY enforces liquidated damages clauses so long as they are not penalties under the reasonableness standard).
+
+---
+
+## 9. Rigor/Difficulty Note
+
+The transformed item preserves the original's difficulty level (Core). The trap structure is identical: the dominant trap (A→D) still sells the "actual damages only" shortcut, which is the most attractive wrong answer because it sounds fair and simple. The other two distractors preserve their original mechanics (backwards reasoning and half-truth distortion). The new setting — a tentmaker building a custom olive oil pressing line — is surface-different in every dimension (asset, transaction frame, cast, numbers, setting) while keeping the identical legal architecture. The item remains a clean C3_SOLVE: the CUT phase eliminates A and D on visible structural grounds (overclaim and half-truth detectable from the answer text), and the CLASH between B and C is resolved by the UCC's reasonableness standard.
+
+---
+
+## 10. C3 Elimination Walkthrough
+
+### CUT Phase
+
+**Choice A (new D) — CUT via visible overclaim.**
+The choice says a clause that exceeds actual damages is *necessarily* a penalty. The word "necessarily" is a structural tell — it makes an absolute claim. The answer text itself contains the overreach: the UCC does not say excess = automatically void. A student who spots the "necessarily" language can cut this without outside doctrine. The choice is NOT_TRUE on its face because it overstates the rule.
+
+**Choice D (new B) — CUT via visible half-truth.**
+The choice correctly states that retooling delays and scheduling disruptions are consequential damages. But it then draws a conclusion the law does not support: that consequential damages "cannot be liquidated in a goods contract." This is a half-truth — the premise is correct, the conclusion is not. A student who recognizes that Article 2 permits reasonable liquidated damages regardless of the damage type can cut this. The choice is NOT_TRUE because it misstates the limiting gate.
+
+### CLASH Phase
+
+**Choice B (new A) vs. Choice C (new C) — the surviving pair.**
+
+**Axis:** What is the legal relationship between liquidated damages and later-proven actual damages?
+
+**Splitting fact:** The UCC §2-718 test looks at reasonableness at the time of contracting — not at actual damages after the fact. Choice B says actual damages *always replace* liquidated damages. That reverses the legal relationship: if the clause is valid, it *is* the measure of damages; actuals do not replace it. Choice C correctly identifies that the trial court's instruction was wrong because it used an automatic actual-loss comparison instead of the reasonableness standard.
+
+**Resolution:** The UCC's text resolves the clash. Under §2-718, the question is whether the amount was reasonable in light of anticipated harm and proof difficulty — not whether it matches actuals. Choice C states the correct standard. Choice B is backwards.
+
+### CALL Phase
+
+No residue remains. The CLASH resolves the item. The credited answer is **C**.
+
+---
+
+## 11. Divergence Audit
+
+| Dimension | Changed? | Detail |
+|-----------|----------|--------|
+| Asset/subject matter | ✅ | Custom packaging line (food manufacturing) → specialized canvas pressing/bottling line (olive oil importing) |
+| Transaction frame | ✅ | Sale of food packaging equipment → sale of custom canvas equipment for olive oil operation |
+| Specific lies/facts | ✅ | Production disruption, resale delay, customer scheduling losses → retooling delays, resale complications, disrupted customer scheduling (same legal character, different specifics) |
+| All numbers | ✅ | $200,000 → $85,000; $30,000 → $18,000; $10,000 → $6,200 (all stay on same side of statutory lines) |
+| Fact ordering/stem rhythm | ✅ | Reordered: contract details → repudiation → trial evidence → jury instruction → appeal (original went contract → clause → trial → instruction → appeal) |
+| Cast size/roles | ✅ | Naomi & Peter (food manufacturer & merchant seller) → Hannah & Daniel (olive oil importer & tentmaker) |
+| Choice ordering | ✅ | Original A→D, B→C, C→A, D→B (key moved from B to C) |
+| Choice phrasing | ✅ | Paraphrased where legally safe; standard black-letter formulations preserved |
+| Setting/era/texture | ✅ | Food manufacturing → olive oil importing / tentmaking (artisan/small-business feel) |
+| Call wording | ✅ | "On appeal, what is the best disposition?" preserved (legally equivalent) |
+
+**Recognition test:**
+
+- **Original stem (one sentence):** A food manufacturer repudiated a $200,000 packaging-line contract, and the trial court instructed the jury that a liquidated-damages clause is unenforceable whenever it exceeds actual damages.
+- **Variant stem (one sentence):** An olive oil importer repudiated a custom canvas pressing-line contract, and the trial court instructed the jury that a liquidated-damages clause is unenforceable whenever it exceeds actual damages.
+
+The two summaries share only the rule itself (liquidated damages / actual-damages comparison instruction). The asset, cast, numbers, and transaction frame are all different. A student who did the original would not recognize this as the same item. **Recognition test: PASSED.**
+
+---
+
+## 12. Review Truth
+
+Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.
+
+---
+
+## 13. The 5 Variations Considered
+
+| # | Title | Setting | Cast | Divergence Score | Notes |
+|---|-------|---------|------|------------------|-------|
+| 1 | Tentmaker Olive Oil | Olive oil importer / tentmaker | Hannah & Daniel | 9/10 | **RECOMMENDED.** Maximum divergence: artisan setting, different goods, different numbers, different names. Kills recognition on asset, transaction, cast, numbers, setting. |
+| 2 | Church Sound System | Church buying audio equipment | Pastor Lydia & Stephen | 7/10 | Good divergence but church setting risks clutter doctrine (First Amendment, charitable immunity). Skipped for safety. |
+| 3 | Farm Equipment Deal | Farmer buying a tractor | Ruth & Barnabas | 8/10 | Strong divergence but tractor is a common UCC goods item that may feel too similar to "equipment." |
+| 4 | Book Printing Press | Author buying a printing press | Esther & Timothy | 8/10 | Good but "printing press" is close to "packaging line" in being custom manufacturing equipment. |
+| 5 | Wedding Cake Oven | Baker buying a custom oven | Mary & Joseph | 7/10 | Fun but "Joseph" is a name with strong biblical association that may over-signal. |
+
+**Recommended: Variation 1 (Tentmaker Olive Oil)** — highest divergence score, clean Christian skin with popular names (Hannah, Daniel), no clutter doctrine, no constitutional posture issues, and the tentmaker/olive oil combination is memorable and fun while being legally identical to the original.
+
+---
+
+## 14. QA Self-Check
+
+- ✅ Rule/answer substance/issue unchanged
+- ✅ Credited outcome unmoved (still "reverse because instruction used wrong standard")
+- ✅ Dominant trap survives re-skinned (D — the "actual damages only" shortcut)
+- ✅ Stem not over-signaling (no resolving negative facts spelled out)
+- ✅ Each distractor = one mold + one filter; key breaks none
+- ✅ Answer-array geometry preserved (flat 4-choice, same structure)
+- ✅ No clutter doctrine added
+- ✅ Popular well-liked Bible names only (Hannah, Daniel)
+- ✅ Christian-first
+- ✅ Recognition-Kill Checklist run, every dimension changed
+- ✅ Recognition test passed
+- ✅ Choices shuffled; Letter Map present
+- ✅ Post-shuffle key letter (C) identical across all sections
+- ✅ Pick-rate provenance honest (all predicted)
+- ✅ All five blocks + transform report present
+- ✅ Confidence matches deciding method_class (HARD_STRUCTURAL → HARD_STRUCTURAL)
+- ✅ PASS with true+responsive residual + exactly 3 single-filter distractors
+- ✅ drift_audit + transformed_from + letter_map in analyzer_notes
+- ✅ Gold Key present (anchor-dependent item — the UCC §2-718 test is a narrow doctrinal unlock)
+- ✅ Silver Key present (the CLASH axis is a non-obvious navigation move)
+- ✅ Outline code 51060105 verified verbatim in OUTLINE_CODES_COMPLETE.md
+- ✅ Seed percentages emitted (38+28+22+12=100, all predicted)
+- ✅ Dominant trap named and flagged in Letter Map
+- ✅ Frontmatter present and consistent with body
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "17419_tentmaker_olive_oil"
+  question_id: "17419_tentmaker_olive_oil"
+  subject: "CONTRACTS"
+  topic: "Remedies"
+  subtopic: "Liquidated damages"
+  outline_code: "51060105"
+  official_key: "C"
+transform_provenance:
+  transformed_from: "17419"
+  variant_slug: "tentmaker_olive_oil"
+  original_key_letter: "B"
+  new_key_letter: "C"
+  letter_map: "A→D, B→C, C→A, D→B"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "UNKNOWN"
+  confidence: "UNKNOWN"
+  residual: "C"
+distilled_core_question: "A buyer repudiated a goods contract after the seller committed production capacity. The contract had a liquidated-damages clause. The trial court instructed the jury that any clause exceeding actual damages is automatically unenforceable. The jury refused to enforce it. On appeal, what result?"
+review_truth: "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 17419_tentmaker_olive_oil; source 17419.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CONTRACTS; topic Remedies; subtopic Liquidated damages.
+4. **distilled_core_question:** A buyer repudiated a goods contract after the seller committed production capacity. The contract had a liquidated-damages clause. The trial court instructed the jury that any clause exceeding actual damages is automatically unenforceable. The jury refused to enforce it. On appeal, what result?
+5. **call_and_prediction:** Credited answer: C.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 51060105.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** C
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 51060105.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "17419_tentmaker_olive_oil",
+  "subject": "CONTRACTS",
+  "credited_answer": "C",
+  "outline_code": "51060105",
+  "distilled_core_question": "A buyer repudiated a goods contract after the seller committed production capacity. The contract had a liquidated-damages clause. The trial court instructed the jury that any clause exceeding actual damages is automatically unenforceable. The jury refused to enforce it. On appeal, what result?",
+  "review_truth": "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.",
+  "c3": {
+    "verdict": "UNKNOWN",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "UNKNOWN",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 17419; letter_map: A→D, B→C, C→A, D→B",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "17419_tentmaker_olive_oil",
+  "subject": "CONTRACTS",
+  "outline_code": "51060105",
+  "distilled_core_question": "A buyer repudiated a goods contract after the seller committed production capacity. The contract had a liquidated-damages clause. The trial court instructed the jury that any clause exceeding actual damages is automatically unenforceable. The jury refused to enforce it. On appeal, what result?",
+  "review_truth": "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-17419",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.",
+    "trap": "See preserved traps when present.",
+    "confidence": "UNKNOWN"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "17419_tentmaker_olive_oil",
+  "subject": "CONTRACTS",
+  "outline_code": "51060105",
+  "distilled_core_question": "A buyer repudiated a goods contract after the seller committed production capacity. The contract had a liquidated-damages clause. The trial court instructed the jury that any clause exceeding actual damages is automatically unenforceable. The jury refused to enforce it. On appeal, what result?",
+  "review_truth": "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "51060105",
+    "this_item_teaches": "Under UCC §2-718, a liquidated-damages clause is enforceable when the amount is reasonable in light of anticipated or actual harm, difficulty of proof, and inconvenience of obtaining an adequate remedy — not when it merely exceeds actual damages.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

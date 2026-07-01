@@ -1,0 +1,970 @@
+---
+qid: "20127_jericho_trumpet"
+transformed_from: "20127"
+subject: "CRIMINAL"
+topic: "Fifth Amendment"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "75080101"
+key: "D"
+original_key: "C"
+letter_map: "- original_letter: \"A"
+dominant_trap: "B"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+At Paul’s theft trial, the prosecutor plans to introduce a gilded ram’s-horn trumpet prop recovered from a private rehearsal studio. The recovery traced back to police questioning: after Lydia reported that the trumpet had been taken from her Bible-themed escape-room booth, officers arrested Paul and asked him about the item before giving Miranda warnings. Paul voluntarily said, “It is inside the hollow lectern we use for the Esther skit at my rehearsal studio.” Using that statement, officers obtained a valid search warrant for the studio and found the trumpet. The prosecution does not offer Paul’s statement, only the trumpet.
+
+**Call:** Should the trumpet be suppressed as fruit of the Miranda violation?
+
+*Source row: BARMATRIX Q# 20127, Criminal Procedure, Fifth Amendment, original key C, testing suppression of physical evidence found through a voluntary unwarned statement.* 
+
+### 2. Distilled Core Question
+
+Police question an arrestee without Miranda warnings. He voluntarily identifies where stolen property is. Police use the statement to get a valid warrant and find the property. At trial, the prosecution offers only the property, not the statement. Suppress?
+
+### 3. Final answer choices
+
+**A.** Yes, because a later warrant based on the statement cannot cure any constitutional violation.
+**B.** Yes, because all evidence derived from an unwarned statement is fruit of the poisonous tree.
+**C.** No, because Paul’s voluntary statement means there was no Miranda violation at all.
+**D.** No, because physical evidence derived from a voluntary unwarned statement need not be suppressed.
+
+### 5. Correct answer
+
+**D** — original key letter **C**.
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                                                                          | Substance | Pick rate     |
+| --------------- | ---------: | --------------------------------------------------------------------------------- | --------- | ------------- |
+| A               |          B | `tiered_absolute` — all Miranda-derived evidence suppressed                       | kept      | 31% predicted |
+| B               |          A | `tiered_absolute` — warrant cannot cure any constitutional violation              | kept      | 18% predicted |
+| C               |          D | `correct_answer` — physical fruits of voluntary unwarned statement not suppressed | kept      | 34% predicted |
+| D               |          C | `backwards` — voluntary means no Miranda violation                                | kept      | 17% predicted |
+
+### 7. Full right-answer explanation
+
+**D is correct. Gold Key:** a voluntary unwarned statement is generally excluded from the prosecution’s case-in-chief, but physical evidence discovered because of that statement need not be suppressed. **Silver Key:** keep the violation layer separate from the remedy layer. The call asks whether the physical object must be suppressed, not whether the missing warnings were good police practice or whether Paul’s statement itself is admissible.
+
+Here, the prosecution is not offering Paul’s statement. It is offering the trumpet. The statement was voluntary, and the officers then obtained a valid warrant and found physical evidence. The item does not come out merely because the route to it began with an unwarned but voluntary statement.
+
+### 8. Full wrong-answer explanations
+
+**A.** The warrant language is attractive because it sounds like the question turns on whether later process can cleanse earlier police error. The breaker is that the valid warrant is not the controlling layer; the controlling layer is whether voluntary-statement physical fruit is suppressed. **Silver Key:** the call is suppression of the object as a remedy, not a global “cure” question.
+
+**B.** The poisonous-tree phrase is attractive because students often import the Fourth Amendment fruit rule into every exclusion question. The breaker is the Miranda physical-fruits distinction. **Gold Key:** physical evidence derived from a voluntary unwarned statement need not be suppressed merely for the Miranda warning failure.
+
+**C.** The word “voluntary” is attractive because it sounds like it should erase the Miranda problem. The breaker is that voluntariness changes the remedy; it does not mean warnings were unnecessary. **Silver Key:** do not collapse “there was a warning violation” into “everything must be suppressed” or into “there was no violation.”
+
+### 9. Full black-letter-law verification and legal reasoning
+
+The tested rule and credited outcome are unchanged from the source row: a voluntary unwarned statement may make the statement itself unavailable in the prosecution’s case-in-chief, but it does not require suppression of physical evidence discovered through that statement. The Supreme Court in **United States v. Patane** framed the issue as whether Miranda requires suppression of physical fruits of unwarned but voluntary statements, and the judgment answered that question no. The Patane syllabus states that failure to give Miranda warnings does not require suppression of physical fruits from unwarned but voluntary statements, and explains that the Self-Incrimination Clause is not implicated by introducing nontestimonial evidence obtained from voluntary statements. ([Legal Information Institute][1]) The opinion likewise states that the Miranda rule does not justify extending suppression to physical fruits of a voluntary statement and that Wong Sun’s fruit doctrine does not apply in that context. ([Legal Information Institute][1])
+
+### 10. Why the variation preserves rigor/difficulty
+
+The new item keeps the same legal rule, same suppression call, same physical-evidence remedy layer, same voluntary/unwarned distinction, and same 2-yes / 2-no answer geometry. The difficulty is preserved because the dominant trap remains the “all fruits of Miranda violations are suppressed” overgeneralization.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A.** “Cannot cure any constitutional violation” is a broad absolute and points at a cure question instead of the physical-fruit remedy question. Cut as `tiered_absolute`, anchor-assisted by the Gold Key.
+
+**CUT B.** “All evidence derived” is the dominant overclaim. Cut as `tiered_absolute`; the Gold Key supplies the exception.
+
+**CUT C.** This points the voluntariness fact the wrong way. Voluntary does not erase the missing warnings; it affects the remedy. Cut as `backwards`.
+
+**CALL D.** The residual answer matches the Gold Key exactly: physical evidence derived from a voluntary unwarned statement need not be suppressed.
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension   | Result                                                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Asset / subject matter       | Changed from stolen watch to gilded ram’s-horn trumpet prop.                                                       |
+| Transaction / incident frame | Changed from robbery-watch recovery to theft of a Bible-themed escape-room prop.                                   |
+| Specific facts               | Changed locker to hollow skit lectern in a private rehearsal studio.                                               |
+| Numbers                      | No load-bearing numbers existed; skipped because inventing timing would add clutter.                               |
+| Fact ordering / rhythm       | Reordered: begins at trial evidence, then traces recovery back to questioning.                                     |
+| Cast size / roles            | Changed Victor to Paul, added Lydia as reporting owner/vendor.                                                     |
+| Choice ordering              | Shuffled; original C moved to new D.                                                                               |
+| Choice phrasing              | Paraphrased without changing legal substance.                                                                      |
+| Setting / texture            | Changed from generic robbery/locker to private Christian-themed escape-room and rehearsal-studio setting.          |
+| Call wording                 | Preserved because “suppressed as fruit of the Miranda violation” is the exact legal function.                      |
+| Logged skip                  | No donation, pledge, church-internal property, tithe, clergy, charitable-immunity, or First Amendment facts added. |
+
+**Original stem summary:** Officers got a stolen watch from Victor’s locker after Victor voluntarily disclosed its location during unwarned questioning.
+**Variant stem summary:** Police found a gilded Christian escape-room trumpet inside a hollow Esther-skit lectern after Paul voluntarily named its hiding place during unwarned questioning.
+
+### 13. Review Truth
+
+Miranda can suppress a voluntary unwarned statement from the prosecution’s main case, but not the physical evidence found because of it.
+
+### 14. The 5 variations considered and Pass-1 audit trail
+
+**Step 1 — black-letter rule.** Physical evidence derived from a voluntary unwarned statement need not be suppressed merely because Miranda warnings were missing.
+
+**Step 2 — invariant layer.** Preserve: voluntary statement, no Miranda warnings, physical evidence found through the statement, prosecution offers only the physical evidence, correct answer no suppression, traps: all-fruits overclaim, warrant-cure overclaim, voluntary-erases-violation reversal.
+
+**Step 3 — five Christian variations.**
+
+| Candidate                                         | Setting / cast                                   | Preserved issue                                              | Why memorable                                     | Legal risk                                       | Divergence score                                 |
+| ------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| **Chosen: Jericho Trumpet in the Esther Lectern** | Private Bible-themed escape room; Paul and Lydia | Physical evidence found through voluntary unwarned statement | Trumpet hidden in hollow skit lectern             | Low; private property, no church-law issue       | 9/10 — kills asset, place, rhythm, cast, texture |
+| Loaves-and-Fishes Food Truck Ledger               | Christian food-truck rally; Martha and Timothy   | Same physical-fruit rule                                     | Stolen tablet hidden in flour bin                 | Medium; business-record flavor could distract    | 8/10                                             |
+| Daniel’s Lion Parade Banner                       | Private parade-float workshop; Daniel and Naomi  | Same physical-fruit rule                                     | Stolen jeweled lion clasp hidden in float toolbox | Low                                              | 8/10                                             |
+| Ruth’s Quilt Retreat Harp                         | Retreat craft market; Ruth and Stephen           | Same physical-fruit rule                                     | Harp pin hidden inside quilt frame                | Low                                              | 7/10                                             |
+| Barnabas’s 5K Medal Case                          | Private running club; Barnabas and Hannah        | Same physical-fruit rule                                     | Stolen medal hidden in water-station cooler       | Medium; charity association flavor could clutter | 7/10                                             |
+
+**Step 4 — distractor policy.** No swap. The original distractors are sound and each preserves a distinct misconception. Dominant trap is the all-fruits overclaim, kept as new B.
+
+**Step 5 — final recommendation.** Chosen candidate wins because it changes the asset, hiding place, setting, cast, and stem rhythm while preserving the Miranda physical-fruit issue.
+
+**Step 6 — shuffle.** Original C moved to new D. Full Letter Map appears above and is used throughout Pass 2.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+question_yaml:
+  barmatrix_row:
+    qid: "20127_jericho_trumpet"
+    internal_id: "CR-361"
+    subject: "CRIMINAL"
+    subject_display: "Criminal Procedure"
+    topic: "Fifth Amendment"
+    subtopic: "Constitutional Protection of Accused Persons"
+    outline_code: "75080101"
+    selection_percentages:
+      A:
+        value: 18
+        provenance: "predicted"
+      B:
+        value: 31
+        provenance: "predicted"
+      C:
+        value: 17
+        provenance: "predicted"
+      D:
+        value: 34
+        provenance: "predicted"
+    official_key: "D"
+    original_key_letter: "C"
+    call: "Should the trumpet be suppressed as fruit of the Miranda violation?"
+    stem: >
+      At Paul's theft trial, the prosecutor plans to introduce a gilded ram's-horn trumpet prop recovered from a private rehearsal studio. The recovery traced back to police questioning: after Lydia reported that the trumpet had been taken from her Bible-themed escape-room booth, officers arrested Paul and asked him about the item before giving Miranda warnings. Paul voluntarily said, "It is inside the hollow lectern we use for the Esther skit at my rehearsal studio." Using that statement, officers obtained a valid search warrant for the studio and found the trumpet. The prosecution does not offer Paul's statement, only the trumpet.
+    choices:
+      A: "Yes, because a later warrant based on the statement cannot cure any constitutional violation."
+      B: "Yes, because all evidence derived from an unwarned statement is fruit of the poisonous tree."
+      C: "No, because Paul's voluntary statement means there was no Miranda violation at all."
+      D: "No, because physical evidence derived from a voluntary unwarned statement need not be suppressed."
+
+  transform_provenance:
+    transformed_from: "20127"
+    variant_slug: "jericho_trumpet"
+    original_key_letter: "C"
+    new_key_letter: "D"
+    letter_map:
+      - original_letter: "A"
+        new_letter: "B"
+        mechanic: "tiered_absolute_all_fruits"
+        substance: "kept"
+        pick_rate:
+          value: 31
+          provenance: "predicted"
+      - original_letter: "B"
+        new_letter: "A"
+        mechanic: "tiered_absolute_warrant_cure"
+        substance: "kept"
+        pick_rate:
+          value: 18
+          provenance: "predicted"
+      - original_letter: "C"
+        new_letter: "D"
+        mechanic: "correct_answer"
+        substance: "kept"
+        pick_rate:
+          value: 34
+          provenance: "predicted"
+      - original_letter: "D"
+        new_letter: "C"
+        mechanic: "backwards_voluntary_no_violation"
+        substance: "kept"
+        pick_rate:
+          value: 17
+          provenance: "predicted"
+    swap:
+      performed: false
+      replaced_original_letter: null
+      reason: null
+    divergence_summary:
+      original_stem_one_sentence: "Officers found a stolen watch in Victor's locker after Victor voluntarily disclosed its location during unwarned questioning."
+      variant_stem_one_sentence: "Officers found a gilded ram's-horn trumpet prop inside a hollow Esther-skit lectern after Paul voluntarily disclosed its location during unwarned questioning."
+      dimensions_changed:
+        - "asset_subject_matter"
+        - "incident_frame"
+        - "specific_facts"
+        - "fact_ordering"
+        - "cast_roles"
+        - "choice_ordering"
+        - "choice_phrasing"
+        - "setting_texture"
+      dimensions_skipped_with_reason:
+        - dimension: "numbers"
+          reason: "No load-bearing numbers existed in the original; adding numbers would create clutter."
+        - dimension: "call_wording"
+          reason: "Suppression-as-fruit wording is legally exact and preserves the call function."
+
+  source_stack:
+    - priority: 1
+      source: "pasted_question_row"
+      use: "rule, issue, call, choices, key, official explanations"
+    - priority: 2
+      source: "existing_c3_tags"
+      use: "none supplied"
+    - priority: 3
+      source: "C3 method and controlled vocabularies"
+      use: "molds, filters, method_class, verdicts, keys"
+    - priority: 4
+      source: "official explanation"
+      use: "lawyer_confirmation only"
+    - priority: 5
+      source: "United States v. Patane, 542 U.S. 630"
+      use: "lawyer_confirmation authority only"
+
+  student_access_contract:
+    allowed_lessons:
+      - "Lesson 1: TRUE and RESPONSIVE"
+      - "Lesson 2: CUT -> CLASH -> CALL"
+      - "Lesson 4: overclaim"
+      - "Lesson 5: backwards / flat misstatement"
+      - "Lesson 11: violation_vs_remedy"
+      - "Lesson 12: anchor deck"
+      - "Lesson 14: full workflow"
+    allowed_gold_keys:
+      - "GK-CRIM-MIRANDA-FRUIT-01"
+    allowed_silver_keys:
+      - "SK-CRIM-MIRANDA-REMEDY-LAYER-01"
+    forbidden_student_moves:
+      - "Do not use Patane citation as first-pass student reasoning."
+      - "Do not convert lawyer-only doctrine into fake structure."
+      - "Do not treat the valid warrant as the central cure issue."
+
+  stem_parse:
+    call_type: "suppression_remedy"
+    negative_stem_inversion: false
+    adjacent_call_trap: "Was there a Miranda violation, or did the warrant cure a constitutional violation?"
+    role: "judge"
+    asked_about: "physical evidence"
+    not_asked_about:
+      - "admissibility of Paul's statement"
+      - "whether officers behaved correctly"
+      - "whether the warrant cures every violation"
+
+  trigger_facts:
+    - fact: "Officers questioned Paul before Miranda warnings."
+      access_label: "stem"
+      function: "creates the warning violation premise"
+    - fact: "Paul's statement was voluntary."
+      access_label: "stem"
+      function: "activates the Gold Key distinction"
+    - fact: "The prosecution offers only the trumpet."
+      access_label: "stem"
+      function: "keeps the call on physical evidence, not testimony"
+    - fact: "Officers obtained a valid warrant and found the trumpet."
+      access_label: "stem"
+      function: "confirms physical evidence route without changing the Miranda remedy rule"
+
+  c3_routing:
+    subject_fit: "Criminal Procedure = constitutional trigger + remedy consequence."
+    governing_law_type: "RULE"
+    deciding_phase: "CALL"
+    method_class: "pure_anchor"
+    confidence: "PURE_ANCHOR"
+    case_study_verdict: "ANCHOR_SOLVE"
+    bank_validation_verdict: "PASS"
+    residual: "D"
+    agrees_with_official_key: true
+    is_fork: false
+    fork_type: null
+    difficulty: "hard"
+    tension_axis: "violation layer vs remedy layer; statement evidence vs physical evidence"
+
+  answer_array:
+    geometry: "2x2 remedy-result matrix"
+    structure:
+      suppress_yes:
+        A: "warrant-cure overclaim"
+        B: "all-fruits overclaim"
+      suppress_no:
+        C: "voluntary-erases-violation reversal"
+        D: "physical-fruit exception"
+    dominant_trap: "B"
+    silver_key_signal: "The call asks suppression of an object as fruit, not use of the unwarned statement."
+
+  choice_walkthroughs:
+    A:
+      filter_broken: "NOT_TRUE"
+      mold_code: "tiered_absolute"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: "violation_vs_remedy"
+      wrong_answer_architecture_tags:
+        - "overbroad_rule"
+        - "answer_to_different_question"
+        - "sounds_lawyerly"
+        - "bar_exam_bait"
+      method_class: "anchor_assisted"
+      student_label: "warrant-cure overclaim"
+      c3_signal: "The word 'any' turns a narrow remedy question into a global cure rule."
+      lawyer_confirmation: "The later warrant is not the central doctrine; physical evidence derived from a voluntary unwarned statement is not suppressed on Miranda grounds."
+    B:
+      filter_broken: "NOT_TRUE"
+      mold_code: "tiered_absolute"
+      mold_family: "EAR_OVERCLAIM"
+      bait_architecture_code: "violation_vs_remedy"
+      wrong_answer_architecture_tags:
+        - "overbroad_rule"
+        - "common_student_myth"
+        - "bar_exam_bait"
+      method_class: "anchor_assisted"
+      student_label: "all-fruits Miranda overclaim"
+      c3_signal: "The word 'all' overstates the remedy."
+      lawyer_confirmation: "Miranda does not generally require suppression of physical fruits of voluntary unwarned statements."
+    C:
+      filter_broken: "NOT_TRUE"
+      mold_code: "backwards"
+      mold_family: "EAR_FALSITY"
+      bait_architecture_code: "violation_vs_remedy"
+      wrong_answer_architecture_tags:
+        - "misstated_rule"
+        - "half_right_answer"
+        - "wrong_remedy"
+      method_class: "anchor_assisted"
+      student_label: "voluntariness-points-the-wrong-way"
+      c3_signal: "The answer uses the voluntariness fact to deny the warning violation instead of limiting the remedy."
+      lawyer_confirmation: "A voluntary unwarned custodial statement can still violate Miranda; voluntariness matters to remedy and derivative evidence."
+    D:
+      filter_broken: null
+      mold_code: null
+      mold_family: null
+      bait_architecture_code: null
+      wrong_answer_architecture_tags:
+        - "correct_answer"
+      method_class: "pure_anchor"
+      student_label: "Gold Key match"
+      c3_signal: "The answer matches the physical-evidence trigger: voluntary unwarned statement, physical object only."
+      lawyer_confirmation: "Under United States v. Patane, physical evidence resulting from voluntary unwarned statements need not be suppressed solely on Miranda grounds."
+
+  residual_answer:
+    choice: "D"
+    reason: "Only D is true and responsive to the suppression-of-physical-evidence call."
+
+  legal_leak_audit:
+    student_accessible_claims:
+      - claim: "B overclaims with 'all evidence.'"
+        access_source: "Lesson 4 + Gold Key"
+        status: "passes"
+      - claim: "A overclaims with 'any constitutional violation.'"
+        access_source: "Lesson 4 + Silver Key"
+        status: "passes"
+      - claim: "C points voluntariness at the wrong layer."
+        access_source: "Silver Key + Gold Key"
+        status: "passes"
+      - claim: "D is correct."
+        access_source: "Gold Key"
+        status: "pure_anchor"
+    lawyer_only_claims:
+      - "United States v. Patane authority."
+    drift_audit: "No student-facing explanation relies on case authority before the Gold Key."
+
+  gold_keys:
+    - id: "GK-CRIM-MIRANDA-FRUIT-01"
+      statement: "A voluntary unwarned statement is generally kept out of the prosecution's case-in-chief, but physical evidence discovered from that statement need not be suppressed."
+      type: "exception"
+      unlocks:
+        - "all-fruits Miranda overclaim"
+        - "voluntary/warnings remedy split"
+      trigger: "The prosecution offers a physical object found through a voluntary unwarned statement."
+      tested_choice: "B"
+      authority: "United States v. Patane, 542 U.S. 630 (2004)"
+      last_minute_review: true
+
+  silver_keys:
+    - id: "SK-CRIM-MIRANDA-REMEDY-LAYER-01"
+      statement: "Separate the warning violation from the suppression remedy: first ask what evidence the prosecution is offering."
+      type: "call_focus"
+      navigates: "violation_vs_remedy trap"
+      trigger: "The call says 'suppressed as fruit' and the prosecution offers only a physical object."
+      tested_choice: "C"
+      outline_code: "75080101"
+      last_minute_review: true
+
+  remediation:
+    card_id: "REM-CRIM-MIRANDA-FRUIT-01"
+    title: "Miranda Fruit Is Not Fourth-Amendment Fruit"
+    signal: "Unwarned but voluntary statement leads police to a physical object."
+    student_move: "Pin the offered evidence: statement or object."
+    tiny_rule: "Statement out; voluntary-statement physical fruit generally in."
+    trap: "Importing all-fruits suppression from Fourth Amendment doctrine."
+    confidence: "PURE_ANCHOR"
+
+  distilled_core_question: "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?"
+  review_truth: "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it."
+
+  case_study_output:
+    final_student_script: "Call is suppression of the trumpet, not use of Paul's statement. Voluntary unwarned statement plus physical object triggers the Gold Key. Cut all-fruits, cut warrant-cure, cut voluntary-erases-violation. Pick D."
+    residual: "D"
+
+  quality_control:
+    pass_conditions:
+      true_and_responsive_residual_equals_key: true
+      exactly_three_distractors: true
+      one_filter_per_distractor: true
+      no_key_disagreement: true
+      no_fork: true
+      no_uncontrolled_vocab_values: true
+    verdict: "PASS"
+
+  analytics_hooks:
+    trap_family:
+      - "Miranda physical fruits"
+      - "violation_vs_remedy"
+      - "all-fruits overclaim"
+    component_routing:
+      - "Ear: overclaim"
+      - "Ear: backwards"
+      - "Bait Architecture: violation_vs_remedy"
+      - "Gold Key: Miranda physical fruit"
+    drill_seed: "Statement out, object in."
+```
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Criminal Procedure suppression-remedy question. The source row tests whether a physical object found through a voluntary unwarned statement must be suppressed. The transformed item keeps that legal issue and moves the story into a private Christian-themed setting.
+
+## student_access_test
+
+A student can cut the overclaims and the wrong-layer answer only with the taught Miranda physical-fruit Gold Key. Without that anchor, the item is not cleanly structural.
+
+Verdict: `ANCHOR_SOLVE`.
+
+## question_data
+
+**Stem:** At Paul’s theft trial, the prosecutor plans to introduce a gilded ram’s-horn trumpet prop recovered from a private rehearsal studio. Officers got there because Paul voluntarily identified the hiding place during unwarned questioning. The prosecution offers only the trumpet.
+
+**Call:** Should the trumpet be suppressed as fruit of the Miranda violation?
+
+**Choices:** A warrant-cure yes; B all-fruits yes; C voluntary-no-violation no; D physical-fruit no.
+
+## distilled_core_question
+
+Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?
+
+## call_and_prediction
+
+The call is not “was there a Miranda violation?” The call is “what is the remedy for the physical object?”
+
+Prediction after Gold Key: no suppression of the trumpet.
+
+## trigger_facts
+
+| Fact                        | Why it matters                                      |
+| --------------------------- | --------------------------------------------------- |
+| No Miranda warnings         | Creates the warning-violation premise.              |
+| Statement voluntary         | Activates the physical-fruit exception.             |
+| Only the trumpet is offered | Keeps the call on nontestimonial physical evidence. |
+| Valid warrant used          | Sounds important, but is not the central rule.      |
+
+## governing_c3_lane
+
+Criminal Procedure lane: **violation trigger + remedy consequence**.
+
+C3 architecture: `violation_vs_remedy`.
+
+Student move: separate the bad procedure from the evidence consequence.
+
+## choice_by_choice_walkthrough
+
+### A. Yes, because a later warrant based on the statement cannot cure any constitutional violation.
+
+1. **Student-accessible C3 signal:** “Any constitutional violation” is too broad, and the answer shifts the call to a warrant-cure theory.
+2. **Student label:** warrant-cure overclaim.
+3. **True/responsive version:** “If the physical evidence had to be suppressed as derivative evidence, the warrant route would not independently save it.”
+4. **Lawyer confirmation:** The central rule is not warrant cure. Under Patane, physical evidence derived from a voluntary unwarned statement is not suppressed on Miranda grounds.
+
+### B. Yes, because all evidence derived from an unwarned statement is fruit of the poisonous tree.
+
+1. **Student-accessible C3 signal:** “All evidence” is the loud overclaim.
+2. **Student label:** all-fruits Miranda overclaim.
+3. **True/responsive version:** “The unwarned voluntary statement itself generally cannot be used in the prosecution’s case-in-chief.”
+4. **Lawyer confirmation:** Physical fruits of a voluntary unwarned statement are not automatically suppressed under Miranda.
+
+### C. No, because Paul’s voluntary statement means there was no Miranda violation at all.
+
+1. **Student-accessible C3 signal:** The answer uses the voluntariness fact at the wrong layer.
+2. **Student label:** voluntary-erases-violation reversal.
+3. **True/responsive version:** “The statement was voluntary, so the physical-fruit suppression rule is limited.”
+4. **Lawyer confirmation:** A voluntary custodial statement can still be unwarned in violation of Miranda; voluntariness affects derivative-evidence consequences.
+
+### D. No, because physical evidence derived from a voluntary unwarned statement need not be suppressed.
+
+1. **Student-accessible C3 signal:** This choice matches every trigger: voluntary statement, no warnings, physical object, statement not offered.
+2. **Student label:** Gold Key match.
+3. **True/responsive version:** This is the true and responsive version.
+4. **Lawyer confirmation:** Patane supports admitting nontestimonial physical evidence obtained from a voluntary unwarned statement.
+
+## residual_answer
+
+D survives. It is the only answer that stays on the physical-evidence remedy call and states the Miranda physical-fruits rule.
+
+## legal_leak_audit
+
+Student path uses only: overclaim, backwards, violation-vs-remedy, and the promoted Gold Key.
+
+Lawyer-only authority: Patane.
+
+Drift audit: No student-facing step says “Patane” or relies on case authority as the first-pass basis. The legal citation is quarantined to lawyer confirmation.
+
+## final_student_script
+
+“Call is suppression of the trumpet, not use of Paul’s words. The statement was unwarned but voluntary. The prosecution offers only the physical object. Gold Key: voluntary Miranda physical fruit generally comes in. A is warrant-cure bait. B says all fruits and overclaims. C uses voluntary to erase the violation. D matches. Pick D.”
+
+## remediation_card
+
+**REM-CRIM-MIRANDA-FRUIT-01 — Miranda Fruit Is Not Fourth-Amendment Fruit**
+
+Signal: unwarned but voluntary statement leads police to a physical object.
+Student move: ask what evidence is being offered.
+Tiny rule: statement out; voluntary-statement physical fruit generally in.
+Trap: importing Fourth Amendment all-fruits suppression.
+
+## Gold Key(s)
+
+**GK-CRIM-MIRANDA-FRUIT-01**
+A voluntary unwarned statement is generally kept out of the prosecution’s case-in-chief, but physical evidence discovered from that statement need not be suppressed. Trigger it when the prosecution offers the object, not the statement.
+
+## Silver Key(s)
+
+**SK-CRIM-MIRANDA-REMEDY-LAYER-01**
+Separate violation from remedy. When the call says “suppressed as fruit,” first identify the evidence being offered.
+
+## qa_checklist
+
+| Check                      | Result                  |
+| -------------------------- | ----------------------- |
+| Rule unchanged             | Yes                     |
+| Credited outcome unchanged | Yes                     |
+| Key moved and tracked      | Yes, original C → new D |
+| Three distractors          | Yes                     |
+| One filter per distractor  | Yes                     |
+| Gold Key present           | Yes                     |
+| Silver Key present         | Yes                     |
+| No new church-law issue    | Yes                     |
+| Recognition test passed    | Yes                     |
+
+## wrong_answer_recovery_paths
+
+**A:** Student over-focuses on the warrant. Recovery: ask what the prosecution offers and whether the physical-fruit rule suppresses it.
+
+**B:** Student imports broad poisonous-tree doctrine. Recovery: say the Gold Key: statement out, physical object in.
+
+**C:** Student treats voluntary as no violation. Recovery: separate warning violation from coercion and remedy.
+
+## outline_mastery_map
+
+Placement: `75080101` — Criminal Procedure, Fifth Amendment statements/confessions, voluntary statements.
+
+This item teaches: Miranda remedy layer for voluntary unwarned statements.
+
+Fills: difference between testimonial statement exclusion and physical-evidence exclusion.
+
+Adjacent to master: Fourth Amendment fruit doctrine, impeachment use of unwarned statements, coerced-statement doctrine.
+
+## crossover_intersection_map
+
+| Crossover          | Intersection                                                                      |
+| ------------------ | --------------------------------------------------------------------------------- |
+| Evidence           | Offered evidence is a physical object, not the statement.                         |
+| Constitutional Law | Fifth Amendment protects against compelled testimonial use.                       |
+| Criminal Procedure | Suppression remedy depends on type of violation and type of evidence.             |
+| Fourth Amendment   | Do not import full poisonous-tree logic into Miranda without checking the anchor. |
+
+## review_truth
+
+Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20127_jericho_trumpet",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "75080101",
+  "distilled_core_question": "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?",
+  "review_truth": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": "violation layer vs remedy layer; statement evidence vs physical evidence",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "threshold > merits",
+    "difficulty": "hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "SK-CRIM-MIRANDA-REMEDY-LAYER-01",
+        "explanation": "The answer turns a narrow physical-fruit remedy call into an absolute warrant-cure rule."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "GK-CRIM-MIRANDA-FRUIT-01",
+        "explanation": "The answer overclaims by saying all evidence derived from an unwarned statement is suppressed."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "violation_vs_remedy",
+        "card_ref": "SK-CRIM-MIRANDA-REMEDY-LAYER-01",
+        "explanation": "The answer points voluntariness at the wrong layer; voluntariness limits the remedy but does not erase the warning failure."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Student-facing path uses C3 overclaim, backwards, violation_vs_remedy, and Gold Key only; Patane authority quarantined to lawyer confirmation.",
+      "transformed_from": "20127",
+      "letter_map": "A->B; B->A; C->D; D->C"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-MIRANDA-FRUIT-01",
+        "statement": "A voluntary unwarned statement is generally kept out of the prosecution's case-in-chief, but physical evidence discovered from that statement need not be suppressed.",
+        "type": "exception",
+        "unlocks": "all-fruits Miranda trap",
+        "trigger": "prosecution offers only a physical object found through a voluntary unwarned statement",
+        "tested_choice": "B",
+        "authority": "United States v. Patane, 542 U.S. 630 (2004)",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-MIRANDA-REMEDY-LAYER-01",
+        "statement": "Separate the warning violation from the suppression remedy: first ask what evidence the prosecution is offering.",
+        "type": "call_focus",
+        "navigates": "violation_vs_remedy trap",
+        "trigger": "call asks whether a physical object is suppressed as fruit",
+        "tested_choice": "C",
+        "outline_code": "75080101",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "20127_jericho_trumpet",
+  "subject": "CRIMINAL",
+  "outline_code": "75080101",
+  "distilled_core_question": "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?",
+  "review_truth": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+  "tension": {
+    "axis": "statement evidence vs physical evidence",
+    "resolver": "voluntary unwarned statement physical-fruit Gold Key"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "The warrant language makes the answer sound precise because students expect taint to require a cure. The breaker is that the call is not about curing the warning failure; it is about whether voluntary-statement physical fruit is suppressed.",
+      "focus_group_pct": 18,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "tiered_absolute",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "The all-fruits rule borrows the familiar poisonous-tree image and feels protective of Miranda. The breaker is the Gold Key: voluntary unwarned testimonial statements are treated differently from physical evidence found through them.",
+      "focus_group_pct": 31,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "backwards",
+      "architecture": "violation_vs_remedy",
+      "why_attractive": "The word voluntary feels like it should erase the Miranda problem. The breaker is the Silver Key: voluntariness changes the remedy layer, not the existence of the warning failure.",
+      "focus_group_pct": 17,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-MIRANDA-FRUIT-01",
+    "title": "Miranda Fruit Is Not Fourth-Amendment Fruit",
+    "signal": "Unwarned but voluntary statement leads police to a physical object.",
+    "student_move": "Pin the evidence being offered: statement or object.",
+    "tiny_rule": "Statement out; voluntary-statement physical fruit generally in.",
+    "trap": "Importing all-fruits suppression from Fourth Amendment doctrine.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": [
+    "Miranda all-fruits overclaim",
+    "warrant-cure distraction",
+    "voluntary-erases-violation reversal",
+    "failure to identify offered evidence"
+  ]
+}
+```
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20127_jericho_trumpet",
+  "subject": "CRIMINAL",
+  "outline_code": "75080101",
+  "distilled_core_question": "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?",
+  "review_truth": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student sees a valid warrant and makes the question about whether later process cured an earlier violation.",
+      "skipped_move": "Pin the offered evidence before evaluating remedy.",
+      "recovery_step": "Ask: is the prosecution offering the words or the object?"
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student imports the familiar poisonous-tree rule and treats Miranda like a Fourth Amendment search violation.",
+      "skipped_move": "Apply the Miranda physical-fruits Gold Key.",
+      "recovery_step": "Say: voluntary unwarned statement physical fruit generally comes in."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student treats voluntary as a total cure for the warning omission.",
+      "skipped_move": "Separate voluntariness from warnings and remedy.",
+      "recovery_step": "Say: voluntary affects derivative evidence; it does not erase the warning problem."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "anchor_recall",
+      "target_skill": "Miranda physical-fruit distinction",
+      "prompt": "Police get a voluntary unwarned statement naming a weapon location and offer only the weapon. Suppress?",
+      "answer": "No, not solely on Miranda grounds."
+    },
+    {
+      "drill_type": "bait_architecture",
+      "target_skill": "violation_vs_remedy",
+      "prompt": "The call asks whether evidence is suppressed after a violation. What must you identify first?",
+      "answer": "The evidence being offered and the remedy rule."
+    },
+    {
+      "drill_type": "overclaim_cut",
+      "target_skill": "tiered_absolute",
+      "prompt": "Classify: all evidence derived from an unwarned statement is suppressed.",
+      "answer": "NOT_TRUE; tiered_absolute."
+    },
+    {
+      "drill_type": "backwards_cut",
+      "target_skill": "voluntary does not erase Miranda",
+      "prompt": "Classify: voluntary means there was no Miranda violation.",
+      "answer": "NOT_TRUE; backwards."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "Miranda",
+      "physical_fruits",
+      "suppression",
+      "voluntary_statement",
+      "unwarned_statement"
+    ],
+    "misconception_tags": [
+      "all_fruits_suppressed",
+      "warrant_cures_violation",
+      "voluntary_means_no_violation",
+      "statement_and_object_same_remedy"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE/RESPONSIVE",
+    "Lesson 4 tiered_absolute",
+    "Lesson 5 backwards",
+    "Lesson 11 violation_vs_remedy",
+    "Lesson 12 anchor deck",
+    "Gold Key GK-CRIM-MIRANDA-FRUIT-01",
+    "Silver Key SK-CRIM-MIRANDA-REMEDY-LAYER-01"
+  ],
+  "crossovers": [
+    {
+      "subject": "EVIDENCE",
+      "intersection": "The offered proof is a physical object, not a testimonial statement."
+    },
+    {
+      "subject": "CONSTITUTIONAL_LAW",
+      "intersection": "The Self-Incrimination Clause is testimonial-focused."
+    },
+    {
+      "subject": "CRIMINAL",
+      "intersection": "Suppression depends on violation type and offered evidence."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-MIRANDA-FRUIT-01",
+      "statement": "A voluntary unwarned statement is generally kept out of the prosecution's case-in-chief, but physical evidence discovered from that statement need not be suppressed.",
+      "type": "exception",
+      "unlocks": "all-fruits Miranda trap",
+      "trigger": "prosecution offers only a physical object found through a voluntary unwarned statement",
+      "tested_choice": "B",
+      "authority": "United States v. Patane, 542 U.S. 630 (2004)",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-MIRANDA-REMEDY-LAYER-01",
+      "statement": "Separate the warning violation from the suppression remedy: first ask what evidence the prosecution is offering.",
+      "type": "call_focus",
+      "navigates": "violation_vs_remedy trap",
+      "trigger": "call asks whether a physical object is suppressed as fruit",
+      "tested_choice": "C",
+      "outline_code": "75080101",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "75080101",
+    "this_item_teaches": "Miranda remedy distinction for voluntary unwarned statements that lead to physical evidence.",
+    "fills": [
+      "statement evidence vs physical evidence",
+      "warning violation vs suppression consequence",
+      "Miranda fruit vs Fourth Amendment fruit"
+    ],
+    "adjacent_to_master": [
+      "coerced statements",
+      "impeachment use of unwarned statements",
+      "Fourth Amendment exclusionary rule",
+      "valid warrant and independent source concepts"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/supremecourt/text/542/630?utm_source=chatgpt.com "UNITED STATES v. PATANE | Supreme Court | US Law | LII / Legal Information Institute"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20127_jericho_trumpet",
+  "subject": "CRIMINAL",
+  "credited_answer": "D",
+  "outline_code": "75080101",
+  "distilled_core_question": "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?",
+  "review_truth": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "D",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "PURE_ANCHOR",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20127; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20127_jericho_trumpet",
+  "subject": "CRIMINAL",
+  "outline_code": "75080101",
+  "distilled_core_question": "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?",
+  "review_truth": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20127",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+    "trap": "See preserved traps when present.",
+    "confidence": "PURE_ANCHOR"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20127_jericho_trumpet",
+  "subject": "CRIMINAL",
+  "outline_code": "75080101",
+  "distilled_core_question": "Police use a voluntary unwarned statement to find physical evidence and offer only the physical evidence at trial. Suppress?",
+  "review_truth": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "75080101",
+    "this_item_teaches": "Miranda can suppress the voluntary unwarned statement, but not the physical object found because of it.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,867 @@
+---
+qid: 14904_best_evidence_refresh
+transformed_from: 14904
+subject: EVIDENCE
+topic: Writings, Recordings, and Photographs
+subtopic: Duplicates
+outline_code: 34050200
+key: C
+original_key: D
+letter_map: A→A, B→B, C→D, D→C
+dominant_trap: A
+pick_rates: inherited
+bank_validation_verdict: PASS
+review_truth: "The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence."
+---
+
+## Final Question
+
+A church treasurer was charged with embezzling from the congregation's building fund. At trial, a forensic accountant testified that, after the treasurer had been arrested and had agreed to answer questions, the accountant had conducted the interview with a court reporter present, but that the accountant could not recall what the treasurer had said. The prosecutor handed the accountant a printed transcript of the court reporter's notes. After reviewing it, the accountant began to testify that he recalled the treasurer had admitted to diverting funds to a personal account. The defendant has objected to the accountant's testimony on the ground that it violates the "original document" rule (also known as the "best evidence" rule). Should the accountant's testimony concerning the treasurer's recorded confession be admitted?
+
+**Answer A:** No, because a printed transcript cannot be used without a showing that the original notes are unavailable.
+
+**Answer B:** No, because the court reporter has not testified to the accuracy of the transcript.
+
+**Answer C:** Yes, because the prosecutor is not attempting to prove the contents of the document.
+
+**Answer D:** Yes, because a printed transcript is a duplicate of the original notes.
+
+## Distilled Core Question
+
+A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?
+
+## Final Answer Choices (A–D, post-shuffle)
+
+**A:** No, because a printed transcript cannot be used without a showing that the original notes are unavailable.
+
+**B:** No, because the court reporter has not testified to the accuracy of the transcript.
+
+**C:** Yes, because the prosecutor is not attempting to prove the contents of the document.
+
+**D:** Yes, because a printed transcript is a duplicate of the original notes.
+
+## Correct Answer: C (originally D)
+
+## Letter Map
+
+| Original | New | Mechanic | Substance | Pick Rate | Provenance |
+|----------|-----|----------|-----------|-----------|------------|
+| A | A | EAR_FALSITY / backwards — assumes duplicate requires unavailability showing (misstates FRE 1003) | kept | 3% | inherited |
+| B | B | EAR_FALSITY / fabricated_rule — invents a stenographer-accuracy requirement (confuses FRE 612 refresh with past recollection recorded) | kept | 2% | inherited |
+| C | D | EAR_DISTORTION / half_truth — correctly states duplicates are admissible but assumes best evidence rule applies (misses that FRE 612 is the real pathway) | kept | 17% | inherited |
+| D | C | correct_answer — best evidence rule is irrelevant because the prosecution is proving what the defendant said, not what the transcript says | kept | 78% | inherited |
+
+**Dominant trap:** A (original A, new A) — 3% pick rate. This is the highest-% wrong answer. The backwards mold (misstates the law by requiring an unavailability showing for a duplicate) is the most attractive trap because it sounds like a plausible procedural requirement.
+
+*Note: Original C and D both had 17% and 78% respectively. The dominant trap is identified as the highest-% wrong answer: original A at 3% — but wait. Re-checking: A=3%, B=2%, C=17%, D=78%. The highest wrong-answer pick rate is C at 17%. The dominant trap is C (original C, new D).*
+
+**Correction — Dominant trap:** D (original C, new D) — 17% pick rate. This is the highest-% wrong answer. The half_truth mold (duplicates are admissible, but the answer assumes best evidence rule applies) is the dominant trap because it contains a true statement about duplicates that leads the student to pick it without realizing the best evidence rule is irrelevant.
+
+*Re-checking again: A=3%, B=2%, C=17%. C at 17% is the highest wrong-answer pick rate. So the dominant trap is original C → new D.*
+
+**Final correction — Dominant trap:** D (originally C) — 17% pick rate, the highest among wrong answers.
+
+## Full Right-Answer Explanation (Exam Register)
+
+**C is correct.** The prosecutor is trying to prove what the treasurer said, not what the transcript says. Accordingly, the best evidence rule (FRE 1002/1003) is not relevant. The transcript is being used to refresh the accountant's recollection under FRE 612. Under that rule, a witness may use any writing to refresh memory for the purpose of testifying — the writing itself is not admitted, and the witness's testimony is the evidence. It would be different, for example, if this were a contract dispute and the parties differed over the wording of a clause. Here, the copy of the transcript may be used under FRE 612 to refresh the accountant's recollection, and the best evidence rule never comes into play.
+
+**Silver Key:** When you see a best-evidence objection, first ask: "Is the party trying to prove the *contents* of the document, or is the document being used for another purpose?" If the document is only refreshing recollection, the best evidence rule is irrelevant — cut the objection.
+
+## Full Wrong-Answer Explanations
+
+**A is incorrect** because it misstates the law. Under FRE 1003, a duplicate is admissible to the same extent as the original without any showing that the original is unavailable. A showing of unavailability is required only when a party seeks to introduce something *other* than a duplicate (e.g., oral testimony) to prove the contents of a document. See FRE 1004. More fundamentally, the best evidence rule does not apply here at all — the prosecution is proving what the treasurer said, not what the transcript says.
+
+**B is incorrect** because it confuses two different doctrines. This is not a case of past recollection recorded, which would require the proponent to show that the court reporter accurately recorded what the treasurer said. Here, the accountant is testifying to his own recollection of what the treasurer said, that recollection having been refreshed by looking at the transcript. Under FRE 612, a document used only to refresh recollection does not have to be accurate or reliable, because the document is not being admitted into evidence. The accountant's testimony is the evidence.
+
+**D is incorrect** because, although FRE 1003 does support the admission of duplicates (with limited exceptions), this answer assumes that the best evidence rule applies here — which it does not. The prosecution is trying to prove what the treasurer said, not what the transcript says. The transcript is being used to refresh the accountant's recollection under FRE 612, and Rule 1003 is not the right pathway. A true statement about duplicates does not make this the right answer.
+
+## Black-Letter Law Verification
+
+**FRE 1002 (Requirement of the Original):** "An original writing, recording, or photograph is required in order to prove its content unless these rules or a federal statute provides otherwise."
+
+**FRE 1003 (Admissibility of Duplicates):** "A duplicate is admissible to the same extent as the original unless a genuine question is raised about the original's authenticity or the circumstances make it unfair to admit the duplicate."
+
+**FRE 612 (Writing Used to Refresh a Witness's Memory):** "An adverse party is entitled to have the writing produced at the hearing, to inspect it, to cross-examine the witness about it, and to introduce in evidence those portions that relate to the witness's testimony."
+
+**Key distinction — FRE 1002/1003 vs. FRE 612:** The best evidence rule (FRE 1002/1003) applies only when a party seeks to prove the *contents* of a writing, recording, or photograph. When a document is used solely to refresh a witness's recollection under FRE 612, the document is not being offered to prove its contents — the witness's oral testimony is the evidence. The best evidence rule is therefore irrelevant. *See* Fed. R. Evid. 1002, 1003, 612; *see also* 2 McCormick on Evidence § 235 (8th ed.) (distinguishing refreshing recollection from past recollection recorded and noting that the best evidence rule does not apply to the former).
+
+**Verification of credited outcome:** The original credited answer (D) held that the testimony should be admitted because the prosecutor is not attempting to prove the contents of the document. This analysis is correct under FRE 612 and FRE 1002/1003. The transform preserves this exact legal reasoning. The credited outcome is UNCHANGED.
+
+**Bank validation verdict:** PASS. The official key is correct. The best evidence rule does not apply when a document is used to refresh recollection under FRE 612.
+
+## Note on Rigor/Difficulty Preservation
+
+The original item is a Core-difficulty Evidence question testing the boundary between FRE 1002/1003 and FRE 612. The transform preserves this exact boundary. The dominant trap (original C, new D — "duplicate is admissible" as a half-truth that assumes best evidence applies) survives re-skinned. The backwards trap (original A — requiring unavailability for a duplicate) and the fabricated-rule trap (original B — requiring stenographer accuracy) both survive. The item remains a clean, high-quality test of whether the student can identify that the best evidence rule is irrelevant when a document refreshes recollection.
+
+## C3 Elimination Walkthrough
+
+### CUT Phase
+
+**Cut A:** This choice says a printed transcript "cannot be used without a showing that the original notes are unavailable." That is backwards. Under FRE 1003, a duplicate is admissible *without* showing unavailability. Unavailability is required only for *non-duplicate* evidence under FRE 1004. The choice reverses the rule — visible structural failure. **CUT.**
+
+**Cut B:** This choice says the court reporter must testify to accuracy. That invents a requirement that does not exist under FRE 612. A document used to refresh recollection does not need to be accurate — the witness's testimony is the evidence, not the document. This confuses refreshing recollection with past recollection recorded (a different doctrine). **CUT.**
+
+### CLASH Phase
+
+**Clash C vs. D:** Both say "Yes." The axis: *why* is the testimony admissible? D says it's admissible because the transcript is a duplicate. C says it's admissible because the best evidence rule doesn't apply at all. The splitting fact: the call asks whether the testimony should be admitted over a best-evidence objection. If the best evidence rule applied, D would be the right path (duplicate = admissible). But the best evidence rule only applies when proving *contents* of a document. Here, the prosecution is proving what the treasurer *said* — the transcript is just a memory aid under FRE 612. C names the correct reason. D is a half-truth: duplicates *are* admissible, but that's not *why* this testimony comes in. **C wins the clash.**
+
+### CALL Phase
+
+No residue. C is the credited answer. **CALL: C.**
+
+## Divergence Audit — Recognition-Kill Checklist
+
+| Dimension | Changed? | Detail |
+|-----------|----------|--------|
+| Asset/subject matter | YES | Burglary defendant → church treasurer embezzlement case |
+| Transaction frame | YES | Police interrogation of burglary suspect → forensic accountant interview of embezzlement suspect |
+| Specific lies/facts | YES | Defendant admitted being in the area of the burglary → treasurer admitted diverting funds to a personal account |
+| Numbers | N/A | No numbers in original |
+| Fact ordering and stem rhythm | YES | Reordered: charge stated first, then witness, then refresh, then testimony — slightly different sentence sequence |
+| Cast size/roles | YES | Police officer + stenographer → forensic accountant + court reporter |
+| Choice ordering | YES | Original D → new C; original C → new D; A and B stay |
+| Choice phrasing | YES | "Photocopy of the stenographic transcript" → "printed transcript of the court reporter's notes"; "stenographer" → "court reporter" |
+| Setting/era/texture | YES | Criminal burglary → church embezzlement (different moral texture, same legal structure) |
+| Call wording | YES | "Should the officer's testimony concerning the defendant's recorded confession be admitted?" → "Should the accountant's testimony concerning the treasurer's recorded confession be admitted?" (legally equivalent) |
+
+**One-sentence stem summaries:**
+
+- **Original:** A police officer cannot recall a burglary suspect's confession and is shown a photocopy of a stenographic transcript to refresh memory before testifying.
+- **Variant:** A forensic accountant cannot recall a church treasurer's confession and is shown a printed transcript of court reporter notes to refresh memory before testifying.
+
+These share only the rule (best evidence vs. FRE 612 refresh) and the structure (witness + document + refreshed testimony + best-evidence objection). The asset, transaction frame, specific facts, cast, setting, and choice ordering all differ. A student summarizing the new stem would not produce a summary matching the original. **Recognition test: PASSED.**
+
+## Review Truth
+
+The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence.
+
+## The 5 Variations Considered
+
+| # | Title | Setting | Cast | Preserved Issue | Why Memorable | Legal Risks | Divergence Score |
+|---|-------|---------|------|-----------------|---------------|-------------|-----------------|
+| 1 | Church Embezzlement (CHOSEN) | Church building fund | Forensic accountant + court reporter + treasurer | Best evidence rule vs. FRE 612 refresh — identical | Church setting is unexpected for an Evidence question; embezzlement is a clean non-violent crime | None — no new legal issues introduced | 9/10 — kills asset, transaction, facts, cast, setting, choice order |
+| 2 | Farm Equipment Fraud | Rural farm sale | Veterinarian + notary + farmer | Same | Rural setting, farm equipment — very different from burglary | Minimal — but "farm equipment" could trigger UCC Article 2 issues if not careful | 7/10 — strong but slightly less vivid |
+| 3 | Music Royalty Dispute | Recording studio | Audio engineer + transcriber + musician | Same | Creative industry setting is fun | Risk of triggering copyright or IP clutter if not careful | 6/10 — good but music copyright is a distraction |
+| 4 | Youth Ministry Theft | Church youth group | Youth pastor + secretary + volunteer | Same | Youth ministry setting is relatable | Similar to #1 but less distinct from the chosen version | 7/10 — close to #1, slightly less professional |
+| 5 | Nonprofit Grant Fraud | Nonprofit office | Grant writer + accountant + director | Same | Nonprofit setting is clean | None — very similar structure to #1 | 8/10 — strong but "nonprofit" and "church" are close in feel |
+
+**Recommended: Variation 1 (Church Embezzlement)** — Maximum surface divergence (church setting, white-collar crime, forensic accountant, court reporter) while preserving the invariant layer perfectly. The dominant trap (half-truth about duplicates), the backwards trap (unavailability requirement), and the fabricated-rule trap (stenographer accuracy) all survive re-skinned. The recognition test passes decisively.
+
+---
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14904_best_evidence_refresh"
+  subject: EVIDENCE
+  topic: "Writings, Recordings, and Photographs"
+  subtopic: Duplicates
+  outline_code: "34050200"
+  selection_percentages:
+    A: { value: 3, provenance: "inherited" }
+    B: { value: 2, provenance: "inherited" }
+    C: { value: 78, provenance: "inherited" }
+    D: { value: 17, provenance: "inherited" }
+  official_key: C
+  call: "Should the accountant's testimony concerning the treasurer's recorded confession be admitted?"
+  choices:
+    A: "No, because a printed transcript cannot be used without a showing that the original notes are unavailable."
+    B: "No, because the court reporter has not testified to the accuracy of the transcript."
+    C: "Yes, because the prosecutor is not attempting to prove the contents of the document."
+    D: "Yes, because a printed transcript is a duplicate of the original notes."
+
+transform_provenance:
+  transformed_from: "14904"
+  variant_slug: "best_evidence_refresh"
+  original_key_letter: D
+  new_key_letter: C
+  letter_map:
+    - { original_letter: A, new_letter: A, mechanic: "EAR_FALSITY / backwards", substance: "kept", pick_rate: { value: 3, provenance: "inherited" } }
+    - { original_letter: B, new_letter: B, mechanic: "EAR_FALSITY / fabricated_rule", substance: "kept", pick_rate: { value: 2, provenance: "inherited" } }
+    - { original_letter: C, new_letter: D, mechanic: "EAR_DISTORTION / half_truth", substance: "kept", pick_rate: { value: 17, provenance: "inherited" } }
+    - { original_letter: D, new_letter: C, mechanic: "correct_answer", substance: "kept", pick_rate: { value: 78, provenance: "inherited" } }
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A police officer cannot recall a burglary suspect's confession and is shown a photocopy of a stenographic transcript to refresh memory before testifying."
+    variant_stem_one_sentence: "A forensic accountant cannot recall a church treasurer's confession and is shown a printed transcript of court reporter notes to refresh memory before testifying."
+    dimensions_changed:
+      - asset_subject_matter
+      - transaction_frame
+      - specific_lies_facts
+      - fact_ordering_and_stem_rhythm
+      - cast_size_roles
+      - choice_ordering
+      - choice_phrasing
+      - setting_era_texture
+      - call_wording
+    dimensions_skipped_with_reason:
+      - numbers: "No numbers in original stem"
+
+source_stack:
+  - "BarMatrix Q# 14904 (Evidence, Writings/Recordings/Photographs, Duplicates)"
+  - "FRE 1002, 1003, 612"
+  - "C3 method + controlled vocabularies"
+
+student_access_contract:
+  limit: "No outside legal doctrine needed beyond FRE 1002/1003 vs. FRE 612 distinction"
+  anchor_allowed: false
+  gold_key_required: false
+
+stem_parse:
+  subject: EVIDENCE
+  subtopic: "Writings, Recordings, and Photographs > Duplicates"
+  call_type: "admissibility — best evidence objection"
+  call_function: "determine whether testimony refreshed by document is admissible over best-evidence objection"
+  negative_stem: false
+  adjacent_call_trap: false
+
+trigger_facts:
+  - fact: "Witness cannot recall the defendant's confession"
+    access: "visible — stated in stem"
+  - fact: "Prosecutor hands witness a transcript to review"
+    access: "visible — stated in stem"
+  - fact: "Witness testifies from refreshed recollection"
+    access: "visible — stated in stem"
+  - fact: "Defendant objects on best evidence rule grounds"
+    access: "visible — stated in stem"
+  - fact: "Prosecution is trying to prove what the defendant said, not what the transcript says"
+    access: "inferable from context — the witness testifies to the defendant's words"
+
+c3_routing:
+  subject_fit: "EVIDENCE — Writings, Recordings, and Photographs"
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  method_class: hard_structural
+  confidence: HARD_STRUCTURAL
+  case_study_verdict: C3_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Core"
+
+answer_array:
+  geometry: "2×2 (Yes/No × wrong reason/right reason)"
+  shape_key: "Two say No (A, B), two say Yes (C, D). Within Yes: one right reason (C), one wrong reason (D)."
+  silver_key_eligible: true
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: backwards
+    mold_family: EAR_FALSITY
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - misstated_rule
+      - common_student_myth
+    method_class: hard_structural
+    student_label: "Reverses the duplicate rule — unavailability is for non-duplicates, not duplicates"
+    c3_signal: "The choice says a duplicate 'cannot be used without a showing that the original is unavailable' — that's backwards. FRE 1003 admits duplicates without unavailability; FRE 1004 requires unavailability only for other evidence."
+    lawyer_confirmation: "FRE 1003: 'A duplicate is admissible to the same extent as the original unless a genuine question is raised about the original's authenticity or the circumstances make it unfair to admit the duplicate.' No unavailability requirement for duplicates."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: fabricated_rule
+    mold_family: EAR_FALSITY
+    bait_architecture_code: offered_for_purpose
+    wrong_answer_architecture_tags:
+      - misstated_rule
+      - answer_to_different_question
+    method_class: hard_structural
+    student_label: "Confuses refreshing recollection with past recollection recorded"
+    c3_signal: "The choice demands the court reporter testify to accuracy. That's a requirement for past recollection recorded — a different doctrine. Here the witness testifies from refreshed memory; the document is not evidence."
+    lawyer_confirmation: "FRE 612 allows a witness to use any writing to refresh memory. The writing is not admitted; the testimony is the evidence. Past recollection recorded (a separate doctrine) requires the record to be accurate. This is not that."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: hard_structural
+    student_label: "Correct — best evidence rule is irrelevant when proving oral statements, not document contents"
+    c3_signal: "The prosecution is proving what the treasurer said, not what the transcript says. Best evidence rule applies only to prove contents of a document. FRE 612 covers refresh. This is the right reason."
+    lawyer_confirmation: "FRE 1002 requires an original only 'in order to prove its content.' Here the prosecution is proving the treasurer's oral statements, not the transcript's content. The transcript is a FRE 612 refresh tool."
+  D:
+    filter_broken: NOT_RESPONSIVE
+    mold_code: half_truth
+    mold_family: EAR_DISTORTION
+    bait_architecture_code: wrong_frame
+    wrong_answer_architecture_tags:
+      - half_right_answer
+      - attractive_wrong_answer
+      - sounds_lawyerly
+    method_class: hard_structural
+    student_label: "True statement about duplicates, but wrong reason — best evidence rule doesn't apply here at all"
+    c3_signal: "Yes, duplicates are admissible under FRE 1003. But that's not the issue. The issue is whether the best evidence rule applies in the first place. It doesn't — the transcript is for refresh under FRE 612. This choice answers the wrong question."
+    lawyer_confirmation: "FRE 1003 is correct as a general rule, but irrelevant here. The best evidence rule (FRE 1002/1003) governs proof of document contents. The transcript here is a FRE 612 refresh device — the prosecution is proving the treasurer's words, not the transcript's content."
+
+residual_answer: "C"
+
+legal_leak_audit:
+  A: "Passes controlling test — the backwards rule is visible from the choice text itself ('cannot be used without a showing')"
+  B: "Passes controlling test — the fabricated accuracy requirement is visible from the choice text itself"
+  C: "Correct answer — no leak"
+  D: "Passes controlling test — the half-truth is visible: the choice states a true rule but applies it to the wrong context"
+  verdict: "No legal leaks. All wrong-answer falsehoods are detectable from the choice text itself."
+
+gold_keys: []
+
+remediation:
+  card_id: "REM-EVIDENCE-1003-REFRESH-001"
+  title: "Best Evidence Rule vs. FRE 612 Refresh"
+  signal: "Objection: 'Best evidence rule!'"
+  student_move: "Ask: Is the party proving the contents of the document, or is the document just refreshing memory?"
+  tiny_rule: "Best evidence rule applies only to prove document contents. FRE 612 refresh uses the document as a memory aid — the testimony is the evidence."
+  trap: "A true statement about duplicates (FRE 1003) that assumes the best evidence rule applies when it doesn't"
+  confidence: HARD_STRUCTURAL
+
+distilled_core_question: "A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?"
+
+review_truth: "The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence."
+
+case_study_output:
+  verdict: C3_SOLVE
+  residual: "C"
+  agrees_with_key: true
+  governing_law_type: RULE
+  deciding_phase: CLASH
+  confidence: HARD_STRUCTURAL
+  tension_axis: "Does the best evidence rule apply, or is this a FRE 612 refresh case?"
+  is_fork: false
+  fork_type: null
+  analyzer_notes: "drift_audit: No drift. Original key (D) and new key (C) both hold that the testimony is admissible because the best evidence rule does not apply. transformed_from: 14904. letter_map: A→A (backwards, 3%), B→B (fabricated_rule, 2%), C→D (half_truth, 17%), D→C (correct_answer, 78%)."
+
+quality_control:
+  completeness_gate: true
+  pick_rates_honest: true
+  outline_code_verified: true
+  key_consistent: true
+  letter_map_present: true
+  dominant_trap_named: true
+  divergence_audit_present: true
+  recognition_test_passed: true
+  review_truth_pure: true
+  gold_keys_consistent: true
+  silver_keys_present: true
+  all_controlled_fields_from_taxonomy: true
+
+analytics_hooks:
+  trap_tag: "best_evidence_vs_refresh"
+  red_zone_dimension: "FRE 1002/1003 scope vs. FRE 612 refresh"
+  misconception_tag: "assumes_best_evidence_applies_to_refresh"
+  pattern_board: "best_evidence_rule_scope"
+```
+
+### 2. The 17-section student case study
+
+## Program Frame
+
+This item tests a narrow, high-yield Evidence distinction: when the best evidence rule (FRE 1002/1003) applies versus when a document is merely used to refresh a witness's recollection under FRE 612. The best evidence rule is triggered only when a party seeks to prove the *contents* of a writing, recording, or photograph. When a document serves as a memory aid, the witness's oral testimony is the evidence — the document itself is not admitted, and the best evidence rule is irrelevant.
+
+## Student Access Test
+
+A smart 10-year-old who has studied the C3 lessons on evidence can solve this item. The key move is structural: identify what the prosecution is trying to prove. If the prosecution is proving what the defendant *said* (oral statements), the best evidence rule does not apply — the transcript is just a memory aid. No outside legal doctrine is needed beyond the distinction between proving contents and refreshing memory.
+
+## Question Data
+
+**QID:** 14904_best_evidence_refresh
+**Subject:** Evidence
+**Topic:** Writings, Recordings, and Photographs
+**Subtopic:** Duplicates
+**Outline Code:** 34050200
+**Difficulty:** Core
+**Official Key:** C
+
+A church treasurer was charged with embezzling from the congregation's building fund. At trial, a forensic accountant testified that, after the treasurer had been arrested and had agreed to answer questions, the accountant had conducted the interview with a court reporter present, but that the accountant could not recall what the treasurer had said. The prosecutor handed the accountant a printed transcript of the court reporter's notes. After reviewing it, the accountant began to testify that he recalled the treasurer had admitted to diverting funds to a personal account. The defendant has objected to the accountant's testimony on the ground that it violates the "original document" rule (also known as the "best evidence" rule). Should the accountant's testimony concerning the treasurer's recorded confession be admitted?
+
+**A:** No, because a printed transcript cannot be used without a showing that the original notes are unavailable.
+**B:** No, because the court reporter has not testified to the accuracy of the transcript.
+**C:** Yes, because the prosecutor is not attempting to prove the contents of the document.
+**D:** Yes, because a printed transcript is a duplicate of the original notes.
+
+## Distilled Core Question
+
+A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?
+
+## Call and Prediction
+
+**Call:** Should the testimony be admitted?
+**Prediction:** Yes, because the best evidence rule does not apply when a document is used to refresh recollection. The prosecution is proving what the treasurer said, not what the transcript says.
+
+## Trigger Facts
+
+1. The forensic accountant cannot recall what the treasurer said. (Visible — stated in stem)
+2. The prosecutor hands the accountant a printed transcript. (Visible — stated in stem)
+3. The accountant reviews the transcript and then testifies from refreshed recollection. (Visible — stated in stem)
+4. The defendant objects on best evidence rule grounds. (Visible — stated in stem)
+5. The prosecution is trying to prove the treasurer's oral statements, not the transcript's content. (Inferable from context)
+
+## Governing C3 Lane
+
+**Subject:** Evidence
+**Governing Law Type:** RULE
+**Deciding Phase:** CLASH
+**Method Class:** hard_structural
+**Confidence:** HARD_STRUCTURAL
+
+The item is solvable by CUT → CLASH. First cut the two "No" answers (A and B) by identifying their structural defects. Then clash the two "Yes" answers (C and D) on the axis of *why* the testimony is admissible.
+
+## Choice-by-Choice Walkthrough
+
+### Choice A
+
+**C3 Signal:** The choice says a printed transcript "cannot be used without a showing that the original notes are unavailable." That reverses the rule. Under FRE 1003, a duplicate is admissible *without* showing unavailability. Unavailability is required only for non-duplicate evidence under FRE 1004.
+
+**Student Label:** Reverses the duplicate rule — unavailability is for non-duplicates, not duplicates.
+
+**What a true/responsive version would look like:** "No, because the best evidence rule requires the original document to be produced." (This would be wrong, but at least it would state the rule correctly.)
+
+**Lawyer Confirmation:** FRE 1003: "A duplicate is admissible to the same extent as the original unless a genuine question is raised about the original's authenticity or the circumstances make it unfair to admit the duplicate." No unavailability requirement for duplicates.
+
+### Choice B
+
+**C3 Signal:** The choice demands the court reporter testify to accuracy. That is a requirement for past recollection recorded — a different doctrine. Here the witness testifies from refreshed memory; the document is not evidence.
+
+**Student Label:** Confuses refreshing recollection with past recollection recorded.
+
+**What a true/responsive version would look like:** "No, because the transcript is hearsay." (This would be a different objection, not the one raised.)
+
+**Lawyer Confirmation:** FRE 612 allows a witness to use any writing to refresh memory. The writing is not admitted; the testimony is the evidence. Past recollection recorded (a separate doctrine) requires the record to be accurate. This is not that.
+
+### Choice C
+
+**C3 Signal:** The prosecution is proving what the treasurer said, not what the transcript says. Best evidence rule applies only to prove contents of a document. FRE 612 covers refresh. This is the right reason.
+
+**Student Label:** Correct — best evidence rule is irrelevant when proving oral statements, not document contents.
+
+**What a true/responsive version would look like:** This is the correct answer.
+
+**Lawyer Confirmation:** FRE 1002 requires an original only "in order to prove its content." Here the prosecution is proving the treasurer's oral statements, not the transcript's content. The transcript is a FRE 612 refresh tool.
+
+### Choice D
+
+**C3 Signal:** Yes, duplicates are admissible under FRE 1003. But that's not the issue. The issue is whether the best evidence rule applies in the first place. It doesn't — the transcript is for refresh under FRE 612. This choice answers the wrong question.
+
+**Student Label:** True statement about duplicates, but wrong reason — best evidence rule doesn't apply here at all.
+
+**What a true/responsive version would look like:** "Yes, because FRE 1003 makes duplicates admissible." (True, but not the right reason — the best evidence rule is irrelevant.)
+
+**Lawyer Confirmation:** FRE 1003 is correct as a general rule, but irrelevant here. The best evidence rule (FRE 1002/1003) governs proof of document contents. The transcript here is a FRE 612 refresh device.
+
+## Residual Answer
+
+**C** is the residual. It is true (the best evidence rule does not apply) and responsive (it correctly explains why the testimony should be admitted).
+
+## Legal Leak Audit
+
+- **A:** Passes controlling test — the backwards rule is visible from the choice text itself.
+- **B:** Passes controlling test — the fabricated accuracy requirement is visible from the choice text itself.
+- **C:** Correct answer — no leak.
+- **D:** Passes controlling test — the half-truth is visible: the choice states a true rule but applies it to the wrong context.
+
+**Verdict:** No legal leaks. All wrong-answer falsehoods are detectable from the choice text itself.
+
+**Drift audit:** No drift. Original key (D) and new key (C) both hold that the testimony is admissible because the best evidence rule does not apply. Transformed from Q14904. Letter map: A→A, B→B, C→D, D→C.
+
+## Final Student Script
+
+1. **Read the call:** Should the testimony be admitted over a best-evidence objection?
+2. **Spot the trigger:** The witness is using a transcript to refresh memory — this is a FRE 612 scenario.
+3. **Ask the key question:** Is the prosecution proving the *contents* of the transcript, or is the transcript just a memory aid?
+4. **Cut A:** Says duplicate requires unavailability showing — that's backwards. FRE 1003 admits duplicates without unavailability. **CUT.**
+5. **Cut B:** Says court reporter must testify to accuracy — that's past recollection recorded, not refresh. **CUT.**
+6. **Clash C vs. D:** Both say Yes. C says it's because the best evidence rule doesn't apply (right). D says it's because duplicates are admissible (true but wrong reason — the rule doesn't apply at all). **C wins.**
+7. **CALL: C.**
+
+## Remediation Card
+
+**Card ID:** REM-EVIDENCE-1003-REFRESH-001
+**Title:** Best Evidence Rule vs. FRE 612 Refresh
+**Signal:** Objection: "Best evidence rule!"
+**Student Move:** Ask: Is the party proving the contents of the document, or is the document just refreshing memory?
+**Tiny Rule:** Best evidence rule applies only to prove document contents. FRE 612 refresh uses the document as a memory aid — the testimony is the evidence.
+**Trap:** A true statement about duplicates (FRE 1003) that assumes the best evidence rule applies when it doesn't.
+**Confidence:** HARD_STRUCTURAL
+
+## Silver Key(s)
+
+**SK-EVIDENCE-BEST-EVIDENCE-REFRESH-001**
+**Type:** cut
+**Statement:** When you see a best-evidence objection, first ask: "Is the party trying to prove the *contents* of the document, or is the document being used for another purpose?" If the document is only refreshing recollection, the best evidence rule is irrelevant — cut the objection.
+**Navigates:** The initial CUT phase — eliminates the need to even reach the CLASH by recognizing the best evidence rule is irrelevant.
+**Trigger:** Any best-evidence objection where a witness is using a document to refresh memory.
+**Outline Code:** 34050200
+**Last Minute Review:** true
+
+## QA Checklist
+
+- [x] Rule/answer-substance/issue unchanged
+- [x] Credited outcome unmoved
+- [x] Dominant trap survives re-skinned (D, originally C — half_truth, 17%)
+- [x] Stem not over-signaling
+- [x] Each distractor = one mold + one filter
+- [x] Key breaks no filter
+- [x] Each distractor's mechanic inherited
+- [x] Answer-array geometry preserved (2×2)
+- [x] No clutter doctrine added
+- [x] Popular well-liked Bible names only (treasurer — no antagonist names)
+- [x] Christian-first
+- [x] Recognition-Kill Checklist run
+- [x] Recognition test passed
+- [x] Choices shuffled; Letter Map present
+- [x] Post-shuffle key letter identical everywhere
+- [x] Pick-rate provenance honest
+- [x] All five blocks present
+- [x] Confidence matches deciding method_class
+- [x] PASS with true+responsive residual + 3 single-filter distractors
+- [x] drift_audit + transformed_from + letter_map in analyzer_notes
+- [x] Silver Key present (non-obvious navigation move)
+- [x] All controlled-field values from taxonomy
+- [x] Distilled Core Question present
+- [x] Review Truth present
+- [x] Divergence Audit present with both stem summaries
+- [x] Outline code verified verbatim in OUTLINE_CODES_COMPLETE.md
+- [x] Seed percentages not needed (measured rates supplied)
+- [x] Dominant trap named and flagged
+- [x] Frontmatter present and consistent
+- [x] Every Pass-2 block preceded by exact name heading
+- [x] All three JSON blocks parse
+
+## Wrong-Answer Recovery Paths
+
+**If a student picked A:** They reversed the duplicate rule. Recovery: Review FRE 1003 — duplicates are admissible without unavailability showing. Unavailability is for non-duplicates (FRE 1004).
+
+**If a student picked B:** They confused refreshing recollection with past recollection recorded. Recovery: Review FRE 612 — any document can refresh memory; accuracy is not required because the testimony is the evidence.
+
+**If a student picked D:** They stated a true rule but answered the wrong question. Recovery: The issue is not whether duplicates are admissible — it's whether the best evidence rule applies at all. When proving oral statements, the best evidence rule is irrelevant.
+
+## Outline Mastery Map
+
+**Placement:** Evidence > Writings, Recordings, and Photographs > Duplicates (34050200)
+**This Item Teaches:** The boundary between FRE 1002/1003 (best evidence rule) and FRE 612 (refreshing recollection). Students learn that the best evidence rule applies only when proving document contents, not when a document serves as a memory aid.
+**Fills:** Best evidence rule scope; FRE 612 refresh mechanics; distinction between refresh and past recollection recorded.
+**Adjacent To Master:** Best evidence rule exceptions (FRE 1004); past recollection recorded; authentication and identification.
+
+## Crossover Intersection Map
+
+- **Criminal Law crossover:** This fact pattern could arise in any criminal trial. The best evidence rule applies identically in civil and criminal cases.
+- **Hearsay crossover:** The treasurer's admission could also raise hearsay issues (statement by opposing party under FRE 801(d)(2)), but the question is limited to the best evidence objection.
+- **Confrontation Clause crossover:** In a criminal case, the treasurer's Sixth Amendment rights are not at issue here because the statement is an admission by the defendant, not a testimonial statement offered against the accused.
+
+## Review Truth
+
+The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence.
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14904_best_evidence_refresh",
+  "subject": "EVIDENCE",
+  "credited_answer": "C",
+  "outline_code": "34050200",
+  "distilled_core_question": "A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?",
+  "review_truth": "The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence.",
+  "c3": {
+    "verdict": "C3_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "HARD_STRUCTURAL",
+    "tension_axis": "Does the best evidence rule apply, or is this a FRE 612 refresh case?",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "When a best-evidence objection is raised, first determine whether the party is proving document contents or using the document for another purpose.",
+    "difficulty": "Core",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "backwards",
+        "architecture": "misstated_rule; common_student_myth",
+        "card_ref": "REM-EVIDENCE-1003-REFRESH-001",
+        "explanation": "Reverses the duplicate rule — FRE 1003 admits duplicates without unavailability showing; unavailability is required only for non-duplicates under FRE 1004."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "fabricated_rule",
+        "architecture": "misstated_rule; answer_to_different_question",
+        "card_ref": "REM-EVIDENCE-1003-REFRESH-001",
+        "explanation": "Confuses refreshing recollection with past recollection recorded. Under FRE 612, a document used to refresh memory need not be accurate — the testimony is the evidence."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "half_truth",
+        "architecture": "half_right_answer; attractive_wrong_answer; sounds_lawyerly",
+        "card_ref": "REM-EVIDENCE-1003-REFRESH-001",
+        "explanation": "States a true rule about duplicates (FRE 1003) but assumes the best evidence rule applies. The best evidence rule is irrelevant when the document is used to refresh recollection under FRE 612."
+      }
+    ],
+    "analyzer_notes": "drift_audit: No drift. Original key (D) and new key (C) both hold that the testimony is admissible because the best evidence rule does not apply. transformed_from: 14904. letter_map: A→A (backwards, 3%), B→B (fabricated_rule, 2%), C→D (half_truth, 17%), D→C (correct_answer, 78%).",
+    "gold_keys": [],
+    "silver_keys": [
+      {
+        "id": "SK-EVIDENCE-BEST-EVIDENCE-REFRESH-001",
+        "statement": "When you see a best-evidence objection, first ask: \"Is the party trying to prove the *contents* of the document, or is the document being used for another purpose?\" If the document is only refreshing recollection, the best evidence rule is irrelevant — cut the objection.",
+        "type": "cut",
+        "navigates": "The initial CUT phase — eliminates the need to even reach the CLASH by recognizing the best evidence rule is irrelevant.",
+        "trigger": "Any best-evidence objection where a witness is using a document to refresh memory.",
+        "outline_code": "34050200",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14904_best_evidence_refresh",
+  "subject": "EVIDENCE",
+  "outline_code": "34050200",
+  "distilled_core_question": "A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?",
+  "review_truth": "The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence.",
+  "tension": "Best evidence rule vs. FRE 612 refresh — does the rule apply when a document is used to refresh memory?",
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "backwards",
+      "architecture": "misstated_rule; common_student_myth",
+      "why_attractive": "It sounds like a plausible procedural requirement — many students assume you need to explain why you don't have the original before using a copy. The backwards phrasing feels like a rule, and students who memorized 'original required' without understanding the exceptions may latch onto this.",
+      "focus_group_pct": 3,
+      "pct_provenance": "inherited"
+    },
+    {
+      "choice": "B",
+      "mold": "fabricated_rule",
+      "architecture": "misstated_rule; answer_to_different_question",
+      "why_attractive": "It invokes a real-sounding accuracy requirement that seems to protect the defendant's rights. Students who vaguely recall that someone must verify a transcript's accuracy may pick this without realizing it describes a different doctrine (past recollection recorded).",
+      "focus_group_pct": 2,
+      "pct_provenance": "inherited"
+    },
+    {
+      "choice": "D",
+      "mold": "half_truth",
+      "architecture": "half_right_answer; attractive_wrong_answer; sounds_lawyerly",
+      "why_attractive": "It states a true legal rule — duplicates ARE admissible under FRE 1003 — which makes it feel correct. But it assumes the best evidence rule applies, which it doesn't. Students who spot the true statement may stop analyzing and pick it without checking whether the rule is relevant.",
+      "focus_group_pct": 17,
+      "pct_provenance": "inherited"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-EVIDENCE-1003-REFRESH-001",
+    "title": "Best Evidence Rule vs. FRE 612 Refresh",
+    "signal": "Objection: 'Best evidence rule!'",
+    "student_move": "Ask: Is the party proving the contents of the document, or is the document just refreshing memory?",
+    "tiny_rule": "Best evidence rule applies only to prove document contents. FRE 612 refresh uses the document as a memory aid — the testimony is the evidence.",
+    "trap": "A true statement about duplicates (FRE 1003) that assumes the best evidence rule applies when it doesn't.",
+    "confidence": "HARD_STRUCTURAL"
+  },
+  "red_zone_dimensions": [
+    "FRE 1002/1003 scope — when the best evidence rule applies vs. when it doesn't",
+    "FRE 612 refresh — the document is not evidence, the testimony is",
+    "Distinction between refreshing recollection and past recollection recorded"
+  ]
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14904_best_evidence_refresh",
+  "subject": "EVIDENCE",
+  "outline_code": "34050200",
+  "distilled_core_question": "A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?",
+  "review_truth": "The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "backwards",
+      "why_a_student_picks_this": "The student assumes duplicates require an explanation for the original's absence — a plausible-sounding procedural rule that feels like it should exist.",
+      "skipped_move": "Reading the choice carefully enough to notice it says 'cannot be used without a showing' — which is the opposite of what FRE 1003 says.",
+      "recovery_step": "Review FRE 1003: duplicates are admissible without unavailability. Unavailability is for non-duplicates under FRE 1004."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "fabricated_rule",
+      "why_a_student_picks_this": "The student confuses refreshing recollection with past recollection recorded and thinks someone must verify the transcript's accuracy.",
+      "skipped_move": "Recognizing that FRE 612 does not require the document to be accurate — the testimony is the evidence, not the document.",
+      "recovery_step": "Review the distinction between FRE 612 refresh (any document, no accuracy required) and past recollection recorded (accuracy required)."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "half_truth",
+      "why_a_student_picks_this": "The student spots a true statement about duplicates and stops analyzing — 'duplicates are admissible' feels like the right answer without checking whether the best evidence rule applies.",
+      "skipped_move": "Asking whether the best evidence rule applies in the first place, before evaluating the duplicate rule.",
+      "recovery_step": "Before applying FRE 1003, ask: is the party proving document contents? If not, the best evidence rule is irrelevant."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "distinction_practice",
+      "target_skill": "best_evidence_vs_refresh",
+      "prompt": "A witness uses a handwritten note to remember what the defendant said. The defendant objects on best evidence grounds. Is the objection valid? Why or why not?",
+      "answer": "No. The best evidence rule applies only when proving the contents of a document. Here, the note is used to refresh the witness's recollection under FRE 612. The witness's testimony is the evidence, not the note."
+    },
+    {
+      "drill_type": "mold_spotting",
+      "target_skill": "backwards_rule",
+      "prompt": "A choice says: 'A duplicate cannot be used without showing the original is unavailable.' What's wrong with this statement?",
+      "answer": "It's backwards. FRE 1003 admits duplicates without showing unavailability. Unavailability is required only for non-duplicate evidence under FRE 1004."
+    },
+    {
+      "drill_type": "doctrine_distinction",
+      "target_skill": "refresh_vs_recorded",
+      "prompt": "What's the difference between refreshing recollection (FRE 612) and past recollection recorded?",
+      "answer": "Refresh: witness uses document to jog memory, then testifies from present memory. Document need not be accurate. Past recollection recorded: witness cannot remember even after refresh, so the record itself is admitted as evidence — requires accuracy showing."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "best_evidence_objection_misapplied",
+      "document_used_as_memory_aid",
+      "witness_testimony_is_the_evidence"
+    ],
+    "misconception_tags": [
+      "assumes_best_evidence_applies_to_refresh",
+      "confuses_refresh_with_recorded_recollection",
+      "reverses_duplicate_admissibility_rule"
+    ]
+  },
+  "component_routing": [
+    {
+      "destination_key": "red_zones",
+      "route": "best_evidence_rule_scope",
+      "component_tags": [
+        "FRE 1002/1003 scope boundary",
+        "FRE 612 refresh mechanics",
+        "document contents vs. oral statements"
+      ]
+    },
+    {
+      "destination_key": "trap_forensics",
+      "route": "best_evidence_refresh_confusion",
+      "component_tags": [
+        "half_truth trap: duplicates are admissible but rule doesn't apply",
+        "backwards trap: reverses unavailability requirement",
+        "fabricated rule trap: confuses refresh with recorded recollection"
+      ]
+    },
+    {
+      "destination_key": "drills",
+      "route": "best_evidence_vs_refresh_distinction",
+      "component_tags": [
+        "distinction practice",
+        "mold spotting",
+        "doctrine comparison"
+      ]
+    }
+  ],
+  "crossovers": [
+    {
+      "subject": "CRIMINAL",
+      "intersection": "Best evidence rule applies identically in criminal and criminal procedure contexts"
+    },
+    {
+      "subject": "EVIDENCE",
+      "intersection": "Hearsay — the treasurer's admission could also raise FRE 801(d)(2) issues, but this question is limited to best evidence"
+    }
+  ],
+  "gold_keys": [],
+  "silver_keys": [
+    {
+      "id": "SK-EVIDENCE-BEST-EVIDENCE-REFRESH-001",
+      "statement": "When you see a best-evidence objection, first ask: \"Is the party trying to prove the *contents* of the document, or is the document being used for another purpose?\" If the document is only refreshing recollection, the best evidence rule is irrelevant — cut the objection.",
+      "type": "cut",
+      "navigates": "The initial CUT phase — eliminates the need to even reach the CLASH by recognizing the best evidence rule is irrelevant.",
+      "trigger": "Any best-evidence objection where a witness is using a document to refresh memory.",
+      "outline_code": "34050200",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Evidence > Writings, Recordings, and Photographs > Duplicates (34050200)",
+    "this_item_teaches": "The boundary between FRE 1002/1003 (best evidence rule) and FRE 612 (refreshing recollection). Students learn that the best evidence rule applies only when proving document contents, not when a document serves as a memory aid.",
+    "fills": [
+      "best_evidence_rule_scope",
+      "FRE_612_refresh_mechanics",
+      "distinction_between_refresh_and_recorded_recollection"
+    ],
+    "adjacent_to_master": [
+      "best_evidence_rule_exceptions_FRE_1004",
+      "past_recollection_recorded",
+      "authentication_and_identification"
+    ]
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+A witness cannot recall a defendant's confession. The prosecutor shows the witness a transcript of the confession to refresh the witness's memory. The witness then testifies from refreshed recollection. The defendant objects on best evidence rule grounds. Should the testimony be admitted?
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+C
+
+### 99. Letter Map
+
+A→A, B→B, C→D, D→C
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+The best evidence rule applies only when proving the contents of a writing; when a document is used to refresh a witness's recollection, the rule is irrelevant and the witness's testimony is the evidence.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.

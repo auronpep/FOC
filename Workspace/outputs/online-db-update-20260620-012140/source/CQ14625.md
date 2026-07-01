@@ -1,0 +1,1016 @@
+---
+qid: "14625_private_retreat_felony_murder"
+transformed_from: "14625"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "Constitutional Protection of Accused Persons"
+outline_code: "71040300"
+key: "A"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "choice: \"C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+**Source basis:** BARMATRIX Q#14625 supplies the original criminal-law / constitutional-protection row, pick-rate data, full stem, answer choices, correct answer A, and official explanations.  The prompt also requires a Christian-first transformation, honest pick-rate provenance, Gold/Silver Keys when anchor-dependent, and all PASS-2 blocks.  I also reviewed the Reasoning Creed’s “proof before proxy” and candor posture for the legal-confirmation layer. 
+
+### 1. Final question — chosen Christian variation
+
+**Question ID:** `14625_private_retreat_felony_murder`
+
+At a private Christian law-student retreat, Timothy was arrested in Lydia’s apartment after neighboring guests reported sounds of a struggle. Police arrived and found Timothy bent over Lydia’s prostrate body. Lydia was rushed to the hospital, where she lapsed into a coma. Timothy explained that he had been trying to revive Lydia after she suddenly collapsed.
+
+Timothy was charged with attempted rape and assault after Mary, a neighboring guest, told police that she had heard Lydia sobbing, “No, please no, leave me alone.” At trial, the forensic evidence was inconclusive. The jury acquitted Timothy of attempted rape but convicted him of assault.
+
+While Timothy was serving his sentence for assault, Lydia, who had never recovered from the coma, died. Timothy was then indicted and tried on a charge of felony murder. In this common-law jurisdiction, no statute prevents a prosecutor from proceeding in this manner, but Timothy argues that the felony-murder prosecution violates the Double Jeopardy Clause. His claim is:
+
+### 2. Distilled Core Question
+
+A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?
+
+### 3. Final answer choices
+
+A. **correct, because he was acquitted of the attempted rape charge.**
+B. **correct, because he was convicted of the assault charge.**
+C. **incorrect, because Lydia had not died at the time of the first trial and he was not placed in jeopardy for murder.**
+D. **incorrect, because he was convicted of the assault charge.**
+
+### 4. Possible replacement answer choices
+
+I recommend **keeping the original answer geometry** because the dominant trap is strong and the low-pick answers still teach the assault-vs-predicate confusion.
+
+| Original choice | Original pick % | Keep/replace   | Candidate replacement                                                                           | Mold          | Filter         | Reason                                                                                 |
+| --------------- | --------------: | -------------- | ----------------------------------------------------------------------------------------------- | ------------- | -------------- | -------------------------------------------------------------------------------------- |
+| B               |    5% inherited | Keep, but weak | “correct, because he has already served a sentence for assault arising from the same incident.” | wrong_element | NOT_RESPONSIVE | More attractive than bare “convicted of assault,” but risks duplicating D too closely. |
+| D               |   15% inherited | Keep           | “incorrect, because the assault conviction permits the state to prove the same events again.”   | wrong_element | NOT_RESPONSIVE | More verbose, but less clean. Original is better for speed.                            |
+| C               |   46% inherited | Keep           | Not replaced                                                                                    | bait_doctrine | NOT_RESPONSIVE | This is the dominant trap and should remain.                                           |
+| A               |   34% inherited | Credited       | Not replaced                                                                                    | none          | none           | Correct.                                                                               |
+
+### 5. Correct answer
+
+**A.**
+
+### 6. Full right-answer explanation
+
+**A is correct.** The prosecution may not build the felony-murder charge on the attempted rape because Timothy was already acquitted of that attempted rape.
+
+**Gold Key:** A later death can make a homicide charge possible, but it does not erase an acquittal on the felony predicate. If felony murder depends on a predicate felony the jury already rejected, Double Jeopardy / issue preclusion blocks relitigating that predicate.
+
+**Silver Key:** Do not stop at “the victim died later.” Split the answer array by the **predicate**: attempted rape acquittal, assault conviction, or later-death timing. The answer tied to the acquitted felony predicate wins.
+
+### 7. Full wrong-answer explanations
+
+**B is wrong.** The assault conviction is not the reason Timothy’s double-jeopardy claim succeeds. The answer points to a non-dispositive count. It misses the felony predicate.
+
+**C is wrong.** This is the dominant trap. It states the later-death idea: a defendant generally cannot be placed in jeopardy for homicide before the victim dies. But this felony-murder charge depends on attempted rape, and Timothy was acquitted of attempted rape. **Gold Key:** later death opens the homicide door only if the state does not have to relitigate an acquitted predicate.
+
+**D is wrong.** The assault conviction does not cure the attempted-rape acquittal. The answer uses the assault conviction to ignore the count that matters.
+
+### 8. Black-letter verification and lawyer-confirmation reasoning
+
+The official row confirms that the original key is A and that the attempted rape acquittal, not the assault conviction, is the controlling double-jeopardy problem.  The legal anchor has two pieces. First, Double Jeopardy incorporates issue preclusion: an issue of fact or law raised and necessarily resolved by a prior judgment may not be relitigated; *Ashe v. Swenson* is the key Supreme Court case for that point. ([Congress.gov][1]) Second, the later-death exception is real: *Diaz v. United States* permits a homicide prosecution after a victim dies because a homicide offense could not have been tried before death. ([Justia Law][2]) This item tests the intersection. *Diaz* explains why C is tempting, but *Ashe* explains why A controls when the felony-murder theory depends on the acquitted predicate. ([Justia Law][3])
+
+### 9. Why the variation preserves rigor
+
+The transformed facts preserve the exact legal sequence: attempted rape acquittal, assault conviction, later death, felony-murder indictment, and double-jeopardy claim. The dominant wrong answer C remains intact. The Christian flavor uses popular Bible names and a private retreat setting without adding church-law, First Amendment, competency, evidence, or property clutter.
+
+### 10. C3 elimination walkthrough
+
+**CUT:**
+B and D point to the assault conviction. The call turns on felony murder. The answer array keeps pointing back to the felony predicate. Assault is the wrong count.
+
+**CLASH:**
+A and C fight on one axis: **acquitted predicate vs later-death homicide exception.**
+
+**CALL / Gold Key:**
+Use the tiny anchor. Later death can permit a new homicide prosecution, but not one that requires relitigating an acquitted felony predicate. A survives.
+
+### 11. Review Truth
+
+Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.
+
+### 12. The 5 variations considered
+
+1. **Recommended — Private Christian Law-Student Retreat.**
+   Cast: Timothy, Lydia, Mary.
+   Why chosen: Christian flavor, no extra doctrine, clean private setting, preserves exact trap.
+
+2. **Bible Study Apartment Night.**
+   Cast: Paul, Ruth, Martha.
+   Risk: “Bible study” could invite unnecessary church-context associations.
+
+3. **Christian Book Club Housing.**
+   Cast: John, Esther, Mary.
+   Risk: “club housing” adds factual clutter.
+
+4. **Private Bar-Prep Chapel-Themed Retreat.**
+   Cast: Peter, Lydia, Stephen.
+   Risk: “chapel” could accidentally suggest religious-institution facts.
+
+5. **Law School Prayer Group Rental House.**
+   Cast: Daniel, Ruth, Mary.
+   Risk: good memorability, but “group rental house” adds irrelevant tenancy/property noise.
+
+---
+
+## B1) PASS-2 QUESTION YAML
+
+```yaml
+barmatrix_row:
+  question_id: "14625_private_retreat_felony_murder"
+  transformed_from: "14625"
+  source_qid: "14625"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Constitutional Protection of Accused Persons"
+  original_selection_percentages:
+    correct_total: 34
+    A: 34
+    B: 5
+    C: 46
+    D: 15
+  pick_rate_provenance:
+    A: "inherited_from_original"
+    B: "inherited_from_original"
+    C: "inherited_from_original"
+    D: "inherited_from_original"
+  official_key: "A"
+  transformed_call: "His claim is:"
+  call_type: "positive"
+  negative_stem_inversion: false
+  choices:
+    A: "correct, because he was acquitted of the attempted rape charge."
+    B: "correct, because he was convicted of the assault charge."
+    C: "incorrect, because Lydia had not died at the time of the first trial and he was not placed in jeopardy for murder."
+    D: "incorrect, because he was convicted of the assault charge."
+
+source_stack:
+  - rank: 1
+    source: "BARMATRIX row 14625"
+    use: "source of QID, stem structure, pick rates, key, official explanations"
+  - rank: 2
+    source: "Existing C3/KFP method materials"
+    use: "student-access workflow, answer-array geometry, anchor discipline"
+  - rank: 3
+    source: "Criminal / constitutional-protection overlay"
+    use: "double-jeopardy lane and later-death trap"
+  - rank: 4
+    source: "Official legal explanation"
+    use: "lawyer_confirmation only"
+  - rank: 5
+    source: "Legal authority"
+    use: "lawyer_confirmation only: Ashe issue preclusion; Diaz later-death homicide exception"
+
+student_access_contract:
+  allowed_tools:
+    - "TRUE_AND_RESPONSIVE frame"
+    - "CUT -> CLASH -> CALL workflow"
+    - "wrong_element mold"
+    - "bait_doctrine mold"
+    - "answer-array Silver Key"
+    - "Gold Key: acquitted predicate vs later-death homicide"
+  controlling_test: "Could a smart 10-year-old with only C3 lessons and taught keys see the problem without outside doctrine?"
+  access_limit: "The final A-over-C decision requires the Gold Key. Do not call C structurally false without the anchor."
+  legal_leak_rule: "Doctrine beyond the Gold Key stays in lawyer_confirmation."
+
+stem_parse:
+  transformed_stem_summary: "Timothy is acquitted of attempted rape, convicted of assault, the victim later dies, and he is later tried for felony murder."
+  parties:
+    defendant: "Timothy"
+    victim: "Lydia"
+    witness: "Mary"
+    prosecution: "State"
+  procedural_sequence:
+    - "arrest after struggle report"
+    - "attempted rape and assault charges"
+    - "attempted rape acquittal"
+    - "assault conviction"
+    - "victim later dies"
+    - "felony-murder indictment"
+    - "double-jeopardy claim"
+  adjacent_call_traps:
+    - "whether a later homicide prosecution is generally possible after victim dies"
+    - "whether the assault conviction itself bars the felony-murder charge"
+    - "whether prior assault punishment alone controls"
+
+trigger_facts:
+  - fact: "jury acquitted Timothy of attempted rape"
+    access_label: "Gold_Key_required"
+    function: "acquitted predicate"
+  - fact: "jury convicted Timothy of assault"
+    access_label: "C3_visible"
+    function: "non-dispositive count / assault distraction"
+  - fact: "Lydia later died after first trial"
+    access_label: "Gold_Key_required"
+    function: "activates later-death homicide exception trap"
+  - fact: "new charge is felony murder"
+    access_label: "anchor_assisted"
+    function: "requires predicate felony"
+  - fact: "no statute prevents proceeding"
+    access_label: "C3_visible"
+    function: "removes statutory-procedure objection"
+
+c3_routing:
+  subject_fit: "CRIMINAL = criminal-procedure constitutional protection + predicate/offense sequencing."
+  governing_law_type: "RULE"
+  deciding_phase: "CALL"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "A"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 3
+  tension_axis: "acquitted predicate vs later-death homicide exception"
+  call_heuristic: "Gold Key: acquitted predicate controls felony-murder theory"
+
+answer_array:
+  geometry: "predicate-source clash with assault-count distractors"
+  dominant_trap:
+    choice: "C"
+    original_pick_pct: 46
+    trap: "later-death exception over-applied"
+  silver_key:
+    id: "SK-CRIMINAL-LATER-DEATH-PREDICATE-01"
+    type: "answer_array"
+    statement: "When a later death appears after an earlier trial, split the answers by what the new murder theory must prove: acquitted predicate, convicted count, or death timing."
+  array_read:
+    A: "claim correct -> attempted rape acquittal"
+    B: "claim correct -> assault conviction"
+    C: "claim incorrect -> later death / no murder jeopardy"
+    D: "claim incorrect -> assault conviction"
+
+choice_walkthroughs:
+  A:
+    credited: true
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Survivor: acquitted predicate"
+    c3_signal: "This is the only answer that points to the acquitted felony predicate."
+    lawyer_confirmation: "Double Jeopardy issue preclusion bars using the attempted rape acquittal as the felony predicate for felony murder."
+  B:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "wrong_element"
+      - "half_right_answer"
+      - "sounds_lawyerly"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Wrong count"
+    c3_signal: "The answer says the claim is correct but points to assault, not the felony predicate."
+    lawyer_confirmation: "The assault conviction is not the acquitted predicate that creates the double-jeopardy problem."
+  C:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "legally_true_but_irrelevant"
+      - "exception_over_applied"
+      - "answer_to_different_question"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Later-death trap"
+    c3_signal: "This answers the adjacent question: can homicide arise after death occurs later? It does not answer the acquitted-predicate problem."
+    lawyer_confirmation: "Diaz permits later homicide prosecution after death, but Ashe-style issue preclusion bars relitigating the acquitted predicate."
+  D:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "wrong_element"
+      - "answer_to_different_question"
+      - "sounds_lawyerly"
+    method_class: "anchor_assisted"
+    student_label: "Wrong count plus wrong result"
+    c3_signal: "The answer says the claim is incorrect and points to assault. That ignores the attempted-rape acquittal."
+    lawyer_confirmation: "The assault conviction does not permit the state to use the acquitted attempted rape as the felony-murder predicate."
+
+residual_answer:
+  choice: "A"
+  reason: "Only A ties the double-jeopardy claim to the acquitted felony predicate."
+  student_access_level: "Gold Key required"
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "B and D focus on assault, a non-dispositive count."
+    - "C focuses on later death, the dominant adjacent-call trap."
+    - "A focuses on the acquitted predicate."
+  anchor_assisted_claims:
+    - "A felony-murder theory cannot relitigate an acquitted predicate felony."
+    - "Later death can permit homicide prosecution generally."
+  pure_law_quarantined:
+    - "Ashe issue preclusion"
+    - "Diaz later-death homicide exception"
+  drift_audit: "No distractor is called legally false unless the Gold Key or answer-array relation supports it."
+
+gold_keys:
+  - id: "GK-CRIMINAL-ACQUITTED-PREDICATE-01"
+    statement: "A later death may make a homicide prosecution possible, but felony murder cannot be built on a predicate felony of which the defendant was already acquitted."
+    type: "distinction"
+    unlocks: "The C trap: later-death/no-jeopardy-for-murder over-applied to a felony-murder charge that depends on an acquitted predicate."
+    trigger: "Victim dies after first trial + felony murder charge + prior acquittal of the alleged predicate felony."
+    tested_choice: "C"
+    authority: "Ashe v. Swenson; Diaz v. United States"
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIMINAL-LATER-DEATH-PREDICATE-01"
+    statement: "When later death appears, do not stop at the death timing. Split the answer array by the predicate the new murder theory must prove."
+    type: "answer_array"
+    navigates: "A vs C clash"
+    trigger: "One answer says acquitted predicate; another says victim had not died yet."
+    tested_choice: "C"
+    outline_code: "71040300"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-CRIM-DJ-PREDICATE-01"
+  title: "Later Death vs Acquitted Predicate"
+  signal: "Victim dies after first trial; new felony-murder charge follows."
+  student_move: "Ask what felony the murder theory must prove."
+  tiny_rule: "Later death is not a free pass to relitigate an acquitted predicate."
+  trap: "Choosing the Diaz-style later-death answer without checking predicate acquittal."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?"
+review_truth: "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing."
+
+case_study_output:
+  final_student_script: "Later death matters, but felony murder needs a predicate. Attempted rape was acquitted. Assault is a distraction. Pick A."
+  exam_day_move: "Predicate first, death timing second."
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_preserved: true
+  stem_not_over_signaled: true
+  christian_first: true
+  no_antagonist_bible_names: true
+  no_clutter_doctrine_added: true
+  each_distractor_one_filter: true
+  pass_requirements_met: true
+  key_disagreement: false
+  transformed_from_present: true
+  gold_key_present_if_anchor_dependent: true
+  silver_key_present_if_navigation_dependent: true
+  pick_rate_provenance_honest: true
+
+analytics_hooks:
+  trap_family: "later_death_exception_overapplied"
+  dominant_wrong_choice: "C"
+  dominant_wrong_pct_inherited: 46
+  expected_student_error: "stops at later-death homicide rule and misses acquitted predicate"
+  remediation_route:
+    - "wrong_frame"
+    - "bait_doctrine"
+    - "Gold Key: acquitted predicate"
+  drill_tags:
+    - "double_jeopardy"
+    - "felony_murder_predicate"
+    - "issue_preclusion"
+    - "later_death_exception"
+```
+
+---
+
+## B2) 17-SECTION STUDENT CASE STUDY
+
+### 1. program_frame
+
+This is not a homicide outline. This is an answer-array navigation question.
+
+The exam gives three anchors in the facts:
+
+1. prior acquittal of attempted rape
+2. prior conviction of assault
+3. later death of the victim
+
+The answer choices ask which one controls the double-jeopardy claim.
+
+### 2. student_access_test
+
+Student-accessible without the Gold Key:
+
+* B and D are suspicious because they point to assault, not the felony predicate.
+* C is attractive because the victim had not died yet.
+* A is the only answer pointing to the acquitted predicate.
+
+Gold-Key required:
+
+* Knowing that later death can permit homicide prosecution generally.
+* Knowing that felony murder cannot be built on an acquitted predicate felony.
+
+### 3. question_data
+
+* **Subject:** CRIMINAL
+* **Topic:** Criminal Law
+* **Subtopic:** Constitutional Protection of Accused Persons
+* **Original QID:** 14625
+* **Transformed QID:** 14625_private_retreat_felony_murder
+* **Official key:** A
+* **Original pick rates:** A 34%, B 5%, C 46%, D 15%
+* **Dominant trap:** C
+
+### 4. distilled_core_question
+
+A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?
+
+### 5. call_and_prediction
+
+**Call:** His double-jeopardy claim is correct or incorrect.
+
+**Prediction:** The later death matters, but felony murder needs a predicate. The attempted rape was already acquitted. The assault conviction is a side path. The likely answer is the one tied to the attempted rape acquittal.
+
+### 6. trigger_facts
+
+| Trigger fact                             | What it does                                  |
+| ---------------------------------------- | --------------------------------------------- |
+| Timothy was acquitted of attempted rape. | Sets up the acquitted felony predicate.       |
+| Timothy was convicted of assault.        | Creates a tempting but non-dispositive count. |
+| Lydia later died.                        | Activates the later-death homicide trap.      |
+| New charge is felony murder.             | Forces the predicate question.                |
+| No statute prevents proceeding.          | Removes statutory-procedure objections.       |
+
+### 7. governing_c3_lane
+
+**Lane:** Criminal constitutional protection.
+**FIT:** Double Jeopardy + predicate sequencing.
+**Workflow:** CUT assault-count distractions → CLASH acquitted predicate vs later death → CALL Gold Key.
+
+### 8. choice_by_choice_walkthrough
+
+#### Choice A
+
+1. **Student-accessible C3 signal:** This is the only answer tied to the attempted rape acquittal.
+2. **Student label:** Acquitted-predicate survivor.
+3. **True/responsive version:** “The claim is correct because felony murder would require relitigating the attempted rape.”
+4. **Lawyer confirmation:** Correct. Double Jeopardy issue preclusion bars relitigating an acquitted predicate felony.
+
+#### Choice B
+
+1. **Student-accessible C3 signal:** This answer says the claim is correct, but the reason is assault. Assault is not the felony predicate problem.
+2. **Student label:** Wrong count.
+3. **True/responsive version:** “Correct, because he was acquitted of the felony predicate.”
+4. **Lawyer confirmation:** Wrong. The assault conviction does not create the relevant double-jeopardy bar.
+
+#### Choice C
+
+1. **Student-accessible C3 signal:** This answers the nearby question: “Could murder be charged only after death?” It does not answer the predicate-acquittal problem.
+2. **Student label:** Later-death trap.
+3. **True/responsive version:** “Incorrect if the state charged a homicide theory that did not depend on the acquitted attempted rape.”
+4. **Lawyer confirmation:** Wrong here. *Diaz* supports later homicide prosecution after death, but *Ashe* blocks relitigation of the acquitted predicate.
+
+#### Choice D
+
+1. **Student-accessible C3 signal:** This uses assault to say the claim is incorrect. Assault is still the wrong count.
+2. **Student label:** Wrong count, wrong result.
+3. **True/responsive version:** “Incorrect, if the new murder theory did not depend on any fact or offense already acquitted.”
+4. **Lawyer confirmation:** Wrong. The attempted rape acquittal, not the assault conviction, controls.
+
+### 9. residual_answer
+
+**A survives.**
+
+It points to the fact the felony-murder theory cannot get around: the attempted rape acquittal.
+
+### 10. legal_leak_audit
+
+Student-accessible:
+
+* Assault-count answers are off-center.
+* C is an adjacent-call answer.
+* A names the predicate-acquittal fact.
+
+Anchor-assisted:
+
+* Later death normally allows a later homicide charge.
+* Acquitted predicate cannot be used for felony murder.
+
+Lawyer-only:
+
+* Issue preclusion as part of Double Jeopardy.
+* Diaz later-death exception.
+
+**Drift audit:** No student-facing cut depends on hidden doctrine. The final A-over-C decision is labeled anchor-assisted and promoted as a Gold Key.
+
+### 11. final_student_script
+
+“Felony murder needs a felony. The felony here is attempted rape. He was acquitted of attempted rape. The later death makes C tempting, but C skips the predicate. Assault is a distraction. Pick A.”
+
+### 12. remediation_card
+
+**REM-CRIM-DJ-PREDICATE-01 — Later Death vs Acquitted Predicate**
+
+* **Signal:** Victim dies after first trial; later felony-murder charge follows.
+* **Student move:** Ask what felony the murder theory must prove.
+* **Tiny rule:** Later death does not let the state relitigate an acquitted predicate.
+* **Trap:** Picking “not placed in jeopardy for murder” without checking the predicate.
+* **Confidence:** ANCHOR_ASSISTED.
+
+### 13. Gold Key(s)
+
+**GK-CRIMINAL-ACQUITTED-PREDICATE-01**
+
+A later death may make a homicide prosecution possible, but felony murder cannot be built on a predicate felony of which the defendant was already acquitted.
+
+* **Type:** distinction
+* **Unlocks:** C
+* **Trigger:** later death + felony murder + prior acquittal of predicate felony
+* **Last-minute review:** true
+
+### 14. Silver Key(s)
+
+**SK-CRIMINAL-LATER-DEATH-PREDICATE-01**
+
+When later death appears, do not stop at the death timing. Split the answer array by the predicate the new murder theory must prove.
+
+* **Type:** answer_array
+* **Navigates:** A vs C
+* **Trigger:** one answer points to acquitted attempted rape; one answer points to later death
+* **Last-minute review:** true
+
+### 15. qa_checklist
+
+| Check                                       | Result |
+| ------------------------------------------- | ------ |
+| Rule unchanged                              | Yes    |
+| Correct answer unchanged                    | Yes, A |
+| Dominant trap preserved                     | Yes, C |
+| Christian flavor added without clutter      | Yes    |
+| Three distractors each break one filter     | Yes    |
+| Gold Key used only because anchor-dependent | Yes    |
+| Silver Key used for answer-array navigation | Yes    |
+| C3 residual matches official key            | Yes    |
+| PASS available                              | Yes    |
+
+### 16. wrong_answer_recovery_paths
+
+**B path:** Student sees “already convicted” and thinks prior punishment helps.
+**Recovery:** Ask which count is the felony predicate.
+
+**C path:** Student remembers later death means no prior murder jeopardy.
+**Recovery:** Ask whether the new murder charge requires relitigating an acquitted felony.
+
+**D path:** Student treats assault conviction as permission to proceed.
+**Recovery:** Assault is not the predicate answer in this array.
+
+### 17. outline_mastery_map
+
+* **Placement:** Criminal Procedure / Double Jeopardy / successive prosecution.
+* **This item teaches:** intersection of later-death homicide and acquitted-predicate bar.
+* **Fills:** issue preclusion, felony-murder predicate, later-death exception.
+* **Adjacent to master:** felony murder, lesser-included / same-offense analysis, collateral estoppel.
+
+### 18. crossover_intersection_map
+
+| Crossover                         | Why it matters                                                        |
+| --------------------------------- | --------------------------------------------------------------------- |
+| Criminal Law + Criminal Procedure | Felony murder supplies the offense; Double Jeopardy supplies the bar. |
+| Evidence-like issue preclusion    | Prior verdict controls what can be relitigated.                       |
+| Answer-array skill                | Later-death trap is true nearby law, wrong here.                      |
+
+### 19. review_truth
+
+Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.
+
+---
+
+## B3) `c3_annotation`
+
+```json
+{
+  "question_id": "14625_private_retreat_felony_murder",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "71040300",
+  "distilled_core_question": "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?",
+  "review_truth": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "acquitted predicate vs later-death homicide exception",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Gold Key: acquitted predicate controls felony-murder predicate",
+    "difficulty": 3,
+    "distractors": [
+      {
+        "choice": "B",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "REM-CRIM-DJ-PREDICATE-01",
+        "explanation": "Assault conviction is not the dispositive predicate-acquittal fact."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIMINAL-ACQUITTED-PREDICATE-01",
+        "explanation": "Later-death homicide rule is the adjacent trap; it does not allow relitigation of the acquitted predicate."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "REM-CRIM-DJ-PREDICATE-01",
+        "explanation": "Assault conviction is the wrong count and does not answer the attempted-rape predicate problem."
+      }
+    ],
+    "analyzer_notes": "drift_audit: final decision is anchor-assisted, not hard structural; C is not called false except through the Gold Key distinction; transformed_from: 14625",
+    "gold_keys": [
+      {
+        "id": "GK-CRIMINAL-ACQUITTED-PREDICATE-01",
+        "statement": "A later death may make a homicide prosecution possible, but felony murder cannot be built on a predicate felony of which the defendant was already acquitted.",
+        "type": "distinction",
+        "unlocks": "C later-death trap",
+        "trigger": "later death + felony murder + prior acquittal of alleged predicate felony",
+        "tested_choice": "C",
+        "authority": "Ashe v. Swenson; Diaz v. United States",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIMINAL-LATER-DEATH-PREDICATE-01",
+        "statement": "When later death appears, do not stop at the death timing. Split the answer array by the predicate the new murder theory must prove.",
+        "type": "answer_array",
+        "navigates": "A vs C clash",
+        "trigger": "one answer points to acquitted attempted rape; one answer points to later death",
+        "tested_choice": "C",
+        "outline_code": "71040300",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B4) `program_elements`
+
+```json
+{
+  "question_id": "14625_private_retreat_felony_murder",
+  "subject": "CRIMINAL",
+  "outline_code": "71040300",
+  "distilled_core_question": "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?",
+  "review_truth": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+  "tension": {
+    "axis": "acquitted predicate vs later-death homicide exception",
+    "resolver": "felony murder depends on the predicate felony; attempted rape was acquitted"
+  },
+  "traps": [
+    {
+      "choice": "B",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student sees prior conviction and thinks prior punishment triggers double jeopardy.",
+      "focus_group_pct": 5
+    },
+    {
+      "choice": "C",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student knows the victim had not died at the first trial and stops at the later-death homicide rule.",
+      "focus_group_pct": 46
+    },
+    {
+      "choice": "D",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "Student treats the assault conviction as permission to proceed and ignores the acquitted predicate.",
+      "focus_group_pct": 15
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-CRIM-DJ-PREDICATE-01",
+    "title": "Later Death vs Acquitted Predicate",
+    "signal": "Victim dies after first trial; later felony-murder charge follows.",
+    "student_move": "Ask what felony the murder theory must prove.",
+    "tiny_rule": "Later death is not a free pass to relitigate an acquitted predicate.",
+    "trap": "Choosing the later-death/no-murder-jeopardy answer without checking the predicate.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "dominant trap over 40%",
+    "true adjacent rule",
+    "acquittal vs conviction count confusion",
+    "anchor-dependent Double Jeopardy distinction",
+    "felony-murder predicate sequencing"
+  ]
+}
+```
+
+---
+
+## B5) `program_intelligence`
+
+```json
+{
+  "question_id": "14625_private_retreat_felony_murder",
+  "subject": "CRIMINAL",
+  "outline_code": "71040300",
+  "distilled_core_question": "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?",
+  "review_truth": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+  "wrong_answer_paths": [
+    {
+      "choice": "B",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student equates prior conviction with double-jeopardy success.",
+      "skipped_move": "Predicate check",
+      "recovery_step": "Ask which prior count the felony-murder theory must prove."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student remembers that murder cannot be charged before the victim dies.",
+      "skipped_move": "Acquitted-predicate check",
+      "recovery_step": "Apply the Gold Key: later death does not allow relitigating an acquitted predicate."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats the assault conviction as the whole double-jeopardy analysis.",
+      "skipped_move": "Wrong-count cut",
+      "recovery_step": "Separate assault conviction from attempted rape acquittal."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array",
+      "target_skill": "predicate split",
+      "prompt": "One answer points to an acquitted felony; another points to later death. Which fact do you check first for felony murder?",
+      "answer": "The felony predicate."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "later death vs predicate acquittal",
+      "prompt": "Victim dies after first trial. What does that allow, and what does it not allow?",
+      "answer": "It may allow homicide prosecution, but not felony murder based on an acquitted predicate."
+    },
+    {
+      "drill_type": "wrong_element_cut",
+      "target_skill": "wrong count detection",
+      "prompt": "The prior trial produced an attempted-rape acquittal and assault conviction. Which count matters for felony murder?",
+      "answer": "The felony predicate: attempted rape."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "inconclusive_forensic_evidence",
+      "coma_then_death",
+      "prior_acquittal",
+      "prior_conviction"
+    ],
+    "misconception_tags": [
+      "later_death_always_allows_murder_trial",
+      "assault_conviction_controls_double_jeopardy",
+      "felony_murder_predicate_ignored"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Lesson 8",
+      "reason": "bait_doctrine and wrong_element distractors"
+    },
+    {
+      "component": "C3 Lesson 9",
+      "reason": "two-answer clash: acquitted predicate vs later-death exception"
+    },
+    {
+      "component": "C3 Lesson 12",
+      "reason": "Gold Key anchor required"
+    },
+    {
+      "component": "C3 Lesson 13",
+      "reason": "anchor-assisted confidence calibration"
+    }
+  ],
+  "crossovers": [
+    {
+      "area": "Criminal Law",
+      "connection": "felony murder requires a predicate felony"
+    },
+    {
+      "area": "Criminal Procedure",
+      "connection": "Double Jeopardy / issue preclusion"
+    },
+    {
+      "area": "Evidence-style reasoning",
+      "connection": "prior verdict controls relitigation of a resolved issue"
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIMINAL-ACQUITTED-PREDICATE-01",
+      "statement": "A later death may make a homicide prosecution possible, but felony murder cannot be built on a predicate felony of which the defendant was already acquitted.",
+      "type": "distinction",
+      "unlocks": "C later-death trap",
+      "trigger": "later death + felony murder + prior acquittal of alleged predicate felony",
+      "tested_choice": "C",
+      "authority": "Ashe v. Swenson; Diaz v. United States",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIMINAL-LATER-DEATH-PREDICATE-01",
+      "statement": "When later death appears, do not stop at the death timing. Split the answer array by the predicate the new murder theory must prove.",
+      "type": "answer_array",
+      "navigates": "A vs C clash",
+      "trigger": "one answer points to acquitted attempted rape; one answer points to later death",
+      "tested_choice": "C",
+      "outline_code": "71040300",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Procedure > Double Jeopardy > Successive Prosecution / Issue Preclusion",
+    "this_item_teaches": "A later homicide prosecution may be possible, but felony murder cannot reuse an acquitted predicate felony.",
+    "fills": [
+      "double jeopardy issue preclusion",
+      "felony-murder predicate awareness",
+      "later-death exception calibration"
+    ],
+    "adjacent_to_master": [
+      "felony murder",
+      "Blockburger same-offense analysis",
+      "lesser-included offenses",
+      "collateral estoppel"
+    ]
+  }
+}
+```
+
+[1]: https://constitution.congress.gov/browse/essay/amdt5-2-7-3/ALDE_00000158/ "Collateral Estoppel (Issue Preclusion) and Double Jeopardy | Constitution Annotated | Congress.gov | Library of Congress"
+[2]: https://supreme.justia.com/cases/federal/us/223/442/ " Diaz v. United States | 223 U.S. 442 (1912) | Justia U.S. Supreme Court Center"
+[3]: https://supreme.justia.com/cases/federal/us/397/436/ " Ashe v. Swenson | 397 U.S. 436 (1970) | Justia U.S. Supreme Court Center"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "14625_private_retreat_felony_murder"
+  question_id: "14625_private_retreat_felony_murder"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "Constitutional Protection of Accused Persons"
+  outline_code: "71040300"
+  official_key: "A"
+transform_provenance:
+  transformed_from: "14625"
+  variant_slug: "private_retreat_felony_murder"
+  original_key_letter: "UNKNOWN"
+  new_key_letter: "A"
+  letter_map: "see Letter Map section"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "A"
+distilled_core_question: "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?"
+review_truth: "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 14625_private_retreat_felony_murder; source 14625.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject CRIMINAL; topic Criminal Law; subtopic Constitutional Protection of Accused Persons.
+4. **distilled_core_question:** A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?
+5. **call_and_prediction:** Credited answer: A.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 71040300.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** A
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 71040300.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "14625_private_retreat_felony_murder",
+  "subject": "CRIMINAL",
+  "credited_answer": "A",
+  "outline_code": "71040300",
+  "distilled_core_question": "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?",
+  "review_truth": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "A",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 14625; letter_map: see Letter Map section",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "14625_private_retreat_felony_murder",
+  "subject": "CRIMINAL",
+  "outline_code": "71040300",
+  "distilled_core_question": "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?",
+  "review_truth": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-14625",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "14625_private_retreat_felony_murder",
+  "subject": "CRIMINAL",
+  "outline_code": "71040300",
+  "distilled_core_question": "A defendant was acquitted of the felony predicate but convicted of assault. The victim later died. Can the state try him for felony murder using the acquitted felony as the predicate?",
+  "review_truth": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "71040300",
+    "this_item_teaches": "Later death can permit a murder prosecution, but felony murder cannot be built on a felony predicate the defendant was already acquitted of committing.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

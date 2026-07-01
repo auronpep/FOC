@@ -1,0 +1,12 @@
+SELECTED VARIATION: v3
+
+Variant Details:
+- Title: Missionary artifact incident
+- Stem: Timothy took donated ancient artifacts from a missionary training center, concealed them, walked past the prayer garden toward dormitories, and stored them in the storage room during cultural exchange week.
+- Asset: donated historical artifacts from local communities
+- Location: missionary training center in tropical climate
+- Characters: Missionary Timothy (new convert) and fellow trainees
+- Divergence Score: Medium - different context but same larceny action
+- Recognition Test: PASSES
+
+Note: While v1 has a higher divergence score, v3 passes the mandatory recognition test with fewer functional word overlaps, making it the technically compliant choice per the guidelines. v3 changes asset type (artifacts vs purse), location (training center vs clothing store), and context (cultural exchange vs shopping) while preserving the larceny legal issue and story elements.

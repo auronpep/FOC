@@ -1,0 +1,261 @@
+# CQ Batch QA Report
+
+Files scanned: 268  ·  PASS: 175  ·  QUARANTINE: 93
+
+## Subjects (PASS)
+
+- CIVIL_PROCEDURE: 17
+- CONSTITUTIONAL_LAW: 17
+- CONTRACTS: 20
+- CRIMINAL_LAW: 62
+- EVIDENCE: 12
+- REAL_PROPERTY: 10
+- TORTS: 37
+
+## Quarantined
+
+- **CQ14411.md** — missing or implausibly short stem
+- **CQ14507.md** — missing or implausibly short stem
+- **CQ14554.md** — missing or implausibly short stem
+- **CQ14557.md** — unknown subject: UNKNOWN; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14578.md** — choice A: missing mold_code; choice A: missing why_attractive (B4); choice A: missing distractor explanation (B3); choice B: missing mold_code; choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice D: missing mold_code; choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ14587.md** — choice A: missing why_attractive (B4); choice B: missing why_attractive (B4); choice C: missing why_attractive (B4)
+- **CQ14595.md** — B1 YAML failed to parse: Nested mappings are not allowed in compact mappings at line 79, column 26:
+- **CQ14618.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14621.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14676_church_youth_accusation.md** — missing or implausibly short stem
+- **CQ14685.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14695.md** — B1 YAML failed to parse: Nested mappings are not allowed in compact mappings at line 10, column 22:
+- **CQ14819.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14820.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14828.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14831.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14863.md** — B1 YAML failed to parse: Nested mappings are not allowed in compact mappings at line 10, column 22:
+- **CQ14908.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ14931.md** — missing residual_answer.explanation for correct choice
+- **CQ14975.md** — missing or implausibly short stem
+- **CQ14992.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ15014.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ15031.md** — choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice C: missing why_attractive (B4); choice C: missing distractor explanation (B3); choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ15054.md** — missing residual_answer.explanation for correct choice
+- **CQ15100.md** — missing or implausibly short stem
+- **CQ16019.md** — B1 YAML failed to parse: Source contains multiple documents; please use YAML.parseAllDocuments() at line 71, column 1:
+- **CQ16040.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16042.md** — missing call
+- **CQ16052.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16060.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16070.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16135.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16152.md** — missing/unparseable B3 c3_annotation JSON block; missing/unparseable B4 program_elements JSON block; missing/unparseable B5 program_intelligence JSON block
+- **CQ16158.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16160_christian_variant.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16163.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16169.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16184.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ16187.md** — B1 YAML failed to parse: Nested mappings are not allowed in compact mappings at line 9, column 22:
+- **CQ17015.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ17034.md** — B1 YAML failed to parse: All mapping items must start at the same column at line 111, column 1:
+- **CQ17091.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ17200.md** — B1 YAML failed to parse: All mapping items must start at the same column at line 155, column 1:
+- **CQ17345.md** — choice A: missing why_attractive (B4); choice A: missing distractor explanation (B3); choice C: missing why_attractive (B4); choice C: missing distractor explanation (B3); choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ17405.md** — missing or implausibly short stem; official_key is not A-D
+- **CQ17419.md** — choice A: missing mold_code; choice A: missing why_attractive (B4); choice A: missing distractor explanation (B3); choice B: missing mold_code; choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice D: missing mold_code; choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ17420.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ17564.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ17712.md** — B1 YAML failed to parse: Source contains multiple documents; please use YAML.parseAllDocuments() at line 71, column 1:
+- **CQ17776.md** — missing or implausibly short stem
+- **CQ17785.md** — B1 YAML failed to parse: Source contains multiple documents; please use YAML.parseAllDocuments() at line 97, column 1:
+- **CQ17930.md** — unknown subject: UNKNOWN; missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ18217.md** — choice A: missing why_attractive (B4); choice A: missing distractor explanation (B3); choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ18252.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ18342.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ18385.md** — missing or implausibly short stem
+- **CQ18442.md** — missing or implausibly short stem
+- **CQ18456.md** — missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ18550.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ18861.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ19064.md** — missing or implausibly short stem
+- **CQ19099.md** — missing or implausibly short stem
+- **CQ19143.md** — missing or implausibly short stem
+- **CQ19305.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ19501.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ19692.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ19762.md** — missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ20014.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ20031.md** — choice A: missing why_attractive (B4); choice A: missing distractor explanation (B3); choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ20055.md** — missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ20125.md** — choice A: missing why_attractive (B4); choice A: missing distractor explanation (B3); choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice C: missing why_attractive (B4); choice C: missing distractor explanation (B3)
+- **CQ20168.md** — missing or implausibly short stem
+- **CQ20470.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ20575.md** — missing or implausibly short stem
+- **CQ20595.md** — missing or implausibly short stem
+- **CQ20708.md** — missing or implausibly short stem
+- **CQ20903.md** — missing call; official_key is not A-D
+- **CQ21105.md** — missing or implausibly short stem
+- **CQ21131.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21244.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21410.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21449.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21599.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21650.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21707.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ21770.md** — missing or implausibly short stem
+- **CQ21845.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ22139.md** — missing or implausibly short stem
+- **CQ22161.md** — missing or implausibly short stem; missing call; official_key is not A-D; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ22266.md** — missing or implausibly short stem; missing call; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ22408.md** — missing residual_answer.explanation for correct choice; choice B: missing why_attractive (B4); choice B: missing distractor explanation (B3); choice C: missing why_attractive (B4); choice C: missing distractor explanation (B3); choice D: missing why_attractive (B4); choice D: missing distractor explanation (B3)
+- **CQ22409.md** — missing or implausibly short stem; missing choice A; missing choice B; missing choice C; missing choice D
+- **CQ22729.md** — missing or implausibly short stem
+
+## Warnings (PASS files, non-blocking)
+
+- **CQ14141.md** (14141_dovesound_review): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14215.md** (14215_daniel_cedar_bookcases): B2 student case study header not found
+- **CQ14228.md** (14228_14228): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14238.md** (14238_lydias_barnabas_brief): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14616.md** (14616_good_shepherd_cyber_watch): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14619.md** (14619): B2 student case study header not found
+- **CQ14625.md** (14625_private_retreat_felony_murder): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14627.md** (14627_galilee_honey_farm): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14629.md** (14629_parent_room_confession): dominant trap not named
+- **CQ14630.md** (14630_fellowship_hall_white_powder): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14634.md** (14634_chapel_bookstore_grab): B2 student case study header not found; dominant trap not named
+- **CQ14635.md** (14635_barnabas_aspirin_capsule): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14636.md** (14636_bible_cafe_basement): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14638.md** (14638_galilee_garments): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14639.md** (14639_prayer_walk_self_defense): dominant trap not named; selection_percentages.A claims a non-predicted measured rate — review before any focus-group load; selection_percentages.B claims a non-predicted measured rate — review before any focus-group load; selection_percentages.C claims a non-predicted measured rate — review before any focus-group load; selection_percentages.D claims a non-predicted measured rate — review before any focus-group load
+- **CQ14640.md** (14640_church_preschool_custody): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14641.md** (14641_14641): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14643.md** (14643): B2 student case study header not found
+- **CQ14649.md** (14649_pageant_warehouse): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14656.md** (14656_fellowship_flag_football): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14657.md** (14657_lampstand_window_volley): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14658.md** (14658_christian_publishing): B2 student case study header not found; dominant trap not named
+- **CQ14659.md** (14659_bible_study_ambush): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14663.md** (14663_14663): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14664.md** (14664_bible_study_gas_station): dominant trap not named; selection_percentages.A claims a non-predicted measured rate — review before any focus-group load; selection_percentages.B claims a non-predicted measured rate — review before any focus-group load; selection_percentages.C claims a non-predicted measured rate — review before any focus-group load
+- **CQ14668.md** (14668_laxative-lies): stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ14678.md** (14678_galilee_grill): dominant trap not named
+- **CQ14679.md** (14679_fellowship_cup): dominant trap not named
+- **CQ14680.md** (14680_christian_bookstore_ricochet): Pass-1 transform report header not found (older header wording); stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ14684.md** (14684_peters_third_shot): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14690.md** (14690_bible_study_protected_victim): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14701.md** (14701_christian_bookstore_agent): stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ14728.md** (14728): B2 student case study header not found
+- **CQ14730.md** (14730_potluck_flight): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14736.md** (14736_camp_van_crossing): Pass-1 transform report header not found (older header wording); stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ14859.md** (14859_lakeside-bible-study): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ14904.md** (14904_best_evidence_refresh): Pass-1 transform report header not found (older header wording); stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15222.md** (15222_mannafuel_lydia_racecar): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15223.md** (15223_lydias_loaves): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15224.md** (15224_bible_workbook_press): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15253.md** (15253_barnabas_quarry_safety_audit): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15254.md** (15254_lydia_selah_blue_dye): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15255.md** (15255): B2 student case study header not found; dominant trap not named
+- **CQ15256.md** (15256_biblestudy_furnace): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15257.md** (15257_peter_on_the_ledge): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15258.md** (15258_good_shepherd_dental): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15259.md** (15259_15259): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15262.md** (15262_fiery_furnace_panels): dominant trap not named
+- **CQ15263.md** (15263_galilee_gt): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ15264.md** (15264_emmaus_roadster): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ17026.md** (17026_manger_prop_bundles): B2 student case study header not found; dominant trap not named
+- **CQ17045.md** (17045_scripture_banner_cloth): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ17084.md** (17084_five_loaves_bank_records): dominant trap not named
+- **CQ17110.md** (17110_sticker_press_guaranty): dominant trap not named
+- **CQ17151.md** (17151_carol_program): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ17157.md** (17157_vocational-rehab): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ17173.md** (17173_road_to_emmaus_puzzle_quest): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ17685.md** (17685_church_basement_dispute): Pass-1 transform report header not found (older header wording); stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ18090.md** (18090_prayer_journals_price_line): Pass-1 transform report header not found (older header wording); stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ19177.md** (19177_manna_wagon_disposal): dominant trap not named
+- **CQ19213.md** (19213_road_to_emmaus_breezeway): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19250.md** (19250_scripture_card_printer): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19263.md** (19263_chapel_handbells): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19266.md** (19266_carol_banquet_jmol): dominant trap not named
+- **CQ19286.md** (19286_five_loaves_press): B2 student case study header not found; dominant trap not named
+- **CQ19336.md** (19336_nativity_warehouse_rescue): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19379.md** (19379_hymn_candle_invoice_van): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19381.md** (19381_shepherd_olive_press_deed): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19430.md** (19430_harp_instructor_olive_grove): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19434.md** (19434_hymn_hands_stimulator): stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ19448.md** (19448_praise_night_tshirt_cannon): dominant trap not named
+- **CQ19499.md** (19499_jericho_chariot_night): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19502.md** (19502_manna_festival_finals_tax): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19607.md** (19607_cana_hills_bethany_flats): B2 student case study header not found
+- **CQ19721.md** (19721_jonah_whale_float): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ19793.md** (19793_dove_candle_ledgers): B2 student case study header not found
+- **CQ19904.md** (19904_psalm_orchard_foreclosure_notice): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20004.md** (20004_dove_tokens_manna_game): B2 student case study header not found; dominant trap not named
+- **CQ20024.md** (20024_loaves_fishes_crate_count): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20100.md** (20100_fish_and_loaves_keychains): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20123.md** (20123_prayer_card_threat_writers): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20153.md** (20153_lampstand_labs): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20213.md** (20213_mercy_pool_reliction): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20231.md** (20231_crown_above_caesars): B2 student case study header not found
+- **CQ20258.md** (20258_psalter_pressure): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20271.md** (20271_lantern_handbell_evening): B2 student case study header not found; dominant trap not named
+- **CQ20291.md** (20291_nativity_prop_rental_freeze): dominant trap not named
+- **CQ20307.md** (20307_bethany_banners_transcript): B2 student case study header not found; stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ20310.md** (20310_psalms_wax_lamp): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20312.md** (20312_loaves_fishes_retreat): dominant trap not named
+- **CQ20313.md** (20313_bethlehem_olivewood_crosses): B2 student case study header not found
+- **CQ20351.md** (20351_red_sea_mini_golf): B2 student case study header not found
+- **CQ20353.md** (20353_baptism_tank_burst): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20370.md** (20370_dove_mug_notice): dominant trap not named
+- **CQ20404.md** (20404_acts_axes_cash_loads): dominant trap not named
+- **CQ20423.md** (20423_galilee_props_bias): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20439.md** (20439_floating_star_driveway): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20461.md** (20461_lydia_beeswax_requirements): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20476.md** (20476_road_to_bethlehem_sash): B2 student case study header not found
+- **CQ20493.md** (20493_fish_mark_picnic_lot): dominant trap not named
+- **CQ20496.md** (20496_loaves_prop_cart): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20516.md** (20516_manna_games_duress): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20523.md** (20523_easter_stage_guaranty): dominant trap not named
+- **CQ20542.md** (20542_praise_festival_cashbox): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20546.md** (20546_jericho_wall_studio): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20556.md** (20556_mustard_seed_puppet_caravan): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20565.md** (20565_purple_gear_hymnbook_tote): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20567.md** (20567_psalm_panels_venue): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20569.md** (20569_ark_float): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20594.md** (20594_daniels_whale_float): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20597.md** (20597_olivewood_nativity_craft_swap): B2 student case study header not found; stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20598.md** (20598_write_it_on_your_heart): stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ20603.md** (20603_road_to_emmaus_escape_room): B2 student case study header not found
+- **CQ20605.md** (20605_scripture_quiz_whisper): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20606.md** (20606_lydia_festival_venue): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20627.md** (20627_ruth_hymn_poster_contract): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20636.md** (15010): Pass-1 transform report header not found (older header wording); B2 student case study header not found
+- **CQ20638.md** (20638_advent_rescue_beacons): B2 student case study header not found; stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20649.md** (20649_christmas_pageant_platform): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20654.md** (20654_nativity_ornaments_volition): stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ20690.md** (20690_bethlehem_star_drone): dominant trap not named
+- **CQ20717.md** (20717_ruths_hymn_recording_procedure): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20725.md** (20725_emmaus_laser_cutter): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20727.md** (20727_20727): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20728.md** (20728_star_stable_stall): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20729.md** (20729_courtyard_stormwater): dominant trap not named
+- **CQ20730.md** (20730_shepherd_sling_fair): dominant trap not named
+- **CQ20733.md** (20733_galilee_trails_death_notice): dominant trap not named
+- **CQ20735.md** (20735_bethlehem_donkey_blower): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20737.md** (20737_jonahs_whale_lyre): dominant trap not named
+- **CQ20744.md** (20744_bethlehem_loading_lane): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20760.md** (20760_rubber_stamp_mail_fraud): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20805.md** (20805_psalm_lanterns_confirmation): B2 student case study header not found; stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ20808.md** (20808_jericho_press): stem recovered from Pass-1 markdown (absent in B1 YAML)
+- **CQ20811.md** (20811_illuminated_psalms_solvent): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ21752.md** (21752_olive_oil_ramp): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ21867.md** (21867_psalm_puzzle_booth): dominant trap not named
+- **CQ21869.md** (21869_tiny_house_hymn_sheet): stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ21872.md** (21872_scripturequest_price_gate): B2 student case study header not found
+- **CQ21879.md** (21879_noahs_ark_puppet_set): B2 student case study header not found; stem recovered from Pass-1 markdown (absent in B1 YAML); dominant trap not named
+- **CQ22410.md** (22410): Pass-1 transform report header not found (older header wording); B2 student case study header not found
+
+## Informational notes (PASS files)
+
+- **CQ14680.md** (14680_christian_bookstore_ricochet): selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data
+- **CQ14736.md** (14736_camp_van_crossing): selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data
+- **CQ14859.md** (14859_lakeside-bible-study): selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data
+- **CQ14904.md** (14904_best_evidence_refresh): selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data
+- **CQ20636.md** (15010): selection_percentages.A is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.B is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.C is inherited from the original question's measured row — kept out of focus_group_response_data; selection_percentages.D is inherited from the original question's measured row — kept out of focus_group_response_data

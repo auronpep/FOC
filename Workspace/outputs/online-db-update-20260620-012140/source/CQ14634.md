@@ -1,0 +1,830 @@
+---
+qid: "14634_chapel_bookstore_grab"
+transformed_from: "14634"
+subject: "CRIMINAL"
+topic: "Criminal Law"
+subtopic: "General Principles"
+outline_code: "00000000"
+key: "B"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Mistake is a defense only when it negates a required mental state or recognized unlawfulness gate; strict liability and private legal advice traps usually lose."
+---
+Source basis: the row is BARMATRIX Q# 14634, Criminal Law / General Principles, with B as the official key and pick rates A 18%, B 62%, C 3%, D 17%. The official explanation says B works because the mistake negates the intent/unlawfulness of the assault, while A and C are strict-liability traps and D is private-attorney mistake-of-law bait.  The transformation instructions require Christian-first variation, popular Bible names, preserved rule/trap/outcome, honest pick-rate provenance, Gold/Silver Keys when needed, and full five-block C3 output.   I also reviewed the Reasoning Creed posture: name the pivot, preserve the ambitious goal, and keep optimism bounded by candor. 
+
+# A) PASS-1 TRANSFORM REPORT
+
+## 1. Final question — revised stem + call
+
+**BARMATRIX Q# 14634 — Christian law-school variation**
+
+In which of the following situations would the defendant’s mistake most likely constitute a defense to the crime charged?
+
+## 2. Distilled Core Question
+
+Four defendants made mistakes. Which mistake actually defeats the charged crime: age mistake in strict-liability sale, identity/status mistake during a sudden grab, age mistake in statutory rape, or private lawyer advice about bigamy?
+
+## 3. Final answer choices
+
+**A.** A city ordinance forbids the sale of alcoholic beverages to persons under 18 years of age. At a private Christian law-school wedding reception, **Lydia**, relying on false identification, sells champagne to **Ruth**, a 16-year-old high school student. Lydia is charged with illegal sale of alcoholic beverages.
+
+**B.** Mistaking **Peter** for a laptop-theft suspect, an undercover police officer attempts to arrest him outside a chapel bookstore. Peter, unaware that the person who has grabbed him is an officer, hits him and knocks him unconscious. Peter is charged with assault.
+
+**C.** **Timothy**, age 23, has sexual intercourse with **Martha**, age 15, after Martha tells him that she is 18. Timothy is charged with felony statutory rape under a statute that makes sexual relations with a child under 16 a felony.
+
+**D.** Relying on erroneous advice from his attorney that, if his wife **Esther** has abandoned him for more than a year, he is free to remarry, **Barnabas** remarries **Mary** and is later charged with bigamy.
+
+## 4. Possible replacement answer choices
+
+| Original choice | Original wrong-pick % | Replacement candidate                                                                                        | Mold / filter                      | Use?                                                                                                |
+| --------------- | --------------------: | ------------------------------------------------------------------------------------------------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------------- |
+| A               |         18% inherited | A chapel banquet license forbids selling wine to minors; Lydia sells wine to Ruth after Ruth shows false ID. | `wrong_element` / `NOT_RESPONSIVE` | Not used. Original trap is already strong and preserves dominant wrong answer.                      |
+| C               |          3% inherited | Timothy, age 23, checks a fake ID showing Martha is 18 before the same under-16 statutory-rape charge.       | `wrong_element` / `NOT_RESPONSIVE` | Not used. It would make the same strict-liability point but risks over-signaling “reasonable care.” |
+| D               |         17% inherited | Barnabas relies on a private lawyer’s email saying the abandonment rule lets him remarry.                    | `bait_doctrine` / `NOT_RESPONSIVE` | Not used. Original attorney-advice structure is cleaner and more MBE-like.                          |
+
+All final answer choices are **kept/re-skinned**, so the original percentages are inherited as provenance, not measured data for the new item.
+
+## 5. Correct answer
+
+**B.**
+
+## 6. Full right-answer explanation
+
+**B is correct.** Peter’s mistake is a mistake about the immediate facts: he does not know that the person grabbing him is an officer attempting an arrest. That mistake changes the legal meaning of his force. He thinks he is defending himself from an unlawful grab, so the mistake can negate the intent required for an unlawful assault/battery-style touching.
+
+**Gold Key:** A mistake helps only when it knocks out a required mental-state or unlawfulness gate. It does not help when the offense is strict liability, and it does not usually help when the mistake is only “my lawyer told me the law allowed it.”
+
+**Silver Key:** In a four-situation mistake array, do not ask which defendant was careful. Ask what the mistake changes. B is the only choice where the mistake changes whether the charged force was criminally unlawful.
+
+## 7. Full wrong-answer explanations
+
+**A is wrong.** Lydia’s false-ID mistake is attractive because it feels reasonable. But the charge is the illegal sale of alcohol to a minor, a strict-liability/public-welfare style offense in the MBE default. The age mistake does not negate a required mental state. **Gold Key:** strict-liability age/regulatory offenses give the mistake nothing to knock out.
+
+**C is wrong.** Timothy’s mistake is another age mistake. The statute makes sex with a child under 16 the felony. On the MBE default, statutory rape is treated as strict liability as to age. The mistake may feel factually sympathetic, but it does not defeat the charge.
+
+**D is wrong.** Barnabas made a mistake about the law after private attorney advice. That is the classic lawyerly trap. A mistake-of-law defense is narrow; relying only on a private attorney’s incorrect legal advice is not the same as relying on an official statement of law. **Gold Key:** private lawyer advice is not the official-statement exception.
+
+## 8. Black-letter-law verification and right-answer legal reasoning
+
+The tested rule is unchanged from the source row: a mistake is a defense when it negates the required culpability for the charged offense; it is not a defense to strict-liability offenses, and ordinary private-attorney advice does not create a mistake-of-law defense. The official BarMatrix row confirms B because the defendant’s mistake negates the intent/unlawfulness of the assault; A and C fail because the relevant age/regulatory offenses are strict liability; D fails because private attorney advice is not enough. 
+
+Lawyer-confirmation layer: Model Penal Code § 2.04(1) states the general mistake principle: mistake of fact or law is a defense when it negatives the required culpable mental state for a material element. ([Open Casebook][1]) Public-welfare offenses may be treated as strict liability; *Morissette v. United States* distinguishes traditional intent crimes from public-welfare offenses that may omit a mental-state requirement. ([Justia Law][2]) Selling alcohol to minors is commonly treated as strict liability, so genuine age mistake often does not excuse. ([Justia][3]) For statutory rape, the majority/common MBE treatment treats mistake of age as unavailable absent a special statute. ([Florida Law Review][4]) Mistake of law is narrow; reliance on a statute, judicial decision, or official executive statement may matter, but ordinary private attorney advice is not enough. ([Legal Information Institute][5])
+
+## 9. Why the variation preserves rigor/difficulty
+
+The variation keeps the same four-situation mistake quartet:
+
+1. strict-liability alcohol sale age mistake;
+2. mistake about the facts surrounding an apparent attack/arrest;
+3. statutory-rape age mistake;
+4. private-attorney mistake-of-law advice.
+
+The dominant wrong answer A survives. C remains a low-pull but useful paired strict-liability age distractor. D remains the lawyerly mistake-of-law trap.
+
+## 10. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT:** No answer can be killed as purely false from grammar alone. This is not a hard structural item.
+
+**CLASH:** The array is a four-situation mistake quartet. The axis is: **what does the mistake change?**
+
+**CALL with Gold Key:**
+
+* A: mistake changes age belief only; strict-liability sale leaves no mental-state gate to negate.
+* B: mistake changes whether Peter believed force was unlawful; that hits the mental-state/unlawfulness gate.
+* C: mistake changes age belief only; statutory rape is strict liability as to age on the MBE default.
+* D: mistake changes legal belief only; private attorney advice is not the official-statement exception.
+
+Residual: **B**.
+
+## 11. Review Truth
+
+A mistake is a defense when it negates the charged crime’s required mental state; it does not help against strict-liability offenses or ordinary private-lawyer mistake-of-law advice.
+
+## 12. Five variations considered
+
+|  # | Title                      | Setting / cast                                                                                               | Preserved issue      | Why memorable                                        | Legal risks                                                           | Recommendation                                    |
+| -: | -------------------------- | ------------------------------------------------------------------------------------------------------------ | -------------------- | ---------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------- |
+|  1 | Chapel Bookstore Grab      | Christian law-school wedding / chapel bookstore; Lydia, Ruth, Peter, Timothy, Martha, Barnabas, Esther, Mary | Full mistake quartet | Clean Christian/law-school skin; no clutter doctrine | Minimal                                                               | **Chosen.** Best balance of flavor and MBE rigor. |
+|  2 | Bible Camp Security Mix-Up | Camp store, youth event, security guard                                                                      | Same                 | Vivid                                                | Youth-camp setting risks over-cluttering C and First Amendment optics | Not chosen.                                       |
+|  3 | Moot Court Banquet         | Law-school banquet, officer in plain clothes                                                                 | Same                 | Strong law-school flavor                             | Less openly Christian                                                 | Not chosen.                                       |
+|  4 | Church Coffeehouse License | Private coffeehouse event                                                                                    | Same                 | Good A/D                                             | Alcohol sale at church-owned property could create clutter optics     | Not chosen.                                       |
+|  5 | Fellowship Retreat Quartet | Retreat lodging, private event                                                                               | Same                 | Memorable                                            | Too many church-internal facts; over-signals morality                 | Not chosen.                                       |
+
+---
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
+
+# B) PASS-2 FIVE BLOCKS
+
+## 1. Question YAML
+
+```yaml
+barmatrix_row:
+  question_id: "14634_chapel_bookstore_grab"
+  transformed_from: "14634"
+  subject: "CRIMINAL"
+  topic: "Criminal Law"
+  subtopic: "General Principles"
+  source_qid: "14634"
+  selection_percentages:
+    A:
+      pct: 18
+      provenance: "inherited_original_wrong_pick_rate"
+    B:
+      pct: 62
+      provenance: "inherited_original_correct_pick_rate"
+    C:
+      pct: 3
+      provenance: "inherited_original_wrong_pick_rate"
+    D:
+      pct: 17
+      provenance: "inherited_original_wrong_pick_rate"
+  official_key: "B"
+  call: "In which situation would the defendant's mistake most likely constitute a defense to the crime charged?"
+  stem: "In which of the following situations would the defendant’s mistake most likely constitute a defense to the crime charged?"
+  choices:
+    A: "A city ordinance forbids the sale of alcoholic beverages to persons under 18 years of age. At a private Christian law-school wedding reception, Lydia, relying on false identification, sells champagne to Ruth, a 16-year-old high school student. Lydia is charged with illegal sale of alcoholic beverages."
+    B: "Mistaking Peter for a laptop-theft suspect, an undercover police officer attempts to arrest him outside a chapel bookstore. Peter, unaware that the person who has grabbed him is an officer, hits him and knocks him unconscious. Peter is charged with assault."
+    C: "Timothy, age 23, has sexual intercourse with Martha, age 15, after Martha tells him that she is 18. Timothy is charged with felony statutory rape under a statute that makes sexual relations with a child under 16 a felony."
+    D: "Relying on erroneous advice from his attorney that, if his wife Esther has abandoned him for more than a year, he is free to remarry, Barnabas remarries Mary and is later charged with bigamy."
+
+source_stack:
+  priority_1_barmatrix_row: "Official row and explanation for Q14634."
+  priority_2_existing_c3_tags: "No item-specific C3 tags supplied; subject overlays and master deck used as hypotheses only."
+  priority_3_c3_method: "TRUE + RESPONSIVE; Cut → Clash → Call; anchor escalation when structure runs out."
+  priority_4_official_explanation: "Used only in lawyer_confirmation."
+  reasoning_creed_application:
+    pivot: "What does the mistake change?"
+    conservative_shell: "No doctrine-changing story facts added."
+    candor_limit: "Student-facing path is anchor-assisted, not hard structural."
+
+student_access_contract:
+  allowed_lessons:
+    - "L1 TRUE and RESPONSIVE"
+    - "L2 Ear vs Issue-Sense; Cut → Clash → Call"
+    - "L3 Rules vs Standards"
+    - "L7 Predict before peek"
+    - "L8 Not-responsive molds"
+    - "L12 Anchors"
+    - "L13 Calibration"
+    - "L14 Integration"
+  allowed_gold_keys:
+    - "GK-CRIM-MISTAKE-GATE-01"
+    - "GK-CRIM-MISTAKE-LAW-02"
+  allowed_silver_keys:
+    - "SK-CRIM-MISTAKE-QUARTET-01"
+  controlling_test_limit: "Do not call A, C, or D false from grammar alone. Each cut needs the Gold Key."
+
+stem_parse:
+  call_type: "positive_best_situation"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Which mistake seems reasonable or sympathetic?"
+  precise_call: "Which mistake most likely constitutes a defense to the charged crime?"
+  prediction_before_choices: "Find the mistake that negates a required mental-state/unlawfulness gate."
+
+trigger_facts:
+  - fact: "A: age mistake in illegal alcohol sale to a person under 18"
+    access_label: "anchor_assisted"
+    function: "strict-liability public-welfare trap"
+  - fact: "B: defendant is grabbed by an undercover officer and does not know the grabber is an officer"
+    access_label: "anchor_assisted"
+    function: "mistake affects whether force appeared unlawful"
+  - fact: "C: age mistake in statutory rape under an under-16 statute"
+    access_label: "anchor_assisted"
+    function: "strict-liability statutory-rape trap"
+  - fact: "D: private attorney gives wrong bigamy advice"
+    access_label: "anchor_assisted"
+    function: "mistake-of-law trap"
+
+c3_routing:
+  subject_fit: "Criminal Law = offense category + mental-state gate + defense effect."
+  governing_law_type: "RULE"
+  deciding_phase: "CALL"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: 2
+  tension_axis: "mistake negates required mens rea/unlawfulness vs mistake only affects strict-liability or legal-advice trap"
+
+answer_array:
+  architecture: "four-situation mistake quartet"
+  silver_key_id: "SK-CRIM-MISTAKE-QUARTET-01"
+  geometry_preserved: true
+  original_geometry: "strict-liability age mistake / fact mistake negating unlawful force / statutory-rape age mistake / private attorney mistake of law"
+  dominant_trap_preserved:
+    choice: "A"
+    original_pct: 18
+    note: "Highest wrong-answer pick rate; preserved as strict-liability false-ID sale trap."
+
+choice_walkthroughs:
+  A:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "attractive_wrong_answer"
+      - "common_student_myth"
+      - "wrong_mental_state"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Age mistake, but wrong gate."
+    c3_signal: "The choice proves a mistake, but the mistake does not answer whether the offense requires a mental state about age."
+    lawyer_confirmation: "Illegal sale to a minor is treated as strict liability on the MBE default; false ID does not negate a required mens rea."
+  B:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Mistake hits unlawful-force gate."
+    c3_signal: "The mistake changes whether Peter believed his force was criminally unlawful."
+    lawyer_confirmation: "Mistake of fact can negate required culpability or support apparent self-defense; this is the credited answer."
+  C:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "wrong_element"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "common_student_myth"
+      - "wrong_mental_state"
+      - "exception_hunting"
+    method_class: "anchor_assisted"
+    student_label: "Age mistake, but statutory-rape strict-liability trap."
+    c3_signal: "The answer proves a mistake about age, but the charged offense does not turn on that belief under the MBE default."
+    lawyer_confirmation: "Statutory rape is treated as strict liability as to age on the MBE default unless the statute says otherwise."
+  D:
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "sounds_lawyerly"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Private lawyer advice, not official law."
+    c3_signal: "The choice points to a law mistake, but the official-statement exception is not triggered."
+    lawyer_confirmation: "Private attorney advice does not create the narrow mistake-of-law defense."
+
+residual_answer:
+  choice: "B"
+  reason: "Only B contains a mistake that changes a required culpability/unlawfulness gate."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - "The array is a mistake quartet."
+    - "The deciding question is what the mistake changes."
+    - "A and C require the strict-liability Gold Key."
+    - "D requires the mistake-of-law Gold Key."
+  quarantined_to_lawyer_confirmation:
+    - "Alcohol sale to minors as strict liability/public-welfare offense."
+    - "Statutory rape strict liability as to age under MBE default."
+    - "Private attorney advice not sufficient for mistake-of-law defense."
+  drift_audit: "No distractor is declared false from grammar alone; all doctrinal cuts are Gold-Key/anchor-assisted."
+
+gold_keys:
+  - id: "GK-CRIM-MISTAKE-GATE-01"
+    statement: "A mistake helps when it negates a required mental-state or unlawfulness gate. It does not help when the offense is strict liability."
+    type: "distinction"
+    unlocks: "The difference between B and the strict-liability age traps in A and C."
+    trigger: "A mistake-of-fact answer set with age/regulatory crimes and an assault/self-defense-looking fact."
+    tested_choice: "A,C,B"
+    authority: "MPC 2.04(1); Morissette public-welfare doctrine; official Q14634 explanation."
+    last_minute_review: true
+  - id: "GK-CRIM-MISTAKE-LAW-02"
+    statement: "Private attorney advice is not the official-statement mistake-of-law exception."
+    type: "exception"
+    unlocks: "The bigamy lawyer-advice trap in D."
+    trigger: "The defendant says a private lawyer told him the conduct was legal."
+    tested_choice: "D"
+    authority: "MPC 2.04(3); official-statement doctrine."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CRIM-MISTAKE-QUARTET-01"
+    statement: "In a four-situation mistake array, ask what the mistake changes: mental-state gate, strict-liability fact, or law-advice belief."
+    type: "answer_array"
+    navigates: "The four parallel scenarios without over-reading sympathy or reasonableness."
+    trigger: "Call asks which defendant's mistake is a defense."
+    tested_choice: "B"
+    outline_code: "00000000"
+    last_minute_review: true
+
+remediation:
+  card_id: "CRIM-REM-MISTAKE-GATE-01"
+  title: "Mistake Changes Which Gate?"
+  signal: "Multiple answer choices all contain a plausible mistake."
+  student_move: "Sort the mistake by what it changes."
+  tiny_rule: "Mistake wins only if it negates a required mental state or recognized justification gate."
+  trap: "Picking the most sympathetic or careful defendant."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Which mistake is a defense: false ID in alcohol sale, mistaken grabber in assault, age lie in statutory rape, or lawyer advice in bigamy?"
+review_truth: "Mistake is a defense only when it negates a required mental state or recognized unlawfulness gate; strict liability and private legal advice traps usually lose."
+
+case_study_output:
+  final_student_script: "This is a mistake quartet. A and C are age mistakes in strict-liability traps. D is private-lawyer mistake of law. B is a fact mistake that changes whether the force was unlawful. Pick B."
+  review_truth: "Mistake must hit the charged crime's gate."
+
+quality_control:
+  rule_answer_issue_unchanged: true
+  dominant_trap_survives: true
+  stem_not_over_signaled: true
+  no_clutter_doctrine_added: true
+  popular_bible_names_only: true
+  christian_first: true
+  exactly_three_single_filter_distractors: true
+  residual_equals_official_key: true
+  bank_validation_verdict_available: "PASS"
+  pick_rate_provenance_honest: true
+  transformed_from_present: true
+  drift_audit_present: true
+
+analytics_hooks:
+  tested_gold_keys:
+    - "GK-CRIM-MISTAKE-GATE-01"
+    - "GK-CRIM-MISTAKE-LAW-02"
+  tested_silver_keys:
+    - "SK-CRIM-MISTAKE-QUARTET-01"
+  trap_families:
+    - "strict_liability_age_mistake"
+    - "private_attorney_mistake_of_law"
+    - "sympathetic_reasonable_mistake"
+  likely_wrong_answer_paths:
+    A: "Student thinks false ID/reasonableness matters."
+    C: "Student over-applies mistake of age."
+    D: "Student thinks lawyer advice is enough."
+```
+
+## 2. Student case study
+
+### program_frame
+
+This is a **Criminal Law mistake-defense quartet**. The test is not asking which defendant was careful. It is asking which mistake actually defeats the charged crime.
+
+### student_access_test
+
+A student can see the array shape: all four choices involve a defendant making a mistake. But the result cannot be solved honestly from grammar alone. The cuts require the mistake-defense Gold Keys. This is **ANCHOR_SOLVE**, not hard structural.
+
+### question_data
+
+* **Question ID:** 14634_chapel_bookstore_grab
+* **Transformed from:** 14634
+* **Subject:** CRIMINAL
+* **Topic:** Criminal Law
+* **Subtopic:** General Principles
+* **Official key:** B
+* **Inherited pick rates:** A 18%, B 62%, C 3%, D 17%
+
+### distilled_core_question
+
+Which mistake is a defense: false ID in alcohol sale, mistaken grabber in assault, age lie in statutory rape, or lawyer advice in bigamy?
+
+### call_and_prediction
+
+**Call:** Which defendant’s mistake most likely constitutes a defense?
+
+**Prediction:** The winner must be the mistake that changes a required mental-state or unlawfulness gate.
+
+### trigger_facts
+
+* **A:** false ID + sale of alcohol to a 16-year-old.
+* **B:** defendant is grabbed, does not know the grabber is an officer, and uses force.
+* **C:** 23-year-old defendant, 15-year-old complainant, age lie, under-16 statute.
+* **D:** attorney gives wrong bigamy advice.
+
+### governing_c3_lane
+
+**Criminal Law FIT:** offense category + mental-state gate + defense effect.
+
+**Lane:** CALL with Gold Key. The array is visible, but the legal unlock is anchor-dependent.
+
+### choice_by_choice_walkthrough
+
+#### A
+
+1. **Student-accessible C3 signal:** A proves a mistake, but the mistake is only about age in a regulatory sale offense.
+2. **Student label:** Wrong gate.
+3. **True/responsive version:** A would work if the alcohol-sale offense required Lydia to know Ruth’s age or required intent to sell to a minor.
+4. **Lawyer confirmation:** The MBE default treats this as strict liability, so false ID does not negate a required mental state.
+
+#### B
+
+1. **Student-accessible C3 signal:** B is the only choice where the mistake changes whether the force looked unlawful.
+2. **Student label:** Mistake hits the gate.
+3. **True/responsive version:** This is the true/responsive version: the fact mistake supports apparent self-defense or negates unlawful-force intent.
+4. **Lawyer confirmation:** Mistake of fact can defeat culpability when it negates the required mental state; B matches the official key.
+
+#### C
+
+1. **Student-accessible C3 signal:** C is another age mistake. It looks like A in a more emotionally loaded setting.
+2. **Student label:** Strict-liability age trap.
+3. **True/responsive version:** C would work if the statute allowed a reasonable mistake-of-age defense.
+4. **Lawyer confirmation:** On the MBE default and the supplied explanation, statutory rape is strict liability as to age.
+
+#### D
+
+1. **Student-accessible C3 signal:** D is a law mistake based on private attorney advice.
+2. **Student label:** Lawyer-advice trap.
+3. **True/responsive version:** D would look stronger if Barnabas relied on an official statute, court decision, or authorized public official’s formal interpretation.
+4. **Lawyer confirmation:** Private attorney advice alone does not create the narrow mistake-of-law defense.
+
+### residual_answer
+
+After the Gold Key sort, only **B** survives.
+
+### legal_leak_audit
+
+* A and C are not cut from grammar. They are cut only after the strict-liability Gold Key.
+* D is not cut from grammar. It is cut only after the mistake-of-law Gold Key.
+* B is credited because the mistake changes the unlawful-force/mental-state gate.
+* No lawyer-only doctrine is converted into fake structure.
+
+**Drift audit:** anchor-dependent item; all doctrine is marked as Gold-Key or lawyer-confirmation material.
+
+### final_student_script
+
+“This is a mistake quartet. Don’t pick the most sympathetic mistake. Ask what the mistake changes. A and C are age mistakes in strict-liability traps. D is private lawyer mistake-of-law advice. B changes whether the force was criminally unlawful. Pick B.”
+
+### remediation_card
+
+**Card:** CRIM-REM-MISTAKE-GATE-01 — Mistake Changes Which Gate?
+**Signal:** Four answers all involve mistake.
+**Move:** Ask whether the mistake negates mens rea/unlawfulness or only supplies sympathy.
+**Tiny rule:** Mistake wins only when it hits a required legal gate.
+**Trap:** Reasonableness without a legal gate.
+
+### Gold Key(s)
+
+**GK-CRIM-MISTAKE-GATE-01:** A mistake helps when it negates a required mental-state or unlawfulness gate. It does not help when the offense is strict liability.
+
+**GK-CRIM-MISTAKE-LAW-02:** Private attorney advice is not the official-statement mistake-of-law exception.
+
+### Silver Key(s)
+
+**SK-CRIM-MISTAKE-QUARTET-01:** In a four-situation mistake array, ask what the mistake changes: mental-state gate, strict-liability fact, or law-advice belief.
+
+### qa_checklist
+
+* Rule unchanged: yes.
+* Correct answer unchanged: yes.
+* Dominant trap A preserved: yes.
+* C3 verdict forced? no.
+* Anchor-dependence disclosed: yes.
+* Pick-rate provenance honest: yes.
+* No added constitutional/church-law issue: yes.
+
+### wrong_answer_recovery_paths
+
+* **A:** Student overvalues false ID. Recovery: ask whether the offense requires knowledge of age.
+* **C:** Student overgeneralizes mistake of fact. Recovery: check strict-liability age crimes.
+* **D:** Student thinks “lawyer said so” is enough. Recovery: ask whether the advice was official law.
+
+### outline_mastery_map
+
+**Placement:** Criminal Law → General Principles → Mistake of fact / mistake of law / strict liability.
+**This item teaches:** mistake is not a universal defense.
+**Adjacent anchors:** strict liability, statutory rape, public-welfare offenses, mistake of law.
+
+### crossover_intersection_map
+
+* **Torts crossover:** self-defense / apparent unlawfulness.
+* **Evidence crossover:** not applicable.
+* **Con Law crossover:** none; no state-action or rights overlay.
+* **Crim Pro crossover:** undercover officer fact is not the issue; the issue is the defendant’s mistake about the grab.
+
+### review_truth
+
+Mistake is a defense only when it negates a required mental state or recognized unlawfulness gate; strict liability and private legal advice traps usually lose.
+
+## 3. c3_annotation
+
+```json
+{
+  "question_id": "14634_chapel_bookstore_grab",
+  "subject": "CRIMINAL",
+  "credited_answer": "B",
+  "outline_code": "00000000",
+  "distilled_core_question": "Which mistake is a defense: false ID in alcohol sale, mistaken grabber in assault, age lie in statutory rape, or lawyer advice in bigamy?",
+  "review_truth": "Mistake is a defense only when it negates a required mental state or recognized unlawfulness gate; strict liability and private legal advice traps usually lose.",
+  "c3": {
+    "verdict": "PASS",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CALL",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "mistake negates required mental state/unlawfulness vs mistake affects strict-liability fact or private law advice",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "Gold Key: mistake gate sort",
+    "difficulty": 2,
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MISTAKE-GATE-01",
+        "explanation": "The false-ID fact proves mistake, but the mistake does not hit a required mental-state gate for a strict-liability alcohol-sale offense."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "wrong_element",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MISTAKE-GATE-01",
+        "explanation": "The age lie proves mistake, but statutory rape is treated as strict liability as to age on the MBE default."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "GK-CRIM-MISTAKE-LAW-02",
+        "explanation": "The answer invokes the mistake-of-law neighborhood, but private attorney advice is not the official-statement exception."
+      }
+    ],
+    "analyzer_notes": "drift_audit: anchor-dependent item; no choice was called false from grammar alone; all doctrine used for A/C/D is quarantined in Gold Keys and lawyer_confirmation. transformed_from: 14634",
+    "gold_keys": [
+      {
+        "id": "GK-CRIM-MISTAKE-GATE-01",
+        "statement": "A mistake helps when it negates a required mental-state or unlawfulness gate. It does not help when the offense is strict liability.",
+        "type": "distinction",
+        "unlocks": "B over A and C",
+        "trigger": "A mistake-of-fact answer set with age/regulatory crimes and an assault/self-defense-looking fact.",
+        "tested_choice": "A,C,B",
+        "authority": "MPC 2.04(1); Morissette; official Q14634 explanation.",
+        "last_minute_review": true
+      },
+      {
+        "id": "GK-CRIM-MISTAKE-LAW-02",
+        "statement": "Private attorney advice is not the official-statement mistake-of-law exception.",
+        "type": "exception",
+        "unlocks": "D",
+        "trigger": "The defendant relies on a private lawyer's wrong statement that the conduct is lawful.",
+        "tested_choice": "D",
+        "authority": "MPC 2.04(3); official-statement doctrine.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CRIM-MISTAKE-QUARTET-01",
+        "statement": "In a four-situation mistake array, ask what the mistake changes: mental-state gate, strict-liability fact, or law-advice belief.",
+        "type": "answer_array",
+        "navigates": "The parallel mistake scenarios.",
+        "trigger": "The call asks which defendant's mistake is a defense.",
+        "tested_choice": "B",
+        "outline_code": "00000000",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+## 4. program_elements
+
+```json
+{
+  "question_id": "14634_chapel_bookstore_grab",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Which mistake is a defense: false ID in alcohol sale, mistaken grabber in assault, age lie in statutory rape, or lawyer advice in bigamy?",
+  "review_truth": "Mistake is a defense only when it negates a required mental state or recognized unlawfulness gate; strict liability and private legal advice traps usually lose.",
+  "tension": {
+    "axis": "mistake that negates mens rea/unlawfulness vs mistake that does not matter to the charged offense",
+    "resolver": "what the mistake changes"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "False ID makes the defendant look careful and reasonable.",
+      "focus_group_pct": 18
+    },
+    {
+      "choice": "C",
+      "mold": "wrong_element",
+      "architecture": "wrong_frame",
+      "why_attractive": "The age lie looks like a classic mistake of fact.",
+      "focus_group_pct": 3
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "Lawyer advice sounds official and lawyerly.",
+      "focus_group_pct": 17
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CRIM-REM-MISTAKE-GATE-01",
+    "title": "Mistake Changes Which Gate?",
+    "signal": "Every answer choice contains a mistake.",
+    "student_move": "Ask what legal gate the mistake changes.",
+    "tiny_rule": "Mistake works only if it negates required culpability or recognized unlawfulness.",
+    "trap": "Picking the sympathetic or reasonable mistake.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "strict_liability_age_mistake",
+    "mistake_of_law_private_advice",
+    "sympathy_over_gate",
+    "four_situation_quartet"
+  ]
+}
+```
+
+## 5. program_intelligence
+
+```json
+{
+  "question_id": "14634_chapel_bookstore_grab",
+  "subject": "CRIMINAL",
+  "outline_code": "00000000",
+  "distilled_core_question": "Which mistake is a defense: false ID in alcohol sale, mistaken grabber in assault, age lie in statutory rape, or lawyer advice in bigamy?",
+  "review_truth": "Mistake is a defense only when it negates a required mental state or recognized unlawfulness gate; strict liability and private legal advice traps usually lose.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student treats careful ID reliance as legally enough.",
+      "skipped_move": "Gold Key: strict liability gives mistake no mental-state gate to negate.",
+      "recovery_step": "Ask whether the charged offense requires knowledge of age."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "wrong_element",
+      "why_a_student_picks_this": "The student overgeneralizes mistake of fact to every age mistake.",
+      "skipped_move": "Gold Key: statutory rape is treated as strict liability as to age on the MBE default.",
+      "recovery_step": "Separate ordinary mens rea crimes from strict-liability age crimes."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The student treats a lawyer's advice as official permission.",
+      "skipped_move": "Gold Key: private attorney advice is not the official-statement exception.",
+      "recovery_step": "Ask whether the legal statement came from official law or only private counsel."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "answer_array_sort",
+      "target_skill": "mistake quartet sorting",
+      "prompt": "Sort four mistake scenarios into: strict liability, mens rea negation, mistake of law, or irrelevant sympathy.",
+      "answer": "Pick the scenario where the mistake negates the required mental-state/unlawfulness gate."
+    },
+    {
+      "drill_type": "gold_key_recall",
+      "target_skill": "strict liability vs mens rea mistake",
+      "prompt": "A defendant reasonably mistakes a buyer's age in a strict-liability age-regulated sale. Defense?",
+      "answer": "No; the mistake does not negate a required mental-state element."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "private attorney advice trap",
+      "prompt": "A lawyer privately tells a defendant the conduct is legal. Does that automatically create mistake-of-law defense?",
+      "answer": "No; private attorney advice is not the official-statement exception."
+    },
+    {
+      "drill_type": "credited_pattern",
+      "target_skill": "mistake negating unlawful force",
+      "prompt": "A defendant uses force after honestly mistaking a grabber for a private attacker. What does the mistake change?",
+      "answer": "It changes whether the force appeared unlawful and can support a defense."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "four_situation_quartet",
+      "strict_liability_pair",
+      "lawyer_advice_bait",
+      "mens_rea_gate"
+    ],
+    "misconception_tags": [
+      "all_reasonable_mistakes_are_defenses",
+      "fake_id_excuses_strict_liability",
+      "lawyer_advice_equals_law",
+      "age_lie_excuses_statutory_rape"
+    ]
+  },
+  "component_routing": [
+    {
+      "component": "C3 Lesson 2",
+      "reason": "Ear vs Issue-Sense and Cut-Clash-Call."
+    },
+    {
+      "component": "C3 Lesson 8",
+      "reason": "Wrong-element and bait-doctrine tagging."
+    },
+    {
+      "component": "C3 Lesson 12",
+      "reason": "Anchor escalation."
+    },
+    {
+      "component": "C3 Lesson 13",
+      "reason": "Anchor-assisted confidence calibration."
+    }
+  ],
+  "crossovers": [
+    {
+      "area": "Torts",
+      "connection": "apparent self-defense / unlawful touching framing"
+    },
+    {
+      "area": "Criminal Procedure",
+      "connection": "undercover officer fact is background; the issue remains mistake and assault intent"
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CRIM-MISTAKE-GATE-01",
+      "statement": "A mistake helps when it negates a required mental-state or unlawfulness gate. It does not help when the offense is strict liability.",
+      "type": "distinction",
+      "unlocks": "A/C strict-liability traps and B credited answer",
+      "trigger": "Mistake-of-fact answer set with strict-liability and assault scenarios.",
+      "tested_choice": "A,C,B",
+      "authority": "MPC 2.04(1); Morissette; official Q14634 explanation.",
+      "last_minute_review": true
+    },
+    {
+      "id": "GK-CRIM-MISTAKE-LAW-02",
+      "statement": "Private attorney advice is not the official-statement mistake-of-law exception.",
+      "type": "exception",
+      "unlocks": "D lawyer-advice trap",
+      "trigger": "Private attorney tells defendant conduct is legal.",
+      "tested_choice": "D",
+      "authority": "MPC 2.04(3); official-statement doctrine.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CRIM-MISTAKE-QUARTET-01",
+      "statement": "In a four-situation mistake array, ask what the mistake changes: mental-state gate, strict-liability fact, or law-advice belief.",
+      "type": "answer_array",
+      "navigates": "Parallel mistake scenarios.",
+      "trigger": "Call asks which mistake is a defense.",
+      "tested_choice": "B",
+      "outline_code": "00000000",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Criminal Law > General Principles > Mistake",
+    "this_item_teaches": "Mistake is not universal; it must defeat the charged crime's legal gate.",
+    "fills": [
+      "mistake_of_fact",
+      "mistake_of_law",
+      "strict_liability",
+      "assault_unlawful_force"
+    ],
+    "adjacent_to_master": [
+      "public_welfare_offenses",
+      "statutory_rape",
+      "official_statement_exception",
+      "self_defense"
+    ]
+  }
+}
+```
+
+[1]: https://opencasebook.org/casebooks/3185-tanaka-criminal-law-casebook/resources/7.1-mpc-204-ignorance-or-mistake/?utm_source=chatgpt.com "MPC 2.04 Ignorance or Mistake | H2O"
+[2]: https://supreme.justia.com/cases/federal/us/342/246/?utm_source=chatgpt.com "Morissette v. United States | 342 U.S. 246 (1952)"
+[3]: https://www.justia.com/criminal/drunk-driving-dui-dwi/alcohol-related-crimes/selling-or-supplying-alcohol-to-a-minor/?utm_source=chatgpt.com "Selling or Supplying Alcohol to a Minor"
+[4]: https://www.floridalawreview.com/article/78871-criminal-law-mistake-of-age-as-defense-to-statutory-rape.pdf?utm_source=chatgpt.com "Criminal Law: Mistake of Age as Defense to Statutory Rape"
+[5]: https://www.law.cornell.edu/wex/mistake_of_law?utm_source=chatgpt.com "mistake of law | Wex | US Law | LII / Legal Information Institute"

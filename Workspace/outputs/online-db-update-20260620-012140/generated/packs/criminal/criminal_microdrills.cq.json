@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "MICRO-14555_private_bookstore_plea-1",
+    "source_qid": "14555_private_bookstore_plea",
+    "drill_type": "call_focus",
+    "target_skill": "sort plea-relief grounds",
+    "prompt": "A defendant moves to set aside a guilty plea. One answer concerns a pending suppression motion; one concerns the right to jury trial. Which door is the plea-waiver door?",
+    "answer": "The right-to-jury-trial door.",
+    "tension_slug": "plea-waiver-defect-vs-neighboring-pretrial-merits-discovery-defect",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14555_private_bookstore_plea-2",
+    "source_qid": "14555_private_bookstore_plea",
+    "drill_type": "gold_key_recall",
+    "target_skill": "Boykin waiver rights",
+    "prompt": "Name the core trial-right waiver tested when a guilty plea is accepted.",
+    "answer": "Knowing and voluntary waiver of jury trial, confrontation, and self-incrimination rights; this item tests jury trial.",
+    "tension_slug": "plea-waiver-defect-vs-neighboring-pretrial-merits-discovery-defect",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14555_private_bookstore_plea-3",
+    "source_qid": "14555_private_bookstore_plea",
+    "drill_type": "trap_recovery",
+    "target_skill": "dominant trap A",
+    "prompt": "Why is an unresolved pretrial delay motion not the best ground to set aside this guilty plea?",
+    "answer": "It does not show that the plea itself was unknowing or involuntary.",
+    "tension_slug": "plea-waiver-defect-vs-neighboring-pretrial-merits-discovery-defect",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14610_timothy_grand_jury-1",
+    "source_qid": "14610_timothy_grand_jury",
+    "drill_type": "call_focus",
+    "target_skill": "violation_vs_remedy",
+    "prompt": "Grand jury heard illegally seized evidence; defendant moves to dismiss indictment. What is the first C3 question?",
+    "answer": "Does the violation carry dismissal of the indictment, not merely suppression?",
+    "tension_slug": "constitutional-sounding-defect-vs-indictment-invalidating-defect",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14610_timothy_grand_jury-2",
+    "source_qid": "14610_timothy_grand_jury",
+    "drill_type": "gold_key_recall",
+    "target_skill": "grand_jury_counsel_anchor",
+    "prompt": "A grand jury witness wants counsel inside the grand jury room. Is that constitutionally required?",
+    "answer": "No.",
+    "tension_slug": "constitutional-sounding-defect-vs-indictment-invalidating-defect",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14610_timothy_grand_jury-3",
+    "source_qid": "14610_timothy_grand_jury",
+    "drill_type": "because_clause",
+    "target_skill": "right_result_wrong_reason",
+    "prompt": "An answer says 'No, because the witness waived his rights.' The stem also raises illegally seized evidence. What is the defect?",
+    "answer": "The because-clause skips an independent dismissal theory and is not responsive.",
+    "tension_slug": "constitutional-sounding-defect-vs-indictment-invalidating-defect",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14616_good_shepherd_cyber_watch-1",
+    "source_qid": "14616_good_shepherd_cyber_watch",
+    "drill_type": "answer_array",
+    "target_skill": "timeline split",
+    "prompt": "A private person searches once, then an agent encourages a second search. Choices are all / none / second only. What is the first move?",
+    "answer": "Split the timeline at the agent event.",
+    "tension_slug": "private-first-search-vs-government-induced-second-search",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14616_good_shepherd_cyber_watch-2",
+    "source_qid": "14616_good_shepherd_cyber_watch",
+    "drill_type": "bait_architecture",
+    "target_skill": "violation_vs_remedy",
+    "prompt": "A choice says suppress all because a statute was violated. What question must you ask?",
+    "answer": "Does the statute violation create this suppression remedy?",
+    "tension_slug": "private-first-search-vs-government-induced-second-search",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14616_good_shepherd_cyber_watch-3",
+    "source_qid": "14616_good_shepherd_cyber_watch",
+    "drill_type": "gold_key",
+    "target_skill": "private_search_government_agent",
+    "prompt": "When does a private search start implicating the Fourth Amendment?",
+    "answer": "When the private actor acts as a government instrument or agent.",
+    "tension_slug": "private-first-search-vs-government-induced-second-search",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14619-1",
+    "source_qid": "14619",
+    "drill_type": "answer_array",
+    "target_skill": "2x2 matrix labeling",
+    "prompt": "An array says both / first only / second only / neither. What is your first move?",
+    "answer": "Label each issue separately before choosing.",
+    "tension_slug": "element-burden-vs-affirmative-defense-burden",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14619-2",
+    "source_qid": "14619",
+    "drill_type": "gold_key",
+    "target_skill": "element vs affirmative-defense burden",
+    "prompt": "Who bears the burden on statutory elements in a criminal case?",
+    "answer": "The prosecution beyond a reasonable doubt.",
+    "tension_slug": "element-burden-vs-affirmative-defense-burden",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14619-3",
+    "source_qid": "14619",
+    "drill_type": "gold_key",
+    "target_skill": "affirmative-defense burden",
+    "prompt": "May a defendant carry the burden of persuasion for a true affirmative defense?",
+    "answer": "Yes, if it does not negate an element the prosecution must prove.",
+    "tension_slug": "element-burden-vs-affirmative-defense-burden",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14619-4",
+    "source_qid": "14619",
+    "drill_type": "trap_recovery",
+    "target_skill": "dominant trap A",
+    "prompt": "Why is 'both burden shifts violate due process' too broad here?",
+    "answer": "Only wife status is the element-side issue; reasonable belief in consent is defense-side.",
+    "tension_slug": "element-burden-vs-affirmative-defense-burden",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14620-1",
+    "source_qid": "14620",
+    "drill_type": "anchor_flash",
+    "target_skill": "double-jeopardy attachment",
+    "prompt": "When does jeopardy attach in a jury trial?",
+    "answer": "When the jury is empaneled and sworn.",
+    "tension_slug": "preliminary-hearing-dismissal-vs-trial-stage-jeopardy-attachment",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14620-2",
+    "source_qid": "14620",
+    "drill_type": "anchor_flash",
+    "target_skill": "double-jeopardy attachment",
+    "prompt": "When does jeopardy attach in a bench trial?",
+    "answer": "When the court begins to hear evidence / the first witness is sworn.",
+    "tension_slug": "preliminary-hearing-dismissal-vs-trial-stage-jeopardy-attachment",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14620-3",
+    "source_qid": "14620",
+    "drill_type": "array_read",
+    "target_skill": "same-result wrong-reason",
+    "prompt": "Two answers both say Deny. One says no jeopardy yet; the other says no conviction/acquittal yet. Which is safer?",
+    "answer": "No jeopardy yet.",
+    "tension_slug": "preliminary-hearing-dismissal-vs-trial-stage-jeopardy-attachment",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14620-4",
+    "source_qid": "14620",
+    "drill_type": "issue_sense",
+    "target_skill": "pretrial vs trial",
+    "prompt": "Preliminary hearing dismissed for no probable cause. Trial started?",
+    "answer": "No.",
+    "tension_slug": "preliminary-hearing-dismissal-vs-trial-stage-jeopardy-attachment",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14626_lydias_sentencing_plan-1",
+    "source_qid": "14626_lydias_sentencing_plan",
+    "drill_type": "gold_key_recall",
+    "target_skill": "lawyer representative privilege",
+    "prompt": "A lawyer hires a nonlawyer consultant to interview the client for legal strategy. Is the communication automatically unprivileged because the consultant is not a lawyer?",
+    "answer": "No. A lawyer's representative can be inside privilege when assisting legal representation.",
+    "tension_slug": "lawyer-representative-privilege-vs-ordinary-grand-jury-evidence-rule-laxity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14626_lydias_sentencing_plan-2",
+    "source_qid": "14626_lydias_sentencing_plan",
+    "drill_type": "trap_spotting",
+    "target_skill": "grand jury half-truth",
+    "prompt": "Grand jury proceedings relax ordinary trial evidence rules. Does that mean attorney-client privilege does not apply?",
+    "answer": "No. Privilege rules still apply.",
+    "tension_slug": "lawyer-representative-privilege-vs-ordinary-grand-jury-evidence-rule-laxity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14626_lydias_sentencing_plan-3",
+    "source_qid": "14626_lydias_sentencing_plan",
+    "drill_type": "because_check",
+    "target_skill": "right result wrong reason",
+    "prompt": "The motion should be denied, but the answer says denied because no probable cause showed relevance. What is the defect?",
+    "answer": "Correct result, fabricated threshold.",
+    "tension_slug": "lawyer-representative-privilege-vs-ordinary-grand-jury-evidence-rule-laxity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14626_lydias_sentencing_plan-4",
+    "source_qid": "14626_lydias_sentencing_plan",
+    "drill_type": "choice_role_sort",
+    "target_skill": "wrong element",
+    "prompt": "Choice says granted because the consultant is not an attorney. What question does it answer, and what question should it answer?",
+    "answer": "It answers literal attorney status. It should answer whether the consultant was a lawyer's representative for legal representation.",
+    "tension_slug": "lawyer-representative-privilege-vs-ordinary-grand-jury-evidence-rule-laxity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14627_galilee_honey_farm-1",
+    "source_qid": "14627_galilee_honey_farm",
+    "drill_type": "call_focus",
+    "target_skill": "statement layer vs search layer",
+    "prompt": "The call asks whether a confession is suppressed. One answer discusses warrantless entry. What is the first C3 move?",
+    "answer": "Treat the entry answer as adjacent-call bait unless it explains why the confession itself is admissible or inadmissible.",
+    "tension_slug": "does-the-answer-explain-admissibility-of-the-admission-or-does-it-explain-another-police-action",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14627_galilee_honey_farm-2",
+    "source_qid": "14627_galilee_honey_farm",
+    "drill_type": "gold_key_recall",
+    "target_skill": "Miranda custody/interrogation trigger",
+    "prompt": "Suspect pinned, officer asks 'what did you do?' before warnings. Which Gold Key fires?",
+    "answer": "GK-CRIM-MIRANDA-CUSTODIAL-01.",
+    "tension_slug": "does-the-answer-explain-admissibility-of-the-admission-or-does-it-explain-another-police-action",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14627_galilee_honey_farm-3",
+    "source_qid": "14627_galilee_honey_farm",
+    "drill_type": "exception_boundary",
+    "target_skill": "public safety exception narrowness",
+    "prompt": "Officer asks a secured suspect, 'Where is the gun?' vs. 'What did you do to the victim?' Which is public-safety shaped?",
+    "answer": "'Where is the gun?' is public-safety shaped; 'what did you do' is confession-seeking.",
+    "tension_slug": "does-the-answer-explain-admissibility-of-the-admission-or-does-it-explain-another-police-action",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14627_galilee_honey_farm-4",
+    "source_qid": "14627_galilee_honey_farm",
+    "drill_type": "wrong_frame",
+    "target_skill": "hot pursuit trap",
+    "prompt": "An answer says questioning is valid because officers were in hot pursuit. What layer is that?",
+    "answer": "Search/arrest layer, not confession-waiver layer.",
+    "tension_slug": "does-the-answer-explain-admissibility-of-the-admission-or-does-it-explain-another-police-action",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14629_parent_room_confession-1",
+    "source_qid": "14629_parent_room_confession",
+    "drill_type": "call_focus",
+    "target_skill": "Separate statement suppression from physical-evidence suppression.",
+    "prompt": "The court already denied the jewelry motion. What is the live call?",
+    "answer": "Whether Timothy’s statement to his parents should be suppressed.",
+    "tension_slug": "custody-lawyer-privacy-fragments-vs-police-arranged-elicitation",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14629_parent_room_confession-2",
+    "source_qid": "14629_parent_room_confession",
+    "drill_type": "wrong_element",
+    "target_skill": "Custody-only cut.",
+    "prompt": "Why is 'he was in custody' incomplete?",
+    "answer": "Custody is a threshold; the statement must be tied to interrogation or its functional equivalent.",
+    "tension_slug": "custody-lawyer-privacy-fragments-vs-police-arranged-elicitation",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14629_parent_room_confession-3",
+    "source_qid": "14629_parent_room_confession",
+    "drill_type": "trap_spotting",
+    "target_skill": "Lawyer-request half-truth.",
+    "prompt": "After a suspect asks for counsel, what is the police duty that matters for this question?",
+    "answer": "Stop interrogation and its functional equivalent.",
+    "tension_slug": "custody-lawyer-privacy-fragments-vs-police-arranged-elicitation",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14629_parent_room_confession-4",
+    "source_qid": "14629_parent_room_confession",
+    "drill_type": "overclaim",
+    "target_skill": "Cut broad privacy answers.",
+    "prompt": "What is the danger word in 'any private conversations'?",
+    "answer": "Any.",
+    "tension_slug": "custody-lawyer-privacy-fragments-vs-police-arranged-elicitation",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14629_parent_room_confession-5",
+    "source_qid": "14629_parent_room_confession",
+    "drill_type": "residual_selection",
+    "target_skill": "Find police-created elicitation.",
+    "prompt": "Which answer names the police action that produced the confession?",
+    "answer": "D.",
+    "tension_slug": "custody-lawyer-privacy-fragments-vs-police-arranged-elicitation",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14630_fellowship_hall_white_powder-1",
+    "source_qid": "14630_fellowship_hall_white_powder",
+    "drill_type": "matrix_mapping",
+    "target_skill": "actor-specific liability",
+    "prompt": "Actor 1 knows the powder is fake. Actor 2 believes it is cocaine and sells it. Which actor can be guilty of attempt?",
+    "answer": "Actor 2 only.",
+    "tension_slug": "actor-specific-attempt-intent-fake-substance-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14630_fellowship_hall_white_powder-2",
+    "source_qid": "14630_fellowship_hall_white_powder",
+    "drill_type": "gold_key_recall",
+    "target_skill": "factual impossibility",
+    "prompt": "The object is fake, but the defendant believed it was contraband and took a substantial step. Defense?",
+    "answer": "No. Factual impossibility is no defense to attempt.",
+    "tension_slug": "actor-specific-attempt-intent-fake-substance-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14630_fellowship_hall_white_powder-3",
+    "source_qid": "14630_fellowship_hall_white_powder",
+    "drill_type": "trap_recovery",
+    "target_skill": "actual-fact trap",
+    "prompt": "Why is 'neither guilty because the powder was fake' a trap?",
+    "answer": "It ignores that attempt follows the actor's belief and purpose.",
+    "tension_slug": "actor-specific-attempt-intent-fake-substance-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14630_fellowship_hall_white_powder-4",
+    "source_qid": "14630_fellowship_hall_white_powder",
+    "drill_type": "compare_actors",
+    "target_skill": "mens rea split",
+    "prompt": "Supplier knows fake; buyer believes real. Which actor lacks target-crime intent?",
+    "answer": "Supplier.",
+    "tension_slug": "actor-specific-attempt-intent-fake-substance-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14631_manna_mart-1",
+    "source_qid": "14631_manna_mart",
+    "drill_type": "answer_array",
+    "target_skill": "strict/vicarious combination mapping",
+    "prompt": "A clerk sells a regulated item to a prohibited buyer after checking convincing fake papers. The clerk and owner are both convicted. Which theories are needed?",
+    "answer": "Strict liability for the clerk and vicarious liability for the owner.",
+    "tension_slug": "strict-liability-for-direct-seller-vs-vicarious-liability-for-owner",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14631_manna_mart-2",
+    "source_qid": "14631_manna_mart",
+    "drill_type": "cut",
+    "target_skill": "one-box answer detection",
+    "prompt": "Why is 'strict liability only' incomplete when both clerk and owner are convicted?",
+    "answer": "It explains the clerk but not the owner.",
+    "tension_slug": "strict-liability-for-direct-seller-vs-vicarious-liability-for-owner",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14631_manna_mart-3",
+    "source_qid": "14631_manna_mart",
+    "drill_type": "cut",
+    "target_skill": "false compromise detection",
+    "prompt": "Why is 'either strict or vicarious liability' wrong when the result convicts both actors?",
+    "answer": "The result requires both theories, not either one.",
+    "tension_slug": "strict-liability-for-direct-seller-vs-vicarious-liability-for-owner",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14633_galilee_cafe-1",
+    "source_qid": "14633_galilee_cafe",
+    "drill_type": "fight_pair_axis",
+    "target_skill": "Identify the A/C retreat fight pair.",
+    "prompt": "One answer says no retreat before nondeadly force; another says conviction because retreat was possible. What is the axis?",
+    "answer": "Whether retreat is required before this kind of defensive force.",
+    "tension_slug": "retreat-required-before-defensive-force-vs-no-retreat-before-nondeadly-defensive-force",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14633_galilee_cafe-2",
+    "source_qid": "14633_galilee_cafe",
+    "drill_type": "gold_key_recall",
+    "target_skill": "Recall the nondeadly-force retreat distinction.",
+    "prompt": "In a retreat jurisdiction, must a defender retreat before using reasonable nondeadly force?",
+    "answer": "No.",
+    "tension_slug": "retreat-required-before-defensive-force-vs-no-retreat-before-nondeadly-defensive-force",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14633_galilee_cafe-3",
+    "source_qid": "14633_galilee_cafe",
+    "drill_type": "wrong_frame_cut",
+    "target_skill": "Cut right-result/wrong-reason distractors.",
+    "prompt": "Why is 'No, because he was in an occupied structure' not the best answer when pepper spray was used?",
+    "answer": "It gives the right result for the wrong frame; force type, not place, decides.",
+    "tension_slug": "retreat-required-before-defensive-force-vs-no-retreat-before-nondeadly-defensive-force",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14633_galilee_cafe-4",
+    "source_qid": "14633_galilee_cafe",
+    "drill_type": "deadly_threshold_misfit",
+    "target_skill": "Separate deadly-force and nondeadly-force standards.",
+    "prompt": "Why is 'Yes, because the attacker did not threaten deadly force' off-point when the defender used pepper spray?",
+    "answer": "A deadly-force threat is not required for reasonable nondeadly force.",
+    "tension_slug": "retreat-required-before-defensive-force-vs-no-retreat-before-nondeadly-defensive-force",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14634_chapel_bookstore_grab-1",
+    "source_qid": "14634_chapel_bookstore_grab",
+    "drill_type": "answer_array_sort",
+    "target_skill": "mistake quartet sorting",
+    "prompt": "Sort four mistake scenarios into: strict liability, mens rea negation, mistake of law, or irrelevant sympathy.",
+    "answer": "Pick the scenario where the mistake negates the required mental-state/unlawfulness gate.",
+    "tension_slug": "mistake-negates-required-mens-rea-unlawfulness-vs-mistake-only-affects-strict-liability-or-legal-advice-trap",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14634_chapel_bookstore_grab-2",
+    "source_qid": "14634_chapel_bookstore_grab",
+    "drill_type": "gold_key_recall",
+    "target_skill": "strict liability vs mens rea mistake",
+    "prompt": "A defendant reasonably mistakes a buyer's age in a strict-liability age-regulated sale. Defense?",
+    "answer": "No; the mistake does not negate a required mental-state element.",
+    "tension_slug": "mistake-negates-required-mens-rea-unlawfulness-vs-mistake-only-affects-strict-liability-or-legal-advice-trap",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14634_chapel_bookstore_grab-3",
+    "source_qid": "14634_chapel_bookstore_grab",
+    "drill_type": "trap_spotting",
+    "target_skill": "private attorney advice trap",
+    "prompt": "A lawyer privately tells a defendant the conduct is legal. Does that automatically create mistake-of-law defense?",
+    "answer": "No; private attorney advice is not the official-statement exception.",
+    "tension_slug": "mistake-negates-required-mens-rea-unlawfulness-vs-mistake-only-affects-strict-liability-or-legal-advice-trap",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14634_chapel_bookstore_grab-4",
+    "source_qid": "14634_chapel_bookstore_grab",
+    "drill_type": "credited_pattern",
+    "target_skill": "mistake negating unlawful force",
+    "prompt": "A defendant uses force after honestly mistaking a grabber for a private attacker. What does the mistake change?",
+    "answer": "It changes whether the force appeared unlawful and can support a defense.",
+    "tension_slug": "mistake-negates-required-mens-rea-unlawfulness-vs-mistake-only-affects-strict-liability-or-legal-advice-trap",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14635_barnabas_aspirin_capsule-1",
+    "source_qid": "14635_barnabas_aspirin_capsule",
+    "drill_type": "axis_sort",
+    "target_skill": "source_vs_effect",
+    "prompt": "Sort these facts: tricked aspirin, addiction, uncontrollable rage, taunting. Which fact changes drug entry rather than drug effect?",
+    "answer": "Tricked aspirin.",
+    "tension_slug": "drug-effect-vs-involuntary-ingestion",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14635_barnabas_aspirin_capsule-2",
+    "source_qid": "14635_barnabas_aspirin_capsule",
+    "drill_type": "gold_key_recall",
+    "target_skill": "general_intent_intoxication",
+    "prompt": "For common-law battery, what intoxication fact matters most for an acquittal instruction?",
+    "answer": "Involuntary ingestion, not voluntary drug effect.",
+    "tension_slug": "drug-effect-vs-involuntary-ingestion",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14635_barnabas_aspirin_capsule-3",
+    "source_qid": "14635_barnabas_aspirin_capsule",
+    "drill_type": "dominant_trap_recovery",
+    "target_skill": "wrong_element_cut",
+    "prompt": "Why is 'reasonable person may experience uncontrollable rages' not enough?",
+    "answer": "It proves effect; the instruction needs involuntary intoxication.",
+    "tension_slug": "drug-effect-vs-involuntary-ingestion",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14636_bible_cafe_basement-1",
+    "source_qid": "14636_bible_cafe_basement",
+    "drill_type": "gold_key_recall",
+    "target_skill": "self-defense before assault label",
+    "prompt": "A trespasser is being unlawfully beaten and uses reasonable force to stop the attack. Can the force support assault?",
+    "answer": "No, if justified self-defense applies.",
+    "tension_slug": "does-the-higher-label-survive-defense-and-mens-rea-checks",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14636_bible_cafe_basement-2",
+    "source_qid": "14636_bible_cafe_basement",
+    "drill_type": "gold_key_recall",
+    "target_skill": "burglary intent at entry",
+    "prompt": "A person breaks into a private basement only to sleep. Burglary or trespass?",
+    "answer": "Trespass, absent the required intent to commit a felony/theft or other qualifying crime inside.",
+    "tension_slug": "does-the-higher-label-survive-defense-and-mens-rea-checks",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14636_bible_cafe_basement-3",
+    "source_qid": "14636_bible_cafe_basement",
+    "drill_type": "answer_array",
+    "target_skill": "most serious surviving offense",
+    "prompt": "Choices are aggravated assault, burglary, assault, trespass. Assault labels are defeated by self-defense; burglary lacks intent. Pick the most serious surviving offense.",
+    "answer": "Trespass.",
+    "tension_slug": "does-the-higher-label-survive-defense-and-mens-rea-checks",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14636_bible_cafe_basement-4",
+    "source_qid": "14636_bible_cafe_basement",
+    "drill_type": "trap_spotting",
+    "target_skill": "serious-injury bait",
+    "prompt": "The victim loses sight in one eye, but the defendant used force while being beaten. What is the trap?",
+    "answer": "Picking aggravated assault before checking self-defense.",
+    "tension_slug": "does-the-higher-label-survive-defense-and-mens-rea-checks",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14637-1",
+    "source_qid": "14637",
+    "drill_type": "target_check",
+    "target_skill": "mental-state target",
+    "prompt": "Answer says intent to steal the car supplies mental state for damaging the store. What target mismatch appears?",
+    "answer": "Intent points to the car theft; the charged count is store damage.",
+    "tension_slug": "borrowed-intent-felony-status-vs-required-mental-state-for-the-charged-property-damage-count",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14637-2",
+    "source_qid": "14637",
+    "drill_type": "instruction_shortcut",
+    "target_skill": "jury-instruction defect",
+    "prompt": "Instruction says: if larceny plus resulting damage, then malicious damage. What step is missing?",
+    "answer": "Mental state as to the property damage.",
+    "tension_slug": "borrowed-intent-felony-status-vs-required-mental-state-for-the-charged-property-damage-count",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14637-3",
+    "source_qid": "14637",
+    "drill_type": "red_herring_cut",
+    "target_skill": "double-jeopardy detour",
+    "prompt": "Why is 'two crimes for one act' not the first move in this question?",
+    "answer": "The appeal attacks the instruction; separate crimes do not automatically collapse.",
+    "tension_slug": "borrowed-intent-felony-status-vs-required-mental-state-for-the-charged-property-damage-count",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14638_galilee_garments-1",
+    "source_qid": "14638_galilee_garments",
+    "drill_type": "answer_array",
+    "target_skill": "correct conclusion / wrong reason",
+    "prompt": "Choice says: 'Incorrect, because regulatory offenses are never subject to due process limits.' What is the C3 problem?",
+    "answer": "Right conclusion, broken reason; tiered_absolute / NOT_TRUE.",
+    "tension_slug": "personal-culpability-personal-act-vs-responsible-corporate-officer-control-position",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14638_galilee_garments-2",
+    "source_qid": "14638_galilee_garments",
+    "drill_type": "anchor_recall",
+    "target_skill": "responsible corporate officer Gold Key",
+    "prompt": "CEO delegates operations; subordinate violates strict regulatory statute. What fact do you check before personal-act objections?",
+    "answer": "Whether the CEO had responsible relation/control over the regulated operation.",
+    "tension_slug": "personal-culpability-personal-act-vs-responsible-corporate-officer-control-position",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14638_galilee_garments-3",
+    "source_qid": "14638_galilee_garments",
+    "drill_type": "clash_axis",
+    "target_skill": "personal culpability vs control position",
+    "prompt": "A and B say no personal act/formal employer; D says position to control. Name the axis.",
+    "answer": "Personal culpability / personal act vs responsible corporate officer control position.",
+    "tension_slug": "personal-culpability-personal-act-vs-responsible-corporate-officer-control-position",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14639_prayer_walk_self_defense-1",
+    "source_qid": "14639_prayer_walk_self_defense",
+    "drill_type": "call_focus",
+    "target_skill": "separate self-defense from provocation",
+    "prompt": "Call: self-defense should be sustained. Choice: sustained because the killing was in hot blood. Cut or keep?",
+    "answer": "Cut. It gives a provocation reason, not self-defense.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14639_prayer_walk_self_defense-2",
+    "source_qid": "14639_prayer_walk_self_defense",
+    "drill_type": "gold_key",
+    "target_skill": "reasonable belief vs actual intent",
+    "prompt": "Attacker secretly intended only to scare, but defendant reasonably believed death was imminent. Does secret intent defeat self-defense?",
+    "answer": "No. Reasonable belief controls.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14639_prayer_walk_self_defense-3",
+    "source_qid": "14639_prayer_walk_self_defense",
+    "drill_type": "contradiction",
+    "target_skill": "stem contradiction",
+    "prompt": "Stem says deadly force was the defendant's only way to survive. Choice says defendant had to retreat or use less force. What mold?",
+    "answer": "Contradiction.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14639_prayer_walk_self_defense-4",
+    "source_qid": "14639_prayer_walk_self_defense",
+    "drill_type": "answer_array",
+    "target_skill": "because-clause integrity",
+    "prompt": "A choice reaches the right result but gives a different defense as its reason. Does it survive?",
+    "answer": "No. In because-answers, result and reason must both fit.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14640_church_preschool_custody-1",
+    "source_qid": "14640_church_preschool_custody",
+    "drill_type": "statute_word_match",
+    "target_skill": "mental-state trigger extraction",
+    "prompt": "A statute requires taking property knowing it is stolen. Defendant believes it is abandoned. Which answer type is strongest: mistake-of-law defense or lack of knowledge?",
+    "answer": "Lack of knowledge.",
+    "tension_slug": "freestanding-advice-of-counsel-defense-vs-belief-negating-statutory-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14640_church_preschool_custody-2",
+    "source_qid": "14640_church_preschool_custody",
+    "drill_type": "because_answer_reason_check",
+    "target_skill": "right result wrong reason",
+    "prompt": "An answer says 'acquitted because he spoke to a lawyer.' What word in the statute must you check before accepting that reason?",
+    "answer": "The required mental-state word.",
+    "tension_slug": "freestanding-advice-of-counsel-defense-vs-belief-negating-statutory-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14640_church_preschool_custody-3",
+    "source_qid": "14640_church_preschool_custody",
+    "drill_type": "wrong_standard_cut",
+    "target_skill": "subjective vs objective mental state",
+    "prompt": "Statute says 'knowing.' Answer says 'reasonable person would have known.' What is the cut?",
+    "answer": "Wrong standard.",
+    "tension_slug": "freestanding-advice-of-counsel-defense-vs-belief-negating-statutory-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14640_church_preschool_custody-4",
+    "source_qid": "14640_church_preschool_custody",
+    "drill_type": "bait_doctrine_recovery",
+    "target_skill": "advice-of-counsel trap",
+    "prompt": "Why can 'reliance on an attorney's advice is not a defense' still be the wrong answer?",
+    "answer": "Because the advice may negate the required mens rea.",
+    "tension_slug": "freestanding-advice-of-counsel-defense-vs-belief-negating-statutory-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14641-1",
+    "source_qid": "14641",
+    "drill_type": "call_lock",
+    "target_skill": "attempt vs completed offense",
+    "prompt": "A charge says 'attempting to violate the statute.' Which answers are suspect first?",
+    "answer": "Answers that depend on the target crime being completed.",
+    "tension_slug": "completed-strict-liability-statutory-rape-vs-attempted-statutory-rape-requiring-age-intent-under-supplied-exam-rule",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14641-2",
+    "source_qid": "14641",
+    "drill_type": "fight_pair",
+    "target_skill": "A/D age-intent axis",
+    "prompt": "One answer says no mental state as to age; another says no intent as to under-16 age. What is the axis?",
+    "answer": "Whether the completed-offense strict-liability age rule carries into attempt.",
+    "tension_slug": "completed-strict-liability-statutory-rape-vs-attempted-statutory-rape-requiring-age-intent-under-supplied-exam-rule",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14641-3",
+    "source_qid": "14641",
+    "drill_type": "wrong_element",
+    "target_skill": "substantial step trap",
+    "prompt": "Why is 'he took a substantial step' not enough here?",
+    "answer": "It proves only the act-side and does not answer the age-intent axis.",
+    "tension_slug": "completed-strict-liability-statutory-rape-vs-attempted-statutory-rape-requiring-age-intent-under-supplied-exam-rule",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14643-1",
+    "source_qid": "14643",
+    "drill_type": "trap_spotting",
+    "target_skill": "retreat bait",
+    "prompt": "A defender is in his own home. The door is open. An attacker advances with a knife after a death threat. Which fact should control first?",
+    "answer": "Home + deadly threat; the open door is retreat bait.",
+    "tension_slug": "retreat-open-door-bait-vs-home-self-defense",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14643-2",
+    "source_qid": "14643",
+    "drill_type": "wrong_element",
+    "target_skill": "mental-state bait",
+    "prompt": "An answer says acquit because the defendant intended only to scare. The stem also gives self-defense facts. What is the C3 label?",
+    "answer": "Wrong element / true fact, wrong reason.",
+    "tension_slug": "retreat-open-door-bait-vs-home-self-defense",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14643-3",
+    "source_qid": "14643",
+    "drill_type": "gold_key_recall",
+    "target_skill": "castle self-defense",
+    "prompt": "State the tiny anchor for a defender in his own home facing an advancing knife threat.",
+    "answer": "No duty to retreat before justified self-defense in the home.",
+    "tension_slug": "retreat-open-door-bait-vs-home-self-defense",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14644-1",
+    "source_qid": "14644",
+    "drill_type": "CUT",
+    "target_skill": "unseen evidence trap",
+    "prompt": "Stem says defendant did not ask for or see ID. Choice says the buyer had fake ID. Cut or keep?",
+    "answer": "Cut. The ID was unseen and unused.",
+    "tension_slug": "age-status-fact-vs-regulation-legal-classification-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14644-2",
+    "source_qid": "14644",
+    "drill_type": "CALL",
+    "target_skill": "mistake target",
+    "prompt": "Knowingly violating regulation: defendant did not know the rule vs defendant believed buyer was over the age band. Which helps more?",
+    "answer": "Belief about age/status helps more.",
+    "tension_slug": "age-status-fact-vs-regulation-legal-classification-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14644-3",
+    "source_qid": "14644",
+    "drill_type": "CLASH",
+    "target_skill": "age/status vs legal-knowledge axis",
+    "prompt": "Name the axis between 'not told the regulation' and 'believed buyer was 24.'",
+    "answer": "Legal/regulation knowledge vs age/status fact.",
+    "tension_slug": "age-status-fact-vs-regulation-legal-classification-knowledge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14645_advent_sidewalk-1",
+    "source_qid": "14645_advent_sidewalk",
+    "drill_type": "element_triage",
+    "target_skill": "wrong_element_detection",
+    "prompt": "A statute has elements X, Y, and Z. The facts attack Y. Which answers are traps?",
+    "answer": "Answers proving X or Z are wrong-element traps.",
+    "tension_slug": "which-statutory-conduct-element-must-be-voluntary",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14645_advent_sidewalk-2",
+    "source_qid": "14645_advent_sidewalk",
+    "drill_type": "gold_key_recall",
+    "target_skill": "voluntary_act_requirement",
+    "prompt": "Police move an intoxicated defendant from home to a public street. Does voluntary intoxication satisfy a public-place offense?",
+    "answer": "No. The public appearance must be voluntary.",
+    "tension_slug": "which-statutory-conduct-element-must-be-voluntary",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14645_advent_sidewalk-3",
+    "source_qid": "14645_advent_sidewalk",
+    "drill_type": "dominant_trap_recovery",
+    "target_skill": "voluntary_adjacent_act_vs_charged_act",
+    "prompt": "The defendant voluntarily becomes loud only after police place him in public. Conviction under a public-appearance statute?",
+    "answer": "No. Voluntary loudness does not supply voluntary appearance.",
+    "tension_slug": "which-statutory-conduct-element-must-be-voluntary",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14649-1",
+    "source_qid": "14649",
+    "drill_type": "definition_first",
+    "target_skill": "Plug intended completed facts into quoted offense definition.",
+    "prompt": "A defendant tries to do X. The quoted crime definition requires Y. If X succeeds and Y is still missing, what impossibility label applies?",
+    "answer": "Legal impossibility.",
+    "tension_slug": "legal-impossibility-vs-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14649-2",
+    "source_qid": "14649",
+    "drill_type": "trap_pair",
+    "target_skill": "Separate factual impossibility from legal impossibility.",
+    "prompt": "Fuse fails while actor tries to burn own building under an 'of another' arson statute.",
+    "answer": "Do not stop at the fuse; ownership makes it legal impossibility.",
+    "tension_slug": "legal-impossibility-vs-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14649-3",
+    "source_qid": "14649",
+    "drill_type": "because_clause_check",
+    "target_skill": "Reject right-result/wrong-reason answers.",
+    "prompt": "Choice says 'No, because the mistake negated mens rea.' The actor intended to burn. Keep or cut?",
+    "answer": "Cut. The no-liability reason is legal impossibility, not missing intent to burn.",
+    "tension_slug": "legal-impossibility-vs-factual-impossibility",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14650_fellowship_picnic-1",
+    "source_qid": "14650_fellowship_picnic",
+    "drill_type": "scope_quartet",
+    "target_skill": "Classify all/only/only/none answer arrays.",
+    "prompt": "Evidence applies to one of two charges. Choices say all, only charge 1, only charge 2, none. What is the first move?",
+    "answer": "Classify each charge by the rule before choosing scope.",
+    "tension_slug": "specific-intent-charge-vs-general-intent-charge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14650_fellowship_picnic-2",
+    "source_qid": "14650_fellowship_picnic",
+    "drill_type": "mens_rea_sort",
+    "target_skill": "Specific intent vs general intent.",
+    "prompt": "Attempted murder and battery appear in the same intoxication question. Which count receives the voluntary-intoxication evidence?",
+    "answer": "Attempted murder.",
+    "tension_slug": "specific-intent-charge-vs-general-intent-charge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14650_fellowship_picnic-3",
+    "source_qid": "14650_fellowship_picnic",
+    "drill_type": "trap_recovery",
+    "target_skill": "Recover from visible-injury trap.",
+    "prompt": "The injury count is the most vivid fact. Why might it still be the wrong charge for intoxication evidence?",
+    "answer": "Because admissibility turns on mental-state type, not vividness of the injury.",
+    "tension_slug": "specific-intent-charge-vs-general-intent-charge",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14654_fellowship_trail-1",
+    "source_qid": "14654_fellowship_trail",
+    "drill_type": "gold_key_flash",
+    "target_skill": "M'Naghten vs ALI/MPC distinction",
+    "prompt": "The defendant knew the act was wrong but could not conform conduct to law. Which insanity test fits?",
+    "answer": "ALI/MPC.",
+    "tension_slug": "cognitive-wrongfulness-vs-volitional-conformity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14654_fellowship_trail-2",
+    "source_qid": "14654_fellowship_trail",
+    "drill_type": "answer_array",
+    "target_skill": "test-name array reading",
+    "prompt": "Choices are M'Naghten only, ALI only, either, and no defense. Stem says knew wrong + irresistible compulsion. Which answer survives?",
+    "answer": "ALI only.",
+    "tension_slug": "cognitive-wrongfulness-vs-volitional-conformity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14654_fellowship_trail-3",
+    "source_qid": "14654_fellowship_trail",
+    "drill_type": "wrong_answer_recovery",
+    "target_skill": "range-answer testing",
+    "prompt": "Why is 'either M'Naghten or ALI/MPC' wrong?",
+    "answer": "Only ALI/MPC fits inability to conform when the defendant knew the act was wrong.",
+    "tension_slug": "cognitive-wrongfulness-vs-volitional-conformity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14654_fellowship_trail-4",
+    "source_qid": "14654_fellowship_trail",
+    "drill_type": "threshold_cut",
+    "target_skill": "abolished-defense cut",
+    "prompt": "Can a jury acquit by reason of insanity in a jurisdiction that has abolished the insanity defense merely because experts believe compulsion was irresistible?",
+    "answer": "No.",
+    "tension_slug": "cognitive-wrongfulness-vs-volitional-conformity",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14655_study_bible_case-1",
+    "source_qid": "14655_study_bible_case",
+    "drill_type": "trigger_fact",
+    "target_skill": "Find the mental-state resolver.",
+    "prompt": "A defendant uses force to take a bag he believes is his. What fact decides robbery intent?",
+    "answer": "The belief that the bag is his.",
+    "tension_slug": "specific-intent-to-steal-vs-voluntary-intoxication-no-mistake-bait",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14655_study_bible_case-2",
+    "source_qid": "14655_study_bible_case",
+    "drill_type": "wrong_element",
+    "target_skill": "Separate force from threat.",
+    "prompt": "Choice says no threats. Stem says the defendant shoved the victim down. Cut or keep?",
+    "answer": "Cut. Force is present even if threats are absent.",
+    "tension_slug": "specific-intent-to-steal-vs-voluntary-intoxication-no-mistake-bait",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14655_study_bible_case-3",
+    "source_qid": "14655_study_bible_case",
+    "drill_type": "bait_doctrine",
+    "target_skill": "Avoid intoxication bait.",
+    "prompt": "Stem has voluntary drinking and mistaken ownership. Which fact answers specific intent?",
+    "answer": "Mistaken ownership.",
+    "tension_slug": "specific-intent-to-steal-vs-voluntary-intoxication-no-mistake-bait",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14655_study_bible_case-4",
+    "source_qid": "14655_study_bible_case",
+    "drill_type": "gold_key",
+    "target_skill": "Recall mistake-specific-intent rule.",
+    "prompt": "Can mistake of fact matter to robbery?",
+    "answer": "Yes, if it negates intent to steal property of another.",
+    "tension_slug": "specific-intent-to-steal-vs-voluntary-intoxication-no-mistake-bait",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14656_fellowship_flag_football-1",
+    "source_qid": "14656_fellowship_flag_football",
+    "drill_type": "call_split",
+    "target_skill": "two-motion answer-array reading",
+    "prompt": "A defendant moves for acquittal or alternatively for a lesser-included instruction. One answer proves only sufficiency for the greater offense. What is the C3 warning?",
+    "answer": "It may answer acquittal only; check the instruction request separately.",
+    "tension_slug": "deny-acquittal-only-vs-deny-acquittal-and-give-manslaughter-instruction",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14656_fellowship_flag_football-2",
+    "source_qid": "14656_fellowship_flag_football",
+    "drill_type": "trigger_fact",
+    "target_skill": "words-vs-physical provocation",
+    "prompt": "An answer says words alone are not adequate provocation. The stem says the victim slapped the defendant. What mold?",
+    "answer": "wrong_element / NOT_RESPONSIVE.",
+    "tension_slug": "deny-acquittal-only-vs-deny-acquittal-and-give-manslaughter-instruction",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14656_fellowship_flag_football-3",
+    "source_qid": "14656_fellowship_flag_football",
+    "drill_type": "gold_key_recall",
+    "target_skill": "causation by victim refusal",
+    "prompt": "Victim would have survived had he accepted treatment. Does that automatically break causation?",
+    "answer": "No. Victim refusal usually does not break the causal chain.",
+    "tension_slug": "deny-acquittal-only-vs-deny-acquittal-and-give-manslaughter-instruction",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14656_fellowship_flag_football-4",
+    "source_qid": "14656_fellowship_flag_football",
+    "drill_type": "trap_recovery",
+    "target_skill": "dominant-trap rejection",
+    "prompt": "Why does knife-to-stomach malice not automatically make D correct?",
+    "answer": "It supports denying acquittal but does not defeat a supported manslaughter instruction.",
+    "tension_slug": "deny-acquittal-only-vs-deny-acquittal-and-give-manslaughter-instruction",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14657_lampstand_window_volley-1",
+    "source_qid": "14657_lampstand_window_volley",
+    "drill_type": "ladder_ranking",
+    "target_skill": "Most-serious-degree call",
+    "prompt": "A defendant is guilty of both felony murder and implied-malice murder; the statute ranks implied-malice murder higher. Which degree controls?",
+    "answer": "The higher surviving degree controls.",
+    "tension_slug": "second-degree-implied-malice-common-law-murder-vs-third-degree-felony-murder",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14657_lampstand_window_volley-2",
+    "source_qid": "14657_lampstand_window_volley",
+    "drill_type": "trap_spotting",
+    "target_skill": "True lower degree",
+    "prompt": "Why can felony murder be wrong even if the killing occurred during a felony?",
+    "answer": "Because the call asks for the most serious degree, and a higher common-law murder degree may fit.",
+    "tension_slug": "second-degree-implied-malice-common-law-murder-vs-third-degree-felony-murder",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14657_lampstand_window_volley-3",
+    "source_qid": "14657_lampstand_window_volley",
+    "drill_type": "mental_state_split",
+    "target_skill": "Act intent vs result intent",
+    "prompt": "A defendant deliberately fires a gun but does not know the actual victim is present. What first-degree element should you check?",
+    "answer": "Whether the defendant knowingly killed another person after deliberation.",
+    "tension_slug": "second-degree-implied-malice-common-law-murder-vs-third-degree-felony-murder",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14657_lampstand_window_volley-4",
+    "source_qid": "14657_lampstand_window_volley",
+    "drill_type": "gold_key_recall",
+    "target_skill": "Reckless-indifference murder",
+    "prompt": "What homicide anchor is triggered by firing several rifle rounds through a front window toward an area where people are present?",
+    "answer": "Extreme reckless indifference can supply common-law murder malice.",
+    "tension_slug": "second-degree-implied-malice-common-law-murder-vs-third-degree-felony-murder",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14658_christian_publishing-1",
+    "source_qid": "14658_christian_publishing",
+    "drill_type": "answer_array",
+    "target_skill": "correct result vs correct basis",
+    "prompt": "Two answers say guilty. One says extreme recklessness; one says transferred intent. Another actor fired the fatal shot. Which basis survives?",
+    "answer": "Extreme recklessness.",
+    "tension_slug": "created-foreseeable-deadly-chain-vs-personal-shooter-intent-transfer-requirement",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14658_christian_publishing-2",
+    "source_qid": "14658_christian_publishing",
+    "drill_type": "gold_key",
+    "target_skill": "depraved-heart causation",
+    "prompt": "A defendant sends an armed, volatile person into a guarded place. A guard foreseeably kills him. What route to murder is tested?",
+    "answer": "Extreme recklessness plus foreseeable causation.",
+    "tension_slug": "created-foreseeable-deadly-chain-vs-personal-shooter-intent-transfer-requirement",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14658_christian_publishing-3",
+    "source_qid": "14658_christian_publishing",
+    "drill_type": "wrong_answer_recovery",
+    "target_skill": "shooter myth",
+    "prompt": "Why is 'not guilty because he did not shoot' not enough?",
+    "answer": "Because murder liability can rest on causing the death with the required mental state.",
+    "tension_slug": "created-foreseeable-deadly-chain-vs-personal-shooter-intent-transfer-requirement",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14659_bible_study_ambush-1",
+    "source_qid": "14659_bible_study_ambush",
+    "drill_type": "answer_array",
+    "target_skill": "homicide ladder top-down",
+    "prompt": "Choices are first-degree, second-degree, manslaughter, and no homicide. The call asks for most serious offense. What do you test first?",
+    "answer": "Start with the top offense supported by the facts, then test downgrade or defense.",
+    "tension_slug": "top-homicide-offense-vs-mitigation-justification-downgrade",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14659_bible_study_ambush-2",
+    "source_qid": "14659_bible_study_ambush",
+    "drill_type": "trap_spotting",
+    "target_skill": "planned-provocation blocker",
+    "prompt": "Defendant goes to the scene hoping the victim will attack first so defendant can shoot. Victim charges with a weapon. What fact must not be ignored?",
+    "answer": "The defendant planned and provoked the confrontation.",
+    "tension_slug": "top-homicide-offense-vs-mitigation-justification-downgrade",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14659_bible_study_ambush-3",
+    "source_qid": "14659_bible_study_ambush",
+    "drill_type": "mold_identification",
+    "target_skill": "provocation direction",
+    "prompt": "Voluntary manslaughter, because Peter provoked Paul. What mold?",
+    "answer": "Backwards: the provocation direction is reversed.",
+    "tension_slug": "top-homicide-offense-vs-mitigation-justification-downgrade",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14659_bible_study_ambush-4",
+    "source_qid": "14659_bible_study_ambush",
+    "drill_type": "calibration",
+    "target_skill": "anchor-assisted confidence",
+    "prompt": "A choice is eliminated only after applying the planned-provocation tiny rule. What confidence class?",
+    "answer": "ANCHOR_ASSISTED, not HARD_STRUCTURAL.",
+    "tension_slug": "top-homicide-offense-vs-mitigation-justification-downgrade",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14663_lydias_bookstore_warehouse-1",
+    "source_qid": "14663_lydias_bookstore_warehouse",
+    "drill_type": "gold_key_recall",
+    "target_skill": "depraved-heart murder unlock",
+    "prompt": "A defendant deliberately fires a gun in an occupied place, does not intend to kill, and a ricochet kills someone. What Gold Key fires?",
+    "answer": "Extreme life-endangering recklessness can supply malice for depraved-heart murder.",
+    "tension_slug": "murder-mental-state-rung-vs-involuntary-manslaughter-lesser-rung",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14663_lydias_bookstore_warehouse-2",
+    "source_qid": "14663_lydias_bookstore_warehouse",
+    "drill_type": "answer_array",
+    "target_skill": "top-rung-first ladder",
+    "prompt": "The call says crimes are listed in descending seriousness. What is the first move?",
+    "answer": "Test the top rung first; if it is available, stop.",
+    "tension_slug": "murder-mental-state-rung-vs-involuntary-manslaughter-lesser-rung",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14663_lydias_bookstore_warehouse-3",
+    "source_qid": "14663_lydias_bookstore_warehouse",
+    "drill_type": "trap_spotting",
+    "target_skill": "no-intent manslaughter trap",
+    "prompt": "Why is no intent to kill not enough to choose involuntary manslaughter?",
+    "answer": "Because murder may still be available through depraved-heart malice.",
+    "tension_slug": "murder-mental-state-rung-vs-involuntary-manslaughter-lesser-rung",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14663_lydias_bookstore_warehouse-4",
+    "source_qid": "14663_lydias_bookstore_warehouse",
+    "drill_type": "provocation_filter",
+    "target_skill": "anger vs adequate provocation",
+    "prompt": "A defendant is angry after losing work and kills while taking revenge. Does that alone unlock voluntary manslaughter?",
+    "answer": "No. Ordinary anger/revenge is not legally adequate provocation.",
+    "tension_slug": "murder-mental-state-rung-vs-involuntary-manslaughter-lesser-rung",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14664_bible_study_gas_station-1",
+    "source_qid": "14664_bible_study_gas_station",
+    "drill_type": "answer_array",
+    "target_skill": "Two-charge bundle reading",
+    "prompt": "A choice says murder/no arson; another says manslaughter/arson. What should you do before picking?",
+    "answer": "Check each charge column separately; a half-right bundle is wrong.",
+    "tension_slug": "offense-bundle-homicide-level-x-arson-status",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14664_bible_study_gas_station-2",
+    "source_qid": "14664_bible_study_gas_station",
+    "drill_type": "gold_key",
+    "target_skill": "Arson dwelling trigger",
+    "prompt": "Defendant intentionally causes fire that burns a building where the victim lives. What tiny anchor fires?",
+    "answer": "Common-law arson: malicious burning of a dwelling.",
+    "tension_slug": "offense-bundle-homicide-level-x-arson-status",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14664_bible_study_gas_station-3",
+    "source_qid": "14664_bible_study_gas_station",
+    "drill_type": "gold_key",
+    "target_skill": "Murder vs involuntary manslaughter",
+    "prompt": "Defendant deliberately creates an obvious deadly risk but does not say he wants death. What trap appears?",
+    "answer": "Do not automatically choose involuntary manslaughter; extreme reckless disregard can be murder.",
+    "tension_slug": "offense-bundle-homicide-level-x-arson-status",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14664_bible_study_gas_station-4",
+    "source_qid": "14664_bible_study_gas_station",
+    "drill_type": "cut",
+    "target_skill": "Half-right offense outcomes",
+    "prompt": "Answer gets arson right but homicide too low. Mold?",
+    "answer": "half_truth; one column is right, the bundle is wrong.",
+    "tension_slug": "offense-bundle-homicide-level-x-arson-status",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14665_bible_study_stop_sign-1",
+    "source_qid": "14665_bible_study_stop_sign",
+    "drill_type": "matched_pair_axis",
+    "target_skill": "Identify actual danger vs reasonable apprehension",
+    "prompt": "Two answers both convict for reckless homicide. One says the defendant was in no actual danger; the other says his apprehension was unreasonable. Which axis is responsive?",
+    "answer": "Reasonable apprehension.",
+    "tension_slug": "actual-danger-vs-reasonable-apprehension",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14665_bible_study_stop_sign-2",
+    "source_qid": "14665_bible_study_stop_sign",
+    "drill_type": "gold_key_recall",
+    "target_skill": "Voluntary intoxication and recklessness",
+    "prompt": "A defendant charged with a reckless crime says he was too drunk to appreciate the risk. What is the Gold Key?",
+    "answer": "Voluntary intoxication does not erase recklessness.",
+    "tension_slug": "actual-danger-vs-reasonable-apprehension",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14665_bible_study_stop_sign-3",
+    "source_qid": "14665_bible_study_stop_sign",
+    "drill_type": "wrong_element",
+    "target_skill": "Correct result / wrong reason",
+    "prompt": "Why is 'convicted because he was in no actual danger' weaker than 'convicted because his apprehension was unreasonable'?",
+    "answer": "Actual danger is not the dispositive self-defense fact; reasonable apprehension is.",
+    "tension_slug": "actual-danger-vs-reasonable-apprehension",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14668_laxative-lies-1",
+    "source_qid": "14668_laxative-lies",
+    "drill_type": "distinction",
+    "target_skill": "Malice aforethought vs. degree elevators",
+    "prompt": "A defendant plans for weeks to poison a coworker's coffee with a sleeping pill overdose to 'knock them out' so they miss an important meeting. The coworker dies. First-degree murder? Why or why not?",
+    "answer": "This scenario tests whether sleeping pills in overdose constitute 'poison' and whether planning to drug someone to miss work constitutes premeditation to kill. If the overdose amounts to poison AND the planning shows intent to kill (not just intent to incapacitate), first-degree murder may apply. The key distinction from our item: here, the massive overdose suggests intent to cause serious harm, which could satisfy implied malice.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14668_laxative-lies-2",
+    "source_qid": "14668_laxative-lies",
+    "drill_type": "analogy",
+    "target_skill": "Poison definition in first-degree murder",
+    "prompt": "Which of these would MOST likely constitute 'poison' for first-degree murder purposes? (A) Five crushed aspirin tablets in coffee (B) Arsenic powder in coffee (C) Three Benadryl tablets in coffee (D) Crushed caffeine pills in coffee",
+    "answer": "B — Arsenic is the only substance harmful by its nature. The others are OTC medications, even in somewhat elevated doses. This reinforces GK-CRIM-HOMICIDE-02.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14668_laxative-lies-3",
+    "source_qid": "14668_laxative-lies",
+    "drill_type": "negation",
+    "target_skill": "Premeditation vs. planning",
+    "prompt": "True or False: A defendant who spent three days planning how to slip laxatives into a coworker's coffee premeditated and deliberated the coworker's death.",
+    "answer": "False. Planning the act of putting laxatives in coffee is not premeditating a death. Premeditation and deliberation for first-degree murder requires the defendant to have reflected on and decided to kill.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14669-1",
+    "source_qid": "14669",
+    "drill_type": "answer_array",
+    "target_skill": "degree_ladder_recognition",
+    "prompt": "Four homicide answers are murder, voluntary manslaughter, involuntary manslaughter, and negligence-only. What is the array shape?",
+    "answer": "A mental-state degree ladder.",
+    "tension_slug": "murder-by-extreme-recklessness-vs-involuntary-manslaughter",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14669-2",
+    "source_qid": "14669",
+    "drill_type": "trigger_fact",
+    "target_skill": "extreme_risk_fact_counting",
+    "prompt": "What facts push target shooting toward murder-level risk?",
+    "answer": "Visible people behind the target, deadly weapon, repeated shots, and conscious choice to fire anyway.",
+    "tension_slug": "murder-by-extreme-recklessness-vs-involuntary-manslaughter",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14669-3",
+    "source_qid": "14669",
+    "drill_type": "call_focus",
+    "target_skill": "sufficiency_posture",
+    "prompt": "A convicted defendant argues the evidence was insufficient. What is the appellate posture trap?",
+    "answer": "The court is not choosing the fairest lesser offense; it asks whether a rational jury could support the conviction.",
+    "tension_slug": "murder-by-extreme-recklessness-vs-involuntary-manslaughter",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14669-4",
+    "source_qid": "14669",
+    "drill_type": "wrong_answer_recovery",
+    "target_skill": "no_intent_trap",
+    "prompt": "Why is 'he did not intend to kill' not enough to reduce murder?",
+    "answer": "Because extreme recklessness toward human life can supply murder-level malice.",
+    "tension_slug": "murder-by-extreme-recklessness-vs-involuntary-manslaughter",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14678_galilee_grill-1",
+    "source_qid": "14678_galilee_grill",
+    "drill_type": "trap_spotting",
+    "target_skill": "instant vs cool reflection",
+    "prompt": "A first-degree answer says deliberation can be instant. The statute says cool reflection for any length of time. What word must you check?",
+    "answer": "Cool.",
+    "tension_slug": "deliberation-cool-reflection-vs-knowing-killing",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14678_galilee_grill-2",
+    "source_qid": "14678_galilee_grill",
+    "drill_type": "wrong_element",
+    "target_skill": "wrong-object mental state",
+    "prompt": "Defendant planned suicide, then killed another. Does suicide planning satisfy deliberation about killing another person?",
+    "answer": "No.",
+    "tension_slug": "deliberation-cool-reflection-vs-knowing-killing",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14678_galilee_grill-3",
+    "source_qid": "14678_galilee_grill",
+    "drill_type": "gold_key_recall",
+    "target_skill": "common-law provocation",
+    "prompt": "Are ordinary words and finger-shaking adequate provocation for manslaughter?",
+    "answer": "No.",
+    "tension_slug": "deliberation-cool-reflection-vs-knowing-killing",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14678_galilee_grill-4",
+    "source_qid": "14678_galilee_grill",
+    "drill_type": "anchor_application",
+    "target_skill": "voluntary intoxication as degree reducer",
+    "prompt": "Very intoxicated defendant knowingly shoots victim but lacks cool reflection. First-degree or second-degree?",
+    "answer": "Second-degree.",
+    "tension_slug": "deliberation-cool-reflection-vs-knowing-killing",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14679_fellowship_cup-1",
+    "source_qid": "14679_fellowship_cup",
+    "drill_type": "answer_array",
+    "target_skill": "both-only-only-neither matrix",
+    "prompt": "Choices are: both crimes, only target attempt, only death-victim homicide, no crime. What is the first C3 move?",
+    "answer": "Draw two boxes and test each branch.",
+    "tension_slug": "two-victim-charge-matrix-intended-target-attempt-branch-unintended-victim-homicide-branch",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14679_fellowship_cup-2",
+    "source_qid": "14679_fellowship_cup",
+    "drill_type": "gold_key",
+    "target_skill": "attempt without death",
+    "prompt": "A defendant intending to kill hands the victim a poisoned drink, but the victim never drinks. Is death required for attempt?",
+    "answer": "No. Intent plus crossing the attempt line is enough.",
+    "tension_slug": "two-victim-charge-matrix-intended-target-attempt-branch-unintended-victim-homicide-branch",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14679_fellowship_cup-3",
+    "source_qid": "14679_fellowship_cup",
+    "drill_type": "gold_key",
+    "target_skill": "unintended victim homicide",
+    "prompt": "A defendant leaves deadly poison where a cleaner later drinks it and dies. What branch must be checked?",
+    "answer": "Murder or manslaughter depending on recklessness or criminal negligence.",
+    "tension_slug": "two-victim-charge-matrix-intended-target-attempt-branch-unintended-victim-homicide-branch",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14679_fellowship_cup-4",
+    "source_qid": "14679_fellowship_cup",
+    "drill_type": "wrong_answer_recovery",
+    "target_skill": "only-answer trap",
+    "prompt": "Why is 'Only murder or manslaughter of Ruth' incomplete?",
+    "answer": "It drops attempted murder of Stephen.",
+    "tension_slug": "two-victim-charge-matrix-intended-target-attempt-branch-unintended-victim-homicide-branch",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14680_christian_bookstore_ricochet-1",
+    "source_qid": "14680_christian_bookstore_ricochet",
+    "drill_type": "micro_drill",
+    "target_skill": "implied malice",
+    "prompt": "A robber fires into the air in a crowded store and a ricochet kills a customer. Does murder require intent to kill if the jurisdiction follows common-law malice?",
+    "answer": "No. Implied malice or depraved-heart murder can be shown by extreme recklessness toward human life.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14680_christian_bookstore_ricochet-2",
+    "source_qid": "14680_christian_bookstore_ricochet",
+    "drill_type": "micro_drill",
+    "target_skill": "accomplice liability",
+    "prompt": "One armed robber fires during the robbery and the other only helped plan and command the robbery. Can the second robber be liable for the killing?",
+    "answer": "Yes, if the killing was a foreseeable result of the crime the second robber intentionally aided or encouraged.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14680_christian_bookstore_ricochet-3",
+    "source_qid": "14680_christian_bookstore_ricochet",
+    "drill_type": "trap_spotter",
+    "target_skill": "felony-murder red herring",
+    "prompt": "The jurisdiction abolished felony murder. Does that automatically prevent murder liability for a reckless ricochet killing during a robbery?",
+    "answer": "No. Felony murder is only one route to murder; implied-malice murder can still apply.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14684_peters_third_shot-1",
+    "source_qid": "14684_peters_third_shot",
+    "drill_type": "fatal_act_lock",
+    "target_skill": "Separate earlier justified force from fatal act.",
+    "prompt": "Victim attacks defendant. Defendant repels attack. Victim falls. Defendant fires fatal later shot after threat has ended. What is the first C3 move?",
+    "answer": "Lock onto the fatal later shot.",
+    "tension_slug": "single-degree-only-vs-inclusive-murder-manslaughter-range",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14684_peters_third_shot-2",
+    "source_qid": "14684_peters_third_shot",
+    "drill_type": "range_answer",
+    "target_skill": "Choose inclusive degree range when mitigation is unresolved.",
+    "prompt": "Answer choices include 'manslaughter only' and 'murder or manslaughter.' The stem shows provocation but no heat-of-passion finding. Which structure is safer?",
+    "answer": "Murder or manslaughter.",
+    "tension_slug": "single-degree-only-vs-inclusive-murder-manslaughter-range",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14684_peters_third_shot-3",
+    "source_qid": "14684_peters_third_shot",
+    "drill_type": "self_defense_overhang",
+    "target_skill": "Cut no-homicide answer when imminent danger ended before fatal act.",
+    "prompt": "The jury finds defendant was no longer afraid when he fired the fatal shot. What answer path is cut?",
+    "answer": "No degree of criminal homicide / self-defense.",
+    "tension_slug": "single-degree-only-vs-inclusive-murder-manslaughter-range",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14690_bible_study_protected_victim-1",
+    "source_qid": "14690_bible_study_protected_victim",
+    "drill_type": "answer_array_sort",
+    "target_skill": "Separate multiple reversal reasons.",
+    "prompt": "A conspiracy appeal has one affirmance answer and three reversal answers: agreement-only, Wharton's Rule, protected victim, and minor incapacity. Which route should be checked first?",
+    "answer": "Protected victim if the only alleged coconspirator is the person the offense protects.",
+    "tension_slug": "protected-victim-as-non-conspirator-vs-agreement-only-wharton-minor-incapacity-routes",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14690_bible_study_protected_victim-2",
+    "source_qid": "14690_bible_study_protected_victim",
+    "drill_type": "gold_key_recall",
+    "target_skill": "Protected-victim conspiracy anchor.",
+    "prompt": "The only alleged conspiracy partner is the protected victim of the target offense. What happens to common-law conspiracy?",
+    "answer": "The protected victim is not the guilty coconspirator; conspiracy fails if there is no other conspirator.",
+    "tension_slug": "protected-victim-as-non-conspirator-vs-agreement-only-wharton-minor-incapacity-routes",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14690_bible_study_protected_victim-3",
+    "source_qid": "14690_bible_study_protected_victim",
+    "drill_type": "mold_label",
+    "target_skill": "Tiered absolute detection.",
+    "prompt": "Label the mold: 'one cannot conspire with a person too young to consent.'",
+    "answer": "tiered_absolute; it overclaims because the issue is protected-victim status, not all minors.",
+    "tension_slug": "protected-victim-as-non-conspirator-vs-agreement-only-wharton-minor-incapacity-routes",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14690_bible_study_protected_victim-4",
+    "source_qid": "14690_bible_study_protected_victim",
+    "drill_type": "bait_doctrine",
+    "target_skill": "Wharton's Rule trap recognition.",
+    "prompt": "Why is Wharton's Rule a trap in a statutory-rape conspiracy item involving only the underage protected person?",
+    "answer": "It is the wrong route; the protected-victim rule, not Wharton's Rule, resolves the conspiracy count.",
+    "tension_slug": "protected-victim-as-non-conspirator-vs-agreement-only-wharton-minor-incapacity-routes",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14736_camp_van_crossing-1",
+    "source_qid": "14736_camp_van_crossing",
+    "drill_type": "clash_axis",
+    "target_skill": "incidental-restraint versus substantial movement",
+    "prompt": "Victim is forced to drive for miles before a robbery. What axis decides kidnapping?",
+    "answer": "Whether the movement is substantial and facilitates the felony or flight, rather than merely incidental restraint.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-14736_camp_van_crossing-2",
+    "source_qid": "14736_camp_van_crossing",
+    "drill_type": "call_focus",
+    "target_skill": "charging-state tracking",
+    "prompt": "Threat begins in one state, travel continues in another, and the charge is in the second state. What fact must you track?",
+    "answer": "The forced movement that occurred in the charging state.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-16001_seminary_baggage_claim-1",
+    "source_qid": "16001_seminary_baggage_claim",
+    "drill_type": "Gold Key recall",
+    "target_skill": "dog sniff public luggage",
+    "prompt": "A trained drug dog sniffs checked luggage in a public airport and alerts. Is the sniff itself a Fourth Amendment search?",
+    "answer": "No, for MBE purposes.",
+    "tension_slug": "which-no-answer-gives-the-operative-suppression-reason-generic-arrest-authority-or-probable-cause-tied-to-the-suitcase",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-16001_seminary_baggage_claim-2",
+    "source_qid": "16001_seminary_baggage_claim",
+    "drill_type": "Silver Key suppression chain",
+    "target_skill": "reason matching",
+    "prompt": "Two answers say No suppression. One cites an arrest warrant; one cites probable cause tied to the bag containing drugs. Which reason is more responsive?",
+    "answer": "The probable-cause reason tied to the challenged evidence.",
+    "tension_slug": "which-no-answer-gives-the-operative-suppression-reason-generic-arrest-authority-or-probable-cause-tied-to-the-suitcase",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-16001_seminary_baggage_claim-3",
+    "source_qid": "16001_seminary_baggage_claim",
+    "drill_type": "Wrong-frame cut",
+    "target_skill": "airport security misfit",
+    "prompt": "A choice justifies a marijuana dog-sniff search by hijacking danger. What mold?",
+    "answer": "Misfit / wrong_frame.",
+    "tension_slug": "which-no-answer-gives-the-operative-suppression-reason-generic-arrest-authority-or-probable-cause-tied-to-the-suitcase",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17084_five_loaves_bank_records-1",
+    "source_qid": "17084_five_loaves_bank_records",
+    "drill_type": "anchor_recall",
+    "target_skill": "Bank-record third-party doctrine",
+    "prompt": "Agents obtain deposit slips and canceled checks from a suspect's bank. Does the suspect have a Fourth Amendment privacy interest in the bank records?",
+    "answer": "No.",
+    "tension_slug": "fourth-amendment-protected-interest-in-bank-records-vs-no-protected-interest-under-third-party-doctrine",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17084_five_loaves_bank_records-2",
+    "source_qid": "17084_five_loaves_bank_records",
+    "drill_type": "call_focus",
+    "target_skill": "Suppression threshold",
+    "prompt": "Before asking whether agents needed a warrant or subpoena, what threshold question should you ask?",
+    "answer": "Whether this defendant has a Fourth Amendment interest in the records.",
+    "tension_slug": "fourth-amendment-protected-interest-in-bank-records-vs-no-protected-interest-under-third-party-doctrine",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17084_five_loaves_bank_records-3",
+    "source_qid": "17084_five_loaves_bank_records",
+    "drill_type": "wrong_source",
+    "target_skill": "Correct result, wrong reason",
+    "prompt": "No suppression because bank records are excluded by statute. Name the defect.",
+    "answer": "Wrong source; the rule is constitutional third-party doctrine.",
+    "tension_slug": "fourth-amendment-protected-interest-in-bank-records-vs-no-protected-interest-under-third-party-doctrine",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17151_carol_program-1",
+    "source_qid": "17151_carol_program",
+    "drill_type": "anchor_recall",
+    "target_skill": "general intent vs specific intent",
+    "prompt": "A voluntarily drunk defendant commits a general-intent battery. Is intoxication a defense?",
+    "answer": "No.",
+    "tension_slug": "general-intent-vs-specific-intent-defense-scope",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17151_carol_program-2",
+    "source_qid": "17151_carol_program",
+    "drill_type": "cut_reason",
+    "target_skill": "same-result wrong-reason",
+    "prompt": "The stem says battery requires intentional contact. A choice says no defense because battery is strict liability. Cut or keep?",
+    "answer": "Cut: contradiction.",
+    "tension_slug": "general-intent-vs-specific-intent-defense-scope",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17151_carol_program-3",
+    "source_qid": "17151_carol_program",
+    "drill_type": "overclaim_spotting",
+    "target_skill": "tiered_absolute",
+    "prompt": "A choice says intoxication negates any intent formed while drunk. Name the mold.",
+    "answer": "tiered_absolute.",
+    "tension_slug": "general-intent-vs-specific-intent-defense-scope",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-17151_carol_program-4",
+    "source_qid": "17151_carol_program",
+    "drill_type": "timing_axis",
+    "target_skill": "memory vs intent",
+    "prompt": "A choice turns on whether the defendant remembers the event later. What is the better axis?",
+    "answer": "Intent at the moment of contact.",
+    "tension_slug": "general-intent-vs-specific-intent-defense-scope",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-18456_stephens_chainsaw-1",
+    "source_qid": "18456_stephens_chainsaw",
+    "drill_type": "rent_vs_buy_classifier",
+    "target_skill": "possession-vs-title distinction",
+    "prompt": "A defendant uses a fake name to rent a pressure washer from a small business for the weekend, planning to sell it online that night. What is the best theft offense?",
+    "answer": "Larceny by trick — the rental is a possession-only transfer; the deception + concurrent intent to permanently deprive satisfies the elements.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-18456_stephens_chainsaw-2",
+    "source_qid": "18456_stephens_chainsaw",
+    "drill_type": "title_transfer_recognizer",
+    "target_skill": "title-vs-possession recognition",
+    "prompt": "A defendant uses a forged power of attorney to convince an elderly homeowner to sign a deed transferring her house to the defendant. What is the best theft offense?",
+    "answer": "False pretenses — the deed transfers title; the deception + title transfer satisfies the elements.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-18456_stephens_chainsaw-3",
+    "source_qid": "18456_stephens_chainsaw",
+    "drill_type": "lawful_possession_classifier",
+    "target_skill": "embezzlement-vs-larceny-by-trick boundary",
+    "prompt": "A defendant's sister lawfully gives the defendant her car to drive to the grocery store; the defendant instead drives it across state lines and sells it. What is the best theft offense?",
+    "answer": "Embezzlement — the sister gave the defendant lawful possession at the outset; the subsequent conversion is the embezzlement.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-18456_stephens_chainsaw-4",
+    "source_qid": "18456_stephens_chainsaw",
+    "drill_type": "no_offense_killer",
+    "target_skill": "fraud-vitiates-consent principle",
+    "prompt": "A defendant uses a fake name to rent a generator from a hardware store for the weekend, planning to keep it. He returns on Monday and says he lost it. What is the best theft offense?",
+    "answer": "Larceny by trick — the rental was procured by fraud, so the original possession was never lawful; the 'voluntarily handed' frame does not save the no-offense answer.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19263_chapel_handbells-1",
+    "source_qid": "19263_chapel_handbells",
+    "drill_type": "axis_flash",
+    "target_skill": "title_vs_possession",
+    "prompt": "Seller signs a bill of sale after a buyer lies about current status. Which lane?",
+    "answer": "False pretenses.",
+    "tension_slug": "what-passed-because-of-the-deception-ownership-title-possession-only-or-lawful-custody",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19263_chapel_handbells-2",
+    "source_qid": "19263_chapel_handbells",
+    "drill_type": "contrast_pair",
+    "target_skill": "larceny_by_trick_vs_false_pretenses",
+    "prompt": "Borrowed by lie versus sold by lie: classify each.",
+    "answer": "Borrowed by lie = larceny by trick; sold by lie = false pretenses.",
+    "tension_slug": "what-passed-because-of-the-deception-ownership-title-possession-only-or-lawful-custody",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19263_chapel_handbells-3",
+    "source_qid": "19263_chapel_handbells",
+    "drill_type": "wrong_basis_cut",
+    "target_skill": "bad_check_as_intent_evidence",
+    "prompt": "A bad check appears in a false-pretenses stem. What does it usually do?",
+    "answer": "It supports fraudulent intent; it does not replace the present-fact lie.",
+    "tension_slug": "what-passed-because-of-the-deception-ownership-title-possession-only-or-lawful-custody",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19336_nativity_warehouse_rescue-1",
+    "source_qid": "19336_nativity_warehouse_rescue",
+    "drill_type": "Gold Key recall",
+    "target_skill": "Defense-of-others majority rule",
+    "prompt": "A defender reasonably but mistakenly protects the apparent victim. Does the reasonable mistake defeat the defense under the majority rule?",
+    "answer": "No. Majority rule uses reasonable belief.",
+    "tension_slug": "majority-reasonable-appearance-versus-alter-ego-actual-rights",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19336_nativity_warehouse_rescue-2",
+    "source_qid": "19336_nativity_warehouse_rescue",
+    "drill_type": "CLASH axis",
+    "target_skill": "Actual hidden facts versus reasonable appearance",
+    "prompt": "One answer says the apparent attacker actually had self-defense. Another says the intervener reasonably believed force was needed. What is the axis?",
+    "answer": "Alter-ego actual rights versus majority reasonable appearance.",
+    "tension_slug": "majority-reasonable-appearance-versus-alter-ego-actual-rights",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19336_nativity_warehouse_rescue-3",
+    "source_qid": "19336_nativity_warehouse_rescue",
+    "drill_type": "CUT fabricated rule",
+    "target_skill": "Extra-prerequisite detection",
+    "prompt": "Defense of others applies only if the person defended asked for help. What mold is this?",
+    "answer": "fabricated_rule; NOT_TRUE after the Gold Key.",
+    "tension_slug": "majority-reasonable-appearance-versus-alter-ego-actual-rights",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19336_nativity_warehouse_rescue-4",
+    "source_qid": "19336_nativity_warehouse_rescue",
+    "drill_type": "CUT fabricated rule",
+    "target_skill": "Extra-prerequisite detection",
+    "prompt": "Defense of others fails because the defender did not witness the start of the fight. What mold is this?",
+    "answer": "fabricated_rule; NOT_TRUE after the Gold Key.",
+    "tension_slug": "majority-reasonable-appearance-versus-alter-ego-actual-rights",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19499_jericho_chariot_night-1",
+    "source_qid": "19499_jericho_chariot_night",
+    "drill_type": "anchor_recall",
+    "target_skill": "Wharton's Rule extra-party exception",
+    "prompt": "Two required participants plus one unnecessary helper join the plan. Does Wharton's Rule bar conspiracy?",
+    "answer": "No. Extra participants defeat the bar.",
+    "tension_slug": "minimum-required-participants-vs-extra-participants",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19499_jericho_chariot_night-2",
+    "source_qid": "19499_jericho_chariot_night",
+    "drill_type": "clash_axis",
+    "target_skill": "participant counting",
+    "prompt": "Name the axis: two-party offense, five-person plan.",
+    "answer": "Minimum required participants vs actual agreement participants.",
+    "tension_slug": "minimum-required-participants-vs-extra-participants",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19499_jericho_chariot_night-3",
+    "source_qid": "19499_jericho_chariot_night",
+    "drill_type": "overclaim_cut",
+    "target_skill": "tiered_absolute",
+    "prompt": "Wharton's Rule always bars conspiracy whenever the target offense involves any agreement.",
+    "answer": "Cut as overclaim.",
+    "tension_slug": "minimum-required-participants-vs-extra-participants",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-19499_jericho_chariot_night-4",
+    "source_qid": "19499_jericho_chariot_night",
+    "drill_type": "wrong_element",
+    "target_skill": "red-herring fact",
+    "prompt": "The organizers expected payment, so Wharton's Rule bars conspiracy.",
+    "answer": "Wrong fact axis; payment is not the trigger.",
+    "tension_slug": "minimum-required-participants-vs-extra-participants",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20127_jericho_trumpet-1",
+    "source_qid": "20127_jericho_trumpet",
+    "drill_type": "anchor_recall",
+    "target_skill": "Miranda physical-fruit distinction",
+    "prompt": "Police get a voluntary unwarned statement naming a weapon location and offer only the weapon. Suppress?",
+    "answer": "No, not solely on Miranda grounds.",
+    "tension_slug": "violation-layer-vs-remedy-layer-statement-evidence-vs-physical-evidence",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20127_jericho_trumpet-2",
+    "source_qid": "20127_jericho_trumpet",
+    "drill_type": "bait_architecture",
+    "target_skill": "violation_vs_remedy",
+    "prompt": "The call asks whether evidence is suppressed after a violation. What must you identify first?",
+    "answer": "The evidence being offered and the remedy rule.",
+    "tension_slug": "violation-layer-vs-remedy-layer-statement-evidence-vs-physical-evidence",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20127_jericho_trumpet-3",
+    "source_qid": "20127_jericho_trumpet",
+    "drill_type": "overclaim_cut",
+    "target_skill": "tiered_absolute",
+    "prompt": "Classify: all evidence derived from an unwarned statement is suppressed.",
+    "answer": "NOT_TRUE; tiered_absolute.",
+    "tension_slug": "violation-layer-vs-remedy-layer-statement-evidence-vs-physical-evidence",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20127_jericho_trumpet-4",
+    "source_qid": "20127_jericho_trumpet",
+    "drill_type": "backwards_cut",
+    "target_skill": "voluntary does not erase Miranda",
+    "prompt": "Classify: voluntary means there was no Miranda violation.",
+    "answer": "NOT_TRUE; backwards.",
+    "tension_slug": "violation-layer-vs-remedy-layer-statement-evidence-vs-physical-evidence",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20258_psalter_pressure-1",
+    "source_qid": "20258_psalter_pressure",
+    "drill_type": "CUT",
+    "target_skill": "overclaim detector",
+    "prompt": "Choice says police may use any deception during interrogation. What is the C3 cut?",
+    "answer": "NOT_TRUE / tiered_absolute.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20258_psalter_pressure-2",
+    "source_qid": "20258_psalter_pressure",
+    "drill_type": "CUT",
+    "target_skill": "bait doctrine",
+    "prompt": "Choice says the confession is admissible because warnings were given and understood. The stem adds threats and deprivation. What is the C3 cut?",
+    "answer": "NOT_RESPONSIVE / bait_doctrine; warnings answer the wrong layer.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20258_psalter_pressure-3",
+    "source_qid": "20258_psalter_pressure",
+    "drill_type": "answer_array",
+    "target_skill": "no-but-wrong-reason",
+    "prompt": "Two choices say no. One says no because coercion; one says no because no written waiver. Which survives?",
+    "answer": "The coercion answer; the form answer gives the wrong reason.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20258_psalter_pressure-4",
+    "source_qid": "20258_psalter_pressure",
+    "drill_type": "anchor",
+    "target_skill": "confession voluntariness",
+    "prompt": "What Gold Key unlocks warnings-plus-pressure confession questions?",
+    "answer": "Coercion can make a confession involuntary and inadmissible even after warnings.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20387_psalms_chess_indictment-1",
+    "source_qid": "20387_psalms_chess_indictment",
+    "drill_type": "CUT",
+    "target_skill": "violation_vs_remedy",
+    "prompt": "Unlawful arrest; no evidence or statement obtained; independent evidence supports indictment. Motion to dismiss?",
+    "answer": "Deny; dismissal is not required.",
+    "tension_slug": "violation-versus-remedy",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20387_psalms_chess_indictment-2",
+    "source_qid": "20387_psalms_chess_indictment",
+    "drill_type": "trap_spotting",
+    "target_skill": "good-faith side street",
+    "prompt": "A choice says dismissal depends on officer good faith. What is the C3 signal?",
+    "answer": "Good faith is an evidence-admissibility lane; lock the dismissal call.",
+    "tension_slug": "violation-versus-remedy",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20387_psalms_chess_indictment-3",
+    "source_qid": "20387_psalms_chess_indictment",
+    "drill_type": "anchor_recall",
+    "target_skill": "unlawful arrest remedy",
+    "prompt": "What is the remedy for an unlawful arrest when no evidence was obtained from it?",
+    "answer": "No automatic dismissal; suppress tainted evidence only when applicable.",
+    "tension_slug": "violation-versus-remedy",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20387_psalms_chess_indictment-4",
+    "source_qid": "20387_psalms_chess_indictment",
+    "drill_type": "overclaim",
+    "target_skill": "automatic indictment nullity",
+    "prompt": "A choice says an unlawful arrest voids any later indictment. Name the mold.",
+    "answer": "tiered_absolute.",
+    "tension_slug": "violation-versus-remedy",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20476_road_to_bethlehem_sash-1",
+    "source_qid": "20476_road_to_bethlehem_sash",
+    "drill_type": "CUT",
+    "target_skill": "overclaim",
+    "prompt": "During a lawful frisk, the answer says any item found may be seized. Name the mold.",
+    "answer": "tiered_absolute",
+    "tension_slug": "extra-manipulation-immediate-apparentness-vs-no-warrant-after-pocket-entry",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20476_road_to_bethlehem_sash-2",
+    "source_qid": "20476_road_to_bethlehem_sash",
+    "drill_type": "CLASH",
+    "target_skill": "same-result pair",
+    "prompt": "Two answers both say suppression. One names manipulation before identification; one names lack of warrant before pocket entry. Which fact resolves it?",
+    "answer": "The officer manipulated the nonweapon object before identifying contraband.",
+    "tension_slug": "extra-manipulation-immediate-apparentness-vs-no-warrant-after-pocket-entry",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20476_road_to_bethlehem_sash-3",
+    "source_qid": "20476_road_to_bethlehem_sash",
+    "drill_type": "ANCHOR",
+    "target_skill": "plain feel immediate apparentness",
+    "prompt": "What must be true before an officer may seize contraband felt during a lawful frisk?",
+    "answer": "Its contraband character must be immediately apparent by touch.",
+    "tension_slug": "extra-manipulation-immediate-apparentness-vs-no-warrant-after-pocket-entry",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20476_road_to_bethlehem_sash-4",
+    "source_qid": "20476_road_to_bethlehem_sash",
+    "drill_type": "CALL",
+    "target_skill": "call focus",
+    "prompt": "A choice justifies a drug search because the area was known for drug sales. Why is it off-call?",
+    "answer": "The call asks about plain-feel seizure validity, not drug-investigation suspicion.",
+    "tension_slug": "extra-manipulation-immediate-apparentness-vs-no-warrant-after-pocket-entry",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20516_manna_games_duress-1",
+    "source_qid": "20516_manna_games_duress",
+    "drill_type": "Gold Key recall",
+    "target_skill": "duress threshold",
+    "prompt": "A defendant steals after a threatener far away promises to hurt a sibling next week. Does duress succeed?",
+    "answer": "No. The threat is future and remote, so imminence is missing.",
+    "tension_slug": "imminent-threshold-vs-real-but-incomplete-fear-family-facts",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20516_manna_games_duress-2",
+    "source_qid": "20516_manna_games_duress",
+    "drill_type": "wrong_element cut",
+    "target_skill": "partial defense elements",
+    "prompt": "Choice says: 'Yes, because the threat was to a close family member.' Cut or keep?",
+    "answer": "Cut as NOT_RESPONSIVE / wrong_element unless imminence and no escape are also satisfied.",
+    "tension_slug": "imminent-threshold-vs-real-but-incomplete-fear-family-facts",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20516_manna_games_duress-3",
+    "source_qid": "20516_manna_games_duress",
+    "drill_type": "tiered_absolute cut",
+    "target_skill": "scope overclaim",
+    "prompt": "Choice says: 'No, because duress is only for violent crimes.' Cut or keep?",
+    "answer": "Cut as NOT_TRUE / tiered_absolute.",
+    "tension_slug": "imminent-threshold-vs-real-but-incomplete-fear-family-facts",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20542_praise_festival_cashbox-1",
+    "source_qid": "20542_praise_festival_cashbox",
+    "drill_type": "Gold Key recall",
+    "target_skill": "Sixth Amendment attachment and same-offense boundary",
+    "prompt": "After indictment, police ask without counsel about a relabeled lesser version of the charged incident. What is the trigger?",
+    "answer": "Same charged offense in substance after attachment; suppress without counsel or waiver.",
+    "tension_slug": "same-offense-substance-versus-different-label",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20542_praise_festival_cashbox-2",
+    "source_qid": "20542_praise_festival_cashbox",
+    "drill_type": "Wrong-frame CUT",
+    "target_skill": "Miranda vs Massiah",
+    "prompt": "A choice says no suppression because the defendant was not in custody. The call is Sixth Amendment after indictment. Cut or keep?",
+    "answer": "Cut as bait_doctrine / wrong_frame.",
+    "tension_slug": "same-offense-substance-versus-different-label",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20542_praise_festival_cashbox-3",
+    "source_qid": "20542_praise_festival_cashbox",
+    "drill_type": "CLASH axis",
+    "target_skill": "same offense versus different label",
+    "prompt": "One answer says same charged offense; another says different labels. What fact decides?",
+    "answer": "Whether the questioning targets the same incident and same offense in substance.",
+    "tension_slug": "same-offense-substance-versus-different-label",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20542_praise_festival_cashbox-4",
+    "source_qid": "20542_praise_festival_cashbox",
+    "drill_type": "Overclaim scan",
+    "target_skill": "tiered_absolute",
+    "prompt": "Police may not question an indicted defendant about any unrelated offense. What is the mold?",
+    "answer": "tiered_absolute; the Sixth Amendment right is offense-specific.",
+    "tension_slug": "same-offense-substance-versus-different-label",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20597_olivewood_nativity_craft_swap-1",
+    "source_qid": "20597_olivewood_nativity_craft_swap",
+    "drill_type": "matrix_read",
+    "target_skill": "answer_array",
+    "prompt": "One defendant mistakenly thinks property is free; another knows it belongs to someone but misunderstands the law. Which outcome pair should you expect?",
+    "answer": "Fact-mistake defendant not guilty if intent is negated; law-mistake defendant guilty.",
+    "tension_slug": "fact-mistake-versus-law-mistake",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20597_olivewood_nativity_craft_swap-2",
+    "source_qid": "20597_olivewood_nativity_craft_swap",
+    "drill_type": "gold_key_recall",
+    "target_skill": "anchor",
+    "prompt": "For a specific-intent crime, must an honest fact mistake be reasonable?",
+    "answer": "No. It must honestly negate the specific intent.",
+    "tension_slug": "fact-mistake-versus-law-mistake",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20597_olivewood_nativity_craft_swap-3",
+    "source_qid": "20597_olivewood_nativity_craft_swap",
+    "drill_type": "trap_cut",
+    "target_skill": "wrong_frame",
+    "prompt": "Cut: 'Both are guilty because only reasonable mistakes count.'",
+    "answer": "Wrong frame. Specific-intent fact mistake does not require reasonableness.",
+    "tension_slug": "fact-mistake-versus-law-mistake",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20654_nativity_ornaments_volition-1",
+    "source_qid": "20654_nativity_ornaments_volition",
+    "drill_type": "anchor_recall",
+    "target_skill": "cognition_vs_volition",
+    "prompt": "A defendant knows an act is wrong but cannot control the act due to mental disease. Which lane is this: M'Naghten or irresistible impulse?",
+    "answer": "Irresistible impulse.",
+    "tension_slug": "cognition-vs-volition",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20654_nativity_ornaments_volition-2",
+    "source_qid": "20654_nativity_ornaments_volition",
+    "drill_type": "cut",
+    "target_skill": "wrong_element",
+    "prompt": "Cut the choice: 'The defendant is insane because she has a recognized mental disease.'",
+    "answer": "Wrong element: diagnosis is threshold, not sufficient.",
+    "tension_slug": "cognition-vs-volition",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-20654_nativity_ornaments_volition-3",
+    "source_qid": "20654_nativity_ornaments_volition",
+    "drill_type": "answer_array",
+    "target_skill": "bucket_sorting",
+    "prompt": "Sort these facts into lanes: mental disease; knew wrong; could not conform.",
+    "answer": "Mental disease = threshold; knew wrong = cognition; could not conform = volition.",
+    "tension_slug": "cognition-vs-volition",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21867_psalm_puzzle_booth-1",
+    "source_qid": "21867_psalm_puzzle_booth",
+    "drill_type": "CUT",
+    "target_skill": "wrong_element",
+    "prompt": "A defendant commits a permit misdemeanor. The victim later dies in an unrelated accident. Is the misdemeanor label enough?",
+    "answer": "No; check actual and proximate cause.",
+    "tension_slug": "misdemeanor-label-vs-cause-link",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21867_psalm_puzzle_booth-2",
+    "source_qid": "21867_psalm_puzzle_booth",
+    "drill_type": "CUT",
+    "target_skill": "overclaim",
+    "prompt": "Classify: 'Any death after a misdemeanor is manslaughter.'",
+    "answer": "tiered_absolute; NOT_TRUE.",
+    "tension_slug": "misdemeanor-label-vs-cause-link",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21867_psalm_puzzle_booth-3",
+    "source_qid": "21867_psalm_puzzle_booth",
+    "drill_type": "anchor",
+    "target_skill": "misdemeanor manslaughter causation",
+    "prompt": "State the Gold Key for misdemeanor manslaughter.",
+    "answer": "The misdemeanor must actually and proximately cause the death.",
+    "tension_slug": "misdemeanor-label-vs-cause-link",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21867_psalm_puzzle_booth-4",
+    "source_qid": "21867_psalm_puzzle_booth",
+    "drill_type": "trap_spotting",
+    "target_skill": "cause-link residual",
+    "prompt": "One answer says the misdemeanor happened. One answer says the misdemeanor did not cause the death. Which one is the safer residual?",
+    "answer": "The cause-link answer.",
+    "tension_slug": "misdemeanor-label-vs-cause-link",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21869_tiny_house_hymn_sheet-1",
+    "source_qid": "21869_tiny_house_hymn_sheet",
+    "drill_type": "anchor_recall",
+    "target_skill": "Gold Key recall",
+    "prompt": "Police have an arrest warrant for Paul and enter Ruth’s home to find him without a search warrant, consent, or exigency. Lawful entry?",
+    "answer": "No. Third-party home requires a search warrant or valid exception.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21869_tiny_house_hymn_sheet-2",
+    "source_qid": "21869_tiny_house_hymn_sheet",
+    "drill_type": "cut",
+    "target_skill": "Overclaim detection",
+    "prompt": "Cut: 'Yes, because an arrest warrant follows the suspect into any home.'",
+    "answer": "tiered_absolute; arrest warrant does not authorize entry into any third-party home.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-21869_tiny_house_hymn_sheet-3",
+    "source_qid": "21869_tiny_house_hymn_sheet",
+    "drill_type": "issue_sense",
+    "target_skill": "Wrong element / wrong timing",
+    "prompt": "Call asks whether entry into Naomi’s home was lawful. Choice says no only because suspect was found in the pantry.",
+    "answer": "NOT_RESPONSIVE; room fact comes after entry.",
+    "tension_slug": null,
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-22410-1",
+    "source_qid": "22410",
+    "drill_type": "threshold sort",
+    "target_skill": "state action before privacy",
+    "prompt": "A roommate opens a closed drawer, finds drugs, and calls police. Suppression?",
+    "answer": "No suppression unless the roommate acted as a government agent.",
+    "tension_slug": "private-search-state-action-versus-privacy-in-container-analysis",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-22410-2",
+    "source_qid": "22410",
+    "drill_type": "stem-language check",
+    "target_skill": "suggestion versus direction",
+    "prompt": "An officer says, 'Maybe look around if you are worried.' The private person later searches alone. Did the officer direct the search?",
+    "answer": "No. Suggesting a possibility is not directing the search.",
+    "tension_slug": "private-search-state-action-versus-privacy-in-container-analysis",
+    "subject": "CRIMINAL_LAW"
+  },
+  {
+    "id": "MICRO-22410-3",
+    "source_qid": "22410",
+    "drill_type": "trap contrast",
+    "target_skill": "privacy fact versus actor threshold",
+    "prompt": "Closed box opened by private sibling. Which fact matters first: the box was closed or the sibling was private?",
+    "answer": "The sibling was private.",
+    "tension_slug": "private-search-state-action-versus-privacy-in-container-analysis",
+    "subject": "CRIMINAL_LAW"
+  }
+]

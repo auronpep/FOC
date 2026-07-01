@@ -1,0 +1,52 @@
+[
+  {
+    "index": 45,
+    "questionId": 17557,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq17557",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17557.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17557. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17557.md."
+  },
+  {
+    "index": 81,
+    "questionId": 18859,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq18859",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18859.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18859. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18859.md."
+  },
+  {
+    "index": 90,
+    "questionId": 18862,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq18862",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18862.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18862. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18862.md."
+  },
+  {
+    "index": 97,
+    "questionId": 14442,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq14442",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ14442.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 14442. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ14442.md."
+  },
+  {
+    "index": 118,
+    "questionId": 18134,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq18134",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18134.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18134. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18134.md."
+  }
+]

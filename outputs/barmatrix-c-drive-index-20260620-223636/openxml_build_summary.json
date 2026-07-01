@@ -1,0 +1,16 @@
+{
+  "xlsx": "C:\\FOC\\outputs\\barmatrix-c-drive-index-20260620-223636\\barmatrix_c_drive_index_full.xlsx",
+  "row_counts": {
+    "Summary": 11,
+    "Scope": 20,
+    "Root Summary": 20,
+    "Folders": 91951,
+    "Files 001": 200000,
+    "Files 002": 200000,
+    "Files 003": 200000,
+    "Files 004": 200000,
+    "Files 005": 200000,
+    "Files 006": 107783,
+    "Errors": 0
+  }
+}

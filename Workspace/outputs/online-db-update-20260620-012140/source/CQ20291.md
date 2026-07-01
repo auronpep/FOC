@@ -1,0 +1,1009 @@
+---
+qid: "20291_nativity_prop_rental_freeze"
+transformed_from: "20291"
+subject: "CIVIL_PROCEDURE"
+topic: "Appeals and Finality"
+subtopic: "Injunction Appeals"
+outline_code: "93110100"
+key: "C"
+original_key: "A"
+letter_map: "- original_letter: \"A"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+Source row reviewed: BARMATRIX Q# 20291, Civil Procedure, Appeals and Finality, Injunction Appeals. 
+
+### 1. Final question — revised stem + call
+
+In a federal contract dispute between two private owners of a Nativity-prop rental business, the district court enters an order captioned **“trial-preparation protocol.”** The order directs Ruth not to rent out the disputed angel wings, shepherd cloaks, or manger displays to any Christmas pageant customers until trial. Ruth immediately appeals, arguing that the order operates as an injunction despite its caption.
+
+**Is Ruth’s characterization likely right?**
+
+### 2. Distilled Core Question
+
+A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?
+
+### 3. Final answer choices — post-shuffle
+
+A. No, because orders that operate as injunctions can never be appealed before final judgment.
+B. No, because an order is immediately appealable only if it is labeled “injunction.”
+C. Yes, because the order commands Ruth to stop doing something before trial and operates as an injunction.
+D. Yes, because every trial-preparation protocol is immediately appealable.
+
+### 5. Correct answer
+
+**C**. Original key letter: **A**.
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                                        | Substance | Pick rate + provenance                                   |
+| --------------- | ---------: | ----------------------------------------------- | --------- | -------------------------------------------------------- |
+| A               |          C | correct_answer                                  | kept      | null; predicted — no measured source percentage supplied |
+| B               |          D | tiered_absolute / “every case-management order” | rewritten | null; predicted — no measured source percentage supplied |
+| C               |          B | tiered_absolute / magic-word label-only trap    | rewritten | null; predicted — no measured source percentage supplied |
+| D               |          A | tiered_absolute / final-judgment “never” trap   | rewritten | null; predicted — no measured source percentage supplied |
+
+### 7. Full right-answer explanation
+
+**C is correct.** The order does more than manage deadlines or organize discovery. It tells Ruth to stop renting specific property until trial. **Gold Key:** for injunction appealability, the legal name of the order is not controlling; the order’s practical effect is. **Silver Key:** do not read the caption first; read the verb. “Do not rent” is a stop-command, so the order operates like an injunction.
+
+### 8. Full wrong-answer explanations
+
+**A.** The final-judgment language is attractive because most appeals wait until the case is over. The breaker is the absolute word **never**: injunction-effect orders are the classic exception to the final-judgment lane.
+
+**B.** The caption rule is attractive because it sounds formal and clerk-like: no magic word, no appeal. **Gold Key:** practical effect beats label; a command that works like an injunction does not need the caption “injunction.” **Silver Key:** the label is the bait, and the command is the signal.
+
+**D.** The protocol label is attractive because the source order is called a trial-preparation order, and some students convert that label into the whole analysis. The breaker is **every**: not all trial-preparation protocols are appealable; this one matters because it commands a party to stop doing something until trial.
+
+### 9. Full black-letter-law verification and legal reasoning
+
+The tested rule and credited outcome are unchanged. The source item tests whether an order with a non-injunction label can still be treated as an injunction for immediate appeal when it commands a party to stop conduct. Section 1292(a)(1) gives courts of appeals jurisdiction over interlocutory district-court orders granting, continuing, modifying, refusing, or dissolving injunctions. ([U.S. Code][1]) The Supreme Court has recognized that an order not phrased as an injunction may still be appealable when it has the practical effect of granting or denying injunctive relief. ([Justia Law][2]) In *Abbott v. Perez*, the Court stated the same practical-effect rule: a court’s label is not dispositive, and an order with the practical effect of granting or denying an injunction should be treated as such for appellate-jurisdiction purposes. ([Justia Law][3])
+
+Applied here, the transformed order forbids Ruth from renting the disputed props until trial. That is a coercive stop-command. It is functionally injunctive even though the caption says “trial-preparation protocol.”
+
+### 10. Why the variation preserves rigor/difficulty
+
+The transform keeps the same legal lane: immediate appealability of an injunction-like interlocutory order. It also preserves the same trap geometry: one fact-engaged functional-effect answer, one overbroad “all management orders” answer, one label-only magic-word answer, and one final-judgment overclaim.
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**A — CUT.** The word **never** makes the choice too big. It turns the final-judgment rule into a no-exceptions rule. The Gold Key confirms that injunction-effect orders are a known exception.
+
+**B — CUT.** The word **only** makes the choice a magic-word trap. The order’s caption is not the C3 signal. The command is.
+
+**D — CUT.** The word **every** is an overclaim. A routine protocol is not automatically appealable. This protocol is different only because it tells Ruth to stop doing something.
+
+**C — residual.** C answers the exact call and uses the exact trigger fact: the order commands Ruth not to rent the props until trial.
+
+### 12. Divergence Audit — Recognition-Kill Checklist
+
+| Dimension                     | Changed / skipped      | Audit line                                                                                                |
+| ----------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter        | Changed                | Trademark advertising became private Nativity-prop rental inventory.                                      |
+| Transaction frame             | Changed                | Trademark infringement became a private contract/property dispute between business owners.                |
+| Specific facts                | Changed                | “Stop using mark in advertising” became “stop renting angel wings, shepherd cloaks, and manger displays.” |
+| Numbers                       | Skipped                | No legally meaningful numbers appeared in the source row.                                                 |
+| Fact ordering and stem rhythm | Changed                | The new stem opens with the private business dispute, then the caption, then the stop-rental command.     |
+| Cast size / roles             | Changed                | Corporate trademark parties became Daniel and Ruth in a private prop-rental business.                     |
+| Choice ordering               | Changed                | The credited answer moved to C.                                                                           |
+| Choice phrasing               | Changed                | Choices were re-skinned while keeping the same legal mechanics.                                           |
+| Setting / era / texture       | Changed                | Commercial trademark advertising became a Christmas-pageant rental business.                              |
+| Call wording                  | Kept functionally same | “Is Ruth’s characterization likely right?” preserves the original characterization call.                  |
+
+**Original stem summary:** A trademark defendant appeals a “case management order” that tells it to stop using a challenged mark in advertising until trial.
+**Variant stem summary:** A Nativity-prop renter appeals a “trial-preparation protocol” that tells her not to rent disputed pageant props until trial.
+
+Recognition test: passed. The summaries share the legal rule only: practical-effect injunction appealability.
+
+### 13. Review Truth
+
+For injunction appealability, read the order’s practical effect; a stop-command can be treated as an injunction even if the caption says something else.
+
+### 14. Five variations considered
+
+|  # | Title                                         | Setting / cast                                           | Preserved issue                          | Why memorable                                                                      | Legal risks                                                               | Divergence score                                                                                           |
+| -: | --------------------------------------------- | -------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+|  1 | **Nativity Prop-Rental Freeze** — recommended | Private Christmas-pageant prop business; Daniel and Ruth | Non-injunction caption plus stop-command | Angel wings, shepherd cloaks, manger displays are vivid and far from trademark ads | Low; private property/business dispute avoids church-internal issues      | 9/10: changes asset, transaction frame, facts, rhythm, cast, phrasing, setting, call texture, choice order |
+|  2 | Advent Candle Kit Shipping Halt               | Lydia and Paul sell private Advent candle kits           | Same practical-effect injunction issue   | Shipping freeze is concrete                                                        | Low; must avoid donation/pledge language                                  | 8/10: strong divergence, slightly closer commercial restraint                                              |
+|  3 | Scripture-Calligraphy Subscription Pause      | Mary and Timothy operate a private craft subscription    | Same practical-effect injunction issue   | Verse-card kits are memorable                                                      | Moderate; avoid speech/First Amendment flavor                             | 7/10                                                                                                       |
+|  4 | Loaves-and-Fish Catering Cart Stop Order      | Peter and Martha run private catering carts              | Same practical-effect injunction issue   | Food-cart image is memorable                                                       | Low; but “stop catering” could feel like business shutdown severity issue | 8/10                                                                                                       |
+|  5 | Handbell Rental Inventory Lock                | Stephen and Barnabas rent handbells for events           | Same practical-effect injunction issue   | Physical handbells make “stop renting” clear                                       | Low; avoid church-property implication                                    | 8/10                                                                                                       |
+
+Recommended version: **Nativity Prop-Rental Freeze**. It maximizes surface divergence while preserving the stop-command that makes the order functionally injunctive.
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "20291_nativity_prop_rental_freeze"
+  transformed_from: "20291"
+  internal_id: "CP-388"
+  subject: CIVIL_PROCEDURE
+  subject_display: "Civil Procedure"
+  topic: "Appeals and Finality"
+  subtopic: "Injunction Appeals"
+  outline_code: "93110100"
+  selection_percentages:
+    A:
+      value: null
+      provenance: predicted
+      note: "No measured pick percentage supplied in source row."
+    B:
+      value: null
+      provenance: predicted
+      note: "No measured pick percentage supplied in source row."
+    C:
+      value: null
+      provenance: predicted
+      note: "No measured pick percentage supplied in source row."
+    D:
+      value: null
+      provenance: predicted
+      note: "No measured pick percentage supplied in source row."
+  official_key: "C"
+  original_key_letter: "A"
+  call: "Is Ruth’s characterization likely right?"
+  stem: "In a federal contract dispute between two private owners of a Nativity-prop rental business, the district court enters an order captioned “trial-preparation protocol.” The order directs Ruth not to rent out the disputed angel wings, shepherd cloaks, or manger displays to any Christmas pageant customers until trial. Ruth immediately appeals, arguing that the order operates as an injunction despite its caption."
+  choices:
+    A: "No, because orders that operate as injunctions can never be appealed before final judgment."
+    B: "No, because an order is immediately appealable only if it is labeled “injunction.”"
+    C: "Yes, because the order commands Ruth to stop doing something before trial and operates as an injunction."
+    D: "Yes, because every trial-preparation protocol is immediately appealable."
+  official_explanation: "Injunction appealability turns on the order's practical effect, not only the caption."
+  wrong_answer_explanations:
+    A: "Final-judgment overclaim; injunction orders are a recognized exception."
+    B: "Magic-word label trap; courts look to substance and effect."
+    D: "Routine trial-preparation protocols are not automatically appealable."
+  lb_rule_reference: "Orders granting, refusing, modifying, or dissolving injunctions are generally immediately appealable, even if the district court uses another label."
+
+transform_provenance:
+  variant_slug: "nativity_prop_rental_freeze"
+  transformed_from: "20291"
+  original_key_letter: "A"
+  new_key_letter: "C"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "tiered_absolute_every_management_order"
+      substance: "rewritten"
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+    - original_letter: "C"
+      new_letter: "B"
+      mechanic: "tiered_absolute_magic_word_label"
+      substance: "rewritten"
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+    - original_letter: "D"
+      new_letter: "A"
+      mechanic: "tiered_absolute_final_judgment_never"
+      substance: "rewritten"
+      pick_rate:
+        value: null
+        provenance: predicted
+        note: "No measured source percentage supplied."
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: null
+  divergence_summary:
+    original_stem_one_sentence: "A trademark defendant appeals a case-management order that tells it to stop using a challenged mark in advertising until trial."
+    variant_stem_one_sentence: "A Nativity-prop renter appeals a trial-preparation protocol that tells her not to rent disputed pageant props until trial."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "transaction_frame"
+      - "specific_facts"
+      - "fact_ordering_and_stem_rhythm"
+      - "cast_size_roles"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_era_texture"
+      - "call_wording_texture"
+    dimensions_skipped_with_reason:
+      - dimension: "numbers"
+        reason: "No legally meaningful numbers appeared in the source item."
+
+source_stack:
+  - rank: 1
+    source: "BARMATRIX row 20291"
+    use: "Rule, issue, stem, call, choices, official key, explanations."
+  - rank: 2
+    source: "Existing C3 tags"
+    use: "No row-specific tags supplied; none relied on."
+  - rank: 3
+    source: "Civil Procedure overlay"
+    use: "Procedural gate before merits; injunction appeal as immediate-review lane."
+  - rank: 4
+    source: "Universal C3 lessons"
+    use: "True/responsive, overclaim, falsity, prediction, CUT → CLASH → CALL, calibration."
+  - rank: 5
+    source: "Controlled vocabularies"
+    use: "Subject, filter, mold, architecture, method, verdict, confidence, key types."
+  - rank: 6
+    source: "Legal authority"
+    use: "Lawyer confirmation only."
+
+student_access_contract:
+  allowed_lessons:
+    - "Lesson 1 TRUE and RESPONSIVE"
+    - "Lesson 2 CUT → CLASH → CALL"
+    - "Lesson 4 Overclaim"
+    - "Lesson 5 Falsity"
+    - "Lesson 7 Predict Before You Peek"
+    - "Lesson 8 Not-Responsive Molds"
+    - "Lesson 11 Bait Architecture"
+    - "Lesson 12 Anchor Deck"
+    - "Lesson 13 Calibration"
+    - "Lesson 14 Full Workflow"
+  subject_overlay: "Civil Procedure = procedural posture + structural prerequisite."
+  taught_anchor_status: "Gold Key supplied for practical-effect injunction appealability."
+  controlling_limit: "Student path may use grammar, overclaim tells, caption-vs-command navigation, and the Gold Key. Authority remains lawyer_confirmation only."
+
+stem_parse:
+  subject: CIVIL_PROCEDURE
+  procedural_posture: "Immediate appeal from an interlocutory district-court order."
+  call_type: "Characterization / appealability."
+  negative_stem_inversion: false
+  adjacent_call_trap: "Whether every trial-preparation protocol is appealable, or whether labels alone control."
+  predicted_answer: "Likely yes; the order tells Ruth not to rent the disputed props until trial."
+  role: "Judge / appellate jurisdiction characterization."
+
+trigger_facts:
+  - fact: "The order is captioned “trial-preparation protocol.”"
+    access_label: "stem_visible"
+    c3_use: "Creates label trap."
+  - fact: "The order directs Ruth not to rent the disputed props until trial."
+    access_label: "stem_visible"
+    c3_use: "Stop-command practical-effect signal."
+  - fact: "Ruth immediately appeals and argues the order operates as an injunction."
+    access_label: "stem_visible"
+    c3_use: "Locks the call: characterization, not merits."
+
+c3_routing:
+  subject_fit: "Civil Procedure = procedural posture + structural prerequisite."
+  governing_law_type: RULE
+  deciding_phase: CUT
+  method_class: anchor_assisted
+  confidence: ANCHOR_ASSISTED
+  case_study_verdict: ANCHOR_SOLVE
+  bank_validation_verdict: PASS
+  residual: "C"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "medium-hard"
+  call_heuristic: "fact-engaged > abstract, supported by Gold Key"
+  tension_axis: "caption label vs practical command"
+
+answer_array:
+  geometry: "3-vs-1 residual with yes/no split."
+  pattern:
+    yes_answers:
+      C: "Fact-engaged functional-injunction answer."
+      D: "Overbroad category answer."
+    no_answers:
+      A: "Final-judgment never overclaim."
+      B: "Magic-word label-only overclaim."
+  silver_key_signal: "The label is not the main fact; the command is."
+
+choice_walkthroughs:
+  A:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - overbroad_rule
+      - wrong_procedural_posture
+      - common_student_myth
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Final-judgment never trap."
+    c3_signal: "The word “never” turns a normal final-judgment habit into an absolute."
+    lawyer_confirmation: "Injunction-effect orders fall within the statutory immediate-appeal lane; final judgment is not the only path."
+  B:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - misstated_rule
+      - sounds_lawyerly
+      - answer_to_different_question
+      - bar_exam_bait
+    method_class: anchor_assisted
+    student_label: "Magic-word caption trap."
+    c3_signal: "The word “only” makes the caption do all the work and ignores the stop-command."
+    lawyer_confirmation: "Courts assess practical effect; the word “injunction” is not required."
+  C:
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - correct_answer
+    method_class: anchor_assisted
+    student_label: "Functional stop-command answer."
+    c3_signal: "The choice answers the call with the stem’s command: do not rent until trial."
+    lawyer_confirmation: "The order has the practical effect of injunctive relief and is treated as such for appealability."
+  D:
+    filter_broken: NOT_TRUE
+    mold_code: tiered_absolute
+    mold_family: EAR_OVERCLAIM
+    bait_architecture_code: procedural_frame
+    wrong_answer_architecture_tags:
+      - overbroad_rule
+      - common_student_myth
+      - sounds_lawyerly
+      - bar_exam_bait
+    method_class: hard_structural
+    student_label: "Every-protocol overclaim."
+    c3_signal: "The word “every” is broader than the call. The call asks about this stop-command order."
+    lawyer_confirmation: "Routine case-management or trial-preparation orders are not automatically appealable."
+
+residual_answer:
+  choice: "C"
+  c3_residual_reason: "Only C is both true and responsive: it ties the immediate appeal characterization to the order’s stop-command practical effect."
+  answer_key_reason: "Practical effect controls over caption."
+
+legal_leak_audit:
+  student_accessible_claims:
+    - claim: "D overclaims with “every.”"
+      status: "passes_controlling_test"
+    - claim: "A overclaims with “never.”"
+      status: "passes_with_gold_key"
+    - claim: "B overclaims with “only” and misuses the caption."
+      status: "passes_with_gold_key"
+    - claim: "C is fact-engaged and responsive."
+      status: "passes_controlling_test"
+  lawyer_only_claims:
+    - "28 U.S.C. §1292(a)(1) text."
+    - "Supreme Court practical-effect doctrine."
+  drift_audit: "No lawyer-only authority used to create a fake structural cut; Gold Key quarantines doctrine."
+
+gold_keys:
+  - id: "GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01"
+    statement: "For immediate appeal, an order can count as an injunction by practical effect. A command to do or stop doing something may be injunctive even when the caption uses another label."
+    type: distinction
+    unlocks: "Label-only and final-judgment traps in injunction appealability."
+    trigger: "Non-injunction caption plus a command to stop conduct until trial."
+    tested_choice: "B"
+    authority: "28 U.S.C. §1292(a)(1); Carson v. American Brands; Abbott v. Perez."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01"
+    statement: "In a label-vs-function appealability question, read the verb in the order before reading the caption. A stop-command is the navigation signal."
+    type: trap_spotting
+    navigates: "Caption bait and protocol-label overreading."
+    trigger: "Order caption says one thing; operative sentence commands a party not to act."
+    tested_choice: "B"
+    outline_code: "93110100"
+    last_minute_review: true
+
+remediation:
+  card_id: "CIV-REM-20291-FUNCTIONAL-INJUNCTION"
+  title: "Caption vs command"
+  signal: "A district-court order has a neutral label but tells someone to do or stop doing something."
+  student_move: "Ignore the caption first; identify the operative command."
+  tiny_rule: "Function beats label for injunction appealability."
+  trap: "Magic-word caption rule; every-management-order overclaim."
+  confidence: ANCHOR_ASSISTED
+
+distilled_core_question: "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?"
+review_truth: "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else."
+
+case_study_output:
+  final_student_script: "Call: is this really an injunction? Caption says protocol, but the command says do not rent until trial. Cut every, only, and never. C survives."
+  residual: "C"
+  verdict: ANCHOR_SOLVE
+
+quality_control:
+  pass_available: true
+  exactly_three_distractors: true
+  each_distractor_one_filter: true
+  residual_equals_key: true
+  no_fork: true
+  no_swap: true
+  no_uncontrolled_values: true
+  recognition_test_passed: true
+
+analytics_hooks:
+  component_routing:
+    - "CIV-CUT-01"
+    - "CIV-CALL-01"
+    - "PHIL-01"
+    - "PHIL-04"
+    - "PHIL-07"
+    - "PHIL-13"
+  red_zone_dimensions:
+    - "caption_over_function"
+    - "final_judgment_overclaim"
+    - "management_order_overgeneralization"
+  drill_recommendations:
+    - "Caption vs command drills."
+    - "Immediate-appeal exception drills."
+    - "Overclaim word scan: every / only / never."
+```
+
+---
+
+### 2. The 17-section student case study
+
+## program_frame
+
+This is a Civil Procedure appealability item. The job is not to decide who owns the Nativity props. The job is to characterize the district court’s order.
+
+## student_access_test
+
+Student-accessible tools:
+
+| Tool                | Allowed use                                                     |
+| ------------------- | --------------------------------------------------------------- |
+| TRUE + RESPONSIVE   | Find the one answer that is both accurate and answers the call. |
+| Overclaim scan      | Cut **every**, **only**, and **never** when they overstate.     |
+| Civil Procedure FIT | Gate first. Status second. Merits last.                         |
+| Gold Key            | Use practical effect for injunction appealability.              |
+| Silver Key          | Read the command before the caption.                            |
+
+The row’s source rule is the practical-effect injunction appealability rule. 
+
+## question_data
+
+**Question ID:** 20291_nativity_prop_rental_freeze
+**Subject:** CIVIL_PROCEDURE
+**Topic:** Appeals and Finality
+**Subtopic:** Injunction Appeals
+**Correct answer:** C
+**Outline code:** 93110100
+
+**Stem:** Ruth is ordered, under a “trial-preparation protocol,” not to rent disputed Nativity props until trial.
+
+**Call:** Is Ruth’s characterization likely right?
+
+## distilled_core_question
+
+A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?
+
+## call_and_prediction
+
+**Call lock:** Is this order functionally an injunction?
+
+**Prediction:** Yes. The caption says “trial-preparation protocol,” but the operative command tells Ruth not to rent the props until trial.
+
+**Adjacent-call trap:** Do not answer whether all trial-preparation protocols are appealable.
+
+## trigger_facts
+
+| Fact                                                  | C3 use                                    |
+| ----------------------------------------------------- | ----------------------------------------- |
+| Caption: “trial-preparation protocol”                 | Creates the label trap.                   |
+| Command: Ruth may not rent disputed props until trial | Creates the functional-injunction signal. |
+| Immediate appeal                                      | Locks appealability, not merits.          |
+
+## governing_c3_lane
+
+Civil Procedure = procedural posture + structural prerequisite.
+
+This is an appealability gate question. The right move is to classify the order before discussing the underlying dispute.
+
+## choice_by_choice_walkthrough
+
+### A. No, because orders that operate as injunctions can never be appealed before final judgment.
+
+1. **Student-accessible C3 signal:** “Never” is the red flag. It turns the final-judgment rule into an absolute.
+2. **Student label:** Final-judgment never trap.
+3. **What a true/responsive version would look like:** “Some interlocutory orders cannot be appealed until final judgment, but injunction-effect orders may fall into an immediate-appeal lane.”
+4. **Lawyer confirmation:** Section 1292(a)(1) gives appellate jurisdiction over interlocutory orders granting, continuing, modifying, refusing, or dissolving injunctions. ([U.S. Code][1])
+
+### B. No, because an order is immediately appealable only if it is labeled “injunction.”
+
+1. **Student-accessible C3 signal:** “Only” makes the caption a magic word. The stem gives a stronger fact: the order tells Ruth to stop renting.
+2. **Student label:** Magic-word caption trap.
+3. **What a true/responsive version would look like:** “The order’s label matters less than whether the order practically commands or forbids conduct.”
+4. **Lawyer confirmation:** The Supreme Court has treated practical effect as controlling for injunction characterization; the caption is not dispositive. ([Justia Law][2])
+
+### C. Yes, because the order commands Ruth to stop doing something before trial and operates as an injunction.
+
+1. **Student-accessible C3 signal:** This answer uses the stem’s operative verb: Ruth must not rent the props until trial.
+2. **Student label:** Functional stop-command answer.
+3. **What a true/responsive version would look like:** This is already the true/responsive version.
+4. **Lawyer confirmation:** The order has the practical effect of injunctive relief because it bars Ruth’s conduct before trial. That matches the recognized immediate-appeal category for injunctions. ([U.S. Code][1])
+
+### D. Yes, because every trial-preparation protocol is immediately appealable.
+
+1. **Student-accessible C3 signal:** “Every” is too broad. The call asks about this order, not all trial-preparation protocols.
+2. **Student label:** Every-protocol overclaim.
+3. **What a true/responsive version would look like:** “This protocol is appealable if it functions as an injunction.”
+4. **Lawyer confirmation:** Routine procedural-management orders are not automatically appealable; the statutory immediate-appeal lane depends on the injunction effect.
+
+## residual_answer
+
+After CUT, C is the residual. It is true and responsive because it ties the characterization to the stop-command in the stem.
+
+## legal_leak_audit
+
+Student path used:
+
+* **A:** cut by “never” plus Gold Key.
+* **B:** cut by “only” plus Gold Key.
+* **D:** cut by “every.”
+* **C:** residual because it is fact-engaged.
+
+Lawyer-only authority stayed in confirmation. The student did not need case citations to execute the C3 path.
+
+**Drift audit:** No choice was called false on lawyer-only grounds without a taught Gold Key or visible overclaim signal.
+
+## final_student_script
+
+Caption says protocol. Command says Ruth must not rent the props until trial. Cut **never**, cut **only**, cut **every**. C is the only answer that uses the stop-command and answers the characterization call.
+
+## remediation_card
+
+**Card ID:** CIV-REM-20291-FUNCTIONAL-INJUNCTION
+**Title:** Caption vs command
+**Signal:** Neutral label plus command to act or stop acting.
+**Student move:** Read the command before the caption.
+**Tiny rule:** Function beats label for injunction appealability.
+**Trap:** Magic-word caption rule.
+**Confidence:** ANCHOR_ASSISTED.
+
+## Gold Key(s)
+
+**GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01**
+For immediate appeal, an order can count as an injunction by practical effect. A command to do or stop doing something may be injunctive even when the caption uses another label.
+
+Type: `distinction`
+Trigger: non-injunction caption plus stop-command.
+Tested choice: B.
+Authority: 28 U.S.C. §1292(a)(1), *Carson*, *Abbott*.
+
+## Silver Key(s)
+
+**SK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01**
+In a label-vs-function appealability question, read the verb in the order before reading the caption. A stop-command is the navigation signal.
+
+Type: `trap_spotting`
+Trigger: caption says one thing; operative sentence commands a party not to act.
+Tested choice: B.
+
+## qa_checklist
+
+| Check                                       | Result |
+| ------------------------------------------- | ------ |
+| Credited answer true and responsive         | Pass   |
+| Exactly three distractors                   | Pass   |
+| Each distractor breaks one filter           | Pass   |
+| C3 residual matches key                     | Pass   |
+| No fork                                     | Pass   |
+| Anchor disclosed as Gold Key                | Pass   |
+| Authority quarantined                       | Pass   |
+| Christian skin avoids church-internal issue | Pass   |
+
+## wrong_answer_recovery_paths
+
+| Choice | Why student picks it                   | Skipped move               | Recovery                            |
+| ------ | -------------------------------------- | -------------------------- | ----------------------------------- |
+| A      | Student over-applies final judgment.   | Missed exception lane.     | Mark “never,” recall Gold Key.      |
+| B      | Student treats caption as dispositive. | Read label before command. | Read the verb: “not rent.”          |
+| D      | Student trusts procedural label.       | Failed overclaim scan.     | Mark “every,” narrow to this order. |
+
+## outline_mastery_map
+
+**Placement:** 93110100 — Civil Procedure > Appealability and Review > Interlocutory Review.
+
+**This item teaches:** immediate appealability of injunction-effect orders.
+
+**Fills:** final-judgment exception; caption-vs-function classification; procedural gate before merits.
+
+**Adjacent to master:** collateral order doctrine; §1292(b) certification; Rule 23(f); TRO vs preliminary injunction.
+
+## crossover_intersection_map
+
+| Crossover                         | Shared move                                              |
+| --------------------------------- | -------------------------------------------------------- |
+| Evidence purpose questions        | Label does not decide; function/purpose decides.         |
+| Civil Procedure service questions | Procedural label does not answer the specific call.      |
+| Con Law remedy questions          | What the order does matters more than what it is called. |
+| Contracts condition labels        | Do not let a word label replace operative effect.        |
+
+## review_truth
+
+For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.
+
+---
+
+### 3. `c3_annotation`
+
+```json
+{
+  "question_id": "20291_nativity_prop_rental_freeze",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "C",
+  "outline_code": "93110100",
+  "distilled_core_question": "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?",
+  "review_truth": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "caption label vs practical command",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "fact-engaged > abstract, supported by Gold Key",
+    "difficulty": "medium-hard",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01",
+        "explanation": "The final-judgment idea is overextended by the word never."
+      },
+      {
+        "choice": "B",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "procedural_frame",
+        "card_ref": "GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01",
+        "explanation": "The caption-only rule uses the word only to create a magic-word requirement."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": "procedural_frame",
+        "card_ref": "CIV-CUT-01",
+        "explanation": "The word every makes all protocols immediately appealable, which is broader than the call and the rule."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "No lawyer-only authority used to manufacture a structural cut. The practical-effect doctrine is promoted as a Gold Key and kept out of the first-pass student logic except as a taught anchor.",
+      "transformed_from": "20291",
+      "letter_map": "A->C correct_answer kept; B->D tiered_absolute_every_management_order rewritten; C->B tiered_absolute_magic_word_label rewritten; D->A tiered_absolute_final_judgment_never rewritten",
+      "pick_rate_note": "No measured source pick rates supplied; all emitted percentages are null with predicted provenance."
+    },
+    "gold_keys": [
+      {
+        "id": "GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01",
+        "statement": "For immediate appeal, an order can count as an injunction by practical effect. A command to do or stop doing something may be injunctive even when the caption uses another label.",
+        "type": "distinction",
+        "unlocks": "Label-only and final-judgment traps in injunction appealability.",
+        "trigger": "Non-injunction caption plus a command to stop conduct until trial.",
+        "tested_choice": "B",
+        "authority": "28 U.S.C. §1292(a)(1); Carson v. American Brands; Abbott v. Perez.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01",
+        "statement": "In a label-vs-function appealability question, read the verb in the order before reading the caption. A stop-command is the navigation signal.",
+        "type": "trap_spotting",
+        "navigates": "Caption bait and protocol-label overreading.",
+        "trigger": "Order caption says one thing; operative sentence commands a party not to act.",
+        "tested_choice": "B",
+        "outline_code": "93110100",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 4. `program_elements`
+
+```json
+{
+  "question_id": "20291_nativity_prop_rental_freeze",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110100",
+  "distilled_core_question": "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?",
+  "review_truth": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+  "tension": {
+    "axis": "caption label vs practical command",
+    "resolving_fact": "The order directs Ruth not to rent the disputed props until trial."
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": "procedural_frame",
+      "why_attractive": "Final-judgment language feels safe because most appeals wait until the end. The Gold Key breaks it because injunction-effect orders are a named immediate-appeal lane.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "B",
+      "mold": "tiered_absolute",
+      "architecture": "procedural_frame",
+      "why_attractive": "Caption language feels technical because courts often care about order names. The Gold Key and Silver Key break it because this trap asks for labels when the command does the work.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "tiered_absolute",
+      "architecture": "procedural_frame",
+      "why_attractive": "Trial-management labels make the order sound procedural and harmless. The breaker is the word every, which turns one functionally coercive order into a universal appealability rule.",
+      "focus_group_pct": null,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "CIV-REM-20291-FUNCTIONAL-INJUNCTION",
+    "title": "Caption vs command",
+    "signal": "A district-court order has a neutral label but tells someone to do or stop doing something.",
+    "student_move": "Ignore the caption first; identify the operative command.",
+    "tiny_rule": "Function beats label for injunction appealability.",
+    "trap": "Magic-word caption rule; every-management-order overclaim.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "caption_over_function",
+    "final_judgment_overclaim",
+    "management_order_overgeneralization",
+    "procedural_label_bias"
+  ]
+}
+```
+
+---
+
+### 5. `program_intelligence`
+
+```json
+{
+  "question_id": "20291_nativity_prop_rental_freeze",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110100",
+  "distilled_core_question": "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?",
+  "review_truth": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student remembers the final-judgment rule and over-applies it.",
+      "skipped_move": "Overclaim scan on never.",
+      "recovery_step": "Mark never, then recall the injunction immediate-appeal Gold Key."
+    },
+    {
+      "choice": "B",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student treats caption wording as jurisdictional magic.",
+      "skipped_move": "Caption-vs-command read.",
+      "recovery_step": "Read the operative verb: Ruth may not rent until trial."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student sees a procedural order and assumes the whole order category controls.",
+      "skipped_move": "Narrow the call to this order.",
+      "recovery_step": "Cut every; ask why this protocol is special."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "cut",
+      "target_skill": "overclaim scan",
+      "prompt": "An order is called a scheduling order. One answer says every scheduling order is immediately appealable. What is the cut?",
+      "answer": "tiered_absolute; every is too broad."
+    },
+    {
+      "drill_type": "anchor",
+      "target_skill": "functional injunction",
+      "prompt": "A district court labels an order a protocol but tells a party not to sell inventory until trial. What Gold Key applies?",
+      "answer": "Function beats label for injunction appealability."
+    },
+    {
+      "drill_type": "trap_spotting",
+      "target_skill": "caption vs command",
+      "prompt": "The caption says protocol; the text says do not rent. Which fact controls the student move?",
+      "answer": "The command controls the navigation move."
+    },
+    {
+      "drill_type": "calibration",
+      "target_skill": "anchor-assisted cut",
+      "prompt": "You cut every, only, and never, but two cuts use a Gold Key. What confidence bucket?",
+      "answer": "ANCHOR_ASSISTED."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "caption_over_function",
+      "magic_word_requirement",
+      "final_judgment_overclaim",
+      "procedural_frame"
+    ],
+    "misconception_tags": [
+      "all_interlocutory_orders_wait",
+      "order_label_controls",
+      "all_management_orders_appealable"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1 TRUE and RESPONSIVE",
+    "Lesson 2 CUT → CLASH → CALL",
+    "Lesson 4 Overclaim",
+    "Lesson 7 Predict Before You Peek",
+    "Lesson 11 Bait Architecture",
+    "Lesson 12 Anchor Deck",
+    "Lesson 13 Calibration",
+    "Civil Procedure Overlay: Gate first. Status second. Merits last."
+  ],
+  "crossovers": [
+    {
+      "area": "Evidence",
+      "connection": "Purpose/function controls over label."
+    },
+    {
+      "area": "Constitutional Law",
+      "connection": "Remedy/effect matters more than caption."
+    },
+    {
+      "area": "Contracts",
+      "connection": "Operative effect beats formal label."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01",
+      "statement": "For immediate appeal, an order can count as an injunction by practical effect. A command to do or stop doing something may be injunctive even when the caption uses another label.",
+      "type": "distinction",
+      "unlocks": "Label-only and final-judgment traps in injunction appealability.",
+      "trigger": "Non-injunction caption plus a command to stop conduct until trial.",
+      "tested_choice": "B",
+      "authority": "28 U.S.C. §1292(a)(1); Carson v. American Brands; Abbott v. Perez.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-CIVIL_PROCEDURE-FUNCTIONAL-INJUNCTION-01",
+      "statement": "In a label-vs-function appealability question, read the verb in the order before reading the caption. A stop-command is the navigation signal.",
+      "type": "trap_spotting",
+      "navigates": "Caption bait and protocol-label overreading.",
+      "trigger": "Order caption says one thing; operative sentence commands a party not to act.",
+      "tested_choice": "B",
+      "outline_code": "93110100",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Civil Procedure > Appealability and Review > Interlocutory Review",
+    "this_item_teaches": "Immediate appealability of injunction-effect orders despite non-injunction captions.",
+    "fills": [
+      "final judgment exception",
+      "functional injunction classification",
+      "procedural gate before merits"
+    ],
+    "adjacent_to_master": [
+      "collateral order doctrine",
+      "28 U.S.C. §1292(b) certification",
+      "Rule 23(f) class-certification appeals",
+      "temporary restraining order vs preliminary injunction"
+    ]
+  }
+}
+```
+
+[1]: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1292+edition%3Aprelim%29&utm_source=chatgpt.com "28 USC 1292: Interlocutory decisions"
+[2]: https://supreme.justia.com/cases/federal/us/450/79/?utm_source=chatgpt.com " Carson v. American Brands, Inc. | 450 U.S. 79 (1981) | Justia U.S. Supreme Court Center"
+[3]: https://supreme.justia.com/cases/federal/us/585/17-586/?utm_source=chatgpt.com " Abbott v. Perez | 585 U.S. ___ (2018) | Justia U.S. Supreme Court Center"
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "20291_nativity_prop_rental_freeze",
+  "subject": "CIVIL_PROCEDURE",
+  "credited_answer": "C",
+  "outline_code": "93110100",
+  "distilled_core_question": "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?",
+  "review_truth": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "C",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 20291; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "20291_nativity_prop_rental_freeze",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110100",
+  "distilled_core_question": "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?",
+  "review_truth": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-20291",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "20291_nativity_prop_rental_freeze",
+  "subject": "CIVIL_PROCEDURE",
+  "outline_code": "93110100",
+  "distilled_core_question": "A district court order with a non-injunction caption tells a party not to rent disputed property until trial. Is it likely treated as an injunction for immediate appeal?",
+  "review_truth": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "93110100",
+    "this_item_teaches": "For injunction appealability, read practical effect; a stop-command can be treated as an injunction even if the caption says something else.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

@@ -1,0 +1,412 @@
+[
+  {
+    "index": 1,
+    "questionId": 16167,
+    "model": "openrouter/owl-alpha",
+    "sessionKey": "cq16167",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16167.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16167. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16167.md."
+  },
+  {
+    "index": 2,
+    "questionId": 18102,
+    "model": "deepseek/deepseek-reasoner",
+    "sessionKey": "cq18102",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18102.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18102. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18102.md."
+  },
+  {
+    "index": 3,
+    "questionId": 17208,
+    "model": "kimi/kimi-for-coding",
+    "sessionKey": "cq17208",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17208.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17208. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17208.md."
+  },
+  {
+    "index": 4,
+    "questionId": 19115,
+    "model": "minimax/MiniMax-M3",
+    "sessionKey": "cq19115",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19115.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19115. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19115.md."
+  },
+  {
+    "index": 5,
+    "questionId": 21004,
+    "model": "nv-minimax-m3/minimaxai/minimax-m3",
+    "sessionKey": "cq21004",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ21004.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 21004. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ21004.md."
+  },
+  {
+    "index": 6,
+    "questionId": 20335,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq20335",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ20335.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 20335. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ20335.md."
+  },
+  {
+    "index": 7,
+    "questionId": 17320,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq17320",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17320.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17320. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17320.md."
+  },
+  {
+    "index": 8,
+    "questionId": 20580,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq20580",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ20580.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 20580. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ20580.md."
+  },
+  {
+    "index": 9,
+    "questionId": 16018,
+    "model": "openrouter/poolside/laguna-m.1:free",
+    "sessionKey": "cq16018",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16018.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16018. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16018.md."
+  },
+  {
+    "index": 10,
+    "questionId": 17361,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq17361",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17361.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17361. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17361.md."
+  },
+  {
+    "index": 11,
+    "questionId": 16134,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq16134",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16134.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16134. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16134.md."
+  },
+  {
+    "index": 12,
+    "questionId": 18101,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq18101",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18101.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18101. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18101.md."
+  },
+  {
+    "index": 13,
+    "questionId": 16008,
+    "model": "openrouter/owl-alpha",
+    "sessionKey": "cq16008",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16008.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16008. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16008.md."
+  },
+  {
+    "index": 14,
+    "questionId": 16140,
+    "model": "deepseek/deepseek-reasoner",
+    "sessionKey": "cq16140",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16140.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16140. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16140.md."
+  },
+  {
+    "index": 15,
+    "questionId": 18768,
+    "model": "kimi/kimi-for-coding",
+    "sessionKey": "cq18768",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18768.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18768. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18768.md."
+  },
+  {
+    "index": 16,
+    "questionId": 17966,
+    "model": "minimax/MiniMax-M3",
+    "sessionKey": "cq17966",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17966.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17966. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17966.md."
+  },
+  {
+    "index": 17,
+    "questionId": 19055,
+    "model": "nv-minimax-m3/minimaxai/minimax-m3",
+    "sessionKey": "cq19055",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19055.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19055. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19055.md."
+  },
+  {
+    "index": 18,
+    "questionId": 21539,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq21539",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ21539.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 21539. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ21539.md."
+  },
+  {
+    "index": 19,
+    "questionId": 17178,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq17178",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17178.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17178. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17178.md."
+  },
+  {
+    "index": 20,
+    "questionId": 20938,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq20938",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ20938.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 20938. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ20938.md."
+  },
+  {
+    "index": 21,
+    "questionId": 21606,
+    "model": "openrouter/owl-alpha",
+    "sessionKey": "cq21606",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ21606.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 21606. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ21606.md."
+  },
+  {
+    "index": 22,
+    "questionId": 19454,
+    "model": "deepseek/deepseek-reasoner",
+    "sessionKey": "cq19454",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19454.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19454. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19454.md."
+  },
+  {
+    "index": 23,
+    "questionId": 17200,
+    "model": "kimi/kimi-for-coding",
+    "sessionKey": "cq17200",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17200.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17200. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17200.md."
+  },
+  {
+    "index": 24,
+    "questionId": 16171,
+    "model": "minimax/MiniMax-M3",
+    "sessionKey": "cq16171",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16171.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16171. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16171.md."
+  },
+  {
+    "index": 25,
+    "questionId": 17337,
+    "model": "nv-minimax-m3/minimaxai/minimax-m3",
+    "sessionKey": "cq17337",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ17337.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 17337. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ17337.md."
+  },
+  {
+    "index": 26,
+    "questionId": 19934,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq19934",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19934.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19934. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19934.md."
+  },
+  {
+    "index": 27,
+    "questionId": 19163,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq19163",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19163.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19163. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19163.md."
+  },
+  {
+    "index": 28,
+    "questionId": 21074,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq21074",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ21074.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 21074. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ21074.md."
+  },
+  {
+    "index": 29,
+    "questionId": 20672,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq20672",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ20672.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 20672. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ20672.md."
+  },
+  {
+    "index": 30,
+    "questionId": 20483,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq20483",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ20483.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 20483. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ20483.md."
+  },
+  {
+    "index": 31,
+    "questionId": 19746,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq19746",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19746.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19746. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19746.md."
+  },
+  {
+    "index": 32,
+    "questionId": 20812,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq20812",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ20812.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 20812. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ20812.md."
+  },
+  {
+    "index": 33,
+    "questionId": 19459,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq19459",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19459.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19459. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19459.md."
+  },
+  {
+    "index": 34,
+    "questionId": 19473,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq19473",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ19473.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 19473. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ19473.md."
+  },
+  {
+    "index": 35,
+    "questionId": 16101,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq16101",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16101.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16101. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16101.md."
+  },
+  {
+    "index": 36,
+    "questionId": 16077,
+    "model": "openrouter/owl-alpha",
+    "sessionKey": "cq16077",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16077.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16077. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16077.md."
+  },
+  {
+    "index": 37,
+    "questionId": 16104,
+    "model": "deepseek/deepseek-reasoner",
+    "sessionKey": "cq16104",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16104.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16104. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16104.md."
+  },
+  {
+    "index": 38,
+    "questionId": 18678,
+    "model": "kimi/kimi-for-coding",
+    "sessionKey": "cq18678",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18678.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18678. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18678.md."
+  },
+  {
+    "index": 39,
+    "questionId": 16026,
+    "model": "minimax/MiniMax-M3",
+    "sessionKey": "cq16026",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16026.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16026. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16026.md."
+  },
+  {
+    "index": 40,
+    "questionId": 16138,
+    "model": "nv-minimax-m3/minimaxai/minimax-m3",
+    "sessionKey": "cq16138",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ16138.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 16138. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ16138.md."
+  },
+  {
+    "index": 41,
+    "questionId": 18737,
+    "model": "openai/gpt-5.5",
+    "sessionKey": "cq18737",
+    "timeoutSeconds": 28800,
+    "verbose": "on",
+    "outputPath": "C:\\FOC\\Workspace\\Finished\\CQ18737.md",
+    "message": "Please do this BarMatrix Multiple Choice Bar Exam Question 18737. Complete any research needed, do not stop at planning, verify your work, and save the entire response to C:\\FOC\\Workspace\\Finished\\CQ18737.md."
+  }
+]

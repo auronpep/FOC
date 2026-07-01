@@ -1,0 +1,1097 @@
+---
+qid: "19379_hymn_candle_invoice_van"
+transformed_from: "19379"
+subject: "EVIDENCE"
+topic: "III.B.2 — Marital Communications Privilege"
+subtopic: "Marital Communications Privilege"
+outline_code: "35030202"
+key: "B"
+original_key: "D"
+letter_map: "- original_letter: \"A"
+dominant_trap: "C"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "PASS"
+review_truth: "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage."
+---
+## A) PASS-1 TRANSFORM REPORT
+
+### 1. Final question — revised stem + call
+
+In a federal wire-fraud prosecution against **Timothy** over online sales from his small Christian-craft booth, the prosecutor plans to call **Lydia**. Timothy and Lydia finalized their divorce eighteen months ago. Years earlier, while they were married, the two were sitting alone in Timothy’s parked delivery van after a city winter fair when Timothy quietly told Lydia, “I forged the online invoices for those hymn-themed candle orders.” Timothy objects to Lydia’s testimony about that private statement on spousal-privilege grounds.
+
+**How should the court rule?**
+
+Source row: BARMATRIX Q# 19379, Evidence, Marital Communications Privilege. 
+
+---
+
+### 2. Distilled Core Question
+
+Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?
+
+---
+
+### 3. Final answer choices, post-shuffle
+
+**A.** Overrule the objection because incriminating statements between spouses are never privileged in a criminal case.
+
+**B.** Sustain the objection if Timothy’s statement was a confidential marital communication made during the marriage; divorce ends the adverse spousal testimonial privilege, but it does not by itself eliminate the marital communications privilege for prior confidential communications.
+
+**C.** Overrule the objection because divorce ends every spousal privilege for statements made during the marriage.
+
+**D.** Sustain the objection under the adverse spousal testimonial privilege because Lydia is being asked to testify adversely against Timothy.
+
+---
+
+### 5. Correct answer
+
+**B**. Original key: **D**.
+
+---
+
+### 6. Letter Map
+
+| Original letter | New letter | Mechanic                                            | Substance | Pick rate     |
+| --------------- | ---------: | --------------------------------------------------- | --------- | ------------- |
+| A               |          C | divorce-ends-every-spousal-privilege overclaim      | kept      | 39% predicted |
+| B               |          D | adverse-testimonial-privilege wrong frame           | kept      | 20% predicted |
+| C               |          A | incriminating-statements-never-privileged overclaim | kept      | 9% predicted  |
+| D               |          B | correct_answer                                      | kept      | 32% predicted |
+
+No measured focus-group pick rates were supplied. All rates above are predicted, not inherited.
+
+---
+
+### 7. Full right-answer explanation
+
+**B is correct. Gold Key:** spousal testimonial privilege and confidential marital communications privilege are separate routes. The testimonial privilege depends on a current marriage; the communications privilege can protect confidential private communications made during the marriage even after divorce.
+
+**Silver Key:** when the array splits “sustain/overrule” and “testimonial/communications,” match the privilege route to the timing facts. Timothy and Lydia are divorced now, but the statement was private and made while they were married. The communications route, not the testimonial route, is the responsive route.
+
+---
+
+### 8. Full wrong-answer explanations
+
+**A.** This answer sells the clean instinct that criminal confessions should come in because they are incriminating. The breaker is the word **never**: the fact that a statement is incriminating does not by itself erase the confidential-communications route.
+
+**C.** This is the dominant trap. It borrows the current-marriage limit from one spousal privilege and stretches it across **every** spousal privilege. **Gold Key:** divorce ends the testimonial route, but it does not by itself kill the confidential marital communications route for private statements made during the marriage.
+
+**D.** This answer names a real privilege and gets the surface result right: sustain. The breaker is the route. **Silver Key:** a “sustain” answer still fails if it sustains under the wrong spousal privilege. The divorce fact knocks out the adverse-testimonial route, so the answer must use the communications route.
+
+---
+
+### 9. Black-letter verification and legal reasoning
+
+Federal privilege law is governed by Federal Rule of Evidence 501, which directs federal courts to apply common-law privileges as interpreted in light of reason and experience unless a constitution, statute, or Supreme Court rule provides otherwise. ([Legal Information Institute][1])
+
+The Supreme Court in **Trammel v. United States** limited the adverse spousal testimonial privilege so that the witness-spouse alone may refuse to testify adversely; the defendant-spouse may not bar a willing spouse from testifying under that route. Trammel also preserved the separate rule protecting confidential marital communications. ([Justia Law][2])
+
+The Supreme Court in **Pereira v. United States** stated the key survival rule: divorce removes the testimonial incompetency bar, but it does not terminate the privilege for confidential marital communications. Pereira also makes confidentiality the critical condition; third-party presence or intended disclosure can defeat the privilege. ([Justia Law][3])
+
+The transform preserves the tested rule, legal issue, and credited outcome from the original row: a private marital communication made during marriage remains potentially protected after divorce, while adverse spousal testimonial privilege is not the correct route because the marriage has ended. The original row states the same distinction. 
+
+---
+
+### 10. Why the variation preserves rigor and difficulty
+
+The variation keeps the same privilege split, same federal criminal setting, same divorce timing issue, same private marital communication trigger, same “wrong privilege route” trap, and same two overclaim distractors. It raises surface divergence by changing the asset, fraud object, location, names, setting, and fact rhythm.
+
+---
+
+### 11. C3 elimination walkthrough — CUT → CLASH → CALL
+
+**CUT A.** “Never privileged” is an overclaim. It fails the Ear after the Gold Key supplies the privilege distinction.
+
+**CUT C.** “Every spousal privilege” is the dominant overclaim. It flattens two different privilege routes into one.
+
+**CLASH D vs B.** Both say sustain. The axis is **which spousal privilege route controls**. The splitting facts are: divorced now; private statement during marriage. Those facts select **B**.
+
+**CALL.** No residual tie remains.
+
+---
+
+### 12. Divergence Audit
+
+| Recognition-Kill dimension | Result                                                                                                                            |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Asset / subject matter     | Hidden money from auditors → forged invoices for hymn-themed candle orders.                                                       |
+| Transaction frame          | Auditor concealment → online craft-booth sales / wire-fraud prosecution.                                                          |
+| Specific lies / facts      | “I hid the money” → “I forged the online invoices.”                                                                               |
+| All numbers                | “Last year” → “eighteen months ago.”                                                                                              |
+| Fact ordering and rhythm   | Prosecution is introduced first; divorce and confidential statement are backfilled.                                               |
+| Cast size / roles          | Two-party core preserved; adding a third person skipped because it would threaten confidentiality.                                |
+| Choice ordering            | Shuffled; key moved to B.                                                                                                         |
+| Choice phrasing            | Preserved where legal precision mattered; lightly paraphrased names and objection object.                                         |
+| Setting / era / texture    | Bedroom / auditors → parked delivery van / Christian craft booth / city winter fair.                                              |
+| Call wording               | “What is the best ruling?” → “How should the court rule?”                                                                         |
+| Christian skin rules       | Popular Bible names only: Timothy and Lydia. Christian flavor uses private goods, not church property or internal church dispute. |
+| Over-signal check          | Stem does not spell out “testimonial privilege unavailable” or “communications privilege survives divorce.”                       |
+
+**Original stem summary:** divorced former spouse is asked in a federal fraud case about a private bedroom confession to hiding money from auditors.
+
+**Variant stem summary:** divorced former spouse is asked in a wire-fraud case about a private delivery-van confession to forged invoices for hymn-themed candle orders.
+
+Recognition test: passed.
+
+---
+
+### 13. Review Truth
+
+Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.
+
+---
+
+### 14. Five variations considered
+
+| Candidate                                | Setting / cast                                                | Preserved issue                                                           | Why memorable                           | Legal risks                                                      | Divergence score                                                                                      |
+| ---------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Recommended: Hymn-Candle Invoice Van** | Timothy and Lydia; Christian craft booth; parked delivery van | divorced former spouse; private marital communication; federal fraud case | visual, concrete, no church-law clutter | none material                                                    | **9/10** — kills asset, transaction, lie, setting, rhythm, names, call wording, choice order, texture |
+| Fishers’ Charter Ledger                  | Peter and Mary; private fishing-charter gear ledger           | same privilege distinction                                                | “fishers of men” echo                   | risk of extra business-partner facts                             | 7/10                                                                                                  |
+| Ruth’s Harp Repair Shop                  | Stephen and Ruth; harp-repair invoices                        | same privilege distinction                                                | Christian music texture                 | less divergent from money/auditor fraud                          | 7/10                                                                                                  |
+| Daniel’s Scripture App Receipts          | Daniel and Esther; private Bible-app subscription receipts    | same privilege distinction                                                | modern tech frame                       | risk of adding digital-storage hearsay clutter                   | 8/10                                                                                                  |
+| Barnabas Coffee-Roast Labels             | Barnabas and Naomi; Christian coffee-roast label invoices     | same privilege distinction                                                | strong sensory image                    | “church fundraiser” risk avoided only by making it private sales | 8/10                                                                                                  |
+
+---
+
+## B1) PASS-2 QUESTION YAML
+
+```yaml
+barmatrix_row:
+  qid: "19379_hymn_candle_invoice_van"
+  transformed_from: "19379"
+  internal_id: "barmatrix_evidence_privileges_8_mcq_batch_004::r8::PPEV2-071"
+  subject: "EVIDENCE"
+  topic: "III.B.2 — Marital Communications Privilege"
+  subtopic: "Marital Communications Privilege"
+  outline_code: "35030202"
+  difficulty: "Discriminator"
+  selection_percentages:
+    A:
+      value: 9
+      provenance: "predicted"
+      note: "No measured focus-group rate supplied; rate predicted for transformed item."
+    B:
+      value: 32
+      provenance: "predicted"
+      note: "No measured focus-group rate supplied; rate predicted for transformed item."
+    C:
+      value: 39
+      provenance: "predicted"
+      note: "Predicted dominant trap: collapse of two spousal privileges."
+    D:
+      value: 20
+      provenance: "predicted"
+      note: "No measured focus-group rate supplied; rate predicted for transformed item."
+  official_key: "B"
+  original_key_letter: "D"
+  call: "How should the court rule?"
+  stem: "In a federal wire-fraud prosecution against Timothy over online sales from his small Christian-craft booth, the prosecutor plans to call Lydia. Timothy and Lydia finalized their divorce eighteen months ago. Years earlier, while they were married, the two were sitting alone in Timothy’s parked delivery van after a city winter fair when Timothy quietly told Lydia, “I forged the online invoices for those hymn-themed candle orders.” Timothy objects to Lydia’s testimony about that private statement on spousal-privilege grounds."
+  choices:
+    A: "Overrule the objection because incriminating statements between spouses are never privileged in a criminal case."
+    B: "Sustain the objection if Timothy’s statement was a confidential marital communication made during the marriage; divorce ends the adverse spousal testimonial privilege, but it does not by itself eliminate the marital communications privilege for prior confidential communications."
+    C: "Overrule the objection because divorce ends every spousal privilege for statements made during the marriage."
+    D: "Sustain the objection under the adverse spousal testimonial privilege because Lydia is being asked to testify adversely against Timothy."
+
+transform_provenance:
+  transformed_from: "19379"
+  variant_slug: "hymn_candle_invoice_van"
+  original_key_letter: "D"
+  new_key_letter: "B"
+  letter_map:
+    - original_letter: "A"
+      new_letter: "C"
+      mechanic: "divorce_ends_every_spousal_privilege_overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 39
+        provenance: "predicted"
+    - original_letter: "B"
+      new_letter: "D"
+      mechanic: "adverse_testimonial_privilege_wrong_frame"
+      substance: "kept"
+      pick_rate:
+        value: 20
+        provenance: "predicted"
+    - original_letter: "C"
+      new_letter: "A"
+      mechanic: "incriminating_statements_never_privileged_overclaim"
+      substance: "kept"
+      pick_rate:
+        value: 9
+        provenance: "predicted"
+    - original_letter: "D"
+      new_letter: "B"
+      mechanic: "correct_answer"
+      substance: "kept"
+      pick_rate:
+        value: 32
+        provenance: "predicted"
+  swap:
+    performed: false
+    replaced_original_letter: null
+    reason: "All three distractor mechanics are strong and inherited cleanly."
+  divergence_summary:
+    original_stem_one_sentence: "Divorced former spouse is asked in a federal fraud case about a private bedroom confession to hiding money from auditors."
+    variant_stem_one_sentence: "Divorced former spouse is asked in a wire-fraud case about a private delivery-van confession to forged invoices for hymn-themed candle orders."
+    dimensions_changed:
+      - "asset_subject_matter"
+      - "transaction_frame"
+      - "specific_lies_facts"
+      - "numbers"
+      - "fact_ordering_stem_rhythm"
+      - "choice_ordering"
+      - "choice_phrasing"
+      - "setting_era_texture"
+      - "call_wording"
+      - "names"
+    dimensions_skipped_with_reason:
+      - "cast_size: third person skipped because any added listener could defeat confidentiality."
+
+source_stack:
+  - priority: 1
+    source: "BarMatrix row 19379"
+    use: "Stem, call, answer choices, official key, explanations, rule reference, diagnostic."
+  - priority: 2
+    source: "Existing C3 tags"
+    use: "No item-specific tags supplied; treated as unavailable."
+  - priority: 3
+    source: "Evidence overlay"
+    use: "Evidence = admissibility-layer cascade + failure-mode scan."
+  - priority: 4
+    source: "Controlled vocabularies"
+    use: "Controlled values for subject, molds, filters, method class, verdicts, confidence, keys."
+  - priority: 5
+    source: "Official legal explanation"
+    use: "Lawyer confirmation only."
+  - priority: 6
+    source: "Legal authority"
+    use: "FRE 501; Trammel; Pereira; Byrd for lawyer-confirmation layer."
+
+student_access_contract:
+  allowed_c3_lessons:
+    - "TRUE and RESPONSIVE"
+    - "Ear: overclaim"
+    - "Issue-Sense: bait doctrine"
+    - "Clash: route axis"
+    - "Evidence overlay: layer before exception"
+  allowed_gold_keys:
+    - "GK-EVIDENCE-SPOUSAL-01"
+  allowed_silver_keys:
+    - "SK-EVIDENCE-SPOUSAL-01"
+  access_limit: "Students may use the Gold Key distinction between spousal testimonial privilege and confidential marital communications privilege. They may not infer uncited privilege doctrine as hard structure."
+  controlling_test_result: "ANCHOR_SOLVE: the decisive cuts require the taught Gold Key."
+
+stem_parse:
+  subject_fit: "Evidence = admissibility-layer cascade + failure-mode scan."
+  call_type: "judge ruling on privilege objection"
+  negative_stem_inversion: false
+  adjacent_call_trap: "Do not answer whether a spouse can testify adversely in general; answer whether this private marital communication is privileged after divorce."
+  parties:
+    defendant: "Timothy"
+    witness: "Lydia"
+    relationship_status_now: "divorced"
+    relationship_status_at_statement: "married"
+  evidence_offered: "Lydia’s testimony about Timothy’s private statement."
+  ruling_requested: "sustain or overrule spousal-privilege objection"
+
+trigger_facts:
+  - fact: "Timothy and Lydia finalized their divorce eighteen months ago."
+    access_label: "C3-visible with Gold Key"
+    function: "Cuts adverse spousal testimonial route."
+  - fact: "The statement was made while they were married."
+    access_label: "C3-visible with Gold Key"
+    function: "Supports marital communications route."
+  - fact: "They were alone in Timothy’s parked delivery van."
+    access_label: "C3-visible"
+    function: "Confidentiality signal."
+  - fact: "Timothy quietly told Lydia a private incriminating statement."
+    access_label: "C3-visible"
+    function: "Communication, not mere observation."
+
+c3_routing:
+  governing_law_type: "RULE"
+  deciding_phase: "CLASH"
+  method_class: "anchor_assisted"
+  confidence: "ANCHOR_ASSISTED"
+  case_study_verdict: "ANCHOR_SOLVE"
+  bank_validation_verdict: "PASS"
+  residual: "B"
+  agrees_with_official_key: true
+  is_fork: false
+  fork_type: null
+  difficulty: "Discriminator"
+  tension_axis: "adverse spousal testimonial privilege vs confidential marital communications privilege"
+  call_heuristic: "layer route before result"
+
+answer_array:
+  geometry: "2x2 sustain_overrule_by_privilege_route"
+  rows:
+    - "Overrule: A and C"
+    - "Sustain: B and D"
+  columns:
+    - "Wrong broad no-privilege route: A/C"
+    - "Sustain route fight: B/D"
+  silver_key: "SK-EVIDENCE-SPOUSAL-01"
+  dominant_trap: "C"
+
+choice_walkthroughs:
+  A:
+    credited: false
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Never-statements overclaim"
+    c3_signal: "The word 'never' tries to erase all privilege protection because the statement is incriminating."
+    lawyer_confirmation: "Incriminating content does not itself defeat confidential marital communications privilege."
+  B:
+    credited: true
+    filter_broken: null
+    mold_code: null
+    mold_family: null
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "correct_answer"
+    method_class: "anchor_assisted"
+    student_label: "Correct privilege route"
+    c3_signal: "It matches both timing facts: divorced now, private statement during marriage."
+    lawyer_confirmation: "Confidential marital communications privilege can survive divorce for private communications made during marriage."
+  C:
+    credited: false
+    filter_broken: "NOT_TRUE"
+    mold_code: "tiered_absolute"
+    mold_family: "EAR_OVERCLAIM"
+    bait_architecture_code: null
+    wrong_answer_architecture_tags:
+      - "overbroad_rule"
+      - "wrong_timing"
+      - "common_student_myth"
+      - "bar_exam_bait"
+    method_class: "anchor_assisted"
+    student_label: "Every-privilege collapse"
+    c3_signal: "The word 'every' collapses two different spousal privilege routes into one divorce rule."
+    lawyer_confirmation: "Divorce ends the adverse testimonial route but not necessarily the confidential communications route."
+  D:
+    credited: false
+    filter_broken: "NOT_RESPONSIVE"
+    mold_code: "bait_doctrine"
+    mold_family: "ISSUE_SENSE"
+    bait_architecture_code: "wrong_frame"
+    wrong_answer_architecture_tags:
+      - "legally_true_but_irrelevant"
+      - "answer_to_different_question"
+      - "wrong_standard"
+      - "sounds_lawyerly"
+    method_class: "anchor_assisted"
+    student_label: "Right result, wrong privilege"
+    c3_signal: "It says sustain, but it uses the testimonial route, and the divorce fact points away from that route."
+    lawyer_confirmation: "Adverse spousal testimonial privilege generally depends on a current marriage and is not Timothy’s route."
+
+residual_answer:
+  choice: "B"
+  why_survives: "It is the only answer that sustains under the communication privilege while accounting for divorce."
+
+legal_leak_audit:
+  verdict: "No doctrine leaked into fake structure."
+  audit:
+    - "A and C are overclaim cuts only after the Gold Key supplies the privilege distinction."
+    - "D is not labeled false on pure structure; it is anchor-assisted bait doctrine."
+    - "B is not selected because it sounds fuller; it is selected because it matches the Gold Key and the timing facts."
+  drift_audit: "Privilege doctrine is quarantined in Gold Key and lawyer_confirmation."
+
+gold_keys:
+  - id: "GK-EVIDENCE-SPOUSAL-01"
+    statement: "Spousal testimonial privilege and confidential marital communications privilege are separate. Testimonial privilege requires a current marriage; communications privilege can protect confidential private communications made during the marriage even after divorce."
+    type: "distinction"
+    unlocks: "The divorce-current-marriage trap."
+    trigger: "Divorced former spouse + private statement made during marriage."
+    tested_choice: "C"
+    authority: "FRE 501; Trammel v. United States; Pereira v. United States."
+    last_minute_review: true
+
+silver_keys:
+  - id: "SK-EVIDENCE-SPOUSAL-01"
+    statement: "When the answer set splits sustain/overrule and testimonial/communications, pick the route that matches the timing facts: divorced now, private communication then."
+    type: "answer_array"
+    navigates: "Sustain answer using the wrong spousal privilege."
+    trigger: "Two sustain answers with different privilege labels."
+    tested_choice: "D"
+    outline_code: "35030202"
+    last_minute_review: true
+
+remediation:
+  card_id: "REM-EVIDENCE-SPOUSAL-19379-01"
+  title: "Do not collapse the two spousal privileges"
+  signal: "Divorced spouse asked about a private statement from the marriage."
+  student_move: "Separate testimonial privilege from communications privilege before choosing sustain or overrule."
+  tiny_rule: "Current marriage matters for testimonial privilege; private communication during marriage matters for communications privilege."
+  trap: "Divorce ends everything."
+  confidence: "ANCHOR_ASSISTED"
+
+distilled_core_question: "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?"
+review_truth: "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage."
+
+case_study_output:
+  final_student_script: "Divorced now kills testimonial. Private statement during marriage points communications. Cut the never/every overclaims, reject the wrong sustain route, pick B."
+  residual: "B"
+
+quality_control:
+  pass_conditions:
+    true_responsive_residual_equals_key: true
+    exactly_three_distractors_single_filter: true
+    key_disagreement: false
+    no_fork: true
+    controlled_vocab_checked: true
+    no_unapproved_christian_clutter: true
+    no_first_amendment_church_issue_added: true
+  validation: "PASS"
+
+analytics_hooks:
+  component_routing:
+    - "Evidence overlay"
+    - "Gold Key distinction"
+    - "Answer-array route clash"
+  trap_tags:
+    - "spousal_privilege_collapse"
+    - "current_marriage_overgeneralization"
+    - "wrong_privilege_route"
+  drill_seed:
+    prompt: "Divorced former spouse is asked about a private statement from the marriage. Which spousal privilege route matters?"
+    answer: "Confidential marital communications privilege."
+```
+
+---
+
+## B2) 17-SECTION STUDENT CASE STUDY
+
+### program_frame
+
+This is an Evidence privilege question. Do not start with “spousal privilege” as one blob. Start with the route.
+
+Evidence FIT: admissibility-layer cascade + failure-mode scan. The project overlay describes Evidence as purpose/layer/failure-mode work, not exception-name hunting. 
+
+---
+
+### student_access_test
+
+Could a trained C3 student solve this without outside doctrine?
+
+**Not fully.** The item turns on a tiny privilege distinction. It is **ANCHOR_SOLVE**, not pure structure.
+
+Allowed unlock: **Gold Key — spousal testimonial privilege ≠ confidential marital communications privilege.**
+
+---
+
+### question_data
+
+**Stem:** Timothy and Lydia are divorced. The statement was made while married, alone, and privately. Prosecutor wants Lydia to testify in Timothy’s federal wire-fraud case.
+
+**Call:** How should the court rule?
+
+**Answer choices:** A, B, C, D.
+
+**Credited answer:** B.
+
+---
+
+### distilled_core_question
+
+Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?
+
+---
+
+### call_and_prediction
+
+The call is a privilege ruling.
+
+Prediction after Gold Key: divorce knocks out the adverse-testimonial route, but the private statement made during marriage points to the confidential-communications route. Expect a sustain answer using the communications route.
+
+---
+
+### trigger_facts
+
+| Fact                             | Function                                   |
+| -------------------------------- | ------------------------------------------ |
+| “divorce eighteen months ago”    | rejects current-marriage testimonial route |
+| “years earlier, while married”   | opens communications route                 |
+| “alone in parked delivery van”   | confidentiality signal                     |
+| “quietly told Lydia”             | communication, not observation             |
+| “federal wire-fraud prosecution” | federal privilege law layer                |
+
+---
+
+### governing_c3_lane
+
+**Lane:** Evidence privilege layer.
+
+**Deciding phase:** CLASH.
+
+**Axis:** adverse spousal testimonial privilege vs confidential marital communications privilege.
+
+**Gold Key:** the two privileges are different.
+
+**Silver Key:** if two answers say sustain, check the privilege route before accepting the result.
+
+---
+
+### choice_by_choice_walkthrough
+
+#### Choice A
+
+1. **Student-accessible C3 signal:** “Never privileged” is an absolute.
+2. **Student label:** Overclaim; anchor-assisted.
+3. **True/responsive version:** “Overrule if the statement was not confidential, was not made during the marriage, or an exception applies.”
+4. **Lawyer confirmation:** Incriminating content alone does not destroy the confidential marital communications privilege.
+
+#### Choice B
+
+1. **Student-accessible C3 signal:** This choice matches both timing facts: divorced now, private statement during marriage.
+2. **Student label:** Residual answer.
+3. **True/responsive version:** Already true and responsive.
+4. **Lawyer confirmation:** Under federal common law, confidential marital communications made during marriage may remain protected after divorce if confidentiality exists. Pereira states that divorce does not terminate the confidential communications privilege. ([Justia Law][3])
+
+#### Choice C
+
+1. **Student-accessible C3 signal:** “Every spousal privilege” is too broad.
+2. **Student label:** Dominant trap; overclaim; anchor-assisted.
+3. **True/responsive version:** “Divorce ends the adverse spousal testimonial privilege, but not necessarily the communications privilege for earlier confidential marital communications.”
+4. **Lawyer confirmation:** The original item’s own explanation identifies this as the precise collapse error: transferring the current-marriage limit from testimonial privilege to the communications privilege. 
+
+#### Choice D
+
+1. **Student-accessible C3 signal:** It reaches “sustain,” but by the wrong route.
+2. **Student label:** Bait doctrine; wrong frame.
+3. **True/responsive version:** “Sustain under the confidential marital communications privilege.”
+4. **Lawyer confirmation:** Trammel places the adverse-testimonial privilege in the witness-spouse and limits the defendant-spouse’s ability to block adverse testimony under that route; the communications privilege is separate. ([Justia Law][2])
+
+---
+
+### residual_answer
+
+**B** survives.
+
+Reason: it is the only choice that keeps the two privilege routes separate and matches the facts.
+
+---
+
+### legal_leak_audit
+
+The student-facing explanation does not pretend privilege doctrine is visible from grammar alone. A and C use visible overclaim signals, but the legal reason those overclaims fail comes from the Gold Key. D is not called “false” as a pure C3 move; it is called wrong-frame after the Gold Key identifies the route split.
+
+Drift audit: No lawyer-only doctrine was converted into fake structure.
+
+---
+
+### final_student_script
+
+Divorced now means the testimonial route is the wrong route. Private statement during marriage means the communications route is live. Cut “never” and “every.” Reject the sustain answer that uses testimonial privilege. Pick **B**.
+
+---
+
+### remediation_card
+
+**REM-EVIDENCE-SPOUSAL-19379-01 — Two spousal privileges**
+
+**Signal:** divorced spouse + private statement from the marriage.
+
+**Student move:** split the routes before choosing a result.
+
+**Tiny rule:** current marriage for testimonial; private marital communication for communications.
+
+**Trap:** divorce ends every spousal privilege.
+
+**Confidence:** ANCHOR_ASSISTED.
+
+---
+
+### Gold Key(s)
+
+**GK-EVIDENCE-SPOUSAL-01**
+Spousal testimonial privilege and confidential marital communications privilege are separate. Testimonial privilege requires a current marriage; communications privilege can protect confidential private communications made during the marriage even after divorce.
+
+Type: `distinction`.
+
+---
+
+### Silver Key(s)
+
+**SK-EVIDENCE-SPOUSAL-01**
+When the answer set splits sustain/overrule and testimonial/communications, pick the route that matches the timing facts: divorced now, private communication then.
+
+Type: `answer_array`.
+
+---
+
+### qa_checklist
+
+| Check                                                       | Result |
+| ----------------------------------------------------------- | ------ |
+| Key moved consistently to B                                 | Pass   |
+| Three distractors each break one filter                     | Pass   |
+| No fork                                                     | Pass   |
+| Gold Key present because anchor-dependent                   | Pass   |
+| Silver Key present because route navigation is fumble-prone | Pass   |
+| Official key preserved                                      | Pass   |
+| Christian flavor adds no church-law issue                   | Pass   |
+
+---
+
+### wrong_answer_recovery_paths
+
+| Choice | Why a student picks it                                           | Recovery                                      |
+| ------ | ---------------------------------------------------------------- | --------------------------------------------- |
+| A      | Criminal confession feels too serious to protect.                | Hear “never” and ask for the privilege route. |
+| C      | Divorce feels like it should end all marriage-based protections. | Split the two spousal privileges.             |
+| D      | “Sustain” matches the outcome.                                   | Check route, not just result.                 |
+
+---
+
+### outline_mastery_map
+
+**Placement:** `35030202` — Evidence > Privileges and Public Policy Exclusions > Particular Privileges > Marital Communications Privilege.
+
+**This item teaches:** privilege-route distinction, not a broad privilege outline.
+
+**Adjacent mastery:** spousal testimonial privilege; confidentiality; third-party presence; privilege exceptions.
+
+---
+
+### crossover_intersection_map
+
+| Crossover                 | Connection                                                     |
+| ------------------------- | -------------------------------------------------------------- |
+| Evidence layer cascade    | Privilege is a threshold admissibility layer.                  |
+| Issue-Sense bait doctrine | D states a real neighboring doctrine but uses the wrong route. |
+| Ear overclaim             | A and C use absolute words: never / every.                     |
+| Clash                     | B and D fight on privilege route.                              |
+
+---
+
+### review_truth
+
+Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.
+
+---
+
+## B3) c3_annotation
+
+```json
+{
+  "question_id": "19379_hymn_candle_invoice_van",
+  "subject": "EVIDENCE",
+  "credited_answer": "B",
+  "outline_code": "35030202",
+  "distilled_core_question": "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?",
+  "review_truth": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CLASH",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": "adverse spousal testimonial privilege vs confidential marital communications privilege",
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "layer route before result",
+    "difficulty": "Discriminator",
+    "distractors": [
+      {
+        "choice": "A",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-EVIDENCE-SPOUSAL-01",
+        "explanation": "The word never overclaims; incriminating content does not itself erase communications privilege."
+      },
+      {
+        "choice": "C",
+        "filter_broken": "NOT_TRUE",
+        "mold": "tiered_absolute",
+        "architecture": null,
+        "card_ref": "GK-EVIDENCE-SPOUSAL-01",
+        "explanation": "The word every collapses two spousal privileges into one divorce rule."
+      },
+      {
+        "choice": "D",
+        "filter_broken": "NOT_RESPONSIVE",
+        "mold": "bait_doctrine",
+        "architecture": "wrong_frame",
+        "card_ref": "SK-EVIDENCE-SPOUSAL-01",
+        "explanation": "It reaches sustain under the wrong privilege route."
+      }
+    ],
+    "analyzer_notes": {
+      "drift_audit": "Doctrine is not treated as hard structure; all privilege-specific moves are Gold-Key-assisted.",
+      "transformed_from": "19379",
+      "letter_map": "A→C; B→D; C→A; D→B"
+    },
+    "gold_keys": [
+      {
+        "id": "GK-EVIDENCE-SPOUSAL-01",
+        "statement": "Spousal testimonial privilege and confidential marital communications privilege are separate. Testimonial privilege requires a current marriage; communications privilege can protect confidential private communications made during the marriage even after divorce.",
+        "type": "distinction",
+        "unlocks": "The divorce-current-marriage trap.",
+        "trigger": "Divorced former spouse + private statement made during marriage.",
+        "tested_choice": "C",
+        "authority": "FRE 501; Trammel v. United States; Pereira v. United States.",
+        "last_minute_review": true
+      }
+    ],
+    "silver_keys": [
+      {
+        "id": "SK-EVIDENCE-SPOUSAL-01",
+        "statement": "When the answer set splits sustain/overrule and testimonial/communications, pick the route that matches the timing facts: divorced now, private communication then.",
+        "type": "answer_array",
+        "navigates": "Sustain answer using the wrong spousal privilege.",
+        "trigger": "Two sustain answers with different privilege labels.",
+        "tested_choice": "D",
+        "outline_code": "35030202",
+        "last_minute_review": true
+      }
+    ]
+  }
+}
+```
+
+---
+
+## B4) program_elements
+
+```json
+{
+  "question_id": "19379_hymn_candle_invoice_van",
+  "subject": "EVIDENCE",
+  "outline_code": "35030202",
+  "distilled_core_question": "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?",
+  "review_truth": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+  "tension": {
+    "axis": "testimonial route vs communications route",
+    "splitting_fact": "divorced now; private statement during marriage"
+  },
+  "traps": [
+    {
+      "choice": "A",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "A student may think incriminating criminal statements should always come in. The breaker is that incriminating content alone does not erase a valid confidential marital communication privilege.",
+      "focus_group_pct": 9,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "C",
+      "mold": "tiered_absolute",
+      "architecture": null,
+      "why_attractive": "A student may know divorce matters and overapply that fact to every spousal privilege. The breaker is the Gold Key distinction between testimonial privilege and confidential communications privilege.",
+      "focus_group_pct": 39,
+      "pct_provenance": "predicted"
+    },
+    {
+      "choice": "D",
+      "mold": "bait_doctrine",
+      "architecture": "wrong_frame",
+      "why_attractive": "A student may stop at the correct surface result, sustain. The breaker is that the route is adverse testimonial privilege, and the divorce fact points away from that route.",
+      "focus_group_pct": 20,
+      "pct_provenance": "predicted"
+    }
+  ],
+  "remediation_card": {
+    "card_id": "REM-EVIDENCE-SPOUSAL-19379-01",
+    "title": "Do not collapse the two spousal privileges",
+    "signal": "Divorced spouse asked about a private statement from the marriage.",
+    "student_move": "Separate testimonial privilege from communications privilege before choosing sustain or overrule.",
+    "tiny_rule": "Current marriage matters for testimonial privilege; private communication during marriage matters for communications privilege.",
+    "trap": "Divorce ends everything.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": [
+    "spousal_privilege_collapse",
+    "route_result_confusion",
+    "overclaim_words_every_never",
+    "divorce_timing_overgeneralization"
+  ]
+}
+```
+
+---
+
+## B5) program_intelligence
+
+```json
+{
+  "question_id": "19379_hymn_candle_invoice_van",
+  "subject": "EVIDENCE",
+  "outline_code": "35030202",
+  "distilled_core_question": "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?",
+  "review_truth": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+  "wrong_answer_paths": [
+    {
+      "choice": "A",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The criminal confession feels too serious to protect.",
+      "skipped_move": "Overclaim check on never.",
+      "recovery_step": "Ask whether any privilege route survives despite incriminating content."
+    },
+    {
+      "choice": "C",
+      "filter_broken": "NOT_TRUE",
+      "mold": "tiered_absolute",
+      "why_a_student_picks_this": "The student remembers divorce matters but overextends it.",
+      "skipped_move": "Gold Key distinction between the two spousal privileges.",
+      "recovery_step": "Separate testimonial privilege from confidential marital communications privilege."
+    },
+    {
+      "choice": "D",
+      "filter_broken": "NOT_RESPONSIVE",
+      "mold": "bait_doctrine",
+      "why_a_student_picks_this": "The result is right, so the route is ignored.",
+      "skipped_move": "Answer-array route check.",
+      "recovery_step": "Between two sustain answers, choose the privilege route that matches the timing facts."
+    }
+  ],
+  "drill_seeds": [
+    {
+      "drill_type": "Gold Key recall",
+      "target_skill": "spousal privilege distinction",
+      "prompt": "A divorced former spouse is called to testify about a private statement from the marriage. Which privilege route is live?",
+      "answer": "Confidential marital communications privilege."
+    },
+    {
+      "drill_type": "Overclaim cut",
+      "target_skill": "Ear: tiered_absolute",
+      "prompt": "Cut the defect: 'Divorce ends every spousal privilege.'",
+      "answer": "Tiered absolute; divorce does not end every spousal privilege."
+    },
+    {
+      "drill_type": "Wrong-frame clash",
+      "target_skill": "Issue-Sense: bait_doctrine",
+      "prompt": "Two answers say sustain. One says adverse testimonial privilege; one says confidential marital communications privilege. The parties are divorced, but the statement was private and made during marriage. Which route wins?",
+      "answer": "Confidential marital communications privilege."
+    }
+  ],
+  "trap_tags": {
+    "forensic_tags": [
+      "2x2_route_array",
+      "sustain_route_clash",
+      "overclaim_every_never",
+      "anchor_assisted_privilege"
+    ],
+    "misconception_tags": [
+      "divorce_ends_all_spousal_privilege",
+      "criminal_confessions_never_privileged",
+      "correct_result_wrong_route"
+    ]
+  },
+  "component_routing": [
+    "Lesson 1: TRUE and RESPONSIVE",
+    "Lesson 4: Overclaim",
+    "Lesson 8: Bait doctrine",
+    "Lesson 9: Clash axis",
+    "Evidence overlay: admissibility-layer cascade",
+    "Gold Key: spousal privilege distinction",
+    "Silver Key: answer-array route check"
+  ],
+  "crossovers": [
+    {
+      "name": "Evidence layer cascade",
+      "note": "Privilege is a threshold admissibility layer."
+    },
+    {
+      "name": "Issue-Sense wrong frame",
+      "note": "A real neighboring privilege is not responsive when the facts point to the other route."
+    },
+    {
+      "name": "Ear overclaim",
+      "note": "Every and never signal broad privilege overclaims."
+    }
+  ],
+  "gold_keys": [
+    {
+      "id": "GK-EVIDENCE-SPOUSAL-01",
+      "statement": "Spousal testimonial privilege and confidential marital communications privilege are separate. Testimonial privilege requires a current marriage; communications privilege can protect confidential private communications made during the marriage even after divorce.",
+      "type": "distinction",
+      "unlocks": "The divorce-current-marriage trap.",
+      "trigger": "Divorced former spouse + private statement made during marriage.",
+      "tested_choice": "C",
+      "authority": "FRE 501; Trammel v. United States; Pereira v. United States.",
+      "last_minute_review": true
+    }
+  ],
+  "silver_keys": [
+    {
+      "id": "SK-EVIDENCE-SPOUSAL-01",
+      "statement": "When the answer set splits sustain/overrule and testimonial/communications, pick the route that matches the timing facts: divorced now, private communication then.",
+      "type": "answer_array",
+      "navigates": "Sustain answer using the wrong spousal privilege.",
+      "trigger": "Two sustain answers with different privilege labels.",
+      "tested_choice": "D",
+      "outline_code": "35030202",
+      "last_minute_review": true
+    }
+  ],
+  "outline_mastery": {
+    "placement": "Evidence > Privileges and Public Policy Exclusions > Particular Privileges > Marital Communications Privilege",
+    "this_item_teaches": "The divorce/current-marriage distinction between two spousal privileges.",
+    "fills": [
+      "marital communications privilege after divorce",
+      "adverse spousal testimonial privilege route",
+      "confidentiality timing"
+    ],
+    "adjacent_to_master": [
+      "third-party presence defeats confidentiality",
+      "spousal crime exceptions",
+      "federal privilege law under FRE 501"
+    ]
+  }
+}
+```
+
+[1]: https://www.law.cornell.edu/rules/fre/rule_501?utm_source=chatgpt.com "Rule 501. Privilege in General | Federal Rules of Evidence | US Law | LII / Legal Information Institute"
+[2]: https://supreme.justia.com/cases/federal/us/445/40/?utm_source=chatgpt.com "Trammel v. United States | 445 U.S. 40 (1980) | Justia U.S. Supreme Court Center"
+[3]: https://supreme.justia.com/us/347/1/?utm_source=chatgpt.com "Pereira v. United States | 347 U.S. 1 (1954) | Justia U.S. Supreme Court Center"
+
+---
+
+## B) PASS-2 FIVE BLOCKS
+
+### 1. Question YAML
+
+```yaml
+barmatrix_row:
+  qid: "19379_hymn_candle_invoice_van"
+  question_id: "19379_hymn_candle_invoice_van"
+  subject: "EVIDENCE"
+  topic: "III.B.2 — Marital Communications Privilege"
+  subtopic: "Marital Communications Privilege"
+  outline_code: "35030202"
+  official_key: "B"
+transform_provenance:
+  transformed_from: "19379"
+  variant_slug: "hymn_candle_invoice_van"
+  original_key_letter: "D"
+  new_key_letter: "B"
+  letter_map: "- original_letter: \"A"
+c3_routing:
+  bank_validation_verdict: "PASS"
+  case_study_verdict: "ANCHOR_SOLVE"
+  confidence: "ANCHOR_ASSISTED"
+  residual: "B"
+distilled_core_question: "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?"
+review_truth: "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage."
+```
+
+### 2. The 17-section student case study
+
+```
+1. **program_frame:** Question 19379_hymn_candle_invoice_van; source 19379.
+2. **student_access_test:** Existing authored student-access analysis is preserved in this file.
+3. **question_data:** Subject EVIDENCE; topic III.B.2 — Marital Communications Privilege; subtopic Marital Communications Privilege.
+4. **distilled_core_question:** Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?
+5. **call_and_prediction:** Credited answer: B.
+6. **trigger_facts:** See the preserved question stem and existing analysis above.
+7. **governing_c3_lane:** Outline code 35030202.
+8. **choice_by_choice_walkthrough:** See preserved wrong-answer explanations and C3 walkthrough above.
+9. **residual_answer:** B
+10. **legal_leak_audit:** Drift audit: structural repair only; existing legal analysis preserved.
+11. **final_student_script:** Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.
+12. **remediation_card:** Review the preserved Gold Key, Silver Key, remediation, and trap analysis when present.
+13. **qa_checklist:** Repair-normalized from workbook-listed structural issues.
+14. **wrong_answer_recovery_paths:** See preserved wrong-answer explanations.
+15. **outline_mastery_map:** Placement: 35030202.
+16. **crossover_intersection_map:** See preserved crossovers when present.
+17. **review_truth:** Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.
+```
+
+### 3. c3_annotation
+
+```json
+{
+  "question_id": "19379_hymn_candle_invoice_van",
+  "subject": "EVIDENCE",
+  "credited_answer": "B",
+  "outline_code": "35030202",
+  "distilled_core_question": "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?",
+  "review_truth": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+  "c3": {
+    "verdict": "ANCHOR_SOLVE",
+    "residual": "B",
+    "agrees_with_key": true,
+    "governing_law_type": "RULE",
+    "deciding_phase": "CUT",
+    "confidence": "ANCHOR_ASSISTED",
+    "tension_axis": null,
+    "is_fork": false,
+    "fork_type": null,
+    "call_heuristic": "repair_normalized",
+    "difficulty": "UNKNOWN",
+    "distractors": [],
+    "analyzer_notes": "drift_audit: structural repair only; transformed_from: 19379; letter_map: - original_letter: \"A",
+    "gold_keys": [],
+    "silver_keys": []
+  }
+}
+```
+
+### 4. program_elements
+
+```json
+{
+  "question_id": "19379_hymn_candle_invoice_van",
+  "subject": "EVIDENCE",
+  "outline_code": "35030202",
+  "distilled_core_question": "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?",
+  "review_truth": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+  "traps": [],
+  "remediation_card": {
+    "card_id": "RC-19379",
+    "title": "Repair-normalized remediation card",
+    "signal": "Workbook-listed structural issue",
+    "student_move": "Use the preserved explanation and walkthrough in this file.",
+    "tiny_rule": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+    "trap": "See preserved traps when present.",
+    "confidence": "ANCHOR_ASSISTED"
+  },
+  "red_zone_dimensions": []
+}
+```
+
+### 5. program_intelligence
+
+```json
+{
+  "question_id": "19379_hymn_candle_invoice_van",
+  "subject": "EVIDENCE",
+  "outline_code": "35030202",
+  "distilled_core_question": "Former spouse is called in a federal criminal case to testify about a private statement made during the marriage. Does divorce defeat the privilege objection?",
+  "review_truth": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+  "wrong_answer_paths": [],
+  "drill_seeds": [],
+  "trap_tags": {
+    "forensic_tags": [],
+    "misconception_tags": []
+  },
+  "component_routing": [
+    {
+      "destination_key": "review_cards",
+      "component_tags": [
+        "repair_normalized"
+      ]
+    }
+  ],
+  "crossovers": [],
+  "gold_keys": [],
+  "silver_keys": [],
+  "outline_mastery": {
+    "placement": "35030202",
+    "this_item_teaches": "Divorce ends the adverse-testimonial route, not the confidential-communications route for private statements made during marriage.",
+    "fills": [],
+    "adjacent_to_master": []
+  }
+}
+```

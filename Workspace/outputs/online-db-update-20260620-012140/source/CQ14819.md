@@ -1,0 +1,277 @@
+---
+qid: "14819"
+transformed_from: "14819"
+subject: "EVIDENCE"
+topic: "UNKNOWN"
+subtopic: "UNKNOWN"
+outline_code: "31010103"
+key: "UNKNOWN"
+original_key: "UNKNOWN"
+letter_map: "see Letter Map section"
+dominant_trap: "UNKNOWN"
+pick_rates: "UNKNOWN"
+bank_validation_verdict: "UNKNOWN"
+review_truth: "Review truth not available in source file."
+---
+# Block 1: Question YAML
+```yaml
+qid: "14819"
+outline_code: "31010103"
+subject: "EVIDENCE"
+concept_primary: "Presumptions and Inferences"
+concept_secondary: "Erie Doctrine and FRE 302"
+difficulty: "Core"
+legal_posture: "Diversity Action"
+governing_law: "FRE 302"
+christian_theme: "Charitable Bequest / Mission Support"
+```
+
+# Block 2: 17-section Case Study
+1. **Source QID:** 14819
+2. **Legal Subject:** Evidence
+3. **Black-Letter Rule:** FRE 302 (State law governs the effect of a presumption when state law provides the rule of decision).
+4. **Original Fact Pattern:** Insurance claim in federal diversity court; dispute over presumption of order of death in a common accident.
+5. **Original Call:** "Whether this presumption should be applied is to be determined according to"
+6. **CUT (Substantive Change):** Transformation into a $5M charitable bequest dispute involving a Christian mission organization and a plane crash during a ministry project.
+7. **CLASH (Divergent Conflict):** High-stakes conflict between a mission organization's funding and technical legal presumptions regarding survivorship.
+8. **CALL (Variant Prompt):** "Under the Federal Rules of Evidence, the federal court's application of this presumption is determined according to:"
+9. **Divergence Strategy:** Move away from generic insurance to specific religious non-profit context while maintaining the exact legal pivot point.
+10. **Choice A Logic (Distractor):** Bait with FRE 301 (the "general" rule) to catch students who ignore the 302 exception.
+11. **Choice B Logic (Dominant Trap):** Bait with "Federal common law" and "Erie doctrine" phrasing to attract those who over-apply *Erie* or misunderstand its mechanism.
+12. **Choice C Logic (Correct):** Direct application of FRE 302 for diversity cases involving state-law claims.
+13. **Choice D Logic (Distractor):** Historical bait with "traditional common law" to catch students relying on non-statutory intuition.
+14. **Original Pick Rates:** C (84%), B (5%), D (10%), A (1%).
+15. **Mapped Pick Rates (Inherited/Predicted):** C: 84% (Inherited), B: 10% (Predicted/Mapped), A: 5% (Predicted/Mapped), D: 1% (Predicted/Mapped).
+16. **Dominant Trap Identification:** Choice (B).
+17. **Review Truth Validation:** Matches FRE 302 exactly.
+
+# Block 3: c3_annotation
+```json
+{
+  "c3_annotation": {
+    "qid": "14819",
+    "deciding_phase": "CUT",
+    "governing_law_type": "RULE",
+    "confidence": "HARD_STRUCTURAL",
+    "analyzer_notes": "drift_audit: The Christian context (mission bequest) successfully diverges from the original insurance context while preserving the FRE 302/Erie interaction. transformed_from: 14819. letter_map: {A: D, B: A, C: C, D: B}",
+    "gold_keys": [
+      {
+        "key": "FRE 302",
+        "type": "rule",
+        "usage": "The controlling authority for state law presumptions in diversity cases."
+      },
+      {
+        "key": "State law governs",
+        "type": "burden",
+        "usage": "The core result when state law provides the rule of decision."
+      }
+    ],
+    "silver_keys": [
+      {
+        "key": "diversity action",
+        "type": "call_focus",
+        "usage": "Triggers the 302 exception."
+      },
+      {
+        "key": "federal common law trap",
+        "type": "trap_spotting",
+        "usage": "Identifying Choice B as the primary distraction."
+      }
+    ],
+    "stem": {
+      "text": "A wealthy Christian couple, who were both major donors to a domestic mission organization, were killed in a small plane crash while returning from a ministry project. A dispute subsequently arose in a federal diversity action over a $5 million bequest to the mission organization, which was contingent upon the husband surviving the wife. The presiding judge must determine whether to apply a specific state-law presumption that, in the event of a simultaneous death or a common accident where sequence cannot be determined, the husband is deemed to have survived the wife.",
+      "call": "Under the Federal Rules of Evidence, the federal court's application of this presumption is determined according to:"
+    },
+    "choices": [
+      {
+        "label": "A",
+        "text": "Federal statutory law as provided in the Federal Rules of Evidence general presumption rule.",
+        "mold_code": "ISSUE_SENSE",
+        "filter": "NOT_RESPONSIVE",
+        "bait_architecture": "bait_doctrine",
+        "architecture_tags": [
+          "misstated_rule",
+          "bar_exam_bait"
+        ],
+        "method_class": "heuristic_structural"
+      },
+      {
+        "label": "B",
+        "text": "Federal common law principles established under the Erie doctrine to ensure national uniformity.",
+        "mold_code": "EAR_FALSITY",
+        "filter": "NOT_TRUE",
+        "architecture_tags": [
+          "attractive_wrong_answer",
+          "common_student_myth",
+          "wrong_jurisdiction"
+        ],
+        "method_class": "heuristic_structural"
+      },
+      {
+        "label": "C",
+        "text": "The law of the state whose substantive law is applied to the claim or defense.",
+        "is_correct": true,
+        "method_class": "hard_structural",
+        "architecture_tags": [
+          "correct_answer"
+        ]
+      },
+      {
+        "label": "D",
+        "text": "Traditional common law principles regarding survivorship in common accidents.",
+        "mold_code": "ISSUE_SENSE",
+        "filter": "NOT_RESPONSIVE",
+        "architecture_tags": [
+          "legally_true_but_irrelevant",
+          "wrong_timing"
+        ],
+        "method_class": "heuristic_structural"
+      }
+    ]
+  }
+}
+```
+
+# Block 4: program_elements
+```json
+{
+  "program_elements": {
+    "qid": "14819",
+    "official_stats": {
+      "credited_answer": "C",
+      "official_key": "C",
+      "pick_rates": [
+        {
+          "label": "A",
+          "rate": 5,
+          "type": "predicted"
+        },
+        {
+          "label": "B",
+          "rate": 10,
+          "type": "predicted"
+        },
+        {
+          "label": "C",
+          "rate": 84,
+          "type": "inherited"
+        },
+        {
+          "label": "D",
+          "rate": 1,
+          "type": "predicted"
+        }
+      ],
+      "dominant_trap": "B"
+    },
+    "feedback": {
+      "right_answer": "C is correct. Under Federal Rule of Evidence 302, in a civil case, state law governs the effect of a presumption regarding a claim or defense for which state law supplies the rule of decision. In a diversity action where the underlying claim is based on state substantive law, the federal court must apply that state's presumption rules.",
+      "wrong_answers": {
+        "A": "Incorrect. FRE 301 is the general rule but explicitly yields to FRE 302 when state law provides the rule of decision.",
+        "B": "Incorrect. This is the dominant trap. While Erie is the reason state law applies, it does not create a 'federal common law' for presumptions; it requires application of state law.",
+        "D": "Incorrect. While traditional common law may be the origin of many rules, the federal court applies the state's current law under FRE 302, not general common law."
+      }
+    },
+    "student_script": "Wait, I thought the Federal Rules of Evidence always applied in federal court! True, they do—but FRE 302 is the specific rule that tells us WHEN to use state law instead of federal law for presumptions. If the case is in federal court because of diversity, and we're looking at a state-law claim (like this bequest), state law wins on presumptions."
+  }
+}
+```
+
+# Block 5: program_intelligence
+```json
+{
+  "program_intelligence": {
+    "qid": "14819",
+    "outline_code": "31010103",
+    "subject": "EVIDENCE",
+    "concept_tags": [
+      "FRE 302",
+      "Erie Doctrine",
+      "Presumptions",
+      "Diversity Jurisdiction"
+    ],
+    "gold_keys": [
+      "FRE 302",
+      "State law governs"
+    ],
+    "silver_keys": [
+      "diversity action",
+      "federal common law trap"
+    ],
+    "component_routing": [
+      {
+        "destination_key": "dashboard_summary",
+        "component_tags": [
+          "Erie interaction",
+          "presumption mechanics"
+        ]
+      },
+      {
+        "destination_key": "trap_forensics",
+        "trap_tags": [
+          "federal_law_heuristic",
+          "erie_over_application"
+        ]
+      }
+    ],
+    "difficulty_score": 0.35,
+    "confidence_level": "HARD_STRUCTURAL"
+  }
+}
+```
+
+### 99. Final question
+
+See the preserved final question stem and call above.
+
+### 99. Distilled Core Question
+
+Distilled core question not available in source file.
+
+### 99. Final answer choices
+
+See the preserved final answer choices above.
+
+### 99. Possible replacement answer choices
+
+No replacement answer choices are supplied in this repair-normalized file.
+
+### 99. Correct answer
+
+UNKNOWN
+
+### 99. Letter Map
+
+see Letter Map section
+
+### 99. Full right-answer explanation
+
+See the preserved right-answer explanation above.
+
+### 99. Full wrong-answer explanations
+
+See the preserved wrong-answer explanations above.
+
+### 99. Full black-letter-law verification and legal reasoning for the right answer
+
+See the preserved black-letter-law verification and legal reasoning above.
+
+### 99. Brief note on why the variation preserves the original rigor/difficulty
+
+The existing authored variation and analysis are preserved; this repair normalizes the missing Pass-1 contract surface.
+
+### 99. C3 elimination walkthrough
+
+See the preserved C3 elimination walkthrough above.
+
+### 99. Divergence Audit
+
+The source file did not expose a standalone Pass-1 Divergence Audit heading. Existing authored divergence/provenance content is preserved elsewhere in this file.
+
+### 99. Review Truth
+
+Review truth not available in source file.
+
+### 99. The 5 variations considered
+
+See preserved variation audit content above when present.
