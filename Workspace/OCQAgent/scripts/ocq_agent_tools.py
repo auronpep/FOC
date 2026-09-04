@@ -445,6 +445,23 @@ def initialize_agent_workspace(
     return workspace
 
 
+def reject_duplicate_agent_ids(records: list[dict[str, str]], path: Path) -> list[dict[str, str]]:
+    """Two rows sharing an agent_id resolve to one workspace, and the later row
+    silently overwrites the earlier one's queue.txt."""
+    seen: dict[str, int] = {}
+    for index, row in enumerate(records, start=2):  # row 1 is the header
+        agent_id = (row.get("agent_id") or "").strip().lower()
+        if not agent_id:
+            continue  # blank ids are rejected later by normalize_agent_id
+        if agent_id in seen:
+            raise ValueError(
+                f"duplicate agent_id {agent_id!r} in {path} "
+                f"(rows {seen[agent_id]} and {index})"
+            )
+        seen[agent_id] = index
+    return records
+
+
 def load_roster(path: Path) -> list[dict[str, str]]:
     if not path.exists():
         raise FileNotFoundError(f"roster not found: {path}")
@@ -453,7 +470,10 @@ def load_roster(path: Path) -> list[dict[str, str]]:
             reader = csv.DictReader(handle)
             if reader.fieldnames != ROSTER_COLUMNS:
                 raise ValueError(f"unexpected roster CSV header: {reader.fieldnames}")
-            return [{key: clean_cell(row.get(key, "")) for key in ROSTER_COLUMNS} for row in reader]
+            return reject_duplicate_agent_ids(
+                [{key: clean_cell(row.get(key, "")) for key in ROSTER_COLUMNS} for row in reader],
+                path,
+            )
     if path.suffix.lower() == ".xlsx":
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
         try:
@@ -468,7 +488,7 @@ def load_roster(path: Path) -> list[dict[str, str]]:
                 if row is None or all(clean_cell(value) == "" for value in row):
                     continue
                 records.append({key: clean_cell(row[index] if index < len(row) else "") for index, key in enumerate(headers)})
-            return records
+            return reject_duplicate_agent_ids(records, path)
         finally:
             wb.close()
     raise ValueError("roster must be .csv or .xlsx")
