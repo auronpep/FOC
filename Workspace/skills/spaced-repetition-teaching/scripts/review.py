@@ -265,8 +265,8 @@ def main():
     interval = (new_state.next_review - today).days
     r_label = RATING_LABELS[rating]
     print(f"[{r_label}] {card['title']}")
-    print(f"  Stability: {old_state.stability:.2f} → {new_state.stability:.2f} days")
-    print(f"  Difficulty: {old_state.difficulty:.2f} → {new_state.difficulty:.2f}")
+    print(f"  Stability: {old_state.stability:.2f} -> {new_state.stability:.2f} days")
+    print(f"  Difficulty: {old_state.difficulty:.2f} -> {new_state.difficulty:.2f}")
     print(f"  Next review: {new_state.next_review} (in {interval} day{'s' if interval != 1 else ''})")
     if rating == 1:
         print(f"  *** LAPSE #{new_state.lapses} — card reset ***")
