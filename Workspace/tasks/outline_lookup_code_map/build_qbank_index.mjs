@@ -36,7 +36,9 @@ for (const file of files) {
   if (!internalId) continue;
   const qid = field(text, "BARMATRIX Q#") || path.basename(file, ".md");
   const row = {
-    file,
+    // Repo-relative POSIX path: an absolute one bakes in the machine that
+    // generated the index and makes every regeneration a full-file diff.
+    file: path.relative(WORKSPACE, file).split(path.sep).join('/'),
     qid,
     internal_id: internalId,
     subject_display: field(text, "subject_display"),
