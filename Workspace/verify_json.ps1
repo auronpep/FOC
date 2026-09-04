@@ -175,8 +175,8 @@ function Compare-JsonArray {
     [object]$Right
   )
 
-  $leftJson = if ($null -eq $Left) { 'null' } else { $Left | ConvertTo-Json -Depth 50 -Compress }
-  $rightJson = if ($null -eq $Right) { 'null' } else { $Right | ConvertTo-Json -Depth 50 -Compress }
+  $leftJson = if ($null -eq $Left) { 'null' } else { ConvertTo-Json -InputObject $Left -Depth 50 -Compress }
+  $rightJson = if ($null -eq $Right) { 'null' } else { ConvertTo-Json -InputObject $Right -Depth 50 -Compress }
   return $leftJson -eq $rightJson
 }
 
