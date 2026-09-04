@@ -1,9 +1,16 @@
 import fs from "node:fs/promises";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const workbookPath = "C:/Users/JesusLovesMe/Documents/outline lookup.xlsx";
-const outlinePath = "C:/FOC/Workspace/OUTLINE_CODES_COMPLETE.md";
-const outputDir = "C:/FOC/Workspace/tasks/outline_lookup_code_map";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const WORKSPACE = path.resolve(HERE, "..", "..");
+
+const workbookPath = process.env.OUTLINE_WORKBOOK ?? path.join(os.homedir(), "Documents", "outline lookup.xlsx");
+const outlinePath = path.join(WORKSPACE, "OUTLINE_CODES_COMPLETE.md");
+const outputDir = HERE;
 
 const subjectByFirstDigit = {
   "3": "Evidence",

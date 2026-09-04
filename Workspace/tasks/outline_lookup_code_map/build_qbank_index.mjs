@@ -1,8 +1,14 @@
 import fs from "node:fs/promises";
-import path from "node:path";
 
-const qbankDir = "C:/FOC/Workspace/QBank";
-const outputDir = "C:/FOC/Workspace/tasks/outline_lookup_code_map";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const WORKSPACE = path.resolve(HERE, "..", "..");
+
+const qbankDir = path.join(WORKSPACE, "QBank");
+const outputDir = HERE;
 
 async function walk(dir) {
   const out = [];
@@ -30,7 +36,9 @@ for (const file of files) {
   if (!internalId) continue;
   const qid = field(text, "BARMATRIX Q#") || path.basename(file, ".md");
   const row = {
-    file,
+    // Repo-relative POSIX path: an absolute one bakes in the machine that
+    // generated the index and makes every regeneration a full-file diff.
+    file: path.relative(WORKSPACE, file).split(path.sep).join('/'),
     qid,
     internal_id: internalId,
     subject_display: field(text, "subject_display"),
