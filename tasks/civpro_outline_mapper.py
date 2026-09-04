@@ -405,8 +405,10 @@ def main(write: bool = False) -> None:
     if write:
         wb.save(WORKBOOK)
 
+    return 1 if bad else 0
+
 
 if __name__ == "__main__":
     import sys
 
-    main(write="--write" in sys.argv)
+    sys.exit(main(write="--write" in sys.argv))
