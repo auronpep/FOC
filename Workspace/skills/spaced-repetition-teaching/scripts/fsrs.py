@@ -304,7 +304,7 @@ if __name__ == "__main__":
     i90 = next_interval(10.0, desired_retention=0.9)
     i85 = next_interval(10.0, desired_retention=0.85)
     i95 = next_interval(10.0, desired_retention=0.95)
-    print(f"Interval for S=10: r=0.9→{i90}d, r=0.85→{i85}d, r=0.95→{i95}d")
+    print(f"Interval for S=10: r=0.9->{i90}d, r=0.85->{i85}d, r=0.95->{i95}d")
     assert i90 == 10, f"At default retention, interval should equal stability, got {i90}"
     assert i85 > i90, "Lower retention target → longer interval"
     assert i95 < i90, "Higher retention target → shorter interval"

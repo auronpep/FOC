@@ -14,7 +14,7 @@ Example:
     python due_cards.py ~/algo-spaced-repetition.md --date 2026-03-20
 
 Output:
-    Cards sorted by priority (P1 → P2 → P3), then by overdue-ness (most overdue first).
+    Cards sorted by priority (P1 -> P2 -> P3), then by overdue-ness (most overdue first).
     New cards (no FSRS state) always appear first within their priority group.
 """
 
