@@ -14,8 +14,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$runRoot = Join-Path 'C:\FOC\Workspace\OpenClawBatchResults' $RunLabel
-$finishedRoot = 'C:\FOC\Workspace\Finished'
+$runRoot = Join-Path (Join-Path $PSScriptRoot 'OpenClawBatchResults') $RunLabel
+$finishedRoot = Join-Path $PSScriptRoot 'Finished'
 
 $thinkingByModel = @{
   'openai/gpt-5.5' = 'xhigh'
