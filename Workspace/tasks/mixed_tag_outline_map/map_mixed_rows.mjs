@@ -1,10 +1,18 @@
 import fs from "node:fs/promises";
-import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const WORKBOOK = "C:/Users/JesusLovesMe/Documents/Mixed tag.xlsx";
-const OUTLINE = "C:/FOC/Workspace/OUTLINE_CODES_COMPLETE.md";
-const WORKDIR = "C:/FOC/Workspace/tasks/mixed_tag_outline_map";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const WORKSPACE = path.resolve(HERE, "..", "..");
+const SPREADSHEET_WORK = path.join(WORKSPACE, ".codex_spreadsheet_work");
+const DOCUMENTS = path.join(os.homedir(), "Documents");
+
+const WORKBOOK = process.env.MIXED_WORKBOOK ?? path.join(DOCUMENTS, "Mixed tag.xlsx");
+const OUTLINE = path.join(WORKSPACE, "OUTLINE_CODES_COMPLETE.md");
+const WORKDIR = HERE;
 
 const SUBJECT_BY_DIGIT = {
   3: "Evidence",
@@ -404,21 +412,21 @@ async function loadSubjectMaps(validCodes) {
     sourceMap.set(String(qid), { code: normalizedCode, source, note });
   };
 
-  for (const row of parseCsv(await fs.readFile("C:/FOC/Workspace/tasks/contract_law_tag_audit.csv", "utf8"))) {
+  for (const row of parseCsv(await fs.readFile(path.join(WORKSPACE, "tasks", "contract_law_tag_audit.csv"), "utf8"))) {
     add(row.qid, row.outline_code, "contract_law_tag_audit", row.note);
   }
-  for (const row of parseCsv(await fs.readFile("C:/FOC/Workspace/.codex_spreadsheet_work/conlaw_mapping_suggestions_v2.csv", "utf8"))) {
+  for (const row of parseCsv(await fs.readFile(path.join(SPREADSHEET_WORK, "conlaw_mapping_suggestions_v2.csv"), "utf8"))) {
     add(row.qid, row.proposed_code, "conlaw_mapping_suggestions_v2", row.reason);
   }
-  for (const row of parseCsv(await fs.readFile("C:/FOC/Workspace/.codex_spreadsheet_work/torts_outline_mapping_review.csv", "utf8"))) {
+  for (const row of parseCsv(await fs.readFile(path.join(SPREADSHEET_WORK, "torts_outline_mapping_review.csv"), "utf8"))) {
     add(row.qid, row.outline_code, "torts_outline_mapping_review", row.reason);
   }
-  const criminal = JSON.parse(await fs.readFile("C:/FOC/Workspace/.codex_spreadsheet_work/criminal_law_outline_mapping.json", "utf8"));
+  const criminal = JSON.parse(await fs.readFile(path.join(SPREADSHEET_WORK, "criminal_law_outline_mapping.json"), "utf8"));
   for (const row of criminal.rows ?? []) {
     add(row.qid, row.outline_code, "criminal_law_outline_mapping", row.note);
   }
 
-  const civpro = await SpreadsheetFile.importXlsx(await FileBlob.load("C:/Users/JesusLovesMe/Documents/CivPro_tag.xlsx"));
+  const civpro = await SpreadsheetFile.importXlsx(await FileBlob.load(process.env.CIVPRO_WORKBOOK ?? path.join(DOCUMENTS, "CivPro_tag.xlsx")));
   const civValues = civpro.worksheets.getItem("Sheet1").getUsedRange(true).values;
   const civHeaders = civValues[0].map(String);
   const qCol = civHeaders.indexOf("BARMATRIX Q#");
