@@ -4,7 +4,7 @@ param(
   [string]$ManifestPath = (Join-Path $PSScriptRoot 'incoming\LPOC.openclaw-manifest.json'),
   [string]$PreviewPath = (Join-Path $PSScriptRoot 'incoming\LPOC.commands.preview.ps1'),
   [string]$WorkspaceRoot = $PSScriptRoot,
-  [string]$OpenClawPath = 'C:\FOC\bin\openclaw.ps1',
+  [string]$OpenClawPath = (Join-Path (Split-Path -Parent $PSScriptRoot) 'bin\openclaw.ps1'),
   [string]$Agent = 'main',
   [string]$Delimiter,
   [int]$TimeoutSeconds = 28800,
