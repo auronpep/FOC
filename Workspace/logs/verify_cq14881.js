@@ -5,18 +5,16 @@ const checks = [];
 
 // 1. Frontmatter consistency
 const fm = s.match(/^---\s*([\s\S]*?)---/m);
-if (fm) {
-  const fmBody = fm[1];
-  checks.push({name: 'frontmatter qid matches', pass: /qid:\s*14881_prize_bull_breeding_record/.test(fmBody)});
-  checks.push({name: 'frontmatter transformed_from', pass: /transformed_from:\s*14881/.test(fmBody)});
-  checks.push({name: 'frontmatter key C', pass: /key:\s*C/.test(fmBody)});
-  checks.push({name: 'frontmatter original_key D', pass: /original_key:\s*D/.test(fmBody)});
-  checks.push({name: 'frontmatter letter_map', pass: /letter_map:\s*A->D,\s*B->A,\s*C->B,\s*D->C/.test(fmBody)});
-  checks.push({name: 'frontmatter dominant_trap D', pass: /dominant_trap:\s*D/.test(fmBody)});
-  checks.push({name: 'frontmatter outline_code', pass: /outline_code:\s*32020405/.test(fmBody)});
-  checks.push({name: 'frontmatter subject EVIDENCE', pass: /subject:\s*EVIDENCE/.test(fmBody)});
-  checks.push({name: 'frontmatter bank_validation PASS', pass: /bank_validation_verdict:\s*PASS/.test(fmBody)});
-}
+const fmBody = fm ? fm[1] : '';
+checks.push({name: 'frontmatter qid matches', pass: /qid:\s*14881_prize_bull_breeding_record/.test(fmBody)});
+checks.push({name: 'frontmatter transformed_from', pass: /transformed_from:\s*14881/.test(fmBody)});
+checks.push({name: 'frontmatter key C', pass: /key:\s*C/.test(fmBody)});
+checks.push({name: 'frontmatter original_key D', pass: /original_key:\s*D/.test(fmBody)});
+checks.push({name: 'frontmatter letter_map', pass: /letter_map:\s*A->D,\s*B->A,\s*C->B,\s*D->C/.test(fmBody)});
+checks.push({name: 'frontmatter dominant_trap D', pass: /dominant_trap:\s*D/.test(fmBody)});
+checks.push({name: 'frontmatter outline_code', pass: /outline_code:\s*32020405/.test(fmBody)});
+checks.push({name: 'frontmatter subject EVIDENCE', pass: /subject:\s*EVIDENCE/.test(fmBody)});
+checks.push({name: 'frontmatter bank_validation PASS', pass: /bank_validation_verdict:\s*PASS/.test(fmBody)});
 
 // 2. Pass-1 sections present
 const requiredSections = [
@@ -52,12 +50,10 @@ for (const sec of sec17) {
 
 // 5. drift_audit, transformed_from, letter_map in analyzer_notes
 const anMatch = s.match(/"analyzer_notes":\s*"([\s\S]*?)"/);
-if (anMatch) {
-  const an = anMatch[1];
-  checks.push({name: 'analyzer_notes has drift_audit', pass: an.includes('drift_audit:')});
-  checks.push({name: 'analyzer_notes has transformed_from: 14881', pass: an.includes('transformed_from: 14881')});
-  checks.push({name: 'analyzer_notes has letter_map', pass: an.includes('letter_map:')});
-}
+const an = anMatch ? anMatch[1] : '';
+checks.push({name: 'analyzer_notes has drift_audit', pass: an.includes('drift_audit:')});
+checks.push({name: 'analyzer_notes has transformed_from: 14881', pass: an.includes('transformed_from: 14881')});
+checks.push({name: 'analyzer_notes has letter_map', pass: an.includes('letter_map:')});
 
 // 6. Outline code consistent across blocks
 const oc32020405 = (s.match(/32020405/g) || []).length;
@@ -88,10 +84,8 @@ checks.push({name: 'variant_stem_one_sentence present', pass: s.includes('varian
 
 // 13. Review Truth is a single pure rule sentence
 const reviewTruthMatch = s.match(/review_truth:\s*"([^"]+)"/);
-if (reviewTruthMatch) {
-  const rt = reviewTruthMatch[1].toLowerCase();
-  checks.push({name: 'Review Truth purity (no process commentary)', pass: !/unchanged|disregarded|export|artifact|original|source row/.test(rt)});
-}
+const rt = reviewTruthMatch ? reviewTruthMatch[1].toLowerCase() : '';
+checks.push({name: 'Review Truth purity (no process commentary)', pass: Boolean(reviewTruthMatch) && !/unchanged|disregarded|export|artifact|original|source row/.test(rt)});
 
 // 14. Frontmatter is item 0
 checks.push({name: 'Frontmatter at top (item 0)', pass: s.startsWith('---')});
