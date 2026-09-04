@@ -56,31 +56,6 @@ function ConvertTo-PSQuotedString {
   return "'" + ($Value -replace "'", "''") + "'"
 }
 
-function Get-SafeFileNameSegment {
-  param([Parameter(Mandatory)][string]$Value)
-
-  $safe = ($Value -replace '[^A-Za-z0-9]+', '-').Trim('-').ToLowerInvariant()
-  if ($safe.Length -gt 64) {
-    return $safe.Substring(0, 64)
-  }
-
-  if ([string]::IsNullOrWhiteSpace($safe)) {
-    return 'model'
-  }
-
-  return $safe
-}
-
-function Get-ItemThinking {
-  param([Parameter(Mandatory)]$Item)
-
-  if ($Item.PSObject.Properties.Name -contains 'thinking' -and -not [string]::IsNullOrWhiteSpace([string]$Item.thinking)) {
-    return [string]$Item.thinking
-  }
-
-  return 'high'
-}
-
 $manifest = Get-Content -Raw -LiteralPath $ManifestPath | ConvertFrom-Json
 $items = @($manifest.items)
 if ($items.Count -eq 0) {
@@ -244,6 +219,8 @@ $results = $items | ForEach-Object -Parallel {
     }
   }
 
+  # Defined inside the parallel block on purpose: ForEach-Object -Parallel
+  # runspaces cannot see functions declared in the caller's scope.
   function Get-SafeFileNameSegmentLocal {
     param([Parameter(Mandatory)][string]$Value)
 
