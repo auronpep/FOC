@@ -42,7 +42,14 @@ export class BrowserStackClient {
       );
     }
 
-    return response.json() as Promise<T>;
+    const text = await response.text();
+    try {
+      return JSON.parse(text) as T;
+    } catch {
+      throw new Error(
+        `BrowserStack returned non-JSON from ${endpoint} (${response.status}): ${text.slice(0, 200)}`,
+      );
+    }
   }
 
   async getPlan(): Promise<BrowserStackPlan> {
