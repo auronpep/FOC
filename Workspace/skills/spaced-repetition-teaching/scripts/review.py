@@ -186,6 +186,9 @@ def update_card_in_file(
         # Append to existing history
         if hist_line.rstrip().endswith("]"):
             hist_line = hist_line.rstrip()[:-1] + f", {rating_entry}]"
+        elif hist_line.rstrip().endswith("**"):
+            # First entry on an empty History line: no comma to separate from.
+            hist_line = hist_line.rstrip() + f" {rating_entry}"
         else:
             hist_line = hist_line + f", {rating_entry}"
         all_lines[abs_idx] = hist_line + "\n"
