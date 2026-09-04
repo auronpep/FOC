@@ -19,6 +19,11 @@ from typing import Iterable
 
 import openpyxl
 
+SCRIPTS_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPTS_DIR.parents[2]
+ADD_ANSWER_SCRIPT = SCRIPTS_DIR / "Add-OCQAnswer.ps1"
+OPENCLAW_PS1 = REPO_ROOT / "bin" / "openclaw.ps1"
+
 QUESTION_HEADERS = [
     "BID",
     "Question",
@@ -342,7 +347,7 @@ Each question file is named `<BID>.md` and contains only the blind question fiel
 6. Answer from the question and answer choices only, while preserving the test-taker personality in `SOUL.md`.
 7. Pick exactly one answer choice only. Do not rank choices and do not record a second choice.
 8. Assign one confidence label: `easy`, `medium`, or `hard`.
-9. Append exactly one row to `answers.csv`, preferably by running `C:\\FOC\\Workspace\\OCQAgent\\scripts\\Add-OCQAnswer.ps1`.
+9. Append exactly one row to `answers.csv`, preferably by running `{ADD_ANSWER_SCRIPT}`.
 10. Stop after the BIDs in `current_batch.txt`. Do not continue into `queue.txt`.
 
 ## Output Rule
@@ -356,7 +361,7 @@ Do not include a correct answer, answer key, official explanation, second choice
 Run this from PowerShell after deciding:
 
 ```powershell
-pwsh -NoProfile -File C:\\FOC\\Workspace\\OCQAgent\\scripts\\Add-OCQAnswer.ps1 -AgentId {agent_id} -Bid <BID> -AnswerChoice <A|B|C|D> -ConfidenceLabel <easy|medium|hard>
+pwsh -NoProfile -File {ADD_ANSWER_SCRIPT} -AgentId {agent_id} -Bid <BID> -AnswerChoice <A|B|C|D> -ConfidenceLabel <easy|medium|hard>
 ```
 
 Model selection is controlled by OpenClaw config for this agent. This file does not override it.
@@ -604,11 +609,11 @@ def build_openclaw_commands(roster_path: Path, agents_root: Path) -> list[str]:
         agent_id = normalize_agent_id(row["agent_id"])
         workspace = agents_root / agent_id
         commands.append(
-            "& 'C:\\FOC\\bin\\openclaw.ps1' agents add "
+            f"& '{OPENCLAW_PS1}' agents add "
             f"{agent_id} --workspace '{workspace}' --non-interactive"
         )
         commands.append(
-            "& 'C:\\FOC\\bin\\openclaw.ps1' agents set-identity "
+            f"& '{OPENCLAW_PS1}' agents set-identity "
             f"--agent {agent_id} --name '{row['display_name'] or agent_id}' --workspace '{workspace}' --from-identity"
         )
     return commands
