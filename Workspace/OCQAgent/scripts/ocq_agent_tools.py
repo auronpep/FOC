@@ -198,7 +198,17 @@ def prepare_batch(workspace: Path, count: int) -> list[str]:
     ensure_answer_csv(answers_path)
     queue = read_ids(queue_path)
     done = answered_ids(answers_path)
-    selected = [bid for bid in queue if bid not in done][:count]
+    # A repeated line in queue.txt would otherwise put the same BID in the
+    # batch twice; the agent answers it once and the second append fails.
+    selected: list[str] = []
+    seen: set[str] = set()
+    for bid in queue:
+        if bid in done or bid in seen:
+            continue
+        seen.add(bid)
+        selected.append(bid)
+        if len(selected) >= count:
+            break
     batch_path.write_text("".join(f"{bid}\n" for bid in selected), encoding="utf-8", newline="\n")
     return selected
 
