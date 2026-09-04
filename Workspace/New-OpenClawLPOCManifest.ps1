@@ -160,9 +160,8 @@ foreach ($row in $rows) {
     throw "Row $index has a blank Model."
   }
 
-  try {
-    $questionId = [int]$questionIdText
-  } catch {
+  $questionId = 0
+  if (-not [int]::TryParse($questionIdText, [ref]$questionId)) {
     throw "Row $index has a non-numeric Question ID: $questionIdText"
   }
 
