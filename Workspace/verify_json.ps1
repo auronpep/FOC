@@ -482,9 +482,12 @@ if ($ManifestPath) {
 }
 
 if (-not $Quiet) {
+  # Out-Host renders the table without emitting format objects into the
+  # pipeline, which would otherwise be all a caller receives.
   $results |
     Select-Object File, Question, Passed, FailureCount |
-    Format-Table -AutoSize
+    Format-Table -AutoSize |
+    Out-Host
 
   foreach ($result in $results | Where-Object { -not $_.Passed }) {
     Write-Host ''
@@ -493,6 +496,12 @@ if (-not $Quiet) {
       Write-Host " - $failure"
     }
   }
+}
+
+else {
+  # Quiet mode is the machine-readable path: emit the result objects so a
+  # caller can inspect .Passed / .Failures instead of only the exit code.
+  $results
 }
 
 if (@($results | Where-Object { -not $_.Passed }).Count -gt 0) {
