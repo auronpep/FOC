@@ -1,26 +1,27 @@
-$script:BMJsonWorkspaceRoot = 'C:\FOC\Workspace'
+$script:BMFocRoot = Split-Path -Parent $PSScriptRoot
+$script:BMJsonWorkspaceRoot = Join-Path $script:BMFocRoot 'Workspace'
 $script:BMJsonPwsh = 'C:\Program Files\PowerShell\7\pwsh.exe'
 if (-not (Test-Path -LiteralPath $script:BMJsonPwsh -PathType Leaf)) {
     $script:BMJsonPwsh = 'pwsh'
 }
 
 function foc-openclaw {
-    & 'C:\FOC\bin\openclaw.ps1' @args
+    & (Join-Path $script:BMFocRoot 'bin\openclaw.ps1') @args
 }
 
 function syncbmq {
-    & 'C:\FOC\Workspace\Sync-BMQFinished.ps1' @args
+    & (Join-Path $script:BMJsonWorkspaceRoot 'Sync-BMQFinished.ps1') @args
 }
 
 function buildbmjson {
     [CmdletBinding(PositionalBinding = $false)]
     param(
-        [string]$ScriptPath = 'C:\FOC\Workspace\New-OpenClawLPOCManifest.ps1',
-        [string]$CsvPath = 'C:\FOC\Workspace\incoming\LPOC.csv',
-        [string]$ManifestPath = 'C:\FOC\Workspace\incoming\LPOC.openclaw-manifest.json',
-        [string]$PreviewPath = 'C:\FOC\Workspace\incoming\LPOC.commands.preview.ps1',
-        [string]$WorkspaceRoot = 'C:\FOC\Workspace',
-        [string]$OpenClawPath = 'C:\FOC\bin\openclaw.ps1',
+        [string]$ScriptPath = (Join-Path $script:BMJsonWorkspaceRoot 'New-OpenClawLPOCManifest.ps1'),
+        [string]$CsvPath = (Join-Path $script:BMJsonWorkspaceRoot 'incoming\LPOC.csv'),
+        [string]$ManifestPath = (Join-Path $script:BMJsonWorkspaceRoot 'incoming\LPOC.openclaw-manifest.json'),
+        [string]$PreviewPath = (Join-Path $script:BMJsonWorkspaceRoot 'incoming\LPOC.commands.preview.ps1'),
+        [string]$WorkspaceRoot = $script:BMJsonWorkspaceRoot,
+        [string]$OpenClawPath = (Join-Path $script:BMFocRoot 'bin\openclaw.ps1'),
         [string]$Agent = 'main',
         [string]$Delimiter,
         [int]$TimeoutSeconds = 28800,
@@ -66,11 +67,11 @@ function runbmjson {
         [switch]$CleanSkip,
         [Alias('clean-limit')]
         [int]$CleanLimit = 0,
-        [string]$ScriptPath = 'C:\FOC\Workspace\Start-OpenClawLPOCBatch.ps1',
-        [string]$CsvPath = 'C:\FOC\Workspace\incoming\LPOC.csv',
-        [string]$ManifestPath = 'C:\FOC\Workspace\incoming\LPOC.openclaw-manifest.json',
-        [string]$OpenClawPath = 'C:\FOC\bin\openclaw.ps1',
-        [string]$ResultsRoot = 'C:\FOC\Workspace\OpenClawBatchResults',
+        [string]$ScriptPath = (Join-Path $script:BMJsonWorkspaceRoot 'Start-OpenClawLPOCBatch.ps1'),
+        [string]$CsvPath = (Join-Path $script:BMJsonWorkspaceRoot 'incoming\LPOC.csv'),
+        [string]$ManifestPath = (Join-Path $script:BMJsonWorkspaceRoot 'incoming\LPOC.openclaw-manifest.json'),
+        [string]$OpenClawPath = (Join-Path $script:BMFocRoot 'bin\openclaw.ps1'),
+        [string]$ResultsRoot = (Join-Path $script:BMJsonWorkspaceRoot 'OpenClawBatchResults'),
         [int]$ThrottleLimit = 8,
         [int]$Limit = 0,
         [int]$Skip = 0,
@@ -119,7 +120,7 @@ function runbmjson {
     }
 
     if ($Build) {
-        buildbmjson -CsvPath $CsvPath -ManifestPath $ManifestPath -WorkspaceRoot 'C:\FOC\Workspace' -OpenClawPath $OpenClawPath | Out-Host
+        buildbmjson -CsvPath $CsvPath -ManifestPath $ManifestPath -WorkspaceRoot $script:BMJsonWorkspaceRoot -OpenClawPath $OpenClawPath | Out-Host
     }
 
     if (-not (Test-Path -LiteralPath $ScriptPath -PathType Leaf)) {
