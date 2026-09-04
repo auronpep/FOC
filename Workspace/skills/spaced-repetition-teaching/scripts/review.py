@@ -31,7 +31,7 @@ DESIRED_RETENTION = 0.9
 # Card file parsing
 # ---------------------------------------------------------------------------
 
-def parse_cards(text: str) -> list[dict]:
+def parse_cards(text: str) -> tuple[list[dict], list[str]]:
     """
     Parse a markdown card file into a list of card dicts.
 
