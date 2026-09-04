@@ -19,6 +19,19 @@ if ($RowsPerAgent -lt 1) {
 if ($ThrottleLimit -lt 1) {
   throw '-ThrottleLimit must be at least 1.'
 }
+
+# `pwsh -File` passes -AgentIds adam,noah as one argv token, so split the
+# entries the way RUN_Cod.ps1 does for -Questions.
+$AgentIds = @(
+  foreach ($entry in $AgentIds) {
+    foreach ($part in ([string]$entry -split '[,\s]+')) {
+      if (-not [string]::IsNullOrWhiteSpace($part)) { $part }
+    }
+  }
+)
+if ($AgentIds.Count -eq 0) {
+  throw '-AgentIds resolved to no agents.'
+}
 if (-not (Get-Command pwsh -ErrorAction SilentlyContinue)) {
   throw 'pwsh is required for this concurrency test.'
 }
