@@ -1,7 +1,7 @@
 [CmdletBinding(PositionalBinding = $false)]
 param(
-  [string]$Path = 'C:\FOC\Workspace\OCQAgent\agent_roster.xlsx',
-  [string]$PythonPath
+  [string]$Path = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'OCQAgent\agent_roster.xlsx'),
+  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
 )
 
 $ErrorActionPreference = 'Stop'

@@ -2,8 +2,8 @@
 param(
   [Parameter(Mandatory)][string]$AgentId,
   [Parameter(Mandatory)][int]$Count,
-  [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
-  [string]$OpenClawPath = 'C:\FOC\bin\openclaw.ps1',
+  [string]$AgentsRoot = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'agents\bible'),
+  [string]$OpenClawPath = (Join-Path (Split-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) -Parent) 'bin\openclaw.ps1'),
   [string]$SessionKey,
   [int]$TimeoutSeconds = 1800,
   [switch]$Launch
@@ -33,17 +33,21 @@ if ($ids.Count -eq 0) {
   exit 0
 }
 
+$workspaceRoot = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
+$ocqRoot = Join-Path $workspaceRoot 'OCQ'
+$addAnswerScript = Join-Path $PSScriptRoot 'Add-OCQAnswer.ps1'
+
 $message = @"
 Run your OCQ blind-answer workflow as agent '$AgentId' for exactly the question IDs in current_batch.txt.
 
 Hard stop rules:
 - Process at most $($ids.Count) question(s).
 - Do not continue into queue.txt after current_batch.txt is done.
-- For each question, read C:\FOC\Workspace\OCQ\<BID>.md.
+- For each question, read $ocqRoot\<BID>.md.
 - Pick exactly one answer choice. Do not rank choices and do not record a second choice.
 - Use one ConfidenceLabel value: easy, medium, or hard.
 - Append each result to your local answers.csv using:
-  pwsh -NoProfile -File C:\FOC\Workspace\OCQAgent\scripts\Add-OCQAnswer.ps1 -AgentId $AgentId -Bid <BID> -AnswerChoice <A|B|C|D> -ConfidenceLabel <easy|medium|hard>
+  pwsh -NoProfile -File $addAnswerScript -AgentId $AgentId -Bid <BID> -AnswerChoice <A|B|C|D> -ConfidenceLabel <easy|medium|hard>
 - Stop when current_batch.txt is complete.
 "@
 

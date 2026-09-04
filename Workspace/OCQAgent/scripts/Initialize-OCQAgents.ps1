@@ -1,9 +1,9 @@
 [CmdletBinding(PositionalBinding = $false)]
 param(
-  [string]$RosterPath = 'C:\FOC\Workspace\OCQAgent\agent_roster.xlsx',
-  [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
-  [string]$QuestionBankRoot = 'C:\FOC\Workspace\OCQ',
-  [string]$WorkbookPath = 'C:\FOC\Workspace\OCQ.xlsx',
+  [string]$RosterPath = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'OCQAgent\agent_roster.xlsx'),
+  [string]$AgentsRoot = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'agents\bible'),
+  [string]$QuestionBankRoot = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'OCQ'),
+  [string]$WorkbookPath = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'OCQ.xlsx'),
   [string]$QuestionIds,
   [string]$QuestionFile,
   [switch]$OverwriteInstructions,
