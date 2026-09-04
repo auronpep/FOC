@@ -356,9 +356,13 @@ def iter_rows():
     headers = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
     cols = {h: i + 1 for i, h in enumerate(headers)}
     for row in range(2, ws.max_row + 1):
+        raw_qid = ws.cell(row, cols["BARMATRIX Q#"]).value
+        if raw_qid is None or str(raw_qid).strip() == "":
+            # ws.max_row counts trailing rows that carry formatting but no data.
+            continue
         yield {
             "row": row,
-            "qid": int(ws.cell(row, cols["BARMATRIX Q#"]).value),
+            "qid": int(raw_qid),
             "question": ws.cell(row, cols["Question"]).value or "",
             "explanation": ws.cell(row, cols["Answer Explanation"]).value or "",
             "topic": ws.cell(row, cols["topic"]).value or "",
