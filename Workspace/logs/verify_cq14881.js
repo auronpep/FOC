@@ -1,5 +1,9 @@
 const fs = require('fs');
-const s = fs.readFileSync('C:/FOC/Workspace/Finished/CQ14881.md', 'utf8');
+const path = require('path');
+
+// Default to the copy committed in this repo; allow an override argument.
+const target = process.argv[2] || path.join(__dirname, '..', 'Finished', 'CQ14881.md');
+const s = fs.readFileSync(target, 'utf8');
 
 const checks = [];
 
@@ -109,3 +113,6 @@ for (const c of checks) {
 }
 console.log('---');
 console.log(passCount + '/' + checks.length + ' checks pass');
+
+// Exit non-zero on failure so this can gate a batch run.
+process.exit(passCount === checks.length ? 0 : 1);
