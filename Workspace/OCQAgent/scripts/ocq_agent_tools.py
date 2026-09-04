@@ -187,7 +187,7 @@ def ensure_answer_csv(path: Path) -> None:
 def answered_ids(answers_path: Path) -> set[str]:
     if not answers_path.exists():
         return set()
-    with answers_path.open(newline="", encoding="utf-8") as handle:
+    with answers_path.open(newline="", encoding="utf-8-sig") as handle:
         reader = csv.DictReader(handle)
         if reader.fieldnames != ANSWER_COLUMNS:
             raise ValueError(f"unexpected answer CSV header in {answers_path}: {reader.fieldnames}")
@@ -535,7 +535,7 @@ def summarize_answers(agents_root: Path, output_dir: Path) -> dict[str, object]:
     all_rows = []
     for answers_path in sorted(agents_root.glob("*/answers.csv")):
         agent_id = answers_path.parent.name
-        with answers_path.open(newline="", encoding="utf-8") as handle:
+        with answers_path.open(newline="", encoding="utf-8-sig") as handle:
             reader = csv.DictReader(handle)
             if reader.fieldnames != ANSWER_COLUMNS:
                 raise ValueError(f"unexpected answer CSV header in {answers_path}: {reader.fieldnames}")
