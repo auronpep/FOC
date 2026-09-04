@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import os
 import re
 import shutil
 from datetime import datetime, timezone
@@ -8,9 +9,16 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-WORKBOOK = Path(r"C:\Users\JesusLovesMe\Documents\contract law tag.xlsx")
-OUTLINE = Path(r"C:\FOC\Workspace\OUTLINE_CODES_COMPLETE.md")
-AUDIT = Path(r"C:\FOC\Workspace\tasks\contract_law_tag_audit.csv")
+TASKS_DIR = Path(__file__).resolve().parent
+WORKSPACE_ROOT = TASKS_DIR.parent
+
+WORKBOOK = Path(
+    os.environ.get(
+        "CONTRACT_WORKBOOK", Path.home() / "Documents" / "contract law tag.xlsx"
+    )
+)
+OUTLINE = WORKSPACE_ROOT / "OUTLINE_CODES_COMPLETE.md"
+AUDIT = TASKS_DIR / "contract_law_tag_audit.csv"
 
 
 def extract_contract_codes() -> dict[str, str]:
