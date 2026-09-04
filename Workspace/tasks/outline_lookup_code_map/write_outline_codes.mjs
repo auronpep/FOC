@@ -25,6 +25,12 @@ if (values[0][0] !== "Status" || values[0][1] !== "Outline Code") {
   throw new Error(`Unexpected headers: ${JSON.stringify(values[0])}`);
 }
 
+if (values.length < mappings.length + 1) {
+  throw new Error(
+    `Workbook has ${values.length - 1} data row(s); expected at least ${mappings.length} to match the mapping file.`,
+  );
+}
+
 for (let i = 0; i < mappings.length; i++) {
   const excelRow = i + 2;
   const status = values[i + 1][0] ?? "";
