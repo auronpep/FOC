@@ -21,10 +21,10 @@ Output:
 import os
 import re
 import sys
-from datetime import date, timedelta
+from datetime import date
 
 sys.path.insert(0, os.path.dirname(__file__))
-from fsrs import FSRSState, retrievability
+from fsrs import retrievability
 from review import parse_cards
 
 
