@@ -94,7 +94,8 @@ def initial_stability(rating: int, w: list = DEFAULT_W) -> float:
     First-review stability, based on grade.
     Maps rating 1-4 to w[0]-w[3]: [0.4, 1.2, 3.1, 15.5] days approximately.
     """
-    assert 1 <= rating <= 4
+    if not 1 <= rating <= 4:
+        raise ValueError(f"rating must be 1-4, got {rating!r}")
     return w[rating - 1]
 
 
@@ -103,7 +104,8 @@ def initial_difficulty(rating: int, w: list = DEFAULT_W) -> float:
     First-review difficulty, based on grade. Range [1, 10].
     Again → high difficulty (~8.5), Easy → low difficulty (~1.7).
     """
-    assert 1 <= rating <= 4
+    if not 1 <= rating <= 4:
+        raise ValueError(f"rating must be 1-4, got {rating!r}")
     d = w[4] - math.exp(w[5] * (rating - 1)) + 1
     return _clamp(d, 1.0, 10.0)
 
@@ -135,7 +137,8 @@ def next_interval(stability: float, desired_retention: float = 0.9) -> int:
     At r=0.85: I ≈ 1.64 * S (lower bar → longer interval).
     At r=0.95: I ≈ 0.46 * S (higher bar → shorter interval).
     """
-    assert 0.0 < desired_retention < 1.0
+    if not 0.0 < desired_retention < 1.0:
+        raise ValueError(f"desired_retention must be between 0 and 1, got {desired_retention!r}")
     interval = stability / FACTOR * (desired_retention ** (1.0 / DECAY) - 1.0)
     return max(1, round(interval))
 
@@ -173,7 +176,8 @@ def stability_after_recall(
     Hard penalty (w[15] < 1) dampens growth for Hard ratings.
     Easy bonus (w[16] > 1) boosts growth for Easy ratings.
     """
-    assert rating in (2, 3, 4), "Use stability_after_forget for rating=1"
+    if rating not in (2, 3, 4):
+        raise ValueError(f"rating must be 2-4 here; use stability_after_forget for rating=1, got {rating!r}")
     hard_penalty = w[15] if rating == 2 else 1.0
     easy_bonus = w[16] if rating == 4 else 1.0
 
@@ -236,7 +240,8 @@ def process_review(
         New FSRSState with updated difficulty, stability, reps, lapses,
         last_review, and next_review.
     """
-    assert 1 <= rating <= 4
+    if not 1 <= rating <= 4:
+        raise ValueError(f"rating must be 1-4, got {rating!r}")
     today = review_date or date.today()
 
     new_state = FSRSState(
