@@ -70,8 +70,9 @@ const skEVID1 = (s.match(/SK-EVID-FORM-OF-PROOF-01/g) || []).length;
 checks.push({name: 'Silver Key SK-EVID-FORM-OF-PROOF-01 consistent (Block 3 and 5)', pass: skEVID1 >= 2});
 
 // 8. Pick rates sum to 100
-const sumCheck = 15 + 7 + 30 + 48;
-checks.push({name: 'pick rates sum 100 (A15+B7+C30+D48)', pass: sumCheck === 100});
+const pickPcts = [...s.matchAll(/pick_rate:\s*pct:\s*(\d+)/g)].map(m => Number(m[1]));
+const sumCheck = pickPcts.reduce((a, b) => a + b, 0);
+checks.push({name: 'pick rates sum 100 (read ' + pickPcts.length + ': ' + (pickPcts.join('+') || 'none') + ')', pass: pickPcts.length === 4 && sumCheck === 100});
 
 // 9. Dominant trap named in letter map
 checks.push({name: 'Dominant trap D in letter map', pass: /dominant_trap:\s*true/.test(s) && /new_letter:\s*D[\s\S]{0,500}dominant_trap:\s*true/.test(s)});
