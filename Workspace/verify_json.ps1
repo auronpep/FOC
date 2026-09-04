@@ -295,17 +295,17 @@ function Test-CqFile {
   }
 
   if ($null -ne $c3 -and $null -ne $elements -and $null -ne $intelligence) {
-    $ids = @($c3.question_id, $elements.question_id, $intelligence.question_id) | Where-Object { $_ }
+    $ids = @((Get-PropertyValue -Object $c3 -Name 'question_id'), (Get-PropertyValue -Object $elements -Name 'question_id'), (Get-PropertyValue -Object $intelligence -Name 'question_id')) | Where-Object { $_ }
     if (@($ids | Select-Object -Unique).Count -gt 1) {
       Add-Failure $failures "question_id differs across JSON blocks: $($ids -join ', ')."
     }
 
-    $codes = @($c3.outline_code, $elements.outline_code, $intelligence.outline_code) | Where-Object { $_ }
+    $codes = @((Get-PropertyValue -Object $c3 -Name 'outline_code'), (Get-PropertyValue -Object $elements -Name 'outline_code'), (Get-PropertyValue -Object $intelligence -Name 'outline_code')) | Where-Object { $_ }
     if (@($codes | Select-Object -Unique).Count -gt 1) {
       Add-Failure $failures "outline_code differs across JSON blocks: $($codes -join ', ')."
     }
 
-    $subjects = @($c3.subject, $elements.subject, $intelligence.subject) | Where-Object { $_ }
+    $subjects = @((Get-PropertyValue -Object $c3 -Name 'subject'), (Get-PropertyValue -Object $elements -Name 'subject'), (Get-PropertyValue -Object $intelligence -Name 'subject')) | Where-Object { $_ }
     if (@($subjects | Select-Object -Unique).Count -gt 1) {
       Add-Failure $failures "subject differs across JSON blocks: $($subjects -join ', ')."
     }
@@ -343,12 +343,15 @@ function Test-CqFile {
       }
     }
 
-    if ($c3Inner.distractors -and @($c3Inner.distractors).Count -ne 3) {
+    $distractors = (Get-PropertyValue -Object $c3Inner -Name 'distractors')
+    if ($distractors -and @($distractors).Count -ne 3) {
       Add-Failure $failures 'c3_annotation.c3.distractors must contain exactly three distractors.'
     }
 
-    if ($c3.credited_answer -and $c3Inner.residual -and $c3.credited_answer -ne $c3Inner.residual) {
-      Add-Failure $failures "credited_answer '$($c3.credited_answer)' does not match residual '$($c3Inner.residual)'."
+    $creditedAnswer = (Get-PropertyValue -Object $c3 -Name 'credited_answer')
+    $residual = (Get-PropertyValue -Object $c3Inner -Name 'residual')
+    if ($creditedAnswer -and $residual -and $creditedAnswer -ne $residual) {
+      Add-Failure $failures "credited_answer '$creditedAnswer' does not match residual '$residual'."
     }
   }
 
