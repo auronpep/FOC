@@ -197,6 +197,10 @@ def answered_ids(answers_path: Path) -> set[str]:
 def prepare_batch(workspace: Path, count: int) -> list[str]:
     if count < 1:
         raise ValueError("count must be at least 1")
+    if not workspace.is_dir():
+        # Without this, a typo in --workspace creates a phantom agent and
+        # reports {"ok": true, "selected": []}, which reads as "no work left".
+        raise ValueError(f"agent workspace not found: {workspace}")
     queue_path = workspace / "queue.txt"
     answers_path = workspace / "answers.csv"
     batch_path = workspace / "current_batch.txt"
