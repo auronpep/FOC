@@ -1,7 +1,7 @@
 [CmdletBinding(PositionalBinding = $false)]
 param(
   [string[]]$Path,
-  [int[]]$Question,
+  [string[]]$Question,
   [string]$Directory,
   [string]$WorkspaceRoot = $PSScriptRoot,
   [string]$ManifestPath,
@@ -418,7 +418,7 @@ function Test-CqFile {
 function Get-TargetFiles {
   param(
     [string[]]$Path,
-    [int[]]$Question,
+    [string[]]$Question,
     [string]$Directory,
     [string]$Workspace
   )
@@ -426,20 +426,33 @@ function Get-TargetFiles {
   $targets = New-Object System.Collections.Generic.List[string]
 
   if ($null -ne $Path) {
-    foreach ($p in @($Path)) {
-      if ([string]::IsNullOrWhiteSpace($p)) {
-        continue
+    # `pwsh -File` collapses "-Path a b" into one token, so callers pass a
+    # comma-delimited list. Split on commas only: paths can contain spaces.
+    foreach ($entry in @($Path)) {
+      foreach ($p in ([string]$entry -split ',')) {
+        if ([string]::IsNullOrWhiteSpace($p)) {
+          continue
+        }
+        $targets.Add((Resolve-Path -LiteralPath $p.Trim() -ErrorAction Stop).Path) | Out-Null
       }
-      $targets.Add((Resolve-Path -LiteralPath $p -ErrorAction Stop).Path) | Out-Null
     }
   }
 
   if ($null -ne $Question) {
-    foreach ($q in @($Question)) {
-      if ($q -le 0) {
-        continue
+    foreach ($entry in @($Question)) {
+      foreach ($part in ([string]$entry -split '[,\s]+')) {
+        if ([string]::IsNullOrWhiteSpace($part)) {
+          continue
+        }
+        $q = 0
+        if (-not [int]::TryParse($part, [ref]$q)) {
+          throw "Invalid -Question value '$part'. Use -Question 14003 or -Question '14003,14010'."
+        }
+        if ($q -le 0) {
+          continue
+        }
+        $targets.Add((Resolve-Path -LiteralPath (Join-Path $Workspace "Finished\CQ$q.md") -ErrorAction Stop).Path) | Out-Null
       }
-      $targets.Add((Resolve-Path -LiteralPath (Join-Path $Workspace "Finished\CQ$q.md") -ErrorAction Stop).Path) | Out-Null
     }
   }
 
