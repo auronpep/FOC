@@ -1,6 +1,6 @@
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(
-    [string]$LocalFinished = 'C:\FOC\Workspace\Finished',
+    [string]$LocalFinished = (Join-Path $PSScriptRoot 'Finished'),
     [string]$RemoteFinished = 'N:\FOC\Workspace\Finished',
     [string]$CsvPath = '',
     [string]$XlsxPath = ''

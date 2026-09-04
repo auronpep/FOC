@@ -1,7 +1,7 @@
 [CmdletBinding(PositionalBinding = $false)]
 param(
   [string]$ManifestPath = (Join-Path $PSScriptRoot 'incoming\LPOC.openclaw-manifest.json'),
-  [string]$OpenClawPath = 'C:\FOC\bin\openclaw.ps1',
+  [string]$OpenClawPath = (Join-Path (Split-Path -Parent $PSScriptRoot) 'bin\openclaw.ps1'),
   [string]$ResultsRoot = (Join-Path $PSScriptRoot 'OpenClawBatchResults'),
   [string]$RunLabel = ("lpoc-" + (Get-Date -Format 'yyyyMMdd-HHmmss')),
   [int]$ThrottleLimit = 8,
