@@ -21,6 +21,12 @@ let placeholders = 0;
 let nonblankCodes = 0;
 const uniqueCodes = new Set();
 
+if (values.length < mappings.length + 1) {
+  throw new Error(
+    `Workbook has ${values.length - 1} data row(s); expected at least ${mappings.length} to match the mapping file.`,
+  );
+}
+
 for (let i = 0; i < mappings.length; i++) {
   const excelRow = i + 2;
   const status = values[i + 1][0] ?? "";

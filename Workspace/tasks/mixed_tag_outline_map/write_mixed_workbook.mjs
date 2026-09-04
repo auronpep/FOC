@@ -71,6 +71,12 @@ for (let i = 0; i < expectedHeaders.length; i++) {
 }
 
 const rowMismatches = [];
+if (values.length < mappings.length + 1) {
+  throw new Error(
+    `Workbook has ${values.length - 1} data row(s); expected at least ${mappings.length} to match the mapping file.`,
+  );
+}
+
 for (let i = 0; i < mappings.length; i++) {
   const excelRow = i + 2;
   const workbookQid = normalize(values[i + 1][0]);
@@ -105,6 +111,12 @@ const invalidCodes = [];
 const unsureRows = [];
 const uniqueCodes = new Set();
 let nonblankCodes = 0;
+
+if (verifyValues.length < mappings.length + 1) {
+  throw new Error(
+    `Workbook has ${verifyValues.length - 1} data row(s); expected at least ${mappings.length} to match the mapping file.`,
+  );
+}
 
 for (let i = 0; i < mappings.length; i++) {
   const excelRow = i + 2;
