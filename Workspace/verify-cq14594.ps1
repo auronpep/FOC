@@ -1,4 +1,4 @@
-$f = "C:\FOC\Workspace\Finished\CQ14594.md"
+$f = (Join-Path $PSScriptRoot 'Finished\CQ14594.md')
 $content = Get-Content -Path $f -Raw
 $blocks = [regex]::Matches($content, '(?s)```json\s*(.+?)\s*```')
 $ok = 0; $fail = 0

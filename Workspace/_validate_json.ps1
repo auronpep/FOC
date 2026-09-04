@@ -1,4 +1,4 @@
-$content = Get-Content 'C:\FOC\Workspace\Finished\CQ14392.md' -Raw
+$content = Get-Content (Join-Path $PSScriptRoot 'Finished\CQ14392.md') -Raw
 
 # Find all ```json ... ``` blocks
 $pattern = '```json\s*([\s\S]*?)\s*```'

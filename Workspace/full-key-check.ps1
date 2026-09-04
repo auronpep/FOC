@@ -1,4 +1,4 @@
-$c = Get-Content 'C:\FOC\Workspace\Finished\CQ14594.md' -Raw
+$c = Get-Content (Join-Path $PSScriptRoot 'Finished\CQ14594.md') -Raw
 Write-Host "=== KEY CONSISTENCY CHECK ==="
 if ($c -match '(?m)^key:\s*([A-D])') { Write-Host "frontmatter key: $($Matches[1])" }
 if ($c -match '(?m)^original_key:\s*([A-D])') { Write-Host "original_key: $($Matches[1])" }
@@ -15,4 +15,4 @@ Write-Host ""
 Write-Host "=== BANK VALIDATION VERDICT ==="
 if ($c -match '(?m)^bank_validation_verdict:\s*(\w+)') { Write-Host "bank_validation_verdict: $($Matches[1])" }
 Write-Host ""
-Write-Host "File size:" (Get-Item 'C:\FOC\Workspace\Finished\CQ14594.md').Length
+Write-Host "File size:" (Get-Item (Join-Path $PSScriptRoot 'Finished\CQ14594.md')).Length
