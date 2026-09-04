@@ -38,3 +38,7 @@ npm-debug.log*
 *.tmp
 __pycache__/
 *.pyc
+
+# Office lock/owner files (e.g. ~$complete.xlsx) and timestamped tool backups.
+~$*
+*.bak-*
