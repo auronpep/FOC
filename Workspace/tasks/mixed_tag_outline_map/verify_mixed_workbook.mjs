@@ -1,11 +1,19 @@
 import fs from "node:fs/promises";
-import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const workbookPath = "C:/Users/JesusLovesMe/Documents/Mixed tag.xlsx";
-const outlinePath = "C:/FOC/Workspace/OUTLINE_CODES_COMPLETE.md";
-const mappingPath = "C:/FOC/Workspace/tasks/mixed_tag_outline_map/mixed_row_mappings.json";
-const outputDir = "C:/FOC/Workspace/tasks/mixed_tag_outline_map";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const WORKSPACE = path.resolve(HERE, "..", "..");
+const SPREADSHEET_WORK = path.join(WORKSPACE, ".codex_spreadsheet_work");
+const DOCUMENTS = path.join(os.homedir(), "Documents");
+
+const workbookPath = process.env.MIXED_WORKBOOK ?? path.join(DOCUMENTS, "Mixed tag.xlsx");
+const outlinePath = path.join(WORKSPACE, "OUTLINE_CODES_COMPLETE.md");
+const mappingPath = path.join(HERE, "mixed_row_mappings.json");
+const outputDir = HERE;
 
 function normalize(value) {
   return value == null ? "" : String(value).replace(/\s+/g, " ").trim();
