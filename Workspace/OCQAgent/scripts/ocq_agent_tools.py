@@ -239,7 +239,15 @@ def lock_path(path: Path, timeout_seconds: int = 120, stale_seconds: int = 300):
     while True:
         try:
             fd = os.open(str(lock), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-            os.write(fd, str(os.getpid()).encode("ascii"))
+            try:
+                os.write(fd, str(os.getpid()).encode("ascii"))
+            except OSError:
+                # Do not leave the descriptor open or the lock file orphaned;
+                # an orphan blocks every later run until the stale timeout.
+                os.close(fd)
+                fd = None
+                lock.unlink(missing_ok=True)
+                raise
             break
         except FileExistsError:
             if clear_stale_lock(lock, stale_seconds):
