@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import re
 from collections import Counter
 from pathlib import Path
@@ -7,8 +8,12 @@ from pathlib import Path
 import openpyxl
 
 
-WORKBOOK = Path(r"C:\Users\JesusLovesMe\Documents\CivPro_tag.xlsx")
-OUTLINE = Path(r"C:\FOC\Workspace\OUTLINE_CODES_COMPLETE.md")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+WORKBOOK = Path(
+    os.environ.get("CIVPRO_WORKBOOK", Path.home() / "Documents" / "CivPro_tag.xlsx")
+)
+OUTLINE = REPO_ROOT / "Workspace" / "OUTLINE_CODES_COMPLETE.md"
 
 
 def load_valid_civpro_codes() -> dict[str, str]:
