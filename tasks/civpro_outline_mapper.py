@@ -238,7 +238,7 @@ def classify(qid: int, question: str, explanation: str, topic: str) -> str:
         return "97100100"
 
     if "jurisdiction" in topic.lower() or "venue" in topic.lower() or "remove" in t or "remand" in t or "personal jurisdiction" in t:
-        if "diversity" in t or "citizen" in t or "amount in controversy" in t or "domicile" in t or "1332" in t:
+        if "diversity" in t or "citizen" in t or "amount in controversy" in t or "1332" in t:
             return "94010100"
         if "federal question" in t or "arising under" in t or "1331" in t:
             return "94010200"
