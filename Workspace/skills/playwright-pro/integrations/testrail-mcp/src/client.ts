@@ -10,23 +10,8 @@ import type {
   TestRailResultPayload,
 } from './types.js';
 
-/**
- * TestRail returns either { key: [...] } or a bare array depending on version.
- * Accept both, and fail loudly on anything else rather than casting a non-array
- * to an array type and handing it to a caller.
- */
-function unwrapList<T>(result: unknown, key: string, endpoint: string): T[] {
-  const wrapped = (result as Record<string, unknown> | null)?.[key];
-  if (Array.isArray(wrapped)) {
-    return wrapped as T[];
-  }
-  if (Array.isArray(result)) {
-    return result as T[];
-  }
-  throw new Error(
-    `TestRail ${endpoint} returned an unexpected shape: ${JSON.stringify(result).slice(0, 200)}`,
-  );
-}
+// Abort hung requests instead of wedging the MCP server's handler forever.
+const REQUEST_TIMEOUT_MS = 30_000;
 
 export class TestRailClient {
   private readonly baseUrl: string;
@@ -55,7 +40,7 @@ export class TestRailClient {
       options.body = JSON.stringify(body);
     }
 
-    const response = await fetch(url, options);
+    const response = await fetch(url, { ...options, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
 
     if (!response.ok) {
       const errorText = await response.text();

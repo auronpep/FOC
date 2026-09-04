@@ -7,6 +7,9 @@ import type {
   BrowserStackSessionUpdate,
 } from './types.js';
 
+// Abort hung requests instead of wedging the MCP server's handler forever.
+const REQUEST_TIMEOUT_MS = 30_000;
+
 export class BrowserStackClient {
   private readonly baseUrl = 'https://api.browserstack.com';
   private readonly headers: Record<string, string>;
@@ -33,7 +36,7 @@ export class BrowserStackClient {
       options.body = JSON.stringify(body);
     }
 
-    const response = await fetch(url, options);
+    const response = await fetch(url, { ...options, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
 
     if (!response.ok) {
       const errorText = await response.text();
@@ -94,8 +97,8 @@ export class BrowserStackClient {
   }
 
   async getSessionLogs(sessionId: string): Promise<string> {
-    const url = `${this.baseUrl}/automate/sessions/${encodeURIComponent(sessionId)}/logs`;
-    const response = await fetch(url, { headers: this.headers });
+    const url = `${this.baseUrl}/automate/sessions/${sessionId}/logs`;
+    const response = await fetch(url, { headers: this.headers, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
     if (!response.ok) {
       throw new Error(`BrowserStack logs error ${response.status}`);
     }
