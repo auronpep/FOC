@@ -19,7 +19,7 @@ param(
   [int]$TimeoutSeconds = 28800,
   [int]$PreflightTimeoutSeconds = 60,
   [string]$RunLabel = ("c3-custom-" + (Get-Date -Format 'yyyyMMdd-HHmmss')),
-  [string]$ResultsRoot = 'C:\FOC\Workspace\OpenClawBatchResults',
+  [string]$ResultsRoot = (Join-Path $PSScriptRoot 'OpenClawBatchResults'),
   [string]$WorkspaceRoot = $PSScriptRoot,
   [switch]$Launch,
   [switch]$Force,
@@ -132,7 +132,7 @@ function Convert-ToQuestionList {
 }
 
 function Resolve-OpenClawCommand {
-  $projectWrapper = 'C:\FOC\bin\openclaw.ps1'
+  $projectWrapper = (Join-Path (Split-Path -Parent $PSScriptRoot) 'bin\openclaw.ps1')
   if (Test-Path -LiteralPath $projectWrapper -PathType Leaf) {
     return $projectWrapper
   }

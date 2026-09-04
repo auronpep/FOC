@@ -2,7 +2,7 @@ param(
   [switch]$Launch,
   [int]$ThrottleLimit = 8,
   [int]$TimeoutSeconds = 28800,
-  [string]$ResultsRoot = 'C:\FOC\Workspace\OpenClawBatchResults'
+  [string]$ResultsRoot = (Join-Path $PSScriptRoot 'OpenClawBatchResults')
 )
 
 $ErrorActionPreference = 'Stop'
