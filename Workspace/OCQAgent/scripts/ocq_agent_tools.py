@@ -474,7 +474,10 @@ def initialize_agent_workspace(
     if overwrite_instructions or not identity_path.exists():
         identity_path.write_text(render_identity(display_name, primary_model), encoding="utf-8", newline="\n")
     ids = [normalize_bid(value) for value in question_ids]
-    queue_path.write_text("".join(f"{bid}\n" for bid in ids), encoding="utf-8", newline="\n")
+    # Every other file here is guarded; without the same guard, re-running
+    # init-agents to add one agent silently resets every existing queue.
+    if overwrite_instructions or not queue_path.exists():
+        queue_path.write_text("".join(f"{bid}\n" for bid in ids), encoding="utf-8", newline="\n")
     if not batch_path.exists():
         batch_path.write_text("", encoding="utf-8")
     ensure_answer_csv(answers_path)
