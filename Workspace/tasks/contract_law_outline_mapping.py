@@ -292,31 +292,34 @@ def classify(question: str, explanation: str) -> tuple[str, str, str]:
 
 def build_audit() -> list[dict[str, str]]:
     wb = load_workbook(WORKBOOK, read_only=True, data_only=False)
-    ws = wb.active
-    headers = [norm(ws.cell(1, c).value).strip() for c in range(1, ws.max_column + 1)]
-    col = {h: i + 1 for i, h in enumerate(headers)}
-    rows: list[dict[str, str]] = []
-    for r in range(2, ws.max_row + 1):
-        qid = norm(ws.cell(r, col["BARMATRIX Q#"]).value)
-        question = norm(ws.cell(r, col["Question"]).value)
-        explanation = norm(ws.cell(r, col["Answer Explanation"]).value)
-        if qid in OVERRIDES:
-            code, note = OVERRIDES[qid]
-            confidence = "reviewed"
-        else:
-            code, confidence, note = classify(question, explanation)
-        rows.append(
-            {
-                "excel_row": str(r),
-                "qid": qid,
-                "outline_code": code,
-                "confidence": confidence,
-                "note": note,
-                "question_excerpt": question[:180].replace("\n", " "),
-                "explanation_excerpt": explanation[:320].replace("\n", " "),
-            }
-        )
-    return rows
+    try:
+        ws = wb.active
+        headers = [norm(ws.cell(1, c).value) for c in range(1, ws.max_column + 1)]
+        col = {h: i + 1 for i, h in enumerate(headers)}
+        rows: list[dict[str, str]] = []
+        for r in range(2, ws.max_row + 1):
+            qid = norm(ws.cell(r, col["BARMATRIX Q#"]).value)
+            question = norm(ws.cell(r, col["Question"]).value)
+            explanation = norm(ws.cell(r, col["Answer Explanation"]).value)
+            if qid in OVERRIDES:
+                code, note = OVERRIDES[qid]
+                confidence = "reviewed"
+            else:
+                code, confidence, note = classify(question, explanation)
+            rows.append(
+                {
+                    "excel_row": str(r),
+                    "qid": qid,
+                    "outline_code": code,
+                    "confidence": confidence,
+                    "note": note,
+                    "question_excerpt": question[:180].replace("\n", " "),
+                    "explanation_excerpt": explanation[:320].replace("\n", " "),
+                }
+            )
+        return rows
+    finally:
+        wb.close()
 
 
 def write_audit(rows: list[dict[str, str]]) -> None:
@@ -331,44 +334,50 @@ def apply_to_workbook(rows: list[dict[str, str]]) -> Path:
     backup = WORKBOOK.with_name(f"{WORKBOOK.stem}.backup-{stamp}{WORKBOOK.suffix}")
     shutil.copy2(WORKBOOK, backup)
     wb = load_workbook(WORKBOOK)
-    ws = wb.active
-    headers = [norm(ws.cell(1, c).value).strip() for c in range(1, ws.max_column + 1)]
-    outline_col = headers.index("Outline_code") + 1
-    for row in rows:
-        ws.cell(int(row["excel_row"]), outline_col).value = row["outline_code"]
-    wb.save(WORKBOOK)
-    return backup
+    try:
+        ws = wb.active
+        headers = [norm(ws.cell(1, c).value) for c in range(1, ws.max_column + 1)]
+        outline_col = headers.index("Outline_code") + 1
+        for row in rows:
+            ws.cell(int(row["excel_row"]), outline_col).value = row["outline_code"]
+        wb.save(WORKBOOK)
+        return backup
+    finally:
+        wb.close()
 
 
 def verify(rows: list[dict[str, str]], codes: dict[str, str]) -> dict[str, object]:
     wb = load_workbook(WORKBOOK, read_only=True, data_only=False)
-    ws = wb.active
-    headers = [norm(ws.cell(1, c).value).strip() for c in range(1, ws.max_column + 1)]
-    outline_col = headers.index("Outline_code") + 1
-    mismatches = []
-    invalid = []
-    nonblank = 0
-    unsure = 0
-    for row in rows:
-        excel_row = int(row["excel_row"])
-        expected = row["outline_code"]
-        actual = norm(ws.cell(excel_row, outline_col).value)
-        if actual:
-            nonblank += 1
-        if actual == "unsure":
-            unsure += 1
-        if actual != expected:
-            mismatches.append((excel_row, row["qid"], expected, actual))
-        if actual != "unsure" and actual not in codes:
-            invalid.append((excel_row, row["qid"], actual))
-    return {
-        "rows": len(rows),
-        "nonblank": nonblank,
-        "unsure": unsure,
-        "unique_codes": len({r["outline_code"] for r in rows}),
-        "mismatches": mismatches,
-        "invalid": invalid,
-    }
+    try:
+        ws = wb.active
+        headers = [norm(ws.cell(1, c).value) for c in range(1, ws.max_column + 1)]
+        outline_col = headers.index("Outline_code") + 1
+        mismatches = []
+        invalid = []
+        nonblank = 0
+        unsure = 0
+        for row in rows:
+            excel_row = int(row["excel_row"])
+            expected = row["outline_code"]
+            actual = norm(ws.cell(excel_row, outline_col).value)
+            if actual:
+                nonblank += 1
+            if actual == "unsure":
+                unsure += 1
+            if actual != expected:
+                mismatches.append((excel_row, row["qid"], expected, actual))
+            if actual != "unsure" and actual not in codes:
+                invalid.append((excel_row, row["qid"], actual))
+        return {
+            "rows": len(rows),
+            "nonblank": nonblank,
+            "unsure": unsure,
+            "unique_codes": len({r["outline_code"] for r in rows}),
+            "mismatches": mismatches,
+            "invalid": invalid,
+        }
+    finally:
+        wb.close()
 
 
 if __name__ == "__main__":
