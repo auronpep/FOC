@@ -39,7 +39,11 @@ function Get-RelativeFileMap {
     Get-ChildItem -LiteralPath $Root -File -Recurse -Force |
         Where-Object { $_.Name -notin @('complete.csv', 'complete.xlsx') } |
         ForEach-Object {
-            $relativePath = $_.FullName.Substring($Root.Length).TrimStart('\', '/')
+            # Substring assumes $Root and FullName share a byte-identical
+            # prefix. They do not when one is an 8.3 short path (CALLON~1)
+            # and the other is the long form, which silently yields a wrong
+            # relative path and copies files into a spurious subdirectory.
+            $relativePath = [System.IO.Path]::GetRelativePath($Root, $_.FullName)
             $key = $relativePath.ToLowerInvariant()
             if (-not $map.ContainsKey($key)) {
                 $map[$key] = [pscustomobject]@{
