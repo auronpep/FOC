@@ -112,8 +112,8 @@ if (-not $health.ok) {
 
 $status = & $openclaw --no-color status --json | ConvertFrom-Json
 $maxConcurrent = & $openclaw --no-color config get agents.defaults.maxConcurrent --json | ConvertFrom-Json
-if ([int]$maxConcurrent -ne 8) {
-  throw "agents.defaults.maxConcurrent is $maxConcurrent, expected 8."
+if ([int]$maxConcurrent -lt $ThrottleLimit) {
+  throw "agents.defaults.maxConcurrent is $maxConcurrent, below the requested -ThrottleLimit $ThrottleLimit."
 }
 
 $models = & $openclaw --no-color models list --json | ConvertFrom-Json
