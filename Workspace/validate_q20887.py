@@ -1,6 +1,9 @@
 import json, re
+from pathlib import Path
 
-with open(r'C:\FOC\Workspace\Finished\CQ20887.md', 'r', encoding='utf-8') as f:
+WORKSPACE = Path(__file__).resolve().parent
+
+with open(WORKSPACE / "Finished" / "CQ20887.md", 'r', encoding='utf-8') as f:
     content = f.read()
 
 blocks = re.findall(r'```json\n(.*?)```', content, re.DOTALL)
@@ -32,7 +35,7 @@ for i, bt in enumerate(blocks):
 print('\n--- Outline code ---')
 print(f'75070202 occurrences: {len(re.findall(r"75070202", content))}')
 
-with open(r'C:\FOC\Workspace\OUTLINE_CODES_COMPLETE.md', 'r', encoding='utf-8') as f:
+with open(WORKSPACE / "OUTLINE_CODES_COMPLETE.md", 'r', encoding='utf-8') as f:
     oc = f.read()
 print(f'75070202 in OUTLINE_CODES: {"YES" if "75070202" in oc else "NO"}')
 
