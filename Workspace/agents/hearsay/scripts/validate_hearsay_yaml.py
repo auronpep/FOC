@@ -316,12 +316,12 @@ def validate_doc(
         if not nonempty(qa.get("warning_flags")):
             errors.append(f"{doc_label}.metadata.outline_code is 00000000 without warning_flags.")
         warnings.append(f"{doc_label}: outline_code is 00000000 placeholder.")
-    elif outline_code and outline_code not in outline_codes:
+    elif outline_codes and outline_code and outline_code not in outline_codes:
         errors.append(f"{doc_label}.metadata.outline_code {outline_code} is not in OUTLINE_CODES_COMPLETE.md.")
 
     for field in ["repair_id"]:
         rep = str(metadata.get(field, "")).strip()
-        if rep and rep not in rep_ids:
+        if rep_ids and rep and rep not in rep_ids:
             errors.append(f"{doc_label}.metadata.{field} {rep} is not in hearsay_bootcamp_repairs.md.")
 
     wal_targets = metadata.get("wal_target_ids", [])
@@ -329,12 +329,12 @@ def validate_doc(
         errors.append(f"{doc_label}.metadata.wal_target_ids must contain at least one WAL ID.")
     else:
         for wal in wal_targets:
-            if str(wal) not in wal_ids:
+            if wal_ids and str(wal) not in wal_ids:
                 errors.append(f"{doc_label}.metadata.wal_target_ids contains unknown WAL ID: {wal}")
 
     validate_required_nonempty(mechanics, REQUIRED_MECHANICS, f"{doc_label}.mechanics", errors)
     rep = str(mechanics.get("repair_id", "")).strip()
-    if rep and rep not in rep_ids:
+    if rep_ids and rep and rep not in rep_ids:
         errors.append(f"{doc_label}.mechanics.repair_id {rep} is not in hearsay_bootcamp_repairs.md.")
 
     statement_map = doc.get("statement_map")
@@ -423,9 +423,9 @@ def validate_doc(
             correct_forensic_labels.append(label)
         wal = str(forensic.get("wal_id", "")).strip()
         rep = str(forensic.get("repair_id", "")).strip()
-        if wal and wal not in wal_ids:
+        if wal_ids and wal and wal not in wal_ids:
             errors.append(f"{prefix}.wal_id {wal} is not in hearsay_wrong_answer_mechanics.md.")
-        if rep and rep not in rep_ids:
+        if rep_ids and rep and rep not in rep_ids:
             errors.append(f"{prefix}.repair_id {rep} is not in hearsay_bootcamp_repairs.md.")
         pick_rate = forensic.get("pick_rate")
         if not isinstance(pick_rate, dict) or not nonempty(pick_rate.get("provenance")):
