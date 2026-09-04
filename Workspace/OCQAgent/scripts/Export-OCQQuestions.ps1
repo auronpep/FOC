@@ -2,10 +2,13 @@
 param(
   [string]$WorkbookPath = 'C:\FOC\Workspace\OCQ.xlsx',
   [string]$OutputDir = 'C:\FOC\Workspace\OCQ',
-  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+  [string]$PythonPath
 )
 
 $ErrorActionPreference = 'Stop'
+
+. (Join-Path $PSScriptRoot 'Resolve-OCQPython.ps1')
+if (-not $PythonPath) { $PythonPath = Resolve-OCQPython }
 $scriptPath = Join-Path $PSScriptRoot 'ocq_agent_tools.py'
 
 & $PythonPath $scriptPath export-questions --workbook $WorkbookPath --output-dir $OutputDir

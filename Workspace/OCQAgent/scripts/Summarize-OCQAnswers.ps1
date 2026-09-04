@@ -2,10 +2,13 @@
 param(
   [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
   [string]$OutputDir = 'C:\FOC\Workspace\OCQAgent\summary',
-  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+  [string]$PythonPath
 )
 
 $ErrorActionPreference = 'Stop'
+
+. (Join-Path $PSScriptRoot 'Resolve-OCQPython.ps1')
+if (-not $PythonPath) { $PythonPath = Resolve-OCQPython }
 $scriptPath = Join-Path $PSScriptRoot 'ocq_agent_tools.py'
 
 & $PythonPath $scriptPath summarize --agents-root $AgentsRoot --output-dir $OutputDir

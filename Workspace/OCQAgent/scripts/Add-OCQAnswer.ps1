@@ -5,10 +5,13 @@ param(
   [Parameter(Mandatory)][ValidateSet('A','B','C','D')][string]$AnswerChoice,
   [Parameter(Mandatory)][ValidateSet('easy','medium','hard','Easy','Medium','Hard','EASY','MEDIUM','HARD')][string]$ConfidenceLabel,
   [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
-  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+  [string]$PythonPath
 )
 
 $ErrorActionPreference = 'Stop'
+
+. (Join-Path $PSScriptRoot 'Resolve-OCQPython.ps1')
+if (-not $PythonPath) { $PythonPath = Resolve-OCQPython }
 $scriptPath = Join-Path $PSScriptRoot 'ocq_agent_tools.py'
 $workspace = Join-Path $AgentsRoot $AgentId
 
