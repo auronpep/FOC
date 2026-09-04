@@ -10,6 +10,24 @@ import type {
   TestRailResultPayload,
 } from './types.js';
 
+/**
+ * TestRail returns either { key: [...] } or a bare array depending on version.
+ * Accept both, and fail loudly on anything else rather than casting a non-array
+ * to an array type and handing it to a caller.
+ */
+function unwrapList<T>(result: unknown, key: string, endpoint: string): T[] {
+  const wrapped = (result as Record<string, unknown> | null)?.[key];
+  if (Array.isArray(wrapped)) {
+    return wrapped as T[];
+  }
+  if (Array.isArray(result)) {
+    return result as T[];
+  }
+  throw new Error(
+    `TestRail ${endpoint} returned an unexpected shape: ${JSON.stringify(result).slice(0, 200)}`,
+  );
+}
+
 export class TestRailClient {
   private readonly baseUrl: string;
   private readonly headers: Record<string, string>;
@@ -61,7 +79,7 @@ export class TestRailClient {
       'GET',
       'get_projects',
     );
-    return result.projects ?? result as unknown as TestRailProject[];
+    return unwrapList<TestRailProject>(result, 'projects', 'get_projects');
   }
 
   async getSuites(projectId: number): Promise<TestRailSuite[]> {
@@ -89,7 +107,7 @@ export class TestRailClient {
       'GET',
       endpoint,
     );
-    return result.cases ?? result as unknown as TestRailCase[];
+    return unwrapList<TestRailCase>(result, 'cases', 'get_cases');
   }
 
   async addCase(
@@ -149,6 +167,6 @@ export class TestRailClient {
       'GET',
       endpoint,
     );
-    return result.results ?? result as unknown as TestRailResult[];
+    return unwrapList<TestRailResult>(result, 'results', 'get_results');
   }
 }
