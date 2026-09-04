@@ -42,6 +42,17 @@ def extract_contract_codes() -> dict[str, str]:
     return codes
 
 
+AUDIT_COLUMNS = [
+    "excel_row",
+    "qid",
+    "outline_code",
+    "confidence",
+    "note",
+    "question_excerpt",
+    "explanation_excerpt",
+]
+
+
 def norm(value) -> str:
     return "" if value is None else str(value)
 
@@ -282,7 +293,7 @@ def classify(question: str, explanation: str) -> tuple[str, str, str]:
 def build_audit() -> list[dict[str, str]]:
     wb = load_workbook(WORKBOOK, read_only=True, data_only=False)
     ws = wb.active
-    headers = [norm(ws.cell(1, c).value) for c in range(1, ws.max_column + 1)]
+    headers = [norm(ws.cell(1, c).value).strip() for c in range(1, ws.max_column + 1)]
     col = {h: i + 1 for i, h in enumerate(headers)}
     rows: list[dict[str, str]] = []
     for r in range(2, ws.max_row + 1):
@@ -310,7 +321,7 @@ def build_audit() -> list[dict[str, str]]:
 
 def write_audit(rows: list[dict[str, str]]) -> None:
     with AUDIT.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=AUDIT_COLUMNS)
         writer.writeheader()
         writer.writerows(rows)
 
@@ -321,7 +332,7 @@ def apply_to_workbook(rows: list[dict[str, str]]) -> Path:
     shutil.copy2(WORKBOOK, backup)
     wb = load_workbook(WORKBOOK)
     ws = wb.active
-    headers = [norm(ws.cell(1, c).value) for c in range(1, ws.max_column + 1)]
+    headers = [norm(ws.cell(1, c).value).strip() for c in range(1, ws.max_column + 1)]
     outline_col = headers.index("Outline_code") + 1
     for row in rows:
         ws.cell(int(row["excel_row"]), outline_col).value = row["outline_code"]
@@ -332,7 +343,7 @@ def apply_to_workbook(rows: list[dict[str, str]]) -> Path:
 def verify(rows: list[dict[str, str]], codes: dict[str, str]) -> dict[str, object]:
     wb = load_workbook(WORKBOOK, read_only=True, data_only=False)
     ws = wb.active
-    headers = [norm(ws.cell(1, c).value) for c in range(1, ws.max_column + 1)]
+    headers = [norm(ws.cell(1, c).value).strip() for c in range(1, ws.max_column + 1)]
     outline_col = headers.index("Outline_code") + 1
     mismatches = []
     invalid = []
