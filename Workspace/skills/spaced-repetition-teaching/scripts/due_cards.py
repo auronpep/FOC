@@ -94,7 +94,11 @@ def main():
         if args[i] == "--all":
             i += 1
         elif args[i] == "--date" and i + 1 < len(args):
-            date_override = date.fromisoformat(args[i + 1])
+            try:
+                date_override = date.fromisoformat(args[i + 1])
+            except ValueError:
+                print(f"Invalid --date: {args[i + 1]} (expected YYYY-MM-DD)", file=sys.stderr)
+                sys.exit(1)
             i += 2
         else:
             args_clean.append(args[i])
