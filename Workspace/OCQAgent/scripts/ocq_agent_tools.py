@@ -587,9 +587,11 @@ def init_agents_from_roster(
 def summarize_answers(agents_root: Path, output_dir: Path) -> dict[str, object]:
     output_dir.mkdir(parents=True, exist_ok=True)
     all_rows = []
+    known_agents: list[str] = []
     for answers_path in sorted(agents_root.glob("*/answers.csv")):
         agent_id = answers_path.parent.name
-        with answers_path.open(newline="", encoding="utf-8-sig") as handle:
+        known_agents.append(agent_id)
+        with answers_path.open(newline="", encoding="utf-8") as handle:
             reader = csv.DictReader(handle)
             if reader.fieldnames != ANSWER_COLUMNS:
                 raise ValueError(f"unexpected answer CSV header in {answers_path}: {reader.fieldnames}")
@@ -645,8 +647,10 @@ def summarize_answers(agents_root: Path, output_dir: Path) -> dict[str, object]:
     with by_agent_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=["agent_id", "response_count"])
         writer.writeheader()
-        for agent_id in sorted(agent_counts):
-            writer.writerow({"agent_id": agent_id, "response_count": agent_counts[agent_id]})
+        # Include agents that answered nothing: an omitted row is
+        # indistinguishable from an agent that does not exist.
+        for agent_id in sorted(set(known_agents) | set(agent_counts)):
+            writer.writerow({"agent_id": agent_id, "response_count": agent_counts.get(agent_id, 0)})
 
     return {"answers": len(all_rows), "all_answers": str(all_path), "by_question": str(by_question_path), "by_agent": str(by_agent_path)}
 
