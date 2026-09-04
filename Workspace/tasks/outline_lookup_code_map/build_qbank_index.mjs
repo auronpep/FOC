@@ -55,8 +55,22 @@ for (const file of files) {
 }
 
 await fs.writeFile(`${outputDir}/qbank_index.json`, JSON.stringify({ count: Object.keys(byInternalId).length, byInternalId, byQuestion }, null, 2));
+// `field()` returns "" when a name is absent, so a QBank layout change can
+// silently empty a column. Report coverage rather than failing quietly.
+const indexed = Object.values(byInternalId);
+const fieldCoverage = {};
+for (const key of Object.keys(indexed[0] ?? {})) {
+  if (key === "file") continue;
+  fieldCoverage[key] = indexed.filter((row) => String(row[key] ?? "").length > 0).length;
+}
+const emptyFields = Object.entries(fieldCoverage).filter(([, n]) => n === 0).map(([k]) => k);
+if (emptyFields.length) {
+  console.warn(`WARNING: no QBank file supplied a value for: ${emptyFields.join(', ')} -- these columns are empty in the generated index.`);
+}
+
 console.log(JSON.stringify({
   files: files.length,
-  indexedInternalIds: Object.keys(byInternalId).length,
-  samples: Object.values(byInternalId).slice(0, 5),
+  indexedInternalIds: indexed.length,
+  fieldCoverage,
+  samples: indexed.slice(0, 5),
 }, null, 2));
