@@ -245,12 +245,12 @@ $manifest = [ordered]@{
 }
 
 $manifestParent = Split-Path -Parent $ManifestPath
-if (-not (Test-Path -LiteralPath $manifestParent -PathType Container)) {
+if ($manifestParent -and -not (Test-Path -LiteralPath $manifestParent -PathType Container)) {
   New-Item -ItemType Directory -Force -Path $manifestParent | Out-Null
 }
 
 $previewParent = Split-Path -Parent $PreviewPath
-if (-not (Test-Path -LiteralPath $previewParent -PathType Container)) {
+if ($previewParent -and -not (Test-Path -LiteralPath $previewParent -PathType Container)) {
   New-Item -ItemType Directory -Force -Path $previewParent | Out-Null
 }
 
