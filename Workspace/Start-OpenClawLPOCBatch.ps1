@@ -175,6 +175,11 @@ if ($items.Count -eq 0) {
   return
 }
 
+$verifyScript = Join-Path $PSScriptRoot 'verify_json.ps1'
+if (-not $SkipVerify -and -not (Test-Path -LiteralPath $verifyScript -PathType Leaf)) {
+  throw "Verifier not found: $verifyScript"
+}
+
 if ($Force) {
   $existingOutputs = @($items | Where-Object { Test-Path -LiteralPath ([string]$_.outputPath) -PathType Leaf })
   if ($existingOutputs.Count -gt 0) {
@@ -188,11 +193,6 @@ if ($Force) {
     }
     Write-Host "Force backed up and removed $($existingOutputs.Count) existing output file(s): $forceBackupRoot"
   }
-}
-
-$verifyScript = Join-Path $PSScriptRoot 'verify_json.ps1'
-if (-not $SkipVerify -and -not (Test-Path -LiteralPath $verifyScript -PathType Leaf)) {
-  throw "Verifier not found: $verifyScript"
 }
 
 $agent = [string]$manifest.defaults.agent
