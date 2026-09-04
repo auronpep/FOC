@@ -57,13 +57,13 @@ export class BrowserStackClient {
     let endpoint = '/automate/builds.json';
     const params: string[] = [];
     if (limit) params.push(`limit=${limit}`);
-    if (status) params.push(`status=${status}`);
+    if (status) params.push(`status=${encodeURIComponent(status)}`);
     if (params.length > 0) endpoint += `?${params.join('&')}`;
     return this.request<BrowserStackBuild[]>('GET', endpoint);
   }
 
   async getSessions(buildId: string, limit?: number): Promise<BrowserStackSession[]> {
-    let endpoint = `/automate/builds/${buildId}/sessions.json`;
+    let endpoint = `/automate/builds/${encodeURIComponent(buildId)}/sessions.json`;
     if (limit) endpoint += `?limit=${limit}`;
     return this.request<BrowserStackSession[]>('GET', endpoint);
   }
@@ -71,7 +71,7 @@ export class BrowserStackClient {
   async getSession(sessionId: string): Promise<BrowserStackSession> {
     return this.request<BrowserStackSession>(
       'GET',
-      `/automate/sessions/${sessionId}.json`,
+      `/automate/sessions/${encodeURIComponent(sessionId)}.json`,
     );
   }
 
@@ -81,13 +81,13 @@ export class BrowserStackClient {
   ): Promise<BrowserStackSession> {
     return this.request<BrowserStackSession>(
       'PUT',
-      `/automate/sessions/${sessionId}.json`,
+      `/automate/sessions/${encodeURIComponent(sessionId)}.json`,
       update,
     );
   }
 
   async getSessionLogs(sessionId: string): Promise<string> {
-    const url = `${this.baseUrl}/automate/sessions/${sessionId}/logs`;
+    const url = `${this.baseUrl}/automate/sessions/${encodeURIComponent(sessionId)}/logs`;
     const response = await fetch(url, { headers: this.headers });
     if (!response.ok) {
       throw new Error(`BrowserStack logs error ${response.status}`);
