@@ -44,7 +44,7 @@ def _is_flashcard(card: dict) -> bool:
 
 
 def load_cards(card_file: str) -> list[dict]:
-    with open(card_file, "r") as f:
+    with open(card_file, "r", encoding="utf-8") as f:
         text = f.read()
     cards, _ = parse_cards(text)
     return [c for c in cards if _is_flashcard(c)]
