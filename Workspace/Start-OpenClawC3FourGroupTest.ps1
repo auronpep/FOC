@@ -159,7 +159,7 @@ if (-not $Launch) {
 $summaryPath = Join-Path $runRoot 'batch-summary.jsonl'
 $startsPath = Join-Path $runRoot 'starts.jsonl'
 $manifestPath = Join-Path $runRoot 'manifest.json'
-$dryRunRows | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
+$dryRunRows | ConvertTo-Json -Depth 6 -AsArray | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 
 Write-Output "Launching $($selected.Count) task(s)."
 Write-Output "Run root: $runRoot"
