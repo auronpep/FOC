@@ -61,3 +61,7 @@ pwsh -NoProfile -File .\Workspace\verify_json.ps1 -Path .\Workspace\Finished\CQ1
 ```powershell
 python -m pytest .\Workspace\OCQAgent\tests\
 ```
+
+## Maintainers
+
+- auronpep (owner)
