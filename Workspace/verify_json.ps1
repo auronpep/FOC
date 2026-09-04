@@ -233,6 +233,11 @@ function Test-CqFile {
   $failures = New-Object System.Collections.Generic.List[string]
   $resolved = (Resolve-Path -LiteralPath $FilePath -ErrorAction Stop).Path
   $content = Get-Content -Raw -LiteralPath $resolved
+  if ($null -eq $content) {
+    # A zero-byte file yields $null, and StrictMode turns the first method
+    # call on it into a terminating error that aborts the whole run.
+    $content = ''
+  }
   $questionNumber = Get-QuestionNumberFromPath -FilePath $resolved
 
   if (-not ($content.StartsWith("---`r`n") -or $content.StartsWith("---`n"))) {
