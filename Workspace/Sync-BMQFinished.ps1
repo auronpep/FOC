@@ -162,6 +162,7 @@ function New-NumberCell {
 function Write-CompletionXlsx {
     param(
         [Parameter(Mandatory = $true)]
+        [AllowEmptyCollection()]
         [array]$Rows,
 
         [Parameter(Mandatory = $true)]
