@@ -8,7 +8,8 @@ console.log('=== QA CHECKLIST ===\n');
 console.log('1. Frontmatter: ' + (content.startsWith('---') ? 'YES' : 'MISSING'));
 
 // 2. YAML frontmatter fields
-const fm = content.match(/^---\n([\s\S]*?)\n---/);
+// CQ files use CRLF endings; an LF-only anchor here skips the whole check.
+const fm = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
 if(fm) {
   const fields = ['qid:', 'transformed_from:', 'subject:', 'topic:', 'subtopic:', 'outline_code:', 'key:', 'original_key:', 'letter_map:', 'dominant_trap:', 'pick_rates:', 'bank_validation_verdict:', 'review_truth:'];
   let missing = [];
