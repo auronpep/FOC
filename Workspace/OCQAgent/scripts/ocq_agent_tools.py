@@ -142,7 +142,7 @@ def render_question_markdown(record: dict[str, str]) -> str:
     return (
         "Carefully review and answer this tricky California Bar Exam Multiple Choice Question. "
         "In your response, give me the question number, your answer selection, your confidence level "
-        "(easy, medium, hard> and also include your 2nd guess if your first answer is incorrect. "
+        "(easy, medium, hard). Pick exactly one answer choice; do not give a second guess. "
         f"Here is Question Number {bid}. {question} "
         f"Answer Choices: A. {choice_a} B. {choice_b} C. {choice_c} D. {choice_d}"
     )
