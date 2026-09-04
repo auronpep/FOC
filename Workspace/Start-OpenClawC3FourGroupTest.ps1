@@ -14,8 +14,12 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$runRoot = Join-Path (Join-Path $PSScriptRoot 'OpenClawBatchResults') $RunLabel
-$finishedRoot = Join-Path $PSScriptRoot 'Finished'
+if ($PSVersionTable.PSVersion.Major -lt 7) {
+  throw "Run this with PowerShell 7+: pwsh -NoProfile -File `"$PSCommandPath`" -Group $Group"
+}
+
+$runRoot = Join-Path 'C:\FOC\Workspace\OpenClawBatchResults' $RunLabel
+$finishedRoot = 'C:\FOC\Workspace\Finished'
 
 $thinkingByModel = @{
   'openai/gpt-5.5' = 'xhigh'
