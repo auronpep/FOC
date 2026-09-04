@@ -16,7 +16,8 @@ param(
   [switch]$AllowLegacyValidation,
   [switch]$SkipCsvSyncCheck,
   [switch]$StrictCsvSync,
-  [string]$WorkspaceRoot = $PSScriptRoot
+  [string]$WorkspaceRoot = $PSScriptRoot,
+  [string]$OpenClawPath = (Join-Path (Split-Path -Parent $PSScriptRoot) 'bin\openclaw.ps1')
 )
 
 Set-StrictMode -Version Latest
@@ -151,8 +152,8 @@ if ($Mode -eq 'CodexEphemeral' -and -not (Get-Command codex -ErrorAction Silentl
   throw 'codex command was not found on PATH.'
 }
 
-if ($Mode -eq 'OpenClawBatch' -and -not (Test-Path -LiteralPath 'C:\FOC\bin\openclaw.ps1' -PathType Leaf)) {
-  throw 'OpenClaw wrapper not found: C:\FOC\bin\openclaw.ps1'
+if ($Mode -eq 'OpenClawBatch' -and -not (Test-Path -LiteralPath $OpenClawPath -PathType Leaf)) {
+  throw "OpenClaw wrapper not found: $OpenClawPath"
 }
 
 $runStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
@@ -294,7 +295,7 @@ foreach ($item in $planned) {
       '--timeout', [string]$TimeoutSeconds
     )
 
-    & 'C:\FOC\bin\openclaw.ps1' @openClawArgs 2>&1 | Tee-Object -FilePath $logPath
+    & $OpenClawPath @openClawArgs 2>&1 | Tee-Object -FilePath $logPath
     if ($LASTEXITCODE -ne 0) {
       throw "OpenClaw failed for Q$q with exit code $LASTEXITCODE. See $logPath"
     }
