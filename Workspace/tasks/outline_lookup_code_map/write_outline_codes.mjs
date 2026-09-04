@@ -1,8 +1,15 @@
 import fs from "node:fs/promises";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const workbookPath = "C:/Users/JesusLovesMe/Documents/outline lookup.xlsx";
-const mappingPath = "C:/FOC/Workspace/tasks/outline_lookup_code_map/row_mappings.json";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const WORKSPACE = path.resolve(HERE, "..", "..");
+
+const workbookPath = process.env.OUTLINE_WORKBOOK ?? path.join(os.homedir(), "Documents", "outline lookup.xlsx");
+const mappingPath = path.join(HERE, "row_mappings.json");
 
 const mappings = JSON.parse(await fs.readFile(mappingPath, "utf8"));
 if (mappings.length !== 3737) {

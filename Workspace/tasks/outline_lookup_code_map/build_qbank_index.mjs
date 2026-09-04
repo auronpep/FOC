@@ -1,8 +1,14 @@
 import fs from "node:fs/promises";
-import path from "node:path";
 
-const qbankDir = "C:/FOC/Workspace/QBank";
-const outputDir = "C:/FOC/Workspace/tasks/outline_lookup_code_map";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const WORKSPACE = path.resolve(HERE, "..", "..");
+
+const qbankDir = path.join(WORKSPACE, "QBank");
+const outputDir = HERE;
 
 async function walk(dir) {
   const out = [];
