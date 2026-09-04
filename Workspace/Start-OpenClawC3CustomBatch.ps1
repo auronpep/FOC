@@ -373,7 +373,9 @@ $preflightPath = Join-Path $runRoot 'preflight.json'
 $summaryPath = Join-Path $runRoot 'batch-summary.jsonl'
 
 $planned | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
-$planned | Export-Csv -LiteralPath $manifestCsvPath -NoTypeInformation
+$planned |
+  Select-Object question, action, model, thinking, sessionKey, output, source, prompt |
+  Export-Csv -LiteralPath $manifestCsvPath -NoTypeInformation -Encoding UTF8
 
 $preflight = [ordered]@{
   generatedAt = (Get-Date).ToString('o')
