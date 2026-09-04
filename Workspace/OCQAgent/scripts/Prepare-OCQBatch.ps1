@@ -2,8 +2,8 @@
 param(
   [Parameter(Mandatory)][string]$AgentId,
   [Parameter(Mandatory)][int]$Count,
-  [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
-  [string]$PythonPath
+  [string]$AgentsRoot = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'agents\bible'),
+  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
 )
 
 $ErrorActionPreference = 'Stop'

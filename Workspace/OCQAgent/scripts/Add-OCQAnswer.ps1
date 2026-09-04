@@ -4,8 +4,8 @@ param(
   [Parameter(Mandatory)][string]$Bid,
   [Parameter(Mandatory)][ValidateSet('A','B','C','D')][string]$AnswerChoice,
   [Parameter(Mandatory)][ValidateSet('easy','medium','hard','Easy','Medium','Hard','EASY','MEDIUM','HARD')][string]$ConfidenceLabel,
-  [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
-  [string]$PythonPath
+  [string]$AgentsRoot = (Join-Path (Split-Path (Split-Path $PSScriptRoot -Parent) -Parent) 'agents\bible'),
+  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
 )
 
 $ErrorActionPreference = 'Stop'
