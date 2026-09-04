@@ -236,7 +236,7 @@ def main():
         print(f"File not found: {card_file}", file=sys.stderr)
         sys.exit(1)
 
-    with open(card_file, "r") as f:
+    with open(card_file, "r", encoding="utf-8") as f:
         text = f.read()
 
     cards, all_lines = parse_cards(text)
@@ -258,7 +258,7 @@ def main():
 
     # Write updated file
     new_text = update_card_in_file(all_lines, card, new_state, rating, today)
-    with open(card_file, "w") as f:
+    with open(card_file, "w", encoding="utf-8") as f:
         f.write(new_text)
 
     # Summary output
