@@ -553,13 +553,18 @@ def summarize_answers(agents_root: Path, output_dir: Path) -> dict[str, object]:
     for row in all_rows:
         grouped[row["bid"]].append(row)
     with by_question_path.open("w", newline="", encoding="utf-8") as handle:
-        fields = ["bid", "response_count", "A", "B", "C", "D", "easy", "medium", "hard", "top_answer"]
+        fields = ["bid", "response_count", "A", "B", "C", "D", "easy", "medium", "hard", "top_answer", "tied"]
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         for bid in sorted(grouped, key=lambda item: int(item)):
             counts = Counter(row["answer_choice"] for row in grouped[bid])
             labels = Counter(row["confidence_label"] for row in grouped[bid])
-            top = counts.most_common(1)[0][0] if counts else ""
+            # most_common breaks ties by insertion order, which here is agent
+            # name order -- renaming an agent could flip top_answer. Order by
+            # count then choice, and say when the top count is shared.
+            ordered = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+            top = ordered[0][0] if ordered else ""
+            tied = "yes" if len(ordered) > 1 and ordered[1][1] == ordered[0][1] else ""
             writer.writerow(
                 {
                     "bid": bid,
@@ -572,6 +577,7 @@ def summarize_answers(agents_root: Path, output_dir: Path) -> dict[str, object]:
                     "medium": labels.get("medium", 0),
                     "hard": labels.get("hard", 0),
                     "top_answer": top,
+                    "tied": tied,
                 }
             )
 
