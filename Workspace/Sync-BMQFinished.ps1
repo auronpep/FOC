@@ -247,7 +247,10 @@ $sheetData
             Remove-Item -LiteralPath $Path -Force
         }
 
-        [System.IO.Compression.ZipFile]::CreateFromDirectory($tempRoot, $Path)
+        # .NET statics resolve relative paths against the process working
+        # directory, not the PowerShell location, so resolve it explicitly.
+        $fullPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($Path)
+        [System.IO.Compression.ZipFile]::CreateFromDirectory($tempRoot, $fullPath)
     }
     finally {
         if (Test-Path -LiteralPath $tempRoot -PathType Container) {
