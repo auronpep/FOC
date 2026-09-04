@@ -189,7 +189,7 @@ foreach ($item in $planned) {
   }
 
   $jobName = "$jobPrefix$($item.chance)_$($item.question)_$startedJobs"
-  Start-ThreadJob -Name $jobName -ArgumentList $item, $openclaw, $TimeoutSeconds -ScriptBlock {
+  Start-ThreadJob -Name $jobName -ThrottleLimit $ThrottleLimit -ArgumentList $item, $openclaw, $TimeoutSeconds -ScriptBlock {
     param($item, $openclawPath, $timeoutSeconds)
 
     $argsList = @(
