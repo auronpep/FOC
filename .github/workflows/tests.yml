@@ -1,0 +1,28 @@
+name: tests
+
+# Functional checks that pass on main today.
+#
+# Deliberately narrow: this runs the verify_json harness, which is self-contained
+# (it builds its own fixtures in a temp directory) and takes about a second.
+#
+# The pytest suite under Workspace/OCQAgent/tests is NOT run here yet — it is red
+# on main because Prepare-OCQBatch.ps1 defaults to a hardcoded Python interpreter.
+# Once that is fixed, add:
+#   - run: python -m pytest Workspace/OCQAgent/tests/
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify-json:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run verify_json test harness
+        shell: pwsh
+        run: |
+          pwsh -NoProfile -File .\Workspace\tasks\test-verify-json.ps1
+          if ($LASTEXITCODE -ne 0) { throw "test-verify-json failed with exit code $LASTEXITCODE" }
