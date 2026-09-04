@@ -1,0 +1,59 @@
+name: syntax
+
+# Parse-level checks only: every script in the repo must at least compile.
+# These pass on main today, so a red run means a genuine regression.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  syntax:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Compile Python modules
+        shell: pwsh
+        run: |
+          $files = git ls-files '*.py'
+          if ($files) { python -m compileall -q @files }
+          if ($LASTEXITCODE -ne 0) { throw "python -m compileall failed" }
+
+      - name: Check JavaScript syntax
+        shell: pwsh
+        run: |
+          # archive/ holds vendored bundles (ESM shipped in .js), which
+          # `node --check` cannot parse as CommonJS. They are not our source.
+          $files = git ls-files '*.js' '*.mjs' |
+            Where-Object { $_ -notmatch 'OpenClawBatchResults' -and $_ -notmatch '/archive/' }
+          $failed = @()
+          foreach ($f in $files) {
+            node --check $f 2>$null
+            if ($LASTEXITCODE -ne 0) { $failed += $f }
+          }
+          if ($failed) { throw "node --check failed for:`n$($failed -join "`n")" }
+          Write-Host "checked $($files.Count) file(s)"
+
+      - name: Parse PowerShell scripts
+        shell: pwsh
+        run: |
+          $files = git ls-files '*.ps1' | Where-Object { $_ -notmatch 'OpenClawBatchResults' }
+          $failed = @()
+          foreach ($f in $files) {
+            $errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile(
+              (Resolve-Path $f).Path, [ref]$null, [ref]$errors) | Out-Null
+            if ($errors.Count) { $failed += "$f : $($errors[0].Message)" }
+          }
+          if ($failed) { throw "PowerShell parse errors:`n$($failed -join "`n")" }
+          Write-Host "parsed $($files.Count) script(s)"
