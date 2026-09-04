@@ -1,5 +1,6 @@
 const fs = require('fs');
-const content = fs.readFileSync('C:\\FOC\\Workspace\\Finished\\CQ17950.md', 'utf8');
+const path = require('path');
+const content = fs.readFileSync(path.join(__dirname, 'Finished', 'CQ17950.md'), 'utf8');
 const lines = content.split('\n');
 
 console.log('=== QA CHECKLIST ===\n');

@@ -1,14 +1,16 @@
 const fs = require('fs');
-const content = fs.readFileSync('C:\\FOC\\Workspace\\Finished\\CQ17950.md', 'utf8');
+const path = require('path');
+const content = fs.readFileSync(path.join(__dirname, 'Finished', 'CQ17950.md'), 'utf8');
 
 // Check JSON blocks
-const jsonBlocks = content.match(/```json\n([\s\S]*?)\n```/g);
+// CQ files use CRLF endings, so the newline after the fence may be \r\n.
+const jsonBlocks = content.match(/```json\r?\n([\s\S]*?)\r?\n```/g) || [];
 console.log('JSON blocks found: ' + jsonBlocks.length);
 let allJsonOk = true;
 for(let i = 0; i < jsonBlocks.length; i++) {
   try {
     const raw = jsonBlocks[i];
-    const json = raw.replace(/^```json\n/, '').replace(/\n```$/, '');
+    const json = raw.replace(/^```json\r?\n/, '').replace(/\r?\n```$/, '');
     const parsed = JSON.parse(json);
     const name = parsed.question_id || parsed.subject || 'unnamed';
     console.log('  JSON block ' + (i+1) + ' (' + name + '/' + (parsed.constructor ? parsed.constructor.name : '?') + '): OK (' + json.length + ' bytes)');
@@ -19,7 +21,7 @@ for(let i = 0; i < jsonBlocks.length; i++) {
 }
 
 // Check YAML for \\n issues
-const yamlMatch = content.match(/```yaml\n([\s\S]*?)\n```/);
+const yamlMatch = content.match(/```yaml\r?\n([\s\S]*?)\r?\n```/);
 if(yamlMatch) {
   const yaml = yamlMatch[1];
   const hasBackslashN = /[A-D]:\\n/.test(yaml);

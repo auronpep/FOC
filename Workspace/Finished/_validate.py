@@ -1,6 +1,7 @@
 import re, yaml, json
+from pathlib import Path
 
-with open('CQ15088.md', 'r', encoding='utf-8') as f:
+with open(Path(__file__).resolve().parent / 'CQ15088.md', 'r', encoding='utf-8') as f:
     content = f.read()
 
 # Extract YAML block
