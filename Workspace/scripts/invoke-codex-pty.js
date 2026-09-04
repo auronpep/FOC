@@ -72,6 +72,12 @@ if (!fs.existsSync(codexJs)) {
 
 fs.mkdirSync(path.dirname(transcriptPath), { recursive: true });
 const stream = fs.createWriteStream(transcriptPath, { flags: "a" });
+stream.on("error", (error) => {
+  // Without a listener a stream error becomes an uncaughtException and kills
+  // the wrapper mid-session. Losing the transcript should not end the run.
+  process.stderr.write(`Transcript write failed (${transcriptPath}): ${error.message}
+`);
+});
 
 const env = { ...process.env, TERM: process.env.TERM || "xterm-256color" };
 let term;
