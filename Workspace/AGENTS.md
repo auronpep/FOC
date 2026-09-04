@@ -25,10 +25,10 @@ explicitly requested.
   native argv tokens and can bind extra values into later parameters.
 - For long lists through `pwsh -File`, pass one quoted scalar and let the script
   parse it, for example:
-  `pwsh -NoProfile -File C:\FOC\Workspace\RUN_Cod.ps1 -Questions '14707,14708,14709' -Mode CodexEphemeral`.
+  `pwsh -NoProfile -File RUN_Cod.ps1 -Questions '14707,14708,14709' -Mode CodexEphemeral`.
 - If you already have a PowerShell array variable, invoke the script in the
   same PowerShell session instead:
-  `& C:\FOC\Workspace\RUN_Cod.ps1 -Questions $qs -Mode CodexEphemeral`.
+  `& RUN_Cod.ps1 -Questions $qs -Mode CodexEphemeral`.
 - Scripts that accept long numeric lists should use
   `[CmdletBinding(PositionalBinding = $false)]`, accept a string/list input,
   and parse comma or whitespace-delimited values explicitly.
