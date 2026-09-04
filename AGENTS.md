@@ -76,10 +76,10 @@ Per question:
 
 1. Skip if `Finished\CQ{N}.md` already exists.
 2. Read `PROMPT.md` in full.
-3. Read `skills\cq-transform-qa\MYSKILL.md` before drafting.
+3. Read `skills\cq-transform-qa\SKILL.md` before drafting.
 4. Read `controlled_vocabularies.md`.
 5. Read only the relevant subject section of `OUTLINE_CODES_COMPLETE.md`.
-6. Get the full question from MBE.xlsx by looking up the question ID in column A.
+6. Read `QBank\{N}.md`.
 7. Produce the full output at `Finished\CQ{N}.md`.
 
 Never edit files in `QBank\`. Never invent controlled vocabulary values,
