@@ -3,10 +3,13 @@ param(
   [Parameter(Mandatory)][string]$AgentId,
   [Parameter(Mandatory)][int]$Count,
   [string]$AgentsRoot = 'C:\FOC\Workspace\agents\bible',
-  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+  [string]$PythonPath
 )
 
 $ErrorActionPreference = 'Stop'
+
+. (Join-Path $PSScriptRoot 'Resolve-OCQPython.ps1')
+if (-not $PythonPath) { $PythonPath = Resolve-OCQPython }
 if ($Count -lt 1) {
   throw '-Count must be at least 1.'
 }

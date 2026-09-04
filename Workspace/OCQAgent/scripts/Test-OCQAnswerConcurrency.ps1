@@ -7,11 +7,14 @@ param(
   [int]$RowsPerAgent = 25,
   [int]$ThrottleLimit = 40,
   [string]$ScratchRoot = (Join-Path $env:TEMP ("ocq-answer-concurrency-" + (Get-Date -Format "yyyyMMdd-HHmmss-fff"))),
-  [string]$PythonPath = 'C:\Users\Blessed\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe',
+  [string]$PythonPath,
   [switch]$KeepScratch
 )
 
 $ErrorActionPreference = 'Stop'
+
+. (Join-Path $PSScriptRoot 'Resolve-OCQPython.ps1')
+if (-not $PythonPath) { $PythonPath = Resolve-OCQPython }
 
 if ($RowsPerAgent -lt 1) {
   throw '-RowsPerAgent must be at least 1.'
