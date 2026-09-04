@@ -252,10 +252,19 @@ def lock_path(path: Path, timeout_seconds: int = 120, stale_seconds: int = 300):
     finally:
         if fd is not None:
             os.close(fd)
-        try:
-            lock.unlink()
-        except FileNotFoundError:
-            pass
+        # On Windows a waiter reading the pid (clear_stale_lock) holds the file
+        # open, so unlink can fail with PermissionError. Retry briefly rather
+        # than fail an append that already succeeded, or orphan the lock.
+        for attempt in range(20):
+            try:
+                lock.unlink()
+                break
+            except FileNotFoundError:
+                break
+            except OSError:
+                if attempt == 19:
+                    raise
+                time.sleep(0.05)
 
 
 def validate_choice(value: str, field: str) -> str:
