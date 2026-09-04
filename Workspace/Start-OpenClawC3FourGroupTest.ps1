@@ -175,6 +175,39 @@ $results = $selected | ForEach-Object -Parallel {
   $summaryPathLocal = $using:summaryPath
   $startsPathLocal = $using:startsPath
 
+  function Add-JsonLineSafeLocal {
+    param(
+      [Parameter(Mandatory)][string]$Path,
+      [Parameter(Mandatory)][object]$Record
+    )
+
+    $line = $Record | ConvertTo-Json -Compress -Depth 8
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($Path.ToLowerInvariant())
+    $sha = [System.Security.Cryptography.SHA256]::Create()
+    try {
+      $hash = [System.BitConverter]::ToString($sha.ComputeHash($bytes)).Replace('-', '')
+    } finally {
+      $sha.Dispose()
+    }
+
+    $mutex = [System.Threading.Mutex]::new($false, "Global\OpenClawC3FourGroupJsonl-$hash")
+    $acquired = $false
+    try {
+      $acquired = $mutex.WaitOne([TimeSpan]::FromSeconds(30))
+      if (-not $acquired) {
+        throw "Timed out waiting to write JSONL file: $Path"
+      }
+
+      Add-Content -LiteralPath $Path -Value $line -Encoding UTF8
+    } finally {
+      if ($acquired) {
+        $mutex.ReleaseMutex()
+      }
+
+      $mutex.Dispose()
+    }
+  }
+
   $thinking = $thinkingMap[$item.model]
   if (-not $thinking) { $thinking = 'off' }
 
@@ -224,7 +257,7 @@ Before finishing, verify the file exists, read it back, and confirm the saved fi
     log = $outFile
     output = $targetFile
   }
-  Add-Content -LiteralPath $startsPathLocal -Value ($startRecord | ConvertTo-Json -Compress -Depth 8) -Encoding UTF8
+  Add-JsonLineSafeLocal -Path $startsPathLocal -Record $startRecord
   Set-Content -LiteralPath $outFile -Value ("START {0:o} group={1} q={2} model={3} thinking={4}" -f $started, $item.group, $item.question, $item.model, $thinking) -Encoding UTF8
   Write-Output ("START group={0} q={1} model={2}" -f $item.group, $item.question, $item.model)
   $raw = & openclaw @argsList 2>&1
@@ -246,7 +279,7 @@ Before finishing, verify the file exists, read it back, and confirm the saved fi
     output = $targetFile
     outputExists = Test-Path -LiteralPath $targetFile
   }
-  Add-Content -LiteralPath $summaryPathLocal -Value ($result | ConvertTo-Json -Compress -Depth 8) -Encoding UTF8
+  Add-JsonLineSafeLocal -Path $summaryPathLocal -Record $result
   $result
 } -ThrottleLimit $ThrottleLimit
 
