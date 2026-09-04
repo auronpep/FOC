@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MCP server for BrowserStack integration with Playwright Pro",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "main": "src/index.ts",
   "scripts": {
     "start": "tsx src/index.ts",
