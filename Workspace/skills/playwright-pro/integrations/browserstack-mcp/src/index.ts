@@ -154,9 +154,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case 'browserstack_update_session': {
         const update: BrowserStackSessionUpdate = {};
-        if (args?.status) update.status = args.status as 'passed' | 'failed';
-        if (args?.name) update.name = args.name as string;
-        if (args?.reason) update.reason = args.reason as string;
+        if (args?.status !== undefined) update.status = args.status as 'passed' | 'failed';
+        if (args?.name !== undefined) update.name = args.name as string;
+        if (args?.reason !== undefined) update.reason = args.reason as string;
         const updated = await client.updateSession(args!.session_id as string, update);
         return { content: [{ type: 'text', text: JSON.stringify(updated, null, 2) }] };
       }

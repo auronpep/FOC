@@ -208,9 +208,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case 'testrail_update_case': {
         const updatePayload: Partial<TestRailCasePayload> = {};
-        if (args?.title) updatePayload.title = args.title as string;
-        if (args?.custom_preconds) updatePayload.custom_preconds = args.custom_preconds as string;
-        if (args?.custom_steps_separated) {
+        if (args?.title !== undefined) updatePayload.title = args.title as string;
+        if (args?.custom_preconds !== undefined) updatePayload.custom_preconds = args.custom_preconds as string;
+        if (args?.custom_steps_separated !== undefined) {
           updatePayload.custom_steps_separated = args.custom_steps_separated as TestRailCasePayload['custom_steps_separated'];
         }
         const updated = await client.updateCase(args!.case_id as number, updatePayload);
